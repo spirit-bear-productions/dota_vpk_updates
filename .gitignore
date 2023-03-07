@@ -1,7 +1,2 @@
 # exclude not decompiled files
-*.vjs_c
-*.vcss_c
-*.vxml_c
-*.vsndevts_c
-*.vts_c
-*.vrr_c
+*.*_c
