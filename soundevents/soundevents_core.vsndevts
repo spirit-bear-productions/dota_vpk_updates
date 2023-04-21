@@ -40,6 +40,10 @@
 	{
 		type = "core_start_simple_oneshot"
 	}
+	activation = 
+	{
+		type = "core_start_simple_oneshot"
+	}
 	activation_change_fail = 
 	{
 		type = "core_start_simple_oneshot"

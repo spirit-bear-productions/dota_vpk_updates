@@ -391,6 +391,13 @@
 		"material"	"byte"	// BREAK_GLASS, BREAK_WOOD, etc
 	}
 
+	"broken_breakable"
+	{
+		"entindex"	"long"
+		"userid"	"player_pawn"
+		"material"	"byte"	// BREAK_GLASS, BREAK_WOOD, etc
+	}
+
 	"break_prop"
 	{
 		"entindex"			"long"
