@@ -1,2 +1,7 @@
 # exclude not decompiled files
 *.*_c
+
+# exclude non english localisation (hopefully, ive never really done this before)
+resource/localization
+!resource/localization/*english
+!resource/localization/patchnotes/*english
