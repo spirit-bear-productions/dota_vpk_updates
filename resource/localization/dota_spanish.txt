@@ -5503,7 +5503,7 @@ Al extenderse su influencia cultural, entraron en conflicto entre sí. La interf
 		"dota_hud_error_no_target"						"No hay objetivo"
 		"dota_hud_error_only_cast_on_self"				"Esta habilidad solo puede tener como objetivo uno mismo"
 		"dota_hud_error_cant_cast_on_hero"				"La habilidad no puede tener como objetivo héroes"
-		"dota_hud_error_cant_cast_on_considered_hero"	"La habilidad no puede tener como objetivo creeps de héroes"
+		"dota_hud_error_cant_cast_on_considered_hero"	"La habilidad no puede tener como objetivo creeps héroes"
 		"dota_hud_error_cant_cast_on_creep"				"La habilidad no puede tener como objetivo creeps"
 		"dota_hud_error_cant_cast_on_creep_not_player_controlled"				"La habilidad no puede tener como objetivo creeps que no estén controlados por un jugador"
 		"dota_hud_error_cant_cast_on_mechanical"		"La habilidad no puede tener como objetivo unidades mecánicas"
@@ -33279,6 +33279,12 @@ Con las apariciones de héroes de presión como Zeus y Death Prophet, el éxito 
 	"LoadoutSlot_Roshan"										"Roshan"
 	"roshan"													"Roshan"
 
+	//Tormentor global equip page
+	"DOTA_GlobalItems_Tormentor"								"Torturador"
+	"DOTA_Armory_Category_Tormentor"							"Torturador"
+	"LoadoutSlot_Tormentor"										"Torturador"
+	"tormentor"													"Torturador"
+
 	//Diretide Cosmetics equip page
 	"DOTA_GlobalItems_Diretide"										"Efectos estacionales del Despertar Dire"
 	"DOTA_Armory_Category_Diretide_2020"							"Despertar Dire 2020"
@@ -34966,7 +34972,7 @@ Con las apariciones de héroes de presión como Zeus y Death Prophet, el éxito 
 	"Debut_ESArcana_Button_Alternate"					"Ver estilo alternativo"
 
 	"DOTA_Style_Judgement_of_the_Fallen_1_Reason"	"Caída Planetaria está equipado y utiliza su estilo Descenso Ardiente"
-
+	
 	"DOTA_Style_Tiny_Grow_Level_0_Reason"	"Nivel 0 de Crecer de Tiny"
 	"DOTA_Style_Tiny_Grow_Level_1_Reason"	"Nivel 1 de Crecer de Tiny"
 	"DOTA_Style_Tiny_Grow_Level_2_Reason"	"Nivel 2 de Crecer de Tiny"
@@ -35236,6 +35242,7 @@ Con las apariciones de héroes de presión como Zeus y Death Prophet, el éxito 
 	"DOTA_GameState_CustomGameSetup"		"Ajustes de modo de juego personalizado"
 	"DOTA_GameState_WaitForMapToLoad"		"Esperando al mapa"
 	"DOTA_GameState_PlayerDraft"			"Eligiendo equipos"
+
 
 	// DPC
 	"DOTA_DPC_ShortDayOfWeek0"												"DOM"
@@ -38130,8 +38137,8 @@ Si crees que no has podido dedicar el nivel de atención necesario para llegar a
 		"DOTA_Glossary_Advanced_CommonBuffs_Bash_Desc"		"Hace que los ataques tengan un porcentaje de probabilidad de aturdir al objetivo (o se activa en determinadas circunstancias)."
 		"DOTA_Glossary_Advanced_CommonBuffs_ManaBreak"			"Ruptura de Maná"
 		"DOTA_Glossary_Advanced_CommonBuffs_ManaBreak_Desc"		"Hace que cada ataque queme una parte del maná de esa unidad e inflija un daño equivalente a un porcentaje del maná eliminado."
-		"DOTA_Glossary_Advanced_CommonBuffs_SpellImmunity"			"Inmunidad a Hechizos"
-		"DOTA_Glossary_Advanced_CommonBuffs_SpellImmunity_Desc"		"Evita que una unidad reciba daño mágico o sea objetivo de todas las habilidades del enemigo. Algunos hechizos especiales (por lo general, la habilidad definitiva de un héroe) pueden ignorar la inmunidad a hechizos, aunque su efecto se reduce a menudo. Estas interacciones se indican en las descripciones detalladas de las habilidades."
+		"DOTA_Glossary_Advanced_CommonBuffs_SpellImmunity"			"Inmunidad a efectos negativos"
+		"DOTA_Glossary_Advanced_CommonBuffs_SpellImmunity_Desc"		"Proporciona mayor resistencia mágica a una unidad y anula por completo el daño puro y devuelto. Los efectos negativos de las habilidades de enemigos no afectarán a la unidad durante la inmunidad a dichos efectos. Algunos hechizos especiales (por lo general, la habilidad definitiva de un héroe) pueden ignorar la inmunidad a efectos negativos, aunque su impacto se reduce a menudo. Estas interacciones se indican en las descripciones detalladas de las habilidades."
 		"DOTA_Glossary_Advanced_CommonBuffs_Ethereal"			"Etérea"
 		"DOTA_Glossary_Advanced_CommonBuffs_Ethereal_Desc"		"Evita que una unidad reciba daño físico. La unidad también es desarmada y no puede ser objetivo de ataques básicos."
 		"DOTA_Glossary_Advanced_CommonBuffs_Phased"				"En Fase"
@@ -38330,6 +38337,8 @@ Si crees que no has podido dedicar el nivel de atención necesario para llegar a
 		"DOTA_Glossary_Evasion_Desc"			"La evasión es el porcentaje de probabilidad de que un ataque contra un héroe falle."
 		"DOTA_Glossary_StatusResistance"		"Resistencia a efectos negativos"
 		"DOTA_Glossary_StatusResistance_Desc"	"La resistencia a efectos negativos reduce la duración de los efectos como los aturdimientos y Silencio."
+		"DOTA_Glossary_SlowResistance"			"Resistencia a la ralentización"
+		"DOTA_Glossary_SlowResistance_Desc"		"La resistencia a la ralentización reduce el impacto de las ralentizaciones."
 		"DOTA_Glossary_Units"				"Unidades"
 		"DOTA_Glossary_LaneCreeps"			"Creeps de senda"
 		"DOTA_Glossary_Structures"			"Estructuras"
@@ -38406,7 +38415,7 @@ Si crees que no has podido dedicar el nivel de atención necesario para llegar a
 
 		"DOTA_Glossary_Map_Structures_Outposts"		"Puestos avanzados"
 
-		"DOTA_Glossary_Map_Structures_Outposts_Desc1"	"Los Radiant y los Dire controlan un puesto avanzado especial en su respectiva jungla."
+		"DOTA_Glossary_Map_Structures_Outposts_Desc1"	"Tanto los Radiant como los Dire controlan puestos avanzados especiales que se encuentran en su respectivo lado del mapa."
 		"DOTA_Glossary_Map_Structures_Outposts_Desc2"	"Es posible teletransportarse a los puestos avanzados, y además otorgan Visión Verdadera en un radio de {d:DOTA_OUTPOST_VISION_RADIUS}."
 		"DOTA_Glossary_Map_Structures_Outposts_Desc3"	"Cuando un equipo pierde una torre de nivel 2, su puesto avanzado puede ser capturado si el equipo enemigo canaliza la estructura."
 		"DOTA_Glossary_Map_Structures_Outposts_Desc4"	"Cuantos más jugadores canalicen el puesto avanzado, menor será el tiempo de captura."
@@ -38536,7 +38545,7 @@ Si crees que no has podido dedicar el nivel de atención necesario para llegar a
 		"DOTA_Glossary_Teamwork_HeroItemChoice_Counters_Desc"		"Contrarrestar es lo opuesto a Sinergia. Los héroes que tienen habilidades o atributos que aprovechan una debilidad o niegan la efectividad de otros héroes son quienes los contrarrestan. Como tales, elegir héroes apropiados después de ver qué héroe ha elegido el equipo enemigo puede marcar una diferencia significativa en el resultado de la partida. El conocimiento profundo de la fuerza, debilidades, objetos, estilo de juego y estrategia de un equipo juega un papel importante en contrarrestar la efectividad del enemigo."
 		"DOTA_Glossary_Teamwork_HeroItemChoice_ItemCounters_Desc"					"Aquí hay algunos ejemplos de objetos que pueden ser especialmente efectivos contra ciertos arquetipos de héroe. Esta lista no es exhaustiva y es mejor aprender los matices de cada objeto para comprender cuándo será más efectivo."
 		"DOTA_Glossary_Teamwork_HeroItemChoice_ItemCounters_BlackKingBar"			"Vara del Rey Negro"
-		"DOTA_Glossary_Teamwork_HeroItemChoice_ItemCounters_BlackKingBar_Desc"		"La Vara del Rey Negro otorga inmunidad a hechizos. Cuando se usa con una sincronización perfecta, este objeto a menudo puede negar por completo la efectividad de los héroes que dependen de habilidades u objetos para infligir daño e incapacitar a sus oponentes."
+		"DOTA_Glossary_Teamwork_HeroItemChoice_ItemCounters_BlackKingBar_Desc"		"La Vara del Rey Negro proporciona inmunidad a efectos negativos. Cuando se usa con una sincronización perfecta, este objeto a menudo puede negar por completo la efectividad de los héroes que dependen de habilidades u objetos para infligir daño e incapacitar a sus oponentes."
 		"DOTA_Glossary_Teamwork_HeroItemChoice_ItemCounters_HeavensHalberd"				"Alabarda Celestial"
 		"DOTA_Glossary_Teamwork_HeroItemChoice_ItemCounters_HeavensHalberd_Desc"		"La Alabarda Celestial es eficaz contra héroes que dependen de ataques básicos para infligir daño, especialmente héroes a distancia (que están desarmados durante más tiempo)."
 		"DOTA_Glossary_Teamwork_HeroItemChoice_ItemCounters_BladeMail"			"Malla de Cuchillas"
@@ -45116,5 +45125,58 @@ Si crees que no has podido dedicar el nivel de atención necesario para llegar a
 		"DOTA_patch_note_item_general"				"General"
 		"DOTA_patch_note_neutral_item_general"		"General"
 
-	}
+		// 10-Year Anniversary
+		"DOTA_10thAnniversary_EventName"			"10.º aniversario"
+
+		"DOTA_10thAnniversary_MainLogo_10"						"10.º"
+		"DOTA_10thAnniversary_MainLogo_YearLabel"				"Tesoro del"
+		"DOTA_10thAnniversary_MainLogo_AnniversaryLabel"		"Aniversario"
+		"DOTA_10thAnniversary_MainLogo_TreasureLabel"			" "
+
+		"DOTA_10thAnniversary_DashCell_10YearLabel"				"Tesoro del 10.º"
+		"DOTA_10thAnniversary_DashCell_AnniversaryLabel"		"Aniversario"
+		"DOTA_10thAnniversary_DashCell_TreasureLabel"			" "
+
+		"DOTA_10thAnniversary_ToolTip"				"Gana partidas para conseguir tesoros y participa en la celebración del 10.º aniversario de Dota.<br><br>Las partidas Turbo cuentan la mitad.<br><br>{d:treasures_earned}/{d:treasures_total} tesoros obtenidos.<br><br>El evento termina el {s:date_end}."
+		"DOTA_10thAnniversary_ClaimTreasure"		"Reclamar tesoro ({d:treasures_to_claim})"
+		"DOTA_10thAnniversary_ViewTreasure1"		"Ver tesoro"
+		"DOTA_10thAnniversary_ViewTreasure2"		"Ver tesoro"
+		"DOTA_10thAnniversary_ProgressName"			"Progreso"
+		"DOTA_10thAnniversary_SmallRewardName"		"Ver tesoro"
+		"DOTA_10thAnniversary_LargeRewardName"		"Ver tesoro"
+		"DOTA_10thAnniversary_SmallRewardNameAlt"	"Tesoro"
+		"DOTA_10thAnniversary_LargeRewardNameAlt"	"Tesoro"
+		"DOTA_10thAnniversary_Title"				"Tesoro del 10.º aniversario"
+		"DOTA_10thAnniversary_Description"			"Celebra una década de Dota 2 con un recorrido por la nostalgia lleno de tesoros."
+		"DOTA_10thAnniversary_ShortDescription"		"Consigue un tesoro conmemorativo cada vez que ganes una partida (hay trece tesoros en total)."
+		"DOTA_10thAnniversary_ShortSubDescription"	"No hay límite de partidas diario, las partidas Turbo cuentan la mitad."
+		"DOTA_10thAnniversary_ViewOriginal"			"Ver versión original"
+		
+		"DOTA_10thAnniversary_2011"					"2011"
+		"DOTA_10thAnniversary_2012"					"2012"
+		"DOTA_10thAnniversary_2013"					"2013"
+		"DOTA_10thAnniversary_2014"					"2014"
+		"DOTA_10thAnniversary_2015"					"2015"
+		"DOTA_10thAnniversary_2016"					"2016"
+		"DOTA_10thAnniversary_2017"					"2017"
+		"DOTA_10thAnniversary_2018"					"2018"
+		"DOTA_10thAnniversary_2019"					"2019"
+		"DOTA_10thAnniversary_2020"					"2020"
+		"DOTA_10thAnniversary_2021"					"2021"
+		"DOTA_10thAnniversary_2022"					"2022"
+		"DOTA_10thAnniversary_2023"					"2023"
+
+		"DOTA_10thAnniversary_Popup_Title"			"10.º aniversario"
+		"DOTA_10thAnniversary_Popup_Description"		"Celebra una década de Dota 2 con un recorrido por la nostalgia lleno de tesoros."
+		"DOTA_10thAnniversary_Popup_ViewTreasure1"		"Ver tesoro"
+		"DOTA_10thAnniversary_Popup_ViewTreasure2"		"Ver tesoro"
+
+		"DOTA_10thAnniversary_ItemTooltip_27298"		"Los fans de Dota 2 de la vieja escuela se pasaron el 2011 jugando a la beta abierta y fueron testigos de la primera edición de The International. Un par de jugadores incluso encontraron un error. Afortunadamente, identificamos al único mago responsable y lo cargamos con toda la culpa."
+		"DOTA_10thAnniversary_ItemTooltip_27157"		"En un año repleto de Dota épico, un momento transcendental de 2015 destacó por encima de todos: los miembros de Evil Geniuses se hicieron con la Égida tras aplastar al equipo CDCEC, echándolos fuera del foso de Roshan y de The International."
+		"DOTA_10thAnniversary_ItemTooltip_29347"		"En diciembre de 2016, la cuenta atrás para la versión 7.00 terminó con la retransmisión del Major de Boston. Fue una celebración del largo recorrido de Dota y dio la bienvenida a un Nuevo Viaje y a Monkey King."
+		"DOTA_10thAnniversary_ItemTooltip_23683"		"Los nuevos modos de juego llenaron el calendario de 2017: los jugadores empezaron repeliendo hordas implacables de enemigos en Luna Oscura, durante el verano sobrevivieron a la dificultad brutal de la campaña Rompecienos, y se pusieron en cola a final de año para echarse una partidita rápida de Dota en el modo Turbo."
+		"DOTA_10thAnniversary_ItemTooltip_29338"		"«Mándame un correo electrónico a gaben@valvesoftware.com y cuéntame todo acerca de tus exterminios». Con estas líneas ridículas e imperecederas de su lote de locutor de 2018, el fundador de Valve sorprendió a todo el mundo al proporcionar su correo electrónico real y al mostrarse interesado de verdad en saber más sobre nuestros exterminios."
+		"DOTA_10thAnniversary_ItemTooltip_29298"		"No fue un año muy memorable; nos referimos a que no hubo The International. En su lugar, los jugadores de Dota se consolaron a sí mismos en 2020 dentro de los pasillos sinuosos del Laboratorio de Aghanim, donde por fin tuvieron la oportunidad de conocer al epónimo creador del cetro de Aghanim y descubrieron que en realidad era un fanfarrón."
+		"DOTA_10thAnniversary_ItemTooltip_29301"		"Puede que ya te hayas percatado de que hay muchos objetos en este tesoro que tienen una conexión temática con el año que conmemoran y 2022 no es una excepción: aquí tienes una superposición de una pantalla con tubo de rayos catódicos para que parezca que estás jugando a Dota en los 90, solo que en 2022."
+		}
 }
