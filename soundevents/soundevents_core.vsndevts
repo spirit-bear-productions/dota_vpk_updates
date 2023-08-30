@@ -66,17 +66,18 @@
 	{
 		type = "core_soundevent_blocker"
 		match_soundevent = ""
-		match_substring = 0
-		match_event_type = -1
+		match_substring = 0.000000
+		match_event_type = -1.000000
 		min_time = 5.000000
 		max_time = 5.000000
 	}
 	core.set_game_volume_timed = 
 	{
-		type = "core_set_game_volume_timed"
+		type = "core_setter_AHR_game_volume"
 		hold_time = 1.000000
 		fade_in = 1.000000
 		fade_out = 1.000000
+		do_mult = true
 	}
 	core.global_stack = 
 	{
@@ -112,10 +113,22 @@
 	core.static_block_timed = 
 	{
 		type = "core_null_timed"
-		time = 0.100000
 		groups = 
 		[
 			"static_branch_entity_block",
 		]
+		time = 0.100000
+	}
+	simple_onsehot = 
+	{
+		type = "core_start_oneshot"
+		vsnd_files = "sounds/common/explosions/explo_gas_can_01.vsnd"
+		volume_min = 0.200000
+		volume_max = 0.200000
+		vsnd_duration = 3.858549
+	}
+	core_test_sound = 
+	{
+		type = "core_test_sound"
 	}
 }

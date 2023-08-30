@@ -509,7 +509,7 @@
 
 
 
- DebugPanelComputed,DebugPanelDialogVariables{
+ DebugPanelComputed,DebugPanelDialogVariables,DebugPanelAttributes{
 
   padding: 10px;
   width: 100%;
@@ -1051,7 +1051,7 @@
          background-color: #5081C5;
      }
 
-     .Theme_Light DebugPanelComputed,.Theme_Light DebugPanelDialogVariables{
+     .Theme_Light DebugPanelComputed,.Theme_Light DebugPanelDialogVariables,.Theme_Light DebugPanelAttributes{
 
          background-color: white;
      }
@@ -1452,7 +1452,7 @@
          background-color: #5081C5;
      }
 
-     .Theme_Dark DebugPanelComputed,.Theme_Dark DebugPanelDialogVariables{
+     .Theme_Dark DebugPanelComputed,.Theme_Dark DebugPanelDialogVariables,.Theme_Dark DebugPanelAttributes{
 
          background-color: kDarkTheme_Background;
      }

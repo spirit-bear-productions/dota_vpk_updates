@@ -14,12 +14,16 @@
 			<Button id="DialogVariablesButton" onactivate="ShowDebugDialogVariables()">
 				<Label text="#Debugger_DialogVariables" />
 			</Button>
+			<Button id="AttributesButton" onactivate="ShowDebugAttributes()">
+				<Label text="#Debugger_Attributes" />
+			</Button>
 			<Label id="DebugPanelStyleInvalid" text="#Debugger_PanelStyleInvalid" />
 		</Panel>
 		<Panel id="DebugPanelPages">
 			<DebugPanelStyle id="DebugPanelStyle" />
 			<DebugPanelComputed id="DebugPanelComputed" />
 			<DebugPanelDialogVariables id="DebugPanelDialogVariables" />
+			<DebugPanelAttributes id="DebugPanelAttributes" />
 		</Panel>
 	</DebugPanel>
 </root>
