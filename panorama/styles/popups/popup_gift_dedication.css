@@ -1,31 +1,24 @@
+.DedicationDescription {
+    horizontal-align: center;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
 
+.DedicationArea {
+    flow-children: right;
+}
 
- .DedicationDescription{
+#GiftImage {
+    height: 100px;
+    width: height-percentage(150%);
+}
 
-  horizontal-align: center;
-  font-size: 24px;
-  margin-bottom: 16px;
- }
+.DedicationDetails {
+    flow-children: down;
+    margin-left: 8px;
+}
 
- .DedicationArea{
-
-  flow-children: right;
- }
-
- #GiftImage{
-
-  height: 100px;
-  width: height-percentage( 150% );
- }
-
- .DedicationDetails{
-
-  flow-children: down;
-  margin-left: 8px;
- }
-
- #DedicationTextEntry{
-
-  height: 76px;
-  white-space: normal;
+#DedicationTextEntry {
+    height: 76px;
+    white-space: normal;
 }

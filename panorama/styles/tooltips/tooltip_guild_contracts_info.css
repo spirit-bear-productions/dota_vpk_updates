@@ -1,82 +1,65 @@
+.GuildContractsInfo {
+    flow-children: down;
+    max-width: 420px;
+}
 
- .GuildContractsInfo{
+.Header {
+    flow-children: right;
+}
 
-  flow-children: down;
-  max-width: 420px;
- }
+.Title {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
- .Header{
+.Description {
+    color: #999;
+}
 
-  flow-children: right;
- }
+.RewardsTable {
+    flow-children: down;
+    margin-left: 40px;
+}
 
- .Title{
+.RewardRow {
+    flow-children: right;
+    height: 40px;
+}
 
-  font-size: 24px;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 2px;
- }
+#StarsContainer {
+    width: 100px;
+}
 
+#StarsCenter {
+    horizontal-align: right;
+}
 
- .Description{
+.RewardPointsContainer {
+    flow-children: right;
+}
 
-  color: #999;
- }
+.StarsContainer {
+    width: 80px;
+    vertical-align: middle;
+}
 
- .RewardsTable{
+.Rewards {
+    flow-children: right;
+    vertical-align: middle;
+}
 
-  flow-children: down;
-  margin-left: 40px;
- }
+.RewardPointsContainer {
+    margin-left: 12px;
+    margin-bottom: -4px;
+}
 
- .RewardRow{
-
-     flow-children: right;
-     height: 40px;
- }
-
- #StarsContainer{
-
-  width: 100px;
- }
-
- #StarsCenter{
-
-  horizontal-align: right;
- }
-
-
- .RewardPointsContainer{
-
-  flow-children: right;
- }
-
- .StarsContainer{
-
-  width: 80px;
-  vertical-align: middle;
- }
-
- .Rewards{
-
-  flow-children: right;
-  vertical-align: middle;
- }
-
- .RewardPointsContainer{
-
-  margin-left: 12px;
-  margin-bottom: -4px;
- }
-
-
- .ShardImage{
-
-  margin-top: 3px;
-  margin-right: -2px;
-  background-image: dotaPlusCurrencySmallIcon;
-  width: 20px;
-  height: 28px;
-  background-size: cover;
+.ShardImage {
+    margin-top: 3px;
+    margin-right: -2px;
+    background-image: dotaPlusCurrencySmallIcon;
+    width: 20px;
+    height: 28px;
+    background-size: cover;
 }

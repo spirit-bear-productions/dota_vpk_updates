@@ -1,186 +1,157 @@
+DOTASpectatorLobbyBrowser {
+    flow-children: down;
+    padding: 32px;
+    background-color: #000c;
 
- DOTASpectatorLobbyBrowser{
+    width: 100%;
+    height: 100%;
+}
 
-  flow-children: down;
-  padding: 32px;
-  background-color: #000c;
+#Header {
+    flow-children: right;
+    width: 100%;
+}
 
-  width: 100%;
-  height: 100%;
- }
+.HeaderTitle {
+    color: white;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 80px;
+}
 
- #Header{
+#RefreshButton {
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    margin-right: 8px;
 
-  flow-children: right;
-  width: 100%;
- }
+    background-image: url("s2r://panorama/images/control_icons/refresh_psd.vtex");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 
- .HeaderTitle{
+    wash-color: #aaa;
+}
 
-  color: white;
-  text-transform: uppercase;
-  vertical-align: middle;
-  font-size: 80px;
- }
+#RefreshButton:hover {
+    wash-color: #fff;
+}
+#RefreshButton:active {
+    wash-color: #ccc;
+}
 
- #RefreshButton{
+#RefreshButton.LoadingLobbies {
+    animation-name: RefreshButtonLoadingAnimation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
 
-  vertical-align: middle;
-  width: 120px;
-  height: 120px;
-  margin-right: 8px;
+@keyframes 'RefreshButtonLoadingAnimation' {
+    0% {
+        transform: rotateZ(360deg);
+    }
+    50% {
+        transform: rotateZ(180deg);
+    }
+    100% {
+        transform: rotateZ(00deg);
+    }
+}
 
-     background-image: url("s2r://panorama/images/control_icons/refresh_psd.vtex");
-  background-size: contain;
-  background-position: center;
-     background-repeat: no-repeat;
+#LoadedContents {
+    flow-children: right;
+}
+.ErrorLoadingLobbies #LoadedContents {
+    visibility: collapse;
+}
 
-     wash-color: #aaa;
- }
+#LobbiesCarousel {
+    flow-children: right;
+    width: 1880px;
+    height: 930px;
+    vertical-align: middle;
+}
 
- #RefreshButton:hover{
+.LobbiesCarouselPage {
+    flow-children: right;
+    width: 100%;
+    height: 100%;
 
-     wash-color: #fff;
- }
- #RefreshButton:active{
+    transition-property: position;
+    transition-duration: 0.2s;
+}
 
-     wash-color: #ccc;
- }
+CarouselNavButton {
+    width: fill-parent-flow(1);
+    height: 160px;
+    background-image: url("s2r://panorama/images/control_icons/arrow_solid_right_png.vtex");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    wash-color: #999;
+    vertical-align: middle;
+}
+CarouselNavButton:enabled:hover {
+    wash-color: #fff;
+}
+CarouselNavButton:active {
+    wash-color: #bbb;
+}
+CarouselNavButton:disabled {
+    wash-color: #333;
+}
+CarouselNavButton.NavBackward {
+    background-image: url("s2r://panorama/images/control_icons/arrow_solid_left_png.vtex");
+}
 
- #RefreshButton.LoadingLobbies{
+#ErrorMessage {
+    horizontal-align: center;
+    vertical-align: middle;
+    font-size: 80px;
+    width: 1400px;
+    text-align: center;
 
-     animation-name: RefreshButtonLoadingAnimation;
-  animation-duration: 1.0s;
-     animation-timing-function: linear;
-  animation-iteration-count: infinite;
- }
+    visibility: collapse;
+}
 
- @keyframes 'RefreshButtonLoadingAnimation'{
+.ErrorLoadingLobbies #ErrorMessage {
+    visibility: visible;
+}
 
-  0%{
+#Footer {
+    flow-children: right;
+}
 
-   transform: rotateZ( 360deg );
-  }
-     50%{
+.LanguageLabel {
+    vertical-align: middle;
+    margin-right: 8px;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #ccc;
+}
 
-         transform: rotateZ( 180deg );
-     }
-  100%{
+#LanguageDropDown {
+    vertical-align: middle;
+    height: 80px;
+    width: 450px;
+    font-size: 48px;
+    margin-left: 8px;
+    border: 4px solid #5e686966;
 
-   transform: rotateZ( 00deg );
-  }
- }
+    background-size: 64px 64px;
+    background-position: right 80px 35%;
+}
 
- #LoadedContents{
+#LanguageDropDown Label {
+    font-size: 48px;
+    margin: 4px 40px 0px 6px;
+}
 
-     flow-children: right;
- }
- .ErrorLoadingLobbies #LoadedContents{
+#LanguageDropDownDropDownMenu {
+    width: 500px;
+}
 
-     visibility: collapse;
- }
-
- #LobbiesCarousel{
-
-  flow-children: right;
-  width: 1880px;
-  height: 930px;
-  vertical-align: middle;
- }
-
- .LobbiesCarouselPage{
-
-     flow-children: right;
-     width: 100%;
-     height: 100%;
-
-     transition-property: position;
-     transition-duration: 0.2s;
- }
-
- CarouselNavButton{
-
-  width: fill-parent-flow( 1.0 );
-  height: 160px;
-  background-image: url( "s2r://panorama/images/control_icons/arrow_solid_right_png.vtex");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  wash-color: #999;
-  vertical-align: middle;
- }
- CarouselNavButton:enabled:hover{
-
-  wash-color: #fff;
- }
- CarouselNavButton:active{
-
-  wash-color: #bbb;
- }
- CarouselNavButton:disabled{
-
-  wash-color: #333;
- }
- CarouselNavButton.NavBackward{
-
-  background-image: url( "s2r://panorama/images/control_icons/arrow_solid_left_png.vtex");
- }
-
- #ErrorMessage{
-
-     horizontal-align: center;
-     vertical-align: middle;
-     font-size: 80px;
-     width: 1400px;
-     text-align: center;
-
-     visibility: collapse;
- }
-
- .ErrorLoadingLobbies #ErrorMessage{
-
-     visibility: visible;
- }
-
- #Footer{
-
-  flow-children: right;
- }
-
- .LanguageLabel{
-
-  vertical-align: middle;
-  margin-right: 8px;
-  font-size: 64px;
-  text-transform: uppercase;
-  color: #ccc;
- }
-
- #LanguageDropDown{
-
-  vertical-align: middle;
-  height: 80px;
-  width: 450px;
-  font-size: 48px;
-  margin-left: 8px;
-  border: 4px solid #5e686966;
-
-  background-size: 64px 64px;
-  background-position: right 80px 35%;
- }
-
- #LanguageDropDown Label{
-
-  font-size: 48px;
-  margin: 4px 40px 0px 6px;
- }
-
- #LanguageDropDownDropDownMenu{
-
-  width: 500px;
- }
-
- #LanguageDropDownDropDownMenu Label{
-
-  font-size: 48px;
+#LanguageDropDownDropDownMenu Label {
+    font-size: 48px;
 }

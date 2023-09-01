@@ -1,156 +1,130 @@
+.WatchTournamentsElementWide {
+    width: 100%;
+    height: 122px;
 
- .WatchTournamentsElementWide{
+    horizontal-align: center;
 
-  width: 100%;
-  height: 122px;
+    flow-children: right;
+    margin-left: 26px;
+    margin-right: 26px;
 
-  horizontal-align: center;
+    border-bottom: 1px solid #aaaaaa22;
+}
 
-  flow-children: right;
-  margin-left: 26px;
-  margin-right: 26px;
+.WatchTournamentsElementWide.FirstElement {
+    border-top: 1px solid #aaaaaa22;
+}
 
-  border-bottom: 1px solid #aaaaaa22;
- }
+#Logo {
+    width: 240px;
+    height: 95px;
 
- .WatchTournamentsElementWide.FirstElement{
+    vertical-align: middle;
+}
 
-  border-top: 1px solid #aaaaaa22;
- }
+#Words {
+    max-height: 100%;
+    width: fill-parent-flow(1);
 
- #Logo{
+    vertical-align: middle;
 
-  width: 240px;
-  height: 95px;
+    flow-children: down;
 
-  vertical-align: middle;
- }
+    margin: 10px 10px 10px 14px;
+}
 
- #Words{
+#TournamentNameContainer {
+    flow-children: right;
+}
 
-  max-height: 100%;
-  width: fill-parent-flow(1.0);
+Label#TournamentName {
+    color: #ddd;
+    font-size: 24px;
+}
 
-  vertical-align: middle;
+Label#TournamentDetails {
+    font-size: 16px;
+    color: #666666;
+    line-height: 20px;
+}
 
-  flow-children: down;
+#LiveGame {
+    visibility: collapse;
+}
 
-  margin: 10px 10px 10px 14px;
- }
+Label#LiveGame {
+    color: #64c390;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: thin;
+}
 
- #TournamentNameContainer{
+.LiveGame #LiveGame {
+    visibility: visible;
+    margin-top: 8px;
+    margin-left: 4px;
+}
 
-  flow-children: right;
- }
+#RightPanel {
+    width: 260px;
+    height: 70%;
 
- Label#TournamentName{
+    margin-right: 10px;
+    margin-top: 10px;
 
-  color: #ddd;
-  font-size: 24px;
- }
+    flow-children: down;
 
- Label#TournamentDetails{
+    vertical-align: middle;
+}
 
-  font-size: 16px;
-  color: #666666;
-  line-height: 20px;
- }
+#PrizePoolPanel {
+    horizontal-align: right;
 
- #LiveGame{
+    flow-children: right;
+}
 
-  visibility: collapse;
- }
+.NoPrizePool #PrizePoolPanel {
+    visibility: collapse;
+}
 
- Label#LiveGame{
+Label#PrizePoolValue {
+    font-size: 24px;
+    color: #cccccc;
 
-  color: #64c390;
-  font-size: 14px;
-  letter-spacing: 2px;
-  font-weight: thin;
- }
+    letter-spacing: 1.2px;
+    vertical-align: bottom;
+    font-weight: thin;
+}
 
- .LiveGame #LiveGame{
+Label#PrizePoolLabel {
+    font-size: 17px;
+    color: #555555;
 
-  visibility: visible;
-  margin-top: 8px;
-  margin-left: 4px;
- }
+    vertical-align: bottom;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
 
- #RightPanel{
+#RightButtons {
+    width: 100%;
+    height: fill-parent-flow(1);
+}
 
-  width: 260px;
-  height: 70%;
+.ViewButton {
+    horizontal-align: right;
+    margin-right: 0px;
+    width: 170px;
+    min-width: 170px;
+    height: 40px;
+}
 
-  margin-right: 10px;
-  margin-top: 10px;
+.NoPrizePool .PopupButton.ViewButton {
+    margin-top: 18px;
+}
 
-  flow-children: down;
+.PopupButton.ViewButton Label {
+    margin-top: 2px;
+    font-size: 17px;
 
-  vertical-align: middle;
- }
-
- #PrizePoolPanel{
-
-  horizontal-align: right;
-
-  flow-children: right;
- }
-
- .NoPrizePool #PrizePoolPanel{
-
-  visibility: collapse;
- }
-
- Label#PrizePoolValue{
-
-  font-size: 24px;
-  color: #cccccc;
-
-  letter-spacing: 1.2px;
-  vertical-align: bottom;
-  font-weight: thin;
- }
-
- Label#PrizePoolLabel{
-
-  font-size: 17px;
-  color: #555555;
-
-  vertical-align: bottom;
-  margin-bottom: 4px;
-  margin-left: 4px;
- }
-
- #RightButtons{
-
-  width: 100%;
-  height: fill-parent-flow( 1.0 );
- }
-
-
-
-
-
-
- .ViewButton{
-
-  horizontal-align: right;
-  margin-right: 0px;
-  width: 170px;
-  min-width: 170px;
-  height: 40px;
- }
-
- .NoPrizePool .PopupButton.ViewButton{
-
-  margin-top: 18px;
- }
-
-
- .PopupButton.ViewButton Label{
-
-  margin-top: 2px;
-  font-size: 17px;
-
-  text-transform: uppercase;
+    text-transform: uppercase;
 }

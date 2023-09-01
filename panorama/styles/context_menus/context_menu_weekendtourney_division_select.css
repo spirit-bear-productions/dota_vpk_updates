@@ -1,27 +1,23 @@
-.DOTAContextMenuWeekendTourneyDivisionSelect{
-
-     flow-children: down;
-     width: 500px;
-     height:fit-children;
+.DOTAContextMenuWeekendTourneyDivisionSelect {
+    flow-children: down;
+    width: 500px;
+    height: fit-children;
 }
 
- .MenuHeader{
+.MenuHeader {
+    flow-children: right;
+}
 
-     flow-children: right;
- }
+#MenuTitle {
+    width: fill-parent-flow(1);
+}
 
- #MenuTitle{
-
-     width: fill-parent-flow( 1.0 );
- }
-
- #DivisionList{
-
-     flow-children: down;
-     overflow: clip scroll;
-     max-height: 500px;
-     width: 100%;
-     background-color: black;
-     padding: 5px;
-     margin-top: 3px;
+#DivisionList {
+    flow-children: down;
+    overflow: clip scroll;
+    max-height: 500px;
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+    margin-top: 3px;
 }

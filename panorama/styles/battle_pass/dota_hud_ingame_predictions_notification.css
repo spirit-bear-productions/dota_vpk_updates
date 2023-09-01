@@ -1,164 +1,135 @@
-.IngamePredictionNotification{
-
-  width: 350px;
-     height: fit-children;
-     flow-children: down;
-     background-color: #0B183788;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #302929fd ), to( #000000ff ) );
+.IngamePredictionNotification {
+    width: 350px;
+    height: fit-children;
+    flow-children: down;
+    background-color: #0b183788;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#302929fd), to(#000000ff));
 }
 
- .PredictionNotificationTitle{
+.PredictionNotificationTitle {
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    horizontal-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid gray;
+}
 
-  text-transform: uppercase;
-  text-align: center;
-  width: 100%;
-  horizontal-align: center;
-  font-size: 24px;
-  border-bottom: 1px solid gray;
- }
+.Status {
+    width: 160px;
+    height: 24px;
+    horizontal-align: right;
+    background-color: #484848;
+}
 
+.Status Label {
+    visibility: collapse;
+    text-transform: uppercase;
+    margin-left: 8px;
+    vertical-align: center;
+    margin-top: 2px;
+}
 
+.IngamePredictionNotification.CorrectPrediction .Status {
+    background-color: #00a00030;
+}
 
- .Status{
+.IngamePredictionNotification.CorrectPrediction .Correct {
+    visibility: visible;
+}
 
-  width: 160px;
-  height: 24px;
-  horizontal-align: right;
-  background-color: #484848;
- }
+.IngamePredictionNotification.InCorrectPrediction .Status {
+    background-color: #a0000030;
+}
 
- .Status Label{
+.IngamePredictionNotification.InCorrectPrediction .Incorrect {
+    visibility: visible;
+}
 
-  visibility: collapse;
-  text-transform: uppercase;
-  margin-left: 8px;
-  vertical-align: center;
-  margin-top: 2px;
- }
+.IngamePredictionNotification.WinningPrediction .Status {
+    background-color: #00c0c030;
+}
 
- .IngamePredictionNotification.CorrectPrediction .Status{
+.IngamePredictionNotification.WinningPrediction .Winning {
+    visibility: visible;
+}
 
-  background-color: #00A00030;
- }
+.IngamePredictionNotification.LosingPrediction .Status {
+    background-color: #a0a00030;
+}
 
- .IngamePredictionNotification.CorrectPrediction .Correct{
+.IngamePredictionNotification.LosingPrediction .Losing {
+    visibility: visible;
+}
 
-  visibility: visible;
- }
+.Status .InProgress {
+    visibility: visible;
+}
 
- .IngamePredictionNotification.InCorrectPrediction .Status{
+.IngamePredictionNotification.CorrectPrediction .Status .InProgress {
+    visibility: collapse;
+}
 
-  background-color: #A0000030;
- }
+.IngamePredictionNotification.InCorrectPrediction .Status .InProgress {
+    visibility: collapse;
+}
 
- .IngamePredictionNotification.InCorrectPrediction .Incorrect{
+.IngamePredictionNotification.WinningPrediction .Status .InProgress {
+    visibility: collapse;
+}
 
-  visibility: visible;
- }
+.IngamePredictionNotification.LosingPrediction .Status .InProgress {
+    visibility: collapse;
+}
 
- .IngamePredictionNotification.WinningPrediction .Status{
+.PredictionChangedQuestion {
+    width: 100%;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+}
 
-  background-color: #00C0C030;
- }
+.PredictionChangedBottom {
+    width: 100%;
+    flow-children: down;
+}
 
- .IngamePredictionNotification.WinningPrediction .Winning{
+.PredictionChangedBottom .Hidden {
+    visibility: collapse;
+}
 
-  visibility: visible;
- }
+.ResultContainer {
+    margin: 5px;
+    flow-children: right;
+    horizontal-align: center;
+}
 
- .IngamePredictionNotification.LosingPrediction .Status{
+.ResultContainerTitle {
+    width: 100px;
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #aaaa00;
+    vertical-align: center;
+}
 
-  background-color: #A0A00030;
- }
+#PreviousResult {
+    vertical-align: center;
+}
 
- .IngamePredictionNotification.LosingPrediction .Losing{
+.ResultsArrow {
+    horizontal-align: middle;
+    width: 18px;
+    height: 18px;
+    transform: rotateZ(270deg);
+}
 
-  visibility: visible;
- }
+.IngamePredictionNotification.CorrectPrediction .IngamePredictionNotification {
+    background-color: #00a00088;
+}
 
- .Status .InProgress{
-
-  visibility: visible;
- }
-
- .IngamePredictionNotification.CorrectPrediction .Status .InProgress{
-
-  visibility: collapse;
- }
-
- .IngamePredictionNotification.InCorrectPrediction .Status .InProgress{
-
-  visibility: collapse;
- }
-
- .IngamePredictionNotification.WinningPrediction .Status .InProgress{
-
-  visibility: collapse;
- }
-
- .IngamePredictionNotification.LosingPrediction .Status .InProgress{
-
-  visibility: collapse;
- }
-
-
- .PredictionChangedQuestion{
-
-  width: 100%;
-  margin-top: 3px;
-  margin-left: 5px;
-  margin-right: 5px;
-     font-size: 18px;
- }
-
- .PredictionChangedBottom{
-
-  width: 100%;
-     flow-children: down;
- }
-
- .PredictionChangedBottom .Hidden{
-
-  visibility: collapse;
- }
-
- .ResultContainer{
-
-  margin: 5px;
-  flow-children: right;
-  horizontal-align: center;
- }
-
- .ResultContainerTitle{
-
-  width: 100px;
-  text-transform: uppercase;
-  text-align: right;
-  margin-right: 5px;
-  font-size: 12px;
-  color: #AAAA00;
-     vertical-align: center;
- }
-
- #PreviousResult{
-
-  vertical-align: center;
- }
-
- .ResultsArrow{
-
-     horizontal-align: middle;
-  width: 18px;
-  height: 18px;
-  transform: rotateZ( 270deg );
- }
-
- .IngamePredictionNotification.CorrectPrediction .IngamePredictionNotification{
-
-  background-color: #00A00088;
- }
-
- .IngamePredictionNotification.InCorrectPrediction .IngamePredictionNotification{
-
-  background-color: #A0000088;
+.IngamePredictionNotification.InCorrectPrediction .IngamePredictionNotification {
+    background-color: #a0000088;
 }

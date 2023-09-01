@@ -1,66 +1,55 @@
-DOTAHudPromo{
-
-  visibility: collapse;
-  width: 664px;
-  height: 340px;
+DOTAHudPromo {
+    visibility: collapse;
+    width: 664px;
+    height: 340px;
 }
 
- DOTAHudPromo.Visible{
+DOTAHudPromo.Visible {
+    visibility: visible;
+}
 
-  visibility: visible;
- }
+#Background {
+    background-size: 100%;
+    width: 332px;
+    height: 100%;
+    z-index: 1;
+    horizontal-align: right;
+}
 
- #Background{
+.HUDFlipped #Background {
+    horizontal-align: left;
+}
 
-  background-size: 100%;
-  width: 332px;
-  height: 100%;
-  z-index: 1;
-  horizontal-align: right;
- }
+#Background Label {
+    horizontal-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ccaa00ff;
+    font-family: titleFont;
+    letter-spacing: 2px;
+}
 
+#Background .Title {
+    font-family: defaultFont;
+    margin-top: 185px;
+    color: grey;
+}
 
- .HUDFlipped #Background{
+#Background .Detail {
+    margin-top: 266px;
+    font-size: 24px;
+}
 
-  horizontal-align: left;
- }
+#Background .LearnMore {
+    margin-top: 300px;
+    color: grey;
+    font-size: 14px;
+}
 
- #Background Label{
+#Background:hover .LearnMore {
+    text-decoration: underline;
+}
 
-  horizontal-align: center;
-  text-transform: uppercase;
-  font-size: 18px;
-  color: #ccaa00ff;
-  font-family: titleFont;
-  letter-spacing: 2px;
- }
-
- #Background .Title{
-
-  font-family: defaultFont;
-  margin-top: 185px;
-  color: grey;
- }
-
- #Background .Detail{
-
-  margin-top: 266px;
-  font-size: 24px;
- }
-
- #Background .LearnMore{
-
-  margin-top: 300px;
-  color: grey;
-  font-size: 14px;
- }
-
- #Background:hover .LearnMore{
-
-  text-decoration: underline;
- }
-
- #Background:active .LearnMore{
-
-  color: white;
+#Background:active .LearnMore {
+    color: white;
 }

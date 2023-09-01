@@ -1,182 +1,183 @@
+"use strict";
 /// <reference path="dota.d.ts" />
 // The indices need to line up with dota_gcmessages_common_match_management.proto
 const g_MVP_Accolade_TypeMap = {
     /* common */
-    1: // total kills
-    {
+    // total kills
+    1: {
         title_loc_token: "#DOTA_mvp2_accolade_title_total_kills",
-        icon: 's2r://panorama/images/challenges/icon_challenges_kills.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_total_kills',
+        icon: "s2r://panorama/images/challenges/icon_challenges_kills.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_total_kills",
     },
-    2: // total deaths
-    {
+    // total deaths
+    2: {
         title_loc_token: "#DOTA_mvp2_accolade_title_total_deaths",
-        icon: 's2r://panorama/images/challenges/icon_challenges_tombstone.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_total_deaths',
+        icon: "s2r://panorama/images/challenges/icon_challenges_tombstone.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_total_deaths",
     },
-    3: // total assists
-    {
+    // total assists
+    3: {
         title_loc_token: "#DOTA_mvp2_accolade_title_total_assists",
-        icon: 's2r://panorama/images/challenges/icon_challenges_xassists.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_total_assists',
+        icon: "s2r://panorama/images/challenges/icon_challenges_xassists.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_total_assists",
     },
-    5: // total net_worth
-    {
+    // total net_worth
+    5: {
         title_loc_token: "#DOTA_mvp2_accolade_title_total_net_worth",
-        icon: 's2r://panorama/images/challenges/icon_challenges_networth.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_total_net_worth',
+        icon: "s2r://panorama/images/challenges/icon_challenges_networth.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_total_net_worth",
     },
-    7: // total support_gold_spent
-    {
+    // total support_gold_spent
+    7: {
         title_loc_token: "#DOTA_mvp2_accolade_title_total_support_gold_spent",
-        icon: 's2r://panorama/images/challenges/icon_challenges_assistgold.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_total_support_gold_spent',
+        icon: "s2r://panorama/images/challenges/icon_challenges_assistgold.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_total_support_gold_spent",
     },
-    8: // total wards_placed
-    {
+    // total wards_placed
+    8: {
         title_loc_token: "#DOTA_mvp2_accolade_title_total_wards_placed",
-        icon: 's2r://panorama/images/challenges/icon_challenges_ward.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_total_wards_placed',
+        icon: "s2r://panorama/images/challenges/icon_challenges_ward.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_total_wards_placed",
     },
-    9: // total wards_spotted_for_dewarding
-    {
+    // total wards_spotted_for_dewarding
+    9: {
         title_loc_token: "#DOTA_mvp2_accolade_title_total_wards_spotted_for_dewarding",
-        icon: 's2r://panorama/images/challenges/icon_challenges_deward.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_total_wards_spotted_for_dewarding',
+        icon: "s2r://panorama/images/challenges/icon_challenges_deward.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_total_wards_spotted_for_dewarding",
     },
-    10: // total camps_stacked
-    {
+    // total camps_stacked
+    10: {
         title_loc_token: "#DOTA_mvp2_accolade_title_total_camps_stacked",
-        icon: 's2r://panorama/images/challenges/icon_challenges_campsstacked.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_total_camps_stacked',
+        icon: "s2r://panorama/images/challenges/icon_challenges_campsstacked.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_total_camps_stacked",
     },
-    11: // total last_hits
-    {
+    // total last_hits
+    11: {
         title_loc_token: "#DOTA_mvp2_accolade_title_total_last_hits",
-        icon: 's2r://panorama/images/challenges/icon_challenges_lasthits.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_total_last_hits',
+        icon: "s2r://panorama/images/challenges/icon_challenges_lasthits.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_total_last_hits",
     },
-    12: // total denies
-    {
+    // total denies
+    12: {
         title_loc_token: "#DOTA_mvp2_accolade_title_total_denies",
-        icon: 's2r://panorama/images/challenges/icon_challenges_denies.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_total_denies',
+        icon: "s2r://panorama/images/challenges/icon_challenges_denies.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_total_denies",
     },
-    15: // kKillEaterEvent_Towers_Destroyed
-    {
+    // kKillEaterEvent_Towers_Destroyed
+    15: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEvent_Towers_Destroyed",
-        icon: 's2r://panorama/images/challenges/icon_challenges_tower.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEvent_Towers_Destroyed',
+        icon: "s2r://panorama/images/challenges/icon_challenges_tower.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEvent_Towers_Destroyed",
     },
-    19: // kKillEaterEventType_LowHealthKills
-    {
+    // kKillEaterEventType_LowHealthKills
+    19: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_LowHealthKills",
-        icon: 's2r://panorama/images/challenges/icon_challenges_neardeathkills.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_LowHealthKills',
+        icon: "s2r://panorama/images/challenges/icon_challenges_neardeathkills.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_LowHealthKills",
     },
-    28: // kKillEaterEventType_RoshanKills
-    {
+    // kKillEaterEventType_RoshanKills
+    28: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_RoshanKills",
-        icon: 's2r://panorama/images/challenges/icon_challenges_roshan.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_RoshanKills',
+        icon: "s2r://panorama/images/challenges/icon_challenges_roshan.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_RoshanKills",
     },
-    161: // kKillEaterEventType_ThreeManMeks
-    {
+    // kKillEaterEventType_ThreeManMeks
+    161: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_ThreeManMeks",
-        icon: 's2r://panorama/images/challenges/icon_challenges_mekthree.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_ThreeManMeks',
+        icon: "s2r://panorama/images/challenges/icon_challenges_mekthree.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_ThreeManMeks",
     },
-    164: // kKillEaterEventType_ThreeHeroVeils
-    {
+    // kKillEaterEventType_ThreeHeroVeils
+    164: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_ThreeHeroVeils",
-        icon: 's2r://panorama/images/challenges/icon_challenges_veilthree.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_ThreeHeroVeils',
+        icon: "s2r://panorama/images/challenges/icon_challenges_veilthree.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_ThreeHeroVeils",
     },
-    224: // kKillEaterEventType_VeilsLeadingToKills
-    {
+    // kKillEaterEventType_VeilsLeadingToKills
+    224: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_VeilsLeadingToKills",
-        icon: 's2r://panorama/images/challenges/icon_challenges_veil.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_VeilsLeadingToKills',
+        icon: "s2r://panorama/images/challenges/icon_challenges_veil.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_VeilsLeadingToKills",
     },
-    225: // kKillEaterEventType_DustLeadingToKills
-    {
+    // kKillEaterEventType_DustLeadingToKills
+    225: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_DustLeadingToKills",
-        icon: 's2r://panorama/images/challenges/icon_challenges_killsdust.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_DustLeadingToKills',
+        icon: "s2r://panorama/images/challenges/icon_challenges_killsdust.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_DustLeadingToKills",
     },
-    274: // Custom_KillStreak
-    {
+    // Custom_KillStreak
+    274: {
         title_loc_token: "#DOTA_mvp2_accolade_title_Custom_KillStreak",
-        icon: 's2r://panorama/images/challenges/icon_challenges_xkills.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_Custom_KillStreak',
+        icon: "s2r://panorama/images/challenges/icon_challenges_xkills.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_Custom_KillStreak",
     },
     // Hero specific
-    16: // kKillEaterEventType_Invoker_SunstrikeKills
-    {
+    // kKillEaterEventType_Invoker_SunstrikeKills
+    16: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Invoker_SunstrikeKills",
-        ability_name: 'invoker_sun_strike',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Invoker_SunstrikeKills',
+        ability_name: "invoker_sun_strike",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Invoker_SunstrikeKills",
     },
-    17: // kKillEaterEventType_Axe_Culls
-    {
+    // kKillEaterEventType_Axe_Culls
+    17: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Axe_Culls",
-        ability_name: 'axe_culling_blade',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Axe_Culls',
+        ability_name: "axe_culling_blade",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Axe_Culls",
     },
-    18: // kKillEaterEventType_Axe_BattleHungerKills
-    {
+    // kKillEaterEventType_Axe_BattleHungerKills
+    18: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Axe_BattleHungerKills",
-        ability_name: 'axe_battle_hunger',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Axe_BattleHungerKills',
+        ability_name: "axe_battle_hunger",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Axe_BattleHungerKills",
     },
-    20: // kKillEaterEventType_Invoker_TornadoKills
-    {
+    // kKillEaterEventType_Invoker_TornadoKills
+    20: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Invoker_TornadoKills",
-        ability_name: 'invoker_tornado',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Invoker_TornadoKills',
+        ability_name: "invoker_tornado",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Invoker_TornadoKills",
     },
-    21: // kKillEaterEventType_Sven_DoubleStuns
-    {
+    // kKillEaterEventType_Sven_DoubleStuns
+    21: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Sven_DoubleStuns",
-        ability_name: 'sven_storm_bolt',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Sven_DoubleStuns',
+        ability_name: "sven_storm_bolt",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Sven_DoubleStuns",
     },
-    22: // kKillEaterEventType_Sven_WarcryAssists
-    {
+    // kKillEaterEventType_Sven_WarcryAssists
+    22: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Sven_WarcryAssists",
-        ability_name: 'sven_warcry',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Sven_WarcryAssists',
+        ability_name: "sven_warcry",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Sven_WarcryAssists",
     },
-    23: // kKillEaterEventType_Sven_CleaveDoubleKills
-    {
+    // kKillEaterEventType_Sven_CleaveDoubleKills
+    23: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Sven_CleaveDoubleKills",
-        ability_name: 'sven_great_cleave',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Sven_CleaveDoubleKills',
+        ability_name: "sven_great_cleave",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Sven_CleaveDoubleKills",
     },
     /*
     24 : // kKillEaterEventType_Sven_TeleportInterrupts
@@ -186,418 +187,418 @@ const g_MVP_Accolade_TypeMap = {
         gradient: 'red',
         detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Sven_TeleportInterrupts',
     },*/
-    25: // kKillEaterEventType_Faceless_MultiChrono
-    {
+    // kKillEaterEventType_Faceless_MultiChrono
+    25: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Faceless_MultiChrono",
-        ability_name: 'faceless_void_chronosphere',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Faceless_MultiChrono',
+        ability_name: "faceless_void_chronosphere",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Faceless_MultiChrono",
     },
-    26: // kKillEaterEventType_Faceless_ChronoKills
-    {
+    // kKillEaterEventType_Faceless_ChronoKills
+    26: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Faceless_ChronoKills",
-        ability_name: 'faceless_void_chronosphere',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Faceless_ChronoKills',
+        ability_name: "faceless_void_chronosphere",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Faceless_ChronoKills",
     },
-    27: // kKillEaterEventType_Ursa_MultiShocks
-    {
+    // kKillEaterEventType_Ursa_MultiShocks
+    27: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Ursa_MultiShocks",
-        ability_name: 'ursa_earthshock',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Ursa_MultiShocks',
+        ability_name: "ursa_earthshock",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Ursa_MultiShocks",
     },
-    29: // kKillEaterEventType_Lion_FingerKills
-    {
+    // kKillEaterEventType_Lion_FingerKills
+    29: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Lion_FingerKills",
-        ability_name: 'lion_finger_of_death',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Lion_FingerKills',
+        ability_name: "lion_finger_of_death",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Lion_FingerKills",
     },
-    32: // kKillEaterEventType_Riki_SmokedHeroKills
-    {
+    // kKillEaterEventType_Riki_SmokedHeroKills
+    32: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Riki_SmokedHeroKills",
-        ability_name: 'riki_smoke_screen',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Riki_SmokedHeroKills',
+        ability_name: "riki_smoke_screen",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Riki_SmokedHeroKills",
     },
-    33: // kKillEaterEventType_HeroesRevealedWithDust
-    {
+    // kKillEaterEventType_HeroesRevealedWithDust
+    33: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_HeroesRevealedWithDust",
-        icon: 's2r://panorama/images/challenges/icon_challenges_totaldust.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_HeroesRevealedWithDust',
+        icon: "s2r://panorama/images/challenges/icon_challenges_totaldust.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_HeroesRevealedWithDust",
     },
-    34: // kKillEaterEventType_SkeletonKing_ReincarnationKills
-    {
+    // kKillEaterEventType_SkeletonKing_ReincarnationKills
+    34: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_SkeletonKing_ReincarnationKills",
-        ability_name: 'skeleton_king_reincarnation',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_SkeletonKing_ReincarnationKills',
+        ability_name: "skeleton_king_reincarnation",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_SkeletonKing_ReincarnationKills",
     },
-    35: // kKillEaterEventType_Skywrath_FlareKills
-    {
+    // kKillEaterEventType_Skywrath_FlareKills
+    35: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Skywrath_FlareKills",
-        ability_name: 'skywrath_mage_mystic_flare',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Skywrath_FlareKills',
+        ability_name: "skywrath_mage_mystic_flare",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Skywrath_FlareKills",
     },
-    36: // kKillEaterEventType_Leshrac_SplitEarthStuns
-    {
+    // kKillEaterEventType_Leshrac_SplitEarthStuns
+    36: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Leshrac_SplitEarthStuns",
-        ability_name: 'leshrac_split_earth',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Leshrac_SplitEarthStuns',
+        ability_name: "leshrac_split_earth",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Leshrac_SplitEarthStuns",
     },
-    37: // kKillEaterEventType_Mirana_MaxStunArrows
-    {
+    // kKillEaterEventType_Mirana_MaxStunArrows
+    37: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Mirana_MaxStunArrows",
-        ability_name: 'mirana_arrow',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Mirana_MaxStunArrows',
+        ability_name: "mirana_arrow",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Mirana_MaxStunArrows",
     },
-    38: // kKillEaterEventType_PhantomAssassin_CoupdeGraceCrits
-    {
+    // kKillEaterEventType_PhantomAssassin_CoupdeGraceCrits
+    38: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_PhantomAssassin_CoupdeGraceCrits",
-        ability_name: 'phantom_assassin_coup_de_grace',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_PhantomAssassin_CoupdeGraceCrits',
+        ability_name: "phantom_assassin_coup_de_grace",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_PhantomAssassin_CoupdeGraceCrits",
     },
-    39: // kKillEaterEventType_PhantomAssassin_DaggerCrits
-    {
+    // kKillEaterEventType_PhantomAssassin_DaggerCrits
+    39: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_PhantomAssassin_DaggerCrits",
-        ability_name: 'phantom_assassin_stifling_dagger',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_PhantomAssassin_DaggerCrits',
+        ability_name: "phantom_assassin_stifling_dagger",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_PhantomAssassin_DaggerCrits",
     },
-    40: // kKillEaterEventType_Meepo_Earthbinds
-    {
+    // kKillEaterEventType_Meepo_Earthbinds
+    40: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Meepo_Earthbinds",
-        ability_name: 'meepo_earthbind',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Meepo_Earthbinds',
+        ability_name: "meepo_earthbind",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Meepo_Earthbinds",
     },
-    41: // kKillEaterEventType_Bloodseeker_RuptureKills
-    {
+    // kKillEaterEventType_Bloodseeker_RuptureKills
+    41: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Bloodseeker_RuptureKills",
-        ability_name: 'bloodseeker_rupture',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Bloodseeker_RuptureKills',
+        ability_name: "bloodseeker_rupture",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Bloodseeker_RuptureKills",
     },
-    42: // kKillEaterEventType_Slark_LeashedEnemies
-    {
+    // kKillEaterEventType_Slark_LeashedEnemies
+    42: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Slark_LeashedEnemies",
-        ability_name: 'slark_pounce',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Slark_LeashedEnemies',
+        ability_name: "slark_pounce",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Slark_LeashedEnemies",
     },
-    43: // kKillEaterEventType_Disruptor_FountainGlimpses
-    {
+    // kKillEaterEventType_Disruptor_FountainGlimpses
+    43: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Disruptor_FountainGlimpses",
-        ability_name: 'disruptor_glimpse',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Disruptor_FountainGlimpses',
+        ability_name: "disruptor_glimpse",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Disruptor_FountainGlimpses",
     },
-    44: // kKillEaterEventType_Rubick_SpellsStolen
-    {
+    // kKillEaterEventType_Rubick_SpellsStolen
+    44: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Rubick_SpellsStolen",
-        ability_name: 'rubick_spell_steal',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Rubick_SpellsStolen',
+        ability_name: "rubick_spell_steal",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Rubick_SpellsStolen",
     },
-    45: // kKillEaterEventType_Rubick_UltimatesStolen
-    {
+    // kKillEaterEventType_Rubick_UltimatesStolen
+    45: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Rubick_UltimatesStolen",
-        ability_name: 'rubick_spell_steal',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Rubick_UltimatesStolen',
+        ability_name: "rubick_spell_steal",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Rubick_UltimatesStolen",
     },
-    46: // kKillEaterEventType_Doom_EnemiesDoomed
-    {
+    // kKillEaterEventType_Doom_EnemiesDoomed
+    46: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Doom_EnemiesDoomed",
-        ability_name: 'doom_bringer_doom',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Doom_EnemiesDoomed',
+        ability_name: "doom_bringer_doom",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Doom_EnemiesDoomed",
     },
-    47: // kKillEaterEventType_Omniknight_Purifications
-    {
+    // kKillEaterEventType_Omniknight_Purifications
+    47: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Omniknight_Purifications",
-        ability_name: 'omniknight_purification',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Omniknight_Purifications',
+        ability_name: "omniknight_purification",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Omniknight_Purifications",
     },
-    48: // kKillEaterEventType_Omniknight_AlliesRepelled
-    {
+    // kKillEaterEventType_Omniknight_AlliesRepelled
+    48: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Omniknight_AlliesRepelled",
-        ability_name: 'omniknight_repel',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Omniknight_AlliesRepelled',
+        ability_name: "omniknight_repel",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Omniknight_AlliesRepelled",
     },
-    49: // kKillEaterEventType_Omniknight_EnemiesRepelled
-    {
+    // kKillEaterEventType_Omniknight_EnemiesRepelled
+    49: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Omniknight_EnemiesRepelled",
-        ability_name: 'omniknight_repel',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Omniknight_EnemiesRepelled',
+        ability_name: "omniknight_repel",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Omniknight_EnemiesRepelled",
     },
-    50: // kKillEaterEventType_Warlock_FiveHeroFatalBonds
-    {
+    // kKillEaterEventType_Warlock_FiveHeroFatalBonds
+    50: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Warlock_FiveHeroFatalBonds",
-        ability_name: 'warlock_fatal_bonds',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Warlock_FiveHeroFatalBonds',
+        ability_name: "warlock_fatal_bonds",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Warlock_FiveHeroFatalBonds",
     },
-    51: // kKillEaterEventType_CrystalMaiden_FrostbittenEnemies
-    {
+    // kKillEaterEventType_CrystalMaiden_FrostbittenEnemies
+    51: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_CrystalMaiden_FrostbittenEnemies",
-        ability_name: 'crystal_maiden_frostbite',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_CrystalMaiden_FrostbittenEnemies',
+        ability_name: "crystal_maiden_frostbite",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_CrystalMaiden_FrostbittenEnemies",
     },
-    52: // kKillEaterEventType_CrystalMaiden_CrystalNovas
-    {
+    // kKillEaterEventType_CrystalMaiden_CrystalNovas
+    52: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_CrystalMaiden_CrystalNovas",
-        ability_name: 'crystal_maiden_crystal_nova',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_CrystalMaiden_CrystalNovas',
+        ability_name: "crystal_maiden_crystal_nova",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_CrystalMaiden_CrystalNovas",
     },
-    53: // kKillEaterEventType_Kunkka_DoubleHeroTorrents
-    {
+    // kKillEaterEventType_Kunkka_DoubleHeroTorrents
+    53: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Kunkka_DoubleHeroTorrents",
-        ability_name: 'kunkka_torrent',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Kunkka_DoubleHeroTorrents',
+        ability_name: "kunkka_torrent",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Kunkka_DoubleHeroTorrents",
     },
-    54: // kKillEaterEventType_Kunkka_TripleHeroGhostShips
-    {
+    // kKillEaterEventType_Kunkka_TripleHeroGhostShips
+    54: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Kunkka_TripleHeroGhostShips",
-        ability_name: 'kunkka_ghostship',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Kunkka_TripleHeroGhostShips',
+        ability_name: "kunkka_ghostship",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Kunkka_TripleHeroGhostShips",
     },
-    55: // kKillEaterEventType_NagaSiren_EnemiesEnsnared
-    {
+    // kKillEaterEventType_NagaSiren_EnemiesEnsnared
+    55: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_NagaSiren_EnemiesEnsnared",
-        ability_name: 'naga_siren_ensnare',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_NagaSiren_EnemiesEnsnared',
+        ability_name: "naga_siren_ensnare",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_NagaSiren_EnemiesEnsnared",
     },
-    56: // kKillEaterEventType_NagaSiren_TripleHeroRipTides
-    {
+    // kKillEaterEventType_NagaSiren_TripleHeroRipTides
+    56: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_NagaSiren_TripleHeroRipTides",
-        ability_name: 'naga_siren_rip_tide',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_NagaSiren_TripleHeroRipTides',
+        ability_name: "naga_siren_rip_tide",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_NagaSiren_TripleHeroRipTides",
     },
-    57: // kKillEaterEventType_Lycan_KillsDuringShapeshift
-    {
+    // kKillEaterEventType_Lycan_KillsDuringShapeshift
+    57: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Lycan_KillsDuringShapeshift",
-        ability_name: 'lycan_shapeshift',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Lycan_KillsDuringShapeshift',
+        ability_name: "lycan_shapeshift",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Lycan_KillsDuringShapeshift",
     },
-    58: // kKillEaterEventType_Pudge_DismemberKills
-    {
+    // kKillEaterEventType_Pudge_DismemberKills
+    58: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Pudge_DismemberKills",
-        ability_name: 'pudge_dismember',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Pudge_DismemberKills',
+        ability_name: "pudge_dismember",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Pudge_DismemberKills",
     },
-    59: // kKillEaterEventType_Pudge_EnemyHeroesHooked
-    {
+    // kKillEaterEventType_Pudge_EnemyHeroesHooked
+    59: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Pudge_EnemyHeroesHooked",
-        ability_name: 'pudge_meat_hook',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Pudge_EnemyHeroesHooked',
+        ability_name: "pudge_meat_hook",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Pudge_EnemyHeroesHooked",
     },
-    60: // kKillEaterEventType_Pudge_HookKills
-    {
+    // kKillEaterEventType_Pudge_HookKills
+    60: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Pudge_HookKills",
-        ability_name: 'pudge_meat_hook',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Pudge_HookKills',
+        ability_name: "pudge_meat_hook",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Pudge_HookKills",
     },
-    61: // kKillEaterEventType_Pudge_UnseenEnemyHeroesHooked
-    {
+    // kKillEaterEventType_Pudge_UnseenEnemyHeroesHooked
+    61: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Pudge_UnseenEnemyHeroesHooked",
-        ability_name: 'pudge_meat_hook',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Pudge_UnseenEnemyHeroesHooked',
+        ability_name: "pudge_meat_hook",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Pudge_UnseenEnemyHeroesHooked",
     },
-    62: // kKillEaterEventType_DrowRanger_EnemiesSilenced
-    {
+    // kKillEaterEventType_DrowRanger_EnemiesSilenced
+    62: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_DrowRanger_EnemiesSilenced",
-        ability_name: 'drow_ranger_silence',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_DrowRanger_EnemiesSilenced',
+        ability_name: "drow_ranger_silence",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_DrowRanger_EnemiesSilenced",
     },
-    63: // kKillEaterEventType_DrowRanger_MultiHeroSilences
-    {
+    // kKillEaterEventType_DrowRanger_MultiHeroSilences
+    63: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_DrowRanger_MultiHeroSilences",
-        ability_name: 'drow_ranger_silence',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_DrowRanger_MultiHeroSilences',
+        ability_name: "drow_ranger_silence",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_DrowRanger_MultiHeroSilences",
     },
-    64: // kKillEaterEventType_DrowRanger_SilencedKills
-    {
+    // kKillEaterEventType_DrowRanger_SilencedKills
+    64: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_DrowRanger_SilencedKills",
-        ability_name: 'drow_ranger_silence',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_DrowRanger_SilencedKills',
+        ability_name: "drow_ranger_silence",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_DrowRanger_SilencedKills",
     },
-    65: // kKillEaterEventType_DrowRanger_FrostArrowKills
-    {
+    // kKillEaterEventType_DrowRanger_FrostArrowKills
+    65: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_DrowRanger_FrostArrowKills",
-        ability_name: 'drow_ranger_frost_arrows',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_DrowRanger_FrostArrowKills',
+        ability_name: "drow_ranger_frost_arrows",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_DrowRanger_FrostArrowKills",
     },
-    66: // kKillEaterEventType_DragonKnight_KillsInDragonForm
-    {
+    // kKillEaterEventType_DragonKnight_KillsInDragonForm
+    66: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_DragonKnight_KillsInDragonForm",
-        ability_name: 'dragon_knight_elder_dragon_form',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_DragonKnight_KillsInDragonForm',
+        ability_name: "dragon_knight_elder_dragon_form",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_DragonKnight_KillsInDragonForm",
     },
-    67: // kKillEaterEventType_DragonKnight_BreatheFireKills
-    {
+    // kKillEaterEventType_DragonKnight_BreatheFireKills
+    67: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_DragonKnight_BreatheFireKills",
-        ability_name: 'dragon_knight_breathe_fire',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_DragonKnight_BreatheFireKills',
+        ability_name: "dragon_knight_breathe_fire",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_DragonKnight_BreatheFireKills",
     },
-    68: // kKillEaterEventType_DragonKnight_SplashKills
-    {
+    // kKillEaterEventType_DragonKnight_SplashKills
+    68: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_DragonKnight_SplashKills",
-        ability_name: 'dragon_knight_elder_dragon_form',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_DragonKnight_SplashKills',
+        ability_name: "dragon_knight_elder_dragon_form",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_DragonKnight_SplashKills",
     },
-    69: // kKillEaterEventType_WitchDoctor_CaskStuns
-    {
+    // kKillEaterEventType_WitchDoctor_CaskStuns
+    69: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_WitchDoctor_CaskStuns",
-        ability_name: 'witch_doctor_paralyzing_cask',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_WitchDoctor_CaskStuns',
+        ability_name: "witch_doctor_paralyzing_cask",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_WitchDoctor_CaskStuns",
     },
-    70: // kKillEaterEventType_WitchDoctor_MaledictKills
-    {
+    // kKillEaterEventType_WitchDoctor_MaledictKills
+    70: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_WitchDoctor_MaledictKills",
-        ability_name: 'witch_doctor_maledict',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_WitchDoctor_MaledictKills',
+        ability_name: "witch_doctor_maledict",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_WitchDoctor_MaledictKills",
     },
-    71: // kKillEaterEventType_WitchDoctor_MultiHeroMaledicts
-    {
+    // kKillEaterEventType_WitchDoctor_MultiHeroMaledicts
+    71: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_WitchDoctor_MultiHeroMaledicts",
-        ability_name: 'witch_doctor_maledict',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_WitchDoctor_MultiHeroMaledicts',
+        ability_name: "witch_doctor_maledict",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_WitchDoctor_MultiHeroMaledicts",
     },
-    72: // kKillEaterEventType_WitchDoctor_DeathWardKills
-    {
+    // kKillEaterEventType_WitchDoctor_DeathWardKills
+    72: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_WitchDoctor_DeathWardKills",
-        ability_name: 'witch_doctor_death_ward',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_WitchDoctor_DeathWardKills',
+        ability_name: "witch_doctor_death_ward",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_WitchDoctor_DeathWardKills",
     },
-    73: // kKillEaterEventType_Disruptor_ThunderStrikeKills
-    {
+    // kKillEaterEventType_Disruptor_ThunderStrikeKills
+    73: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Disruptor_ThunderStrikeKills",
-        ability_name: 'disruptor_thunder_strike',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Disruptor_ThunderStrikeKills',
+        ability_name: "disruptor_thunder_strike",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Disruptor_ThunderStrikeKills",
     },
-    74: // kKillEaterEventType_Disruptor_HeroesGlimpsed
-    {
+    // kKillEaterEventType_Disruptor_HeroesGlimpsed
+    74: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Disruptor_HeroesGlimpsed",
-        ability_name: 'disruptor_glimpse',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Disruptor_HeroesGlimpsed',
+        ability_name: "disruptor_glimpse",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Disruptor_HeroesGlimpsed",
     },
-    75: // kKillEaterEventType_CrystalMaiden_FreezingFieldKills
-    {
+    // kKillEaterEventType_CrystalMaiden_FreezingFieldKills
+    75: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_CrystalMaiden_FreezingFieldKills",
-        ability_name: 'crystal_maiden_freezing_field',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_CrystalMaiden_FreezingFieldKills',
+        ability_name: "crystal_maiden_freezing_field",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_CrystalMaiden_FreezingFieldKills",
     },
-    77: // kKillEaterEventType_Medusa_EnemiesPetrified
-    {
+    // kKillEaterEventType_Medusa_EnemiesPetrified
+    77: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Medusa_EnemiesPetrified",
-        ability_name: 'medusa_stone_gaze',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Medusa_EnemiesPetrified',
+        ability_name: "medusa_stone_gaze",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Medusa_EnemiesPetrified",
     },
-    78: // kKillEaterEventType_Warlock_FatalBondsKills
-    {
+    // kKillEaterEventType_Warlock_FatalBondsKills
+    78: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Warlock_FatalBondsKills",
-        ability_name: 'warlock_fatal_bonds',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Warlock_FatalBondsKills',
+        ability_name: "warlock_fatal_bonds",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Warlock_FatalBondsKills",
     },
-    79: // kKillEaterEventType_Warlock_GolemKills
-    {
+    // kKillEaterEventType_Warlock_GolemKills
+    79: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Warlock_GolemKills",
-        ability_name: 'warlock_golem_flaming_fists',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Warlock_GolemKills',
+        ability_name: "warlock_golem_flaming_fists",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Warlock_GolemKills",
     },
-    80: // kKillEaterEventType_Tusk_WalrusPunches
-    {
+    // kKillEaterEventType_Tusk_WalrusPunches
+    80: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Tusk_WalrusPunches",
-        ability_name: 'tusk_walrus_punch',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Tusk_WalrusPunches',
+        ability_name: "tusk_walrus_punch",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Tusk_WalrusPunches",
     },
-    81: // kKillEaterEventType_Tusk_SnowballStuns
-    {
+    // kKillEaterEventType_Tusk_SnowballStuns
+    81: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Tusk_SnowballStuns",
-        ability_name: 'tusk_snowball',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Tusk_SnowballStuns',
+        ability_name: "tusk_snowball",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Tusk_SnowballStuns",
     },
-    82: // kKillEaterEventType_Earthshaker_FissureStuns
-    {
+    // kKillEaterEventType_Earthshaker_FissureStuns
+    82: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Earthshaker_FissureStuns",
-        ability_name: 'earthshaker_fissure',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Earthshaker_FissureStuns',
+        ability_name: "earthshaker_fissure",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Earthshaker_FissureStuns",
     },
-    83: // kKillEaterEventType_Earthshaker_3HeroEchoslams
-    {
+    // kKillEaterEventType_Earthshaker_3HeroEchoslams
+    83: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Earthshaker_3HeroEchoslams",
-        ability_name: 'earthshaker_echo_slam',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_Earthshaker_3HeroEchoslams',
+        ability_name: "earthshaker_echo_slam",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Earthshaker_3HeroEchoslams",
     },
-    84: // kKillEaterEventType_SandKing_BurrowstrikeStuns
-    {
+    // kKillEaterEventType_SandKing_BurrowstrikeStuns
+    84: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_SandKing_BurrowstrikeStuns",
-        ability_name: 'sandking_burrowstrike',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_SandKing_BurrowstrikeStuns',
+        ability_name: "sandking_burrowstrike",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_SandKing_BurrowstrikeStuns",
     },
-    85: // kKillEaterEventType_SandKing_EpicenterKills
-    {
+    // kKillEaterEventType_SandKing_EpicenterKills
+    85: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_SandKing_EpicenterKills",
-        ability_name: 'sandking_epicenter',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_SandKing_EpicenterKills',
+        ability_name: "sandking_epicenter",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_SandKing_EpicenterKills",
     },
-    86: // kKillEaterEventType_SkywrathMage_AncientSealKills
-    {
+    // kKillEaterEventType_SkywrathMage_AncientSealKills
+    86: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_SkywrathMage_AncientSealKills",
-        ability_name: 'skywrath_mage_ancient_seal',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_SkywrathMage_AncientSealKills',
+        ability_name: "skywrath_mage_ancient_seal",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_SkywrathMage_AncientSealKills",
     },
-    87: // kKillEaterEventType_SkywrathMage_ConcussiveShotKills
-    {
+    // kKillEaterEventType_SkywrathMage_ConcussiveShotKills
+    87: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_SkywrathMage_ConcussiveShotKills",
-        ability_name: 'skywrath_mage_concussive_shot',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEventType_SkywrathMage_ConcussiveShotKills',
+        ability_name: "skywrath_mage_concussive_shot",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_SkywrathMage_ConcussiveShotKills",
     },
     88: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEventType_Luna_LucentBeamKills",
@@ -761,12 +762,12 @@ const g_MVP_Accolade_TypeMap = {
         gradient: "red",
         detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Lina_LightStrikeArrayStuns",
     },
-    115: // kKillEaterEvent_Barracks_Destroyed
-    {
+    // kKillEaterEvent_Barracks_Destroyed
+    115: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEvent_Barracks_Destroyed",
-        icon: 's2r://panorama/images/challenges/icon_challenges_barracksdestroyed.png',
-        gradient: 'red',
-        detail_loc_token: '#DOTA_mvp2_accolade_detail_kKillEaterEvent_Barracks_Destroyed',
+        icon: "s2r://panorama/images/challenges/icon_challenges_barracksdestroyed.png",
+        gradient: "red",
+        detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEvent_Barracks_Destroyed",
     },
     116: {
         title_loc_token: "#DOTA_mvp2_accolade_title_kKillEaterEvent_TemplarAssassin_MeldKills",
@@ -1698,4 +1699,4 @@ const g_MVP_Accolade_TypeMap = {
         detail_loc_token: "#DOTA_mvp2_accolade_detail_kKillEaterEventType_Muerta_DeadShotsIntoTheCalling",
     },
 };
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibXZwX2FjY29sYWRlX3R5cGVfbWFwLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibXZwX2FjY29sYWRlX3R5cGVfbWFwLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGtDQUFrQztBQVdsQyxpRkFBaUY7QUFDakYsTUFBTSxzQkFBc0IsR0FBd0M7SUFDbkUsWUFBWTtJQUNaLENBQUMsRUFBRSxjQUFjO0lBQ2pCO1FBQ0MsZUFBZSxFQUFFLHVDQUF1QztRQUN4RCxJQUFJLEVBQUUsNERBQTREO1FBQ2xFLFFBQVEsRUFBRSxLQUFLO1FBQ2YsZ0JBQWdCLEVBQUUsd0NBQXdDO0tBQzFEO0lBQ0QsQ0FBQyxFQUFFLGVBQWU7SUFDbEI7UUFDQyxlQUFlLEVBQUUsd0NBQXdDO1FBQ3pELElBQUksRUFBRSxnRUFBZ0U7UUFDdEUsUUFBUSxFQUFFLEtBQUs7UUFDZixnQkFBZ0IsRUFBRSx5Q0FBeUM7S0FDM0Q7SUFDRCxDQUFDLEVBQUUsZ0JBQWdCO0lBQ25CO1FBQ0MsZUFBZSxFQUFFLHlDQUF5QztRQUMxRCxJQUFJLEVBQUUsK0RBQStEO1FBQ3JFLFFBQVEsRUFBRSxLQUFLO1FBQ2YsZ0JBQWdCLEVBQUUsMENBQTBDO0tBQzVEO0lBQ0QsQ0FBQyxFQUFFLGtCQUFrQjtJQUNyQjtRQUNDLGVBQWUsRUFBRSwyQ0FBMkM7UUFDNUQsSUFBSSxFQUFFLCtEQUErRDtRQUNyRSxRQUFRLEVBQUUsS0FBSztRQUNmLGdCQUFnQixFQUFFLDRDQUE0QztLQUM5RDtJQUNELENBQUMsRUFBRSwyQkFBMkI7SUFDOUI7UUFDQyxlQUFlLEVBQUUsb0RBQW9EO1FBQ3JFLElBQUksRUFBRSxpRUFBaUU7UUFDdkUsUUFBUSxFQUFFLEtBQUs7UUFDZixnQkFBZ0IsRUFBRSxxREFBcUQ7S0FDdkU7SUFDRCxDQUFDLEVBQUUscUJBQXFCO0lBQ3hCO1FBQ0MsZUFBZSxFQUFFLDhDQUE4QztRQUMvRCxJQUFJLEVBQUUsMkRBQTJEO1FBQ2pFLFFBQVEsRUFBRSxLQUFLO1FBQ2Ys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
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibXZwX2FjY29sYWRlX3R5cGVfbWFwLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibXZwX2FjY29sYWRlX3R5cGVfbWFwLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxrQ0FBa0M7QUFXbEMsaUZBQWlGO0FBQ2pGLE1BQU0sc0JBQXNCLEdBQXdDO0lBQ25FLFlBQVk7SUFDWixDQUFDLEVBQUUsY0FBYztJQUNqQjtRQUNDLGVBQWUsRUFBRSx1Q0FBdUM7UUFDeEQsSUFBSSxFQUFFLDREQUE0RDtRQUNsRSxRQUFRLEVBQUUsS0FBSztRQUNmLGdCQUFnQixFQUFFLHdDQUF3QztLQUMxRDtJQUNELENBQUMsRUFBRSxlQUFlO0lBQ2xCO1FBQ0MsZUFBZSxFQUFFLHdDQUF3QztRQUN6RCxJQUFJLEVBQUUsZ0VBQWdFO1FBQ3RFLFFBQVEsRUFBRSxLQUFLO1FBQ2YsZ0JBQWdCLEVBQUUseUNBQXlDO0tBQzNEO0lBQ0QsQ0FBQyxFQUFFLGdCQUFnQjtJQUNuQjtRQUNDLGVBQWUsRUFBRSx5Q0FBeUM7UUFDMUQsSUFBSSxFQUFFLCtEQUErRDtRQUNyRSxRQUFRLEVBQUUsS0FBSztRQUNmLGdCQUFnQixFQUFFLDBDQUEwQztLQUM1RDtJQUNELENBQUMsRUFBRSxrQkFBa0I7SUFDckI7UUFDQyxlQUFlLEVBQUUsMkNBQTJDO1FBQzVELElBQUksRUFBRSwrREFBK0Q7UUFDckUsUUFBUSxFQUFFLEtBQUs7UUFDZixnQkFBZ0IsRUFBRSw0Q0FBNEM7S0FDOUQ7SUFDRCxDQUFDLEVBQUUsMkJBQTJCO0lBQzlCO1FBQ0MsZUFBZSxFQUFFLG9EQUFvRDtRQUNyRSxJQUFJLEVBQUUsaUVBQWlFO1FBQ3ZFLFFBQVEsRUFBRSxLQUFLO1FBQ2YsZ0JBQWdCLEVBQUUscURBQXFEO0tBQ3ZFO0lBQ0QsQ0FBQyxFQUFFLHFCQUFxQjtJQUN4QjtRQUNDLGVBQWUsRUFBRSw4Q0FBOEM7UUFDL0QsSUFBSSxFQUFFLDJEQUEyRDtRQUNqRSxRQUFRLEVBQUUsS0FBSztRQUNm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

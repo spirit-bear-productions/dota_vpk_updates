@@ -1,133 +1,117 @@
-Label{
-
-  width: 100%;
-  text-align: center;
+Label {
+    width: 100%;
+    text-align: center;
 }
 
- Label.RankLeaderboardLabel{
+Label.RankLeaderboardLabel {
+    vertical-align: bottom;
+    margin-bottom: 13px;
+    color: #f7e5c3;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 1px 1px #00000080;
+    horizontal-align: center;
+    vertical-align: bottom;
+    width: 100%;
+}
 
-  vertical-align: bottom;
-  margin-bottom: 13px;
-  color: #F7E5c3;
-  letter-spacing: 1px;
-  font-size: 14px;
-  text-align: center;
-  text-shadow: 1px 1px #00000080;
-  horizontal-align: center;
-  vertical-align: bottom;
-  width: 100%;
- }
+.EliteFX {
+    width: 100%;
+    height: 100%;
+    opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_png.vtex");
+}
 
- .EliteFX{
+.Title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+}
 
-  width: 100%;
-  height: 100%;
-  opacity-mask: url( "s2r://panorama/images/masks/softedge_box_irregular_png.vtex");
- }
+.SubTitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
 
- .Title{
+.CurrentMedals {
+    flow-children: right;
+    horizontal-align: center;
+    margin-bottom: 8px;
+}
 
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: white;
-  text-transform: uppercase;
- }
+.CurrentMedalContainer {
+    flow-children: down;
+}
 
- .SubTitle{
+.RankTierImage,
+.RankPipImage {
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+}
 
-  font-size: 18px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
- }
+.RankDisplayItem {
+    height: 105px;
+}
 
- .CurrentMedals{
+.RankTierLabel {
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    vertical-align: bottom;
+    horizontal-align: center;
+    text-align: center;
+}
 
-  flow-children: right;
-  horizontal-align: center;
-  margin-bottom: 8px;
- }
+#RankDisplays {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    horizontal-align: center;
+}
 
- .CurrentMedalContainer{
+#RankDisplays .RankDisplayItem {
+    height: 115px;
+}
 
-  flow-children: down;
- }
+#PipDisplays {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    horizontal-align: center;
+}
 
- .RankTierImage,.RankPipImage{
+#LeaderboardDisplay {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    horizontal-align: center;
+}
 
-  width: 100px;
-  height: 100px;
-  background-size: 100%;
- }
+.RankTier2,
+.RankTier3 {
+    margin-left: 4px;
+    margin-right: 4px;
+}
 
- .RankDisplayItem{
+.RankTier4,
+.RankTier5 {
+    margin-left: 6px;
+    margin-right: 6px;
+}
 
-  height: 105px;
- }
+.RankTier6,
+.RankTier7 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
 
- .RankTierLabel{
+#CalibrationGames {
+    visibility: collapse;
+    width: 800px;
+    flow-children: down;
+    padding-top: 16px;
+}
 
-  color: white;
-  font-size: 16px;
-  width: 100%;
-  vertical-align: bottom;
-  horizontal-align: center;
-  text-align: center;
- }
-
- #RankDisplays{
-
-  margin-top: 5px;
-  margin-bottom: 20px;
-  horizontal-align: center;
- }
-
- #RankDisplays .RankDisplayItem{
-
-  height: 115px;
- }
-
-
- #PipDisplays{
-
-  margin-top: 5px;
-  margin-bottom: 10px;
-  horizontal-align: center;
- }
-
- #LeaderboardDisplay{
-
-  margin-top: 15px;
-  margin-bottom: 15px;
-  horizontal-align: center;
- }
-
- .RankTier2,.RankTier3{
-
-  margin-left: 4px;
-  margin-right: 4px;
- }
-
-  .RankTier4,.RankTier5{
-
-  margin-left: 6px;
-  margin-right: 6px;
-  }
-
-  .RankTier6,.RankTier7{
-
-  margin-left: 8px;
-  margin-right: 8px;
-  }
-
-  #CalibrationGames{
-
-   visibility: collapse;
-   width: 800px;
-   flow-children: down;
-   padding-top: 16px;
-  }
-
-  .Calibrating #CalibrationGames{
-
-   visibility: visible;
+.Calibrating #CalibrationGames {
+    visibility: visible;
 }

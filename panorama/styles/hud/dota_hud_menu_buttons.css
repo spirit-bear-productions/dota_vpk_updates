@@ -1,150 +1,124 @@
-DOTAHudMenuButtons{
-
-  width: 100%;
+DOTAHudMenuButtons {
+    width: 100%;
 }
 
- DOTAHudMenuButtons Button{
+DOTAHudMenuButtons Button {
+    tooltip-position: bottom;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    vertical-align: middle;
+    horizontal-align: center;
+    background-position: center;
+    opacity: 0.5;
+    wash-color: #cdf;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    img-shadow: 0px 0px 3px 3 black;
+}
 
-  tooltip-position: bottom;
-  width: 30px;
-  height: 30px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 8px;
-  margin-right: 8px;
-  vertical-align: middle;
-  horizontal-align: center;
-  background-position: center;
-  opacity: 0.5;
-  wash-color: #CDF;
-  transition-property: opacity;
-  transition-duration: 0.2s;
-  img-shadow: 0px 0px 3px 3 black;
- }
+DOTAHudMenuButtons Button:hover {
+    opacity: 1;
+    wash-color: white;
+}
 
- DOTAHudMenuButtons Button:hover{
+DOTAHudMenuButtons Button:active {
+    opacity: 1;
+}
 
-  opacity: 1.0;
-  wash-color: white;
- }
+#ButtonBar {
+    flow-children: right;
+}
 
- DOTAHudMenuButtons Button:active{
+#Flyout {
+    flow-children: right;
+    margin-top: 0px;
+    margin-left: 150px;
+    background-color: #00000099;
+    visibility: collapse;
+}
 
-  opacity: 1.0;
- }
+.ShowFlyout #Flyout {
+    visibility: collapse;
+}
 
- #ButtonBar{
+#DashboardButton {
+    background-image: url("s2r://panorama/images/control_icons/return_to_game_png.vtex");
+    transform: scaleY(-1);
+}
 
-  flow-children: right;
- }
+#ToggleScoreboardButton {
+    background-image: url("s2r://panorama/images/control_icons/hamburger_png.vtex");
+    background-size: 26px;
+}
 
- #Flyout{
+#ToggleCombatLogButton {
+    background-image: url("s2r://panorama/images/hud/reborn/icon_combat_log_psd.vtex");
+    background-size: 26px;
+    visibility: collapse;
+}
 
-  flow-children: right;
-  margin-top: 0px;
-  margin-left: 150px;
-  background-color: #00000099;
-  visibility: collapse;
- }
+.HeroDemo #ToggleCombatLogButton {
+    visibility: visible;
+}
 
+#SettingsButton {
+    background-image: url("s2r://panorama/images/control_icons/gear_png.vtex");
+    background-size: 27px;
+    margin-top: 2px;
+}
 
- .ShowFlyout #Flyout{
+#GuideButton {
+    background-image: url("s2r://panorama/images/hud/reborn/guide_rest_png.vtex");
+}
 
-  visibility: collapse;
- }
+#CombatLogButton {
+    background-image: url("s2r://panorama/images/hud/reborn/icon_combat_log_psd.vtex");
+    background-size: 27px;
+}
 
- #DashboardButton{
+#SharedUnitsButton {
+    background-image: url("s2r://panorama/images/hud/reborn/sharedunit_rest_png.vtex");
+}
 
-  background-image: url( "s2r://panorama/images/control_icons/return_to_game_png.vtex");
-  transform: scaleY(-1);
- }
+#SharedContentButton {
+    background-image: url("s2r://panorama/images/hud/reborn/shared_content_rest_png.vtex");
+}
 
- #ToggleScoreboardButton{
+#ReportsButton {
+    background-color: yellow;
+}
 
-  background-image: url( "s2r://panorama/images/control_icons/hamburger_png.vtex");
-  background-size: 26px;
- }
+#AntiAddictionWarning {
+    visibility: collapse;
+}
 
- #ToggleCombatLogButton{
+.ShowAddictionWarning #AntiAddictionWarning {
+    visibility: visible;
+}
 
-  background-image: url( "s2r://panorama/images/hud/reborn/icon_combat_log_psd.vtex");
-  background-size: 26px;
-  visibility: collapse;
- }
+#SpectatorOptionsButton {
+    background-image: url("s2r://panorama/images/control_icons/eye_png.vtex");
+    visibility: collapse;
+}
 
- .HeroDemo #ToggleCombatLogButton{
+#DisconnectButton {
+    background-image: url("s2r://panorama/images/control_icons/x_close_png.vtex");
+}
 
-  visibility: visible;
- }
+.HIDE_TOP_MENU_BUTTONS #SettingsButton,
+.HIDE_TOP_MENU_BUTTONS #ToggleScoreboardButton,
+.HIDE_TOP_MENU_BUTTONS #ToggleCombatLogButton {
+    visibility: collapse;
+}
 
-
- #SettingsButton{
-
-  background-image: url( "s2r://panorama/images/control_icons/gear_png.vtex");
-  background-size: 27px;
-  margin-top: 2px;
- }
-
- #GuideButton{
-
-  background-image: url( "s2r://panorama/images/hud/reborn/guide_rest_png.vtex");
- }
-
- #CombatLogButton{
-
-  background-image: url( "s2r://panorama/images/hud/reborn/icon_combat_log_psd.vtex");
-  background-size: 27px;
- }
-
- #SharedUnitsButton{
-
-  background-image: url( "s2r://panorama/images/hud/reborn/sharedunit_rest_png.vtex");
- }
-
- #SharedContentButton{
-
-  background-image: url( "s2r://panorama/images/hud/reborn/shared_content_rest_png.vtex");
- }
-
- #ReportsButton{
-
-  background-color: yellow;
- }
-
-
- #AntiAddictionWarning{
-
-  visibility: collapse;
- }
-
- .ShowAddictionWarning #AntiAddictionWarning{
-
-  visibility: visible;
- }
-
- #SpectatorOptionsButton{
-
-  background-image: url( "s2r://panorama/images/control_icons/eye_png.vtex");
-  visibility: collapse;
- }
-
- #DisconnectButton{
-
-  background-image: url( "s2r://panorama/images/control_icons/x_close_png.vtex");
- }
-
- .HIDE_TOP_MENU_BUTTONS #SettingsButton,.HIDE_TOP_MENU_BUTTONS #ToggleScoreboardButton,.HIDE_TOP_MENU_BUTTONS #ToggleCombatLogButton{
-
-
-
-  visibility: collapse;
- }
-
- .IsLocalPlayerSpectatingOverwatch #SpectatorItemsButton,.IsLocalPlayerSpectatingOverwatch #SpectatorGraphButton,.IsLocalPlayerSpectatingOverwatch #SpectatorOptionsButton{
-
-
-
-  visibility: collapse;
+.IsLocalPlayerSpectatingOverwatch #SpectatorItemsButton,
+.IsLocalPlayerSpectatingOverwatch #SpectatorGraphButton,
+.IsLocalPlayerSpectatingOverwatch #SpectatorOptionsButton {
+    visibility: collapse;
 }

@@ -1,196 +1,168 @@
-.Reborn.CustomHUDSkin #unitname{
-
-  width: 159px;
-  transform:translateY(0px);
+.Reborn.CustomHUDSkin #unitname {
+    width: 159px;
+    transform: translateY(0px);
 }
 
+.Reborn.CustomHUDSkin #minimap_block {
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/bg_minimap_psd.vtex");
+}
 
- .Reborn.CustomHUDSkin #minimap_block{
+#GlyphScanContainer {
+    width: 85px;
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/glyph_scan_bg_psd.vtex");
+    background-size: 100%;
+    padding-right: 12px;
+}
 
-     background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/bg_minimap_psd.vtex");
- }
+.Reborn.CustomHUDSkin #ButtonSize {
+    width: 60px;
+    height: 45px;
 
- #GlyphScanContainer{
+    background-size: cover;
+    overflow: noclip;
+    background-color: #1a1c1d88;
 
-  width: 85px;
-  background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/glyph_scan_bg_psd.vtex");
-  background-size: 100%;
-  padding-right: 12px;
- }
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/inventory_item_well_psd.vtex");
+    box-shadow: fill #000000aa 0px 0px 2px 0px;
+}
 
- .Reborn.CustomHUDSkin #ButtonSize{
+.Reborn.CustomHUDSkin #ShopButton {
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/shop_launcher_button_psd.vtex");
+}
 
-  width: 60px;
-  height: 45px;
+.Reborn.CustomHUDSkin .ShopInRange #ShopButton {
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/shop_launcher_button_inrange_psd.vtex");
+}
 
-  background-size: cover;
-  overflow: noclip;
-     background-color: #1a1c1d88;
+.Reborn.CustomHUDSkin .ShopInRange #ShopButton:hover {
+    brightness: 2;
+}
 
-  margin-left: 3px;
-  margin-right: 3px;
-  margin-top: 2px;
-  margin-bottom: 2px;
+.Reborn.CustomHUDSkin #stats_container {
+    overflow: noclip;
+}
 
-  background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/inventory_item_well_psd.vtex");
-  box-shadow: fill #000000aa 0px 0px 2px 0px ;
- }
+.Reborn.CustomHUDSkin #right_flare {
+    overflow: noclip;
+}
 
- .Reborn.CustomHUDSkin #ShopButton{
+.Reborn.CustomHUDSkin #shop_launcher_bg {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    horizontal-align: right;
+    vertical-align: bottom;
+    z-index: -2;
+    width: 316px;
+    height: 66px;
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/gold_bg_psd.vtex");
+    background-size: 100%;
+}
 
-  background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/shop_launcher_button_psd.vtex");
- }
+.Reborn.CustomHUDSkin #InventoryBG {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/inventory_bg_psd.vtex");
+    border: 0px solid #00000000;
+    background-repeat: no-repeat;
+}
 
- .Reborn.CustomHUDSkin .ShopInRange #ShopButton{
+.Reborn.CustomHUDSkin #inventory_list_container {
+    background-color: #aaaaaa05;
+}
 
-  background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/shop_launcher_button_inrange_psd.vtex");
- }
+#RoshanTimer {
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/roshan_timer_bg_psd.vtex");
+}
 
- .Reborn.CustomHUDSkin .ShopInRange #ShopButton:hover{
+#RoshanTimerContainer {
+    vertical-align: bottom;
+    z-index: 2;
+    margin-bottom: 105px;
+    margin-left: 244px;
+}
 
-  brightness: 2;
- }
+.Reborn.CustomHUDSkin .BackpackSlot #ButtonWell {
+    box-shadow: inset #00000000 0px 0px 0px;
+}
 
- .Reborn.CustomHUDSkin #stats_container{
+.Reborn.CustomHUDSkin .AbilityInsetShadowRight {
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/ability_inset_shadow_psd.vtex");
+}
 
-  overflow: noclip;
- }
+.Reborn.CustomHUDSkin #right_flare {
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/right_flare_bg_psd.vtex");
+    width: 92px;
+    height: 145px;
+}
 
- .Reborn.CustomHUDSkin #right_flare{
+.Reborn.CustomHUDSkin #left_flare {
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/side_flare_tall_psd.vtex");
+    width: 52px;
+    height: 145px;
+    margin-right: -100px;
+}
 
-  overflow: noclip;
- }
+.Reborn.CustomHUDSkin #center_block {
+    padding-left: 150px;
+    padding-right: 150px;
+}
 
- .Reborn.CustomHUDSkin #shop_launcher_bg{
+.Reborn.CustomHUDSkin #center_bg {
+    width: 100%;
+    height: 145px;
 
-  margin-right: 0px;
-  margin-bottom: 0px;
-  horizontal-align: right;
-  vertical-align: bottom;
-  z-index: -2;
-  width: 316px;
-  height: 66px;
-  background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/gold_bg_psd.vtex");
-  background-size: 100%;
- }
+    margin-left: 110px;
+    margin-right: 154px;
 
- .Reborn.CustomHUDSkin #InventoryBG{
+    transition-duration: 0.05s;
+    transition-property: background-image;
+    transition-timing-function: ease-in-out;
 
-  width: 100%;
-  height: 100%;
-  background-size: 100%;
-  background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/inventory_bg_psd.vtex");
-  border: 0px solid #00000000;
-  background-repeat: no-repeat;
- }
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/ability_bg_psd.vtex");
+    background-size: 100%;
+    vertical-align: bottom;
+}
 
- .Reborn.CustomHUDSkin #inventory_list_container{
+.Reborn .InventoryItem #ButtonSize {
+    width: 60px;
+    height: 45px;
 
-  background-color: #AAAAAA05;
- }
+    background-size: cover;
+    overflow: noclip;
+    background-color: #1a1c1d88;
 
- #RoshanTimer{
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 
-  background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/roshan_timer_bg_psd.vtex");
- }
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/inventory_item_well_psd.vtex");
+    box-shadow: fill #000000aa 0px 0px 2px 0px;
+}
 
- #RoshanTimerContainer{
+.Reborn #TimeOfDayBG {
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/bg_timer_psd.vtex");
+    height: 51px;
+    width: 110px;
+}
 
-  vertical-align: bottom;
-  z-index: 2;
-  margin-bottom: 105px;
-  margin-left: 244px;
- }
+.Reborn .TopBarBackground,
+#TopBarRadiantTeam .TeamBackground,
+#TopBarDireTeam .TeamBackground {
+    background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/top_bar_team_bg_psd.vtex");
+    background-size: cover;
+}
 
- .Reborn.CustomHUDSkin .BackpackSlot #ButtonWell{
+#TopBarDireTeam .TeamBackground {
+    transform: scaleX(-1);
+}
 
-  box-shadow: inset #00000000 0px 0px 0px;
- }
-
- .Reborn.CustomHUDSkin .AbilityInsetShadowRight{
-
-  background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/ability_inset_shadow_psd.vtex");
- }
-
- .Reborn.CustomHUDSkin #right_flare{
-
-  background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/right_flare_bg_psd.vtex");
-  width: 92px;
-  height: 145px;
- }
-
- .Reborn.CustomHUDSkin #left_flare{
-
-  background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/side_flare_tall_psd.vtex");
-  width: 52px;
-  height: 145px;
-  margin-right: -100px;
- }
-
- .Reborn.CustomHUDSkin #center_block{
-
- padding-left: 150px;
- padding-right: 150px;
- }
-
- .Reborn.CustomHUDSkin #center_bg{
-
-  width: 100%;
-  height: 145px;
-
-  margin-left: 110px;
-  margin-right: 154px;
-
-  transition-duration: .05s;
-  transition-property: background-image;
-  transition-timing-function: ease-in-out;
-
-   background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/ability_bg_psd.vtex");
-  background-size: 100%;
-   vertical-align: bottom;
- }
-
- .Reborn .InventoryItem #ButtonSize{
-
-  width: 60px;
-  height: 45px;
-
-  background-size: cover;
-  overflow: noclip;
-     background-color: #1a1c1d88;
-
-  margin-left: 3px;
-  margin-right: 3px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-
-  background-image: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/inventory_item_well_psd.vtex");
-  box-shadow: fill #000000aa 0px 0px 2px 0px ;
- }
-
-
- .Reborn #TimeOfDayBG{
-
-     background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/bg_timer_psd.vtex");
-     height: 51px;
-     width: 110px;
- }
-
- .Reborn .TopBarBackground,#TopBarRadiantTeam .TeamBackground,#TopBarDireTeam .TeamBackground{
-
-
-
-  background-image: url( "s2r://panorama/images/hud/reborn/hud_custom_aghs2/top_bar_team_bg_psd.vtex");
-     background-size: cover;
- }
-
- #TopBarDireTeam .TeamBackground{
-
-  transform: scaleX(-1);
- }
-
- .Reborn.CustomHUDSkin #HUDSkinStatBranchGlow{
-
-  visibility: collapse;
+.Reborn.CustomHUDSkin #HUDSkinStatBranchGlow {
+    visibility: collapse;
 }

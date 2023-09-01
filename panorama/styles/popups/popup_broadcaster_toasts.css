@@ -1,163 +1,154 @@
+.ToastTextEntryHeader {
+    border: 2px solid #ffffff11;
+    max-width: 500px;
+    min-width: 340px;
+    height: 120px;
 
+    padding: 1px 1px 1px 1px;
 
- .ToastTextEntryHeader{
+    background-color: none;
 
-  border: 2px solid #ffffff11;
-  max-width: 500px;
-  min-width: 340px;
-  height: 120px;
+    color: white;
+    font-size: 16px;
+    text-overflow: clip;
+    vertical-align: middle;
+    white-space: normal;
+}
 
-  padding: 1px 1px 1px 1px;
+.TextEntryNormal {
+    border: 2px solid #ffffff11;
+    max-width: 500px;
+    min-width: 340px;
+    height: 120px;
 
-  background-color: none;
+    padding: 1px 1px 1px 1px;
 
-  color: white;
-  font-size: 16px;
-  text-overflow: clip;
-  vertical-align: middle;
-  white-space: normal;
- }
+    background-color: none;
 
- .TextEntryNormal{
+    color: white;
+    font-size: 16px;
+    text-overflow: clip;
+    vertical-align: middle;
+    white-space: normal;
+}
 
-  border: 2px solid #ffffff11;
-  max-width: 500px;
-  min-width: 340px;
-  height: 120px;
+RadioButton {
+    padding: 8px px 5px 5px;
+}
 
-  padding: 1px 1px 1px 1px;
+TextEntry #PlaceholderText {
+    color: white;
+    text-overflow: clip;
+    color: #555555;
+}
 
-  background-color: none;
+TextEntry:focus #PlaceholderText,
+TextEntry.HasInput #PlaceholderText {
+    opacity: 0;
+    width: 10px;
+}
 
-  color: white;
-  font-size: 16px;
-  text-overflow: clip;
-  vertical-align: middle;
-  white-space: normal;
- }
+#ToastTextEntryHeader {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
 
- RadioButton{
+#BroadcastContentsPanel {
+    width: 600px;
+}
 
-  padding: 8px px 5px 5px;
- }
+.TextEntryHeader {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
 
- TextEntry #PlaceholderText{
+#ToastStyleBasic,
+#ToastStyleSingleImage,
+#ToastStyleDualImage,
+#ToastStyleTable,
+#ToastStyleMultiline,
+#ToastStyleBroadcasterFact {
+    width: 100px;
+    height: 60px;
+    background-size: cover;
+}
 
-  color: white;
-  text-overflow: clip;
-  color: #555555;
- }
+#ToastStyleBasic {
+    background-image: url("s2r://panorama/images/broadcaster/simpletext_png.vtex");
+}
+#ToastStyleSingleImage {
+    background-image: url("s2r://panorama/images/broadcaster/singleimage_png.vtex");
+}
+#ToastStyleDualImage {
+    background-image: url("s2r://panorama/images/broadcaster/dualimage_png.vtex");
+}
+#ToastStyleTable {
+    background-image: url("s2r://panorama/images/broadcaster/table_png.vtex");
+}
+#ToastStyleMultiline {
+    background-image: url("s2r://panorama/images/broadcaster/multiline_png.vtex");
+}
+#ToastStyleBroadcasterFact {
+    background-image: url("s2r://panorama/images/broadcaster/fact_png.vtex");
+}
 
- TextEntry:focus #PlaceholderText,TextEntry.HasInput #PlaceholderText{
+.ToastSelection .RadioBox {
+    visibility: collapse;
+}
 
-  opacity: 0.0;
-  width: 10px;
- }
+.ToastSelection:selected {
+    sound: "ui_topmenu_activate";
+}
 
- #ToastTextEntryHeader{
+.ImagePlaceholder {
+    width: 94px;
+    height: 94px;
+    background-image: url("s2r://panorama/images/broadcaster/imageselector_png.vtex");
+    horizontal-align: left;
+}
 
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
- }
+.StyleTemplateSingleImage {
+    width: 500px;
+}
 
- #BroadcastContentsPanel{
+.TableToastEditPanel {
+    padding: 8px 5px 8px 5px;
+    width: fit-children;
+    width: 500px;
+    height: 300px;
+    opacity: 1;
+    horizontal-align: right;
+    background-color: #0b183788;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#302929fd), to(#000000ff));
+    vertical-align: middle;
+}
 
-  width: 600px;
- }
+.PopupTitle {
+    font-size: 24px;
+    font-weight: thin;
+    color: #afb4b4;
 
- .TextEntryHeader{
+    margin-bottom: 2px;
+    horizontal-align: center;
+}
 
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
- }
+.ToastDurationContainer {
+    width: fit-children;
+    height: fit-children;
+    margin-bottom: 10px;
+}
 
- #ToastStyleBasic,#ToastStyleSingleImage,#ToastStyleDualImage,#ToastStyleTable,#ToastStyleMultiline,#ToastStyleBroadcasterFact{
+.ToastDurationLabel {
+    margin-right: 10px;
+    vertical-align: center;
+}
 
+#ImageContainer {
+    width: fit-children;
+}
 
-
-
-
-
-  width: 100px;
-  height: 60px;
-  background-size: cover;
- }
-
- #ToastStyleBasic{  background-image: url( "s2r://panorama/images/broadcaster/simpletext_png.vtex");}
- #ToastStyleSingleImage{  background-image: url( "s2r://panorama/images/broadcaster/singleimage_png.vtex");}
- #ToastStyleDualImage{  background-image: url( "s2r://panorama/images/broadcaster/dualimage_png.vtex");}
- #ToastStyleTable{  background-image: url( "s2r://panorama/images/broadcaster/table_png.vtex");}
- #ToastStyleMultiline{  background-image: url( "s2r://panorama/images/broadcaster/multiline_png.vtex");}
- #ToastStyleBroadcasterFact{  background-image: url( "s2r://panorama/images/broadcaster/fact_png.vtex");}
-
- .ToastSelection .RadioBox{
-
-  visibility: collapse;
- }
-
- .ToastSelection:selected{
-
-  sound: "ui_topmenu_activate";
- }
-
- .ImagePlaceholder{
-
-  width: 94px;
-  height: 94px;
-  background-image: url( "s2r://panorama/images/broadcaster/imageselector_png.vtex");
-  horizontal-align: left;
- }
-
- .StyleTemplateSingleImage{
-
-  width: 500px;
- }
-
-
- .TableToastEditPanel{
-
-  padding: 8px 5px 8px 5px;
-  width: fit-children;
-  width: 500px;
-  height: 300px;
-  opacity: 1.0;
-  horizontal-align: right;
-  background-color: #0B183788;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #302929fd ), to( #000000ff ) );
-  vertical-align: middle;
- }
-
- .PopupTitle{
-
-     font-size: 24px;
-     font-weight: thin;
-     color: #afb4b4;
-
-  margin-bottom: 2px;
-     horizontal-align: center;
- }
-
- .ToastDurationContainer{
-
-  width: fit-children;
-  height: fit-children;
-  margin-bottom: 10px;
- }
-
- .ToastDurationLabel{
-
-  margin-right: 10px;
-  vertical-align: center;
- }
-
- #ImageContainer{
-
-  width: fit-children;
- }
-
- #BroadcastStyleSelection{
-
-  width: 800px;
+#BroadcastStyleSelection {
+    width: 800px;
 }

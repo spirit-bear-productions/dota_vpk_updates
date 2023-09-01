@@ -1,194 +1,174 @@
-DOTABroadcaster{
-
-  margin-top: 180px;
-  width: 450px;
-  horizontal-align: center;
-  background-color: bgHUDPanelB;
-  flow-children: down;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 3px;
-  box-shadow: fill #00000088 0px 0px 24px 0px;
+DOTABroadcaster {
+    margin-top: 180px;
+    width: 450px;
+    horizontal-align: center;
+    background-color: bgHUDPanelB;
+    flow-children: down;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: fill #00000088 0px 0px 24px 0px;
 }
 
- .Hidden{
+.Hidden {
+    visibility: collapse;
+}
 
-  visibility: collapse;
- }
+#SelectBroadcaster {
+    horizontal-align: center;
 
- #SelectBroadcaster{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: bluegreyTextBright;
+}
 
-  horizontal-align: center;
+#BroadcastersContainer {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    flow-children: down;
+}
 
-  font-size: 20px;
-  letter-spacing: 1px;
-  color: white;
-  text-transform: uppercase;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  font-weight: bold;
-  color: bluegreyTextBright;
- }
+#NoBroadcaster {
+    flow-children: right;
+    height: 40px;
+    margin-bottom: 28px;
+    margin-top: 6px;
+    border-radius: 1px;
+    background-color: #4d5c7644;
+}
 
- #BroadcastersContainer{
+#NoBroadcaster:hover,
+DOTABroadcasterSelection:hover {
+    brightness: 1.6;
+}
 
-  width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
-  flow-children: down;
- }
+#NoBroadcasterImage {
+    vertical-align: middle;
+    height: 28px;
+    width: 28px;
+    margin: 5px;
+    visibility: collapse;
+}
 
- #NoBroadcaster{
+#NoBroadcasterLabel {
+    margin-top: 1px;
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: bold;
+    color: bluegreyTextBright;
+}
 
-  flow-children: right;
-  height: 40px;
-  margin-bottom: 28px;
-  margin-top: 6px;
-  border-radius: 1px;
-  background-color: #4D5C7644;
- }
+DOTABroadcasterSelection,
+#NoBroadcaster {
+    horizontal-align: center;
 
- #NoBroadcaster:hover,DOTABroadcasterSelection:hover{
+    width: 400px;
 
-  brightness: 1.6;
- }
+    transition-property: brightness;
+    transition-duration: 0.15s;
+}
 
- #NoBroadcasterImage{
+DOTABroadcasterSelection {
+    flow-children: down;
+    height: 88px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    border-radius: 1px;
+    background-color: #4d5c7644;
+}
 
-  vertical-align: middle;
-  height: 28px;
-  width: 28px;
-  margin: 5px;
-  visibility: collapse;
- }
+#SelectionBroadcasters {
+    width: 100%;
+    height: 60px;
+    background-color: #00000066;
+    padding: 2px 2px 6px 2px;
+}
 
- #NoBroadcasterLabel{
+#SelectionTitle {
+    flow-children: right;
+    width: 100%;
+    padding: 4px;
+}
 
-  margin-top: 1px;
-  margin-left: 10px;
-  vertical-align: middle;
-  font-size: 18px;
-  font-weight: bold;
-  color: bluegreyTextBright;
- }
+.Broadcaster {
+    height: 24px;
+    width: 200px;
+    text-align: left;
+    padding-top: 4px;
+    padding-left: 4px;
+    flow-children: right;
+}
 
- DOTABroadcasterSelection,#NoBroadcaster{
+.BroadcasterName {
+    font-size: 16px;
+    color: bluegreyTextReg;
+    color: #5d6b81;
+    text-overflow: shrink;
+}
 
-  horizontal-align: center;
+#Broadcaster0 {
+    vertical-align: top;
+    horizontal-align: left;
+}
 
-  width: 400px;
+#Broadcaster1 {
+    vertical-align: top;
+    horizontal-align: right;
+}
 
-  transition-property: brightness;
-  transition-duration: 0.15s;
- }
+#Broadcaster2 {
+    vertical-align: bottom;
+    horizontal-align: left;
+}
 
- DOTABroadcasterSelection{
+#Broadcaster3 {
+    vertical-align: bottom;
+    horizontal-align: right;
+}
 
-  flow-children: down;
-  height: 88px;
-  margin-bottom: 6px;
-  margin-top: 6px;
-  border-radius: 1px;
-  background-color: #4D5C7644;
- }
+#LanguageFlag {
+    padding-left: 5px;
+    vertical-align: middle;
+    height: 15px;
+    width: 20px;
+}
 
- #SelectionBroadcasters{
+#TitleLabel {
+    width: fill-parent-flow(1);
+    font-size: 14px;
+    margin-top: 3px;
+    margin-left: 8px;
+    margin-right: 10px;
+    text-align: right;
+    color: #8199c5;
+    font-weight: bold;
+    font-style: italic;
+}
 
-  width: 100%;
-  height: 60px;
-  background-color: #00000066;
-  padding: 2px 2px 6px 2px;
- }
+#LanguageLabel {
+    margin-top: 1px;
+    margin-left: 4px;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: bold;
+    color: bluegreyTextBright;
+}
 
- #SelectionTitle{
-
-  flow-children: right;
-  width: 100%;
-  padding: 4px;
- }
-
- .Broadcaster{
-
-  height: 24px;
-  width: 200px;
-  text-align: left;
-  padding-top: 4px;
-  padding-left: 4px;
-  flow-children: right;
- }
-
- .BroadcasterName{
-
-  font-size: 16px;
-  color: bluegreyTextReg;
-  color: #5d6b81;
-  text-overflow: shrink;
- }
-
- #Broadcaster0{
-
-  vertical-align: top;
-  horizontal-align: left;
- }
-
- #Broadcaster1{
-
-  vertical-align: top;
-  horizontal-align: right;
- }
-
- #Broadcaster2{
-
-  vertical-align: bottom;
-  horizontal-align: left;
- }
-
- #Broadcaster3{
-
-  vertical-align: bottom;
-  horizontal-align: right;
- }
-
- #LanguageFlag{
-
-  padding-left: 5px;
-  vertical-align: middle;
-  height: 15px;
-  width: 20px;
- }
-
- #TitleLabel{
-
-  width: fill-parent-flow( 1.0 );
-  font-size: 14px;
-  margin-top: 3px;
-  margin-left: 8px;
-  margin-right: 10px;
-  text-align: right;
-  color: #8199C5;
-  font-weight: bold;
-  font-style: italic;
- }
-
- #LanguageLabel{
-
-  margin-top: 1px;
-  margin-left: 4px;
-  vertical-align: middle;
-  font-size: 18px;
-  font-weight: bold;
-  color: bluegreyTextBright;
- }
-
- .BroadcasterAvatar{
-
-  height: 22px;
-  width: 22px;
-  vertical-align: center;
-  margin-right: 5px;
-  background-image: url( "s2r://panorama/images/hud/reborn/inventory_panel_png.vtex");
-  background-size: 100%;
-  border-radius: 3px;
-  opacity: 0.7;
-  saturation: 0.7;
+.BroadcasterAvatar {
+    height: 22px;
+    width: 22px;
+    vertical-align: center;
+    margin-right: 5px;
+    background-image: url("s2r://panorama/images/hud/reborn/inventory_panel_png.vtex");
+    background-size: 100%;
+    border-radius: 3px;
+    opacity: 0.7;
+    saturation: 0.7;
 }

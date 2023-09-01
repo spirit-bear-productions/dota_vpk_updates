@@ -1,39 +1,32 @@
-.DetailsContainer{
-
-  flow-children: down;
+.DetailsContainer {
+    flow-children: down;
 }
 
- .TitleRow{
+.TitleRow {
+    flow-children: right;
+    border-bottom: 1px solid #ffffffff;
+    margin-bottom: 4px;
+}
 
-  flow-children: right;
-  border-bottom: 1px solid #FFFFFFFF;
-  margin-bottom: 4px;
- }
+.TitleRow > Label {
+    text-transform: uppercase;
+    color: white;
+}
 
- .TitleRow > Label{
+.DetailsRow {
+    flow-children: right;
+}
 
-  text-transform: uppercase;
-  color: white;
- }
+.DamageType {
+    width: 150px;
+}
 
- .DetailsRow{
+.DamagePre {
+    width: 100px;
+    text-align: right;
+}
 
-  flow-children: right;
- }
-
- .DamageType{
-
-  width: 150px;
- }
-
- .DamagePre{
-
-  width: 100px;
-  text-align: right;
- }
-
- .ReductionPercent{
-
-  width: 100px;
-  text-align: right;
+.ReductionPercent {
+    width: 100px;
+    text-align: right;
 }

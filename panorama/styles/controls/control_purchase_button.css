@@ -1,152 +1,122 @@
+.PurchaseItemButton {
+    vertical-align: center;
+    flow-children: right;
 
+    border-top: 1px solid #ffffff22;
+    border-left: 1px solid #ffffff11;
+    border-right: 1px solid #00000044;
+    border-bottom: 1px solid #00000088;
+    padding: 5px 14px 3px 14px;
+    min-width: 188px;
+    height: 39px;
 
+    transition-property: background-color;
+    transition-duration: 0.1s;
+}
 
+.Purchase {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#60862d), to(#3d5f1c));
+}
 
- .PurchaseItemButton{
+.Purchase:hover {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#80b33c), to(#649c2e));
+}
 
-  vertical-align: center;
-  flow-children: right;
+.Purchase:active {
+    brightness: 1.5;
+}
 
-  border-top: 1px solid #ffffff22;
-  border-left: 1px solid #ffffff11;
-  border-right: 1px solid #00000044;
-  border-bottom: 1px solid #00000088;
-  padding: 5px 14px 3px 14px;
-  min-width: 188px;
-  height: 39px;
+.Purchase:disabled {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#646666), to(#646666));
+}
 
-  transition-property: background-color;
-  transition-duration: .1s;
- }
+.Purchase:disabled:hover {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#646666), to(#646666));
+}
 
- .Purchase{
+.Purchase:disabled:active {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#646666), to(#646666));
+}
 
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #60862d ), to( #3d5f1c ));
- }
+PurchaseButton.OnMarket .PurchaseItemButton {
+    min-width: 170px;
+}
 
- .Purchase:hover{
+PurchaseButton.OnMarket .Purchase {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#307663), to(#245a4b));
+}
 
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #80b33c ), to( #649c2e ));
- }
+PurchaseButton.OnMarket .Purchase:hover {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#0a9163), to(#096449));
+}
 
- .Purchase:active{
+.PurchaseItemButton Label {
+    vertical-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
 
-  brightness: 1.5;
- }
+.Purchase Label {
+    horizontal-align: right;
+}
 
- .Purchase:disabled{
+.MarketButtonLabel {
+    horizontal-align: center;
+    vertical-align: center;
+    visibility: collapse;
+    margin-right: 10px;
+    color: #ffffffff;
+}
 
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #646666 ), to( #646666 ) );
- }
+PurchaseButton.OnMarket .MarketButtonLabel {
+    visibility: visible;
+}
 
- .Purchase:disabled:hover{
+.PurchaseButtonLabel {
+    margin-right: 10px;
+    visibility: visible;
+    color: #ffffffff;
+}
 
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #646666 ), to( #646666 ) );
- }
+PurchaseButton.OnMarket .PurchaseButtonLabel {
+    visibility: collapse;
+}
 
- .Purchase:disabled:active{
+PurchaseButton.OnSale .PurchaseOnSale {
+    visibility: visible;
+}
 
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #646666 ), to( #646666 ) );
- }
+.PurchaseOnSale {
+    margin-right: 10px;
+    visibility: collapse;
+    color: #ffffffff;
+}
 
- PurchaseButton.OnMarket .PurchaseItemButton{
+.RegularPriceLabel {
+    text-decoration: line-through;
+}
 
-     min-width: 170px;
- }
+.RegularPriceLabel {
+    color: #b0b0b0ff;
+}
 
- PurchaseButton.OnMarket .Purchase{
+.PurchasePrice {
+    color: #ffffffff;
+}
 
-     background-color: gradient( linear, 0% 0%, 0% 100%, from( #307663 ), to( #245a4b ));
- }
+.CancelPurchase {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#dd4a2999), to(#722217));
+}
 
- PurchaseButton.OnMarket .Purchase:hover{
+.CancelPurchase Label {
+    horizontal-align: center;
+    color: #ffffffff;
+}
 
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #0a9163 ), to( #096449 ));
- }
+.CancelPurchase:hover {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#dd4a29), to(#912b1d));
+}
 
- .PurchaseItemButton Label{
-
-  vertical-align: center;
-  font-size: 22px;
-     text-transform: uppercase;
- }
-
- .Purchase Label{
-
-     horizontal-align: right;
- }
-
- .MarketButtonLabel{
-
-  horizontal-align: center;
-  vertical-align: center;
-  visibility: collapse;
-  margin-right: 10px;
-  color: #FFFFFFFF;
- }
-
- PurchaseButton.OnMarket .MarketButtonLabel{
-
-  visibility: visible;
- }
-
- .PurchaseButtonLabel{
-
-  margin-right: 10px;
-  visibility: visible;
-  color: #FFFFFFFF;
- }
-
- PurchaseButton.OnMarket .PurchaseButtonLabel{
-
-  visibility: collapse;
- }
-
- PurchaseButton.OnSale .PurchaseOnSale{
-
-  visibility: visible;
- }
-
- .PurchaseOnSale{
-
-  margin-right: 10px;
-  visibility: collapse;
-  color: #FFFFFFFF;
- }
-
- .RegularPriceLabel{
-
-  text-decoration: line-through;
- }
-
- .RegularPriceLabel{
-
-  color: #B0B0B0FF;
- }
-
- .PurchasePrice{
-
-  color: #FFFFFFFF;
- }
-
-
- .CancelPurchase{
-
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #DD4A2999 ), to( #722217 ) );
- }
-
- .CancelPurchase Label{
-
-     horizontal-align: center;
-  color: #FFFFFFFF;
- }
-
- .CancelPurchase:hover{
-
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #DD4A29 ), to( #912b1d ) );
- }
-
- .CancelPurchase:active{
-
-  brightness: 1.5;
+.CancelPurchase:active {
+    brightness: 1.5;
 }

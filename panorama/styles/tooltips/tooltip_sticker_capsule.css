@@ -1,53 +1,44 @@
-#Contents{
-
-  flow-children: down;
-  width:  450px;
+#Contents {
+    flow-children: down;
+    width: 450px;
 }
 
- .StickerCapsuleContents{
+.StickerCapsuleContents {
+    width: 100%;
+    height: fit-children;
+    flow-children: down;
+}
 
-  width: 100%;
-  height:  fit-children;
-  flow-children: down;
- }
+.TeamContents,
+.LogoContents {
+    margin-top: 10px;
+    visibility: collapse;
+}
 
- .TeamContents,.LogoContents{
+.TooltipStickerType_Player .TeamContents {
+    visibility: visible;
+}
 
+.TooltipStickerType_Team .LogoContents {
+    visibility: visible;
+}
 
-  margin-top: 10px;
-  visibility: collapse;
- }
+.OddsList {
+    width: 100%;
+    height: fit-children;
+    flow-children: down;
+}
 
- .TooltipStickerType_Player .TeamContents{
+.OddItem {
+    width: 100%;
+    height: fit-children;
+}
 
-  visibility: visible;
- }
+.OddsName {
+    width: 30%;
+    horizontal-align: left;
+}
 
- .TooltipStickerType_Team .LogoContents{
-
-  visibility: visible;
- }
-
- .OddsList{
-
-  width: 100%;
-  height:  fit-children;
-  flow-children: down;
- }
-
- .OddItem{
-
-  width: 100%;
-  height:  fit-children;
- }
-
- .OddsName{
-
-  width: 30%;
-  horizontal-align: left;
- }
-
- .OddsValue{
-
-  horizontal-align: right;
+.OddsValue {
+    horizontal-align: right;
 }

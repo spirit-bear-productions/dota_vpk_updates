@@ -1,55 +1,47 @@
+.ContextMenuBattleReportColumns {
+    flow-children: down;
+    height: 640px;
+    overflow: squish scroll;
+}
 
- .ContextMenuBattleReportColumns{
+.Title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 2px;
+    color: #999;
+}
 
-  flow-children: down;
-  height: 640px;
-  overflow: squish scroll;
- }
+#ColumnList {
+    flow-children: down;
+}
 
- .Title{
+.StatsGroup {
+    flow-children: down;
+    margin: 4px 0px;
+}
+.StatsGroup .GroupList {
+    flow-children: down;
+}
 
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 16px;
-  margin-bottom: 2px;
-  color: #999;
- }
+.StatsGroup .GroupHeader {
+    margin: 6px 0px;
+    font-size: 20px;
+    color: whitesmoke;
+}
 
- #ColumnList{
+#TopBarSearchBox {
+    width: 100%;
+}
 
-  flow-children: down;
- }
-
- .StatsGroup{
-
-  flow-children: down;
-  margin: 4px 0px;
- }
-  .StatsGroup .GroupList{
-   flow-children: down;
-  }
-
-  .StatsGroup .GroupHeader{
-   margin: 6px 0px;
-   font-size: 20px;
-   color: whitesmoke;
-  }
-
-
- #TopBarSearchBox{
-
-  width: 100%;
- }
-
- #SearchButton{
-
-  background-image: url( "s2r://panorama/images/control_icons/icon_search_png.vtex");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 24px;
-  height: 24px;
-  vertical-align: center;
-  horizontal-align: right;
-  margin-right: 8px;
-  opacity: 0.4;
+#SearchButton {
+    background-image: url("s2r://panorama/images/control_icons/icon_search_png.vtex");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    vertical-align: center;
+    horizontal-align: right;
+    margin-right: 8px;
+    opacity: 0.4;
 }

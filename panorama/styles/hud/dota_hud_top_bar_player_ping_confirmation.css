@@ -1,82 +1,68 @@
+#PingConfirmationContainer Label {
+    color: white;
+}
 
- #PingConfirmationContainer Label{
+#PingTypeImage {
+    background-size: 100% 100%;
+    background-image: url("s2r://panorama/images/pings/ping_icon_attack_psd.vtex");
+    width: 30px;
+    height: 30px;
+    horizontal-align: center;
+    vertical-align: bottom;
+}
 
-  color: white;
- }
+.AgreeDisagreeButton:active {
+    opacity: 1;
+    color: yellow;
+}
 
- #PingTypeImage{
+.AgreeDisagreeButton:hover {
+    opacity: 0.75;
+}
 
-  background-size: 100% 100%;
-  background-image: url( "s2r://panorama/images/pings/ping_icon_attack_psd.vtex");
-  width: 30px;
-  height: 30px;
-  horizontal-align: center;
-  vertical-align: bottom;
- }
+.AgreeDisagreeButton {
+    opacity: 0.5;
+    background-size: 100% 100%;
+    flow-children: right;
+}
 
- .AgreeDisagreeButton:active{
+#DisagreeButton {
+    visibility: collapse;
+}
 
-  opacity: 1;
-  color: yellow;
- }
+.AgreeDisagreeButton Label {
+    margin-left: 3px;
+}
 
- .AgreeDisagreeButton:hover{
+.Image {
+    opacity: 0.5;
+    background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
+    horizontal-align: center;
+    vertical-align: bottom;
+}
 
-  opacity: .75;
- }
+#AgreeImage {
+    background-image: url("s2r://panorama/images/icon_thumb_up_png.vtex");
+}
 
- .AgreeDisagreeButton{
+#DisagreeImage {
+    background-image: url("s2r://panorama/images/icon_thumb_down_png.vtex");
+}
 
-  opacity: 0.5;
-  background-size: 100% 100%;
-  flow-children: right;
- }
+DOTATopBarPlayerPingConfirmation #PingConfirmationContainer {
+    width: 51px;
+    vertical-align: bottom;
+    margin-top: 44px;
+    margin-bottom: 98px;
+    margin-left: 9px;
+    flow-children: down;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+}
 
-
- #DisagreeButton{
-
-  visibility: collapse;
- }
-
- .AgreeDisagreeButton Label{
-
-  margin-left: 3px;
- }
-
- .Image{
-
-  opacity: 0.5;
-  background-size: 100% 100%;
-  width: 20px;
-  height: 20px;
-  horizontal-align: center;
-  vertical-align: bottom;
- }
-
- #AgreeImage{
-
-  background-image: url( "s2r://panorama/images/icon_thumb_up_png.vtex");
- }
-
- #DisagreeImage{
-
-  background-image: url( "s2r://panorama/images/icon_thumb_down_png.vtex");
- }
-
- DOTATopBarPlayerPingConfirmation #PingConfirmationContainer{
-
-  width: 51px;
-  vertical-align: bottom;
-  margin-top: 44px;
-  margin-bottom: 98px;
-  margin-left: 9px;
-  flow-children: down;
-  opacity: 0;
-  transition-property: opacity;
-  transition-duration: 0.2s;
- }
-
- DOTATopBarPlayerPingConfirmation #PingConfirmationContainer.show{
-
-  opacity: 1;
+DOTATopBarPlayerPingConfirmation #PingConfirmationContainer.show {
+    opacity: 1;
 }

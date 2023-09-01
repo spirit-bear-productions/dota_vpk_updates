@@ -1,117 +1,102 @@
+.DOTATooltipTI10EventGameBlessing {
+    width: 350px;
+    height: fit-children;
+    min-height: 130px;
+    flow-children: down;
+}
 
- .DOTATooltipTI10EventGameBlessing{
+#LeftArrow {
+    wash-color: #0d1e33;
+}
 
-     width: 350px;
-  height: fit-children;
-     min-height: 130px;
-  flow-children: down;
- }
+#Contents {
+    padding: 10px 16px;
+    background-color: #0d1e33;
+    border: 0px solid #0d1e33;
+}
 
+.PointsLabel {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
 
- #LeftArrow{
-  wash-color: #0D1E33;
- }
+.BlessingStatus {
+    color: #dedede;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
- #Contents{
+.BlessingName {
+    color: #ffffff;
+    font-weight: semi-bold;
 
-  padding: 10px 16px;
-  background-color: #0D1E33;
-  border: 0px solid #0D1E33;
- }
+    font-size: 20px;
+}
 
- .PointsLabel{
+.BlessingDescription {
+    font-size: 20px;
+    color: #dedede;
+}
 
-  color: white;
-  letter-spacing: 2px;
-  font-size: 14px;
-  text-transform: uppercase;
- }
+#BlessingStatusContainer {
+    width: 100%;
+    flow-children: right;
+}
 
- .BlessingStatus{
-  color: #dedede;
-  text-transform: uppercase;
-  letter-spacing: 1px;
- }
+#BlessingCostContainer {
+    width: fit-children;
+    horizontal-align: right;
+    flow-children: right;
+}
 
- .BlessingName{
-  color: #ffffff;
-  font-weight: semi-bold;
+#BlessingCost {
+    font-weight: semi-bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-top: 2px;
+}
 
-  font-size: 20px;
- }
+.CannotAfford #BlessingCost {
+    color: red;
+}
 
- .BlessingDescription{
-  font-size: 20px;
-  color: #dedede;
- }
+.ArcaneFragmentIcon {
+    height: 24px;
+    width: 24px;
+}
 
- #BlessingStatusContainer{
+#BlessingStatusActive {
+    visibility: collapse;
 
-  width: 100%;
-  flow-children: right;
- }
+    color: #ffffff;
+    text-shadow: 0px 0px 4px 1 #41a0f2;
+    font-weight: semi-bold;
+}
 
- #BlessingCostContainer{
+#BlessingStatusAvailable {
+    visibility: collapse;
+    color: #41a0f2;
 
-  width: fit-children;
-  horizontal-align: right;
-  flow-children: right;
- }
+    font-weight: semi-bold;
+}
 
- #BlessingCost{
-  font-weight: semi-bold;
-  letter-spacing: 1px;
-  color: #ffffff;
-  margin-top: 2px;
- }
+#BlessingStatusLocked {
+    visibility: collapse;
+    font-style: italic;
+    color: #999999;
+}
 
- .CannotAfford #BlessingCost{
-  color: red;
- }
+.IsActive #BlessingStatusActive {
+    visibility: visible;
+}
 
- .ArcaneFragmentIcon{
+.IsLocked #BlessingStatusLocked {
+    visibility: visible;
+}
 
-  height: 24px;
-  width: 24px;
- }
-
- #BlessingStatusActive{
-
-  visibility: collapse;
-
-  color: #ffffff;
-  text-shadow: 0px 0px 4px 1.0 #41A0F2;
-  font-weight: semi-bold;
- }
-
- #BlessingStatusAvailable{
-
-  visibility: collapse;
-  color: #41A0F2;
-
-  font-weight: semi-bold;
- }
-
-
- #BlessingStatusLocked{
-
-  visibility: collapse;
-  font-style: italic;
-  color: #999999;
- }
-
- .IsActive #BlessingStatusActive{
-
-  visibility: visible;
- }
-
- .IsLocked #BlessingStatusLocked{
-
-  visibility: visible;
- }
-
- .IsPurchasable #BlessingStatusAvailable,.CannotAfford #BlessingStatusAvailable{
-
-
-  visibility: visible;
+.IsPurchasable #BlessingStatusAvailable,
+.CannotAfford #BlessingStatusAvailable {
+    visibility: visible;
 }

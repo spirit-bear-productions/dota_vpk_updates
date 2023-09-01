@@ -1,47 +1,39 @@
+@define QuickSearchFadeOutTime: 1.0s;
 
- @define QuickSearchFadeOutTime: 1.0s;
+DOTAQuickSearch {
+    vertical-align: middle;
+    width: 100%;
 
- DOTAQuickSearch{
+    transition-property: pre-transform-scale2d, opacity;
+    transition-duration: 0.2s;
+}
 
-     vertical-align: middle;
-     width: 100%;
+DOTAQuickSearch Label {
+    width: 100%;
+    text-align: center;
+    text-overflow: clip;
+    font-size: 100px;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+}
 
-  transition-property: pre-transform-scale2d, opacity;
-     transition-duration: 0.2s;
- }
+DOTAQuickSearch.Hidden {
+    pre-transform-scale2d: 2;
+    wash-color: red;
+}
 
- DOTAQuickSearch Label{
+@keyframes 'QuickSearchFadeOut' {
+    0% {
+        opacity: 1;
+    }
 
-  width: 100%;
-     text-align: center;
-     text-overflow: clip;
-     font-size: 100px;
-     font-weight: normal;
-     color: white;
-     text-transform: uppercase;
- }
+    100% {
+        opacity: 0;
+    }
+}
 
- DOTAQuickSearch.Hidden{
-
-  pre-transform-scale2d: 2;
-  wash-color: red;
- }
-
- @keyframes 'QuickSearchFadeOut'{
-
-  0%{
-
-         opacity: 1.0;
-  }
-
-  100%{
-
-         opacity: 0.0;
-  }
- }
-
- .QuickSearchAnimation{
-
-     animation-name: QuickSearchFadeOut;
-     animation-duration: QuickSearchFadeOutTime;
+.QuickSearchAnimation {
+    animation-name: QuickSearchFadeOut;
+    animation-duration: QuickSearchFadeOutTime;
 }

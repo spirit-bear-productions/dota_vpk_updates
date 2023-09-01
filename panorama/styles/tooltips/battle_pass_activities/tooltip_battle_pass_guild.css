@@ -1,13 +1,11 @@
-@import  url( "s2r://panorama/styles/tooltips/battle_pass_activities/tooltip_battle_pass_shared.vcss_c");
+@import url("s2r://panorama/styles/tooltips/battle_pass_activities/tooltip_battle_pass_shared.vcss_c");
 
- .MainContents{
+.MainContents {
+    flow-children: right;
+}
 
-     flow-children: right;
- }
-
- .SingleStat{
-
-     flow-children: down;
-     margin: 0px 6px;
-     width: 250px;
+.SingleStat {
+    flow-children: down;
+    margin: 0px 6px;
+    width: 250px;
 }

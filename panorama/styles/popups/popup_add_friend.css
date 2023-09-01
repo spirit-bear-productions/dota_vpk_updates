@@ -1,75 +1,66 @@
+#AddFriend {
+    background-color: black;
+    padding: 8px;
+    max-height: 300px;
+    width: 350px;
+    overflow: squish scroll;
+    horizontal-align: center;
+}
 
+#FriendIDTextEntry {
+    border: 1px solid #ffffff11;
+    background-color: black;
+    width: 360px;
+    horizontal-align: center;
+}
 
- #AddFriend{
+#FriendIDEntry {
+    width: fit-children;
+    horizontal-align: center;
+}
 
-  background-color: black;
-  padding: 8px;
-  max-height: 300px;
-  width: 350px;
-  overflow: squish scroll;
-  horizontal-align: center;
- }
+TextEntry {
+    border: 0px solid #ffffff11;
+    width: fit-children;
+    height: 64px;
 
- #FriendIDTextEntry{
+    padding: 5px 7px 3px 7px;
 
-  border: 1px solid #ffffff11;
-  background-color: black;
-  width: 360px;
-  horizontal-align: center;
- }
+    background-color: none;
 
- #FriendIDEntry{
+    color: white;
+    font-size: 45px;
+    text-align: right;
+    text-overflow: clip;
+    white-space: nowrap;
+}
 
-  width: fit-children;
-  horizontal-align: center;
- }
+TextEntry #PlaceholderText {
+    opacity: 1;
+    width: 360px;
+    padding: 10px;
+    transition-property: opacity;
+    transition-duration: 0s;
 
- TextEntry{
+    margin-top: -2px;
 
-  border: 0px solid #ffffff11;
-  width: fit-children;
-  height: 64px;
+    color: #555555;
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
 
-  padding: 5px 7px 3px 7px;
+TextEntry:focus #PlaceholderText,
+TextEntry.HasInput #PlaceholderText {
+    opacity: 0;
+    width: 10px;
+}
 
-  background-color: none;
+#FriendIDNumber {
+    color: white;
+}
 
-  color: white;
-  font-size: 45px;
-  text-align: right;
-  text-overflow: clip;
-  white-space: nowrap;
- }
-
- TextEntry #PlaceholderText{
-
-  opacity: 1.0;
-  width: 360px;
-  padding: 10px;
-  transition-property: opacity;
-  transition-duration: 0.0s;
-
-  margin-top: -2px;
-
-  color: #555555;
-  font-size: 20px;
-  vertical-align: middle;
-  text-align: center;
- }
-
- TextEntry:focus #PlaceholderText,TextEntry.HasInput #PlaceholderText{
-
-  opacity: 0.0;
-  width: 10px;
- }
-
- #FriendIDNumber{
-
-  color: white;
- }
-
- #FriendIDNumberContainer{
-
-  horizontal-align: center;
-  margin-top: 16px;
+#FriendIDNumberContainer {
+    horizontal-align: center;
+    margin-top: 16px;
 }

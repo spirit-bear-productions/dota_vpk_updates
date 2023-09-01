@@ -1,55 +1,45 @@
-#Contents{
-
-  flow-children: down;
+#Contents {
+    flow-children: down;
 }
 
- .Row{
+.Row {
+    margin-right: 4px;
+    margin-bottom: 2px;
+    padding: 2px;
+}
 
-  margin-right: 4px;
-  margin-bottom: 2px;
-  padding: 2px;
- }
+.Row.Dire {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#e74d088f), to(#00000000));
+}
 
- .Row.Dire{
+.Row.Radiant {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#9be40c22), to(#00000000));
+}
 
-  background-color: gradient( linear, 0% 0%, 100% 0%, from( #E74D088F ), to( #00000000) );
- }
+.Row DOTAItemImage {
+    width: 50px;
+    horizontal-align: left;
+}
 
- .Row.Radiant{
+.Row Label {
+    color: white;
+    font-size: 16px;
+}
 
-  background-color: gradient( linear, 0% 0%, 100% 0%, from( #9BE40C22 ), to( #00000000) );
- }
+.ItemName {
+    margin-left: 56px;
+    text-transform: uppercase;
+}
 
- .Row DOTAItemImage{
+.PurchaseTime {
+    margin-left: 56px;
+    margin-top: 20px;
+}
 
-  width: 50px;
-  horizontal-align: left;
- }
+#ColorBar {
+    vertical-align: center;
 
- .Row Label{
-
-  color: white;
-  font-size: 16px;
- }
-
- .ItemName{
-
-  margin-left: 56px;
-  text-transform: uppercase;
- }
-
-
- .PurchaseTime{
-
-  margin-left: 56px;
-  margin-top: 20px;
- }
-
- #ColorBar{
-
-  vertical-align: center;
-
-  height: 2px;
-  margin-right: 2px;
-  width: 20px;
+    height: 2px;
+    margin-right: 2px;
+    width: 20px;
 }

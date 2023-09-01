@@ -1,188 +1,231 @@
-DOTAHeroDisplay{
-
-  horizontal-align: left;
-  width: 110px;
-  height: 500px;
-  margin-left: 20px;
-  z-index: -1;
+DOTAHeroDisplay {
+    horizontal-align: left;
+    width: 110px;
+    height: 500px;
+    margin-left: 20px;
+    z-index: -1;
 }
 
- .Hidden{
+.Hidden {
+    visibility: collapse;
+}
 
-  visibility: collapse;
- }
+#HeroDisplayRowContainer {
+    width: 110px;
+    height: fit-children;
+    flow-children: down;
+}
 
- #HeroDisplayRowContainer{
+DOTAHeroDisplayRow {
+    width: 89px;
+    height: 72px;
+    vertical-align: top;
+    margin: 2px;
+}
 
-  width: 110px;
-  height: fit-children;
-  flow-children: down;
- }
+#HotkeyLabel {
+    font-size: 16px;
+    z-index: 10;
+    color: white;
+    horizontal-align: right;
+    margin-top: 18px;
+    margin-right: 1px;
+    visibility: collapse;
+}
 
- DOTAHeroDisplayRow{
+@keyframes 'HeroDisplayLowHealth' {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
-  width: 89px;
-  height: 72px;
-  vertical-align: top;
-  margin: 2px;
- }
+@keyframes 'HeroDisplayRecentlyAttacked' {
+    0% {
+        opacity: 0.7;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
- #HotkeyLabel{
+#HeroDisplayContainer {
+    box-shadow: inset #000000 0px 1px 0px 1px;
+    width: 89px;
+    height: 50px;
+    z-index: 2;
+    horizontal-align: center;
+    vertical-align: middle;
+}
 
-  font-size: 16px;
-  z-index:10;
-  color: white;
-  horizontal-align: right;
-  margin-top: 18px;
-  margin-right: 1px;
-  visibility: collapse;
- }
+.LowHealth #HealthProgress .ProgressBarLeft {
+    animation-name: HeroDisplayLowHealth;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    visibility: visible;
+    background-color: gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(#425d25),
+        color-stop(0.2, #6c993d),
+        color-stop(0.5, #719f40),
+        to(#425d25)
+    );
+}
 
- @keyframes 'HeroDisplayLowHealth'{
+.RecentlyAttacked #RecentlyDamaged {
+    animation-name: HeroDisplayRecentlyAttacked;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    visibility: visible;
+}
 
-     0%{    opacity: 1.0;}
-  50%{   opacity: 0.2;}
-     100%{  opacity: 1.0;}
- }
+#RecentlyDamaged {
+    background-color: red;
+    z-index: 3;
+    visibility: collapse;
+    opacity: 0.9;
+    width: 89px;
+    height: 50px;
+    horizontal-align: center;
+    vertical-align: middle;
+}
 
- @keyframes 'HeroDisplayRecentlyAttacked'{
+.MainSelected #HeroDisplayContainer {
+    border: 1px solid white;
+}
 
-     0%{    opacity: 0.7;}
-  70%{   opacity: 0.0;}
-     100%{  opacity: 0.0;}
- }
+.Selected #HeroDisplayImage {
+    brightness: 2;
+}
 
- #HeroDisplayContainer{
+.MainSelected #HeroDisplayImage {
+    brightness: 2;
+}
 
-  box-shadow: inset #000000 0px 1px 0px 1px;
-  width: 89px;
-  height: 50px;
-  z-index: 2;
-  horizontal-align: center;
-  vertical-align: middle;
- }
+.MainSelected {
+    color: #000000;
+}
 
- .LowHealth #HealthProgress .ProgressBarLeft{
+#HeroDisplayImage {
+    brightness: 0.4;
 
-  animation-name: HeroDisplayLowHealth;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 1.0s;
-  visibility: visible;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #425d25  ), color-stop( 0.2, #6c993d ), color-stop( .5, #719f40), to( #425d25) );
- }
+    height: 100%;
+    width: 100%;
+}
 
- .RecentlyAttacked #RecentlyDamaged{
+#ProgressContainer {
+    margin-top: 2px;
+    width: 100%;
+    height: 12px;
+    flow-children: down;
+    vertical-align: bottom;
+    brightness: 2;
+}
 
-  animation-name: HeroDisplayRecentlyAttacked;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 0.8s;
-  visibility: visible;
- }
+#HealthProgress,
+#ManaProgress,
+#ChannelProgress {
+    width: 100%;
+    border: 0px;
+    border-radius: 0px;
+}
 
- #RecentlyDamaged{
+#ManaProgress {
+    height: 4px;
+}
 
-  background-color: red;
-  z-index: 3;
-  visibility: collapse;
-  opacity: 0.9;
-     width: 89px;
-     height: 50px;
-     horizontal-align: center;
-     vertical-align: middle;
- }
+#HealthProgress {
+    height: 8px;
+}
 
- .MainSelected #HeroDisplayContainer{
+#ChannelProgress {
+    visibility: collapse;
+    height: 2px;
+}
 
-  border: 1px solid white;
- }
+#ManaProgress .ProgressBarLeft {
+    border-radius: 0px;
+    background-color: gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(#2b4287),
+        color-stop(0.2, #4165ce),
+        color-stop(0.5, #4a73ea),
+        to(#2b4287)
+    );
+}
 
- .Selected #HeroDisplayImage{
+#ManaProgress .ProgressBarRight {
+    background-color: gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(#101932),
+        color-stop(0.2, #172447),
+        color-stop(0.5, #162244),
+        to(#101932)
+    );
+}
 
-  brightness: 2.0;
- }
+#HealthProgress .ProgressBarLeft {
+    border-radius: 0px;
+    background-color: gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(#425d25),
+        color-stop(0.2, #6c993d),
+        color-stop(0.5, #719f40),
+        to(#425d25)
+    );
+}
 
- .MainSelected #HeroDisplayImage{
+#HealthProgress .ProgressBarRight {
+    background-color: gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(#17200d),
+        color-stop(0.2, #222e13),
+        color-stop(0.5, #1e2911),
+        to(#17200d)
+    );
+}
 
-  brightness: 2.0;
- }
+#ChannelProgress .ProgressBarLeft {
+    border-radius: 0px;
+    background-color: gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(#425d25),
+        color-stop(0.2, #6c993d),
+        color-stop(0.5, #719f40),
+        to(#425d25)
+    );
+}
 
- .MainSelected{
-
-  color: #000000;
- }
-
- #HeroDisplayImage{
-
-  brightness: 0.4;
-
-  height: 100%;
-  width: 100%;
- }
-
- #ProgressContainer{
-
-  margin-top: 2px;
-  width: 100%;
-  height: 12px;
-  flow-children: down;
-  vertical-align: bottom;
-  brightness: 2.0;
- }
-
- #HealthProgress,#ManaProgress,#ChannelProgress{
-
-  width: 100%;
-  border: 0px;
-  border-radius: 0px;
- }
-
- #ManaProgress{
-
-  height: 4px;
- }
-
- #HealthProgress{
-
-  height: 8px;
- }
-
- #ChannelProgress{
-
-  visibility: collapse;
-  height: 2px;
- }
-
- #ManaProgress .ProgressBarLeft{
-
-  border-radius: 0px;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #2b4287 ), color-stop( 0.2, #4165ce ), color-stop( .5, #4a73ea), to( #2b4287 ) );
- }
-
- #ManaProgress .ProgressBarRight{
-
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #101932 ), color-stop( 0.2, #172447 ), color-stop( .5, #162244), to( #101932 ) );
- }
-
- #HealthProgress .ProgressBarLeft{
-
-  border-radius: 0px;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #425d25  ), color-stop( 0.2, #6c993d ), color-stop( .5, #719f40), to( #425d25) );
- }
-
- #HealthProgress .ProgressBarRight{
-
-     background-color: gradient( linear, 0% 0%, 0% 100%, from( #17200d  ), color-stop( 0.2, #222e13 ), color-stop( .5, #1e2911), to( #17200d) );
- }
-
- #ChannelProgress .ProgressBarLeft{
-
-  border-radius: 0px;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #425d25  ), color-stop( 0.2, #6c993d ), color-stop( .5, #719f40), to( #425d25) );
- }
-
- #ChannelProgress .ProgressBarRight{
-
-     background-color: gradient( linear, 0% 0%, 0% 100%, from( #17200d  ), color-stop( 0.2, #222e13 ), color-stop( .5, #1e2911), to( #17200d) );
+#ChannelProgress .ProgressBarRight {
+    background-color: gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(#17200d),
+        color-stop(0.2, #222e13),
+        color-stop(0.5, #1e2911),
+        to(#17200d)
+    );
 }

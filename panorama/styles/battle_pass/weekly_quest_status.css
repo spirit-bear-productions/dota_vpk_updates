@@ -1,63 +1,56 @@
-  @import url( "s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 
- .WeeklyChallengeProgressLabel{
+.WeeklyChallengeProgressLabel {
+    vertical-align: middle;
+    horizontal-align: center;
+    margin-top: 90px;
+    font-weight: thin;
+    font-size: 16px;
+    color: #9e9e97;
+    width: 118px;
+    text-align: center;
+}
 
-     vertical-align: middle;
-     horizontal-align: center;
-     margin-top: 90px;
-     font-weight: thin;
-     font-size: 16px;
-     color: #9E9E97;
-  width: 118px;
-  text-align: center;
- }
+#ChallengeProgress {
+    height: 10px;
+    width: 120px;
+    horizontal-align: center;
+    vertical-align: middle;
+    margin-top: 40px;
+    border-radius: 50px;
+}
 
- #ChallengeProgress{
+#ChallengeProgress .ProgressBarLeft {
+    background-color: #f7b67f;
 
-     height: 10px;
-     width: 120px;
-     horizontal-align: center;
-     vertical-align: middle;
-     margin-top: 40px;
-     border-radius: 50px;
- }
+    background-color: #baf77f;
+    box-shadow: none;
 
- #ChallengeProgress .ProgressBarLeft{
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(defaultColor), to(accentColorBright));
+    box-shadow: none;
+    border-radius: 50px;
 
+    background-color: accentColor;
+}
 
-  background-color: #F7B67F;
+#ChallengeProgress .ProgressBarRight {
+    background-color: black;
+}
 
+.QuestDataNotPopulated #PreviewNameText {
+    visibility: visible;
+}
 
-  background-color: #baf77f;
-  box-shadow: none;
+.QuestDataNotPopulated .SideQuestDesc,
+.QuestDataNotPopulated .WeeklyChallengeProgressLabel,
+.QuestDataNotPopulated #ChallengeProgress,
+#PreviewNameText {
+    visibility: collapse;
+}
 
-
-  background-color: gradient( linear, 0% 0%, 100% 0%, from( defaultColor ), to( accentColorBright ) );
-     box-shadow: none;
-     border-radius: 50px;
-
-     background-color: accentColor;
- }
-
-
- #ChallengeProgress .ProgressBarRight{
-
-  background-color: black;
- }
-
- .QuestDataNotPopulated #PreviewNameText{
-
-  visibility: visible;
- }
-
- .QuestDataNotPopulated .SideQuestDesc,.QuestDataNotPopulated .WeeklyChallengeProgressLabel,.QuestDataNotPopulated #ChallengeProgress,#PreviewNameText{
-
-  visibility: collapse;
- }
-
- .SideQuestDesc{
-     font-size: 16px;
-     color: #ffffff90;
-     margin-left: 15px;
-     height: 100px;
+.SideQuestDesc {
+    font-size: 16px;
+    color: #ffffff90;
+    margin-left: 15px;
+    height: 100px;
 }

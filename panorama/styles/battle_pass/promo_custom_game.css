@@ -1,42 +1,36 @@
-  @import url( "s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 
+.ChallengeCompleted #HeroMovie {
+    saturation: 0;
+    wash-color: #4b7dbd;
+}
 
- .ChallengeCompleted #HeroMovie{
+.DailyHeroText {
+    color: accentColorBright;
 
-  saturation: 0;
-  wash-color: #4B7DBD;
- }
+    width: 120px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
- .DailyHeroText{
+.QuestDataNotPopulated #PreviewNameText {
+    visibility: visible;
+    width: 80%;
+    font-size: 16px;
+    margin-top: 4px;
+}
 
-  color: accentColorBright;
+.QuestDataNotPopulated #HeroName,
+#PreviewNameText {
+    visibility: collapse;
+}
 
-  width: 120px;
-  text-transform: uppercase;
-     letter-spacing: 1px;
- }
+.BigSideQuestBox #HeroMovie {
+    width: 131px;
+    height: 180px;
+}
 
- .QuestDataNotPopulated #PreviewNameText{
-
-  visibility: visible;
-  width: 80%;
-  font-size: 16px;
-  margin-top: 4px;
- }
-
- .QuestDataNotPopulated #HeroName,#PreviewNameText{
-
-  visibility: collapse;
- }
-
- .BigSideQuestBox #HeroMovie{
-
-  width: 131px;
-  height: 180px;
- }
-
- .BigSideQuestBox #HeroName{
-
-  margin-top: 10px;
-  horizontal-align: left;
+.BigSideQuestBox #HeroName {
+    margin-top: 10px;
+    horizontal-align: left;
 }

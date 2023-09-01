@@ -1,59 +1,48 @@
-DOTAItemTestingPage{
-
-  width: 100%;
-  height: 100%;
+DOTAItemTestingPage {
+    width: 100%;
+    height: 100%;
 }
 
+#LargeModelPreview {
+    width: 60%;
+    height: 100%;
+    opacity-mask: url("s2r://panorama/images/masks/hero_model_opacity_mask_png.vtex");
 
- #LargeModelPreview{
+    transform: translateY(-70px) translateX(-45px);
+}
 
-  width: 60%;
-  height: 100%;
-  opacity-mask: url( "s2r://panorama/images/masks/hero_model_opacity_mask_png.vtex");
+#Controls {
+    horizontal-align: right;
+    width: 800px;
+    margin-top: 200px;
+    flow-children: down;
+}
 
+#SetName {
+    font-size: 40px;
+    color: white;
+    visibility: collapse;
+    font-weight: bold;
+}
 
-  transform: translateY( -70px ) translateX( -45px );
- }
+.TestingSet #SetName {
+    visibility: visible;
+}
 
- #Controls{
+#ItemComponents {
+    flow-children: down;
+    margin-left: 16px;
+}
 
-  horizontal-align: right;
-  width: 800px;
-  margin-top: 200px;
-  flow-children: down;
- }
+.ItemComponent {
+    flow-children: right;
+}
 
- #SetName{
+.ItemComponent #EconItem {
+    ui-scale: 50%;
+}
 
-  font-size: 40px;
-  color: white;
-  visibility: collapse;
-  font-weight: bold;
- }
-
- .TestingSet #SetName{
-
-  visibility: visible;
- }
-
- #ItemComponents{
-
-  flow-children: down;
-  margin-left: 16px;
- }
-
- .ItemComponent{
-
-  flow-children: right;
- }
-
- .ItemComponent #EconItem{
-
-  ui-scale: 50%;
- }
-
- .ItemComponent .ItemComponentName{
-
-  vertical-align: middle;
-  margin-left: 4px;
+.ItemComponent .ItemComponentName {
+    vertical-align: middle;
+    margin-left: 4px;
 }

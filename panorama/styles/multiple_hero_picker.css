@@ -1,86 +1,71 @@
+DOTAMultipleHeroPicker {
+    width: 200px;
+    flow-children: right-wrap;
+}
 
- DOTAMultipleHeroPicker{
+.SingleHero {
+    width: 64px;
+    height: 36px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    background-color: #0009;
+}
 
-  width: 200px;
-  flow-children: right-wrap;
- }
+.SingleHero #HeroImage {
+    width: 100%;
+    height: 100%;
 
- .SingleHero{
+    visibility: collapse;
+}
 
-  width: 64px;
-  height: 36px;
-  margin-right: 2px;
-  margin-bottom: 2px;
-  background-color: #0009;
- }
+.SingleHero.HasHero #HeroImage {
+    visibility: visible;
+}
 
- .SingleHero #HeroImage{
+.SingleHero .OverlayIcon {
+    width: 20px;
+    height: 20px;
 
-  width: 100%;
-  height: 100%;
+    vertical-align: middle;
+    horizontal-align: center;
 
-  visibility: collapse;
- }
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
- .SingleHero.HasHero #HeroImage{
+.SingleHero.HasHero .OverlayIcon {
+    background-image: url("s2r://panorama/images/control_icons/x_close_png.vtex");
+    opacity: 0;
 
-  visibility: visible;
- }
+    transition-property: opacity, wash-color;
+    transition-duration: 0.2s;
+}
 
- .SingleHero .OverlayIcon{
+.SingleHero.HasHero:hover .OverlayIcon {
+    opacity: 1;
+}
 
-  width: 20px;
-  height: 20px;
+.SingleHero.HasHero:active .OverlayIcon {
+    wash-color: #ccc;
+}
 
-  vertical-align: middle;
-  horizontal-align: center;
+.SingleHero:not(.HasHero) {
+    border: 1px solid bluegreyTextReg;
 
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
- }
+    transition-property: brightness;
+    transition-duration: 0.2s;
+}
 
- .SingleHero.HasHero .OverlayIcon{
+.SingleHero:not(.HasHero):hover {
+    brightness: 2;
+}
 
-  background-image: url( "s2r://panorama/images/control_icons/x_close_png.vtex");
-  opacity: 0.0;
+.SingleHero:not(.HasHero):active {
+    brightness: 1.5;
+}
 
-  transition-property: opacity, wash-color;
-  transition-duration: 0.2s;
- }
-
- .SingleHero.HasHero:hover .OverlayIcon{
-
-  opacity: 1.0;
- }
-
- .SingleHero.HasHero:active .OverlayIcon{
-
-  wash-color: #ccc;
- }
-
- .SingleHero:not(.HasHero){
-
-  border: 1px solid bluegreyTextReg;
-
-  transition-property: brightness;
-  transition-duration: 0.2s;
- }
-
- .SingleHero:not(.HasHero):hover{
-
-  brightness: 2.0;
- }
-
- .SingleHero:not(.HasHero):active{
-
-  brightness: 1.5;
- }
-
-
-
- .SingleHero:not(.HasHero) .OverlayIcon{
-
-  wash-color: bluegreyTextReg;
-  background-image: url( "s2r://panorama/images/control_icons/plus_png.vtex");
+.SingleHero:not(.HasHero) .OverlayIcon {
+    wash-color: bluegreyTextReg;
+    background-image: url("s2r://panorama/images/control_icons/plus_png.vtex");
 }

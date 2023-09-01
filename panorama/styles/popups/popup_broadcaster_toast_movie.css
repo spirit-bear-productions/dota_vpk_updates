@@ -1,68 +1,56 @@
-.MainToastPanel{
-
-     margin-top: 0px;
+.MainToastPanel {
+    margin-top: 0px;
 }
 
- .ToastHeader{
+.ToastHeader {
+    text-transform: uppercase;
+    font-size: 24px;
+}
 
-     text-transform: uppercase;
-     font-size: 24px;
- }
+#Movie {
+    width: 520px;
+    height: 288px;
+    margin: 3px;
+    margin-bottom: 8px;
+}
 
- #Movie{
+.MainToastPanel Label {
+    max-width: 100%;
+}
 
-     width: 520px;
-     height: 288px;
-     margin: 3px;
-     margin-bottom: 8px;
- }
+#Line1.ToastTextLine {
+    vertical-align: center;
+    width: 416px;
+}
 
- .MainToastPanel Label{
+.TwoImages #Line1.ToastTextLine {
+    width: 346px;
+}
 
-     max-width: 100%;
- }
+.DetailsContainer {
+    width: 100%;
+}
 
- #Line1.ToastTextLine{
+.LeftDetails {
+    flow-children: right;
+    width: 100%;
+}
 
-     vertical-align: center;
-     width: 416px;
- }
+.TwoImages .LeftDetails {
+    margin-right: 103px;
+}
 
- .TwoImages #Line1.ToastTextLine{
+#LeftImage {
+    margin-left: 3px;
+    margin-right: 3px;
+}
 
-     width: 346px;
- }
+#RightImage {
+    margin-left: 3px;
+    margin-right: 3px;
+    horizontal-align: right;
+}
 
- .DetailsContainer{
-
-     width: 100%;
- }
-
- .LeftDetails{
-
-     flow-children:right;
-     width: 100%;
- }
-
- .TwoImages .LeftDetails{
-
-     margin-right: 103px;
- }
-
- #LeftImage{
-
-     margin-left: 3px;
-     margin-right: 3px;
- }
-
- #RightImage{
-
-     margin-left: 3px;
-     margin-right: 3px;
-     horizontal-align: right;
- }
-
- #ToastHeader{
-
-     text-overflow: shrink;
+#ToastHeader {
+    text-overflow: shrink;
 }

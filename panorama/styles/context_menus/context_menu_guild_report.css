@@ -1,42 +1,35 @@
-#Contents{
-
-     flow-children: down;
-  max-width: 460px;
-  padding: 0px 0px 0px 0px;
+#Contents {
+    flow-children: down;
+    max-width: 460px;
+    padding: 0px 0px 0px 0px;
 }
 
- .ReportOptionButton{
+.ReportOptionButton {
+    padding: 7px 5px 5px 5px;
+    horizontal-align: center;
+    width: 240px;
+    border-top: 1px solid #111;
+}
 
-  padding: 7px 5px 5px 5px;
-     horizontal-align: center;
-     width: 240px;
-     border-top: 1px solid #111;
- }
+.ReportOptionButton.First {
+    border-top: 0px solid transparent;
+}
 
- .ReportOptionButton.First{
+.ReportOptionButton Label {
+    text-align: center;
+    horizontal-align: center;
+    color: #999;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition-property: color;
+    transition-duration: 0.2s;
+}
 
-  border-top: 0px solid transparent;
- }
+.ReportOptionButton:hover Label {
+    color: white;
+}
 
-
- .ReportOptionButton Label{
-
-     text-align: center;
-     horizontal-align: center;
-     color: #999;
-     font-size: 18px;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-     transition-property: color;
-     transition-duration: 0.2s;
- }
-
- .ReportOptionButton:hover Label{
-
-  color: white;
- }
-
- .ReportOptionButton:active Label{
-
-     color: #ccc;
+.ReportOptionButton:active Label {
+    color: #ccc;
 }

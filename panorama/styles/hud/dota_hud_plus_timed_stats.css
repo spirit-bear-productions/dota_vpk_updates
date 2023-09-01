@@ -1,186 +1,159 @@
-DOTAPlusTimedStats{
+DOTAPlusTimedStats {
+    visibility: collapse;
+    flow-children: down;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    height: fit-children;
+    width: 200px;
+    margin-top: 180px;
+    min-width: 106px;
 
-  visibility: collapse;
-  flow-children: down;
-  transition-property: opacity;
-  transition-duration: .2s;
-  height: fit-children;
-  width: 200px;
-  margin-top: 180px;
-  min-width: 106px;
-
-
-
-  background-color: #00000090;
-  z-index: 0;
+    background-color: #00000090;
+    z-index: 0;
 }
 
- DOTAPlusTimedStats.PlusStatsValid{
+DOTAPlusTimedStats.PlusStatsValid {
+    visibility: visible;
+}
 
-  visibility: visible;
- }
+.TimedStatsHeader {
+    horizontal-align: center;
+    vertical-align: center;
+    font-size: 14px;
+    color: #ababab;
+    padding-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
- .TimedStatsHeader{
+#StatsContainer {
+    flow-children: right;
+    horizontal-align: left;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.12s;
+    transition-timing-function: ease-in-out;
 
-  horizontal-align: center;
-  vertical-align: center;
-  font-size: 14px;
-  color: #ABABAB;
-  padding-top: 6px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
- }
+    padding-left: 0px;
+    width: fit-children;
+}
 
+#StatsContainer Label {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
 
- #StatsContainer{
+#LabelColumn {
+    width: 60px;
+}
 
-  flow-children: right;
-  horizontal-align: left;
-  opacity: 1;
-  transition-property: opacity;
-  transition-duration: 0.12s;
-  transition-timing-function: ease-in-out;
+#CurrentColumn {
+    width: 56px;
+}
 
-  padding-left: 0px;
-  width: fit-children;
- }
+#ArrowColumn {
+    width: 12px;
+}
 
- #StatsContainer Label{
+#HistoricColumn {
+    width: 62px;
+}
 
-  font-size: 16px;
-  letter-spacing: 1px;
- }
+.DataColumn {
+    flow-children: down;
+}
 
- #LabelColumn{
+#PlusStats {
+    flow-children: down;
+    width: 100%;
+    height: fit-children;
+    visibility: collapse;
+}
 
-  width: 60px;
- }
+.PlusStatsValid #PlusStats {
+    visibility: visible;
+}
 
- #CurrentColumn{
+.PlusStatsRow {
+    width: 100%;
+    height: fit-children;
+    flow-children: right;
+}
 
-  width: 56px;
- }
+.PlusStatsColumn {
+    width: 50%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
 
- #ArrowColumn{
+.StatValue {
+    horizontal-align: center;
+    color: white;
+    height: 18px;
+    margin-bottom: 8px;
+}
 
-  width: 12px;
- }
+.StatHeader {
+    horizontal-align: center;
+    color: #cdcdcd;
+    height: 18px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+}
 
- #HistoricColumn{
-
-  width: 62px;
- }
-
- .DataColumn{
-
-  flow-children: down;
- }
-
-
- #PlusStats{
-
-  flow-children: down;
-  width: 100%;
-  height: fit-children;
-  visibility: collapse;
- }
-
- .PlusStatsValid #PlusStats{
-
-  visibility: visible;
- }
-
- .PlusStatsRow{
-
-  width: 100%;
-  height: fit-children;
-  flow-children: right;
- }
-
- .PlusStatsColumn{
-
-  width: 50%;
-  margin-left: 2px;
-  margin-right: 2px;
- }
-
- .StatValue{
-
-  horizontal-align: center;
-  color: white;
-  height: 18px;
-  margin-bottom: 8px;
- }
-
- .StatHeader{
-
-  horizontal-align: center;
-  color: #cDcDcD;
-  height: 18px;
-  margin-bottom: 8px;
-  margin-top: 2px;
- }
-
- .PlusLastHits,.PlusDenies,.PlusKills,.PlusDeaths,.PlusAssists,.PlusNetWorth{
-
-
-
-
-
-
-
-     vertical-align: middle;
-     horizontal-align: right;
-     width: 100%;
-     background-size: cover;
+.PlusLastHits,
+.PlusDenies,
+.PlusKills,
+.PlusDeaths,
+.PlusAssists,
+.PlusNetWorth {
+    vertical-align: middle;
+    horizontal-align: right;
+    width: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-     background-position: 50% 50%;
- }
+    background-position: 50% 50%;
+}
 
- .LastHitsHigher .PlusLastHits,.DeniesHigher .PlusDenies,.KillsHigher .PlusKills,.DeathsHigher .PlusDeaths,.AssistsHigher .PlusAssists,.NetWorthHigher .PlusNetWorth{
-
-
-
-
-
-
-     background-image: url( "s2r://panorama/images/hud/reborn/arrow_gold_dif_psd.vtex");
-     vertical-align: middle;
-     horizontal-align: right;
-     width: 100%;
-     background-size: 15px 15px;
+.LastHitsHigher .PlusLastHits,
+.DeniesHigher .PlusDenies,
+.KillsHigher .PlusKills,
+.DeathsHigher .PlusDeaths,
+.AssistsHigher .PlusAssists,
+.NetWorthHigher .PlusNetWorth {
+    background-image: url("s2r://panorama/images/hud/reborn/arrow_gold_dif_psd.vtex");
+    vertical-align: middle;
+    horizontal-align: right;
+    width: 100%;
+    background-size: 15px 15px;
     background-repeat: no-repeat;
-     background-position: 50% 50%;
- }
+    background-position: 50% 50%;
+}
 
- .LastHitsLower .PlusLastHits,.DeniesLower .PlusDenies,.KillsLower .PlusKills,.DeathsLower .PlusDeaths,.AssistsLower .PlusAssists,.NetWorthLower .PlusNetWorth{
-
-
-
-
-
-
-     background-image: url( "s2r://panorama/images/hud/reborn/arrow_plus_stats_red_psd.vtex");
-     vertical-align: middle;
-     horizontal-align: right;
-     width: 100%;
-     background-size:  15px 15px;
-     transform: rotateZ( 180deg );
-   wash-color: red;
+.LastHitsLower .PlusLastHits,
+.DeniesLower .PlusDenies,
+.KillsLower .PlusKills,
+.DeathsLower .PlusDeaths,
+.AssistsLower .PlusAssists,
+.NetWorthLower .PlusNetWorth {
+    background-image: url("s2r://panorama/images/hud/reborn/arrow_plus_stats_red_psd.vtex");
+    vertical-align: middle;
+    horizontal-align: right;
+    width: 100%;
+    background-size: 15px 15px;
+    transform: rotateZ(180deg);
+    wash-color: red;
 
     background-repeat: no-repeat;
-     background-position: 50% 50%;
- }
+    background-position: 50% 50%;
+}
 
+#DetailsCanvas {
+    width: 200px;
+    height: 80px;
+    background-color: yellow;
+}
 
- #DetailsCanvas{
-
-  width: 200px;
-  height: 80px;
-  background-color: yellow;
- }
-
- #LabelColumn Label{
-
-  text-align: left;
+#LabelColumn Label {
+    text-align: left;
 }

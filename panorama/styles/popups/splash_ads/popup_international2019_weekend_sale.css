@@ -1,175 +1,151 @@
+.PopupPanel {
+    width: 800px;
+    height: 884px;
+    padding: 0px;
+    overflow: clip;
+    flow-children: none;
+    background-image: url("s2r://panorama/images/splash_ads/ti9_weekend_sale_png.vtex");
+    background-size: cover;
+    background-color: black;
+    border: 1px solid accentColor;
+}
 
- .PopupPanel{
+#Contents {
+    width: 100%;
+    height: 100%;
+}
 
-  width: 800px;
-     height: 884px;
-  padding: 0px;
-  overflow: clip;
-  flow-children: none;
-     background-image: url( "s2r://panorama/images/splash_ads/ti9_weekend_sale_png.vtex");
-  background-size: cover;
-  background-color: black;
-  border: 1px solid accentColor;
- }
+.CloseButton {
+    horizontal-align: right;
+    width: 30px;
+    height: 30px;
+    background-size: 60%;
+    background-color: #444;
+    margin-top: 8px;
+    margin-right: 8px;
+}
 
- #Contents{
+#TitleBox {
+    flow-children: down;
+    width: 100%;
+    horizontal-align: center;
+    height: 160px;
+}
 
-     width: 100%;
-  height: 100%;
- }
+#Title {
+    color: white;
+    font-size: 46px;
+    text-transform: uppercase;
 
- .CloseButton{
+    letter-spacing: 9px;
+    text-align: center;
+    horizontal-align: center;
+    text-shadow: 1px 1px 4px black;
+}
 
-  horizontal-align: right;
-  width: 30px;
-  height: 30px;
-  background-size: 60%;
-  background-color: #444;
-  margin-top: 8px;
-  margin-right: 8px;
- }
+.SubTitle {
+    width: 100%;
+    text-align: center;
+    horizontal-align: center;
+    color: textAccentColorBright;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 4px black;
+}
 
- #TitleBox{
+.Sub01 {
+    margin-top: 30px;
+}
 
-     flow-children: down;
-     width: 100%;
-     horizontal-align: center;
-     height: 160px;
- }
+.Sub02 {
+    margin-top: -7px;
+    font-weight: bold;
+}
 
- #Title{
+#Messaging {
+    flow-children: down;
+    width: 100%;
+    horizontal-align: center;
+    vertical-align: bottom;
+    margin-bottom: 30px;
+}
 
-  color: white;
-  font-size: 46px;
-  text-transform: uppercase;
+#BundleContents {
+    flow-children: down;
+    horizontal-align: center;
+}
 
-     letter-spacing: 9px;
-     text-align: center;
-     horizontal-align: center;
-  text-shadow: 1px 1px 4px black;
- }
+#BundleContents Label {
+    font-size: 24px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    horizontal-align: center;
+    margin-bottom: 1px;
+}
 
- .SubTitle{
+#BundleContents Label.Important {
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 0px 0px 12px 1 #ffffff55;
+}
 
-  width: 100%;
-  text-align: center;
-  horizontal-align: center;
-  color: textAccentColorBright;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  text-shadow: 1px 1px 4px black;
- }
+.BundleQuantity {
+    color: accentColorBright;
+    font-weight: bold;
+}
 
- .Sub01{
+.BundleQuantityHigh {
+    color: textUltraBrightColor;
+    font-weight: bold;
+}
 
-     margin-top: 30px;
- }
+#Savings {
+    color: accentColorBright;
+    font-size: 46px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    horizontal-align: center;
+    margin-bottom: 20px;
+    color: #8fed31;
+}
 
- .Sub02{
+.PurchaseSubLabel {
+    width: 100%;
+    text-align: center;
+    horizontal-align: center;
+    color: #555;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 8px;
+}
 
-     margin-top: -7px;
-  font-weight: bold;
- }
+.Red {
+    text-transform: none;
+    font-weight: bold;
+    color: accentColorBright;
+}
+.MustOwn {
+    horizontal-align: center;
+}
 
- #Messaging{
+.MustOwn.PurchaseSubLabel {
+    color: #ac4c4c;
+}
 
-  flow-children: down;
-  width: 100%;
-  horizontal-align: center;
-  vertical-align: bottom;
-  margin-bottom: 30px;
- }
+.SelfEventActive .MustOwn {
+    visibility: collapse;
+}
 
+.Owned {
+    horizontal-align: center;
+    visibility: collapse;
+}
 
- #BundleContents{
-
-  flow-children: down;
-  horizontal-align: center;
- }
-
- #BundleContents Label{
-
-  font-size: 24px;
-  color: white;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-align: center;
-  horizontal-align: center;
-  margin-bottom: 1px;
- }
-
- #BundleContents Label.Important{
-
-  font-size: 36px;
-  font-weight: bold;
-  text-shadow: 0px 0px 12px 1.0 #ffffff55;
- }
-
- .BundleQuantity{
-
-  color: accentColorBright;
-  font-weight: bold;
- }
-
- .BundleQuantityHigh{
-
-  color: textUltraBrightColor;
-  font-weight: bold;
- }
-
- #Savings{
-
-  color: accentColorBright;
-  font-size: 46px;
-  text-transform: uppercase;
-  letter-spacing: 6px;
-  text-align: center;
-  horizontal-align: center;
-  margin-bottom: 20px;
-  color: #8FED31;
- }
-
- .PurchaseSubLabel{
-
-     width: 100%;
-     text-align: center;
-     horizontal-align: center;
-     color: #555;
-     font-size: 15px;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-     margin-top: 8px;
- }
-
- .Red{
-
-  text-transform: none;
-     font-weight: bold;
-  color: accentColorBright;
- }
- .MustOwn{
-
-  horizontal-align: center;
- }
-
- .MustOwn.PurchaseSubLabel{
-
-     color: #Ac4c4c;
- }
-
- .SelfEventActive .MustOwn{
-
-  visibility: collapse;
- }
-
- .Owned{
-
-     horizontal-align: center;
-  visibility: collapse;
- }
-
- .SelfEventActive .Owned{
-
-  visibility: visible;
+.SelfEventActive .Owned {
+    visibility: visible;
 }

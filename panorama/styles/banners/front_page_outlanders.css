@@ -1,122 +1,104 @@
-.OutlandersCell{
-
-  box-shadow: none;
+.OutlandersCell {
+    box-shadow: none;
 }
 
- .OutlandersCell:hover{
+.OutlandersCell:hover {
+    box-shadow: none;
+}
 
-  box-shadow: none;
- }
+.HeroImage {
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 
- .HeroImage{
+    transition-property: saturation, brightness, transform;
+    transition-duration: 0.2s;
+}
 
-  vertical-align: middle;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+#SnapfireImage {
+    width: 800px;
+    height: 779px;
+    ui-scale: 130%;
+    background-image: url("s2r://panorama/images/front_page/front_page_snapfire_png.vtex");
+    horizontal-align: right;
+    margin-right: -300px;
+}
 
-  transition-property: saturation, brightness, transform;
-  transition-duration: 0.2s;
- }
+#VoidSpiritImage {
+    width: 800px;
+    height: 567px;
+    ui-scale: 120%;
+    margin-left: -320px;
+    margin-bottom: -100px;
+    background-image: url("s2r://panorama/images/front_page/front_page_void_spirit_png.vtex");
+}
 
- #SnapfireImage{
+#TitleContainer {
+    flow-children: down;
+    vertical-align: bottom;
+    horizontal-align: center;
+    margin-bottom: 12px;
+}
 
-  width: 800px;
-  height: 779px;
-  ui-scale: 130%;
-  background-image: url( "s2r://panorama/images/front_page/front_page_snapfire_png.vtex");
-  horizontal-align: right;
-  margin-right: -300px;
- }
+#TitleContainer Label {
+    text-align: center;
+    horizontal-align: center;
+    text-transform: uppercase;
+    color: white;
+}
 
- #VoidSpiritImage{
+#TitleHeader {
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 12px black;
+}
 
-  width: 800px;
-  height: 567px;
-  ui-scale: 120%;
-  margin-left: -320px;
-  margin-bottom: -100px;
-  background-image: url( "s2r://panorama/images/front_page/front_page_void_spirit_png.vtex");
- }
+#TitleMain {
+    background-image: url("s2r://panorama/images/front_page/outlanders_eng_png.vtex");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 600px;
+    height: 400px;
+}
 
- #TitleContainer{
+.Language_schinese #TitleMain {
+    background-image: url("s2r://panorama/images/front_page/outlanders_cn_png.vtex");
+}
 
-  flow-children: down;
-  vertical-align: bottom;
-  horizontal-align: center;
-  margin-bottom: 12px;
- }
+.Language_russian #TitleMain {
+    background-image: url("s2r://panorama/images/front_page/outlanders_rus_png.vtex");
+}
 
- #TitleContainer Label{
+#TitleFooter {
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 12px black;
+}
 
-  text-align: center;
-  horizontal-align: center;
-  text-transform: uppercase;
-  color: white;
- }
+#HitTargets {
+    flow-children: right;
+    width: 100%;
+    height: 100%;
+}
 
- #TitleHeader{
+.HeroHitTarget {
+    width: fill-parent-flow(1);
+    height: 100%;
+}
 
-  font-size: 24px;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 12px black;
- }
+.OutlandersCell.HighlightVoidSpirit #VoidSpiritImage,
+.OutlandersCell.HighlightSnapfire #SnapfireImage {
+    saturation: 1;
+    transform: scale3d(1.1, 1.1, 1);
+    brightness: 1.5;
+}
 
- #TitleMain{
-
-  background-image: url( "s2r://panorama/images/front_page/outlanders_eng_png.vtex");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  width: 600px;
-  height: 400px;
- }
-
- .Language_schinese #TitleMain{
-     background-image: url("s2r://panorama/images/front_page/outlanders_cn_png.vtex");
- }
-
- .Language_russian #TitleMain{
-     background-image: url("s2r://panorama/images/front_page/outlanders_rus_png.vtex");
- }
-
-
- #TitleFooter{
-
-  font-size: 24px;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 12px black;
- }
-
-
- #HitTargets{
-
-  flow-children: right;
-  width: 100%;
-  height: 100%;
- }
-
- .HeroHitTarget{
-
-  width: fill-parent-flow( 1.0 );
-  height: 100%;
- }
-
-
- .OutlandersCell.HighlightVoidSpirit #VoidSpiritImage,.OutlandersCell.HighlightSnapfire #SnapfireImage{
-
-
-  saturation: 1.0;
-  transform: scale3d( 1.1, 1.1, 1.0 );
-  brightness: 1.5;
- }
-
-
- .OutlandersCell.HighlightVoidSpirit #SnapfireImage,.OutlandersCell.HighlightSnapfire #VoidSpiritImage{
-
-
-  z-index: -1;
-  saturation: 0.0;
-  transform: scale3d( 0.9, 0.9, 1.0 );
-  brightness: 0.2;
+.OutlandersCell.HighlightVoidSpirit #SnapfireImage,
+.OutlandersCell.HighlightSnapfire #VoidSpiritImage {
+    z-index: -1;
+    saturation: 0;
+    transform: scale3d(0.9, 0.9, 1);
+    brightness: 0.2;
 }

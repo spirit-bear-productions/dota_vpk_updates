@@ -1,131 +1,98 @@
+@define firstColumn: 0px;
+@define secondColumn: 174px;
 
- @define firstColumn: 0px;
- @define secondColumn: 174px;
+@define firstRow: 0px;
+@define secondRow: 250px;
+@define thirdRow: 500px;
 
- @define firstRow: 0px;
- @define secondRow: 250px;
- @define thirdRow: 500px;
+.TopLeftCell {
+    x: firstColumn;
+    y: firstRow;
+}
 
- .TopLeftCell{
+.TopRightCell {
+    x: secondColumn;
+    y: firstRow;
+}
 
-  x: firstColumn;
-  y: firstRow;
- }
+.MiddleLeftCell {
+    x: firstColumn;
+    y: secondRow;
+}
 
- .TopRightCell{
+.MiddleRightCell {
+    x: secondColumn;
+    y: secondRow;
+}
 
-  x: secondColumn;
-  y: firstRow;
- }
+.BottomLeftCell {
+    x: firstColumn;
+    y: thirdRow;
+}
 
- .MiddleLeftCell{
+.BottomRightCell {
+    x: secondColumn;
+    y: thirdRow;
+}
 
-  x: firstColumn;
-  y: secondRow;
- }
+.VisibleWhenBattlePassOwned {
+    visibility: collapse;
+}
+.SelfEventActive .VisibleWhenBattlePassOwned {
+    visibility: visible;
+}
 
- .MiddleRightCell{
+.SelfEventActive .HideWhenBattlePassOwned {
+    visibility: collapse;
+}
 
-  x: secondColumn;
-  y: secondRow;
- }
+.VisibleWhenCountdownActive {
+    width: 100%;
+    height: 100%;
 
- .BottomLeftCell{
+    visibility: collapse;
+}
 
-  x: firstColumn;
-  y: thirdRow;
- }
+.VisibleWhenCountdownActive.CountdownActive {
+    visibility: visible;
+}
 
- .BottomRightCell{
+#BattleCup,
+.ShowWeekendTourneyCell #LastMatch {
+    visibility: collapse;
+}
+.ShowWeekendTourneyCell #BattleCup {
+    visibility: visible;
+}
 
-  x: secondColumn;
-  y: thirdRow;
- }
+.ShowWeekendTourneyCell #BattleCup.DDBPromoActive {
+    visibility: collapse;
+}
 
+#TriviaGame {
+    opacity: 0;
 
+    transition-property: opacity;
+    transition-duration: 0.4s;
+}
+.TriviaVisible #TriviaGame {
+    opacity: 1;
+}
 
- .VisibleWhenBattlePassOwned{
+.TriviaVisible #UpcomingEvents {
+    visibility: collapse;
+}
 
-  visibility: collapse;
- }
- .SelfEventActive .VisibleWhenBattlePassOwned{
+#FeaturedGameModeActiveCell.CellCollapsed {
+    visibility: collapse;
+}
 
-  visibility: visible;
- }
-
- .SelfEventActive .HideWhenBattlePassOwned{
-
-  visibility: collapse;
- }
-
-
-
- .VisibleWhenCountdownActive{
-
-  width: 100%;
-  height: 100%;
-
-  visibility: collapse;
- }
-
- .VisibleWhenCountdownActive.CountdownActive{
-
-  visibility: visible;
- }
-
-
-
-
-
-
- #BattleCup,.ShowWeekendTourneyCell #LastMatch{
-
-
-  visibility: collapse;
- }
- .ShowWeekendTourneyCell #BattleCup{
-
-  visibility: visible;
- }
-
- .ShowWeekendTourneyCell #BattleCup.DDBPromoActive{
-
-  visibility: collapse;
- }
-
-
-
- #TriviaGame{
-
-  opacity: 0.0;
-
-  transition-property: opacity;
-  transition-duration: 0.4s;
- }
- .TriviaVisible #TriviaGame{
-
-  opacity: 1.0;
- }
-
- .TriviaVisible #UpcomingEvents{
-
-  visibility: collapse;
- }
-
-
- #FeaturedGameModeActiveCell.CellCollapsed{
-
-  visibility: collapse;
- }
-
- .BattleStatsCell{
-
-  visibility: collapse;
-  margin-top: 32px;
-  width: 354px;
-  height: 284px;
- }
-  .PlusSubscriber .BattleStatsCell{
-
-   visibility: visible;
+.BattleStatsCell {
+    visibility: collapse;
+    margin-top: 32px;
+    width: 354px;
+    height: 284px;
+}
+.PlusSubscriber .BattleStatsCell {
+    visibility: visible;
 }

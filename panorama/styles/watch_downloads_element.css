@@ -1,335 +1,286 @@
+DOTAWatchDownloadsElement {
+    flow-children: right;
 
+    width: 100%;
+    height: 80px;
 
- DOTAWatchDownloadsElement{
+    border-bottom: 1px;
+    border-color: #333333;
+    border-style: solid;
 
-  flow-children: right;
+    background-color: #000000cc;
 
-  width: 100%;
-  height: 80px;
+    transition-property: height;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
 
-  border-bottom: 1px;
-  border-color: #333333;
-  border-style: solid;
+DOTAWatchDownloadsElement.First {
+    border-top: 1px;
+}
 
-  background-color: #000000CC;
+DOTAWatchDownloadsElement:hover {
+    background-color: #161616cc;
+}
 
-  transition-property: height;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
- }
+DOTAWatchDownloadsElement.SortHidden {
+    height: 0px;
+}
 
+#LeftBlock {
+    width: 400px;
+    height: 100%;
 
- DOTAWatchDownloadsElement.First{
+    padding-left: 10px;
 
-  border-top: 1px;
- }
+    flow-children: down;
+}
 
- DOTAWatchDownloadsElement:hover{
+#TopLeftBlock {
+    width: 100%;
+    margin-right: 20px;
 
-  background-color: #161616CC;
- }
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #202020;
+}
 
- DOTAWatchDownloadsElement.SortHidden{
+#NameAndEdit {
+    flow-children: right;
+}
 
-  height: 0px;
- }
+#Name {
+    margin-top: 10px;
+    vertical-align: middle;
 
- #LeftBlock{
+    font-size: 24px;
+    color: white;
+}
 
-  width: 400px;
-  height: 100%;
+#NameEditIcon {
+    width: 18px;
+    height: 18px;
 
-  padding-left: 10px;
+    background-size: 100%;
 
-  flow-children: down;
- }
+    margin-top: 16px;
+    margin-left: 10px;
 
- #TopLeftBlock{
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
 
-  width: 100%;
-  margin-right: 20px;
+.EditingName #NameEditIcon {
+    visibility: collapse;
+}
 
-  border-bottom: 1px;
-  border-style: solid;
-  border-color: #202020;
- }
+#NameAndEdit:hover #NameEditIcon {
+    opacity: 0.4;
+}
 
+.EditingName #Name {
+    visibility: collapse;
+}
 
- #NameAndEdit{
+#NameEdit {
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-left: 4px;
+    vertical-align: middle;
+    height: 32px;
 
-  flow-children: right;
- }
+    font-size: 24px;
+    color: white;
 
+    visibility: collapse;
+}
 
- #Name{
+.EditingName #NameEdit {
+    visibility: visible;
+}
 
-  margin-top: 10px;
-  vertical-align: middle;
+#Details {
+    width: 100%;
+    height: fill-parent-flow(1);
 
-  font-size: 24px;
-  color: white;
- }
+    margin-top: 8px;
 
- #NameEditIcon{
+    flow-children: right;
+}
 
-  width: 18px;
-  height: 18px;
+#MatchID {
+    width: 180px;
+    height: 100%;
 
-  background-size: 100%;
+    margin-right: 20px;
 
-  margin-top: 16px;
-  margin-left: 10px;
+    color: #666666;
 
-  opacity: 0.0;
-  transition-property: opacity;
-  transition-duration: 0.1s;
-  transition-timing-function: ease-in-out;
- }
+    font-size: 16px;
+}
 
- .EditingName #NameEditIcon{
+#Duration {
+    horizontal-align: right;
+    margin-right: 20px;
 
-  visibility: collapse;
- }
+    color: #666666;
 
- #NameAndEdit:hover #NameEditIcon{
+    font-size: 16px;
+}
 
-  opacity: 0.4;
- }
+#MatchDetailsBlock {
+    width: 500px;
+    flow-children: down;
+    visibility: collapse;
+}
 
- .EditingName #Name{
+#NoMatchDetailsBlock {
+    width: 500px;
+    flow-children: down;
+    visibility: collapse;
+}
 
-  visibility: collapse;
- }
+#TournamentBlock {
+    width: 500px;
+    flow-children: down;
+    visibility: collapse;
+}
 
- #NameEdit{
+.MatchData #MatchDetailsBlock,
+.NoMatchData #NoMatchDetailsBlock,
+.TournamentMatch #TournamentBlock {
+    visibility: visible;
+}
 
-  margin-top: 10px;
-  padding-top: 0px;
-  padding-left: 4px;
-  vertical-align: middle;
-  height: 32px;
+#NoMatchDetailsText {
+    width: 100%;
+    margin-top: 20px;
 
-  font-size: 24px;
-  color: white;
+    text-align: center;
+}
 
-  visibility: collapse;
- }
+#HeroBlock {
+    margin-top: 8px;
 
- .EditingName #NameEdit{
+    flow-children: right;
+}
 
-  visibility: visible;
- }
+.HeroImage {
+    width: 32px;
+    height: 42px;
 
- #Details{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 
-  width: 100%;
-  height: fill-parent-flow( 1.0 );
+    background-color: #222;
+}
 
-  margin-top: 8px;
+#Hero0.HeroImage {
+    margin-left: 20px;
+}
 
-  flow-children: right;
- }
+#Hero4.HeroImage {
+    margin-right: 14px;
+}
 
- #MatchID{
+#Hero5.HeroImage {
+    margin-left: 14px;
+}
 
-  width: 180px;
-  height: 100%;
+#Hero9.HeroImage {
+    margin-right: 20px;
+}
 
-  margin-right: 20px;
+#VS {
+    vertical-align: middle;
+    max-width: 80px;
+}
 
-  color: #666666;
+.Date {
+    width: 100%;
+    height: 16px;
 
-  font-size: 16px;
- }
+    text-align: center;
 
- #Duration{
+    font-size: 15px;
 
-  horizontal-align: right;
-  margin-right: 20px;
+    color: #888;
+}
 
-  color: #666666;
+#NoMatchDetailsBlock .Date {
+    margin-top: 10px;
+}
 
-  font-size: 16px;
- }
+#TournamentDetails {
+    flow-children: right;
+    margin-top: 8px;
+    horizontal-align: center;
+}
 
+#TournamentText {
+    margin-top: 8px;
+    margin-left: 6px;
+    flow-children: down;
 
- #MatchDetailsBlock{
+    width: 300px;
+}
 
-  width: 500px;
-  flow-children: down;
-  visibility: collapse;
- }
+#TournamentLogo {
+    width: 150px;
+    height: 60px;
+}
 
- #NoMatchDetailsBlock{
+#TournamentName {
+    color: #dddddd;
+}
 
-  width: 500px;
-  flow-children: down;
-  visibility: collapse;
- }
+.Teams {
+    color: #999999;
+    font-size: 15px;
+    visibility: collapse;
+}
 
- #TournamentBlock{
+.NoSeries #TournamentTeams,
+.Series #TournamentTeamsSeries {
+    visibility: visible;
+}
 
-  width: 500px;
-  flow-children: down;
-  visibility: collapse;
- }
+#TournamentSeriesInfo {
+    color: #777777;
+    font-size: 14px;
+}
 
- .MatchData #MatchDetailsBlock,.NoMatchData #NoMatchDetailsBlock,.TournamentMatch #TournamentBlock{
+#SizeDeleteBlock {
+    width: fill-parent-flow(1);
+    height: 40px;
 
+    vertical-align: middle;
 
+    flow-children: down;
+}
 
-  visibility: visible;
- }
+#Size,
+#Delete {
+    width: 100%;
+    text-align: center;
+}
 
- #NoMatchDetailsText{
+#Delete {
+    font-size: 14px;
+    color: #777777;
+}
 
-  width: 100%;
-  margin-top: 20px;
+#Delete:hover {
+    color: #dddddd;
+}
 
-  text-align: center;
- }
+#Watch {
+    vertical-align: middle;
+    horizontal-align: right;
 
- #HeroBlock{
-
-  margin-top: 8px;
-
-  flow-children: right;
- }
-
- .HeroImage{
-
-  width: 32px;
-  height: 42px;
-
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-top: 4px;
-  margin-bottom: 4px;
-
-  background-color: #222;
- }
-
- #Hero0.HeroImage{
-
-  margin-left: 20px;
- }
-
- #Hero4.HeroImage{
-
-  margin-right: 14px;
- }
-
- #Hero5.HeroImage{
-
-  margin-left: 14px;
- }
-
- #Hero9.HeroImage{
-
-  margin-right: 20px;
- }
-
- #VS{
-
-  vertical-align: middle;
-  max-width: 80px;
- }
-
- .Date{
-
-  width: 100%;
-  height: 16px;
-
-  text-align: center;
-
-  font-size: 15px;
-
-  color: #888;
- }
-
- #NoMatchDetailsBlock .Date{
-
-  margin-top: 10px;
- }
-
- #TournamentDetails{
-
-  flow-children: right;
-  margin-top: 8px;
-  horizontal-align: center;
- }
-
- #TournamentText{
-
-  margin-top: 8px;
-  margin-left: 6px;
-  flow-children: down;
-
-  width: 300px;
- }
-
- #TournamentLogo{
-
-  width: 150px;
-  height: 60px;
- }
-
- #TournamentName{
-
-  color: #dddddd;
- }
-
- .Teams{
-
-  color: #999999;
-  font-size: 15px;
-  visibility: collapse;
- }
-
- .NoSeries #TournamentTeams,.Series #TournamentTeamsSeries{
-
-
-  visibility: visible;
- }
-
- #TournamentSeriesInfo{
-
-  color: #777777;
-  font-size: 14px;
- }
-
- #SizeDeleteBlock{
-
-  width: fill-parent-flow( 1.0 );
-  height: 40px;
-
-  vertical-align: middle;
-
-  flow-children: down;
- }
-
- #Size,#Delete{
-
-
-  width: 100%;
-  text-align: center;
- }
-
- #Delete{
-
-  font-size: 14px;
-  color: #777777;
- }
-
- #Delete:hover{
-
-  color: #DDDDDD;
- }
-
- #Watch{
-
-  vertical-align: middle;
-  horizontal-align: right;
-
-  margin-right: 30px;
+    margin-right: 30px;
 }

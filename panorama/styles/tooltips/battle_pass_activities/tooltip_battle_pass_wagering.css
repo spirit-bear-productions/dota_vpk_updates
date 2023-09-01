@@ -1,48 +1,40 @@
-@import  url( "s2r://panorama/styles/tooltips/battle_pass_activities/tooltip_battle_pass_shared.vcss_c");
+@import url("s2r://panorama/styles/tooltips/battle_pass_activities/tooltip_battle_pass_shared.vcss_c");
 
- .TokensRow{
+.TokensRow {
+    margin-top: 8px;
+    flow-children: right;
+    horizontal-align: center;
+}
 
-  margin-top: 8px;
-  flow-children: right;
-  horizontal-align: center;
- }
+.WagerTotalIcon {
+    margin-top: 0px;
+}
 
- .WagerTotalIcon{
+.TokensRemainingValue {
+    vertical-align: middle;
+}
 
-  margin-top: 0px;
- }
+.TeamWagerTokensRow {
+    margin-left: 20px;
+    margin-top: 20px;
+    flow-children: right;
+    horizontal-align: center;
+}
 
- .TokensRemainingValue{
+.TeamWagerTokenContainer {
+    margin: 0px;
+    flow-children: none;
+}
 
-  vertical-align: middle;
- }
+.TeamWagerTokenCount {
+    color: #999;
+    letter-spacing: 1px;
+}
 
- .TeamWagerTokensRow{
+.TeamWagerTokensRemainingLabel {
+    margin-top: 8px;
+}
 
-  margin-left: 20px;
-  margin-top: 20px;
-  flow-children: right;
-  horizontal-align: center;
- }
-
- .TeamWagerTokenContainer{
-
-  margin: 0px;
-  flow-children: none;
- }
-
- .TeamWagerTokenCount{
-
-  color: #999;
-  letter-spacing: 1px;
- }
-
- .TeamWagerTokensRemainingLabel{
-
-  margin-top: 8px;
- }
-
- .TeamWagerTokenLabel{
-
-  font-size: 14px;
+.TeamWagerTokenLabel {
+    font-size: 14px;
 }

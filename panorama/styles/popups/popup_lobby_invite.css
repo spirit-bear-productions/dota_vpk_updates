@@ -1,84 +1,67 @@
+PopupLobbyInvite {
+    flow-children: down;
+}
 
+#LobbyInviteTitle {
+    margin-bottom: 5px;
+}
 
- PopupLobbyInvite{
+#LobbyInviteSubtitle {
+    horizontal-align: center;
+    margin-bottom: 10px;
+}
 
-     flow-children: down;
- }
+#LobbyLeader {
+    width: 200px;
+    height: fit-children;
+    horizontal-align: center;
+    margin: 20px;
+}
 
- #LobbyInviteTitle{
+#LobbyLeader #PartyWithFriendButton {
+    visibility: collapse;
+}
 
-     margin-bottom: 5px;
- }
+.LobbyInviteOptions {
+    flow-children: down;
+    horizontal-align: center;
+    margin-top: 20px;
+}
 
- #LobbyInviteSubtitle{
+.LobbyInviteOptionDescription {
+    color: #666666;
+    margin-left: 30px;
+    font-size: 16px;
+}
 
-     horizontal-align: center;
-     margin-bottom: 10px;
- }
+#CustomGameDisplay {
+    visibility: collapse;
+}
 
- #LobbyLeader{
+PopupLobbyInvite.IsCustomGameInvite #CustomGameDisplay {
+    visibility: visible;
+}
 
-     width: 200px;
-     height: fit-children;
-     horizontal-align: center;
-     margin: 20px;
- }
+PopupLobbyInvite.CustomGameNeedSubscribe #AcceptInviteButton {
+    visibility: collapse;
+}
 
- #LobbyLeader #PartyWithFriendButton{
+PopupLobbyInvite.CustomGameNeedUpdate #AcceptInviteButton {
+    visibility: collapse;
+}
 
-     visibility: collapse;
- }
+#SubscribeToGameModeButton {
+    visibility: collapse;
+}
 
- .LobbyInviteOptions{
+PopupLobbyInvite.CustomGameNeedSubscribe #SubscribeToGameModeButton {
+    visibility: visible;
+}
 
-     flow-children: down;
-     horizontal-align: center;
-     margin-top: 20px;
- }
+#UpdateGameModeButton {
+    visibility: collapse;
+}
 
- .LobbyInviteOptionDescription{
-
-     color: #666666;
-     margin-left: 30px;
-     font-size: 16px;
- }
-
- #CustomGameDisplay{
-
-  visibility: collapse;
- }
-
- PopupLobbyInvite.IsCustomGameInvite #CustomGameDisplay{
-
-  visibility: visible;
- }
-
- PopupLobbyInvite.CustomGameNeedSubscribe #AcceptInviteButton{
-
-  visibility: collapse;
- }
-
- PopupLobbyInvite.CustomGameNeedUpdate #AcceptInviteButton{
-
-  visibility: collapse;
- }
-
- #SubscribeToGameModeButton{
-
-  visibility: collapse;
- }
-
- PopupLobbyInvite.CustomGameNeedSubscribe #SubscribeToGameModeButton{
-
-  visibility: visible;
- }
-
- #UpdateGameModeButton{
-
-  visibility: collapse;
- }
-
- PopupLobbyInvite.CustomGameNeedUpdate #UpdateGameModeButton{
-
-  visibility: visible;
+PopupLobbyInvite.CustomGameNeedUpdate #UpdateGameModeButton {
+    visibility: visible;
 }

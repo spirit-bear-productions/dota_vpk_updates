@@ -1,133 +1,116 @@
+.StyleIcon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background-image: url("s2r://panorama/images/control_icons/lock_small_png.vtex");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
- .StyleIcon{
+.StyleUnlocked .StyleIcon {
+    background-image: url("s2r://panorama/images/status_icons/check_small_psd.vtex");
+}
 
-  width: 16px;
-  height: 16px;
-  vertical-align: middle;
-  background-image: url( "s2r://panorama/images/control_icons/lock_small_png.vtex");
-  background-repeat: no-repeat;
-     background-size: contain;
- }
+.EditRow.StyleUnlocked .StyleRow {
+    wash-color: #95b0d6;
+}
+.EditRow.StyleLockedAvailable .StyleRow {
+    wash-color: #617089;
+}
+.EditRow.StyleLocked .StyleRow {
+    wash-color: #444547;
+}
 
- .StyleUnlocked .StyleIcon{
+.StyleRow {
+    height: 24px;
+    width: 50%;
+    flow-children: right;
+    vertical-align: middle;
+    margin-left: 16px;
+}
 
-  background-image: url( "s2r://panorama/images/status_icons/check_small_psd.vtex");
- }
+.StyleName {
+    color: white;
+    font-size: 20px;
+    margin-left: 16px;
+}
 
- .EditRow.StyleUnlocked .StyleRow{     wash-color: #95B0D6;}
- .EditRow.StyleLockedAvailable .StyleRow{  wash-color: #617089;}
- .EditRow.StyleLocked .StyleRow{     wash-color: #444547;}
+.StyleButton {
+    visibility: collapse;
+}
 
- .StyleRow{
+#ItemEditBody .EditRow.StyleActive .StyleButton.SelectedButton {
+    visibility: visible;
+}
 
-  height: 24px;
-  width: 50%;
-  flow-children: right;
-  vertical-align: middle;
-  margin-left: 16px;
- }
+.AutoStyle #ItemEditBody .EditRow.StyleActive .StyleButton.SelectedButton {
+    visibility: collapse;
+}
 
- .StyleName{
+#ItemEditBody .EditRow.StyleUnlocked .StyleButton.AvailableButton {
+    visibility: visible;
+}
 
-  color: white;
-  font-size: 20px;
-  margin-left: 16px;
- }
+#ItemEditBody .EditRow.StyleUnlocked.StyleActive .StyleButton.AvailableButton {
+    visibility: collapse;
+}
 
- .StyleButton{
+.AutoStyle #ItemEditBody .EditRow.StyleUnlocked .StyleButton.AvailableButton {
+    visibility: collapse;
+}
 
-     visibility: collapse;
- }
+.StyleButton.UnavailableButton {
+    visibility: visible;
+}
 
- #ItemEditBody .EditRow.StyleActive .StyleButton.SelectedButton{
+#ItemEditBody .EditRow.StyleAvailable .StyleButton.UnavailableButton {
+    visibility: collapse;
+}
 
-     visibility: visible;
- }
+#ItemEditBody .EditRow.StyleAvailable .ButtonBevel:disabled {
+    wash-color: none;
+    saturation: 1;
+    background-color: none;
+    border: 0px solid transparent;
+    box-shadow: none;
+}
 
- .AutoStyle #ItemEditBody .EditRow.StyleActive .StyleButton.SelectedButton{
+#ItemEditBody .StyleLockInfo {
+    visibility: visible;
+    tooltip-body-position: 50%;
+    tooltip-position: right;
+}
 
-     visibility: collapse;
- }
+#ItemEditBody .EditRow.StyleUnlocked .StyleLockInfo {
+    visibility: collapse;
+}
 
- #ItemEditBody .EditRow.StyleUnlocked .StyleButton.AvailableButton{
+#ItemEditBody .UnlockButton {
+    visibility: collapse;
+}
 
-     visibility: visible;
- }
+#ItemEditBody .EditRow.StyleAvailable .UnlockButton {
+    visibility: visible;
+}
 
- #ItemEditBody .EditRow.StyleUnlocked.StyleActive .StyleButton.AvailableButton{
+#ItemEditBody .EditRow.StyleUnlocked .UnlockButton {
+    visibility: collapse;
+}
 
-     visibility: collapse;
- }
+.AutoStyleButton {
+    visibility: collapse;
+}
 
- .AutoStyle #ItemEditBody .EditRow.StyleUnlocked .StyleButton.AvailableButton{
+.AutoStyle #ItemEditBody .EditRow.StyleAvailable .AutoStyleButton {
+    visibility: visible;
+}
 
-     visibility: collapse;
- }
+#ItemEditBody .AutoStyleInfo {
+    visibility: collapse;
+    tooltip-body-position: 50%;
+    tooltip-position: right;
+}
 
- .StyleButton.UnavailableButton{
-
-     visibility: visible;
- }
-
- #ItemEditBody .EditRow.StyleAvailable .StyleButton.UnavailableButton{
-
-     visibility: collapse;
- }
-
- #ItemEditBody .EditRow.StyleAvailable .ButtonBevel:disabled{
-
-  wash-color: none;
-  saturation: 1;
-  background-color: none;
-  border: 0px solid transparent;
-  box-shadow: none;
- }
-
- #ItemEditBody .StyleLockInfo{
-
-     visibility: visible;
-     tooltip-body-position: 50%;
-     tooltip-position: right;
- }
-
- #ItemEditBody .EditRow.StyleUnlocked .StyleLockInfo{
-
-     visibility: collapse;
- }
-
- #ItemEditBody .UnlockButton{
-
-     visibility: collapse;
- }
-
- #ItemEditBody .EditRow.StyleAvailable .UnlockButton{
-
-     visibility: visible;
- }
-
- #ItemEditBody .EditRow.StyleUnlocked .UnlockButton{
-
-     visibility: collapse;
- }
-
- .AutoStyleButton{
-
-  visibility: collapse;
- }
-
- .AutoStyle #ItemEditBody .EditRow.StyleAvailable .AutoStyleButton{
-
-  visibility: visible;
- }
-
- #ItemEditBody .AutoStyleInfo{
-
-     visibility: collapse;
-     tooltip-body-position: 50%;
-     tooltip-position: right;
- }
-
- .AutoStyle #ItemEditBody .EditRow.StyleAvailable .AutoStyleInfo{
-
-     visibility: visible;
+.AutoStyle #ItemEditBody .EditRow.StyleAvailable .AutoStyleInfo {
+    visibility: visible;
 }

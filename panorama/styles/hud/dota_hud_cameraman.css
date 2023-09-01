@@ -1,38 +1,31 @@
-DOTACameraman{
-
-  height: 100%;
-  width: 100%;
+DOTACameraman {
+    height: 100%;
+    width: 100%;
 }
 
- .Hidden{
+.Hidden {
+    visibility: collapse;
+}
 
-  visibility: collapse;
- }
+DOTACameramanCursor {
+    height: 100%;
+    width: 100%;
+}
 
- DOTACameramanCursor{
+#CursorImage {
+    width: 32px;
+    height: 32px;
+    background-image: url("s2r://panorama/images/cursor/cursor_default_png.vtex");
+}
 
-  height: 100%;
-  width: 100%;
- }
+#CursorImage.MoveCursor {
+    background-image: url("s2r://panorama/images/cursor/cursor_move_png.vtex");
+}
 
- #CursorImage{
+#CursorImage.AttackCursor {
+    background-image: url("s2r://panorama/images/cursor/cursor_attack_png.vtex");
+}
 
-  width: 32px;
-  height: 32px;
-  background-image: url( "s2r://panorama/images/cursor/cursor_default_png.vtex");
- }
-
- #CursorImage.MoveCursor{
-
-  background-image: url( "s2r://panorama/images/cursor/cursor_move_png.vtex");
- }
-
- #CursorImage.AttackCursor{
-
-  background-image: url( "s2r://panorama/images/cursor/cursor_attack_png.vtex");
- }
-
- .CastCursor{
-
-  background-image: url( "s2r://panorama/images/cursor/cursor_cast_png.vtex");
+.CastCursor {
+    background-image: url("s2r://panorama/images/cursor/cursor_cast_png.vtex");
 }

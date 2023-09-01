@@ -1,27 +1,23 @@
-#LocalPlayerStat{
-
-     width: 50px;
-     horizontal-align: left;
-     text-align: left;
-  font-size: 16px;
+#LocalPlayerStat {
+    width: 50px;
+    horizontal-align: left;
+    text-align: left;
+    font-size: 16px;
 }
 
- #ProfileStat{
+#ProfileStat {
+    width: 50px;
+    horizontal-align: left;
+    text-align: left;
+    font-size: 16px;
+    color: #253138;
+    margin-bottom: 8px;
+}
 
-     width: 50px;
-     horizontal-align: left;
-     text-align: left;
-  font-size: 16px;
-  color: #253138;
-  margin-bottom: 8px;
- }
+#StatName {
+    font-size: 16px;
+}
 
- #StatName{
-
-  font-size: 16px;
- }
-
- ProfileStat{
-
-     flow-children: right;
+ProfileStat {
+    flow-children: right;
 }

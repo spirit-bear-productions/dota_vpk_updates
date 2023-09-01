@@ -1,113 +1,98 @@
-DOTATooltipGlyph #Contents{
-
-  flow-children: down;
-  width: 400px;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #2d2d2dfc ), to( #000000fc ) );
+DOTATooltipGlyph #Contents {
+    flow-children: down;
+    width: 400px;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#2d2d2dfc), to(#000000fc));
 }
 
- #title{
+#title {
+    color: white;
+    font-size: 20px;
+}
 
-  color: white;
-  font-size: 20px;
- }
+.Description {
+    color: #cccccc;
+    font-size: 16px;
 
- .Description{
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: 4px;
 
-  color: #CCCCCC;
-  font-size: 16px;
+    width: 100%;
+    padding: 8px 0px;
+}
 
-  border-top: 1px solid rgba(255,255,255,0.05);
-  margin-top: 4px;
+.AbilityExtraAttributes {
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #596e89;
+}
 
-     width: 100%;
-     padding: 8px 0px;
- }
+.GameplayValues {
+    color: #e1e1e1;
+}
 
- .AbilityExtraAttributes{
-  font-size: 16px;
-  font-weight: normal;
-  letter-spacing: 0px;
-  color: #596e89;
- }
+.Footnote {
+    color: #888888;
+}
 
- .GameplayValues{
-  color: #e1e1e1;
- }
+.IsLocalPlayerSpectatingAllTeams #description {
+    visibility: collapse;
+}
 
- .Footnote{
-  color: #888888;
- }
+#cooldown {
+    flow-children: right;
+    margin-top: 12px;
+}
 
- .IsLocalPlayerSpectatingAllTeams #description{
+#cooldown_icon {
+    width: 19px;
+    height: 19px;
+    background-image: url("s2r://panorama/images/hud/cooldown_png.vtex");
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
 
-  visibility: collapse;
- }
+#cooldown_duration {
+    color: white;
+    font-size: 16px;
+}
 
- #cooldown{
+#cooldown_timer_label {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    visibility: visible;
+    margin-left: 3px;
+}
 
-  flow-children: right;
-  margin-top: 12px;
- }
+.CooldownReady #cooldown_timer_label {
+    visibility: collapse;
+}
 
- #cooldown_icon{
+#cooldown_ready_label {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    visibility: collapse;
+    margin-left: 3px;
+}
 
-  width: 19px;
-  height: 19px;
-  background-image: url( "s2r://panorama/images/hud/cooldown_png.vtex");
-  background-size: 100% 100%;
-  background-position: 50% 50%;
-  margin-right: 5px;
-  margin-top: 2px;
-  margin-bottom: 2px;
- }
+.CooldownReady #cooldown_ready_label {
+    visibility: visible;
+}
 
- #cooldown_duration{
+.DireTeam,
+.RadiantTeam {
+    visibility: collapse;
+}
 
-  color: white;
-  font-size: 16px;
- }
+.SpectatorTeam2 .RadiantTeam {
+    visibility: visible;
+}
 
- #cooldown_timer_label{
-
-  color: white;
-  font-size: 17px;
-  font-weight: bold;
-  visibility: visible;
-  margin-left: 3px;
- }
-
- .CooldownReady #cooldown_timer_label{
-
-  visibility: collapse;
- }
-
- #cooldown_ready_label{
-
-  color: white;
-  font-size: 17px;
-  font-weight: bold;
-  visibility: collapse;
-  margin-left: 3px;
- }
-
- .CooldownReady #cooldown_ready_label{
-
-  visibility: visible;
- }
-
-
- .DireTeam,.RadiantTeam{
-
-
-  visibility: collapse;
- }
-
- .SpectatorTeam2 .RadiantTeam{
-
-  visibility: visible;
- }
-
- .SpectatorTeam3 .DireTeam{
-
-  visibility: visible;
+.SpectatorTeam3 .DireTeam {
+    visibility: visible;
 }

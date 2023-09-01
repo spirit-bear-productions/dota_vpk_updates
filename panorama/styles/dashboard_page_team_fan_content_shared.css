@@ -1,77 +1,67 @@
+.MajorStateElement {
+    width: 800px;
+    height: fill-parent-flow(1);
+    horizontal-align: center;
 
- .MajorStateElement{
+    visibility: collapse;
+}
 
-  width: 800px;
-  height: fill-parent-flow( 1 );
-  horizontal-align: center;
+.MajorStateElement Label {
+    width: 100%;
+    horizontal-align: center;
+    vertical-align: center;
+    text-align: center;
 
-  visibility: collapse;
- }
+    font-size: 40px;
+    color: #ccc;
+}
 
- .MajorStateElement Label{
+#Title {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    text-align: center;
+    horizontal-align: center;
+}
 
-  width: 100%;
-  horizontal-align: center;
-  vertical-align: center;
-  text-align: center;
+#SubTitle {
+    font-size: 20px;
+    text-align: center;
+    horizontal-align: left;
+    width: 800px;
+    visibility: collapse;
+}
 
-  font-size: 40px;
-  color: #CCC;
- }
+.MajorStateElement {
+    width: 800px;
+    height: fill-parent-flow(1);
+    horizontal-align: center;
 
- #Title{
+    visibility: collapse;
+}
 
-  font-size: 48px;
-  font-weight: bold;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 8px;
-  text-align: center;
-  horizontal-align: center;
- }
+.MajorStateElement Label {
+    width: 100%;
+    horizontal-align: center;
+    vertical-align: center;
+    text-align: center;
 
- #SubTitle{
+    font-size: 40px;
+    color: #ccc;
+}
 
-  font-size: 20px;
-  text-align: center;
-  horizontal-align: left;
-  width: 800px;
-  visibility: collapse;
- }
+.VisibleFilters {
+    margin-top: 30px;
+    vertical-align: center;
+    width: 100%;
+    height: 40px;
+    flow-children: right;
+}
 
-
- .MajorStateElement{
-
-  width: 800px;
-  height: fill-parent-flow( 1 );
-  horizontal-align: center;
-
-  visibility: collapse;
- }
-
- .MajorStateElement Label{
-
-  width: 100%;
-  horizontal-align: center;
-  vertical-align: center;
-  text-align: center;
-
-  font-size: 40px;
-  color: #CCC;
- }
-
- .VisibleFilters{
-
-  margin-top:  30px;
-  vertical-align: center;
-  width: 100%;
-  height:  40px;
-  flow-children:  right;
- }
-
- .FilterToggleContainer{
-
-  flow-children:  right;
-  margin-right: 20px;
+.FilterToggleContainer {
+    flow-children: right;
+    margin-right: 20px;
 }

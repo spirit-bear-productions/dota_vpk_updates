@@ -1,110 +1,93 @@
+DOTACompShanghai2016CastersPage .CompendiumBody {
+    width: 1392px;
+    height: 700px;
 
+    margin-top: 215px;
+    border-top: 0;
+    border-bottom: 0;
+    background-color: transparent;
 
- DOTACompShanghai2016CastersPage .CompendiumBody{
+    horizontal-align: center;
+}
 
-  width: 1392px;
-  height: 700px;
+#Header Label {
+    color: white;
+    margin-bottom: 20px;
+}
 
-  margin-top: 215px;
-  border-top: 0;
-  border-bottom: 0;
-  background-color: transparent;
+#LanguageSelection Label {
+    vertical-align: center;
+    color: #a2b7cd;
+    text-transform: uppercase;
 
+    margin-top: 2px;
+    margin-right: 16px;
+}
 
-  horizontal-align: center;
- }
+#LanguageSelection DropDown Label {
+    color: white;
+}
 
- #Header Label{
+.LanguageMenu Label {
+    background-color: #222222;
+}
 
-  color: white;
-  margin-bottom: 20px;
- }
+.LanguageMenu .DropDownChild {
+    width: 100%;
+}
 
- #LanguageSelection Label{
+#TalentWell {
+    margin-top: 10px;
 
-  vertical-align: center;
-  color: #A2B7CD;
-  text-transform: uppercase;
+    flow-children: right-wrap;
+    overflow: clip scroll;
+    opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_vscroll_wide_psd.vtex");
+    padding-left: 16px;
+    padding-right: 16px;
 
-  margin-top: 2px;
-  margin-right: 16px;
- }
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
 
- #LanguageSelection DropDown Label{
+.FadeOut #TalentWell {
+    opacity: 0;
+}
 
-  color: white;
- }
+DOTACompendiumCaster {
+    width: 202px;
+    height: 250px;
 
- .LanguageMenu Label{
+    margin: 12px 12px;
 
-  background-color: #222222;
- }
+    flow-children: down;
+}
 
- .LanguageMenu .DropDownChild{
+#CasterImage {
+    box-shadow: #000000aa 0px 0px 8px 0px;
+    width: 100%;
+    height: fill-parent-flow(1);
+}
 
-  width: 100%;
- }
+DOTACompendiumCaster .Name {
+    margin-top: 6px;
 
+    color: white;
+    letter-spacing: 1.3px;
+}
 
- #TalentWell{
+DOTACompendiumCaster .RealName {
+    color: #a2b7cd;
+    color: #c3b699;
+}
 
-  margin-top: 10px;
+DOTACompendiumCaster .Title {
+    margin-top: 2px;
 
-  flow-children: right-wrap;
-  overflow: clip scroll;
-  opacity-mask: url( "s2r://panorama/images/masks/softedge_vertical_vscroll_wide_psd.vtex");
-  padding-left: 16px;
-  padding-right: 16px;
+    color: #2f7eb1;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1.5px;
 
-  transition-property: opacity;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
- }
-
- .FadeOut #TalentWell{
-
-  opacity: 0;
- }
-
- DOTACompendiumCaster{
-
-  width: 202px;
-  height: 250px;
-
-  margin: 12px 12px;
-
-  flow-children: down;
- }
-
- #CasterImage{
-
-  box-shadow: #000000aa 0px 0px 8px 0px ;
-  width: 100%;
-  height: fill-parent-flow( 1.0 );
- }
-
- DOTACompendiumCaster .Name{
-
-  margin-top: 6px;
-
-  color: white;
-  letter-spacing: 1.3px;
- }
-
- DOTACompendiumCaster .RealName{
-
-  color: #a2b7cd;
-  color: #c3b699;
- }
-
- DOTACompendiumCaster .Title{
-
-  margin-top: 2px;
-
-  color: #2f7eb1;
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 1.5px;
-
-  visibility: collapse;
+    visibility: collapse;
 }

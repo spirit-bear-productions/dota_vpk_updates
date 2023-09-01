@@ -1,93 +1,80 @@
-DOTATooltipRadar #Contents{
-
-  flow-children: down;
-  width: 400px;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #2d2d2dfc ), to( #000000fc ) );
+DOTATooltipRadar #Contents {
+    flow-children: down;
+    width: 400px;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#2d2d2dfc), to(#000000fc));
 }
 
- #title{
+#title {
+    color: white;
+    font-size: 20px;
+}
 
-  color: white;
-  font-size: 20px;
- }
+.Description {
+    color: #cccccc;
+    font-size: 16px;
 
- .Description{
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: 4px;
 
-  color: #CCCCCC;
-  font-size: 16px;
+    width: 100%;
+    padding: 8px 0px;
+}
 
-  border-top: 1px solid rgba(255,255,255,0.05);
-  margin-top: 4px;
+.IsLocalPlayerSpectatingAllTeams #description {
+    visibility: collapse;
+}
 
-     width: 100%;
-     padding: 8px 0px;
- }
+#cooldown {
+    flow-children: right;
+    margin-top: 4px;
+}
 
- .IsLocalPlayerSpectatingAllTeams #description{
+#cooldown_icon {
+    width: 19px;
+    height: 19px;
+    background-image: url("s2r://panorama/images/hud/cooldown_png.vtex");
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
 
-  visibility: collapse;
- }
+#cooldown_duration {
+    color: white;
+    font-size: 16px;
+}
 
- #cooldown{
+.CooldownReady #cooldown_timer_label {
+    visibility: collapse;
+}
 
-  flow-children: right;
-  margin-top: 4px;
- }
+.CooldownReady #cooldown_ready_label {
+    visibility: visible;
+}
 
- #cooldown_icon{
+.DireTeam,
+.RadiantTeam {
+    visibility: collapse;
+}
 
-  width: 19px;
-  height: 19px;
-  background-image: url( "s2r://panorama/images/hud/cooldown_png.vtex");
-  background-size: 100% 100%;
-  background-position: 50% 50%;
-  margin-right: 5px;
-  margin-top: 2px;
-  margin-bottom: 2px;
- }
+.SpectatorTeam2 .RadiantTeam {
+    visibility: visible;
+}
 
- #cooldown_duration{
+.SpectatorTeam3 .DireTeam {
+    visibility: visible;
+}
 
-  color: white;
-  font-size: 16px;
- }
-
- .CooldownReady #cooldown_timer_label{
-
-  visibility: collapse;
- }
-
- .CooldownReady #cooldown_ready_label{
-
-  visibility: visible;
- }
-
- .DireTeam,.RadiantTeam{
-
-
-  visibility: collapse;
- }
-
- .SpectatorTeam2 .RadiantTeam{
-
-  visibility: visible;
- }
-
- .SpectatorTeam3 .DireTeam{
-
-  visibility: visible;
- }
-
- .CooldownHolder{
-
-  width: 100%;
-  flow-children: right;
-  visibility: visible;
- }
-  .CooldownHolder Label{
-   color: white;
-   font-size: 17px;
-   font-weight: bold;
-   margin-left: 3px;
-   width: fill-parent-flow(1.0);
+.CooldownHolder {
+    width: 100%;
+    flow-children: right;
+    visibility: visible;
+}
+.CooldownHolder Label {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 3px;
+    width: fill-parent-flow(1);
 }

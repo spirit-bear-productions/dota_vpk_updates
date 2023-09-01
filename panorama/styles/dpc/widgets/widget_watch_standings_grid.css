@@ -1,85 +1,71 @@
-.TeamNoLogo{
-
-     background-image: url("s2r://panorama/images/dpc/placeholder_team_png.vtex");
-     height: 24px;
-     width: 24px;
-     visibility: collapse;
-     background-size: cover;
-     horizontal-align: center;
-     vertical-align: center;
+.TeamNoLogo {
+    background-image: url("s2r://panorama/images/dpc/placeholder_team_png.vtex");
+    height: 24px;
+    width: 24px;
+    visibility: collapse;
+    background-size: cover;
+    horizontal-align: center;
+    vertical-align: center;
 }
 
- .NoTeam .TeamNoLogo{
+.NoTeam .TeamNoLogo {
+    visibility: visible;
+}
 
-     visibility:visible;
- }
+.Match {
+    width: 60px;
+    height: 40px;
+}
 
- .Match{
+.Empty {
+    width: 60px;
+    height: 40px;
+    background-color: #23313e88;
+}
 
-     width: 60px;
-     height: 40px;
- }
+.Team {
+    width: 60px;
+    height: 40px;
+    background-color: #23313e88;
+}
 
+#TeamLogo {
+    height: 28px;
+    horizontal-align: center;
+    vertical-align: center;
+}
 
- .Empty{
+.Row {
+    flow-children: right;
+}
 
-     width: 60px;
-     height: 40px;
-     background-color: #23313E88;
- }
+.TeamText {
+    horizontal-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    color: #758c8c;
+    visibility: collapse;
+}
 
- .Team{
+.NoTeamText {
+    horizontal-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    color: #758c8c;
+}
 
-     width: 60px;
-     height: 40px;
-     background-color: #23313E88;
- }
+.HasTeams .NoTeamText {
+    visibility: collapse;
+}
 
- #TeamLogo{
+.HasTeams .TeamText {
+    visibility: visible;
+}
 
-     height:28px;
-     horizontal-align:center;
-     vertical-align:center;
- }
+.Winning .TeamText {
+    color: #86f58b60;
+}
 
- .Row{
-
-     flow-children:right;
- }
-
- .TeamText{
-
-     horizontal-align: center;
-     vertical-align: center;
-     font-weight: bold;
-     color: #758C8C;
-     visibility:collapse;
- }
-
- .NoTeamText{
-
-     horizontal-align: center;
-     vertical-align: center;
-     font-weight: bold;
-     color: #758C8C;
- }
-
- .HasTeams .NoTeamText{
-
-     visibility:collapse;
- }
-
- .HasTeams .TeamText{
-
-     visibility:visible;
- }
-
- .Winning .TeamText{
-
-     color: #86F58B60;
- }
-
- .Losing .TeamText{
-
-     color: #72615F;
+.Losing .TeamText {
+    color: #72615f;
 }

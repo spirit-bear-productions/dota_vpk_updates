@@ -1,147 +1,124 @@
-DOTAPortrait{
-
-  tooltip-position: top;
-  tooltip-body-position: 0% 50%;
+DOTAPortrait {
+    tooltip-position: top;
+    tooltip-body-position: 0% 50%;
 }
 
- .Hidden{
+.Hidden {
+    visibility: collapse;
+}
 
-  visibility: collapse;
- }
+#LowerOverlay {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#00000000), to(#000000ff));
+    width: 100%;
+    height: 30%;
+    vertical-align: bottom;
+}
 
- #LowerOverlay{
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #00000000 ), to( #000000ff ) );
-  width: 100%;
-  height: 30%;
-  vertical-align: bottom;
- }
+.PortraitButton {
+    background-size: 100%;
+    background-position: 50%;
+    vertical-align: bottom;
+    wash-color: #dddddd;
+}
 
- .PortraitButton{
+.PortraitButton:hover {
+    wash-color: #ffffff;
+}
 
-  background-size: 100%;
-  background-position: 50%;
-  vertical-align: bottom;
-  wash-color: #dddddd;
- }
+.PortraitButton:active {
+    wash-color: #999999;
+}
 
- .PortraitButton:hover{
+#ReportUserButton {
+    background-image: url("s2r://panorama/images/conduct/report_flag_hud_png.vtex");
+    width: 22px;
+    height: 22px;
+    margin-bottom: 16px;
+    margin-left: 90px;
+    wash-color: #dd3c1cee;
+    visibility: collapse;
+    img-shadow: #000000 0px 16px 2px;
+}
 
-  wash-color: #ffffff;
- }
+#ReportUserButton:hover {
+    wash-color: #ffffff;
+}
 
- .PortraitButton:active{
+.OverwatchEnabled.IsHero #ReportUserButton {
+    visibility: visible;
+}
 
-  wash-color: #999999;
- }
+.OverwatchEnabled.IsBot #ReportUserButton {
+    visibility: collapse;
+}
 
- #ReportUserButton{
+.OverwatchEnabled.IsLocalHero.IsHero #ReportUserButton,
+.IsLocalPlayerSpectating .OverwatchEnabled.IsHero #ReportUserButton {
+    visibility: collapse;
+}
 
-  background-image: url( "s2r://panorama/images/conduct/report_flag_hud_png.vtex");
-  width: 22px;
-  height: 22px;
-  margin-bottom: 16px;
-  margin-left: 90px;
-  wash-color: #dd3C1Cee;
-  visibility: collapse;
-  img-shadow: #000000 0px 16px 2px;
- }
+#InspectButton {
+    background-image: url("s2r://panorama/images/hud/reborn/icon_inspect_psd.vtex");
+    width: 22px;
+    height: 22px;
+    margin-bottom: 16px;
+    margin-left: 64px;
+    visibility: visible;
+    box-shadow: fill #00000055 8px 0px 16px 2px;
 
- #ReportUserButton:hover{
+    wash-color: #fff;
+}
 
-  wash-color: #ffffff;
- }
+#HeroViewButton {
+    background-image: url("s2r://panorama/images/hud/heroview_icon_png.vtex");
+    width: 26px;
+    height: 26px;
+    margin-bottom: 14px;
+    margin-left: 34px;
+    wash-color: #fff;
+    box-shadow: fill #00000055 8px 0px 16px 2px;
+}
 
+#PortraitContainer #HeroViewButton:hover {
+    brightness: 3;
+    wash-color: white;
+}
 
- .OverwatchEnabled.IsHero #ReportUserButton{
+#PortraitContainer #HeroViewButton:active {
+    brightness: 3;
+    background-image: url("s2r://panorama/images/hud/reborn/icon_heroview_active_psd.vtex");
+}
 
-  visibility: visible;
- }
+.UnitDead #HeroViewButton {
+    opacity: 0;
+}
 
- .OverwatchEnabled.IsBot #ReportUserButton{
+#PortraitContainer #InspectButton:hover {
+    brightness: 3;
+}
 
-  visibility: collapse;
- }
+#PortraitContainer #InspectButton:active {
+    brightness: 3;
+    background-image: url("s2r://panorama/images/hud/reborn/icon_inspect_active_psd.vtex");
+}
 
- .OverwatchEnabled.IsLocalHero.IsHero #ReportUserButton,.IsLocalPlayerSpectating .OverwatchEnabled.IsHero #ReportUserButton{
+#PortraitContainer:hover .PortraitButton {
+    opacity: 1;
+}
 
+.PortraitButton {
+    background-size: 100%;
+    background-position: 50%;
+    vertical-align: bottom;
+    opacity: 0.7;
+    brightness: 0.72;
+    transition-property: brightness, wash-color, opacity, box-shadow;
+    transition-duration: 0.2s;
+    opacity: 1;
+    horizontal-align: left;
+}
 
-  visibility: collapse;
- }
-
- #InspectButton{
-
-  background-image: url( "s2r://panorama/images/hud/reborn/icon_inspect_psd.vtex");
-  width: 22px;
-  height: 22px;
-  margin-bottom: 16px;
-  margin-left: 64px;
-  visibility: visible;
-  box-shadow: fill #00000055 8px 0px 16px 2px;
-
-  wash-color: #fff;
- }
-
- #HeroViewButton{
-
-  background-image: url( "s2r://panorama/images/hud/heroview_icon_png.vtex");
-     width: 26px;
-     height: 26px;
-     margin-bottom: 14px;
-     margin-left: 34px;
-     wash-color: #fff;
-     box-shadow: fill #00000055 8px 0px 16px 2px;
- }
-
- #PortraitContainer #HeroViewButton:hover{
-
-     brightness: 3;
-     wash-color: white;
- }
-
- #PortraitContainer #HeroViewButton:active{
-
-     brightness: 3;
-     background-image: url( "s2r://panorama/images/hud/reborn/icon_heroview_active_psd.vtex");
- }
-
- .UnitDead #HeroViewButton{
-
-  opacity: 0;
- }
-
- #PortraitContainer #InspectButton:hover{
-
-  brightness: 3;
- }
-
- #PortraitContainer #InspectButton:active{
-
-     brightness: 3;
-     background-image: url( "s2r://panorama/images/hud/reborn/icon_inspect_active_psd.vtex");
- }
-
- #PortraitContainer:hover .PortraitButton{
-
-     opacity: 1;
- }
-
- .PortraitButton{
-
-     background-size: 100%;
-     background-position: 50%;
-     vertical-align: bottom;
-     opacity: 0.7;
-     brightness: 0.72;
-  transition-property: brightness, wash-color, opacity, box-shadow;
-  transition-duration: .2s;
-     opacity: 1;
-  horizontal-align: left;
- }
-
-
-
- .QueryUnit #HeroViewButton,.QueryUnit #InspectButton{
-
-
-     visibility: collapse;
+.QueryUnit #HeroViewButton,
+.QueryUnit #InspectButton {
+    visibility: collapse;
 }

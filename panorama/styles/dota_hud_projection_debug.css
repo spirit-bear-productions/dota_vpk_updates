@@ -1,75 +1,68 @@
-DOTAProjectionDebug{
+DOTAProjectionDebug {
+    padding: 10px;
 
-  padding: 10px;
+    visibility: collapse;
 
-  visibility: collapse;
+    width: 850px;
+    height: 900px;
+    background-color: #000000dd;
 
-  width: 850px;
-  height: 900px;
-  background-color: #000000dd;
-
-  flow-children: down;
+    flow-children: down;
 }
 
- DOTAProjectionDebug.ProjectionDebugVisible{
+DOTAProjectionDebug.ProjectionDebugVisible {
+    visibility: visible;
+}
 
-  visibility: visible;
- }
+#SpewLabel {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    max-height: 300px;
+    border: 1px solid white;
+}
 
- #SpewLabel{
+#MIDIChannelDropdown {
+    margin-top: 20px;
+}
 
-  margin-top: 30px;
-  width: 100%;
-  height: 300px;
-  max-height: 300px;
-  border: 1px solid white;
- }
+#MidiNotes {
+    margin-top: 10px;
+}
 
- #MIDIChannelDropdown{
-     margin-top: 20px;
- }
+#MidiNoteTable {
+    flow-children: down;
+    overflow: clip scroll;
+    max-height: 561px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+}
 
- #MidiNotes{
-  margin-top: 10px;
- }
+.MidiNoteTableRowBasic {
+    flow-children: right;
+    margin-bottom: 10px;
+}
 
- #MidiNoteTable{
-  flow-children: down;
-  overflow: clip scroll;
-  max-height: 561px;
-  padding-right: 10px;
-  margin-bottom: 0px;
- }
+.MidiNoteLabel {
+    width: 50px;
+    height: 20px;
+    background-color: #0000;
+    text-align: center;
+}
 
- .MidiNoteTableRowBasic{
+.MidiNoteLabel.NoteActive {
+    color: white;
+    border: 1px solid #4cff00;
+}
 
-  flow-children: right;
-  margin-bottom: 10px;
- }
+.PanicButton {
+    border: 2px solid #888;
+    color: white;
+    padding: 6px;
+    width: 100px;
+    text-align: center;
+}
 
- .MidiNoteLabel{
-
-  width: 50px;
-  height: 20px;
-  background-color: #0000;
-  text-align: center;
- }
-
- .MidiNoteLabel.NoteActive{
-
-  color: white;
-  border: 1px solid #4cff00;
- }
-
- .PanicButton{
-
-  border: 2px solid #888;
-  color: white;
-  padding: 6px;
-  width: 100px;
-  text-align: center;
- }
-
- .PanicButton:hover{
-  border: 2px solid white;
+.PanicButton:hover {
+    border: 2px solid white;
 }

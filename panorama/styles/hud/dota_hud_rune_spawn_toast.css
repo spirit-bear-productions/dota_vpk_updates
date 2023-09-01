@@ -1,68 +1,60 @@
-DOTARuneSpawnToast{
-
-  height: fit-children;
-  width: 272px;
-  flow-children: right;
-  margin-bottom: 8px;
-  horizontal-align: right;
-  background-image: url( "s2r://panorama/images/hud/reborn/item_purchase_bg_psd.vtex");
-  background-size: cover;
-  padding: 8px;
+DOTARuneSpawnToast {
+    height: fit-children;
+    width: 272px;
+    flow-children: right;
+    margin-bottom: 8px;
+    horizontal-align: right;
+    background-image: url("s2r://panorama/images/hud/reborn/item_purchase_bg_psd.vtex");
+    background-size: cover;
+    padding: 8px;
 }
 
- #RuneSpawnLocation{
+#RuneSpawnLocation {
+    vertical-align: center;
+    width: 24px;
+    height: 24px;
+    background-image: url("s2r://panorama/images/hud/reborn/arrow_icon_psd.vtex");
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transform: rotateZ(0deg);
+    wash-color: bluegreyTextBright;
+    margin-right: 4px;
+    img-shadow: 1px 1px 2px #000000aa;
+}
 
-     vertical-align: center;
-     width: 24px;
-     height: 24px;
-  background-image: url( "s2r://panorama/images/hud/reborn/arrow_icon_psd.vtex");
-     background-size: 100%;
-     background-position: 50% 50%;
-  background-repeat: no-repeat;
-  transform: rotateZ(0deg);
-  wash-color: bluegreyTextBright;
-  margin-right: 4px;
-  img-shadow: 1px 1px 2px #000000aa;
- }
+#RuneSpawnedTopText {
+    vertical-align: center;
+    visibility: visible;
+}
 
- #RuneSpawnedTopText{
+#RuneSpawnedBottomText {
+    vertical-align: center;
+    visibility: collapse;
+}
 
-     vertical-align: center;
-  visibility: visible;
- }
+.RuneSpawnBottom #RuneSpawnLocation {
+    transform: rotateZ(180deg);
+}
 
- #RuneSpawnedBottomText{
+.RuneSpawnBottom #RuneSpawnedTopText {
+    visibility: collapse;
+}
 
-     vertical-align: center;
-  visibility: collapse;
- }
+.RuneSpawnBottom #RuneSpawnedBottomText {
+    visibility: visible;
+}
 
- .RuneSpawnBottom #RuneSpawnLocation{
+#RuneEmoticon {
+    vertical-align: center;
+    margin-right: 5px;
+}
 
-  transform: rotateZ(180deg);
- }
-
- .RuneSpawnBottom #RuneSpawnedTopText{
-
-  visibility: collapse;
- }
-
- .RuneSpawnBottom #RuneSpawnedBottomText{
-
-  visibility: visible;
- }
-
- #RuneEmoticon{
-
-     vertical-align: center;
-     margin-right: 5px;
- }
-
- #RuneSpawnedTopText,#RuneSpawnedBottomText{
-
-  font-weight: bold;
-  font-size: 18px;
-  color: bluegreyTextBright;
-  text-shadow: 1px 1px 2px #000000aa;
-  text-overflow: shrink;
+#RuneSpawnedTopText,
+#RuneSpawnedBottomText {
+    font-weight: bold;
+    font-size: 18px;
+    color: bluegreyTextBright;
+    text-shadow: 1px 1px 2px #000000aa;
+    text-overflow: shrink;
 }

@@ -1,154 +1,134 @@
+.PopupTI6WeekendSale {
+    width: 760px;
+    height: 840px;
+    padding: 0px;
+    overflow: clip;
+    flow-children: none;
+    background-image: url("s2r://panorama/images/splash_ads/ti6_weekend_sale_png.vtex");
+    background-color: black;
+}
 
- .PopupTI6WeekendSale{
+#Contents {
+    flow-children: down;
+    width: 100%;
+    horizontal-align: center;
+}
 
-  width: 760px;
-     height: 840px;
-  padding: 0px;
-  overflow: clip;
-  flow-children: none;
-     background-image: url( "s2r://panorama/images/splash_ads/ti6_weekend_sale_png.vtex");
-  background-color: black;
- }
+.CloseButton {
+    horizontal-align: right;
+    width: 30px;
+    height: 30px;
+    background-size: 60%;
+    background-color: #444;
+    margin-top: 8px;
+    margin-right: 8px;
+}
 
- #Contents{
+#TitleBox {
+    flow-children: down;
+    width: 100%;
+    horizontal-align: center;
+    height: 160px;
+}
 
-  flow-children: down;
-     width: 100%;
-     horizontal-align: center;
- }
+#Title {
+    color: #cccccc;
+    font-size: 46px;
+    text-transform: uppercase;
 
- .CloseButton{
+    letter-spacing: 9px;
+    text-align: center;
+    horizontal-align: center;
+}
 
-  horizontal-align: right;
-  width: 30px;
-  height: 30px;
-  background-size: 60%;
-  background-color: #444;
-  margin-top: 8px;
-  margin-right: 8px;
- }
+.SubTitle {
+    width: 100%;
+    text-align: center;
+    horizontal-align: center;
+    color: #ed5649;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
 
- #TitleBox{
+.Sub01 {
+    margin-top: 30px;
+}
 
-     flow-children: down;
-     width: 100%;
-     horizontal-align: center;
-     height: 160px;
- }
+.Sub02 {
+    margin-top: -7px;
+}
 
- #Title{
+#Messaging {
+    flow-children: down;
+    width: 100%;
+    horizontal-align: center;
+    height: 400px;
+    margin-top: 360px;
+}
 
-  color: #cccccc;
-  font-size: 46px;
-  text-transform: uppercase;
+#BattleLevels {
+    color: #cccccc;
+    font-size: 33px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    horizontal-align: center;
+}
 
-     letter-spacing: 9px;
-     text-align: center;
-     horizontal-align: center;
- }
+#Treasures {
+    width: 100%;
+    text-align: center;
+    horizontal-align: center;
+    color: #cccccc;
+    font-size: 33px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 30px;
+    margin-top: -9px;
+}
 
- .SubTitle{
+#Savings {
+    color: #ed5649;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    horizontal-align: center;
+    margin-top: 30px;
+}
 
-     width: 100%;
-     text-align: center;
-     horizontal-align: center;
-     color: #ED5649;
-     font-size: 20px;
-     text-transform: uppercase;
-     letter-spacing: 4px;
- }
+.PurchaseSubLabel {
+    width: 100%;
+    text-align: center;
+    horizontal-align: center;
+    color: #4c4c4c;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 6px;
+}
 
- .Sub01{
+.Red {
+    font-weight: bold;
+}
+.MustOwn {
+    horizontal-align: center;
+}
 
-     margin-top: 30px;
- }
+.MustOwn.PurchaseSubLabel {
+    color: #ac4c4c;
+}
 
- .Sub02{
+.SelfEventActive .MustOwn {
+    visibility: collapse;
+}
 
-     margin-top: -7px;
- }
+.Owned {
+    horizontal-align: center;
+    visibility: collapse;
+}
 
- #Messaging{
-
-     flow-children: down;
-     width: 100%;
-     horizontal-align: center;
-     height: 400px;
-     margin-top: 360px;
- }
-
- #BattleLevels{
-
-     color: #cccccc;
-     font-size: 33px;
-     text-transform: uppercase;
-     letter-spacing: 5px;
-     text-align: center;
-     horizontal-align: center;
- }
-
- #Treasures{
-
-     width: 100%;
-     text-align: center;
-     horizontal-align: center;
-     color: #cccccc;
-     font-size: 33px;
-     text-transform: uppercase;
-     letter-spacing: 5px;
-     line-height: 30px;
-     margin-top: -9px;
- }
-
- #Savings{
-
-     color: #ED5649;
-     font-size: 36px;
-     text-transform: uppercase;
-     letter-spacing: 6px;
-     text-align: center;
-     horizontal-align: center;
-     margin-top: 30px;
- }
-
- .PurchaseSubLabel{
-
-     width: 100%;
-     text-align: center;
-     horizontal-align: center;
-     color: #4c4c4c;
-     font-size: 15px;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-     margin-top: 6px;
- }
-
- .Red{
-
-     font-weight: bold;
- }
- .MustOwn{
-
-  horizontal-align: center;
- }
-
- .MustOwn.PurchaseSubLabel{
-
-     color: #Ac4c4c;
- }
-
- .SelfEventActive .MustOwn{
-
-  visibility: collapse;
- }
-
- .Owned{
-
-     horizontal-align: center;
-  visibility: collapse;
- }
-
- .SelfEventActive .Owned{
-
-  visibility: visible;
+.SelfEventActive .Owned {
+    visibility: visible;
 }

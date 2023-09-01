@@ -1,138 +1,126 @@
-DOTAWraithKingHeroMap{
-
-  padding: 8px;
+DOTAWraithKingHeroMap {
+    padding: 8px;
 }
 
- DOTAWraithKingHeroMap VerticalScrollBar,DOTAWraithKingHeroMap HorizontalScrollBar{
+DOTAWraithKingHeroMap VerticalScrollBar,
+DOTAWraithKingHeroMap HorizontalScrollBar {
+    opacity: 0;
+}
 
+.Darken {
+    wash-color: #1a0b0a;
+    opacity: 0.55;
+}
 
-  opacity: 0;
- }
+.Highlight {
+    background-image: none;
+    overflow: noclip;
+}
 
+.Highlight #Particles {
+    width: 150%;
+    height: 150%;
+    margin-left: -25%;
+    margin-top: -25%;
+}
 
- .Darken{
+.Highlight #Particles DOTAParticleScenePanel {
+    width: 100%;
+    height: width-percentage(140%);
+    vertical-align: middle;
+    horizontal-align: middle;
 
-  wash-color: #1a0b0a;
-  opacity: .55;
- }
+    opacity: 0.99;
+}
 
- .Highlight{
+#DeathTransition {
+    background-image: none;
+}
 
-  background-image: none;
-  overflow: noclip;
- }
+.Layer {
+    overflow: noclip;
+}
 
- .Highlight #Particles{
+.ShowProgress .PostGame .Layer {
+    transition-property: wash-color, opacity;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+    transition-duration: 0.7s;
+}
 
-  width: 150%;
-  height: 150%;
-  margin-left: -25%;
-  margin-top: -25%;
- }
+.Layer.FadeDown {
+    opacity: 0;
+    animation-name: FadeDown;
+    animation-iteration-count: 1;
+    animation-duration: 0.6s;
+}
 
- .Highlight #Particles DOTAParticleScenePanel{
+.Layer.FadedOut {
+    visibility: visible;
+    opacity: 0;
+}
 
-  width: 100%;
-  height: width-percentage( 140% );
-  vertical-align: middle;
-  horizontal-align: middle;
+.Layer.FadeUp {
+    visibility: visible;
+    opacity: 1;
+    animation-name: FadeUp;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
 
-  opacity: .99;
- }
+.Layer #Particles {
+    width: 150%;
+    height: 150%;
 
- #DeathTransition{
+    margin-left: -25%;
+    margin-top: -25%;
+}
+.Layer #Particles DOTAParticleScenePanel {
+    opacity: 2;
+    width: 100%;
+    height: width-percentage(110%);
+}
 
-  background-image: none;
- }
+@keyframes 'FadeDown' {
+    0% {
+        opacity: 1;
+    }
 
- .Layer{
+    100% {
+        opacity: 0;
+    }
+}
 
-  overflow: noclip;
- }
+@keyframes 'FadeUp' {
+    0% {
+        opacity: 0;
+    }
 
- .ShowProgress .PostGame .Layer{
+    30% {
+        opacity: 0;
+    }
 
-  transition-property: wash-color, opacity;
-  transition-delay: 0.0s;
-  transition-timing-function: ease-out;
-  transition-duration: 0.7s;
- }
+    100% {
+        opacity: 1;
+    }
+}
 
- .Layer.FadeDown{
+#npc_dota_hero_wisp_bg.Highlight {
+    margin: -20px 0px 0px -40px;
+}
+#npc_dota_hero_troll_warlord_bg.Highlight {
+    margin: -18px 0px 0px 30px;
+}
+#npc_dota_hero_terrorblade_bg.Highlight {
+    margin: -18px 0px 0px 20px;
+}
+#npc_dota_hero_zuus_bg.Highlight {
+    margin: 90px 0px 0px -12px;
+}
+#npc_dota_hero_legion_commander_bg.Highlight {
+    margin: 0px 0px 0px 42px;
+}
 
-  opacity: 0;
-  animation-name: FadeDown;
-  animation-iteration-count: 1;
-  animation-duration: 0.6s;
- }
-
- .Layer.FadedOut{
-
-  visibility: visible;
-  opacity: 0;
- }
-
- .Layer.FadeUp{
-
-  visibility: visible;
-  opacity: 1;
-  animation-name: FadeUp;
-  animation-iteration-count: 1;
-  animation-duration: 1.0s;
- }
-
- .Layer #Particles{
-
-  width: 150%;
-  height: 150%;
-
-  margin-left: -25%;
-  margin-top: -25%;
- }
- .Layer #Particles DOTAParticleScenePanel{
-
-  opacity: 2;
-  width: 100%;
-  height: width-percentage( 110% );
- }
-
- @keyframes 'FadeDown'{
-
-  0%{
-
-   opacity: 1.0;
-  }
-
-  100%{
-
-   opacity: 0.0;
-  }
- }
-
- @keyframes 'FadeUp'{
-
-  0%{
-
-   opacity: 0.0;
-  }
-
-  30%{
-
-   opacity: 0.0;
-  }
-
-  100%{
-
-   opacity: 1.0;
-  }
- }
-
-
- #npc_dota_hero_wisp_bg.Highlight{  margin: -20px 0px 0px -40px;}
- #npc_dota_hero_troll_warlord_bg.Highlight{  margin: -18px 0px 0px 30px;}
- #npc_dota_hero_terrorblade_bg.Highlight{  margin: -18px 0px 0px 20px;}
- #npc_dota_hero_zuus_bg.Highlight{  margin: 90px 0px 0px -12px;}
- #npc_dota_hero_legion_commander_bg.Highlight{  margin: 0px 0px 0px 42px;}
-
- #DeathTransition.npc_dota_hero_zuus #Particles{  margin: 320px 0px 0px -40px;
+#DeathTransition.npc_dota_hero_zuus #Particles {
+    margin: 320px 0px 0px -40px;
 }

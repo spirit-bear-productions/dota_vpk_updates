@@ -1,43 +1,35 @@
+.InfoRow {
+    flow-children: right;
+    margin-bottom: 8px;
+}
 
- .InfoRow{
+.InfoLabel {
+    width: 150px;
+    margin-right: 8px;
+    text-align: right;
+    color: #ccc;
+}
 
-  flow-children: right;
-  margin-bottom: 8px;
- }
+#SetNameRow > .InfoLabel {
+    vertical-align: middle;
+}
 
- .InfoLabel{
+#SetNameTextEntry {
+    margin-left: 7px;
+}
 
-  width: 150px;
-  margin-right: 8px;
-  text-align: right;
-  color: #ccc;
- }
+#SetItems {
+    flow-children: right-wrap;
+    width: 430px;
+}
 
- #SetNameRow > .InfoLabel{
+.NewSet #DeleteButton,
+.NewSet #SaveButton,
+.NewSet #EditTitle {
+    visibility: collapse;
+}
 
-  vertical-align: middle;
- }
-
- #SetNameTextEntry{
-
-  margin-left: 7px;
- }
-
- #SetItems{
-
-  flow-children: right-wrap;
-  width: 430px;
- }
-
- .NewSet #DeleteButton,.NewSet #SaveButton,.NewSet #EditTitle{
-
-
-
-  visibility: collapse;
- }
-
- .ExistingSet #CreateButton,.ExistingSet #CreateTitle{
-
-
-  visibility: collapse;
+.ExistingSet #CreateButton,
+.ExistingSet #CreateTitle {
+    visibility: collapse;
 }

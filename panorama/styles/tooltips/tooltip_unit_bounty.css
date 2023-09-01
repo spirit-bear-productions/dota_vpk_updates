@@ -1,41 +1,29 @@
+.DOTATooltipUnitBounty {
+    flow-children: down;
+}
 
- .DOTATooltipUnitBounty{
+#Contents {
+    padding: 8px;
+}
 
-     flow-children: down;
- }
+.InfoRow {
+    flow-children: right;
+}
 
- #Contents{
+.InfoData {
+    color: white;
+    margin-left: 3px;
+}
 
-  padding: 8px;
- }
+.SameBountyRow,
+.TeamBountyRow,
+.DenyBountyRow,
+.SameBounty .BountyRangeRow {
+    visibility: collapse;
+}
 
- .InfoRow{
-
-  flow-children: right;
- }
-
-
-
-
-
-
- .InfoData{
-
-  color: white;
-  margin-left: 3px;
- }
-
- .SameBountyRow,.TeamBountyRow,.DenyBountyRow,.SameBounty .BountyRangeRow{
-
-
-
-
-  visibility: collapse;
- }
-
- .SameBounty .SameBountyRow,.TeamBounty .TeamBountyRow,.DenyBounty .DenyBountyRow{
-
-
-
-  visibility: visible;
+.SameBounty .SameBountyRow,
+.TeamBounty .TeamBountyRow,
+.DenyBounty .DenyBountyRow {
+    visibility: visible;
 }

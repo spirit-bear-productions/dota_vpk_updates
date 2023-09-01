@@ -1,161 +1,136 @@
+#Contents.OpenTreasureContents {
+    width: 600px;
+    flow-children: down;
+    padding: 0px;
+}
 
+.TreasureItemsCategory {
+    flow-children: down;
+    padding: 14px 16px;
+    width: 100%;
+}
 
- #Contents.OpenTreasureContents{
+#NormalContents {
+    background-color: #3e454b;
+}
 
-  width: 600px;
-     flow-children: down;
-  padding: 0px;
- }
+#NormalTitle {
+    color: #c3ede9;
+    font-size: 20px;
+    text-transform: uppercase;
+}
 
- .TreasureItemsCategory{
+.ItemList {
+    flow-children: down;
+    margin: 8px 0px;
+}
 
-  flow-children: down;
-  padding: 14px 16px;
-  width: 100%;
- }
+.ItemList > Panel {
+    flow-children: right;
+    margin-bottom: 2px;
+    padding: 2px 0px 2px 8px;
+}
 
- #NormalContents{
+.ItemList .ExtraItems {
+    color: #9b9fa2;
+}
 
-  background-color: #3e454b;
- }
+.NormalItem {
+    background-color: #535a60;
+}
 
- #NormalTitle{
+#NormalDescription {
+    color: #9b9fa2;
+}
 
-  color: #c3ede9;
-  font-size: 20px;
-  text-transform: uppercase;
- }
+#NormalItems {
+    flow-children: down;
+}
 
- .ItemList{
+.UnitName {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
 
-  flow-children: down;
-  margin: 8px 0px;
- }
+.ItemName {
+    color: #cdced3;
+    width: fill-parent-flow(1);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+}
 
- .ItemList > Panel{
+.ReceivedText {
+    color: #d1f4fa;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-right: 8px;
 
-  flow-children: right;
-  margin-bottom: 2px;
-  padding: 2px 0px 2px 8px;
- }
+    visibility: collapse;
+}
 
- .ItemList .ExtraItems{
+.ReceivedItem .ReceivedText {
+    visibility: visible;
+}
 
-  color: #9b9fa2;
- }
+.ReceivedIcon {
+    height: 30px;
+    width: 30px;
+    margin: -2px 0px;
+    background-color: #686f75;
+}
 
- .NormalItem{
+.ReceivedItem .ReceivedIcon {
+    background-color: #bfe6e5;
+    box-shadow: #bdeefd66 0px 0px 4px 0px;
+}
 
-  background-color: #535a60;
- }
+.ReceivedItem .ReceivedIconImage {
+    vertical-align: middle;
+    horizontal-align: center;
+    width: 80%;
+    height: 80%;
 
- #NormalDescription{
+    background-image: url("s2r://panorama/images/control_icons/check_shadow_png.vtex");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 
-  color: #9b9fa2;
- }
+    wash-color: #139dde;
+}
 
- #NormalItems{
+#RareContents {
+    background-color: #282d30;
+    visibility: collapse;
+}
 
-  flow-children: down;
- }
+.HasRareDrops #RareContents {
+    visibility: visible;
+}
 
- .UnitName{
+#RareTitle {
+    color: #c3ede9;
+    font-size: 20px;
+    text-transform: uppercase;
+}
 
-  color: white;
-  text-transform: uppercase;
-  margin-top: 2px;
- }
+.RareItem {
+    background-color: #3b4d4f;
+}
 
- .ItemName{
+.RarityText {
+    text-transform: uppercase;
+    color: #e3e4e8;
+    margin-top: 2px;
+    margin-right: 4px;
+    text-align: right;
+}
 
-  color: #cdced3;
-  width: fill-parent-flow( 1.0 );
-     padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 2px;
- }
-
- .ReceivedText{
-
-  color: #d1f4fa;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-top: 2px;
-  margin-right: 8px;
-
-  visibility: collapse;
- }
-
- .ReceivedItem .ReceivedText{
-
-  visibility: visible;
- }
-
- .ReceivedIcon{
-
-  height: 30px;
-  width: 30px;
-  margin: -2px 0px;
-  background-color: #686f75;
- }
-
- .ReceivedItem .ReceivedIcon{
-
-  background-color: #bfe6e5;
-  box-shadow: #bdeefd66 0px 0px 4px 0px ;
- }
-
- .ReceivedItem .ReceivedIconImage{
-
-  vertical-align: middle;
-  horizontal-align: center;
-  width: 80%;
-  height: 80%;
-
-  background-image: url( "s2r://panorama/images/control_icons/check_shadow_png.vtex");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  wash-color: #139dde;
- }
-
- #RareContents{
-
-  background-color: #282d30;
-  visibility: collapse;
- }
-
- .HasRareDrops #RareContents{
-
-  visibility: visible;
- }
-
- #RareTitle{
-
-  color: #c3ede9;
-  font-size: 20px;
-  text-transform: uppercase;
- }
-
- .RareItem{
-
-  background-color: #3b4d4f;
- }
-
- .RarityText{
-
-  text-transform: uppercase;
-  color: #e3e4e8;
-  margin-top: 2px;
-  margin-right: 4px;
-  text-align: right;
- }
-
- .RarityIcon{
-
-  height: 30px;
-  width: 30px;
-  margin: -2px 0px -2px 4px;
-  background-color: #556565;
+.RarityIcon {
+    height: 30px;
+    width: 30px;
+    margin: -2px 0px -2px 4px;
+    background-color: #556565;
 }

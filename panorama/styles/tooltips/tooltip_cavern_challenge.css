@@ -1,60 +1,50 @@
-#Contents{
-
-  flow-children: down;
+#Contents {
+    flow-children: down;
 }
 
- .Header{
+.Header {
+    horizontal-align: center;
+}
 
-  horizontal-align: center;
- }
+.CustomChallenge .Header {
+    border-bottom: 1px solid #cccccc;
+}
 
- .CustomChallenge .Header{
+.CustomChallengeContainer {
+    flow-children: down;
+    margin-top: 4px;
+    visibility: collapse;
+}
 
-  border-bottom: 1px solid #CCCCCC;
- }
+.CustomChallenge .CustomChallengeContainer {
+    visibility: visible;
+}
 
- .CustomChallengeContainer{
+.ChallengeSubtitle {
+    margin-top: 8px;
+    font-size: 16px;
+    horizontal-align: center;
+}
 
-  flow-children: down;
-  margin-top: 4px;
-  visibility: collapse;
- }
+#CustomChallengeList {
+    flow-children: right-wrap;
+    max-width: 700px;
+}
 
- .CustomChallenge .CustomChallengeContainer{
+.CustomChallengeHero {
+    flow-children: right;
+}
 
-  visibility: visible;
- }
+#Image {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
 
- .ChallengeSubtitle{
-
-  margin-top: 8px;
-  font-size: 16px;
-  horizontal-align: center;
- }
-
- #CustomChallengeList{
-
-  flow-children: right-wrap;
-  max-width: 700px;
- }
-
- .CustomChallengeHero{
-
-  flow-children: right;
- }
-
- #Image{
-
-  margin-top: 1px;
-  margin-bottom: 1px;
- }
-
- .HeroName{
-
-  margin-left: 8px;
-  width: 120px;
-  overflow: clip;
-  text-overflow: shrink;
-  height: 24px;
-  vertical-align: center;
+.HeroName {
+    margin-left: 8px;
+    width: 120px;
+    overflow: clip;
+    text-overflow: shrink;
+    height: 24px;
+    vertical-align: center;
 }

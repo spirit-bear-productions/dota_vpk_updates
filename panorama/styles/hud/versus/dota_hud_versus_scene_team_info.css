@@ -1,128 +1,117 @@
-.IsRegisteredTeam #SimpleTeamInfo{
-
-  visibility: collapse;
+.IsRegisteredTeam #SimpleTeamInfo {
+    visibility: collapse;
 }
 
- #RegisteredTeamInfo{
+#RegisteredTeamInfo {
+    visibility: collapse;
+}
 
-  visibility: collapse;
- }
+.IsRegisteredTeam #RegisteredTeamInfo {
+    visibility: visible;
+}
 
- .IsRegisteredTeam #RegisteredTeamInfo{
+#SimpleTeamName {
+    font-size: 60px;
+    color: #ffffffee;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: semi-bold;
+    font-style: italic;
+    horizontal-align: left;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-family: titleFont;
+}
 
-  visibility: visible;
- }
+.DireTeam #SimpleTeamName {
+    text-shadow: 0px 0px 10px red;
+}
 
+.RadiantTeam #SimpleTeamName {
+    text-shadow: 0px 0px 10px #1d8139;
+}
 
+.DireTeam #DireTitleFX {
+    width: 400px;
+    height: 380px;
+    horizontal-align: center;
 
+    transform: translatey(-140px);
+    margin-top: 0px;
+}
 
+.RadiantTeam #RadiantTitleFX {
+    width: 540px;
+    height: 220px;
+    horizontal-align: left;
+    transform: translateX(-40px);
+}
 
- #SimpleTeamName{
+#RegisteredTeamInfo {
+    flow-children: right;
+}
 
-  font-size: 60px;
-  color: #ffffffee;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  font-weight: semi-bold;
-  font-style: italic;
-  horizontal-align: left;
-  padding-top: 50px;
-  padding-left: 30px;
-     font-family: titleFont;
- }
+#TeamLogo {
+    width: 100px;
+    height: 100px;
+    text-shadow: 0px 0px 10px #000000;
+}
 
- .DireTeam #SimpleTeamName{
-  text-shadow: 0px 0px 10px red;
- }
+#RegisteredTeamDetails {
+    vertical-align: middle;
+    flow-children: down;
+    margin-left: 12px;
+}
 
- .RadiantTeam #SimpleTeamName{
-  text-shadow: 0px 0px 10px #1d8139;
- }
+#RegisteredTeamName {
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-family: "Radiance";
+    text-transform: uppercase;
+    font-weight: black;
+    margin-top: 0px;
+}
 
- .DireTeam #DireTitleFX{
-  width: 400px;
-  height: 380px;
-  horizontal-align: center;
+#RegisteredDotaTeamName {
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px black;
+    margin-top: -5px;
+    color: #ffffff;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: titleFont;
+    font-weight: black;
+}
 
-  transform: translatey(-140px);
-  margin-top: 0px;
- }
+.RadiantTeam #RegisteredDotaTeamName {
+    text-shadow:
+        0px 0px 20px 3 #00cc39,
+        0px 0px 20px 10 #000000;
+}
 
- .RadiantTeam #RadiantTitleFX{
-  width: 540px;
-  height: 220px;
-  horizontal-align: left;
-  transform: translateX(-40px);
- }
+.DireTeam #RegisteredDotaTeamName {
+    text-shadow:
+        0px 0px 20px 3 red,
+        0px 0px 20px 10 #000000;
+}
 
+.DireTeam #DireTeamTitleFX {
+    width: 180px;
+    height: 100px;
+    horizontal-align: left;
+    transform: translateX(-50px);
+    transform: translateY(-90px);
+}
 
-
- #RegisteredTeamInfo{
-
-  flow-children: right;
- }
-
- #TeamLogo{
-
-  width: 100px;
-  height: 100px;
-  text-shadow: 0px 0px 10px #000000;
- }
-
- #RegisteredTeamDetails{
-
-  vertical-align: middle;
-  flow-children: down;
-  margin-left: 12px;
- }
-
- #RegisteredTeamName{
-
-  font-size: 48px;
-  letter-spacing: 2px;
-  color: white;
-  text-shadow: 2px 2px 4px black;
-  font-family: "Radiance";
-  text-transform: uppercase;
-  font-weight: black;
-  margin-top: 0px;
- }
-
- #RegisteredDotaTeamName{
-
-  text-transform: uppercase;
-  font-size: 30px;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 4px black;
-  margin-top: -5px;
-  color: #ffffff;
-  font-style: italic;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-     font-family: titleFont;
-  font-weight: black;
- }
-
- .RadiantTeam #RegisteredDotaTeamName{
-  text-shadow: 0px 0px 20px 3.0 #00CC39, 0px 0px 20px 10.0 #000000;
- }
-
- .DireTeam #RegisteredDotaTeamName{
-  text-shadow: 0px 0px 20px 3.0 red, 0px 0px 20px 10.0 #000000;
- }
-
- .DireTeam #DireTeamTitleFX{
-  width: 180px;
-  height: 100px;
-  horizontal-align: left;
-  transform: translateX(-50px);
-  transform: translateY(-90px);
- }
-
- .RadiantTeam #RadiantTeamTitleFX{
-  width: 260px;
-  height: 140px;
-  horizontal-align: left;
-  transform: translateX(-1000px);
-  transform: translateY(-80px);
+.RadiantTeam #RadiantTeamTitleFX {
+    width: 260px;
+    height: 140px;
+    horizontal-align: left;
+    transform: translateX(-1000px);
+    transform: translateY(-80px);
 }

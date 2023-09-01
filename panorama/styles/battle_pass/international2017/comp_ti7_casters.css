@@ -1,196 +1,166 @@
+DOTACompTI7CastersPage {
+    width: 100%;
+}
+DOTACompTI7CastersPage .CompendiumBody {
+    width: 1392px;
+    height: 700px;
 
- DOTACompTI7CastersPage{
+    margin-top: 215px;
+    border-top: 0;
+    border-bottom: 0;
+    background-color: transparent;
 
-     width:100%;
- }
- DOTACompTI7CastersPage .CompendiumBody{
+    horizontal-align: center;
+}
 
-  width: 1392px;
-  height: 700px;
+#Header {
+    flow-children: right;
+}
 
-  margin-top: 215px;
-  border-top: 0;
-  border-bottom: 0;
-  background-color: transparent;
+#Header Label {
+    color: white;
+}
 
-  horizontal-align: center;
- }
+#HeaderLeft {
+    flow-children: down;
+}
 
- #Header{
+#HeaderLeft > Label {
+    margin-bottom: 20px;
+}
 
-  flow-children: right;
- }
+#AutographsHeader {
+    width: 656px;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#3c1909a0), to(#79371ea0));
 
- #Header Label{
+    border: 1px solid #45201d;
+    margin-right: 31px;
+}
 
-  color: white;
- }
+#TreasureIconContainer {
+    flow-children: down;
+    background-color: red;
+    padding: 10px;
+    padding-right: 11px;
+    horizontal-align: left;
+    vertical-align: top;
+    height: fit-children;
 
- #HeaderLeft{
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#471d0d), to(#8c3e21));
 
-  flow-children: down;
- }
+    border-top: 1px solid #632e2a;
+    border-left: 1px solid #632e2a;
+}
 
- #HeaderLeft > Label{
+#TroveCarafeButton {
+    height: 57px;
+    width: 87px;
+}
 
-  margin-bottom: 20px;
- }
+#LocklessLuckvaseButton {
+    height: 57px;
+    width: 87px;
+    margin-top: 10px;
+}
 
+#AutographsContents {
+    flow-children: right;
+    horizontal-align: center;
+}
 
- #AutographsHeader{
+#AutographsContents > Button {
+    width: height-percentage(150%);
+    height: 90px;
+    border: 1px solid #45201d;
+    box-shadow: fill 2px 2px 4px black;
+}
 
-  width: 656px;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #3C1909a0 ), to( #79371Ea0 ) );
+#AutographsContents > Button:hover {
+    brightness: 2;
+}
 
-  border: 1px solid #45201D;
-  margin-right: 31px;
- }
+#AutographsContents > Button:active {
+    brightness: 1.5;
+}
 
- #TreasureIconContainer{
+#AutographsContents > Button > EconItemImage {
+    width: 100%;
+    height: 100%;
+}
 
-  flow-children: down;
-  background-color: red;
-  padding: 10px;
-  padding-right: 11px;
-  horizontal-align: left;
-  vertical-align: top;
-  height: fit-children;
+#AutographsHeader #AutographsTitle {
+    color: #dbc69c;
+    text-shadow: 0px 0px 4px black;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: left;
+    horizontal-align: left;
 
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #471d0d ), to( #8c3e21 ) );
+    padding-left: 15px;
+    padding-top: 7px;
+}
 
-  border-top: 1px solid #632e2a;
-  border-left: 1px solid #632e2a;
- }
+#AutographsHeader #AutographsSubHead {
+    padding-left: 15px;
+    color: #b68463;
+    font-size: 20px;
+    margin-top: -4px;
+}
 
- #TroveCarafeButton{
+#AutographsContents {
+    horizontal-align: left;
+}
 
-  height: 57px;
-  width: 87px;
- }
+#AutographsContents > Label {
+    width: 510px;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    line-height: 20;
+}
 
- #LocklessLuckvaseButton{
+#LanguageSelection {
+    margin-left: 28px;
+}
 
-  height: 57px;
-  width: 87px;
-  margin-top: 10px;
- }
+#LanguageSelection Label {
+    vertical-align: center;
+    color: #a2b7cd;
+    color: #c3b699;
+    text-transform: uppercase;
 
- #AutographsContents{
+    margin-top: 2px;
+    margin-right: 16px;
+}
 
-  flow-children: right;
-  horizontal-align: center;
- }
+#LanguageSelection DropDown Label {
+    color: white;
+}
 
- #AutographsContents > Button{
+.LanguageMenu Label {
+    background-color: #222222;
+}
 
-  width: height-percentage( 150% );
-  height: 90px;
-  border: 1px solid #45201D;
-  box-shadow: fill 2px 2px 4px black;
- }
+.LanguageMenu .DropDownChild {
+    width: 100%;
+}
 
- #AutographsContents > Button:hover{
+#TalentWell {
+    margin-top: 10px;
 
-  brightness: 2.0;
- }
+    flow-children: right-wrap;
+    overflow: clip scroll;
+    opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_vscroll_wide_psd.vtex");
+    padding-left: 16px;
+    padding-right: 16px;
 
- #AutographsContents > Button:active{
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
 
-  brightness: 1.5;
- }
-
- #AutographsContents > Button > EconItemImage{
-
-  width: 100%;
-  height: 100%;
- }
-
- #AutographsHeader #AutographsTitle{
-
-  color: #dbc69c;
-  text-shadow: 0px 0px 4px black;
-  font-size: 26px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-align: left;
-  horizontal-align: left;
-
-  padding-left: 15px;
-  padding-top: 7px;
- }
-
- #AutographsHeader #AutographsSubHead{
-
-  padding-left: 15px;
-  color: #b68463;
-  font-size: 20px;
-  margin-top: -4px;
- }
-
- #AutographsContents{
-
-  horizontal-align: left;
- }
-
- #AutographsContents > Label{
-
-  width: 510px;
-  text-align: left;
-  margin-left: 15px;
-  margin-top: 5px;
-  line-height: 20;
- }
-
-
- #LanguageSelection{
-
-  margin-left: 28px;
- }
-
- #LanguageSelection Label{
-
-  vertical-align: center;
-  color: #A2B7CD;
-  color: #c3b699;
-  text-transform: uppercase;
-
-  margin-top: 2px;
-  margin-right: 16px;
- }
-
- #LanguageSelection DropDown Label{
-
-  color: white;
- }
-
- .LanguageMenu Label{
-
-  background-color: #222222;
- }
-
- .LanguageMenu .DropDownChild{
-
-  width: 100%;
- }
-
-
- #TalentWell{
-
-  margin-top: 10px;
-
-  flow-children: right-wrap;
-  overflow: clip scroll;
-  opacity-mask: url( "s2r://panorama/images/masks/softedge_vertical_vscroll_wide_psd.vtex");
-  padding-left: 16px;
-  padding-right: 16px;
-
-  transition-property: opacity;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
- }
-
- .FadeOut #TalentWell{
-
-  opacity: 0;
+.FadeOut #TalentWell {
+    opacity: 0;
 }

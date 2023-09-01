@@ -1,151 +1,128 @@
+.CombatClassTable {
+    margin: 30px;
+    flow-children: right;
+    horizontal-align: center;
+}
 
+.CombatClassTableTooltip {
+    vertical-align: top;
+    horizontal-align: right;
+}
 
- .CombatClassTable{
+.CombatClassLabel {
+    width: 350px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ccc;
+    horizontal-align: center;
+    margin: 10px;
+    text-align: center;
+}
 
-  margin: 30px;
-  flow-children: right;
-  horizontal-align: center;
- }
+.CombatClassLabelDesc {
+    margin: 10px;
+    max-width: 800px;
+    color: #aaa;
+    horizontal-align: center;
+}
 
- .CombatClassTableTooltip{
+.CombatClassColumnHeader Panel,
+.CombatClassColumnHeader Label,
+.CombatClassColumn Label {
+    min-width: 100px;
+    min-height: 40px;
+}
 
-  vertical-align: top;
-  horizontal-align: right;
- }
+.CombatClassColumnHeader Label {
+    color: darkred;
+}
 
- .CombatClassLabel{
+.CombatClassRowHeader {
+    color: darkgreen;
+}
 
-  width: 350px;
-  font-size: 30px;
-  font-weight: bold;
-  color: #ccc;
-  horizontal-align: center;
-  margin: 10px;
-  text-align: center;
- }
+.CombatClassColumnHeader,
+.CombatClassColumn {
+    flow-children: down;
+}
 
- .CombatClassLabelDesc{
+.Cooldown {
+    width: 100%;
+    height: 100%;
+    visibility: collapse;
+    margin: 5px;
+}
 
-  margin: 10px;
-  max-width: 800px;
-  color: #aaa;
-  horizontal-align: center;
- }
+.Cooldown {
+    visibility: visible;
+}
 
- .CombatClassColumnHeader Panel,.CombatClassColumnHeader Label,.CombatClassColumn Label{
+.CooldownOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: #000000dd;
+}
 
+.CooldownTimer {
+    color: white;
+    font-size: 28px;
+    text-shadow: 0px 0px 6px 6 #000000;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+    text-overflow: shrink;
+}
 
+.QueuedOrdersHelpEntry {
+    margin-right: 20px;
+}
 
-  min-width: 100px;
-  min-height: 40px;
- }
+.QueuedOrder {
+    height: fit-children;
+    width: fit-children;
+    vertical-align: center;
+    horizontal-align: left;
+    transition-property: opacity, pre-transform-scale2d, width;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
 
- .CombatClassColumnHeader Label{
+.QueuedOrderImage {
+    width: 48px;
+    height: 48px;
+    margin: 5px;
 
-  color: darkred;
- }
+    vertical-align: center;
+    horizontal-align: left;
 
- .CombatClassRowHeader{
+    brightness: 0.5;
+    saturation: 0.5;
 
-  color: darkgreen;
- }
+    border-radius: 50%;
+    box-shadow: inset white 0px 1px 1px 2px;
+    background-color: #000000ee;
+    border: 1px solid #000000ee;
 
- .CombatClassColumnHeader,.CombatClassColumn{
+    transition-property: height, width;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
 
+.NextOrder .QueuedOrderImage {
+    width: 64px;
+    height: 64px;
+    saturation: 0.9;
+    brightness: 0.9;
+    box-shadow: inset #8bdd4f 0px 2px 2px 4px;
+}
 
-  flow-children: down;
- }
+.QueuedOrder .OrderBorder {
+    height: 100%;
+    width: 100%;
 
- .Cooldown{
-
-  width: 100%;
-  height: 100%;
-  visibility: collapse;
-  margin: 5px;
- }
-
- .Cooldown{
-
-  visibility: visible;
- }
-
- .CooldownOverlay{
-
-  width: 100%;
-  height: 100%;
-  background-color: #000000DD;
- }
-
- .CooldownTimer{
-
-  color: white;
-     font-size: 28px;
-  text-shadow: 0px 0px 6px 6 #000000;
-  width: 100%;
-     text-align: center;
-     vertical-align: center;
-  text-overflow: shrink;
- }
-
-
-
- .QueuedOrdersHelpEntry{
-
-  margin-right: 20px;
- }
-
- .QueuedOrder{
-
-  height: fit-children;
-  width: fit-children;
-  vertical-align: center;
-  horizontal-align: left;
-  transition-property: opacity, pre-transform-scale2d, width;
-  transition-duration: 0.25s;
-  transition-timing-function: ease-in-out;
- }
-
- .QueuedOrderImage{
-
-  width: 48px;
-  height: 48px;
-  margin: 5px;
-
-
-  vertical-align: center;
-  horizontal-align: left;
-
-  brightness: 0.5;
-  saturation: 0.5;
-
-  border-radius: 50%;
-  box-shadow: inset white 0px 1px 1px 2px;
-  background-color: #000000ee;
-  border: 1px solid #000000ee;
-
-  transition-property: height, width;
-  transition-duration: 0.10s;
-  transition-timing-function: ease-in-out;
- }
-
- .NextOrder .QueuedOrderImage{
-
-  width: 64px;
-  height: 64px;
-  saturation: 0.9;
-  brightness: 0.9;
-  box-shadow: inset #8bdd4f 0px 2px 2px 4px;
- }
-
- .QueuedOrder .OrderBorder{
-
-
-  height: 100%;
-  width: 100%;
-
-  background-image: url( "s2r://panorama/images/hud/reborn/circle_frame_png.vtex");
-  background-size: 100% 100%;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  z-index: 500;
+    background-image: url("s2r://panorama/images/hud/reborn/circle_frame_png.vtex");
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: 500;
 }

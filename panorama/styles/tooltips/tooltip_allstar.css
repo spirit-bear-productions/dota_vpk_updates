@@ -1,42 +1,36 @@
-.DOTATooltipAllStar{
-
-     width: 350px;
-     height: fit-children;
-     flow-children: down;
+.DOTATooltipAllStar {
+    width: 350px;
+    height: fit-children;
+    flow-children: down;
 }
 
- #Contents{
+#Contents {
+    padding: 8px;
+}
 
-  padding: 8px;
- }
+.PointsLabel {
+    color: ultraBrightColor;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
 
- .PointsLabel{
+#EventCells {
+    flow-children: down;
+    width: 100%;
+    height: fit-children;
+}
 
-  color: ultraBrightColor;
-  letter-spacing: 2px;
-  font-size: 14px;
-  text-transform: uppercase;
- }
+.PointLine {
+    width: 100%;
+    flow-children: right;
+}
 
- #EventCells{
-
-  flow-children: down;
-  width: 100%;
-  height: fit-children;
- }
-
- .PointLine{
-
-  width: 100%;
-  flow-children: right;
- }
-
- .PointLinePoints{
-
-  width: 60px;
-  font-size: 16px;
-  letter-spacing: 1px;
-  vertical-align: middle;
-  horizontal-align: center;
-  color: textAccentColorBright;
+.PointLinePoints {
+    width: 60px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    horizontal-align: center;
+    color: textAccentColorBright;
 }

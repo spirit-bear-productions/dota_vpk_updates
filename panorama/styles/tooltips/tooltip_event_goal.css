@@ -1,62 +1,51 @@
+#Contents {
+    background-color: #302220;
+}
 
- #Contents{
+.EventGoalContents {
+    flow-children: right;
+}
 
-  background-color: #302220;
- }
+#RewardImage {
+    background-color: black;
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: black 0px 0px 6px 0px;
+}
 
- .EventGoalContents{
+#MainContents {
+    flow-children: down;
+    margin-left: 13px;
+}
 
-  flow-children: right;
- }
+#GoalName {
+    font-size: 24px;
+    color: #f1d6af;
+    margin-top: -4px;
+}
 
- #RewardImage{
+#GoalSubtitle {
+    color: #a7362d;
+}
 
-  background-color: black;
-  width: 150px;
-  border: 1px solid black;
-  box-shadow: black 0px 0px 6px 0px ;
- }
+#ProgressBar {
+    margin-top: 20px;
+    width: 100%;
+}
 
- #MainContents{
+#ProgressText {
+    margin-top: 6px;
+    color: #a9372e;
+    font-size: 16px;
+    horizontal-align: center;
+}
 
-  flow-children: down;
-  margin-left: 13px;
- }
+.Mystery #ProgressText {
+    visibility: collapse;
+}
 
- #GoalName{
-
-  font-size: 24px;
-  color: #F1D6AF;
-  margin-top: -4px;
- }
-
- #GoalSubtitle{
-
-  color: #A7362D;
- }
-
- #ProgressBar{
-
-  margin-top: 20px;
-  width: 100%;
- }
-
- #ProgressText{
-
-  margin-top: 6px;
-  color: #A9372E;
-  font-size: 16px;
-  horizontal-align: center;
- }
-
- .Mystery #ProgressText{
-
-  visibility: collapse;
- }
-
- #GoalDescription{
-
-  margin-top: 20px;
-  width: 400px;
-  color: #959390;
+#GoalDescription {
+    margin-top: 20px;
+    width: 400px;
+    color: #959390;
 }

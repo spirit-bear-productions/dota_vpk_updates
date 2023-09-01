@@ -1,132 +1,114 @@
-DOTATeamsPage{
-
-     width: 100%;
-     height: 100%;
-     background-image: url("s2r://panorama/images/compendium/international2020/compendium/compendium_bg_psd.vtex");
-     background-size: 100% 100%;
-     background-repeat: no-repeat;
-     background-position: bottom;
+DOTATeamsPage {
+    width: 100%;
+    height: 100%;
+    background-image: url("s2r://panorama/images/compendium/international2020/compendium/compendium_bg_psd.vtex");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
- .MainContent{
+.MainContent {
+    width: 1440px;
+    horizontal-align: center;
+    margin-top: 140px;
+    flow-children: down;
+}
 
-     width: 1440px;
-     horizontal-align: center;
-     margin-top: 140px;
-     flow-children: down;
- }
+#ProName {
+    color: white;
+    font-size: 32px;
+}
 
- #ProName{
+.ProNameContainer {
+    flow-children: right;
+}
 
-     color: white;
-     font-size: 32px;
- }
+#EditProInfoButton {
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+    vertical-align: middle;
+    wash-color: #666;
 
- .ProNameContainer{
+    background-image: url("s2r://panorama/images/control_icons/edit_png.vtex");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 
-     flow-children: right;
- }
+#EditProInfoButton:hover {
+    wash-color: white;
+}
 
- #EditProInfoButton{
+#EditProInfoButton:active {
+    wash-color: #ccc;
+}
 
-     width: 18px;
-     height: 18px;
-     margin-left: 8px;
-     vertical-align: middle;
-     wash-color: #666;
+.TeamsPageSection {
+    flow-children: down;
+    background-color: #0009;
+    padding: 12px;
+    margin-bottom: 12px;
+    width: 600px;
+}
 
-     background-image: url( "s2r://panorama/images/control_icons/edit_png.vtex");
-     background-repeat: no-repeat;
-     background-size: contain;
-     background-position: center;
- }
+.TeamsSectionHeader {
+    text-transform: uppercase;
+    color: #ccc;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
 
- #EditProInfoButton:hover{
+#MyTeamsList {
+    flow-children: down;
+    overflow: squish scroll;
+    max-height: 500px;
+    width: 100%;
+}
 
-     wash-color: white;
- }
+.TeamPanel {
+    flow-children: right;
+    margin-bottom: 12px;
+    background-color: #ffffff03;
+    width: 100%;
+}
 
- #EditProInfoButton:active{
+.TeamPanel #TeamLogo {
+    width: 64px;
+    height: 64px;
+}
 
-     wash-color: #ccc;
- }
+.TeamPanel .TeamName {
+    width: fill-parent-flow(1);
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #ccc;
+}
 
- .TeamsPageSection{
+.TeamPanel #TeamEditButton {
+    vertical-align: middle;
+    margin-right: 12px;
 
-     flow-children: down;
-     background-color: #0009;
-     padding: 12px;
-     margin-bottom: 12px;
-     width: 600px;
- }
+    width: 100px;
+    background-color: #000000;
+    height: 30px;
+    border-radius: 4px 4px;
+}
 
- .TeamsSectionHeader{
+.TeamPanel #TeamEditButton Label {
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #999;
+    padding-top: 1px;
+}
 
-     text-transform: uppercase;
-     color: #ccc;
-     letter-spacing: 2px;
-     font-size: 20px;
-     margin-bottom: 12px;
- }
+.TeamPanel #TeamEditButton:hover Label {
+    color: #fff;
+}
 
- #MyTeamsList{
-
-     flow-children: down;
-     overflow: squish scroll;
-     max-height: 500px;
-     width: 100%;
- }
-
-
- .TeamPanel{
-
-     flow-children: right;
-     margin-bottom: 12px;
-     background-color: #ffffff03;
-     width: 100%;
- }
-
- .TeamPanel #TeamLogo{
-
-     width: 64px;
-     height: 64px;
- }
-
- .TeamPanel .TeamName{
-
-     width: fill-parent-flow( 1.0 );
-     vertical-align: middle;
-     margin-left: 12px;
-     color: #ccc;
- }
-
- .TeamPanel #TeamEditButton{
-
-     vertical-align: middle;
-     margin-right: 12px;
-
-     width: 100px;
-  background-color: #000000;
-  height: 30px;
-  border-radius: 4px 4px;
- }
-
- .TeamPanel #TeamEditButton Label{
-
-     vertical-align: middle;
-     width: 100%;
-  text-align: center;
-     text-transform: uppercase;
-     color: #999;
-     padding-top: 1px;
- }
-
- .TeamPanel #TeamEditButton:hover Label{
-
-     color: #fff;
- }
-
- .TeamPanel #TeamEditButton:active Label{
-
-     color: #ccc;
+.TeamPanel #TeamEditButton:active Label {
+    color: #ccc;
 }

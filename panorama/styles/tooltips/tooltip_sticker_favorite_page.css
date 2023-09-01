@@ -1,7 +1,4 @@
-
-
- #Contents.FavoritePageContents{
-
-  width: 1300px;
-  height:  fit-children;
+#Contents.FavoritePageContents {
+    width: 1300px;
+    height: fit-children;
 }

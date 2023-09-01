@@ -1,48 +1,41 @@
-.DOTAContextMenuWeekendTourneyTeamSelect{
-
-     flow-children: down;
-     width: 500px;
-     height:fit-children;
+.DOTAContextMenuWeekendTourneyTeamSelect {
+    flow-children: down;
+    width: 500px;
+    height: fit-children;
 }
 
- .TeamSelectMenuItem{
+.TeamSelectMenuItem {
+    width: 100%;
+    flow-children: right;
+}
 
-  width: 100%;
-     flow-children: right;
- }
+#MenuTitle {
+    width: fill-parent-flow(1);
+}
 
- #MenuTitle{
+#ExistingOfficialTeamContainer,
+#ExistingPickupTeamContainer {
+    flow-children: down;
+    width: 100%;
+    height: fit-children;
+    margin-top: 12px;
+}
 
-     width: fill-parent-flow( 1.0 );
- }
+#ExistingOfficialTeamList,
+#ExistingPickupTeamList {
+    flow-children: down;
+    overflow: clip scroll;
+    max-height: 300px;
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+    margin-top: 3px;
+}
 
- #ExistingOfficialTeamContainer,#ExistingPickupTeamContainer{
+#EditCurrentTeamButton {
+    visibility: collapse;
+}
 
-
-  flow-children: down;
-  width: 100%;
-  height: fit-children;
-  margin-top: 12px;
- }
-
- #ExistingOfficialTeamList,#ExistingPickupTeamList{
-
-
-     flow-children: down;
-     overflow: clip scroll;
-     max-height: 300px;
-     width: 100%;
-     background-color: black;
-     padding: 5px;
-     margin-top: 3px;
- }
-
- #EditCurrentTeamButton{
-
-     visibility: collapse;
- }
-
- .EditCurrentTeam #EditCurrentTeamButton{
-
-     visibility: visible;
+.EditCurrentTeam #EditCurrentTeamButton {
+    visibility: visible;
 }

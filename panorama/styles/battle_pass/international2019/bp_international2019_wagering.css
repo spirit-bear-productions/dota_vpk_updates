@@ -1,181 +1,150 @@
+.CompendiumBody {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#000000dd), to(#000000aa));
+}
 
- .CompendiumBody{
+#WageringBody {
+    width: 100%;
+    height: 100%;
+    background-color: #00000033;
+    flow-children: down;
+}
 
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #000000dd ), to( #000000aa ) );
- }
+#WageringTopSection {
+    width: 1392px;
+    height: 350px;
+    horizontal-align: center;
+    margin-top: 16px;
+}
 
+#WageringMySection {
+    width: 1010px;
+    height: 100%;
+    margin-right: 16px;
+    background-image: url("s2r://panorama/images/compendium/international2019/splashart_wager_psd.vtex");
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
- #WageringBody{
+#WageringFriendsSection {
+    width: fill-parent-flow (1);
+    height: 100%;
+}
 
-  width: 100%;
-  height: 100%;
-  background-color: #00000033;
-  flow-children: down;
- }
+.WageringPanel {
+    border: BRD;
+    background-color: secondaryGradient;
+}
 
- #WageringTopSection{
+#PersonalWageringContainer {
+    margin: 32px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
 
-  width: 1392px;
-  height: 350px;
-  horizontal-align: center;
-  margin-top: 16px;
- }
+.Thirds {
+    width: 30%;
+}
 
- #WageringMySection{
+#TokensOver,
+.WagerHeader {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: textSecondaryBrightColor;
+    margin-top: 14px;
+    text-shadow: 0px 1px 1px 2 #000000;
+}
 
-  width: 1010px;
-  height: 100%;
-  margin-right: 16px;
-  background-image: url("s2r://panorama/images/compendium/international2019/splashart_wager_psd.vtex");
-  background-repeat: no-repeat;
-  background-position: right;
- }
+#TokensOver {
+    margin-top: 6px;
+    color: textAccentColorBright;
+    width: 200px;
+    text-align: center;
 
- #WageringFriendsSection{
+    visibility: collapse;
+}
 
-  width: fill-parent-flow (1);
-  height: 100%;
- }
+.WagerTime {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: textSecondaryBrightColor;
+    vertical-align: bottom;
+    margin-right: 8px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
 
- .WageringPanel{
+.WagerSub {
+    margin-top: -12px;
+    color: textSecondaryDefaultColor;
+    font-size: 14px;
+    text-transform: uppercase;
+    horizontal-align: center;
+    letter-spacing: 1px;
+}
 
-  border: BRD;
-  background-color: secondaryGradient;
- }
+#WageringBottomSection {
+    width: 1392px;
+    horizontal-align: center;
+    background-color: #00000066;
+    margin-bottom: 16px;
+    border: BRD;
+    padding: 8px;
+}
 
- #PersonalWageringContainer{
+.HowToImage {
+    width: 326px;
+    height: 335px;
+    horizontal-align: center;
 
-  margin: 32px;
-  margin-bottom: 0px;
-  width: 100%;
-  height: 100%;
- }
+    background-image: url("s2r://panorama/images/compendium/international2019/tokenstack_psd.vtex");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
- .Thirds{
+#HowTo2 {
+    background-image: url("s2r://panorama/images/compendium/international2019/tokenwager_psd.vtex");
+}
 
-  width: 30%;
- }
+#HowTo3 {
+    background-image: url("s2r://panorama/images/compendium/international2019/tokenwinnings_psd.vtex");
+    margin-top: 16px;
+}
 
+#HowTo4 {
+    background-image: url("s2r://panorama/images/compendium/international2019/tokenpoints_psd.vtex");
+}
 
+#Next1 {
+    margin-right: 660px;
+}
+#Next2 {
+    margin-left: 26px;
+}
+#Next3 {
+    margin-left: 714px;
+}
 
+#LeaderListContainer {
+    width: 333px;
+    height: 302px;
+    margin: 16px;
+    margin-top: 32px;
+}
 
+#TeamWagerInfo,
+#ResetInfo {
+    wash-color: textSecondaryDefaultColor;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
 
+.TokensTimeOver #TokensOver {
+    visibility: visible;
+}
 
- #TokensOver,.WagerHeader{
-
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: textSecondaryBrightColor;
-  margin-top: 14px;
-  text-shadow: 0px 1px 1px 2.0 #000000;
- }
-
- #TokensOver{
-
-  margin-top: 6px;
-  color: textAccentColorBright;
-  width: 200px;
-  text-align: center;
-
-  visibility: collapse;
- }
-
-
- .WagerTime{
-
-  text-transform: uppercase;
-  font-size: 32px;
-  color: textSecondaryBrightColor;
-  vertical-align: bottom;
-  margin-right: 8px;
-  margin-left: 2px;
-     margin-bottom: 5px;
- }
-
-
-
- .WagerSub{
-
-  margin-top: -12px;
-  color: textSecondaryDefaultColor;
-  font-size: 14px;
-  text-transform: uppercase;
-  horizontal-align: center;
-  letter-spacing: 1px;
- }
-
-
- #WageringBottomSection{
-
-  width: 1392px;
-  horizontal-align: center;
-  background-color: #00000066;
-  margin-bottom: 16px;
-  border: BRD;
-  padding: 8px;
- }
-
-
- .HowToImage{
-
-  width: 326px;
-  height: 335px;
-  horizontal-align: center;
-
-  background-image: url("s2r://panorama/images/compendium/international2019/tokenstack_psd.vtex");
-  background-repeat: no-repeat;
-  background-size: cover;
- }
-
- #HowTo2{
-
-  background-image: url("s2r://panorama/images/compendium/international2019/tokenwager_psd.vtex");
- }
-
-
- #HowTo3{
-
-  background-image: url("s2r://panorama/images/compendium/international2019/tokenwinnings_psd.vtex");
-  margin-top: 16px;
- }
-
- #HowTo4{
-
-  background-image: url("s2r://panorama/images/compendium/international2019/tokenpoints_psd.vtex");
- }
-
-
-
- #Next1{  margin-right: 660px;}
- #Next2{  margin-left: 26px;}
- #Next3{  margin-left: 714px;}
-
- #LeaderListContainer{
-
-  width: 333px;
-  height: 302px;
-  margin: 16px;
-  margin-top: 32px;
- }
-
- #TeamWagerInfo,#ResetInfo{
-
-
-  wash-color: textSecondaryDefaultColor;
-  margin: 0px;
-  padding: 0px;
-  margin-top: 10px;
-  margin-left: 4px;
- }
-
-
-
- .TokensTimeOver #TokensOver{
-
-  visibility: visible;
- }
-
- .TokensTimeOver #TokenTimeLeft{
-
-  visibility: collapse;
+.TokensTimeOver #TokenTimeLeft {
+    visibility: collapse;
 }

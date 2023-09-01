@@ -1,128 +1,101 @@
+@define partybordercolor: #37413f;
 
- @define partybordercolor: #37413f;
+DOTAReadyUpPlayers {
+    padding: 2px;
+    flow-children: down;
+    horizontal-align: center;
+}
 
- DOTAReadyUpPlayers{
+.LeftRightFlow {
+    flow-children: right;
+}
 
-  padding: 2px;
-  flow-children: down;
-  horizontal-align: center;
- }
+.PlayerList {
+    flow-children: right-wrap;
+    width: fit-children;
+    height: fit-children;
+}
 
- .LeftRightFlow{
+#ListSpacer {
+    margin-right: 10px;
+}
 
-  flow-children: right;
- }
+.CustomGame #ListSpacer {
+    visibility: collapse;
+}
 
- .PlayerList{
+#AcceptedCount {
+    color: white;
+    wash-color: #aaaaaa;
+    font-size: 24px;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    horizontal-align: right;
+    margin-right: 6px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
 
-  flow-children: right-wrap;
-  width: fit-children;
-  height: fit-children;
- }
+#PlayerReadyUp {
+    visibility: collapse;
+}
 
- #ListSpacer{
+.ReadyUp #PlayerReadyUp {
+    visibility: visible;
+}
 
-  margin-right: 10px;
- }
+.Minimized #PlayerSlotContainer {
+    visibility: collapse;
+}
 
- .CustomGame #ListSpacer{
+.ReturningToQueue #PlayerReadyUp,
+.ReturningToLobby #PlayerReadyUp {
+    visibility: collapse;
+}
 
-  visibility: collapse;
- }
+#ReturningToQueue,
+#ReturningToLobby,
+#PartyDeclined {
+    visibility: collapse;
+}
 
- #AcceptedCount{
+DOTAReadyUpPlayers.ReturningToQueue #ReturningToQueue {
+    visibility: visible;
+}
 
-  color: white;
-  wash-color: #aaaaaa;
-  font-size: 24px;
-  text-align: right;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  horizontal-align: right;
-  margin-right: 6px;
-  margin-top: 8px;
-  margin-bottom: 4px;
- }
+DOTAReadyUpPlayers.ReturningToLobby #ReturningToLobby {
+    visibility: visible;
+}
 
- #PlayerReadyUp{
+DOTAReadyUpPlayers.PartyDeclined #PartyDeclined {
+    visibility: visible;
+}
 
-  visibility: collapse;
- }
+.ReadyUpError {
+    horizontal-align: center;
+    font-size: 28px;
+    margin-top: 16px;
+}
 
- .ReadyUp #PlayerReadyUp{
+.Minimized #AcceptedCount {
+    vertical-align: center;
+    horizontal-align: center;
+}
 
-  visibility: visible;
- }
+.Minimized #ReadyUpPlayers {
+    margin-top: 0px;
+    vertical-align: center;
+}
 
- .Minimized #PlayerSlotContainer{
+#MinReadyUpCount {
+    visibility: collapse;
+}
 
-  visibility: collapse;
- }
-
- .ReturningToQueue #PlayerReadyUp,.ReturningToLobby #PlayerReadyUp{
-
-
-  visibility: collapse;
- }
-
-
-
-
-
-
- #ReturningToQueue,#ReturningToLobby,#PartyDeclined{
-
-
-
-  visibility: collapse;
- }
-
-
- DOTAReadyUpPlayers.ReturningToQueue #ReturningToQueue{
-
-  visibility: visible;
- }
-
-
- DOTAReadyUpPlayers.ReturningToLobby #ReturningToLobby{
-
-  visibility: visible;
- }
-
- DOTAReadyUpPlayers.PartyDeclined #PartyDeclined{
-
-  visibility: visible;
- }
-
- .ReadyUpError{
-
-  horizontal-align: center;
-  font-size: 28px;
-  margin-top: 16px;
- }
-
- .Minimized #AcceptedCount{
-
-  vertical-align: center;
-  horizontal-align: center;
- }
-
- .Minimized #ReadyUpPlayers{
-
-  margin-top: 0px;
-  vertical-align: center;
- }
-
- #MinReadyUpCount{
-
-  visibility: collapse;
- }
-
- .Minimized .ReadyUpError{
-
-  horizontal-align: center;
-  vertical-align: center;
-  font-size: 24px;
-  margin-left: 5px;
-  margin-right: 5px;
+.Minimized .ReadyUpError {
+    horizontal-align: center;
+    vertical-align: center;
+    font-size: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
 }

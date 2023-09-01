@@ -1,81 +1,71 @@
-PopupBroadcastChannelEdit{
+PopupBroadcastChannelEdit {
+    width: 640px;
+    vertical-align: center;
+    horizontal-align: center;
+    opacity: 1;
+    transform: none;
+    perspective-origin: 62% 5% invert;
+    perspective: 1000;
 
-  width: 640px;
-  vertical-align: center;
-  horizontal-align: center;
-  opacity: 1.0;
-  transform: none;
-  perspective-origin: 62% 5% invert;
-  perspective: 1000;
+    transition-property: opacity, transform;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+    transition-timing-function: linear;
 
-  transition-property: opacity, transform;
-  transition-duration: 0.2s;
-  transition-delay: 0.0s;
-  transition-timing-function: linear;
+    background-color: black;
 
-  background-color: black;
-
-  padding: 25px 28px 10px 28px;
+    padding: 25px 28px 10px 28px;
 }
 
- PopupBroadcastChannelEdit.Hidden{
+PopupBroadcastChannelEdit.Hidden {
+    visibility: collapse;
+}
 
-  visibility: collapse;
- }
+.BroadcastPopup {
+    width: 100%;
+}
 
- .BroadcastPopup{
+.SettingLabel {
+    margin-top: 12px;
+    margin-bottom: 2px;
+    font-size: 22px;
+}
 
-  width: 100%;
- }
+.DialogTitle {
+    horizontal-align: center;
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
- .SettingLabel{
+.ButtonFooter {
+    margin-top: 8px;
 
-  margin-top: 12px;
-  margin-bottom: 2px;
-  font-size: 22px;
- }
+    flow-children: right;
+    horizontal-align: center;
+    vertical-align: bottom;
+}
 
- .DialogTitle{
+#OKButton,
+#CancelButton {
+    width: 154px;
+    margin: 8px;
+}
 
-  horizontal-align: center;
-  font-size: 32px;
-  margin-top: 0px;
-  margin-bottom: 0px;
- }
+#SaveSettingsToggle {
+    margin-top: 32px;
+    horizontal-align: center;
+}
 
- .ButtonFooter{
+#LanguageDropdown {
+    width: 100%;
+}
 
-  margin-top: 8px;
+TextEntry {
+    width: 100%;
+}
 
-  flow-children: right;
-  horizontal-align: center;
-  vertical-align: bottom;
- }
-
- #OKButton,#CancelButton{
-
-  width: 154px;
-  margin: 8px;
- }
-
- #SaveSettingsToggle{
-
-  margin-top: 32px;
-  horizontal-align: center;
- }
-
- #LanguageDropdown{
-
-  width: 100%;
- }
-
- TextEntry{
-
-  width: 100%;
- }
-
- #SaveSettingsToggle Label{
-
-  font-size: 20px;
-  margin-left: 16px;
+#SaveSettingsToggle Label {
+    font-size: 20px;
+    margin-left: 16px;
 }

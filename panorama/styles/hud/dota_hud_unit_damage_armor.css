@@ -1,86 +1,74 @@
-DOTAHudUnitDamageArmor{
-
-  flow-children: down;
+DOTAHudUnitDamageArmor {
+    flow-children: down;
 }
 
- Label{
+Label {
+    color: white;
+    font-size: 14px;
+}
 
-  color: white;
-  font-size: 14px;
- }
+#Damage {
+    flow-children: right;
+}
 
- #Damage{
+#DamageIcon {
+    width: 24px;
+    height: 24px;
+    margin-left: -8px;
+    background-image: url("s2r://panorama/images/hud/hudv2_icondamage_png.vtex");
+    background-size: 200% 100%;
+    background-position: 50% 50%;
+    transform: rotateZ(270deg);
+}
 
-  flow-children: right;
- }
+#DamageLabels {
+    flow-children: down;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
 
- #DamageIcon{
+#Armor {
+    flow-children: right;
+}
 
-  width: 24px;
-  height: 24px;
-  margin-left: -8px;
-  background-image: url( "s2r://panorama/images/hud/hudv2_icondamage_png.vtex");
-  background-size: 200% 100%;
-  background-position: 50% 50%;
-  transform: rotateZ( 270deg );
- }
+#ArmorIcon {
+    width: 24px;
+    height: 24px;
+    margin-left: -8px;
+    background-image: url("s2r://panorama/images/hud/hudv2_iconarmor_png.vtex");
+    background-size: 140% 130%;
+    background-position: 20% 60%;
+}
 
- #DamageLabels{
+#ArmorLabels {
+    flow-children: down;
+    margin-left: 8px;
+}
 
-  flow-children: down;
-  margin-left: 8px;
-  margin-bottom: 8px;
- }
+.Reborn #DamageIcon {
+    width: 30px;
+    height: 30px;
+    margin-left: -4px;
+    margin-top: 12px;
+    background-image: url("s2r://panorama/images/hud/reborn/icon_damage_psd.vtex");
+    background-position: 50% 50%;
+    transform: none;
+}
 
- #Armor{
+.Reborn #ArmorIcon {
+    width: 30px;
+    height: 30px;
+    margin-left: -4px;
+    margin-top: 12px;
+    background-image: url("s2r://panorama/images/hud/reborn/icon_armor_psd.vtex");
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+}
 
-  flow-children: right;
- }
+#SpellDamageAmp {
+    visibility: collapse;
+}
 
- #ArmorIcon{
-
-  width: 24px;
-  height: 24px;
-  margin-left: -8px;
-  background-image: url( "s2r://panorama/images/hud/hudv2_iconarmor_png.vtex");
-  background-size: 140% 130%;
-  background-position: 20% 60%;
- }
-
- #ArmorLabels{
-
-  flow-children: down;
-  margin-left: 8px;
- }
-
- .Reborn #DamageIcon{
-
-     width: 30px;
-     height: 30px;
-     margin-left: -4px;
-     margin-top: 12px;
-     background-image: url( "s2r://panorama/images/hud/reborn/icon_damage_psd.vtex");
-     background-position: 50% 50%;
-     transform: none;
- }
-
- .Reborn #ArmorIcon{
-
-     width: 30px;
-     height: 30px;
-     margin-left: -4px;
-     margin-top: 12px;
-     background-image: url( "s2r://panorama/images/hud/reborn/icon_armor_psd.vtex");
-     background-size: 100% 100%;
-     background-position: 50% 50%;
- }
-
- #SpellDamageAmp{
-
-  visibility: collapse;
- }
-
- .Hero #SpellDamageAmp{
-
-  visibility: visible;
+.Hero #SpellDamageAmp {
+    visibility: visible;
 }

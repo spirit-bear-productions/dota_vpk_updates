@@ -1,31 +1,22 @@
-.UnitRow{
-
-  flow-children: right-wrap;
-  flow-children: down;
-  horizontal-align: center;
-  width: 700px;
+.UnitRow {
+    flow-children: right-wrap;
+    flow-children: down;
+    horizontal-align: center;
+    width: 700px;
 }
 
- DOTACreepCard{
+DOTACreepCard {
+    margin-bottom: 10px;
+}
 
+.UnitRow > DOTACreepCard {
+    horizontal-align: center;
+}
 
-  margin-bottom: 10px;
- }
+.NeutralCreepRow {
+    margin-bottom: 40px;
+}
 
- .UnitRow > DOTACreepCard{
-
-  horizontal-align: center;
- }
-
- .NeutralCreepRow{
-
-
-
-
-  margin-bottom: 40px;
- }
-
- .NeturalCreepRow > DOTACreepCard.ContentsRoot{
-
-  background-color: #00000000;
+.NeturalCreepRow > DOTACreepCard.ContentsRoot {
+    background-color: #00000000;
 }

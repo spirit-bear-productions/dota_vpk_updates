@@ -1,85 +1,71 @@
-DOTAMultiUnit{
-
-  opacity: 0;
-     background-color: gradient( linear, 0% 0%, 0% 100%, from ( #222629), to ( #0e1011 ) );
+DOTAMultiUnit {
+    opacity: 0;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from (#222629), to (#0e1011));
 }
 
- DOTAMultiUnit.ShowMultiUnit{
+DOTAMultiUnit.ShowMultiUnit {
+    opacity: 1;
+}
 
-  opacity: 1;
- }
+.Hidden {
+    visibility: collapse;
+}
 
- .Hidden{
+#UnitFrames {
+    flow-children: right-wrap;
+    margin-left: 1px;
+}
 
-  visibility: collapse;
- }
+DOTAMultiUnit.TwoColumns #UnitFrames,
+DOTAMultiUnit.ThreeColumns #UnitFrames {
+    margin-top: 3px;
+}
 
- #UnitFrames{
+#PageButtons {
+    flow-children: right;
+    vertical-align: bottom;
+    horizontal-align: center;
+    margin-bottom: -8px;
+}
 
-  flow-children: right-wrap;
-  margin-left: 1px;
- }
+DOTAMultiUnitFrame {
+    margin-right: 0px;
+}
 
- DOTAMultiUnit.TwoColumns #UnitFrames,DOTAMultiUnit.ThreeColumns #UnitFrames{
+#canvas {
+    margin-left: 1px;
+    width: 150px;
+    height: 180px;
+}
 
+DOTAMultiUnit.TwoColumns #canvas,
+DOTAMultiUnit.ThreeColumns #canvas {
+    margin-top: 3px;
+}
 
-  margin-top: 3px;
- }
+#PageButtons Button {
+    background-image: url("s2r://panorama/images/hud/multiunit_page_png.vtex");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 23px;
+    height: 19px;
+    margin-right: 2px;
+    visibility: collapse;
+}
 
- #PageButtons{
+#PageButtons Button:hover {
+    brightness: 2;
+}
 
-  flow-children: right;
-  vertical-align: bottom;
-  horizontal-align: center;
-  margin-bottom: -8px;
- }
+#PageButtons Button:active {
+    brightness: 3;
+}
 
- DOTAMultiUnitFrame{
+#PageButtons Button:selected {
+    background-image: url("s2r://panorama/images/hud/multiunit_page_active_png.vtex");
+}
 
-  margin-right: 0px;
- }
-
- #canvas{
-
-  margin-left: 1px;
-  width: 150px;
-  height: 180px;
- }
-
- DOTAMultiUnit.TwoColumns #canvas,DOTAMultiUnit.ThreeColumns #canvas{
-
-
-  margin-top: 3px;
- }
-
- #PageButtons Button{
-
-  background-image: url("s2r://panorama/images/hud/multiunit_page_png.vtex");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  width: 23px;
-  height: 19px;
-  margin-right: 2px;
-  visibility: collapse;
- }
-
- #PageButtons Button:hover{
-
-  brightness: 2.0;
- }
-
- #PageButtons Button:active{
-
-  brightness: 3.0;
- }
-
- #PageButtons Button:selected{
-
-  background-image: url("s2r://panorama/images/hud/multiunit_page_active_png.vtex");
- }
-
- #PageButtons Button.ShowButton{
-
-  visibility: visible;
+#PageButtons Button.ShowButton {
+    visibility: visible;
 }

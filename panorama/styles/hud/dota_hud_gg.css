@@ -1,84 +1,74 @@
+DOTAGG {
+    opacity: 0;
+    transform: translateY(-20px);
+    width: 500px;
+    height: 300px;
 
+    margin-top: 64px;
+    margin-right: 44px;
 
- DOTAGG{
+    horizontal-align: right;
+    vertical-align: top;
 
-  opacity: 0;
-  transform: translateY( -20px );
-  width: 500px;
-  height: 300px;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from (#373737), to (#171717));
+    border-radius: 8px;
+    border: 2px solid #000000;
 
-  margin-top: 64px;
-  margin-right: 44px;
+    transition-property: opacity, transform;
+    transition-duration: 0.2s;
+}
 
-  horizontal-align: right;
-  vertical-align: top;
+DOTAGG.GGActive {
+    opacity: 1;
+}
 
-  background-color: gradient( linear, 0% 0%, 0% 100%, from ( #373737 ), to ( #171717 ) );
-  border-radius: 8px;
-  border: 2px solid #000000;
+#Cancel {
+    horizontal-align: center;
+    vertical-align: bottom;
 
-  transition-property: opacity, transform;
-  transition-duration: 0.2s;
- }
+    margin-bottom: 10px;
+}
 
- DOTAGG.GGActive{
+#Header {
+    width: 100%;
 
-  opacity: 1.0;
- }
+    vertical-align: top;
+    margin-top: 10px;
 
- #Cancel{
+    border-bottom: 2px solid #5b5b5c;
 
-  horizontal-align: center;
-  vertical-align: bottom;
+    margin-left: 20px;
+    margin-right: 20px;
 
-  margin-bottom: 10px;
- }
+    color: #cc9933;
 
- #Header{
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
-  width: 100%;
+#LoseCounter {
+    margin-top: 100px;
 
-  vertical-align: top;
-  margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
 
-  border-bottom: 2px solid #5B5B5C;
+#Time {
+    width: 100%;
+    margin-top: 135px;
 
-  margin-left: 20px;
-  margin-right: 20px;
+    font-size: 80px;
 
-  color: #CC9933;
+    color: #dddddd;
 
-  text-align: center;
-  font-size: 48px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
- }
+    text-align: center;
 
- #LoseCounter{
+    visibility: collapse;
+}
 
-  margin-top: 100px;
-
-  width: 100%;
-  text-align: center;
-  font-size: 24px;
- }
-
-
- #Time{
-
-  width: 100%;
-  margin-top: 135px;
-
-  font-size: 80px;
-
-  color: #DDDDDD;
-
-  text-align: center;
-
-  visibility: collapse;
- }
-
- .GGActive #Time{
-
-  visibility: visible;
+.GGActive #Time {
+    visibility: visible;
 }

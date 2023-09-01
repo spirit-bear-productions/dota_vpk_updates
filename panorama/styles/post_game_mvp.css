@@ -1,11 +1,8 @@
-@import  url( "s2r://panorama/styles/post_game_progress.vcss_c");
+@import url("s2r://panorama/styles/post_game_progress.vcss_c");
 
- #MVPDetails{
+#MVPDetails {
+    margin-left: 30px;
+    margin-top: 64px;
+}
 
-  margin-left: 30px;
-  margin-top: 64px;
- }
-
-
- @define scene_panel_activity_modifier: mvp_screen
-;
+@define scene_panel_activity_modifier: mvp_screen;

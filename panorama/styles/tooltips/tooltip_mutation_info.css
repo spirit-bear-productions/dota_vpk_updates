@@ -1,97 +1,106 @@
+.MutationInfo {
+    background-color: #324d36;
+    border: 2px solid #67794a;
 
- .MutationInfo{
+    margin: 0px;
+    flow-children: down;
+    box-shadow: none;
+}
 
-  background-color: #324D36;
-  border: 2px solid #67794A;
+.HideSpinner .MutationInfo {
+    width: 400px;
+}
 
-  margin: 0px;
-  flow-children: down;
-  box-shadow: none;
- }
+.MutationInfo .Spinner {
+    wash-color: #b6c897;
+    horizontal-align: center;
+}
 
- .HideSpinner .MutationInfo{
+.HideSpinner .MutationInfo .Spinner {
+    visibility: collapse;
+}
 
-  width: 400px;
- }
+.MutationInfo .Title {
+    font-size: 24px;
+    color: white;
 
- .MutationInfo .Spinner{
+    margin-left: 8px;
+    margin-top: 2px;
 
-  wash-color: #b6c897;
-  horizontal-align: center;
- }
+    visibility: collapse;
+}
 
- .HideSpinner .MutationInfo .Spinner{
+.MutationInfo .Name {
+    margin-top: 4px;
+    margin-left: 12px;
 
-  visibility: collapse;
- }
+    font-size: 20px;
+    color: #a3fdcc;
 
- .MutationInfo .Title{
+    visibility: collapse;
+}
 
-  font-size: 24px;
-  color: white;
+.MutationInfo .Description {
+    margin-top: 0px;
+    margin-left: 28px;
+    margin-bottom: 2px;
 
-  margin-left: 8px;
-  margin-top: 2px;
+    font-size: 17px;
+    color: #5ab784;
 
-  visibility: collapse;
- }
+    height: 50px;
 
- .MutationInfo .Name{
+    visibility: collapse;
+}
 
-  margin-top: 4px;
-  margin-left: 12px;
+#Name0,
+#Description0,
+#Name1,
+#Description1,
+#Name2,
+#Description2,
+#Name3,
+#Description3,
+#Name4,
+#Description4,
+#Name5,
+#Description5,
+#Name6,
+#Description6,
+#Name7,
+#Description7,
+#Name8,
+#Description8,
+#Name9,
+#Description9 {
+    visibility: collapse;
+}
 
-  font-size: 20px;
-  color: #A3FDCC;
+.HasMutation0 #Name0,
+.HasMutation0 #Description0,
+.HasMutation1 #Name1,
+.HasMutation1 #Description1,
+.HasMutation2 #Name2,
+.HasMutation2 #Description2,
+.HasMutation3 #Name3,
+.HasMutation3 #Description3,
+.HasMutation4 #Name4,
+.HasMutation4 #Description4,
+.HasMutation5 #Name5,
+.HasMutation5 #Description5,
+.HasMutation6 #Name6,
+.HasMutation6 #Description6,
+.HasMutation7 #Name7,
+.HasMutation7 #Description7,
+.HasMutation8 #Name8,
+.HasMutation8 #Description8,
+.HasMutation9 #Name9,
+.HasMutation9 #Description9 {
+    visibility: visible;
+}
 
-  visibility: collapse;
- }
-
- .MutationInfo .Description{
-
-  margin-top: 0px;
-  margin-left: 28px;
-  margin-bottom: 2px;
-
-  font-size: 17px;
-  color: #5ab784;
-
-  height: 50px;
-
-  visibility: collapse;
- }
-
- #Name0,#Description0,#Name1,#Description1,#Name2,#Description2,#Name3,#Description3,#Name4,#Description4,#Name5,#Description5,#Name6,#Description6,#Name7,#Description7,#Name8,#Description8,#Name9,#Description9{
-
-
-
-
-
-
-
-
-
-
-  visibility: collapse;
- }
-
- .HasMutation0 #Name0,.HasMutation0 #Description0,.HasMutation1 #Name1,.HasMutation1 #Description1,.HasMutation2 #Name2,.HasMutation2 #Description2,.HasMutation3 #Name3,.HasMutation3 #Description3,.HasMutation4 #Name4,.HasMutation4 #Description4,.HasMutation5 #Name5,.HasMutation5 #Description5,.HasMutation6 #Name6,.HasMutation6 #Description6,.HasMutation7 #Name7,.HasMutation7 #Description7,.HasMutation8 #Name8,.HasMutation8 #Description8,.HasMutation9 #Name9,.HasMutation9 #Description9{
-
-
-
-
-
-
-
-
-
-
-  visibility: visible;
- }
-
- .HideSpinner .MutationInfo .Title,.HideSpinner .MutationInfo .Name,.HideSpinner .MutationInfo .Description{
-
-
-
-  visibility: visible;
+.HideSpinner .MutationInfo .Title,
+.HideSpinner .MutationInfo .Name,
+.HideSpinner .MutationInfo .Description {
+    visibility: visible;
 }

@@ -1,38 +1,32 @@
-#HUDSkinPreCenterParticlesLeft{
+#HUDSkinPreCenterParticlesLeft {
+    height: 100%;
+    width: 100%;
 
-  height: 100%;
-  width: 100%;
+    horizontal-align: right;
+    vertical-align: bottom;
 
-  horizontal-align: right;
-  vertical-align: bottom;
-
-  overflow: noclip;
+    overflow: noclip;
 }
 
+.RewardParticleBg_left_sparkles {
+    flow-children: none;
 
- .RewardParticleBg_left_sparkles{
+    height: 200px;
+    width: 343px;
+    vertical-align: bottom;
+    horizontal-align: left;
+    margin-left: -217px;
 
-  flow-children: none;
+    z-index: 10;
+}
 
-  height: 200px;
-  width: 343px;
-  vertical-align: bottom;
-  horizontal-align: left;
-  margin-left: -217px;
+.RewardParticleBg_left {
+    height: 200px;
+    width: 350px;
+    vertical-align: bottom;
+    horizontal-align: right;
+    margin-right: 50px;
 
-
-
-  z-index: 10;
- }
-
- .RewardParticleBg_left{
-
-  height: 200px;
-  width: 350px;
-  vertical-align: bottom;
-  horizontal-align: right;
-  margin-right: 50px;
-
-  opacity-mask: url( "s2r://panorama/images/hud/reborn/hud_custom_ti11/lower_hud_particlemask_lava_left_psd.vtex");
-  z-index: 10;
+    opacity-mask: url("s2r://panorama/images/hud/reborn/hud_custom_ti11/lower_hud_particlemask_lava_left_psd.vtex");
+    z-index: 10;
 }

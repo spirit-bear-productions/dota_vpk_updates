@@ -1,101 +1,84 @@
+#Contents.PlayerMuteContents {
+    flow-children: down;
+    padding: 0px;
+    min-width: 250px;
+}
 
+.Title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#111), to(#000));
+    padding: 3px 12px;
+    horizontal-align: center;
+    text-align: center;
+}
 
- #Contents.PlayerMuteContents{
+.MuteButtons {
+    margin-top: 12px;
+    horizontal-align: center;
+    flow-children: right;
+}
 
-  flow-children: down;
-  padding: 0px;
-  min-width: 250px;
- }
+.MuteButtons Button {
+    margin: 0px 6px;
+    flow-children: down;
 
- .Title{
+    transition-property: brightness;
+    transition-duration: 0.2s;
+}
 
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: bold;
-  color: white;
-  width: 100%;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #111 ), to( #000 ) );
-  padding: 3px 12px;
-  horizontal-align: center;
-  text-align: center;
- }
+.MuteButtons Button:hover {
+    brightness: 2;
+}
 
- .MuteButtons{
+.MuteButtons Button:active {
+    brightness: 1.5;
+}
 
-  margin-top: 12px;
-  horizontal-align: center;
-  flow-children: right;
- }
+.MuteButtons Button:active .Icon {
+    transform: translateY(1px);
+}
 
- .MuteButtons Button{
+.MuteButtons Button Label {
+    text-align: center;
+    horizontal-align: center;
+    color: #ccc;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 2px;
+    font-size: 16px;
+}
 
-  margin: 0px 6px;
-  flow-children: down;
+.MuteButtons Button .Icon {
+    width: 32px;
+    height: 32px;
+    horizontal-align: center;
 
-  transition-property: brightness;
-  transition-duration: 0.2s;
- }
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
- .MuteButtons Button:hover{
+#TextMuteButton .Icon {
+    background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_text_psd.vtex");
+}
 
-  brightness: 2.0;
- }
+.TextMuted #TextMuteButton .Icon {
+    background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_text_on_psd.vtex");
+}
 
- .MuteButtons Button:active{
+#VoiceMuteButton .Icon {
+    background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
+}
 
-  brightness: 1.5;
- }
+.VoiceMuted #VoiceMuteButton .Icon {
+    background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_on_psd.vtex");
+}
 
- .MuteButtons Button:active .Icon{
-
-  transform: translateY( 1px );
- }
-
-
- .MuteButtons Button Label{
-
-  text-align: center;
-  horizontal-align: center;
-  color: #ccc;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 2px;
-  font-size: 16px;
- }
-
- .MuteButtons Button .Icon{
-
-  width: 32px;
-  height: 32px;
-  horizontal-align: center;
-
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
- }
-
- #TextMuteButton .Icon{
-
-  background-image: url( "s2r://panorama/images/hud/reborn/icon_scoreboard_mute_text_psd.vtex");
- }
-
- .TextMuted #TextMuteButton .Icon{
-
-  background-image: url( "s2r://panorama/images/hud/reborn/icon_scoreboard_mute_text_on_psd.vtex");
- }
-
- #VoiceMuteButton .Icon{
-
-  background-image: url( "s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
- }
-
- .VoiceMuted #VoiceMuteButton .Icon{
-
-  background-image: url( "s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_on_psd.vtex");
- }
-
- #BlockButton{
-
-  horizontal-align: center;
-  ui-scale: 80%;
+#BlockButton {
+    horizontal-align: center;
+    ui-scale: 80%;
 }

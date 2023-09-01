@@ -1,190 +1,173 @@
+#Background {
+    flow-children: right;
+}
 
- #Background{
+#ImageBackground {
+    width: 100px;
+    height: 100%;
+    padding: 8px;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#5f6b69cc), to(#5f6b6911));
+    overflow: noclip;
+}
 
-  flow-children: right;
- }
+#BonusImage {
+    vertical-align: middle;
+    width: 210px;
+    height: 210px;
+    margin-left: -80px;
 
- #ImageBackground{
+    margin-top: -10px;
+}
 
-  width: 100px;
-  height: 100%;
-  padding: 8px;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #5f6b69cc ), to( #5f6b6911 ) );
-  overflow: noclip;
- }
+#BonusImageNested {
+    vertical-align: top;
+    width: 210px;
+    height: 210px;
+    margin-left: -80px;
 
- #BonusImage{
+    margin-top: -15px;
+}
 
-  vertical-align: middle;
-  width: 210px;
-  height: 210px;
-  margin-left: -80px;
+#Contents {
+    padding: 14px 14px;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#424d4fcc), to(#424d4f22));
+    flow-children: down;
+}
 
-  margin-top: -10px;
- }
+#Title {
+    font-size: 20px;
+    color: #9ede4c;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
- #BonusImageNested{
+#SubTitle {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-bottom: 3px;
+}
 
-  vertical-align: top;
-  width: 210px;
-  height: 210px;
-  margin-left: -80px;
+#Description {
+    margin-top: 4px;
+    width: 400px;
+    color: #8d9892;
+}
 
-  margin-top: -15px;
- }
+#BonusTreasure {
+    margin-top: 5px;
+    horizontal-align: center;
 
- #Contents{
+    background-image: url("s2r://panorama/images/compendium/fall2015_button_1_png.vtex");
+    background-size: 100% 100%;
+    padding: 8px;
+    height: 45px;
+    width: 280px;
+}
 
-  padding: 14px 14px;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #424d4fcc ), to( #424d4f22 ) );
-  flow-children: down;
- }
+#BonusTreasure Label {
+    margin-top: 1px;
+    vertical-align: middle;
+    horizontal-align: center;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ccc5bd;
+}
 
- #Title{
+DOTAEventActionCount Label {
+    horizontal-align: center;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ccc5bd;
+    font-size: 16px;
+    margin-top: 10px;
+}
 
-  font-size: 20px;
-  color: #9ede4c;
-  font-weight: bold;
-  text-transform: uppercase;
- }
+DOTAEventActionCount {
+    flow-children: right;
+}
 
- #SubTitle{
+.TreasureButton:hover:enabled {
+    brightness: 1.5;
+}
 
-  font-size: 20px;
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: -5px;
-  margin-bottom: 3px;
- }
+.TreasureButton:active {
+    brightness: 2;
+}
 
- #Description{
+#CraftingButton {
+    margin-right: 8px;
+}
 
-  margin-top: 4px;
-  width: 400px;
-  color: #8d9892;
- }
+#TreasureButtonRow {
+    flow-children: down;
+}
 
- #BonusTreasure{
+.Collapsed {
+    visibility: collapse;
+}
 
-  margin-top: 5px;
-  horizontal-align: center;
+.PunchCardCacheCounter {
+    padding-left: 50px;
+}
 
-  background-image: url( "s2r://panorama/images/compendium/fall2015_button_1_png.vtex");
-  background-size: 100% 100%;
-  padding: 8px;
-  height: 45px;
-  width: 280px;
- }
+.ProgressButton.Unticked {
+    background-image: url("s2r://panorama/images/punch_card/punch_card_arrow_pip_off_png.vtex");
+}
 
- #BonusTreasure Label{
+.ProgressButton {
+    width: 100px;
+    height: 83px;
 
-  margin-top: 1px;
-  vertical-align: middle;
-  horizontal-align: center;
-  text-align: center;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #ccc5bd;
- }
+    margin-left: -50px;
 
+    background-size: 100% 100%;
+    background-image: url("s2r://panorama/images/punch_card/punch_card_arrow_pip_on_png.vtex");
+}
 
- DOTAEventActionCount Label{
+#ProgressTick_4 {
+    z-index: 100;
+}
+#ProgressTick_3 {
+    z-index: 99;
+}
+#ProgressTick_2 {
+    z-index: 98;
+}
+#ProgressTick_1 {
+    z-index: 97;
+}
+#ProgressTick_0 {
+    z-index: 96;
+}
 
-  horizontal-align: center;
-  text-align: center;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #ccc5bd;
-  font-size: 16px;
-  margin-top: 10px;
- }
+.PunchCardCacheCounter #RewardPanel {
+    height: 83px;
+    width: 160px;
+    vertical-align: middle;
 
- DOTAEventActionCount{
+    margin-left: -50px;
+}
 
-     flow-children: right;
- }
+.PunchCardCacheCounter #RewardPanelBackground {
+    background-color: black;
+    height: 33px;
+    width: 140px;
+    vertical-align: middle;
+}
 
- .TreasureButton:hover:enabled{
-
-  brightness: 1.5;
- }
-
- .TreasureButton:active{
-
-  brightness: 2.0;
- }
-
- #CraftingButton{
-
-  margin-right: 8px;
- }
-
- #TreasureButtonRow{
-
-     flow-children: down;
- }
-
- .Collapsed{
-
-     visibility: collapse;
- }
-
-
- .PunchCardCacheCounter{
-
-  padding-left: 50px;
- }
-
- .ProgressButton.Unticked{
-
-  background-image: url( "s2r://panorama/images/punch_card/punch_card_arrow_pip_off_png.vtex");
- }
-
- .ProgressButton{
-
-  width: 100px;
-  height: 83px;
-
-  margin-left: -50px;
-
-  background-size: 100% 100%;
-  background-image: url( "s2r://panorama/images/punch_card/punch_card_arrow_pip_on_png.vtex");
- }
-
- #ProgressTick_4{  z-index: 100;}
- #ProgressTick_3{  z-index: 99;}
- #ProgressTick_2{  z-index: 98;}
- #ProgressTick_1{  z-index: 97;}
- #ProgressTick_0{  z-index: 96;}
-
- .PunchCardCacheCounter #RewardPanel{
-
-  height: 83px;
-  width: 160px;
-  vertical-align: middle;
-
-  margin-left: -50px;
- }
-
-
- .PunchCardCacheCounter #RewardPanelBackground{
-
-  background-color: black;
-  height: 33px;
-  width: 140px;
-  vertical-align: middle;
- }
-
- .PunchCardCacheCounter #RewardPanel Label{
-
-  horizontal-align: center;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
-  margin-top: 3px;
-  margin-left: 12px;
-  color: white;
-  font-weight: bold;
-  text-shadow: 0px 0px 8px 2.0 #00ffff33;
+.PunchCardCacheCounter #RewardPanel Label {
+    horizontal-align: center;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-top: 3px;
+    margin-left: 12px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 0px 8px 2 #00ffff33;
 }

@@ -1,32 +1,28 @@
+.ShardsIcon {
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    margin-right: 3px;
+    transform: translateY(-1px);
 
- .ShardsIcon{
+    background-image: dotaPlusCurrencySmallIcon;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 
-     vertical-align: middle;
-     width: 22px;
-     height: 22px;
-     margin-right: 3px;
-     transform: translateY( -1px );
+    saturation: 0.5;
+    brightness: 0.5;
 
-     background-image: dotaPlusCurrencySmallIcon;
-     background-size: contain;
-     background-repeat: no-repeat;
-     background-position: center;
+    transition-property: saturation, brightness;
+    transition-duration: 0.2s;
+}
 
-     saturation: 0.5;
-     brightness: 0.5;
+RadioButton:hover:enabled .ShardsIcon {
+    saturation: 1;
+    brightness: 1;
+}
 
-     transition-property: saturation, brightness;
-     transition-duration: 0.2s;
- }
-
- RadioButton:hover:enabled .ShardsIcon{
-
-     saturation: 1.0;
-     brightness: 1.0;
- }
-
- RadioButton:selected .ShardsIcon{
-
-     saturation: 1.0;
-     brightness: 1.0;
+RadioButton:selected .ShardsIcon {
+    saturation: 1;
+    brightness: 1;
 }

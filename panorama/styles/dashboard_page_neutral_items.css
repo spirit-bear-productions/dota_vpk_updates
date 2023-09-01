@@ -1,44 +1,37 @@
-DOTANeutralItemsPage{
-
-  flow-children: down;
+DOTANeutralItemsPage {
+    flow-children: down;
 }
 
- #Title{
+#Title {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
 
-  font-size: 48px;
-  font-weight: bold;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 8px;
- }
+#TierList {
+    flow-children: right;
+}
 
- #TierList{
+.ItemTier {
+    flow-children: down;
+}
 
-  flow-children: right;
- }
+.TierName {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
- .ItemTier{
+#ItemList {
+    flow-children: right-wrap;
+    width: 230px;
+}
 
-  flow-children: down;
- }
-
- .TierName{
-
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
- }
-
- #ItemList{
-
-  flow-children: right-wrap;
-  width: 230px;
- }
-
- #ItemList DOTAItemImage{
-
-  width: 88px;
-  height: 64px;
-  margin-right: 12px;
-  margin-bottom: 12px;
+#ItemList DOTAItemImage {
+    width: 88px;
+    height: 64px;
+    margin-right: 12px;
+    margin-bottom: 12px;
 }

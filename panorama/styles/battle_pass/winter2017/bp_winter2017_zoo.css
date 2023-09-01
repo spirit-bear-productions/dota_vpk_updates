@@ -1,21 +1,15 @@
+#ZooContents {
+    padding: 30px;
+}
 
+#ButtonsZoo {
+    flow-children: down;
+}
 
- #ZooContents{
+#ButtonsZoo > .BattlePassCellContents {
+    flow-children: down;
+}
 
-  padding: 30px;
- }
-
- #ButtonsZoo{
-
-  flow-children: down;
- }
-
- #ButtonsZoo > .BattlePassCellContents{
-
-  flow-children: down;
- }
-
- #ButtonsZoo > .BattlePassCellContents > TextButton{
-
-  margin-bottom: 12px;
+#ButtonsZoo > .BattlePassCellContents > TextButton {
+    margin-bottom: 12px;
 }

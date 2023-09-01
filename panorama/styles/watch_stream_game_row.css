@@ -1,79 +1,67 @@
+DOTAStreamGameRow {
+    width: 100%;
 
- DOTAStreamGameRow{
+    margin: 0px 0px 0px 0px;
 
-  width:100%;
+    flow-children: down;
 
-  margin:0px 0px 0px 0px;
+    background-color: gradient(linear, 100% 0%, 0% 0%, from(#424a4f00), to(#424a4f00));
 
-  flow-children: down;
+    transition-property: background-color, border;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
 
-  background-color: gradient( linear, 100% 0%, 0% 0%, from( #424a4f00 ), to( #424a4f00) );
+DOTAStreamGameRow:hover {
+    background-color: gradient(linear, 100% 0%, 0% 0%, from(#424a4f00), to(#424a4f77));
+}
 
-  transition-property: background-color, border;
-  transition-duration: 0.1s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0.0s;
- }
+DOTAStreamGameRow.Selected {
+    background-color: gradient(linear, 100% 0%, 0% 0%, from(#424a4f00), to(#424a4fff));
+    border-left-color: #c8e7e7;
+    border-left-style: solid;
+    border-left-width: 4px;
+}
 
- DOTAStreamGameRow:hover{
+DOTAStreamGameRow.LoadMore {
+    height: 48px;
+    vertical-align: center;
+}
 
-  background-color: gradient( linear, 100% 0%, 0% 0%, from( #424a4f00 ), to( #424a4f77 ) );
- }
+#StreamImage {
+    width: 100%;
+    height: width-percentage(56%);
+    margin: 14px 14px 0px 14px;
+}
 
- DOTAStreamGameRow.Selected{
+#Footer {
+    flow-children: down;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 8px;
+}
 
-  background-color: gradient( linear, 100% 0%, 0% 0%, from( #424a4f00 ), to( #424a4fff ) );
-  border-left-color: #c8e7e7;
-  border-left-style: solid;
-  border-left-width: 4px;
- }
+#Status {
+    margin-top: 4px;
+    font-size: 30px;
+    height: 32px;
+}
 
- DOTAStreamGameRow.LoadMore{
+#ViewsAndName {
+    height: 42px;
+    flow-children: right;
+}
 
-  height: 48px;
-  vertical-align: center;
- }
+#StreamName {
+    font-size: 40px;
+    color: white;
+}
 
- #StreamImage{
+#Viewers {
+    font-size: 30px;
+}
 
-  width: 100%;
-  height: width-percentage( 56% );
-  margin: 14px 14px 0px 14px;
- }
-
- #Footer{
-
-  flow-children: down;
-  margin-left: 14px;
-  margin-right: 14px;
-  margin-top: 8px;
- }
-
- #Status{
-
-  margin-top: 4px;
-  font-size: 30px;
-  height: 32px;
- }
-
- #ViewsAndName{
-
-  height: 42px;
-  flow-children: right;
- }
-
- #StreamName{
-
-  font-size: 40px;
-  color: white;
- }
-
- #Viewers{
-
-  font-size: 30px;
- }
-
- #FillSpace{
-
-  width: fill-parent-flow( 1.0 );
+#FillSpace {
+    width: fill-parent-flow(1);
 }

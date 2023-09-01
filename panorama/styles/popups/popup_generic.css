@@ -1,164 +1,132 @@
+a {
+    color: #afb4b4;
+    text-decoration: underline;
+}
 
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
 
- a{
+.MessagePanel {
+    horizontal-align: center;
+    flow-children: right;
+}
 
-     color: #afb4b4;
-     text-decoration: underline;
- }
+#MessageLabel {
+    font-size: 24px;
+    color: #ffffff;
+    horizontal-align: center;
+    vertical-align: center;
+    max-width: 400px;
+    text-align: center;
+}
 
- a:hover{
+.WideMode #MessageLabel {
+    max-width: 700px;
+}
 
-     color: #FFFFFF;
-     text-decoration: underline;
- }
+.PopupPanel.EconItemIconEnabled #MessageLabel {
+    text-align: left;
+}
 
+#Spinner {
+    horizontal-align: center;
+    visibility: collapse;
+    margin-top: 10px;
+}
 
- .MessagePanel{
+#Spinner.SpinnerVisible {
+    visibility: visible;
+}
 
-  horizontal-align: center;
-  flow-children: right;
- }
+.ImageContainer {
+    flow-children: down;
+    vertical-align: center;
+    width: fit-children;
+    height: fit-children;
+}
 
- #MessageLabel{
+#EconItemImage {
+    width: 80px;
+    margin-right: 15px;
+    visibility: collapse;
+}
 
-     font-size: 24px;
-     color: #FFFFFF;
-     horizontal-align: center;
-     vertical-align: center;
-     max-width: 400px;
-     text-align: center;
- }
+.PopupPanel.EconItemIconEnabled #EconItemImage {
+    visibility: visible;
+}
 
- .WideMode #MessageLabel{
+#HeroImage {
+    width: 80px;
+    margin-right: 15px;
+    visibility: collapse;
+}
 
-     max-width: 700px;
- }
+.PopupPanel.HeroIconEnabled #HeroImage {
+    visibility: visible;
+}
 
- .PopupPanel.EconItemIconEnabled #MessageLabel{
+.Confirmation {
+    margin-top: 9px;
+    horizontal-align: center;
+    flow-children: down;
+    visibility: collapse;
+}
 
-  text-align: left;
- }
+.PopupPanel.ConfirmationCodeEnabled .Confirmation {
+    visibility: visible;
+}
 
- #Spinner{
+.Confirmation Label {
+    horizontal-align: center;
+}
 
-     horizontal-align: center;
-     visibility: collapse;
-  margin-top: 10px;
- }
+#ConfirmationText {
+    horizontal-align: center;
+    margin-top: 10px;
+}
 
- #Spinner.SpinnerVisible{
+.CriticalText {
+    color: #ff0000;
+}
 
-     visibility: visible;
- }
+#ProgressBar {
+    horizontal-align: center;
+    visibility: collapse;
+    margin-top: 10px;
+}
 
- .ImageContainer{
+#ProgressBar.ProgressBarVisible {
+    visibility: visible;
+}
 
-     flow-children:down;
-     vertical-align: center;
-     width: fit-children;
-     height: fit-children;
- }
+@keyframes 'DelayedFadeOpacityIn' {
+    0% {
+        opacity: 0;
+    }
 
- #EconItemImage{
+    80% {
+        opacity: 0;
+    }
 
-     width: 80px;
-     margin-right: 15px;
-     visibility: collapse;
- }
+    100% {
+        opacity: 1;
+    }
+}
 
- .PopupPanel.EconItemIconEnabled #EconItemImage{
+.DelayedButtons #ButtonContainer {
+    animation-name: DelayedFadeOpacityIn;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
 
-     visibility: visible;
- }
+.NoTitle #TitleLabel,
+.NoMessage #MessageLabel {
+    visibility: collapse;
+}
 
- #HeroImage{
-
-     width: 80px;
-     margin-right: 15px;
-     visibility: collapse;
- }
-
-  .PopupPanel.HeroIconEnabled #HeroImage{
-
-     visibility: visible;
-  }
-
- .Confirmation{
-
-     margin-top: 9px;
-     horizontal-align: center;
-     flow-children: down;
-     visibility: collapse;
- }
-
- .PopupPanel.ConfirmationCodeEnabled .Confirmation{
-
-     visibility: visible;
- }
-
- .Confirmation Label{
-
-     horizontal-align: center;
- }
-
- #ConfirmationText{
-
-     horizontal-align: center;
-  margin-top: 10px;
- }
-
- .CriticalText{
-
-     color: #FF0000;
- }
-
- #ProgressBar{
-
-     horizontal-align: center;
-     visibility: collapse;
-  margin-top: 10px;
- }
-
- #ProgressBar.ProgressBarVisible{
-
-     visibility: visible;
- }
-
- @keyframes 'DelayedFadeOpacityIn'{
-
-  0%{
-
-   opacity: 0.0;
-  }
-
-  80%{
-
-   opacity: 0.0;
-  }
-
-  100%{
-
-   opacity: 1.0;
-  }
- }
-
-
- .DelayedButtons #ButtonContainer{
-
-  animation-name: DelayedFadeOpacityIn;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-in;
-  animation-iteration-count: 1;
- }
-
- .NoTitle #TitleLabel,.NoMessage #MessageLabel{
-
-
-  visibility: collapse;
- }
-
-
- .NoTitle #MessageLabel{
-
-  margin-top: 12px;
+.NoTitle #MessageLabel {
+    margin-top: 12px;
 }

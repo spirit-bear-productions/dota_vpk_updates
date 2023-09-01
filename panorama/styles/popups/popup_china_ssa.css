@@ -1,104 +1,87 @@
+DOTAPopupChinaSSA {
+    width: 100%;
+    height: 100%;
+}
 
+#Background {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
 
- DOTAPopupChinaSSA{
+#MainContainer {
+    width: 100%;
+    height: 100%;
 
-  width: 100%;
-  height: 100%;
- }
+    margin: 100px;
 
- #Background{
+    flow-children: down;
+    horizontal-align: center;
+}
 
-  width: 100%;
-  height: 100%;
-  background-color: black;
- }
+#OpenSSA {
+    horizontal-align: center;
+}
 
- #MainContainer{
+#MainContainer .TopDescription {
+    width: 700px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    horizontal-align: center;
+    text-align: center;
+}
 
-  width: 100%;
-  height: 100%;
+#MainContainer .BottomDescription {
+    width: 700px;
+    margin-top: 60px;
+    horizontal-align: center;
+    text-align: center;
+}
 
-  margin: 100px;
+#MainContainer #ButtonSection {
+    horizontal-align: center;
+    margin-top: 20px;
+}
 
-  flow-children: down;
-  horizontal-align: center;
- }
+#WebBrowser {
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    horizontal-align: center;
+}
 
- #OpenSSA{
+.ShowError #WebBrowser {
+    visibility: collapse;
+}
 
-  horizontal-align: center;
- }
+#Error {
+    margin: 120px;
+    flow-children: down;
 
- #MainContainer .TopDescription{
+    vertical-align: center;
+    horizontal-align: center;
 
-  width: 700px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  horizontal-align: center;
-  text-align: center;
- }
+    visibility: collapse;
+}
 
- #MainContainer .BottomDescription{
+#Error Label {
+    horizontal-align: center;
+    text-align: center;
+}
 
-  width: 700px;
-  margin-top: 60px;
-  horizontal-align: center;
-  text-align: center;
- }
+.ShowError #Error {
+    visibility: visible;
+}
 
- #MainContainer #ButtonSection{
+#ButtonSection {
+    flow-children: right;
+}
 
-  horizontal-align: center;
-  margin-top: 20px;
- }
+#ButtonSection Button {
+    margin: 10px;
+}
 
- #WebBrowser{
-
-  width: 80%;
-  height: 80%;
-  margin-top: 10%;
-  horizontal-align: center;
- }
-
- .ShowError #WebBrowser{
-
-  visibility: collapse;
- }
-
- #Error{
-
-  margin: 120px;
-  flow-children: down;
-
-  vertical-align: center;
-  horizontal-align: center;
-
-  visibility: collapse;
- }
-
- #Error Label{
-
-  horizontal-align: center;
-  text-align: center;
- }
-
- .ShowError #Error{
-
-  visibility: visible;
- }
-
- #ButtonSection{
-
-  flow-children: right;
- }
-
- #ButtonSection Button{
-
-  margin: 10px;
- }
-
- #DOTAQuitButton{
-
-  vertical-align: top;
-  horizontal-align: right;
+#DOTAQuitButton {
+    vertical-align: top;
+    horizontal-align: right;
 }

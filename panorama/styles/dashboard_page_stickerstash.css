@@ -1,19 +1,15 @@
+DOTAStickerStashPage {
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    flow-children: down;
+}
 
- DOTAStickerStashPage{
+#StickerStashUI {
+    padding-top: 50px;
+    padding-left: 100px;
+}
 
-  margin-top: 60px;
-     width: 100%;
-  height: 100%;
-  flow-children: down;
- }
-
- #StickerStashUI{
-
-  padding-top: 50px;
-  padding-left: 100px;
- }
-
- .AspectRatio16x10 #StickerStashUI{
-
-  padding-left: 40px;
+.AspectRatio16x10 #StickerStashUI {
+    padding-left: 40px;
 }

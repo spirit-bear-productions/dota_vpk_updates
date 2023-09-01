@@ -1,114 +1,96 @@
-#BG{
-
-  width: 100%;
-  height: 100%;
-  background-image: url("s2r://panorama/images/front_page/ads/ti8_tickets_ad_png.vtex");
-  background-size: contain;
-  background-repeat: no-repeat;
+#BG {
+    width: 100%;
+    height: 100%;
+    background-image: url("s2r://panorama/images/front_page/ads/ti8_tickets_ad_png.vtex");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
- #Contents{
+#Contents {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
 
-  width: 100%;
-  height: 100%;
-  padding: 10px;
- }
+Label {
+    text-shadow: 2px 2px 2px 1 #000000ff;
+}
 
- Label{
+.TitleFont {
+    horizontal-align: center;
+    color: #eee;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
 
-  text-shadow: 2px 2px 2px 1.0 #000000FF;
- }
+.Location {
+    margin-top: 92px;
+}
 
- .TitleFont{
+.Dates {
+    margin-top: 106px;
+}
 
-  horizontal-align: center;
-  color: #eee;
-  font-size: 12px;
-  letter-spacing: 1px;
- }
+.Countdown {
+    vertical-align: bottom;
+    horizontal-align: middle;
+    width: 100%;
+    height: fit-children;
+}
 
- .Location{
+.CountdownHeader {
+    letter-spacing: 1px;
+    color: #eee;
+    font-size: 16px;
+    horizontal-align: center;
+}
 
-  margin-top: 92px;
- }
+.CountdownTime {
+    horizontal-align: center;
+    margin-top: 18px;
+    letter-spacing: 4px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
 
- .Dates{
+.Switcher {
+    flow-children: right;
+    horizontal-align: center;
+    tooltip-position: top;
+    tooltip-body-position: 50% 50%;
+    margin-top: 40px;
+}
 
-  margin-top: 106px;
- }
+.Switcher Label {
+    margin-right: 10px;
+}
 
- .Countdown{
+.Switcher Label.Active {
+    color: #afa;
+}
 
-  vertical-align: bottom;
-  horizontal-align: middle;
-  width: 100%;
-  height: fit-children;
- }
+.Switcher Label.Inactive {
+    color: #888;
+}
 
- .CountdownHeader{
+.Switcher Label.Spacer {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: -5px;
+}
 
-  letter-spacing: 1px;
-  color: #eee;
-  font-size: 16px;
-  horizontal-align: center;
- }
+.CallToAction {
+    horizontal-align: center;
+    color: #eee;
+    font-size: 18px;
+    margin-top: 72px;
+}
 
- .CountdownTime{
+.Countdown {
+    visibility: collapse;
+}
 
-  horizontal-align: center;
-  margin-top: 18px;
-  letter-spacing: 4px;
-  color: #fff;
-  font-size: 20px;
-  text-transform: uppercase;
- }
-
-
- .Switcher{
-
-  flow-children: right;
-  horizontal-align: center;
-  tooltip-position: top;
-  tooltip-body-position: 50% 50%;
-  margin-top: 40px;
- }
-
- .Switcher Label{
-
-  margin-right: 10px;
- }
-
- .Switcher Label.Active{
-
-  color: #afa;
- }
-
- .Switcher Label.Inactive{
-
-  color: #888;
- }
-
- .Switcher Label.Spacer{
-
-  font-weight: bold;
-  font-size: 24px;
-  margin-top: -5px;
- }
-
- .CallToAction{
-
-  horizontal-align: center;
-  color: #eee;
-  font-size: 18px;
-  margin-top: 72px;
- }
-
- .Countdown{
-
-  visibility: collapse;
- }
-
- .Countdown.Active{
-
-  visibility: visible;
+.Countdown.Active {
+    visibility: visible;
 }

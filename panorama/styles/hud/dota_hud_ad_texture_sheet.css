@@ -1,141 +1,107 @@
-#AbilityDraftTextureSheet{
-
-  flow-children: right;
-  width: 1024px;
-  height: 1024px;
-  background-color: #1B2226;
+#AbilityDraftTextureSheet {
+    flow-children: right;
+    width: 1024px;
+    height: 1024px;
+    background-color: #1b2226;
 }
 
+.PageVisible #AbilityDraftTextureSheet {
+    visibility: visible;
+}
 
- .PageVisible #AbilityDraftTextureSheet{
+#BaseAbilities {
+    flow-children: down;
+}
 
-  visibility: visible;
- }
+.Ability {
+    width: 128px;
+    height: 128px;
+    border: 4px solid black;
+}
 
- #BaseAbilities{
+.Ability DOTAAbilityImage {
+    box-shadow: inset 0px 0px 2px 0px rgba(255, 189, 46, 0);
+    transition-property: wash-color, brightness, pre-transform-scale2d, border, box-shadow;
+    transition-duration: 0.12s;
+    transition-timing-function: ease-in-out;
+}
 
-  flow-children: down;
- }
+.Ability DOTAAbilityImage.Hovered {
+    brightness: 2;
+    box-shadow: inset 0px 0px 12px 0px rgba(255, 189, 46, 0.596);
+}
 
- .Ability{
+.Ability Label {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 2px 2px 4 #000000;
+}
 
-  width: 128px;
-  height: 128px;
-  border: 4px solid black;
- }
+#UltimateAbilities {
+    flow-children: right;
+}
 
+.AbilityChosen {
+    saturation: 0.3;
+    wash-color: #003030dd;
+    brightness: 0.1;
+}
 
- .Ability DOTAAbilityImage{
+.ShardMarker,
+.ScepterMarker {
+    width: 56px;
+    height: 56px;
+    background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_scepter_marker_psd.vtex");
+    background-size: contain;
+    background-position: center;
+    wash-color: #007acc;
+    opacity: 0;
+    margin: 6px;
 
-  box-shadow: inset 0px 0px 2px 0px rgba(255, 189, 46, 0.0);
-  transition-property: wash-color, brightness, pre-transform-scale2d, border, box-shadow ;
-  transition-duration: .12s;
-  transition-timing-function: ease-in-out;
- }
+    vertical-align: top;
+    horizontal-align: center;
+    visibility: collapse;
 
- .Ability DOTAAbilityImage.Hovered{
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
 
-  brightness: 2;
-  box-shadow: inset 0px 0px 12px 0px rgba(255, 189, 46, 0.596);
- }
+.ShardMarker {
+    background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_shard_marker_psd.vtex");
+    vertical-align: bottom;
+}
 
+.Ability.HasScepterUpgrade .ScepterMarker {
+    visibility: visible;
+}
 
- .Ability Label{
+.Ability.HasShardUpgrade .ShardMarker {
+    visibility: visible;
+    wash-color: #007acc;
+}
 
-  font-size: 20px;
-  color: white;
-  font-weight: bold;
-  text-shadow: 0px 2px 2px 4.0 #000000;
- }
+.AltIsDown .ShardMarker,
+.AltIsDown .ScepterMarker {
+    opacity: 1;
+}
 
+.AltIsDown .Ability.HasScepterUpgrade DOTAAbilityImage {
+    wash-color: #fff;
+    saturation: 1;
+    brightness: 1;
+}
 
- #UltimateAbilities{
+.AltIsDown .Ability.HasShardUpgrade DOTAAbilityImage {
+    wash-color: #fff;
+    saturation: 1;
+    brightness: 1;
+}
 
-  flow-children: right;
- }
-
-
-
-
-
-
-
-
-
-
-
-
- .AbilityChosen{
-
-  saturation: 0.3;
-  wash-color: #003030DD;
-  brightness: .1;
- }
-
- .ShardMarker,.ScepterMarker{
-
-
-
-  width: 56px;
-  height: 56px;
-  background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_scepter_marker_psd.vtex");
-  background-size: contain;
-  background-position: center;
-  wash-color: #007ACC;
-  opacity: 0;
-  margin: 6px;
-
-  vertical-align: top;
-  horizontal-align: center;
-  visibility: collapse;
-
-  transition-property: opacity;
-  transition-duration: .2s;
-  transition-timing-function: ease-in-out;
- }
-
-
- .ShardMarker{
-
-  background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_shard_marker_psd.vtex");
-  vertical-align: bottom;
- }
-
- .Ability.HasScepterUpgrade .ScepterMarker{
-
-  visibility: visible;
- }
-
- .Ability.HasShardUpgrade .ShardMarker{
-
-  visibility: visible;
-  wash-color:  #007ACC;
- }
-
- .AltIsDown .ShardMarker,.AltIsDown .ScepterMarker{
-
-
-  opacity: 1;
- }
-
- .AltIsDown .Ability.HasScepterUpgrade DOTAAbilityImage{
-
-  wash-color: #fff;
-  saturation: 1;
-  brightness: 1;
- }
-
- .AltIsDown .Ability.HasShardUpgrade DOTAAbilityImage{
-
-  wash-color: #fff;
-  saturation: 1;
-  brightness: 1;
- }
-
- .AltIsDown .AbilityChosen,.AltIsDown DOTAAbilityImage{
-
-
-  wash-color: #222;
-  saturation: 0.3;
-  brightness: .1;
+.AltIsDown .AbilityChosen,
+.AltIsDown DOTAAbilityImage {
+    wash-color: #222;
+    saturation: 0.3;
+    brightness: 0.1;
 }

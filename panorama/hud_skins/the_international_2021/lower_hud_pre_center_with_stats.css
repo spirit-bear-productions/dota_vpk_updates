@@ -1,39 +1,35 @@
-#HUDSkinLowerHUDPreCenterWithStats{
+#HUDSkinLowerHUDPreCenterWithStats {
+    height: 100%;
+    width: 100%;
 
-  height: 100%;
-  width: 100%;
+    horizontal-align: right;
+    vertical-align: bottom;
 
-  horizontal-align: right;
-  vertical-align: bottom;
-
-  overflow: noclip;
+    overflow: noclip;
 }
 
- .RewardParticleBg_left{
+.RewardParticleBg_left {
+    height: 200px;
+    width: 350px;
+    vertical-align: bottom;
+    horizontal-align: right;
 
-  height: 200px;
-  width: 350px;
-  vertical-align: bottom;
-  horizontal-align: right;
+    z-index: 10;
 
-  z-index: 10;
+    overflow: noclip;
+}
 
-  overflow: noclip;
- }
+.RewardParticleBg_right {
+    height: 100%;
+    width: 350px;
+    horizontal-align: right;
+    visibility: collapse;
 
- .RewardParticleBg_right{
+    z-index: 10;
 
-  height: 100%;
-  width: 350px;
-  horizontal-align: right;
-  visibility: collapse;
+    margin-left: 0px;
 
-  z-index: 10;
+    overflow: noclip;
 
-  margin-left: 0px;
-
-  overflow: noclip;
-
-
-  border: 1px solid red;
+    border: 1px solid red;
 }

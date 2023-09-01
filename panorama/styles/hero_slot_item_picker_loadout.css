@@ -1,49 +1,46 @@
+DOTAHeroSlotItemPickerLoadout {
+    flow-children: down;
+    border-top: 1px solid rgba(255, 255, 255, 0.015);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 
- DOTAHeroSlotItemPickerLoadout{
+    transition-property: background-color;
+    transition-duration: 0s;
+}
+DOTAHeroSlotItemPickerLoadout.ShowTitles {
+    min-width: 210px;
+    flow-children: right;
+}
 
-  flow-children: down;
-  border-top: 1px solid rgba(255, 255, 255, 0.015);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-
-  transition-property: background-color;
-  transition-duration: 0s;
- }
-  DOTAHeroSlotItemPickerLoadout.ShowTitles{
-   min-width: 210px;
-   flow-children: right;
-  }
-
-  DOTAHeroSlotItemPickerLoadout:hover{
-   background-color: gradient( linear, 0% 0%, 120% 0%, from( #56688A22 ), to( #56688A00 ) );
-   transition-duration: 0.2s;
-  }
-   DOTAHeroSlotItemPickerLoadout:hover #SlotName{
+DOTAHeroSlotItemPickerLoadout:hover {
+    background-color: gradient(linear, 0% 0%, 120% 0%, from(#56688a22), to(#56688a00));
+    transition-duration: 0.2s;
+}
+DOTAHeroSlotItemPickerLoadout:hover #SlotName {
     color: LightestGrey;
-   }
+}
 
-   DOTAHeroSlotItemPickerLoadout:hover #SlotItemCount{
+DOTAHeroSlotItemPickerLoadout:hover #SlotItemCount {
     color: LighterGrey;
-   }
+}
 
-   DOTAHeroSlotItemPickerLoadout:hover #SlotEconItem{
-    transform: scale3d( 1.05, 1.05, 0 );
-   }
+DOTAHeroSlotItemPickerLoadout:hover #SlotEconItem {
+    transform: scale3d(1.05, 1.05, 0);
+}
 
-   DOTAHeroSlotItemPickerLoadout:hover .MenuArrow{
+DOTAHeroSlotItemPickerLoadout:hover .MenuArrow {
     opacity: 0.2;
     transform: none;
-   }
+}
 
+DOTAHeroSlotItemPickerLoadout.IsActive {
+    border-top: 1px solid rgba(255, 255, 255, 0.015);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
 
-  DOTAHeroSlotItemPickerLoadout.IsActive{
-   border-top: 1px solid rgba(255, 255, 255, 0.015);
-   border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    background-color: gradient(linear, 0% 0%, 140% 80%, from(#b0cdff14), to(#62718b0a));
 
-   background-color: gradient( linear, 0% 0%, 140% 80%, from( #b0cdff14 ), to( #62718b0a ) );
-
-   sound: "ui_preview_button_click";
-  }
-   DOTAHeroSlotItemPickerLoadout.IsActive #SlotName{
+    sound: "ui_preview_button_click";
+}
+DOTAHeroSlotItemPickerLoadout.IsActive #SlotName {
     color: LightestGrey;
 
     animation-name: GlowTextBright;
@@ -51,9 +48,9 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
-   }
+}
 
-   DOTAHeroSlotItemPickerLoadout.IsActive #SlotItemCount{
+DOTAHeroSlotItemPickerLoadout.IsActive #SlotItemCount {
     color: LightestGrey;
 
     animation-name: GlowTextBright;
@@ -61,9 +58,9 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
-   }
+}
 
-   DOTAHeroSlotItemPickerLoadout.IsActive #SlotNameLabel{
+DOTAHeroSlotItemPickerLoadout.IsActive #SlotNameLabel {
     color: LightestGrey;
     opacity: 1;
 
@@ -72,14 +69,14 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
-   }
+}
 
-   DOTAHeroSlotItemPickerLoadout.IsActive #SlotEconItem{
+DOTAHeroSlotItemPickerLoadout.IsActive #SlotEconItem {
     transform: none;
     brightness: 2;
-   }
+}
 
-   DOTAHeroSlotItemPickerLoadout.IsActive .MenuArrow{
+DOTAHeroSlotItemPickerLoadout.IsActive .MenuArrow {
     opacity: 1;
     transform: none;
 
@@ -88,266 +85,248 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
-   }
+}
 
-   DOTAHeroSlotItemPickerLoadout.IsActive .LeftEdge{
+DOTAHeroSlotItemPickerLoadout.IsActive .LeftEdge {
     opacity: 1;
-   }
+}
 
+.LeftEdge {
+    height: 100%;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#c2ced4), to(#727d81));
+    opacity: 0;
+    width: 2px;
+    margin: -1px 0px 0px;
 
+    ignore-parent-flow: true;
 
- .LeftEdge{
-  height: 100%;
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #C2CED4 ), to( #727D81 ) );
-  opacity: 0;
-  width: 2px;
-  margin: -1px 0px 0px;
+    transition-property: width, opacity;
+    transition-duration: 0.2s;
+}
 
-  ignore-parent-flow: true;
+.Header {
+    flow-children: down;
+    vertical-align: center;
+    width: 1px;
+}
 
-  transition-property: width, opacity;
-  transition-duration: 0.2s;
- }
+.ShowTitles .Header {
+    width: 100%;
+    margin-right: 24px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+}
 
- .Header{
-  flow-children: down;
-  vertical-align: center;
-  width: 1px;
- }
+#SlotName {
+    margin-bottom: 1px;
+    line-height: 1.1;
+    padding: 12px;
+    margin: -12px;
+    transition-property: color;
+    transition-duration: 0.1s;
+}
 
- .ShowTitles .Header{
-  width: 100%;
-  margin-right: 24px;
-  margin-left: 8px;
-  margin-bottom: 2px;
- }
+#SlotItemCount {
+    visibility: collapse;
+    padding: 12px;
+    margin: -12px;
 
- #SlotName{
-  margin-bottom: 1px;
-  line-height: 1.1;
-  padding: 12px;
-  margin: -12px;
-  transition-property: color;
-  transition-duration: 0.1s;
- }
+    transition-property: color;
+    transition-duration: 0.1s;
+}
 
- #SlotItemCount{
+.HasItemsForSlot #SlotItemCount {
+    visibility: visible;
+}
 
-  visibility: collapse;
-  padding: 12px;
-  margin: -12px;
+#SlotEconItemContainer {
+    flow-children: down;
+    context-menu-position: bottom;
+    margin: 8px 8px 7px 9px;
+    transition-property: brightness;
+    transition-duration: 0.2s;
+}
 
-  transition-property: color;
-  transition-duration: 0.1s;
- }
+.HasItemsForSlot #SlotEconItemContainer:hover {
+    brightness: 2;
+}
 
- .HasItemsForSlot #SlotItemCount{
+.HasItemsForSlot #SlotEconItemContainer:active {
+    brightness: 1.5;
+}
 
-  visibility: visible;
- }
+.MenuArrow {
+    width: 40px;
+    height: 40px;
+    horizontal-align: right;
+    vertical-align: center;
+    ignore-parent-flow: true;
+    opacity: 0;
+    transform: translateX(-4px);
+    margin-right: -12px;
 
- #SlotEconItemContainer{
-  flow-children: down;
-  context-menu-position: bottom;
-  margin: 8px 8px 7px 9px;
-  transition-property: brightness;
-  transition-duration: 0.2s;
- }
+    transition-property: opacity, transform;
+    transition-duration: 0.2s;
 
+    background-image: url("s2r://panorama/images/control_icons/24px/caret_right.vsvg");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
 
+    wash-color: white;
 
+    visibility: collapse;
+}
+.ShowTitles .MenuArrow {
+    visibility: visible;
+}
 
+#SlotEconItem {
+    margin: 0px;
+    box-shadow: none;
+    saturation: 1;
+    wash-color: white;
 
+    width: 72px;
+    height: 72px;
+    border: 0px;
 
- .HasItemsForSlot #SlotEconItemContainer:hover{
+    tooltip-position: top bottom;
+}
 
-  brightness: 2.0;
- }
+#HeroBackgroundImage {
+    wash-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+}
 
- .HasItemsForSlot #SlotEconItemContainer:active{
+#FullSetSlotContainer {
+    max-width: 72px;
+    max-height: 100px;
+    overflow: clip;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.4);
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#313b42), to(#778d9b));
+}
 
-  brightness: 1.5;
- }
+#FullSetSlotThumbnail {
+    margin: 0px;
+    box-shadow: none;
+    saturation: 1;
+    wash-color: white;
+    vertical-align: top;
+    horizontal-align: center;
+    width: 72px;
+    height: 100px;
+    tooltip-position: top bottom;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.02);
 
- .MenuArrow{
-  width: 40px;
-  height: 40px;
-  horizontal-align: right;
-  vertical-align: center;
-  ignore-parent-flow: true;
-  opacity: 0;
-  transform: translateX( -4px );
-  margin-right: -12px;
+    visibility: collapse;
+}
 
-  transition-property: opacity, transform;
-  transition-duration: 0.2s;
+#SlotEconItem.IsDefaultItem {
+    saturation: 0;
+    wash-color: #c4e8fe;
+}
 
-  background-image: url( "s2r://panorama/images/control_icons/24px/caret_right.vsvg");
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
-  background-position: center;
+.PreGamePhase #SlotEconItem {
+    border-left: 1px solid #ffffff15;
+    border-top: 1px solid #ffffff08;
+}
 
-  wash-color: white;
+#SlotEconItem:hover {
+    pre-transform-scale2d: 1;
+    box-shadow: none;
+}
 
-  visibility: collapse;
- }
-  .ShowTitles .MenuArrow{
-   visibility: visible;
-  }
+.IsFullSetPicker #SlotEconItem,
+.IsAbilityEffectsPicker #SlotEconItem {
+    visibility: collapse;
+}
 
+.IsFullSetPicker #FullSetSlotThumbnail {
+    visibility: visible;
+}
 
- #SlotEconItem{
-  margin: 0px;
-  box-shadow: none;
-  saturation: 1.0;
-  wash-color: white;
+#AbilityEffectsSlotContainer {
+    visibility: collapse;
 
-  width: 72px;
-  height: 72px;
-  border: 0px;
+    width: 72px;
+    height: 72px;
+    border: 0px;
+}
+#AbilityEffectsSlotContainer .AbilityIcon {
+    width: 56px;
+    height: 56px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.6);
+}
 
-  tooltip-position: top bottom;
- }
+#AbilityEffectsSlotContainer #AbilityIcon1 {
+    brightness: 1.2;
+}
 
- #HeroBackgroundImage{
-  wash-color: rgba(0, 0, 0, 0.9);
-  width: 100%;
-  height: 100%;
- }
+#AbilityEffectsSlotContainer #AbilityIcon2 {
+    margin-top: 6px;
+    margin-left: 6px;
+    brightness: 0.8;
+}
 
- #FullSetSlotContainer{
-  max-width: 72px;
-  max-height: 100px;
-  overflow: clip;
-  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.4);
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #313B42 ), to( #778D9B ) );
- }
+#AbilityEffectsSlotContainer #AbilityIcon3 {
+    margin-top: 12px;
+    margin-left: 12px;
+    brightness: 0.6;
+}
 
- #FullSetSlotThumbnail{
-  margin: 0px;
-  box-shadow: none;
-  saturation: 1.0;
-  wash-color: white;
-  vertical-align: top;
-  horizontal-align: center;
-  width: 72px;
-  height: 100px;
-  tooltip-position: top bottom;
-  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.02);
+#AbilityEffectsSlotContainer #AbilityIcon4 {
+    margin-top: 16px;
+    margin-left: 16px;
+    brightness: 0.4;
+}
 
-  visibility: collapse;
- }
+.IsAbilityEffectsPicker #AbilityEffectsSlotContainer {
+    visibility: visible;
+}
 
- #SlotEconItem.IsDefaultItem{
-  saturation: 0.0;
-  wash-color: #c4e8fe;
- }
+.NewItemBadgeDot {
+    ignore-parent-flow: true;
+    border-radius: 50%;
+    vertical-align: top;
+    horizontal-align: left;
+    width: 6px;
+    height: 6px;
+    background-color: #59b76e;
+    margin: 8px;
+    visibility: collapse;
+    animation-name: GlowNewItemBadgeDot;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
 
- .PreGamePhase #SlotEconItem{
+.HasNew .NewItemBadgeDot {
+    visibility: visible;
+}
 
-  border-left: 1px solid #ffffff15;
-  border-top: 1px solid #ffffff08;
- }
+@keyframes 'GlowNewItemBadgeDot' {
+    0% {
+        box-shadow: 0px 0px 8px #60ff8211;
+        brightness: 1;
+    }
 
- #SlotEconItem:hover{
+    100% {
+        box-shadow: 0px 0px 12px #60ff8244;
+        brightness: 2;
+    }
+}
 
-  pre-transform-scale2d: 1.0;
-  box-shadow: none;
- }
-
- .IsFullSetPicker #SlotEconItem,.IsAbilityEffectsPicker #SlotEconItem{
-
-  visibility: collapse;
- }
-
- .IsFullSetPicker #FullSetSlotThumbnail{
-  visibility: visible;
- }
-
- #AbilityEffectsSlotContainer{
-  visibility: collapse;
-
-  width: 72px;
-  height: 72px;
-  border: 0px;
- }
-  #AbilityEffectsSlotContainer .AbilityIcon{
-   width: 56px;
-   height: 56px;
-   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.6);
-  }
-
-  #AbilityEffectsSlotContainer #AbilityIcon1{
-   brightness: 1.2;
-  }
-
-  #AbilityEffectsSlotContainer #AbilityIcon2{
-   margin-top: 6px;
-   margin-left: 6px;
-   brightness: 0.8;
-  }
-
-  #AbilityEffectsSlotContainer #AbilityIcon3{
-   margin-top: 12px;
-   margin-left: 12px;
-   brightness: 0.6;
-  }
-
-  #AbilityEffectsSlotContainer #AbilityIcon4{
-   margin-top: 16px;
-   margin-left: 16px;
-   brightness: 0.4;
-  }
-
-
- .IsAbilityEffectsPicker #AbilityEffectsSlotContainer{
-  visibility: visible;
- }
-
- .NewItemBadgeDot{
-  ignore-parent-flow: true;
-  border-radius: 50%;
-  vertical-align: top;
-  horizontal-align: left;
-  width: 6px;
-  height: 6px;
-  background-color: #59B76E;
-  margin: 8px;
-  visibility: collapse;
-  animation-name: GlowNewItemBadgeDot;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
- }
-
- .HasNew .NewItemBadgeDot{
-     visibility: visible;
- }
-
- @keyframes 'GlowNewItemBadgeDot'{
-
-  0%{
-
-   box-shadow: 0px 0px 8px #60ff8211;
-         brightness: 1;
-  }
-
-  100%{
-
-   box-shadow: 0px 0px 12px #60ff8244;
-         brightness: 2;
-  }
- }
-
- #SlotNameLabel{
-  width: 100%;
-  text-align: center;
-  padding: 0px 4px;
-  line-height: 1;
-  text-overflow: ellipsis;
-  margin: -3px 0px 3px;
-  color: LightGrey;
-  letter-spacing: 0.8px;
-  opacity: 0.8;
+#SlotNameLabel {
+    width: 100%;
+    text-align: center;
+    padding: 0px 4px;
+    line-height: 1;
+    text-overflow: ellipsis;
+    margin: -3px 0px 3px;
+    color: LightGrey;
+    letter-spacing: 0.8px;
+    opacity: 0.8;
 }

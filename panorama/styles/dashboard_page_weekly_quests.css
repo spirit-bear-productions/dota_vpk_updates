@@ -1,130 +1,110 @@
-.DashboardPage{
-
-     flow-children: down;
+.DashboardPage {
+    flow-children: down;
 }
 
- .Title{
+.Title {
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
-     font-size: 32px;
-     color: white;
-     text-transform: uppercase;
-     letter-spacing: 2px;
- }
+.Header {
+    flow-children: right;
+}
 
- .Header{
+.Header Label {
+    font-size: 48px;
+}
 
-     flow-children: right;
- }
+.WeekButton {
+    padding: 0px 12px;
+}
 
- .Header Label{
+.WeekButton:selected Label {
+    color: white;
+}
 
-     font-size: 48px;
- }
+.QuestsTable {
+    flow-children: down;
+    width: 800px;
+}
 
- .WeekButton{
+.QuestsHeader {
+    width: 100%;
+    flow-children: right;
+    background-color: black;
+    padding: 4px 8px;
+}
 
-     padding: 0px 12px;
- }
+.QuestsRow {
+    width: 100%;
+    flow-children: right;
+    padding: 4px 8px;
+    background-color: #222;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
 
- .WeekButton:selected Label{
+.QuestTypeColumn {
+    width: 20px;
+    margin-right: 4px;
+}
 
-     color: white;
- }
+.QuestTypeIcon {
+    width: 20px;
+    height: 20px;
 
- .QuestsTable{
+    horizontal-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
-     flow-children: down;
-     width: 800px;
- }
+.QuestNameColumn {
+    width: fill-parent-flow(1);
+}
 
- .QuestsHeader{
+.QuestRewardColumn {
+    width: 100px;
+    flow-children: right;
+    margin-left: 12px;
+}
 
-     width: 100%;
-     flow-children: right;
-     background-color: black;
-     padding: 4px 8px;
- }
+.BattlePointsIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
 
- .QuestsRow{
+    background-image: url("s2r://panorama/images/control_icons/starfilled_psd.vtex");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
-     width: 100%;
-     flow-children: right;
-     padding: 4px 8px;
-     background-color: #222;
-     border-bottom: 1px solid black;
-     border-right: 1px solid black;
-     border-left: 1px solid black;
- }
+.QuestsRow.PlusQuest .QuestTypeIcon {
+    background-image: dotaPlusLogoSmall;
+}
 
- .QuestTypeColumn{
+.QuestsRow.GuildQuest .QuestTypeIcon {
+    background-image: url("s2r://panorama/images/guilds/guild_banner_icon_small_psd.vtex");
+}
 
-     width: 20px;
-     margin-right: 4px;
- }
+.QuestsRow .QuestNameColumn {
+    flow-children: down;
+}
 
- .QuestTypeIcon{
+.QuestName {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ccc;
+}
 
-     width: 20px;
-     height: 20px;
+.QuestDescription {
+    font-size: 16px;
+}
 
-     horizontal-align: center;
-     background-size: contain;
-     background-repeat: no-repeat;
-     background-position: center;
- }
-
- .QuestNameColumn{
-
-     width: fill-parent-flow( 1.0 );
- }
-
- .QuestRewardColumn{
-
-     width: 100px;
-     flow-children: right;
-     margin-left: 12px;
- }
-
- .BattlePointsIcon{
-
-     width: 20px;
-     height: 20px;
-     margin-right: 4px;
-
-     background-image: url( "s2r://panorama/images/control_icons/starfilled_psd.vtex");
-     background-size: contain;
-     background-repeat: no-repeat;
-     background-position: center;
- }
-
- .QuestsRow.PlusQuest .QuestTypeIcon{
-
-     background-image: dotaPlusLogoSmall;
- }
-
- .QuestsRow.GuildQuest .QuestTypeIcon{
-
-     background-image: url( "s2r://panorama/images/guilds/guild_banner_icon_small_psd.vtex");
- }
-
- .QuestsRow .QuestNameColumn{
-
-     flow-children: down;
- }
-
- .QuestName{
-
-     text-transform: uppercase;
-     letter-spacing: 2px;
-     color: #ccc;
- }
-
- .QuestDescription{
-
-     font-size: 16px;
- }
-
- .QuestProgressColumn Label{
-
-     font-family: monospaceNumbersFont;
+.QuestProgressColumn Label {
+    font-family: monospaceNumbersFont;
 }

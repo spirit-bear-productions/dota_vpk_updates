@@ -1,18 +1,15 @@
-DOTAFrontpageDPCUpcoming{
-
-     width: 100%;
+DOTAFrontpageDPCUpcoming {
+    width: 100%;
 }
 
- .CellTitle{
+.CellTitle {
+    color: #528ea5;
+}
 
-     color: #528EA5;
- }
-
- .TeamRecord{
-
-     text-align: right;
-     vertical-align: middle;
-     color: bluegreyTextReg;
-     font-weight: semi-bold;
-     font-size: 16px;
+.TeamRecord {
+    text-align: right;
+    vertical-align: middle;
+    color: bluegreyTextReg;
+    font-weight: semi-bold;
+    font-size: 16px;
 }

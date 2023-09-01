@@ -1,207 +1,175 @@
-DOTAAbilityGuideBuilder{
-
-     flow-children: down;
+DOTAAbilityGuideBuilder {
+    flow-children: down;
 }
 
- .StatBranchBackground{
+.StatBranchBackground {
+    horizontal-align: center;
+    padding-left: 170px;
+}
 
-     horizontal-align: center;
-     padding-left: 170px;
- }
+.AdditionalAbilityContainer {
+    visibility: collapse;
+    flow-children: right;
+    margin-bottom: 10px;
+}
 
+.HasAdditionalAbilities .AdditionalAbilityContainer {
+    visibility: visible;
+}
 
- .AdditionalAbilityContainer{
+#AdditionalAbilities {
+    flow-children: right;
+}
 
-  visibility: collapse;
-  flow-children: right;
-  margin-bottom: 10px;
- }
+#AdditionalAbilities DOTAAbilityImage {
+    width: 48px;
+    height: 48px;
+    margin-left: 6px;
+}
 
- .HasAdditionalAbilities .AdditionalAbilityContainer{
+.AbilityName {
+    width: 128px;
+    margin-right: 56px;
+    vertical-align: center;
+    text-align: right;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
-  visibility: visible;
- }
+#StatBranch {
+    width: 530px;
+}
 
- #AdditionalAbilities{
+.AbilityGuideTitle {
+    width: 100%;
+    flow-children: right;
+    margin-top: 0px;
+}
 
-  flow-children: right;
- }
+.AbilityGuideTitle {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    color: #ccc;
+}
 
- #AdditionalAbilities DOTAAbilityImage{
+.AbilityTitleContainer {
+    width: 210px;
+}
 
-  width: 48px;
-  height: 48px;
-  margin-left: 6px;
- }
+.AbilityGuideTitle.Ability {
+    text-align: right;
+}
 
- .AbilityName{
+.AbilityGuideTitle.Level {
+    width: fill-parent-flow(1);
+}
 
-     width: 128px;
-     margin-right: 56px;
-     vertical-align: center;
-     text-align: right;
-     font-size: 16px;
-     text-transform: uppercase;
- }
+.AbilityGuideTalentSelector {
+    flow-children: down;
+    background-color: #0009;
+    padding: 16px 24px 0px 24px;
+    height: 664px;
+    overflow: squish scroll;
+}
 
- #StatBranch{
+.AbilityGuideInstructions {
+    margin-top: 8px;
+    text-align: center;
+    horizontal-align: center;
+    font-size: 24px;
+}
 
-     width: 530px;
- }
+.AbilityDetailsContents {
+    width: 360px;
+    margin-left: 32px;
+    flow-children: down;
+}
 
+.AspectRatio4x3 .AbilityDetailsContents {
+    width: 300px;
+}
 
- .AbilityGuideTitle{
+.AbilityDetailsBackground {
+    width: 100%;
+    height: 664px;
 
-     width: 100%;
-     flow-children: right;
-     margin-top: 0px;
- }
+    padding: 10px;
 
- .AbilityGuideTitle{
+    background-color: #0009;
+    flow-children: down;
+    overflow: squish scroll;
+}
 
-     font-size: 20px;
-     text-align: center;
-     text-transform: uppercase;
-     margin-bottom: 2px;
-     color: #ccc;
- }
+#AbilityDetails {
+    width: 100%;
+}
 
- .AbilityTitleContainer{
+#AbilityDetailsDescription {
+    width: 100%;
+}
 
-  width: 210px;
- }
+.StatBranchDetails #AbilityDetails {
+    visibility: collapse;
+}
 
- .AbilityGuideTitle.Ability{
+.StatBranchDetails #AbilityDetailsDescription {
+    visibility: collapse;
+}
 
-  text-align: right;
- }
+.StatBranchCommentsContainer {
+    width: 100%;
+    flow-children: down;
+    visibility: collapse;
+}
 
- .AbilityGuideTitle.Level{
+.StatBranchDetails .StatBranchCommentsContainer {
+    visibility: visible;
+}
 
-     width: fill-parent-flow( 1.0 );
- }
+.StatBranchName {
+    font-size: 19px;
+    color: white;
+    width: fill-parent-flow(1);
+    vertical-align: middle;
+    text-overflow: shrink;
+}
 
- .AbilityGuideTalentSelector{
+.StatBranchDivider {
+    border-top-color: #626262;
+    border-top-width: 1px;
+    border-top-style: solid;
 
-     flow-children: down;
-     background-color: #0009;
-     padding: 16px 24px 0px 24px;
-     height: 664px;
-     overflow: squish scroll;
- }
+    width: 100%;
+    padding: 5px 0px 2px 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
- .AbilityGuideInstructions{
+.StatBranchHeaderSection {
+    width: 100%;
+}
 
-     margin-top: 8px;
-     text-align: center;
-     horizontal-align: center;
-     font-size: 24px;
- }
+.StatBranchCommentHeader {
+    color: #ff9900;
+    font-size: 18px;
+    margin-top: 5px;
+    width: 100%;
+    border-bottom-color: #626262;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin-bottom: 5px;
+}
 
- .AbilityDetailsContents{
+.StatBranchAbilityName {
+    horizontal-align: right;
+    vertical-align: center;
+}
 
-  width: 360px;
-     margin-left: 32px;
-  flow-children: down;
- }
-
- .AspectRatio4x3 .AbilityDetailsContents{
-
-  width: 300px;
- }
-
- .AbilityDetailsBackground{
-
-  width: 100%;
-  height: 664px;
-
-  padding: 10px;
-
-  background-color: #0009;
-  flow-children: down;
-  overflow: squish scroll;
- }
-
- #AbilityDetails{
-
-  width: 100%;
- }
-
- #AbilityDetailsDescription{
-
-  width: 100%;
- }
-
- .StatBranchDetails #AbilityDetails{
-
-     visibility: collapse;
- }
-
- .StatBranchDetails #AbilityDetailsDescription{
-
-     visibility: collapse;
- }
-
- .StatBranchCommentsContainer{
-
-     width: 100%;
-     flow-children: down;
-     visibility: collapse;
- }
-
- .StatBranchDetails .StatBranchCommentsContainer{
-
-     visibility: visible;
- }
-
- .StatBranchName{
-
-     font-size: 19px;
-     color: white;
-     width: fill-parent-flow( 1.0 );
-     vertical-align: middle;
-     text-overflow: shrink;
- }
-
- .StatBranchDivider{
-
-     border-top-color: #626262;
-     border-top-width: 1px;
-     border-top-style: solid;
-
-     width: 100%;
-     padding: 5px 0px 2px 0px;
-     margin-top: 5px;
-     margin-bottom: 5px;
- }
-
- .StatBranchHeaderSection{
-
-     width: 100%;
- }
-
- .StatBranchCommentHeader{
-
-     color: #ff9900;
-     font-size: 18px;
-     margin-top: 5px;
-     width: 100%;
-     border-bottom-color: #626262;
-     border-bottom-width: 1px;
-     border-bottom-style: solid;
-     margin-bottom: 5px;
- }
-
- .StatBranchAbilityName{
-
-     horizontal-align: right;
-     vertical-align: center;
- }
-
- .StatBranchCommentEdit{
-
-     height: 235px;
-     font-size: 16px;
-     white-space: normal;
-     overflow: squish scroll;
+.StatBranchCommentEdit {
+    height: 235px;
+    font-size: 16px;
+    white-space: normal;
+    overflow: squish scroll;
 }

@@ -1,11 +1,8 @@
+.DOTATooltipCustomGame {
+    width: 850px;
+    flow-children: down;
+}
 
- .DOTATooltipCustomGame{
-
-     width: 850px;
-     flow-children: down;
- }
-
- #Contents{
-
-  padding: 8px;
+#Contents {
+    padding: 8px;
 }

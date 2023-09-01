@@ -1,18 +1,14 @@
+.TooltipProfileCard {
+    flow-children: down;
+}
 
+.ShowMiniShowcase #ProfileCard {
+    visibility: collapse;
+}
 
- .TooltipProfileCard{
-  flow-children: down;
- }
-
-
-  .ShowMiniShowcase #ProfileCard{
-   visibility: collapse;
-  }
-
-
- #MiniShowcase{
-  visibility: collapse;
- }
-  .ShowMiniShowcase #MiniShowcase{
-   visibility: visible;
+#MiniShowcase {
+    visibility: collapse;
+}
+.ShowMiniShowcase #MiniShowcase {
+    visibility: visible;
 }

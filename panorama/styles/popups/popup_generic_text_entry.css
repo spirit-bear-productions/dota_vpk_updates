@@ -1,96 +1,78 @@
+.MessagePanel {
+    horizontal-align: center;
+    flow-children: right;
+}
 
+.MessageLabel {
+    font-size: 24px;
+    color: #ffffff;
+    horizontal-align: center;
+    vertical-align: center;
+    max-width: 400px;
+    text-align: center;
+}
 
- .MessagePanel{
+.PopupPanel.EconItemIconEnabled .MessageLabel {
+    text-align: left;
+}
 
-  horizontal-align: center;
-  flow-children: right;
- }
+.ImageContainer {
+    flow-children: down;
+    vertical-align: center;
+    width: fit-children;
+    height: fit-children;
+}
 
- .MessageLabel{
+#TextEntry {
+    width: 100%;
+    margin-top: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    horizontal-align: center;
+}
 
-     font-size: 24px;
-     color: #FFFFFF;
-     horizontal-align: center;
-     vertical-align: center;
-     max-width: 400px;
-     text-align: center;
- }
+.PopupPanel.Multiline #TextEntry {
+    height: 128px;
+    white-space: normal;
+}
 
- .PopupPanel.EconItemIconEnabled .MessageLabel{
+#EconItemImage {
+    width: 80px;
+    margin-right: 15px;
+    visibility: collapse;
+}
 
-  text-align: left;
- }
+.PopupPanel.EconItemIconEnabled #EconItemImage {
+    visibility: visible;
+}
 
- .ImageContainer{
+#HeroImage {
+    width: 80px;
+    margin-right: 15px;
+    visibility: collapse;
+}
 
-     flow-children:down;
-     vertical-align: center;
-     width: fit-children;
-     height: fit-children;
- }
+.PopupPanel.HeroIconEnabled #HeroImage {
+    visibility: visible;
+}
 
- #TextEntry{
+@keyframes 'DelayedFadeOpacityIn' {
+    0% {
+        opacity: 0;
+    }
 
-     width: 100%;
-     margin-top: 24px;
-     padding-left: 32px;
-     padding-right: 32px;
-     horizontal-align: center;
- }
+    80% {
+        opacity: 0;
+    }
 
- .PopupPanel.Multiline #TextEntry{
+    100% {
+        opacity: 1;
+    }
+}
 
-     height: 128px;
-     white-space: normal;
- }
-
- #EconItemImage{
-
-     width: 80px;
-     margin-right: 15px;
-     visibility: collapse;
- }
-
- .PopupPanel.EconItemIconEnabled #EconItemImage{
-
-     visibility: visible;
- }
-
- #HeroImage{
-
-     width: 80px;
-     margin-right: 15px;
-     visibility: collapse;
- }
-
-  .PopupPanel.HeroIconEnabled #HeroImage{
-
-     visibility: visible;
-  }
-
- @keyframes 'DelayedFadeOpacityIn'{
-
-  0%{
-
-   opacity: 0.0;
-  }
-
-  80%{
-
-   opacity: 0.0;
-  }
-
-  100%{
-
-   opacity: 1.0;
-  }
- }
-
-
- .DelayedButtons #ButtonContainer{
-
-  animation-name: DelayedFadeOpacityIn;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-in;
-  animation-iteration-count: 1;
+.DelayedButtons #ButtonContainer {
+    animation-name: DelayedFadeOpacityIn;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
 }

@@ -1,344 +1,297 @@
+DOTAWatchReplayGameElement {
+    width: 322px;
+    height: 100%;
+
+    background-color: #000000bb;
+
+    transition-property: box-shadow, border;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+
+    box-shadow: fill #7299db00 0px 0px 24px 0px;
+    border: 1px solid #ffffff00;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+DOTAWatchReplayGameElement:hover {
+    box-shadow: fill #7299db09 0px 0px 24px 0px;
+    border: 1px solid #ffffff04;
+}
+
+DOTAWatchReplayGameElement:active {
+    box-shadow: fill #7299db09 0px 0px 24px 0px;
+    border: 1px solid #ffffff04;
+}
+
+DOTAWatchReplayGameElement.WatchLaterNewBadge {
+    border: 1px solid red;
+}
+
+#PendingSpinner {
+    vertical-align: middle;
+    horizontal-align: center;
+
+    visibility: collapse;
+}
+
+.Pending #PendingSpinner {
+    visibility: visible;
+}
+
+.Pending .InfoContainer {
+    visibility: collapse;
+}
+
+.InfoContainer {
+    width: 100%;
+    height: 100%;
+
+    flow-children: down;
+}
+
+.VsContainer {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 80px;
+
+    horizontal-align: middle;
+    flow-children: right;
+}
+
+#vs {
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+#TeamRadiant,
+#TeamDire {
+    horizontal-align: center;
+
+    width: fill-parent-flow(1);
+    height: 100%;
+
+    flow-children: down;
+}
+
+#TeamNameRadiant,
+#TeamNameDire {
+    horizontal-align: center;
+    color: white;
+    text-overflow: shrink;
+}
+
+.Logo {
+    margin-left: 24px;
+    margin-right: 24px;
+
+    horizontal-align: center;
+
+    width: 94px;
+    height: 56px;
+}
+
+.Logo.Generic {
+    width: 56px;
+}
+
+.Heroes {
+    height: 100%;
+    width: fill-parent-flow(1);
+
+    flow-children: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Hero {
+    height: 100%;
+    width: fill-parent-flow(1);
+    max-width: 50%;
 
- DOTAWatchReplayGameElement{
+    horizontal-align: center;
 
-  width: 322px;
-  height: 100%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
 
-  background-color: #000000BB;
+.Hero.NoSlot {
+    visibility: collapse;
+}
 
-  transition-property: box-shadow, border;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+.IsTournamentGame #HeroesRadiant,
+.IsTournamentGame #HeroesDire,
+.IsTournamentGame #Participants,
+.IsTournamentGame #PublicMatchInfo {
+    visibility: collapse;
+}
 
-  box-shadow: fill #7299DB00 0px 0px 24px 0px;
-  border: 1px solid #ffffff00;
+.IsPubGame #TeamRadiant,
+.IsPubGame #TeamDire,
+.IsPubGame #LeagueName,
+.IsPubGame #Views {
+    visibility: collapse;
+}
+
+.IsPubGame #Friends1,
+.IsPubGame #Friends2,
+.IsPubGame #Friends3Plus {
+    visibility: collapse;
+}
 
-  margin-left: 10px;
-  margin-right: 10px;
- }
+.IsPubGame.Has1Friend #Friends1,
+.IsPubGame.Has2Friends #Friends2,
+.IsPubGame.Has3PlusFriends #Friends3Plus {
+    visibility: visible;
+}
 
- DOTAWatchReplayGameElement:hover{
+.DetailsContainer {
+    width: 100%;
 
-     box-shadow: fill #7299DB09 0px 0px 24px 0px;
-  border: 1px solid #ffffff04;
- }
+    horizontal-align: center;
+    vertical-align: bottom;
+    flow-children: down;
+}
 
- DOTAWatchReplayGameElement:active{
+.DetailsContainer Label {
+    font-size: 15px;
+}
 
-     box-shadow: fill #7299DB09 0px 0px 24px 0px;
-  border: 1px solid #ffffff04;
- }
+#Participants {
+    horizontal-align: center;
+    max-height: 20px;
 
- DOTAWatchReplayGameElement.WatchLaterNewBadge{
+    padding-left: 8px;
+    padding-right: 8px;
+}
 
-  border: 1px solid red;
- }
+#LeagueName {
+    horizontal-align: center;
 
- #PendingSpinner{
+    max-height: 20px;
 
-  vertical-align: middle;
-  horizontal-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
-  visibility: collapse;
- }
+#Views {
+    visibility: collapse;
+}
 
- .Pending #PendingSpinner{
+.ShowViews #Views {
+    visibility: visible;
+}
 
-  visibility: visible;
- }
+#PublicMatchInfo {
+    horizontal-align: center;
 
- .Pending .InfoContainer{
+    padding-left: 8px;
+    padding-right: 8px;
+    max-height: 20px;
+}
 
-  visibility: collapse;
- }
+.BottomLeftIcon {
+    width: 16px;
+    height: 16px;
 
- .InfoContainer{
+    horizontal-align: left;
+    vertical-align: bottom;
 
-  width:100%;
-  height:100%;
+    margin-left: 8px;
+    margin-bottom: 8px;
 
-  flow-children: down;
- }
+    background-size: contain;
 
- .VsContainer{
+    wash-color: #bbbbbb;
 
-  margin-top: 15px;
-  margin-bottom: 20px;
-  width: 100%;
-  height: 80px;
+    visibility: collapse;
+}
 
-  horizontal-align: middle;
-  flow-children: right;
- }
+#DownloadingIcon {
+    background-image: url("s2r://panorama/images/control_icons/download_png.vtex");
 
- #vs{
+    animation-name: OpacityPulse;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
 
-  text-align: center;
-  vertical-align: middle;
-  margin-left: 6px;
-  margin-right: 6px;
- }
+#DownloadedIcon {
+    background-image: url("s2r://panorama/images/control_icons/downloaded_png.vtex");
+}
 
- #TeamRadiant,#TeamDire{
+#WatchedIcon {
+    background-image: url("s2r://panorama/images/control_icons/eye_png.vtex");
+}
 
+.HasWatched #WatchedIcon,
+.IsDownloading #DownloadingIcon,
+.IsDownloaded #DownloadedIcon {
+    visibility: visible;
+}
 
-  horizontal-align: center;
+.WaitPip {
+    width: 16px;
+    height: 16px;
 
-  width: fill-parent-flow( 1.0 );
-  height: 100%;
+    horizontal-align: center;
+}
 
-  flow-children: down;
- }
+#PurchaseButton {
+    width: 64px;
+    height: 24px;
 
- #TeamNameRadiant,#TeamNameDire{
+    color: #ffffff;
 
+    horizontal-align: left;
+    vertical-align: bottom;
 
-  horizontal-align: center;
-  color: white;
-  text-overflow: shrink;
- }
+    background-color: #333333;
 
- .Logo{
+    transition-property: background-color;
+    transition-duration: 0.1s;
 
-  margin-left: 24px;
-  margin-right: 24px;
+    visibility: collapse;
+}
 
-  horizontal-align: center;
+.IsPurchasable #PurchaseButton {
+    visibility: visible;
+}
 
-  width: 94px;
-  height: 56px;
- }
+#PurchaseButton:hover {
+    background-color: #444444;
+}
 
- .Logo.Generic{
+#PurchaseButton Label {
+    transition-property: color;
+    transition-duration: 0.1s;
 
-  width: 56px;
- }
+    font-size: 15px;
+}
 
- .Heroes{
+#PurchaseButton:hover Label {
+    color: white;
+}
 
-  height:100%;
-  width:fill-parent-flow(1.0);
+#PurchasePrice {
+    margin-top: 2px;
+    horizontal-align: center;
+    vertical-align: middle;
+}
 
-  flow-children:right;
-  margin-left: 10px;
-  margin-right: 10px;
- }
+#Timestamp {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 13px;
+    color: #bbbbbb;
 
- .Hero{
+    horizontal-align: center;
+}
 
-  height:100%;
-  width:fill-parent-flow(1.0);
-  max-width: 50%;
-
-  horizontal-align: center;
-
-  margin-left: 2px;
-  margin-right: 2px;
- }
-
- .Hero.NoSlot{
-
-  visibility:collapse;
- }
-
- .IsTournamentGame #HeroesRadiant,.IsTournamentGame #HeroesDire,.IsTournamentGame #Participants,.IsTournamentGame #PublicMatchInfo{
-
-
-
-
-  visibility: collapse;
- }
-
- .IsPubGame #TeamRadiant,.IsPubGame #TeamDire,.IsPubGame #LeagueName,.IsPubGame #Views{
-
-
-
-
-  visibility: collapse;
- }
-
- .IsPubGame #Friends1,.IsPubGame #Friends2,.IsPubGame #Friends3Plus{
-
-
-
-  visibility: collapse;
- }
-
- .IsPubGame.Has1Friend #Friends1,.IsPubGame.Has2Friends #Friends2,.IsPubGame.Has3PlusFriends #Friends3Plus{
-
-
-
-  visibility: visible;
- }
-
-
- .DetailsContainer{
-
-  width: 100%;
-
-  horizontal-align: center;
-  vertical-align: bottom;
-  flow-children: down;
- }
-
- .DetailsContainer Label{
-
-  font-size: 15px;
- }
-
- #Participants{
-
-  horizontal-align: center;
-  max-height: 20px;
-
-  padding-left: 8px;
-  padding-right: 8px;
- }
-
- #LeagueName{
-
-  horizontal-align: center;
-
-  max-height: 20px;
-
-  padding-left: 20px;
-  padding-right: 20px;
- }
-
- #Views{
-
-  visibility: collapse;
- }
-
- .ShowViews #Views{
-
-  visibility: visible;
- }
-
-
- #PublicMatchInfo{
-
-  horizontal-align: center;
-
-  padding-left: 8px;
-  padding-right: 8px;
-  max-height: 20px;
- }
-
- .BottomLeftIcon{
-
-  width: 16px;
-  height: 16px;
-
-  horizontal-align: left;
-  vertical-align: bottom;
-
-  margin-left: 8px;
-  margin-bottom: 8px;
-
-  background-size: contain;
-
-  wash-color: #BBBBBB;
-
-  visibility: collapse;
- }
-
- #DownloadingIcon{
-
-  background-image: url( "s2r://panorama/images/control_icons/download_png.vtex");
-
-  animation-name: OpacityPulse;
-  animation-duration: 1.0s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
- }
-
-
- #DownloadedIcon{
-
-  background-image: url( "s2r://panorama/images/control_icons/downloaded_png.vtex");
- }
-
- #WatchedIcon{
-
-  background-image: url( "s2r://panorama/images/control_icons/eye_png.vtex");
- }
-
- .HasWatched #WatchedIcon,.IsDownloading #DownloadingIcon,.IsDownloaded #DownloadedIcon{
-
-
-
-  visibility: visible;
- }
-
- .WaitPip{
-
-  width: 16px;
-  height: 16px;
-
-  horizontal-align: center;
- }
-
-
- #PurchaseButton{
-
-  width: 64px;
-  height: 24px;
-
-  color: #FFFFFF;
-
-  horizontal-align: left;
-  vertical-align: bottom;
-
-  background-color: #333333;
-
-  transition-property: background-color;
-  transition-duration: 0.1s;
-
-  visibility: collapse;
- }
-
- .IsPurchasable #PurchaseButton{
-
-  visibility: visible;
- }
-
- #PurchaseButton:hover{
-
-  background-color: #444444;
- }
-
- #PurchaseButton Label{
-
-  transition-property: color;
-  transition-duration: 0.1s;
-
-  font-size: 15px;
- }
-
- #PurchaseButton:hover Label{
-
-  color: white;
- }
-
- #PurchasePrice{
-
-  margin-top: 2px;
-  horizontal-align: center;
-  vertical-align: middle;
- }
-
- #Timestamp{
-
-  margin-top: 4px;
-  margin-bottom: 4px;
-  font-size: 13px;
-  color: #BBBBBB;
-
-  horizontal-align: center;
- }
-
- .DetailsContainer #Timestamp Label{
-
-  font-size: 11px;
+.DetailsContainer #Timestamp Label {
+    font-size: 11px;
 }

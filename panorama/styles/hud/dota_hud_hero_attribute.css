@@ -1,100 +1,82 @@
-DOTAHudHeroAttribute{
-
-  flow-children: right;
+DOTAHudHeroAttribute {
+    flow-children: right;
 }
 
- Label{
+Label {
+    color: white;
+    font-size: 14px;
+}
 
-  color: white;
-  font-size: 14px;
- }
+#Icon {
+    width: 48px;
+    height: 48px;
+    margin-left: -4px;
+    margin-top: -4px;
+    margin-right: 8px;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
 
- #Icon{
+.Strength #Icon {
+    background-image: url("s2r://panorama/images/hud/pip_str_png.vtex");
+}
 
-  width: 48px;
-  height: 48px;
-  margin-left: -4px;
-  margin-top: -4px;
-  margin-right: 8px;
-  background-size: 100%;
-  background-position: 50% 50%;
- }
+.Agility #Icon {
+    background-image: url("s2r://panorama/images/hud/pip_agi_png.vtex");
+}
 
- .Strength #Icon{
+.Intelligence #Icon {
+    background-image: url("s2r://panorama/images/hud/pip_int_png.vtex");
+}
 
-  background-image: url( "s2r://panorama/images/hud/pip_str_png.vtex");
- }
+#Labels {
+    flow-children: down;
+}
 
- .Agility #Icon{
+#Title {
+    flow-children: right;
+}
 
-  background-image: url( "s2r://panorama/images/hud/pip_agi_png.vtex");
- }
+#Level {
+    margin-top: 8px;
+}
 
- .Intelligence #Icon{
+.HideAttribLevel #Level {
+    visibility: collapse;
+}
 
-  background-image: url( "s2r://panorama/images/hud/pip_int_png.vtex");
- }
+.PrimaryOnly {
+    visibility: collapse;
+    color: #ff8800;
+}
 
- #Labels{
+.PrimaryAttribute .PrimaryOnly {
+    visibility: visible;
+}
 
-  flow-children: down;
- }
+#StrengthLabels {
+    visibility: collapse;
+    flow-children: down;
+}
 
- #Title{
+.Strength #StrengthLabels {
+    visibility: visible;
+}
 
-  flow-children: right;
- }
+#AgilityLabels {
+    visibility: collapse;
+    flow-children: down;
+}
 
- #Level{
+.Agility #AgilityLabels {
+    visibility: visible;
+}
 
-  margin-top: 8px;
- }
+#IntelligenceLabels {
+    visibility: collapse;
+    flow-children: down;
+}
 
- .HideAttribLevel #Level{
-
-  visibility: collapse;
- }
-
- .PrimaryOnly{
-
-  visibility: collapse;
-  color: #ff8800;
- }
-
- .PrimaryAttribute .PrimaryOnly{
-
-  visibility: visible;
- }
-
- #StrengthLabels{
-
-  visibility: collapse;
-  flow-children: down;
- }
-
- .Strength #StrengthLabels{
-
-  visibility: visible;
- }
-
- #AgilityLabels{
-
-  visibility: collapse;
-  flow-children: down;
- }
-
- .Agility #AgilityLabels{
-
-  visibility: visible;
- }
-
- #IntelligenceLabels{
-
-  visibility: collapse;
-  flow-children: down;
- }
-
- .Intelligence #IntelligenceLabels{
-
-  visibility: visible;
+.Intelligence #IntelligenceLabels {
+    visibility: visible;
 }

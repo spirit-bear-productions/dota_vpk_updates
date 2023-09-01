@@ -1,54 +1,45 @@
+.TrophyContents {
+    flow-children: down;
+    max-width: 500px;
+}
 
+.TrophySeparator {
+    width: 100%;
+    height: 2px;
+    margin: 6px 0px;
+    background-color: #00000066;
+}
 
- .TrophyContents{
+#TrophyName {
+    font-size: 28px;
+}
 
-     flow-children: down;
-     max-width: 500px;
- }
+#TrophyCategory {
+    margin-top: -8px;
+    font-size: 20px;
+}
 
- .TrophySeparator{
+.HideScore .ScoreSeparator,
+.HideScore #TrophyScore {
+    visibility: collapse;
+}
 
-     width: 100%;
-     height: 2px;
-     margin: 6px 0px;
-     background-color: #00000066;
- }
+#NextTrophy {
+    flow-children: right;
+}
 
- #TrophyName{
+#NextTrophyImage {
+    max-width: 200px;
+    max-height: 200px;
+}
 
-     font-size: 28px;
- }
+#NextTrophyDetails {
+    flow-children: down;
+    vertical-align: middle;
+    margin-left: 8px;
+}
 
- #TrophyCategory{
-
-     margin-top: -8px;
-     font-size: 20px;
- }
-
- .HideScore .ScoreSeparator,.HideScore #TrophyScore{
-
-     visibility: collapse;
- }
-
- #NextTrophy{
-
-     flow-children: right;
- }
-
- #NextTrophyImage{
-
-     max-width: 200px;
-     max-height: 200px;
- }
-
- #NextTrophyDetails{
-
-     flow-children: down;
-     vertical-align: middle;
-     margin-left: 8px;
- }
-
- .HideNextTrophy .NextSeparator,.HideNextTrophy #NextTrophy{
-
-     visibility: collapse;
+.HideNextTrophy .NextSeparator,
+.HideNextTrophy #NextTrophy {
+    visibility: collapse;
 }

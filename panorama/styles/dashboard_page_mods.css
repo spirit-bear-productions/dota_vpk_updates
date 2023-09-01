@@ -1,12 +1,9 @@
+#DOTAModsPage {
+    margin-top: 170px;
+    horizontal-align: center;
+}
 
- #DOTAModsPage{
-
-     margin-top: 170px;
-     horizontal-align: center;
- }
-
- Label{
-
-     color: blue;
-     font-size: 20px;
+Label {
+    color: blue;
+    font-size: 20px;
 }

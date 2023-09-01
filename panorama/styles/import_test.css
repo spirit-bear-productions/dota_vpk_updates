@@ -1,7 +1,5 @@
+@define testColor: orange;
 
- @define testColor: orange;
-
- #ImportTest{
-
-  background-color: red;
+#ImportTest {
+    background-color: red;
 }

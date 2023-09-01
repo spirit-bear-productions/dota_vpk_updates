@@ -1,183 +1,154 @@
-DOTAHeroSetPicker{
-
-  flow-children: down;
+DOTAHeroSetPicker {
+    flow-children: down;
 }
 
- #Header{
+#Header {
+    flow-children: right;
+    margin-bottom: 1px;
+}
 
-  flow-children: right;
-  margin-bottom: 1px;
- }
+.PreGamePhase #Header {
+    margin-bottom: 0px;
+    height: 20px;
+}
 
- .PreGamePhase #Header{
-
-  margin-bottom: 0px;
-  height: 20px;
- }
-
- #PickerSetCount{
-
-  color: white;
-  margin-right: 4px;
-  font-size: 16px;
-
-  visibility: collapse;
- }
-
- .HasSetsForHero #PickerSetCount{
-
-  visibility: visible;
- }
-
- #PickerTitle{
-
-  color: #8e9795;
-  text-transform: uppercase;
-  font-size: 16px;
-     letter-spacing: 2px;
- }
-
- #CurrentSetContainer{
-
-  width: 100%;
-  height: fill-parent-flow( 1.0 );
-  flow-children: down;
-
-
-
-  transition-property: brightness;
-  transition-duration: 0.2s;
-  context-menu-position: bottom;
- }
-
- .DefaultSetEquipped:not(.HasSetsForHero) #CurrentSetContainer{
-
-    margin-bottom: 16px;
- }
-
- .HasSetsForHero #CurrentSetContainer:hover{
-
-  brightness: 2.0;
- }
-
- .HasSetsForHero #CurrentSetContainer:active{
-
-  brightness: 1.5;
- }
-
- #CurrentSetPanel{
-
-  width: 100%;
-  height: fill-parent-flow( 1.0 );
-  border: 2px solid black;
-
-  border-right: 0px;
-  border-left: 1px solid #ffffff11;
-  border-bottom: 0px;
-  border-top: 1px solid #ffffff11;
-
-  context-menu-position: right top bottom left;
- }
-
-
-
-
- #MenuArrowContainer{
-
-  width: 100%;
-  height: 16px;
-
-  background-color: gradient( linear, 100% 0%, 0% 0%, from( #000 ), color-stop( .49, #282a29 ), color-stop( .5, #282a29 ), color-stop( .51, #282a29 ), to( #000 ) );
- }
-
-
-
-
-
-
-
- .DefaultSetEquipped:not(.HasSetsForHero) #MenuArrowContainer{
+#PickerSetCount {
+    color: white;
+    margin-right: 4px;
+    font-size: 16px;
 
     visibility: collapse;
- }
+}
 
- #MenuArrow{
+.HasSetsForHero #PickerSetCount {
+    visibility: visible;
+}
 
-  width: 16px;
-  height: 16px;
-  horizontal-align: center;
+#PickerTitle {
+    color: #8e9795;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
 
-  background-image: url( "s2r://panorama/images/control_icons/arrow_solid_down_png.vtex");
-  background-size: 16px 11px;
-  background-position: center 2px;
-  background-repeat: no-repeat;
+#CurrentSetContainer {
+    width: 100%;
+    height: fill-parent-flow(1);
+    flow-children: down;
 
-  wash-color: #777;
- }
+    transition-property: brightness;
+    transition-duration: 0.2s;
+    context-menu-position: bottom;
+}
 
+.DefaultSetEquipped:not(.HasSetsForHero) #CurrentSetContainer {
+    margin-bottom: 16px;
+}
 
- #SaveSetButton{
+.HasSetsForHero #CurrentSetContainer:hover {
+    brightness: 2;
+}
 
-  margin-top: 8px;
-  box-shadow: fill #00000022 0px 0px 8px 4px;
-  visibility: collapse;
-  margin-bottom: 16px;
-  padding-bottom: 1px;
- }
+.HasSetsForHero #CurrentSetContainer:active {
+    brightness: 1.5;
+}
 
- #SaveSetButton Label{
+#CurrentSetPanel {
+    width: 100%;
+    height: fill-parent-flow(1);
+    border: 2px solid black;
 
-  line-height: 18px;
-  font-size: 16px;
-  text-shadow: 1px 1px 0px 1.0 #00000066;
- }
+    border-right: 0px;
+    border-left: 1px solid #ffffff11;
+    border-bottom: 0px;
+    border-top: 1px solid #ffffff11;
 
+    context-menu-position: right top bottom left;
+}
 
- .EnableSaveAsCustomSet #SaveSetButton{
+#MenuArrowContainer {
+    width: 100%;
+    height: 16px;
 
-  visibility: visible;
- }
+    background-color: gradient(
+        linear,
+        100% 0%,
+        0% 0%,
+        from(#000),
+        color-stop(0.49, #282a29),
+        color-stop(0.5, #282a29),
+        color-stop(0.51, #282a29),
+        to(#000)
+    );
+}
 
+.DefaultSetEquipped:not(.HasSetsForHero) #MenuArrowContainer {
+    visibility: collapse;
+}
 
+#MenuArrow {
+    width: 16px;
+    height: 16px;
+    horizontal-align: center;
 
- #ShuffleButton{
+    background-image: url("s2r://panorama/images/control_icons/arrow_solid_down_png.vtex");
+    background-size: 16px 11px;
+    background-position: center 2px;
+    background-repeat: no-repeat;
 
-  horizontal-align: right;
-  margin-top: 2px;
-  tooltip-position: top;
-  padding: 0px;
- }
- #ShuffleButton .TickBox{
+    wash-color: #777;
+}
 
-  width: 20px;
-  height: 20px;
-  transform: translateY( -3px );
+#SaveSetButton {
+    margin-top: 8px;
+    box-shadow: fill #00000022 0px 0px 8px 4px;
+    visibility: collapse;
+    margin-bottom: 16px;
+    padding-bottom: 1px;
+}
 
-  border: 0px solid transparent;
-  background-color: none;
-  box-shadow: none;
+#SaveSetButton Label {
+    line-height: 18px;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px 1 #00000066;
+}
 
-  background-image: url( "s2r://panorama/images/control_icons/shuffle_psd.vtex");
-  background-size: 16px 14px;
-  background-repeat: no-repeat;
-  background-position: center;
+.EnableSaveAsCustomSet #SaveSetButton {
+    visibility: visible;
+}
 
-  wash-color: #8e9795;
+#ShuffleButton {
+    horizontal-align: right;
+    margin-top: 2px;
+    tooltip-position: top;
+    padding: 0px;
+}
+#ShuffleButton .TickBox {
+    width: 20px;
+    height: 20px;
+    transform: translateY(-3px);
 
-  transition-property: wash-color, background-color;
- }
- #ShuffleButton:selected .TickBox{
+    border: 0px solid transparent;
+    background-color: none;
+    box-shadow: none;
 
+    background-image: url("s2r://panorama/images/control_icons/shuffle_psd.vtex");
+    background-size: 16px 14px;
+    background-repeat: no-repeat;
+    background-position: center;
 
-  background-image: url( "s2r://panorama/images/control_icons/shuffle_enabled_psd.vtex");
-  background-size: 20px 20px;
-  wash-color: white;
- }
- #ShuffleButton:hover .TickBox{
+    wash-color: #8e9795;
 
-  wash-color: white;
- }
- #ShuffleButton:active .TickBox{
-
-  wash-color: #ddd;
+    transition-property: wash-color, background-color;
+}
+#ShuffleButton:selected .TickBox {
+    background-image: url("s2r://panorama/images/control_icons/shuffle_enabled_psd.vtex");
+    background-size: 20px 20px;
+    wash-color: white;
+}
+#ShuffleButton:hover .TickBox {
+    wash-color: white;
+}
+#ShuffleButton:active .TickBox {
+    wash-color: #ddd;
 }

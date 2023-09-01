@@ -1,179 +1,150 @@
+#ZooContents {
+    padding: 10px;
+    flow-children: right;
+}
 
+#ZooContents .BattlePassCell {
+    margin-right: 10px;
+    flow-children: down;
+}
 
- #ZooContents{
+#ZooContents .BattlePassCellContents {
+    flow-children: down;
+}
 
-  padding: 10px;
-  flow-children: right;
- }
+#ButtonsZoo > .BattlePassCellContents > TextButton {
+    margin-bottom: 12px;
+}
 
- #ZooContents .BattlePassCell{
+.ImageContainer {
+    flow-children: right;
+}
 
-  margin-right: 10px;
-  flow-children: down;
- }
+.ImageContainer Label {
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-left: 8px;
+    color: #ccc;
+}
 
- #ZooContents .BattlePassCellContents{
+.TestColorContainer {
+    flow-children: right;
+    margin-bottom: 8px;
+}
 
-  flow-children: down;
- }
+.TestColorContainer > Label {
+    vertical-align: middle;
+    margin-right: 9px;
+}
 
- #ButtonsZoo > .BattlePassCellContents > TextButton{
+#TestColorTextEntry {
+    width: 100px;
+}
 
-  margin-bottom: 12px;
- }
+#ColorDisplay {
+    flow-children: right;
+}
 
- .ImageContainer{
+#TestColorSwatch {
+    height: 100%;
+    width: 80px;
+}
 
-  flow-children: right;
- }
+#ColorPreviews {
+    flow-children: down;
+}
 
- .ImageContainer Label{
+.ColorPreview {
+    flow-children: right;
+}
 
-  vertical-align: middle;
-  margin-top: 2px;
-  margin-left: 8px;
-  color: #ccc;
- }
+.ColorSwatch {
+    width: 80px;
+    height: 24px;
+    margin-right: 8px;
+}
 
+.ColorPreview > Label {
+    color: #ccc;
+    vertical-align: middle;
+    margin-top: 2px;
+    font-size: 16px;
+}
 
- .TestColorContainer{
+.ImageContainer .DetailsNext {
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+}
 
-  flow-children: right;
-  margin-bottom: 8px;
- }
+.ImageContainer #TitleBackground {
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+}
 
- .TestColorContainer > Label{
+.ImageContainer #bp_quest_tabletop {
+    background-image: bp_quest_tabletop;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+}
 
-  vertical-align: middle;
-  margin-right: 9px;
- }
+.ImageContainer #bp_quest_scroll_left_texture {
+    background-image: bp_quest_scroll_left_texture;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+}
 
- #TestColorTextEntry{
+.ImageContainer #bp_quest_scroll_texture {
+    background-image: bp_quest_scroll_texture;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+}
 
-  width: 100px;
- }
+.ImageContainer #bp_profile_tooltip_max {
+    background-image: bp_profile_tooltip_max;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+}
 
- #ColorDisplay{
+.ImageContainer #bp_platinum_backer {
+    background-image: bp_platinum_backer;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+}
 
-  flow-children: right;
- }
+.ImageContainer #bp_avatar_border_default {
+    background-image: bp_avatar_border_default;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+}
 
- #TestColorSwatch{
+.ImageContainer #bp_avatar_border_max {
+    background-image: bp_avatar_border_max;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+}
 
-  height: 100%;
-  width: 80px;
- }
+.EventCrestContainer {
+    flow-children: right;
+}
 
- #ColorPreviews{
-
-  flow-children: down;
- }
-
- .ColorPreview{
-
-  flow-children: right;
- }
-
- .ColorSwatch{
-
-  width: 80px;
-  height: 24px;
-  margin-right: 8px;
- }
-
- .ColorPreview > Label{
-
-  color: #ccc;
-  vertical-align: middle;
-  margin-top: 2px;
-  font-size: 16px;
- }
-
- .ImageContainer .DetailsNext{
-
-  width: 30px;
-  height: 30px;
-  margin-top: 0px;
- }
-
- .ImageContainer #TitleBackground{
-
-  width: 30px;
-  height: 30px;
-  margin-top: 0px;
- }
-
- .ImageContainer #bp_quest_tabletop{
-
-  background-image: bp_quest_tabletop;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  margin-top: 0px;
- }
-
- .ImageContainer #bp_quest_scroll_left_texture{
-
-  background-image: bp_quest_scroll_left_texture;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  margin-top: 0px;
- }
-
- .ImageContainer #bp_quest_scroll_texture{
-
-  background-image: bp_quest_scroll_texture;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  margin-top: 0px;
- }
-
- .ImageContainer #bp_profile_tooltip_max{
-
-  background-image: bp_profile_tooltip_max;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  margin-top: 0px;
- }
-
- .ImageContainer #bp_platinum_backer{
-
-  background-image: bp_platinum_backer;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  margin-top: 0px;
- }
-
- .ImageContainer #bp_avatar_border_default{
-
-  background-image: bp_avatar_border_default;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  margin-top: 0px;
- }
-
- .ImageContainer #bp_avatar_border_max{
-
-  background-image: bp_avatar_border_max;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  margin-top: 0px;
- }
-
- .EventCrestContainer{
-
-  flow-children: right;
- }
-
- .EventCrestContainer > Label{
-
-  vertical-align: middle;
-  color: #ccc;
-  margin-left: 4px;
+.EventCrestContainer > Label {
+    vertical-align: middle;
+    color: #ccc;
+    margin-left: 4px;
 }
