@@ -3,14 +3,14 @@
 @define reserveTimeTextColor: #ccc;
 @define reserveTimeTimerColor: #789fd4;
 
-@define PreGame_Heroes_SetTile_Width: 256px;
-@define PreGame_Heroes_SetTile_Height: 385px;
+@define PreGame_Heroes_SetTile_Width: 216px;
+@define PreGame_Heroes_SetTile_Height: 324px;
 
 @define PreGame_Heroes_SetTile_Width_Popup: 231px;
 @define PreGame_Heroes_SetTile_Height_Popup: 340px;
 
-@define PreGame_Heroes_ItemTile_Width: 191px;
-@define PreGame_Heroes_ItemTile_Height: 218px;
+@define PreGame_Heroes_ItemTile_Width: 162px;
+@define PreGame_Heroes_ItemTile_Height: 198px;
 
 @define PreGame_Heroes_GlobalItemTile_Width: 162px;
 @define PreGame_Heroes_GlobalItemTile_Height: 198px;
@@ -1724,25 +1724,17 @@ DOTAHudPreGame.Reconnect.PreGamePhase {
     transform: translateX (-80px);
 }
 #HeroModelLoadout {
-    width: 1100px;
-    height: 1100px;
-    margin-top: 112px;
-    transform: translateX (-80px);
+    width: 1080px;
+    height: 1080px;
+    transform: translateX (-80px) translateY (100px) scale3d (1, 1, 1);
     visibility: collapse;
+    opacity-mask: url("s2r://panorama/images/masks/hero_model_preview_mask_pregame_psd.vtex");
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier (0, 1, 0, 1);
 }
-#HeroModel {
-    opacity-mask: url("s2r://panorama/images/masks/hero_model_opacity_mask_psd.vtex");
-    wash-color: black;
-    transition-property: transform, wash-color, opacity;
-    transition-duration: 0.4s;
-    transition-timing-function: ease-in-out;
-}
-#HeroModelLoadout {
-    opacity-mask: url("s2r://panorama/images/masks/softedge_box_left_displaced_png.vtex");
-    wash-color: black;
-    transition-property: transform, wash-color, opacity;
-    transition-duration: 0.4s;
-    transition-timing-function: ease-in-out;
+.HeroLoadoutTabVisible #HeroModelLoadout {
+    transform: translateX (-90px) translateY (60px) scale3d (0.86, 0.86, 1);
 }
 .AspectRatio4x3 #HeroModel,
 .AspectRatio4x3 #HeroModelOverlay,
@@ -1799,22 +1791,23 @@ DOTAHudPreGame.Reconnect.PreGamePhase {
 #SelectedHeroDetails,
 #SelectedHeroAbilitiesHitTargets {
     margin-left: 180px;
-    width: 634px;
+    width: 630px;
 }
 .AspectRatio16x10 #SelectedHeroDetails,
 .AspectRatio16x10 #SelectedHeroAbilitiesHitTargets {
     margin-left: 98px;
+    width: 700px;
 }
 .AspectRatio4x3 #SelectedHeroDetails,
 .AspectRatio4x3 #SelectedHeroAbilitiesHitTargets {
     margin-left: 64px;
 }
 #SelectedHeroDetails {
-    margin-top: 128px;
+    margin-top: 130px;
 }
 #SelectedHeroAbilities {
     flow-children: right;
-    margin-top: 76px;
+    margin-top: 80px;
 }
 #SelectedHeroAbilitiesHitTargets {
     flow-children: right;
@@ -1828,10 +1821,11 @@ DOTAHudPreGame.Reconnect.PreGamePhase {
     height: 48px;
     background-size: 44px 44px;
     background-position: 0px 0px;
-    margin-right: 12px;
+    margin-right: 10px;
 }
 #SelectedHeroAbilitiesHitTargets > Panel.StatBranch {
     margin-right: 2px;
+    margin-top: 4px;
 }
 #SelectedHeroAbilities > .AbilityIconContainer {
     height: 64px;
@@ -1886,7 +1880,6 @@ DOTAHudPreGame.Reconnect.PreGamePhase {
 #SelectedHeroAbilities > .StatBranch,
 #SelectedHeroAbilities > .ScepterDetails {
     wash-color: #6f819b;
-    margin: 2px;
 }
 #EnterBattle {
     color: #ffffff90;
@@ -1894,19 +1887,32 @@ DOTAHudPreGame.Reconnect.PreGamePhase {
     text-transform: uppercase;
     margin-left: 3px;
 }
+.SelectedHeroNameContainer {
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 8px;
+    flow-children: right;
+}
+#PersonaSelector {
+    vertical-align: center;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier (0, 1, 0, 1);
+    margin-top: -1px;
+}
 #SelectedHeroName,
 #CoachName {
-    width: 684px;
-    height: 64px;
+    width: fill-parent-flow (1);
+    margin-right: 8px;
+    height: 60px;
     color: white;
-    font-size: 62px;
+    font-size: 60px;
     font-weight: Bold;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-overflow: shrink;
-    margin-top: 18px;
     font-family: titleFont;
-    text-shadow: 0px 0px 4px 3 #101010;
+    text-shadow: 0px 2px 8px #000000;
 }
 #CoachName,
 .IsCoach #SelectedHeroName {
@@ -2160,7 +2166,6 @@ DOTAHeroPickingHeroIcon.Dragging {
     color: #7a8a9d;
     text-transform: uppercase;
     margin-left: 0px;
-    font-weight: thinner;
 }
 .StrategyPhaseTab:hover > Label {
     color: white;
@@ -2302,8 +2307,8 @@ DOTAHeroPickingHeroIcon.Dragging {
     height: 108px;
     width: 140px;
     vertical-align: bottom;
-    margin-bottom: 60px;
-    margin-left: 90px;
+    margin-bottom: 196px;
+    margin-left: 16px;
     background-color: none;
     border: 0px solid transparent;
     box-shadow: none;
@@ -2360,7 +2365,7 @@ DOTAHeroPickingHeroIcon.Dragging {
     height: 26px;
     text-overflow: shrink;
     letter-spacing: 2px;
-    margin-bottom: 8px;
+    margin: 2px 0px 8px;
     text-shadow: 1px 1px 3px 2 black;
 }
 #SkipIntoGame.Activated {
@@ -4525,8 +4530,8 @@ DOTAHudPreGame.aghanim #RadiantTeamPlayers .Slot4 {
 #SetPreviewControls {
     horizontal-align: left;
     vertical-align: bottom;
-    margin-left: 22px;
-    margin-bottom: 22px;
+    margin-left: 50px;
+    transform: translateY (24px);
     width: 820px;
     height: 250px;
     opacity: 0;

@@ -5838,7 +5838,8 @@ DOTAEventCrestImage.Quality2 {
     wash-color: white;
 }
 .ButtonPrimary.Small {
-    padding: 2px 6px;
+    padding: 0px 6px;
+    height: 24px;
 }
 .ButtonPrimary.Small Label {
     font-size: 14px;
