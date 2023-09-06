@@ -961,6 +961,7 @@ RadioButton Label {
     width: 100%;
     flow-children: down;
     padding-bottom: 0px;
+    margin-bottom: 24px;
 }
 #ItemsGroupTitle {
     width: 100%;
@@ -1735,7 +1736,6 @@ DOTACollectionPageBrowse #BrowseFiltersContainer {
 .SingleHeroRelicsButton .SingleHeroRelicsButtonContent {
     width: 100%;
     height: 100%;
-    padding-top: 16px;
     flow-children: down;
     background-color: gradient
         (
@@ -1773,6 +1773,7 @@ DOTACollectionPageBrowse #BrowseFiltersContainer {
     transition-duration: 0.1s;
 }
 .SingleHeroRelicsButton #HeroImage {
+    margin-top: 16px;
     width: 76px;
     height: 76px;
     border-radius: 50%;
