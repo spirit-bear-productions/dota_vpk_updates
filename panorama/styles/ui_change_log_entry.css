@@ -99,6 +99,10 @@
     background-image: dotaPlusLogoSmall;
 }
 
+.BehaviorScoreUpdate .TypeIcon {
+    background-image: url("s2r://panorama/images/control_icons/comment_psd.vtex");
+}
+
 .IndividualRankUpdate .TypeIcon {
     background-size: 150% 150%;
     background-image: url("s2r://panorama/images/rank_tier_icons/rank0_psd.vtex");
