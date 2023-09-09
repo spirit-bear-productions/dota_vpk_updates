@@ -231,7 +231,7 @@ PopupPlayerBehaviorScore.Hidden {
 #MainArea #MainBehaviorSection {
     width: 800px;
     flow-children: down;
-
+    min-height: 300px;
     padding: 24px;
 }
 
@@ -380,6 +380,25 @@ PopupPlayerBehaviorScore.Hidden {
 
 #BehaviorSection {
     margin-bottom: 16px;
+}
+
+#BehaviorSection,
+#CommunicationSection {
+    visibility: collapse;
+}
+.HasBehaviorRank #BehaviorSection,
+.HasBehaviorRank #CommunicationSection {
+    visibility: visible;
+}
+
+#MainBehaviorSection .Spinner {
+    visibility: visible;
+    ignore-parent-flow: true;
+    horizontal-align: center;
+    vertical-align: center;
+}
+.HasBehaviorRank #MainBehaviorSection .Spinner {
+    visibility: collapse;
 }
 
 .ProgressSectionLabelContainer {
