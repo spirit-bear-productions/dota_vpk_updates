@@ -4,7 +4,7 @@
 		<include src="s2r://panorama/styles/gamestyles.vcss_c" />
 		<include src="s2r://panorama/styles/tooltips/tooltip_text.vcss_c" />
 	</styles>
-	<TooltipText class="TextContents">
+	<TooltipContents class="TextContents">
 		<Label id="TextLabel" html="true" />
-	</TooltipText>
+	</TooltipContents>
 </root>

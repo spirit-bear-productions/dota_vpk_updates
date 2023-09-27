@@ -78,7 +78,7 @@
 		hold_time = 1.000000
 		fade_in = 1.000000
 		fade_out = 1.000000
-		do_mult = true
+		mult_value = true
 	}
 	core.global_stack = 
 	{

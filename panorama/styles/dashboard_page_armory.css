@@ -247,8 +247,7 @@ DOTAArmoryPage {
     horizontal-align: right;
 }
 
-.MenuLabel Label,
-#CategoryStickers {
+.MenuLabel Label {
     font-weight: bold;
     color: #adc6c8;
     color: #718385;
@@ -952,12 +951,4 @@ DOTAEconItemList DOTARecentArmoryItem.New {
 
 #AutoImport:selected Label {
     color: #adc6c8;
-}
-
-#CategoryStickers:hover {
-    color: white;
-
-    transition-property: color;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
 }

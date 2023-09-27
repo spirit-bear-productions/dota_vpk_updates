@@ -799,7 +799,7 @@ DOTAEconItemAnimated.TooltipTriggerIconEnabled:hover #TooltipTriggerIcon {
     tooltip-position: left;
     visibility: collapse;
 }
-.SavedSet #EditSavedSetButton {
+.SavedSet:not(.HideEditSavedSetButton) #EditSavedSetButton {
     visibility: visible;
 }
 .AttributeIconContainer {
@@ -1225,7 +1225,8 @@ DOTAEconItemAnimated.IsKey .Key {
     transition-delay: 0s;
     transition-timing-function: ease-in;
 }
-.EmptyStatusLabel #StatusLabelContainer {
+.EmptyStatusLabel #StatusLabelContainer,
+.HideStatusLabel #StatusLabelContainer {
     visibility: collapse;
 }
 #StatusLabelContainer .StatusLabel {
@@ -1589,7 +1590,7 @@ DOTAEconItemAnimated.MultipleStyles:not(.HideAttributeIcons) #MultiStyle {
 .CollectionGroup_Global #StylesPanel {
     margin-bottom: 0px;
 }
-.HasMultipleStyles #StylesPanel {
+.HasMultipleStyles:not(.HideStyles) #StylesPanel {
     visibility: visible;
 }
 #StylesPanel #StyleSelectorRadioButton {

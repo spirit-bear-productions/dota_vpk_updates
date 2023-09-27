@@ -700,27 +700,6 @@
  }
 
 
- .EditMode #ProfileName{
-
-  visibility: collapse;
- }
-
- #EditProfileName{
-
-  visibility: collapse;
- }
-
- .EditMode #EditProfileName{
-
-  visibility: visible;
-  margin-bottom: 18px;
-  margin-left: 10px;
-  font-size: 29px;
-  height: 46px;
-  width: 450px;
-  border: 1px solid #589c5e;
- }
-
  #ProfileNickname{
 
   width: fit-children;
@@ -2583,6 +2562,7 @@
   transition-property: background-image;
   transition-duration: 0.65s;
   transition-timing-function: ease-in-out;
+  ignore-parent-flow: true;
 
   width: 100%;
   height: 100%;

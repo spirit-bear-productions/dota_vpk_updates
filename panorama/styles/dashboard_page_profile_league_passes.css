@@ -29,6 +29,7 @@
     flow-children: right-wrap;
     overflow: clip scroll;
     visibility: visible;
+    background-color: #000000b9;
 }
 
 #FrostedContainer {

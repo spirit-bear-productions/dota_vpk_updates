@@ -282,6 +282,11 @@
 		"reason"	"long"	   // reason for replay	(ReplayEventType_t)
 	}
 
+	"hltv_replay_status"
+	{
+		"reason"	"long"		// reason for hltv replay status change ()
+	}
+
 	"demo_start"
 	{
 		"local"					"1"

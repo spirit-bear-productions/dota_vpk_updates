@@ -1144,11 +1144,11 @@
   .AttackTypeContainer #HeroAttackTypeIcon{
    width:
           
-          32px
+          30px
    ;
    height:
            
-           32px
+           30px
    ;
    margin-right:
                  
@@ -1240,11 +1240,11 @@
    .HeroRolesContainer #HeroRoles .HeroRole{
     width:
            
-           32px
+           30px
     ;
     height:
             
-            32px
+            30px
     ;
     margin-right:
                   
@@ -2748,6 +2748,10 @@
                 
                 12px
   ;
+  margin-left:
+               
+               -100px
+  ;
  }
   .NoTier #HeroLevelBarContainer{
    visibility:
@@ -2825,6 +2829,10 @@
   flow-children:
                  
                  down
+  ;
+  padding-left:
+                
+                100px
   ;
  }
  #LevelProgressContainer{

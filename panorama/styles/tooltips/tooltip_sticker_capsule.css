@@ -11,7 +11,7 @@
 
 .TeamContents,
 .LogoContents {
-    margin-top: 10px;
+    margin-bottom: 10px;
     visibility: collapse;
 }
 
@@ -23,22 +23,20 @@
     visibility: visible;
 }
 
+.OddsLabel {
+    margin-bottom: 10px;
+}
+
 .OddsList {
     width: 100%;
     height: fit-children;
     flow-children: down;
+    margin-left: 24px;
 }
-
-.OddItem {
-    width: 100%;
-    height: fit-children;
+.OddsList .OddItem {
+    flow-children: right;
 }
-
-.OddsName {
-    width: 30%;
+.OddsList .OddItem .OddsName {
+    width: 150px;
     horizontal-align: left;
-}
-
-.OddsValue {
-    horizontal-align: right;
 }

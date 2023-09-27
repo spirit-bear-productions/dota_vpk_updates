@@ -17,6 +17,10 @@ DOTAAvatarImage.EventPointTierPlatinum #AvatarImage {
     border: 8% solid #00000000;
 }
 
+#ProfileTabsAvatarImage #AvatarImage {
+    border: 0px solid black;
+}
+
 DOTAAvatarImage.EventPointTierBronze #BorderImage,
 DOTAAvatarImage.EventPointTierSilver #BorderImage,
 DOTAAvatarImage.EventPointTierGold #BorderImage,

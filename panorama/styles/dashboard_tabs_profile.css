@@ -18,13 +18,25 @@
 #Stats {
     visibility: visible;
 }
-.ShowBattleStats #Stats {
-    visibility: collapse;
-}
-
 #BattleStats {
     visibility: collapse;
 }
 .ShowBattleStats #BattleStats {
     visibility: visible;
+}
+
+#BattleStatsSeparator {
+    visibility: collapse;
+}
+.ShowBattleStats #BattleStatsSeparator {
+    visibility: visible;
+}
+
+DOTAProfileTabs #ProfileTabsAvatarImage {
+    width: 24px;
+    height: width-percentage(100%);
+    margin-right: 10px;
+}
+DOTAProfileTabs #ProfileTabsAvatarImage #AvatarImage {
+    border: 0px solid black;
 }

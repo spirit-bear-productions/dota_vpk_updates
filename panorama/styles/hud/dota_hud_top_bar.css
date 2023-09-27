@@ -1391,8 +1391,6 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
 
     context-menu-position: bottom;
     context-menu-body-position: 50% 50%;
-
-    visibility: collapse;
 }
 .Dead #RoleButton {
     transform: translateY(0px);
@@ -1408,12 +1406,6 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
 
 #RoleButton:active {
     brightness: 1.8;
-}
-
-#RoleButton:disabled {
-    brightness: 1;
-    background-color: #ffffff00;
-    border: 0px transparent #fff;
 }
 
 .AltPressed #RoleButton {

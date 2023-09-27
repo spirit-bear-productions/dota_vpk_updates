@@ -1046,7 +1046,7 @@ RadioButton Label {
     ignore-parent-flow: true;
     horizontal-align: right;
 }
-.CollectionGroup_Global.CollectionTab_Stickers #StickersContent {
+.CollectionGroup_Global.CollectionTab_Stickers.HasStickersInStickerbook #StickersContent {
     visibility: visible;
 }
 #EmoticonsContent {
