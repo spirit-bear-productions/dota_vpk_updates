@@ -1,9 +1,19 @@
 .SelfOnly {
     flow-children: right;
-
     visibility: collapse;
 }
 .ViewingSelf .SelfOnly {
+    visibility: visible;
+}
+
+.SelfOrFriendsOnly {
+    flow-children: right;
+    visibility: collapse;
+}
+.ViewingSelf .SelfOrFriendsOnly {
+    visibility: visible;
+}
+.ViewingFriend .SelfOrFriendsOnly {
     visibility: visible;
 }
 
