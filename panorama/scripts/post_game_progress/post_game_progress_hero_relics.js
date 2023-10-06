@@ -116,6 +116,7 @@ class AnimateHeroRelicsScreenAction extends RunSequentialActions {
         panel.BLoadLayoutSnippet("HeroRelicsProgress");
 
         var heroModel = panel.FindChildInLayoutFile("HeroRelicsHeroModel");
+
         if (typeof this.data.player_slot !== "undefined") {
             // Use this normally when viewing the details
             heroModel.SetScenePanelToPlayerHero(this.data.match_id, this.data.player_slot);

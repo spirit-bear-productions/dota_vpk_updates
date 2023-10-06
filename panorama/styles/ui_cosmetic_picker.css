@@ -94,25 +94,16 @@ DOTAHudPreGame .RightColumn {
     box-shadow: 0px -4px 40px rgba(0, 0, 0, 0.5);
 }
 
-#FiltersContainer {
-    horizontal-align: center;
-    flow-children: right;
-    vertical-align: bottom;
-    padding-bottom: 12px;
-}
-#FiltersContainer .FilterCheck {
-    margin: 0px 3px;
+.FullSetPicker #StackDuplicatesToggleButton {
+    visibility: collapse;
 }
 
-#FiltersContainer ToggleButton Label {
-    margin-top: -1px;
+#CustomFilterButton {
+    visibility: collapse;
 }
 
-#FiltersContainer .InfoIcon {
-    margin-right: 12px;
-    margin-left: -8px;
-    margin-top: 1px;
-    tooltip-position: top;
+.FullSetPicker:not(.NoSavedSets) #CustomFilterButton {
+    visibility: visible;
 }
 
 .GroupLabel {
@@ -245,11 +236,19 @@ DOTAEconItemAnimated {
     visibility: visible;
 }
 
+.ShowCustom DOTAEconItemAnimated.SavedSet {
+    visibility: visible;
+}
+
 .ShowAvailable DOTAEconItemAnimated.Available {
     visibility: visible;
 }
 
 .ShowUnavailable DOTAEconItemAnimated.Unavailable {
+    visibility: visible;
+}
+
+DOTAEconItemAnimated.EquippedItemsSet {
     visibility: visible;
 }
 

@@ -2748,10 +2748,6 @@
                 
                 12px
   ;
-  margin-left:
-               
-               -100px
-  ;
  }
   .NoTier #HeroLevelBarContainer{
    visibility:
@@ -2830,11 +2826,35 @@
                  
                  down
   ;
-  padding-left:
-                
-                100px
+  overflow:
+            
+            clip
+  ;
+  transition-property:
+                       
+                       brightness
+  ;
+  transition-duration:
+                       
+                       0.1s
   ;
  }
+  .HeroLevelBarMain:hover{
+   brightness:
+               
+               1.5
+   ;
+  }
+   .HeroLevelBarMain:hover .SectionTitleArrow{
+    opacity:
+             
+             1
+    ;
+    transform:
+               
+               none
+    ;
+   }
  #LevelProgressContainer{
   flow-children:
                  
@@ -2880,6 +2900,47 @@
   margin-top:
               
               0px
+  ;
+ }
+ .SectionTitleArrow{
+  width:
+         
+         20px
+  ;
+  height:
+          
+          20px
+  ;
+  vertical-align:
+                  
+                  center
+  ;
+  margin-left:
+               
+               2px
+  ;
+  opacity:
+           
+           0
+  ;
+  transform:
+             
+             translateX
+                       (
+                         
+                         -4px
+                              
+                              )
+  ;
+  transition-property:
+                       
+                       opacity,
+                                
+                                transform
+  ;
+  transition-duration:
+                       
+                       0.1s
   ;
  }
  .SectionTitleGold{
@@ -4180,71 +4241,6 @@
             0
    ;
   }
-  .HeroPageNavigation .NextPrevHeroButton{
-   flow-children:
-                  
-                  right
-   ;
-   opacity:
-            
-            0.2
-   ;
-   transition-duration:
-                        
-                        0.1s
-   ;
-   transition-property:
-                        
-                        opacity,
-                                 
-                                 brightness,
-                                             
-                                             transform
-   ;
-  }
-   .HeroPageNavigation .NextPrevHeroButton:hover{
-    opacity:
-             
-             1
-    ;
-    brightness:
-                
-                1.5
-    ;
-   }
-   .HeroPageNavigation .NextPrevHeroButton:active{
-    transform:
-               
-               translateY
-                         (
-                           
-                           1px
-                               
-                               )
-    ;
-   }
-   .HeroPageNavigation .NextPrevHeroButton Label{
-    vertical-align:
-                    
-                    center
-    ;
-   }
-   .HeroPageNavigation .NextPrevHeroButton Image{
-    vertical-align:
-                    
-                    center
-    ;
-    margin:
-            
-            0px
-                
-                2px
-    ;
-    wash-color:
-                
-                LighterGrey
-    ;
-   }
  .DoneCustomizingButton{
   ignore-parent-flow:
                       
