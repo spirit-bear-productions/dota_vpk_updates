@@ -512,11 +512,9 @@ DOTAUIFantasyCraftTablet
     horizontal-align: center;
 }
 
-.MiniTabletView Label {
-    font-family: defaultFont;
-    font-size: 12px;
-    vertical-align: top;
-    horizontal-align: center;
+.MiniTabletView .RoleName {
+    font-size: 24px;
+    margin-bottom: 2px;
 }
 
 .FullTabletView .FantasyTablet {
