@@ -1216,6 +1216,11 @@ DOTABPBackgroundInternational2023 {
             to (rgba (255, 255, 255, 0))
         );
 }
+.RoadToInternationalContainer .TitleCenter {
+    horizontal-align: center;
+    text-align: center;
+    text-shadow: 0px 1px 4px rgba (0, 0, 0, 0.5);
+}
 .RoadToInternationalContainer .RoadToLabel {
     horizontal-align: center;
     color: rgba (255, 255, 255, 0.8);
@@ -1223,13 +1228,11 @@ DOTABPBackgroundInternational2023 {
     margin-bottom: -4px;
     font-weight: normal;
     letter-spacing: 2px;
-    text-shadow: 0px 1px 4px rgba (0, 0, 0, 0.5);
 }
 .RoadToInternationalContainer .TheInternationalLabel {
     horizontal-align: center;
     color: white;
     letter-spacing: 2px;
-    text-shadow: 0px 1px 4px rgba (0, 0, 0, 0.5);
 }
 .FootageContainer {
     width: 100%;
