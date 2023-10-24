@@ -25,6 +25,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     min-width: 350px;
 }
 
+.PlayoffsComplete .MainContents .Header .StageTabs #PlayoffsTab .StageTabRight,
 .GroupStageCompleted .MainContents .Header .StageTabs #GroupStageTab .StageTabRight {
     visibility: visible;
 }
