@@ -1359,6 +1359,9 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     margin-left: -20px;
     visibility: visible;
 }
+#xp.ShowLifetimeBar {
+    margin-left: -5px;
+}
 
 #KillGraphButton {
     width: 159px;
