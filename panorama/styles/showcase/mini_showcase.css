@@ -70,7 +70,6 @@ DOTAMiniShowcase.ViewingOther #ReportControls {
 #RankTierContainer {
     horizontal-align: right;
     vertical-align: top;
-    margin-top: -5px;
     margin-right: 5px;
     width: 100px;
     height: 100px;
