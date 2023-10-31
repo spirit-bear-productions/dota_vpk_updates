@@ -192,7 +192,7 @@ DOTAInternationalHallOfFame.Visible {
     width: 100%;
     flow-children: right-wrap;
     horizontal-align: center;
-    margin-bottom: 28px;
+    margin-bottom: 12px;
 }
 
 .PreviousChampionLabel {
@@ -318,6 +318,7 @@ DOTAInternationalHallOfFame.Visible {
     transition-delay: 0s;
 }
 
+.TI12 #TI12Winners,
 .TI11 #TI11Winners,
 .TI10 #TI10Winners,
 .TI9 #TI9Winners,
@@ -345,6 +346,9 @@ DOTAInternationalHallOfFame.Visible {
     transition-duration: 0.18s;
 }
 
+.TI12 #TeamLogo {
+    background-image: url("s2r://panorama/images/hud/ti_team_teamspirit_psd.vtex");
+}
 .TI11 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_tundra_psd.vtex");
 }
