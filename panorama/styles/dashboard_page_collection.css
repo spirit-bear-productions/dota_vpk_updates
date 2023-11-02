@@ -30,6 +30,7 @@ DOTACollectionPageShards {
 
 #SelectedHeroNameContainer {
     flow-children: down;
+    vertical-align: center;
 }
 
 #MainContentContainer {
@@ -1780,6 +1781,55 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     horizontal-align: right;
     vertical-align: center;
 }
+#BrowseTitleGroupControls {
+    width: fill-parent-flow (1);
+    height: fit-children;
+    visibility: collapse;
+}
+.CollectionGroup_Browse #BrowseTitleGroupControls {
+    visibility: visible;
+}
+#BrowseTitleGroupControls #BrowseTitleGroupControlsLeft {
+    padding-left: 16px;
+    height: fit-children;
+    width: fit-children;
+    flow-children: right;
+    horizontal-align: left;
+    vertical-align: center;
+}
+#BrowseTitleGroupControls #BrowseTitleGroupControlsRight {
+    height: fit-children;
+    width: fit-children;
+    flow-children: right;
+    horizontal-align: right;
+    vertical-align: center;
+}
+#BrowseTitleGroupControls #BrowseTitleGroupControlsRight #GroupByTypeToggleButton {
+    vertical-align: center;
+    margin: 0px 12px 0px 20px;
+}
+#BrowseTitleGroupControls #BrowseTitleGroupControlsRight #GroupByTypeToggleButton Label {
+    color: LighterGrey;
+}
+#BrowseTitleGroupControls #BrowseTitleGroupControlsRight #EditFilter {
+    margin: 0px 0px 0px 12px;
+    vertical-align: center;
+    height: 40px;
+}
+.NoActiveFilters #BrowseTitleGroupControls #BrowseTitleGroupControlsRight #EditFilter {
+    visibility: collapse;
+}
+#BrowseTitleGroupControls #DevModeToggle {
+    vertical-align: middle;
+    margin-left: 12px;
+    visibility: collapse;
+}
+#BrowseTitleGroupControls #DevModeToggle Label {
+    color: LighterGrey;
+}
+.MainBranch #BrowseTitleGroupControls #DevModeToggle {
+    visibility: visible;
+}
 #CustomBackgrounds {
     width: 100%;
     height: 100%;
@@ -2212,4 +2262,7 @@ DOTACollectionPageHeroes #LargeModelLoadout {
 .DropDownContainer {
     flow-children: right;
     margin-left: 20px;
+}
+.CollectionGroup_Browse .ItemStatusFilters {
+    visibility: collapse;
 }

@@ -80,7 +80,13 @@
   transition-duration: 0.2s;
   transition-timing-function: ease-in;
  }
-  .EnableHeroCustomize #FocusedHeroSetPreviewOverlay,.FullscreenPage #FocusedHeroSetPreviewOverlay{
+  .SubTabProgressionTabContents #FocusedHeroSetPreviewOverlay,.SubTabStatsTabContents #FocusedHeroSetPreviewOverlay,.SubTabGuidesTabContents #FocusedHeroSetPreviewOverlay,.SubTabGlobalStatsContents #FocusedHeroSetPreviewOverlay,.SubTabAboutTabContents #FocusedHeroSetPreviewOverlay,.SubTabChangesTabContents #FocusedHeroSetPreviewOverlay,.EnableHeroCustomize #FocusedHeroSetPreviewOverlay,.FullscreenPage #FocusedHeroSetPreviewOverlay{
+
+
+
+
+
+
 
    transform: scale3d( 0.95, 0.95, 1) translateY( -4px );
    opacity: 0;
@@ -93,15 +99,12 @@
  #FocusedHeroSetPreview{
   height: 100%;
   width: 100%;
-
   animation-duration: 0.5s;
   animation-timing-function: ease-out;
   transition-property: transform;
   transition-duration: HeroCustomiseSlideDuration;
   transition-timing-function: cubic-bezier(0, 1, 0, 1);
  }
-
-
   .Status_Unavailable #FocusedHeroSetPreview{
    brightness: 0.3;
    saturation: 0.8;
@@ -112,7 +115,6 @@
   flow-children: down;
   horizontal-align: center;
   vertical-align: bottom;
-
 
   opacity: 0;
   transform: translateY( 16px );
@@ -4971,6 +4973,56 @@
           100%
   ;
  }
+ #GuidesTabContents{
+  flow-children:
+                 
+                 down
+  ;
+ }
+ #GuidesButtonsContainer{
+  margin-top:
+              
+              24px
+  ;
+  flow-children:
+                 
+                 right
+  ;
+  horizontal-align:
+                    
+                    right
+  ;
+ }
+ .GoToBuideBuilderButton{
+  margin-left:
+               
+               8px
+  ;
+  margin-right:
+                
+                8px
+  ;
+  flow-children:
+                 
+                 right
+  ;
+ }
+  .GoToBuideBuilderButton Image{
+   width:
+          
+          24px
+   ;
+   height:
+           
+           24px
+   ;
+   margin:
+           
+           0px
+               
+               4px
+   ;
+  }
  #AboutTabContents{
   flow-children:
                  

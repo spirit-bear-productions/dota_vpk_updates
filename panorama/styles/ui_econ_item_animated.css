@@ -75,85 +75,85 @@ DOTAEconItemAnimated #EconItemName {
     transition-duration: 0.2s;
     transition-timing-function: ease;
 }
-
+.CollectionGroup_Browse DOTAEconItemAnimated #EconItemName {
+    height: 34px;
+    font-size: 15px;
+    line-height: 1.1;
+    margin-bottom: 1px;
+    opacity: 0.85;
+}
 DOTAEconItemAnimated #EconItemSlotName {
     text-align: center;
     height: 16px;
     width: 100%;
-
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: ease;
 }
-
 DOTAEconItemAnimated.HideSlotInfo #EconItemSlotName {
     visibility: collapse;
 }
-
 DOTAEconItemAnimated.Equipped {
     animation-name: Flash;
     animation-duration: 0.6s;
     animation-timing-function: ease;
 }
-
 DOTAEconItemAnimated.IsPreviewing,
 DOTAEconItemAnimated:selected {
-    box-shadow: 0px 0px 80px -24px rgba(206, 229, 255, 0.1);
-
+    box-shadow: 0px 0px 80px -24px rgba (206, 229, 255, 0.1);
     animation-name: PrevewingAnimation;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-
     sound: "ui_generic_button_click";
 }
-
 DOTAEconItemAnimated:active {
-    transform: scale3d(0.985, 0.985, 1);
+    transform: scale3d (0.985, 0.985, 1);
     brightness: 0.5;
 }
-
 @keyframes 'PrevewingAnimation' {
     0% {
-        box-shadow: 0px 0px 80px -24px rgba(206, 229, 255, 0.05);
+        box-shadow: 0px 0px 80px -24px rgba (206, 229, 255, 0.05);
         brightness: 1;
     }
-
     100% {
-        box-shadow: 0px 0px 80px -24px rgba(206, 229, 255, 0.1);
+        box-shadow: 0px 0px 80px -24px rgba (206, 229, 255, 0.1);
         brightness: 1.8;
     }
 }
-
 DOTAHeroPageNewV2 .SingleItem #EconItemName,
 .CollectionGroup_Heroes .SingleItem #EconItemName {
     line-height: 18px;
     height: 36px;
 }
-
 EconItemImage {
     transition-property: wash-color, saturation, brightness;
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
 }
-
 #EconItemIcon {
     transition-property: transform, brightness;
     transition-duration: 0.4s;
-    transition-timing-function: cubic-bezier(0, 1, 0, 1);
-
+    transition-timing-function: cubic-bezier (0, 1, 0, 1);
     width: 100%;
-    transform: scale3d(1.04, 1.04, 0);
+    transform: scale3d (1.04, 1.04, 0);
 }
-
 .StyledBorder2 {
     width: 100%;
     height: 100%;
     margin-bottom: 3px;
-    border: 6px solid rgb(14, 18, 40);
-    border-brush: gradient(linear, 0% 0%, 0% 100%, from(#000000ab), to(#00000000));
-    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.4);
+    border: 6px solid rgb (14, 18, 40);
+    border-brush: gradient
+        (
+            linear,
+            0% 0%,
 
+            0% 100%,
+
+            from (#000000ab),
+            to (#00000000)
+        );
+    box-shadow: inset 0px 0px 0px 1px rgba (0, 0, 0, 0.4);
     visibility: collapse;
 }
 .Owned:not(.SingleItem) .StyledBorder2 {
@@ -776,6 +776,7 @@ DOTAEconItemAnimated:disabled #HeroSetName {
 #TooltipTriggerIcon {
     opacity: 0;
     brightness: 0.3;
+    box-shadow: 0px 0px 0px #00000000;
     transition-property: opacity, brightness;
     transition-duration: 0.2s;
     tooltip-position: left;
@@ -902,7 +903,6 @@ DOTAEconItemAnimated.TooltipTriggerIconEnabled:hover #TooltipTriggerIcon {
     vertical-align: center;
     width: height-percentage (100%);
     background-color: DarkestGrey;
-    background-blur: gaussian (4px);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 3px;
@@ -994,7 +994,6 @@ DOTAEconItemAnimated.TooltipTriggerIconEnabled:hover #TooltipTriggerIcon {
 .HasMarketPrice .MarketPriceContainer #MarketPrice {
     color: LighterGrey;
     margin-left: 2px;
-    margin-right: 4px;
     letter-spacing: 0px;
 }
 .HasHighMarketPrice .HasMarketPrice .MarketPriceContainer #MarketPrice {
@@ -1598,6 +1597,26 @@ DOTAEconItemAnimated.MultipleStyles:not(.HideAttributeIcons) #MultiStyle {
 }
 .FullSet #StylesPanel {
     margin-bottom: 0px;
+}
+#StyleSelector {
+    visibility: visible;
+}
+.HasALotOfStyles #StyleSelector {
+    visibility: collapse;
+}
+#LargeStyleSelector {
+    visibility: collapse;
+    flow-children: right;
+}
+#LargeStyleSelector #StyleIndexLabel {
+    margin-bottom: 1px;
+    opacity: 0.8;
+    text-align: center;
+    width: 56px;
+    text-overflow: shrink;
+}
+.HasALotOfStyles #LargeStyleSelector {
+    visibility: visible;
 }
 #TogglePreviewAudioButon {
     vertical-align: bottom;

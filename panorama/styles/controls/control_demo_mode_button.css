@@ -2,6 +2,7 @@
     vertical-align: middle;
     tooltip-position: top;
     visibility: collapse;
+    background-img-opacity: 0.75;
 }
 .Large .DemoButton {
     border-radius: 3px;
@@ -27,6 +28,15 @@
 
 #InnerPanel .DemoArrow {
     visibility: collapse;
+}
+
+.DemoButton {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#5aa15e), to(#87d69533));
+    border: 1px solid #4c9c4f;
+}
+
+DemoModeButton .ButtonPrimary Label {
+    opacity: 1;
 }
 
 .DemoButton.StartDemo {
