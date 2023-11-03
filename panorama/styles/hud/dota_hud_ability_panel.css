@@ -1052,6 +1052,10 @@ DOTAAbilityPanel.Hidden {
     visibility: collapse;
 }
 
+.InventoryItem.BackpackSlot #HealthCost {
+    visibility: collapse;
+}
+
 .InventoryItem #ActiveAbilityBorder {
     visibility: collapse;
 }
