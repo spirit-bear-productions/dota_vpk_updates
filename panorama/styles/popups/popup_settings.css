@@ -1918,23 +1918,6 @@ Slider.HorizontalSlider {
     text-align: center;
 }
 
-.ChatWheelButton {
-    width: 210px;
-    font-size: 16px;
-    height: 92px;
-    background-color: #2b2f30;
-    border: 2px solid #414a45;
-    margin: 12px;
-    padding: 8px;
-    horizontal-align: center;
-    text-align: center;
-    border-radius: 32px;
-
-    transition-property: transform, background-color, border, color;
-    transition-duration: 0.16s;
-    transition-timing-function: ease-in-out;
-}
-
 .PingWheelButton {
     width: 132px;
     height: 132px;
@@ -1983,14 +1966,26 @@ Slider.HorizontalSlider {
     margin-right: 164px;
 }
 
-.ChatWheelButtonContents {
+.ChatWheelButton {
+    width: 210px;
+    font-size: 16px;
+    height: 92px;
+    background-color: #2b2f30;
+    border: 2px solid #414a45;
+    margin: 12px;
+    padding: 8px;
+    horizontal-align: center;
+    text-align: center;
+    border-radius: 32px;
+
+    transition-property: transform, background-color, border, color;
+    transition-duration: 0.16s;
+    transition-timing-function: ease-in-out;
+}
+.ChatWheelButton .ChatWheelButtonContents {
     vertical-align: center;
     horizontal-align: center;
     flow-children: right;
-}
-
-.IsSpray .ChatWheelButtonContents {
-    visibility: collapse;
 }
 
 .ChatWheelButton.HasEmoticon .ChatWheelButtonContents > Label {
@@ -2002,7 +1997,6 @@ Slider.HorizontalSlider {
     margin-right: 4px;
     visibility: collapse;
 }
-
 .ChatWheelButton.HasSound .ChatWheelSoundIcon {
     visibility: visible;
 }
@@ -2031,9 +2025,40 @@ Slider.HorizontalSlider {
 .ChatWheelButton.IsSpray .PingWheelImage {
     visibility: visible;
 }
+.ChatWheelButton.IsSpray .ChatWheelButtonContents {
+    visibility: collapse;
+}
 
 .ChatWheelButton.IsSpray Label {
     margin-right: 96px;
+}
+
+.ChatWheelButton:hover {
+    border-color: #5b6a62;
+}
+.ChatWheelButton:hover Label {
+    color: white;
+}
+
+.ChatWheelButton:selected {
+    background-color: #0570bb;
+    border-color: #5c99ff;
+    box-shadow: #5c99ff22 0px 0px 8px 0px;
+
+    animation-name: BackgroundPulse;
+    animation-duration: 1.35s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.ChatWheelButton:selected Label {
+    color: white;
+}
+
+.ChatWheelButton Label {
+    color: #939da0;
+    horizontal-align: center;
+    vertical-align: middle;
+    text-align: center;
 }
 
 #BottomChatWheelPanel .ChatWheelButton {
@@ -2066,21 +2091,6 @@ Slider.HorizontalSlider {
     margin-bottom: 64px;
 }
 
-.ChatWheelButton:hover {
-    border-color: #5b6a62;
-}
-
-.ChatWheelButton:selected {
-    background-color: #0570bb;
-    border-color: #5c99ff;
-    box-shadow: #5c99ff22 0px 0px 8px 0px;
-
-    animation-name: BackgroundPulse;
-    animation-duration: 1.35s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
 @keyframes 'BackgroundPulse' {
     0% {
         background-color: #1350a9;
@@ -2095,22 +2105,6 @@ Slider.HorizontalSlider {
     }
 }
 
-.ChatWheelButton:selected Label {
-    color: white;
-}
-
-.ChatWheelButton Label {
-    color: #939da0;
-    horizontal-align: center;
-    vertical-align: middle;
-    text-align: center;
-}
-
-.ChatWheelButton:hover Label {
-    color: white;
-}
-
-.ChatWheelPhraseChoiceLine,
 .PingWheelPhraseChoiceLine {
     width: 100%;
     flow-children: right;
@@ -2136,87 +2130,24 @@ Slider.HorizontalSlider {
     vertical-align: middle;
 }
 
-#ChatWheelPhraseListContainer.Active .ChatWheelPhraseChoiceLine.MessageIsUnlocked:hover,
+#ChatWheelPhraseListContainer.Active .ChatWheelOption.MessageIsUnlocked:hover,
 #PingWheelListContainer.Active .ChatWheelPhraseChoiceLine.MessageIsUnlocked:hover {
     background-color: #0570bb;
 }
 
-.ChatWheelSoundIcon {
-    width: 20px;
-    height: 20px;
-
-    background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-#ChatWheelSoundButton {
-    margin-right: 4px;
-
-    visibility: collapse;
-}
-#ChatWheelSoundButton:hover {
-    brightness: 2;
-}
-#ChatWheelSoundButton:active {
-    brightness: 1.5;
-}
-.ChatWheelPhraseChoiceLine.MessageHasSound:not(.IsSpray) #ChatWheelSoundButton {
-    visibility: visible;
-}
-.IsSpray #ChatWheelSoundButton {
-    vertical-align: center;
-}
-
-.ChatWheelAllLabel {
-    color: white;
-    margin-right: 3px;
-    transition-property: color;
-    transition-duration: 0.32s;
-
-    visibility: collapse;
-}
-
-.ChatWheelPhraseChoiceLine.MessageIsToAll .ChatWheelAllLabel {
-    visibility: visible;
-}
-
-.ChatWheelPhraseChoiceText,
-.ChatWheelAllLabel {
-    color: #aaa;
-
-    transition-property: color;
-    transition-duration: 0.32s;
-
-    letter-spacing: 0;
-}
-
-.ChatWheelPhraseChoiceText {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.ChatWheelPhraseChoiceLine.MessageHasSound.MessageIsUnlocked .ChatWheelPhraseChoiceText,
-#ChatWheelPhraseListContainer.Active
-    .ChatWheelPhraseChoiceLine.MessageHasSound.MessageIsUnlocked
-    .ChatWheelPhraseChoiceText,
-#PingWheelListContainer.Active .ChatWheelPhraseChoiceLine.MessageHasSound.MessageIsUnlocked .ChatWheelPhraseChoiceText,
-#ChatWheelPhraseListContainer.Active .ChatWheelPhraseChoiceLine.MessageHasSound.MessageIsUnlocked .ChatWheelAllLabel,
-#PingWheelListContainer.Active .ChatWheelPhraseChoiceLine.MessageHasSound.MessageIsUnlocked .ChatWheelPhraseChoiceText {
-    color: white;
-}
-
 #ChatWheelPhraseListContainer.Active .MessageIsLocked,
 #PingWheelListContainer.Active .MessageIsLocked,
-#ChatWheelPhraseListContainer.Active .MessageIsLocked,
-#PingWheelListContainer.Active .MessageIsLocked,
-#ChatWheelPhraseListContainer.Active .NoMessagesUnlocked,
-#PingWheelListContainer.Active .NoMessagesUnlocked,
 #ChatWheelPhraseListContainer.Active .NoMessagesUnlocked,
 #PingWheelListContainer.Active .NoMessagesUnlocked,
 .HideLockedMessages .MessageIsLocked,
 .HideLockedMessages .NoMessagesUnlocked {
     visibility: collapse;
+}
+
+.ChatWheelOption {
+    width: 100%;
+    flow-children: right;
+    padding: 2px 0px;
 }
 
 .ChatWheelUnlockInfo_EventLevel > Label {
@@ -2354,23 +2285,22 @@ Slider.HorizontalSlider {
     margin-bottom: 4px;
     flow-children: right;
 }
-
 #ChatWheelHeader > Label {
     color: #939da0;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
+    vertical-align: middle;
 
     transition-property: color, border;
     transition-duration: 0.32s;
 }
 
 #ChatWheelHeader #ChatWheelCategoryLink {
-    font-size: 16px;
+    font-size: 14px;
     vertical-align: middle;
     color: #999;
     letter-spacing: 2px;
 }
-
 #ChatWheelHeader #ChatWheelCategoryLink:hover {
     brightness: 2;
 }
