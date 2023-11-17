@@ -9,6 +9,10 @@ DOTAEconItemAnimated {
 
     tooltip-position: left;
 }
+.CollectionGroup_Browse DOTAEconItemAnimated {
+    padding-bottom: 6px;
+}
+
 .FeaturedGlobalItem DOTAEconItemAnimated {
     width: 229px;
     height: 282px;
@@ -1223,7 +1227,8 @@ DOTAEconItemAnimated.IsKey .Key {
     transition-timing-function: ease-in;
 }
 .EmptyStatusLabel #StatusLabelContainer,
-.HideStatusLabel #StatusLabelContainer {
+.HideStatusLabel #StatusLabelContainer,
+.CollectionGroup_Browse #StatusLabelContainer {
     visibility: collapse;
 }
 #StatusLabelContainer .StatusLabel {
