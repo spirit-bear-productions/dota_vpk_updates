@@ -528,3 +528,14 @@ DOTAAbilityImage {
 .IsPopup #HeroBackgroundImage {
     visibility: visible;
 }
+
+#DebutToolButton {
+    margin: 10px;
+    tooltip-body-position: 50% 50%;
+
+    visibility: collapse;
+}
+
+.MainBranch #DebutToolButton {
+    visibility: visible;
+}

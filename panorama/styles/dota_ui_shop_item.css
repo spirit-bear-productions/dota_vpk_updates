@@ -205,7 +205,7 @@ DOTAShopItem.DraggedShopItem #CanPurchaseOverlay {
     visibility: visible;
 }
 
-.ShowPopular .Popular #CanPurchaseOverlay {
+.ShowPopular .CanPurchase.Popular #CanPurchaseOverlay {
     background-image: url("s2r://panorama/images/hud/shopborder_popular_psd.vtex");
     visibility: visible;
 }

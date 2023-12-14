@@ -425,6 +425,12 @@ DOTAShowcasePage {
     wash-color: #ffffffff;
 }
 
+#HeaderNameContainer #PendingApprovalLabel {
+    ignore-parent-flow: true;
+    margin-top: 90px;
+    margin-left: 150px;
+}
+
 #BehaviorStatus {
     flow-children: down;
     vertical-align: center;
@@ -661,4 +667,9 @@ Button.SimpleIconButtonSteam Image {
 .Score_Bad #CommunicationScoreImage {
     wash-color: colorBehaviorBad;
     background-image: url("s2r://panorama/images/conduct/behavior_bad_png.vtex");
+}
+.GridSnap #GridSnapButton {
+    background-color: LightGreyGradientBackgroundColor_Inverted;
+    brightness: 0.8;
+    transition-duration: 0.05s;
 }

@@ -3148,6 +3148,9 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
 #GameModeSection.GameModeHeight_3 {
     height: 344px;
 }
+#GameModeSection.GameModeHeight_3_3 {
+    height: 444px;
+}
 #GameModeSection.GameModeHeight_3_4 {
     height: 444px;
 }

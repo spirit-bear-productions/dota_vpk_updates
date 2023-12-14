@@ -74,23 +74,47 @@ DOTAMiniShowcaseEditControls #SendToFrontButton {
     flow-children: down;
     background-color: #080a0c;
     min-width: 200px;
-    max-height: 250px;
+    max-height: 420px;
     border-radius: 3px;
     padding: 2px;
-    width: 240px;
+    width: 320px;
     opacity: 0.95;
 }
 #Contents.ShowcaseItemMoreOptionsPopupContents .MoreOptionsLabel {
     padding-bottom: 8px;
 }
 
-#Contents.ShowcaseItemMoreOptionsPopupContents .OptionContainer {
-    padding: 8px 0px;
-    border-top: 1px solid rgba(255, 255, 255, 0.02);
+#Contents.ShowcaseItemMoreOptionsPopupContents .Dash {
     width: 100%;
+    height: 1px;
+    background-color: white;
+    opacity: 0.04;
+    margin: 10px 0px;
+}
+
+#Contents.ShowcaseItemMoreOptionsPopupContents .RotationSliderContainer,
+#Contents.ShowcaseItemMoreOptionsPopupContents .ZoomSliderContainer {
     flow-children: right;
 }
-#Contents.ShowcaseItemMoreOptionsPopupContents .OptionContainer .OptionIcon {
+
+#Contents.ShowcaseItemMoreOptionsPopupContents .RotationSliderContainer,
+#Contents.ShowcaseItemMoreOptionsPopupContents .ZoomSliderContainer {
+    margin-top: 4px;
+}
+
+#Contents.ShowcaseItemMoreOptionsPopupContents .AnimationPickerContainer {
+    flow-children: down;
+    margin-top: 4px;
+}
+#Contents.ShowcaseItemMoreOptionsPopupContents .AnimationPickerContainer DropDown {
+    margin-top: 4px;
+}
+
+#Contents.ShowcaseItemMoreOptionsPopupContents .OptionContainer {
+    width: 100%;
+}
+
+#Contents.ShowcaseItemMoreOptionsPopupContents .OptionIcon {
     margin-right: 8px;
     vertical-align: center;
     wash-color: LightGrey;
@@ -106,7 +130,8 @@ DOTAMiniShowcaseEditControls #SendToFrontButton {
     overflow: squish scroll;
     padding: 8px;
 }
-#ShowcaseItemMoreOptions #RotationSlider {
+#ShowcaseItemMoreOptions #RotationSlider,
+#ShowcaseItemMoreOptions #ZoomSlider {
     margin-bottom: 0px;
 }
 
@@ -167,5 +192,29 @@ DOTAMiniShowcaseEditControls #SendToFrontButton {
 }
 
 .IsEditing.CanUndo #UndoButton {
+    visibility: visible;
+}
+
+@keyframes 'PendingApprovalLabelGlow' {
+    0% {
+        brightness: 1;
+    }
+    100% {
+        brightness: 3;
+    }
+}
+
+#PendingApprovalLabel {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #d1a353;
+    animation-name: PendingApprovalLabelGlow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    visibility: collapse;
+}
+
+.IsSteamChina .PendingApproval.ViewingSelf:not(.IsEditing) #PendingApprovalLabel {
     visibility: visible;
 }

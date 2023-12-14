@@ -124,3 +124,6 @@ DOTAMiniShowcase.ViewingOther #ReportControls {
 .HasTitle #GiftingLabel {
     visibility: visible;
 }
+#PendingApprovalLabel {
+    margin: 10px;
+}

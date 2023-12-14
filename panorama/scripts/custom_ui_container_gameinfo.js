@@ -1,0 +1,3 @@
+function ToggleInfo() {
+    $.GetContextPanel().ToggleClass("gameinfo_visible");
+}

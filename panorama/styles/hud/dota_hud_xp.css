@@ -16,6 +16,9 @@ DOTAXP {
     z-index: 50;
     margin-bottom: 12px;
 }
+:hover #LevelLabel {
+    brightness: 1.5;
+}
 
 .ShowLevel #LevelLabel {
     opacity: 1;
@@ -41,10 +44,6 @@ DOTAXP {
     text-shadow: 1px 1px 8px 4 black;
     margin-bottom: 40px;
     opacity: 0;
-}
-
-.AltPressed.ShowXPLabel #XPLabel {
-    opacity: 1;
 }
 
 DOTAScoreboardPlayer #XPLabel {
@@ -127,6 +126,10 @@ DOTAScoreboardPlayer #XPLabel {
 
     width: 48px;
     height: 48px;
+}
+.ShowXPBar #CircularXPProgressBlur:hover,
+.ShowXPBar #CircularXPProgress:hover {
+    brightness: 2;
 }
 
 .Reborn DOTAScoreboardPlayer .ShowXPBar #CircularXPProgress {

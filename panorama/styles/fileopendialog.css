@@ -192,7 +192,7 @@ FileOpenDialog {
     width: 20px;
     height: 20px;
     vertical-align: center;
-    background-image: url("s2r://panorama/images/control_icons/friends_small_sortarrow_png.vtex");
+    background-image: url("s2r://panorama/images/control_icons/small_sortarrow_png.vtex");
     wash-color: #cbcbcb;
     visibility: collapse;
 }
