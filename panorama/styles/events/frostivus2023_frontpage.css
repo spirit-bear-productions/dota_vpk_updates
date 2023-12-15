@@ -268,6 +268,9 @@ DOTAFrontpageFrostivus2023 {
 .NiceRewardAvailable #NiceRewardPanel {
     visibility: visible;
 }
+.FrostivusClaimGiftPopup .NiceRewardDescription {
+    font-size: 35px;
+}
 .RewardsList {
     flow-children: right;
     horizontal-align: center;
@@ -317,7 +320,9 @@ DOTAFrontpageFrostivus2023 {
 }
 .ClaimRewardsButton {
     width: 100%;
-    margin-top: 8px;
+    margin-top: 20px;
+    max-width: 300px;
+    horizontal-align: center;
     opacity: 0.3;
 }
 .ClaimRewardsButton Label {
@@ -569,4 +574,10 @@ DOTAFrontpageFrostivus2023 {
         brightness: 1.5;
         transform: translateY (2px);
     }
+}
+#FrostivusClaimGiftPopup {
+    vertical-align: center;
+    horizontal-align: center;
+    min-width: 600px;
+    margin-bottom: 200px;
 }
