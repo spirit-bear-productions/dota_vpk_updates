@@ -1396,7 +1396,9 @@ DOTATierTreasureDetails {
     vertical-align: center;
     horizontal-align: center;
 }
-.FullPreviewMode #TreasureItemPreviewMovieContainer {
+.FullPreviewMode #TreasureItemPreviewMovieContainer.Visible,
+.OpeningInProgress #TreasureItemPreviewMovieContainer.Visible,
+.OpeningFinished #TreasureItemPreviewMovieContainer.Visible {
     opacity: 0;
 }
 #TreasureItemPreviewMovieContainer.Visible {
