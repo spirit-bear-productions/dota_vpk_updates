@@ -3320,12 +3320,9 @@ a {
     color: #ff0000;
 }
 
-.HeroNames .MinimapIcon {
+.AltUp .PrimaryUseHeroNames .MinimapIcon,
+.AltDown .SecondaryUseHeroNames .MinimapIcon {
     opacity: 0;
-}
-
-.HeroNames .MinimapLabel {
-    opacity: 1;
 }
 
 .AltDown .SecondaryUseHeroIconsWithArrow .MinimapIcon,
@@ -3341,6 +3338,11 @@ a {
 .AltDown .SecondaryUseHeroIconsOnly .MinimapLabel,
 .AltDown .SecondaryArrowPlayerColors .MinimapLabel .AltDown .SecondaryArrowTeamColors .MinimapLabel {
     opacity: 0;
+}
+
+.AltUp .PrimaryUseHeroNames .MinimapLabel,
+.AltDown .SecondaryUseHeroNames .MinimapLabel {
+    opacity: 1;
 }
 
 .AltDown #AltKeyPressed {
