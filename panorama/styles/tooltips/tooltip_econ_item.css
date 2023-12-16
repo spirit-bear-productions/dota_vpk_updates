@@ -475,173 +475,211 @@ DOTATooltipEconItem.Seasonal.Season_PlusSubscription .SeasonalIcon {
         color-stop(0.9, #3d3b20),
         to(#3d3b20)
     );
+
     border-left: 3px solid black;
     border-right: 3px solid black;
     visibility: collapse;
 }
+.Season_Frostivus #SeasonalRestriction {
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
 
+            0% 100%,
+
+            from (#202020),
+            color-stop (0.25, #3d3b3b),
+            color-stop (0.9, #3d3b3b),
+            to (#3d3b3b)
+        );
+}
 #SeasonalRestriction Label {
     font-size: 14px;
     color: #fff34f;
     margin-top: 4px;
 }
-
+.Season_Frostivus #SeasonalRestriction Label {
+    color: rarity_color_seasonal_frostivus;
+}
 DOTATooltipEconItem.Seasonal #SeasonalRestriction {
     visibility: visible;
 }
-
 #MarketRestriction,
 #TradeRestriction {
-    background-color: gradient(
-        linear,
-        0% 0%,
-        0% 100%,
-        from(#210e0e),
-        color-stop(0.25, #353a3a),
-        color-stop(0.9, #36282a),
-        to(#361d20)
-    );
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
+
+            0% 100%,
+
+            from (#210e0e),
+            color-stop (0.25, #353a3a),
+            color-stop (0.9, #36282a),
+            to (#361d20)
+        );
     border-left: 3px solid black;
     border-right: 3px solid black;
 }
-
 DOTATooltipEconItem.Seasonal #MarketRestriction,
 DOTATooltipEconItem.Seasonal #TradeRestriction {
     visibility: collapse;
 }
-
 #MarketRestriction Label,
 #TradeRestriction Label {
     font-size: 14px;
     color: #977a7f;
     margin-top: 4px;
 }
-
 #RecycleDescription {
-    background-color: gradient(
-        linear,
-        0% 0%,
-        0% 100%,
-        from(#17202d),
-        color-stop(0.25, #1e2938),
-        color-stop(0.9, #263850),
-        to(#17202d)
-    );
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
+
+            0% 100%,
+
+            from (#17202d),
+            color-stop (0.25, #1e2938),
+            color-stop (0.9, #263850),
+            to (#17202d)
+        );
     border-left: 3px solid black;
     border-right: 3px solid black;
     visibility: collapse;
 }
-
 DOTATooltipEconItem.CanRecycle #RecycleDescription {
     visibility: visible;
 }
-
 #RecycleDescription Label {
     color: #5482b2;
     font-size: 14px;
     margin-top: 4px;
 }
-
 #GiftRestriction {
-    background-color: gradient(
-        linear,
-        0% 0%,
-        0% 100%,
-        from(#17202d),
-        color-stop(0.25, #1e2938),
-        color-stop(0.9, #263850),
-        to(#17202d)
-    );
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
+
+            0% 100%,
+
+            from (#17202d),
+            color-stop (0.25, #1e2938),
+            color-stop (0.9, #263850),
+            to (#17202d)
+        );
     border-left: 3px solid black;
     border-right: 3px solid black;
 }
-
 DOTATooltipEconItem.Seasonal #GiftRestriction {
     visibility: collapse;
 }
-
 #GiftRestriction Label {
     color: #5482b2;
     font-size: 14px;
     margin-top: 4px;
 }
-
 #DeletionRestriction {
     border-top: 1px solid black;
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#44484e), color-stop(0.09, #2a2e34), to(#1d2228));
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
+
+            0% 100%,
+
+            from (#44484e),
+            color-stop (0.09, #2a2e34),
+            to (#1d2228)
+        );
     height: 38px;
 }
-
 DOTATooltipEconItem.Seasonal #DeletionRestriction {
     visibility: collapse;
 }
-
 #DeletionRestriction Label {
     vertical-align: middle;
     color: #6f7c88;
 }
-
 #ExpiryRestriction {
     border-top: 1px solid black;
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#44484e), color-stop(0.09, #2a2e34), to(#1d2228));
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
+
+            0% 100%,
+
+            from (#44484e),
+            color-stop (0.09, #2a2e34),
+            to (#1d2228)
+        );
     height: 38px;
     visibility: collapse;
 }
-
 #ExpiryRestriction Label {
     vertical-align: middle;
     color: #6f7c88;
 }
-
 DOTATooltipEconItem.Seasonal #ExpiryRestriction {
     visibility: collapse;
 }
-
 DOTATooltipEconItem.Expires #ExpiryRestriction {
     visibility: visible;
 }
-
 DOTATooltipEconItem.Seasonal.Expires #ExpiryRestriction {
     visibility: collapse;
 }
-
 .ExtraTooltipText {
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#a05908), color-stop(0.9, #b77d0c));
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
 
+            0% 100%,
+
+            from (#a05908),
+            color-stop (0.9, #b77d0c)
+        );
     border-left: 3px solid black;
     border-right: 3px solid black;
     visibility: collapse;
 }
-
 .ExtraTooltipText Label {
     font-size: 14px;
     color: #ddd;
     margin-top: 4px;
     margin-bottom: 3px;
 }
-
 DOTATooltipEconItem.HasAdditionalText .ExtraTooltipText {
     visibility: visible;
 }
-
 .ExtraExclusiveTooltipText {
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#363430), color-stop(0.9, #191a1c));
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
+
+            0% 100%,
+
+            from (#363430),
+            color-stop (0.9, #191a1c)
+        );
     border-left: 3px solid black;
     border-right: 3px solid black;
     visibility: collapse;
 }
-
 .ExtraExclusiveTooltipText Label {
     font-size: 14px;
     color: #8d8d8f;
     margin-top: 4px;
     margin-bottom: 3px;
 }
-
 DOTATooltipEconItem.HasAdditionalExclusiveText .ExtraExclusiveTooltipText {
     visibility: visible;
 }
-
 .EmoticonsPanel {
     flow-children: down;
     margin-top: 12px;
@@ -649,26 +687,21 @@ DOTATooltipEconItem.HasAdditionalExclusiveText .ExtraExclusiveTooltipText {
     margin-left: 16px;
     visibility: collapse;
 }
-
 .EconItemContents.HasEmoticons .EmoticonsPanel {
     visibility: visible;
 }
-
 #EmoticonsList {
     flow-children: right-wrap;
     margin-top: 2px;
     width: 100%;
 }
-
 .EmoticonContainer {
     flow-children: right;
 }
-
 #EmoticonImage {
     width: 32px;
     height: 32px;
 }
-
 .EmoticonText {
     min-width: 100px;
     font-size: 18px;
@@ -677,94 +710,76 @@ DOTATooltipEconItem.HasAdditionalExclusiveText .ExtraExclusiveTooltipText {
     margin-right: 32px;
     color: #aaaaaa;
 }
-
 #DPCSeasonPanel {
     flow-children: right;
     width: 100%;
     padding: 0px 16px;
     margin-top: 8px;
-
     visibility: collapse;
 }
-
 .ShowDPCSeason #DPCSeasonPanel {
     visibility: visible;
 }
-
 .DPCSeasonIcon {
     width: 64px;
     height: 64px;
 }
-
 .DPCSeasonText {
     vertical-align: middle;
     flow-children: down;
     margin-left: 12px;
 }
-
 .DPCSeasonTitle {
     color: white;
     font-family: titleFont;
     font-size: 16px;
     margin-bottom: -2px;
 }
-
 .DPCSeasonTourName,
 .DPCSeasonSeasonName {
     font-size: 16px;
     color: #999;
 }
-
 #Styles {
     flow-children: down;
     margin-top: 12px;
     margin-right: 16px;
     margin-left: 16px;
 }
-
 .AutoStyleDesc {
     visibility: collapse;
 }
-
 .AutoStyle .AutoStyleDesc {
     visibility: visible;
 }
-
 #StylesList {
     flow-children: down;
     margin-top: 2px;
 }
-
 #StyleLabel {
     width: 48px;
     font-size: 16px;
     margin-top: 2px;
 }
-
 .Style {
     font-size: 16px;
 }
-
 .Style.Locked {
     color: #404040;
 }
-
 .Style.Active {
     color: #ffffff;
 }
-
 #Tags {
     flow-children: down;
     margin-top: 12px;
     margin-right: 16px;
     margin-left: 16px;
 }
-
 #TagsList {
     flow-children: right-wrap;
     margin-top: 2px;
 }
-
 .Tag {
     font-size: 16px;
     border-radius: 4px;
@@ -776,75 +791,60 @@ DOTATooltipEconItem.HasAdditionalExclusiveText .ExtraExclusiveTooltipText {
     padding-left: 6px;
     padding-top: 3px;
 }
-
 #LeagueIDBox {
     margin-bottom: 5px;
     background-color: #00000044;
     width: 100%;
 }
-
 #LeagueLogo {
     width: 160px;
 }
-
 #LeagueName {
     color: white;
 }
-
 #LeagueEvent {
     color: white;
     font-size: 28px;
     margin-top: -4px;
     text-transform: uppercase;
 }
-
 #TeamsBox {
     width: 100%;
 }
-
 #Team1 {
     horizontal-align: left;
     width: 45%;
 }
-
 #Team1Name {
     vertical-align: center;
 }
-
 #VsLabel {
     color: white;
     vertical-align: center;
 }
-
 #Team2 {
     horizontal-align: right;
     width: 45%;
 }
-
 #Team2Name {
     vertical-align: center;
 }
-
 #Team1Image {
     width: 64px;
     horizontal-align: left;
 }
-
 #Team2Image {
     width: 64px;
     horizontal-align: right;
 }
-
 #TournamentEvent {
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 #TournamentDetails {
     width: 100%;
 }
-
 #TournamentMatchID {
     horizontal-align: left;
     font-size: 16px;
@@ -852,7 +852,6 @@ DOTATooltipEconItem.HasAdditionalExclusiveText .ExtraExclusiveTooltipText {
     vertical-align: middle;
     color: #666666;
 }
-
 #TournamentMatchDate {
     horizontal-align: right;
     font-size: 16px;
@@ -860,95 +859,72 @@ DOTATooltipEconItem.HasAdditionalExclusiveText .ExtraExclusiveTooltipText {
     vertical-align: middle;
     color: #666666;
 }
-
 .Empty {
     visibility: collapse;
 }
-
 .QualityColor0 {
     color: #b2b2b2;
 }
-
 .QualityColor1 {
     color: #4d7455;
 }
-
 .QualityColor2 {
     color: #476291;
 }
-
 .QualityColor3 {
     color: #8650ac;
 }
-
 .QualityColor4 {
     color: #d2d2d2;
 }
-
 .QualityColor5 {
     color: #70b04a;
 }
-
 .QualityColor6 {
     color: #a50f79;
 }
-
 .QualityColor7 {
     color: #70b04a;
 }
-
 .QualityColor8 {
     color: #00ff00;
 }
-
 .QualityColor9 {
     color: #cf6a32;
 }
-
 .QualityColor10 {
     color: #8650ac;
 }
-
 .QualityColor11 {
     color: #8650ac;
 }
-
 .QualityColor12 {
     color: #8650ac;
 }
-
 .QualityColor13 {
     color: #ffff00;
 }
-
 .QualityColor14 {
     color: #eb4b4b;
 }
-
 .QualityColor15 {
     color: #ade55c;
 }
-
 .QualityColor16 {
     color: #ffffff;
 }
-
 .QualityColor17 {
     color: #cccccc;
 }
-
 .QualityColor18 {
     color: #4682b4;
 }
-
 .QualityColor19 {
     color: #a52a2a;
 }
-
 .QualityColor20 {
     color: #32cd32;
 }
-
 .QualityColor21 {
     color: #8847ff;
 }
