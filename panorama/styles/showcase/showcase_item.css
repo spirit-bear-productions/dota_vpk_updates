@@ -22,6 +22,10 @@ DOTAShowcaseItem {
     border-radius: 3px;
 }
 
+.AttachmentParentIsLoading .ShowcaseItem {
+    visibility: collapse;
+}
+
 .FlippedHorizontally .ChatWheelText,
 .FlippedHorizontally #HeroName,
 .FlippedHorizontally #HeroBadge {
