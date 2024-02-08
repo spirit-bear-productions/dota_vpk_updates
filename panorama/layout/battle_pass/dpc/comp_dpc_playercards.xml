@@ -7,8 +7,6 @@
 		<include src="s2r://panorama/styles/battle_pass/dpc/comp_dpc_pages.vcss_c" />
 		<include src="s2r://panorama/styles/battle_pass/dpc/comp_dpc_playercards.vcss_c" />
 	</styles>
-	<script><![CDATA[
-	]]></script>
 	<snippets>
 		<snippet name="PlayerContainer">
 			<Panel class="PlayerContainer">

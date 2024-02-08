@@ -188,6 +188,10 @@ DOTARecentArmoryItem #ItemDetails Label {
     width: 216px;
 }
 
+DOTARecentArmoryItem.TreasureDetails #ItemDetails Label {
+    width: 360px;
+}
+
 DOTARecentArmoryItem #UnitName {
     text-transform: uppercase;
 }

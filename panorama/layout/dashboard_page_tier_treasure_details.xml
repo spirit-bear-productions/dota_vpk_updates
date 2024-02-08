@@ -5,6 +5,7 @@
 		<include src="s2r://panorama/styles/dashboard_page_shared.vcss_c" />
 		<include src="s2r://panorama/styles/dashboard_page_tier_treasure_shared.vcss_c" />
 		<include src="s2r://panorama/styles/dashboard_page_tier_treasure_details.vcss_c" />
+		<include src="s2r://panorama/styles/dashboard_page_treasure_details_shared.vcss_c" />
 	</styles>
 	<scripts>
 		<include src="s2r://panorama/scripts/util.vts_c" />

@@ -91,6 +91,15 @@ DOTAScoreboard {
     visibility: visible;
 }
 
+.GiftingColumn {
+    width: 100px;
+    visibility: collapse;
+}
+
+.ShowGifting .GiftingColumn {
+    visibility: visible;
+}
+
 .BountyColumn {
     width: 160px;
     visibility: collapse;
@@ -478,12 +487,18 @@ DOTAScoreboardPlayer .ReportControlsContents {
     flow-children: down;
 }
 
+#GiftControls {
+    vertical-align: middle;
+    flow-children: down;
+}
+
 #BountyControls {
     vertical-align: middle;
     flow-children: down;
 }
 
-#TipsAvailable {
+#TipsAvailable,
+#GiftsAvailable {
     margin-top: 4px;
     width: 100px;
     text-align: center;
@@ -512,6 +527,7 @@ DOTAScoreboardPlayer .ReportControlsContents {
 }
 
 .LocalPlayer #TipsAvailable,
+.LocalPlayer #GiftsAvailable,
 .LocalPlayer #BountiesAvailable,
 .IsActiveBounty:not(.IsBountyCancelable) #BountyTimer,
 .IsActiveBounty.IsBountyCancelable #BountyCancelTimer {
@@ -522,7 +538,8 @@ DOTAScoreboardPlayer .ReportControlsContents {
     color: white;
 }
 
-#TipsCooldown {
+#TipsCooldown,
+#GiftsCooldown {
     width: 100px;
     text-align: center;
     font-size: 14px;
@@ -537,7 +554,12 @@ DOTAScoreboardPlayer .ReportControlsContents {
     visibility: visible;
 }
 
+.LocalPlayer.GiftingOnCooldown #GiftsCooldown {
+    visibility: visible;
+}
+
 #TipButton,
+#GiftButton,
 #BountyButton,
 #BountyCancelButton {
     vertical-align: middle;
@@ -562,6 +584,7 @@ DOTAScoreboardPlayer .ReportControlsContents {
 }
 
 .LocalPlayer #TipButton,
+.LocalPlayer #GiftButton,
 .LocalPlayer #BountyButton,
 .LocalPlayer #BountyCancelButton,
 .IsTeammate #BountyButton,
@@ -572,6 +595,7 @@ DOTAScoreboardPlayer .ReportControlsContents {
 }
 
 #TipButton Label,
+#GiftButton Label,
 #BountyButton Label,
 #BountyCancelButton Label {
     font-size: 14px;
@@ -1210,4 +1234,20 @@ DOTAScoreboardPlayer .ArcanaColumn {
 
 #TeamCrest.HasTeamCrest {
     visibility: visible;
+}
+
+#NestedMenuButtons #GiftEnvelopeAllButton {
+    opacity: 0.4;
+    margin-right: 16px;
+    margin-top: 2px;
+    visibility: collapse;
+}
+.ShowGifting #NestedMenuButtons #GiftEnvelopeAllButton {
+    visibility: visible;
+}
+
+#NestedMenuButtons #GiftEnvelopeAllButton Image {
+    wash-color: white;
+    ui-scale: 80%;
+    margin-right: 4px;
 }

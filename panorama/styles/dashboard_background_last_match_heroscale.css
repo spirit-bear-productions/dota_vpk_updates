@@ -255,6 +255,10 @@
 @define riki_x_offset: -5;
 @define riki_y_offset: 0;
 @define riki_z_offset: 20;
+@define ring_master_scale: 0.8;
+@define ring_master_x_offset: 0;
+@define ring_master_y_offset: 0;
+@define ring_master_z_offset: 0;
 @define rubick_scale: 1.00;
 @define rubick_x_offset: -15;
 @define rubick_y_offset: 0;

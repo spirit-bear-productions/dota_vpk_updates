@@ -10,42 +10,57 @@ DOTAMiniShowcase {
 }
 
 .Header {
-    margin-top: 10px;
-    background-color: black;
     width: 100%;
     height: fit-children;
     min-height: 50px;
     flow-children: right;
     horizontal-align: center;
-}
-DOTAPopupMiniShowcaseEdit .Header {
-    opacity: 0;
+    background-color: black;
+    background-image: url("s2r://panorama/images/textures/miniprofile_rock_psd.vtex");
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid black;
+    box-shadow: inset 0px -2px 0px rgba(255, 255, 255, 0.03);
 }
 .Header #UserDetailsContainer {
     width: 280px;
 }
+
+DOTAPopupMiniShowcaseEdit .Header {
+    opacity: 0;
+}
+
 .Header .UserDetails {
     flow-children: down;
-    margin-left: 16px;
+    margin-left: 8px;
     vertical-align: center;
 }
+
 .Header .UserDetails #UserName Label {
     font-size: 25px;
     text-overflow: ellipsis;
     white-space: nowrap;
     vertical-align: bottom;
 }
+
 .Header .UserDetails #RichPresence {
     margin-top: -4px;
     ui-scale: 80%;
 }
-.Header #AvatarImage {
-    width: 64px;
-    height: 64px;
-    vertical-align: middle;
-    margin-left: 8px;
-    margin: 5px;
+
+.Header .UserDetails Label {
+    text-shadow: 0px 1px 4px black;
 }
+
+.Header #AvatarImage {
+    width: 58px;
+    height: 58px;
+    vertical-align: middle;
+    margin: 8px 8px 7px 8px;
+    border-radius: 2px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.6);
+}
+
 .ShowcaseData {
     width: 100%;
     height: fit-children;
@@ -59,6 +74,7 @@ DOTAPopupMiniShowcaseEdit .Header {
     width: fit-children;
     height: fit-children;
 }
+
 DOTAMiniShowcase.ViewingOther #ReportControls {
     margin: 10px;
     ui-scale: 100%;
@@ -67,40 +83,38 @@ DOTAMiniShowcase.ViewingOther #ReportControls {
 #ContextMenuBody DOTAMiniShowcase.ViewingOther #ReportControls {
     visibility: visible;
 }
+
 #RankTierContainer {
     horizontal-align: right;
     vertical-align: top;
+    margin-top: -6px;
     margin-right: 5px;
+
     width: 100px;
     height: 100px;
+
     tooltip-position: bottom;
     tooltip-body-position: 50% 10%;
+
     ui-scale: 80%;
 }
 .HideRankTier #RankTierContainer,
 .LoadingRank #RankTierContainer {
     visibility: collapse;
 }
+
 #GiftingLabel {
     height: 16px;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            100% 0%,
-
-            from (#30a3d551),
-            color-stop (0.5, #0e4b8080),
-            to (#00182e00)
-        );
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#30a3d551), color-stop(0.5, #0e4b8080), to(#00182e00));
     background-size: contain;
     flow-children: right;
     overflow: noclip;
     margin-top: 2px;
     margin-bottom: 5px;
+
     visibility: collapse;
 }
+
 #BPIcon {
     background-image: url("s2r://panorama/images/compendium/international2023/gift_filled_png.vtex");
     width: 18px;
@@ -111,6 +125,7 @@ DOTAMiniShowcase.ViewingOther #ReportControls {
     margin-right: 4px;
     margin-left: 4px;
 }
+
 #UserTitle {
     color: #ffffffee;
     text-shadow: 0px 1px 3px black;
@@ -121,9 +136,11 @@ DOTAMiniShowcase.ViewingOther #ReportControls {
     font-size: 12px;
     vertical-align: middle;
 }
+
 .HasTitle #GiftingLabel {
     visibility: visible;
 }
+
 #PendingApprovalLabel {
     margin: 10px;
 }

@@ -2246,67 +2246,6 @@
               34px
   ;
  }
- #GoToOldLoadoutButton{
-  visibility:
-              
-              collapse
-  ;
-  margin-top:
-              
-              24px
-  ;
-  padding:
-           
-           4px
-               
-               8px
-  ;
-  border-radius:
-                 
-                 3px
-  ;
-  border:
-          
-          1px
-              
-              solid
-                    
-                    rgba
-                        (
-                         255,
-                              
-                              255,
-                                   
-                                   255,
-                                        
-                                        0.2
-                                           )
-  ;
-  opacity:
-           
-           0.2
-  ;
-  transition-property:
-                       
-                       opacity
-  ;
-  transition-duration:
-                       
-                       0.1s
-  ;
- }
-  #GoToOldLoadoutButton:hover{
-   opacity:
-            
-            0.4
-   ;
-  }
- .MainBranch #GoToOldLoadoutButton{
-  visibility:
-              
-              visible
-  ;
- }
  .ActionButtonsContainer{
   flow-children:
                  

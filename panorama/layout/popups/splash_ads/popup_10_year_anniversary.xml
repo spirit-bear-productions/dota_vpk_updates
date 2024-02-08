@@ -4,9 +4,6 @@
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
 		<include src="s2r://panorama/styles/popups/splash_ads/popup_10_year_anniversary.vcss_c" />
 	</styles>
-	<script><![CDATA[
-
-	]]></script>
 	<Popup class="PopupPanel Hidden" popupbackground="dim" oncancel="UIPopupButtonClicked()">
 		<Panel id="Contents">
 			<Panel class="TreasureOverview TopBottomFlow">

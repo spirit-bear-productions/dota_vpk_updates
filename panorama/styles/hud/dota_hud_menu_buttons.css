@@ -57,6 +57,10 @@ DOTAHudMenuButtons Button:active {
     background-size: 26px;
 }
 
+.HideTopBar #ToggleScoreboardButton {
+    visibility: collapse;
+}
+
 #ToggleCombatLogButton {
     background-image: url("s2r://panorama/images/hud/reborn/icon_combat_log_psd.vtex");
     background-size: 26px;

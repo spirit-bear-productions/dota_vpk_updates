@@ -6,9 +6,6 @@
 		<include src="s2r://panorama/styles/battle_pass/international2022/bp_international2022_shared_part2.vcss_c" />
 		<include src="s2r://panorama/styles/popups/splash_ads/popup_international2022_primal_beast_prestige.vcss_c" />
 	</styles>
-	<script><![CDATA[
-
-	]]></script>
 	<Popup class="PopupPanel Hidden" popupbackground="dim" oncancel="UIPopupButtonClicked()">
 		<Panel id="Contents">
 			<Panel class="ContentsMain">

@@ -7,8 +7,6 @@
 		<include src="s2r://panorama/styles/battle_pass/international2019/bp_international2019_quests.vcss_c" />
 		<include src="s2r://panorama/styles/battle_pass/international2019/dota_hud_quest_picker.vcss_c" />
 	</styles>
-	<script><![CDATA[
-	]]></script>
 	<DOTABPInternational2019QuestsPage class="DashboardPage BattlePassPage">
 		<Panel id="CampaignBody" class="CompendiumBody">
 			<Panel id="QuestLineArt" class="QuestLineActive" />

@@ -220,6 +220,12 @@
   wash-color: #ffaa88;
  }
 
+ .TopPixelFix{
+  width: 100%;
+  height: 2px;
+  background-color: black;
+ }
+
  #TopBarContent{
 
   width: 100%;
@@ -241,7 +247,6 @@
  .HighResTopBar #TopBarBackground{     background-image: url( "s2r://panorama/images/topbar/topbar_png.vtex");}
  .HighResTopBar #TopBarBackground.TopBarHome{   background-image: url( "s2r://panorama/images/topbar/topbar_home_png.vtex");}
  .HighResTopBar #TopBarBackground.TopBarHeroes{  background-image: url( "s2r://panorama/images/topbar/topbar_heroes_png.vtex");}
- .HighResTopBar #TopBarBackground.TopBarStore{  background-image: url( "s2r://panorama/images/topbar/topbar_store_png.vtex");}
  .HighResTopBar #TopBarBackground.TopBarCollection{  background-image: url( "s2r://panorama/images/topbar/topbar_store_png.vtex");}
  .HighResTopBar #TopBarBackground.TopBarWatch{  background-image: url( "s2r://panorama/images/topbar/topbar_watch_png.vtex");}
  .HighResTopBar #TopBarBackground.TopBarLearn{  background-image: url( "s2r://panorama/images/topbar/topbar_learn_png.vtex");}
@@ -251,7 +256,6 @@
  .LowVisualQuality #TopBarBackground,#TopBarBackground{          background-image: url( "s2r://panorama/images/topbar/topbar_small_png.vtex");}
  .LowVisualQuality #TopBarBackground.TopBarHome,#TopBarBackground.TopBarHome{    background-image: url( "s2r://panorama/images/topbar/topbar_home_small_png.vtex");}
  .LowVisualQuality #TopBarBackground.TopBarHeroes,#TopBarBackground.TopBarHeroes{   background-image: url( "s2r://panorama/images/topbar/topbar_heroes_small_png.vtex");}
- .LowVisualQuality #TopBarBackground.TopBarStore,#TopBarBackground.TopBarStore{    background-image: url( "s2r://panorama/images/topbar/topbar_store_small_png.vtex");}
  .LowVisualQuality #TopBarBackground.TopBarCollection,#TopBarBackground.TopBarCollection{    background-image: url( "s2r://panorama/images/topbar/topbar_store_small_png.vtex");}
  .LowVisualQuality #TopBarBackground.TopBarWatch,#TopBarBackground.TopBarWatch{    background-image: url( "s2r://panorama/images/topbar/topbar_watch_small_png.vtex");}
  .LowVisualQuality #TopBarBackground.TopBarLearn,#TopBarBackground.TopBarLearn{    background-image: url( "s2r://panorama/images/topbar/topbar_learn_small_png.vtex");}
@@ -292,7 +296,6 @@
  .AspectRatio4x3 #TopBarBackground{       background-image: url( "s2r://panorama/images/topbar/topbar_small_4x3_png.vtex");}
  .AspectRatio4x3 #TopBarBackground.TopBarHome{    background-image: url( "s2r://panorama/images/topbar/topbar_home_small_4x3_png.vtex");}
  .AspectRatio4x3 #TopBarBackground.TopBarHeroes{    background-image: url( "s2r://panorama/images/topbar/topbar_heroes_small_4x3_png.vtex");}
- .AspectRatio4x3 #TopBarBackground.TopBarStore{    background-image: url( "s2r://panorama/images/topbar/topbar_store_small_4x3_png.vtex");}
  .AspectRatio4x3 #TopBarBackground.TopBarCollection{    background-image: url( "s2r://panorama/images/topbar/topbar_store_small_4x3_png.vtex");}
  .AspectRatio4x3 #TopBarBackground.TopBarWatch{    background-image: url( "s2r://panorama/images/topbar/topbar_watch_small_4x3_png.vtex");}
  .AspectRatio4x3 #TopBarBackground.TopBarLearn{    background-image: url( "s2r://panorama/images/topbar/topbar_learn_small_4x3_png.vtex");}
@@ -702,7 +705,6 @@
  }
 
  #TopBarHeroes{  width: 164px;}
- #TopBarStore{  width: 164px;}
  #TopBarCollection{  width: 164px;}
  #TopBarWatch{  width: 164px;}
  #TopBarLearn{  width: 164px;}
@@ -713,7 +715,6 @@
  }
 
  .AspectRatio4x3 #TopBarHeroes{  width: 154px;}
- .AspectRatio4x3 #TopBarStore{  width: 155px;}
  .AspectRatio4x3 #TopBarCollection{  width: 155px;}
  .AspectRatio4x3 #TopBarWatch{  width: 155px;}
  .AspectRatio4x3 #TopBarLearn{  width: 155px;}

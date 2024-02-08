@@ -7,8 +7,6 @@
 		<include src="s2r://panorama/styles/battle_pass/international2020/comp_ti10_pages.vcss_c" />
 		<include src="s2r://panorama/styles/battle_pass/international2020/comp_ti10_playercards.vcss_c" />
 	</styles>
-	<script><![CDATA[
-	]]></script>
 	<snippets>
 		<snippet name="PlayerCardTeam">
 			<Panel class="TeamContainer">

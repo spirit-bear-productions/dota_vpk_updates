@@ -66,10 +66,6 @@ DOTAUIGuidePicker {
     visibility: visible;
 }
 
-DOTAHeroPageNew .GuideListEntry:selected:not(.IsCurrentGuide) #SelectGuideButton {
-    visibility: collapse;
-}
-
 .GuideListEntry {
     flow-children: none;
     width: 100%;

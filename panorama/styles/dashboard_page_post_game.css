@@ -922,6 +922,10 @@ Panel.PlayerRow DOTAHeroImage {
 
 Panel.PlayerRow DOTAHudTalentDisplay {
     vertical-align: middle;
+    visibility: collapse;
+}
+Panel.PlayerRow DOTAHudTalentDisplay .ShowTalentTree {
+    visibility: visible;
 }
 
 #HeroIcon,

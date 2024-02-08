@@ -3519,7 +3519,8 @@ DOTASettingsEnum .EnumButton {
 
 #dota_minimap_hero_size,
 #CameraSpeedSlider,
-#CameraDecel {
+#CameraDecel,
+#CameraTempFreeCam {
     margin-left: 20px;
 }
 

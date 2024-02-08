@@ -100,6 +100,10 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     visibility: visible;
 }
 
+.ShowOverlaymap #overlaymap {
+    visibility: visible;
+}
+
 .HUDFlipped #lower_hud,
 .HUDFlipped #minimap_container {
     transform: scaleX(-1);
@@ -120,6 +124,17 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     height: 260px;
     vertical-align: middle;
     horizontal-align: center;
+}
+
+#overlaymap {
+    visibility: collapse;
+    width: 768px;
+    height: 768px;
+    horizontal-align: center;
+    vertical-align: middle;
+    transform: translateY(-80px);
+    opacity: 0.5;
+    opacity-mask: url("s2r://panorama/images/masks/overlaymap_mask_png.vtex") 1;
 }
 
 .NPXScenario #minimap {
@@ -1799,6 +1814,10 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 #shop_launcher_block {
     vertical-align: bottom;
     horizontal-align: right;
+}
+
+.HideShop #shop_launcher_block {
+    visibility: collapse;
 }
 
 #river_vial {

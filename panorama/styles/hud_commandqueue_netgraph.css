@@ -44,7 +44,7 @@ HudCommandQueueNetGraph.Visible {
 
 HudCommandQueueNetGraph Label {
     text-shadow: 1px 1px 2px 2 #000000;
-    font-size: 20px;
+    font-size: 12px;
     text-align: right;
     horizontal-align: right;
     font-family: monospaceNumbersFont;

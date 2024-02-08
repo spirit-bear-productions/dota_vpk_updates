@@ -7,8 +7,6 @@
 		<include src="s2r://panorama/styles/battle_pass/international2019/comp_ti9_pages.vcss_c" />
 		<include src="s2r://panorama/styles/battle_pass/international2019/comp_ti9_casters.vcss_c" />
 	</styles>
-	<script><![CDATA[
-	]]></script>
 	<DOTACompTI9CastersPage class="DashboardPage BattlePassPage" hittest="false">
 		<Panel id="CompendiumBody" class="CompendiumBody TopBottomFlow">
 			<Panel id="Header">

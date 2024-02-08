@@ -7,8 +7,6 @@
 		<include src="s2r://panorama/styles/battle_pass/international2019/bp_international2019_shared.vcss_c" />
 		<include src="s2r://panorama/styles/battle_pass/international2019/bp_international2019_wagering.vcss_c" />
 	</styles>
-	<script><![CDATA[
-	]]></script>
 	<DOTABPInternational2019WageringPage class="DashboardPage BattlePassPage">
 		<Panel id="CompendiumBody" class="CompendiumBody">
 			<Panel id="CampaignVignette">

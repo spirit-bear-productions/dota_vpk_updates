@@ -6,8 +6,6 @@
 		<include src="s2r://panorama/styles/battle_pass/international2019/bp_international2019_shared.vcss_c" />
 		<include src="s2r://panorama/styles/battle_pass/international2019/comp_ti9_invites.vcss_c" />
 	</styles>
-	<script><![CDATA[
-	]]></script>
 	<snippets>
 		<snippet name="DPCStandingsSnippet">
 			<Panel class="DPCTeamStanding" hittest="false">

@@ -76,6 +76,13 @@
 				<Label text="{s:tip_name}" hittest="false" />
 			</Button>
 		</Panel>
+		<Panel id="GiftControls" class="GiftingColumn">
+			<Label id="GiftsAvailable" text="#DOTA_Scoreboard_GiftsAvailable" />
+			<Label id="GiftsCooldown" class="MonoNumbersFont" text="#DOTA_Scoreboard_GiftCooldown" />
+			<Button id="GiftButton" class="ButtonPrimary Small Ruby" onactivate="DOTAPlayerGift()">
+				<Label text="{s:gift_name}" hittest="false" />
+			</Button>
+		</Panel>
 		<Panel id="BountyControls" class="BountyColumn">
 			<Label id="BountiesAvailable" text="#DOTA_Scoreboard_BountiesAvailable" />
 			<Label id="BountyTimer" text="#DOTA_Scoreboard_BountyTimer" />
