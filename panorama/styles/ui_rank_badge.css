@@ -4,11 +4,20 @@ DOTARankBadge {
     background-size: 100%;
 }
 
-#RankTier,
-#RankPips {
-    width: 100%;
-    height: 100%;
+#RankTier {
+    width: 90%;
+    height: 90%;
     background-size: 100%;
+    vertical-align: bottom;
+    horizontal-align: center;
+}
+
+#RankPips {
+    margin-top: 10%;
+    width: 90%;
+    height: 90%;
+    background-size: 100%;
+    horizontal-align: center;
 }
 
 #RankLeaderboard {
