@@ -1,37 +1,16 @@
-@define firstColumn: 0px;
-@define secondColumn: 174px;
-
 @define firstRow: 0px;
 @define secondRow: 250px;
 @define thirdRow: 500px;
 
-.TopLeftCell {
-    x: firstColumn;
+.TopCell {
     y: firstRow;
 }
 
-.TopRightCell {
-    x: secondColumn;
-    y: firstRow;
-}
-
-.MiddleLeftCell {
-    x: firstColumn;
+.MiddleCell {
     y: secondRow;
 }
 
-.MiddleRightCell {
-    x: secondColumn;
-    y: secondRow;
-}
-
-.BottomLeftCell {
-    x: firstColumn;
-    y: thirdRow;
-}
-
-.BottomRightCell {
-    x: secondColumn;
+.BottomCell {
     y: thirdRow;
 }
 
