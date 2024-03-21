@@ -6056,7 +6056,6 @@ DOTAEventCrestImage.Quality2 {
 
 .ButtonPrimary.Ruby {
     background-color: RubyGradientBackgroundColor;
-
     border-brush: WhiteGradientBorderMedium;
 }
 .ButtonPrimary.Ruby:active:enabled:not(.Disabled) {
@@ -6090,6 +6089,14 @@ DOTAEventCrestImage.Quality2 {
 
 .ButtonPrimary.Platinum:active:enabled:not(.Disabled) {
     background-color: PlatinumGradientBackgroundColor_Inverted;
+}
+
+.ButtonPrimary.Red {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#ff6046), to(#b5433c));
+    border-brush: WhiteGradientBorderStrong;
+}
+.ButtonPrimary.Red:active:enabled:not(.Disabled) {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#b5433c), to(#ff6046));
 }
 
 .ButtonPrimary:active:enabled:not(.Disabled) {

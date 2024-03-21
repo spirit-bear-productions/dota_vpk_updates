@@ -164,6 +164,7 @@ Label {
 }
 
 .IsInBanPhase.InspectingHero .HeroTipContainer,
-.IsInBanPhase.InspectingHero .HeroDescriptionTitle {
+.IsInBanPhase.InspectingHero .HeroDescriptionTitle,
+.IsInBanPhase.InspectingHero .SimilarHeroes {
     visibility: collapse;
 }

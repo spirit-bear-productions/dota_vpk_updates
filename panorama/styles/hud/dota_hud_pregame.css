@@ -971,7 +971,7 @@ DOTAHudPreGame.Universal #PrimaryAttribute {
 }
 #HeroPickRightColumn {
     width: 376px;
-    height: 690px;
+    height: 678px;
     flow-children: none;
     horizontal-align: right;
     opacity: 1;
@@ -995,7 +995,7 @@ DOTAHudPreGame.Universal #PrimaryAttribute {
     transform: translateX (100px);
 }
 .HeroInspectContainer {
-    height: 618px;
+    height: 606px;
     vertical-align: top;
     width: 100%;
     flow-children: down;
@@ -1008,7 +1008,7 @@ DOTAHudPreGame.Universal #PrimaryAttribute {
     visibility: collapse;
 }
 #CaptainsModePicksBans {
-    height: 645px;
+    height: 606px;
     vertical-align: top;
     width: 100%;
     visibility: collapse;

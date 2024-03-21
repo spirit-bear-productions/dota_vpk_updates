@@ -17,8 +17,8 @@ DOTAHeroPickingCaptainsModePicksBans {
 }
 
 .BanPhase {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .BanColumn,
@@ -45,7 +45,6 @@ DOTAHeroPickingCaptainsModePicksBans {
 
 #Titles {
     width: 100%;
-    margin-bottom: 2px;
     flow-children: none;
 }
 
