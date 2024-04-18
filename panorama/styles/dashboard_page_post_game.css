@@ -279,6 +279,9 @@ DOTAPostGame.MatchDataLoaded #ContainerLoaded {
 .ProgressScreenButton.PlayerMatchSurveyProgress {
     background-image: url("s2r://panorama/images/control_icons/player_match_survey_icon_png.vtex");
 }
+.ProgressScreenButton.CrownfallProgress {
+    background-image: url("s2r://panorama/images/control_icons/24px/crownfall_logo.vsvg");
+}
 
 .ProgressScreenButton.GenericArcanaProgress {
     saturation: 0.2;

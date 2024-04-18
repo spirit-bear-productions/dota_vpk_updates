@@ -667,14 +667,14 @@ DOTATooltipEconItem.Transforms #TransformRestriction {
     border-right: 3px solid black;
     visibility: collapse;
 }
+DOTATooltipEconItem.HasAdditionalText .ExtraTooltipText {
+    visibility: visible;
+}
 .ExtraTooltipText Label {
     font-size: 14px;
     color: #ddd;
     margin-top: 4px;
     margin-bottom: 3px;
-}
-DOTATooltipEconItem.HasAdditionalText .ExtraTooltipText {
-    visibility: visible;
 }
 .ExtraExclusiveTooltipText {
     background-color: gradient
@@ -691,14 +691,49 @@ DOTATooltipEconItem.HasAdditionalText .ExtraTooltipText {
     border-right: 3px solid black;
     visibility: collapse;
 }
+DOTATooltipEconItem.HasAdditionalExclusiveText .ExtraExclusiveTooltipText {
+    visibility: visible;
+}
 .ExtraExclusiveTooltipText Label {
     font-size: 14px;
     color: #8d8d8f;
     margin-top: 4px;
     margin-bottom: 3px;
 }
-DOTATooltipEconItem.HasAdditionalExclusiveText .ExtraExclusiveTooltipText {
+.CandyShopText {
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
+
+            0% 100%,
+
+            from (#202c3a),
+            color-stop (0.9, #060b14)
+        );
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    visibility: collapse;
+}
+DOTATooltipEconItem.HasCandyShopText .CandyShopText {
     visibility: visible;
+}
+.CandyShopText Label {
+    font-size: 14px;
+    color: gradient
+        (
+            linear,
+            0% 40%,
+
+            0% 100%,
+
+            from (#efd4ac),
+            color-stop (0.5, #cea25a),
+            to (#976e28)
+        );
+    margin-top: 4px;
+    margin-bottom: 3px;
+    opacity: 0.6;
 }
 .EmoticonsPanel {
     flow-children: down;

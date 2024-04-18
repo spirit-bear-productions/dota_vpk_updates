@@ -2,8 +2,8 @@
     vertical-align: middle;
     tooltip-position: top;
     visibility: collapse;
-    background-img-opacity: 0.75;
 }
+
 .Large .DemoButton {
     border-radius: 3px;
     padding: 10px 28px;
@@ -31,8 +31,9 @@
 }
 
 .DemoButton {
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#5aa15e), to(#87d69533));
-    border: 1px solid #4c9c4f;
+    background-color: GreenGradientBackgroundColor;
+
+    border-brush: WhiteGradientBorderStrong;
 }
 
 DemoModeButton .ButtonPrimary Label {

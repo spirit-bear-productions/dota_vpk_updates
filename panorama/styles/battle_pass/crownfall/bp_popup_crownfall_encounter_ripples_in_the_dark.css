@@ -1,0 +1,15 @@
+.PopupPanel.RipplesInTheDark {
+    background-color: black;
+    animation-name: none;
+    padding: 0px;
+    flow-children: none;
+}
+
+.BodyContainer {
+    min-width: 500px;
+}
+
+.Actions {
+    width: 100%;
+    min-height: 100px;
+}

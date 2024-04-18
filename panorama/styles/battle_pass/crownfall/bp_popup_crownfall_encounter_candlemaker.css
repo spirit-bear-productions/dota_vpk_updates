@@ -1,0 +1,31 @@
+#TempToken {
+    visibility: collapse;
+}
+
+.RewardUnavailable #TempToken {
+    visibility: visible;
+}
+.RewardUnavailable #RealToken {
+    visibility: collapse;
+}
+
+.BodyContainer {
+    min-width: 500px;
+}
+
+.Tokens {
+    horizontal-align: center;
+    flow-children: right;
+}
+.Tokens DOTACrownfallToken {
+    ui-scale: 360%;
+}
+
+.TakeTokensButton {
+    visibility: collapse;
+}
+
+.Actions {
+    width: 100%;
+    min-height: 100px;
+}

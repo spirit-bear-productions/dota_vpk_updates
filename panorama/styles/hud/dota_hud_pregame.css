@@ -812,6 +812,7 @@ DOTAHudPreGame.Reconnect.PreGamePhase {
     vertical-align: bottom;
     horizontal-align: left;
     margin-left: 60px;
+    margin-top: 16px;
 }
 .AspectRatio16x10 #PreMinimapContainer {
     margin-left: -36px;
@@ -4378,7 +4379,7 @@ DOTAHudPreGame.aghanim #RadiantTeamPlayers .Slot4 {
     height: 250px;
     opacity: 0;
     transition-property: opacity;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
 .AspectRatio4x3 #SetPreviewControls {

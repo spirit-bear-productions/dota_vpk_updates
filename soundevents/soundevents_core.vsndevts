@@ -132,4 +132,8 @@
 	{
 		type = "core_test_sound"
 	}
+	WorldMoviePanel.Default = 
+	{
+		base = "core.voip"
+	}
 }

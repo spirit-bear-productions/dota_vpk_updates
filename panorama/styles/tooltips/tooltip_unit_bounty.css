@@ -17,13 +17,11 @@
 
 .SameBountyRow,
 .TeamBountyRow,
-.DenyBountyRow,
 .SameBounty .BountyRangeRow {
     visibility: collapse;
 }
 
 .SameBounty .SameBountyRow,
-.TeamBounty .TeamBountyRow,
-.DenyBounty .DenyBountyRow {
+.TeamBounty .TeamBountyRow {
     visibility: visible;
 }

@@ -602,3 +602,8 @@ DOTAShowcaseItem {
 .SG__Stats .SpiderGraphStats {
     opacity: 1;
 }
+
+.Decoration DOTAShowcaseDecoration {
+    width: 100%;
+    height: 100%;
+}
