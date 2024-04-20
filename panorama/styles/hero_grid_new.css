@@ -22,7 +22,6 @@ DOTAHeroGridNew {
 #Footer {
     width: 100%;
     height: 66px;
-    padding-right: 16px;
     border-top: 1px solid rgba(198, 225, 255, 0.02);
     border-brush: gradient(
         linear,
@@ -93,10 +92,15 @@ DOTAHeroGridNew {
     vertical-align: middle;
     margin-right: 20px;
     margin-top: 8px;
+    width: 320px;
+}
+
+.GuildEventActive #ArrangeContainer {
+    width: 290px;
 }
 
 #ArrangeButton {
-    width: 260px;
+    width: fill-parent-flow(1);
     height: 34px;
     background-color: DarkGreyGradientBackgroundColor;
     context-menu-position: top;
@@ -108,10 +112,6 @@ DOTAHeroGridNew {
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
     margin-left: 8px;
 }
-.ConfigType_Custom #ArrangeButton {
-    width: 200px;
-}
-
 #ArrangeButton Label {
     font-size: 16px;
     vertical-align: middle;
@@ -164,6 +164,8 @@ DOTAHeroGridNew {
     vertical-align: middle;
     margin-left: 6px;
     visibility: collapse;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .ConfigType_Custom #EditCurrentConfigButton {
@@ -1067,20 +1069,18 @@ TextEntry {
 }
 
 #Filters {
-    flow-children: right-wrap;
+    flow-children: right;
     vertical-align: middle;
 }
 
 .FilterCategory {
     flow-children: down;
-    margin-right: 20px;
+    margin-right: 16px;
 }
 
 .FilterCategoryContents {
-    flow-children: right;
+    flow-children: down;
     margin-right: 12px;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 .FilterCategoryWithPip {
@@ -1091,8 +1091,10 @@ TextEntry {
 .FilterCategoryPip {
     width: 18px;
     height: 18px;
+    margin-left: -8px;
+    margin-top: -10px;
     border: 1px solid black;
-    box-shadow: 0px 0px 4px black;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.8);
     border-radius: 4px;
     horizontal-align: right;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#fd1f1e), to(hsv-transform(#fd1f1e, 0, 1, 0.4)));
@@ -1116,6 +1118,15 @@ TextEntry {
     text-align: right;
     margin-left: -4px;
     text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+    height: 17px;
+    text-overflow: shrink;
+}
+
+#PlusCategory .FilterCategoryTitle,
+#GuildCategory .FilterCategoryTitle,
+#StickersCategory .FilterCategoryTitle,
+#ArrangeContainer .FilterCategoryTitle {
+    max-width: 80px;
 }
 
 .FilterCategoryItems {
@@ -1158,16 +1169,17 @@ TextEntry {
 }
 
 .FilterCategoryTitleAndLink {
-    flow-children: down;
+    flow-children: right;
     vertical-align: middle;
     overflow: noclip;
 }
 
 .FilterLink {
-    margin-top: -2px;
     margin-right: 0px;
     horizontal-align: right;
     text-align: right;
+    text-decoration: underline;
+    tooltip-position: top;
 }
 
 .FilterLink Label {
@@ -1539,13 +1551,14 @@ TextEntry {
 }
 
 #ShowStickers {
+    horizontal-align: center;
     width: 28px;
     height: 28px;
     margin-top: 2px;
     background-image: url("s2r://panorama/images/stickers/sticker_outline_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 16px;
+
     vertical-align: center;
     transition-property: brightness, wash-color;
     transition-duration: 0.3s;
@@ -1622,16 +1635,18 @@ TextEntry {
     text-transform: uppercase;
     text-overflow: shrink;
 }
+
 .SmallButton:hover {
     brightness: 1.5;
 }
+
 .SmallButton:active {
     brightness: 0.5;
 }
 
 #OverworldContainer {
     vertical-align: center;
-    margin-right: 20px;
+    margin-right: 8px;
 
     visibility: collapse;
 }
