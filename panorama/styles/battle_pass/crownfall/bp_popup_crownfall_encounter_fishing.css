@@ -140,6 +140,7 @@
     width: 50%;
     height: 100%;
     flow-children: down;
+    overflow: scroll;
 }
 .MainContents .InnerContents .Body .MainMenu .ColumnContainer .Column2 {
     width: 50%;
