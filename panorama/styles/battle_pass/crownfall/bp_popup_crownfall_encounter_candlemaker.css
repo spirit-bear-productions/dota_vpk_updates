@@ -8,6 +8,9 @@
 .RewardUnavailable #RealToken {
     visibility: collapse;
 }
+.RewardUnavailable .TakeTokensButton {
+    visibility: collapse;
+}
 
 .BodyContainer {
     min-width: 500px;
@@ -22,7 +25,7 @@
 }
 
 .TakeTokensButton {
-    visibility: collapse;
+    visibility: visible;
 }
 
 .Actions {
