@@ -113,7 +113,7 @@ Fall2021RewardList {
     text-shadow: #846bff 0px 0px 10px 0px;
 }
 
-.PlatinumTier .LevelLabel {
+.EventTierEventPlatinum .LevelLabel {
     color: gradient(
         linear,
         0% 0%,
@@ -126,7 +126,7 @@ Fall2021RewardList {
     );
 }
 
-.PlatinumTier.Achieved .LevelLabel {
+.EventTierEventPlatinum.Achieved .LevelLabel {
     color: gradient(
         linear,
         0% 0%,
@@ -140,12 +140,12 @@ Fall2021RewardList {
     text-shadow: #48a7ff 0px 0px 10px 0px;
 }
 
-#Level333.GoldTier.ImportantLevel2 .LevelLabel {
+#Level333.EventTierGold.ImportantLevel2 .LevelLabel {
     color: #aee55d;
 }
 
-.GoldTier.ImportantLevel2 .LevelLabel,
-.GoldTier .LevelLabel {
+.EventTierGold.ImportantLevel2 .LevelLabel,
+.EventTierGold .LevelLabel {
     color: gradient(
         linear,
         0% 0%,
@@ -159,8 +159,8 @@ Fall2021RewardList {
     text-shadow: 1px 1px 2px black;
 }
 
-.GoldTier.Achieved.ImportantLevel2 .LevelLabel,
-.GoldTier.Achieved .LevelLabel {
+.EventTierGold.Achieved.ImportantLevel2 .LevelLabel,
+.EventTierGold.Achieved .LevelLabel {
     color: gradient(
         linear,
         0% 0%,
@@ -174,8 +174,8 @@ Fall2021RewardList {
     text-shadow: 1px 1px 2px black;
 }
 
-.SilverTier.ImportantLevel2 .LevelLabel,
-.SilverTier .LevelLabel {
+.EventTierSilver.ImportantLevel2 .LevelLabel,
+.EventTierSilver .LevelLabel {
     color: gradient(
         linear,
         0% 0%,
@@ -189,8 +189,8 @@ Fall2021RewardList {
     text-shadow: 1px 1px 2px black;
 }
 
-.SilverTier.Achieved.ImportantLevel2 .LevelLabel,
-.SilverTier.Achieved .LevelLabel {
+.EventTierSilver.Achieved.ImportantLevel2 .LevelLabel,
+.EventTierSilver.Achieved .LevelLabel {
     color: gradient(
         linear,
         0% 0%,

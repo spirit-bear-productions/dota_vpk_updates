@@ -1165,8 +1165,7 @@
 
 
 
-
-  .RewardAnnouncer.CandyReward #CandyRewardDetail .EconItemDetail #ItemSetPreview{
+  .RewardItem.CandyReward #CandyRewardDetail .EconItemDetail #ItemSetPreview{
 
    horizontal-align: center;
    width: 420px;
@@ -1175,7 +1174,7 @@
    opacity-mask: url( "s2r://panorama/images/masks/softedge_box_png.vtex");
   }
 
-  .RewardAnnouncer.CandyReward #CandyRewardDetail .EconItemDetail #ItemShadow{
+  .RewardItem.CandyReward #CandyRewardDetail .EconItemDetail #ItemShadow{
 
    vertical-align: bottom;
    horizontal-align: center;
@@ -1193,7 +1192,7 @@
    saturation: 0;
   }
 
-  .RewardAnnouncer.CandyReward #CandyRewardDetail .EconItemDetail #ItemReflection{
+  .RewardItem.CandyReward #CandyRewardDetail .EconItemDetail #ItemReflection{
 
    vertical-align: bottom;
    horizontal-align: center;

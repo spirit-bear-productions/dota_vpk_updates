@@ -77,3 +77,6 @@ Button:hover Label {
 .bDropImmediate #DropImmediate {
     visibility: visible;
 }
+.bCanBeConsumed #ConsumeItem {
+    visibility: visible;
+}

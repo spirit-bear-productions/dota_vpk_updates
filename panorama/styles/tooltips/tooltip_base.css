@@ -31,7 +31,7 @@
 #LeftArrow {
     background-image: url("s2r://panorama/images/tooltips/tooltip_arrow_left_png.vtex");
     wash-color: #252b30;
-    margin-right: -4px;
+    margin-right: -5px;
 }
 #RightArrow {
     background-image: url("s2r://panorama/images/tooltips/tooltip_arrow_right_png.vtex");
@@ -291,4 +291,13 @@
 #HeroCardTooltip.TooltipVisible {
     opacity: 1;
     pre-transform-scale2d: 1;
+}
+
+.FacetPreview #LeftArrow {
+    margin-right: -7px;
+    wash-color: #181f24;
+}
+
+.FacetPreview #Contents {
+    box-shadow: 0px 0px 24px -4px #00000075;
 }

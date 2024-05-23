@@ -52,8 +52,6 @@
 }
 
 .TutorialContainer {
-    x: 940px;
-    y: 2020px;
     width: 560px;
 
     transition-property: transform, opacity;
@@ -64,6 +62,14 @@
     opacity: 0;
     transform: translateY(-32px);
 }
+.Act1 .TutorialContainer {
+    x: 940px;
+    y: 2020px;
+}
+.Act2 .TutorialContainer {
+    x: 2300px;
+    y: 500px;
+}
 .IntroState2 .TutorialContainer,
 .IntroState3 .TutorialContainer {
     opacity: 1;
@@ -71,11 +77,9 @@
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
 }
-
 .TutorialContainer .TutorialBackground {
     visibility: visible;
 }
-
 .TutorialContainer .TutorialContent {
     padding-top: 64px;
     horizontal-align: center;
@@ -84,7 +88,17 @@
     color: white;
 }
 .TutorialContainer .TutorialContent .SectionTitle {
-    color: gradient(linear, 0% 0%, 0% 100%, from(gold1), color-stop(0.5, gold2), to(gold3));
+    color: gradient
+        (
+            linear,
+            0% 0%,
+
+            0% 100%,
+
+            from (gold1),
+            color-stop (0.5, gold2),
+            to (gold3)
+        );
     horizontal-align: center;
     text-shadow: 0px 1px 6px black;
     brightness: 1.5;
@@ -92,14 +106,13 @@
     height: 20px;
     text-overflow: shrink;
 }
-
 .TutorialContainer .TutorialContent .TutorialText {
     text-align: center;
     font-family: titleFont;
     margin: 0px 32px;
     font-size: 20px;
     line-height: 1.3;
-    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);
+    text-shadow: 0px 2px 8px rgba (0, 0, 0, 0.8);
     height: 86px;
     text-overflow: shrink;
 }
@@ -107,47 +120,40 @@
     color: white;
     font-weight: semi-bold;
 }
-
 .TutorialContainer .TutorialContent .HowToPlay {
     transition-property: transform, opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
-
     opacity: 0;
 }
 .IntroState2 .TutorialContainer .TutorialContent .HowToPlay {
     opacity: 1;
 }
-
 .IntroState3 .TutorialContainer .TutorialContent .HowToPlay {
     opacity: 0;
-    transform: translateY(-12px);
+    transform: translateY (-12px);
 }
-
 .TutorialContainer .TutorialContent .HowToPlay .HeroesDiagram {
     width: 300px;
     horizontal-align: center;
     margin-bottom: -24px;
     margin-top: -4px;
 }
-
 .TutorialContainer .TutorialContent .FreeToken {
     transition-property: transform, opacity;
     transition-duration: 0.3s;
-    transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
+    transition-timing-function: cubic-bezier (0, 0.9, 0, 0.9);
     transition-delay: 0.1s;
     opacity: 0;
 }
 .IntroState2 .TutorialContainer .TutorialContent .FreeToken {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY (12px);
 }
-
 .IntroState3 .TutorialContainer .TutorialContent .FreeToken {
     opacity: 1;
     transform: none;
 }
-
 .TutorialContainer .TutorialContent .FreeToken .TutorialTokenContainer {
     horizontal-align: center;
     margin-top: -56px;
@@ -158,18 +164,16 @@
     horizontal-align: center;
     vertical-align: center;
     width: 200px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     opacity-mask: url("s2r://panorama/images/masks/sun_burst_png.vtex");
     hue-rotation: -100deg;
 }
-
 .TutorialContainer .TutorialContent .FreeToken .TutorialTokenContainer DOTACrownfallToken {
     horizontal-align: center;
     vertical-align: center;
     ui-scale: 220%;
     margin-left: 0px;
 }
-
 .TutorialContainer .TutorialContent .HowToPlay,
 .TutorialContainer .TutorialContent .FreeToken {
     flow-children: down;
@@ -181,11 +185,9 @@
     width: 80%;
     margin-top: 4px;
 }
-
 .HitTestBlocker {
     visibility: collapse;
 }
-
 .ShowingIntro.IntroState0 .HitTestBlocker,
 .ShowingIntro.IntroState1 .HitTestBlocker,
 .ShowingIntro.IntroState2 .HitTestBlocker,
@@ -195,29 +197,57 @@
     width: 100%;
     height: 100%;
 }
-
+.IsDragging {
+    width: 25px;
+    height: 25px;
+    background-color: green;
+}
 .DragZoomSlowTransition {
     transition-duration: 0.2s;
 }
 .CameraPanning .DragZoomSlowTransition {
     transition-duration: 1s;
 }
-
 .ShowingIntro .DragZoomSlowTransition {
     transition-duration: 1.5s;
 }
-
+.MapTransition .DragZoomSlowTransition {
+    transition-duration: 0s;
+}
+.DragZoomFastTransition {
+    transition-duration: 0s;
+}
 .Node {
     width: 128px;
     height: 180px;
-    transform: translate3d(-64px, -90px, 0px);
+    transform: translate3d
+        (
+            -64px,
+
+            -90px,
+
+            0px
+        );
 }
 .Node.FinishNode {
     width: 180px;
     height: 240px;
-    transform: translate3d(-90px, -120px, 0px);
-}
+    transform: translate3d
+        (
+            -90px,
 
+            -120px,
+
+            0px
+        );
+}
+.Node.Invisible {
+    visibility: collapse;
+}
+.EditMode .Node.Invisible {
+    visibility: visible;
+    opacity: 0.5;
+}
 .Node #NodeBackground {
     horizontal-align: center;
     vertical-align: middle;
@@ -225,82 +255,88 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .Node #NodeBackgroundInner {
     horizontal-align: center;
     vertical-align: middle;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     wash-color: #32404f;
 }
-
 .Node .NodeIcon {
     width: 22px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     horizontal-align: center;
     vertical-align: center;
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(gold1), to(gold3));
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
+
+            0% 100%,
+
+            from (gold1),
+            to (gold3)
+        );
     visibility: collapse;
 }
 .Node .NodeIcon.Shadow {
     background-color: black;
     margin-top: 3px;
 }
-
 .Node .NodeLabel {
     visibility: collapse;
     horizontal-align: center;
     vertical-align: center;
     margin-top: 140px;
-    color: gradient(linear, 0% 0%, 0% 100%, from(white), to(LightestGrey));
+    color: gradient
+        (
+            linear,
+            0% 0%,
+
+            0% 100%,
+
+            from (white),
+            to (LightestGrey)
+        );
     color: white;
     text-shadow: 0px 4px 12px 1 black;
     text-overflow: shrink;
     text-align: center;
-
     transition-property: transform, opacity;
     transition-duration: 0.3s;
     transition-delay: 0.8s;
-    transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
-
+    transition-timing-function: cubic-bezier (0, 0.9, 0, 0.9);
     transform: none;
     opacity: 1;
 }
 .ShowingIntro .Node .NodeLabel {
-    transform: scale3d(2.2, 2.2, 1);
+    transform: scale3d (2.2, 2.2, 1);
     opacity: 0;
 }
-
 .Node.Node__Completed #NodeBackground:active {
     brightness: 0.5;
 }
-
 .Node.Node__Completed:not(.EmptyNode):hover {
     brightness: 1.5;
 }
 .Node.Node__Completed:not(.EmptyNode):hover #NodeBackground,
 .Node.Node__Completed:not(.EmptyNode):hover #NodeIcon {
-    transform: scale3d(1.02, 1.02, 1);
+    transform: scale3d (1.02, 1.02, 1);
 }
-
 .Node:hover #NodeContents {
     brightness: 1.6;
 }
-
 .Node.StartNode #NodeBackground {
     width: 100px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     background-image: url("s2r://panorama/images/events/crownfall/overworld/nodes/node_background_start_png.vtex");
 }
-
 .Node.StartNode #NodeBackgroundInner {
     width: 96px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     background-image: url("s2r://panorama/images/events/crownfall/overworld/nodes/node_background_start_inner_png.vtex");
 }
-
 .Node.StartNode .NodeIcon {
     margin-top: -2px;
     width: 30px;
@@ -311,98 +347,82 @@
     background-color: black;
     margin-top: -1px;
 }
-
 .Node.StartNode .NodeLabel {
     visibility: visible;
 }
-
 .Node.FinishNode .NodeLabel {
     visibility: visible;
 }
-
 .Node.EmptyNode {
     z-index: -1;
 }
 .Node.EmptyNode #NodeBackground {
     width: 48px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     background-image: url("s2r://panorama/images/events/crownfall/overworld/nodes/node_background_empty_png.vtex");
 }
-
 .Node.EmptyNode.Node__Completed #NodeBackground {
     width: 48px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     background-image: url("s2r://panorama/images/events/crownfall/overworld/nodes/node_empty_complete_png.vtex");
 }
-
 .Node.EmptyNode #NodeBackgroundInner {
     visibility: collapse;
 }
-
 .Node.RewardNode .NodeIcon {
     visibility: collapse;
 }
 .Node.RewardNode #NodeBackground {
     width: 90px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     background-image: url("s2r://panorama/images/events/crownfall/overworld/nodes/node_background_reward_png.vtex");
 }
-
 .Node.RewardNode #NodeBackgroundInner {
     width: 90px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     background-image: url("s2r://panorama/images/events/crownfall/overworld/nodes/node_background_reward_inner_png.vtex");
 }
-
 .Node.RewardNode.ModelRewardNode #NodeBackground {
     width: 100px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     background-image: url("s2r://panorama/images/events/crownfall/overworld/nodes/node_background_start_png.vtex");
 }
-
 .Node.RewardNode.ModelRewardNode #NodeBackgroundInner {
     width: 100px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     background-image: url("s2r://panorama/images/events/crownfall/overworld/nodes/node_background_start_inner_png.vtex");
 }
-
 .Node.RewardNode.Node__Completed #NodeBackground {
     width: 64px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     background-image: url("s2r://panorama/images/events/crownfall/overworld/nodes/node_background_completed_png.vtex");
 }
-
 .Node.RewardNode.Node__Completed #NodeBackgroundInner {
     visibility: collapse;
 }
-
 .Node.RewardNode.Node__Completed .NodeIcon {
     visibility: collapse;
 }
-
 .Node.RewardNode.Node__Completed #NodeContents {
     visibility: collapse;
 }
-
 .Node.EncounterNode #NodeBackground {
     width: 132px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     background-image: url("s2r://panorama/images/events/crownfall/overworld/nodes/node_background_encounter_png.vtex");
 }
-
 .Node.EncounterNode #NodeBackgroundInner {
     width: 132px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     background-image: url("s2r://panorama/images/events/crownfall/overworld/nodes/node_background_encounter_inner_png.vtex");
 }
-
 .Node.EncounterNode .NodeIcon {
     width: 32px;
     opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_png.vtex");
     visibility: visible;
 }
-
-.Node.EncounterNode.its_dangerous .NodeIcon {
+.Node.EncounterNode.its_dangerous .NodeIcon,
+.Node.EncounterNode.return_of_threebeard .NodeIcon {
     opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_owl_png.vtex");
 }
 .Node.EncounterNode.prison_break .NodeIcon {
@@ -412,7 +432,8 @@
     width: 44px;
     opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_trader_png.vtex");
 }
-.Node.EncounterNode.fishing .NodeIcon {
+.Node.EncounterNode.fishing .NodeIcon,
+.Node.EncounterNode.sand_fishing .NodeIcon {
     opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_fish_png.vtex");
 }
 .Node.EncounterNode.candy_shop .NodeIcon {
@@ -424,7 +445,8 @@
 .Node.EncounterNode.ripples_in_the_dark #NodeBackgroundInner {
     brightness: 0.3;
 }
-.Node.EncounterNode.strange_vendor .NodeIcon {
+.Node.EncounterNode.strange_vendor .NodeIcon,
+.Node.EncounterNode.token_transmuter .NodeIcon {
     width: 36px;
     opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_mysterytoken_png.vtex");
 }
@@ -438,7 +460,21 @@
 .Node.EncounterNode.candlemaker .NodeIcon {
     opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_candle_png.vtex");
 }
-
+.Node.EncounterNode.secret_admirer .NodeIcon {
+    opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_mail_png.vtex");
+}
+.Node.EncounterNode.pit_fighter .NodeIcon {
+    opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_pit_png.vtex");
+}
+.Node.EncounterNode.flappy_skywrath_act2 .NodeIcon {
+    opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_bat_png.vtex");
+}
+.Node.EncounterNode.clickable_hunt .NodeIcon {
+    opacity-mask: url("s2r://panorama/images/events/crownfall/tokens/snapfire_png.vtex");
+}
+.Node.EncounterNode.comet_crater .NodeIcon {
+    opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_comet_png.vtex");
+}
 .Node #NodeContents {
     width: 100%;
     height: 100%;
@@ -451,7 +487,6 @@
     height: 100%;
     visibility: collapse;
 }
-
 .Node #NodeContents .PremiumGlow,
 .Node #NodeContents .PremiumGlowSmall,
 .Node #NodeContents .PremiumSparkle {
@@ -462,17 +497,14 @@
     height: 100%;
     visibility: collapse;
 }
-
 .Node #NodeContents .PremiumGlow {
     width: 120px;
     height: 120px;
 }
-
 .Node #NodeContents .PremiumGlowSmall {
     width: 80px;
     height: 80px;
 }
-
 .Node #NodeContents .ModelReward {
     width: 180px;
     height: 180px;
@@ -487,11 +519,9 @@
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
     visibility: collapse;
 }
-
 .Node #NodeContents .ModelReward #AnimatedImage {
     visibility: visible;
 }
-
 .Node #NodeContents .EconItemReward {
     width: 120px;
     height: 120px;
@@ -505,11 +535,12 @@
     height: 100%;
     visibility: collapse;
 }
-
 .Node #NodeContents .EconItemReward #AnimatedImage {
     visibility: visible;
 }
-
+.Node #NodeContents .EconItemReward.BigCandySack {
+    border-radius: 0%;
+}
 .Node #NodeContents .ImageReward {
     width: 120px;
     height: 120px;
@@ -523,11 +554,9 @@
     height: 100%;
     visibility: collapse;
 }
-
 .Node #NodeContents .ImageReward #AnimatedImage {
     visibility: visible;
 }
-
 .Node #NodeContents .EmoticonReward {
     width: 120px;
     height: 120px;
@@ -536,58 +565,75 @@
     vertical-align: middle;
     horizontal-align: center;
 }
-
 .Node #NodeContents .EmoticonReward #Emoticon {
     visibility: collapse;
 }
-
 .Node #NodeContents .EmoticonReward #AnimatedImage {
     visibility: visible;
 }
-
 .Node.PremiumNode #NodeContents .PremiumGlow,
 .Node.PremiumNode #NodeContents .PremiumGlowSmall,
 .Node.PremiumNode #NodeContents .PremiumSparkle {
     visibility: visible;
 }
-
 .Node #DialogButton {
     horizontal-align: center;
     vertical-align: center;
     padding: 8px;
     border-radius: 50%;
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#1d71ad), to(#0d2a65));
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
+
+            0% 100%,
+
+            from (#1d71ad),
+            to (#0d2a65)
+        );
     margin-bottom: 46px;
     margin-left: 46px;
-
     border: 1px solid white;
-    border-brush: gradient(linear, 0% 0%, 0% 100%, from(gold1), to(gold3));
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
+    border-brush: gradient
+        (
+            linear,
+            0% 0%,
 
+            0% 100%,
+
+            from (gold1),
+            to (gold3)
+        );
+    box-shadow: 0px 3px 8px rgba (0, 0, 0, 0.4);
     opacity: 0;
-    transform: scale3d(0.6, 0.6, 1);
-
+    transform: scale3d (0.6, 0.6, 1);
     transition-property: opacity, transform, brightness, background-color;
     transition-duration: 0.1s;
-    transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
+    transition-timing-function: cubic-bezier (0, 0.9, 0, 0.9);
 }
 .Node #DialogButton Image {
     horizontal-align: center;
     vertical-align: center;
     width: 18px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     wash-color: white;
     img-shadow: 0px 2px 8px black;
-
     transition-property: wash-color;
     transition-duration: 0.1s;
 }
-
 .Node #DialogButton:hover {
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#1c8ad8), to(#113785));
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
 
+            0% 100%,
+
+            from (#1c8ad8),
+            to (#113785)
+        );
     opacity: 1;
-    transform: scale3d(1, 1, 1);
+    transform: scale3d (1, 1, 1);
 }
 .Node #DialogButton:hover Image {
     wash-color: white;
@@ -996,6 +1042,10 @@ DOTACrownfallToken {
     transition-delay: 0.4s;
     animation-delay: 0.2s;
 }
+.SlowCharacterMovement .PartyCharacter.PartyMember3 {
+    transition-delay: 0.6s;
+    animation-delay: 0.4s;
+}
 .FastCharacterMovement .PartyCharacter {
     animation-delay: 0s;
 }
@@ -1013,6 +1063,10 @@ DOTACrownfallToken {
     transition-delay: 0s;
     transform: translate3d (40px, 0px, 0px);
 }
+.FastCharacterMovement .PartyCharacter.PartyMember3 {
+    transition-delay: 0s;
+    transform: translate3d (80px, 0px, 0px);
+}
 .HeroesTravelling .PartyCharacter {
     animation-name: fadeIn;
 }
@@ -1021,6 +1075,9 @@ DOTACrownfallToken {
 }
 .PartyMember2 {
     animation-delay: 0.6s;
+}
+.PartyMember3 {
+    animation-delay: 0.8s;
 }
 .CharacterIcon {
     width: 100%;
@@ -1038,6 +1095,27 @@ DOTACrownfallToken {
 }
 .CharacterBakeet {
     margin-left: 46px;
+}
+.CharacterCentaur {
+    margin-top: -35px;
+}
+.CharacterWarlock {
+    margin-left: 106px;
+    margin-top: -30px;
+}
+.CharacterGolem {
+    margin-left: 66px;
+    margin-top: -50px;
+}
+.CharacterSnapfire {
+    margin-left: 116px;
+}
+.CharacterMortimer {
+    margin-left: 96px;
+    margin-top: -50px;
+}
+.CharacterBatrider {
+    margin-left: 76px;
 }
 .IntroState2 .StartPath .UnlockLabel,
 .IntroState3 .StartPath .UnlockLabel,

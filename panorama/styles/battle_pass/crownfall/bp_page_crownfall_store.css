@@ -2711,10 +2711,24 @@ DOTABPCrownfallStorePage{
                               )
     ;
    }
-   .StoreItemOverview .StoreCells .StoreCell.Venge,.StoreItemOverview .StoreCells .StoreCell.Skywrath{
+   .StoreItemOverview .StoreCells .StoreCell.Venge{
     margin-right:
                   
                   CellGap
+    ;
+    width:
+           
+           24%
+    ;
+   }
+   .StoreItemOverview .StoreCells .StoreCell.Skywrath{
+    margin-left:
+                 
+                 CellGap
+    ;
+    width:
+           
+           24%
     ;
    }
    .StoreItemOverview .StoreCells .StoreCellRow{
@@ -2815,6 +2829,136 @@ DOTABPCrownfallStorePage{
              clip
    ;
   }
+   .StoreItemOverview .StoreCell #NewArrivalBadge{
+    horizontal-align:
+                      
+                      center
+    ;
+    flow-children:
+                   
+                   right
+    ;
+    border-radius:
+                   
+                   2.5px
+    ;
+    margin:
+            
+            4px
+    ;
+    box-shadow:
+                
+                0px
+                    
+                    2px
+                        
+                        12px
+                             
+                             rgba
+                                 (
+                                  0,
+                                     
+                                     0,
+                                        
+                                        0,
+                                           
+                                           0.2
+                                              )
+    ;
+   }
+    .StoreItemOverview .StoreCell #NewArrivalBadge Label{
+     background-color:
+                       
+                       gradient
+                               (
+                                 
+                                 linear,
+                                         
+                                         0%
+                                            
+                                            0%,
+                                                
+                                                0%
+                                                   
+                                                   100%,
+                                                         
+                                                         from
+                                                             (
+                                                               
+                                                               #FFF2DF
+                                                                       
+                                                                       )
+                                                                        ,
+                                                                          
+                                                                          color-stop
+                                                                                    (
+                                                                                      
+                                                                                      0.40,
+                                                                                            
+                                                                                            #ebc386
+                                                                                                    
+                                                                                                    )
+                                                                                                     ,
+                                                                                                       
+                                                                                                       color-stop
+                                                                                                                 (
+                                                                                                                   
+                                                                                                                   0.60,
+                                                                                                                         
+                                                                                                                         #BA8C47
+                                                                                                                                 
+                                                                                                                                 )
+                                                                                                                                  ,
+                                                                                                                                    
+                                                                                                                                    to
+                                                                                                                                      (
+                                                                                                                                        
+                                                                                                                                        #8d6c3a
+                                                                                                                                                
+                                                                                                                                                )
+                                                                                                                                                  
+                                                                                                                                                  )
+     ;
+     color:
+            
+            rgba
+                (
+                 0,
+                    
+                    0,
+                       
+                       0,
+                          
+                          1
+                           )
+     ;
+     text-shadow:
+                  
+                  0px
+                      
+                      0.5px
+                            
+                            0px
+                                
+                                0
+                                  
+                                  #ffffff25
+     ;
+     padding:
+              
+              2px
+                  
+                  8px
+     ;
+     font-weight:
+                  
+                  bold
+     ;
+     letter-spacing:
+                     
+                     0.3px
+     ;
+    }
    .StoreItemOverview .StoreCell .CellBorder{
     width:
            
@@ -2915,12 +3059,10 @@ DOTABPCrownfallStorePage{
             100%
     ;
     horizontal-align:
-                      
-                      center
+                     left
     ;
     vertical-align:
-                    
-                    center
+                   middle
     ;
     transition-property:
                          
@@ -2946,10 +3088,39 @@ DOTABPCrownfallStorePage{
                                                            )
     ;
    }
+   .StoreItemOverview .StoreCell .CellFooter.CellBottom{
+    vertical-align:
+                   bottom
+    ;
+   }
+   .StoreItemOverview .StoreCell .CellFooter.CellMargin{
+    width:
+           
+           50%
+    ;
+    horizontal-align:
+                      
+                      right
+    ;
+    margin-right:
+                  
+                  10px
+    ;
+   }
+    .StoreItemOverview .StoreCell .CellFooter.CellMargin .CellTitle{
+     margin-left:
+                  
+                  10px
+     ;
+     margin-right:
+                   
+                   10px
+     ;
+    }
    .StoreItemOverview .StoreCell .CellFooter{
     vertical-align:
                     
-                    bottom
+                    middle
     ;
     width:
            
@@ -2983,7 +3154,7 @@ DOTABPCrownfallStorePage{
      ;
      font-size:
                 
-                20px
+                19px
      ;
      color:
             
@@ -3213,7 +3384,7 @@ DOTABPCrownfallStorePage{
     .StoreItemOverview .StoreCell .CellFooter .TreasurePrices{
      flow-children:
                     
-                    right
+                    down
      ;
      horizontal-align:
                        
@@ -3437,29 +3608,22 @@ DOTABPCrownfallStorePage{
             
             400px
      ;
-     margin-left:
-                  
-                  12px
-     ;
      height:
              
-             width-percentage
-                             (
-                              100%
-                                  )
+             150%
      ;
      transform:
                 
-                translateY
+                translateX
                           (
                             
-                            -110px
-                                   
-                                   )
+                            -90px
+                                  
+                                  )
      ;
-     horizontal-align:
-                       
-                       center
+     margin-top:
+                 
+                 -50px
      ;
      transition-property:
                           
@@ -3524,6 +3688,10 @@ DOTABPCrownfallStorePage{
                     
                     150deg
       ;
+      opacity:
+               
+               0.4
+      ;
      }
     .StoreItemOverview .StoreCell.TreasureCell.Treasure2Cell{
      background-color:
@@ -3564,15 +3732,63 @@ DOTABPCrownfallStorePage{
                     
                     80deg
       ;
+      opacity:
+               
+               0.4
+      ;
+     }
+    .StoreItemOverview .StoreCell.TreasureCell.Treasure3Cell{
+     background-color:
+                       
+                       gradient
+                               (
+                                 
+                                 linear,
+                                         
+                                         0%
+                                            
+                                            0%,
+                                                
+                                                0%
+                                                   
+                                                   100%,
+                                                         
+                                                         from
+                                                             (
+                                                               
+                                                               #4d2319
+                                                                       
+                                                                       )
+                                                                        ,
+                                                                          
+                                                                          to
+                                                                            (
+                                                                              
+                                                                              #a35f1a
+                                                                                      
+                                                                                      )
+                                                                                        
+                                                                                        )
+     ;
+    }
+     .StoreItemOverview .StoreCell.TreasureCell.Treasure3Cell .TreasureParticles{
+      hue-rotation:
+                    
+                    -90deg
+      ;
+      opacity:
+               
+               0.4
+      ;
      }
     .StoreItemOverview .StoreCell.TreasureCell .TreasureParticles{
      width:
             
-            580px
+            720px
      ;
      height:
              
-             180%
+             242%
      ;
      horizontal-align:
                        
@@ -3583,7 +3799,7 @@ DOTABPCrownfallStorePage{
                 translateY
                           (
                             
-                            -108%
+                            -140%
                                   
                                   )
                                     
@@ -3848,21 +4064,17 @@ DOTABPCrownfallStorePage{
     .StoreItemOverview .StoreCell.SuperBundle .CellImage{
      width:
             
-            106%
-     ;
-     margin-top:
-                 
-                 -50px
+            50%
      ;
     }
     .StoreItemOverview .StoreCell.PremiumPass .CellImage{
      width:
             
-            92%
+            50%
      ;
      margin-top:
                  
-                 -32px
+                 0px
      ;
     }
     .StoreItemOverview .StoreCell:hover .CellImage{
@@ -5328,7 +5540,7 @@ DOTABPCrownfallStorePage{
                  )
    ;
   }
-  .StoreItemTreasure #TreasurePreview,.StoreItemTreasure #TreasurePreviewii{
+  .StoreItemTreasure .TreasurePreview{
    width:
           
           1200px
@@ -6086,6 +6298,18 @@ DOTABPCrownfallStorePage{
              
              8px
      ;
+     background-size:
+                      
+                      cover
+     ;
+     background-repeat:
+                        
+                        no-repeat
+     ;
+     background-position:
+                          
+                          center
+     ;
      transition-property:
                           
                           background-img-opacity,
@@ -6301,30 +6525,6 @@ DOTABPCrownfallStorePage{
                                              
                                              0.8
                                                 )
-     ;
-    }
-    .StoreItemActPass .Quest.Quest1 .QuestIcon{
-     background-image:
-                       
-                       url(
-                            "s2r://panorama/images/events/crownfall/store/sidequest1_map_preview_png.vtex"
-                       )
-     ;
-     background-size:
-                      
-                      cover
-     ;
-    }
-    .StoreItemActPass .Quest.Quest2 .QuestIcon{
-     background-image:
-                       
-                       url(
-                            "s2r://panorama/images/events/crownfall/store/sidequest2_map_preview_png.vtex"
-                       )
-     ;
-     background-size:
-                      
-                      cover
      ;
     }
    .StoreItemActPass .Quest .DashDotDivider{
@@ -6674,22 +6874,30 @@ DOTABPCrownfallStorePage{
                     3px
         ;
        }
-       .StoreItemActPass .Quest .MinorRewards .MinorReward .EncounterReward.PrisonBreak .NodeIcon{
-        opacity-mask:
-                      
-                      url(
-                           "s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_jail_png.vtex"
-                      )
-        ;
-       }
-       .StoreItemActPass .Quest .MinorRewards .MinorReward .EncounterReward.SrangeVendor .NodeIcon{
-        opacity-mask:
-                      
-                      url(
-                           "s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_mysterytoken_png.vtex"
-                      )
-        ;
-       }
+      .StoreItemActPass .Quest .MinorRewards .MinorReward .EncounterReward.PrisonBreak .NodeIcon{
+       opacity-mask:
+                     
+                     url(
+                          "s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_jail_png.vtex"
+                     )
+       ;
+      }
+      .StoreItemActPass .Quest .MinorRewards .MinorReward .EncounterReward.SrangeVendor .NodeIcon{
+       opacity-mask:
+                     
+                     url(
+                          "s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_mysterytoken_png.vtex"
+                     )
+       ;
+      }
+      .StoreItemActPass .Quest .MinorRewards .MinorReward .EncounterReward.ThePit .NodeIcon{
+       opacity-mask:
+                     
+                     url(
+                          "s2r://panorama/images/events/crownfall/overworld/nodes/icons/encounter_pit_png.vtex"
+                     )
+       ;
+      }
    .StoreItemActPass .Quest .MajorRewards{
     horizontal-align:
                       
@@ -6911,7 +7119,7 @@ DOTABPCrownfallStorePage{
       .StoreItemActPass .Quest .MajorRewards .MajorReward.Treasure .Quantity{
        vertical-align:
                        
-                       top
+                       bottom
        ;
        horizontal-align:
                          
@@ -6954,13 +7162,21 @@ DOTABPCrownfallStorePage{
                        
                        2px
        ;
-       margin-top:
-                   
-                   26px
-       ;
-       margin-right:
-                     
-                     98px
+       transform:
+                  
+                  translateX
+                            (
+                              
+                              40px
+                                   
+                                   )
+                                     
+                                     translateY
+                                               (
+                                                 
+                                                 -40px
+                                                       
+                                                       )
        ;
       }
       .StoreItemActPass .Quest .MajorRewards .MajorReward.Treasure .FloorShadow{
@@ -7100,7 +7316,7 @@ DOTABPCrownfallStorePage{
     ;
     vertical-align:
                     
-                    bottom
+                    middle
     ;
     letter-spacing:
                     
@@ -7120,11 +7336,15 @@ DOTABPCrownfallStorePage{
                    
                    right
     ;
+    margin-right:
+                  
+                  8px
+    ;
    }
     .StoreItemActPass .ActPassPurchaseControls .LoadInProgress .Spinner{
      vertical-align:
                      
-                     bottom
+                     middle
      ;
      margin:
              
@@ -7141,6 +7361,12 @@ DOTABPCrownfallStorePage{
                   8px
      ;
     }
+   .StoreItemActPass .ActPassPurchaseControls .LoadingFailedLabel{
+    margin-right:
+                  
+                  8px
+    ;
+   }
    .StoreItemActPass .ActPassPurchaseControls .AlreadyOwned{
     height:
             
@@ -7150,12 +7376,12 @@ DOTABPCrownfallStorePage{
                    
                    right
     ;
+    margin-right:
+                  
+                  8px
+    ;
    }
     .StoreItemActPass .ActPassPurchaseControls .AlreadyOwned .Checkmark{
-     vertical-align:
-                     
-                     bottom
-     ;
      width:
             
             24px
@@ -7167,6 +7393,10 @@ DOTABPCrownfallStorePage{
      wash-color:
                  
                  #ccc
+     ;
+     vertical-align:
+                     
+                     middle
      ;
      background-image:
                        
@@ -7217,5 +7447,139 @@ DOTABPCrownfallStorePage{
    visibility:
                
                visible
+   ;
+  }
+  #Act1Pass .Quest1 .QuestIcon{
+   background-image:
+                     
+                     url(
+                          "s2r://panorama/images/events/crownfall/store/sidequest1_map_preview_png.vtex"
+                     )
+   ;
+  }
+  #Act1Pass .Quest2 .QuestIcon{
+   background-image:
+                     
+                     url(
+                          "s2r://panorama/images/events/crownfall/store/sidequest2_map_preview_png.vtex"
+                     )
+   ;
+  }
+  #Act2Pass .Quest1 .QuestIcon{
+   background-image:
+                     
+                     url(
+                          "s2r://panorama/images/events/crownfall/store/sidequest1_act2_map_preview_png.vtex"
+                     )
+   ;
+  }
+  #Act2Pass .Quest2 .QuestIcon{
+   background-image:
+                     
+                     url(
+                          "s2r://panorama/images/events/crownfall/store/sidequest2_act2_map_preview_png.vtex"
+                     )
+   ;
+  }
+  #Act2Pass .PackImage{
+   background-image:
+                     
+                     url(
+                          "s2r://panorama/images/events/crownfall/store/store_overview_event_pass_act2_psd.vtex"
+                     )
+   ;
+  }
+  #Act2Pass .MusicPack{
+   width:
+          
+          787px
+   ;
+   height:
+           
+           585px
+   ;
+   ui-scale:
+             
+             40%
+   ;
+   margin-top:
+               
+               100px
+   ;
+   margin-left:
+                
+                55px
+   ;
+   background-image:
+                     
+                     url(
+                          "s2r://panorama/images/events/crownfall/store/store_act2_music_pack_psd.vtex"
+                     )
+   ;
+   background-size:
+                    
+                    contain
+   ;
+   background-repeat:
+                      
+                      no-repeat
+   ;
+   background-position:
+                        
+                        center
+   ;
+   animation-name:
+                   
+                   BobPack
+   ;
+   animation-duration:
+                       
+                       1.5s
+   ;
+   animation-delay:
+                    
+                    0.3s
+   ;
+   animation-iteration-count:
+                              
+                              infinite
+   ;
+   animation-direction:
+                        
+                        alternate
+   ;
+   animation-timing-function:
+                              
+                              ease-in-out
+   ;
+  }
+  #Act2Pass .MajorReward.Hero{
+   transform:
+              
+              translateX
+                        (
+                          
+                          -80px
+                                
+                                )
+   ;
+  }
+  #Act2Pass .MajorReward.Hero .HeroModel{
+   width:
+          
+          300px
+   ;
+   height:
+           
+           300px
+   ;
+   transform:
+              
+              translateY
+                        (
+                          
+                          -20px
+                                
+                                )
    ;
 }

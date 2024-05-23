@@ -81,125 +81,123 @@ ComicViewerPopup.PopupPanel {
     width: 76px;
 }
 
+.Disabled .Controls .Pagination .NavButton {
+    brightness: 0.4;
+}
+.Disabled .Controls .Pagination .NavButton:hover {
+    brightness: 1;
+}
 .Controls #HideThumbnailsButton {
     horizontal-align: center;
     padding-left: 12px;
-
     transition-property: opacity, transform;
-
-    transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
+    transition-timing-function: cubic-bezier (0, 0.9, 0, 0.9);
     transition-duration: 0.3s;
     transition-delay: 0.2s;
-
     opacity: 0;
-    transform: translateY(8px);
+    transform: translateY (8px);
 }
 .ThumbnailsVisible .Controls #HideThumbnailsButton {
     opacity: 1;
     transform: none;
-
     transition-duration: 0.1s;
     transition-delay: 0s;
     transition-timing-function: ease-in;
 }
-
 .Controls #HideThumbnailsButton .Icon {
     margin-left: 6px;
 }
-
 .LabelIconButton {
     flow-children: right;
     padding: 6px 12px 6px 4px;
     margin: 0px 4px;
     border-radius: 3px;
-    border: 1px solid rgba(255, 255, 255, 0);
-    border-brush: gradient(linear, 0% 0%, 0% 100%, from(LightestGrey), to(LightGrey));
+    border: 1px solid rgba (255, 255, 255, 0);
+    border-brush: gradient
+        (
+            linear,
+            0% 0%,
 
+            0% 100%,
+
+            from (LightestGrey),
+            to (LightGrey)
+        );
     transition-property: background-color, border;
     transition-duration: 0.1s;
 }
 .LabelIconButton Label {
     vertical-align: middle;
     text-align: center;
-
     transition-property: color;
     transition-duration: 0.1s;
 }
-
 .LabelIconButton .Icon {
     vertical-align: center;
     width: 20px;
-    height: width-percentage(100%);
+    height: width-percentage (100%);
     wash-color: LighterGrey;
-
     transition-property: wash-color;
     transition-duration: 0.1s;
 }
-
 .LabelIconButton:hover {
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(DarkestGrey), to(DarkestGrey));
-    border: 1px solid rgba(255, 255, 255, 0.04);
+    background-color: gradient
+        (
+            linear,
+            0% 0%,
+
+            0% 100%,
+
+            from (DarkestGrey),
+            to (DarkestGrey)
+        );
+    border: 1px solid rgba (255, 255, 255, 0.04);
 }
 .LabelIconButton:hover Label {
     color: white;
 }
-
 .LabelIconButton:hover Image {
     wash-color: white;
 }
-
 .LabelIconButton:active {
     brightness: 0.5;
 }
-
 #ThumbnailContainer {
     flow-children: right-wrap;
     background-color: black;
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
     transition-delay: 0s;
-    transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
-
+    transition-timing-function: cubic-bezier (0, 0.9, 0, 0.9);
     opacity: 0;
-    transform: scale3d(1.1, 1.1, 1);
-
+    transform: scale3d (1.1, 1.1, 1);
     overflow: clip scroll;
-
     width: comicBookWidth;
-    height: width-percentage(56.25%);
+    height: width-percentage (56.25%);
     padding: 32px 92px;
-
     z-index: 1;
 }
-
 #ThumbnailContainer .Thumbnail Image {
     width: 300px;
 }
-
 .AspectRatio16x10 #ThumbnailContainer {
     width: comicBookWidth16x10;
     padding: 32px 96px;
 }
-
 .AspectRatio16x10 #ThumbnailContainer .Thumbnail Image {
     width: 280px;
 }
-
 .ThumbnailsVisible #ThumbnailContainer {
     opacity: 1;
     transform: none;
-
     transition-duration: 0.15s, 0.2s;
     transition-delay: 0.1s;
     transition-timing-function: ease-in;
 }
-
 #ThumbnailContainer VerticalScrollBar {
     width: 8px;
     height: 100%;
     horizontal-align: right;
     layout-position: fixed;
-
     transition-property: transform;
 }

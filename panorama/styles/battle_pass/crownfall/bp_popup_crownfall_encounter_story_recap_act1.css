@@ -309,6 +309,8 @@
 
     transform: translateY(16px);
     opacity: 0;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .Comic .ComicText {

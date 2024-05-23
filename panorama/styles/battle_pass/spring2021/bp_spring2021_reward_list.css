@@ -126,7 +126,7 @@ Spring2021RewardList {
     color: white;
 }
 
-.PlatinumTier .LevelLabel {
+.EventTierPlatinum .LevelLabel {
     color: gradient(
         linear,
         0% 0%,
@@ -139,7 +139,7 @@ Spring2021RewardList {
     );
 }
 
-.PlatinumTier.Achieved .LevelLabel {
+.EventTierPlatinum.Achieved .LevelLabel {
     color: gradient(
         linear,
         0% 0%,
@@ -152,8 +152,8 @@ Spring2021RewardList {
     );
 }
 
-.GoldTier.ImportantLevel2 .LevelLabel,
-.GoldTier .LevelLabel {
+.EventTierGold.ImportantLevel2 .LevelLabel,
+.EventTierGold .LevelLabel {
     color: gradient(
         linear,
         0% 0%,
@@ -166,8 +166,8 @@ Spring2021RewardList {
     );
 }
 
-.GoldTier.Achieved.ImportantLevel2 .LevelLabel,
-.GoldTier.Achieved .LevelLabel {
+.EventTierGold.Achieved.ImportantLevel2 .LevelLabel,
+.EventTierGold.Achieved .LevelLabel {
     color: gradient(
         linear,
         0% 0%,
@@ -180,8 +180,8 @@ Spring2021RewardList {
     );
 }
 
-.SilverTier.ImportantLevel2 .LevelLabel,
-.SilverTier .LevelLabel {
+.EventTierSilver.ImportantLevel2 .LevelLabel,
+.EventTierSilver .LevelLabel {
     color: gradient(
         linear,
         0% 0%,
@@ -194,8 +194,8 @@ Spring2021RewardList {
     );
 }
 
-.SilverTier.Achieved.ImportantLevel2 .LevelLabel,
-.SilverTier.Achieved .LevelLabel {
+.EventTierSilver.Achieved.ImportantLevel2 .LevelLabel,
+.EventTierSilver.Achieved .LevelLabel {
     color: gradient(
         linear,
         0% 0%,

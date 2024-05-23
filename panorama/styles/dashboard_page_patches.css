@@ -16,28 +16,34 @@ DOTAPatchesPage {
     visibility: collapse;
 }
 
-.PatchContainer {
-    margin-top: 150px;
-    margin-bottom: 130px;
-    flow-children: down;
+.PatchWrapper {
     horizontal-align: center;
+    flow-children: right;
+    margin-right: 280px;
+    margin-top: 60px;
+}
+
+.PatchContainer {
+    flow-children: down;
 }
 
 #Header {
-    border-top: 8px;
-    border-bottom: 8px;
-    width: 1200px;
+    margin-right: 32px;
     horizontal-align: center;
-    background-color: #000e;
     flow-children: down;
+    margin-top: 100px;
+    padding-top: 16px;
+    width: 240px;
+    border-top: 1px solid rgba(222, 232, 255, 0.075);
+    border-brush: gradient(linear, 50% 0%, 100% 0%, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
 }
 
 .ReleaseDate {
     text-transform: uppercase;
-    horizontal-align: center;
-    font-size: 14px;
-    color: #6c8798;
+    font-size: 13px;
+    color: LightGrey;
     letter-spacing: 1px;
+    margin-top: 12px;
 }
 
 .HeaderControls {
@@ -46,44 +52,23 @@ DOTAPatchesPage {
 }
 
 .GamePlayUpdate {
-    font-size: 36px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-top: 1px;
     vertical-align: center;
-    font-weight: bold;
-    color: #a1bed1;
+    font-weight: semi-bold;
+    color: LightestGrey;
+    margin-bottom: 8px;
 }
 
 #PatchDropDown {
-    margin-left: 9px;
-
-    background-color: none;
-
-    background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
-
-    box-shadow: none;
-
-    border: 1px solid transparent;
-
-    font-weight: bold;
-
-    width: 135px;
-    height: 45px;
-    padding: 0px;
+    width: 100%;
+    height: fit-children;
     z-index: 1;
-    wash-color: #6c8798;
-}
-
-#PatchDropDown:enabled:hover {
-    border: 1px solid #6c8798;
 }
 
 #PatchDropDown Label {
     margin: 0px;
-    font-size: 36px;
-    padding-left: 8px;
-    padding-bottom: 10px;
+    font-size: 24px;
     font-weight: bold;
     color: white;
 }
@@ -93,7 +78,7 @@ DOTAPatchesPage {
 }
 
 DropDownMenu {
-    width: 135px;
+    width: 240px;
     background-color: #303030ff;
     overflow: squish scroll;
     transform: translateY(-40px);
@@ -123,14 +108,33 @@ DropDownMenu Label:hover {
     color: white;
 }
 
+.TopShadow {
+    width: 100%;
+    height: 160px;
+    background-color: gradient(
+        linear,
+        0% 30%,
+        0% 100%,
+        from(rgb(19, 20, 20)),
+        color-stop(0.5, rgba(19, 20, 20, 0.861)),
+        to(#00000000)
+    );
+}
+
 #PatchContents {
     height: fill-parent-flow(1);
-    width: 1200px;
+    width: 1060px;
     horizontal-align: center;
     flow-children: down;
     overflow: squish scroll;
-    background-color: #000e;
-    padding: 12px 16px;
+    padding: 100px 0px 130px;
+    opacity-mask: url("s2r://panorama/images/masks/scrolling_side_nav_mask_psd.vtex");
+}
+
+#PatchContents #VerticalScrollBar {
+    margin-top: 100px;
+    margin-bottom: 130px;
+    height: 100%;
 }
 
 .ShowPatchWebsite #PatchContents {
@@ -150,30 +154,38 @@ DropDownMenu Label:hover {
 
 .PatchSection {
     flow-children: down;
+    width: 100%;
 }
 
 #PatchSectionContents {
     flow-children: down;
     margin-bottom: 20px;
+    width: 100%;
+    background-color: gradient(linear, 0% 0%, 90% 100%, from(rgb(6, 6, 7)), to(rgb(14, 22, 29)));
+    padding: 40px;
+}
+
+#HeroesSection #PatchSectionContents {
+    padding: 0px;
+    background-color: none;
 }
 
 .PatchSectionNameContainer {
     background-color: #6c879844;
-    background-color: gradient(linear, 0% 0%, 90% 100%, from(#6c879833), to(#6c879822));
-    margin-bottom: 16px;
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#833312ff), to(#8334120b));
+    width: 100%;
+    border-left: 2px solid #ff5005;
 }
 
 .PatchSectionName {
     font-size: 32px;
     text-transform: uppercase;
-    color: bluegreyTextBright;
+    color: whitesmoke;
     letter-spacing: 2px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: 8px;
-    margin-bottom: 3px;
+    padding: 12px 16px 12px 30px;
     font-family: titleFont;
     font-weight: semi-bold;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.8);
 }
 
 .PatchSubSection {
@@ -203,6 +215,7 @@ DropDownMenu Label:hover {
 .ItemNotes {
     flow-children: right;
     margin-bottom: 12px;
+    width: 100%;
 }
 
 .ItemTitle {
@@ -212,10 +225,11 @@ DropDownMenu Label:hover {
 .ItemTitle Label {
     letter-spacing: 1px;
     text-transform: uppercase;
+    font-weight: semi-bold;
 }
 
 .ItemName {
-    color: white;
+    color: LightestGrey;
 }
 
 .ItemTitleTag {
@@ -229,7 +243,7 @@ DropDownMenu Label:hover {
 #ItemImage {
     width: 88px;
     height: 64px;
-
+    box-shadow: 0px 4px 16px -2px rgba(0, 0, 0, 0.6);
     tooltip-position: left;
 
     transition-property: brightness;
@@ -257,22 +271,57 @@ DropDownMenu Label:hover {
 
 .AbilityNotes {
     flow-children: right;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 #AbilityImage {
     width: 64px;
     height: 64px;
-
     tooltip-position: left;
+    box-shadow: 0px 4px 16px -2px rgba(0, 0, 0, 0.4);
+    background-color: DarkestGrey;
+}
+
+#InnateIcon {
+    width: 64px;
+    height: 64px;
+    tooltip-position: left;
+    visibility: collapse;
+}
+
+.TrueInnateAbility #AbilityImage {
+    visibility: collapse;
+}
+
+.TrueInnateAbility #InnateIcon {
+    visibility: visible;
+}
+
+.FacetContainer #AbilityImage {
+    width: 46px;
+    height: 46px;
+}
+
+.FacetContainer #InnateIcon {
+    width: 46px;
+    height: 46px;
 }
 
 .AbilityName {
     letter-spacing: 1px;
-    color: bluegreyTextBright;
+    color: LightestGrey;
     font-weight: semi-bold;
     text-transform: uppercase;
     font-family: titleFont;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.FacetContainer .AbilityName {
+    font-size: 14px;
+    color: LightestGrey;
+    opacity: 0.8;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 .AbilityNotesContents {
@@ -286,11 +335,19 @@ DropDownMenu Label:hover {
 
 .HeroNotes {
     flow-children: down;
-    margin-bottom: 32px;
+    margin-bottom: 4px;
+    width: 100%;
+    background-color: gradient(linear, 0% 0%, 50% 100%, from(rgb(18, 28, 37)), to(rgb(6, 6, 7)));
+    border-left: 2px solid rgba(47, 78, 105, 0.5);
+    padding: 28px 32px;
 }
 
 .HeroNotesTop {
     flow-children: right;
+    border-bottom: 1px solid rgba(167, 217, 255, 0.02);
+    border-brush: gradient(linear, 0% 0%, 100% 0%, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
+    width: 100%;
+    padding-bottom: 12px;
 }
 
 .HeroTitle {
@@ -299,10 +356,12 @@ DropDownMenu Label:hover {
 
 .HeroTitle Label {
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 28px;
     font-family: titleFont;
     letter-spacing: 1px;
     font-weight: semi-bold;
+    color: LightestGrey;
+    opacity: 0.9;
 }
 
 .HeroName {
@@ -320,6 +379,7 @@ DropDownMenu Label:hover {
 #HeroImage {
     width: 88px;
     height: width-percentage(56.25%);
+    box-shadow: 0px 4px 24px -2px rgba(0, 0, 0, 0.4);
 
     transition-property: brightness;
     transition-duration: 0.2s;
@@ -337,10 +397,9 @@ DropDownMenu Label:hover {
 }
 
 .HeroNotesMain {
-    margin-top: 8px;
-    margin-left: 24px;
-
+    margin-top: 16px;
     flow-children: down;
+    width: 100%;
 }
 
 #HeroNotesContainer {
@@ -352,18 +411,17 @@ DropDownMenu Label:hover {
 }
 
 .TalentNotes {
-    flow-children: right;
-
+    flow-children: down;
     visibility: collapse;
 }
 
-.HasTalentNotes .TalentNotes {
+.HasTalentNotes .TalentNotes,
+.TalentNotes.HasTalentNotes {
     visibility: visible;
 }
 
 .TalentNotesContents {
-    margin-left: 16px;
-    flow-children: down;
+    flow-children: right;
 }
 
 #TalentNotesContainer {
@@ -371,8 +429,12 @@ DropDownMenu Label:hover {
 }
 
 .TalentsName {
-    color: white;
     text-transform: uppercase;
+    font-size: 16px;
+    color: LightestGrey;
+    margin-bottom: 8px;
+    font-weight: semi-bold;
+    letter-spacing: 2px;
 }
 
 #TalentTreeImage {
@@ -390,6 +452,7 @@ DropDownMenu Label:hover {
 
 #TalentNotesContainer {
     flow-children: down;
+    margin-left: 16px;
 }
 
 .PatchNoteContainer {
@@ -441,9 +504,9 @@ DropDownMenu Label:hover {
     width: 6px;
     height: 6px;
     vertical-align: top;
-    margin: 11px 5px 4px 0px;
+    margin: 9px 10px 0px 10px;
     border-radius: 50%;
-    background-color: #6c879844;
+    background-color: #b7d1e131;
 }
 
 .NoDot .Dot {
@@ -495,9 +558,9 @@ DropDownMenu Label:hover {
 .NoteLine {
     max-width: 744px;
     overflow: squish scroll;
-    color: #6c8798;
+    color: LightGrey;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
 }
 
 .NoteLine .InfoIcon {
@@ -550,4 +613,210 @@ DropDownMenu Label:hover {
 
 .second_pick {
     color: #f05039;
+}
+
+#HeroSubsections {
+    height: fit-children;
+    width: 100%;
+    flow-children: down;
+}
+
+.HeroSubsection {
+    height: fit-children;
+    flow-children: down;
+    margin-bottom: 24px;
+}
+
+.FacetBackground.Faded {
+    ignore-parent-flow: true;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+
+.InnateSubsection {
+    height: fit-children;
+    flow-children: down;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.InnateSubsection .InnateSubsectionTop {
+    flow-children: down;
+}
+.InnateSubsection .InnateSubsectionTop .HeroSubsectionName {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Radiance";
+    color: LightestGrey;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.InnateSubsection .InnateSubsectionMain {
+    padding: 16px;
+    flow-children: down;
+    background-color: #3d6b9411;
+    background-color: gradient(radial, 0% 0%, 0% 0%, 80% 100%, from(#3d6b941f), to(#3d6b9400));
+    width: 100%;
+    border: 1px solid white;
+    border-brush: gradient(radial, 0% 0%, 0% 0%, 80% 100%, from(#3d6b942e), to(#3d6b9400));
+}
+
+.InnateSubsection #TalentNotes {
+    visibility: collapse;
+}
+
+.FacetContainer {
+    flow-children: right;
+    height: fit-children;
+    horizontal-align: left;
+    margin-left: -8px;
+}
+.FacetContainer .hero_facet {
+    flow-children: down;
+    margin-left: 8px;
+    width: fill-parent-flow(1);
+}
+
+.HeroSubsectionTop {
+    flow-children: down;
+    margin-left: 16px;
+}
+
+.HeroSubsectionTitle {
+    flow-children: right;
+}
+
+.HeroSubsectionTitle Label {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: titleFont;
+    letter-spacing: 1px;
+    font-weight: semi-bold;
+}
+
+.HeroSubsectionSubName {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: titleFont;
+}
+
+.HeroSubsectionName {
+    color: bluegreyTextBright;
+}
+
+.HeroSubsectionTitleTag {
+    visibility: collapse;
+}
+
+.HasTitleTag .HeroSubsectionTitleTag {
+    visibility: visible;
+}
+
+.SubsectionNotesMain {
+    padding: 12px 16px;
+    width: 100%;
+    background-img-opacity: 0.1;
+
+    flow-children: down;
+}
+.children_count_5 .SubsectionNotesMain {
+    padding: 8px;
+    padding-bottom: 16px;
+}
+
+#GeneralNotesContainer {
+    flow-children: down;
+}
+
+.FacetContainerOuter {
+    flow-children: down;
+    width: 100%;
+    height: fit-children;
+    margin-top: 8px;
+}
+.FacetContainerOuter .HeroSubsectionName {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Radiance";
+    color: LightestGrey;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+    font-weight: semi-bold;
+}
+
+.FacetHeader {
+    width: 100%;
+    height: fit-children;
+    flow-children: right;
+}
+.FacetHeader .FacetBackground {
+    width: 100%;
+    height: 100%;
+    ignore-parent-flow: true;
+}
+
+.FacetHeader .FacetBackgroundTexture {
+    width: 100%;
+    height: 100%;
+    ignore-parent-flow: true;
+    background-image: url("s2r://panorama/images/hud/facets/ripple_texture_png.vtex");
+    background-size: cover;
+    background-position: center;
+    -s2-mix-blend-mode: screen;
+    opacity: 0.5;
+}
+
+.FacetIconContainer {
+    vertical-align: center;
+    margin-right: 8px;
+}
+.FacetIconContainer .FacetIconContainerShard {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-right: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.FacetIconContainer #FacetIcon {
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    margin: 12px 20px;
+    img-shadow: 0px 2px 8px black;
+}
+.children_count_5 .FacetIconContainer #FacetIcon,
+.children_count_3 .FacetIconContainer #FacetIcon {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.FacetHeaderText {
+    width: fill-parent-flow(1);
+    height: fit-children;
+    vertical-align: middle;
+    horizontal-align: left;
+    padding: 6px;
+    flow-children: right;
+}
+.FacetHeaderText Label {
+    horizontal-align: left;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.FacetHeaderText .FacetName {
+    color: white;
+    letter-spacing: 1px;
+    height: 26px;
+    text-overflow: shrink;
+    font-size: 18px;
+    font-weight: semi-bold;
+    horizontal-align: left;
+    vertical-align: center;
+    width: fill-parent-flow(1);
+}
+
+.FacetButton {
+    horizontal-align: right;
+    margin-top: 8px;
 }

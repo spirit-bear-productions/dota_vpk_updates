@@ -1469,6 +1469,14 @@ DOTAChat#HudChat .RuneBounty {
     vertical-align: top;
 }
 
+.ChatFacetIcon {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    border-radius: 10%;
+    margin-right: 2px;
+}
+
 DOTAChat#HudChat .GameAllChat,
 DOTAChat#HudChat .GameAlliesChat,
 DOTAChat#HudChat .GameCoachingChat,

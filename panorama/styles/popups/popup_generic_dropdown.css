@@ -1,0 +1,27 @@
+.DropdownContainer {
+    margin-top: 30px;
+    flow-children: right;
+}
+.DropdownContainer .MessagePanel {
+    margin-right: 20px;
+    vertical-align: center;
+}
+
+.DropdownContainer .MessageLabel {
+    vertical-align: top;
+    font-size: 24px;
+    color: #ffffff;
+    horizontal-align: center;
+    vertical-align: center;
+    max-width: 400px;
+    text-align: center;
+}
+
+.DropdownContainer #DropDown {
+    width: fit-children;
+    vertical-align: center;
+    horizontal-align: center;
+}
+.DropdownContainer #DropDown Label {
+    width: fit-children;
+}

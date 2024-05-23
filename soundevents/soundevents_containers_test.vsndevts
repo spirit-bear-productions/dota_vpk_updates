@@ -17,6 +17,7 @@
 		type = "container_env_test"
 		vsnd_files = "sounds/common/noise.vsnd"
 		vsnd_env = "sounds/envelope_analyzer.vsnd"
+		vsnd_duration = 8.000000
 	}
 	containers.test.random_selector = 
 	{
@@ -26,7 +27,7 @@
 	containers.test.args = 
 	{
 		type = "container_arg_test"
-		index_override = 3.000000
-		vsnd_files = "sounds/containers/random_selector.vsnd"
+		index_override = 0.000000
+		vsnd_files = "sounds/containers/random_switch.vsnd"
 	}
 }
