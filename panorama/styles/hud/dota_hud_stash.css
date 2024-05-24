@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #stash_row {
     flow-children: right;
     margin-top: 32px;
@@ -76,7 +78,6 @@
     margin-top: 70px;
     horizontal-align: right;
     visibility: collapse;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
@@ -102,7 +103,6 @@
     width: 26px;
     height: 26px;
     background-image: url("s2r://panorama/images/hud/reborn/stash_queued_for_courier_psd.vtex");
-
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -246,7 +246,6 @@
     box-shadow: inset #000000aa -2px 0px 3px 3px;
     background-color: #00000066;
     border-radius: 3px;
-
     width: 40px;
     height: 31px;
 }
@@ -269,6 +268,7 @@
     letter-spacing: 2px;
     font-family: defaultFont;
 }
+
 .Reborn .StashActive #title {
     visibility: visible;
 }

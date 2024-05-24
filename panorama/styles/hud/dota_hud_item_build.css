@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDItemBuild {
     flow-children: down;
 }
@@ -416,11 +418,9 @@ DOTAShopItem.HasSuggestionPct:not(.Purchased) {
 .ItemBuildCategory.PlusSequence {
     border-top: 2px solid #8a6936;
     background-color: #000000aa;
-
     transition-property: opacity, height, margin;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
-
     height: 100px;
     margin-bottom: 10px;
 }
@@ -433,7 +433,6 @@ DOTAShopItem.HasSuggestionPct:not(.Purchased) {
     transition-property: opacity, height;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
-
     height: fit-children;
 }
 
@@ -455,7 +454,6 @@ DOTAShopItem.HasSuggestionPct:not(.Purchased) {
 .ItemBuildCategory #PlusWaiting {
     horizontal-align: center;
     vertical-align: center;
-
     visibility: collapse;
 }
 
@@ -487,20 +485,17 @@ TextButton.PlusOptionSelect {
     min-height: 24px;
     margin-left: 24px;
     margin-top: 4px;
-
     visibility: collapse;
 }
 
 TextButton.PlusOptionSelect Label {
     font-size: 14px;
-
     text-shadow: 0px 1px 3px #8a6936;
     font-weight: bold;
 }
 
 .ItemBuildCategory.PlusSequence TextButton.PlusOptionSelect {
     visibility: visible;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#b78946), to(#dcd086));
     width: 100%;
     margin-left: 0px;
@@ -520,15 +515,12 @@ TextButton.PlusOptionSelect Label {
 #RecalculateOptions,
 #ShowBuildLists {
     color: #ccc;
-
     margin: 4px 0px;
     font-size: 15px;
     horizontal-align: center;
-
     transition-property: color;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-
     visibility: collapse;
     background-color: #17202b;
     border-radius: 5px;
@@ -548,13 +540,10 @@ TextButton.PlusOptionSelect Label {
 #Recalculate {
     font-size: 15px;
     horizontal-align: center;
-
     margin-top: 12px;
-
     transition-property: color;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-
     visibility: collapse;
 }
 
@@ -602,9 +591,7 @@ TextButton.PlusOptionSelect Label {
 .PlusAssistantViolator {
     width: 190px;
     margin: 10px;
-
     height: 0px;
-
     transition-property: height;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;

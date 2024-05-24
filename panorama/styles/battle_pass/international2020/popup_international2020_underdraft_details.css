@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAUnderdraftDetailsPopup {
     padding: 24px 0px 30px 0;
     width: 1300px;
@@ -35,6 +37,7 @@ DOTAUnderdraftDetailsPopup.Hidden {
     transition-property: position;
     transition-duration: 0.5s;
 }
+
 .ChancesHeader {
     margin-top: 30px;
     margin-left: 20px;
@@ -68,7 +71,6 @@ DOTAUnderdraftDetailsPopup.Hidden {
 .RewardBox {
     flow-children: right;
     horizontal-align: left;
-
     margin: 8px 0;
 }
 
@@ -135,7 +137,6 @@ DOTAUnderdraftDetailsPopup.Hidden {
 .HeroContainer {
     flow-children: right;
     horizontal-align: center;
-
     margin: 30px 0;
 }
 
@@ -146,7 +147,6 @@ DOTAUnderdraftDetailsPopup.Hidden {
     font-weight: normal;
     letter-spacing: 2px;
     margin: 0 0 24px 0;
-
     color: #bbb8bb;
 }
 
@@ -173,7 +173,6 @@ DOTAUnderdraftDetailsPopup.Hidden {
         color-stop(0.8, #030202cc),
         to(#03020200)
     );
-
     width: 100%;
     text-align: center;
 }
@@ -204,7 +203,6 @@ DOTAUnderdraftDetailsPopup.Hidden {
 .EmblemContents {
     flow-children: right;
     horizontal-align: center;
-
     margin-top: -60px;
 }
 
@@ -242,7 +240,6 @@ DOTAUnderdraftDetailsPopup.Hidden {
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 0.5;
-
     width: 40px;
     height: 40px;
     horizontal-align: right;
@@ -341,7 +338,6 @@ DOTAUnderdraftDetailsPopup.Hidden {
     letter-spacing: 2px;
     color: #fff;
     width: 100%;
-
     padding: 6px 0;
 }
 
@@ -355,7 +351,6 @@ DOTAHeroImage {
     font-weight: semibold;
     letter-spacing: 1.4px;
     color: #f0e6d2;
-
     text-transform: uppercase;
 }
 
@@ -414,6 +409,7 @@ DOTAHeroImage {
 .DetailsText {
     opacity: 1;
 }
+
 .HowToImage {
     width: 300px;
     height: 165px;

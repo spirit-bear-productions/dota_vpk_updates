@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PageContents {
     flow-children: down;
 }
@@ -17,6 +19,7 @@
     horizontal-align: right;
     flow-children: right;
 }
+
 #HelpPanel Button {
     horizontal-align: right;
     margin-left: 4px;
@@ -40,6 +43,7 @@
     flow-children: down;
     margin-top: -60px;
 }
+
 .NoCompendium .NoCompendiumView .LockedHeader {
     horizontal-align: center;
     vertical-align: middle;
@@ -61,6 +65,7 @@
     margin: 40px;
     transform: rotateZ(45deg);
 }
+
 .NoCompendium .NoCompendiumView .LockIconContainer .LockIcon {
     transform: rotateZ(-45deg);
 }
@@ -74,6 +79,7 @@
     height: 100%;
     visibility: collapse;
 }
+
 .PeriodContents:selected {
     visibility: visible;
 }
@@ -81,15 +87,19 @@
 .gem_shape1 {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_round_png.vtex");
 }
+
 .gem_shape2 {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_pear_png.vtex");
 }
+
 .gem_shape3 {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_cushion_png.vtex");
 }
+
 .gem_shape4 {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_princess_png.vtex");
 }
+
 .gem_shape5 {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_heart_png.vtex");
 }
@@ -97,15 +107,19 @@
 .gem_quality1 {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank1_psd.vtex");
 }
+
 .gem_quality2 {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank2_psd.vtex");
 }
+
 .gem_quality3 {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank3_psd.vtex");
 }
+
 .gem_quality4 {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank4_psd.vtex");
 }
+
 .gem_quality5 {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank5_psd.vtex");
 }
@@ -127,6 +141,7 @@
     horizontal-align: center;
     transform: translateY(-10px);
 }
+
 .HasUnclaimedRewards #TabUnclaimedRewardsBadge {
     visibility: visible;
 }

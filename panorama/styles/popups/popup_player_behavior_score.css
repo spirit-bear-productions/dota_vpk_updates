@@ -1,23 +1,20 @@
-@define colorBehaviorBad:  #FF4949;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define colorBehaviorBad: #FF4949;
 @define colorBehaviorWarning: #B78C3A;
 @define colorBehaviorGood: #45BB5F;
 @define colorBehaviorCapped: #AAAAAA;
-
 PopupPlayerBehaviorScore.PopupPanel {
     width: 1260px;
-
     horizontal-align: center;
-
     background-color: none;
     border: 0px;
     box-shadow: none;
     padding: 0px;
     animation-name: none;
-
     transition-property: transform;
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0, 1, 0, 1);
-
     background-color: DarkGreyGradientBackgroundColor;
 }
 
@@ -50,7 +47,6 @@ PopupPlayerBehaviorScore.Hidden {
     width: 64px;
     height: 64px;
     margin: 4px 6px 4px 10px;
-
     background-image: url("s2r://panorama/images/control_icons/dota_logo_white.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -130,10 +126,10 @@ PopupPlayerBehaviorScore.Hidden {
     letter-spacing: 2px;
     font-weight: bold;
     margin-top: 5px;
-
     horizontal-align: right;
     color: #82e949;
 }
+
 #PlayerCommendsSectionLabel {
     font-size: 15px;
     text-transform: uppercase;
@@ -177,6 +173,7 @@ PopupPlayerBehaviorScore.Hidden {
     horizontal-align: left;
     visibility: collapse;
 }
+
 .TimePeriod.SubtitleLabel {
     color: #808080;
 }
@@ -191,7 +188,6 @@ PopupPlayerBehaviorScore.Hidden {
     background-color: dotaPlusCharcoal;
     border-top: 1px solid rgba(255, 255, 255, 0.02);
     box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.2);
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
 }
@@ -214,6 +210,7 @@ PopupPlayerBehaviorScore.Hidden {
     height: 3px;
     opacity: 0.1;
 }
+
 .Score_Good .Ribbon {
     background-color: colorBehaviorGood;
 }
@@ -229,6 +226,7 @@ PopupPlayerBehaviorScore.Hidden {
 #MainArea {
     flow-children: right;
 }
+
 #MainArea #MainBehaviorSection {
     width: 800px;
     flow-children: down;
@@ -243,16 +241,15 @@ PopupPlayerBehaviorScore.Hidden {
     border-left: 1px solid rgba(255, 255, 255, 0.01);
     flow-children: down;
 }
+
 #MainArea #SuccessfulReportsSection #SuccessfulReportsSubTitle {
     font-size: 16px;
-
     color: #808080;
     horizontal-align: left;
 }
 
 #MainArea #SuccessfulReportsSection #SuccessfulReportsTitle {
     text-transform: uppercase;
-
     color: #ffffffff;
     opacity: 0.7;
     font-size: 18px;
@@ -268,12 +265,14 @@ PopupPlayerBehaviorScore.Hidden {
     width: 100%;
     min-height: 85px;
 }
+
 #MainArea #SuccessfulReportsSection #SuccessfullReports #NoSuccessfulReportsContainer {
     width: 100%;
     height: 60px;
     background-color: rgba(0, 0, 0, 0.44);
     visibility: collapse;
 }
+
 #MainArea #SuccessfulReportsSection #SuccessfullReports #NoSuccessfulReportsContainer #NoSuccessfulReports {
     horizontal-align: center;
     vertical-align: center;
@@ -297,6 +296,7 @@ PopupPlayerBehaviorScore.Hidden {
     background-color: rgba(0, 0, 0, 0.44);
     padding: 12px;
 }
+
 #MainArea #SuccessfulReportsSection #SuccessfullReports .SuccessfulReport #SuccessfulReportHeroImage {
     height: 60px;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
@@ -308,6 +308,7 @@ PopupPlayerBehaviorScore.Hidden {
     margin-right: 10px;
     margin-left: 10px;
 }
+
 #MainArea #SuccessfulReportsSection #SuccessfullReports .SuccessfulReport #SuccessfulReportInfo #SuccessfulReportDate {
     horizontal-align: left;
 }
@@ -336,6 +337,7 @@ PopupPlayerBehaviorScore.Hidden {
     flow-children: right;
     horizontal-align: right;
 }
+
 #MainArea
     #SuccessfulReportsSection
     #SuccessfullReports
@@ -353,7 +355,6 @@ PopupPlayerBehaviorScore.Hidden {
 .ProgressSection {
     flow-children: down;
     horizontal-align: center;
-
     background-color: rgba(0, 0, 0, 0.44);
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.02);
 }
@@ -375,6 +376,7 @@ PopupPlayerBehaviorScore.Hidden {
     opacity: 0.2;
     horizontal-align: center;
 }
+
 .PipActive .BehaviorPipValue {
     opacity: 0.7;
 }
@@ -387,6 +389,7 @@ PopupPlayerBehaviorScore.Hidden {
 #CommunicationSection {
     visibility: collapse;
 }
+
 .HasBehaviorRank #BehaviorSection,
 .HasBehaviorRank #CommunicationSection {
     visibility: visible;
@@ -398,6 +401,7 @@ PopupPlayerBehaviorScore.Hidden {
     horizontal-align: center;
     vertical-align: center;
 }
+
 .HasBehaviorRank #MainBehaviorSection .Spinner {
     visibility: collapse;
 }
@@ -446,6 +450,7 @@ PopupPlayerBehaviorScore.Hidden {
     line-height: 0.9;
     font-weight: bold;
 }
+
 .Score_Good .ProgressSectionValueLabel {
     color: colorBehaviorGood;
 }
@@ -474,6 +479,7 @@ PopupPlayerBehaviorScore.Hidden {
     transition-duration: 0.25s;
     transition-property: transform;
 }
+
 .PipContainer:hover {
     transform: scale3d(1.2, 1.2, 1);
 }
@@ -482,7 +488,6 @@ PopupPlayerBehaviorScore.Hidden {
     width: 17px;
     height: 17px;
     margin-top: 10px;
-
     background-image: url("s2r://panorama/images/conduct/behavior_pip_inactive_psd.vtex");
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -494,14 +499,12 @@ PopupPlayerBehaviorScore.Hidden {
 
 .PipActive .ProgressPip {
     background-image: url("s2r://panorama/images/conduct/behavior_pip_inactive_psd.vtex");
-
     wash-color: #eee;
 }
 
 .BehaviorProgressBar {
     width: fill-parent-flow (1);
     height: 12px;
-
     border-radius: 0px;
 }
 
@@ -587,13 +590,13 @@ PopupPlayerBehaviorScore.Hidden {
     visibility: collapse;
     flow-children: right;
 }
+
 .HasDisabledFeatures .DisabledFeaturesContainer {
     visibility: visible;
 }
 
 .DisabledFeaturesContainer .DisabledFeaturesLabel {
     margin-right: 5px;
-
     color: colorBehaviorBad;
     opacity: 0.5;
     font-size: 14px;

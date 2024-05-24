@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTASpectatorItems {
     margin-top: 172px;
     width: 100%;
@@ -92,9 +94,7 @@ DOTASpectatorItems {
     background-color: #ffffff12;
     border-radius: 50%;
     padding: 4px;
-
     ignore-parent-flow: true;
-
     transition-property: brightness;
     transition-duration: 0.15s;
 }

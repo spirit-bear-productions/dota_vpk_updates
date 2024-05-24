@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FrontpageCellImage {
     background-image: url("s2r://panorama/images/splash_ads/720_medium_psd.vtex");
     background-size: cover;
@@ -42,7 +44,6 @@
     vertical-align: bottom;
     horizontal-align: right;
     margin: 16px;
-
     visibility: collapse;
 }
 
@@ -64,6 +65,7 @@
     horizontal-align: right;
     vertical-align: bottom;
 }
+
 .Patch720 #NumberImageContainer.color4 {
     hue-rotation: 240deg;
 }

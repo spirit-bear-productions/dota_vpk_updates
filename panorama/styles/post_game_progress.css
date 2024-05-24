@@ -1,27 +1,24 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
-
 @define BattlePassProgressFadeTime: 0.1s;
-
 @import url("s2r://panorama/styles/post_game_progress_spring2021.vcss_c");
 @import url("s2r://panorama/styles/post_game_progress_fall2021.vcss_c");
 @import url("s2r://panorama/styles/post_game_progress_battle_pass_2022.vcss_c");
 @import url("s2r://panorama/styles/post_game_progress_international2023.vcss_c");
 @import url("s2r://panorama/styles/post_game_progress_frostivus2023.vcss_c");
 @import url("s2r://panorama/styles/post_game_progress_crownfall.vcss_c");
-
 @define HeroTransitionDuration: 0.46s;
 @define slot0color: #0038AC;
 @define slot1color: #17B271;
 @define slot2color: #6B006B;
 @define slot3color: #8F8D00;
 @define slot4color: #903C00;
-
 @define slot5color: #A9306C;
 @define slot6color: #6B7F0F;
 @define slot7color: #188FAC;
 @define slot8color: #004A13;
 @define slot9color: #5D3B00;
-
 .OverviewHeroContainer {
     height: 662px;
     width: 128px;
@@ -29,7 +26,6 @@
     padding-right: 6px;
     horizontal-align: left;
     z-index: 1;
-
     transition-property: opacity, width, height, transform, z-index;
     transition-timing-function: ease-in-out, linear;
     transition-duration: HeroTransitionDuration, HeroTransitionDuration, HeroTransitionDuration, 0s, 0s;
@@ -56,7 +52,6 @@
 .HeroCenterContent {
     width: 100%;
     height: 100%;
-
     transition-property: width, height, transform;
     transition-timing-function: linear;
     transition-duration: HeroTransitionDuration;
@@ -149,7 +144,6 @@
     horizontal-align: left;
     margin-left: 150px;
     z-index: -6;
-
     transition-property: opacity, blur;
     transition-duration: HeroTransitionDuration;
     transition-timing-function: ease-in-out;
@@ -171,7 +165,6 @@
     height: 100%;
     border: 1px solid transparent;
     overflow: clip;
-
     transition-property: border-radius, height, background-color, border;
     transition-duration: HeroTransitionDuration, HeroTransitionDuration, HeroTransitionDuration, 0.04s;
     transition-timing-function: ease-in-out;
@@ -181,7 +174,6 @@
     height: 100px;
     width: 100%;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00000088), color-stop(0.5, #00000022), to(#00000000));
-
     transition-property: border-radius, background-color;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -302,7 +294,6 @@ DOTAPostGameSupportItemsRow.LocalPlayer .PlayerRowContainer {
     height: 100%;
     opacity: 0;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#70a87a00), color-stop(0.4, #b4fab6ee), to(#70a87a99));
-
     transition-property: opacity;
     transition-duration: 0.1s;
     vertical-align: middle;
@@ -319,7 +310,6 @@ DOTAPostGameSupportItemsRow.LocalPlayer .PlayerRowContainer {
     opacity: 0.01;
     pre-transform-scale2d: 1;
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_png.vtex") 0;
-
     transition-property: brightness, opacity, width, height, transform, pre-transform-scale2d, opacity-mask;
     transition-duration: 0.1s, 1s, 0.6s;
     transition-timing-function: linear;
@@ -378,12 +368,9 @@ DOTAPostGameSupportItemsRow.LocalPlayer .PlayerRowContainer {
 .HonorableMention #PartyIndex {
     width: 100%;
     height: 16px;
-
     margin-top: 130px;
-
     background-size: 100%;
     background-repeat: no-repeat;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     z-index: 0;
@@ -400,7 +387,6 @@ DOTAPostGameSupportItemsRow.LocalPlayer .PlayerRowContainer {
     background-size: cover;
     height: 16px;
     width: 16px;
-
     margin-top: -8px;
     margin-left: -4px;
 }
@@ -408,12 +394,15 @@ DOTAPostGameSupportItemsRow.LocalPlayer .PlayerRowContainer {
 .HonorableMention.PartyIndex1 .PartyNumber {
     background-image: url("s2r://panorama/images/post_game_party_index_1_psd.vtex");
 }
+
 .HonorableMention.PartyIndex2 .PartyNumber {
     background-image: url("s2r://panorama/images/post_game_party_index_2_psd.vtex");
 }
+
 .HonorableMention.PartyIndex3 .PartyNumber {
     background-image: url("s2r://panorama/images/post_game_party_index_3_psd.vtex");
 }
+
 .HonorableMention.PartyIndex4 .PartyNumber {
     background-image: url("s2r://panorama/images/post_game_party_index_4_psd.vtex");
 }
@@ -421,12 +410,15 @@ DOTAPostGameSupportItemsRow.LocalPlayer .PlayerRowContainer {
 .HonorableMention.PartyIndex1 .PartyLine {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#90ffc780), to(#006c3680));
 }
+
 .HonorableMention.PartyIndex2 .PartyLine {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#ffcd1980), to(#755c0180));
 }
+
 .HonorableMention.PartyIndex3 .PartyLine {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#c432c680), to(#55065780));
 }
+
 .HonorableMention.PartyIndex4 .PartyLine {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#91b1e880), to(#2b57a280));
 }
@@ -465,7 +457,6 @@ DOTAPostGameSupportItemsRow.LocalPlayer .PlayerRowContainer {
 .OverviewHeroPlayerNameExpanded Label,
 #BotPlayerName {
     horizontal-align: left;
-
     color: #99b3b3;
     font-size: 38px;
     font-weight: thin;
@@ -540,7 +531,6 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
 #PlayerNameContainer {
     transform: translateX(0px) translateY(0px);
     width: 100%;
-
     transition-property: transform, opacity, pre-transform-scale2d;
     transition-timing-function: linear;
     transition-duration: 0.1s;
@@ -598,7 +588,6 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     horizontal-align: center;
     margin-bottom: 6px;
     flow-children: down;
-
     width: 100px;
 }
 
@@ -641,7 +630,6 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
 
 .OverviewHeroNetWorth {
     horizontal-align: center;
-
     color: #b6883a;
     text-shadow: 0px 2px 1px black;
 }
@@ -718,7 +706,6 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     margin-top: 30px;
     margin-bottom: 26px;
     opacity: 1;
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -843,7 +830,6 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     padding-right: 26px;
     font-weight: thin;
     margin-top: 30px;
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -865,7 +851,6 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     vertical-align: center;
     height: fit-children;
     margin-top: 0px;
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -887,7 +872,6 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
 .HonorableMention #OverviewHeroHoverControls {
     flow-children: none;
     width: 100%;
-
     height: 422px;
     vertical-align: top;
 }
@@ -914,16 +898,12 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
-
     transition-property: transform;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
-
     visibility: visible;
-
     width: 25px;
     height: 25px;
-
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -949,18 +929,13 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     background-position: 50% 50%;
     background-size: 60% 60%;
     transform: rotateZ(0deg);
-
     box-shadow: fill -8px 0px 20px 0px #000000;
-
     tooltip-position: top;
     tooltip-body-position: 50% 0%;
-
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#edc422), to(#ffcc00));
-
     transition-property: background-color, wash-color, transform, opacity-mask, opacity, pre-transform-scale2d;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
-
     visibility: collapse;
 }
 
@@ -988,16 +963,12 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
-
     wash-color: #dd3c1c;
-
     tooltip-position: top;
     tooltip-body-position: 50% 0%;
-
     transition-property: background-color, wash-color, transform, opacity-mask, opacity, pre-transform-scale2d;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     visibility: collapse;
 }
 
@@ -1010,16 +981,12 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
-
     tooltip-position: top;
     tooltip-body-position: 50% 0%;
-
     wash-color: #9862e9;
-
     transition-property: background-color, wash-color, transform, opacity-mask, opacity, pre-transform-scale2d;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     visibility: collapse;
 }
 
@@ -1041,16 +1008,12 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     background-position: 50% 50%;
     background-size: 100% 100%;
     transform: rotateZ(0deg);
-
     wash-color: #35aa14;
-
     tooltip-position: top;
     tooltip-body-position: 50% 0%;
-
     transition-property: background-color, wash-color, transform, opacity-mask, opacity, pre-transform-scale2d;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     visibility: collapse;
 }
 
@@ -1086,18 +1049,12 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     background-position: 50% 50%;
     background-size: 60% 60%;
     transform: rotateZ(0deg);
-
     box-shadow: fill -8px 0px 20px 0px #000000;
-
     margin-bottom: 64px;
-
     tooltip-position: top;
-
     tooltip-body-position: 50% 0%;
-
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#3e4b51), to(#5c9c68));
     wash-color: #abeaa8;
-
     transition-property: background-color, wash-color, transform, opacity-mask, opacity, pre-transform-scale2d;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -1117,6 +1074,7 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
 .OverviewHeroInviteButton:hover {
     wash-color: #ffffff;
 }
+
 .OverviewHeroInviteButton:active {
     wash-color: #aaaaaa;
 }
@@ -1175,6 +1133,7 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
 #OverviewHeroContractButton:hover {
     background-color: #63636366;
 }
+
 #OverviewHeroContractButton:hover Label {
     color: white;
 }
@@ -1321,30 +1280,39 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
 #HeatmapRadiantHero1 {
     wash-color: rgb(51, 117, 255);
 }
+
 #HeatmapRadiantHero2 {
     wash-color: rgb(102, 255, 191);
 }
+
 #HeatmapRadiantHero3 {
     wash-color: rgb(191, 0, 191);
 }
+
 #HeatmapRadiantHero4 {
     wash-color: rgb(243, 240, 11);
 }
+
 #HeatmapRadiantHero5 {
     wash-color: rgb(255, 107, 0);
 }
+
 #HeatmapDireHero1 {
     wash-color: rgb(254, 134, 194);
 }
+
 #HeatmapDireHero2 {
     wash-color: rgb(161, 180, 71);
 }
+
 #HeatmapDireHero3 {
     wash-color: rgb(101, 217, 247);
 }
+
 #HeatmapDireHero4 {
     wash-color: rgb(0, 131, 33);
 }
+
 #HeatmapDireHero5 {
     wash-color: rgb(164, 105, 0);
 }
@@ -1356,10 +1324,8 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     horizontal-align: right;
     wash-color: black;
     background-color: black;
-
     transition-property: width, wash-color, opacity;
     transition-duration: 0.4s;
-
     opacity: 0;
 }
 
@@ -1544,7 +1510,6 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     background-color: #00000077;
     text-align: center;
     padding-top: 28px;
-
     color: #dddddd;
     text-shadow: 1px 1px 1px #000000;
 }
@@ -1560,7 +1525,6 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     vertical-align: middle;
     vertical-align: bottom;
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.3s;
 }
@@ -1579,7 +1543,6 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     height: 130px;
     flow-children: right-wrap;
     opacity: 1;
-
     transition-property: position, opacity;
     transition-duration: 0.1s;
     transition-timing-function: linear;
@@ -1607,9 +1570,7 @@ DOTAUserName.OverviewHeroPlayerNameExpanded Label .PersonaName {
     width: 36px;
     height: 36px;
     margin: 0px;
-
     border: 1px solid black;
-
     vertical-align: middle;
 }
 
@@ -1629,19 +1590,21 @@ DOTAPostGameSupportItemsRow {
     margin-left: 64px;
     padding-left: 12px;
     padding-right: 16px;
-
     width: 382px;
 }
 
 .MaxItems4 DOTAPostGameSupportItemsRow {
     width: 412px;
 }
+
 .MaxItems5 DOTAPostGameSupportItemsRow {
     width: 468px;
 }
+
 .MaxItems6 DOTAPostGameSupportItemsRow {
     width: 523px;
 }
+
 .MaxItems7 DOTAPostGameSupportItemsRow {
     width: 578px;
 }
@@ -1667,7 +1630,6 @@ DOTAPostGameSupportItemsRow {
     font-size: 16px;
     margin-top: -16px;
     background-color: #121a20;
-
     padding: 1px;
     padding-right: 3px;
     padding-left: 3px;
@@ -1721,7 +1683,6 @@ DOTAPostGameSupportItemsItemEntry .ItemIcon {
 #DetailsPicks {
     height: 100%;
     flow-children: down;
-
     visibility: collapse;
 }
 
@@ -1766,7 +1727,6 @@ DOTAPostGameSupportItemsItemEntry .ItemIcon {
     width: 475px;
     height: 100%;
     flow-children: down;
-
     visibility: collapse;
 }
 
@@ -1854,7 +1814,6 @@ DOTAPostGameKillMatrixRow.Victim_4_Active #VictimHero4 {
 
 .VictimDeathCount {
     visibility: collapse;
-
     horizontal-align: right;
     text-align: center;
     font-size: 16px;
@@ -1890,7 +1849,6 @@ DOTAPostGameKillMatrixRow.Victim_4_Active #VictimDeathCount4 {
     height: 100%;
     padding-left: 0px;
     flow-children: down;
-
     visibility: collapse;
 }
 
@@ -2021,7 +1979,6 @@ DOTAPostGameKillMatrixRow.Victim_4_Active #VictimDeathCount4 {
     height: 100%;
     padding-left: 0px;
     flow-children: down;
-
     visibility: collapse;
 }
 
@@ -2121,6 +2078,7 @@ DOTAPostGameKillMatrixRow.Victim_4_Active #VictimDeathCount4 {
     font-size: 18px;
     text-transform: uppercase;
 }
+
 .NoMetadataStatValue {
     font-size: 24px;
 }
@@ -2139,7 +2097,6 @@ DOTAPostGameKillMatrixRow.Victim_4_Active #VictimDeathCount4 {
     horizontal-align: right;
     flow-children: down;
     pre-transform-scale2d: 0.9;
-
     transition-property: opacity, pre-transform-scale2d;
     transition-duration: HeroTransitionDuration;
     transition-delay: HeroTransitionDuration;
@@ -2168,7 +2125,6 @@ DOTAPostGameKillMatrixRow.Victim_4_Active #VictimDeathCount4 {
     height: 120px;
     overflow: noclip;
     opacity: 0;
-
     transition-property: opacity, transform;
     transition-duration: 0.24s;
     transition-delay: HeroTransitionDuration;
@@ -2177,7 +2133,6 @@ DOTAPostGameKillMatrixRow.Victim_4_Active #VictimDeathCount4 {
 
 .IndividualStatsTitle {
     text-transform: uppercase;
-
     letter-spacing: 1px;
     horizontal-align: center;
     font-size: 14px;
@@ -2204,9 +2159,7 @@ DOTAPostGameKillMatrixRow.Victim_4_Active #VictimDeathCount4 {
     background-color: #00000000;
     border: 1px solid #2b3843;
     border: 1px solid transparent;
-
     visibility: collapse;
-
     opacity: 0;
     transition-property: opacity, transform;
     transition-duration: 0.24s;
@@ -2256,7 +2209,6 @@ DOTAPostGameKillMatrixRow.Victim_4_Active #VictimDeathCount4 {
     width: 32px;
     background-color: #afdf8f;
     box-shadow: fill 0px 0px 12px #afdf8f55;
-
     transition-property: width;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -2286,7 +2238,6 @@ ProgressBar.PlayStyleBar {
     width: 334px;
     height: 154px;
     horizontal-align: center;
-
     border: 1px solid #111111;
     margin-bottom: 12px;
     margin-top: 12px;
@@ -2339,9 +2290,7 @@ ProgressBar.PlayStyleBar {
     height: 28px;
     horizontal-align: center;
     margin-top: -5px;
-
     transform: translateX(105px);
-
     transition-property: transform;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -2356,7 +2305,6 @@ ProgressBar.PlayStyleBar {
 
 .AveragesColumn {
     margin-top: 26px;
-
     margin-left: 0px;
 }
 
@@ -2384,6 +2332,7 @@ ProgressBar.PlayStyleBar {
     color: #f3ee06;
     width: 32px;
 }
+
 .BestLabel {
     text-transform: uppercase;
     text-align: right;
@@ -2406,18 +2355,21 @@ ProgressBar.PlayStyleBar {
 .AssistsRecord #BestAssistsContainer {
     visibility: visible;
 }
+
 #AverageGPMContainer,
 #AverageXPMContainer,
 #AverageKillsContainer,
 #AverageAssistsContainer {
     visibility: visible;
 }
+
 .GPMRecord #AverageGPMContainer,
 .XPMRecord #AverageXPMContainer,
 .AssistsRecord #AverageAssistsContainer,
 .KillsRecord #AverageKillsContainer {
     visibility: collapse;
 }
+
 .BadKills .KillsAvgValues,
 .BadGPM .GPMAvgValues,
 .BadXPM .XPMAvgValues,
@@ -2425,6 +2377,7 @@ ProgressBar.PlayStyleBar {
 .BadDeaths .DeathsAvgValues {
     color: #fa755f;
 }
+
 .GoodKills .KillsAvgValues,
 .GoodGPM .GPMAvgValues,
 .GoodXPM .XPMAvgValues,
@@ -2454,7 +2407,6 @@ ProgressBar.PlayStyleBar {
     border-radius: 12px;
     vertical-align: bottom;
     flow-children: right;
-
     width: 100%;
     background-color: black;
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#000000ff), to(#00000000));
@@ -2465,12 +2417,9 @@ ProgressBar.PlayStyleBar {
     height: 64px;
     border: 1px solid #222222;
     margin: 8px;
-
     border-bottom-left-radius: 8px;
-
     background-image: url("s2r://panorama/images/bot_icon_easy_png.vtex");
     background-size: contain;
-
     horizontal-align: center;
     transform: translateX(0px);
     background-color: black;
@@ -2489,15 +2438,11 @@ DOTAPostGameHeroStats.IsBot #PlayerAvatarImage {
 DOTAPostGameHeroStats .BotIcon {
     width: 64px;
     height: 64px;
-
     margin: 8px;
-
     border: 1px solid #222222;
     border-bottom-left-radius: 8px;
-
     background-image: url("s2r://panorama/images/bot_icon_easy_png.vtex");
     background-size: contain;
-
     horizontal-align: center;
     transform: translateX(0px);
     margin-right: 12px;
@@ -2506,7 +2451,6 @@ DOTAPostGameHeroStats .BotIcon {
     transition-property: opacity, transform, pre-transform-scale2d;
     transition-duration: 0.25s;
     transition-delay: 0.4s, 0s, 0.4s;
-
     visibility: collapse;
 }
 
@@ -2515,13 +2459,10 @@ DOTAPostGameHeroStats .BotIcon {
     height: 36px;
     vertical-align: middle;
     horizontal-align: center;
-
     border: 1px solid #222222;
     border-bottom-left-radius: 8px;
-
     background-image: url("s2r://panorama/images/bot_icon_easy_png.vtex");
     background-size: contain;
-
     visibility: collapse;
 }
 
@@ -2556,12 +2497,10 @@ DOTAPostGameHeroStats .BotIcon {
 #EconItemContainer {
     max-width: 64px;
     flow-children: right-wrap;
-
     opacity: 0;
     vertical-align: middle;
     margin-bottom: 45px;
     margin-left: 10px;
-
     transition-property: opacity;
     transition-timing-function: ease-in-out;
     transition-delay: 0.44s;
@@ -2588,7 +2527,6 @@ DOTAPostGameHeroStats .BotIcon {
 
 #MainHeroImage {
     visibility: collapse;
-
     transition-property: opacity;
     transition-timing-function: ease-in-out;
     transition-duration: 0.34s;
@@ -2625,7 +2563,6 @@ DOTAPostGameHeroStats .BotIcon {
     width: 120px;
     height: 120px;
     margin-top: -4px;
-
     horizontal-align: right;
 }
 
@@ -2637,7 +2574,6 @@ DOTAPostGameHeroStats .BotIcon {
     horizontal-align: center;
     height: 100%;
     width: 318px;
-
     background-color: #000000aa;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#222424), to(#121a1f));
     border: 1px solid #222222;
@@ -2653,7 +2589,6 @@ DOTAPostGameHeroStats .BotIcon {
 .SlidingName.TeamBlock {
     width: 152px;
     background-color: #1d1f20;
-
     horizontal-align: left;
     margin-left: 72px;
 }
@@ -2673,7 +2608,6 @@ DOTAPostGameHeroStats .BotIcon {
 #DireTeamScore,
 #RadiantTeamScore {
     font-size: 18px;
-
     font-weight: thin;
     opacity: 1;
     text-transform: uppercase;
@@ -2701,7 +2635,6 @@ DOTAPostGameHeroStats .BotIcon {
 #PinnedHeroes {
     vertical-align: bottom;
     height: 770px;
-
     transform: translateX(-740px);
     opacity: 0;
     transition-property: transform, opacity;
@@ -2766,7 +2699,6 @@ DOTAPostGameHeroStats .BotIcon {
     height: 1px;
     width: 100%;
     vertical-align: middle;
-
     margin-right: 100px;
 }
 
@@ -2831,7 +2763,6 @@ DOTAPostGameHeroStats .BotIcon {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: thin;
-
     color: #768e8dff;
 }
 
@@ -2846,12 +2777,15 @@ DOTAPostGameHeroStats .BotIcon {
 .MaxItems4 .SupportItemsLegend {
     width: 452px;
 }
+
 .MaxItems5 .SupportItemsLegend {
     width: 514px;
 }
+
 .MaxItems6 .SupportItemsLegend {
     width: 569px;
 }
+
 .MaxItems7 .SupportItemsLegend {
     width: 624px;
 }
@@ -2904,9 +2838,7 @@ DOTAPostGameHeroStats .BotIcon {
     height: 42px;
     vertical-align: middle;
     margin-left: 6px;
-
     wash-color: white;
-
     transition-property: width, wash-color;
     transition-duration: 0.4s;
 }
@@ -2920,12 +2852,9 @@ DOTAPostGameHeroStats .BotIcon {
     height: 100%;
     vertical-align: middle;
     horizontal-align: right;
-
     wash-color: black;
-
     transition-property: width, wash-color, opacity;
     transition-duration: 0.4s;
-
     opacity: 0;
 }
 
@@ -3019,7 +2948,6 @@ DOTAPostGameHeroStats .BotIcon {
 
 .NameAndHero .HeroLevelLabel {
     background-color: black;
-
     width: 24px;
     height: 24px;
     color: #e7d291;
@@ -3064,7 +2992,6 @@ DOTAPostGameHeroStats .BotIcon {
 
 .PlayerName {
     margin-left: 16px;
-
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
@@ -3073,7 +3000,6 @@ DOTAPostGameHeroStats .BotIcon {
 
 #PlayerRowClickTarget {
     height: 54px;
-
     width: 300px;
     background-color: #00000077;
 }
@@ -3147,6 +3073,7 @@ DOTAPostGameHeroStats .BotIcon {
     font-weight: normal;
     brightness: 1;
 }
+
 .LocalPlayer Label.HeroLevelLabel {
     font-weight: normal;
 }
@@ -3182,373 +3109,467 @@ DOTAPostGameHeroStats .BotIcon {
     margin-top: -20px;
     margin-left: -54px;
 }
+
 #HonorableMentionModel.npc_dota_hero_arc_warden {
     margin-left: 50px;
 }
+
 #HonorableMentionModel.npc_dota_hero_abaddon {
     margin-top: 20px;
     margin-left: -20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_alchemist {
     margin-top: 0px;
     margin-left: -30px;
 }
+
 #HonorableMentionModel.npc_dota_hero_axe {
     margin-top: 20px;
     margin-left: 40px;
 }
+
 #HonorableMentionModel.npc_dota_hero_bane {
     margin-top: 10px;
     margin-left: -20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_batrider {
     margin-top: -60px;
     margin-left: -30px;
 }
+
 #HonorableMentionModel.npc_dota_hero_beastmaster {
     margin-top: 10px;
     margin-left: -10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_bloodseeker {
     margin-top: -30px;
     margin-left: -20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_broodmother {
     margin-top: -80px;
     margin-left: -25px;
 }
+
 #HonorableMentionModel.npc_dota_hero_bristleback {
     margin-top: -10px;
     margin-left: 15px;
 }
+
 #HonorableMentionModel.npc_dota_hero_brewmaster {
     margin-top: 0px;
     margin-left: 10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_bounty_hunter {
     margin-top: -10px;
     margin-left: -15px;
 }
+
 #HonorableMentionModel.npc_dota_hero_crystal_maiden {
     margin-top: 0px;
     margin-left: 12px;
 }
+
 #HonorableMentionModel.npc_dota_hero_clinkz {
     margin-top: -10px;
     margin-left: 0px;
 }
+
 #HonorableMentionModel.npc_dota_hero_chen {
     margin-top: -40px;
     margin-left: 16px;
 }
+
 #HonorableMentionModel.npc_dota_hero_dazzle {
     margin-top: -10px;
     margin-left: 8px;
 }
+
 #HonorableMentionModel.npc_dota_hero_dark_seer {
     margin-top: -10px;
     margin-left: -40px;
 }
+
 #HonorableMentionModel.npc_dota_hero_disruptor {
     margin-top: 0px;
     margin-left: 18px;
 }
+
 #HonorableMentionModel.npc_dota_hero_drow_ranger {
     margin-top: 0px;
     margin-left: 18px;
 }
+
 #HonorableMentionModel.npc_dota_hero_doom_bringer {
     margin-top: 0px;
     margin-left: -10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_dragon_knight {
     margin-top: 10px;
     margin-left: 34px;
 }
+
 #HonorableMentionModel.npc_dota_hero_death_prophet {
     margin-top: 30px;
     margin-left: 14px;
 }
+
 #HonorableMentionModel.npc_dota_hero_earthshaker {
     margin-top: -30px;
     margin-left: -24px;
 }
+
 #HonorableMentionModel.npc_dota_hero_elder_titan {
     margin-top: -30px;
     margin-left: -10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_ember_spirit {
     margin-top: -30px;
     margin-left: 30px;
 }
+
 #HonorableMentionModel.npc_dota_hero_furion {
     margin-top: -30px;
     margin-left: 20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_faceless_void {
     margin-top: 10px;
     margin-left: 0px;
 }
+
 #HonorableMentionModel.npc_dota_hero_gyrocopter {
     margin-top: -50px;
     margin-left: -34px;
 }
+
 #HonorableMentionModel.npc_dota_hero_huskar {
     margin-top: -40px;
     margin-left: -50px;
 }
+
 #HonorableMentionModel.npc_dota_hero_jakiro {
     margin-top: 0px;
     margin-left: -60px;
 }
+
 #HonorableMentionModel.npc_dota_hero_juggernaut {
     margin-left: 20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_leshrac {
     margin-top: 10px;
     margin-left: -34px;
 }
+
 #HonorableMentionModel.npc_dota_hero_life_stealer {
     margin-top: -60px;
     margin-left: -44px;
 }
+
 #HonorableMentionModel.npc_dota_hero_lina {
     margin-left: 10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_lion {
     margin-left: 22px;
 }
+
 #HonorableMentionModel.npc_dota_hero_lich {
     margin-top: 20px;
     margin-left: 22px;
 }
+
 #HonorableMentionModel.npc_dota_hero_luna {
     margin-top: -30px;
     margin-left: -42px;
 }
+
 #HonorableMentionModel.npc_dota_hero_lone_druid {
     margin-top: -10px;
     margin-left: -20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_lycan {
     margin-top: -30px;
     margin-left: -22px;
 }
+
 #HonorableMentionModel.npc_dota_hero_mirana {
     margin-top: -40px;
     margin-left: -10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_meepo {
     margin-top: -60px;
     margin-left: 0px;
 }
+
 #HonorableMentionModel.npc_dota_hero_morphling {
     margin-left: -30px;
 }
+
 #HonorableMentionModel.npc_dota_hero_magnataur {
     margin-top: 0px;
     margin-left: -35px;
 }
+
 #HonorableMentionModel.npc_dota_hero_nevermore {
     margin-top: 20px;
     margin-left: 0px;
 }
+
 #HonorableMentionModel.npc_dota_hero_nyx_assassin {
     margin-top: -40px;
     margin-left: -10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_naga_siren {
     margin-top: -10px;
     margin-left: 20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_night_stalker {
     margin-top: 10px;
     margin-left: 10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_necrolyte {
     margin-top: -30px;
     margin-left: 10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_ogre_magi {
     margin-top: 0px;
     margin-left: -20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_oracle {
     margin-top: -40px;
     margin-left: -40px;
 }
+
 #HonorableMentionModel.npc_dota_hero_omniknight {
     margin-top: -10px;
     margin-left: 10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_obsidian_destroyer {
     margin-top: -30px;
     margin-left: -16px;
 }
+
 #HonorableMentionModel.npc_dota_hero_phoenix {
     margin-top: 0px;
     margin-left: -50px;
 }
+
 #HonorableMentionModel.npc_dota_hero_phantom_lancer {
     margin-top: 0px;
     margin-left: -30px;
 }
+
 #HonorableMentionModel.npc_dota_hero_phantom_assassin {
     margin-top: -10px;
     margin-left: -10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_pudge {
     margin-top: -40px;
     margin-left: -50px;
 }
+
 #HonorableMentionModel.npc_dota_hero_pugna {
     margin-top: 10px;
     margin-left: 6px;
 }
+
 #HonorableMentionModel.npc_dota_hero_queenofpain {
     margin-top: 0px;
     margin-left: 16px;
 }
+
 #HonorableMentionModel.npc_dota_hero_razor {
     margin-top: 0px;
     margin-left: 10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_rattletrap {
     margin-top: -20px;
     margin-left: 8px;
 }
+
 #HonorableMentionModel.npc_dota_hero_riki {
     margin-top: -40px;
     margin-left: -20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_sand_king {
     margin-top: -60px;
     margin-left: -20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_sven {
     margin-top: 0px;
     margin-left: 16px;
 }
+
 #HonorableMentionModel.npc_dota_hero_silencer {
     margin-top: 0px;
     margin-left: 12px;
 }
+
 #HonorableMentionModel.npc_dota_hero_slark {
     margin-top: -60px;
     margin-left: -20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_skywrath_mage {
     margin-top: -60px;
     margin-left: 0px;
 }
+
 #HonorableMentionModel.npc_dota_hero_spirit_breaker {
     margin-top: -60px;
     margin-left: -20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_shredder {
     margin-top: -40px;
     margin-left: -22px;
 }
+
 #HonorableMentionModel.npc_dota_hero_shadow_demon {
     margin-top: 20px;
     margin-left: 0px;
 }
+
 #HonorableMentionModel.npc_dota_hero_shadow_shaman {
     margin-top: -60px;
     margin-left: 10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_sniper {
     margin-top: -30px;
     margin-left: 6px;
 }
+
 #HonorableMentionModel.npc_dota_hero_skeleton_king {
     margin-top: 20px;
     margin-left: 14px;
 }
+
 #HonorableMentionModel.npc_dota_hero_shadow_shaman {
     margin-top: -50px;
     margin-left: 10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_techies {
     margin-top: -60px;
     margin-left: 10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_templar_assassin {
     margin-top: -10px;
     margin-left: 30px;
 }
+
 #HonorableMentionModel.npc_dota_hero_tiny {
     margin-top: -40px;
     margin-left: -22px;
 }
+
 #HonorableMentionModel.npc_dota_hero_treant {
     margin-top: 0px;
     margin-left: -60px;
 }
+
 #HonorableMentionModel.npc_dota_hero_tinker {
     margin-top: -40px;
     margin-left: -20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_tidehunter {
     margin-top: -40px;
     margin-left: -50px;
 }
+
 #HonorableMentionModel.npc_dota_hero_troll_warlord {
     margin-top: 0px;
     margin-left: -50px;
 }
+
 #HonorableMentionModel.npc_dota_hero_tusk {
     margin-top: 0px;
     margin-left: 25px;
 }
+
 #HonorableMentionModel.npc_dota_hero_ursa {
     margin-top: 0px;
     margin-left: -60px;
 }
+
 #HonorableMentionModel.npc_dota_hero_undying {
     margin-top: 20px;
     margin-left: -20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_vengefulspirit {
     margin-top: -10px;
     margin-left: 30px;
 }
+
 #HonorableMentionModel.npc_dota_hero_venomancer {
     margin-top: -60px;
     margin-left: -32px;
 }
+
 #HonorableMentionModel.npc_dota_hero_viper {
     margin-top: -60px;
     margin-left: -42px;
 }
+
 #HonorableMentionModel.npc_dota_hero_visage {
     margin-top: -50px;
     margin-left: -26px;
 }
+
 #HonorableMentionModel.npc_dota_hero_wisp {
     margin-top: 50px;
     margin-left: 10px;
 }
+
 #HonorableMentionModel.npc_dota_hero_winter_wyvern {
     margin-top: -60px;
     margin-left: -20px;
 }
+
 #HonorableMentionModel.npc_dota_hero_weaver {
     margin-top: -80px;
     margin-left: -50px;
 }
+
 #HonorableMentionModel.npc_dota_hero_warlock {
     margin-top: -80px;
     margin-left: 0px;
 }
+
 #HonorableMentionModel.npc_dota_hero_witch_doctor {
     margin-top: -30px;
     margin-left: -40px;
 }
+
 #HonorableMentionModel.npc_dota_hero_zuus {
     margin-top: -20px;
     margin-left: 0px;
 }
+
 #HonorableMentionModel.npc_dota_hero_pangolier {
     margin-top: -60px;
     margin-left: 5px;
@@ -3612,6 +3633,7 @@ DOTAPostGameHeroStats .BotIcon {
     height: 65px;
     margin-left: 4px;
 }
+
 #AdditionalItemsContainer {
     visibility: collapse;
     flow-children: right-wrap;
@@ -3659,13 +3681,11 @@ DOTAPostGameHeroStats .BotIcon {
 
 .ItemsColumn {
     width: 342px;
-
     margin-left: 32px;
 }
 
 .AbilitiesColumn {
     width: 228px;
-
     margin-left: 32px;
     visibility: collapse;
 }
@@ -3676,14 +3696,12 @@ DOTAPostGameHeroStats .BotIcon {
 
 .BackpackItemsColumn {
     width: 226px;
-
     margin-left: 32px;
 }
 
 .GoldColumn,
 .NetWorthColumn {
     width: 64px;
-
     margin-left: 32px;
     margin-right: 16px;
     tooltip-position: top;
@@ -3698,22 +3716,27 @@ DOTAPostGameHeroStats .BotIcon {
     width: 0px;
     margin-right: 0px;
 }
+
 .PermanentBuffs1 .PermanentBuffsColumn {
     width: 100px;
     margin-right: 8px;
 }
+
 .PermanentBuffs2 .PermanentBuffsColumn {
     width: 100px;
     margin-right: 8px;
 }
+
 .PermanentBuffs3 .PermanentBuffsColumn {
     width: 150px;
     margin-right: 8px;
 }
+
 .PermanentBuffs4 .PermanentBuffsColumn {
     width: 200px;
     margin-right: 8px;
 }
+
 .PermanentBuffs5 .PermanentBuffsColumn {
     width: 250px;
     margin-right: 8px;
@@ -3732,7 +3755,6 @@ DOTAPostGameHeroStats .BotIcon {
 .GPMColumn,
 .XPMColumn {
     width: 42px;
-
     margin-left: 32px;
 }
 
@@ -3744,7 +3766,6 @@ DOTAPostGameHeroStats .BotIcon {
 .MMRColumn {
     width: 100px;
     margin-right: 32px;
-
     visibility: collapse;
 }
 
@@ -3770,7 +3791,6 @@ DOTAPostGameHeroStats .BotIcon {
 
 #SocialTools {
     vertical-align: bottom;
-
     margin-bottom: 96px;
 }
 
@@ -3781,7 +3801,6 @@ DOTAPostGameHeroStats .BotIcon {
 .WinnerPanel {
     height: 32px;
     padding: 0px;
-
     padding-left: 2px;
     horizontal-align: right;
     visibility: collapse;
@@ -3799,7 +3818,6 @@ DOTAPostGameHeroStats .BotIcon {
     color: black;
     text-shadow: 0px 0px 8px 1 #000000;
     background-color: #cad3e7;
-
     height: 20px;
     text-align: center;
     padding-top: 2px;
@@ -3845,13 +3863,10 @@ DOTAPostGameHeroStats .BotIcon {
     min-width: 100px;
     horizontal-align: center;
     height: 40px;
-
     margin-top: 90px;
     margin-left: 4px;
     margin-right: 4px;
-
     z-index: 1;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.25s;
@@ -3887,7 +3902,6 @@ DOTAPostGameProgress {
     flow-children: down;
     horizontal-align: left;
     vertical-align: top;
-
     visibility: collapse;
     margin-left: 20px;
     margin-top: 100px;
@@ -3930,9 +3944,7 @@ DOTAPostGameProgress {
 .ProgressScreen {
     width: 100%;
     height: 100%;
-
     opacity: 0;
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -3954,23 +3966,19 @@ DOTAPostGameProgress {
     width: 1440px;
     horizontal-align: center;
     overflow: noclip;
-
     margin-top: 60px;
 }
 
 #HeroBadgeHeroModel {
     width: 800px;
     height: 900px;
-
     transform: translateY(-40px);
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     opacity: 0.01;
-
     transition-property: opacity;
     transition-duration: 0.5s;
 }
+
 #HeroBadgeHeroModel.SceneLoaded {
     opacity: 1;
 }
@@ -3982,7 +3990,6 @@ DOTAPostGameProgress {
 .HeroProgressPlusIcon {
     width: 64px;
     height: 64px;
-
     background-image: url("s2r://panorama/images/dotaplus_logo_png.vtex");
     background-size: contain;
     background-position: center;
@@ -4004,10 +4011,8 @@ DOTAPostGameProgress {
     margin-left: 620px;
     margin-top: 195px;
     flow-children: down;
-
     opacity: 0;
     transform: translateX(-20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -4033,6 +4038,7 @@ DOTAPostGameProgress {
 .HeroBadgeProgressLevelProgressTitle {
     color: white;
 }
+
 .HeroBadgeProgressCurrentLevel {
     color: #d7c883;
     font-size: 18px;
@@ -4054,16 +4060,13 @@ DOTAPostGameProgress {
 #LevelUpText {
     margin-right: 200px;
     horizontal-align: right;
-
     font-size: 42px;
     font-weight: bold;
     color: #d7c883;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     opacity: 0;
     pre-transform-scale2d: 1.3;
-
     transition-property: opacity, pre-transform-scale2d;
     transition-duration: 0.5s;
 }
@@ -4078,10 +4081,8 @@ DOTAPostGameProgress {
     ui-scale: 300%;
     margin-top: 220px;
     margin-left: 1120px;
-
     opacity: 0;
     transform: translateX(20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -4110,12 +4111,9 @@ DOTAPostGameProgress {
 
 .HeroBadgeProgressRow {
     flow-children: right;
-
     width: 100%;
-
     opacity: 0;
     transform: translateX(50px);
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -4143,9 +4141,7 @@ DOTAPostGameProgress {
     text-align: right;
     text-transform: uppercase;
     letter-spacing: 2px;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -4183,13 +4179,10 @@ DOTAPostGameProgress {
 .HeroBadgeProgressRow_Challenge .HeroBadgeProgressRowChallengeStar {
     width: 22px;
     height: 22px;
-
     margin-right: 2px;
-
     background-image: url("s2r://panorama/images/control_icons/star_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
-
     wash-color: #ccc;
 }
 
@@ -4220,6 +4213,7 @@ DOTAPostGameProgress {
     opacity: 1;
     transform: none;
 }
+
 #TotalsRow.HeroBadgeProgressRow .HeroBadgeProgressRowValue {
     opacity: 1;
 }
@@ -4237,7 +4231,6 @@ DOTAPostGameProgress {
 #HeroBadgeLevelProgressContainer > Label {
     font-size: 24px;
     color: white;
-
     horizontal-align: center;
     margin-top: 1px;
     letter-spacing: 2px;
@@ -4257,9 +4250,7 @@ DOTAPostGameProgress {
 #RewardsFinishedButton {
     margin-top: 30px;
     horizontal-align: center;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.5s;
 }
@@ -4278,10 +4269,8 @@ DOTAPostGameProgress {
     flow-children: down;
     width: 164px;
     margin-right: 8px;
-
     opacity: 0;
     transform: translateY(-20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -4303,7 +4292,6 @@ DOTAPostGameProgress {
     margin-top: 8px;
     horizontal-align: center;
     margin-bottom: 8px;
-
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -4317,7 +4305,6 @@ DOTAPostGameProgress {
     font-size: 16px;
     text-align: center;
     width: 164px;
-
     height: 27px;
     text-overflow: shrink;
 }
@@ -4339,7 +4326,6 @@ DOTAPostGameProgress {
     font-size: 20px;
     text-align: center;
     width: 194px;
-
     height: 27px;
     text-overflow: shrink;
 }
@@ -4362,16 +4348,13 @@ DOTAPostGameProgress {
 #HeroRelicsHeroModel {
     width: 800px;
     height: 900px;
-
     transform: translateY(-40px);
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     opacity: 0.01;
-
     transition-property: opacity;
     transition-duration: 0.5s;
 }
+
 #HeroRelicsHeroModel.SceneLoaded {
     opacity: 1;
 }
@@ -4381,10 +4364,8 @@ DOTAPostGameProgress {
     margin-left: 620px;
     margin-top: 195px;
     flow-children: down;
-
     opacity: 0;
     transform: translateX(20px);
-
     transition-property: transform, opacity;
     transition-duration: 0.5s;
 }
@@ -4407,14 +4388,11 @@ DOTAPostGameProgress {
 
 .SingleRelicProgress {
     sound: "SingleRelicProgress";
-
     flow-children: right;
     margin-right: 24px;
     margin-bottom: 8px;
-
     transform: translateX(-20px);
     opacity: 0;
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
 }
@@ -4465,15 +4443,19 @@ DOTAPostGameProgress {
 .PrimaryAttributeStrength .SingleRelicLevel {
     color: dotaPlusRelicTextStr;
 }
+
 .PrimaryAttributeAgility .SingleRelicLevel {
     color: dotaPlusRelicTextAgi;
 }
+
 .PrimaryAttributeIntellect .SingleRelicLevel {
     color: dotaPlusRelicTextInt;
 }
+
 .PrimaryAttributeUniversal .SingleRelicLevel {
     color: dotaPlusRelicTextUni;
 }
+
 .RareRelic .SingleRelicLevel {
     color: dotaPlusRelicTextRare;
 }
@@ -4481,15 +4463,19 @@ DOTAPostGameProgress {
 .PrimaryAttributeStrength .HeroRelicLevelLabel {
     color: dotaPlusRelicTextStr;
 }
+
 .PrimaryAttributeAgility .HeroRelicLevelLabel {
     color: dotaPlusRelicTextAgi;
 }
+
 .PrimaryAttributeIntellect .HeroRelicLevelLabel {
     color: dotaPlusRelicTextInt;
 }
+
 .PrimaryAttributeUniversal .HeroRelicLevelLabel {
     color: dotaPlusRelicTextUni;
 }
+
 .RareRelic .HeroRelicLevelLabel {
     color: dotaPlusRelicTextRare;
 }
@@ -4504,7 +4490,6 @@ DOTAPostGameProgress {
 .SingleRelicProgressValues {
     flow-children: right;
     width: 100%;
-
     padding-bottom: 4px;
 }
 
@@ -4514,7 +4499,6 @@ DOTAPostGameProgress {
     font-weight: bold;
     letter-spacing: 3px;
     vertical-align: bottom;
-
     height: 28px;
 }
 
@@ -4525,10 +4509,8 @@ DOTAPostGameProgress {
     letter-spacing: 3px;
     vertical-align: bottom;
     margin-bottom: -2px;
-
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1);
-
     transition-property: opacity, transform;
     transition-duration: 0.4s;
 }
@@ -4580,7 +4562,6 @@ DOTAPostGameProgress {
 #SingleRelicProgressBar {
     width: 100%;
     height: 3px;
-
     background-color: #3a474f;
     border-radius: 0px;
     box-shadow: none;
@@ -4595,15 +4576,19 @@ DOTAPostGameProgress {
 .SingleRelicProgress.PrimaryAttributeStrength #SingleRelicProgressBar .ProgressBarLeft {
     background-color: dotaPlusRelicProgStr;
 }
+
 .SingleRelicProgress.PrimaryAttributeAgility #SingleRelicProgressBar .ProgressBarLeft {
     background-color: dotaPlusRelicProgAgi;
 }
+
 .SingleRelicProgress.PrimaryAttributeIntellect #SingleRelicProgressBar .ProgressBarLeft {
     background-color: dotaPlusRelicProgInt;
 }
+
 .SingleRelicProgress.PrimaryAttributeUniversal #SingleRelicProgressBar .ProgressBarLeft {
     background-color: dotaPlusRelicProgUni;
 }
+
 .SingleRelicProgress.RareRelic #SingleRelicProgressBar .ProgressBarLeft {
     background-color: dotaPlusRelicProgRare;
 }
@@ -4677,17 +4662,14 @@ DOTAPostGameProgress {
     horizontal-align: center;
     vertical-align: top;
     margin-top: 95px;
-
     font-size: 35px;
     font-weight: normal;
     text-align: center;
     color: #ffffffee;
     letter-spacing: 5px;
     text-transform: uppercase;
-
     text-shadow: 0px 2px 5px 3.5 #000000;
     color: gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#ffffff90));
-
     z-index: 2;
 }
 
@@ -4702,13 +4684,10 @@ DOTAPostGameProgress {
     width: 500px;
     margin: 0px 8px;
     height: 100%;
-
     transform: translateY(20px);
     visibility: collapse;
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
-
     opacity: 0;
 }
 
@@ -4724,20 +4703,16 @@ DOTAPostGameProgress {
 .MatchRewardsSectionBackground {
     horizontal-align: center;
     vertical-align: top;
-
     width: 500px;
     height: 550px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#2f3652), color-stop(0.5, #2f365222), to(#2f365200));
 }
 
 .MatchRewardsSectionMain {
     margin-top: 380px;
     width: 420px;
-
     horizontal-align: center;
     vertical-align: top;
-
     flow-children: down;
 }
 
@@ -4752,15 +4727,14 @@ DOTAPostGameProgress {
     text-shadow: 0px 2px 5px 3.5 #000000;
     font-family: monospaceNumbersFont;
     height: 70px;
-
     horizontal-align: center;
     vertical-align: middle;
     width: 100%;
     padding: 0px 10px;
 }
+
 #ShardsMatchRewardsSection .MatchRewardsSectionTitle {
     color: dotaPlusLightGold;
-
     horizontal-align: center;
     vertical-align: middle;
 }
@@ -4770,7 +4744,6 @@ DOTAPostGameProgress {
     height: 700px;
     margin-top: 15px;
     horizontal-align: center;
-
     opacity-mask: url("s2r://panorama/images/masks/dota_plus_hero_mask_psd.vtex");
 }
 
@@ -4850,7 +4823,6 @@ DOTAPostGameProgress {
 .MatchRewardsHeroLevelPlusRestrictedContainer {
     width: 100%;
     height: 335px;
-
     visibility: collapse;
 }
 
@@ -4904,10 +4876,8 @@ DOTAPostGameProgress {
     width: 100%;
     margin-bottom: 8px;
     overflow: noclip;
-
     opacity: 0;
     transform: translateX(-20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -4948,9 +4918,7 @@ DOTAPostGameProgress {
     border: 1px solid dotaPlusGold&44;
     margin-top: 4px;
     margin-left: 4px;
-
     box-shadow: fill #000000 0px 0px 12px 0px;
-
     background-color: dotaPlusGold&02;
     box-shadow: fill dotaPlusGold&01 0px 0px 8px 0px;
 }
@@ -5059,7 +5027,6 @@ DOTAPostGameProgress {
     flow-children: right;
     horizontal-align: center;
     height: 171px;
-
     visibility: collapse;
 }
 
@@ -5087,10 +5054,8 @@ DOTAPostGameProgress {
 
 #MatchRewardsGuildContracts .MatchRewardsGuildContract {
     ui-scale: 90%;
-
     opacity: 0;
     transform: translateY(20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -5127,12 +5092,9 @@ DOTAPostGameProgress {
     background-color: black;
     margin-left: 12px;
     margin-top: 4px;
-
     transform: translateY(20px);
     opacity: 0;
-
     visibility: collapse;
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -5222,7 +5184,6 @@ DOTAPostGameProgress {
         color-stop(1, #adadad)
     );
     wash-color: #ffafe3;
-
     z-index: 2;
 }
 
@@ -5255,7 +5216,6 @@ DOTAGuildContract {
     background-position: center top;
     vertical-align: bottom;
     opacity: 0.03;
-
     background-image: url("s2r://panorama/images/dota_plus/post_game_smoke_png.vtex");
 }
 
@@ -5325,7 +5285,6 @@ DOTAGuildContract {
 .WeeklyProgressItemName {
     padding-left: 16px;
     color: #fff;
-
     font-size: 14px;
     color: rgb(255, 196, 245);
     font-weight: normal;
@@ -5427,6 +5386,7 @@ DOTAGuildContract {
     0% {
         pre-transform-scale2d: 1;
     }
+
     100% {
         pre-transform-scale2d: 1.25;
     }
@@ -5490,7 +5450,6 @@ DOTAGuildContract {
     opacity: 0;
     transition-property: color;
     transition-duration: 2s;
-
     transition-timing-function: ease-in;
 }
 
@@ -5543,12 +5502,10 @@ DOTAGuildContract {
     width: 100%;
     height: 100%;
     margin-top: 180px;
-
     background-image: url("s2r://panorama/images/compendium/international2020/bp-postgame-progress-bg_jpg.vtex");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
-
     overflow: noclip;
 }
 
@@ -5562,7 +5519,6 @@ DOTAGuildContract {
     background-size: cover;
     background-position: center;
     brightness: 0.2;
-
     visibility: collapse;
 }
 
@@ -5573,7 +5529,6 @@ DOTAGuildContract {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
     horizontal-align: center;
     z-index: 2;
     transform: translateY(-180px);
@@ -5583,14 +5538,10 @@ DOTAGuildContract {
     width: 1440px;
     horizontal-align: center;
     overflow: noclip;
-
     margin-top: 212px;
-
     opacity: 1;
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
-
     flow-children: down;
 }
 
@@ -5626,7 +5577,6 @@ DOTAGuildContract {
     margin-top: 12px;
     vertical-align: middle;
     wash-color: defaultColor;
-
     background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -5720,7 +5670,6 @@ DOTAGuildContract {
     vertical-align: bottom;
     margin-top: -2px;
     text-align: right;
-
     font-weight: normal;
     font-size: 16px;
     color: textDefaultColor;
@@ -5803,7 +5752,6 @@ DOTAGuildContract {
     font-size: 24px;
     text-shadow: 0px 0px 5px accentColor;
     margin-top: -2px;
-
     height: 40px;
 }
 
@@ -5814,7 +5762,6 @@ DOTAGuildContract {
 
 #BattlePassProgressCore {
     margin-top: 32px;
-
     flow-children: right;
     horizontal-align: center;
 }
@@ -5827,9 +5774,7 @@ DOTAGuildContract {
     padding: 12px;
     border-top: 1px solid shadeColor;
     opacity: 0;
-
     visibility: collapse;
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
@@ -5854,7 +5799,6 @@ DOTAGuildContract {
 .ProgressTypeTitle {
     horizontal-align: center;
     margin-top: 8px;
-
     text-align: center;
     text-overflow: shrink;
     color: textUltraBrightColor;
@@ -5877,18 +5821,14 @@ DOTAGuildContract {
     background-repeat: no-repeat;
     background-size: contain;
     transform: translateY(9.5px);
-
     wash-color: #9e5599cc;
 }
 
 #XPCircleContainer {
     horizontal-align: center;
     vertical-align: bottom;
-
     opacity: 0;
-
     flow-children: right;
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
@@ -5923,7 +5863,6 @@ DOTAGuildContract {
     margin: 0px;
     width: fit-children;
     height: fit-children;
-
     flow-children: right;
     vertical-align: center;
     horizontal-align: center;
@@ -5939,7 +5878,6 @@ DOTAGuildContract {
     color: highlightGradient;
     letter-spacing: 1px;
     text-shadow: 0px 0px 5px accentColor;
-
     width: fit-children;
 }
 
@@ -5956,7 +5894,6 @@ DOTAGuildContract {
     flow-children: right;
     opacity: 0;
     transform: scale3d(1.3, 1.3, 1);
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
@@ -5978,7 +5915,6 @@ DOTAGuildContract {
     margin-bottom: 10px;
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1.5);
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
@@ -6035,10 +5971,8 @@ DOTAGuildContract {
     height: 40px;
     margin-bottom: 4px;
     flow-children: right;
-
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1);
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
@@ -6070,7 +6004,6 @@ DOTAGuildContract {
     width: 40px;
     height: 40px;
     vertical-align: center;
-
     background-image: url("s2r://panorama/images/compendium/international2018/tipping_token_png.vtex");
     background-size: contain;
     background-position: 50% 50%;
@@ -6141,13 +6074,10 @@ DOTAGuildContract {
 .BattlePassAction {
     width: fit-children;
     horizontal-align: center;
-
     margin-bottom: 10px;
     flow-children: right;
-
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1);
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
@@ -6181,7 +6111,6 @@ DOTAGuildContract {
     color: textSecondaryAccentColor;
     font-size: 24px;
     margin: 0px;
-
     font-weight: bold;
 }
 
@@ -6189,7 +6118,6 @@ DOTAGuildContract {
     horizontal-align: left;
     text-align: left;
     font-size: 24px;
-
     color: textUltraBrightColor;
     font-weight: bold;
 }
@@ -6208,10 +6136,8 @@ DOTAGuildContract {
     width: 24px;
     height: 24px;
     margin-left: 4px;
-
     wash-color: textAccentColor;
     margin-right: 4px;
-
     background-image: bp_cavern_crawl_logo;
     background-size: 100% 100%;
     background-position: 50% 50%;
@@ -6223,7 +6149,6 @@ DOTAGuildContract {
     height: 256px;
     transform: scale3d(1.5, 1.5, 1);
     opacity: 0;
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
@@ -6256,10 +6181,8 @@ DOTAGuildContract {
 .ProgressCompletedContainer {
     margin-top: 4px;
     horizontal-align: center;
-
     transform: scale3d(1.5, 1.5, 1);
     opacity: 0;
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
@@ -6329,10 +6252,8 @@ DOTAGuildContract {
 .WeeklyChallengeContainer {
     width: 100%;
     height: 256px;
-
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1);
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
@@ -6359,7 +6280,6 @@ DOTAGuildContract {
     box-shadow: inset accentColor 0px 1px 1px 2px;
     background-color: darkColor;
     border: 1px solid secondaryBrightColor;
-
     height: 20px;
     margin: 20px 8px 8px 8px;
     padding: 2px;
@@ -6391,7 +6311,6 @@ DOTAGuildContract {
     width: 100%;
     visibility: collapse;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -6427,7 +6346,6 @@ DOTAGuildContract {
 #GuildContractList .BattlePassGuildContract {
     opacity: 0;
     transform: translateY(20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -6446,7 +6364,6 @@ DOTAGuildContract {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     visibility: collapse;
 }
 
@@ -6472,7 +6389,6 @@ DOTAGuildContract {
     background-color: black;
     width: 48px;
     height: 48px;
-
     horizontal-align: center;
 }
 
@@ -6517,14 +6433,11 @@ DOTAGuildContract {
 .EventGame_Progress {
     flow-children: down;
     width: 100%;
-
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1);
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
-
     margin-top: 30px;
 }
 
@@ -6541,11 +6454,9 @@ DOTAGuildContract {
 .EventGame_Progress_Bar {
     background-color: darkColor;
     border: 1px solid shadeColor;
-
     height: 16px;
     margin: 4px 0;
     width: 100%;
-
     background-color: #181717;
     border: 1px solid #2a1b2a;
     transform: skew(12deg) translateY(4px);
@@ -6569,7 +6480,6 @@ DOTAGuildContract {
         color-stop(1, #adadad)
     );
     wash-color: #ffafe3;
-
     z-index: 2;
 }
 
@@ -6580,19 +6490,19 @@ DOTAGuildContract {
 
 .EventGame_Win {
     width: 100%;
-
     visibility: collapse;
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1);
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
     margin-bottom: 4px;
 }
+
 .EventGame_HasWin .EventGame_Win {
     visibility: visible;
 }
+
 .EventGame_ShowWin .EventGame_Win {
     opacity: 1;
     transform: scale3d(1, 1, 1);
@@ -6604,14 +6514,15 @@ DOTAGuildContract {
     visibility: collapse;
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1);
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
 }
+
 .EventGame_HasDailyBonus .EventGame_WinBonus {
     visibility: visible;
 }
+
 .EventGame_ShowDailyBonus .EventGame_WinBonus {
     opacity: 1;
     transform: scale3d(1, 1, 1);
@@ -6623,14 +6534,15 @@ DOTAGuildContract {
     visibility: collapse;
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1);
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
 }
+
 .EventGame_HasLoss .EventGame_Loss {
     visibility: visible;
 }
+
 .EventGame_ShowLoss .EventGame_Loss {
     opacity: 1;
     transform: scale3d(1, 1, 1);
@@ -6642,14 +6554,15 @@ DOTAGuildContract {
     visibility: collapse;
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1);
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
 }
+
 .EventGame_HasTreasure .EventGame_Treasure {
     visibility: visible;
 }
+
 .EventGame_ShowTreasure .EventGame_Treasure {
     opacity: 1;
     transform: scale3d(1, 1, 1);
@@ -6661,6 +6574,7 @@ DOTAGuildContract {
     font-weight: normal;
     font-size: 16px;
 }
+
 .EventGame_Label_Progress {
     horizontal-align: right;
     font-weight: bold;
@@ -6693,7 +6607,6 @@ DOTAGuildContract {
     color: white;
     text-shadow: 0px 0px 15px 1.5 #0e5aff;
     text-overflow: shrink;
-
     vertical-align: top;
     horizontal-align: center;
     text-align: center;
@@ -6708,12 +6621,10 @@ DOTAGuildContract {
     letter-spacing: 2px;
     color: #ffffff;
     text-overflow: shrink;
-
     vertical-align: top;
     horizontal-align: center;
     text-align: center;
     width: 550px;
-
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -6732,15 +6643,11 @@ DOTAGuildContract {
 #GenericArcanaModel {
     horizontal-align: center;
     margin-right: 100px;
-
     width: 1000px;
     height: 1000px;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     opacity: 0.001;
     transform: translateX(100px);
-
     transition-property: transform, opacity;
     transition-duration: 0.5s;
 }
@@ -6755,18 +6662,13 @@ DOTAGuildContract {
     horizontal-align: left;
     margin-left: 100px;
     margin-top: 100px;
-
     width: 400px;
     height: 400px;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     opacity: 0.001;
     transform: translateX(-600px);
-
     transition-property: transform, opacity;
     transition-duration: 0.5s;
-
     visibility: collapse;
 }
 
@@ -6779,28 +6681,22 @@ DOTAGuildContract {
 .GenericArcanaData {
     width: 550px;
     min-height: 400px;
-
     margin-right: 50px;
-
     horizontal-align: right;
     vertical-align: middle;
-
     flow-children: down;
 }
 
 .GenericArcanaDataContainer {
     vertical-align: top;
     horizontal-align: center;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#2f3652), color-stop(0.5, #2f365222), to(#2f365200));
     opacity-mask: url("s2r://panorama/images/masks/softedge_bottom_png.vtex");
     background-size: cover;
     background-repeat: no-repeat;
-
     width: 85%;
     height: 100%;
     min-height: 400px;
-
     flow-children: down;
     padding: 25px;
 }
@@ -6809,7 +6705,6 @@ DOTAGuildContract {
     flow-children: right;
     padding: 4px;
     width: 100%;
-
     margin-top: -5px;
     margin-bottom: 10px;
 }
@@ -6817,23 +6712,19 @@ DOTAGuildContract {
 #GenericArcanaProgressBar {
     width: 85%;
     height: 25px;
-
     background-color: #151929;
-
     vertical-align: center;
 }
 
 #GenericArcanaProgressBarLabel {
     vertical-align: center;
     horizontal-align: center;
-
     color: #d8d8d8;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: normal;
     text-overflow: shrink;
-
     z-index: 10;
 }
 
@@ -6844,23 +6735,19 @@ DOTAGuildContract {
 #GenericArcanaDataSeparator {
     margin-top: 10px;
     margin-bottom: 15px;
-
     border-top: 2px solid #444f81;
-
     width: 100%;
 }
 
 #GenericArcanaProgressDescription {
     vertical-align: top;
     horizontal-align: left;
-
     color: #ffffff;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: normal;
     text-overflow: shrink;
-
     padding-top: 4px;
     padding-bottom: 4px;
 }
@@ -6868,26 +6755,21 @@ DOTAGuildContract {
 #GenericArcanaProgressIncrement {
     vertical-align: top;
     horizontal-align: right;
-
     color: #ffffff;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: normal;
     text-overflow: shrink;
-
     padding-top: 4px;
     padding-bottom: 4px;
-
     text-shadow: 0px 0px 10px 2 #266bff;
 }
 
 .GenericArcanaProgressLower {
     width: 90%;
-
     transform: translateY(400px);
     opacity: 0;
-
     transition-property: transform, opacity;
     transition-delay: 0s;
     transition-duration: 0.4s;
@@ -6908,6 +6790,7 @@ DOTAGuildContract {
     0% {
         pre-transform-scale2d: 1.5;
     }
+
     100% {
         pre-transform-scale2d: 1;
     }
@@ -6942,7 +6825,6 @@ DOTAGuildContract {
     color: white;
     text-shadow: 0px 0px 15px 1.5 #750000;
     text-overflow: shrink;
-
     vertical-align: top;
     horizontal-align: center;
     text-align: center;
@@ -6957,12 +6839,10 @@ DOTAGuildContract {
     letter-spacing: 2px;
     color: #cccccc;
     text-overflow: shrink;
-
     vertical-align: top;
     horizontal-align: center;
     text-align: center;
     width: 550px;
-
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -6970,18 +6850,14 @@ DOTAGuildContract {
 .npc_dota_hero_drow_ranger .GenericArcanaDataContainer {
     vertical-align: top;
     horizontal-align: center;
-
     border-top: 2px solid #a80000;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#4b1639), color-stop(0.5, #2f1f4979), to(#2f1f4900));
     opacity-mask: url("s2r://panorama/images/masks/softedge_bottom_png.vtex");
     background-size: cover;
     background-repeat: no-repeat;
-
     width: 85%;
     height: 100%;
     min-height: 400px;
-
     flow-children: down;
     padding: 25px;
 }
@@ -6989,23 +6865,19 @@ DOTAGuildContract {
 .npc_dota_hero_drow_ranger #GenericArcanaProgressBar {
     width: 85%;
     height: 25px;
-
     background-color: #1f102c;
-
     vertical-align: center;
 }
 
 .npc_dota_hero_drow_ranger #GenericArcanaProgressBarLabel {
     vertical-align: center;
     horizontal-align: center;
-
     color: #d8d8d8;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: normal;
     text-overflow: shrink;
-
     z-index: 10;
 }
 
@@ -7016,26 +6888,21 @@ DOTAGuildContract {
 #GenericArcanaDataSeparator {
     margin-top: 10px;
     margin-bottom: 15px;
-
     border-top: 2px solid #5c001f;
-
     width: 100%;
 }
 
 #GenericArcanaProgressIncrement {
     vertical-align: top;
     horizontal-align: right;
-
     color: #ffffff;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: normal;
     text-overflow: shrink;
-
     padding-top: 4px;
     padding-bottom: 4px;
-
     text-shadow: 0px 0px 10px 2 #7e0000;
 }
 
@@ -7053,15 +6920,11 @@ DOTAGuildContract {
 
 #RubickArcanaModel {
     horizontal-align: right;
-
     width: 800px;
     height: 900px;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     opacity: 0.001;
     transform: translateX(100px);
-
     transition-property: transform, opacity;
     transition-duration: 0.5s;
 }
@@ -7073,10 +6936,8 @@ DOTAGuildContract {
 
 #RubickArcanaProgress {
     margin-top: 150px;
-
     transform: translateX(-100px);
     opacity: 0;
-
     transition-property: transform, opacity;
     transition-duration: 0.5s;
 }
@@ -7114,12 +6975,9 @@ DOTAGuildContract {
     width: 1440px;
     horizontal-align: center;
     overflow: noclip;
-
     margin-top: 60px;
-
     opacity: 0;
     transform: translateX(-20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -7133,12 +6991,9 @@ DOTAGuildContract {
     width: 1440px;
     horizontal-align: center;
     overflow: noclip;
-
     margin-top: 60px;
-
     opacity: 0;
     transform: translateX(-20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -7150,7 +7005,6 @@ DOTAGuildContract {
 
 #EventPointsProgressCenter {
     width: 1378px;
-
     flow-children: down;
     horizontal-align: center;
 }
@@ -7166,7 +7020,6 @@ DOTAGuildContract {
     margin-right: 8px;
     vertical-align: center;
     wash-color: defaultColor;
-
     background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -7289,7 +7142,6 @@ DOTAGuildContract {
 #EventPointsLevelProgressContainer > Label {
     font-size: 24px;
     color: white;
-
     horizontal-align: center;
     margin-top: 1px;
     letter-spacing: 2px;
@@ -7356,7 +7208,6 @@ DOTAGuildContract {
     opacity: 0;
     transform: scale3d(1.3, 1.3, 1);
     visibility: collapse;
-
     transition-property: opacity, transform;
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
@@ -7401,12 +7252,9 @@ DOTAGuildContract {
 
 .EventPointsProgressRow {
     flow-children: right;
-
     width: 100%;
-
     opacity: 0;
     transform: translateX(50px);
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -7434,9 +7282,7 @@ DOTAGuildContract {
     text-align: right;
     text-transform: uppercase;
     letter-spacing: 2px;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -7462,10 +7308,8 @@ DOTAGuildContract {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-
     opacity: 0;
     transform: translateX(-360px);
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -7483,10 +7327,8 @@ DOTAGuildContract {
     padding-top: 24px;
     margin-bottom: 200px;
     flow-children: down;
-
     opacity: 0;
     transform: translateX(370px);
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -7574,7 +7416,6 @@ DOTAGuildContract {
 #CoachTimeRemainingProgressBar_FG {
     width: 100%;
     height: 100%;
-
     background-color: accentColor;
 }
 
@@ -7628,11 +7469,9 @@ DOTAGuildContract {
 .CoachRatingButtonIcon {
     width: 150px;
     height: 150px;
-
     vertical-align: middle;
     horizontal-align: center;
     margin-bottom: 96px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -7666,7 +7505,6 @@ DOTAGuildContract {
 
 .CoachRatingButtonTitle {
     width: 300px;
-
     horizontal-align: center;
     text-align: center;
     text-transform: uppercase;
@@ -7702,16 +7540,13 @@ DOTAGuildContract {
 
 .AbusiveRatingButtonIcon {
     vertical-align: middle;
-
     width: 32px;
     height: 32px;
     margin-right: 12px;
-
     background-image: url("s2r://panorama/images/conduct/report_flag_png.vtex");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
     wash-color: #666;
 }
 
@@ -7738,7 +7573,6 @@ DOTAGuildContract {
     margin-top: 180px;
     border-top: 2px solid #444444;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#060a13), to(#162034));
-
     overflow: clip;
 }
 
@@ -7750,10 +7584,8 @@ DOTAGuildContract {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-
     opacity: 0.5;
     transform: translateX(-360px);
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -7766,10 +7598,8 @@ DOTAGuildContract {
     margin-bottom: 140px;
     margin-right: 80px;
     flow-children: down;
-
     opacity: 0;
     transform: translateX(200px);
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
 }
@@ -7787,7 +7617,6 @@ DOTAGuildContract {
     letter-spacing: 4px;
     color: white;
     horizontal-align: center;
-
     margin-top: 32px;
 }
 
@@ -7819,11 +7648,9 @@ DOTAGuildContract {
     width: 400px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#060a13), to(#162034));
     flow-children: down;
-
     margin: 0px;
     margin-left: 10px;
     margin-right: 10px;
-
     border: 1px solid #75829f40;
     box-shadow: fill 0px 12px 48px #00000030;
 }
@@ -7840,6 +7667,7 @@ DOTAGuildContract {
 .PositiveIcon {
     background-image: url("s2r://panorama/images/post_game/positive_icon_png.vtex");
 }
+
 .NegativeIcon {
     background-image: url("s2r://panorama/images/post_game/negative_icon_png.vtex");
     margin-top: 18px;
@@ -7898,7 +7726,6 @@ DOTAGuildContract {
 .PlayerMatchSurveyFooter {
     flow-children: none;
     margin-top: 40px;
-
     horizontal-align: center;
 }
 
@@ -7909,12 +7736,9 @@ DOTAGuildContract {
     letter-spacing: 4px;
     color: white;
     margin-bottom: 20px;
-
     horizontal-align: center;
-
     opacity: 0;
     transform: translateX(200px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -7972,6 +7796,7 @@ DOTAGuildContract {
     width: 100%;
     height: 100%;
 }
+
 #MVP2Screen #MVPModel {
     width: 90%;
     height: 100%;
@@ -8046,7 +7871,6 @@ DOTAGuildContract {
     overflow: noclip;
     margin: 16px 0;
     min-width: 360px;
-
     height: 60px;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#000e), color-stop(0.75, #000a), to(#0000));
     margin-left: -30px;
@@ -8155,15 +7979,12 @@ DOTAGuildContract {
 #HonorableMentionsContainer {
     width: 560px;
     height: 600px;
-
     vertical-align: middle;
     horizontal-align: center;
     margin-left: 855px;
     margin-top: 225px;
     opacity: 1;
-
     transition-property: opacity;
-
     flow-children: down;
 }
 
@@ -8185,10 +8006,8 @@ DOTAGuildContract {
     margin-right: 10px;
     margin-bottom: 10px;
     height: 100%;
-
     opacity: 0;
     transform: translateY(300px);
-
     transition-property: transform, opacity;
     transition-duration: 1s;
     transition-delay: 0s;
@@ -8219,6 +8038,7 @@ DOTAGuildContract {
     z-index: 1;
     height: 100%;
 }
+
 .Accolade .highlight {
     color: white;
 }
@@ -8233,7 +8053,6 @@ DOTAGuildContract {
     margin-bottom: 8px;
     background-color: black;
     background-color: gradient(linear, 0% 0%, 100% 100%, from(#0c0c0c), to(#000000));
-
     z-index: 1;
 }
 
@@ -8259,7 +8078,6 @@ DOTAGuildContract {
     width: 70px;
     height: 67px;
     background-color: #222222;
-
     background-size: 70px 67px;
     background-repeat: no-repeat;
     background-position: center;
@@ -8290,7 +8108,6 @@ DOTAGuildContract {
     font-size: 15px;
     height: 40px;
     width: 210px;
-
     line-height: 16px;
     white-space: normal;
 }
@@ -8302,7 +8119,6 @@ DOTAGuildContract {
 
 #HonorableMentions .Accolade .icon {
     width: 65px;
-
     background-size: 100% 100%;
 }
 
@@ -8327,7 +8143,6 @@ DOTAGuildContract {
     font-size: 15px;
     height: 40px;
     width: 190px;
-
     line-height: 16px;
     white-space: normal;
 }
@@ -8356,7 +8171,6 @@ DOTAGuildContract {
     font-weight: bold;
     margin: 0;
     margin-left: 4px;
-
     color: #dfe9f2;
     text-shadow: 0px 0px 8px #41a0f2;
     width: fit-children;
@@ -8498,7 +8312,6 @@ DOTAGuildContract {
 
 .EventGame_PremiumProgress_Bar .ProgressBarMiddle {
     background-color: #41a0f250;
-
     box-shadow: 0px 0px 6px #41a0f2;
     z-index: 2;
 }
@@ -8528,7 +8341,6 @@ DOTAGuildContract {
     opacity: 0;
     transition-property: color;
     transition-duration: 2s;
-
     transition-timing-function: ease-in;
 }
 
@@ -8563,7 +8375,6 @@ DOTAHeroBadge {
 @define tiny_scale: 1.5;
 @define vengefulspirit_scale: 1.15;
 @define windrunner_scale: 1.2;
-
 @define zuus_activity_modifier: versus_screen;
 @define zuus_activity_modifier: versus_screen;
 @define skeleton_king_activity_modifier: PostGameIdle;

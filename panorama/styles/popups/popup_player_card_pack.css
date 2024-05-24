@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupPlayerCardPack.PopupPanel {
     width: 100%;
     height: 100%;
@@ -5,7 +7,6 @@ DOTAPopupPlayerCardPack.PopupPanel {
     border: 0px solid transparent;
     animation-name: none;
     padding: 5px;
-
     horizontal-align: center;
     vertical-align: center;
 }
@@ -42,7 +43,6 @@ DOTAPopupPlayerCardPack.PopupPanel {
     transition-property: pre-transform-scale2d, opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-
     pre-transform-scale2d: 0.9;
 }
 
@@ -82,10 +82,8 @@ DOTAPopupPlayerCardPack.PopupPanel {
 
 #WaitingToOpen {
     visibility: collapse;
-
     horizontal-align: center;
     vertical-align: center;
-
     width: 500px;
     flow-children: down;
 }
@@ -108,12 +106,10 @@ DOTAPopupPlayerCardPack.PopupPanel {
     padding: 32px;
     background-color: #000000d0;
     visibility: collapse;
-
     width: 500px;
     horizontal-align: center;
     vertical-align: center;
     border: 2px solid black;
-
     flow-children: down;
 }
 
@@ -170,13 +166,11 @@ DOTAPopupPlayerCardPack.PopupPanel {
     font-size: 32px;
     font-weight: thin;
     letter-spacing: 1px;
-
     margin-top: 0px;
     vertical-align: top;
     margin-top: 8px;
     horizontal-align: center;
     text-align: center;
-
     letter-spacing: 4px;
     color: #666666;
 }
@@ -204,7 +198,6 @@ DOTAPopupPlayerCardPack.PopupPanel {
     horizontal-align: center;
     vertical-align: middle;
     margin-top: 664px;
-
     transition-property: opacity, pre-transform-scale2d, transform;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -229,7 +222,6 @@ DOTAPopupPlayerCardPack.PopupPanel {
 #CardPack {
     width: 450px;
     height: 600px;
-
     margin: 10px;
     transition-property: opacity, pre-transform-scale2d, transform;
     transition-duration: 0.8s;
@@ -237,7 +229,6 @@ DOTAPopupPlayerCardPack.PopupPanel {
     transition-timing-function: ease-in-out;
     vertical-align: center;
     horizontal-align: center;
-
     opacity: 1;
 }
 
@@ -282,20 +273,17 @@ DOTAPopupPlayerCardPack.PopupPanel {
     transition-timing-function: ease-in-out;
     transform: translateY(-20px);
     opacity: 0;
-
     pre-transform-scale2d: 0.4;
 }
+
 #CardPack #CardPackInterior {
     width: 284px;
     height: 404px;
-
     horizontal-align: center;
     vertical-align: center;
-
     background-image: url("s2r://panorama/images/compendium/spring2016/bp_logo_just_shield_ti6_psd.vtex");
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
     border-radius: 13px;
     background-color: #5c1e10;
 }
@@ -303,7 +291,6 @@ DOTAPopupPlayerCardPack.PopupPanel {
 #CardList {
     vertical-align: center;
     horizontal-align: center;
-
     width: 1220px;
     height: 470px;
 }
@@ -316,15 +303,11 @@ DOTAPopupPlayerCardPack.PopupPanel {
     margin-top: 48px;
     width: 200px;
     height: 280px;
-
     horizontal-align: center;
-
     border-radius: 12px;
     box-shadow: fill #000000ee 0px 0px 18px 0px;
-
     transform: rotateX(0deg);
     pre-transform-scale2d: 1;
-
     transition-property: transform, opacity, pre-transform-scale2d;
     transition-duration: 0.6s;
     transition-delay: 0s, 0s, 0.4s;
@@ -344,13 +327,10 @@ DOTAPopupPlayerCardPack.PopupPanel {
 .PlayerCardContainer {
     width: 250px;
     height: 360px;
-
     vertical-align: middle;
     horizontal-align: center;
-
     pre-transform-scale2d: 0.2;
     opacity: 0;
-
     transition-property: pre-transform-scale2d, transform, wash-color, opacity;
     transition-duration: 1s, 1.4s, 1s, 0.2s;
     transition-delay: 0s, 1.5s, 0s, 0s;
@@ -379,30 +359,22 @@ DOTAPopupPlayerCardPack.PopupPanel {
     tooltip-body-position: 50%;
     margin-top: 72px;
     horizontal-align: center;
-
     opacity: 0;
     color: white;
-
     text-shadow: 0px 1px 2px 2 #000000;
     max-width: 180px;
-
     opacity: 0;
     pre-transform-scale2d: 1;
-
     text-align: center;
-
     text-overflow: shrink;
-
     background-color: #dd8800;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#dd8800), to(#aa4400));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#374249), to(#2a3037));
     box-shadow: black 7px 2px 8px -2px;
     text-transform: uppercase;
-
     padding: 6px 12px 4px 12px;
     border-radius: 8px;
     border: 1px solid black;
-
     transition-property: pre-transform-scale2d, opacity;
     transition-duration: 0.23s;
     transition-delay: 0s;
@@ -412,13 +384,10 @@ DOTAPopupPlayerCardPack.PopupPanel {
 .PlayerCardContainer #RecycleButton {
     horizontal-align: center;
     vertical-align: top;
-
     width: 190px;
     max-height: 36px;
-
     opacity: 0;
     pre-transform-scale2d: 1;
-
     transition-property: pre-transform-scale2d, opacity;
     transition-duration: 0.23s;
     transition-delay: 0.5s;
@@ -464,7 +433,6 @@ DOTAPopupPlayerCardPack.PopupPanel {
 
 .PlayerCardContainer Button {
     horizontal-align: center;
-
     opacity: 0;
 }
 
@@ -505,15 +473,19 @@ DOTAPopupPlayerCardPack.PopupPanel {
 .StatusPackOpened #PlayerCardContainer0 {
     transform: translateX(-500px);
 }
+
 .StatusPackOpened #PlayerCardContainer1 {
     transform: translateX(-250px);
 }
+
 .StatusPackOpened #PlayerCardContainer2 {
     transform: translateX(0px);
 }
+
 .StatusPackOpened #PlayerCardContainer3 {
     transform: translateX(250px);
 }
+
 .StatusPackOpened #PlayerCardContainer4 {
     transform: translateX(500px);
 }
@@ -530,13 +502,9 @@ DOTAPopupPlayerCardPack.PopupPanel {
     width: 1200px;
     horizontal-align: center;
     vertical-align: bottom;
-
     margin-bottom: 228px;
-
     flow-children: none;
-
     opacity: 0;
-
     transition-property: opacity, transform;
     transition-duration: 0.6s;
     transition-delay: 0s, 0.6s;
@@ -609,14 +577,11 @@ DOTAPopupPlayerCardPack.PopupPanel {
     wash-color: black;
     transform: scaleY(-1);
     border-radius: 12px;
-
     background-image: url("s2r://panorama/images/playercards/cardback_ti10_psd.vtex");
     background-image: url("s2r://panorama/images/playercards/cardback_winter2022_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
-
     opacity: 0;
-
     transition-property: opacity, wash-color, pre-transform-scale2d;
     transition-duration: 0.3s, 0.3s;
     transition-delay: 0s, 0s;
@@ -692,13 +657,10 @@ DOTAPopupPlayerCardPack.PopupPanel {
 #GodRays {
     width: 1024px;
     height: 1024px;
-
     opacity: 0;
     horizontal-align: center;
-
     hue-rotation: -20deg;
     -s2-mix-blend-mode: screen;
-
     transition-property: opacity;
     transition-duration: 1.5s;
     transition-delay: 0.25s;
@@ -760,7 +722,6 @@ DOTAPopupPlayerCardPack.PopupPanel {
     opacity: 0;
     pre-transform-scale2d: 0.1;
     z-index: 2;
-
     transition-property: pre-transform-scale2d, opacity;
     transition-duration: 0.23s;
     transition-delay: 0.5s;

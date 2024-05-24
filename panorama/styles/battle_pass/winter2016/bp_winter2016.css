@@ -1,5 +1,6 @@
-@define accentColor:  #A9372E;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define accentColor: #A9372E;
 DOTABPWinter2016Page,
 DOTABPWinter2016RewardsPage,
 DOTABPWinter2016WageringPage,
@@ -29,7 +30,6 @@ DOTACompShanghai2016TeamsPage {
         color-stop(0.8, #344862cc),
         to(#192331aa)
     );
-
     transition-property: background-color;
     transition-duration: 0.5s;
 }
@@ -88,7 +88,6 @@ DOTACompShanghai2016TeamsPage {
     saturation: 1;
     contrast: 1;
     brightness: 1;
-
     transform: translateX(0px);
     width: 542px;
     horizontal-align: right;
@@ -111,13 +110,10 @@ DOTACompShanghai2016TeamsPage {
     margin-top: -60px;
     margin-left: 32px;
     transform: rotateZ(20deg) translateY(12px);
-
     background-image: url("s2r://panorama/images/compendium/whitebox_glass_psd.vtex");
     background-size: cover;
-
     border-radius: 1px;
     overflow: noclip;
-
     animation-name: SlantMotion;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -126,9 +122,11 @@ DOTACompShanghai2016TeamsPage {
 #WhiteBox1 {
     animation-duration: 31.3s;
 }
+
 #WhiteBox2 {
     animation-duration: 21.161s;
 }
+
 #WhiteBox3 {
     animation-duration: 26.7s;
 }
@@ -137,9 +135,11 @@ DOTACompShanghai2016TeamsPage {
     0% {
         transform: rotateZ(20deg) translateY(12px) translateX(0px);
     }
+
     50% {
         transform: rotateZ(20deg) translateY(12px) translateX(-22px);
     }
+
     100% {
         transform: rotateZ(20deg) translateY(12px) translateX(0px);
     }
@@ -149,12 +149,10 @@ DOTACompShanghai2016TeamsPage {
     width: 428px;
     height: 72px;
     border-radius: 1px;
-
     background-image: url("s2r://panorama/images/compendium/whitebox_glass_psd.vtex");
     background-size: cover;
     transform: rotateZ(-215deg) translateX(-40px) translateY(-50px);
     opacity: 0.2;
-
     animation-duration: 18s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -202,7 +200,6 @@ DOTACompShanghai2016TeamsPage {
     background-image: url("s2r://panorama/images/compendium/campaigncoverart_glow_psd.vtex");
     background-repeat: no-repeat;
     background-size: 100%;
-
     transition-property: transform, saturation, opacity, wash-color, pre-transform-scale2d;
     transition-duration: 1.2s;
     transition-timing-function: ease-in-out;
@@ -210,7 +207,6 @@ DOTACompShanghai2016TeamsPage {
 
 .ViewingCompendium #TierGlow {
     transform: translateX(-1180px);
-
     transition-duration: 0.9s;
 }
 
@@ -245,7 +241,6 @@ DOTACompShanghai2016TeamsPage {
     margin-top: 60px;
     vertical-align: top;
     horizontal-align: left;
-
     transition-property: transform, opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -254,9 +249,11 @@ DOTACompShanghai2016TeamsPage {
 #WhiteBox1 .Reflection {
     animation-name: ReflectionMotion1;
 }
+
 #WhiteBox2 .Reflection {
     animation-name: ReflectionMotion2;
 }
+
 #WhiteBox3 .Reflection {
     animation-name: ReflectionMotion3;
 }
@@ -265,9 +262,11 @@ DOTACompShanghai2016TeamsPage {
     0% {
         transform: rotateZ(-210deg) translateX(-20px) translateY(-20px);
     }
+
     50% {
         transform: rotateZ(-205deg) translateX(-20px) translateY(-30px);
     }
+
     100% {
         transform: rotateZ(-210deg) translateX(-20px) translateY(-20px);
     }
@@ -277,9 +276,11 @@ DOTACompShanghai2016TeamsPage {
     0% {
         transform: rotateZ(-209deg) translateX(-110px) translateY(2px);
     }
+
     50% {
         transform: rotateZ(-204deg) translateX(-110px) translateY(2px);
     }
+
     100% {
         transform: rotateZ(-209deg) translateX(-110px) translateY(2px);
     }
@@ -289,9 +290,11 @@ DOTACompShanghai2016TeamsPage {
     0% {
         transform: rotateZ(-208deg) translateX(-180px) translateY(14px);
     }
+
     50% {
         transform: rotateZ(-203deg) translateX(-180px) translateY(19px);
     }
+
     100% {
         transform: rotateZ(-208deg) translateX(-180px) translateY(14px);
     }
@@ -307,7 +310,6 @@ DOTACompShanghai2016TeamsPage {
 .CompendiumHeader {
     width: 1392px;
     height: 72px;
-
     horizontal-align: center;
     vertical-align: top;
     margin-top: 100px;
@@ -317,7 +319,6 @@ DOTACompShanghai2016TeamsPage {
     padding-top: 16px;
     width: 1392px;
     height: 800px;
-
     horizontal-align: center;
     z-index: 2;
 }
@@ -439,15 +440,12 @@ DOTACompShanghai2016TeamsPage {
     padding: 8px 10px 4px 10px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#156300ff), to(#158f00ff));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#60862d), to(#3d5f1c));
-
     border-top: 1px solid #ffffff22;
     border-left: 1px solid #ffffff11;
     border-right: 1px solid #00000044;
     border-bottom: 1px solid #00000088;
-
     transition-property: background-color;
     transition-duration: 0.2s;
-
     visibility: collapse;
 }
 
@@ -494,11 +492,9 @@ DOTACompShanghai2016TeamsPage {
     margin-top: -12px;
     margin-left: 4px;
     opacity: 1;
-
     horizontal-align: left;
     text-shadow: 0px 0px 5px 3 #000000;
     text-shadow: 0px 0px 8px 1 #61beff;
-
     transition-property: opacity;
     transition-duration: 0.5s;
 }
@@ -537,7 +533,6 @@ DOTACompShanghai2016TeamsPage {
     text-shadow: 0px 0px 8px 1 #61beff;
     margin-top: 28px;
     padding-left: 6px;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.5s;
@@ -553,11 +548,8 @@ DOTACompShanghai2016TeamsPage {
     background-size: contain;
     width: 314px;
     height: 100px;
-
     margin-top: 28px;
-
     opacity: 1;
-
     transition-property: opacity, brightness;
     transition-duration: 0.5s, 0.12s;
 }
@@ -572,7 +564,6 @@ DOTACompShanghai2016TeamsPage {
     pre-transform-scale2d: 0.5;
     transform: translateX(-48px) translateY(-16px);
     opacity: 0;
-
     horizontal-align: left;
 }
 
@@ -688,11 +679,8 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     background-color: black;
     overflow: clip scroll;
     padding: 16px;
-
     wash-color: black;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_vscroll_psd.vtex") 1;
-
     transition-property: height, wash-color;
     transition-duration: 0.25s;
 }
@@ -715,7 +703,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     height: 64px;
     vertical-align: center;
     wash-color: #61bef0;
-
     background-image: url("s2r://panorama/images/compendium/shield_icon_psd.vtex");
     background-size: cover;
 }
@@ -864,10 +851,8 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     border: 1px solid #224577;
     vertical-align: bottom;
     horizontal-align: right;
-
     margin-bottom: 16px;
     margin-right: 16px;
-
     z-index: 2;
 }
 
@@ -888,12 +873,10 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     blur: gaussian(1, 1, 1);
     horizontal-align: center;
     vertical-align: middle;
-
     background-color: #09101b;
     background-position: 65% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-
     transition-property: opacity, background-image;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -939,6 +922,7 @@ DOTABPWinter2016WageringPage .CompendiumBody {
         transform: translateX(30px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0px);
         opacity: 1;
@@ -960,7 +944,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     transform: rotateZ(0deg) translateY(0px);
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     wash-color: #91bee3;
-
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 2px;
@@ -1010,7 +993,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     padding-top: 32px;
     background-color: #000000ad;
     border: 1px solid black;
-
     transition-property: opacity;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -1034,14 +1016,11 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     border: 2px solid black;
     margin-left: 16px;
     margin-top: 0px;
-
     saturation: 0.2;
-
     background-color: #000000ee;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-
     transition-property: opacity, saturation;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -1080,10 +1059,8 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     horizontal-align: center;
     margin-bottom: 20px;
     color: #3f82c0;
-
     text-shadow: 0px 1px 2px 3 #000000;
     box-shadow: fill -7px 0px 14px 0px #000000dd;
-
     transition-property: color;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -1094,19 +1071,21 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     margin-bottom: 0px;
     text-transform: uppercase;
     letter-spacing: 1px;
-
     wash-color: #00000088;
 }
 
 #Questline1Picker {
     background-image: url("s2r://panorama/images/compendium/winter2016/support_quest_psd.vtex");
 }
+
 #Questline2Picker {
     background-image: url("s2r://panorama/images/compendium/winter2016/solo_quest_psd.vtex");
 }
+
 #Questline3Picker {
     background-image: url("s2r://panorama/images/compendium/winter2016/carry_quest_psd.vtex");
 }
+
 #Questline4Picker {
     background-image: url("s2r://panorama/images/compendium/winter2016/newbloom_quest_psd.vtex");
     horizontal-align: center;
@@ -1147,9 +1126,7 @@ DOTABPWinter2016WageringPage .CompendiumBody {
 #QuestWell {
     width: 900px;
     height: 353px;
-
     overflow: clip;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex") 1;
 }
 
@@ -1160,7 +1137,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
 #RewardsWell {
     width: 2560px;
     height: 356px;
-
     margin-top: 16px;
     vertical-align: bottom;
     overflow: clip;
@@ -1200,7 +1176,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
 .ContentsHeader {
     height: 30px;
     background-color: #1e2f41;
-
     text-align: center;
     color: white;
     font-size: 16px;
@@ -1326,7 +1301,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     width: 100%;
     margin-top: -16px;
     wash-color: black;
-
     transition-property: wash-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
@@ -1417,7 +1391,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     margin: 16px;
     wash-color: #78a0c8;
     opacity: 0.2;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -1436,7 +1409,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     padding-left: 16px;
     padding-right: 16px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#202d3d00), color-stop(0.5, #202d3ddd), to(#202d3ddd));
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -1450,7 +1422,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     letter-spacing: 1px;
     color: #92b4d9;
     margin-top: 16px;
-
     transition-property: color;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -1484,7 +1455,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     width: 326px;
     height: 335px;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/compendium/tokenstack_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1516,9 +1486,11 @@ DOTABPWinter2016WageringPage .CompendiumBody {
 #Next1 {
     margin-right: 660px;
 }
+
 #Next2 {
     margin-left: 26px;
 }
+
 #Next3 {
     margin-left: 714px;
 }
@@ -1618,7 +1590,6 @@ VerticalScrollBar:hover .ScrollThumb {
 .AsyncWagerInfoData {
     opacity: 0;
     margin-bottom: 32px;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -1646,16 +1617,12 @@ VerticalScrollBar:hover .ScrollThumb {
     margin-right: 16px;
     margin-top: 16px;
     padding-left: 2px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#270705), to(#912c24));
     border: 1px solid #9a3128;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#182705), to(#6c9124));
     border: 1px solid #7e9a28;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#051927), to(#246491));
     border: 1px solid #286b9a;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
 }
@@ -1663,7 +1630,6 @@ VerticalScrollBar:hover .ScrollThumb {
 #RequiredHero.XPCircle {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1a3771), to(#1b62c5));
     border: 1px solid #1b62c5;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#182705), to(#6c9124));
     border: 1px solid #7e9a28;
 }
@@ -1689,7 +1655,6 @@ VerticalScrollBar:hover .ScrollThumb {
     margin-top: 10px;
     margin-left: 3px;
     font-size: 18px;
-
     color: white;
     horizontal-align: center;
     vertical-align: middle;
@@ -1707,7 +1672,6 @@ VerticalScrollBar:hover .ScrollThumb {
 .CommunityGoal {
     width: 100%;
     height: 72px;
-
     margin: 16px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -1805,13 +1769,11 @@ VerticalScrollBar:hover .ScrollThumb {
 
 .FirstTimeUser .FirstTimeUserText {
     font-size: 24px;
-
     width: 834px;
     color: #7b96ca;
     font-weight: thin;
     color: #9ba8b7;
     visibility: visible;
-
     horizontal-align: center;
 }
 
@@ -1920,7 +1882,6 @@ VerticalScrollBar:hover .ScrollThumb {
     margin-right: 16px;
     text-shadow: 0px 1px 2px 3 #000000;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;

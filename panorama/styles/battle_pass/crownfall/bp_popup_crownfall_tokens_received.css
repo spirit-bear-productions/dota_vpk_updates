@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel.TokensReceived {
     border: 2px solid rgb(255, 255, 255);
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(gold1), color-stop(0.5, gold2), to(gold3));
@@ -39,6 +41,7 @@
     horizontal-align: center;
     margin-top: 24px;
 }
+
 .ButtonContainer DOTACrownfallButton {
     ui-scale: 90%;
     min-width: 260px;
@@ -49,11 +52,13 @@
     horizontal-align: center;
     margin: 12px 0px;
 }
+
 #TokenList DOTACrownfallToken {
     margin: -24px;
     ui-scale: 240%;
     tooltip-body-position: 50% 50px;
 }
+
 #TokenList DOTACrownfallToken:disabled {
     saturation: 0;
     brightness: 0.2;

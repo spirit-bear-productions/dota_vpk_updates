@@ -1,13 +1,15 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAFrontpageFrostivus2023 {
     width: 330px;
     height: 100%;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#080a16), to(#002249));
     box-shadow: 0px 6px 48px -4px rgba(0, 0, 0, 0.5);
-
     transition-property: opacity;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
 }
+
 DOTAFrontpageFrostivus2023.Hidden {
     opacity: 0;
 }
@@ -30,6 +32,7 @@ DOTAFrontpageFrostivus2023.Hidden {
 .HideIfEventOver {
     visibility: visible;
 }
+
 .EventOver .HideIfEventOver {
     visibility: collapse;
 }
@@ -37,6 +40,7 @@ DOTAFrontpageFrostivus2023.Hidden {
 .ShowIfEventOver {
     visibility: collapse;
 }
+
 .EventOver .ShowIfEventOver {
     visibility: visible;
 }
@@ -48,6 +52,7 @@ DOTAFrontpageFrostivus2023.Hidden {
     background-size: cover;
     background-position: bottom;
 }
+
 .TileBackground .BottomSnowOverlay {
     width: 100%;
     height: 100%;
@@ -62,13 +67,12 @@ DOTAFrontpageFrostivus2023.Hidden {
     horizontal-align: center;
     transform: translateY(-50%);
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     transition-property: opacity;
     transition-duration: 0.6s;
-
     opacity: 1;
     blur: gaussian(0.5px);
 }
+
 .TileBackground .SnowParticles.Background {
     blur: gaussian(4px);
     opacity: 0.2;
@@ -88,7 +92,6 @@ DOTAFrontpageFrostivus2023.Hidden {
     horizontal-align: center;
     margin-bottom: 8px;
     opacity: 0.6;
-
     color: rgba(209, 237, 255, 0.6);
     text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
     font-size: 14px;
@@ -107,13 +110,12 @@ DOTAFrontpageFrostivus2023.Hidden {
     height: width-percentage(100%);
     margin: 10px;
     wash-color: LightestGrey;
-
     tooltip-position: left;
     tooltip-body-position: 50% 10%;
-
     transition-property: wash-color;
     transition-duration: 0.1s;
 }
+
 #EventInfoIcon:hover {
     wash-color: white;
 }
@@ -122,7 +124,6 @@ DOTAFrontpageFrostivus2023.Hidden {
     horizontal-align: center;
     margin: 20px 24px 2px 24px;
     height: 31px;
-
     text-align: center;
     font-family: titleFont;
     font-size: 22px;
@@ -160,17 +161,16 @@ DOTAFrontpageFrostivus2023.Hidden {
     overflow: noclip;
     margin-right: 20px;
 }
+
 #NiceRewardContainer .NiceRewardImage {
     width: 140px;
     height: 140px;
     vertical-align: center;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/econ/tools/frostivus_2023_gift_nice_psd.vtex");
     background-size: 200px 140px;
     background-position: -20px -8px;
     background-repeat: no-repeat;
-
     animation-name: BobRewardAnimation;
     animation-duration: 1.6s;
     animation-iteration-count: infinite;
@@ -183,9 +183,7 @@ DOTAFrontpageFrostivus2023.Hidden {
     height: 132px;
     vertical-align: center;
     horizontal-align: center;
-
     margin-left: 16px;
-
     background-image: url("s2r://panorama/images/events/frostivus/2023/stocking_stuffer_container_png.vtex");
     background-size: cover;
     background-position: center;
@@ -197,7 +195,6 @@ DOTAFrontpageFrostivus2023.Hidden {
     height: 100%;
     margin-left: 8px;
     hue-rotation: 60deg;
-
     brightness: 2;
     saturation: 0.8;
     opacity: 0.6;
@@ -221,6 +218,7 @@ DOTAFrontpageFrostivus2023.Hidden {
     padding: 0px 24px;
     margin: -6px 0px -8px;
 }
+
 #TreasureProgress .ProgressBarLeft {
     background-color: gradient(
         linear,
@@ -234,7 +232,6 @@ DOTAFrontpageFrostivus2023.Hidden {
     margin: 12px 0px;
     border-radius: 1px;
     z-index: 1;
-
     animation-name: GlowProgressBar;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -254,9 +251,9 @@ DOTAFrontpageFrostivus2023.Hidden {
     width: 100%;
     margin-bottom: 12px;
     padding: 0px 24px;
-
     visibility: visible;
 }
+
 .NiceRewardAvailable #RewardsPanel {
     visibility: collapse;
 }
@@ -275,9 +272,9 @@ DOTAFrontpageFrostivus2023.Hidden {
         color-stop(0.7, #7e9fc8),
         to(#7e9fc800)
     );
-
     visibility: collapse;
 }
+
 #NiceRewardPanel .NiceRewardDescription {
     width: 100%;
     text-align: center;
@@ -286,49 +283,49 @@ DOTAFrontpageFrostivus2023.Hidden {
     text-shadow: 0px 2px 8px black;
     line-height: 1.1;
 }
+
 .NiceRewardAvailable #NiceRewardPanel {
     visibility: visible;
 }
+
 .FrostivusClaimGiftPopup .NiceRewardDescription {
     font-size: 35px;
 }
+
 .RewardsList {
     flow-children: right;
     horizontal-align: center;
     margin-top: 4px;
 }
+
 .TitleContainer {
     width: 100%;
     flow-children: right;
 }
+
 .TitleContainer Label {
     margin: 0px 8px;
 }
+
 .TitleContainer .Dash {
-    width: fill-parent-flow (1);
+    width: fill-parent-flow(1);
     height: 1px;
     vertical-align: center;
     opacity: 0.2;
     background-color: #7e9fc8;
 }
+
 .ViewInfoLinkButton {
     width: 100%;
     padding: 12px;
     transition-property: brightness;
     transition-duration: 0.1s;
 }
+
 .ViewInfoLinkButton Label {
-    color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#d4faff),
-            to (#8ea8c5)
-        );
+    color: gradient(linear, 0% 0%, 0% 100%, from(#d4faff), to(#8ea8c5));
 }
+
 .ViewInfoLinkButton Image {
     width: 16px;
     height: 16px;
@@ -336,9 +333,11 @@ DOTAFrontpageFrostivus2023.Hidden {
     margin-left: 2px;
     wash-color: #8ea8c5;
 }
+
 .ViewInfoLinkButton:hover {
     brightness: 2;
 }
+
 .ClaimRewardsButton {
     width: 100%;
     margin-top: 20px;
@@ -346,80 +345,70 @@ DOTAFrontpageFrostivus2023.Hidden {
     horizontal-align: center;
     opacity: 0.3;
 }
+
 .ClaimRewardsButton Label {
     font-size: 16px;
 }
+
 .ClaimRewardsButton:enabled {
     opacity: 1;
     background-img-opacity: 0.1;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#4aaed0),
-            to (#2a6598)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#4aaed0), to(#2a6598));
     animation-name: GlowClaimButton;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
 }
+
 .ClaimRewardsButton:enabled Label {
     color: white;
 }
+
 .ClaimRewardsButton:enabled:hover {
     brightness: 1.4;
 }
+
 .ClaimRewardsButton:enabled:active {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#4aaed0),
-            to (#13426a)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#4aaed0), to(#13426a));
     brightness: 0.6;
 }
+
 .ClaimRewardsButton:disabled {
     opacity: 0;
 }
+
 .ProgressionLabelContainer {
     horizontal-align: center;
     flow-children: right;
     visibility: visible;
 }
+
 .ProgressionLabelContainer .TreasureProgressLabel {
     margin: 0px 2px;
     font-size: 24px;
     color: #f1f7ff;
-    text-shadow: 0px 2px 8px rgba (0, 0, 0, 0.6);
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
 }
+
 .ProgressionLabelContainer .TreasureProgressLabel.CurrentPoints {
-    color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (white),
-            color-stop (0.45, #c5b88e),
-            color-stop (0.55, #b59f70),
-            to (#e5cd82)
-        );
+    color: gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(white),
+        color-stop(0.45, #c5b88e),
+        color-stop(0.55, #b59f70),
+        to(#e5cd82)
+    );
     brightness: 1.5;
 }
+
 .BonusProgress {
     horizontal-align: center;
     margin: -2px 0px 6px;
 }
+
 .BonusProgressLabel {
     font-size: 16px;
     color: #c0dfff;
@@ -430,24 +419,31 @@ DOTAFrontpageFrostivus2023.Hidden {
     text-overflow: shrink;
     visibility: collapse;
 }
+
 .BonusProgressLabel b {
     color: white;
 }
+
 .BonusProgressLabel .ResetTime {
     color: white;
 }
+
 .BonusProgress__Available .BonusProgressLabel.Available {
     visibility: visible;
 }
+
 .BonusProgress__Half .BonusProgressLabel.Half {
     visibility: visible;
 }
+
 .BonusProgress__Exhausted .BonusProgressLabel.Exhausted {
     visibility: visible;
 }
+
 .TreasureRewardContainer {
     overflow: noclip;
 }
+
 .TreasureRewardContainer .BackgroundParticles {
     width: 100%;
     height: 100%;
@@ -455,8 +451,9 @@ DOTAFrontpageFrostivus2023.Hidden {
     saturation: 1.5;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
     brightness: 1;
-    transform: scale3d (1.25, 1.25, 1) translateY (-20px);
+    transform: scale3d(1.25, 1.25, 1) translateY(-20px);
 }
+
 .TreasureReward {
     width: 136px;
     height: 136px;
@@ -469,9 +466,11 @@ DOTAFrontpageFrostivus2023.Hidden {
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
 }
+
 .TreasureReward:hover {
     pre-transform-scale2d: 1.05;
 }
+
 .StockingStufferContainer {
     width: 136px;
     height: 136px;
@@ -482,41 +481,50 @@ DOTAFrontpageFrostivus2023.Hidden {
     background-repeat: no-repeat;
     visibility: collapse;
 }
+
 .HasExtraReward .StockingStufferContainer {
     visibility: visible;
 }
+
 .RewardCells {
     flow-children: right;
     horizontal-align: center;
 }
+
 .RewardCell {
     flow-children: right;
     vertical-align: center;
     horizontal-align: center;
 }
+
 .Reward {
     width: 66px;
     height: 66px;
     vertical-align: center;
     horizontal-align: center;
 }
+
 .ImageReward {
     width: 140px;
     height: 140px;
     vertical-align: center;
 }
+
 .EconItemReward {
     width: 80px;
     height: 80px;
 }
+
 .EconItemReward .EconItemReward_Image {
     box-shadow: none;
 }
+
 .ChatwheelReward {
     overflow: noclip;
     width: 90px;
     height: 90px;
 }
+
 #ChatWheelScaleContainer {
     ui-scale: 200%;
     width: 90px;
@@ -524,13 +532,16 @@ DOTAFrontpageFrostivus2023.Hidden {
     vertical-align: center;
     horizontal-align: center;
 }
+
 #ChatWheelMessages {
-    transform: scale3d (0.5, 0.5, 1);
+    transform: scale3d(0.5, 0.5, 1);
 }
+
 .EmoticonReward_Emoticon {
     width: 100%;
     height: 100%;
 }
+
 .DebugUI {
     vertical-align: top;
     horizontal-align: left;
@@ -539,14 +550,17 @@ DOTAFrontpageFrostivus2023.Hidden {
     flow-children: right;
     visibility: collapse;
 }
+
 .MainBranch .DebugUI {
     visibility: visible;
 }
+
 .DebugEnabled .DebugUI {
     width: 100%;
     opacity: 1;
     background-color: #000000f0;
 }
+
 .DebugButton {
     background-image: url("s2r://panorama/images/topbar/bug_png.vtex");
     background-size: contain;
@@ -554,57 +568,70 @@ DOTAFrontpageFrostivus2023.Hidden {
     min-width: 15px;
     min-height: 15px;
 }
+
 .DebugEnabled .DebugButton {
     background-color: LightGreyGradientBackgroundColor;
     border: 1px solid white;
     border-brush: WhiteGradientBorderSoft;
     background-image: none;
 }
+
 .DebugButtonState {
     visibility: collapse;
 }
+
 .DebugEnabled .DebugButtonState {
     visibility: visible;
 }
+
 .ShowIfDebugActive {
     margin-left: 15px;
     visibility: collapse;
 }
+
 .DebugEnabled .ShowIfDebugActive {
     visibility: visible;
 }
+
 .DebugLabel {
     color: white;
     vertical-align: center;
 }
+
 @keyframes 'GlowProgressBar' {
     0% {
         box-shadow: 0px 0px 24px #ffda9211;
         brightness: 1;
     }
+
     100% {
         box-shadow: 0px 0px 24px #ffda9244;
         brightness: 1.5;
     }
 }
+
 @keyframes 'GlowClaimButton' {
     0% {
         brightness: 1;
     }
+
     100% {
         brightness: 2;
     }
 }
+
 @keyframes 'BobRewardAnimation' {
     0% {
         brightness: 1;
-        transform: translateY (-2px);
+        transform: translateY(-2px);
     }
+
     100% {
         brightness: 1.5;
-        transform: translateY (2px);
+        transform: translateY(2px);
     }
 }
+
 #FrostivusClaimGiftPopup {
     vertical-align: center;
     horizontal-align: center;

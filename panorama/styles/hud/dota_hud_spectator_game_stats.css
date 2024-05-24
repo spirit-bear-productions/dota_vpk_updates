@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTASpectatorGameStats {
     flow-children: down;
 }
@@ -36,12 +38,11 @@ DOTASpectatorGameStats.Hidden,
     background-color: #252727bb;
     border-radius: 50%;
     border-radius: 3px;
-
     transition-property: background-color, wash-color;
     transition-duration: 0.15s;
-
     visibility: collapse;
 }
+
 .ShowRows #StatSortingButton {
     visibility: visible;
 }
@@ -53,14 +54,12 @@ DOTASpectatorGameStats.Hidden,
 #StatSortingButton .SortingIcon {
     width: 18px;
     height: 18px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: middle;
     horizontal-align: center;
     wash-color: #8199c5;
-
     transition-property: background-color, wash-color, background-image;
     transition-duration: 0.15s;
     background-image: url("s2r://panorama/images/hud/reborn/sort_all_icon_psd.vtex");
@@ -78,7 +77,6 @@ DOTASpectatorGameStats.Hidden,
     margin-top: 8px;
     flow-children: down;
     width: 100%;
-
     visibility: collapse;
 }
 
@@ -125,6 +123,7 @@ DOTASpectatorGameStatsPlayerRow.Radiant #HeroImage {
 DOTASpectatorGameStatsPlayerRow #HeroImage:hover {
     brightness: 2;
 }
+
 DOTASpectatorGameStatsPlayerRow #HeroImage:active {
     brightness: 1.5;
 }
@@ -145,7 +144,6 @@ DOTASpectatorGameStatsPlayerRow #HeroImage:active {
     opacity: 0;
     overflow: noclip;
     margin-right: -2px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -167,12 +165,10 @@ DOTASpectatorGameStatsPlayerRow #PlayerName {
     color: #8faadc;
     color: bluegreyTextBright&cc;
     font-size: 18px;
-
     font-style: italic;
     brightness: 1.4;
     height: 100%;
     padding: 5px 20px 2px 8px;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#0b0b0bff), color-stop(0.05, #0b0b0b88), to(#8aa8a800));
 }
 
@@ -189,19 +185,19 @@ DOTASpectatorGameStatsPlayerRow #StatValueBar {
     width: 150px;
     vertical-align: top;
 }
+
 DOTASpectatorGameStatsPlayerRow #StatValueBarContents {
     height: 10px;
     width: 100%;
-
     vertical-align: middle;
     margin: 11px 8px 0px 0px;
     background-color: #8199c5cc;
 }
+
 DOTASpectatorGameStatsPlayerRow #StatValueBarEnd {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-
     horizontal-align: right;
     margin: 4px 0px 0px 2px;
     visibility: collapse;
@@ -234,6 +230,7 @@ DOTASpectatorGameStatsPlayerRow.Radiant #StatValueBarContents {
         to(radiantColor&ee)
     );
 }
+
 DOTASpectatorGameStatsPlayerRow.Dire #StatValueBarContents {
     background-color: direColor&cc;
     background-color: gradient(
@@ -251,6 +248,7 @@ DOTASpectatorGameStatsPlayerRow.Radiant #StatValueBarEnd {
     background-color: gradient(radial, 50% 50%, 0% 0%, 50% 50%, from(#ffffff), color-stop(0.5, #67a424), to(#5a8f22));
     background-color: radiantColor;
 }
+
 DOTASpectatorGameStatsPlayerRow.Dire #StatValueBarEnd {
     background-color: gradient(radial, 50% 50%, 0% 0%, 50% 50%, from(#ffffff), color-stop(0.5, #a7221b), to(#601e18));
     background-color: direColor;
@@ -276,7 +274,6 @@ DOTASpectatorGameStatsPlayerRow.Dire #StatValueBarEnd {
     opacity: 1;
     margin: 0px 4px 0px 0px;
     wash-color: none;
-
     transition-property: background-color, wash-color, background-image;
     transition-duration: 0.15s;
 }
@@ -292,7 +289,6 @@ DOTASpectatorGameStatsPlayerRow.Dire #StatValueBarEnd {
     width: 100%;
     height: 100%;
     wash-color: #8199c5;
-
     transition-property: background-color, wash-color, background-image;
     transition-duration: 0.15s;
 }

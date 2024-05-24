@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .TopRightGodRays {
     width: 1000px;
     height: 1000px;
@@ -25,6 +27,7 @@
     height: 850px;
     background-size: 550px 250px;
 }
+
 #FriendsEntry .SlantPanelEntry {
     margin: 16px 0;
     margin-left: -64px;
@@ -93,7 +96,6 @@ DOTAEventLevelShield {
     font-size: 15px;
     font-weight: normal;
     letter-spacing: 1px;
-
     vertical-align: middle;
 }
 
@@ -102,6 +104,7 @@ DOTAEventLevelShield {
     margin-top: 8px;
     flow-children: right;
 }
+
 .PointsLogContainer #PointsNeeded {
     text-shadow: textShadowSmall;
     color: gradient(linear, 0% 0%, 0% 100%, from(secondaryColor1), to(secondaryColor3));
@@ -116,7 +119,6 @@ DOTAEventLevelShield {
     margin-right: 2px;
     margin-left: -4px;
     wash-color: secondaryColor1;
-
     background-image: url("s2r://panorama/images/compendium/international2022/totalpoints_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -143,6 +145,7 @@ DOTAEventLevelShield {
     flow-children: down;
     visibility: collapse;
 }
+
 .EventEnded #EventEnded,
 .EventExpired #EventEnded {
     visibility: visible;
@@ -177,11 +180,11 @@ DOTAEventLevelShield {
 #GiftEntry #GiftProgressBar {
     flow-children: right;
     width: fill-parent-flow(1);
-
     horizontal-align: center;
     vertical-align: middle;
     padding: 4px 4px;
 }
+
 #GiftEntry #GiftProgressBar .GiftsIcon {
     background-image: url("s2r://panorama/images/compendium/international2023/gift_empty_png.vtex");
     background-size: 70%;
@@ -192,6 +195,7 @@ DOTAEventLevelShield {
     overflow: noclip;
     padding: 4px;
 }
+
 #GiftEntry #GiftProgressBar .GiftsIcon.Reached {
     background-image: url("s2r://panorama/images/compendium/international2023/gift_filled_png.vtex");
     img-shadow: 0px 0px 12px primaryColor1&66;
@@ -204,6 +208,7 @@ DOTAEventLevelShield {
     padding: 0px 32px;
     width: 429px;
 }
+
 .AspectRatio21x9 .SecondaryTabSet {
     margin-left: 300px;
 }
@@ -223,12 +228,12 @@ DOTAEventLevelShield {
 .SecondaryTabSet #International2023Home {
     width: 400px;
     height: 100px;
-
     background-image: url("s2r://panorama/images/compendium/international2020/compendium/dashboard_logo_compendium_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
 }
+
 .SecondaryTabSet #International2023Home .RadioBox {
     visibility: collapse;
 }
@@ -237,15 +242,16 @@ DOTAEventLevelShield {
     flow-children: down;
     padding: 48px 0px 22px;
     width: 100%;
-
     transition-property: transform, brightness;
     transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
 }
+
 .LogoContainerSmall:hover {
     transform: scale3d(1.03, 1.03, 1);
     brightness: 1.5;
 }
+
 .LogoContainerSmall:hover .TitleSmall {
     color: white;
     text-shadow: 0px 0px 24px rgba(255, 255, 255, 0.04);
@@ -272,7 +278,6 @@ DOTAEventLevelShield {
     color: gradient(linear, 0% 0%, 0% 100%, from(primaryColor2), to(primaryColor1));
     text-shadow: 0px 0px 24px rgba(255, 255, 255, 0);
     font-family: radiance;
-
     transition-property: color, text-shadow;
     transition-duration: 0.1s;
 }
@@ -281,6 +286,7 @@ DOTAEventLevelShield {
     flow-children: right;
     horizontal-align: center;
 }
+
 .LogoContainerSmall #StarsContainerSmall .CompendiumStarSmall {
     width: 8px;
     height: 8px;
@@ -318,10 +324,10 @@ DOTAEventLevelShield {
     width: 100%;
     padding: 4px 12px;
     background-color: gradient(linear, 40% 0%, 100% 0%, from(primaryColor5&00), to(primaryColor5&00));
-
     transition-property: background-color, brightness;
     transition-duration: 0.1s;
 }
+
 #International2023Tabs .SecondaryTabButton Label {
     color: white;
     font-size: 18px;
@@ -330,7 +336,6 @@ DOTAEventLevelShield {
     font-weight: semi-bold;
     text-shadow: textShadowSmall;
     letter-spacing: 2px;
-
     transition-property: transform;
     transition-duration: 0.1s;
 }
@@ -338,6 +343,7 @@ DOTAEventLevelShield {
 #International2023Tabs .SecondaryTabButton:hover {
     background-color: gradient(linear, 40% 0%, 100% 0%, from(primaryColor4&66), to(primaryColor5&00));
 }
+
 #International2023Tabs .SecondaryTabButton:hover Label {
     color: white;
 }
@@ -353,6 +359,7 @@ DOTAEventLevelShield {
 #International2023Tabs .SecondaryTabButton:active {
     brightness: 0.7;
 }
+
 #International2023Tabs .SecondaryTabButton:active Label {
     transform: translateY(1px);
 }
@@ -362,16 +369,15 @@ DOTAEventLevelShield {
     height: 19px;
     vertical-align: middle;
     margin-top: 1px;
-
     transition-property: wash-color;
     transition-duration: 0.2s;
 }
 
 #International2023Rewards.SecondaryTabButton {
     margin-top: 10px;
-
     margin-bottom: 5px;
 }
+
 #International2023Rewards.SecondaryTabButton Label {
     font-size: 25px;
 }

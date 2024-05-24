@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .HeroesSecondaryNavigation {
     padding: 0px;
     width: 100%;
@@ -34,6 +36,7 @@
     transition-duration: 0.1s;
     transition-property: opacity, brightness, transform;
 }
+
 .NextPrevHeroButton:hover {
     opacity: 1;
     brightness: 1.5;

@@ -1,9 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupLobbySettings {
     width: 1600px;
     height: 1000px;
     vertical-align: center;
     horizontal-align: center;
-
     transition-property: opacity, transform, pre-transform-scale2d, height;
     transition-duration: 0.2s;
 }
@@ -28,16 +29,13 @@ PopupLobbySettings.Hidden #PopupContent {
     perspective-origin: 62% 5% invert;
     perspective: 1000;
     flow-children: none;
-
     transition-property: opacity, transform, pre-transform-scale2d, height;
     transition-duration: 0.5s;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
-
     background-color: gradient(linear, 0% 0%, 0% 25%, from(#232326), to(#1c1d20));
     box-shadow: #00000099 0px 0px 8px 0px;
     border: 2px solid #32383677;
-
     padding: 25px 28px 0px 28px;
 }
 
@@ -129,10 +127,8 @@ Label {
     box-shadow: none;
     border: 0px solid transparent;
     wash-color: #888888;
-
     transition-property: transform, wash-color;
     transition-duration: 0.3s;
-
     transform: rotateZ(-90deg);
 }
 
@@ -149,7 +145,6 @@ Label {
     flow-children: right;
     padding: 15px 30px 20px 30px;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.5s;
 }
@@ -174,12 +169,9 @@ Label {
 
 .AdvancedSettingsColumn {
     border: 2px solid #000000aa;
-
     flow-children: down-wrap;
     background-color: #151818;
-
     height: 400px;
-
     padding: 8px;
     margin-left: 16px;
     margin-right: 16px;
@@ -298,9 +290,7 @@ PopupLobbySettings .PopupButton Label {
     horizontal-align: right;
     vertical-align: bottom;
     width: 154px;
-
     margin: 8px;
-
     overflow: noclip noclip;
 }
 
@@ -315,7 +305,6 @@ PopupLobbySettings .PopupButton Label {
     text-align: center;
     vertical-align: top;
     margin-top: 10px;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     opacity: 0;
@@ -331,6 +320,7 @@ PopupLobbySettings .PopupButton Label {
     border: 2px solid #5e686966;
     box-shadow: #00000055 0px 0px 1px 3px;
 }
+
 #PreviousMatchTextEntry {
     height: 32px;
     width: 319px;
@@ -366,7 +356,6 @@ PopupLobbySettings.CreatingLobby #CancelButton {
 
 #OKButton {
     horizontal-align: right;
-
     margin-right: 212px;
 }
 
@@ -382,7 +371,6 @@ PopupLobbySettings.CreatingLobby #OKButton {
     horizontal-align: right;
     vertical-align: bottom;
     width: 154px;
-
     margin: 8px 0px 8px 8px;
 }
 
@@ -425,6 +413,7 @@ PopupLobbySettings.TournamentLobby #TournamentDropdownContainer {
 #SeriesSettings {
     flow-children: right;
 }
+
 .SeriesWinsVisible .SeriesWinsContainer {
     visibility: visible;
 }
@@ -496,12 +485,15 @@ PopupLobbySettings.TournamentLobby #TournamentDropdownContainer {
 #ScenarioLoad {
     visibility: visible;
 }
+
 .HasLoadedScenario #ScenarioLoad {
     visibility: collapse;
 }
+
 #ScenarioClear {
     visibility: collapse;
 }
+
 .HasLoadedScenario #ScenarioClear {
     visibility: visible;
 }
@@ -509,12 +501,15 @@ PopupLobbySettings.TournamentLobby #TournamentDropdownContainer {
 #ScenarioInfoContainer {
     visibility: collapse;
 }
+
 .HasLoadedScenario #ScenarioInfoContainer {
     visibility: visible;
 }
+
 .ScenarioInfoRow {
     width: 319px;
 }
+
 .ScenarioInfoTitle {
     horizontal-align: left;
     vertical-align: bottom;
@@ -522,6 +517,7 @@ PopupLobbySettings.TournamentLobby #TournamentDropdownContainer {
     text-transform: uppercase;
     font-size: 16px;
 }
+
 .ScenarioInfoData {
     horizontal-align: right;
     vertical-align: bottom;

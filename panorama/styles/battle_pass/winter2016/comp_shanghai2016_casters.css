@@ -1,12 +1,12 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACompShanghai2016CastersPage .CompendiumBody {
     width: 1392px;
     height: 700px;
-
     margin-top: 215px;
     border-top: 0;
     border-bottom: 0;
     background-color: transparent;
-
     horizontal-align: center;
 }
 
@@ -19,7 +19,6 @@ DOTACompShanghai2016CastersPage .CompendiumBody {
     vertical-align: center;
     color: #a2b7cd;
     text-transform: uppercase;
-
     margin-top: 2px;
     margin-right: 16px;
 }
@@ -38,13 +37,11 @@ DOTACompShanghai2016CastersPage .CompendiumBody {
 
 #TalentWell {
     margin-top: 10px;
-
     flow-children: right-wrap;
     overflow: clip scroll;
     opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_vscroll_wide_psd.vtex");
     padding-left: 16px;
     padding-right: 16px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -57,9 +54,7 @@ DOTACompShanghai2016CastersPage .CompendiumBody {
 DOTACompendiumCaster {
     width: 202px;
     height: 250px;
-
     margin: 12px 12px;
-
     flow-children: down;
 }
 
@@ -71,7 +66,6 @@ DOTACompendiumCaster {
 
 DOTACompendiumCaster .Name {
     margin-top: 6px;
-
     color: white;
     letter-spacing: 1.3px;
 }
@@ -83,11 +77,9 @@ DOTACompendiumCaster .RealName {
 
 DOTACompendiumCaster .Title {
     margin-top: 2px;
-
     color: #2f7eb1;
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: 1.5px;
-
     visibility: collapse;
 }

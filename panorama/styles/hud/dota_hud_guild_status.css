@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHudGuildStatus {
     flow-children: down;
 }
@@ -59,20 +61,17 @@ DOTAHudGuildStatus.ChallengesHidden {
     width: 24px;
     height: 24px;
     background-color: black;
-
     vertical-align: top;
     margin: 2px;
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
-
     box-shadow: -2px 0px 4px 0px #000000aa;
 }
 
 #ChallengeContainer {
     margin-left: 2px;
-
     transform: translateX(-350px);
     transition-property: transform, opacity, visibility;
     transition-timing-function: ease-in-out;
@@ -99,7 +98,6 @@ DOTAHudGuildStatus.ChallengesHidden {
     width: 40px;
     height: 40px;
     margin-left: 4px;
-
     background-image: url("s2r://panorama/images/guilds/contracts/check_mark_psd.vtex");
     background-size: 100%;
     opacity: 0;
@@ -121,7 +119,6 @@ DOTAHudGuildStatus.ChallengesHidden {
     background-color: #ffffff66;
     opacity: 0;
     vertical-align: center;
-
     transition-property: opacity, transform;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -130,9 +127,7 @@ DOTAHudGuildStatus.ChallengesHidden {
 
 .FullyComplete #ChallengeHeader {
     opacity: 0.7;
-
     background-image: none;
-
     background-image: url("s2r://panorama/images/glows/soft_blue_glow_psd.vtex");
     background-size: 90% 100%;
     background-position: 30% 50%;
@@ -162,7 +157,6 @@ DOTAHudGuildStatus.ChallengesHidden {
 #ContractImage {
     width: 100%;
     height: 100%;
-
     visibility: collapse;
 }
 
@@ -178,14 +172,11 @@ DOTAHudGuildStatus.ChallengesHidden {
 #GuildChallengeImage {
     width: 100%;
     height: 100%;
-
     background-size: contain;
     background-repeat: no-repeat;
     vertical-align: center;
     background-color: black;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     visibility: collapse;
 }
 
@@ -199,9 +190,7 @@ DOTAHudGuildStatus.ChallengesHidden {
     letter-spacing: 0px;
     font-family: monospaceNumbersFont;
     font-size: 14px;
-
     text-shadow: 1px 1px 2px 2 #00000077;
-
     transition-property: opacity, transform, visibility;
     transition-duration: 0.25s;
     transition-delay: 0.25s;
@@ -219,13 +208,10 @@ DOTAHudGuildStatus.ChallengesHidden {
     color: white;
     margin-top: -2px;
     margin-left: 6px;
-
     letter-spacing: 0px;
     font-family: monospaceNumbersFont;
     font-size: 13px;
-
     text-shadow: 1px 1px 2px 2 #00000077;
-
     transition-property: opacity, transform, font-size, visibility;
     transition-duration: 0.25s;
     transition-delay: 0.5s;

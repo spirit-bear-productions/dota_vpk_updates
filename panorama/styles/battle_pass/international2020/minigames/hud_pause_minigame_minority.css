@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAMinigameMinority {
     flow-children: down;
     horizontal-align: center;
@@ -100,7 +102,6 @@ DOTAMinigameMinority {
     opacity: 0;
     horizontal-align: center;
     font-size: 22px;
-
     text-shadow: 4px 0px 4px black;
     font-style: italic;
     margin-bottom: 15px;
@@ -144,7 +145,6 @@ DOTAMinigameMinority {
     max-width: 340px;
     min-width: 100px;
     min-height: 100px;
-
     margin-top: 240px;
     margin-left: -50px;
     flow-children: right-wrap;
@@ -160,6 +160,7 @@ DOTAMinigameMinority {
     padding: 10px;
     flow-children: right-wrap;
 }
+
 #PlayersChoice1 DOTATopBarPlayer,
 #PlayersChoice2 DOTATopBarPlayer {
     height: 40px;
@@ -177,6 +178,7 @@ DOTAMinigameMinority {
     75% {
         transform: rotateZ(45deg);
     }
+
     100% {
         transform: rotateZ(0deg);
     }

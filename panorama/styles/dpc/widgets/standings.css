@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DPCStandings {
     flow-children: down;
 }
@@ -5,23 +7,27 @@
 #StandingsHeader {
     height: 22px;
 }
+
 .Header {
     width: 100%;
     padding-bottom: 6px;
     margin-top: 6px;
 }
+
 #LeftHeader {
     width: fit-children;
     flow-children: right;
     horizontal-align: left;
     vertical-align: center;
 }
+
 .StandingsButtonText {
     font-size: 16px;
     color: bluegreyTextReg;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
 .StandingsButton {
     transition-property: brightness;
     transition-duration: 0.2s;
@@ -38,7 +44,6 @@
 .LinkArrow {
     width: 12px;
     height: 12px;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_top_right_psd.vtex");
     background-repeat: no-repeat;
     background-size: 90%;
@@ -64,15 +69,13 @@
     height: 18px;
     vertical-align: center;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/control_icons/refresh_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     wash-color: bluegreyTextBright;
-
     margin-right: 6px;
 }
+
 .SpoilerRefresh:hover {
     wash-color: #ffffff;
 }
@@ -100,6 +103,7 @@
     horizontal-align: right;
     vertical-align: center;
 }
+
 .DivisionSelector {
     vertical-align: bottom;
     flow-children: right;
@@ -180,6 +184,7 @@
 .Condensed .TeamStandings {
     height: 26px;
 }
+
 .TeamStandings:hover {
     brightness: 2.5;
 }
@@ -239,7 +244,6 @@
 .TeamRecord {
     margin-right: 4px;
     text-align: right;
-
     letter-spacing: 2px;
     width: 36px;
 }
@@ -340,9 +344,11 @@
 .Short {
     visibility: collapse;
 }
+
 .TeamStandings.HasTeam .Short {
     visibility: visible;
 }
+
 .LongNames .TeamStandings.HasTeam .TeamName.Long {
     visibility: visible;
 }

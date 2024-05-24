@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #LevelProgress {
     horizontal-align: center;
     box-shadow: inset #1f2020 0px 2px 2px 4px;
@@ -17,9 +19,7 @@
 #LevelProgress .ProgressBarLeft {
     background-color: dotalevelgradient;
     box-shadow: #61789caa 0px 0px 4px 0px;
-
     border-radius: 2px;
-
     transition-property: width;
     transition-duration: 1s;
     transition-timing-function: linear;

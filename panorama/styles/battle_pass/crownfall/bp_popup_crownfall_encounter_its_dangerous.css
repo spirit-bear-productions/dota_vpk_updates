@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .Title {
     font-family: monospace;
     text-transform: uppercase;
@@ -12,6 +14,7 @@
     flow-children: right;
     margin-top: 48px;
 }
+
 .Center .OldManIcon {
     width: 128px;
     height: 128px;
@@ -33,6 +36,7 @@
     vertical-align: center;
     margin-top: 20px;
 }
+
 .AlreadyClaimed .Tokens {
     brightness: 0.2;
 }
@@ -47,6 +51,7 @@
     brightness: 2;
     hue-rotation: 100deg;
 }
+
 .AlreadyClaimed .Tokens .TokenContainer .TokenParticles {
     visibility: collapse;
 }
@@ -59,11 +64,11 @@
 
 .BodyContainer {
     vertical-align: center;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.2s;
 }
+
 .DialogueComplete .BodyContainer {
     opacity: 1;
 }
@@ -73,6 +78,7 @@
     transition-property: opacity;
     transition-duration: 0.2s;
 }
+
 .DialogueComplete .TakeTokensButton {
     opacity: 1;
 }

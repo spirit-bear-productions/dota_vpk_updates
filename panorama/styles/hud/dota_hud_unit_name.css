@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #UnitNameLabel {
     width: 100%;
     text-align: center;
@@ -13,18 +15,23 @@
 DOTAUnitName.BronzeTier #UnitNameLabel {
     color: #edb96e;
 }
+
 DOTAUnitName.SilverTier #UnitNameLabel {
     color: #d5edf3;
 }
+
 DOTAUnitName.GoldTier #UnitNameLabel {
     color: #feeb44;
 }
+
 DOTAUnitName.PlatinumTier #UnitNameLabel {
     color: #c4eaff;
 }
+
 DOTAUnitName.MasterTier #UnitNameLabel {
     color: #ffff9a;
 }
+
 DOTAUnitName.GrandmasterTier #UnitNameLabel {
     color: #ffe8aa;
 }

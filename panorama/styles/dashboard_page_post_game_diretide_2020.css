@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Diretide2020Container {
     horizontal-align: center;
     vertical-align: bottom;
@@ -130,7 +132,6 @@
 .CandyScoredColumn,
 .CandyLostColumn {
     width: 64px;
-
     visibility: collapse;
 }
 

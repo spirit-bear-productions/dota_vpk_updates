@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .SBSummary {
     visibility: collapse;
     width: 100%;
@@ -5,6 +7,7 @@
     background-image: url("s2r://panorama/images/battlepass/international2022/swag_bag/swag_bag_cell_background_psd.vtex");
     background-size: cover;
 }
+
 .SBSummary .Title {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -27,6 +30,7 @@
 .SBSummary.SBSummary__HasProgress {
     visibility: visible;
 }
+
 .SBSummary.SBSummary__CanClaim {
     visibility: visible;
 }
@@ -45,6 +49,7 @@
 .SBSummary_Claim {
     width: 100%;
 }
+
 .SBSummary_Claim #SBSummary_Claim_Button {
     width: 100%;
     visibility: collapse;
@@ -57,7 +62,6 @@
 
 .SBSummary__CanClaim .SBSummary_Claim #SBSummary_Claim_Button {
     visibility: visible;
-
     animation-name: glowButton;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -76,6 +80,7 @@
     flow-children: right;
     margin: 8px 0px 16px;
 }
+
 .SBSummary__HasProgress .SBSummary_Progress {
     visibility: visible;
 }
@@ -95,6 +100,7 @@
     vertical-align: center;
     border-radius: 4px;
 }
+
 .SBSummary_Progress .SBSummary_ProgressBar .ProgressBarLeft {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#e75035), to(#982f2e));
 }

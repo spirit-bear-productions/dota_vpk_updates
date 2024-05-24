@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .IsRegisteredTeam #SimpleTeamInfo {
     visibility: collapse;
 }
@@ -35,7 +37,6 @@
     width: 400px;
     height: 380px;
     horizontal-align: center;
-
     transform: translatey(-140px);
     margin-top: 0px;
 }

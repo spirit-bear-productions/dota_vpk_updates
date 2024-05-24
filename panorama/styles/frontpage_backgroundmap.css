@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CellBackground {
     width: 100%;
 }
@@ -6,22 +8,18 @@
     width: 100%;
     height: width-percentage(100%);
     overflow: noclip;
-
     transform: translateZ(-10px) translateX(-20px) translateY(-70px) rotateY(-25deg) rotateX(25deg) rotateZ(25deg);
     horizontal-align: center;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/textures/dotamap683_small_png.vtex");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-
     animation-name: MapPreviewAnimation;
     animation-delay: 0.5s;
     animation-duration: 18s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-
     transition-property: wash-color, transform, blur, pre-transform-scale2d;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
@@ -47,7 +45,6 @@
     height: 100%;
     saturation: 0.9;
     wash-color: #506a7baa;
-
     transition-property: wash-color, saturation;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
@@ -65,7 +62,6 @@
     texture-sampling: alpha-only;
     z-index: 0;
     pre-transform-scale2d: 1.1;
-
     transition-property: position;
     transition-duration: 4.5s;
 }
@@ -85,7 +81,6 @@
 #MapBG {
     width: 100%;
     height: 100%;
-
     background-image: url("s2r://panorama/images/minimap/dotamap_psd.vtex");
     background-size: contain;
     background-position: center center;
@@ -104,9 +99,7 @@
 .MinimapIconHero {
     width: 24px;
     height: 24px;
-
     z-index: 2;
-
     transition-property: position;
     transition-duration: 4.5s;
 }
@@ -116,6 +109,5 @@
     height: 12px;
     saturation: 0.3;
     background-size: cover;
-
     z-index: 1;
 }

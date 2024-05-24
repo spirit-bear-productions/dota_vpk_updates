@@ -1,6 +1,7 @@
-@define rowHighlightColor:  #8b806e22;
-@define tableHeaderHeight: 36px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define rowHighlightColor: #8b806e22;
+@define tableHeaderHeight: 36px;
 DOTAProfileBattleStatsPage {
     width: 100%;
     height: 100%;
@@ -72,15 +73,14 @@ DOTAProfileBattleStatsPage {
     background-color: rgba(0, 0, 0, 0.3);
     ignore-parent-flow: true;
     flow-children: down;
-
     opacity: 0;
     transform: translateY(-16px);
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     transition-delay: 0s;
 }
+
 #NoStatsMessage .NoStatsMessageIcon {
     horizontal-align: center;
     width: 48px;
@@ -96,7 +96,6 @@ DOTAProfileBattleStatsPage {
     margin-top: -40px;
     padding: 36px;
     opacity: 0.2;
-
     font-size: 20px;
     wash-color: dotaPlusGold&99;
 }
@@ -104,7 +103,6 @@ DOTAProfileBattleStatsPage {
 .HasNoGames #NoStatsMessage {
     opacity: 1;
     transform: translateY(0px);
-
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
@@ -117,15 +115,14 @@ DOTAProfileBattleStatsPage {
     background-color: rgba(0, 0, 0, 0.3);
     ignore-parent-flow: true;
     flow-children: down;
-
     opacity: 0;
     transform: translateY(-16px);
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     transition-delay: 0.1s;
 }
+
 #AllTimeNoFilterMessage .AllTimeMessageIcon {
     horizontal-align: center;
     width: 48px;
@@ -146,7 +143,6 @@ DOTAProfileBattleStatsPage {
 .UsingAllTimeData #AllTimeNoFilterMessage {
     opacity: 1;
     transform: translateY(0px);
-
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
@@ -157,12 +153,10 @@ DOTAProfileBattleStatsPage {
     padding: 20px 20px 32px;
     overflow: squish scroll;
     opacity-mask: url("s2r://panorama/images/masks/gradient_lower_fade_softtop_png.vtex");
-
     transition-property: opacity, transform;
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
-
     opacity: 1;
     transform: translateY(0px);
 }
@@ -180,7 +174,6 @@ DOTAProfileBattleStatsPage {
 .UsingAllTimeData #ProfileBattleReportFilters {
     opacity: 0;
     transform: translateY(16px);
-
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     transition-delay: 0.2s;
@@ -189,7 +182,6 @@ DOTAProfileBattleStatsPage {
 #TablesContainer {
     width: 100%;
     height: 100%;
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -211,7 +203,6 @@ DOTAProfileBattleStatsPage {
     border-radius: 80px;
     min-width: 160px;
     margin: 0px 2px;
-
     transition-property: background-color;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -241,7 +232,6 @@ DOTAProfileBattleStatsPage {
     horizontal-align: center;
     font-weight: semi-bold;
     opacity: 0.6;
-
     transition-property: color, opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -256,18 +246,15 @@ DOTAProfileBattleStatsPage {
     horizontal-align: center;
     vertical-align: bottom;
     flow-children: right;
-
     padding: 8px 12px;
     background-color: #141a21;
     border: 1px solid rgba(0, 0, 0, 0.5);
     margin-left: 220px;
     margin-bottom: 16px;
     border-radius: 4px;
-
     transition-property: transform, opacity;
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
-
     opacity: 0;
     transform: translateY(6px);
 }
@@ -281,6 +268,7 @@ DOTAProfileBattleStatsPage {
     horizontal-align: center;
     vertical-align: center;
 }
+
 #InfrequentHeroesControl .HideHeroesSliderTitle.NumberOfGames {
     width: 66px;
 }
@@ -315,6 +303,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     padding: 2px 0px;
     margin: 0px 4px;
 }
+
 .TabGroupContainer .TabItem {
     padding: 6px 16px;
     border-radius: 80px;
@@ -324,11 +313,11 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0);
     border-color: transparent;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#44505500), to(#2f363a00));
-
     transition-property: color, border, background-color, box-shadow, text-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease;
 }
+
 .TabGroupContainer .TabItem Label {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -336,7 +325,6 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     color: #768e8d;
     text-align: center;
     height: 20px;
-
     transition-property: color, text-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -348,7 +336,6 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     background-size: cover;
     wash-color: #768e8d;
     img-shadow: 0px 0px 12px rgba(197, 222, 255, 0);
-
     transition-property: wash-color, img-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -368,6 +355,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#445055), to(#2f363a));
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
 .TabGroupContainer .TabItem:selected Label {
     color: white;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
@@ -437,6 +425,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     overflow: scroll;
     width: fill-parent-flow(1);
 }
+
 .AnalysisTableRowContents #HorizontalScrollBar {
     height: 8px;
     box-shadow: none;
@@ -458,6 +447,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     transition-duration: 0s;
     background-color: #8b806e0a;
 }
+
 .AnalysisTableRow.Expanded {
     background-color: rowHighlightColor;
 }
@@ -466,6 +456,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     flow-children: down;
     visibility: collapse;
 }
+
 .AnalysisTableRow.Expanded .AnalysisSubRows {
     visibility: visible;
 }
@@ -496,14 +487,15 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     padding: 4px 2px 4px 6px;
     height: 100%;
     vertical-align: center;
-
     transition-property: brightness, background-color;
     transition-duration: 0s;
 }
+
 .ColumnHeader:hover {
     brightness: 2;
     background-color: rgba(255, 255, 255, 0.01);
 }
+
 .ColumnHeader:active {
     brightness: 1.5;
 }
@@ -514,7 +506,6 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     color: baseText;
     font-size: 15px;
     text-transform: uppercase;
-
     vertical-align: center;
     opacity: 0.6;
 }
@@ -524,12 +515,10 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     height: 16px;
     wash-color: baseText;
     vertical-align: center;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     visibility: collapse;
 }
 
@@ -548,15 +537,14 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     vertical-align: middle;
     wash-color: rgb(158, 158, 158);
     margin-right: 8px;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_solid_right_png.vtex");
     background-size: 8px 12px;
     background-repeat: no-repeat;
     background-position: center;
-
     transition-property: transform, brightness;
     transition-duration: 0.2s;
 }
+
 .UsingAllTimeData #ExpandCollapseIcon {
     visibility: collapse;
 }
@@ -611,13 +599,11 @@ SlottedSlider.HorizontalSlider .SliderNotch {
 
 .HeroMode .HeroColumnData Label {
     color: #fff;
-
     font-size: 16px;
 }
 
 .RoleMode .RoleColumnData Label {
     color: #fff;
-
     font-size: 16px;
 }
 
@@ -628,9 +614,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
 .ProgressBarColumnData ProgressBar {
     vertical-align: middle;
     width: 100px;
-
     height: 10px;
-
     border-radius: 2px;
     margin-left: 4px;
     margin-right: 18px;
@@ -662,7 +646,6 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     margin-right: 4px;
     wash-color: #ccc;
     vertical-align: middle;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -671,15 +654,19 @@ SlottedSlider.HorizontalSlider .SliderNotch {
 .RoleColumnData.SafeLane .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/safelaneicon_psd.vtex");
 }
+
 .RoleColumnData.MidLane .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/midlaneicon_psd.vtex");
 }
+
 .RoleColumnData.OffLane .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/offlaneicon_psd.vtex");
 }
+
 .RoleColumnData.SoftSupport .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/softsupporticon_psd.vtex");
 }
+
 .RoleColumnData.HardSupport .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/hardsupporticon_psd.vtex");
 }
@@ -694,6 +681,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     height: 72px;
     margin-left: 8px;
 }
+
 .HeroImageColumnData #HeroImage {
     width: 100%;
     height: 100%;
@@ -714,7 +702,6 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     ignore-parent-flow: true;
     vertical-align: top;
     horizontal-align: center;
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
@@ -732,15 +719,14 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     height: 26px;
     background-color: #0009;
     tooltip-position: top;
-
     background-image: url("s2r://panorama/images/dota_plus/column_button_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     horizontal-align: right;
     vertical-align: center;
 }
+
 .UsingAllTimeData .ChangeColumnsButton {
     visibility: collapse;
 }
@@ -753,20 +739,19 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#1b181266), to(#1b181266));
     border: 1px solid rgba(0, 0, 0, 0.3);
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
-
     padding: 6px 0px;
     width: 100%;
     border-radius: 3px;
     margin: 0px;
     margin-bottom: 4px;
 }
+
 .FiltersSection .LargeToggle Label {
     font-size: 18px;
     margin-left: 8px;
     margin-top: -2px;
     text-transform: uppercase;
     transform: none;
-
     transition-property: transform;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -781,6 +766,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     border: 1px solid rgba(255, 255, 255, 0.02);
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.4);
 }
+
 .FiltersSection .LargeToggle:selected Label {
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
     transform: translateX (6px);
@@ -831,6 +817,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
 #HeroesTable .ColumnData {
     height: 36px;
 }
+
 #HeroesTable .AnalysisTableSubRow .ColumnData {
     height: 24px;
 }
@@ -839,6 +826,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     width: 96px;
     padding-left: 8px;
 }
+
 .UsingAllTimeData #HeroesTable .HeroColumn {
     width: 72px;
 }
@@ -931,6 +919,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
 .ItemsColumn {
     width: 250px;
 }
+
 .ItemsColumn .ItemIcon {
     width: 38px;
     vertical-align: center;
@@ -976,6 +965,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
 #RolesTable .ColumnData {
     height: 36px;
 }
+
 #RolesTable .AnalysisTableSubRow .ColumnData {
     height: 24px;
 }
@@ -997,6 +987,7 @@ SlottedSlider.HorizontalSlider .SliderNotch {
     flow-children: right;
     transition-duration: 0s;
 }
+
 .MatchRow:hover {
     background-color: rowHighlightColor;
 }
@@ -1012,30 +1003,39 @@ SlottedSlider.HorizontalSlider .SliderNotch {
 #MatchesTable .DateColumn {
     width: 180px;
 }
+
 #MatchesTable .RoleColumn {
     width: 60px;
 }
+
 #MatchesTable .HeroColumn {
     width: 80px;
 }
+
 #MatchesTable .ResultColumn {
     width: 70px;
 }
+
 #MatchesTable .DurationColumn {
     width: 100px;
 }
+
 #MatchesTable .LastHitsColumn {
     width: 60px;
 }
+
 #MatchesTable .DeniesColumn {
     width: 60px;
 }
+
 #MatchesTable .DateColumn {
     width: 140px;
 }
+
 #MatchesTable .HeroDamageColumn {
     width: 83px;
 }
+
 #MatchesTable .HeroHealingColumn {
     width: 83px;
 }

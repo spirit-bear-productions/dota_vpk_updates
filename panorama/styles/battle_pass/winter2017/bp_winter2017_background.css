@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FullScreenBackground {
     width: 100%;
     height: 100%;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -11,7 +12,6 @@
         color-stop(0.8, #344862cc),
         to(#192331aa)
     );
-
     transition-property: background-color;
     transition-duration: 0.5s;
 }
@@ -26,7 +26,6 @@
     transition-property: transform, opacity;
     transition-duration: 1.8s;
     transition-timing-function: ease-in-out;
-
     opacity: 0.71;
 }
 
@@ -34,7 +33,6 @@
     saturation: 0.8;
     contrast: 1;
     brightness: 1;
-
     transform: translateX(0px);
     width: 542px;
     horizontal-align: right;
@@ -57,13 +55,10 @@
     margin-top: -60px;
     margin-left: 32px;
     transform: rotateZ(20deg) translateY(12px);
-
     background-image: url("s2r://panorama/images/compendium/whitebox_glass_psd.vtex");
     background-size: cover;
-
     border-radius: 1px;
     overflow: noclip;
-
     animation-name: SlantMotion;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -72,9 +67,11 @@
 #WhiteBox1 {
     animation-duration: 31.3s;
 }
+
 #WhiteBox2 {
     animation-duration: 21.161s;
 }
+
 #WhiteBox3 {
     animation-duration: 26.7s;
 }
@@ -83,9 +80,11 @@
     0% {
         transform: rotateZ(20deg) translateY(12px) translateX(0px);
     }
+
     50% {
         transform: rotateZ(20deg) translateY(12px) translateX(-22px);
     }
+
     100% {
         transform: rotateZ(20deg) translateY(12px) translateX(0px);
     }
@@ -95,12 +94,10 @@
     width: 428px;
     height: 72px;
     border-radius: 1px;
-
     background-image: url("s2r://panorama/images/compendium/whitebox_glass_psd.vtex");
     background-size: cover;
     transform: rotateZ(-215deg) translateX(-40px) translateY(-50px);
     opacity: 0.2;
-
     animation-duration: 18s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -108,7 +105,6 @@
 
 .SelfEventTierSilver #SlantGraphic {
     hue-rotation: -40deg;
-
     saturation: 0.3;
     contrast: 1.4;
     brightness: 3;
@@ -116,7 +112,6 @@
 
 .SelfEventTierGold #SlantGraphic {
     hue-rotation: 180deg;
-
     hue-rotation: 165deg;
     saturation: 1.2;
     contrast: 1.2;
@@ -128,13 +123,11 @@
     saturation: 1;
     brightness: 2;
     contrast: 1;
-
     hue-rotation: -100deg;
     saturation: 2;
     brightness: 0.5;
     contrast: 1;
     opacity: 1;
-
     hue-rotation: 0deg;
     saturation: 2;
     brightness: 0.5;
@@ -162,7 +155,6 @@
     background-image: url("s2r://panorama/images/compendium/campaigncoverart_glow_psd.vtex");
     background-repeat: no-repeat;
     background-size: 100%;
-
     transition-property: transform, saturation, opacity, wash-color, pre-transform-scale2d;
     transition-duration: 1.2s;
     transition-timing-function: ease-in-out;
@@ -170,24 +162,19 @@
 
 .ViewingCompendium #TierGlow {
     transform: translateX(-1180px);
-
     transition-duration: 0.9s;
 }
 
 .SelfEventTierSilver #TierGlow {
     hue-rotation: 190deg;
-
     hue-rotation: 80deg;
-
     saturation: 0.4;
     opacity: 0.6;
 }
 
 .SelfEventTierGold #TierGlow {
     hue-rotation: -10deg;
-
     hue-rotation: -60deg;
-
     saturation: 0.5;
     opacity: 0.3;
 }
@@ -211,7 +198,6 @@
     margin-top: 60px;
     vertical-align: top;
     horizontal-align: left;
-
     transition-property: transform, opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -220,9 +206,11 @@
 #WhiteBox1 .Reflection {
     animation-name: ReflectionMotion1;
 }
+
 #WhiteBox2 .Reflection {
     animation-name: ReflectionMotion2;
 }
+
 #WhiteBox3 .Reflection {
     animation-name: ReflectionMotion3;
 }
@@ -231,9 +219,11 @@
     0% {
         transform: rotateZ(-210deg) translateX(-20px) translateY(-20px);
     }
+
     50% {
         transform: rotateZ(-205deg) translateX(-20px) translateY(-30px);
     }
+
     100% {
         transform: rotateZ(-210deg) translateX(-20px) translateY(-20px);
     }
@@ -243,9 +233,11 @@
     0% {
         transform: rotateZ(-209deg) translateX(-110px) translateY(2px);
     }
+
     50% {
         transform: rotateZ(-204deg) translateX(-110px) translateY(2px);
     }
+
     100% {
         transform: rotateZ(-209deg) translateX(-110px) translateY(2px);
     }
@@ -255,9 +247,11 @@
     0% {
         transform: rotateZ(-208deg) translateX(-180px) translateY(14px);
     }
+
     50% {
         transform: rotateZ(-203deg) translateX(-180px) translateY(19px);
     }
+
     100% {
         transform: rotateZ(-208deg) translateX(-180px) translateY(14px);
     }
@@ -266,7 +260,6 @@
 .CompendiumHeader {
     width: 1405px;
     height: 100px;
-
     horizontal-align: center;
     vertical-align: top;
     margin-top: 80px;
@@ -306,19 +299,14 @@
     color: #9ec0ff;
     text-shadow: 0px 0px 5px 3 #000000;
     text-shadow: 0px 0px 8px 1 #61beff;
-
     color: #f3ffec;
     text-shadow: 0px 0px 6px 1 #9cff6100;
-
     color: #e3f9ff;
     text-shadow: 0px 0px 6px 1 #61c9ff00;
-
     margin-bottom: 11px;
     margin-left: 3px;
     opacity: 1;
-
     horizontal-align: left;
-
     transition-property: opacity;
     transition-duration: 0.5s;
 }
@@ -333,20 +321,15 @@
 
 #CompendiumID {
     background-image: url("s2r://panorama/images/compendium/spring2016/logoheader_ti6_psd.vtex");
-
     width: 220px;
     height: 42px;
-
     opacity: 1;
-
     horizontal-align: center;
     vertical-align: middle;
     margin: 0px;
     margin-bottom: 54px;
-
     transition-property: opacity;
     transition-duration: 0.5s;
-
     visibility: collapse;
 }
 
@@ -364,7 +347,6 @@
     opacity: 0;
     transition-property: opacity, brightness, transform;
     transition-duration: 0.5s, 0.12s;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_left_png.vtex");
 }
 
@@ -383,14 +365,10 @@
     font-weight: bold;
     letter-spacing: 5px;
     text-shadow: 0px 0px 8px 1 #c14f39;
-
     text-shadow: 0px 0px 8px 1 #93c139;
-
     text-shadow: 0px 0px 8px 1 #398fc1;
-
     margin-top: 48px;
     padding-left: 6px;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.5s;
@@ -408,12 +386,9 @@
     width: 100%;
     height: 100px;
     margin-bottom: 8px;
-
     margin-top: 10px;
     vertical-align: bottom;
-
     opacity: 1;
-
     transition-property: opacity, brightness;
     transition-duration: 0.5s, 0.12s;
 }
@@ -428,7 +403,6 @@
     pre-transform-scale2d: 0.5;
     transform: translateX(-48px) translateY(-16px);
     opacity: 0;
-
     horizontal-align: left;
 }
 
@@ -466,7 +440,6 @@
     border-radius: 12px;
     text-shadow: 0px 0px 8px 2 #000000aa;
     text-transform: uppercase;
-
     visibility: collapse;
 }
 

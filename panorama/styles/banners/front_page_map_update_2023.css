@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .UpdateInfo {
     flow-children: down;
     width: 100%;
@@ -23,7 +25,6 @@
     horizontal-align: center;
     text-transform: uppercase;
     font-weight: bold;
-
     text-shadow: 0px 6px 6px 1 #140404;
     margin-top: 8px;
 }
@@ -39,6 +40,7 @@
     text-shadow: 0px 6px 6px 1 #140404;
     margin-top: 24px;
 }
+
 .PatchNotesHeaderCopy:hover {
     brightness: 5;
     background-color: rgba(75, 75, 75, 0.089);
@@ -46,6 +48,7 @@
     opacity: 0.6;
     text-shadow: 0px 0px 10px rgba(235, 176, 66, 0.13);
 }
+
 .PatchNotesHeaderCopy:hover .BackgroundImage {
     transform: scale3d(1.03, 1.03, 1);
 }
@@ -55,13 +58,14 @@
     width: 100%;
     margin-bottom: 12px;
     background-size: cover;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 .UpdateSection:hover {
     brightness: 2;
 }
+
 .UpdateSection:hover .BackgroundImage {
     transform: scale3d(1.03, 1.03, 1);
 }
@@ -69,6 +73,7 @@
 .UpdateSection:active {
     brightness: 1.5;
 }
+
 .UpdateSection .BackgroundImage {
     width: 100%;
     height: 100%;
@@ -84,6 +89,7 @@
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffe6a6), color-stop(0.5, #4b4431), to(#998a63));
     box-shadow: 0px 0px 2px black;
 }
+
 .UpdateSection .BottomBorder {
     width: 100%;
     height: 1px;
@@ -109,7 +115,6 @@
     text-transform: uppercase;
     font-size: 14px;
     font-family: titleFont;
-
     color: gradient(linear, 0% 0%, 100% 0%, from(#ffe6a6), to(#998a63));
     letter-spacing: 2px;
     margin: 5px;
@@ -139,7 +144,6 @@
     text-shadow: 0px 1px 4px rgba(0, 0, 0, 1);
     line-height: 1.05;
     letter-spacing: 1px;
-
     background-repeat: no-repeat;
     background-position: 0px 50%;
     margin: 0px 0px 0px 10px;
@@ -151,6 +155,7 @@
     width: 100%;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#0009), to(#0000));
 }
+
 .UpdateSection .UpdateSectionContents .UpdateSectionNav .UpdateNoteNav {
     font-size: 13px;
     color: #c0c0c0;
@@ -160,7 +165,6 @@
     letter-spacing: 1.2px;
     text-transform: uppercase;
     vertical-align: center;
-
     background-repeat: no-repeat;
     background-size: 150px;
     background-position: 0px 50%;
@@ -174,6 +178,7 @@
     opacity: 0.6;
     text-shadow: 0px 0px 10px rgba(235, 176, 66, 0.13);
 }
+
 .UpdateSection .UpdateSectionContents .UpdateSectionNav .UpdateNoteNav:hover .BackgroundImage {
     transform: scale3d(1.03, 1.03, 1);
 }
@@ -185,15 +190,17 @@
 .SectionsCarouselContainer {
     width: 100%;
 }
+
 .SectionsCarouselContainer #SectionsCarousel {
     width: 100%;
 }
+
 .SectionsCarouselContainer #SectionsCarousel .UpdateSection {
     height: 260px;
     transition-property: opacity, transform;
-
     opacity: 0;
 }
+
 .SectionsCarouselContainer #SectionsCarousel .UpdateSection.Focused {
     opacity: 1;
 }

@@ -1,5 +1,6 @@
-@define contentsWidth: 512px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define contentsWidth: 512px;
 PopupJoinChatChannel {
     flow-children: down;
 }
@@ -32,7 +33,6 @@ PopupJoinChatChannel.PopupPanel {
     border: 1px solid black;
     border-bottom: 0px solid black;
     height: 42px;
-
     margin-left: 3px;
     margin-right: 3px;
 }
@@ -108,7 +108,6 @@ PopupJoinChatChannel.PopupPanel {
     height: 20px;
     margin-left: 5px;
     wash-color: baseText;
-
     background-size: contain;
     background-position: 50% 50%;
 }
@@ -169,11 +168,9 @@ PopupJoinChatChannel.PopupPanel {
     vertical-align: middle;
     margin-right: 5px;
     margin-bottom: 4px;
-
     background-image: url("s2r://panorama/images/control_icons/lock_small_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     wash-color: #a5ada2;
 }
 

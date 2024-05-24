@@ -1,8 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACustomGame .GameImageContainer {
     width: 456px;
     height: 342px;
     opacity: 0.9999;
-
     transition-property: border, wash-color;
     transition-duration: 0.36s;
     transition-timing-function: ease-in-out;
@@ -31,15 +32,12 @@ DOTACustomGame .GameImageContainer {
 
 #ConnectionQualityIcon {
     height: 22px;
-
     width: 25px;
     margin-left: 5px;
     margin-right: 100px;
-
     background-image: url("s2r://panorama/images/connection_icons/connection_quality_1_png.vtex");
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     vertical-align: center;
     tooltip-position: right;
     tooltip-body-position: 50% 10%;
@@ -48,18 +46,23 @@ DOTACustomGame .GameImageContainer {
 .ConnectionQuality5 #ConnectionQualityIcon {
     background-image: url("s2r://panorama/images/connection_icons/connection_quality_5_png.vtex");
 }
+
 .ConnectionQuality4 #ConnectionQualityIcon {
     background-image: url("s2r://panorama/images/connection_icons/connection_quality_4_png.vtex");
 }
+
 .ConnectionQuality3 #ConnectionQualityIcon {
     background-image: url("s2r://panorama/images/connection_icons/connection_quality_3_png.vtex");
 }
+
 .ConnectionQuality2 #ConnectionQualityIcon {
     background-image: url("s2r://panorama/images/connection_icons/connection_quality_2_png.vtex");
 }
+
 .ConnectionQuality1 #ConnectionQualityIcon {
     background-image: url("s2r://panorama/images/connection_icons/connection_quality_1_png.vtex");
 }
+
 .ConnectionQualityUnavailable #ConnectionQualityIcon {
     background-image: url("s2r://panorama/images/custom_game/icon_disconnect_png.vtex");
     background-size: 160% 70%;
@@ -82,7 +85,6 @@ DOTACustomGame #EmptyPanel {
     width: 100%;
     height: 100%;
     pre-transform-scale2d: 1;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.3s;
     transition-delay: 0s;
@@ -120,7 +122,6 @@ DOTACustomGame #EmptyPanel {
 
 .GameImageContainer {
     saturation: 0.75;
-
     transition-property: saturation;
     transition-duration: 0.3s;
     transition-delay: 0s;
@@ -140,7 +141,6 @@ DOTACustomGame #EmptyPanel {
     width: 342px;
     height: 66px;
     vertical-align: bottom;
-
     transition-property: height, background-color;
     transition-duration: 0.15s;
     transition-delay: 0s;
@@ -178,7 +178,6 @@ DOTACustomGame #GameDescription {
     margin-left: 12px;
     margin-top: 36px;
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.5s;
     transition-delay: 0s;
@@ -280,7 +279,6 @@ ToggleButton#FavoriteStar {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     wash-color: #444444;
-
     visibility: collapse;
 }
 
@@ -300,6 +298,7 @@ ToggleButton#FavoriteStar:selected:hover {
 ToggleButton#FavoriteStar .TickBox {
     visibility: collapse;
 }
+
 ToggleButton#FavoriteStar .Label {
     visibility: collapse;
 }
@@ -423,7 +422,6 @@ DOTACustomGame.CustomGameInstalled .CustomGameCell:hover #CustomGameCellFooter {
 
 DOTACustomGame.CustomGameInstalled #GameImage {
     saturation: 0.7;
-
     transition-property: saturation, pre-transform-scale2d;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -613,6 +611,7 @@ DOTACustomGame.SuggestedGame:hover .GameImageContainer {
 DOTACustomGame.SuggestedGame:hover #GameImage {
     pre-transform-scale2d: 1;
 }
+
 DOTACustomGame.SuggestedGame #GameImage {
     transition-duration: 0.2s;
 }
@@ -624,7 +623,6 @@ DOTACustomGame.SuggestedGame .CustomGameCell {
     margin-right: 8px;
     border-radius: 6px;
     border: 1px solid #9bcaf400;
-
     transition-property: background-color, border;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -655,11 +653,9 @@ DOTACustomGame.SuggestedGame #GameName {
     vertical-align: middle;
     margin-top: 0px;
     text-transform: none;
-
     font-weight: normal;
     height: 43px;
     width: 200px;
-
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -695,9 +691,7 @@ DOTACustomGame.ActiveGame .GameImageContainer {
     height: 50px;
     margin-top: 10px;
     margin-left: 12px;
-
     wash-color: #808f8d55;
-
     transition-duration: 0.2s;
     z-index: 2;
 }
@@ -713,6 +707,7 @@ DOTACustomGame.ActiveGame:hover .GameImageContainer {
 DOTACustomGame.ActiveGame:hover #GameImage {
     pre-transform-scale2d: 1;
 }
+
 DOTACustomGame.ActiveGame #GameImage {
     transition-duration: 0.2s;
 }
@@ -720,9 +715,7 @@ DOTACustomGame.ActiveGame #GameImage {
 DOTACustomGame.ActiveGame .CustomGameCell {
     height: 72px;
     width: 100%;
-
     border-top: 1px solid #88888822;
-
     transition-property: background-color, border;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -754,7 +747,6 @@ DOTACustomGame.ActiveGame #GameName {
     font-weight: normal;
     height: 43px;
     width: 275px;
-
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -808,7 +800,6 @@ DOTACustomGame.Carousel {
     transition-duration: 0s;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
-
     animation-duration: 0.6s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
@@ -836,38 +827,47 @@ DOTACustomGame.Carousel.LeftOfFocus1 {
     transform: rotateY(50deg) translatex(-612px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.LeftOfFocus2 {
     transform: rotateY(55deg) translatex(-1218px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.LeftOfFocus3 {
     transform: rotateY(60deg) translatex(-1827px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.LeftOfFocus4 {
     transform: rotateY(65deg) translatex(-2436px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.LeftOfFocus5 {
     transform: rotateY(70deg) translatex(-3045px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.LeftOfFocus6 {
     transform: rotateY(70deg) translatex(-3654px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.LeftOfFocus7 {
     transform: rotateY(70deg) translatex(-4263px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.LeftOfFocus8 {
     transform: rotateY(70deg) translatex(-4872px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.LeftOfFocus9 {
     transform: rotateY(70deg) translatex(-5481px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.LeftOfFocus10 {
     transform: rotateY(70deg) translatex(-6090px);
     animation-name: CardDarken;
@@ -877,38 +877,47 @@ DOTACustomGame.Carousel.RightOfFocus1 {
     transform: rotateY(-50deg) translatex(612px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.RightOfFocus2 {
     transform: rotateY(-55deg) translatex(1218px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.RightOfFocus3 {
     transform: rotateY(-60deg) translatex(1827px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.RightOfFocus4 {
     transform: rotateY(-65deg) translatex(2436px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.RightOfFocus5 {
     transform: rotateY(-70deg) translatex(3045px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.RightOfFocus6 {
     transform: rotateY(-70deg) translatex(3654px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.RightOfFocus7 {
     transform: rotateY(-70deg) translatex(4263px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.RightOfFocus8 {
     transform: rotateY(-70deg) translatex(4872px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.RightOfFocus9 {
     transform: rotateY(-70deg) translatex(5481px);
     animation-name: CardDarken;
 }
+
 DOTACustomGame.Carousel.RightOfFocus10 {
     transform: rotateY(-70deg) translatex(6090px);
     animation-name: CardDarken;
@@ -928,7 +937,6 @@ DOTACustomGame.Carousel .CustomGameCell {
 DOTACustomGame.Carousel #CustomGameCellFooter {
     width: 100%;
     height: 136px;
-
     background-color: gradient(
         linear,
         100% 0%,
@@ -938,7 +946,6 @@ DOTACustomGame.Carousel #CustomGameCellFooter {
         color-stop(0.28, #000000dd),
         to(#000000dd)
     );
-
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -1025,7 +1032,6 @@ DOTACustomGame.Tooltip #GameName {
     padding-top: 2px;
     padding-left: 8px;
     margin-top: 0px;
-
     white-space: nowrap;
     text-overflow: ellipsis;
     text-transform: none;
@@ -1056,7 +1062,6 @@ DOTACustomGame.Tooltip #GameDescription {
     min-height: 0px;
     max-height: 112px;
     background-color: #00000088;
-
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -1116,7 +1121,6 @@ DOTACustomGame.GameFriendsPlay {
 DOTACustomGame.GameFriendsPlay .CustomGameCell {
     width: 100%;
     height: 100%;
-
     margin-right: 8px;
     margin-top: 2px;
 }
@@ -1132,7 +1136,6 @@ DOTACustomGame.GameFriendsPlay .CustomGameCell:hover #CustomGameCellFooter {
 
 DOTACustomGame.GameFriendsPlay #GameImage {
     saturation: 0.7;
-
     transition-property: saturation, pre-transform-scale2d;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1202,7 +1205,6 @@ DOTACustomGame.LobbyInvite .CustomGameCell:hover #CustomGameCellFooter {
 
 DOTACustomGame.LobbyInvite #GameImage {
     saturation: 0.7;
-
     transition-property: saturation, pre-transform-scale2d;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -1287,7 +1289,6 @@ DOTACustomGame.FriendContextMenu #GameName {
     font-weight: bold;
     height: 18px;
     vertical-align: top;
-
     transition-property: color;
     transition-duration: 0s;
     transition-timing-function: ease-in;
@@ -1356,7 +1357,6 @@ DOTACustomGame.FinishedPlayingVote #GameName {
     padding-top: 2px;
     padding-left: 8px;
     margin-top: 0px;
-
     white-space: nowrap;
     text-overflow: ellipsis;
     text-transform: none;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAWatchDPCStandings {
     flow-children: down;
 }
@@ -37,15 +39,13 @@ DOTAWatchDPCStandings {
     height: 20px;
     vertical-align: center;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/control_icons/refresh_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     wash-color: #c0c0c0;
-
     margin-right: 6px;
 }
+
 .SpoilerRefresh:hover {
     wash-color: #ffffff;
 }
@@ -146,12 +146,9 @@ DOTAWatchDPCStandings {
 .RegionStandings {
     width: 460px;
     height: 100%;
-
     flow-children: down;
-
     margin-right: 16px;
     margin-bottom: 16px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#151d24fc), color-stop(0.5, #151c24ed), to(#0e1318aa));
     background-color: gradient(linear, 0% 0%, 100% 100%, from(#141c23), to(#1d2a35cc));
 }
@@ -185,7 +182,6 @@ DOTAWatchDPCStandings {
     flow-children: right;
     width: 100%;
     padding: 6px 12px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -217,7 +213,6 @@ DOTAWatchDPCStandings {
     width: 24px;
     height: 24px;
     margin-right: 6px;
-
     visibility: collapse;
 }
 
@@ -230,7 +225,6 @@ DOTAWatchDPCStandings {
     color: bluegreyTextReg;
     letter-spacing: 1px;
     text-transform: uppercase;
-
     visibility: collapse;
 }
 

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTARiverVial {
     flow-children: down;
     width: 270px;
@@ -20,7 +22,6 @@ DOTARiverVial.RiverVialsActive {
     width: 100%;
     height: 100%;
     flow-children: right;
-
     transition-property: transform;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -132,7 +133,6 @@ DOTARiverVial.RiverVialsActive {
     z-index: 1;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00ff0000), to(#00ff0000));
     visibility: visible;
-
     transition-property: brightness, background-color;
     transition-duration: 0.12s;
     transition-timing-function: ease-in;

@@ -1,8 +1,9 @@
-@define tileBackgroundColor:  #214036;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define tileBackgroundColor: #214036;
 @define titleBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #0B1B1Bcc ), to( #080F0Cee ) );
 @define titleColor: gradient( linear, 0% 0%, 0% 100%, from( #FFE6A6 ), to( #998A63 ) );
 @define dividerColor: gradient( linear, 0% 0%, 100% 0%, from( #FFE6A6 ), color-stop( 0.5, #4B4431 ), to( #998A63 ) );
-
 DOTAFrontpage10thAnniversaryEvent {
     opacity: 1;
     height: 100%;
@@ -48,7 +49,6 @@ DOTAFrontpage10thAnniversaryEvent {
     opacity: 0;
     transform: translatex(50px);
     wash-color: #000000;
-
     transition-duration: 0.5s;
     transition-delay: 0.5s;
     transition-property: opacity, transform, wash-color;
@@ -59,7 +59,6 @@ DOTAFrontpage10thAnniversaryEvent {
     opacity: 1;
     transform: translatex(0px);
     wash-color: #ffffff;
-
     transition-delay: 0s;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
@@ -71,6 +70,7 @@ DOTAFrontpage10thAnniversaryEvent {
     background-image: url("s2r://panorama/images/backgrounds/chest_vignette_psd.vtex");
     background-size: 100%;
 }
+
 .TreasureTile #BGVignette {
     visibility: collapse;
 }
@@ -89,7 +89,6 @@ DOTAFrontpage10thAnniversaryEvent {
     width: 100%;
     height: 100%;
     background-size: cover;
-
     background-image: url("s2r://panorama/images/events/10th_anniversary/10th_anniversary_cell_background_png.vtex");
     background-size: cover;
     overflow: clip;
@@ -101,6 +100,7 @@ DOTAFrontpage10thAnniversaryEvent {
     box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.5);
     tooltip-position: bottom;
 }
+
 .EventTile #10thAnniversaryEventDate {
     width: 100%;
     text-align: center;
@@ -135,6 +135,7 @@ DOTAFrontpage10thAnniversaryEvent {
     flow-children: down;
     margin-top: 16px;
 }
+
 .EventTile .TitleContainer Label {
     horizontal-align: center;
     text-align: center;
@@ -174,6 +175,7 @@ DOTAFrontpage10thAnniversaryEvent {
     horizontal-align: center;
     flow-children: right;
 }
+
 .EventTile .TitleContainer .TreasureLabelContainer .TreasureLabel {
     margin: 0px 8px;
 }
@@ -194,6 +196,7 @@ DOTAFrontpage10thAnniversaryEvent {
     );
     opacity: 0.1;
 }
+
 .EventTile .TitleContainer .TreasureLabelContainer .Dash.Left {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#f7e6b500), to(#f7e6b5));
 }
@@ -218,6 +221,7 @@ DOTAFrontpage10thAnniversaryEvent {
     width: 100%;
     flow-children: down;
 }
+
 .EventTile .EventBody .EventTitle {
     width: 100%;
     color: gradient(linear, 0% 65%, 0% 100%, from(#ffffff), color-stop(0.2, #cfd7db), to(#e1e8eb));
@@ -249,23 +253,23 @@ DOTAFrontpage10thAnniversaryEvent {
 .EventTile #ViewTreasurePanel {
     horizontal-align: center;
     width: 100%;
-
     ignore-parent-flow: true;
     vertical-align: bottom;
     padding: 0px 16px 16px;
 }
+
 .EventTile #ViewTreasurePanel.Inactive {
     visibility: collapse;
 }
 
 .EventTile #ClaimTreasurePanel {
     width: 100%;
-
     flow-children: none;
     ignore-parent-flow: true;
     vertical-align: bottom;
     padding: 0px 16px 16px;
 }
+
 .EventTile #ClaimTreasurePanel.Inactive {
     visibility: collapse;
 }
@@ -292,6 +296,7 @@ DOTAFrontpage10thAnniversaryEvent {
     transition-duration: 0.1s;
     transition-timing-function: ease;
 }
+
 .ViewTreasure Label,
 .ClaimTreasure Label {
     color: white;
@@ -299,12 +304,10 @@ DOTAFrontpage10thAnniversaryEvent {
     font-weight: semi-bold;
     horizontal-align: center;
     vertical-align: middle;
-
     text-transform: uppercase;
     text-shadow: 0px 1px 6px #00000088;
     letter-spacing: 1px;
     text-overflow: shrink;
-
     transition-property: transform;
     transition-duration: 0.05s;
     transition-timing-function: ease;
@@ -318,6 +321,7 @@ DOTAFrontpage10thAnniversaryEvent {
     saturation: 0;
     opacity: 0.2;
 }
+
 .ViewTreasure.Disabled Label,
 .ViewTreasure:disabled Label,
 .ClaimTreasure.Disabled Label,
@@ -335,7 +339,6 @@ DOTAFrontpage10thAnniversaryEvent {
         color-stop(0.55, #ae9259),
         to(#dcb870)
     );
-
     animation-name: GlowTreasureButtonPrimary;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -359,12 +362,11 @@ DOTAFrontpage10thAnniversaryEvent {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3b3f70), to(#262848));
     border: 1px solid white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#f7e7b573), to(#f7e7b519));
-
     width: fill-parent-flow(1);
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
+
 .ViewTreasure Label {
     color: #ffffff;
     font-size: 15px;
@@ -376,6 +378,7 @@ DOTAFrontpage10thAnniversaryEvent {
 .ViewTreasure:hover:enabled:not(.Disabled) {
     brightness: 1.5;
 }
+
 .ViewTreasure:hover:enabled:not(.Disabled) Label {
     color: #ffffff;
 }
@@ -383,6 +386,7 @@ DOTAFrontpage10thAnniversaryEvent {
 .ViewTreasure:active:enabled:not(.Disabled) {
     sound: "ui_generic_button_click";
 }
+
 .ViewTreasure:active:enabled:not(.Disabled) Label {
     transform: translateY(1px);
 }
@@ -406,6 +410,7 @@ DOTAFrontpage10thAnniversaryEvent {
     horizontal-align: center;
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle.png");
 }
+
 .Earned .PipFX {
     opacity: 1;
 }
@@ -414,26 +419,21 @@ DOTAFrontpage10thAnniversaryEvent {
     vertical-align: center;
     horizontal-align: center;
     margin: 0px -1px;
-
     width: 33px;
     height: 55px;
     margin: 0px -5px;
     margin-top: -10px;
     tooltip-position: top;
-
     background-image: url("s2r://panorama/images/events/10th_anniversary/treasure_empty_png.vtex");
     background-size: 80% 40%;
-
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .Pip.Large {
     background-image: url("s2r://panorama/images/events/10th_anniversary/treasure_large_empty_png.vtex");
-
     width: 40px;
     height: 70px;
-
     margin-top: -12px;
 }
 
@@ -443,7 +443,6 @@ DOTAFrontpage10thAnniversaryEvent {
     animation-iteration-count: infinite;
     animation-timing-function: ease;
     animation-direction: alternate;
-
     background-image: url("s2r://panorama/images/events/10th_anniversary/treasure_earned_png.vtex");
     background-size: 80% 40%;
 }

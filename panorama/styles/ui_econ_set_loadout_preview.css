@@ -1,9 +1,9 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 .EconItemSetFrame {
     flow-children: down;
     width: 136px;
-
     margin-top: 0px;
     margin-right: 10px;
     pre-transform-scale2d: 0.95;
@@ -49,7 +49,6 @@
     width: 100%;
     height: 100%;
     background-color: gradient(linear, 0% 30%, 0% 100%, from(#00000022), color-stop(0.1, #00000022), to(#000000cc));
-
     transition-property: background-color;
     transition-duration: 0.4s;
     transition-timing-function: linear;
@@ -78,7 +77,6 @@
 
 .EconItemSetFrame.Equipped #EconSetPreview {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#cdf7ff09), color-stop(0.1, #b8dde509), to(#00000099));
-
     margin-top: -3px;
     animation-name: none;
     box-shadow: none;
@@ -92,7 +90,6 @@
 
 .EconItemSetFrame.Equipped {
     pre-transform-scale2d: 1;
-
     padding-top: -3px;
 }
 
@@ -107,16 +104,13 @@
 .EconItemSetEquippedLabel {
     transition-property: opacity;
     transition-duration: 0.2s;
-
     font-size: 14px;
     letter-spacing: 1px;
     color: white;
     vertical-align: bottom;
     padding-bottom: 8px;
     padding-left: 8px;
-
     text-transform: uppercase;
-
     opacity: 0;
 }
 
@@ -287,9 +281,7 @@
 .EconItemSetName {
     color: white;
     text-shadow: 1px 1px 2px 1 #000000;
-
     font-size: 16px;
-
     padding: 6px 8px 6px 8px;
     opacity: 0;
 }
@@ -298,7 +290,6 @@
     font-size: 16px;
     text-shadow: 1px 1px 2px 1 #000000;
     text-transform: uppercase;
-
     padding: -6px 8px 8px 8px;
     opacity: 0;
 }

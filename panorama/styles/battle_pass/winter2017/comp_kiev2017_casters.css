@@ -1,15 +1,16 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACompKiev2017CastersPage {
     width: 100%;
 }
+
 DOTACompKiev2017CastersPage .CompendiumBody {
     width: 1392px;
     height: 700px;
-
     margin-top: 215px;
     border-top: 0;
     border-bottom: 0;
     background-color: transparent;
-
     horizontal-align: center;
 }
 
@@ -32,7 +33,6 @@ DOTACompKiev2017CastersPage .CompendiumBody {
 #AutographsHeader {
     width: 656px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3c1909a0), to(#79371ea0));
-
     border: 1px solid #45201d;
     margin-right: 31px;
 }
@@ -45,9 +45,7 @@ DOTACompKiev2017CastersPage .CompendiumBody {
     horizontal-align: left;
     vertical-align: top;
     height: fit-children;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#471d0d), to(#8c3e21));
-
     border-top: 1px solid #632e2a;
     border-left: 1px solid #632e2a;
 }
@@ -97,7 +95,6 @@ DOTACompKiev2017CastersPage .CompendiumBody {
     text-transform: uppercase;
     text-align: left;
     horizontal-align: left;
-
     padding-left: 15px;
     padding-top: 7px;
 }
@@ -126,7 +123,6 @@ DOTACompKiev2017CastersPage .CompendiumBody {
     color: #a2b7cd;
     color: #c3b699;
     text-transform: uppercase;
-
     margin-top: 2px;
     margin-right: 16px;
 }
@@ -145,13 +141,11 @@ DOTACompKiev2017CastersPage .CompendiumBody {
 
 #TalentWell {
     margin-top: 10px;
-
     flow-children: right-wrap;
     overflow: clip scroll;
     opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_vscroll_wide_psd.vtex");
     padding-left: 16px;
     padding-right: 16px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;

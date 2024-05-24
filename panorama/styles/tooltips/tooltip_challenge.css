@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents.TitleImageTextContents {
     min-width: 200px;
     max-width: 400px;
@@ -92,7 +94,6 @@
     width: 400px;
     background-color: #555757;
     vertical-align: middle;
-
     height: 1px;
 }
 
@@ -100,15 +101,11 @@
     border-radius: 50%;
     vertical-align: center;
     horizontal-align: center;
-
     box-shadow: -2px 0px 4px 0px #000000;
-
     z-index: 1;
     pre-transform-scale2d: 1;
-
     background-color: XPCircleGradient;
     border: XPCircleBorder;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
 }
@@ -163,10 +160,8 @@
     vertical-align: bottom;
     width: 420px;
     visibility: collapse;
-
     border: 1px solid #3e6bae;
     box-shadow: inset #1c4661 -3px 0px 6px;
-
     border: 1px solid accentColor;
     box-shadow: inset accentColorSectionBG -3px 0px 6px;
 }
@@ -178,15 +173,12 @@
 
 #ChallengeProgress .ProgressBarLeft {
     border-radius: 2px;
-
     background-color: #a2c53a;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#afe01c), to(#111111));
     box-shadow: inset accentColorGlow -3px 0px 6px;
-
     background-color: #46a5db;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1eadff), to(#111111));
     box-shadow: inset #48b4ff -3px 0px 6px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(bp_battlePassLogoColor), to(#111111));
     box-shadow: inset bp_battlePassLogoColor -3px 0px 6px;
 }
@@ -198,11 +190,8 @@
     font-size: 18px;
     text-shadow: 0px 0px 8px 1 black;
     visibility: collapse;
-
     color: #75a92e;
-
     color: #3484bc;
-
     color: bp_color7;
 }
 
@@ -243,7 +232,6 @@
     width: 38px;
     height: 52px;
     margin-left: 24px;
-
     background-image: url("s2r://panorama/images/compendium/hongbao_psd.vtex");
     background-size: 100%;
 }
@@ -283,13 +271,9 @@
     height: 23px;
     vertical-align: bottom;
     margin-bottom: 4px;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ac3c2c), to(#bd4d3800));
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#487117ff), to(#48711700));
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#17295cff), to(#17295c00));
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(bp_color1&ff), to(bp_color1&00));
 }
 

@@ -1,10 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .LastChancePopup.PopupPanel {
     width: 1280px;
     height: 800px;
     padding: 0px;
     flow-children: none;
     animation-name: none;
-
     background-image: url("s2r://panorama/images/compendium/international2023/ti23_popup_background_png.vtex");
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,6 +31,7 @@
     width: 100%;
     height: fill-parent-flow(1);
 }
+
 .Contents .Title {
     width: 100%;
     text-align: center;
@@ -48,7 +50,6 @@
     text-overflow: shrink;
     letter-spacing: -0.2px;
     text-overflow: shrink;
-
     padding-top: 12px;
     border-top: 1px solid rgba(255, 255, 255, 0.251);
     border-brush: gradient(
@@ -67,6 +68,7 @@
     ui-scale: 60%;
     margin-bottom: 8px;
 }
+
 .LogoContainer .TopRightGodRays {
     ignore-parent-flow: true;
     horizontal-align: center;
@@ -97,6 +99,7 @@
     horizontal-align: center;
     margin-bottom: 8px;
 }
+
 .PurchaseAsGift #StarsContainer {
     visibility: collapse;
 }
@@ -117,6 +120,7 @@
     height: fill-parent-flow(1);
     padding: 12px 64px 48px;
 }
+
 .Sections .CompendiumSection {
     width: fill-parent-flow(2.05);
     height: 100%;
@@ -138,6 +142,7 @@
     height: 100%;
     margin-left: 16px;
 }
+
 .Sections .TalentSection .SectionImage {
     background-image: url("s2r://panorama/images/compendium/international2023/lastchance_popup/talent_stickers_png.vtex");
 }
@@ -147,6 +152,7 @@
     height: 100%;
     margin-left: 16px;
 }
+
 .Sections .SupportersClubSection .SectionImage {
     background-image: url("s2r://panorama/images/compendium/international2023/lastchance_popup/supporters_club_png.vtex");
 }
@@ -156,6 +162,7 @@
     background-color: gradient(linear, 0% 0%, 0% 100%, from(primaryColor6), to(primaryColor7));
     box-shadow: 0px 16px 64px -4px rgba(0, 0, 0, 0.5);
 }
+
 .PopupSection .SectionImage {
     ignore-parent-flow: true;
     width: 380px;
@@ -195,6 +202,7 @@
     padding: 24px;
     flow-children: down;
 }
+
 .PopupSection .SectionHeader .SectionTitle {
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -224,6 +232,7 @@
     margin: 24px;
     flow-children: down;
 }
+
 .PopupSection .SectionContents Button {
     width: 100%;
     margin-top: 20px;
@@ -234,6 +243,7 @@
     width: 100%;
     flow-children: down;
 }
+
 .PopupSection .SectionContents .SectionFeatures Label {
     width: 100%;
     text-align: center;

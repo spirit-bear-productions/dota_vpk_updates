@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupPurchaseBattlePassLevels {
     width: 800px;
     height: 670px;
@@ -59,22 +61,17 @@ PopupPurchaseBattlePassLevels {
 
 #HeaderTitleContainer {
     height: 100px;
-
     width: 100%;
-
     border-top: 1px solid white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(accentColor), to(defaultColor));
 }
 
 .PopupTitle {
     text-transform: uppercase;
-
     color: white;
     font-weight: semi-bold;
-
     font-size: 32px;
     letter-spacing: 2px;
-
     border-brush: gradient(
         linear,
         0% 0%,
@@ -85,7 +82,6 @@ PopupPurchaseBattlePassLevels {
         to(primaryColor5&00)
     );
     padding-bottom: 12px;
-
     text-align: center;
     vertical-align: center;
     margin-top: 35px;
@@ -106,13 +102,12 @@ PopupPurchaseBattlePassLevels {
     flow-children: down;
     width: 100%;
     height: 100%;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-delay: 0.2s;
-
     opacity: 0;
 }
+
 .WizardScreen.ScreenActive {
     opacity: 1;
     transition-delay: 0s;
@@ -172,7 +167,6 @@ PopupPurchaseBattlePassLevels {
 
 DOTAEventLevelShield {
     horizontal-align: center;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -203,6 +197,7 @@ DOTAEventLevelShield {
     0% {
         brightness: 0.5;
     }
+
     50% {
         brightness: 1;
     }
@@ -222,9 +217,7 @@ DOTAEventLevelShield {
     width: 30px;
     height: 30px;
     vertical-align: middle;
-
     wash-color: accentColor;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_right_png.vtex");
     background-size: contain;
     background-position: center;
@@ -245,7 +238,6 @@ DOTAEventLevelShield {
     font-weight: semi-bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-
     margin: 12px 0px 4px;
 }
 
@@ -260,7 +252,6 @@ DOTAEventLevelShield {
     color: accentColorBright;
     text-transform: uppercase;
     letter-spacing: 1px;
-
     margin: 12px 0px 4px;
     horizontal-align: center;
     text-align: center;
@@ -278,6 +269,7 @@ DOTAEventLevelShield {
     opacity: 0;
     visibility: collapse;
 }
+
 .ShowAfterPurchaseLevel .AfterPurchaseLevelsContainer,
 .ShowAfterPurchaseLevel #EquationArrow {
     opacity: 1;
@@ -319,6 +311,7 @@ DOTAEventLevelShield {
     flow-children: down;
     margin-left: 12px;
 }
+
 .ApplyLevelOptionsDescription {
     font-size: 16px;
     width: 620px;
@@ -338,13 +331,10 @@ DOTAEventLevelShield {
     background-image: url("s2r://panorama/images/backgrounds/background_play_button_2x_png.vtex");
     background-size: cover;
     border: 1px solid #83838390;
-
     margin: 8px;
-
     min-width: 192px;
     max-width: 500px;
     padding: 10px 30px;
-
     transition-property: background-color, wash-color;
     transition-delay: 0s;
     transition-duration: 0.1s;
@@ -371,6 +361,7 @@ DOTAEventLevelShield {
     horizontal-align: center;
     padding: 8px 24px 8px 24px;
 }
+
 .BattlePassBrightButton Label {
     font-size: 18px;
 }

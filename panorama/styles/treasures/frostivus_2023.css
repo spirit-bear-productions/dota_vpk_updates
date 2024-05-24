@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTATierTreasureDetails {
     background-color: #020910;
 }
@@ -11,6 +13,7 @@ DOTATierTreasureDetails {
     background-position: center;
     brightness: 1.5;
 }
+
 .AspectRatio21x9 #BackgroundContainer {
     max-width: 2200px;
     opacity-mask: url("s2r://panorama/images/masks/profile_background_mask_psd.vtex");
@@ -28,6 +31,7 @@ DOTATierTreasureDetails {
     transition-duration: 0.6s;
     opacity: 0.5;
 }
+
 .FullPreviewMode #BackgroundContainer .MainPreviewRays,
 .FullPreviewTransition #BackgroundContainer .MainPreviewRays {
     opacity: 0;
@@ -45,12 +49,11 @@ DOTATierTreasureDetails {
     horizontal-align: center;
     transform: translateY(-100px);
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     transition-property: opacity;
     transition-duration: 0.6s;
-
     opacity: 0.5;
 }
+
 #BackgroundContainer .SnowParticles.Background {
     blur: gaussian(2px);
     opacity: 0.1;
@@ -65,6 +68,7 @@ DOTATierTreasureDetails {
     margin-top: 110px;
     flow-children: down;
 }
+
 .AspectRatio16x10 #TreasureLogo {
     width: 700px;
 }
@@ -80,83 +84,78 @@ DOTATierTreasureDetails {
     vertical-align: center;
     wash-color: rgba(0, 102, 255, 0.2);
     brightness: 1.4;
-
     visibility: collapse;
 }
+
 .AspectRatio16x10 #TreasureLogo .Frostivus2023Logo {
     width: 520px;
 }
+
 #TreasureLogo .Frostivus2023Logo.en {
     visibility: visible;
 }
+
 .Language_schinese #TreasureLogo .Frostivus2023Logo.cn,
 .Language_tchinese #TreasureLogo .Frostivus2023Logo.cn {
     visibility: visible;
 }
+
 .Language_schinese #TreasureLogo .Frostivus2023Logo.en,
 .Language_tchinese #TreasureLogo .Frostivus2023Logo.en {
     visibility: collapse;
 }
+
 #TreasureLogo .TreasureDetailsContainer {
     width: 500px;
     horizontal-align: center;
     flow-children: down;
 }
+
 #TreasureLogo .TreasureDetailsContainer Label {
     text-align: center;
-    text-shadow: 0px 2px 12px rgba (0, 0, 0, 0.5);
+    text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
 }
+
 #TreasureLogo .TreasureDetailsContainer .TreasureIntro {
     font-family: titleFont;
     color: whitesmoke;
     margin-bottom: 12px;
     line-height: 1.5;
 }
+
 #TreasureLogo .TreasureDetailsContainer .TreasureDescription {
-    color: rgba (190, 200, 211, 0.8);
+    color: rgba(190, 200, 211, 0.8);
     margin-bottom: 12px;
 }
+
 #TreasureLogo .TreasureDetailsContainer .EmblemContainer {
     width: 100%;
     padding: 0px 12px;
     horizontal-align: center;
     flow-children: right;
 }
+
 #TreasureLogo .TreasureDetailsContainer .EmblemContainer .Snowflake {
     width: 40px;
-    height: width-percentage (100%);
+    height: width-percentage(100%);
     vertical-align: center;
 }
+
 #TreasureLogo .TreasureDetailsContainer .EmblemContainer .Dash {
-    width: fill-parent-flow (1);
+    width: fill-parent-flow(1);
     height: 1px;
     vertical-align: center;
     opacity: 0.2;
 }
+
 #TreasureLogo .TreasureDetailsContainer .EmblemContainer .Dash.Left {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            100% 0%,
-
-            from (#f7e6b500),
-            to (#f7e6b5)
-        );
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#f7e6b500), to(#f7e6b5));
 }
+
 #TreasureLogo .TreasureDetailsContainer .EmblemContainer .Dash.Right {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            100% 0%,
-
-            from (#f7e6b5),
-            to (#f7e6b500)
-        );
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#f7e6b5), to(#f7e6b500));
 }
+
 #UnusualOddsTooltip {
     width: 16px;
     height: 16px;
@@ -168,59 +167,62 @@ DOTATierTreasureDetails {
     transition-property: wash-color;
     transition-duration: 0.1s;
 }
+
 #UnusualOddsTooltip:hover {
     wash-color: #e1e6ed;
 }
+
 DOTATierTreasureDetails #TreasureLogo {
     visibility: visible;
 }
+
 .ChestIcon,
 .KeyIcon {
     width: 128px;
-    height: width-percentage (100%);
+    height: width-percentage(100%);
     margin-right: 24px;
     vertical-align: center;
     background-size: cover;
     background-position: center;
 }
+
 .ChestIcon {
     background-image: url("s2r://panorama/images/events/frostivus/2023/frostivus2023_chest_psd.vtex");
 }
+
 .KeyIcon {
     background-image: url("s2r://panorama/images/events/frostivus/2023/frostivus2023_key_psd.vtex");
 }
+
 .ChestHex {
     background-image: url("s2r://panorama/images/events/frostivus/2023/frostivus2023_chest_psd.vtex");
 }
+
 .PurchaseRowDivider {
     opacity: 0.8;
 }
+
 .PurchaseRowDivider .Emblem {
     background-image: url("s2r://panorama/images/events/frostivus/2023/snowflake_png.vtex");
     wash-color: #ffe395;
     visibility: visible;
 }
+
 .PurchaseRowDivider .Dash {
     wash-color: #beac79;
 }
+
 #UnlockChestButton,
 #RecycleButton,
 #DoneButton {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#4aaed0),
-            to (#13426a)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#4aaed0), to(#13426a));
 }
+
 @keyframes 'GlowTreasureButtonPrimary' {
     0% {
         brightness: 1;
     }
+
     100% {
         brightness: 2.5;
     }

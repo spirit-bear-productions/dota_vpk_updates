@@ -1,10 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTANPXHomeWidget {
     flow-children: down;
     width: 100%;
     background-color: gradient(linear, 0% 0%, 90% 100%, from(#1d304c), to(#0c1d32));
     box-shadow: inset #00000077 0px 0px 8px 4px;
     padding: 0px 12px 12px 12px;
-
     visibility: collapse;
 }
 
@@ -21,9 +22,7 @@ DOTANPXHomeWidget.ShowBeACoach {
 
 #TutorialScenariosSection {
     flow-children: right;
-
     visibility: collapse;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -85,7 +84,6 @@ DOTANPXHomeWidget.ShowBeACoach {
 
 .RequestACoachSection {
     flow-children: right;
-
     visibility: collapse;
 }
 
@@ -97,9 +95,7 @@ DOTANPXHomeWidget.ShowBeACoach {
     width: 24px;
     height: 24px;
     background-color: #718d9f99;
-
     border-radius: 50%;
-
     transition-property: wash-color;
     transition-duration: 0.2s;
     horizontal-align: right;
@@ -112,7 +108,6 @@ DOTANPXHomeWidget.ShowBeACoach {
     height: 18px;
     vertical-align: middle;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/coaching/coach_dark_icon_psd.vtex");
     background-size: 18px 18px;
     background-repeat: no-repeat;
@@ -128,15 +123,11 @@ DOTANPXHomeWidget.ShowBeACoach {
 .CoachingButton {
     margin: 0px;
     width: 100%;
-
     padding: 7px 20px 7px 20px;
     vertical-align: middle;
-
     background-color: #00000044;
-
     border: 1px solid #718d9f;
     border-radius: 5px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
     flow-children: right;
@@ -162,7 +153,6 @@ DOTANPXHomeWidget.ShowBeACoach {
 
 .BeACoachSection {
     flow-children: down;
-
     visibility: collapse;
 }
 

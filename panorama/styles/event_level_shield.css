@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAEventLevelShield {
     height: 80px;
     width: 67px;
@@ -6,7 +8,6 @@ DOTAEventLevelShield {
 #ShieldBackground {
     width: 100%;
     height: 100%;
-
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -30,15 +31,19 @@ DOTAEventLevelShield {
 DOTAEventLevelShield.Season_International2020.EventTierNone #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/basic_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_International2020.EventTierBronze #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/basic_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_International2020.EventTierSilver #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/silver_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_International2020.EventTierGold #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/gold_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_International2020.EventTierPlatinum #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/max_shield_icon_psd.vtex");
 }
@@ -46,15 +51,19 @@ DOTAEventLevelShield.Season_International2020.EventTierPlatinum #ShieldBackgroun
 DOTAEventLevelShield.Season_International2020.EventTierNone #LevelNumber {
     color: #fff;
 }
+
 DOTAEventLevelShield.Season_International2020.EventTierBronze #LevelNumber {
     color: #fff;
 }
+
 DOTAEventLevelShield.Season_International2020.EventTierSilver #LevelNumber {
     color: #ffffff;
 }
+
 DOTAEventLevelShield.Season_International2020.EventTierGold #LevelNumber {
     color: #fff3d1;
 }
+
 DOTAEventLevelShield.Season_International2020.EventTierPlatinum #LevelNumber {
     color: #ffffff;
     text-shadow: 0px 0px 6px #161008;
@@ -83,15 +92,19 @@ DOTAEventLevelShield.Season_International2020.EventTierPlatinum #LevelNumber {
 DOTAEventLevelShield.Season_Spring2021.EventTierNone #ShieldBackground {
     background-image: url("s2r://panorama/images/compendium/international2020/basic_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_Spring2021.EventTierBronze #ShieldBackground {
     background-image: url("s2r://panorama/images/compendium/international2020/basic_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_Spring2021.EventTierSilver #ShieldBackground {
     background-image: url("s2r://panorama/images/compendium/international2020/silver_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_Spring2021.EventTierGold #ShieldBackground {
     background-image: url("s2r://panorama/images/compendium/international2020/gold_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_Spring2021.EventTierPlatinum #ShieldBackground {
     background-image: url("s2r://panorama/images/compendium/international2020/max_shield_icon_psd.vtex");
 }
@@ -99,15 +112,19 @@ DOTAEventLevelShield.Season_Spring2021.EventTierPlatinum #ShieldBackground {
 DOTAEventLevelShield.Season_Spring2021.EventTierNone #LevelNumber {
     color: #fff;
 }
+
 DOTAEventLevelShield.Season_Spring2021.EventTierBronze #LevelNumber {
     color: #fff;
 }
+
 DOTAEventLevelShield.Season_Spring2021.EventTierSilver #LevelNumber {
     color: #ffffff;
 }
+
 DOTAEventLevelShield.Season_Spring2021.EventTierGold #LevelNumber {
     color: #fff3d1;
 }
+
 DOTAEventLevelShield.Season_Spring2021.EventTierPlatinum #LevelNumber {
     color: #ffffff;
     text-shadow: 0px 0px 6px #161008;
@@ -136,15 +153,19 @@ DOTAEventLevelShield.Season_Spring2021.EventTierPlatinum #LevelNumber {
 DOTAEventLevelShield.Season_Fall2021.EventTierNone #ShieldBackground {
     background-image: url("s2r://panorama/images/compendium/international2020/basic_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_Fall2021.EventTierBronze #ShieldBackground {
     background-image: url("s2r://panorama/images/compendium/international2020/basic_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_Fall2021.EventTierSilver #ShieldBackground {
     background-image: url("s2r://panorama/images/compendium/international2020/silver_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_Fall2021.EventTierGold #ShieldBackground {
     background-image: url("s2r://panorama/images/compendium/international2020/gold_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_Fall2021.EventTierPlatinum #ShieldBackground {
     background-image: url("s2r://panorama/images/compendium/international2020/max_shield_icon_psd.vtex");
 }
@@ -152,15 +173,19 @@ DOTAEventLevelShield.Season_Fall2021.EventTierPlatinum #ShieldBackground {
 DOTAEventLevelShield.Season_Fall2021.EventTierNone #LevelNumber {
     color: #fff;
 }
+
 DOTAEventLevelShield.Season_Fall2021.EventTierBronze #LevelNumber {
     color: #fff;
 }
+
 DOTAEventLevelShield.Season_Fall2021.EventTierSilver #LevelNumber {
     color: #ffffff;
 }
+
 DOTAEventLevelShield.Season_Fall2021.EventTierGold #LevelNumber {
     color: #fff3d1;
 }
+
 DOTAEventLevelShield.Season_Fall2021.EventTierPlatinum #LevelNumber {
     color: #ffffff;
     text-shadow: 0px 0px 6px #161008;
@@ -189,15 +214,19 @@ DOTAEventLevelShield.Season_Fall2021.EventTierPlatinum #LevelNumber {
 DOTAEventLevelShield.Season_International2022.EventTierNone #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/basic_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_International2022.EventTierBronze #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/basic_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_International2022.EventTierSilver #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/silver_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_International2022.EventTierGold #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/gold_shield_icon_psd.vtex");
 }
+
 DOTAEventLevelShield.Season_International2022.EventTierPlatinum #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/max_shield_icon_psd.vtex");
 }
@@ -205,15 +234,19 @@ DOTAEventLevelShield.Season_International2022.EventTierPlatinum #ShieldBackgroun
 DOTAEventLevelShield.Season_International2022.EventTierNone #LevelNumber {
     color: #fff;
 }
+
 DOTAEventLevelShield.Season_International2022.EventTierBronze #LevelNumber {
     color: #fff;
 }
+
 DOTAEventLevelShield.Season_International2022.EventTierSilver #LevelNumber {
     color: #ffffff;
 }
+
 DOTAEventLevelShield.Season_International2022.EventTierGold #LevelNumber {
     color: #fff3d1;
 }
+
 DOTAEventLevelShield.Season_International2022.EventTierPlatinum #LevelNumber {
     color: #ffffff;
     text-shadow: 0px 0px 6px #161008;
@@ -245,24 +278,28 @@ DOTAEventLevelShield.Season_International2022.EventTierPlatinum #LevelNumber {
     #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/basic_shield_icon_highlight_psd.vtex");
 }
+
 .EventHasUnclaimedRewards
     DOTABPInternational2022EventSummary
     DOTAEventLevelShield.Season_International2022.EventTierBronze
     #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/basic_shield_icon_highlight_psd.vtex");
 }
+
 .EventHasUnclaimedRewards
     DOTABPInternational2022EventSummary
     DOTAEventLevelShield.Season_International2022.EventTierSilver
     #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/silver_shield_icon_highlight_psd.vtex");
 }
+
 .EventHasUnclaimedRewards
     DOTABPInternational2022EventSummary
     DOTAEventLevelShield.Season_International2022.EventTierGold
     #ShieldBackground {
     background-image: url("s2r://panorama/images/battlepass/international2022/gold_shield_icon_highlight_psd.vtex");
 }
+
 .EventHasUnclaimedRewards
     DOTABPInternational2022EventSummary
     DOTAEventLevelShield.Season_International2022.EventTierPlatinum
@@ -294,10 +331,12 @@ DOTAEventLevelShield.Season_International2023 {
     width: 92px;
     height: 92px;
 }
+
 DOTAEventLevelShield.Season_International2023 #ShieldBackground {
     background-image: url("s2r://panorama/images/compendium/international2023/ti2023_shield_png.vtex");
     img-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
 }
+
 DOTAEventLevelShield.Season_International2023 #LevelNumber {
     font-size: 40px;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
@@ -314,15 +353,19 @@ DOTAEventLevelShield.Season_Crownfall {
 DOTAEventLevelShield.Season_Crownfall.EventTierNone {
     opacity: 0;
 }
+
 DOTAEventLevelShield.Season_Crownfall.EventTierBronze #ShieldBackground {
     background-image: url("s2r://panorama/images/events/crownfall/badges/crownfall_progress_badge_base_png.vtex");
 }
+
 DOTAEventLevelShield.Season_Crownfall.EventTierSilver #ShieldBackground {
     background-image: url("s2r://panorama/images/events/crownfall/badges/crownfall_progress_badge_bronze_png.vtex");
 }
+
 DOTAEventLevelShield.Season_Crownfall.EventTierGold #ShieldBackground {
     background-image: url("s2r://panorama/images/events/crownfall/badges/crownfall_progress_badge_silver_png.vtex");
 }
+
 DOTAEventLevelShield.Season_Crownfall.EventTierPlatinum #ShieldBackground {
     background-image: url("s2r://panorama/images/events/crownfall/badges/crownfall_progress_badge_gold_png.vtex");
 }

@@ -1,5 +1,6 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 DOTAPlayerAllStarToast {
     flow-children: none;
     margin-bottom: 8px;
@@ -42,7 +43,6 @@ DOTAPlayerAllStarToast {
     height: 16px;
     margin-right: 2px;
     vertical-align: middle;
-
     background-image: bp_total_points;
     background-size: contain;
     background-repeat: no-repeat;

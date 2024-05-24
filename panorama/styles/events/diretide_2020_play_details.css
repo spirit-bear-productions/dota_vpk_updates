@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTADiretide2020DetailsPopup.PopupPanel {
     width: 1400px;
     height: 700px;
@@ -7,7 +9,6 @@ DOTADiretide2020DetailsPopup.PopupPanel {
     margin-bottom: 50px;
     background-color: transparent;
     box-shadow: 0 0 0 transparent;
-
     padding: 0;
     flow-children: none;
 }
@@ -15,7 +16,6 @@ DOTADiretide2020DetailsPopup.PopupPanel {
 .Button {
     height: 50px;
     width: 150px;
-
     horizontal-align: center;
     vertical-align: bottom;
     margin-bottom: 20px;
@@ -25,7 +25,6 @@ DOTADiretide2020DetailsPopup.PopupPanel {
     width: 100%;
     flow-children: none;
     height: 100%;
-
     background-image: url("s2r://panorama/images/events/diretide/2022/overview_bg_2022_psd.vtex");
     background-size: cover;
     background-color: #14141a;
@@ -35,7 +34,6 @@ DOTADiretide2020DetailsPopup.PopupPanel {
 .parallaxBG {
     background-size: contain;
     background-repeat: no-repeat;
-
     animation-duration: 0.6s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
@@ -60,6 +58,7 @@ DOTADiretide2020DetailsPopup.PopupPanel {
         brightness: 12;
         wash-color: #a7e4c0;
     }
+
     100% {
         transform: translateX(0px);
     }
@@ -100,13 +99,10 @@ DOTADiretide2020DetailsPopup.PopupPanel {
     text-transform: uppercase;
     text-align: left;
     width: 100%;
-
     font-weight: bold;
     font-size: 26px;
-
     letter-spacing: 3px;
     text-transform: uppercase;
-
     color: gradient(linear, 0% 0%, 0% 100%, from(#375bcd), to(#b4e1ed));
     text-shadow: 0px 0px 6px #d5d33133;
     font-family: titleFont;
@@ -269,10 +265,8 @@ Label {
     font-weight: bold;
     font-size: 16px;
     line-height: 100%;
-
     letter-spacing: 1px;
     text-transform: uppercase;
-
     color: gradient(linear, 0% 0%, 0% 100%, from(#375bcd), to(#b4e1ed));
     text-shadow: 0px 0px 6px #d5d33133;
     margin-bottom: 4px;
@@ -331,7 +325,6 @@ Label {
     background-image: url("s2r://panorama/images/events/aghanim/close_button_png.vtex");
     background-size: contain;
     background-position: center;
-
     color: gradient(linear, 0% 0%, 0% 100%, from(#52acda), to(#b4e1ed));
     horizontal-align: right;
     z-index: 3;

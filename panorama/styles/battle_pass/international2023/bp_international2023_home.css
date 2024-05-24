@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPInternational2023HomePage {
     width: 100%;
     height: 100%;
@@ -11,6 +13,7 @@ DOTABPInternational2023HomePage {
     flow-children: right;
     width: 100%;
 }
+
 .HomeContentsContainer .HomeContentTitle {
     padding: 0px 0px 12px;
     text-shadow: textShadowMedium;
@@ -29,6 +32,7 @@ DOTABPInternational2023HomePage {
     padding-top: 24px;
     height: 160px;
 }
+
 .HomeTitleContainer .BPSubHeader {
     color: gradient(linear, 0% 0%, 0% 100%, from(secondaryColor1), to(secondaryColor2));
     font-weight: normal;
@@ -76,6 +80,7 @@ DOTABPInternational2023HomePage {
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
 }
+
 .AspectRatio16x10 .CompendiumBlock {
     margin-top: -26px;
 }
@@ -100,6 +105,7 @@ DOTABPInternational2023HomePage {
         to(#d5f7ff)
     );
 }
+
 .BigBlock .CompendiumBlock .CompendiumBlockOuter {
     background-image: url("s2r://panorama/images/compendium/international2023/rewardpage_outerborder_wide_psd.vtex");
 }
@@ -123,6 +129,7 @@ DOTABPInternational2023HomePage {
     transition-timing-function: ease-in-out;
     hue-rotation: 200deg;
 }
+
 .BigBlock .CompendiumBlock .CompendiumBlockInner {
     background-image: url("s2r://panorama/images/compendium/international2023/rewardpage_innerborder_wide_psd.vtex");
     width: 372px;
@@ -149,13 +156,16 @@ DOTABPInternational2023HomePage {
     horizontal-align: center;
     vertical-align: middle;
 }
+
 .AspectRatio16x10 .CompendiumBlock .BlockContainer {
     width: 222px;
     height: 622px;
 }
+
 .AspectRatio16x10 .CompendiumBlock .BlockContainer .SizingBlock {
     height: 550px;
 }
+
 .CompendiumBlock .BlockContainer .SizingBlock {
     width: 100%;
     height: 590px;
@@ -163,24 +173,28 @@ DOTABPInternational2023HomePage {
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
 }
+
 .CompendiumBlock .BlockContainer .FillerBlock {
     width: 100%;
-    height: fill-parent-flow (1);
+    height: fill-parent-flow(1);
 }
+
 .CompendiumBlock .BlockContainer .BlockContents {
     width: 100%;
     height: fit-children;
     flow-children: down;
 }
+
 .CompendiumBlock .BlockContainer .BlockContents .ContentBlock {
     width: 100%;
     min-height: 320px;
     flow-children: down;
     vertical-align: bottom;
     background-color: #00163fde;
-    background-blur: gaussian (7);
+    background-blur: gaussian(7);
     border: 1px solid #000;
 }
+
 .CompendiumBlock .HeadingContainer {
     width: 100%;
     min-height: 70px;
@@ -189,19 +203,11 @@ DOTABPInternational2023HomePage {
     background-size: 100%;
     background-color: #42aced22;
 }
+
 .CompendiumBlock .HeadingContainer .Heading {
     horizontal-align: center;
     vertical-align: middle;
-    color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (secondaryColor1),
-            to (secondaryColor2)
-        );
+    color: gradient(linear, 0% 0%, 0% 100%, from(secondaryColor1), to(secondaryColor2));
     font-weight: normal;
     text-transform: uppercase;
     font-size: 22px;
@@ -212,6 +218,7 @@ DOTABPInternational2023HomePage {
     padding: 0 8px;
     text-shadow: 1px 1px 2px 3 black;
 }
+
 .CompendiumBlock .Subtext {
     width: 100%;
     color: #bff4f5;
@@ -221,34 +228,29 @@ DOTABPInternational2023HomePage {
     text-align: left;
     text-shadow: 1px 1px 1px 2 black;
 }
+
 .CompendiumBlock.Hover {
     brightness: 1.4;
     hue-rotation: 0deg;
     saturation: 1.2;
 }
+
 .AspectRatio16x10 .CompendiumBlock.Hover .SizingBlock,
 .CompendiumBlock.Hover .SizingBlock {
     height: 100px;
     transition-timing-function: ease-in-out;
 }
+
 .CompendiumBlock:active {
     sound: "ui_topmenu_activate";
 }
+
 .UnclaimedRewardsBadge {
     ignore-parent-flow: true;
     border-radius: 2px;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (secondaryColor1),
-            to (secondaryColor3)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(secondaryColor1), to(secondaryColor3));
     padding: 1px 6px;
-    box-shadow: 0px 2px 6px rgba (0, 0, 0, 0.4);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
     horizontal-align: center;
     animation-name: GlowUnclaimedRewardsBadge;
     animation-duration: 1s;
@@ -256,55 +258,65 @@ DOTABPInternational2023HomePage {
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
     visibility: collapse;
-    transform: translateY (-19px);
+    transform: translateY(-19px);
 }
+
 .UnclaimedRewardsBadge Label {
     font-weight: bold;
     text-transform: uppercase;
-    color: rgb (0, 0, 0);
-    text-shadow: 0px 1px 1px rgba (255, 255, 255, 0.3);
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3);
     font-size: 15px;
 }
+
 .HasUnappliedLevelsOrBoosters .UnclaimedRewardsBadge.Rewards,
 .HasUnclaimedCompendiumRewards .UnclaimedRewardsBadge.Rewards {
     visibility: visible;
 }
+
 .BingoRewardsAvailable .UnclaimedRewardsBadge.Bingo {
     visibility: visible;
 }
+
 .FantasyRewardsAvailable .UnclaimedRewardsBadge.Fantasy {
     visibility: visible;
 }
+
 .RewardSection {
     background-image: url("s2r://panorama/images/compendium/international2023/stainedglass01_jpg.vtex");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .QuestSection {
     background-image: url("s2r://panorama/images/compendium/international2023/stainedglass02_jpg.vtex");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .FantasySection {
     background-image: url("s2r://panorama/images/compendium/international2023/stainedglass03_jpg.vtex");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .PredictionsSection {
     background-image: url("s2r://panorama/images/compendium/international2023/stainedglass04_jpg.vtex");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .BingoSection {
     background-image: url("s2r://panorama/images/compendium/international2023/stainedglass05_jpg.vtex");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .CompendiumBGParticles {
     width: 100%;
     height: 100%;

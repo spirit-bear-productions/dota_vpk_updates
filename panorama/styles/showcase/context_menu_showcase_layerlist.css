@@ -1,14 +1,16 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents.LayerListContainer {
     flow-children: down;
     background-color: #080a0c;
     min-width: 400px;
     max-height: 250px;
-
     border-radius: 3px;
     padding: 2px;
     width: 400px;
     opacity: 0.95;
 }
+
 #ContextMenuBody.BottomArrowVisible #Contents.LayerListContainer {
     margin-bottom: 5px;
 }
@@ -18,6 +20,7 @@
     width: 100%;
     overflow: squish scroll;
 }
+
 #LayerList .LayerEntry {
     margin: 1px;
     padding: 4px;
@@ -26,10 +29,10 @@
     background-color: #2d3438;
     width: 100%;
     height: 44px;
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
+
 #LayerList .LayerEntry:hover {
     brightness: 2;
 }
@@ -41,6 +44,7 @@
 #LayerList #LayerItemName {
     text-overflow: ellipsis;
 }
+
 .MissingShowcaseItemName #LayerList #LayerItemName {
     visibility: collapse;
 }
@@ -63,6 +67,7 @@
     vertical-align: center;
     margin-right: 10px;
 }
+
 .HasShowcaseBudgetCost .BudgetCost {
     visibility: visible;
 }

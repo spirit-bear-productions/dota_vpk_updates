@@ -1,5 +1,6 @@
-@define FXSmoke: #000000;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define FXSmoke: #000000;
 .CampaignIntroPage {
     width: 100%;
     height: 100%;
@@ -12,6 +13,7 @@
     blur: gaussian (4);
     saturation: 0.25;
 }
+
 .CampaignSplash {
     wash-color: #000c;
     width: 100%;
@@ -37,7 +39,6 @@
 .CampaignAchievements {
     margin-right: 240px;
     vertical-align: bottom;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -53,7 +54,6 @@
 .CampaignDetails,
 .CampaignDetailsContainer {
     width: 624px;
-
     vertical-align: bottom;
     border-radius: 4px;
     height: fit-children;
@@ -71,7 +71,6 @@
     border: 1px solid #17cda9;
     box-shadow: #000a 0px 0px 12px 0px;
     margin-right: 16px;
-
     horizontal-align: center;
     horizontal-align: right;
 }
@@ -85,11 +84,9 @@
     height: 100%;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
-
     margin-top: 82px;
     flow-children: down;
     horizontal-align: right;
-
     background-color: #000000dd;
 }
 
@@ -108,7 +105,6 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     box-shadow: #000a fill -3px -3px 6px 6px;
-
     transition-property: background-color;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -127,7 +123,6 @@
         to(#0000)
     );
     border: 1px solid transparent;
-
     box-shadow: none;
 }
 
@@ -152,7 +147,6 @@
 .CampaignTitle {
     font-size: 42px;
     letter-spacing: 3px;
-
     color: white;
     color: gradient(
         linear,
@@ -193,18 +187,21 @@
     animation-name: TextSwim1;
     animation-timing-function: ease-out;
 }
+
 .CampaignTitle.Glow2 {
     text-shadow: 0px -6px 12px 2 FXSmoke&88;
     animation-duration: 2.6s;
     animation-name: TextSwim2;
     animation-timing-function: ease-in;
 }
+
 .CampaignTitle.Glow3 {
     text-shadow: 0px -12px 18px 2 FXSmoke&66;
     animation-duration: 3.2s;
     animation-name: TextSwim3;
     animation-timing-function: ease-in-out;
 }
+
 .CampaignTitle.Glow4 {
     text-shadow: 0px -18px 26px 2 FXSmoke&44;
     animation-duration: 3.6s;
@@ -216,12 +213,15 @@
     0% {
         transform: translateX(0px);
     }
+
     33% {
         transform: translateX(-2px);
     }
+
     66% {
         transform: translateX(2px);
     }
+
     100% {
         transform: translateX(0px);
     }
@@ -231,12 +231,15 @@
     0% {
         transform: translateX(0px);
     }
+
     33% {
         transform: translateX(-4px);
     }
+
     66% {
         transform: translateX(4px);
     }
+
     100% {
         transform: translateX(0px);
     }
@@ -246,12 +249,15 @@
     0% {
         transform: translateX(0px);
     }
+
     33% {
         transform: translateX(-6px);
     }
+
     66% {
         transform: translateX(6px);
     }
+
     100% {
         transform: translateX(0px);
     }
@@ -261,12 +267,15 @@
     0% {
         transform: translateX(0px);
     }
+
     33% {
         transform: translateX(-8px);
     }
+
     66% {
         transform: translateX(8px);
     }
+
     100% {
         transform: translateX(0px);
     }
@@ -300,6 +309,7 @@
 #SubtitleContainer2 .CampaignAct {
     font-size: 20px;
 }
+
 .CampaignAct {
     text-transform: uppercase;
     font-size: 20px;
@@ -355,25 +365,18 @@
     margin-left: 32px;
     width: 400px;
     max-height: 49px;
-
     margin-bottom: 21px;
     margin-right: 58px;
-
     padding: 4px 12px 4px 12px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#04f1cb), to(#87d69533));
     background-image: url("s2r://panorama/images/backgrounds/background_play_button_2x_png.vtex");
     background-size: 328px 50px;
-
     box-shadow: fill #002a6644 1px 1px 8px 1px;
-
     border-top: 1px solid #ffffff44;
     border-right: 1px solid #00000088;
     border-left: 1px solid #ffffff44;
     border-bottom: 1px solid #00000088;
-
     opacity: 1;
-
     transition-property: box-shadow, background-color, opacity, transform, brightness;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -384,7 +387,6 @@
     width: 330px;
     z-index: 5;
     horizontal-align: center;
-
     vertical-align: bottom;
     margin: 0px;
     margin-right: 58px;
@@ -498,7 +500,6 @@
     letter-spacing: 2px;
     opacity: 0;
     color: #0dcaaa;
-
     transition-property: opacity;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -536,7 +537,6 @@
     text-align: center;
     height: 40px;
     text-overflow: shrink;
-
     transition-property: color;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -630,7 +630,6 @@
     overflow: noclip;
     margin-left: 864px;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex") 0;
-
     transition-property: opacity-mask, opacity, saturation, wash-color, pre-transform-scale2d;
     transition-duration: 0.2s;
     transition-delay: 0.2s, 0s;
@@ -662,7 +661,6 @@
 
 #DesertBabyRoshanModel {
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     width: 420px;
     height: 420px;
     transform: translateX(-100px) translateY(-120px);
@@ -680,20 +678,15 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     wash-color: #09dbd0;
-
     pre-transform-scale2d: 0.8;
-
     horizontal-align: center;
     vertical-align: bottom;
-
     margin-bottom: 16px;
     margin-right: 176px;
     border-radius: 50%;
     border: 1px solid #09dbd0;
-
     background-color: #000c;
     opacity: 1;
-
     transition-property: opacity, pre-transform-scale2d;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -726,7 +719,6 @@
 #ComicPageBox {
     width: height-percentage(133.3333%);
     height: 760px;
-
     vertical-align: middle;
     pre-transform-scale2d: 0.8;
     transition-property: pre-transform-scale2d, height, transform, wash-color;
@@ -777,7 +769,6 @@
     horizontal-align: center;
     margin-left: 1080px;
     height: 100%;
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -858,14 +849,11 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-
     wash-color: #49dbd7;
     transform: translateX(228px);
-
     transition-property: opacity, transform, pre-transform-scale2d, wash-color, brightness, saturation, blur;
     transition-duration: 0.35s;
     transition-timing-function: ease-in-out;
@@ -885,46 +873,58 @@
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/01_psd.vtex");
     wash-color: white;
 }
+
 .CC3 #Page02 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/02_psd.vtex");
 }
+
 .CC3 #Page02 #Blocker1 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/02_02_png.vtex");
     background-size: cover;
 }
+
 .CC8 #Page03 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/03_psd.vtex");
 }
+
 .CC11 #Page04 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/04_psd.vtex");
 }
+
 .CC11 #Page04 #Blocker1 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/04_01_psd.vtex");
     background-size: cover;
 }
+
 .CC11 #Page04 #Blocker3 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/04_02_psd.vtex");
     background-size: cover;
 }
+
 .CC16 #Page05 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/05_png.vtex");
 }
+
 .CC16 #Page05_01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/05_01_psd.vtex");
 }
+
 .CC17 #Page06 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/06_psd.vtex");
     transform: translateX(0px);
     pre-transform-scale2d: 1.2;
 }
+
 .CC17 #Page06_01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/06_01_psd.vtex");
     transform: translateX(0px);
     pre-transform-scale2d: 1.2;
 }
+
 .CC17 #Page07 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/07_png.vtex");
 }
+
 .CC18 #Page07_01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/07_01_psd.vtex");
     transform: translateX(0px);
@@ -932,16 +932,19 @@
     transition-delay: 0.4s;
     transition-duration: 0.5s;
 }
+
 .CC19 #Page07_02 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/07_02_psd.vtex");
     transform: translateX(0px);
     wash-color: white;
 }
+
 .CC20 #Page07_03 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/07_03_psd.vtex");
     transform: translateX(0px);
     wash-color: white;
 }
+
 .CC21 #Page08 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/08_psd.vtex");
 }
@@ -949,12 +952,15 @@
 .CC25 #Page09_Sven {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/09_sven_png.vtex");
 }
+
 .CC25 #Page09_Drow {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/09_drow_png.vtex");
 }
+
 .CC25 #Page09_WR {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/09_windranger_png.vtex");
 }
+
 .CC25 #Page09_WD {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic/09_witchdoctor_png.vtex");
 }
@@ -995,12 +1001,14 @@
     width: 33.4%;
     height: 45.4%;
 }
+
 #Page01 #Blocker2 {
     x: 33.1%;
     y: 55%;
     width: 33.4%;
     height: 45.4%;
 }
+
 #Page01 #Blocker3 {
     x: 66.1%;
     y: 55%;
@@ -1014,18 +1022,21 @@
     width: 18.9%;
     height: 42.9%;
 }
+
 #Page02 #Blocker2 {
     x: 38.2%;
     y: 0px;
     width: 19.3%;
     height: 42.5%;
 }
+
 #Page02 #Blocker3 {
     x: 0px;
     y: 42.5%;
     width: 55.7%;
     height: 57.6%;
 }
+
 #Page02 #Blocker5 {
     x: 55.7%;
     y: 0px;
@@ -1039,6 +1050,7 @@
     width: 52.2%;
     height: 62.3%;
 }
+
 #Page03 #Blocker2 {
     x: 52.2%;
     y: 37.8%;
@@ -1052,18 +1064,21 @@
     width: 100%;
     height: 40.7%;
 }
+
 #Page04 #Blocker2 {
     x: 0%;
     y: 40.6%;
     width: 48.7%;
     height: 59.4%;
 }
+
 #Page04 #Blocker3 {
     x: 48.7%;
     y: 40.7%;
     width: 51.3%;
     height: 59.3%;
 }
+
 #Page04 #Blocker4 {
     x: 48.7%;
     y: 40.6%;
@@ -1077,12 +1092,14 @@
     width: 27.4%;
     height: 100%;
 }
+
 #Page08 #Blocker2 {
     x: 52.6%;
     y: 0%;
     width: 26%;
     height: 100%;
 }
+
 #Page08 #Blocker3 {
     x: 78.2%;
     y: 0%;
@@ -1106,6 +1123,7 @@
     width: 37.7%;
     height: 17.6%;
 }
+
 #ComicPopupFullScreen #Page07_02,
 #Page07_02 {
     x: 21.7%;
@@ -1113,6 +1131,7 @@
     width: 43.4%;
     height: 52.1%;
 }
+
 #ComicPopupFullScreen #Page07_03,
 #Page07_03 {
     x: 47.1%;
@@ -1275,12 +1294,15 @@
     animation-name: none;
     animation-delay: 0s;
 }
+
 #Page09_Drow {
     animation-delay: 4s;
 }
+
 #Page09_Sven {
     animation-delay: 8s;
 }
+
 #Page09_WR {
     animation-delay: 12s;
 }
@@ -1289,18 +1311,23 @@
     0% {
         opacity: 0;
     }
+
     30% {
         opacity: 0;
     }
+
     40% {
         opacity: 1;
     }
+
     60% {
         opacity: 1;
     }
+
     70% {
         opacity: 0;
     }
+
     100% {
         opacity: 0;
     }
@@ -1349,6 +1376,7 @@
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/04_01_psd.vtex");
     background-size: cover;
 }
+
 .Language_schinese .CC11 #Page04 #Blocker3,
 .Language_tchinese .CC11 #Page04 #Blocker3 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/04_02_psd.vtex");
@@ -1359,26 +1387,32 @@
 .Language_schinese #Page01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/01_psd.vtex");
 }
+
 .Language_schinese #Page02,
 .Language_schinese #Page02 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/02_psd.vtex");
 }
+
 .Language_schinese #Page03,
 .Language_schinese #Page03 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/03_psd.vtex");
 }
+
 .Language_schinese #Page04,
 .Language_schinese #Page04 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/04_psd.vtex");
 }
+
 .Language_schinese #Page05_01,
 .Language_schinese #Page05_01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/05_01_psd.vtex");
 }
+
 .Language_schinese #Page06_01,
 .Language_schinese #Page06_01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/06_01_psd.vtex");
 }
+
 .Language_schinese #Page07_01,
 .Language_schinese #Page07_01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/07_01_psd.vtex");
@@ -1387,10 +1421,12 @@
     width: 28.8%;
     height: 28%;
 }
+
 .Language_schinese #Page07_02,
 .Language_schinese #Page07_02 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/07_02_psd.vtex");
 }
+
 .Language_schinese #Page07_03,
 .Language_schinese #Page07_03 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/07_03_psd.vtex");
@@ -1399,6 +1435,7 @@
     width: 51%;
     height: 44.3%;
 }
+
 .Language_schinese #Page08,
 .Language_schinese #Page08 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/08_psd.vtex");
@@ -1408,38 +1445,47 @@
 .Language_tchinese #Page01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/01_psd.vtex");
 }
+
 .Language_tchinese #Page02,
 .Language_tchinese #Page02 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/02_psd.vtex");
 }
+
 .Language_tchinese #Page03,
 .Language_tchinese #Page03 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/03_psd.vtex");
 }
+
 .Language_tchinese #Page04,
 .Language_tchinese #Page04 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/04_psd.vtex");
 }
+
 .Language_tchinese #Page05_01,
 .Language_tchinese #Page05_01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/05_01_psd.vtex");
 }
+
 .Language_tchinese #Page06_01,
 .Language_tchinese #Page06_01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/06_01_psd.vtex");
 }
+
 .Language_tchinese #Page07_01,
 .Language_tchinese #Page07_01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/07_01_psd.vtex");
 }
+
 .Language_tchinese #Page07_02,
 .Language_tchinese #Page07_02 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/07_02_psd.vtex");
 }
+
 .Language_tchinese #Page07_03,
 .Language_tchinese #Page07_03 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/07_03_psd.vtex");
 }
+
 .Language_tchinese #Page08,
 .Language_tchinese #Page08 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_cn/08_psd.vtex");
@@ -1487,42 +1533,52 @@
 .Language_russian #Page01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_ru/01_psd.vtex");
 }
+
 .Language_russian #Page02,
 .Language_russian #Page02 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_ru/02_psd.vtex");
 }
+
 .Language_russian #Page03,
 .Language_russian #Page03 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_ru/03_psd.vtex");
 }
+
 .Language_russian #Page04,
 .Language_russian #Page04 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_ru/04_psd.vtex");
 }
+
 .Language_russian #Page05_01,
 .Language_russian #Page05_01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_ru/05_01_psd.vtex");
 }
+
 .Language_russian #Page06_01,
 .Language_russian #Page06_01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_ru/06_01_psd.vtex");
 }
+
 .Language_russian #Page07_01,
 .Language_russian #Page07_01 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_ru/07_01_psd.vtex");
 }
+
 .Language_russian #Page07_02,
 .Language_russian #Page07_02 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_ru/07_02_psd.vtex");
 }
+
 .Language_russian #Page07_03,
 .Language_russian #Page07_03 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_ru/07_03_psd.vtex");
 }
+
 .Language_russian #Page08,
 .Language_russian #Page08 {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_ru/08_psd.vtex");
 }
+
 .Language_russian #FinalBlock {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/comic_ru/lastpage_box_psd.vtex");
 }
@@ -1573,7 +1629,6 @@
 #WorldOverviewContainer {
     width: 100%;
     height: 752px;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.32s;
@@ -1595,9 +1650,7 @@
     border-left: 1px solid #174b3744;
     border-right: 1px solid #174b3744;
     box-shadow: #000a 0px 0px 12px 0px;
-
     pre-transform-scale2d: 0.5;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.28s;
     transition-timing-function: ease-in-out;
@@ -1615,7 +1668,6 @@
     transform: translateX(468px) translateY(-14px);
     pre-transform-scale2d: 0.835;
     opacity: 0;
-
     transition-property: opacity, transform, pre-transform-scale2d;
     transition-duration: 0.2s, 0.32s, 0.32s;
     transition-timing-function: ease-in-out;
@@ -1674,10 +1726,8 @@
 
 #WorldOverviewContainer #RightColumn {
     width: 50%;
-
     horizontal-align: right;
     height: 100%;
-
     padding-top: 56px;
 }
 
@@ -1704,7 +1754,6 @@
 .ReqTab {
     width: fill-parent-flow(1);
     border: 1px solid black;
-
     padding-top: 4px;
     padding-bottom: 2px;
     border-top-right-radius: 8px;
@@ -1868,7 +1917,6 @@
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#0e3429cc), color-stop(0.6, #092120aa), to(#09212088));
-
     transition-property: brightness;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -1929,7 +1977,6 @@
 #TotalLeaderboardHeader > Label {
     text-transform: uppercase;
     color: #77b59e;
-
     margin-left: 4px;
     letter-spacing: 2px;
     margin-top: 0px;
@@ -2122,9 +2169,7 @@
 #TotalLeaderboard {
     width: 100%;
     height: 100%;
-
     overflow: clip scroll;
-
     flow-children: down;
 }
 
@@ -2142,7 +2187,6 @@
     background-color: #092120;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#0e3429cc), color-stop(0.6, #092120aa), to(#09212088));
     border: 1px solid black;
-
     width: 228px;
     height: 100px;
 }
@@ -2228,7 +2272,6 @@
 
 #NameContainer {
     width: 100%;
-
     flow-children: right-wrap;
     margin-left: 4px;
     border-bottom: 1px solid #05493833;
@@ -2287,7 +2330,6 @@
     margin-right: 34px;
     margin-bottom: 0px;
     text-align: right;
-
     horizontal-align: right;
     vertical-align: bottom;
     color: #246f51;
@@ -2339,7 +2381,6 @@
     background-size: contain;
     vertical-align: middle;
     opacity: 0.5;
-
     margin: 4px;
     margin-top: 2px;
 }
@@ -2382,9 +2423,7 @@
 #PersonalZoneStats {
     width: 620px;
     height: 360px;
-
     border-radius: 12px;
-
     box-shadow: #0009 0px 0px 8px 0px;
     horizontal-align: center;
     border: 2px solid black;
@@ -2484,12 +2523,15 @@
 #GoldIcon {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/staticon_gold_psd.vtex");
 }
+
 #PotionsIcon {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/staticon_potions_psd.vtex");
 }
+
 #ItemsIcon {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/staticon_items_psd.vtex");
 }
+
 #ReviveIcon {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/staticon_revive_psd.vtex");
 }
@@ -2528,7 +2570,6 @@
     transition-property: opacity;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
-
     opacity: 0;
 }
 
@@ -2619,7 +2660,6 @@
     text-transform: uppercase;
     color: #7f8282;
     letter-spacing: 1px;
-
     width: 100%;
     margin-right: 8px;
     margin-left: 8px;
@@ -2685,20 +2725,16 @@
 .LegendLabel {
     horizontal-align: center;
     vertical-align: bottom;
-
     z-index: 10;
     font-size: 14px;
     text-transform: uppercase;
     width: 250px;
-
     margin-bottom: 0px;
     color: #cee2db;
     opacity: 0;
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     text-align: center;
 }
 
@@ -2800,7 +2836,6 @@
 #EmoticonReward {
     flow-children: down;
     vertical-align: bottom;
-
     transform: translateY(8px);
 }
 
@@ -2849,7 +2884,6 @@
     border-top: 1px solid #516750;
     border-left: 1px solid #516750dd;
     border-right: 1px solid #51675099;
-
     transition-property: background-color;
     transition-duration: 0.21s;
     transition-timing-function: ease-in-out;
@@ -2903,7 +2937,6 @@
     width: 220px;
     height: 28px;
     wash-color: white;
-
     z-index: 2;
     margin-bottom: 0px;
     margin-right: 8px;
@@ -2970,6 +3003,7 @@
     0% {
         background-color: #09261f;
     }
+
     100% {
         background-color: #1f6348;
     }
@@ -2993,6 +3027,7 @@
     height: 60px;
     vertical-align: middle;
 }
+
 #BonusItemLevel > Label {
     width: 100%;
     vertical-align: middle;
@@ -3050,7 +3085,6 @@
     text-overflow: shrink;
     width: 100%;
     text-align: center;
-
     visibility: collapse;
 }
 
@@ -3077,7 +3111,6 @@
     font-weight: bold;
     font-size: 30px;
     margin-right: 4px;
-
     visibility: collapse;
 }
 
@@ -3088,7 +3121,6 @@
 #Contents.CampaignArtifactsHelpContents {
     flow-children: down;
     width: 460px;
-
     padding: 16px;
     background-color: gradient(radial, 70% 20%, 0% 0%, 100% 100%, from(#1f312b), color-stop(0.3, #1c2d29), to(#0e181c));
 }
@@ -3126,7 +3158,6 @@
 .HelpEntryIcon {
     width: 112px;
     height: 112px;
-
     background-size: cover;
     background-position: 50%;
 }
@@ -3164,7 +3195,6 @@
     border-top: 2px solid #af3ea655;
     border-left: 2px solid #af3ea655;
     border-right: 2px solid #af3ea622;
-
     transition-property: background-color;
     transition-duration: 0.35s;
     transition-timing-function: ease-in-out;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAAbilityBuild {
     flow-children: down;
     margin-top: 12px;
@@ -101,12 +103,10 @@ DOTAAbilityBuild {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#373d45), to(#4d5860));
     border-style: solid;
     border-width: 1px;
-
     border-top-color: #555555;
     border-left-color: #494949;
     border-bottom-color: #333333;
     border-right-color: #404040;
-
     transition-property: background-color, opacity;
     transition-duration: 0.05s;
     transition-timing-function: linear;
@@ -115,7 +115,6 @@ DOTAAbilityBuild {
 
 .LevelSquare.ValidSelection:not(.SelectedLevel):hover {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#4c5561), to(#6c7d88));
-
     border-top-color: #aaaaaa77;
     border-left-color: #aaaaaa33;
     border-bottom-color: #333333;
@@ -124,7 +123,6 @@ DOTAAbilityBuild {
 
 .LevelSquare.ValidSelection:not(.SelectedLevel):active {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#393939), to(#555555));
-
     border-top-color: #222222;
     border-left-color: #303030;
     border-bottom-color: #666666;

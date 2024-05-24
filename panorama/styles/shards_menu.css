@@ -1,13 +1,13 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAShardsMenu {
     background-color: gradient(linear, 0% 0%, 0% 2%, from(#0f1116), to(#1e252f));
     padding: 10px 16px 16px 18px;
     width: 100%;
     box-shadow: #000 0px 0px 8px fill;
     flow-children: down;
-
     transform: translateY(-100%);
     opacity: 0;
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
 }
@@ -32,13 +32,10 @@ DOTAShardsMenu.MenuVisible {
     height: 22px;
     vertical-align: middle;
     margin-right: 4px;
-
     wash-color: #768e8d;
-
     background-image: url("s2r://panorama/images/hud/reborn/icon_combat_log_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTADPCWatchTabViolator {
     transition-property: opacity;
     transition-duration: 0.2s;
@@ -11,9 +13,7 @@ DOTADPCWatchTabViolator {
 .CarouselItem {
     width: 100%;
     margin-top: 9px;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 1s;
 }
@@ -147,7 +147,6 @@ DOTADPCWatchTabViolator {
     width: 26px;
     height: 30px;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/dpc/icon_supclub_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -174,7 +173,6 @@ DOTADPCWatchTabViolator {
     height: 34px;
     vertical-align: middle;
     wash-color: bluegreyTextReg;
-
     background-image: url("s2r://panorama/images/generic_treasure_icon_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;

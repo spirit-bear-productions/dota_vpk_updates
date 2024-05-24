@@ -1,6 +1,7 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAActiveFriends {
     width: 100%;
-
     flow-children: down;
     box-shadow: -1px 1px 4px -2px #00000000;
 }
@@ -8,6 +9,7 @@ DOTAActiveFriends {
 #AvatarRow {
     flow-children: right;
 }
+
 #CurrentFriendsGames DOTAActiveFriends {
     box-shadow: none;
 }
@@ -62,17 +64,14 @@ DOTAAvatarImage {
     margin-bottom: 8px;
     padding-right: 26px;
     padding-left: 10px;
-
     background-image: url("s2r://panorama/images/control_icons/plus_png.vtex");
     background-repeat: no-repeat;
     background-position: 95% 50%;
     background-size: 18px 18px;
     wash-color: #cccccc;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#6b7879), to(#484e51));
     border: 1px solid black;
     border-radius: 3px;
-
     transition-property: wash-color;
     transition-duration: 0.12s;
     transition-delay: 0s;

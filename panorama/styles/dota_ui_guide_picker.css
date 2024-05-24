@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAUIGuidePicker {
     flow-children: down;
 }
@@ -70,7 +72,6 @@ DOTAUIGuidePicker {
     flow-children: none;
     width: 100%;
     height: 72px;
-
     transition-duration: 0.05s;
     transition-property: background-color;
 }
@@ -107,7 +108,6 @@ DOTAUIGuidePicker {
     horizontal-align: left;
     margin-left: 16px;
     margin-right: 20px;
-
     width: 100%;
     height: 100%;
     padding-top: 7px;
@@ -219,7 +219,6 @@ DOTAUIGuidePicker {
     width: 16px;
     height: width-percentage(100%);
     horizontal-align: right;
-
     background-image: url("s2r://panorama/images/control_icons/star_favorite_selected_psd.vtex");
     background-repeat: no-repeat;
     background-size: 100% 100%;

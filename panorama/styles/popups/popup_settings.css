@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .LeftRightFlow {
     flow-children: right-wrap;
 }
@@ -8,7 +10,6 @@
     opacity: 1;
     width: 100%;
     height: 100%;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -27,12 +28,10 @@ PopupSettings {
     transform: none;
     perspective-origin: 62% 5% invert;
     perspective: 1000;
-
     transition-property: opacity, transform, pre-transform-scale2d, wash-color;
     transition-duration: 0.4s;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
-
     background-color: gradient(linear, 0% 0%, 0% 25%, from(#232326), to(#1c1d20));
     box-shadow: #00000099 0px 0px 8px 0px;
     border: 2px solid #32383677;
@@ -97,7 +96,6 @@ PopupSettings Label {
 #SettingsNavBar {
     background-color: #00000077;
     margin-top: 0px;
-
     vertical-align: top;
     horizontal-align: left;
     flow-children: right;
@@ -146,7 +144,6 @@ PopupSettings Label {
     margin-right: 6px;
     padding-top: 1px;
     background-color: #333333;
-
     margin-top: 2px;
     margin-bottom: 2px;
     padding-left: 10px;
@@ -195,14 +192,10 @@ PopupSettings Label {
 
 .HotKeyEmbeddedTab {
     background-color: gradient(linear, 0% 0%, 0% 5%, from(#232326), to(#1c1d20));
-
     border: 2px solid #32383677;
     box-shadow: fill #00000099 4px 0px 8px 8px;
-
     padding: 5px 7px 5px 7px;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.3s;
 }
@@ -284,9 +277,7 @@ PopupSettings Label {
     background-position: 1.5% 50%;
     background-size: 16px 16px;
     background-repeat: no-repeat;
-
     transform: translateX(-6px);
-
     transition-property: transform;
     transition-delay: 0s;
     transition-duration: 0.25s;
@@ -372,7 +363,6 @@ PopupSettings Label {
     vertical-align: bottom;
     opacity: 1;
     wash-color: #66aadd;
-
     transition-property: wash-color, opacity;
     transition-delay: 0s;
     transition-duration: 0.25s;
@@ -609,6 +599,7 @@ PopupSettings Label {
     width: 100%;
     vertical-align: bottom;
 }
+
 .ChatWheelButton .PingWheelButtonText {
     vertical-align: bottom;
 }
@@ -738,16 +729,18 @@ PopupSettings Label {
     letter-spacing: 2px;
     font-size: 20px;
     color: #999;
-
     transition-property: color;
     transition-duration: 0.2s;
 }
+
 .ChatWheelPhraseTab:hover Label {
     color: #ccc;
 }
+
 .ChatWheelPhraseTab:active Label {
     color: #999;
 }
+
 .ChatWheelPhraseTab:selected Label {
     color: white;
 }
@@ -770,10 +763,8 @@ PopupSettings Label {
 .ChatWheelBindOptionsContainer {
     border: 1px solid #000000;
     box-shadow: #00000033 0px 0px 4px 0px;
-
     background-color: #202023;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#202023), to(#202023));
-
     transition-property: background-color, box-shadow, border;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -811,6 +802,7 @@ PopupSettings Label {
     color: #939da0;
     text-transform: uppercase;
 }
+
 .SectionHeader.Blue {
     color: #66aadd;
 }
@@ -819,6 +811,7 @@ PopupSettings Label {
     width: 100%;
     height: 12px;
 }
+
 .VerticalSpacer.Smallest {
     height: 4px;
 }
@@ -870,9 +863,11 @@ PopupSettings Label {
 #ChatWheelTabs TabButton:selected {
     border-bottom: 2px solid #66aadd;
 }
+
 #ChatWheelTabs TabButton:hover {
     brightness: 2;
 }
+
 #ChatWheelTabs TabButton:active {
     brightness: 1.5;
 }
@@ -881,7 +876,6 @@ PopupSettings Label {
     text-transform: uppercase;
     text-align: center;
     padding: 6px 0px 4px 0px;
-
     font-size: 20px;
     color: #ccc;
 }
@@ -984,12 +978,9 @@ DOTASettingsCheckbox {
 #AbilitiesActive {
     width: 100%;
     opacity: 1;
-
     border: 2px solid #3b3f40;
     box-shadow: fill #00000033 0px 0px 4px 0px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#202023), to(#1c1d20));
-
     transition-property: background-color, box-shadow, border, opacity;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -1004,9 +995,7 @@ DOTASettingsCheckbox {
     width: 100%;
     height: 100%;
     padding-top: 32px;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -1014,7 +1003,6 @@ DOTASettingsCheckbox {
 #AbilitiesDisabled Label {
     color: #7d8688;
     horizontal-align: center;
-
     vertical-align: center;
     margin: 20px;
 }
@@ -1090,7 +1078,6 @@ DOTASettingsCheckbox {
     background-color: none;
     box-shadow: none;
     background-size: 120%;
-
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
@@ -1177,9 +1164,9 @@ DOTASettingsCheckbox {
     padding: 0px 0px 0px 4px;
     vertical-align: center;
     border: 0px;
-
     background-color: #00000000;
 }
+
 .QuickCastDropdownItem Label:hover {
     background-color: #00000000;
 }
@@ -1193,6 +1180,7 @@ DropDownMenu .QuickCastDropdownItem {
     padding-left: 4px;
     border-bottom: 1px solid black;
 }
+
 DropDownMenu .QuickCastDropdownItem:hover {
     background-color: #585e62;
 }
@@ -1201,19 +1189,15 @@ DropDownMenu .QuickCastDropdownItem:hover {
 .QuickCastControl:enabled:hover:not(:parentdisabled) {
     flow-children: none;
     horizontal-align: right;
-
     background-color: none;
     background-image: none;
     width: 300px;
-
     box-shadow: none;
     padding: 0px;
     background-size: 0px;
     background-position: 50% 50%;
     width: fit-children;
-
     border: 0px;
-
     font-size: 24px;
     height: 41px;
     z-index: 1;
@@ -1286,7 +1270,6 @@ DropDownMenu .QuickCastDescription {
     padding-top: 4px;
     margin: 0px;
     text-transform: uppercase;
-
     text-align: center;
     border-left: 4px solid #1c1d2000;
     border-right: 4px solid #1c1d2000;
@@ -1349,7 +1332,6 @@ DropDownMenu .QuickCastDescription {
 #ItemSpecificBindsSubTab {
     transform: translateY(12px);
     box-shadow: 0px 0px 0px #00000000;
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -1373,7 +1355,6 @@ DropDownMenu .QuickCastDescription {
     flow-children: right;
     opacity: 0;
     transform: translateX(-4px);
-
     transition-property: opacity, transform;
     transition-duration: 0.15s;
     transition-timing-function: ease;
@@ -1403,7 +1384,6 @@ DropDownMenu .QuickCastDescription {
     height: 16px;
     wash-color: #939da0;
     margin: 0px 12px;
-
     transition-property: wash-color, transform;
     transition-duration: 0.2s;
 }
@@ -1432,6 +1412,7 @@ DropDownMenu .QuickCastDescription {
     min-width: 240px;
     border-right: 2px solid #3b3f40;
 }
+
 .ItemSpecificBinds_Group.LastChild {
     border-right: 0px;
 }
@@ -1472,7 +1453,6 @@ DropDownMenu .QuickCastDescription {
     vertical-align: bottom;
     horizontal-align: right;
     height: fit-children;
-
     margin-right: -12px;
     margin-bottom: -12px;
 }
@@ -1486,7 +1466,6 @@ DropDownMenu .QuickCastDescription {
     height: 124px;
     horizontal-align: center;
     flow-children: none;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.2s;
@@ -1552,6 +1531,7 @@ DropDownMenu .QuickCastDescription {
 .PerUnitKeybindsActive.HasPerUnitKeybinds #ClearHeroAbilityBindings {
     opacity: 1;
 }
+
 .PerUnitKeybindsActive #AbilityBindingsHeroSelector {
     opacity: 1;
 }
@@ -1572,7 +1552,6 @@ DropDownMenu .QuickCastDescription {
     margin-left: 5px;
     wash-color: baseText;
     horizontal-align: right;
-
     background-size: contain;
     background-position: 50% 50%;
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
@@ -1587,7 +1566,6 @@ DropDownMenu .QuickCastDescription {
     padding: 2px 10px;
     margin-right: 24px;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1633,7 +1611,6 @@ DropDownMenu .QuickCastDescription {
     border: 4px solid #414a45;
     width: 84px;
     height: 84px;
-
     opacity: 0.3;
 }
 
@@ -1654,7 +1631,6 @@ DropDownMenu .QuickCastDescription {
     margin-right: 6px;
     margin-bottom: -10px;
     opacity: 1;
-
     transition-property: color, background-color;
     transition-duration: 0.16s;
     transition-timing-function: ease-in-out;
@@ -1674,7 +1650,6 @@ DropDownMenu .QuickCastDescription {
     margin-top: 12px;
     overflow: noclip;
     pre-transform-scale2d: 1;
-
     transition-property: wash-color, opacity, pre-transform-scale2d;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -1975,9 +1950,11 @@ Slider.HorizontalSlider {
 #PingWheelButton4 {
     margin-left: 252px;
 }
+
 #PingWheelButton5 {
     margin-right: 252px;
 }
+
 #PingWheelButton0,
 #PingWheelButton1 {
     horizontal-align: center;
@@ -2010,11 +1987,11 @@ Slider.HorizontalSlider {
     horizontal-align: center;
     text-align: center;
     border-radius: 32px;
-
     transition-property: transform, background-color, border, color;
     transition-duration: 0.16s;
     transition-timing-function: ease-in-out;
 }
+
 .ChatWheelButton .ChatWheelButtonContents {
     vertical-align: center;
     horizontal-align: center;
@@ -2030,6 +2007,7 @@ Slider.HorizontalSlider {
     margin-right: 4px;
     visibility: collapse;
 }
+
 .ChatWheelButton.HasSound .ChatWheelSoundIcon {
     visibility: visible;
 }
@@ -2058,6 +2036,7 @@ Slider.HorizontalSlider {
 .ChatWheelButton.IsSpray .PingWheelImage {
     visibility: visible;
 }
+
 .ChatWheelButton.IsSpray .ChatWheelButtonContents {
     visibility: collapse;
 }
@@ -2069,6 +2048,7 @@ Slider.HorizontalSlider {
 .ChatWheelButton:hover {
     border-color: #5b6a62;
 }
+
 .ChatWheelButton:hover Label {
     color: white;
 }
@@ -2077,12 +2057,12 @@ Slider.HorizontalSlider {
     background-color: #0570bb;
     border-color: #5c99ff;
     box-shadow: #5c99ff22 0px 0px 8px 0px;
-
     animation-name: BackgroundPulse;
     animation-duration: 1.35s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 .ChatWheelButton:selected Label {
     color: white;
 }
@@ -2159,7 +2139,6 @@ Slider.HorizontalSlider {
     color: #aaa;
     font-size: 20px;
     letter-spacing: 0;
-
     vertical-align: middle;
 }
 
@@ -2200,6 +2179,7 @@ Slider.HorizontalSlider {
     color: textShadeColor;
     text-transform: uppercase;
 }
+
 .IsSpray .ChatWheelUnlockInfo_EventLevel > Label {
     vertical-align: center;
 }
@@ -2214,7 +2194,6 @@ Slider.HorizontalSlider {
 
 .ChatWheelSprayImage {
     visibility: collapse;
-
     horizontal-align: left;
     vertical-align: middle;
     background-image: url("s2r://panorama/images/settings_chatwheel_png.vtex");
@@ -2318,12 +2297,12 @@ Slider.HorizontalSlider {
     margin-bottom: 4px;
     flow-children: right;
 }
+
 #ChatWheelHeader > Label {
     color: #939da0;
     font-size: 16px;
     text-transform: uppercase;
     vertical-align: middle;
-
     transition-property: color, border;
     transition-duration: 0.32s;
 }
@@ -2334,9 +2313,11 @@ Slider.HorizontalSlider {
     color: #999;
     letter-spacing: 2px;
 }
+
 #ChatWheelHeader #ChatWheelCategoryLink:hover {
     brightness: 2;
 }
+
 #ChatWheelHeader #ChatWheelCategoryLink:active {
     brightness: 1.5;
 }
@@ -2348,15 +2329,11 @@ Slider.HorizontalSlider {
 #ChatWheelHeader .CategoryIcon {
     width: 22px;
     height: 22px;
-
     margin-right: 4px;
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
     visibility: collapse;
-
     tooltip-position: top;
     tooltip-body-position: 0% 50%;
 }
@@ -2364,16 +2341,12 @@ Slider.HorizontalSlider {
 #ChatWheelHeader #TeamLogo {
     width: 22px;
     height: 22px;
-
     margin-right: 4px;
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
     tooltip-position: top;
     tooltip-body-position: 0% 50%;
-
     visibility: collapse;
 }
 
@@ -2669,10 +2642,8 @@ a {
 #AboutDotaLogo {
     width: 1720px;
     height: 172px;
-
     background-image: url("s2r://panorama/images/logos/dota_logo_psd.vtex");
     background-size: contain;
-
     margin-bottom: 32px;
 }
 
@@ -2682,7 +2653,6 @@ a {
     background-image: url("s2r://panorama/images/logos/valve_white_png.vtex");
     background-size: contain;
     wash-color: #696a6c;
-
     margin-top: 20px;
 }
 
@@ -2819,7 +2789,6 @@ a {
 
 #BasicHotkeysContainer {
     flow-children: right;
-
     margin-top: 20px;
 }
 
@@ -2828,6 +2797,7 @@ a {
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
 #MinimapContainer {
     width: 290px;
     height: 274px;
@@ -2870,7 +2840,6 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     wash-color: white;
-
     transition-property: transform, opacity, background-image, wash-color;
     transition-duration: 0s, 0.2s;
     transition-delay: 0s, 0s;
@@ -2880,13 +2849,11 @@ a {
 #AltKeycontainer {
     width: 56px;
     height: 56px;
-
     vertical-align: bottom;
     margin-bottom: 36px;
     margin-left: 56px;
     wash-color: #cccccc;
     box-shadow: fill #000000 1px 0px 6px 0px;
-
     transition-property: transform, box-shadow, wash-color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -2905,12 +2872,10 @@ a {
 #AltKey {
     width: 56px;
     height: 56px;
-
     background-image: url("s2r://panorama/images/key_illustration_psd.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     transition-property: transform, pre-transform-scale2d, wash-color, brightness;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -3217,6 +3182,7 @@ a {
 .AltDown .SecondaryUseHeroIconsOnly #Hero1 .MinimapTeam {
     visibility: collapse;
 }
+
 .AltDown .SecondaryArrowTeamColors #Hero1,
 .AltDown .SecondaryArrowPlayerColors #Hero1 {
     background-image: url("s2r://panorama/images/textures/minimap_hero_self_psd.vtex");
@@ -3308,7 +3274,6 @@ a {
     background-position: 50% 50%;
     background-size: 88%;
     background-repeat: no-repeat;
-
     visibility: collapse;
 }
 
@@ -3343,7 +3308,6 @@ a {
     text-shadow: 0px 0px 6px 3 black;
     opacity: 0;
     font-weight: thin;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -3406,7 +3370,6 @@ a {
     margin-left: 2px;
     padding-top: 3px;
     border-radius: 4px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -3572,7 +3535,6 @@ DOTASettingsEnum .EnumButton {
     box-shadow: inset #00000033 -4px -4px 4px 0px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#202023), to(#202023));
     background-color: #00000044;
-
     transition-property: background-color, box-shadow, border;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -3806,16 +3768,19 @@ DOTASettingsEnum .EnumButton {
     flow-children: right;
     width: 100%;
 }
+
 .MinimapOptionsRow .MinimapOptionsContainer {
     width: 50%;
     flow-children: down;
     margin: 0;
     padding: 8px;
 }
+
 .MinimapOptionsRow .MinimapOptionsContainer .ContainerHeader {
     flow-children: right;
     height: 32px;
 }
+
 .MinimapOptionsRow .MinimapOptionsContainer .ContainerHeader Label {
     text-transform: uppercase;
     font-size: 18px;
@@ -3824,17 +3789,16 @@ DOTASettingsEnum .EnumButton {
 .MinimapOptionsRow .MinimapOptionsContainer .ContainerHeader .AltKey {
     width: 56px;
     height: 32px;
-
     vertical-align: bottom;
     wash-color: #cccccc;
     box-shadow: fill #000000 1px 0px 6px 0px;
     margin-right: 8px;
-
     background-image: url("s2r://panorama/images/key_illustration_psd.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
+
 .MinimapOptionsRow .MinimapOptionsContainer .ContainerHeader .AltKey Label {
     font-size: 14px;
     margin-left: 12px;
@@ -3856,6 +3820,7 @@ DOTASettingsEnum .EnumButton {
     flow-children: right;
     margin-top: 8px;
 }
+
 .SettingsOptionWithDescriptionContainer .SettingsOptionsContainer {
     flow-children: down;
     width: fill-parent-flow(1);
@@ -3887,14 +3852,13 @@ DOTASettingsEnum .EnumButton {
     border-top: 2px solid #33a4c0;
     padding: 28px;
     padding-top: 12px;
-
     margin-top: 26px;
     margin-bottom: 40px;
     margin-left: 40px;
-
     background-color: gradient(linear, 0% 0%, 100% 100%, from(#337fc011), to(#0fa3b011));
     flow-children: down;
 }
+
 .DotaLabsMessageContainer .LabsDescription {
     letter-spacing: 0px;
     color: rgba(176, 232, 254, 0.8);
@@ -3912,6 +3876,7 @@ DOTASettingsEnum .EnumButton {
 .DotaLabsLogoContainer {
     flow-children: right;
 }
+
 .DotaLabsLogoContainer .DotaLogoLogoLabel {
     font-weight: normal;
     color: whitesmoke;
@@ -3926,6 +3891,7 @@ DOTASettingsEnum .EnumButton {
     max-width: 210px;
     text-overflow: shrink;
 }
+
 .DotaLabsLogoContainer .DotaLogoLogoLabel b {
     color: gradient(linear, 0% 10%, 0% 100%, from(#21d6e7), color-stop(0.5, #34ade4), to(#4364ad));
     font-weight: semi-bold;

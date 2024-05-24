@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents.PlayerMuteContents {
     flow-children: down;
     padding: 0px;
@@ -25,7 +27,6 @@
 .MuteButtons Button {
     margin: 0px 6px;
     flow-children: down;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -56,7 +57,6 @@
     width: 32px;
     height: 32px;
     horizontal-align: center;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

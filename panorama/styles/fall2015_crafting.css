@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CraftingRoot {
     flow-children: right;
     padding: 20px 20px;
@@ -26,20 +28,21 @@
     background-image: url("s2r://panorama/images/compendium/fall2015_button_1_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     width: 200px;
     height: 40px;
     horizontal-align: center;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 .CompendiumReturnButton:hover {
     brightness: 1.5;
 }
+
 .CompendiumReturnButton:hover Label {
     brightness: 1.5;
 }
+
 .CraftingLink {
     padding: 2px;
     color: gradient(linear, 0% 0%, 0% 100%, from(#aee35d), to(#6d9d23));
@@ -50,10 +53,10 @@
     horizontal-align: center;
     vertical-align: center;
     line-height: 14;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 #CRB_2 {
     background-image: url("s2r://panorama/images/compendium/fall2015_button_2_png.vtex");
     margin-top: 5px;
@@ -104,6 +107,7 @@
     flow-children: down;
     visibility: collapse;
 }
+
 .CraftingTab.TabSelected {
     visibility: visible;
 }
@@ -144,18 +148,14 @@ DOTACraftingInputSlot {
 .CombineButton {
     height: 104px;
     width: height-percentage(100%);
-
     margin-left: 6px;
     margin-top: 43px;
     vertical-align: middle;
-
     border: 2px solid white;
     padding: 8px 8px 6px 8px;
     flow-children: down;
-
     background-color: #33333333;
     wash-color: #aaa;
-
     transition-property: wash-color;
     transition-duration: 0.2s;
 }
@@ -167,9 +167,11 @@ DOTACraftingInputSlot {
 .CombineButton:disabled {
     wash-color: #333;
 }
+
 .CombineButton:hover:enabled {
     wash-color: #ddd;
 }
+
 .CombineButton:active {
     wash-color: #fff;
 }

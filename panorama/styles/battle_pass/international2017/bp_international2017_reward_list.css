@@ -1,8 +1,9 @@
-@define mouseWheelScroll:  150px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define mouseWheelScroll: 150px;
 @define asyncDestroyDelay: 0.2s;
 @define scrollPaddingMin: 16px;
 @define scrollPaddingMax: 253px;
-
 International2017RewardList {
     overflow: clip;
     opacity-mask: url("s2r://panorama/images/masks/softedge_horizontal_png.vtex");
@@ -31,7 +32,6 @@ International2017RewardList {
 #RewardPath > .PathNode,
 #RewardItems > .ItemNode {
     opacity: 0;
-
     transition-property: opacity, brightness;
     transition-duration: 0.2s;
 }
@@ -39,7 +39,6 @@ International2017RewardList {
 #RewardPath > .PathNode.LevelActive,
 #RewardItems > .ItemNode.LevelActive {
     opacity: 1;
-
     transition-property: transform, opacity, brightness;
     transition-duration: 0.3s, 0.2s;
 }
@@ -55,10 +54,12 @@ International2017RewardList {
         pre-transform-scale2d: 1;
         brightness: 1;
     }
+
     40% {
         pre-transform-scale2d: 1.1;
         brightness: 2;
     }
+
     100% {
         pre-transform-scale2d: 1;
         brightness: 1;
@@ -91,12 +92,9 @@ International2017RewardList {
     margin-bottom: 92px;
     margin-right: 4px;
     margin-left: 4px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#6b9526), to(#3b5d07));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3b5c7d), to(#92c0e4));
     border: 2px solid #92c0e4;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(bp_color13), to(bp_color14));
     border: 2px solid bp_color9;
 }
@@ -112,13 +110,10 @@ International2017RewardList {
 .PathNodeDefault.Achieved:not(.AlreadyClaimed) .PathNodeContents {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#66281f), to(#a6352b));
     border: 6px solid #8cc44a;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3b5c7d), to(#92c0e4));
     border: 2px solid #92c0e4;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(bp_color13), to(bp_color9));
     border: 2px solid bp_color9;
-
     animation-name: ClaimBorderPulse;
     animation-duration: 0.64s;
     animation-timing-function: ease-in-out;
@@ -129,39 +124,32 @@ International2017RewardList {
     from {
         background-color: gradient(linear, 0% 0%, 0% 100%, from(#66281f), to(#bf686d));
         border: 2px solid #bf686dff;
-
         background-color: gradient(linear, 0% 0%, 0% 100%, from(#34541b), to(#aee56d));
         border: 2px solid #8cc44aff;
-
         background-color: gradient(linear, 0% 0%, 0% 100%, from(#2a435b), to(#7a9fbd));
         border: 2px solid #82aaca;
-
         background-color: gradient(linear, 0% 0%, 0% 100%, from(accentColorSectionBG), to(bp_color14));
         border: 2px solid bp_color9;
     }
+
     50% {
         background-color: gradient(linear, 0% 0%, 0% 100%, from(#66281f), to(#a6352b));
         border: 2px solid #bf686d00;
-
         background-color: gradient(linear, 0% 0%, 0% 100%, from(#34541b), to(#719a40));
         border: 2px solid #8cc44a00;
-
         background-color: gradient(linear, 0% 0%, 0% 100%, from(#5d92c7), to(#9fd0f7));
         border: 2px solid #b2daf9;
-
         background-color: gradient(linear, 0% 0%, 0% 100%, from(bp_color7), to(bp_color9));
         border: 2px solid backgroundVeryBrightColor;
     }
+
     to {
         background-color: gradient(linear, 0% 0%, 0% 100%, from(#66281f), to(#bf686d));
         border: 2px solid #bf686dff;
-
         background-color: gradient(linear, 0% 0%, 0% 100%, from(#34541b), to(#aee56d));
         border: 2px solid #8cc44aff;
-
         background-color: gradient(linear, 0% 0%, 0% 100%, from(#2a435b), to(#7a9fbd));
         border: 2px solid #82aaca;
-
         background-color: gradient(linear, 0% 0%, 0% 100%, from(accentColorSectionBG), to(bp_color14));
         border: 2px solid bp_color9;
     }
@@ -170,10 +158,8 @@ International2017RewardList {
 .PathNodeDefault:not(.Achieved) .PathNodeContents {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1a351d22), to(#3b582a22));
     border: 2px solid #41593322;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1a2d3522), to(#2a405822));
     border: 2px solid #33455955;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(bp_color1&22), to(accentColorSectionBG&22));
     border: 2px solid bp_color10&55;
 }
@@ -181,24 +167,18 @@ International2017RewardList {
 .ImportantLevel.PathNodeDefault:not(.Achieved) .PathNodeContents {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#351d1a55), to(#582e2a55));
     border: 2px solid #a7362d55;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1a351d44), to(#3b582a44));
     border: 2px solid #8cc44a02;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1a2d3544), to(#2a405844));
     border: 2px solid #4a86c402;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(bp_color1&44), to(accentColorSectionBG&44));
     border: 2px solid bp_color7&02;
 }
 
 .ImportantLevel.PathNodeDefault:not(.Achieved) .PathNodeContents > Label {
     color: #a7362d;
-
     color: #567f1fcc;
-
     color: #1f517fcc;
-
     color: bp_color11&cc;
 }
 
@@ -244,7 +224,6 @@ International2017RewardList {
         color-stop(0.8, #282a29aa),
         to(#282a2900)
     );
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -256,7 +235,6 @@ International2017RewardList {
         color-stop(0.8, #191e23aa),
         to(#191e2300)
     );
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -268,7 +246,6 @@ International2017RewardList {
         color-stop(0.8, bp_color3&aa),
         to(bp_color3&00)
     );
-
     width: 100%;
     height: 100%;
     margin-right: 4px;
@@ -287,7 +264,6 @@ International2017RewardList {
         color-stop(0.8, #334e2588),
         to(#31534400)
     );
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -299,7 +275,6 @@ International2017RewardList {
         color-stop(0.8, #1d3651aa),
         to(#1d365100)
     );
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -322,7 +297,6 @@ International2017RewardList {
     width: 100%;
     margin-bottom: 26px;
     height: 100%;
-
     transition-property: wash-color, saturation;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -351,12 +325,10 @@ International2017RewardList {
     );
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_png.vtex");
     opacity: 0;
-
     animation-name: GlowPulse;
     animation-duration: 1.64s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-
     transition-property: opacity;
     transition-duration: 0.33s;
 }
@@ -373,7 +345,6 @@ International2017RewardList {
             color-stop(0.9, #6b971e00),
             to(#6b971e00)
         );
-
         background-color: gradient(
             linear,
             0% 0%,
@@ -384,7 +355,6 @@ International2017RewardList {
             color-stop(0.9, #3d80c400),
             to(#3d80c400)
         );
-
         background-color: gradient(
             linear,
             0% 0%,
@@ -408,7 +378,6 @@ International2017RewardList {
             color-stop(0.9, #6b971e00),
             to(#6b971e00)
         );
-
         background-color: gradient(
             linear,
             0% 0%,
@@ -419,7 +388,6 @@ International2017RewardList {
             color-stop(0.9, #3d80c400),
             to(#3d80c400)
         );
-
         background-color: gradient(
             linear,
             0% 0%,
@@ -431,6 +399,7 @@ International2017RewardList {
             to(bp_color7&00)
         );
     }
+
     100% {
         background-color: gradient(
             linear,
@@ -442,7 +411,6 @@ International2017RewardList {
             color-stop(0.9, #6b971e00),
             to(#6b971e00)
         );
-
         background-color: gradient(
             linear,
             0% 0%,
@@ -453,7 +421,6 @@ International2017RewardList {
             color-stop(0.9, #3d80c400),
             to(#3d80c400)
         );
-
         background-color: gradient(
             linear,
             0% 0%,
@@ -488,15 +455,12 @@ International2017RewardList {
 .EconItemReward > Label {
     horizontal-align: right;
     vertical-align: bottom;
-
     margin-right: 11px;
     margin-bottom: 7px;
-
     font-size: 24px;
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px 0px black;
-
     visibility: collapse;
 }
 
@@ -505,15 +469,12 @@ International2017RewardList {
 }
 
 @define rewardChatWheelWidth: 350px;
-
 .ChatWheelReward {
     flow-children: down;
-
     width: 100%;
     margin: 0px 8px 6px 8px;
     horizontal-align: center;
     padding: 8px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#27536f), to(#2220));
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
@@ -529,9 +490,7 @@ International2017RewardList {
     margin-right: 4px;
     horizontal-align: center;
     wash-color: bp_battlePassLogoColor;
-
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/settings_chatwheel_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -574,6 +533,7 @@ International2017RewardList {
 .ChatWheelMessageAll {
     visibility: collapse;
 }
+
 .ChatWheelMessage.ChatWheelMessageSendToAll .ChatWheelMessageAll {
     visibility: visible;
 }
@@ -581,11 +541,9 @@ International2017RewardList {
 #ChatWheelMessageSoundButton {
     width: 20px;
     height: 20px;
-
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
-
     visibility: collapse;
 }
 
@@ -596,6 +554,7 @@ International2017RewardList {
 #ChatWheelMessageSoundButton:hover {
     brightness: 2;
 }
+
 #ChatWheelMessageSoundButton:active {
     brightness: 1.5;
 }
@@ -612,11 +571,9 @@ International2017RewardList {
     width: 92px;
     margin-left: -4px;
     margin-bottom: 6px;
-
     pre-transform-scale2d: 0.8;
     brightness: 0.8;
     transform-origin: 50% 70%;
-
     transition-property: pre-transform-scale2d, brightness;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -640,15 +597,19 @@ International2017RewardList {
     0% {
         transform: rotateZ(0deg);
     }
+
     10% {
         transform: rotateZ(10deg);
     }
+
     20% {
         transform: rotateZ(-10deg);
     }
+
     30% {
         transform: rotateZ(5deg);
     }
+
     40% {
         transform: rotateZ(-5deg);
     }
@@ -656,13 +617,13 @@ International2017RewardList {
     50% {
         transform: rotateZ(0deg);
     }
+
     100% {
         transform: rotateZ(0deg);
     }
 }
 
 @define rewardEconItemModelWidth: 220px;
-
 .EconItemModelReward {
     width: 100%;
     height: 100%;
@@ -673,18 +634,15 @@ International2017RewardList {
 .EconItemModelReward #EconItemModelPreview {
     width: 500px;
     height: 300px;
-
     horizontal-align: center;
     vertical-align: middle;
-
     transform: translateY(-28px);
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
+
 .EconItemModelReward #EconItemModelPreview.EconSetLoaded {
     opacity: 1;
 }
@@ -706,7 +664,6 @@ International2017RewardList {
     vertical-align: middle;
     margin-top: 92px;
     text-overflow: shrink;
-
     letter-spacing: 2px;
     color: white;
     text-shadow: 0px 0px 8px 2 #ff0000;
@@ -721,39 +678,32 @@ International2017RewardList {
     from {
         color: #bf686d;
         text-shadow: 0px 0px 18px 2 #ff0000ff;
-
         color: #8adcf4;
         text-shadow: 0px 0px 18px 2 #7eff00ff;
-
         color: #8adcf4;
         text-shadow: 0px 0px 18px 2 #61f9ffff;
-
         color: backgroundVeryBrightColor;
         text-shadow: 0px 0px 18px 2 bp_color15&ff;
     }
+
     50% {
         color: white;
         text-shadow: 0px 0px 18px 2 #ff000033;
-
         color: white;
         text-shadow: 0px 0px 18px 2 #7eff0033;
-
         color: white;
         text-shadow: 0px 0px 18px 2 #61f9ff;
-
         color: white;
         text-shadow: 0px 0px 18px 2 bp_color15;
     }
+
     to {
         color: #bf686d;
         text-shadow: 0px 0px 18px 2 #ff0000ff;
-
         color: #adf48a;
         text-shadow: 0px 0px 18px 2 #7eff00ff;
-
         color: #8adcf4;
         text-shadow: 0px 0px 18px 2 #61f9ffff;
-
         color: #8ceef5;
         text-shadow: 0px 0px 18px 2 bp_color15&ff;
     }
@@ -778,13 +728,9 @@ International2017RewardList {
 #ClaimButton:active Label {
     animation-name: none;
     color: white;
-
     text-shadow: 0px 0px 18px 2 #ff6861;
-
     text-shadow: 0px 0px 18px 2 #abff61;
-
     text-shadow: 0px 0px 18px 2 #61f9ff;
-
     text-shadow: 0px 0px 18px 2 bp_color15;
 }
 
@@ -801,9 +747,7 @@ International2017RewardList {
 
 @define rewardEmptyWidth: 20px;
 @define rewardDefaultWidth: 100px;
-
 @define level1Width: 620px;
-
 #Path1.PathNode {
     height: 100%;
 }
@@ -814,18 +758,13 @@ International2017RewardList {
     padding: 4px;
     width: 100%;
     height: 100px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#6b9526), to(#3b5d07));
     border: 2px solid #77a73e;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3b5c7d), to(#92c0e4));
     border: 2px solid #92c0e4;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(bp_color13), to(bp_color14));
     border: 2px solid bp_color9;
-
     brightness: 1;
-
     margin-bottom: 92px;
     margin-right: 4px;
     margin-left: 4px;
@@ -835,10 +774,8 @@ International2017RewardList {
 .SelfEventUpsell #Path1.PathNode .PathNodeContents {
     border-color: #77a73e;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#6b9526), to(#3b5d07));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3b5c7d), to(#92c0e4));
     border: 2px solid #92c0e4;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(bp_color13), to(bp_color9));
     border: 2px solid bp_color9;
 }
@@ -865,10 +802,8 @@ International2017RewardList {
     height: 100%;
     margin-right: 4px;
     margin-left: 4px;
-
     horizontal-align: center;
     flow-children: right-wrap;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -878,7 +813,6 @@ International2017RewardList {
         color-stop(0.95, #b9434a00),
         to(#b9434a00)
     );
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -888,7 +822,6 @@ International2017RewardList {
         color-stop(0.95, #72b94300),
         to(#72b94300)
     );
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -898,7 +831,6 @@ International2017RewardList {
         color-stop(0.95, #1d365100),
         to(#1d365100)
     );
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -932,9 +864,7 @@ International2017RewardList {
     margin-bottom: 82px;
     visibility: collapse;
     opacity: 0.5;
-
     wash-color: #a9372e;
-
     wash-color: bp_color7;
 }
 
@@ -947,7 +877,6 @@ International2017RewardList {
 }
 
 @define level225Width: 300px;
-
 #Item225.ItemNode {
     height: 100%;
 }
@@ -975,7 +904,6 @@ International2017RewardList {
 #Item225.ItemNode .Level225Contents > DOTAUIEconSetPreview {
     transform: translateY(8px);
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -991,13 +919,11 @@ International2017RewardList {
 
 #Path225.PathNode .PathNodeContents {
     border-color: #9c3329;
-
     border-color: backgroundBrightColor;
 }
 
 #Path225 .PathNodeTile {
     wash-color: red;
-
     wash-color: bp_battlePassLogoColor;
 }
 
@@ -1015,7 +941,6 @@ International2017RewardList {
 
 #Path225 Label {
     color: #a9372e;
-
     color: bp_color7;
 }
 
@@ -1028,7 +953,6 @@ International2017RewardList {
 }
 
 @define level245Width: 300px;
-
 #Item245 {
     vertical-align: bottom;
     margin-bottom: 32px;
@@ -1074,9 +998,7 @@ International2017RewardList {
 }
 
 @define level245Width: 94px;
-
 @define level125Width: 320px;
-
 #Item125.ItemNode {
     vertical-align: bottom;
     margin-bottom: 32px;
@@ -1086,13 +1008,11 @@ International2017RewardList {
     width: 100%;
     margin-right: 4px;
     margin-left: 4px;
-
     horizontal-align: center;
     flow-children: right-wrap;
 }
 
 @define level375Width: 520px;
-
 #Item375.ItemNode {
     vertical-align: bottom;
     margin-bottom: 32px;
@@ -1102,13 +1022,11 @@ International2017RewardList {
     width: 100%;
     margin-right: 4px;
     margin-left: 4px;
-
     horizontal-align: center;
     flow-children: right-wrap;
 }
 
 @define level150Width: 260px;
-
 #Item150.ItemNode {
     vertical-align: bottom;
     margin-bottom: 0px;
@@ -1118,7 +1036,6 @@ International2017RewardList {
     width: 100%;
     margin-right: 4px;
     margin-left: 4px;
-
     horizontal-align: center;
     vertical-align: bottom;
     flow-children: right-wrap;
@@ -1134,7 +1051,6 @@ International2017RewardList {
 }
 
 @define level487Width: 320px;
-
 #Item487.ItemNode {
     vertical-align: bottom;
     margin-bottom: 32px;
@@ -1144,13 +1060,11 @@ International2017RewardList {
     width: 100%;
     margin-right: 4px;
     margin-left: 4px;
-
     horizontal-align: center;
     flow-children: right-wrap;
 }
 
 @define level555Width: 320px;
-
 #Item555.ItemNode {
     vertical-align: bottom;
     margin-bottom: 32px;
@@ -1160,13 +1074,11 @@ International2017RewardList {
     width: 100%;
     margin-right: 4px;
     margin-left: 4px;
-
     horizontal-align: center;
     flow-children: right-wrap;
 }
 
 @define level1000Width: 300px;
-
 #Item1000.ItemNode .Level1000Contents {
     width: 100%;
     height: 100%;
@@ -1184,7 +1096,6 @@ International2017RewardList {
 #Item1000.ItemNode .Level1000Contents > DOTAScenePanel {
     width: 380px;
     height: 380px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
@@ -1225,7 +1136,6 @@ International2017RewardList {
 }
 
 @define level2000Width: 300px;
-
 #Item2000.ItemNode .Level2000Contents {
     width: 100%;
     height: 100%;
@@ -1243,7 +1153,6 @@ International2017RewardList {
 #Item2000.ItemNode .Level2000Contents > DOTAScenePanel {
     width: 380px;
     height: 380px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
@@ -1285,7 +1194,6 @@ International2017RewardList {
 }
 
 @define level75Width: 108px;
-
 #Path75.Achieved .PathNodeContents {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(bp_color11), to(bp_color14));
     border: 2px solid #3e788b;
@@ -1351,9 +1259,7 @@ International2017RewardList {
 #Path1000 #TierLabel {
     horizontal-align: right;
     margin-right: 12px;
-
     color: #923029;
-
     color: accentColor;
 }
 
@@ -1367,7 +1273,6 @@ International2017RewardList {
     border-radius: 50%;
     background-color: #000b;
     border: 2px solid black;
-
     transition-property: brightness;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1411,7 +1316,6 @@ International2017RewardList {
 }
 
 @define rewardEllipsisWidth: 350px;
-
 .ItemNodeEllipsis {
     height: 100%;
 }
@@ -1463,10 +1367,8 @@ International2017RewardList {
     width: 100%;
     height: 96px;
     wash-color: bp_color7;
-
     margin-bottom: 94px;
     brightness: 0.2;
-
     animation-duration: 1.9s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;

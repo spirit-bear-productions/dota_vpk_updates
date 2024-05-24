@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #MainContents {
     width: 100%;
     height: 100%;
@@ -13,7 +15,6 @@
 #Center {
     width: 100%;
     height: 800px;
-
     opacity: 0.99;
 }
 
@@ -53,7 +54,6 @@
 #FooterBackgroundColor {
     width: 100%;
     height: 100%;
-
     background-color: #000e;
     background-color: #ffffff02;
     background-color: gradient(
@@ -130,7 +130,6 @@
     transform: translateY(5px);
     margin-right: 6px;
     margin-left: -3px;
-
     background-image: dotaPlusCurrencySmallIcon;
     background-size: contain;
     background-repeat: no-repeat;
@@ -181,7 +180,6 @@
 
 #NewFeaturesHeader {
     margin-left: 78px;
-
     flow-children: right;
 }
 
@@ -204,7 +202,6 @@
     margin-bottom: 60px;
     margin-top: 2px;
     horizontal-align: center;
-
     flow-children: right;
     overflow: clip;
 }
@@ -220,9 +217,7 @@
 .NewFeature {
     width: 100%;
     height: 100%;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -243,14 +238,17 @@
     padding-top: 80px;
     margin-left: -60px;
 }
+
 .NewExclusiveSets .ExclusiveSetPreview {
     height: 460px;
     width: 800px;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
 }
+
 .NewExclusiveSets .ExclusiveSetPreview.Set2 {
     x: 330px;
 }
+
 .NewExclusiveSets .ExclusiveSetPreview.Set3 {
     x: 630px;
 }
@@ -301,7 +299,6 @@
 
 .NewFeatureLearnMore {
     margin-top: 12px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -421,7 +418,6 @@
     font-style: italic;
     text-align: right;
     margin-right: 2px;
-
     visibility: collapse;
 }
 
@@ -440,7 +436,6 @@
     width: 100%;
     flow-children: down;
     margin-top: 33px;
-
     visibility: collapse;
 }
 
@@ -455,6 +450,7 @@
 .BattleReportSection .FooterViewAllButton:hover Label {
     color: #999;
 }
+
 .BattleReportSection .FooterViewAllButton:active Label {
     color: #999;
 }
@@ -562,15 +558,19 @@
 .HighestHeroRelic.PrimaryAttributeStrength .HeroRelicLevel {
     color: dotaPlusRelicTextStr;
 }
+
 .HighestHeroRelic.PrimaryAttributeAgility .HeroRelicLevel {
     color: dotaPlusRelicTextAgi;
 }
+
 .HighestHeroRelic.PrimaryAttributeIntellect .HeroRelicLevel {
     color: dotaPlusRelicTextInt;
 }
+
 .HighestHeroRelic.PrimaryAttributeUniversal .HeroRelicLevel {
     color: dotaPlusRelicTextUni;
 }
+
 .HighestHeroRelic.RareRelic .HeroRelicLevel {
     color: dotaPlusRelicTextRare;
 }
@@ -592,15 +592,19 @@
 .PrimaryAttributeStrength .HeroRelicLevelLabel {
     color: dotaPlusRelicTextStr;
 }
+
 .PrimaryAttributeAgility .HeroRelicLevelLabel {
     color: dotaPlusRelicTextAgi;
 }
+
 .PrimaryAttributeIntellect .HeroRelicLevelLabel {
     color: dotaPlusRelicTextInt;
 }
+
 .PrimaryAttributeUniversal .HeroRelicLevelLabel {
     color: dotaPlusRelicTextUni;
 }
+
 .RareRelic .HeroRelicLevelLabel {
     color: dotaPlusRelicTextRare;
 }
@@ -618,14 +622,11 @@ DOTAHeroRelicImage.RareRelic {
     width: 18px;
     height: 18px;
     vertical-align: middle;
-
     margin-left: 8px;
     wash-color: dotaPlusGold;
-
     background-image: url("s2r://panorama/images/hud/reborn/icon_combat_log_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
 }
@@ -645,15 +646,12 @@ DOTAHeroRelicImage.RareRelic {
 .ManageButton_Icon {
     height: 32px;
     width: 32px;
-
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
     transition-property: wash-color, pre-transform-scale2d;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     pre-transform-scale2d: 0.95;
 }
 

@@ -1,10 +1,9 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 DOTAHeroInspect {
     height: 625px;
-
     flow-children: none;
-
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#171a25dd), to(#171a25dd));
     padding-top: 2px;
     border: 1px solid black;
@@ -44,27 +43,31 @@ DOTAHeroInspect {
 #HeroInspectPrimaryAttributeIcon {
     width: 32px;
     height: 32px;
-
     vertical-align: middle;
-
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .InspectHeroStrength #HeroInspectPrimaryAttributeIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_strength_psd.vtex");
 }
+
 .InspectHeroAgility #HeroInspectPrimaryAttributeIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_psd.vtex");
 }
+
 .ColorBlindModeEnabled .InspectHeroAgility #HeroInspectPrimaryAttributeIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_colorblind_psd.vtex");
 }
+
 .InspectHeroIntelligence #HeroInspectPrimaryAttributeIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_intelligence_psd.vtex");
 }
+
 .InspectHeroAll #HeroInspectPrimaryAttributeIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_all_psd.vtex");
 }
+
 #HeroInspectInfo {
     margin-left: 16px;
     margin-right: 16px;
@@ -74,9 +77,7 @@ DOTAHeroInspect {
     margin-top: 42px;
     margin-bottom: 10px;
     opacity: 1;
-
     transform: translateY(0px);
-
     transition-property: transform;
     transition-duration: 0.1s;
 }
@@ -118,7 +119,6 @@ DOTAHeroInspect {
 
 #ComplexityValue {
     vertical-align: middle;
-
     visibility: collapse;
 }
 
@@ -152,7 +152,6 @@ DOTAHeroInspect {
     font-weight: thin;
     letter-spacing: 1px;
     vertical-align: middle;
-
     text-align: center;
     margin-top: 7px;
     margin-right: 6px;
@@ -191,7 +190,6 @@ DOTAHeroInspect {
 
 #HeroHype {
     margin-top: 340px;
-
     color: #547095;
     font-weight: normal;
     height: 172px;
@@ -364,14 +362,12 @@ DOTAHeroInspect {
 
 #HeroInfo {
     flow-children: down;
-
     height: 100%;
     width: 100%;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 3px;
     visibility: collapse;
-
     background-color: black;
 }
 
@@ -395,7 +391,6 @@ DOTAHeroInspect {
 
 .HeroStatsSection {
     flow-children: down;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
 }
@@ -416,7 +411,6 @@ DOTAHeroInspect {
     margin-right: 4px;
     margin-left: 4px;
     vertical-align: center;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -425,6 +419,7 @@ DOTAHeroInspect {
 #ProjectileSpeedRow {
     visibility: collapse;
 }
+
 .RangedAttack #ProjectileSpeedRow {
     visibility: visible;
 }
@@ -483,6 +478,7 @@ DOTAHeroInspect {
         to(#175d17)
     );
 }
+
 #HealthRow .ResourceRegen {
     color: #3ed038;
 }
@@ -490,6 +486,7 @@ DOTAHeroInspect {
 #ManaRow {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#6a90ba), color-stop(0.4, #144b91), to(#2e5187));
 }
+
 #ManaRow .ResourceRegen {
     color: #83c2fe;
 }
@@ -500,7 +497,6 @@ DOTAHeroInspect {
 
 .AttributeContainer {
     flow-children: down;
-
     padding-left: 5px;
 }
 
@@ -533,7 +529,6 @@ DOTAHeroInspect {
     height: fill-parent-flow(1);
     padding-left: 10px;
     padding-right: 10px;
-
     background-color: black;
     padding-top: 5px;
 }
@@ -596,15 +591,14 @@ DOTAHeroInspect {
     flow-children: down;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 4px 0px 4px;
-
     transition-property: transform, opacity;
     transition-duration: 0.3s;
     transition-delay: 0.1s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
-
     opacity: 0;
     transform: translateY(12px);
 }
+
 .InspectingHero .HeroFacetOuter {
     opacity: 1;
     transform: none;
@@ -621,6 +615,7 @@ DOTAHeroInspect {
     horizontal-align: center;
     vertical-align: bottom;
 }
+
 .HeroFacetOuter #HeroFacetContainer DOTAFacetIcon {
     margin: 3px;
     ui-scale: 108%;

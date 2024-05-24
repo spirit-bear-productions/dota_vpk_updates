@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPlusWeeklyChallenge {
     flow-children: down;
     background-image: url("s2r://panorama/images/textures/miniprofile_rock_psd.vtex");
@@ -13,16 +15,13 @@ DOTAPlusWeeklyChallenge {
     flow-children: right;
     transition-property: brightness;
     transition-duration: 0.2s;
-
     padding: 9px 15px 9px 15px;
-
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 100% 256px;
     background-color: #00000090;
     height: 70px;
     width: 100%;
-
     box-shadow: 0px 0px 5px 3 #000000;
 }
 
@@ -52,7 +51,6 @@ DOTAPlusMenu #MainContents:active {
     border-radius: 50%;
     border: 1px solid dotaPlusGold&44;
     margin-left: 6px;
-
     background-color: dotaPlusGold&02;
     box-shadow: fill dotaPlusGold&01 0px 0px 8px 0px;
 }
@@ -67,7 +65,6 @@ DOTAPlusMenu #MainContents:active {
 #PlusChallengeTimeRemaining {
     letter-spacing: 2px;
     text-transform: uppercase;
-
     font-size: 12px;
     color: #777;
     vertical-align: bottom;
@@ -92,7 +89,6 @@ DOTAPlusMenu #MainContents:active {
     letter-spacing: 1px;
     font-weight: semi-bold;
     margin: 4px 0px 3px 0px;
-
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -111,7 +107,6 @@ DOTAPlusMenu #MainContents:active {
 
 #PlusChallengeLeft {
     vertical-align: top;
-
     height: 100%;
 }
 
@@ -178,10 +173,8 @@ DOTAPlusMenu #MainContents:active {
     background-image: url("s2r://panorama/images/dota_plus/weekly_reward_button_psd.vtex");
     background-size: 100%;
     border: 0px solid #ffffff;
-
     transition-property: brightness;
     transition-duration: 0.2s;
-
     visibility: collapse;
 }
 
@@ -204,7 +197,6 @@ DOTAPlusMenu #MainContents:active {
     vertical-align: center;
     horizontal-align: center;
     background-color: gradient(linear, 0% 0%, 100% 100%, from(#ffffff), to(#ffffff00));
-
     animation-name: Gleam;
     animation-duration: 7s;
     animation-iteration-count: infinite;
@@ -224,6 +216,7 @@ DOTAPlusMenu #MainContents:active {
             to(#dcd08600)
         );
     }
+
     1% {
         background-color: gradient(
             linear,
@@ -236,6 +229,7 @@ DOTAPlusMenu #MainContents:active {
             to(#dcd08600)
         );
     }
+
     2% {
         background-color: gradient(
             linear,
@@ -248,6 +242,7 @@ DOTAPlusMenu #MainContents:active {
             to(#dcd08600)
         );
     }
+
     4% {
         background-color: gradient(
             linear,
@@ -260,6 +255,7 @@ DOTAPlusMenu #MainContents:active {
             to(#dcd08600)
         );
     }
+
     6% {
         background-color: gradient(
             linear,
@@ -272,6 +268,7 @@ DOTAPlusMenu #MainContents:active {
             to(#dcd08600)
         );
     }
+
     7% {
         background-color: gradient(
             linear,
@@ -284,6 +281,7 @@ DOTAPlusMenu #MainContents:active {
             to(#dcd08600)
         );
     }
+
     100% {
         background-color: gradient(
             linear,
@@ -307,7 +305,6 @@ DOTAPlusMenu #MainContents:active {
     font-weight: normal;
     height: 40px;
     text-overflow: shrink;
-
     text-align: center;
     color: dotaPlusGold;
     color: #dcd08677;

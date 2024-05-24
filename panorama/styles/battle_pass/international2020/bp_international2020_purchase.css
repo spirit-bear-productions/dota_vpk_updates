@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPInternational2020PurchasePage {
     background-color: #000000;
 }
@@ -25,10 +27,8 @@ DOTABPInternational2020PurchasePage {
     background-image: url("s2r://panorama/images/compendium/international2020/purchase_bg_psd.vtex");
     background-size: auto 100%;
     background-position: center;
-
     width: 100%;
     height: 100%;
-
     width: 1800px;
     horizontal-align: center;
 }
@@ -43,11 +43,9 @@ DOTABPInternational2020PurchasePage {
 
 #PurchaseHeader {
     horizontal-align: center;
-
     width: 100%;
     height: 140px;
     margin: 0px;
-
     flow-children: none;
 }
 
@@ -79,7 +77,6 @@ DOTABPInternational2020PurchasePage {
 
 #BattlePassGiftingTitle {
     font-size: 60px;
-
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #ffffff;
@@ -137,6 +134,7 @@ DOTABPInternational2020PurchasePage {
 .PurchaseAsGift #DefaultHeaderText {
     visibility: collapse;
 }
+
 .PurchaseAsGift #GiftHeaderText {
     visibility: visible;
 }
@@ -183,7 +181,6 @@ DOTABPInternational2020PurchasePage {
     width: fill-parent-flow(1);
     height: 300px;
     flow-children: down;
-
     padding: 10px 20px 10px 20px;
 }
 
@@ -290,7 +287,6 @@ DOTABPInternational2020PurchasePage {
 .Tier1-btn {
     background-color: #383d51;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#5a6278), to(#3a4358));
-
     box-shadow: 0px 0px 15px 8 #000000;
     transition-property: background-color;
     transition-duration: 0.1s;
@@ -325,7 +321,6 @@ DOTABPInternational2020PurchasePage {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#69a1cb), to(#576ad7));
     transition-property: background-color;
     transition-duration: 0.1s;
-
     box-shadow: 0px 0px 15px 8 #000000;
 }
 
@@ -357,10 +352,8 @@ DOTABPInternational2020PurchasePage {
     background-color: #925ae5;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(accentColor), to(accentColorBright));
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#b28948), to(accentColor));
-
     transition-property: background-color;
     transition-duration: 0.1s;
-
     box-shadow: 0px 0px 15px 8 #000000;
 }
 
@@ -393,7 +386,6 @@ DOTABPInternational2020PurchasePage {
 
 #GiftingCounter {
     width: 1000px;
-
     margin-top: 10px;
     flow-children: down;
     text-align: center;
@@ -521,7 +513,6 @@ DOTABPInternational2020PurchasePage {
         to(#181f21)
     );
     border-top: 1px solid #ffffff06;
-
     width: 100%;
     height: 100%;
 }
@@ -594,7 +585,6 @@ DOTABPInternational2020PurchasePage {
 
 .PurchaseOptionTitle {
     horizontal-align: center;
-
     text-align: center;
     font-size: 32px;
     letter-spacing: 2px;
@@ -642,20 +632,16 @@ DOTABPInternational2020PurchasePage {
 .PurchaseBasicFeaturesTop {
     flow-children: right;
     horizontal-align: center;
-
     height: fit-children;
     width: fit-children;
-
     margin-top: 4px;
 }
 
 .PurchaseBasicFeaturesBot {
     flow-children: right;
     horizontal-align: center;
-
     height: fit-children;
     width: fit-children;
-
     margin-top: 6px;
     margin-bottom: 10px;
 }
@@ -678,16 +664,12 @@ DOTABPInternational2020PurchasePage {
 .PurchaseFeatureImage {
     width: 120px;
     height: 80px;
-
     border-top: 1px solid #ffffff06;
     border-left: 1px solid #ffffff05;
     box-shadow: #00000088 0px 0px 6px 0px;
-
     horizontal-align: center;
-
     background-repeat: no-repeat;
     background-size: contain;
-
     margin-bottom: 5px;
 }
 
@@ -768,7 +750,6 @@ DOTABPInternational2020PurchasePage {
 .PurchaseBundleRewards {
     flow-children: down;
     width: 100%;
-
     margin-bottom: 20px;
 }
 
@@ -828,12 +809,10 @@ DOTABPInternational2020PurchasePage {
 #LevelCircle {
     width: 40px;
     height: 40px;
-
     vertical-align: top;
     margin-top: 14px;
     margin-left: -1px;
     horizontal-align: center;
-
     wash-color: white;
 }
 
@@ -846,7 +825,6 @@ DOTABPInternational2020PurchasePage {
 
 #BasicLevelBadge {
     background-color: #2d3b3f;
-
     border: 1px solid #ffffff09;
 }
 
@@ -867,23 +845,17 @@ DOTABPInternational2020PurchasePage {
 #CourierPreview {
     width: 500px;
     height: 300px;
-
     horizontal-align: left;
     vertical-align: top;
-
     background-color: none;
-
     visibility: collapse;
 }
 
 #Hermes {
     width: 900px;
     height: 900px;
-
     horizontal-align: center;
-
     background-color: none;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_png.vtex") 1;
     transform: translateY(284px) translateX(-660px) scaleX(-1);
 }
@@ -903,7 +875,6 @@ DOTABPInternational2020PurchasePage {
 #ButtonFooterContainer {
     horizontal-align: center;
     vertical-align: center;
-
     flow-children: right;
 }
 
@@ -934,6 +905,7 @@ DOTABPInternational2020PurchasePage {
 .Rewards {
     flow-children: right;
 }
+
 #Reward1 {
     flow-children: down;
     margin-left: 110px;
@@ -968,6 +940,7 @@ DOTABPInternational2020PurchasePage {
     font-weight: semi-bold;
     text-overflow: shrink;
 }
+
 .DownArrow {
     horizontal-align: center;
     height: 5px;
@@ -981,6 +954,7 @@ DOTABPInternational2020PurchasePage {
 #Bar {
     flow-children: right;
 }
+
 .Notch {
     width: 100px;
     height: 30px;
@@ -1026,7 +1000,6 @@ DOTABPInternational2020PurchasePage {
     padding: 0px;
     horizontal-align: center;
     flow-children: right;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
     horizontal-align: center;
@@ -1038,7 +1011,6 @@ DOTABPInternational2020PurchasePage {
     background-size: cover;
     width: 22px;
     height: 22px;
-
     horizontal-align: center;
 }
 

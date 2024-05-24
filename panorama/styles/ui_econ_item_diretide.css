@@ -1,9 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define rarity-color-1: #808080;
 @define rarity-color-2: #ff40ff;
 @define rarity-color-3: #00ff00;
 @define rarity-color-4: #0000ff;
 @define rarity-color-5: #ffff00;
-
 DOTAEconItemDiretide {
     width: height-percentage(88.7%);
     height: 263px;
@@ -78,13 +79,11 @@ DOTAEconItemDiretide #EconItemIcon {
 #BackgroundFX {
     width: 100%;
     height: 100%;
-
     visibility: collapse;
     opacity: 0;
     transition-property: opacity;
     transition-duration: 1s;
     saturation: 0;
-
     pre-transform-scale2d: 1.3;
 }
 
@@ -128,7 +127,6 @@ DOTAEconItemDiretide #EconItemIcon {
     background-size: 81% 83%;
     background-position: center;
     background-repeat: no-repeat no-repeat;
-
     img-shadow: 0px 0px 12px 13 black;
 }
 
@@ -141,14 +139,11 @@ DOTAEconItemDiretide #EconItemIcon {
     height: 100%;
     border-radius: 12px;
     background-color: gradient(linear, 0% 0%, 100% 100%, from(#ffffff), to(#ffffff00));
-
     animation-name: IconGleam;
     animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-direction: normal;
-
     opacity-mask: url("s2r://panorama/images/econ/diretide/hex_icon_backer_png.vtex");
-
     visibility: collapse;
 }
 
@@ -169,6 +164,7 @@ DOTAEconItemDiretide #EconItemIcon {
             to(#ffffff00)
         );
     }
+
     2% {
         background-color: gradient(
             linear,
@@ -181,6 +177,7 @@ DOTAEconItemDiretide #EconItemIcon {
             to(#ffffff00)
         );
     }
+
     5% {
         background-color: gradient(
             linear,
@@ -193,6 +190,7 @@ DOTAEconItemDiretide #EconItemIcon {
             to(#ffffff00)
         );
     }
+
     8% {
         background-color: gradient(
             linear,
@@ -205,6 +203,7 @@ DOTAEconItemDiretide #EconItemIcon {
             to(#ffffff00)
         );
     }
+
     9% {
         background-color: gradient(
             linear,
@@ -217,6 +216,7 @@ DOTAEconItemDiretide #EconItemIcon {
             to(#ffffff00)
         );
     }
+
     11% {
         background-color: gradient(
             linear,
@@ -229,6 +229,7 @@ DOTAEconItemDiretide #EconItemIcon {
             to(#ffffff00)
         );
     }
+
     100% {
         background-color: gradient(
             linear,
@@ -246,7 +247,6 @@ DOTAEconItemDiretide #EconItemIcon {
 .HexBorder {
     width: 100%;
     height: 100%;
-
     background-image: url("s2r://panorama/images/econ/diretide/hex_icon_backer_border_psd.vtex");
     background-size: 100% 100%;
     background-position: center;
@@ -294,7 +294,6 @@ DOTAEconItemDiretide.HasRarity:not(.HideRarityHex) .RarityHex {
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat no-repeat;
-
     img-shadow: 0px 0px 8px black;
 }
 
@@ -346,15 +345,12 @@ DOTAEconItemDiretide.HasRarity:not(.HideRarityHex) .RarityHex {
 .RarityHexText {
     horizontal-align: center;
     text-align: center;
-
     font-size: 43px;
     font-family: defaultFont;
     font-weight: bold;
     text-shadow: 0px 1px 8px 4 #000000;
-
     margin-top: 11px;
     padding-right: 3px;
-
     color: red;
 }
 

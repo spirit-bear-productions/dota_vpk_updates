@@ -1,5 +1,6 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 .CustomEvent_Underhollow #RadiantScore,
 .CustomEvent_Underhollow #DireScore,
 .CustomEvent_Underhollow .OverviewHeroStats,
@@ -44,31 +45,37 @@ DOTAPostGame.CustomEvent_Underhollow {
 .Winner6 #WinnerHeader {
     text-shadow: 0px 0px 1px 1.5 #f3c909;
 }
+
 .Winner7 #WinnerHeader {
     text-shadow: 0px 0px 1px 1.5 #ff6c00;
 }
+
 .Winner8 #WinnerHeader {
     text-shadow: 0px 0px 1px 1.5 #3455ff;
 }
+
 .Winner9 #WinnerHeader {
     text-shadow: 0px 0px 1px 1.5 #65d413;
 }
+
 .Winner10 #WinnerHeader {
     text-shadow: 0px 0px 1px 1.5 #815336;
 }
+
 .Winner11 #WinnerHeader {
     text-shadow: 0px 0px 1px 1.5 #1bc0d8;
 }
+
 .Winner12 #WinnerHeader {
     text-shadow: 0px 0px 1px 1.5 #c7e40d;
 }
+
 .Winner13 #WinnerHeader {
     text-shadow: 0px 0px 1px 1.5 #8c2af4;
 }
 
 .CustomEvent_Underhollow #WinnerHeroesContainer {
     horizontal-align: center;
-
     width: 1000px;
     height: 410px;
     margin-top: 40px;
@@ -128,7 +135,6 @@ DOTAPostGame.CustomEvent_Underhollow {
 
 #UnderhollowContainer {
     visibility: collapse;
-
     flow-children: none;
 }
 
@@ -136,7 +142,6 @@ DOTAPostGame.CustomEvent_Underhollow {
     horizontal-align: center;
     height: 800px;
     width: 100%;
-
     visibility: visible;
 }
 
@@ -218,10 +223,8 @@ DOTAPostGame.CustomEvent_Underhollow {
 .CustomEvent_Underhollow #TeamsContainer {
     width: 750px;
     height: 300px;
-
     vertical-align: bottom;
     horizontal-align: left;
-
     margin-left: 200px;
 }
 
@@ -276,7 +279,6 @@ DOTAPostGame.CustomEvent_Underhollow {
 .CustomEvent_Underhollow .TeamColumn {
     width: 50%;
     height: 90%;
-
     vertical-align: bottom;
     flow-children: down;
 }
@@ -286,7 +288,6 @@ DOTAPostGame.CustomEvent_Underhollow {
     height: 60px;
     background-color: black;
     margin: 1px;
-
     flow-children: right;
 }
 
@@ -312,7 +313,6 @@ DOTAPostGame.CustomEvent_Underhollow {
 .CustomEvent_Underhollow .HeroIconsContainer {
     vertical-align: center;
     flow-children: right;
-
     margin-left: -16px;
 }
 
@@ -387,7 +387,6 @@ DOTAPostGame.CustomEvent_Underhollow {
     letter-spacing: 2px;
     font-size: 16px;
     text-transform: uppercase;
-
     margin-right: 4px;
 }
 
@@ -404,7 +403,6 @@ DOTAPostGame.CustomEvent_Underhollow {
 .CustomEvent_Underhollow #PointMultiplierSection Label,
 .CustomEvent_Underhollow #PointMultiplierSection Label {
     text-align: center;
-
     letter-spacing: 2px;
     font-size: 16px;
     text-transform: uppercase;
@@ -446,7 +444,6 @@ DOTAPostGame.CustomEvent_Underhollow {
 .CustomEvent_Underhollow .RewardLineIcon {
     height: 80px;
     width: 80px;
-
     horizontal-align: center;
 }
 
@@ -457,21 +454,18 @@ DOTAPostGame.CustomEvent_Underhollow {
 
 .CustomEvent_Underhollow #SmallCheeseIcon {
     background-image: url("s2r://panorama/images/compendium/international2018/underhollow_small_cheese_psd.vtex");
-
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .CustomEvent_Underhollow #BigCheeseIcon {
     background-image: url("s2r://panorama/images/compendium/international2018/underhollow_big_cheese_psd.vtex");
-
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .CustomEvent_Underhollow #EliminationsIcon {
     background-image: url("s2r://panorama/images/compendium/international2018/underhollow_tombstone_psd.vtex");
-
     background-size: 90%;
     background-repeat: no-repeat;
     margin-left: 10px;
@@ -479,7 +473,6 @@ DOTAPostGame.CustomEvent_Underhollow {
 
 .CustomEvent_Underhollow #WinIcon {
     background-image: url("s2r://panorama/images/compendium/international2018/underhollow_win_psd.vtex");
-
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -514,7 +507,6 @@ DOTAPostGame.CustomEvent_Underhollow {
 
 .CustomEvent_Underhollow #PointsBeforeCap {
     width: 175px;
-
     horizontal-align: right;
     vertical-align: center;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupReadyCheck.PopupPanel {
     flow-children: down;
     padding: 0px;
@@ -31,11 +33,9 @@ PopupReadyCheck.PopupPanel {
 #UnableToReadyUp {
     horizontal-align: center;
     flow-children: down;
-
     margin-top: 12px;
     padding: 16px;
     margin-bottom: 4px;
-
     visibility: collapse;
 }
 
@@ -59,7 +59,6 @@ PopupReadyCheck.PopupPanel {
 #UnableToReadyUp TextButton {
     width: 300px;
     margin: 0px 8px;
-
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -68,10 +67,8 @@ PopupReadyCheck.PopupPanel {
 #UnableToReadyUp Label {
     font-size: 28px;
     width: 500px;
-
     horizontal-align: center;
     text-align: center;
-
     margin-bottom: 30px;
 }
 
@@ -98,7 +95,6 @@ PopupReadyCheck.PopupPanel {
 .ConfirmButton {
     background-color: gradient(radial, 50% 30%, 0% 10%, 65% 75%, from(#45715b), to(#1a423e55));
     box-shadow: fill #48d07d00 1px 1px 8px 1px;
-
     border-top: 2px solid #48d07d22;
     border-right: 2px solid #00000088;
     border-left: 2px solid #48d07d11;
@@ -123,7 +119,6 @@ PopupReadyCheck.PopupPanel {
 .CancelButton {
     background-color: gradient(radial, 50% 30%, 0% 10%, 65% 75%, from(#6a3735), to(#40161855));
     box-shadow: fill #6a373500 1px 1px 8px 1px;
-
     border-top: 2px solid #c7412f33;
     border-right: 2px solid #00000088;
     border-left: 2px solid #c7412f11;

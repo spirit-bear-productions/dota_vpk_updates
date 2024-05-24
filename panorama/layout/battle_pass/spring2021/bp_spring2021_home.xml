@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 5.0.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -52,7 +52,7 @@
 				</Panel>
 				<Panel id="FriendsEntry">
 					<Panel class="SlantPanelEntry" />
-					<DOTALeaderboard id="FriendsLeaderboard" eventid="EVENT_ID_SPRING_2021" showlevel="true" pointsheader="#DOTA_SeasonPass_Friends_Leaderboard_BattleLevel" />
+					<DOTAEventLeaderboard id="FriendsLeaderboard" eventid="EVENT_ID_SPRING_2021" showlevel="true" pointsheader="#DOTA_SeasonPass_Friends_Leaderboard_BattleLevel" />
 				</Panel>
 			</Panel>
 		</Panel>

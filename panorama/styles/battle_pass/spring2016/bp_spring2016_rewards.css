@@ -1,7 +1,8 @@
-@define rareTextColor:  #9ede4c;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define rareTextColor: #9ede4c;
 @define veryRareTextColor: #fd9d55;
 @define extremelyRareTextColor: #fddb87;
-
 #RewardsTab {
     width: 100%;
     height: 100%;
@@ -37,7 +38,6 @@
     height: 100%;
     border: BRD;
     background-color: black;
-
     border-width: 2px;
     margin-top: -20px;
     z-index: 0;
@@ -61,7 +61,6 @@
     background-color: black;
     padding-left: 24px;
     padding-right: 24px;
-
     z-index: 1;
     border-right: BRD;
     border-left: BRD;
@@ -86,7 +85,6 @@
     contrast: 0.99;
     border-radius: 4px;
     border: 1px solid transparent;
-
     height: 100%;
     width: 156px;
     margin: 24px;
@@ -120,9 +118,11 @@
 .QuestlineReward {
     margin: 0px 4px 1px 4px;
 }
+
 #Questline1 {
     margin-left: 10px;
 }
+
 #Questline3 {
     margin-right: 10px;
 }
@@ -130,15 +130,19 @@
 #Questline1 .CampaignRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/campaignrewards/wizard_psd.vtex");
 }
+
 #Questline2 .CampaignRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/campaignrewards/warrior_psd.vtex");
 }
+
 #Questline3 .CampaignRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/campaignrewards/rogue_psd.vtex");
 }
+
 #Questline4 .CampaignRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/campaignrewards/party_psd.vtex");
 }
+
 #Questline5 .CampaignRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/campaignrewards/legion_psd.vtex");
 }
@@ -152,7 +156,6 @@
 
 #Questline4 {
     height: 100%;
-
     margin-left: 0px;
 }
 
@@ -202,7 +205,6 @@
     saturation: 0.9;
     brightness: 0.7;
     wash-color: #ddbbaa;
-
     transition-property: brightness, saturation, wash-color;
     transition-duration: 0.15s;
 }
@@ -217,7 +219,6 @@
 #IntroScene {
     width: 100%;
     height: 100%;
-
     opacity: 0;
     transition-duration: 1s;
     transition-property: opacity;
@@ -263,7 +264,6 @@ HorizontalScrollBar:hover .ScrollThumb {
 .PrestigeRewardSquare {
     width: 172px;
     height: 172px;
-
     margin-left: 8px;
     margin-right: 8px;
 }
@@ -326,7 +326,6 @@ HorizontalScrollBar:hover .ScrollThumb {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     tooltip-position: bottom;
-
     transition-property: pre-transform-scale2d, wash-color, saturation;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -354,7 +353,6 @@ HorizontalScrollBar:hover .ScrollThumb {
     pre-transform-scale2d: 0.8;
     border-radius: 0.1px;
     border: 3px solid black;
-
     box-shadow: #00000088 fill -6px -3px 12px 12px;
 }
 
@@ -370,52 +368,65 @@ HorizontalScrollBar:hover .ScrollThumb {
 
 #Taunts #Venomancer {
     transform: rotateX(30deg) rotateY(30deg) rotateZ(-10deg) translateY(40px) translateX(-10px) translateZ(35px);
-
     background-image: url("s2r://panorama/images/econ/taunts/dota_icon_taunt_venomancer_little_friend_png.vtex");
 }
 
 #IP_Treasure1 .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/treasure1_icon_psd.vtex");
 }
+
 #IP_Treasure2 .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/treasure2_icon_psd.vtex");
 }
+
 #IP_Treasure3 .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/treasure3_icon_psd.vtex");
 }
+
 #IP_Onibi .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/initialrewards/onibi_psd.vtex");
 }
+
 #IP_Ward .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/initialrewards/smeevilward_psd.vtex");
 }
+
 #IP_Weather .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/initialrewards/weather_psd.vtex");
 }
+
 #IP_Taunt .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/initialrewards/taunt1_psd.vtex");
 }
+
 #IP_HUD .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/initialrewards/hud_psd.vtex");
 }
+
 #IP_CursorPack .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/initialrewards/cursorpack_psd.vtex");
 }
+
 #IP_Emoticons .InitialRewardImage {
     background-image: none;
 }
+
 #IP_Terrain .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/initialrewards/terrain_psd.vtex");
 }
+
 #IP_Effigy .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/initialrewards/effigy_psd.vtex");
 }
+
 #IP_LoadScreens .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/initialrewards/loadscreens_psd.vtex");
 }
+
 #IP_MusicPack .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/initialrewards/musicpack_psd.vtex");
 }
+
 #IP_AnnouncerPack .InitialRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/initialrewards/announcer_psd.vtex");
 }
@@ -423,9 +434,11 @@ HorizontalScrollBar:hover .ScrollThumb {
 #Fountain .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/fountain_psd.vtex");
 }
+
 #TeleportFX .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/teleport_psd.vtex");
 }
+
 #Emoticons .PrestigeRewardImage {
     background-image: none;
 }
@@ -433,21 +446,27 @@ HorizontalScrollBar:hover .ScrollThumb {
 #EffigyBlock .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/effigyblock_psd.vtex");
 }
+
 #Taunts .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/taunts_psd.vtex");
 }
+
 #MultiKillBanner .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/multikill_psd.vtex");
 }
+
 #BlinkFX .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/blink_psd.vtex");
 }
+
 #River .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/ward_psd.vtex");
 }
+
 #EulFX .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/eul_fx_psd.vtex");
 }
+
 #ForceStaffFX .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/forcestaff_psd.vtex");
 }
@@ -455,39 +474,51 @@ HorizontalScrollBar:hover .ScrollThumb {
 #LoadScreens .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/loadscreens_psd.vtex");
 }
+
 #EvolvingWard .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/ward_psd.vtex");
 }
+
 #Effigy .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/effigyblock_psd.vtex");
 }
+
 #River .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/river_psd.vtex");
 }
+
 #WageringBonus .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/wager_increase_psd.vtex");
 }
+
 #Colleseum .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/colleseum_psd.vtex");
 }
+
 #LevelUpFX .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/levelup_fx_psd.vtex");
 }
+
 #BattleCupTickets .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/battlecup_psd.vtex");
 }
+
 #BottleFX .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/bottle_fx_psd.vtex");
 }
+
 #MekFX .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/mekansm_fx_psd.vtex");
 }
+
 #MaelstromFX .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/maelstrom_fx_psd.vtex");
 }
+
 #RadianceFX .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/radiance_fx_psd.vtex");
 }
+
 #PhaseBootsFX .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/spring2016/prestigerewards/phase_boots_fx_psd.vtex");
 }
@@ -514,6 +545,7 @@ HorizontalScrollBar:hover .ScrollThumb {
 #Spring:hover {
     pre-transform-scale2d: 0.7;
 }
+
 #Ash:hover {
     pre-transform-scale2d: 0.9;
 }
@@ -551,7 +583,6 @@ HorizontalScrollBar:hover .ScrollThumb {
     horizontal-align: center;
     margin-top: 0px;
     pre-transform-scale2d: 1;
-
     transition-property: saturation, brightness, wash-color, pre-transform-scale2d;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -595,12 +626,10 @@ HorizontalScrollBar:hover .ScrollThumb {
 #LegionCommander {
     width: 100%;
     height: 100%;
-
     saturation: 0;
     brightness: 3;
     wash-color: #371a17ee;
     opacity: 0;
-
     transition-property: saturation, brightness, wash-color, pre-transform-scale2d, opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -637,7 +666,6 @@ HorizontalScrollBar:hover .ScrollThumb {
     brightness: 3;
     wash-color: #371a17ee;
     pre-transform-scale2d: 1;
-
     transition-property: saturation, wash-color, brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -693,6 +721,7 @@ HorizontalScrollBar:hover .ScrollThumb {
     saturation: 1;
     wash-color: #00000000;
 }
+
 .Courier.LevelQualifies:hover {
     opacity: 1;
     saturation: 1;
@@ -703,12 +732,15 @@ HorizontalScrollBar:hover .ScrollThumb {
     opacity: 1;
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/courier1_psd.vtex");
 }
+
 #Courier2.PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/courier2_psd.vtex");
 }
+
 #Courier3.PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/courier3_psd.vtex");
 }
+
 #Courier4.PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/courier4_psd.vtex");
 }
@@ -827,11 +859,9 @@ HorizontalScrollBar:hover .ScrollThumb {
 
 .TreasureIcon {
     background-size: cover;
-
     width: 128px;
     height: 128px;
     pre-transform-scale2d: 1;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
@@ -844,12 +874,15 @@ HorizontalScrollBar:hover .ScrollThumb {
 #Treasure1Icon {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/treasure1_icon_psd.vtex");
 }
+
 #Treasure2Icon {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/treasure2_icon_psd.vtex");
 }
+
 #Treasure3Icon {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/treasure3_icon_psd.vtex");
 }
+
 #TreasureCacheIcon {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/treasurecache_icon_psd.vtex");
 }
@@ -860,13 +893,11 @@ HorizontalScrollBar:hover .ScrollThumb {
     background-repeat: no-repeat;
     width: 108px;
     height: 108px;
-
     margin-left: 6px;
     margin-right: 6px;
     tooltip-position: right;
     tooltip-body-position: 0% 50%;
     tooltip-arrow-position: 50%;
-
     saturation: 0.2;
     brightness: 0.045;
     border-radius: 14px;
@@ -949,7 +980,6 @@ HorizontalScrollBar:hover .ScrollThumb {
     height: 136px;
     pre-transform-scale2d: 1;
     horizontal-align: center;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
@@ -1011,27 +1041,35 @@ HorizontalScrollBar:hover .ScrollThumb {
 #c1t1 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c1t1_psd.vtex");
 }
+
 #c1t2 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c1t2_psd.vtex");
 }
+
 #c1t3 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c1t3_psd.vtex");
 }
+
 #c1t4 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c1t4_psd.vtex");
 }
+
 #c1t5 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c1t5_psd.vtex");
 }
+
 #c1t6 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c1t6_psd.vtex");
 }
+
 #c1t6g {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c1t6g_psd.vtex");
 }
+
 #c1r1 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c1r1_psd.vtex");
 }
+
 #c1ur1 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c1ur1_psd.vtex");
 }
@@ -1039,27 +1077,35 @@ HorizontalScrollBar:hover .ScrollThumb {
 #c2t1 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c2t1_psd.vtex");
 }
+
 #c2t2 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c2t2_psd.vtex");
 }
+
 #c2t3 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c2t3_psd.vtex");
 }
+
 #c2t4 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c2t4_psd.vtex");
 }
+
 #c2t5 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c2t5_psd.vtex");
 }
+
 #c2t6 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c2t6_psd.vtex");
 }
+
 #c2t6g {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c2t6g_psd.vtex");
 }
+
 #c2r1 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c2r1_psd.vtex");
 }
+
 #c2ur1 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c2ur1_psd.vtex");
 }
@@ -1067,27 +1113,35 @@ HorizontalScrollBar:hover .ScrollThumb {
 #c3t1 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c3t1_psd.vtex");
 }
+
 #c3t2 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c3t2_psd.vtex");
 }
+
 #c3t3 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c3t3_psd.vtex");
 }
+
 #c3t4 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c3t4_psd.vtex");
 }
+
 #c3t5 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c3t5_psd.vtex");
 }
+
 #c3t6 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c3t6_psd.vtex");
 }
+
 #c3t6g {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c3t6g_psd.vtex");
 }
+
 #c3r1 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c3r1_psd.vtex");
 }
+
 #c3ur1 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/c3ur1_psd.vtex");
 }
@@ -1095,39 +1149,51 @@ HorizontalScrollBar:hover .ScrollThumb {
 #tc1 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc1_psd.vtex");
 }
+
 #tc2 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc2_psd.vtex");
 }
+
 #tc3 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc3_psd.vtex");
 }
+
 #tc4 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc4_psd.vtex");
 }
+
 #tc5 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc5_psd.vtex");
 }
+
 #tc6 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc6_psd.vtex");
 }
+
 #tc7 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc7_psd.vtex");
 }
+
 #tc8 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc8_psd.vtex");
 }
+
 #tc9 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc9_psd.vtex");
 }
+
 #tc10 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc10_psd.vtex");
 }
+
 #tc11 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc11_psd.vtex");
 }
+
 #tc12 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc12_psd.vtex");
 }
+
 #tc13 {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tc13_psd.vtex");
 }
@@ -1135,9 +1201,11 @@ HorizontalScrollBar:hover .ScrollThumb {
 #tcr {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tcr_psd.vtex");
 }
+
 #tcvr {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tcvr_psd.vtex");
 }
+
 #tcur {
     background-image: url("s2r://panorama/images/compendium/spring2016/treasure_images/tcur_psd.vtex");
 }
@@ -1152,7 +1220,6 @@ HorizontalScrollBar:hover .ScrollThumb {
     width: 100%;
     height: 100%;
     opacity: 0;
-
     transition-property: brightness;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -1167,7 +1234,6 @@ HorizontalScrollBar:hover .ScrollThumb {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
     width: 32px;
     height: 32px;
     vertical-align: bottom;
@@ -1176,7 +1242,6 @@ HorizontalScrollBar:hover .ScrollThumb {
     box-shadow: #000000ee fill -6px -6px 12px 12px;
     border-radius: 50%;
     opacity: 0;
-
     transition-property: opacity, pre-transform-scale2d;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -1260,7 +1325,6 @@ HorizontalScrollBar:hover .ScrollThumb {
     color: accentColor;
     margin-left: 12px;
     margin-top: 4px;
-
     transition-property: color;
     transition-duration: 0.12s;
     transition-timing-function: ease-in-out;
@@ -1269,6 +1333,7 @@ HorizontalScrollBar:hover .ScrollThumb {
 .Unreleased .TreasureName {
     color: #333333;
 }
+
 .TreasureNameLine {
     width: fill-parent-flow(1);
     height: 1px;
@@ -1441,7 +1506,6 @@ DOTATrophyOwned {
     horizontal-align: center;
     vertical-align: bottom;
     color: accentColor;
-
     margin-bottom: 48px;
     font-size: 18px;
     font-weight: thin;
@@ -1469,7 +1533,6 @@ DOTATrophyOwned {
     width: 30px;
     height: 30px;
     background-image: url("s2r://panorama/images/compendium/infusableicon_psd.vtex");
-
     background-color: #000000dd;
     border-radius: 3px;
     background-size: contain;
@@ -1492,13 +1555,11 @@ DOTATrophyOwned {
     padding-bottom: 4px;
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#4b2460dd), to(#69318d));
     font-size: 14px;
-
     width: 100%;
     opacity: 0;
     margin-top: 3px;
     margin-left: 3px;
     margin-right: 3px;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -1557,7 +1618,6 @@ DOTATrophyOwned {
     text-shadow: 0px 0px 4px 2 #000000;
     padding: 6px;
     background-color: gradient(linear, 0% 0%, 0% 50%, from(#00000000), to(#000000dd));
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -1570,7 +1630,6 @@ DOTATrophyOwned {
     text-shadow: 0px 0px 4px 2 #000000;
     padding: 6px;
     background-color: gradient(linear, 0% 0%, 0% 20%, from(#00000000), to(#000000dd));
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -1618,7 +1677,6 @@ DOTATrophyOwned {
     saturation: 0;
     wash-color: #371a17ee;
     flow-children: down;
-
     transition-property: pre-transform-scale2d, wash-color, saturation;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -1694,6 +1752,7 @@ DOTATrophyOwned {
     vertical-align: bottom;
     text-transform: uppercase;
 }
+
 #Courier .PrestigeRewardSquare {
     margin: 0px;
 }

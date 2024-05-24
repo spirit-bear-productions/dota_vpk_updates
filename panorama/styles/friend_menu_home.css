@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #HomeFriendsHeader {
     width: 336px;
     padding: 2px;
@@ -126,7 +128,6 @@ DOTAFriendMenu#FriendMenu {
     width: 22px;
     height: 22px;
     opacity: 0;
-
     transition-property: transform, wash-color, opacity;
     transition-duration: 0.2s;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .RightAlign {
     horizontal-align: right;
     flow-children: right;
@@ -341,14 +343,12 @@ RadioButton#ItemFilterName:selected .RadioBox {
     vertical-align: center;
     padding: 5px 30px 2px 30px;
     min-width: 208px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#88888899), to(#99999922));
     transition-property: background-color;
     transition-duration: 0.1s;
     wash-color: #cccccc;
     visibility: collapse;
     height: 39px;
-
     transition-property: background-color;
     transition-duration: 0.2s;
     animation-name: pulseglow;
@@ -375,7 +375,6 @@ RadioButton#ItemFilterName:selected .RadioBox {
     font-weight: normal;
     text-transform: uppercase;
     color: white;
-
     vertical-align: middle;
     horizontal-align: center;
 }
@@ -433,10 +432,8 @@ RadioButton#ItemFilterName:selected .RadioBox {
     padding: 5px 10px 3px 10px;
     width: fit-children;
     height: 39px;
-
     transition-property: background-color;
     transition-duration: 0.1s;
-
     visibility: visible;
 }
 
@@ -528,7 +525,6 @@ RadioButton#ItemFilterName:selected .RadioBox {
 
 #EquippedItemSetGroup.Owned #CustomizeButton:hover {
     visibility: visible;
-
     animation-name: pulseglowhover;
     animation-duration: 2.5s;
     animation-timing-function: linear;
@@ -561,7 +557,6 @@ RadioButton#ItemFilterName:selected .RadioBox {
     background-repeat: no-repeat;
     background-color: #333333;
     background-position: 50% 50%;
-
     margin-right: 10px;
     margin-top: 3px;
     transition-property: background-color;

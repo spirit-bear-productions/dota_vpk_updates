@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACombatEvents {
     transform: scaleY(-1);
     height: 385px;
@@ -17,7 +19,6 @@ DOTACombatEvents.RevealCollapsed {
 #ToastManager {
     flow-children: down;
     overflow: noclip noclip;
-
     transform: scaleY(-1);
     width: 100%;
 }
@@ -35,11 +36,9 @@ VerticalScrollBar {
 }
 
 @define toastExitDuration: 0.2s;
-
 #ToastManager > .ToastPanel {
     opacity: 0;
     transform: translateX(-40px);
-
     transition-property: opacity, transform;
     transition-duration: toastExitDuration;
     animation-name: CombatEvent;

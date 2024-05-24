@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAProfileTeammateStatsPage {
     width: 100%;
     height: 100%;
@@ -13,7 +15,6 @@ DOTAProfileTeammateStatsPage {
     width: 1392px;
     height: 100%;
     horizontal-align: center;
-
     padding: 10px 0px 10px 0px;
 }
 
@@ -179,7 +180,6 @@ DOTAProfileTeammateStatsPage {
     width: 240px;
     vertical-align: middle;
     height: 16px;
-
     border-radius: 0px;
     border-color: #3b5d6b33;
     margin-bottom: 2px;

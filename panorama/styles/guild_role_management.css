@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAGuildRoleManagement {
     flow-children: down;
 }
@@ -48,10 +50,10 @@ DOTAGuildRoleManagement .SectionHeader {
     flow-children: right;
     transition-property: position;
     transition-duration: 0.2s;
-
     padding-left: 14px;
     padding-right: 12px;
 }
+
 .RoleRow .NameColumn {
     flow-children: right;
 }
@@ -132,10 +134,8 @@ DOTAGuildRoleManagement .SectionHeader {
 #AddRoleButton {
     width: 20px;
     height: 20px;
-
     margin-right: 13px;
     margin-left: 1px;
-
     background-image: url("s2r://panorama/images/control_icons/plus_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -157,9 +157,7 @@ DOTAGuildRoleManagement .SectionHeader {
 #EditRoleButton {
     width: 20px;
     height: 20px;
-
     margin-right: 6px;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_up_down_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -181,28 +179,22 @@ DOTAGuildRoleManagement .SectionHeader {
 #RoleOrderConfirmButton {
     width: 18px;
     height: 18px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("s2r://panorama/images/control_icons/check_thin_psd.vtex");
-
     wash-color: winnerGreen;
-
     visibility: collapse;
 }
 
 #RoleOrderCancelButton {
     width: 20px;
     height: 20px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("s2r://panorama/images/control_icons/purgatory_png.vtex");
-
     wash-color: loserRed;
-
     visibility: collapse;
     margin-right: 13px;
 }
@@ -222,14 +214,11 @@ DOTAGuildRoleManagement .SectionContents {
     margin-left: 10px;
     wash-color: #bbb;
     vertical-align: center;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     transition-duration: 0.2s;
     transition-property: wash-color, brightness, opacity;
 }

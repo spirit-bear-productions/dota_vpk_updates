@@ -1,9 +1,10 @@
-@define mouseWheelScroll:  150px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define mouseWheelScroll: 150px;
 @define asyncDestroyDelay: 0.2s;
 @define scrollPaddingMin: 16px;
 @define scrollPaddingMax: 16px;
 @define cellMarginRight: -14px;
-
 @define rewardDefaultWidth: 198px;
 @define rewardImportantEconItemModelWidth: 250px;
 @define rewardImportant2EconItemModelWidth: 350px;
@@ -11,9 +12,7 @@
 @define rewardActionListWidth: 298px;
 @define rewardLabyrinthBlessing: 600px;
 @define rewardEllipsisWidth: 400px;
-
 @define rewardLineBottomMargin: 42px;
-
 Fall2021RewardList {
     overflow: clip;
 }
@@ -43,18 +42,15 @@ Fall2021RewardList {
 #ClaimButton {
     vertical-align: bottom;
     horizontal-align: center;
-
     background-color: gradient(linear, 50% 0%, 90% 100%, from(#6344ff), to(#907aff));
     border: 1px solid white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#a290ff), to(#6344ff));
-
     padding: 2px 14px;
     padding-left: 6px;
     border-radius: 4px;
     margin-right: 36px;
     margin-left: 2px;
     margin-bottom: 11px;
-
     transform: skew(-12deg);
     visibility: collapse;
     width: 100%;
@@ -70,10 +66,8 @@ Fall2021RewardList {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-
     font-family: radiance;
     text-shadow: 2px 2px 4px 3 #271a705d;
-
     transition-property: transform;
     transition-duration: 0.21s;
     transition-timing-function: ease-in-out;
@@ -366,7 +360,6 @@ Fall2021RewardList {
     height: 4px;
     width: 81%;
     width: 100%;
-
     vertical-align: bottom;
     margin: 0 32px 0 4px;
     overflow: clip;
@@ -375,15 +368,18 @@ Fall2021RewardList {
     border-bottom-left-radius: 2px;
     z-index: 2;
 }
+
 #LevelProgress .ProgressBarLeft {
     background-color: secondaryColor;
     wash-color: white;
     border-radius: 0;
 }
+
 #LevelProgress .ProgressBarRight {
     background-color: black;
     border-radius: 0;
 }
+
 .RewardLevel:not(.HasReward) #LevelProgress {
     margin: 0px 36px 1px 0px;
 }
@@ -471,6 +467,7 @@ Fall2021RewardList {
     box-shadow: none;
     border-radius: 4px;
 }
+
 .EconIconReward:hover .RewardLineEconIcon {
     box-shadow: none;
 }
@@ -526,7 +523,6 @@ Fall2021RewardList {
     height: 25px;
     pre-transform-scale2d: 4.5;
     transform: scaleY(-0.95) translateY(50px);
-
     opacity: 1;
     brightness: 1;
     saturation: 0.8;
@@ -546,7 +542,6 @@ Fall2021RewardList {
 .RewardLevel.Ellipsis #ItemContainer {
     height: fit-children;
     width: 280px;
-
     vertical-align: bottom;
     margin-bottom: 4px;
     horizontal-align: center;
@@ -683,15 +678,12 @@ Fall2021RewardList {
 .EconItemReward > Label {
     horizontal-align: right;
     vertical-align: bottom;
-
     margin-right: 11px;
     margin-bottom: 7px;
-
     font-size: 24px;
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px 0px black;
-
     visibility: collapse;
 }
 
@@ -714,7 +706,6 @@ Fall2021RewardList {
     wash-color: white;
     background-color: black;
     border-radius: 50%;
-
     visibility: collapse;
 }
 
@@ -766,7 +757,6 @@ Fall2021RewardList {
     opacity: 0.5;
     border: 1px solid transparent;
     z-index: 1;
-
     visibility: collapse;
 }
 
@@ -903,7 +893,6 @@ Fall2021RewardList {
     opacity: 0.5;
     border: 1px solid transparent;
     z-index: 1;
-
     visibility: collapse;
 }
 
@@ -963,7 +952,6 @@ Fall2021RewardList {
     perspective-origin: 1250px 0;
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     visibility: collapse;
 }
 
@@ -1008,6 +996,7 @@ Fall2021RewardList {
 .ChatWheelMessageAll {
     visibility: collapse;
 }
+
 .ChatWheelMessage.ChatWheelMessageSendToAll .ChatWheelMessageAll {
     visibility: visible;
 }
@@ -1015,11 +1004,9 @@ Fall2021RewardList {
 #ChatWheelMessageSoundButton {
     width: 16px;
     height: 16px;
-
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
-
     visibility: collapse;
 }
 
@@ -1036,6 +1023,7 @@ Fall2021RewardList {
 #ChatWheelMessageSoundButton:hover {
     brightness: 2;
 }
+
 #ChatWheelMessageSoundButton:active {
     brightness: 1.5;
 }
@@ -1056,10 +1044,8 @@ Fall2021RewardList {
     vertical-align: bottom;
     horizontal-align: center;
     margin-bottom: 64px;
-
     margin-left: 15px;
     transform: translateX(-3px) translateY(20px);
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -1097,7 +1083,6 @@ Fall2021RewardList {
     width: 24px;
     height: 24px;
     wash-color: #c2dcd9;
-
     background-image: url("s2r://panorama/images/control_icons/random_dice_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1115,9 +1100,11 @@ Fall2021RewardList {
 .HeroActionListInfoIcon {
     visibility: collapse;
 }
+
 .LabyrinthHeroRewardType .HeroActionListInfoIcon {
     visibility: visible;
 }
+
 .LabyrinthHeroRewardType .ActionListInfoIcon {
     visibility: collapse;
 }
@@ -1161,12 +1148,10 @@ Fall2021RewardList {
     height: 24px;
     vertical-align: top;
     horizontal-align: right;
-
     background-image: url("s2r://panorama/images/control_icons/check_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     pre-transform-scale2d: 0.75;
     visibility: collapse;
 }
@@ -1179,12 +1164,15 @@ Fall2021RewardList {
     width: 100%;
     flow-children: down;
 }
+
 .ActionListRewardType.ChatWheelRewardType .ActionListItem {
     width: 100%;
 }
+
 .ActionListRewardType.ChatWheelRewardType .ActionListItem #RewardContainer {
     width: 100%;
 }
+
 .ActionListRewardType.ChatWheelRewardType .ActionListItemClaimedIcon {
     horizontal-align: right;
     width: 16px;
@@ -1315,7 +1303,6 @@ Fall2021RewardList {
     background-image: url("s2r://panorama/images/cavern/style_ring_bg_psd.vtex");
     background-size: 100%;
     background-repeat: no-repeat;
-
     wash-color: #9fc4ff;
 }
 
@@ -1500,7 +1487,6 @@ Fall2021RewardList {
 }
 
 @define level500Width: 550px;
-
 #Level500 #ItemVideo {
     width: 276px;
     opacity-brush: gradient(
@@ -1518,7 +1504,6 @@ Fall2021RewardList {
 }
 
 @define level50Width: 350px;
-
 #Level50 {
     width: 350px;
 }
@@ -1541,7 +1526,6 @@ Fall2021RewardList {
 
 #Level50 #EmptyItemHitTest {
     z-index: 2;
-
     margin-bottom: 80px;
     height: 210px;
 }
@@ -1581,7 +1565,6 @@ Fall2021RewardList {
     vertical-align: top;
     width: 70px;
     horizontal-align: center;
-
     margin-right: 102px;
     margin-top: 30px;
 }
@@ -1683,11 +1666,13 @@ Fall2021RewardList {
     transform: translateX(20px) translateY(20px);
     opacity-mask: none;
 }
+
 .itemdef_18579 .RewardLineModelShadow {
     transform: skew(-25deg) translateY(-36px) translateX(54px);
     pre-transform-scale2d: 4;
     opacity: 0.8;
 }
+
 .itemdef_18579 .RewardLineModelRef {
     transform: scaleY(-1) scaleX(1) translateY(50px) rotateZ(0deg) translateX(24px);
     wash-color: rgba(0, 0, 0, 0.753);
@@ -1705,7 +1690,6 @@ Fall2021RewardList {
     height: 90px;
     transform: scaleY(-1.5) scaleX(-1) translateY(104px) translateX(28px);
     transform: scaleY(-1.5) scaleX(1) translateY(84px) translateX(0px);
-
     pre-transform-scale2d: 2.25;
     vertical-align: bottom;
     horizontal-align: center;
@@ -1732,7 +1716,6 @@ Fall2021RewardList {
     height: 25px;
     wash-color: black;
     blur: gaussian(1px);
-
     margin-bottom: 60px;
     z-index: 2;
     transform: scaleY(0.7) translateY(-26px) translateZ(0px) translateX(14px) skew(-50deg);
@@ -1786,10 +1769,12 @@ Fall2021RewardList {
 .EconItemModelReward.itemdef_19328 #EconItemModelPreview {
     transform: translateX(-5px) translateY(-96px);
 }
+
 .EconItemModelReward.itemdef_19328 .RewardLineModelShadow {
     transform: skew(-25deg) rotateX(45deg) translateY(-10px) translateX(20px);
     opacity: 1.4;
 }
+
 .EconItemModelReward.itemdef_19328 .RewardLineModelRef {
     transform: scaleY(-1) scaleX(1) translateY(60px) translateX(0px);
     brightness: 1;
@@ -1817,7 +1802,6 @@ Fall2021RewardList {
 }
 
 @define level1Width: 880px;
-
 #Level1 #ItemContainer {
     flow-children: right;
 }
@@ -1874,6 +1858,7 @@ Fall2021RewardList {
 .EconItemModelReward.itemdef_13439 {
     margin-left: -2px;
 }
+
 .EconItemModelReward.itemdef_13439 #EconModelGroundPlaneContainer {
     transform: translateX(18px);
 }
@@ -1957,7 +1942,6 @@ Fall2021RewardList {
 }
 
 @define level94Width: 920px;
-
 #Level94.Achieved .RewardLineBackground {
     opacity-brush: gradient(
         linear,
@@ -2027,7 +2011,6 @@ Fall2021RewardList {
 }
 
 @define level200Width: 550px;
-
 #Level200 {
     overflow: noclip;
 }
@@ -2087,10 +2070,12 @@ Fall2021RewardList {
     x: 40px;
     width: 100px;
 }
+
 #RadiantSiegeHitTest {
     x: 140px;
     width: 180px;
 }
+
 #RadiantMeleeHitTest {
     x: 320px;
     width: 140px;
@@ -2100,10 +2085,12 @@ Fall2021RewardList {
     x: 490px;
     width: 140px;
 }
+
 #DireSiegeHitTest {
     x: 630px;
     width: 160px;
 }
+
 #DireRangedHitTest {
     x: 790px;
     width: 100px;

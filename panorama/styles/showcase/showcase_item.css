@@ -1,5 +1,6 @@
-@define DataWidgetBackgroundColor:  rgba(0, 6, 16, 0.95);
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define DataWidgetBackgroundColor: rgba(0, 6, 16, 0.95);
 DOTAShowcaseItem {
     context-menu-position: left top;
     context-menu-body-position: 50% 50%;
@@ -9,6 +10,7 @@ DOTAShowcaseItem {
     width: 100%;
     height: 100%;
 }
+
 .State_Invalid .ShowcaseItem,
 .State_Failure .ShowcaseItem {
     border: 1px solid #f40f0fff;
@@ -18,7 +20,6 @@ DOTAShowcaseItem {
 
 .State_PartiallyInvalid .ShowcaseItem {
     border: 1px solid #f4b30f81;
-
     border-radius: 3px;
 }
 
@@ -36,6 +37,7 @@ DOTAShowcaseItem {
     width: 150px;
     height: 150px;
 }
+
 .Trophy #TrophyImage {
     width: 100%;
     height: 100%;
@@ -56,12 +58,15 @@ DOTAShowcaseItem {
     width: 100%;
     height: 100%;
 }
+
 .HeroModel.ShowingHeroCard #HeroModelSection {
     visibility: collapse;
 }
+
 .HeroModel.ShowingHeroCard #HeroCardSection {
     visibility: visible;
 }
+
 .HeroModel.ShowingHeroCard #HeroRelics {
     margin-bottom: 30px;
 }
@@ -71,6 +76,7 @@ DOTAShowcaseItem {
     height: 100%;
     visibility: visible;
 }
+
 .HeroModel #HeroModelSection #HeroBadge.Bottom {
     margin-bottom: 40px;
 }
@@ -82,11 +88,13 @@ DOTAShowcaseItem {
     visibility: collapse;
     horizontal-align: middle;
 }
+
 .HeroModel #HeroSetPreview {
     width: 100%;
     height: 100%;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
 }
+
 .State_Invalid .HeroModel #HeroSetPreview,
 .State_Failure .HeroModel #HeroSetPreview {
     wash-color: #3c3c3c;
@@ -98,18 +106,23 @@ DOTAShowcaseItem {
     horizontal-align: middle;
     vertical-align: middle;
 }
+
 .HeroModel #HeroBadge.NoTier {
     visibility: collapse;
 }
+
 .HeroModel #HeroBadge.Left {
     horizontal-align: left;
 }
+
 .HeroModel #HeroBadge.Right {
     horizontal-align: right;
 }
+
 .HeroModel #HeroBadge.Top {
     vertical-align: top;
 }
+
 .HeroModel #HeroBadge.Bottom {
     vertical-align: bottom;
 }
@@ -117,27 +130,35 @@ DOTAShowcaseItem {
 .HeroModel #HeroCardSection #HeroBadge {
     overflow: noclip;
 }
+
 .HeroModel #HeroCardSection #HeroBadge.Left {
     transform: translateX(-30px);
 }
+
 .HeroModel #HeroCardSection #HeroBadge.Right {
     transform: translateX(30px);
 }
+
 .HeroModel #HeroCardSection #HeroBadge.Top {
     transform: translateY(-30px);
 }
+
 .HeroModel #HeroCardSection #HeroBadge.Bottom {
     transform: translateY(30px);
 }
+
 .HeroModel #HeroCardSection #HeroBadge.Left.Top {
     transform: translate3d(-30px, -30px, 0px);
 }
+
 .HeroModel #HeroCardSection #HeroBadge.Right.Top {
     transform: translate3d(30px, -30px, 0px);
 }
+
 .HeroModel #HeroCardSection #HeroBadge.Left.Bottom {
     transform: translate3d(-30px, 30px, 0px);
 }
+
 .HeroModel #HeroCardSection #HeroBadge.Right.Bottom {
     transform: translate3d(30px, 30px, 0px);
 }
@@ -146,15 +167,16 @@ DOTAShowcaseItem {
     horizontal-align: center;
     vertical-align: bottom;
     flow-children: right;
-
     margin-top: -6px;
     margin-bottom: 8px;
     margin-right: 12px;
     margin-left: 7px;
 }
+
 .HeroModel #HeroRelics.Disabled {
     visibility: collapse;
 }
+
 .HeroModel #HeroRelics DOTAHeroRelicImage {
     margin-left: -11px;
     ui-scale: 16%;
@@ -162,6 +184,7 @@ DOTAShowcaseItem {
     tooltip-body-position: 50% 50%;
     transform: translateY(6px);
 }
+
 .HeroModel #HeroRelics DOTAHeroRelicImage.RareRelic {
     ui-scale: 25%;
     margin-left: -8px;
@@ -172,6 +195,7 @@ DOTAShowcaseItem {
 .HeroModel #HeroRelics DOTAHeroRelicImage#Rare0 {
     margin-left: 0px;
 }
+
 .HeroModel #HeroRelics DOTAHeroRelicImage#Normal1,
 .HeroModel #HeroRelics DOTAHeroRelicImage#Normal3,
 .HeroModel #HeroRelics DOTAHeroRelicImage#Normal5,
@@ -182,7 +206,6 @@ DOTAShowcaseItem {
 
 .HeroCard {
     border: 2px solid black;
-
     height: 100%;
     width: height-percentage(75%);
     horizontal-align: center;
@@ -193,10 +216,12 @@ DOTAShowcaseItem {
     width: 100%;
     height: 100%;
 }
+
 #ImageContainer #HeroImage {
     vertical-align: bottom;
     horizontal-align: right;
 }
+
 #ImageContainer #HeroImage.Disabled {
     visibility: collapse;
 }
@@ -206,6 +231,7 @@ DOTAShowcaseItem {
     width: 100%;
     height: 100%;
 }
+
 #ImageContainer #HeroPortraitAndBackground.Disabled {
     visibility: collapse;
 }
@@ -213,6 +239,7 @@ DOTAShowcaseItem {
 #ImageContainer #HeroMovie {
     horizontal-align: right;
 }
+
 #ImageContainer #HeroMovie.Disabled {
     visibility: collapse;
 }
@@ -241,6 +268,7 @@ DOTAShowcaseItem {
     font-size: 16px;
     color: white;
 }
+
 .HideName #HeroName {
     visibility: collapse;
 }
@@ -259,11 +287,13 @@ DOTAShowcaseItem {
     width: 100%;
     height: 100%;
 }
+
 .WorldItem #WorldItemPreview {
     width: 100%;
     height: 100%;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
 }
+
 .State_Invalid .WorldItem #WorldItemPreview,
 .State_Failure .WorldItem #WorldItemPreview {
     wash-color: #666;
@@ -273,6 +303,7 @@ DOTAShowcaseItem {
     width: 200px;
     height: 200px;
 }
+
 .Sticker #StickerSetPreview {
     width: 100%;
     height: 100%;
@@ -282,14 +313,15 @@ DOTAShowcaseItem {
     flow-children: right;
     box-shadow: 0px 0px 12px #0009;
 }
+
 .ChatWheel #HeroImage {
     vertical-align: middle;
     height: 100%;
     width: height-percentage(100%);
     max-height: 32px;
-
     visibility: collapse;
 }
+
 .ChatWheel.HasHero #HeroImage {
     visibility: visible;
 }
@@ -299,20 +331,19 @@ DOTAShowcaseItem {
     height: 100%;
     width: height-percentage(100%);
     max-height: 32px;
-
     visibility: collapse;
-
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 .ChatWheel #ChatWheelSoundButton:hover {
     brightness: 2;
 }
+
 .ChatWheel #ChatWheelSoundButton:active {
     brightness: 1.5;
 }
@@ -326,7 +357,6 @@ DOTAShowcaseItem {
     height: 100%;
     width: height-percentage(100%);
     max-height: 32px;
-
     background-image: url("s2r://panorama/images/control_icons/chat_wheel_icon_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -352,6 +382,7 @@ DOTAShowcaseItem {
     width: 200px;
     height: 200px;
 }
+
 .Spray #SprayImage {
     width: 100%;
     height: 100%;
@@ -361,13 +392,14 @@ DOTAShowcaseItem {
     flow-children: right;
     width: 300px;
     background-color: #000e;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 .PlayerMatch:hover {
     brightness: 2;
 }
+
 .PlayerMatch:active {
     brightness: 1.5;
 }
@@ -382,6 +414,7 @@ DOTAShowcaseItem {
     flow-children: down;
     vertical-align: middle;
 }
+
 .PlayerMatch .MatchDetails .HeroName {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -391,20 +424,24 @@ DOTAShowcaseItem {
 .PlayerMatch .MatchDetails .Stat {
     flow-children: right;
 }
+
 .PlayerMatch .MatchDetails .Stat .StatCategory {
     color: #666666;
     text-transform: uppercase;
     font-size: 14px;
     min-width: 80px;
 }
+
 .PlayerMatch .MatchDetails .Stat .StatValue {
     color: #cccccc;
     font-size: 14px;
 }
+
 .PlayerMatch .MatchDetails .Stat .StatValue.Green {
     text-shadow: 0px 0px 12px 1 #39be4a;
     color: #88ff88;
 }
+
 .PlayerMatch .MatchDetails .Stat .StatValue.Red {
     text-shadow: 0px 0px 12px 1 #bd1831;
     color: #dd4422;
@@ -413,6 +450,7 @@ DOTAShowcaseItem {
 .PlayerMatch .MatchDetails .DateTime {
     flow-children: right;
 }
+
 .PlayerMatch .MatchDetails .DateTime .DateTimeLabel {
     color: #888888;
     font-size: 12px;
@@ -436,6 +474,7 @@ DOTAShowcaseItem {
     width: 64px;
     height: 64px;
 }
+
 .Emoticon #Emoticon {
     width: 100%;
     height: 100%;
@@ -445,12 +484,14 @@ DOTAShowcaseItem {
 .StatWidget {
     background-color: DataWidgetBackgroundColor;
 }
+
 .StatWidget .StatContainer {
     horizontal-align: center;
     vertical-align: center;
     flow-children: down;
     padding: 4px;
 }
+
 .StatWidget .StatContainer .StatTitle {
     horizontal-align: center;
     text-overflow: shrink;
@@ -477,6 +518,7 @@ DOTAShowcaseItem {
     width: 100%;
     background-color: DataWidgetBackgroundColor;
 }
+
 .UserFeed .SocialFeed {
     width: 100%;
     height: 100%;
@@ -501,7 +543,6 @@ DOTAShowcaseItem {
 
 @define SpiderColor: #FF943F;
 @define SpiderColorLocal: #8696F5;
-
 .SpiderGraphContainer {
     height: 100%;
     width: 100%;
@@ -519,12 +560,12 @@ DOTAShowcaseItem {
     width: 320px;
     height: 216px;
     margin: 8px;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     opacity: 1;
 }
+
 .SG__Stats .SpiderGraph {
     opacity: 0;
 }
@@ -538,6 +579,7 @@ DOTAShowcaseItem {
 .SpiderGraphCompareButton {
     horizontal-align: left;
 }
+
 .SG__LocalPlayer .SpiderGraphCompareButton {
     visibility: collapse;
 }
@@ -553,7 +595,6 @@ DOTAShowcaseItem {
 .SpiderGraphExpandStatsButton {
     horizontal-align: right;
     vertical-align: top;
-
     visibility: collapse;
 }
 
@@ -572,6 +613,7 @@ DOTAShowcaseItem {
 .SpiderGraphCompareUser__Self {
     visibility: collapse;
 }
+
 .SG__Compare .SpiderGraphCompareUser__Self {
     visibility: visible;
 }
@@ -585,6 +627,7 @@ DOTAShowcaseItem {
     border-radius: 50%;
     background-color: SpiderColor;
 }
+
 .SpiderGraphCompareUser__Self .SpiderGraphColorBox {
     background-color: SpiderColorLocal;
 }
@@ -593,12 +636,12 @@ DOTAShowcaseItem {
     horizontal-align: center;
     margin-top: 25px;
     flow-children: down;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     opacity: 0;
 }
+
 .SG__Stats .SpiderGraphStats {
     opacity: 1;
 }

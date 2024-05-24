@@ -1,12 +1,12 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPlusMenu {
     width: 100%;
     flow-children: down;
     box-shadow: #000 0px 0px 8px fill;
     background-color: dotaPlusBgGradient;
-
     transform: translateY(-100%);
     opacity: 0;
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
 }
@@ -46,7 +46,6 @@ DOTAPlusMenu.MenuVisible {
 
 .PlusState {
     width: 100%;
-
     visibility: collapse;
 }
 
@@ -76,7 +75,6 @@ DOTAPlusMenu.MenuVisible {
     color: dotaPlusGold;
     text-transform: uppercase;
     letter-spacing: 1px;
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
@@ -177,9 +175,7 @@ DOTAPlusMenu.MenuVisible {
     flow-children: down;
     width: 100%;
     background-color: #0009;
-
     padding-bottom: 16px;
-
     visibility: collapse;
 }
 
@@ -208,13 +204,14 @@ DOTAPlusMenu.MenuVisible {
     letter-spacing: 1px;
     font-size: 16px;
     text-align: right;
-
     transition-property: color;
     transition-duration: 0.2s;
 }
+
 .BattleReportViewAllButton:hover Label {
     color: #ccc;
 }
+
 .BattleReportViewAllButton:active Label {
     color: #999;
 }

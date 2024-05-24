@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     width: 1107px;
     padding: 0px;
@@ -43,7 +45,6 @@
 #SplashImage {
     horizontal-align: center;
     width: 1107px;
-
     background-image: url("s2r://panorama/images/splash_ads/immortal_gardens_splash_backer_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,7 +78,6 @@
     color: white;
     font-size: 40px;
     text-transform: uppercase;
-
     margin-left: 150px;
 }
 
@@ -186,12 +186,10 @@
 .ButtonBattlePass {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#154e6b), to(#247e91));
     border: 1px solid #3f97bf;
-
     transition-property: border, brightness;
     transition-duration: 0.1s;
     transition-timing-function: linear;
     overflow: noclip;
-
     min-width: 300px;
     min-height: 45px;
 }
@@ -236,7 +234,6 @@
 .ButtonBattlePass:active {
     brightness: 3;
     border: 1px solid #8bedff;
-
     sound: "ui_generic_button_click";
 }
 
@@ -254,7 +251,6 @@
     padding-left: 8px;
     padding-right: 8px;
     padding-top: 2px;
-
     transition-property: color;
     transition-duration: 0.1s;
     transition-timing-function: linear;
@@ -268,6 +264,7 @@
 .SelfEventActive #PurchaseBattlePassButton {
     visibility: collapse;
 }
+
 .SelfEventActive #PurchaseLevelsButton {
     visibility: visible;
 }
@@ -281,7 +278,6 @@
     height: 400px;
     margin-top: 12px;
     margin-bottom: 12px;
-
     horizontal-align: center;
 }
 
@@ -292,16 +288,13 @@
 
 #ImmortalGardens {
     background-image: url("s2r://panorama/images/splash_ads/ti7_reminder_terrain_psd.vtex");
-
     transform: translateZ(-200px) translateX(-334px) rotateY(15deg);
 }
 
 #IoArcana {
     width: 350px;
     height: 466px;
-
     background-image: url("s2r://panorama/images/splash_ads/ti7_reminder_io_psd.vtex");
-
     transform: translateZ(-100px) translateX(284px) rotateY(-15deg);
 }
 
@@ -355,12 +348,9 @@
     transform: translateY(120px) translateX(-420px) translateZ(-120px);
     hue-rotation: 50deg;
     opacity: 0;
-
     wash-color: #247e91;
     saturation: 1;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_png.vtex");
-
     transition-property: opacity;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;

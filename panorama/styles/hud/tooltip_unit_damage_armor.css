@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTATooltipUnitDamageArmor #Contents {
     background-color: black;
     flow-children: down;
@@ -96,6 +98,7 @@ DOTAHudUnitDamageArmor {
 #AllContainer {
     visibility: collapse;
 }
+
 #AllContainer.PrimaryAttribute {
     visibility: visible;
 }
@@ -159,15 +162,19 @@ DOTAHudUnitDamageArmor {
 #StrengthIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_strength_psd.vtex");
 }
+
 #AgilityIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_psd.vtex");
 }
+
 .ColorBlindModeEnabled #AgilityIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_colorblind_psd.vtex");
 }
+
 #IntelligenceIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_intelligence_psd.vtex");
 }
+
 #AllIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_all_psd.vtex");
 }

@@ -1,8 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPlusNeutralItemUpgradeIndicator {
     tooltip-position: right;
     tooltip-body-position: 0% 50%;
     visibility: collapse;
-
     transition-property: brightness, saturation;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;

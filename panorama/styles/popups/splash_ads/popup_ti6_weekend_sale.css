@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupTI6WeekendSale {
     width: 760px;
     height: 840px;
@@ -35,7 +37,6 @@
     color: #cccccc;
     font-size: 46px;
     text-transform: uppercase;
-
     letter-spacing: 9px;
     text-align: center;
     horizontal-align: center;
@@ -112,6 +113,7 @@
 .Red {
     font-weight: bold;
 }
+
 .MustOwn {
     horizontal-align: center;
 }

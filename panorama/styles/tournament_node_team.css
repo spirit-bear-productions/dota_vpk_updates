@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 TournamentNodeTeam {
     flow-children: right;
     padding: 1px;
@@ -97,9 +99,7 @@ TournamentNodeTeam Label,
 
 #AutomatedTournamentWin3 #TeamScore {
     background-image: url("s2r://panorama/images/control_icons/check_png.vtex");
-
     background-color: #c68c17;
-
     background-size: 45%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -122,7 +122,6 @@ TournamentNodeTeam Label,
 #AutomatedTournamentWin3 .YourTeam.LosingTeam #TeamScore {
     visibility: visible;
     background-image: url("s2r://panorama/images/icon_x_white_psd.vtex");
-
     background-color: none;
     background-size: 120%;
     wash-color: #d44425;

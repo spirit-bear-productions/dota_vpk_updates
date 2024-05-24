@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #LionPrestige {
     height: 100%;
     width: 100%;
@@ -6,6 +8,7 @@
 .FrontpageCellTitle {
     color: gradient(linear, 0% 0%, 0% 100%, from(#07a003), to(#116977));
 }
+
 .FrontpageCellFooter {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00000000), color-stop(0.7, #000000dd), to(#000000dd));
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DashboardPage {
     background-color: black;
 }
@@ -5,7 +7,6 @@
 #ModelContainer {
     width: 100%;
     height: 100%;
-
     max-width: 1920px;
     horizontal-align: center;
 }
@@ -19,17 +20,13 @@
     transform: scaleX(1);
     width: 100%;
     height: 100%;
-
     vertical-align: middle;
     horizontal-align: center;
     saturation: 1;
-
     contrast: 1.1;
-
     transition-property: opacity, wash-color, saturation, contrast;
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
-
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -85,7 +82,6 @@
     padding: 32px;
     padding-top: 40px;
     padding-bottom: 64px;
-
     width: 680px;
     height: 820px;
 }
@@ -96,7 +92,6 @@
     background-image: url("s2r://panorama/images/leaf_pages/debut_mars/mars_bg_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     opacity: 0;
     transition-property: wash-color;
     transition-duration: 0s;
@@ -163,7 +158,6 @@
 #TitleContainer {
     width: 100%;
     horizontal-align: center;
-
     transform: translateY(-16px);
     transition-property: hue-rotation, wash-color, saturation;
     transition-duration: 0.1s;
@@ -230,9 +224,11 @@
 #Pip1 {
     background-image: url("s2r://panorama/images/hero_complexity_full_png.vtex");
 }
+
 #Pip2 {
     background-image: url("s2r://panorama/images/hero_complexity_empty_png.vtex");
 }
+
 #Pip3 {
     background-image: url("s2r://panorama/images/hero_complexity_empty_png.vtex");
 }
@@ -282,6 +278,7 @@
     0% {
         background-color: black;
     }
+
     100% {
         background-color: transparent;
     }
@@ -302,6 +299,7 @@
     0% {
         background-color: transparent;
     }
+
     100% {
         background-color: black;
     }
@@ -315,7 +313,6 @@
 #MainContainer {
     width: 100%;
     height: 100%;
-
     transition-property: wash-color;
     transition-duration: 0.4s;
     transition-timing-function: ease-in;

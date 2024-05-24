@@ -1,9 +1,9 @@
-@define platformfont:  "Motiva Sans";
-@define monospacefont: "Courier New";
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define platformfont: "Motiva Sans";
+@define monospacefont: "Courier New";
 #PanoramaEngine {
     font-size: 32px;
-
     width: 50%;
     height: 50%;
     color: #ffffffff;
@@ -19,7 +19,6 @@
     width: 50%;
     height: 50px;
     margin: 10px;
-
     background-color: #ff0000ff;
 }
 
@@ -37,7 +36,6 @@ TextTooltip {
     font-family: platformfont;
     font-size: 12px;
     color: #111111ff;
-
     visibility: collapse;
 }
 
@@ -99,7 +97,6 @@ HTMLVerticalScrollBar {
     height: 100%;
     horizontal-align: right;
     layout-position: fixed;
-
     transition-property: transform;
 }
 
@@ -110,7 +107,6 @@ HTMLVerticalScrollBar .ScrollThumb {
     background-color: #566767;
     border-top: 1px solid #aaaaaa22;
     border-right: 1px solid #000000aa;
-
     transition-property: background-color, transform, position;
     transition-duration: 0.1s;
     transition-timing-function: linear;
@@ -133,7 +129,6 @@ HTMLHorizontalScrollBar {
     layout-position: fixed;
     vertical-align: bottom;
     box-shadow: fill #00000055 2px -1px 3px 1px;
-
     transition-property: transform;
 }
 

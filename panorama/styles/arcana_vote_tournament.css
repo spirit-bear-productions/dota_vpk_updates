@@ -1,9 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define PercentXInitialOffset: 0.02f;
 @define PercentXCenterOffset: 0.12f;
 @define PercentYInitialOffset: 0.015f;
 @define PercentYCenterOffset: 0.02f;
 @define PercentXOutmostColumnWidth: 0.019f;
-
 #Connections {
     width: 100%;
     height: 100%;
@@ -15,7 +16,6 @@
 }
 
 @define HLineBaseWidth: 0.01f;
-
 .HLine {
     background-color: #454d4f;
     height: 1px;
@@ -34,7 +34,6 @@
 .CurrentRoundHighlight {
     background-color: accentColor;
     opacity: 0.2;
-
     animation-name: InProgress;
     animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
@@ -45,9 +44,11 @@
     0% {
         brightness: 0.7;
     }
+
     50% {
         brightness: 2.5;
     }
+
     100% {
         brightness: 0.7;
     }
@@ -135,9 +136,7 @@
     width: 164px;
     height: 220px;
     flow-children: down;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
@@ -147,17 +146,14 @@
 #BracketOverviewImage {
     width: 164px;
     height: 164px;
-
     background-image: url("s2r://panorama/images/compendium/bracket_nav_png.vtex");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
     opacity: 0.5;
 }
 
 .ZoomedIn #BracketOverview {
     opacity: 1;
-
     transition-property: position, opacity;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
@@ -216,10 +212,8 @@
     background-color: accentColor;
     opacity: 0.3;
     border: 1px solid accentColorBright;
-
     width: 82px;
     height: 82px;
-
     transition-property: position;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
@@ -253,7 +247,6 @@
 .BracketHighlightButton {
     width: 82px;
     height: 82px;
-
     opacity: 1;
 }
 
@@ -271,7 +264,6 @@
     height: 32px;
     margin-top: 10px;
     padding-top: 6px;
-
     border: 1px solid #777777;
 }
 

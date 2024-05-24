@@ -1,5 +1,6 @@
-@define BACKGROUND_COLOR:  #000000;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define BACKGROUND_COLOR: #000000;
 .EndScreenRoot {
     width: 100%;
     height: 100%;
@@ -19,7 +20,6 @@
     horizontal-align: right;
     margin-right: 8px;
     margin-bottom: 16px;
-
     transition-property: opacity, transform;
     transition-duration: 1s;
     opacity: 0;
@@ -40,7 +40,6 @@
     font-size: 64px;
     color: #cccccc;
     vertical-align: center;
-
     text-transform: uppercase;
     margin-bottom: -16px;
 }
@@ -97,12 +96,10 @@
 .FlyoutTeam {
     margin-top: 3px;
     margin-bottom: 3px;
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
     opacity: 0;
     transform: translatey(-50px);
-
     margin-right: 8px;
 }
 

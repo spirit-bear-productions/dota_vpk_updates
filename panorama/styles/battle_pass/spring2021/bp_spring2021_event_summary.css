@@ -1,9 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPSpring2021EventSummary {
     width: 100%;
     height: fit-children;
     background-color: #000000;
     z-index: 1;
-
     visibility: collapse;
 }
 
@@ -71,7 +72,6 @@ DOTABPSpring2021EventSummary.HasEventData.EventActive,
     background-size: contain;
     background-repeat: no-repeat;
     horizontal-align: center;
-
     width: 600px;
     height: 192px;
     ui-scale: 45%;
@@ -110,7 +110,6 @@ DOTABPSpring2021EventSummary.HasEventData.EventActive,
 #BPLevelEntry {
     padding-left: 10px;
     padding-bottom: 3px;
-
     visibility: collapse;
     vertical-align: top;
     flow-children: down;
@@ -236,7 +235,6 @@ DOTAEventLevelShield {
     margin-left: 1px;
     margin-top: 3px;
     padding: 4px 2px;
-
     visibility: collapse;
 }
 
@@ -282,7 +280,6 @@ DOTAEventLevelShield {
 
 .Feature {
     background-size: cover;
-
     padding: 10px 8px 0px 8px;
     width: 100%;
     min-height: 60px;
@@ -336,7 +333,6 @@ DOTAEventLevelShield {
     color: accentColorBright&90;
     transform: rotateZ(-90deg) translateX(-20px);
     horizontal-align: left;
-
     vertical-align: middle;
     opacity: 0.3;
     text-overflow: shrink;
@@ -377,7 +373,6 @@ DOTAEventLevelShield {
 #Quests .FeaturePip,
 #Quests .ActiveWeek {
     margin: 0px 1px;
-
     box-shadow: 0px 1px 9px #00000090;
 }
 
@@ -513,11 +508,9 @@ DOTAEventLevelShield {
 .UnownedBG {
     width: 100%;
     height: 160px;
-
     background-image: url("s2r://panorama/images/events/nemestice/frontpage_bp_psd.vtex");
     background-size: contain;
     background-position: bottom;
-
     vertical-align: bottom;
     margin-bottom: 36px;
     background-repeat: no-repeat;
@@ -558,6 +551,7 @@ DOTAEventLevelShield {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 .SelfEventNeedsActivate #ActivateBattlePassButton {
     visibility: visible;
 }
@@ -565,7 +559,6 @@ DOTAEventLevelShield {
 .WeekIcon {
     width: 100%;
     height: 35px;
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -579,7 +572,6 @@ DOTAEventLevelShield {
     vertical-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-
     text-shadow: 0px 0px 10px 3 darkColor;
 }
 

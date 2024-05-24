@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupOverwatchConvict.PopupPanel {
     flow-children: none;
     padding: 0px;
@@ -5,7 +7,6 @@ DOTAPopupOverwatchConvict.PopupPanel {
     height: 883px;
     background-color: black;
     border: 0px solid #000000;
-
     background-image: url("s2r://panorama/images/conduct/ovw_bg_png.vtex");
     background-size: cover;
 }
@@ -25,7 +26,6 @@ DOTAPopupOverwatchConvict.PopupPanel {
 #OverwatchResolutionArt {
     width: 100%;
     background-image: url("s2r://panorama/images/conduct/ovw_keyart_png.vtex");
-
     background-size: cover;
     background-position: center bottom;
     flow-children: down;
@@ -35,7 +35,6 @@ DOTAPopupOverwatchConvict.PopupPanel {
 .HeaderArt {
     width: 100%;
     height: 100%;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#16587400), to(#16587470));
     background-size: cover;
     background-position: center center;

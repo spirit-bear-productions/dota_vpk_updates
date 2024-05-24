@@ -1,17 +1,17 @@
-@define headerHeight:  47px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define headerHeight: 47px;
 @define itemCombinesHeight: 90px;
 @define mainPanelWidth: 360px;
 @define negMainPanelWidth: -360px;
 @define largeMainPanelWidth: 400px;
 @define largeNegMainPanelWidth: -400px;
-
 DOTAHUDShop {
     transform: translateX(mainPanelWidth);
     opacity: 0;
     transition-property: transform, opacity, width;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-
     margin-top: 36px;
 }
 
@@ -84,7 +84,6 @@ DOTAHUDShop.ShopClosing {
 #header {
     width: 100%;
     height: headerHeight;
-
     background-image: url("s2r://panorama/images/hud/reborn/bg_item_breakdown_psd.vtex");
 }
 
@@ -292,7 +291,6 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1c2027), to(#010101));
     background-image: url("s2r://panorama/images/hud/reborn/bg_pinned_items_psd.vtex");
     background-size: cover;
-
     visibility: collapse;
 }
 
@@ -614,12 +612,10 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     width: 14px;
     height: 14px;
     img-shadow: 0px 0px 5px goldColor;
-
     background-image: url("s2r://panorama/images/hud/icon_new_neutral_item_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     visibility: collapse;
 }
 
@@ -632,7 +628,6 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     border: 1px solid #5b687277;
     border-radius: 3px;
     background-color: black;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -686,9 +681,7 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     tooltip-position: top;
     border: 1px solid #5b687277;
     border-radius: 3px;
-
     background-color: black;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -759,6 +752,7 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     text-align: center;
     horizontal-align: center;
 }
+
 #GridCustomShop #ShopItemsHeader {
     horizontal-align: center;
 }
@@ -856,18 +850,13 @@ DOTAShopItem.ShopItemWhitelisted {
 
 DOTAHUDShopTextEntry {
     font-family: defaultFont;
-
     border: 1px solid baseBorder;
     width: 352px;
     height: 36px;
-
     padding: 5px 7px 3px 7px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#111111ff), to(#222222ff));
-
     color: white;
     font-size: 20px;
-
     text-overflow: clip;
     white-space: nowrap;
 }
@@ -880,12 +869,9 @@ DOTAHUDShopTextEntry:disabled {
 
 DOTAHUDShopTextEntry #PlaceholderText {
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.2s;
-
     margin-top: -2px;
-
     color: #57646d;
     font-size: 18px;
 }
@@ -985,12 +971,9 @@ DOTAHUDShop.ShopOpen #GuidesButton {
 #GuideFlyout {
     width: 210px;
     height: 814px;
-
     min-height: 524px;
     opacity: 0;
-
     z-index: -1;
-
     margin-right: mainPanelWidth;
     margin-top: 0px;
     padding-bottom: 0px;
@@ -1049,12 +1032,9 @@ DOTAHUDShop.ShopOpen #GuideFlyout.HideGuide {
 #Grid {
     width: 300px;
     min-height: 624px;
-
     z-index: -1;
     opacity: 0;
-
     background-color: #000000ee;
-
     margin-right: 262px;
     margin-top: 40px;
     padding-bottom: 14px;
@@ -1226,7 +1206,6 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
 
 #ToggleMinimalShop {
     margin-right: 0px;
-
     background-color: #171717;
     background-image: url("s2r://panorama/images/hud/shop_hud_layout_columns_png.vtex");
     background-size: 50%;
@@ -1246,7 +1225,6 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
 .AllNeutralItems {
     width: 100%;
     flow-children: down;
-
     visibility: collapse;
 }
 
@@ -1297,22 +1275,25 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
     font-weight: bold;
     margin-bottom: 2px;
     margin-top: 3px;
-
     color: NeutralTier1;
 }
 
 .NeutralTier1 .NeutralItemsTierName {
     color: NeutralTier1;
 }
+
 .NeutralTier2 .NeutralItemsTierName {
     color: NeutralTier2;
 }
+
 .NeutralTier3 .NeutralItemsTierName {
     color: NeutralTier3;
 }
+
 .NeutralTier4 .NeutralItemsTierName {
     color: NeutralTier4;
 }
+
 .NeutralTier5 .NeutralItemsTierName {
     color: NeutralTier5;
 }
@@ -1339,7 +1320,6 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
     text-align: right;
     margin-bottom: 2px;
     margin-top: 3px;
-
     visibility: collapse;
 }
 
@@ -1355,20 +1335,16 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
     width: 48px;
     height: width-percentage(72.7%);
     margin: 2px;
-
     saturation: 0.2;
     brightness: 0.2;
-
     transition-property: saturation, brightness;
     transition-duration: 0.2s;
-
     ui-scale: 90%;
 }
 
 #NeutralItemsList DOTAShopItem.NeutralItemFound {
     saturation: 1;
     brightness: 1;
-
     border: 1px solid #ccc;
 }
 
@@ -1387,7 +1363,6 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
 .TeamNeutralItems {
     flow-children: down;
     width: 100%;
-
     margin-top: 13px;
 }
 
@@ -1459,7 +1434,6 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
 .TeamNeutralItemsTier {
     width: 100%;
     flow-children: down;
-
     margin-bottom: 8px;
 }
 
@@ -1486,15 +1460,19 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
 .NeutralTier1 .TeamNeutralItemsTierTitle {
     color: NeutralTier1;
 }
+
 .NeutralTier2 .TeamNeutralItemsTierTitle {
     color: NeutralTier2;
 }
+
 .NeutralTier3 .TeamNeutralItemsTierTitle {
     color: NeutralTier3;
 }
+
 .NeutralTier4 .TeamNeutralItemsTierTitle {
     color: NeutralTier4;
 }
+
 .NeutralTier5 .TeamNeutralItemsTierTitle {
     color: NeutralTier5;
 }
@@ -1531,7 +1509,6 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
     letter-spacing: 2px;
     color: #dedede;
     text-align: right;
-
     visibility: collapse;
 }
 
@@ -1558,7 +1535,6 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
     height: width-percentage(72.7%);
     margin: 0px 6px 5px 6px;
     box-shadow: 0px 0px 12px #0009;
-
     border: 1px solid #333333;
 }
 
@@ -1585,6 +1561,7 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
 #YourNeutralItemsList .TeamNeutralItem.Yours.IsTierToken {
     visibility: collapse;
 }
+
 #TeamNeutralTokensList .TeamNeutralItem.IsTierToken {
     visibility: visible;
 }
@@ -1673,12 +1650,10 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
     width: 14px;
     height: 14px;
     img-shadow: 0px 0px 5px goldColor;
-
     background-image: url("s2r://panorama/images/hud/icon_new_neutral_item_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     visibility: collapse;
 }
 
@@ -1844,7 +1819,6 @@ DOTAHUDShop.ShopOpen.NewHeroShop #GuidesButton,
 
 #NewPlayerBackButton {
     margin-top: -50px;
-
     horizontal-align: center;
     padding: 10px;
     text-decoration: underline;
@@ -1967,7 +1941,6 @@ DOTAHUDShop.ShopOpen.NewHeroShop #GuidesButton,
 
 .NewPlayerShopItem {
     width: 100%;
-
     padding: 8px 0px;
     padding-left: 8px;
     background-color: #cccccc05;
@@ -2019,6 +1992,7 @@ DOTAHUDShop.ShopOpen.NewHeroShop #GuidesButton,
 .NewHeroShop #GridNewShopTab {
     visibility: visible;
 }
+
 .LastCategory #NewPlayerShopSkipButton {
     visibility: collapse;
 }

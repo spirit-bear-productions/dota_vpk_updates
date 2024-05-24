@@ -1,7 +1,8 @@
-@define leftMargin:  264px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define leftMargin: 264px;
 @define leftMargin4x3: 64px;
 @define leftMargin16x10: 184px;
-
 #ManageProInfo {
     width: 550px;
     padding-top: 0px;
@@ -82,9 +83,7 @@ HorizontalScrollBar {
 
 #ProInfo {
     width: 100%;
-
     flow-children: down;
-
     padding: 24px 20px 8px 20px;
 }
 
@@ -121,9 +120,7 @@ HorizontalScrollBar {
     width: 100%;
     margin-top: 20px;
     padding: 20px 20px 20px 20px;
-
     flow-children: down;
-
     background-color: #000000;
 }
 
@@ -136,11 +133,9 @@ HorizontalScrollBar {
 #ProInfoPreview {
     margin-top: 10px;
     margin-bottom: 10px;
-
     horizontal-align: center;
     text-align: center;
     color: #ffffff;
-
     font-size: 24px;
     min-height: 20px;
 }
@@ -168,10 +163,8 @@ HorizontalScrollBar {
 #ProInfoSubmitLockedLabel {
     min-height: 24px;
     height: 48px;
-
     horizontal-align: center;
     text-align: center;
-
     visibility: collapse;
     padding-top: 5px;
 }
@@ -190,7 +183,6 @@ HorizontalScrollBar {
 #ProInfoResults .ButtonBevel {
     min-height: 24px;
     height: 24px;
-
     horizontal-align: center;
 }
 
@@ -202,7 +194,6 @@ HorizontalScrollBar {
 TextEntry.SmallerEntry {
     height: 30px;
     width: 320px;
-
     font-size: 16px;
 }
 

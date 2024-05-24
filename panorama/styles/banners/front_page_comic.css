@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #FrontpageCellComicSunderedMoon:hover #SunderedMoon {
     transform: rotateY(-165deg) rotateX(25deg) rotateZ(6deg);
 }
@@ -28,7 +30,6 @@
     transform: translateX(-60px) translateY(-20px) rotateZ(-10deg);
     width: 400px;
     height: 400px;
-
     transition-property: transform;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
@@ -40,7 +41,6 @@
     background-image: url("s2r://panorama/images/banners/comic/comicbg_sunderedmoon_psd.vtex");
     background-size: contain;
     pre-transform-scale2d: 1.1;
-
     animation-name: BackgroundMotion;
     animation-delay: 0s;
     animation-duration: 17s;
@@ -52,9 +52,11 @@
     0% {
         transform: translateX(-10px) rotateZ(0deg);
     }
+
     50% {
         transform: translateX(10px) rotateZ(3deg);
     }
+
     100% {
         transform: translateX(-10px) rotateZ(0deg);
     }
@@ -65,10 +67,8 @@
     height: 200px;
     horizontal-align: center;
     transform: rotateY(0deg) rotateX(26deg) rotateZ(6deg);
-
     border-radius: 0.1px;
     pre-transform-scale2d: 0.9;
-
     transition-property: transform, pre-transform-scale2d, wash-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
@@ -103,7 +103,6 @@
     wash-color: white;
     opacity: 1;
     background-size: cover;
-
     transition-property: opacity, wash-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
@@ -137,7 +136,6 @@
     visibility: visible;
     color: #528ea5;
     text-shadow: none;
-
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;

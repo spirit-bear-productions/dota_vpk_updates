@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     padding: 0px;
     overflow: clip;
@@ -43,10 +45,8 @@
 .PlusLogo {
     height: 24px;
     width: 21px;
-
     horizontal-align: left;
     vertical-align: middle;
-
     margin-right: 6px;
     margin-bottom: 2px;
     background-image: url("s2r://panorama/images/dota_plus/dotaplus_logo_small_png.vtex");
@@ -101,7 +101,6 @@
 #Header {
     width: 100%;
     height: 100px;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#190000), to(#000f));
 }
 
@@ -115,7 +114,6 @@
     font-size: 40px;
     text-transform: uppercase;
     text-shadow: 0px 3px 4px #000000;
-
     letter-spacing: 2px;
 }
 

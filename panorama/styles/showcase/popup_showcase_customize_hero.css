@@ -1,11 +1,10 @@
-@define SetTile_Width:  230px;
-@define SetTile_Height: 346px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define SetTile_Width: 230px;
+@define SetTile_Height: 346px;
 @define ItemTile_Width: 172px;
 @define ItemTile_Height: 222px;
-
 @define HeaderBackground: #11161D;
-
 PopupShowcaseCustomizeHero.PopupPanel {
     width: 1388px;
     height: 860px;
@@ -17,6 +16,7 @@ PopupShowcaseCustomizeHero.PopupPanel {
     height: 100%;
     flow-children: down;
 }
+
 #Contents #Header {
     width: 100%;
     padding: 16px;
@@ -24,6 +24,7 @@ PopupShowcaseCustomizeHero.PopupPanel {
     background-img-opacity: 0.6;
     background-color: HeaderBackground;
 }
+
 #Contents #Header .Title {
     text-transform: uppercase;
     color: white;

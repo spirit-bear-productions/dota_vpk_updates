@@ -1,10 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 TournamentMatchSidebar {
     flow-children: down;
-
     width: 100%;
     background-color: #00000022;
     border-bottom: 1px solid #3d4145;
-
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -26,7 +26,6 @@ TournamentMatchSidebar.FirstElement.LiveGame {
 #Teams {
     flow-children: right;
     horizontal-align: center;
-
     margin-top: 4px;
     margin-bottom: 10px;
 }
@@ -41,7 +40,6 @@ TournamentMatchSidebar.FirstElement.LiveGame {
 .TeamLogo {
     width: 38px;
     height: 38px;
-
     margin: 0px 10px 0px 10px;
 }
 
@@ -59,7 +57,6 @@ TournamentMatchSidebar.FirstElement.LiveGame {
     letter-spacing: 2px;
     color: #cccccc;
     margin-top: 4px;
-
     text-align: center;
 }
 
@@ -92,6 +89,7 @@ TournamentMatchSidebar Label {
     color: #999;
     visibility: collapse;
 }
+
 .BestOfSeries #UpcomingMatchBestOf {
     visibility: visible;
 }
@@ -123,7 +121,6 @@ TournamentMatchSidebar Label {
 Label#InProgress {
     text-transform: uppercase;
     letter-spacing: 1px;
-
     color: #60bc8b;
 }
 
@@ -132,9 +129,7 @@ Label#TBD2 {
     font-weight: bold;
     font-size: 22px;
     color: #768e8d;
-
     visibility: collapse;
-
     margin-left: 12px;
     margin-right: 12px;
 }
@@ -148,16 +143,20 @@ Label#TBD2 {
 .UnknownTeam2 #Team2Logo {
     visibility: collapse;
 }
+
 .LiveGame #UpcomingMatchStatus {
     visibility: collapse;
 }
+
 .LiveGame #LiveMatchWatch {
     visibility: visible;
 }
+
 #GameNumber {
     text-transform: uppercase;
     visibility: collapse;
 }
+
 .LiveGame #GameNumber {
     visibility: visible;
 }
@@ -192,7 +191,6 @@ Label#TBD2 {
 .PopupButton:active {
     border: 1px solid black;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#264836), to(#305c44));
-
     border-top: 1px solid #00000088;
     border-right: 1px solid #00000088;
     border-left: 1px solid #00000088;

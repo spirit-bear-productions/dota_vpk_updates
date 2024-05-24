@@ -1,9 +1,11 @@
-@define ShowcaseContents_GizmoSize:  15px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define ShowcaseContents_GizmoSize: 15px;
 DOTAShowcaseContents #ShowcaseBackground {
     vertical-align: center;
     horizontal-align: center;
 }
+
 DOTAShowcasePage DOTAShowcaseContents #ShowcaseBackground {
     margin-top: 60px;
 }
@@ -22,6 +24,7 @@ DOTAShowcaseContents #ShowcaseForeground {
     height: 100%;
     overflow: clip;
 }
+
 DOTAShowcaseContents #ShowcaseForeground #ShowcaseCanvas {
     width: 1828px;
     height: 760px;
@@ -38,13 +41,12 @@ DOTAShowcaseContents #ShowcaseForeground #ShowcaseCanvas {
         color-stop(0.7, #ffffff),
         to(#ffffff00)
     );
-
     transition-property: opacity, border, border-brush;
     transition-duration: 0.2s;
-
     opacity: 0.08;
     visibility: collapse;
 }
+
 .IsEditing DOTAShowcaseContents #ShowcaseForeground #ShowcaseCanvas {
     border: 1px solid #ffffff;
     border-brush: gradient(
@@ -75,12 +77,12 @@ DOTAShowcaseContents.ShowcaseType_Profile #ShowcaseForeground #ShowcaseCanvas {
     border: 3px solid white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(LightestGrey), to(LightGrey));
     visibility: collapse;
-
     opacity: 0;
     transition-property: opacity, border;
     transition-duration: 0.1s;
     transition-delay: 1.2s;
 }
+
 .ShowcaseType_MiniProfile.IsEditing .MiniShowcaseBorder {
     visibility: visible;
     opacity: 1;
@@ -97,59 +99,67 @@ DOTAShowcasePage .HeaderTopShadow {
 .ShowcaseItemWidget {
     ignore-parent-flow: true;
     overflow: noclip;
-
     transition-property: brightness, transform;
     transition-duration: 0.15s;
 }
+
 .ShowcaseLayerListOpen .ShowcaseItemWidget:not(.IsHighlightedShowcaseItem) {
     brightness: 0.4;
     opacity: 0.5;
 }
+
 .IsEditing .ShowcaseItemWidget.IsHighlightedShowcaseItem {
     box-shadow: hollow 0px 0px 0px 1px #327bff99;
     brightness: 1.4;
 }
+
 .IsEditing.GridSnap .ShowcaseItemWidget {
     box-shadow: hollow 0px 0px 0px 1px #ffffff;
     brightness: 1.4;
 }
+
 @keyframes 'SelectedGlow' {
     0% {
         brightness: 1;
     }
+
     100% {
         brightness: 3;
     }
 }
-@define gismoHighlightColor:
-                              
-                              #45A6FF;
+
+@define gismoHighlightColor: #45A6FF;
 #ShowcaseGizmos {
     visibility: collapse;
     width: 100%;
     height: 100%;
     overflow: clip;
 }
+
 .IsEditing.HasShowcaseItemSelect:not(.ShowcaseLayerListOpen) #ShowcaseGizmos {
     visibility: visible;
 }
+
 #ShowcaseGizmos #ShowcaseMoveGizmo {
     overflow: noclip;
     border: 1px solid gismoHighlightColor;
 }
+
 #ShowcaseGizmos .ShowcaseResizeGizmo {
     border: 2px solid gismoHighlightColor;
     background-color: #ffffffff;
     width: ShowcaseContents_GizmoSize;
     height: ShowcaseContents_GizmoSize;
     border-radius: 2px;
-    box-shadow: 0px 2px 8px rgba (0, 0, 0, 0.6);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
 }
+
 #ShowcaseGizmos .ShowcaseResizeGizmo:hover {
     border: 2px solid white;
     background-color: gismoHighlightColor;
     brightness: 1.5;
 }
+
 #ShowcaseGizmos #ShowcaseRotationGizmo {
     border: 1px solid gismoHighlightColor;
     background-color: #ffffffff;
@@ -158,6 +168,7 @@ DOTAShowcasePage .HeaderTopShadow {
     border-radius: 50%;
     visibility: collapse;
 }
+
 #ShowcaseGridLines {
     opacity: 0;
     transition-property: opacity;
@@ -165,6 +176,7 @@ DOTAShowcasePage .HeaderTopShadow {
     wash-color: #808080;
     background-color: black;
 }
+
 .IsEditing.GridSnap #ShowcaseGridLines {
     opacity: 0.7;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPFall2021HomePage {
     width: 100%;
     height: 100%;
@@ -26,12 +28,10 @@ DOTABPFall2021HomePage {
     width: 600px;
     margin-top: 0px;
     transform: skew(12deg) translateX(-110px) translateY(-70px);
-
     z-index: -1;
     box-shadow: 0 0 12px #000a;
     border: 1px solid #ffffff18;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#a290ff), to(#6344ff));
-
     height: 100%;
     width: 600px;
     margin-top: 126px;
@@ -53,7 +53,6 @@ DOTABPFall2021HomePage {
     padding-top: 124px;
     height: 758px;
     overflow: noclip;
-
     margin-top: 40px;
     transition-property: transform;
     transition-duration: 0.32s;
@@ -284,7 +283,6 @@ DOTABPFall2021HomePage {
     height: 400px;
     vertical-align: bottom;
     horizontal-align: right;
-
     width: 50%;
     height: 382px;
     vertical-align: bottom;
@@ -308,7 +306,6 @@ DOTAEventLevelShield #LevelLabel {
 .FeaturedHitBox {
     width: 300px;
     height: 700px;
-
     horizontal-align: center;
     vertical-align: middle;
     z-index: 3;
@@ -383,6 +380,7 @@ DOTAEventLevelShield #LevelLabel {
     transition-duration: 0.12s, 0.52s;
     transition-timing-function: ease-in-out;
 }
+
 .AspectRatio21x9 #PersonaGlow {
     transform: translateY(316px) translateX(60px);
 }
@@ -407,18 +405,14 @@ DOTAEventLevelShield #LevelLabel {
     width: 560px;
     height: 500px;
     pre-transform-scale2d: 2;
-
     width: 280px;
     height: 250px;
     pre-transform-scale2d: 4;
-
     horizontal-align: center;
     transform: translateX(-200px) translateY(165px);
-
     transform: translateX(20px) translateY(316px);
     brightness: 24;
     wash-color: secondaryColor;
-
     z-index: -2;
     wash-color: #fc3164;
     blur: gaussian(1px);
@@ -650,7 +644,6 @@ DOTAEventLevelShield {
     vertical-align: top;
     margin-right: 2px;
     margin-top: 4px;
-
     color: white;
 }
 
@@ -675,7 +668,6 @@ DOTAEventLevelShield {
     font-weight: normal;
     letter-spacing: 1px;
     text-shadow: 1px 1px 2px 2 #000000;
-
     vertical-align: middle;
 }
 
@@ -684,7 +676,6 @@ DOTAEventLevelShield {
     brightness: 2;
     img-shadow: 0px 3px 6px 3 #000000;
     box-shadow: 0px 0px 30px #3042aaa9;
-
     transition-property: transform, brightness, img-shadow, box-shadow;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -706,10 +697,8 @@ DOTAEventLevelShield {
 
 #GiftProgressBar {
     flow-children: right;
-
     horizontal-align: center;
     vertical-align: middle;
-
     padding: 4px 4px;
 }
 
@@ -728,11 +717,9 @@ DOTAEventLevelShield {
 
 #GiftBattlePassButton {
     visibility: collapse;
-
     margin-left: 45px;
     margin-top: 4px;
     margin-bottom: 4px;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#7062b342), to(#392e7a42));
     border: 1px solid white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#a290ff), to(#6344ff));
@@ -743,7 +730,6 @@ DOTAEventLevelShield {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#6344ff), to(#6344ff));
     box-shadow: #5c3cff73 0px 0px 15px 0px;
     transform: translateY(-2px);
-
     transition-property: brightness, background-color, box-shadow, transform;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -769,9 +755,7 @@ DOTAEventLevelShield {
 
 .CurrentSeason.Season_Fall2021.GlobalEventPurchasable #GiftBattlePassButton Label {
     padding: 7px 15px 7px 15px;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#7062b342), to(#392e7a42));
-
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 13px;
@@ -842,7 +826,6 @@ DOTAEventLevelShield {
     padding: 0px 6px;
     vertical-align: bottom;
     margin-bottom: 11px;
-
     flow-children: right;
 }
 
@@ -861,7 +844,6 @@ DOTAEventLevelShield {
     color: #9a83ff;
     font-size: 14px;
     font-weight: bold;
-
     vertical-align: middle;
 }
 
@@ -876,6 +858,7 @@ DOTAEventLevelShield {
     min-width: 45px;
     min-height: 40px;
 }
+
 .BigDeal .RewardLevel > Label {
     width: 100%;
     text-align: center;
@@ -940,7 +923,6 @@ DOTAEventLevelShield {
     visibility: collapse;
     border-radius: 0px;
     height: 35px;
-
     background-image: none;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#6344ff), to(#6344ff));
     border: 1px solid white;
@@ -958,7 +940,6 @@ DOTAEventLevelShield {
 #UnclaimedButton.BattlePassButton Label {
     vertical-align: middle;
     padding-top: 0px;
-
     font-family: radiance;
     font-weight: normal;
     letter-spacing: 1px;
@@ -976,7 +957,6 @@ DOTAEventLevelShield {
     padding: 1px 0px;
     vertical-align: bottom;
     margin-bottom: 6px;
-
     border-bottom: 1px solid #9a83ff80;
     transition-property: brightness, transform, background-color;
     transition-duration: 0.21s;
@@ -989,7 +969,6 @@ DOTAEventLevelShield {
     font-weight: semi-bold;
     text-decoration: none;
     letter-spacing: 2px;
-
     vertical-align: middle;
 }
 
@@ -997,7 +976,6 @@ DOTAEventLevelShield {
     brightness: 3;
     transform: translateY(-2px);
     background-color: gradient(linear, 0% 25%, 0% 100%, from(#5c3cff00), to(#5c3cff2c));
-
     transition-property: brightness, transform, background-color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1006,7 +984,6 @@ DOTAEventLevelShield {
 #GiftAndRemaining {
     flow-children: right;
     width: 436px;
-
     horizontal-align: left;
     vertical-align: middle;
 }
@@ -1014,14 +991,12 @@ DOTAEventLevelShield {
 #TimeLeft {
     flow-children: down;
     horizontal-align: right;
-
     visibility: collapse;
 }
 
 .EventActive #TimeLeft {
     flow-children: down;
     horizontal-align: right;
-
     visibility: collapse;
 }
 
@@ -1055,7 +1030,6 @@ DOTAEventLevelShield {
     color: #b1bfff;
     text-shadow: 0px 1px 1px 2 #000000;
     text-align: right;
-
     margin-left: 20px;
 }
 
@@ -1132,27 +1106,33 @@ DOTAEventLevelShield {
     background-color: rgb(158, 55, 55);
     animation-name: Section3Highlight;
 }
+
 @keyframes 'Section1Highlight' {
     0% {
         brightness: 1;
         saturation: 2;
     }
+
     33.32% {
         brightness: 1;
         saturation: 2;
     }
+
     33.33% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     66.66% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     66.67% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     100% {
         brightness: 0.15;
         saturation: 0.5;
@@ -1164,22 +1144,27 @@ DOTAEventLevelShield {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     33.32% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     33.33% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     66.66% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     66.67% {
         brightness: 1;
         saturation: 2;
     }
+
     100% {
         brightness: 1;
         saturation: 2;
@@ -1191,22 +1176,27 @@ DOTAEventLevelShield {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     33.32% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     33.33% {
         brightness: 1;
         saturation: 2;
     }
+
     66.66% {
         brightness: 1;
         saturation: 2;
     }
+
     66.67% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     100% {
         brightness: 0.15;
         saturation: 0.5;

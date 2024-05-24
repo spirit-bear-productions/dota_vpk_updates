@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     width: 1040px;
     height: 560px;
@@ -11,7 +13,6 @@
     border: 2px solid white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.02)), to(rgba(255, 255, 255, 0.01)));
     box-shadow: 0px 24px 88px rgba(0, 0, 0, 0.5);
-
     background-image: url("s2r://panorama/images/battlepass/international2022/ti_bundle_sale_2_psd.vtex");
     background-size: cover;
 }
@@ -36,6 +37,7 @@
     width: 100%;
     margin: 48px;
 }
+
 #Contents Label {
     horizontal-align: center;
     text-align: center;
@@ -64,6 +66,7 @@
     font-size: 20px;
     margin: 0px 40px 40px;
 }
+
 .Description b {
     font-weight: semi-bold;
     color: whitesmoke;
@@ -85,6 +88,7 @@
     letter-spacing: 1px;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
+
 #SecondaryButton:hover {
     color: whitesmoke;
 }
@@ -137,9 +141,7 @@
 
 .PurchaseButton .PurchaseLabel {
     padding: 8px 6px 8px 12px;
-
     min-width: 180px;
-
     text-align: center;
     font-weight: semi-bold;
     text-overflow: shrink;

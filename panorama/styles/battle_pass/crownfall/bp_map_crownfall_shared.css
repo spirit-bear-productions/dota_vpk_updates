@@ -1,20 +1,19 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .ChapterInfoContainer {
     flow-children: down;
-
     transition-property: opacity;
     transition-duration: 1s;
     transition-delay: 0.5s;
-
     visibility: collapse;
-
     padding: 8px;
     padding-left: 12px;
     padding-right: 6px;
     background-color: rgba(25, 17, 34, 0.7);
-
     border-radius: 16px;
     opacity: 0;
 }
+
 .ShowingIntro .ChapterInfoContainer {
     opacity: 0;
 }
@@ -50,12 +49,15 @@
     0% {
         pre-transform-scale2d: 1;
     }
+
     25% {
         pre-transform-scale2d: 0.98;
     }
+
     75% {
         pre-transform-scale2d: 1.02;
     }
+
     100% {
         pre-transform-scale2d: 1;
     }
@@ -67,6 +69,7 @@
     background-size: 100% 100%;
     texture-sampling: point;
 }
+
 .PremiumRope:hover {
     brightness: 1.5;
     animation-name: ClickMePulse;

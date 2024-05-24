@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTASharedContent {
     margin-left: 10px;
     horizontal-align: left;
@@ -7,16 +9,12 @@ DOTASharedContent {
     height: 100%;
     background-image: url("s2r://panorama/images/hud/reborn/bg_scoreboard_psd.vtex");
     background-size: cover;
-
     opacity: 0;
     visibility: collapse;
-
     padding: 12px;
     padding-left: 16px;
-
     background-color: #000000ff;
     box-shadow: #00000000 0px 0px 8px 0px;
-
     transform: translateX(0);
     transition-property: position, transform, opacity, box-shadow;
     transition-duration: 0.18s;

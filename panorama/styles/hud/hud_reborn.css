@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHud {
     width: 100%;
     height: 100%;
@@ -17,7 +19,6 @@ DOTACustomUIRoot {
 #HUDElements {
     width: 100%;
     height: 100%;
-
     visibility: collapse;
 }
 
@@ -49,7 +50,6 @@ DOTAHud.IsInGame:not(.IsBeforeGameplay) #HUDElements {
 
 #NetGraph {
     margin-bottom: 0px;
-
     horizontal-align: right;
     vertical-align: top;
 }
@@ -59,9 +59,7 @@ DOTAHud.IsInGame:not(.IsBeforeGameplay) #HUDElements {
     vertical-align: bottom;
     visibility: collapse;
     width: 100%;
-
     z-index: 2;
-
     transform: translateY(0px);
     transition-property: transform;
     transition-duration: 0s;
@@ -138,7 +136,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     height: 768px;
     horizontal-align: center;
     vertical-align: middle;
-
     opacity: 0.5;
     opacity-mask: url("s2r://panorama/images/masks/overlaymap_mask_png.vtex") 1;
 }
@@ -169,6 +166,7 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     max-width: 210px;
     text-overflow: shrink;
 }
+
 .DotaLabsLogoContainer .DotaLogoLogoLabel b {
     color: gradient(linear, 0% 10%, 0% 100%, from(#21d6e7), color-stop(0.5, #34ade4), to(#4364ad));
     font-weight: semi-bold;
@@ -230,7 +228,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     margin-right: -10px;
     margin-top: -50px;
     brightness: 0.4;
-
     overflow: noclip;
     background-size: 100%;
     vertical-align: top;
@@ -247,17 +244,21 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     width: 296px;
     height: 296px;
 }
+
 .MinimapExtraLarge #minimap_block {
     width: 280px;
     height: 280px;
 }
+
 .MinimapExtraLarge #GlyphScanContainer {
     margin-left: 280px;
 }
+
 .MinimapExtraLarge #HUDSkinMinimap {
     width: 305px;
     height: 356px;
 }
+
 .MinimapExtraLarge #RoshanTimerContainer {
     margin-left: 280px;
 }
@@ -266,17 +267,21 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     width: 444px;
     height: 444px;
 }
+
 .MinimapExtraExtraLarge #minimap_block {
     width: 420px;
     height: 420px;
 }
+
 .MinimapExtraExtraLarge #GlyphScanContainer {
     margin-left: 420px;
 }
+
 .MinimapExtraExtraLarge #HUDSkinMinimap {
     width: 458px;
     height: 534px;
 }
+
 .MinimapExtraExtraLarge #RoshanTimerContainer {
     margin-left: 420px;
 }
@@ -364,7 +369,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     animation-name: DeathHUDPulse;
     animation-duration: 1.2s;
     animation-timing-function: linear;
-
     animation-iteration-count: 1;
     brightness: 1;
     saturation: 1;
@@ -385,11 +389,9 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     opacity: 0;
     z-index: 3;
     vertical-align: bottom;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
-
     z-index: 900;
 }
 
@@ -443,14 +445,11 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 #center_bg {
     width: 100%;
     height: 145px;
-
     margin-left: 210px;
     margin-right: 254px;
-
     transition-duration: 0.05s;
     transition-property: background-image;
     transition-timing-function: ease-in-out;
-
     background-image: url("s2r://panorama/images/hud/reborn/ability_bg_psd.vtex");
     background-size: 100%;
     vertical-align: bottom;
@@ -957,12 +956,10 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     width: 133px;
     height: 145px;
     background-image: url("s2r://panorama/images/hud/reborn/streaks/killstreak_style3_portrait_psd.vtex");
-
     z-index: 10;
     margin-left: -6px;
     margin-top: -4px;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.3s;
 }
@@ -1006,12 +1003,10 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     blur: gaussian(0);
     animation-name: none;
     animation-duration: 0.92s;
-
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
     transition-property: blur;
     transition-duration: 0.02s;
-
     transform: translateY(0px) translateX(-10px);
 }
 
@@ -1087,17 +1082,14 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     background-image: url("s2r://panorama/images/hud/portrait_silenced_png.vtex");
     background-size: 100%;
     background-position: 50%;
-
     horizontal-align: center;
     vertical-align: middle;
     opacity: 0;
     pre-transform-scale2d: 0.15;
     z-index: 4;
-
     transition-property: opacity, pre-transform-scale2d;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     animation-name: SilenceTaunt;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -1133,17 +1125,14 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     background-image: url("s2r://panorama/images/hud/portrait_muted_png.vtex");
     background-size: 100%;
     background-position: 50%;
-
     horizontal-align: center;
     vertical-align: middle;
     opacity: 0;
     pre-transform-scale2d: 0.15;
     z-index: 4;
-
     transition-property: opacity, pre-transform-scale2d;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     animation-name: SilenceTaunt;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -1177,12 +1166,10 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 #StatBranch {
     width: 62px;
     height: 62px;
-
     vertical-align: bottom;
     margin-bottom: 26px;
     margin-left: 0px;
     margin-right: 4px;
-
     z-index: 3;
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
@@ -1231,9 +1218,7 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 #StatBranchChannel {
     width: 100%;
     height: 78px;
-
     vertical-align: top;
-
     horizontal-align: center;
     overflow: noclip;
     z-index: 21;
@@ -1292,9 +1277,7 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     height: 3px;
     height: 6px;
     vertical-align: middle;
-
     visibility: collapse;
-
     border-radius: 1px;
     background-color: none;
     box-shadow: none;
@@ -1314,12 +1297,10 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 .StatBranchPip {
     width: 62px;
     height: 62px;
-
     background-image: url("s2r://panorama/images/hud/reborn/statbranch_pip_psd.vtex");
     background-size: 100%;
     background-repeat: no-repeat;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0s;
     transition-timing-function: ease-in-out;
@@ -1401,7 +1382,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 #level_stats_frame {
     margin-left: 216px;
     vertical-align: bottom;
-
     width: 68px;
     height: 232px;
     z-index: 3;
@@ -1415,6 +1395,7 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     margin-left: -20px;
     visibility: visible;
 }
+
 #xp.ShowLifetimeBar {
     margin-left: -5px;
 }
@@ -1426,9 +1407,7 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     margin-bottom: 145px;
     vertical-align: bottom;
     z-index: 3;
-
     padding: 4px 10px;
-
     visibility: collapse;
 }
 
@@ -1471,11 +1450,9 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     width: 159px;
     height: 18px;
     margin-left: 52px;
-
     margin-bottom: 157px;
     margin-bottom: 126px;
     margin-bottom: 145px;
-
     vertical-align: bottom;
     z-index: 3;
     transition-property: opacity;
@@ -1495,41 +1472,44 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     vertical-align: bottom;
     margin-bottom: 128px;
     margin-left: 25px;
-
     visibility: collapse;
 }
+
 .CustomHUDSkin #PortraitHeroBadge {
     visibility: visible;
 }
 
 #PortraitHeroBadgeOverlay {
     vertical-align: bottom;
-
     width: 182px;
     height: 61px;
-
     margin-bottom: 105px;
     margin-left: 29px;
-
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
 }
+
 #unitbadge.BronzeTier #PortraitHeroBadgeOverlay {
     background-image: url("s2r://panorama/images/hud/portrait_hero_badge_frame_tier_1_psd.vtex");
 }
+
 #unitbadge.SilverTier #PortraitHeroBadgeOverlay {
     background-image: url("s2r://panorama/images/hud/portrait_hero_badge_frame_tier_2_psd.vtex");
 }
+
 #unitbadge.GoldTier #PortraitHeroBadgeOverlay {
     background-image: url("s2r://panorama/images/hud/portrait_hero_badge_frame_tier_3_psd.vtex");
 }
+
 #unitbadge.PlatinumTier #PortraitHeroBadgeOverlay {
     background-image: url("s2r://panorama/images/hud/portrait_hero_badge_frame_tier_4_psd.vtex");
 }
+
 #unitbadge.MasterTier #PortraitHeroBadgeOverlay {
     background-image: url("s2r://panorama/images/hud/portrait_hero_badge_frame_tier_5_psd.vtex");
 }
+
 #unitbadge.GrandmasterTier #PortraitHeroBadgeOverlay {
     background-image: url("s2r://panorama/images/hud/portrait_hero_badge_frame_tier_6_psd.vtex");
 }
@@ -1552,19 +1532,14 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     horizontal-align: center;
     flow-children: down;
     flow-children: none;
-
     background-color: #00000000;
-
     margin-bottom: 132px;
     margin-bottom: 112px;
     margin-bottom: 122px;
     margin-bottom: 0px;
-
     margin-left: 484px;
     margin-left: 434px;
-
     height: 176px;
-
     transition-property: transform, opacity, background-color;
     transition-duration: 0.12s;
     transition-timing-function: ease-in-out;
@@ -1733,7 +1708,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 #health_mana {
     vertical-align: bottom;
     width: 100%;
-
     margin-right: 40px;
 }
 
@@ -1745,7 +1719,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     vertical-align: bottom;
     horizontal-align: center;
     min-width: 321px;
-
     margin-right: 302px;
 }
 
@@ -1898,7 +1871,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     horizontal-align: right;
     height: 145px;
     width: 202px;
-
     margin-right: 93px;
 }
 
@@ -1914,7 +1886,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     margin-bottom: 56px;
     vertical-align: top;
     width: 770px;
-
     transform: translateX(0px);
 }
 
@@ -1980,14 +1951,12 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 #quickbuy {
     margin-right: 0px;
     width: 292px;
-
     horizontal-align: right;
     vertical-align: bottom;
 }
 
 #spectator_dvr {
     width: 960px;
-
     horizontal-align: center;
     vertical-align: bottom;
     opacity: 0;
@@ -2062,7 +2031,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 }
 
 @define toastExitDuration: 0.3s;
-
 #PredictionToastManager {
     margin-top: 450px;
     height: fit-children;
@@ -2073,7 +2041,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 #PredictionToastManager > .ToastPanel {
     opacity: 0;
     transform: translateX(-40px);
-
     transition-property: position, opacity, transform;
     transition-duration: toastExitDuration;
 }
@@ -2097,7 +2064,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 .BroadcastToastManager > .ToastPanel {
     opacity: 0;
     transform: translateX(450px);
-
     transition-property: position, opacity, transform;
     transition-duration: 0.2s;
 }
@@ -2131,7 +2097,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     opacity: 0;
     transform: translateX(198px);
     horizontal-align: right;
-
     transition-property: position, opacity, transform;
     transition-duration: 0.3s;
 }
@@ -2182,7 +2147,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     margin-left: 6px;
     margin-top: 108px;
     z-index: -1;
-
     overflow: noclip;
 }
 
@@ -2235,7 +2199,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     height: 260px;
     transform: translateY(25px) translateX(-14px);
     visibility: collapse;
-
     background-size: 100%;
     vertical-align: bottom;
     z-index: 3;
@@ -2271,10 +2234,8 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     height: 145px;
     margin-left: 211px;
     vertical-align: bottom;
-
     visibility: collapse;
     overflow: clip;
-
     background-size: 230% 148%;
     background-position: 0% -63px;
     z-index: -1;
@@ -2428,7 +2389,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     height: 10px;
     vertical-align: bottom;
     horizontal-align: center;
-
     margin-bottom: 36px;
     margin-left: 120px;
 }
@@ -2502,14 +2462,12 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     horizontal-align: right;
     margin-right: 255px;
     z-index: 800;
-
     margin-right: 295px;
 }
 
 #death_panel_buyback {
     width: 159px;
     margin-left: 52px;
-
     z-index: 1000;
 }
 
@@ -2519,7 +2477,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     vertical-align: bottom;
     margin-left: 218px;
     margin-bottom: 76px;
-
     z-index: 5;
     visibility: collapse;
 }
@@ -2583,7 +2540,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     vertical-align: bottom;
     horizontal-align: right;
     padding: 2px;
-
     margin-bottom: 9px;
 }
 
@@ -2657,10 +2613,8 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
-
     vertical-align: bottom;
     horizontal-align: right;
-
     margin-right: 0px;
     margin-bottom: -6px;
     text-shadow: 0px 0px 3px 4 #000000;
@@ -2676,10 +2630,8 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
-
     vertical-align: bottom;
     horizontal-align: right;
-
     margin-right: 0px;
     margin-bottom: -6px;
     text-shadow: 0px 0px 3px 4 #000000;
@@ -2708,7 +2660,6 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     horizontal-align: right;
     margin-right: 75px;
     width: 195px;
-
     margin-right: 95px;
 }
 

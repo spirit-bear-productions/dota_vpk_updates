@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroPickTimeline {
     visibility: collapse;
 }
@@ -163,7 +165,6 @@ DOTAHeroPickTimeline {
     background-color: #ffffff00;
     vertical-align: center;
     opacity: 1;
-
     horizontal-align: center;
 }
 
@@ -196,7 +197,6 @@ DOTAHeroPickTimeline {
     opacity: 1;
     horizontal-align: center;
     vertical-align: center;
-
     transition-property: background-image;
     transition-duration: 0.24s;
 }

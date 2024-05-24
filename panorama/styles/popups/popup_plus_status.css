@@ -1,6 +1,7 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupPlusStatus.PopupPanel {
     padding: 0px;
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,6 +99,7 @@ PopupPlusStatus.PopupPanel.Hidden {
     width: 100%;
     visibility: collapse;
 }
+
 .Welcome #PlusWelcomeContents {
     visibility: visible;
 }
@@ -154,7 +156,6 @@ PopupPlusStatus.PopupPanel.Hidden {
     margin: 20px 0px;
     padding: 15px 20px;
     background-color: #00000050;
-
     vertical-align: bottom;
     border-top: 2px solid dotaPlusGold;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDLevelStatsFrame {
     visibility: collapse;
     flow-children: none;
@@ -6,7 +8,6 @@ DOTAHUDLevelStatsFrame {
 DOTAHUDLevelStatsFrame.SkillUpgradable,
 DOTAHUDLevelStatsFrame.CanLevelStats {
     visibility: visible;
-
     padding-left: 1px;
     padding-right: 1px;
     padding-bottom: 1px;
@@ -35,15 +36,11 @@ DOTAHUDLevelStatsFrame.SkillUpgradable:not(.CanLevelStats) #LevelUpBurstFX {
 #LevelUpTab {
     width: 100%;
     height: 156px;
-
     margin-left: 0px;
     margin-right: 2px;
-
     margin-bottom: 22px;
     vertical-align: bottom;
-
     opacity: 1;
-
     z-index: 2;
     transition-property: opacity, brightness;
     transition-timing-function: ease-in-out;
@@ -62,19 +59,15 @@ DOTAHUDLevelStatsFrame.SkillUpgradable:not(.CanLevelStats) #LevelUpBurstFX {
 #LevelUpButton {
     width: 100%;
     height: 36px;
-
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_1_psd.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     transition-property: opacity, brightness, pre-transform-scale2d;
     transition-timing-function: ease-in-out;
     transition-duration: 0.12s;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     margin-bottom: -4px;
 }
 
@@ -116,23 +109,18 @@ DOTAHUDLevelStatsFrame.SkillUpgradable:not(.CanLevelStats) #LevelUpBurstFX {
 #LevelUpGlow {
     width: 62px;
     height: 62px;
-
     margin-top: 94px;
     horizontal-align: center;
     margin-left: 0px;
-
     vertical-align: top;
     background-image: url("s2r://panorama/images/hud/reborn/statbranch_button_lvlup_psd.vtex");
     background-size: 100% 100%;
-
     background-position: 50% 50%;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
     brightness: 1.5;
-
     animation-name: OpacityPulse;
     animation-duration: 0.82s;
     animation-iteration-count: infinite;
@@ -157,17 +145,13 @@ DOTAHUDLevelStatsFrame.SkillUpgradable:not(.CanLevelStats) #LevelUpBurstFX {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_stat_button_learnmode_psd.vtex");
     height: 92px;
     width: 72px;
-
     horizontal-align: center;
     margin-top: 14px;
     z-index: 6;
-
     background-size: 100% 100%;
     background-position: 100% 100%;
     background-repeat: no-repeat;
-
     opacity: 0;
-
     transition-property: opacity, brightness, pre-transform-scale2d;
     transition-timing-function: ease-in-out;
     transition-duration: 0.12s;

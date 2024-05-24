@@ -1,19 +1,18 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupPredictionResult {
     width: 560px;
     height: 400px;
     vertical-align: center;
     horizontal-align: center;
     flow-children: down;
-
     box-shadow: fill #224a5222 0px 0px 20px 0px;
     background-color: #1b1b1bcc;
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#000000bb), to(#1b1b1baa));
     border-top: 1px solid #ffffff06;
     border-left: 1px solid #ffffff04;
     border-right: 1px solid #ffffff02;
-
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in;
@@ -129,7 +128,6 @@ DOTAPopupPredictionResult.Hidden {
     height: 92px;
     overflow: noclip;
     vertical-align: center;
-
     transition-property: background-image;
     transition-duration: 0.5s;
 }
@@ -152,7 +150,6 @@ DOTAPopupPredictionResult.Hidden {
     border-left: 1px solid #000000;
     background-color: #1b1b1b;
     box-shadow: inset 5px -1px 12px 0px #000000bb;
-
     transition-property: background-color;
     transition-duration: 0.5s;
 }
@@ -188,15 +185,12 @@ DOTAPopupPredictionResult.Hidden {
     padding: 30px;
     padding-top: 2px;
     padding-bottom: 2px;
-
     horizontal-align: center;
     vertical-align: bottom;
-
     margin-top: 20px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 20px;
-
     transition-property: opacity, transform;
     transition-delay: 0s;
     transition-duration: 0.5s;

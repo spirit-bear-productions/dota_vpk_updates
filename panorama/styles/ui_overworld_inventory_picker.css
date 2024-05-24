@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAUIOverworldInventoryPicker {
     flow-children: down;
     width: 100%;
@@ -17,6 +19,7 @@ DOTAUIOverworldInventoryPicker {
     vertical-align: center;
     flow-children: right-wrap;
 }
+
 #ItemList DOTACrownfallToken {
     ui-scale: 200%;
     margin: -16px;
@@ -33,7 +36,6 @@ DOTAUIOverworldInventoryPicker {
     width: 100%;
     text-align: center;
     text-shadow: 0px 2px 8px black;
-
     border-bottom: 1px solid rgba(204, 235, 255, 0.059);
     border-brush: gradient(
         linear,
@@ -68,6 +70,7 @@ DOTAUIOverworldInventoryPicker {
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.1s;
 }
+
 .NoTokensLabel:hover {
     pre-transform-scale2d: 1.01;
 }

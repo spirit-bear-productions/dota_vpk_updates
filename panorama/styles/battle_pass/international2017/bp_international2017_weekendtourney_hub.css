@@ -1,10 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #WeekendTourneyHubContent {
     width: 1392px;
     height: 100%;
     horizontal-align: center;
     margin-top: 16px;
     margin-bottom: 16px;
-
     flow-children: right;
 }
 
@@ -32,7 +33,6 @@
     font-weight: bold;
     letter-spacing: 3px;
     margin-top: -20px;
-
     color: gradient(linear, 100% 0%, 0% 0%, from(#f0cf84), to(#c29339));
 }
 
@@ -45,7 +45,6 @@
 
 .OverviewTextDescription {
     font-size: 16px;
-
     text-transform: uppercase;
     color: #777;
 }
@@ -158,6 +157,7 @@
     margin-bottom: 12px;
     margin-top: -4px;
 }
+
 #DivisionBlockHeader {
     text-transform: uppercase;
 }
@@ -222,6 +222,7 @@
     padding-left: 12px;
     line-height: 26px;
 }
+
 #TimeRemainingSoonHeader {
     color: white;
     font-size: 24px;
@@ -266,14 +267,12 @@
 .ContentBlock {
     background-color: #161616;
     background-color: #191919aa;
-
     border: BRD;
 }
 
 #BattleCupStatsBlock {
     background-image: url("s2r://panorama/images/compendium/winter/bc_hub_backer_psd.vtex");
     background-size: 100% 100%;
-
     height: 100%;
     width: 688px;
     flow-children: right;
@@ -288,12 +287,14 @@
     width: 100%;
     flow-children: right;
 }
+
 #RecentTournamentsBlock {
     height: 100%;
     width: 336px;
     margin-left: 16px;
     padding: 16px;
 }
+
 #NoRecentTournamentsLabel,
 #NoLeaderboardDataLabel {
     width: 100%;
@@ -306,6 +307,7 @@
 .NoLeaderboardData #LeaderList {
     visibility: collapse;
 }
+
 .NoRecentTournaments #NoRecentTournamentsLabel,
 .NoLeaderboardData #NoLeaderboardDataLabel {
     visibility: visible;
@@ -321,12 +323,14 @@
     margin-top: 16px;
     border: BRD;
 }
+
 #FriendsLeaderboardPanel {
     width: 688px;
     height: 100%;
     margin-left: 16px;
     margin-top: 16px;
 }
+
 #RulesBlock {
     width: 100%;
     height: 108px;
@@ -334,6 +338,7 @@
     padding: 16px;
     margin-bottom: 16px;
 }
+
 #ScheduleBlock {
     width: 100%;
     height: 612px;
@@ -410,6 +415,7 @@
     transition-property: brightness, background-color;
     transition-duration: 0.1s;
 }
+
 #ChangeDivisionButton:hover {
     brightness: 2;
     background-color: #060606;
@@ -441,6 +447,7 @@
     height: fit-children;
     flow-children: down;
 }
+
 #ThisWeekBlock {
     margin-top: 4px;
     width: 300px;
@@ -448,11 +455,13 @@
     flow-children: down;
     visibility: collapse;
 }
+
 #LastWeekTable,
 #ThisWeekTable {
     flow-children: down;
     width: 100%;
 }
+
 .LastWeekTableRow,
 .ThisWeekTableRow {
     flow-children: right;
@@ -462,6 +471,7 @@
     padding-top: 5px;
     padding-bottom: 2px;
 }
+
 .LastWeekTableRowDark {
     flow-children: right;
     width: 100%;
@@ -471,6 +481,7 @@
     padding-bottom: 2px;
     background-color: #00000055;
 }
+
 .ThisWeekTableRowDark {
     flow-children: right;
     width: 100%;
@@ -480,6 +491,7 @@
     padding-bottom: 2px;
     background-color: #ffdd9b06;
 }
+
 .LastWeekTableLabel {
     font-size: 16px;
     letter-spacing: 1px;
@@ -524,24 +536,18 @@
 DropDown,
 DOTASettingsEnumDropDown {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#292e2e), to(#191e1e));
-
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
-
     background-repeat: no-repeat;
     background-position: right 20px 30%;
     background-size: 15px 15px;
     box-shadow: #00000055 0px 0px 1px 3px;
-
     wash-color: #bca16d;
-
     border: 2px solid #5e686966;
-
     font-size: 24px;
     width: 320px;
     height: 41px;
     padding: 4px 8px;
     z-index: 1;
-
     transition-property: background-color, border;
     transition-duration: 0.15s;
     transition-timing-function: linear;
@@ -557,7 +563,6 @@ DOTASettingsEnumDropDown Label {
     width: 100%;
     margin: 0px 20px 0px 0px;
     font-size: 18px;
-
     transition-property: color;
     transition-duration: 0.15s;
     transition-timing-function: linear;
@@ -573,11 +578,9 @@ DropDownMenu {
     z-index: 0;
     transform: translateY(-40px);
     opacity: 0;
-
     transition-property: opacity, transform;
     transition-duration: 0.15s;
     transition-timing-function: ease-in;
-
     box-shadow: fill #00000066 0px 0px 6px 0px;
 }
 
@@ -588,16 +591,13 @@ DropDownMenu Label {
     margin-right: 0px;
     margin-left: 0px;
     padding-left: 16px;
-
     color: #ffffff99;
     background-color: #3d4448;
-
     font-size: 18px;
     font-weight: normal;
     z-index: 0;
     border-top: 1px solid #00000066;
     border-bottom: 1px solid #00000066;
-
     transition-property: background-color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -670,6 +670,7 @@ DropDownMenu Label {
     background-color: #00000055;
     width: 100%;
 }
+
 .LastWeekTableData,
 .ThisWeekTableData {
     text-align: right;
@@ -685,7 +686,6 @@ DropDownMenu Label {
 
 #MapPreview {
     width: 100%;
-
     horizontal-align: center;
     vertical-align: middle;
 }
@@ -709,15 +709,14 @@ DropDownMenu Label {
     width: 100%;
     height: 100%;
 }
+
 #MapBG {
     width: 338px;
     height: 354px;
-
     background-image: url("s2r://panorama/images/textures/dotamap683_psd.vtex");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 110%;
-
     saturation: 0;
     wash-color: #000000aa;
 }
@@ -738,12 +737,14 @@ DropDownMenu Label {
     vertical-align: middle;
     margin-left: 8px;
 }
+
 #BattleCupStatsMyInfo {
     width: 100%;
     height: 60px;
     flow-children: right;
     background-color: black;
 }
+
 #BattleCupStatsTableContainer {
     background-color: #00000055;
     width: 300px;
@@ -764,6 +765,7 @@ DropDownMenu Label {
     margin-right: 12px;
     visibility: collapse;
 }
+
 .StatsTableData {
     width: 100%;
     text-align: center;
@@ -773,6 +775,7 @@ DropDownMenu Label {
     background-color: #2a2a29;
     padding-top: 2px;
 }
+
 .StatsTableDataMain {
     width: 100%;
     text-align: center;
@@ -784,17 +787,21 @@ DropDownMenu Label {
     padding-top: 4px;
     font-size: 28px;
 }
+
 #LeaderboardHeaderRow {
     flow-children: right;
     width: 100%;
 }
+
 #LeaderBoardHeaderRow2 {
     text-align: right;
     width: 100%;
 }
+
 #RecentTournamentsBlock {
     flow-children: down;
 }
+
 #TournamentDate {
     flow-children: right;
     height: 30px;
@@ -804,6 +811,7 @@ DropDownMenu Label {
     margin-right: 14px;
     margin-bottom: 2px;
 }
+
 .TournamentDateLabel {
     color: #999999;
     font-size: 16px;
@@ -812,27 +820,33 @@ DropDownMenu Label {
     padding-left: 8px;
     padding-top: 3px;
 }
+
 #YourRoster {
     flow-children: down;
 }
+
 #YourResult {
     flow-children: down;
 }
+
 .TierContainer {
     horizontal-align: right;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#925b1f), to(#a27e37));
     width: 24px;
 }
+
 #TierContainerLabel {
     color: white;
     text-align: center;
     horizontal-align: center;
     margin-top: 2px;
 }
+
 #PlayerList {
     flow-children: right;
     padding-left: 12px;
 }
+
 .ResultFinal .Champion,
 .ResultFinal .Semifinals,
 .ResultFinal .Quarterfinals {
@@ -844,6 +858,7 @@ DropDownMenu Label {
 .ResultSemiFinal .Quarterfinals {
     visibility: collapse;
 }
+
 .Eliminated .Champion,
 .Eliminated .Semifinals,
 .Eliminated .Finals {
@@ -853,17 +868,20 @@ DropDownMenu Label {
 .ResultChampion .Champion {
     visibility: visible;
 }
+
 .ResultChampion .Eliminated,
 .ResultChampion .Finals,
 .ResultChampion .Semifinals,
 .ResultChampion .QuarterFinals {
     visibility: collapse;
 }
+
 .TeamPlayer {
     width: 44px;
     height: 44px;
     margin-right: 4px;
 }
+
 #RosterLabel {
     font-size: 16px;
     letter-spacing: 1px;
@@ -871,6 +889,7 @@ DropDownMenu Label {
     color: #6c6c6c;
     padding-left: 12px;
 }
+
 #RecentTournaments #EliminatedLabel {
     font-size: 16px;
     letter-spacing: 1px;
@@ -879,6 +898,7 @@ DropDownMenu Label {
     padding-left: 12px;
     padding-top: 16px;
 }
+
 #BattleCupTitle {
     color: white;
     text-transform: uppercase;
@@ -887,6 +907,7 @@ DropDownMenu Label {
     letter-spacing: 2px;
     margin-top: -10px;
 }
+
 #SeasonTitle {
     color: #e7bf70;
     color: gradient(linear, 0% 0%, 100% 100%, from(#e9be6f77), to(#f0cf84));
@@ -897,6 +918,7 @@ DropDownMenu Label {
     letter-spacing: 1px;
     margin-left: 1px;
 }
+
 .SectionTitle {
     color: #999999;
     font-size: 20px;
@@ -911,6 +933,7 @@ DropDownMenu Label {
     margin-left: 16px;
     margin-top: 16px;
 }
+
 #WatchTier {
     text-transform: uppercase;
     color: #e7bf70;
@@ -967,6 +990,7 @@ DropDownMenu Label {
     padding-left: 12px;
     visibility: visible;
 }
+
 .LeaderListScore {
     font-size: 16px;
     letter-spacing: 1px;
@@ -979,25 +1003,31 @@ DropDownMenu Label {
     flow-children: down;
     padding-top: 10px;
 }
+
 .Header {
     flow-children: right;
     background-color: black;
 }
+
 .Header .LeaderListTier {
     width: 24px;
     text-align: center;
 }
+
 .Header .LeaderListName {
     margin-left: 10px;
 }
+
 .Header .LeaderListScore {
     horizontal-align: right;
 }
+
 #FriendsLeaderboardPanel .LeaderListName {
     margin-left: 32px;
     width: 244px;
     height: 24px;
 }
+
 #FriendsTitle {
     color: #999999;
     font-size: 20px;
@@ -1007,12 +1037,14 @@ DropDownMenu Label {
     margin-top: -4px;
     margin-bottom: 2px;
 }
+
 #TeamSetupBlock {
     width: 100%;
     flow-children: down;
     vertical-align: bottom;
     visibility: visible;
 }
+
 #TeamSetupLabel {
     horizontal-align: center;
     text-transform: uppercase;
@@ -1020,7 +1052,6 @@ DropDownMenu Label {
     color: #999999;
     font-size: 18px;
     margin-top: 16px;
-
     visibility: collapse;
 }
 
@@ -1033,6 +1064,7 @@ DropDownMenu Label {
 #StartButton.ButtonBevel Label {
     font-size: 22px;
 }
+
 #WeekendTourneyHubContent .LeaderListRow.IsCurrentUser {
     background-color: #e7bf7010;
 }
@@ -1055,11 +1087,9 @@ HTMLVerticalScrollBar {
     border-radius: 0px;
     height: 100%;
     background-color: rgba(0, 0, 0, 0);
-
     horizontal-align: right;
     vertical-align: center;
     padding-top: 12px;
-
     transition-property: transform;
 }
 
@@ -1071,7 +1101,6 @@ HTMLVerticalScrollBar .ScrollThumb {
     border-top: 1px solid #aaaaaa22;
     border-right: 1px solid #000000aa;
     transition-property: position;
-
     transition-property: background-color, transform, brightness;
     transition-duration: 0.1s;
     transition-timing-function: linear;
@@ -1087,6 +1116,7 @@ HTMLVerticalScrollBar:hover .ScrollThumb {
 HTMLVerticalScrollBar:active .ScrollThumb {
     background-color: #566767;
 }
+
 #RecentTournamentsBlock VerticalScrollBar,
 HTMLVerticalScrollBar {
     padding-top: 0px;
@@ -1100,7 +1130,6 @@ HTMLVerticalScrollBar {
 
 #RecentTournaments {
     flow-children: up;
-
     overflow: clip scroll;
     height: 100%;
     width: 100%;
@@ -1112,6 +1141,7 @@ HTMLVerticalScrollBar {
     text-align: right;
     width: 100%;
 }
+
 #YourResult Label {
     color: #999999;
     padding-left: 12px;
@@ -1132,12 +1162,15 @@ HTMLVerticalScrollBar {
     width: 100%;
     flow-children: right;
 }
+
 .Collapse #YourTeam {
     visibility: collapse;
 }
+
 .Collapse #YourRoster {
     visibility: collapse;
 }
+
 .Collapse #YourResult {
     visibility: collapse;
 }
@@ -1152,6 +1185,7 @@ HTMLVerticalScrollBar {
     height: 46px;
     width: 280px;
 }
+
 #ShowBracket.ButtonBevel {
     background-color: #232323;
     border-color: #757575;
@@ -1160,6 +1194,7 @@ HTMLVerticalScrollBar {
     margin-top: 12px;
     min-height: 28px;
 }
+
 #ShowBracket.ButtonBevel Label {
     color: #848484;
     text-shadow: none;
@@ -1168,6 +1203,7 @@ HTMLVerticalScrollBar {
     margin-top: 2px;
     padding-left: 0px;
 }
+
 .ExpandArrow {
     width: 12px;
     height: 12px;

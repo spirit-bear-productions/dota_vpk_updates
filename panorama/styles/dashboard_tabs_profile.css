@@ -1,7 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .SelfOnly {
     flow-children: right;
     visibility: collapse;
 }
+
 .ViewingSelf .SelfOnly {
     visibility: visible;
 }
@@ -10,9 +13,11 @@
     flow-children: right;
     visibility: collapse;
 }
+
 .ViewingSelf .SelfOrFriendsOnly {
     visibility: visible;
 }
+
 .ViewingFriend .SelfOrFriendsOnly {
     visibility: visible;
 }
@@ -28,9 +33,11 @@
 #Stats {
     visibility: visible;
 }
+
 #BattleStats {
     visibility: collapse;
 }
+
 .ShowBattleStats #BattleStats {
     visibility: visible;
 }
@@ -38,6 +45,7 @@
 #BattleStatsSeparator {
     visibility: collapse;
 }
+
 .ShowBattleStats #BattleStatsSeparator {
     visibility: visible;
 }
@@ -47,6 +55,7 @@ DOTAProfileTabs #ProfileTabsAvatarImage {
     height: width-percentage(100%);
     margin-right: 10px;
 }
+
 DOTAProfileTabs #ProfileTabsAvatarImage #AvatarImage {
     border: 0px solid black;
 }

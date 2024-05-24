@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     padding: 0px;
     width: 950px;
@@ -25,9 +27,7 @@
     );
     background-color: #00000090;
     padding-left: 0px;
-
     background-image: url("s2r://panorama/images/conduct/ovw_keyart_png.vtex");
-
     background-size: cover;
     background-position: center bottom;
     flow-children: down;

@@ -1,42 +1,35 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define CenterX: 0.486f;
 @define CenterY: 0.555f;
 @define ZoomXOffset1: 0.35f;
 @define ZoomYOffset1: 0.24f;
 @define ZoomXOffset2: 0.32f;
 @define ZoomYOffset2: 0.24f;
-
 @define ZoomXOffset1_4x3: 0.26f;
 @define ZoomYOffset1_4x3: 0.38f;
 @define ZoomXOffset2_4x3: 0.26f;
 @define ZoomYOffset2_4x3: 0.38f;
-
 @define ZoomXOffset1_16x10: 0.25f;
 @define ZoomYOffset1_16x10: 0.30f;
 @define ZoomXOffset2_16x10: 0.25f;
 @define ZoomYOffset2_16x10: 0.30f;
-
 @define ZoomSectionOffset0: 0.13f;
 @define ZoomSectionOffset0_4x3: 0.26f;
 @define ZoomSectionOffset0_16x10: 0.26f;
-
 @define ZoomRotationAmount1: 23deg;
 @define ZoomRotationAmount2: -23deg;
-
 @define ZoomOutAmount: 0.420f;
 @define ZoomInAmount: 0.62f;
-
 @define ZoomOutAmount_4x3: 0.360f;
 @define ZoomInAmount_4x3: 0.5f;
-
 @define ZoomOutAmount_16x10: 0.4f;
 @define ZoomInAmount_16x10: 0.52f;
-
 @define CarryColor: #99feff;
 @define SupportColor: #fae77d;
 @define UtilityColor: #d489fa;
 @define PathParticleRadius: 6.0f;
 @define MapSize: 3072.0f;
-
 .MapContainer {
     width: 3000px;
     height: 100%;
@@ -50,16 +43,13 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
-
     horizontal-align: center;
     brightness: 1;
 }
 
 .MapContainer {
     width: height-percentage(100%);
-
     height: 100%;
-
     horizontal-align: center;
     opacity: 1;
     transition-property: opacity;
@@ -99,6 +89,7 @@
 .CavernEvent36.MapVariant0 #Background {
     background-image: url("s2r://panorama/images/cavern/cavern_map_small_ti_2022_variant_1_psd.vtex");
 }
+
 .CavernEvent36.MapVariant1 #Background {
     background-image: url("s2r://panorama/images/cavern/cavern_map_small_ti_2022_variant_2_psd.vtex");
 }
@@ -141,12 +132,10 @@
 #CampfireFX {
     width: 300px;
     height: 300px;
-
     vertical-align: middle;
     horizontal-align: center;
     margin-left: 80px;
     margin-top: 300px;
-
     opacity: 0.6;
 }
 
@@ -208,7 +197,6 @@
 .CarryLabel {
     x: 1427px;
     y: 1565px;
-
     wash-color: CarryColor;
     text-shadow: 0px 0px 19px 5 #000000;
     font-weight: black;
@@ -239,15 +227,12 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
     vertical-align: bottom;
-
     border-radius: 50%;
     background-color: transparent;
     opacity: 0.2;
     wash-color: #ffffff;
     pre-transform-scale2d: 0.8;
-
     transition-property: opacity, wash-color, pre-transform-scale2d, background-color;
     transition-duration: 0.21s;
     transition-timing-function: ease-in-out;
@@ -305,7 +290,6 @@
     width: 128px;
     height: 128px;
     z-index: 1;
-
     transform: translate3d(-64px, -64px, 0px);
 }
 
@@ -369,6 +353,7 @@
 .TreasureMap.Carry.RewardImage .MapRevealedImage {
     background-image: url("s2r://panorama/images/cavern/icon_map_carry_2022_psd.vtex");
 }
+
 .MapVariant1 .TreasureMap.Carry.RewardImage .MapRevealedImage {
     background-image: url("s2r://panorama/images/cavern/icon_map_carry_2022_variant_2_psd.vtex");
 }
@@ -376,6 +361,7 @@
 .TreasureMap.Support.RewardImage .MapRevealedImage {
     background-image: url("s2r://panorama/images/cavern/icon_map_support_2022_psd.vtex");
 }
+
 .MapVariant1 .TreasureMap.Support.RewardImage .MapRevealedImage {
     background-image: url("s2r://panorama/images/cavern/icon_map_support_2022_variant_2_psd.vtex");
 }
@@ -383,6 +369,7 @@
 .TreasureMap.Utility.RewardImage .MapRevealedImage {
     background-image: url("s2r://panorama/images/cavern/icon_map_utility_2022_psd.vtex");
 }
+
 .MapVariant1 .TreasureMap.Utility.RewardImage .MapRevealedImage {
     background-image: url("s2r://panorama/images/cavern/icon_map_utility_2022_variant_2_psd.vtex");
 }
@@ -392,14 +379,11 @@
     height: 48px;
     horizontal-align: center;
     vertical-align: center;
-
     background-image: url("s2r://panorama/images/cavern/icon_dot_psd.vtex");
-
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     opacity: 1;
-
     visibility: collapse;
 }
 
@@ -450,7 +434,6 @@
 .Starting {
     background-image: url("s2r://panorama/images/cavern/icon_room_claimed_png.vtex");
     background-size: 100%;
-
     width: 80px;
     height: 80px;
     transform: translate3d(-40px, -40px, 0px);
@@ -685,6 +668,7 @@
 .RewardSet #RewardContainer {
     overflow: noclip;
 }
+
 .RewardSet .RewardModelContainer {
     height: 225%;
     width: 225%;
@@ -706,11 +690,13 @@
     wash-color: CarryColor&aa;
     brightness: 1;
 }
+
 .Room64.RewardClaimed #RewardFronter,
 .Room64.RewardClaimed #RewardBacker {
     wash-color: SupportColor&cc;
     brightness: 1;
 }
+
 .Room104.RewardClaimed #RewardFronter,
 .Room104.RewardClaimed #RewardBacker {
     wash-color: UtilityColor&aa;
@@ -819,11 +805,9 @@
     margin-right: 30px;
     horizontal-align: right;
     vertical-align: bottom;
-
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
     visibility: collapse;
 }
 
@@ -910,7 +894,6 @@
     background-repeat: no-repeat;
     background-position: 7px 10px;
     wash-color: #ffffff90;
-
     animation-name: pulseactive;
     animation-iteration-count: infinite;
     animation-duration: 2.5s;
@@ -944,7 +927,6 @@
     background-repeat: no-repeat;
     background-position: 50px 150px;
     wash-color: #ffffff90;
-
     animation-name: pulseactive;
     animation-iteration-count: infinite;
     animation-duration: 2.5s;
@@ -1271,12 +1253,15 @@
         opacity: 1;
         pre-transform-scale2d: 0.001;
     }
+
     60% {
         opacity: 1;
     }
+
     95% {
         opacity: 0;
     }
+
     99% {
         pre-transform-scale2d: 0.9;
     }
@@ -1295,13 +1280,10 @@
     horizontal-align: center;
     opacity: 0;
     z-index: 3;
-
     transition-property: opacity, transform;
-
     animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
-
     overflow: noclip;
     visibility: collapse;
 }
@@ -1535,7 +1517,6 @@ DOTACavernCrawlPostGameProgress #PointsPreviewContainer {
 .MapVariantUnlock {
     width: 120px;
     height: 120px;
-
     visibility: collapse;
     background-size: 100%;
     background-repeat: no-repeat;

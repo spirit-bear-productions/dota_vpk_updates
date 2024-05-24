@@ -1,12 +1,12 @@
-@define selectedTextBackgroundColor: #66669966;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define selectedTextBackgroundColor: #66669966;
 @define consoleMinWidth: 300px;
 @define consoleMinHeight: 300px;
 @define consoleDefaultWidth: 1000px;
 @define consoleDefaultHeight: 800px;
 @define consoleDefaultPositionX: 20px;
 @define consoleDefaultPositionY: 20px;
-
 .ConsolePanel {
     border: 1px solid #333;
     box-shadow: fill 2px 2px 4px #0009;
@@ -111,10 +111,8 @@ TextEntryAutocomplete > Label:focus {
 #ResizeDragTarget {
     vertical-align: bottom;
     horizontal-align: right;
-
     width: 10px;
     height: 10px;
-
     border-right: 2px solid #666;
     border-bottom: 2px solid #666;
 }

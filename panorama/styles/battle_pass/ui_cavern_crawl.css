@@ -1,19 +1,18 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define CarryColor: #99feff;
 @define SupportColor: #fae77d;
 @define UtilityColor: #d489fa;
-
 DOTACavernCrawl {
     width: 100%;
     height: 100%;
     vertical-align: center;
     horizontal-align: center;
-
     padding: 0px;
 }
 
 DOTABPInternational2022CavernCrawlPage DOTACavernCrawl {
     width: 100%;
-
     horizontal-align: right;
 }
 
@@ -98,7 +97,6 @@ DOTABPFall2021CavernCrawlPage .LeftColumn {
 
 DOTABPInternational2022CavernCrawlPage .LeftColumn {
     margin: 24px;
-
     horizontal-align: right;
 }
 
@@ -117,6 +115,7 @@ DOTABPInternational2022CavernCrawlPage #MapLegendContainer {
 .PopupPanel .LeftColumn {
     visibility: visible;
 }
+
 .PopupPanel .RightColumn {
     visibility: collapse;
 }
@@ -150,7 +149,6 @@ DOTABPInternational2022CavernCrawlPage #MapLegendContainer {
     vertical-align: center;
     margin-right: 8px;
     wash-color: accentColorBrightP1;
-
     background-image: bp_cavern_crawl_logo;
     background-size: 100% 100%;
     background-position: 50% 50%;
@@ -211,14 +209,12 @@ DOTABPInternational2022CavernCrawlPage #MapLegendContainer {
     background-image: url("s2r://panorama/images/cavern/ti10_divinepath_logo_psd.vtex");
     background-size: cover;
     background-position: center top;
-
     horizontal-align: center;
 }
 
 .FoulFellImg {
     width: 360px;
     height: 180px;
-
     background-size: 100% 100%;
 }
 
@@ -237,7 +233,6 @@ DOTABPInternational2022CavernCrawlPage #MapLegendContainer {
 .DivinePath_Label {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(shadeColorP1), to(accentColorP1));
     padding: 1px 2px 1px 5px;
-
     font-weight: semi-bold;
     color: #ffffff;
     text-shadow: 0px 0px 10px 3 #000000;
@@ -401,10 +396,8 @@ DOTABPInternational2022CavernCrawlPage #InventoryContainer {
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
-
     horizontal-align: left;
     vertical-align: middle;
-
     margin: 10px 10px;
 }
 
@@ -416,7 +409,6 @@ DOTABPInternational2022CavernCrawlPage #InventoryContainer {
 .RewardsRemainingBox {
     width: 100px;
     height: 100px;
-
     flow-children: right;
     margin: 2px 0px 2px 0px;
 }
@@ -430,7 +422,6 @@ DOTABPInternational2022CavernCrawlPage #InventoryContainer {
 
 .RewardImageContainer {
     vertical-align: middle;
-
     width: 100%;
     height: 100%;
 }
@@ -440,7 +431,6 @@ DOTABPInternational2022CavernCrawlPage #InventoryContainer {
     height: 42px;
     margin-top: -4px;
     horizontal-align: center;
-
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
@@ -450,7 +440,6 @@ DOTABPInternational2022CavernCrawlPage #InventoryContainer {
     background-image: url("s2r://panorama/images/cavern/icon_chest_small_psd.vtex");
     background-size: 50px;
     background-position: 0px 0px;
-
     z-index: 0;
 }
 
@@ -458,9 +447,7 @@ DOTABPInternational2022CavernCrawlPage #InventoryContainer {
     background-image: url("s2r://panorama/images/cavern/icon_chest_big_psd.vtex");
     background-size: 50px;
     background-position: 0px 4px;
-
     margin-left: 0px;
-
     z-index: 0;
 }
 
@@ -494,7 +481,6 @@ DOTACavernCrawlPostGameProgress .RewardsRemaining {
     margin-right: 12px;
     margin-left: 0px;
     padding: 1px 6px;
-
     horizontal-align: right;
     vertical-align: middle;
 }
@@ -545,7 +531,6 @@ DOTACavernCrawlPostGameProgress .RewardsRemaining {
 .MapZoomContainer {
     width: fill-parent-flow(1);
     height: 100%;
-
     transition-property: transform;
     transition-timing-function: ease-in-out;
     transition-duration: 0.26s;
@@ -554,7 +539,6 @@ DOTACavernCrawlPostGameProgress .RewardsRemaining {
 #MapZoom {
     width: 100%;
     height: 100%;
-
     overflow: clip;
 }
 
@@ -566,9 +550,7 @@ DOTACavernCrawlPostGameProgress .RewardsRemaining {
 .ZoneChangeArrow {
     width: 208px;
     height: 208px;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
@@ -577,7 +559,6 @@ DOTACavernCrawlPostGameProgress .RewardsRemaining {
 .ZoneChangeArrowAnim {
     width: 100%;
     height: 100%;
-
     background-image: url("s2r://panorama/images/control_icons/large_ui_arrow_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -586,9 +567,11 @@ DOTACavernCrawlPostGameProgress .RewardsRemaining {
 .ZoneChangeArrow__Carry {
     wash-color: CarryColor;
 }
+
 .ZoneChangeArrow__Support {
     wash-color: SupportColor;
 }
+
 .ZoneChangeArrow__Utility {
     wash-color: UtilityColor;
 }
@@ -606,9 +589,11 @@ DOTACavernCrawlPostGameProgress .RewardsRemaining {
     0% {
         transform: translateX(0px);
     }
+
     50% {
         transform: translateX(-32px);
     }
+
     100% {
         transform: translateX(0px);
     }
@@ -734,7 +719,6 @@ DOTACavernCrawl.FlareShooting .ZoomInControl {
     horizontal-align: center;
     vertical-align: top;
     width: 100%;
-
     overflow: noclip;
 }
 
@@ -780,9 +764,7 @@ DOTAPopupCavernCrawl #UltraRarePreview {
     color: #ffffff22;
     text-transform: uppercase;
     letter-spacing: 1px;
-
     opacity: 1;
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -809,7 +791,6 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     width: 5200px;
     height: 3072px;
     overflow: noclip;
-
     transition-property: transform, position;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
@@ -817,7 +798,6 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     transform: scaleX(0.5) scaleY(0.5);
     margin-top: -64px;
     margin-left: 128px;
-
     vertical-align: center;
     horizontal-align: center;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
@@ -828,7 +808,6 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     width: 384px;
     horizontal-align: left;
     vertical-align: bottom;
-
     transition-property: opacity;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
@@ -837,6 +816,7 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
 .DisplayWhenZoomed {
     opacity: 0;
 }
+
 .ZoomedIn .DisplayWhenZoomed {
     opacity: 1;
 }
@@ -844,6 +824,7 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
 .DisplayWhenUnZoomed {
     opacity: 1;
 }
+
 .ZoomedIn .DisplayWhenUnZoomed {
     opacity: 0;
 }
@@ -857,7 +838,6 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     border: 1px solid accentColorBrightP1&33;
     padding: 15px 20px;
     background-color: secondaryUltraDarkColor;
-
     transition-property: transform;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -903,9 +883,11 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     transition-timing-function: ease-out;
     transition-duration: 0.6s;
 }
+
 .MapVariant0 #InfoMapVariant0 {
     opacity: 1;
 }
+
 .MapVariant1 #InfoMapVariant1 {
     opacity: 1;
 }
@@ -924,6 +906,7 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     background-color: #400000ff;
     border: 1px solid #800;
 }
+
 .CCMapVariantLabel {
     horizontal-align: center;
     text-align: center;
@@ -992,6 +975,7 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     margin-bottom: 8px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(darkColorP1), to(secondaryUltraDarkColor&cc));
 }
+
 .ToggleMapVariantButton.map1 #variantButtonSmoke,
 .ToggleMapVariantButton.map1 .variantButtonSmoke {
     wash-color: accentColorP1;
@@ -1000,6 +984,7 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
 .ToggleMapVariantButton.map2 {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1a2a33), to(secondaryUltraDarkColor&cc));
 }
+
 .ToggleMapVariantButton.map2 #variantButtonSmoke,
 .ToggleMapVariantButton.map2 .variantButtonSmoke {
     wash-color: #36aeea;
@@ -1096,6 +1081,7 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
 .MapVariant0 .ToggleMapVariantButton.map2 {
     border: 1px solid #80f4ff11;
 }
+
 .MapVariant0 .ToggleMapVariantButton.map2 #variantButtonSmoke,
 .MapVariant0 .ToggleMapVariantButton.map2 .variantButtonSmoke {
     opacity: 0;
@@ -1108,6 +1094,7 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
 .MapVariant1 .ToggleMapVariantButton.map1 {
     border: 1px solid shadeColorP1;
 }
+
 .MapVariant1 .ToggleMapVariantButton.map1 #variantButtonSmoke,
 .MapVariant1 .ToggleMapVariantButton.map1 .variantButtonSmoke {
     opacity: 0;
@@ -1121,6 +1108,7 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     border: 1px solid White;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(secondaryUltraDarkColor&cc), to(#36aeea));
 }
+
 .MapVariant1 .ToggleMapVariantButton.map2 #variantButtonSmoke,
 .MapVariant1 .ToggleMapVariantButton.map2 .variantButtonSmoke {
     opacity: 1;
@@ -1153,9 +1141,7 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     width: 384px;
     margin: 24px;
     horizontal-align: left;
-
     opacity: 0;
-
     transition-property: opacity, height, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1170,7 +1156,6 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     font-weight: bold;
     text-transform: uppercase;
     vertical-align: center;
-
     letter-spacing: 2px;
     color: #ffffff;
     horizontal-align: center;
@@ -1181,7 +1166,6 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     height: 24px;
     horizontal-align: center;
     vertical-align: center;
-
     background-size: 95%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -1200,7 +1184,6 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     opacity: 1;
     z-index: 10;
     padding: 32px 16px 16px 16px;
-
     transition-property: opacity, height, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1210,9 +1193,7 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     padding-left: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-
     flow-children: right;
-
     width: 100%;
 }
 
@@ -1242,12 +1223,15 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
 .LegendIcon.CaveIn {
     background-image: url("s2r://panorama/images/cavern/icon_cave_in_png.vtex");
 }
+
 .CavernEvent33 .LegendIcon.CaveIn {
     background-image: url("s2r://panorama/images/cavern/icon_totem_png.vtex");
 }
+
 .CavernEvent36.MapVariant0 .LegendIcon.CaveIn {
     background-image: url("s2r://panorama/images/cavern/icon_firewall_png.vtex");
 }
+
 .CavernEvent36.MapVariant1 .LegendIcon.CaveIn {
     background-image: url("s2r://panorama/images/cavern/icon_icewall_png.vtex");
 }
@@ -1255,12 +1239,15 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
 .LegendIcon.Lock {
     background-image: url("s2r://panorama/images/cavern/icon_lock_png.vtex");
 }
+
 .CavernEvent33 .LegendIcon.Lock {
     background-image: url("s2r://panorama/images/cavern/icon_boulder_png.vtex");
 }
+
 .CavernEvent36.MapVariant0 .LegendIcon.Lock {
     background-image: url("s2r://panorama/images/cavern/icon_lava_flow_png.vtex");
 }
+
 .CavernEvent36.MapVariant1 .LegendIcon.Lock {
     background-image: url("s2r://panorama/images/cavern/icon_frigid_stream_png.vtex");
 }
@@ -1284,6 +1271,7 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     background-size: 135%;
     background-position: 50% 30%;
 }
+
 .CavernEvent33 .LegendIcon.Key {
     background-image: url("s2r://panorama/images/cavern/icon_pickaxe_png.vtex");
     background-size: 95%;
@@ -1299,6 +1287,7 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     background-size: 130%;
     background-position: 50% 50%;
 }
+
 .CavernEvent33 .LegendIcon.Shovel {
     background-image: url("s2r://panorama/images/cavern/icon_talisman_png.vtex");
     background-size: 95%;
@@ -1342,9 +1331,11 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
     background-image: url("s2r://panorama/images/cavern/style_unlock_carry_psd.vtex");
     background-size: 110%;
 }
+
 .CavernEvent36.MapVariant0 .LegendIcon.Style {
     background-image: url("s2r://panorama/images/cavern/style_unlock_1_psd.vtex");
 }
+
 .CavernEvent36.MapVariant1 .LegendIcon.Style {
     background-image: url("s2r://panorama/images/cavern/style_unlock_2_psd.vtex");
 }
@@ -1364,7 +1355,6 @@ DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions {
 .LegendTitleLabel,
 .LegendTitle {
     font-size: 16px;
-
     color: #dedede;
     margin-bottom: 0px;
     font-weight: normal;

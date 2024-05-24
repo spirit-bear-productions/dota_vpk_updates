@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupSteamChinaInfo {
     width: 900px;
     height: fit-children;
@@ -18,7 +20,6 @@ PopupSteamChinaInfo.PopupPanel {
 #ContentContainer {
     width: 100%;
     height: fit-children;
-
     margin-bottom: 20px;
 }
 
@@ -26,7 +27,6 @@ PopupSteamChinaInfo.PopupPanel {
     width: 100%;
     height: 260px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#100f0f), to (#22100e));
-
     flow-children: down;
 }
 
@@ -48,7 +48,6 @@ PopupSteamChinaInfo.PopupPanel {
 
 #Inset {
     border: 3px solid #26292d;
-
     margin: 20px 40px;
     padding: 20px;
     flow-children: down;
@@ -83,7 +82,6 @@ PopupSteamChinaInfo.PopupPanel {
 #CloseButton {
     margin-top: 20px;
     horizontal-align: center;
-
     border: 1px solid #444;
 }
 

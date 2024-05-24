@@ -1,17 +1,18 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define DistanceBetweenRelatives: 250.0f;
 @define DistanceBetweenGroupsX: 550.0f;
 @define DistanceBetweenGroupsY: 350.0f;
 @define DistanceBetweenSiblings: 100.0f;
 @define DistanceBetweenGSLTrees: 200.0f;
 @define GroupsPerRow: 2;
-
 @define HLineBaseWidth: 25px;
 @define VerticalLineOffset: 12px;
-
 .HLine {
     background-color: #454d4f;
     height: 2px;
 }
+
 .VLine {
     background-color: #454d4f;
     width: 2px;
@@ -43,9 +44,7 @@ TournamentNode {
     transform: translateX(210px);
     margin-top: 122px;
     padding-top: 18px;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_sharp_png.vtex");
-
     opacity: 0;
     transition-property: opacity;
     transition-timing-function: ease-in-out;
@@ -135,7 +134,6 @@ DOTAPopupBattleCupBracket #AutomatedTournamentWin3 #TitleContainer {
 #AutomatedTournamentWin3 #TournamentLeaderStateSummary {
     font-size: 18px;
     color: #808080;
-
     text-transform: uppercase;
 }
 
@@ -167,7 +165,6 @@ DOTAPopupBattleCupBracket .TournamentStateSummary {
 #AutomatedTournamentWin3 #TournamentIDLabel {
     font-size: 18px;
     color: #808080;
-
     text-transform: uppercase;
 }
 
@@ -175,7 +172,6 @@ DOTAPopupBattleCupBracket .TournamentStateSummary {
     margin-right: 12px;
     font-size: 18px;
     color: #808080;
-
     text-transform: uppercase;
 }
 
@@ -213,7 +209,6 @@ DOTAPopupBattleCupBracket .TournamentStateSummary {
 .BracketLineContainerStack {
     width: 83px;
     height: 100%;
-
     flow-children: down;
 }
 
@@ -248,7 +243,6 @@ DOTAPopupBattleCupBracket .BattleCupBracket.UseAnimation .BracketLineContainerSt
 .BracketLineContainer {
     width: 100%;
     height: fit-children;
-
     margin-top: 78px;
     flow-children: down;
 }

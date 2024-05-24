@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DOTATrophiesPage {
     width: 100%;
     height: 100%;
@@ -55,6 +57,7 @@
     width: 64px;
     height: 64px;
 }
+
 #ProfileName {
     width: fit-children;
     margin-left: 9px;
@@ -93,6 +96,7 @@ DOTATrophiesPage #ProfileBadge {
     margin-top: -76px;
     background-size: contain;
 }
+
 DOTATrophiesPage.HadBadgeData #ProfileBadge {
     visibility: visible;
 }
@@ -136,9 +140,7 @@ DOTATrophiesPage.HadBadgeData #ProfileBadge {
 #LevelProgress .ProgressBarLeft {
     background-color: dotalevelgradient;
     box-shadow: #61789caa 0px 0px 4px 0px;
-
     border-radius: 2px;
-
     transition-property: width;
     transition-duration: 1s;
     transition-timing-function: linear;
@@ -181,6 +183,7 @@ DOTATrophiesPage.HadBadgeData #ProfileBadge {
 .HasTrophy.TrophyDisplay:hover {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#7d8f9322), to(#7d8f9300));
 }
+
 .HasTrophy {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#7d8f9311), to(#7d8f9300));
 }
@@ -227,11 +230,9 @@ DOTATrophiesPage.HadBadgeData #ProfileBadge {
     font-size: 16px;
     font-weight: bold;
     color: black;
-
     background-color: dotalevelgradient;
     box-shadow: #61789c66 0px 0px 4px 0px;
     border-radius: 4px;
-
     horizontal-align: center;
     margin-left: 0px;
     margin-top: 4px;
@@ -308,7 +309,6 @@ DOTATrophiesPage.HadBadgeData #ProfileBadge {
 }
 
 @define trophiesPerCarouselItem: 10;
-
 .CarouselItem {
     flow-children: right-wrap;
     overflow: clip;
@@ -387,9 +387,7 @@ DOTATrophiesPage.HadBadgeData #ProfileBadge {
 #AboutBadgesButton {
     flow-children: right;
     horizontal-align: right;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3d3d3e), to(#262626));
-
     padding-left: 20px;
     padding-right: 16px;
     padding-top: 3px;
@@ -401,6 +399,7 @@ DOTATrophiesPage.HadBadgeData #ProfileBadge {
 #AboutBadgesButton:hover {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5f6663), to(#b4c2c1));
 }
+
 #AboutBadgesButton Label {
     color: #beb7b4;
     margin-left: 6px;
@@ -429,7 +428,6 @@ DOTATrophiesPage.HadBadgeData #ProfileBadge {
     width: 100px;
     height: 100px;
     ui-scale: 75%;
-
     horizontal-align: center;
     z-index: 2;
     margin: 0px;
@@ -440,7 +438,6 @@ DOTATrophiesPage.HadBadgeData #ProfileBadge {
 .UserCustomBackground {
     width: 100%;
     height: 100%;
-
     background-size: 100% 1080px;
     background-repeat: no-repeat;
 }

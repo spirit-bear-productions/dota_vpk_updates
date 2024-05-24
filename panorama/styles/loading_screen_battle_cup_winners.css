@@ -1,10 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTALoadingScreenBattleCupWinners {
     width: 100%;
     height: 100%;
     visibility: collapse;
-
     flow-children: down;
-
     background-color: #000000fa;
 }
 
@@ -15,7 +15,6 @@ DOTALoadingScreenBattleCupWinners.ContainerVisible {
 #WinnerHeader {
     width: 600px;
     height: 140px;
-
     margin-top: 60px;
 }
 
@@ -26,10 +25,8 @@ DOTALoadingScreenBattleCupWinners.ContainerVisible {
     background-size: 105% 112%;
     background-repeat: no-repeat;
     background-position: 18% 6%;
-
     background-color: #7f541f;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#7f541f), to(#291a07));
-
     opacity-mask: url("s2r://panorama/images/masks/gradient_leftright_png.vtex") 1;
 }
 
@@ -96,9 +93,7 @@ DOTALoadingScreenBattleCupWinners.ContainerVisible {
         color-stop(0.5, #54330c),
         to(#5c2c0500)
     );
-
     padding-top: 2px;
-
     z-index: 100;
 }
 
@@ -152,7 +147,6 @@ DOTALoadingScreenBattleCupWinners.ContainerVisible {
 #TeamLogo {
     width: 40px;
     height: 40px;
-
     margin-right: 10px;
     box-shadow: -4px 0px 8px 0px #000000bb;
 }
@@ -197,7 +191,6 @@ DOTALoadingScreenBattleCupWinners.ContainerVisible {
 DOTALoadingScreenBattleCupTeamPlayer {
     width: 600px;
     height: fit-children;
-
     background-color: #1b140e;
     background-color: gradient(
         linear,
@@ -218,16 +211,13 @@ DOTALoadingScreenBattleCupTeamPlayer {
     vertical-align: center;
     margin-left: 0px;
     margin-bottom: 5px;
-
     margin-left: 38px;
 }
 
 #PlayerAvatar {
     width: 40px;
     height: 40px;
-
     margin-right: 8px;
-
     box-shadow: -4px 0px 8px 0px #000000bb;
 }
 

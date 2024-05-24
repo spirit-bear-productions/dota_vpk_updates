@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .EconSetPreview,
 .PreviewRays {
     width: 100%;
@@ -6,7 +8,6 @@
 
 .EconSetPreview {
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.3s;
 }
@@ -22,11 +23,11 @@
 
 .PreviewRays {
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     -s2-mix-blend-mode: screen;
 }
+
 .ShowAsPreview .PreviewRays {
     opacity: 0.2;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPInternational2023TalentBundlesPopup.PopupPanel {
     flow-children: none;
     background-image: url("s2r://panorama/images/battlepass/international2023/bg_night_compendium_subsection_jpg.vtex");
@@ -9,6 +11,7 @@ DOTABPInternational2023TalentBundlesPopup.PopupPanel {
     animation-name: none;
     padding: 0px;
 }
+
 DOTABPInternational2023TalentBundlesPopup.PopupPanel .CloseButton {
     horizontal-align: right;
 }
@@ -21,11 +24,13 @@ DOTABPInternational2023TalentBundlesPopup.PopupPanel .CloseButton {
 .Header {
     flow-children: down;
 }
+
 .Header .Title {
     font-size: 32px;
     color: primaryColor2;
     text-shadow: 2px 2px 4px black;
 }
+
 .Header .Title .TalentName {
     color: white;
     font-weight: bold;
@@ -39,9 +44,9 @@ DOTABPInternational2023TalentBundlesPopup.PopupPanel .CloseButton {
 #BundleTiers {
     flow-children: right;
     margin-top: 16px;
-
     visibility: collapse;
 }
+
 .HasBundles #BundleTiers {
     visibility: visible;
 }
@@ -51,6 +56,7 @@ DOTABPInternational2023TalentBundlesPopup.PopupPanel .CloseButton {
     height: 400px;
     horizontal-align: center;
 }
+
 .HasBundles .NoBundleTiers {
     visibility: collapse;
 }
@@ -68,6 +74,7 @@ DOTABPInternational2023TalentBundlesPopup.PopupPanel .CloseButton {
     flow-children: down;
     margin-right: 16px;
 }
+
 .BundleTier .TierName {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -79,6 +86,7 @@ DOTABPInternational2023TalentBundlesPopup.PopupPanel .CloseButton {
 .BundleTier.HasBundleRewards #TierRewards {
     visibility: visible;
 }
+
 .BundleTier.HasBundleRewards .NoRewardsLabel {
     visibility: collapse;
 }
@@ -89,14 +97,15 @@ DOTABPInternational2023TalentBundlesPopup.PopupPanel .CloseButton {
     background-color: #000c;
     flow-children: down;
     padding-top: 16px;
-
     visibility: collapse;
 }
+
 .BundleTier #TierRewards .Reward {
     flow-children: down;
     width: 100%;
     margin-bottom: 16px;
 }
+
 .BundleTier #TierRewards .Reward #RewardContents {
     width: 100%;
     flow-children: down;
@@ -122,13 +131,14 @@ DOTABPInternational2023TalentBundlesPopup.PopupPanel .CloseButton {
 .BundleTier #TierRewards .Reward .ChatWheelReward {
     flow-children: right;
     horizontal-align: center;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 .BundleTier #TierRewards .Reward .ChatWheelReward:hover {
     brightness: 2;
 }
+
 .BundleTier #TierRewards .Reward .ChatWheelReward:active {
     brightness: 1.5;
 }
@@ -136,7 +146,6 @@ DOTABPInternational2023TalentBundlesPopup.PopupPanel .CloseButton {
 .BundleTier #TierRewards .Reward .ChatWheelReward .ChatWheelSoundIcon {
     width: 20px;
     height: 20px;
-
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -160,12 +169,15 @@ DOTABPInternational2023TalentBundlesPopup.PopupPanel .CloseButton {
 .BundleTier1 .TierName {
     color: gradient(linear, 0% 0%, 0% 100%, from(white), to(primaryColor4));
 }
+
 .BundleTier2 .TierName {
     color: gradient(linear, 0% 0%, 0% 100%, from(white), to(#999));
 }
+
 .BundleTier3 .TierName {
     color: gradient(linear, 0% 0%, 0% 100%, from(white), to(primaryColor1));
 }
+
 .BundleTier4 .TierName {
     color: gradient(linear, 0% 0%, 0% 100%, from(white), to(goldColor));
 }

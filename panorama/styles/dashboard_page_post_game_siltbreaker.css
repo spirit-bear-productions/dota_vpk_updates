@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CustomEvent_Siltbreaker #RightHeroes,
 .CustomEvent_Siltbreaker #RadiantScore,
 .CustomEvent_Siltbreaker #DireScore {
@@ -27,7 +29,6 @@
 
 #SiltbreakerMapContainer {
     flow-children: down;
-
     transition-property: wash-color, transform;
     transition-duration: 0.5s;
 }
@@ -43,10 +44,8 @@
 #SiltbreakerZoneDetails {
     width: 650px;
     height: 500px;
-
     opacity: 0;
     transform: translateX(200px) scale3d(1.5, 1.5, 1);
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -64,9 +63,7 @@
 #SiltbreakerZoneDetailsContents {
     margin-top: 100px;
     margin-left: 150px;
-
     flow-children: down;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#0b2d23ee), color-stop(0.6, #092120fe), to(#051615));
     border: 1px solid black;
     border-top: 1px solid #1b543c;
@@ -87,9 +84,7 @@
 .SiltbreakerZoneStar {
     width: 24px;
     height: 24px;
-
     wash-color: #fa0;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -138,11 +133,11 @@
     flow-children: down;
     margin: 2px 12px 4px 12px;
     padding: 4px 12px;
-
     border-radius: 12px;
     box-shadow: #0009 0px 0px 8px 0px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#303a38cc), to(#09212088));
 }
+
 #SiltbreakerZoneDetailsStats {
     horizontal-align: center;
     flow-children: right;
@@ -183,9 +178,7 @@
 .SiltbreakerZoneDetailsPickupCategoryIcon {
     width: 40px;
     height: 40px;
-
     horizontal-align: center;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -194,12 +187,15 @@
 #SiltbreakerZoneGoldBags .SiltbreakerZoneDetailsPickupCategoryIcon {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/staticon_gold_psd.vtex");
 }
+
 #SiltbreakerZonePotions .SiltbreakerZoneDetailsPickupCategoryIcon {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/staticon_potions_psd.vtex");
 }
+
 #SiltbreakerZoneItems .SiltbreakerZoneDetailsPickupCategoryIcon {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/staticon_items_psd.vtex");
 }
+
 #SiltbreakerZoneRevives .SiltbreakerZoneDetailsPickupCategoryIcon {
     background-image: url("s2r://panorama/images/battlepass/ti7/campaign/staticon_revive_psd.vtex");
 }
@@ -237,7 +233,6 @@
     vertical-align: middle;
     margin: 1px 4px 0px 4px;
     wash-color: #77b59e;
-
     background-image: url("s2r://panorama/images/control_icons/double_arrow_right_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -247,6 +242,7 @@
 .SiltbreakerChangeZoneButton:hover Label {
     color: white;
 }
+
 .SiltbreakerChangeZoneButton:hover .SiltbreakerChangeZoneArrow {
     wash-color: white;
 }
@@ -254,6 +250,7 @@
 .SiltbreakerChangeZoneButton:active Label {
     color: #92dec2;
 }
+
 .SiltbreakerChangeZoneButton:active .SiltbreakerChangeZoneArrow {
     wash-color: #92dec2;
 }

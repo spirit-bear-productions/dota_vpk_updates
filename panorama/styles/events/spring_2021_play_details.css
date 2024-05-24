@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     width: 1400px;
     height: 750px;
@@ -7,7 +9,6 @@
     margin-bottom: 50px;
     background-color: transparent;
     box-shadow: 0 0 0 transparent;
-
     padding: 0;
     flow-children: none;
 }
@@ -21,7 +22,6 @@
 .Button {
     height: 50px;
     width: 150px;
-
     horizontal-align: center;
     vertical-align: bottom;
     margin-bottom: 20px;
@@ -31,7 +31,6 @@
     width: 100%;
     flow-children: none;
     height: 100%;
-
     background-image: url("s2r://panorama/images/events/nemestice/nemestice_howtoplay_bg_psd.vtex");
     background-size: cover;
     background-color: #14141a;
@@ -41,12 +40,10 @@
 #GameInfoContentBGGlow {
     width: 676px;
     height: 100%;
-
     background-image: url("s2r://panorama/images/events/nemestice/nemestice_howtoplay_hue_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 39px;
-
     animation-name: HueRotation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -57,9 +54,11 @@
     0% {
         hue-rotation: 0deg;
     }
+
     50% {
         hue-rotation: 180deg;
     }
+
     100% {
         hue-rotation: 360deg;
     }
@@ -68,7 +67,6 @@
 .parallaxBG {
     background-size: contain;
     background-repeat: no-repeat;
-
     animation-duration: 0.6s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
@@ -93,6 +91,7 @@
         brightness: 12;
         wash-color: #a7e4c0;
     }
+
     100% {
         transform: translateX(0px);
     }
@@ -176,12 +175,10 @@ Label {
     width: 100%;
     text-align: center;
     padding-right: 64px;
-
     font-weight: bold;
     font-size: 30px;
     line-height: 36px;
     margin-top: 5px;
-
     letter-spacing: 3px;
     text-transform: uppercase;
     color: gradient(linear, 0% 0%, 100% 0%, from(#a8a9e8), to(#e3bce6));
@@ -214,10 +211,8 @@ Label {
     font-weight: bold;
     font-size: 16px;
     line-height: 100%;
-
     letter-spacing: 1px;
     text-transform: uppercase;
-
     color: gradient(linear, 0% 0%, 100% 0%, from(#a8a9e8), to(#e3bce6));
     text-shadow: 0px 0px 6px #d64fff33;
     margin-bottom: 4px;
@@ -278,7 +273,6 @@ Label {
     background-size: contain;
     background-position: center;
     hue-rotation: 50deg;
-
     horizontal-align: right;
     z-index: 3;
     margin-right: 8px;
@@ -355,10 +349,8 @@ Label {
     border: 2px solid accentColorBright;
     border-radius: 3px;
     background-color: accentColor&90;
-
     transition-property: brightness;
     transition-duration: 0.3s;
-
     animation-name: BrightButtonGlow;
     animation-duration: 2.35s;
     animation-timing-function: linear;

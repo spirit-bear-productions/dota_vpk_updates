@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FullScreenBackground {
     width: 100%;
     height: 100%;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -32,7 +33,6 @@
     saturation: 0.7;
     contrast: 1;
     brightness: 1;
-
     transform: translateX(0px);
     width: 542px;
     horizontal-align: right;
@@ -55,13 +55,10 @@
     margin-top: -60px;
     margin-left: 32px;
     transform: rotateZ(20deg) translateY(12px);
-
     background-image: url("s2r://panorama/images/compendium/whitebox_glass_psd.vtex");
     background-size: cover;
-
     border-radius: 1px;
     overflow: noclip;
-
     animation-name: SlantMotion;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -70,9 +67,11 @@
 #WhiteBox1 {
     animation-duration: 31.3s;
 }
+
 #WhiteBox2 {
     animation-duration: 21.161s;
 }
+
 #WhiteBox3 {
     animation-duration: 26.7s;
 }
@@ -81,9 +80,11 @@
     0% {
         transform: rotateZ(20deg) translateY(12px) translateX(0px);
     }
+
     50% {
         transform: rotateZ(20deg) translateY(12px) translateX(-22px);
     }
+
     100% {
         transform: rotateZ(20deg) translateY(12px) translateX(0px);
     }
@@ -93,12 +94,10 @@
     width: 428px;
     height: 72px;
     border-radius: 1px;
-
     background-image: url("s2r://panorama/images/compendium/whitebox_glass_psd.vtex");
     background-size: cover;
     transform: rotateZ(-215deg) translateX(-40px) translateY(-50px);
     opacity: 0.2;
-
     animation-duration: 18s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -143,7 +142,6 @@
     background-image: url("s2r://panorama/images/compendium/campaigncoverart_glow_psd.vtex");
     background-repeat: no-repeat;
     background-size: 100%;
-
     transition-property: transform, saturation, opacity, wash-color, pre-transform-scale2d;
     transition-duration: 1.2s;
     transition-timing-function: ease-in-out;
@@ -151,24 +149,19 @@
 
 .ViewingCompendium #TierGlow {
     transform: translateX(-1180px);
-
     transition-duration: 0.9s;
 }
 
 .SelfEventTierSilver #TierGlow {
     hue-rotation: 190deg;
-
     hue-rotation: 80deg;
-
     saturation: 0.4;
     opacity: 0.1;
 }
 
 .SelfEventTierGold #TierGlow {
     hue-rotation: -10deg;
-
     hue-rotation: -60deg;
-
     saturation: 0.7;
     opacity: 0.1;
 }
@@ -192,7 +185,6 @@
     margin-top: 60px;
     vertical-align: top;
     horizontal-align: left;
-
     transition-property: transform, opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -201,9 +193,11 @@
 #WhiteBox1 .Reflection {
     animation-name: ReflectionMotion1;
 }
+
 #WhiteBox2 .Reflection {
     animation-name: ReflectionMotion2;
 }
+
 #WhiteBox3 .Reflection {
     animation-name: ReflectionMotion3;
 }
@@ -212,9 +206,11 @@
     0% {
         transform: rotateZ(-210deg) translateX(-20px) translateY(-20px);
     }
+
     50% {
         transform: rotateZ(-205deg) translateX(-20px) translateY(-30px);
     }
+
     100% {
         transform: rotateZ(-210deg) translateX(-20px) translateY(-20px);
     }
@@ -224,9 +220,11 @@
     0% {
         transform: rotateZ(-209deg) translateX(-110px) translateY(2px);
     }
+
     50% {
         transform: rotateZ(-204deg) translateX(-110px) translateY(2px);
     }
+
     100% {
         transform: rotateZ(-209deg) translateX(-110px) translateY(2px);
     }
@@ -236,9 +234,11 @@
     0% {
         transform: rotateZ(-208deg) translateX(-180px) translateY(14px);
     }
+
     50% {
         transform: rotateZ(-203deg) translateX(-180px) translateY(19px);
     }
+
     100% {
         transform: rotateZ(-208deg) translateX(-180px) translateY(14px);
     }
@@ -254,7 +254,6 @@
 
 .CompendiumHeaderTitle {
     horizontal-align: right;
-
     transition-property: transform, opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -296,7 +295,6 @@
     opacity: 1;
     transition-property: opacity, brightness, transform;
     transition-duration: 0.5s, 0.12s;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_left_png.vtex");
 }
 
@@ -319,13 +317,9 @@
     font-weight: bold;
     letter-spacing: 5px;
     text-shadow: 0px 0px 8px 1 #c14f39;
-
     text-shadow: 0px 0px 8px 1 #93c139;
-
     text-shadow: 0px 0px 8px 1 #398fc1;
-
     text-shadow: 0px 0px 8px 1 accentColorBright;
-
     margin-bottom: 0px;
     padding-left: 6px;
     opacity: 1;
@@ -349,12 +343,9 @@
     width: 300px;
     height: 60px;
     margin-bottom: 8px;
-
     margin-top: 10px;
     vertical-align: bottom;
-
     opacity: 1;
-
     transition-property: opacity, brightness;
     transition-duration: 0.5s, 0.12s;
 }
@@ -369,7 +360,6 @@
     pre-transform-scale2d: 0.5;
     transform: translateX(-48px) translateY(-26px);
     opacity: 1;
-
     horizontal-align: left;
 }
 
@@ -406,7 +396,6 @@
     border-radius: 3px;
     text-shadow: 0px 0px 8px 2 #000000aa;
     text-transform: uppercase;
-
     visibility: collapse;
 }
 

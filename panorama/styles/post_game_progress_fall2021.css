@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .Fall2021ProgressMain {
     width: 1440px;
     height: 780px;
@@ -13,7 +15,6 @@
 .Fall2021Logo {
     width: 340px;
     height: 180px;
-
     background-image: url("s2r://panorama/images/battlepass/fall2021/agh_logo_plus_bp_en_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -30,9 +31,7 @@
     width: 100%;
     height: fill-parent-flow(1);
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_bottom_left_fade_psd.vtex");
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.4s;
 }
@@ -44,7 +43,6 @@
 #Fall2021WeeklyQuests {
     flow-children: down;
     width: fill-parent-flow(1);
-
     height: 100%;
 }
 
@@ -71,10 +69,8 @@
     flow-children: down;
     width: 100%;
     margin: 0px 12px 12px 12px;
-
     opacity: 0;
     transform: translateX(-20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -139,6 +135,7 @@
     0% {
         pre-transform-scale2d: 1.25;
     }
+
     100% {
         pre-transform-scale2d: 1;
     }
@@ -146,7 +143,6 @@
 
 .Fall2021TierStar.StarAchieved {
     background-image: url("s2r://panorama/images/battlepass/fall2021/quest_star_filled_psd.vtex");
-
     animation-name: Fall2021PulseWeeklyQuestStar;
     animation-duration: 0.4s;
 }
@@ -205,12 +201,9 @@
     height: 208px;
     flow-children: down;
     margin-bottom: 12px;
-
     visibility: collapse;
-
     opacity: 0;
     transform: translateY(20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     background-image: url("s2r://panorama/images/battlepass/fall2021/quest_bg_texture_psd.vtex");
@@ -218,13 +211,10 @@
     background-repeat: no-repeat;
     background-img-opacity: 0.1;
     background-color: #00000044;
-
     border: 1px solid #00000088;
     border-bottom: 2px solid #000;
     border-radius: 3px;
-
     box-shadow: 0px 0px 32px #00000066;
-
     transform: skew(12deg);
 }
 
@@ -273,10 +263,8 @@
 .Fall2021EventGameProgressSection {
     width: 100%;
     flow-children: down;
-
     opacity: 0;
     transform: translateY(20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -313,7 +301,6 @@
     height: 26px;
     vertical-align: center;
     margin-left: 4px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -369,6 +356,7 @@
     horizontal-align: center;
     flow-children: right;
 }
+
 .Fall2021CavernCrawlBattlePointsValue Label {
     font-size: 24px;
     color: white;
@@ -380,9 +368,7 @@
     height: 26px;
     vertical-align: center;
     margin-left: 4px;
-
     wash-color: #6344ff;
-
     background-image: url("s2r://panorama/images/compendium/fall2021/totalpoints_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -418,18 +404,14 @@
     horizontal-align: center;
     margin-bottom: 0px;
     margin-left: 120px;
-
     background-image: url("s2r://panorama/images/econ/tools/aghs_mystery_box_large_transparent_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     opacity: 0;
     transform: scale3d(1.2, 1.2, 1);
-
     transition-property: transform;
     transition-duration: 0.2s;
-
     animation-name: DrowTreasure;
     animation-duration: 1s;
     animation-iteration-count: infinite;

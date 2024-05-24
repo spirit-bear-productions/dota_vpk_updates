@@ -1,6 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FrontPageCell736 {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1a2d43), to(#05080d));
 }
+
 .FrontPageCell736 .CellLabel {
     horizontal-align: center;
     color: LighterGrey;
@@ -22,9 +25,9 @@
     flow-children: down;
     vertical-align: bottom;
 }
+
 .FrontPageCell736 .CellContent .PatchTitle {
     horizontal-align: center;
-
     color: rgba(230, 235, 255, 0.927);
     font-weight: semi-bold;
     font-size: 64px;
@@ -50,7 +53,6 @@
     margin-top: -12px;
     padding: 8px;
     padding-bottom: 4px;
-
     border-brush: gradient(
         linear,
         0% 0%,
@@ -63,10 +65,10 @@
     width: 100%;
     text-align: center;
     text-shadow: 0px 2px 8px black;
-
     transition-property: color;
     transition-duration: 0.2s;
 }
+
 .FrontPageCell736 .CellContent .VisitWebsiteLabel:hover {
     color: gradient(linear, 0% 0%, 0% 100%, from(white), color-stop(0.5, white), to(white));
 }

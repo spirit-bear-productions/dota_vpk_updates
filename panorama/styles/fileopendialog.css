@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 FileOpenDialog {
     width: 100%;
     height: 100%;
@@ -12,11 +14,9 @@ FileOpenDialog {
     horizontal-align: center;
     vertical-align: center;
     padding: 10px;
-
     background-color: gradient(linear, 0% 0%, 0% 25%, from(#232326), to(#1c1d20));
     box-shadow: #00000099 0px 0px 8px 0px;
     border: 2px solid #32383677;
-
     transition-property: opacity, transform, pre-transform-scale2d, height;
     transition-duration: 0.2s;
 }
@@ -138,16 +138,13 @@ FileOpenDialog {
 #FolderUpButton {
     width: 41px;
     height: 41px;
-
     background-image: url("s2r://panorama/images/control_icons/icon_folder_up_png.vtex");
     background-size: 24px 18px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     margin: 0px 4px 4px 10px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5a6c75), to(#3d4a50));
     border: 1px solid black;
-
     border-top: 1px solid #ffffff44;
     border-right: 1px solid #4e5b60;
     border-left: 1px solid #4e5b60;

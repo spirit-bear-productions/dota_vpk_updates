@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DOTAWeeklyQuest {
     tooltip-body-position: 50% 50%;
     width: 600px;
@@ -12,12 +14,15 @@
 .QuestListColumn1 .DOTAWeeklyQuest.QuestListRow1 {
     margin-left: 0px;
 }
+
 .QuestListColumn1 .DOTAWeeklyQuest.QuestListRow2 {
     margin-left: 30px;
 }
+
 .QuestListColumn1 .DOTAWeeklyQuest.QuestListRow3 {
     margin-left: 60px;
 }
+
 .QuestListColumn1 .DOTAWeeklyQuest.QuestListRow4 {
     margin-left: 90px;
 }
@@ -25,12 +30,15 @@
 .QuestListColumn2 .DOTAWeeklyQuest.QuestListRow1 {
     margin-left: -90px;
 }
+
 .QuestListColumn2 .DOTAWeeklyQuest.QuestListRow2 {
     margin-left: -60px;
 }
+
 .QuestListColumn2 .DOTAWeeklyQuest.QuestListRow3 {
     margin-left: -30px;
 }
+
 .QuestListColumn2 .DOTAWeeklyQuest.QuestListRow4 {
     margin-left: 0px;
 }
@@ -44,12 +52,15 @@
 .QuestListRow1 #QuestBackgroundPanel {
     background-position: -76px -50px;
 }
+
 .QuestListRow2 #QuestBackgroundPanel {
     background-position: -76px -184px;
 }
+
 .QuestListRow3 #QuestBackgroundPanel {
     background-position: -76px -318px;
 }
+
 .QuestListRow4 #QuestBackgroundPanel {
     background-position: -76px -452px;
 }
@@ -57,12 +68,15 @@
 .QuestListColumn2 .QuestListRow1 #QuestBackgroundPanel {
     background-position: -676px -50px;
 }
+
 .QuestListColumn2 .QuestListRow2 #QuestBackgroundPanel {
     background-position: -676px -184px;
 }
+
 .QuestListColumn2 .QuestListRow3 #QuestBackgroundPanel {
     background-position: -676px -318px;
 }
+
 .QuestListColumn2 .QuestListRow4 #QuestBackgroundPanel {
     background-position: -676px -452px;
 }
@@ -70,6 +84,7 @@
 .QuestListColumn1 .DOTAWeeklyQuest.QuestListRow1.Completed {
     transform: translateX(4px) translateY(9px);
 }
+
 .QuestListColumn2 .DOTAWeeklyQuest.QuestListRow1.Completed {
     transform: translateX(-2px) translateY(9px);
 }
@@ -77,6 +92,7 @@
 .QuestListColumn1 .DOTAWeeklyQuest.QuestListRow2.Completed {
     transform: translateX(2.5px) translateY(3px);
 }
+
 .QuestListColumn2 .DOTAWeeklyQuest.QuestListRow2.Completed {
     transform: translateX(-3.5px) translateY(3px);
 }
@@ -84,6 +100,7 @@
 .QuestListColumn1 .DOTAWeeklyQuest.QuestListRow3.Completed {
     transform: translateX(1px) translateY(-3px);
 }
+
 .QuestListColumn2 .DOTAWeeklyQuest.QuestListRow3.Completed {
     transform: translateX(-5px) translateY(-3px);
 }
@@ -91,6 +108,7 @@
 .QuestListColumn1 .DOTAWeeklyQuest.QuestListRow4.Completed {
     transform: translateX(-0.5px) translateY(-9px);
 }
+
 .QuestListColumn2 .DOTAWeeklyQuest.QuestListRow4.Completed {
     transform: translateX(-6.5px) translateY(-9px);
 }
@@ -130,57 +148,75 @@
 .Season_1 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week01_psd.vtex");
 }
+
 .Season_2 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week02_psd.vtex");
 }
+
 .Season_3 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week03_psd.vtex");
 }
+
 .Season_4 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week04_psd.vtex");
 }
+
 .Season_5 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week05_psd.vtex");
 }
+
 .Season_6 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week06_psd.vtex");
 }
+
 .Season_7 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week07_psd.vtex");
 }
+
 .Season_8 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week08_psd.vtex");
 }
+
 .Season_9 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week09_psd.vtex");
 }
+
 .Season_10 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week10_psd.vtex");
 }
+
 .Season_11 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week11_psd.vtex");
 }
+
 .Season_12 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week12_psd.vtex");
 }
+
 .Season_13 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week13_psd.vtex");
 }
+
 .Season_14 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week14_psd.vtex");
 }
+
 .Season_15 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week15_psd.vtex");
 }
+
 .Season_16 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week16_psd.vtex");
 }
+
 .Season_17 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week17_psd.vtex");
 }
+
 .Season_18 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week18_psd.vtex");
 }
+
 .Season_19 .DOTAWeeklyQuest.Completed #QuestBackgroundPanel {
     background-image: url("s2r://panorama/images/battlepass/international2022/weeklyquests/hiddenbg_week19_psd.vtex");
 }
@@ -188,7 +224,6 @@
 .QuestBackgroundCover {
     width: 100%;
     height: 100%;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -219,26 +254,19 @@
 #QuestBackgroundPanel {
     transition-property: transform, opacity;
     transition-duration: 0.32s, 0.1s;
-
     width: 100%;
     height: 100%;
-
     z-index: -1;
-
     background-image: url("s2r://panorama/images/battlepass/international2022/quest_bg_texture_part2_psd.vtex");
     background-repeat: no-repeat;
     background-size: 1300px 588px;
     background-position: top;
-
     border: 1px solid #000;
     border-bottom: 2px solid #000;
     border-radius: 3px;
-
     box-shadow: 0px 0px 32px #00000066;
-
     transform: skew(12deg);
     margin: 3px;
-
     animation-duration: 21s;
     animation-iteration-count: infinite;
 }
@@ -268,7 +296,6 @@
     width: 100%;
     min-width: 550px;
     height: 130px;
-
     margin: 2px;
     overflow: noclip;
     transition-property: opacity;
@@ -316,7 +343,6 @@
     margin-top: 52px;
     text-overflow: shrink;
     max-width: 550px;
-
     color: accentColorBright&66;
     font-weight: normal;
     letter-spacing: 0px;
@@ -360,7 +386,6 @@
 .QuestInfoIcon:hover {
     box-shadow: accentColor&33 0px 0px 30px 0px;
     brightness: 3;
-
     transition-property: box-shadow, brightness;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -385,7 +410,6 @@
     margin-left: 26px;
     margin-bottom: 14px;
     visibility: collapse;
-
     border-radius: 0px;
     background-color: ultraDarkColor;
     border: 1px solid #ffffff;
@@ -403,7 +427,6 @@
     letter-spacing: 2px;
     font-size: 14px;
     font-weight: light;
-
     text-align: right;
     vertical-align: center;
     horizontal-align: center;
@@ -428,6 +451,7 @@
     0% {
         hue-rotation: 0deg;
     }
+
     100% {
         hue-rotation: 360deg;
     }
@@ -439,26 +463,20 @@
     height: 12px;
     margin-right: 13px;
     margin-top: 12px;
-
     border: 2px solid dotaPlusGold&99;
 }
 
 #CompletedCheckmark {
     horizontal-align: right;
-
     width: 16px;
     height: 16px;
-
     margin-top: 7px;
     margin-right: 9px;
-
     wash-color: dotaPlusLightGold;
-
     background-image: url("s2r://panorama/images/control_icons/check_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
     visibility: collapse;
 }
 
@@ -486,7 +504,6 @@
     width: 16px;
     height: 16px;
     transform: translateY(2px);
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -506,12 +523,10 @@
     vertical-align: middle;
     padding: 4px 6px 2px 6px;
     margin-right: 12px;
-
     animation-name: ClaimButtonAnimation;
     animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-
     visibility: collapse;
 }
 
@@ -519,6 +534,7 @@
     0% {
         box-shadow: 0px 0px 4px dotaPlusGold&66;
     }
+
     100% {
         box-shadow: 0px 0px 8px dotaPlusGold&99;
     }
@@ -538,7 +554,6 @@
     height: 16px;
     margin-left: 4px;
     transform: translateY(2px);
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

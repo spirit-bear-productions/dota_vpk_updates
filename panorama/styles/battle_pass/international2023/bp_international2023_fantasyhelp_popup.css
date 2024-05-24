@@ -1,19 +1,20 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupFantasyCraftHelp {
     width: 1280px;
     height: 800px;
     horizontal-align: center;
     vertical-align: center;
     flow-children: down;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(primaryColor6), to(#000b16));
     border: 2px solid rgba(255, 255, 255, 0.05);
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(primaryColor3), to(primaryColor4));
-
     transition-property: transform, pre-transform-scale2d, opacity, background-color, height, box-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
 }
+
 PopupFantasyCraftHelp.Hidden {
     opacity: 0;
     pre-transform-scale2d: 1.25;
@@ -28,6 +29,7 @@ PopupFantasyCraftHelp.Hidden {
     opacity-mask: url("s2r://panorama/images/masks/soft_top_bottom_vscroll_psd.vtex");
     overflow: clip scroll;
 }
+
 .Body #Choices {
     flow-children: right-wrap;
     horizontal-align: center;
@@ -43,6 +45,7 @@ PopupFantasyCraftHelp.Hidden {
     width: 100%;
     padding: 24px 24px 12px;
 }
+
 .Header .PlayerChoiceTitle {
     horizontal-align: center;
     text-shadow: textShadowSmall;
@@ -56,15 +59,19 @@ PopupFantasyCraftHelp.Hidden {
 .gem_shape1 {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_round_png.vtex");
 }
+
 .gem_shape2 {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_pear_png.vtex");
 }
+
 .gem_shape3 {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_cushion_png.vtex");
 }
+
 .gem_shape4 {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_princess_png.vtex");
 }
+
 .gem_shape5 {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_heart_png.vtex");
 }
@@ -72,15 +79,19 @@ PopupFantasyCraftHelp.Hidden {
 .gem_quality1 {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank1_psd.vtex");
 }
+
 .gem_quality2 {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank2_psd.vtex");
 }
+
 .gem_quality3 {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank3_psd.vtex");
 }
+
 .gem_quality4 {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank4_psd.vtex");
 }
+
 .gem_quality5 {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank5_psd.vtex");
 }
@@ -147,11 +158,9 @@ PopupFantasyCraftHelp.Hidden {
     wash-color: #aaa;
     margin-right: 8px;
     img-shadow: 2px 2px 4px black;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     vertical-align: center;
 }
 

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .GuildMemberListContents {
     flow-children: right;
 }
@@ -11,6 +13,7 @@
     height: 100%;
     margin-right: 12px;
 }
+
 #MemberList {
     width: 100%;
     height: fill-parent-flow(1);
@@ -19,10 +22,12 @@
     margin-bottom: 14px;
     opacity: 0.99;
 }
+
 .MemberNameColumn {
     flow-children: right;
     width: 200px;
 }
+
 .MemberAvatar {
     width: 41px;
     height: 41px;
@@ -30,6 +35,7 @@
     vertical-align: middle;
     box-shadow: #000 4px 0px 8px 0px;
 }
+
 .PlayerDescContainer {
     width: fill-parent-flow(1);
     flow-children: down;
@@ -38,6 +44,7 @@
     height: fit-children;
     padding-top: 3px;
 }
+
 .MemberRoleColumn {
     width: 200px;
 }
@@ -56,7 +63,6 @@
 
 .CanChangeRoles #MemberRoleName {
     background-color: #ffffff04;
-
     transition-duration: 0.2s;
     transition-property: background-color;
 }
@@ -74,10 +80,8 @@
 #MemberRoleName Label {
     text-transform: uppercase;
     vertical-align: middle;
-
     color: #9b9b9b;
     font-size: 16px;
-
     width: 170px;
 }
 
@@ -92,12 +96,10 @@
     margin-top: -2px;
     width: 32px;
     height: 32px;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     visibility: collapse;
 }
 
@@ -139,6 +141,7 @@
     width: 100%;
     margin-bottom: 12px;
 }
+
 #InviteList {
     width: 100%;
     height: fill-parent-flow (1);
@@ -187,16 +190,12 @@
     width: 16px;
     height: 16px;
     margin: 0px 0px 1px 0px;
-
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     wash-color: #666;
-
     visibility: collapse;
     margin-top: -2px;
     margin-left: -2px;
@@ -213,15 +212,12 @@
     height: 42px;
     margin-bottom: 3px;
     background-color: #ffffff03;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff01), to(#ffffff03));
     border-top: 1px solid #ffffff02;
     border-right: 1px solid #ffffff02;
     box-shadow: 0px 0px 20px #000000aa;
-
     width: 100%;
     margin-right: 14px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -231,20 +227,16 @@
     height: 42px;
     margin-bottom: 3px;
     background-color: #ffffff03;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff01), to(#ffffff03));
     border-top: 1px solid #ffffff02;
     border-right: 1px solid #ffffff02;
     box-shadow: 0px 0px 20px #000000aa;
-
     width: 100%;
     margin-right: 6px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
     margin-left: 14px;
     margin-right: 14px;
-
     visibility: visible;
 }
 

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents {
     flow-children: down;
     background-color: gradient(linear, 0% 0%, 0% 130%, from(charcoalLight), to(charcoalDark));
@@ -14,6 +16,7 @@
     color: LighterGrey;
     text-shadow: 0px 2px 8px black;
 }
+
 .Heading .TokenName {
     color: white;
 }
@@ -27,6 +30,7 @@
     flow-children: down;
     width: 400px;
 }
+
 .RewardRow .SectionHeader {
     horizontal-align: center;
     flow-children: right;
@@ -34,6 +38,7 @@
     overflow: noclip;
     width: 80%;
 }
+
 .RewardRow .SectionHeader .Divider {
     height: 1px;
     width: fill-parent-flow(1);
@@ -42,6 +47,7 @@
     background-color: gradient(linear, 0% 0%, 100% 0%, from(LightGrey), to(LightGrey&00));
     opacity: 0.3;
 }
+
 .RewardRow .SectionHeader .Divider.Flip {
     transform: scaleX(-1);
 }
@@ -50,6 +56,7 @@
     flow-children: right;
     ui-scale: 80%;
 }
+
 .RewardRow .SectionHeader #TokenList DOTACrownfallToken {
     margin: -14px;
 }

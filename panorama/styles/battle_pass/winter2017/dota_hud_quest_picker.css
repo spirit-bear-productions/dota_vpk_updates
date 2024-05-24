@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAQuestPicker.QuestPickerHidden {
     opacity: 0;
 }
@@ -27,9 +29,7 @@ DOTAQuestPicker.QuestPickerHidden {
     margin-top: 206px;
     border-top: 1px solid #ffffff07;
     border-right: 1px solid #ffffff07;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#16250d), to(#000000));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#0d1b25), to(#000000));
 }
 
@@ -49,7 +49,6 @@ DOTAQuestPicker.QuestPickerHidden {
 
 .PanelSlideThumb {
     background-color: #487117ff;
-
     background-color: #184778ff;
     z-index: -2;
 }
@@ -60,7 +59,6 @@ DOTAQuestPicker.QuestPickerHidden {
 
 .PanelSlideThumb:hover {
     background-color: #84ba36dd;
-
     background-color: #3da9cddd;
 }
 
@@ -109,9 +107,7 @@ DOTAQuestPicker.QuestPickerHidden {
 
 #CurrentQuestName {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#487117ff), to(#48711700));
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#1b4a89ff), to(#1b4a8900));
-
     font-size: 26px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -127,6 +123,7 @@ DOTAQuestPicker.QuestPickerHidden {
     font-size: 20px;
     font-weight: thin;
 }
+
 #CurrentQuestDesc {
     margin-top: 86px;
     font-size: 20px;
@@ -188,19 +185,15 @@ DOTAQuestPicker.QuestPickerHidden {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
-
     color: #e7f7a5;
     border: 1px solid #3a6020;
-
     color: #a5ccf7;
     border: 1px solid #203e60;
-
     padding-left: 8px;
     padding-top: 3px;
     margin-top: 54px;
     margin-left: 2px;
     background-color: #00000088;
-
     transition-property: opacity, border, color;
     transition-duration: 0.26s;
     transition-timing-function: ease-in-out;
@@ -216,21 +209,16 @@ DOTAQuestPicker.QuestPickerHidden {
 
 #QuestLinePickerDropdown #OverviewButton:hover {
     color: white;
-
     border: 1px solid #deff5b;
-
     border: 1px solid #5bacff;
 }
 
 #Choose,
 DOTABPWinter2016QuestsPage #QuestLineName {
     font-size: 42px;
-
     padding: 0px;
-
     overflow: noclip;
     margin: 0px;
-
     transition-property: transform, opacity, color;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -254,9 +242,7 @@ DOTABPWinter2016QuestsPage #QuestLineName {
     color: #82a0c5;
     horizontal-align: center;
     margin-top: 52px;
-
     text-shadow: 0px 0px 1px 2 black;
-
     letter-spacing: 1px;
     opacity: 0;
     transition-property: opacity, color;
@@ -294,11 +280,8 @@ DOTABPWinter2016QuestsPage #QuestPickerDropDown {
     transform: rotateZ(0deg) translateY(0px);
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     margin-bottom: 12px;
-
     wash-color: #84ba36dd;
-
     wash-color: #3690badd;
-
     background-repeat: no-repeat;
     background-size: cover;
     transition-property: transform;
@@ -389,11 +372,9 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
     vertical-align: bottom;
     margin-bottom: 0px;
     margin-right: 16px;
-
     background-image: none;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
     padding: 0px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -409,7 +390,6 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
     vertical-align: bottom;
     opacity: 1;
     background-color: #00000000;
-
     transition-property: opacity, background-color;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -427,7 +407,6 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
 .QuestLinePanel {
     height: 161px;
     width: 100%;
-
     wash-color: black;
     opacity: 0;
     transition-property: transform, wash-color, opacity;
@@ -456,7 +435,6 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
     background-size: cover;
     saturation: 0.5;
     wash-color: #3a6883;
-
     transition-property: saturation, wash-color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -535,12 +513,15 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
 #QuestPickerPanel.Expand #QuestLine1 {
     transition-delay: 0.3s;
 }
+
 #QuestPickerPanel.Expand #QuestLine2 {
     transition-delay: 0.2s;
 }
+
 #QuestPickerPanel.Expand #QuestLine3 {
     transition-delay: 0.1s;
 }
+
 #QuestPickerPanel.Expand #QuestLine4 {
     transition-delay: 0s;
 }
@@ -564,9 +545,7 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
 #ChallengeProgress .ProgressBarLeft {
     background-color: dotalevelgradient;
     box-shadow: #61789caa 0px 0px 4px 0px;
-
     border-radius: 2px;
-
     transition-property: width;
     transition-duration: 1s;
     transition-timing-function: linear;
@@ -609,7 +588,6 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
 
 #ActiveQuestContainer {
     opacity: 1;
-
     pre-transform-scale2d: 1;
     transform: translateY(0px);
     transition-property: transform, opacity, pre-transform-scale2d;

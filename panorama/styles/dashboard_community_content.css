@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .NPH {
     vertical-align: top;
     horizontal-align: center;
@@ -226,6 +228,7 @@
     border: 4px solid bluegreyTextReg;
     border-radius: 5px;
 }
+
 .NPH_TierPip__Active .NPH_TierPipImage {
     border: 4px solid bluegreyTextBright;
 }
@@ -240,7 +243,6 @@
     width: 100%;
     height: 100%;
     flow-children: right-wrap;
-
     opacity: 1;
     transform: translateX(0px);
 }
@@ -280,11 +282,9 @@
     height: 88px;
     margin-top: 8px;
     margin-right: 12px;
-
     background-image: url("s2r://panorama/images/new_player_intro/rewards_bg_psd.vtex");
     background-size: 100%;
     background-repeat: no-repeat;
-
     visibility: collapse;
 }
 
@@ -352,6 +352,7 @@
     height: 80px;
     visibility: collapse;
 }
+
 .NPH_RewardList__Active {
     visibility: visible;
 }
@@ -376,7 +377,6 @@
     horizontal-align: right;
     padding: 4px;
     text-overflow: shrink;
-
     visibility: collapse;
 }
 
@@ -413,7 +413,6 @@
     overflow: noclip;
     horizontal-align: right;
     margin-top: 4px;
-
     visibility: collapse;
 }
 
@@ -424,12 +423,10 @@
 .NPH_Scenario {
     width: 100%;
     height: 100%;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     opacity: 0;
-
     overflow: noclip;
 }
 
@@ -445,18 +442,14 @@
     width: 64px;
     height: 64px;
     margin: 2px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: center;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     transition-property: img-shadow;
     transition-duration: 0.2s;
-
     img-shadow: 0px 0px 14px 2 #7299db00;
 }
 
@@ -477,6 +470,7 @@
 .NPH_RewardTile__Clickable:hover {
     img-shadow: 0px 0px 14px 2 #7299db;
 }
+
 .NPH_RewardTile__Clickable:active {
     transform: translateX(1px) translateY(1px);
 }
@@ -495,17 +489,21 @@
     margin-left: 18px;
     margin-top: 4px;
 }
+
 .NPH_EmoticonReward__2 {
     margin-top: 18px;
 }
+
 .NPH_EmoticonReward__3 {
     margin-top: 18px;
     horizontal-align: right;
 }
+
 .NPH_EmoticonReward__4 {
     margin-left: 8px;
     vertical-align: bottom;
 }
+
 .NPH_EmoticonReward__5 {
     margin-right: 8px;
     vertical-align: bottom;
@@ -606,6 +604,7 @@
     width: 100px;
     height: 40px;
 }
+
 .Example.AddedByScenario .Example_Image {
     saturation: 0;
 }
@@ -637,7 +636,6 @@
     horizontal-align: center;
     text-shadow: 0px 0px 12px 1 #7299db44;
     width: 320px;
-
     margin-top: 4px;
     color: #ffffffcc;
     font-size: 18px;
@@ -751,6 +749,7 @@
 .ComContent_Header {
     flow-children: down-wrap;
 }
+
 .ComContent_Buttons {
     flow-children: right-wrap;
     margin-top: 20px;
@@ -759,9 +758,7 @@
 .ComContent_Grid {
     height: 600px;
     margin-top: 10px;
-
     padding: 20px;
-
     background-color: #000c;
 }
 
@@ -769,7 +766,6 @@
     height: 100%;
     overflow: squish scroll;
     flow-children: right-wrap;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_bottom_png.vtex") 1;
 }
 
@@ -780,7 +776,6 @@
 .ComContentFocus {
     height: 600px;
     width: 1280px;
-
     opacity: 0;
     horizontal-align: center;
     flow-children: right;
@@ -790,6 +785,7 @@
     border: 1px solid #9fb3d3;
     border-radius: 3px;
 }
+
 .ComContentFocus.Initialize {
     opacity: 1;
 }
@@ -797,13 +793,13 @@
 .ComContentFocus_Preview {
     margin-top: 100px;
     margin-right: 50px;
-
     align: right;
     max-width: 640px;
     max-height: 360px;
     overflow: squish squish;
     border: 1px solid #9fb3d3;
 }
+
 .ComContentFocus_Preview Image {
     width: 1280px;
     height: 720px;
@@ -815,7 +811,6 @@
     margin-bottom: 50px;
     width: 480px;
     height: 700px;
-
     flow-children: right-wrap;
 }
 
@@ -826,6 +821,7 @@
     font-size: 16px;
     font-weight: semi-bold;
 }
+
 .ComContentFocus_DescriptionTitleText {
     color: gradient(linear, 0% 0%, 0% 100%, from(#c9b778), color-stop(0.2, #ebe2b2), to(#b49669));
     line-height: 1.2;
@@ -841,14 +837,10 @@
     font-style: normal;
     margin-top: 30px;
     width: 100%;
-
     line-height: 1.2;
-
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
-
     overflow: squish scroll;
     opacity-mask: url("s2r://panorama/images/masks/softedge_bottom_png.vtex") 1;
-
     transition-property: text-shadow, color;
     transition-duration: 0.2s;
 }
@@ -861,7 +853,6 @@
     background-color: #11040535;
     align: middle;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -874,9 +865,7 @@
     height: 100%;
     width: 100%;
     overflow: noclip;
-
     align: middle;
-
     opacity: 1;
     background-color: #00000099;
 }
@@ -884,7 +873,6 @@
 .ComContentFocus_Reset {
     height: 100%;
     width: 100%;
-
     pre-transform-scale2d: 1;
     align: middle;
 }
@@ -904,19 +892,15 @@
 .ComContentTile_TextContainer {
     height: 100px;
     width: 100%;
-
     flow-children: down;
 }
 
 .ComContentTile_Title {
     color: bluegreyTextBright;
     font-family: titleFont;
-
     font-size: 16px;
-
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
     height: 50px;
-
     align: left;
     transition-property: text-shadow, color;
     transition-duration: 0.2s;
@@ -924,16 +908,13 @@
 
 .ComContentTile_Name {
     font-family: titleFont;
-
     color: bluegreyTextBlackt;
     font-size: 18px;
     font-weight: semi-bold;
     width: 100px;
     text-align: center;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
-
     height: 24px;
-
     align: right;
     transition-property: text-shadow, color;
     transition-duration: 0.2s;
@@ -944,10 +925,8 @@
     width: 320px;
     height: 180px;
     horizontal-align: center;
-
     transition-property: pre-transform-scale2d, width, opacity, saturation, box-shadow, border;
     transition-duration: 0.14s;
-
     saturation: 0.5;
     opacity: 0.8;
     box-shadow: fill #7299db01 0px 0px 24px 0px;

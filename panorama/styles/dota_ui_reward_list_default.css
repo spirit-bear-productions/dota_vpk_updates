@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .EconItemRewardItem {
     horizontal-align: center;
     tooltip-body-position: 50% 50%;
@@ -9,15 +11,12 @@
 .EconItemRewardLabel {
     horizontal-align: right;
     vertical-align: bottom;
-
     margin-right: 11px;
     margin-bottom: 7px;
-
     font-size: 24px;
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px 0px black;
-
     visibility: collapse;
 }
 
@@ -29,9 +28,7 @@
     width: 89px;
     height: 96px;
     margin: 6px;
-
     tooltip-body-position: 50% 50%;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -62,12 +59,10 @@
 
 .ChatWheelReward {
     flow-children: down;
-
     width: 100%;
     margin: 5px 8px 0px 8px;
     horizontal-align: center;
     padding: 8px 8px 0px 8px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(secondaryDarkColor), to(secondaryDarkColor&00));
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
@@ -83,9 +78,7 @@
     margin-right: 5px;
     horizontal-align: center;
     wash-color: defaultColor;
-
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/settings_chatwheel_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;

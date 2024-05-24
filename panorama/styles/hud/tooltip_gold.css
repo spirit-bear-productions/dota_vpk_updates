@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTATooltipGold #Contents {
     flow-children: down;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#2d2d2dfc), to(#000000fc));
@@ -50,15 +52,19 @@ Label {
 #QuickbuyGold {
     visibility: collapse;
 }
+
 .ShowQuickbuyCost #QuickbuyGold {
     visibility: visible;
 }
+
 .ShowQuickbuyCost #QuickbuyGoldSurplus {
     visibility: visible;
 }
+
 .ShowQuickbuyCost.QuickbuyGoldRequired #QuickbuyGoldSurplus {
     visibility: collapse;
 }
+
 .ShowQuickbuyCost.QuickbuyGoldRequired #QuickbuyGoldNeeded {
     visibility: visible;
 }
@@ -66,15 +72,19 @@ Label {
 #QuickbuyAndBuybackGold {
     visibility: collapse;
 }
+
 .ShowQuickbuyAndBuybackCost #QuickbuyAndBuybackGold {
     visibility: visible;
 }
+
 .ShowQuickbuyAndBuybackCost #QuickbuyAndBuybackGoldSurplus {
     visibility: visible;
 }
+
 .ShowQuickbuyAndBuybackCost.QuickbuyAndBuybackGoldRequired #QuickbuyAndBuybackGoldSurplus {
     visibility: collapse;
 }
+
 .ShowQuickbuyAndBuybackCost.QuickbuyAndBuybackGoldRequired #QuickbuyAndBuybackGoldNeeded {
     visibility: visible;
 }

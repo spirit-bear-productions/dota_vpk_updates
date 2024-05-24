@@ -1,19 +1,17 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupNewBattleReport.PopupPanel {
     width: 800px;
     horizontal-align: center;
     flow-children: none;
-
     border: 0px;
     padding: 0px;
     animation-name: none;
-
     border-top: 2px solid dotaPlusGold;
     background-color: gradient(radial, 100% 0%, 0% 0%, 180% 180%, from(#313b42), to(black));
-
     transition-property: transform;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
-
     background-image: url("s2r://panorama/images/battle_report/bar_chart_background_png.vtex");
     background-repeat: no-repeat;
     background-position: center 30%;
@@ -33,7 +31,6 @@ PopupNewBattleReport.PopupPanel {
     height: 180px;
     horizontal-align: center;
     margin-top: -20px;
-
     background-image: url("s2r://panorama/images/battle_report/battle_report_logo_medium_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -87,7 +84,6 @@ PopupNewBattleReport.PopupPanel {
 .PlusLogo {
     width: 24px;
     height: 24px;
-
     background-image: dotaPlusLogoSmall;
     background-size: contain;
     background-repeat: no-repeat;

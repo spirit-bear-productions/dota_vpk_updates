@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 5.0.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -75,6 +75,12 @@
 					<Label id="StatusResistLabel" text="#DOTA_HUD_StatusResist" class="StatName" />
 					<Panel class="LeftRightFlow">
 						<Label id="StatusResist=" text="{s:status_resistance}%" class="BaseValue" />
+					</Panel>
+				</Panel>
+				<Panel id="SlowResistRow" class="StatRow">
+					<Label id="SlowResistLabel" text="#DOTA_HUD_SlowResist" class="StatName" />
+					<Panel class="LeftRightFlow">
+						<Label id="SlowResist=" text="{s:slow_resistance}%" class="BaseValue" />
 					</Panel>
 				</Panel>
 				<Panel id="EvasionRow" class="StatRow">

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACustomGameDownloadBar {
     vertical-align: center;
     width: 100%;
@@ -71,10 +73,8 @@ DOTACustomGameDownloadBar.NoCover #DownloadProgressContainer {
 #DownloadingSpinnerContainer {
     margin-top: 20px;
     margin-bottom: 20px;
-
     vertical-align: middle;
     horizontal-align: middle;
-
     flow-children: down;
 }
 
@@ -87,11 +87,9 @@ DOTACustomGameDownloadBar.NoCover #DownloadProgressContainer {
     height: 30px;
     vertical-align: middle;
     horizontal-align: middle;
-
     background-image: url("s2r://panorama/images/status_icons/loadingthrobber_round_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     animation-name: DownloadingSpinnerAnimation;
     animation-duration: 1s;
     animation-timing-function: linear;

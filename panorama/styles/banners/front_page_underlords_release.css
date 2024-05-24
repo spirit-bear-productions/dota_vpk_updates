@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .UnderlordsEarlyAccessCell {
     flow-children: down;
     background-color: black;
-
     background-image: url("s2r://panorama/images/underlords/underlords_release_cell_bg_png.vtex");
     background-size: cover;
     background-position: center;
@@ -63,7 +64,6 @@
     width: 60%;
     height: 160px;
     margin-top: -18px;
-
     background-image: url("s2r://panorama/images/underlords/underlords_full_logo_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;

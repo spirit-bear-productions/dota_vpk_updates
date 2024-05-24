@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .HeroRelic {
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
@@ -13,14 +15,17 @@
     x: 0px;
     y: 0px;
 }
+
 #Rare1 {
     x: 20px;
     y: 0px;
 }
+
 #Rare2 {
     x: 40px;
     y: 0px;
 }
+
 #Rare3 {
     x: 60px;
     y: 0px;
@@ -44,38 +49,47 @@ DOTAHeroRelicsThumbnail:not(.TooltipsOnly) .CommonRelic {
     x: 50px;
     y: 70px;
 }
+
 #Common1 {
     x: 30px;
     y: 70px;
 }
+
 #Common2 {
     x: 10px;
     y: 70px;
 }
+
 #Common3 {
     x: 60px;
     y: 50px;
 }
+
 #Common4 {
     x: 40px;
     y: 50px;
 }
+
 #Common5 {
     x: 20px;
     y: 50px;
 }
+
 #Common6 {
     x: 0px;
     y: 50px;
 }
+
 #Common7 {
     x: 50px;
     y: 30px;
 }
+
 #Common8 {
     x: 30px;
     y: 30px;
 }
+
 #Common9 {
     x: 10px;
     y: 30px;

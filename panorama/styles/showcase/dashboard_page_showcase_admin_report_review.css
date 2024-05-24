@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAShowcaseAdminReportReviewPage {
     width: 100%;
     height: 100%;
@@ -10,6 +12,7 @@ DOTAShowcaseAdminReportReviewPage {
     horizontal-align: center;
     width: 1600px;
 }
+
 .PageContents .PageTitle {
     font-size: 32px;
     color: white;
@@ -22,6 +25,7 @@ DOTAShowcaseAdminReportReviewPage {
     width: 100%;
     height: fill-parent-flow(1);
 }
+
 .UserDetailsContainer .AsyncSuccessContainer {
     flow-children: down;
 }
@@ -29,6 +33,7 @@ DOTAShowcaseAdminReportReviewPage {
 .Header {
     flow-children: right;
 }
+
 .Header .Reviewing {
     vertical-align: middle;
     font-size: 24px;
@@ -57,6 +62,7 @@ DOTAShowcaseAdminReportReviewPage {
     flow-children: right;
     margin: 8px 0px;
 }
+
 .ViewButtons .PopupButton {
     ui-scale: 80%;
     margin: 0px;
@@ -67,6 +73,7 @@ DOTAShowcaseAdminReportReviewPage {
     flow-children: right;
     margin-bottom: 8px;
 }
+
 #ActionButtons .ActionButton {
     ui-scale: 75%;
     margin: 0px;
@@ -81,9 +88,9 @@ DOTAShowcaseAdminReportReviewPage {
     flow-children: right;
     vertical-align: middle;
     margin-left: 16px;
-
     visibility: collapse;
 }
+
 .ActionInProgress .ActionWorking {
     visibility: visible;
 }
@@ -100,20 +107,24 @@ DOTAShowcaseAdminReportReviewPage {
     flow-children: right;
     height: fill-parent-flow(1);
 }
+
 .DataTables .DataTable {
     flow-children: down;
     height: 100%;
 }
+
 .DataTables .DataTable .TableTitle {
     text-transform: uppercase;
     color: #999;
     letter-spacing: 2px;
     margin-left: 8px;
 }
+
 .DataTables .DataTable .TableHeader {
     background-color: black;
     flow-children: right;
 }
+
 .DataTables .DataTable .TableHeader .Column {
     padding: 2px 8px;
 }
@@ -125,6 +136,7 @@ DOTAShowcaseAdminReportReviewPage {
     overflow: squish scroll;
     flow-children: down;
 }
+
 .DataTables .DataTable .TableEntries .TableEntry {
     border-bottom: 1px solid #fff1;
     margin-bottom: 4px;
@@ -133,6 +145,7 @@ DOTAShowcaseAdminReportReviewPage {
 .DataTables .DataTable .TableEntries .Column {
     padding: 2px 8px;
 }
+
 .DataTables .DataTable .TableEntries .Column Label {
     font-size: 16px;
 }
@@ -140,10 +153,12 @@ DOTAShowcaseAdminReportReviewPage {
 .DataTables .RecentReportsTable {
     margin-right: 8px;
 }
+
 .DataTables .RecentReportsTable .ReporterColumn {
     width: 140px;
     flow-children: right;
 }
+
 .DataTables .RecentReportsTable .ReporterColumn #ReporterAvatarImage {
     width: 20px;
     height: 20px;
@@ -153,9 +168,11 @@ DOTAShowcaseAdminReportReviewPage {
 .DataTables .RecentReportsTable .ShowcaseTypeColumn {
     width: 120px;
 }
+
 .DataTables .RecentReportsTable .ReportTimestampColumn {
     width: 200px;
 }
+
 .DataTables .RecentReportsTable .ReportCommentColumn {
     width: 300px;
 }
@@ -163,12 +180,15 @@ DOTAShowcaseAdminReportReviewPage {
 .DataTables .RecentAuditTable .AuditActionColumn {
     width: 240px;
 }
+
 .DataTables .RecentAuditTable .TimestampColumn {
     width: 200px;
 }
+
 .DataTables .RecentAuditTable .ShowcaseTypeColumn {
     width: 120px;
 }
+
 .DataTables .RecentAuditTable .AuditDataColumn {
     width: 240px;
 }
@@ -187,18 +207,22 @@ DOTAShowcaseAdminReportReviewPage {
     background-color: #0009;
     margin-top: 8px;
 }
+
 .AdminActionsSection .AdminActionsTable {
     flow-children: down;
     padding: 2px 8px;
 }
+
 .AdminActionsSection .AdminActionsTable .ActionRow {
     flow-children: right;
     margin-bottom: 8px;
 }
+
 .AdminActionsSection .AdminActionsTable .ActionRow .ActionInfo {
     flow-children: down;
     width: 600px;
 }
+
 .AdminActionsSection .AdminActionsTable .ActionRow .ActionInfo .ActionTitle {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -213,6 +237,7 @@ DOTAShowcaseAdminReportReviewPage {
 .AdminActionsSection .AdminActionsTable .ActionRow .ActionControls {
     flow-children: right;
 }
+
 .AdminActionsSection .AdminActionsTable .ActionRow .ActionControls .PopupButton {
     margin: 0px;
     ui-scale: 80%;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .GlossaryMinimapContainer {
     horizontal-align: center;
     margin-bottom: 12px;
@@ -38,15 +40,12 @@
 .MinimapIcon {
     width: 48px;
     height: 48px;
-
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;
-
     brightness: 0.8;
     background-color: #000000dd;
     border-radius: 50%;
-
     transition-property: opacity, brightness, pre-transform-scale2d;
     transition-duration: 0.2s;
 }
@@ -67,14 +66,17 @@
     x: 8%;
     y: 85%;
 }
+
 #DireMainShopMinimapIcon {
     x: 84%;
     y: 6%;
 }
+
 #RadiantSecretShopMinimapIcon {
     x: 17%;
     y: 35%;
 }
+
 #DireSecretShopMinimapIcon {
     x: 70%;
     y: 56%;

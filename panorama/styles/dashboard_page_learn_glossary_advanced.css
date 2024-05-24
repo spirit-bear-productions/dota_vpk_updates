@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CombatClassTable {
     margin: 30px;
     flow-children: right;
@@ -91,18 +93,14 @@
     width: 48px;
     height: 48px;
     margin: 5px;
-
     vertical-align: center;
     horizontal-align: left;
-
     brightness: 0.5;
     saturation: 0.5;
-
     border-radius: 50%;
     box-shadow: inset white 0px 1px 1px 2px;
     background-color: #000000ee;
     border: 1px solid #000000ee;
-
     transition-property: height, width;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -119,7 +117,6 @@
 .QueuedOrder .OrderBorder {
     height: 100%;
     width: 100%;
-
     background-image: url("s2r://panorama/images/hud/reborn/circle_frame_png.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;

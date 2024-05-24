@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .InDemandRoleContents {
     flow-children: down;
     max-width: 380px;
@@ -12,7 +14,6 @@
     width: 20px;
     height: 20px;
     transform: translateY(-1px);
-
     background-image: url("s2r://panorama/images/control_icons/star_favorite_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;

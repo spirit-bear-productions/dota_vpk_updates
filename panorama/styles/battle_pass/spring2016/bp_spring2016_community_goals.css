@@ -1,8 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define textHighlightColor: #f3e6c9;
 @define headingColor: #c3b699;
 @define goalColor: #383534;
 @define activeGoalColor: #A9372E;
-
 #CommunityChallengeBackground {
     width: 1920px;
     background-image: url("s2r://panorama/images/backgrounds/community_challenge_lina_psd.vtex");
@@ -46,7 +47,6 @@ Label.Title {
 #LeftPanel {
     width: 400px;
     height: 100%;
-
     background-size: contain;
     flow-children: down;
 }
@@ -61,7 +61,6 @@ Label.Title {
     width: 400px;
     height: 100%;
     margin-top: 48px;
-
     flow-children: down;
     padding: 24px 16px 0px 16px;
 }
@@ -80,7 +79,6 @@ Label.Title {
     height: fill-parent-flow(1);
     margin: 0px 0px 0px 0px;
     flow-children: down;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3b0f0aaa), to(#3b0f0a00));
     padding: 20px 20px 0px 20px;
 }
@@ -88,7 +86,6 @@ Label.Title {
 #CurrentChallengeLabel {
     color: #923028ff;
     font-size: 16px;
-
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -185,7 +182,6 @@ Label.Title {
     border: 4px solid #ffffffff;
     pre-transform-scale2d: 1;
     border-color: white;
-
     animation-name: ActiveCommunityQuest;
     animation-duration: 2s;
     animation-delay: 0s;
@@ -253,11 +249,13 @@ Label.Title {
         border: 4px solid #ffffff;
         pre-transform-scale2d: 0.9;
     }
+
     50% {
         background-color: #990e30;
         border: 4px solid #ffcc00;
         pre-transform-scale2d: 1;
     }
+
     100% {
         background-color: activeGoalColor;
         border: 4px solid #ffffff;

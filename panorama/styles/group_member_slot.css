@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAGroupMemberSlot {
     tooltip-position: top;
     tooltip-body-position: 50% 0%;
@@ -58,7 +60,6 @@ DOTAGroupMemberSlot #FriendImageContainer {
 DOTAGroupMemberSlot.NotFriend #FriendImageContainer,
 DOTAGroupMemberSlot.Empty #FriendImageContainer {
     box-shadow: none;
-
     background-color: #00000000;
 }
 
@@ -147,7 +148,6 @@ DOTAParty.HasCoach DOTAGroupMemberSlot #FriendAvatarImage {
 #InvitingParty DOTAGroupMemberSlot #FriendAvatarImage {
     width: 100%;
     height: 100%;
-
     pre-transform-scale2d: 1;
     transform: none;
     transition-property: pre-transform-scale2d;
@@ -217,7 +217,6 @@ DOTAGroupMemberSlot #PartyLeaderOverlay {
     width: 18px;
     height: 16px;
     wash-color: #44aaff;
-
     visibility: collapse;
 }
 
@@ -268,12 +267,15 @@ DOTAGroupMemberSlot #TransmittingVoiceOverlay {
     transition-duration: 0.05s;
     transform: translateY(-8px);
 }
+
 DOTAGroupMemberSlot.TransmittingVoice #TransmittingVoiceOverlay {
     opacity: 1;
 }
+
 DOTAGroupMemberSlot.TransmittingVoice.Muted #TransmittingVoiceOverlay {
     opacity: 0;
 }
+
 DOTAGroupMemberSlot #TransmittingVoiceMutedOverlay {
     background-image: url("s2r://panorama/images/status_icons/transmitting_voice_muted_psd.vtex");
     background-repeat: no-repeat;
@@ -287,9 +289,11 @@ DOTAGroupMemberSlot #TransmittingVoiceMutedOverlay {
     transition-property: opacity;
     transition-duration: 0.125s;
 }
+
 DOTAGroupMemberSlot.Transmitting.Muted #TransmittingVoiceMutedOverlay {
     opacity: 1;
 }
+
 DOTAGroupMemberSlot #CoachOverlay {
     background-image: url("s2r://panorama/images/status_icons/party_coach_overlay_psd.vtex");
     background-repeat: no-repeat;
@@ -301,6 +305,7 @@ DOTAGroupMemberSlot #CoachOverlay {
     horizontal-align: center;
     visibility: collapse;
 }
+
 DOTAGroupMemberSlot.Coach #CoachOverlay {
     visibility: visible;
 }
@@ -404,6 +409,7 @@ DOTAGroupMemberSlot.PlusN #FriendName Label {
 DOTAGroupMemberSlot.Empty #EmptyPanel {
     visibility: visible;
 }
+
 DOTAGroupMemberSlot.Empty #FriendAvatarImage,
 DOTAGroupMemberSlot.PlusN #FriendAvatarImage {
     visibility: collapse;
@@ -471,7 +477,6 @@ DOTAGroupMemberSlot .ReadyCheckStatusOverlay {
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     transition-property: background-image, border, box-shadow;
     transition-duration: 0.3s;
 }
@@ -497,6 +502,7 @@ DOTAGroupMemberSlot.ReadyStatusNotReady #ReadyCheckStatusNotReady {
     background-size: cover;
     opacity: 0;
 }
+
 #FavoriteStatus.IsFavorite {
     opacity: 0.6;
 }

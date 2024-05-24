@@ -1,6 +1,7 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define sectionbg_inactive: #222629;
 @define sectionbg_active: gradient( linear, 0% 0%, 0% 100%, from( #3e474b ), to( #282e2d ) );
-
 DOTAPlay {
     vertical-align: bottom;
     horizontal-align: right;
@@ -18,6 +19,7 @@ DOTAPlay.MatchingRestriction #LowPriorityWarning {
     visibility: visible;
     background-color: red;
 }
+
 DOTAPlay.MatchingRestriction #LowPrioritySection {
     visibility: visible;
 }
@@ -27,9 +29,7 @@ DOTAPlay.MatchingRestriction #LowPrioritySection {
     background-image: url("s2r://panorama/images/weekend_tourney/battle_cup_return_psd.vtex");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
     border: 0px;
-
     width: 0px;
     opacity: 0;
     height: 40px;
@@ -114,20 +114,15 @@ DOTAPlay.CanSafeLeaveGame #SafeLeaveButton {
 .LeaveGameButton {
     width: 330px;
     min-width: 330px;
-
     margin-bottom: 100px;
     margin-right: 58px;
-
     padding: 4px 12px 4px 12px;
-
     vertical-align: bottom;
     horizontal-align: right;
-
     border-top: 1px solid #ffffff05;
     border-right: 1px solid #00000088;
     border-left: 1px solid #ffffff05;
     border-bottom: 1px solid #00000088;
-
     visibility: collapse;
 }
 
@@ -140,7 +135,6 @@ DOTAPlay.CanSafeLeaveGame #SafeLeaveButton {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
-
     transition-property: color;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -163,7 +157,6 @@ DOTAPlay.CanSafeLeaveGame #SafeLeaveButton {
     transition-property: width, brightness;
     transition-duration: 0.2s;
     margin: 0px 340px 21px 0px;
-
     visibility: collapse;
 }
 
@@ -208,7 +201,6 @@ DOTAPlay.Connecting #ReturnToGameButton {
     height: 47px;
     max-height: 47px;
     opacity: 0;
-
     margin-bottom: 40px;
     transition-property: opacity, background-color, box-shadow, border;
     transition-duration: 0.2s;
@@ -222,13 +214,10 @@ DOTAPlay.CanDisconnect #ReturnToGameButton {
 #ReconnectButton {
     vertical-align: bottom;
     horizontal-align: right;
-
     height: 47px;
     max-height: 47px;
     opacity: 0;
-
     margin-bottom: 40px;
-
     transition-property: opacity, background-color, box-shadow, border;
     transition-duration: 0.2s;
     transition-delay: 0.3s, 0s;
@@ -272,6 +261,7 @@ DOTAPlay.ReconnectInProgress .ReconnectSpinner {
 #WeekendTourneySetup {
     visibility: collapse;
 }
+
 .WeekendTourneySetupVisible #WeekendTourneySetup {
     visibility: visible;
 }
@@ -322,26 +312,19 @@ DOTAPlay.ReconnectInProgress .ReconnectSpinner {
 .PlayButton {
     width: 330px;
     max-height: 49px;
-
     margin-bottom: 21px;
     margin-right: 58px;
-
     padding: 4px 12px 4px 12px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5a615ecc), to(#879695cc));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5aa15e), to(#87d69533));
     background-image: url("s2r://panorama/images/backgrounds/background_play_button_2x_png.vtex");
     background-size: 328px 50px;
-
     box-shadow: fill #002a6644 1px 1px 8px 1px;
-
     border-top: 1px solid #ffffff44;
     border-right: 1px solid #00000088;
     border-left: 1px solid #ffffff44;
     border-bottom: 1px solid #00000088;
-
     opacity: 1;
-
     transition-property: box-shadow, background-color, opacity, transform;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -402,7 +385,6 @@ DOTAPlay.ReconnectInProgress .ReconnectSpinner {
     height: 40px;
     text-overflow: shrink;
     text-shadow: 0px 0px 5px #000000;
-
     transition-property: color;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -519,9 +501,7 @@ DOTAPlay.PlayButtonHidden #PlayButton {
 
 #LeaveQueueButton {
     visibility: visible;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-delay: 5s;
@@ -541,12 +521,10 @@ DOTAPlay.ReturningToQueue #LeaveQueueButton {
     flow-children: down;
     opacity: 0;
     overflow: noclip;
-
     transition-property: transform, opacity;
     transition-duration: 0.4s;
     transition-delay: 0s;
     transition-timing-function: ease-in;
-
     transform: translatex(200px);
 }
 
@@ -577,7 +555,6 @@ DOTAPlay.MatchingRestriction #FXSearching {
     vertical-align: bottom;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
@@ -601,6 +578,7 @@ DOTAPlay.MatchingRestriction #FXSearching {
 .FXSearchingParticles.HighPriority {
     visibility: collapse;
 }
+
 .InHighPriorityQueue .FXSearchingParticles.HighPriority {
     visibility: visible;
 }
@@ -623,7 +601,6 @@ DOTAPlay.MatchingRestriction #FXSearching {
 #JoinPlaytestButton > .SearchingPlayers {
     font-size: 14px;
     z-index: 5;
-
     font-weight: bold;
     color: white;
     letter-spacing: 1px;
@@ -718,7 +695,6 @@ DOTAPlay.Connecting #SearchSettingsContainer {
     horizontal-align: right;
     text-transform: uppercase;
     margin-right: 117px;
-
     padding-top: 4px;
     font-size: 16px;
     color: #99dfee;
@@ -730,7 +706,6 @@ DOTAPlay.Connecting #SearchSettingsContainer {
     horizontal-align: right;
     text-transform: uppercase;
     margin-right: 117px;
-
     padding-top: 4px;
     font-size: 16px;
     color: #dac7a1;
@@ -768,7 +743,6 @@ DOTAPlay.Connecting #SearchSettingsContainer {
     margin-left: 12px;
     margin-right: 57px;
     letter-spacing: 1px;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
@@ -836,7 +810,6 @@ DOTAPlay.LANLobby #SearchSettings {
     visibility: collapse;
     width: 50px;
     height: 50px;
-
     horizontal-align: right;
     margin-top: 1px;
     margin-right: 2px;
@@ -937,12 +910,10 @@ DOTAPlay.LANLobby #SearchSettings {
     opacity: 1;
     font-size: 30px;
     font-weight: thin;
-
     text-shadow: 0px 0px 6px 1 #c1c0ff;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 8px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -957,7 +928,6 @@ DOTAPlay.LANLobby #SearchSettings {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 8px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -982,7 +952,6 @@ DOTAPlay.SearchingCountVisible #SearchingCount {
     margin-top: 36px;
     opacity: 0.2;
     horizontal-align: right;
-
     font-size: 12px;
     color: white;
     text-shadow: 0px 0px 1px 3 black;
@@ -1031,7 +1000,6 @@ DOTAPlay.ReturningToQueue #CancelSearch {
     background-repeat: no-repeat;
     opacity: 0.35;
     saturation: 0.55;
-
     transition-property: opacity, background-image;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -1040,18 +1008,23 @@ DOTAPlay.ReturningToQueue #CancelSearch {
 .SectionVisible_Normal .PlayTabBackgroundImage {
     background-image: url("s2r://panorama/images/textures/playtabbg_normal_psd.vtex");
 }
+
 .SectionVisible_Ranked .PlayTabBackgroundImage {
     background-image: url("s2r://panorama/images/textures/playtabbg_ranked_psd.vtex");
 }
+
 .SectionVisible_1v1 .PlayTabBackgroundImage {
     background-image: url("s2r://panorama/images/textures/playtabbg_1v1_psd.vtex");
 }
+
 .SectionVisible_PracticeBots .PlayTabBackgroundImage {
     background-image: url("s2r://panorama/images/textures/playtabbg_bots_psd.vtex");
 }
+
 .SectionVisible_CoachesChallenge .PlayTabBackgroundImage {
     background-image: url("s2r://panorama/images/textures/playtabbg_bots_psd.vtex");
 }
+
 .SectionVisible_CustomGames .PlayTabBackgroundImage {
     background-image: url("s2r://panorama/images/textures/playtabbg_bots_psd.vtex");
 }
@@ -1183,7 +1156,6 @@ DOTAPlay.ReturningToQueue #CancelSearch {
     brightness: 0.6;
     border: 2px solid #80f4ff33;
     background-color: #295266cc;
-
     transition-property: brightness, background-color;
     transition-duration: 0.2s;
 }
@@ -1225,7 +1197,6 @@ DOTAPlay.ReturningToQueue #CancelSearch {
     height: 100%;
     width: 760px;
     horizontal-align: right;
-
     transition-property: transform, opacity, background-color;
     transition-duration: 0.4s, 0s;
     transition-delay: 0s, 0.4s;
@@ -1238,15 +1209,12 @@ DOTAPlay.ReturningToQueue #CancelSearch {
     width: 1920px;
     horizontal-align: right;
     padding-bottom: 0px;
-
     transform: translateX(760px);
     opacity: 0;
-
     transition-property: transform, opacity, background-color;
     transition-duration: 0.4s, 0s;
     transition-delay: 0s, 0.4s;
     transition-timing-function: ease-in-out;
-
     flow-children: none;
 }
 
@@ -1255,7 +1223,6 @@ DOTAPlay.ReturningToQueue #CancelSearch {
     pre-transform-scale2d: 1;
     transition-property: opacity, pre-transform-scale2d;
     transition-duration: 0.4s;
-
     transition-timing-function: ease-in-out;
 }
 
@@ -1270,7 +1237,6 @@ DOTAPlay.SlideOutVisible #PlaySlideOut {
     sound: "ui_find_match_slide_in";
     sound-out: "ui_find_match_slide_out";
     opacity: 1;
-
     transition-property: transform, opacity;
     transition-duration: 0.4s, 0.4s;
     transition-delay: 0s, 0.4s;
@@ -1309,15 +1275,12 @@ DOTAPlay.SlideOutVisible #CloseButton {
     vertical-align: center;
     width: 32px;
     height: 32px;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_solid_right_png.vtex");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
-
     transform: translateX(0px);
     wash-color: #445255;
-
     transition-property: wash-color, transform;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
@@ -1399,9 +1362,7 @@ DOTAPlay.WeekendTourneySetupVisible #WeekendTourneySetup {
     opacity: 1;
     margin-right: 419px;
     margin-bottom: 80px;
-
     margin-top: 20px;
-
     transition-property: opacity, transform;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -1453,9 +1414,7 @@ ToggleButton:disabled:selected .TickBox {
     padding-bottom: 8px;
     background-color: #252b30;
     box-shadow: inset #00000066 -3px 2px 4px 0px;
-
     width: 100%;
-
     flow-children: down;
 }
 
@@ -1473,16 +1432,12 @@ ToggleButton:disabled:selected .TickBox {
     height: 32px;
     margin-right: 8px;
     margin-bottom: 4px;
-
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/icon_mmr_medium_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     wash-color: #777;
-
     tooltip-position: left;
     tooltip-body-position: 50% 50%;
 }
@@ -1642,7 +1597,6 @@ DOTAPlay.SectionVisible_Lobbies #LobbiesSection {
     width: fill-parent-flow(1);
     background-color: #1b2020;
     border: 2px solid #444c4c;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -1692,6 +1646,7 @@ DOTAPlay.SectionVisible_Lobbies #LobbiesSection {
 #BrowseLobbiesButton {
     margin-left: 6px;
 }
+
 #BrowseLobbiesButton .LobbyOptionIcon {
     width: 15px;
     height: 15px;
@@ -1816,7 +1771,6 @@ DOTAPlay.RankedMode #RankedOn {
 #RankedSectionContent {
     width: 100%;
     height: fit-children;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -1832,7 +1786,6 @@ DOTAPlay.RankedMode #RankedOn {
 #RankedRolesContainer {
     visibility: visible;
     height: 221px;
-
     transition-property: height;
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
@@ -1961,7 +1914,6 @@ DOTAPlay.RankedMode #RankedOn {
 
 .RankedContent__RankDisplay #RankNameContainer #RankPipsContainer {
     flow-children: right;
-
     width: 100%;
 }
 
@@ -2101,7 +2053,6 @@ DOTAPlay.MatchmadeCustomGameAvailable #CustomGamesSection {
     transition-property: height;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
-
     background-image: url("s2r://panorama/images/events/aghanim/aghs_ink_png.vtex");
     background-size: 150%;
     background-position: center;
@@ -2117,7 +2068,6 @@ DOTAPlay.MatchmadeCustomGameAvailable #CustomGamesSection {
     transition-property: height;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
-
     background-image: url("s2r://panorama/images/events/diretide/2020/diretide_play_bg_psd.vtex");
     background-size: 100%;
     background-position: center;
@@ -2190,6 +2140,7 @@ DOTAPlay.MatchmadeCustomGameAvailable #CustomGamesSection {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .CandyBucket.Precache {
     background-image: url("s2r://panorama/images/events/diretide/chat_line_png.vtex");
     background-image: url("s2r://panorama/images/events/diretide/emoticon_png.vtex");
@@ -2260,7 +2211,6 @@ DOTAPlay.Season_Spring2021 #CustomGamesSectionContent {
     background-repeat: no-repeat;
     background-size: contain;
     transform: translateY(9.5px);
-
     wash-color: #9e5599cc;
 }
 
@@ -2305,7 +2255,6 @@ DOTAPlay.Season_Spring2021 #CustomGamesSectionContent {
     font-size: 13px;
     line-height: 26px;
     color: white;
-
     font-family: titleFont;
     font-weight: semi-bold;
     text-transform: uppercase;
@@ -2356,7 +2305,6 @@ DOTAPlay.Season_Spring2021 #CustomGamesSectionContent {
     transition-property: height;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
-
     background-image: url("s2r://panorama/images/events/aghanim/aghs_ink_png.vtex");
     background-size: 150%;
     background-position: center;
@@ -2389,7 +2337,6 @@ DOTAPlay.Season_International2022.SectionVisible_CustomGames #CustomGamesSection
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #acb9d3;
-
     margin-bottom: 8px;
     margin-left: 8px;
 }
@@ -2424,7 +2371,6 @@ DOTAPlay.Season_International2022.SectionVisible_CustomGames #CustomGamesSection
     margin-left: -24px;
     width: 260px;
     color: #ffffff;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -2492,7 +2438,6 @@ ToggleButton:disabled .TickBox {
     padding-right: 22px;
     color: #e2ebff;
     text-shadow: 0 0 2px #3375ff80;
-
     letter-spacing: 0;
 }
 
@@ -2515,7 +2460,6 @@ ToggleButton:disabled .TickBox {
     margin-bottom: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
-
     font-size: 14px;
     color: #d9f1ff;
     text-shadow: 0px 0px 4px #3375ff;
@@ -2536,7 +2480,6 @@ ToggleButton:disabled .TickBox {
     width: 42px;
     height: 48px;
     margin-left: 12px;
-
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -2571,10 +2514,8 @@ ToggleButton:disabled .TickBox {
 #BlessingSkillTreeButton {
     width: 100%;
     height: 64px;
-
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#3374ff20), to(#3375ff00));
     vertical-align: bottom;
-
     transition-property: brightness;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -2609,7 +2550,6 @@ ToggleButton:disabled .TickBox {
     width: 32px;
     height: 32px;
     background-image: url("s2r://panorama/images/events/aghanim/aghanims_blessings_png.vtex");
-
     vertical-align: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -2657,7 +2597,6 @@ ToggleButton:disabled .TickBox {
 .BlessingsButtonTextPurchase,
 .BlessingsButtonTextFragments {
     text-shadow: 0px 0px 4px 2 #3375ffa0;
-
     animation-name: SkillTreePulse;
     animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
@@ -2686,6 +2625,7 @@ ToggleButton:disabled .TickBox {
     margin-left: -7px;
     margin-right: 2px;
 }
+
 .BlessingsIcon.PurchaseCentering {
     opacity: 0;
 }
@@ -2778,10 +2718,8 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     width: 28px;
     height: 28px;
-
     brightness: 0.2;
 }
 
@@ -2825,10 +2763,8 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     width: 24px;
     height: 24px;
-
     brightness: 0.4;
 }
 
@@ -2863,7 +2799,6 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
     vertical-align: bottom;
     width: 100px;
     height: 70px;
-
     background-size: 140px 140px;
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -2942,7 +2877,6 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
 
 .DiretideRewardAvailable #DiretideRewardIndicator {
     background-image: url("s2r://panorama/images/events/diretide/2020/rosh_cookie_whole_psd.vtex");
-
     animation-duration: 2.55s;
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
@@ -2952,9 +2886,11 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
     0% {
         img-shadow: 0px 0px 4px 3 #c474c4;
     }
+
     50% {
         img-shadow: 0px 0px 12px 2 #c474c4;
     }
+
     100% {
         img-shadow: 0px 0px 4px 3 #c474c4;
     }
@@ -2965,12 +2901,10 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
     height: 100%;
     background-color: gradient(linear, 0% 0%, 100% 100%, from(#ffffff), to(#ffffff00));
     opacity-mask: url("s2r://panorama/images/events/diretide/2020/rosh_cookie_mask_psd.vtex");
-
     animation-name: RewardGleam;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: normal;
-
     visibility: collapse;
 }
 
@@ -2991,6 +2925,7 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
             to(#ffffff00)
         );
     }
+
     2% {
         background-color: gradient(
             linear,
@@ -3003,6 +2938,7 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
             to(#ffffff00)
         );
     }
+
     5% {
         background-color: gradient(
             linear,
@@ -3015,6 +2951,7 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
             to(#ffffff00)
         );
     }
+
     8% {
         background-color: gradient(
             linear,
@@ -3027,6 +2964,7 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
             to(#ffffff00)
         );
     }
+
     9% {
         background-color: gradient(
             linear,
@@ -3039,6 +2977,7 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
             to(#ffffff00)
         );
     }
+
     11% {
         background-color: gradient(
             linear,
@@ -3051,6 +2990,7 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
             to(#ffffff00)
         );
     }
+
     100% {
         background-color: gradient(
             linear,
@@ -3070,12 +3010,9 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
     height: 80%;
     margin-right: -24px;
     margin-top: -10px;
-
     transition-property: opacity;
     transition-duration: 1s;
-
     wash-color: #ffc1ff;
-
     visibility: collapse;
 }
 
@@ -3124,7 +3061,6 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
     width: 100%;
     background-color: sectionbg_inactive;
     background-color: none;
-
     margin-bottom: 8px;
     transition-property: height, opacity;
     transition-duration: 0.3s;
@@ -3139,21 +3075,27 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
 #GameModeSection.GameModeHeight_2 {
     height: 264px;
 }
+
 #GameModeSection.GameModeHeight_2_3 {
     height: 350px;
 }
+
 #GameModeSection.GameModeHeight_2_5 {
     height: 381px;
 }
+
 #GameModeSection.GameModeHeight_3 {
     height: 344px;
 }
+
 #GameModeSection.GameModeHeight_3_3 {
     height: 444px;
 }
+
 #GameModeSection.GameModeHeight_3_4 {
     height: 444px;
 }
+
 #GameModeSection.GameModeHeight_3_5 {
     height: 469px;
 }
@@ -3161,7 +3103,6 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
 #NormalSectionContent {
     opacity: 0;
     width: 100%;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -3274,7 +3215,6 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
 #FeaturedGameModeHeader Label {
     margin-left: 10px;
     color: #b4b4c8cc;
-
     font-weight: bold;
     text-transform: uppercase;
     font-size: 13px;
@@ -3342,7 +3282,6 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
     height: 16px;
     margin-left: 11px;
     margin-bottom: 1px;
-
     vertical-align: center;
     background-image: dotaPlusCurrencySmallIcon;
     background-size: 100%;
@@ -3372,10 +3311,8 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
     box-shadow: none;
     border: 0px solid transparent;
     wash-color: #888888;
-
     transition-property: transform, wash-color;
     transition-duration: 0.3s;
-
     transform: rotateZ(-90deg);
 }
 
@@ -3422,7 +3359,6 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
 .RankGameModeTitle {
     margin-left: 4px;
     margin-top: 4px;
-
     text-transform: uppercase;
     letter-spacing: 1px;
     opacity: 0.6;
@@ -3430,16 +3366,13 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
 
 .RankGameModeNotSelected {
     margin-left: 4px;
-
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
     opacity: 0.6;
     color: hsv-transform(loserRed, 0, 1, 0.8);
     text-shadow: 0 1px 1px black;
-
     height: 0px;
-
     transition-property: height;
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
@@ -3505,12 +3438,10 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
     horizontal-align: right;
     width: 20px;
     height: 20px;
-
     background-image: url("s2r://panorama/images/control_icons/icon_collapse_png.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     visibility: collapse;
 }
 
@@ -3518,12 +3449,10 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
     horizontal-align: right;
     width: 20px;
     height: 20px;
-
     background-image: url("s2r://panorama/images/control_icons/icon_collapse_png.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     visibility: visible;
 }
 
@@ -3551,7 +3480,6 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
     border: 2px solid #aaaaaa00;
     wash-color: #657373;
     margin-right: 16px;
-
     transition-property: border, wash-color, background-color;
     transition-delay: 0s;
     transition-duration: 0.15s;
@@ -3569,7 +3497,6 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
     padding: 2px 4px 0px 4px;
     border: 2px solid #aaaaaa00;
     wash-color: #657373;
-
     transition-property: border, wash-color, background-color;
     transition-delay: 0s;
     transition-duration: 0.15s;
@@ -3590,14 +3517,11 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
     margin-bottom: 4px;
     width: 100%;
     height: fit-children;
-
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: sectionbg_inactive;
     border: 1px solid black;
-
     margin-bottom: 8px;
-
     transition-property: wash-color;
     transition-delay: 0s;
     transition-duration: 0.25s;
@@ -3649,15 +3573,12 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
 
 #WeekendTourneyStatus {
     width: 100%;
-
     background-color: none;
-
     transition-property: wash-color;
     transition-delay: 0s;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
     visibility: collapse;
-
     padding-bottom: 12px;
     padding-top: 5px;
 }
@@ -3675,14 +3596,11 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
     background-size: 16px 16px;
     background-repeat: no-repeat;
     wash-color: #91aba6;
-
     transform: translateX(6px);
-
     transition-property: transform, wash-color;
     transition-delay: 0s;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
-
     visibility: collapse;
 }
 
@@ -3705,7 +3623,6 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
     margin-top: 4px;
     margin-left: 20px;
     vertical-align: center;
-
     transition-property: color;
     transition-delay: 0s;
     transition-duration: 0.25s;
@@ -3779,7 +3696,6 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
     height: fit-children;
     padding: 0px 12px;
     background-color: none;
-
     visibility: collapse;
 }
 
@@ -3789,7 +3705,6 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
     width: 100%;
     background-color: gradient(radial, 50% 90%, 0% 0%, 50% 50%, from(#88000055), to(#00000000));
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -3907,7 +3822,6 @@ DOTAPlay.SectionVisible_Ranked.MatchDenied_BehaviorTooLowForRankedParty
     padding: 2px 4px 0px 4px;
     border: 2px solid #aaaaaa00;
     margin-right: 16px;
-
     transition-property: border, wash-color, background-color;
     transition-delay: 0s;
     transition-duration: 0.15s;
@@ -3945,12 +3859,10 @@ DOTAPlay.SlideOutVisible.MatchDenied_AccountDisabled.SectionVisible_PracticeBots
     vertical-align: bottom;
     horizontal-align: right;
     background-color: #530202;
-
     border-top: 1px solid #330000;
     border-left: 1px solid #330000;
     box-shadow: #53020266 0px 0px 8px 0px;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0s;
 }
@@ -3978,16 +3890,13 @@ DOTAPlay.MatchDenied_LowPriorityParty #PlayButton:hover {
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
-
     transition-property: opacity;
     transition-duration: 0.4s;
     transition-delay: 0.3s;
     transition-timing-function: ease-in;
-
     tooltip-position: top;
     tooltip-body-position: 100% 50%;
     tooltip-arrow-position: 96% 50%;
-
     opacity: 0;
 }
 
@@ -4010,7 +3919,6 @@ DOTAPlay.CanDisconnect .LeaverConsequences {
 
 .Consequences {
     text-align: right;
-
     font-size: 18px;
 }
 
@@ -4054,13 +3962,10 @@ DOTAPlay.Connecting #LeaverConsequences_Warning {
 .TeamIdentity {
     visibility: collapse;
     flow-children: right;
-
     padding: 16px;
     padding-bottom: 8px;
-
     background-color: #15171944;
     box-shadow: inset #00000066 -3px 2px 4px 0px;
-
     width: 100%;
     padding-top: 12px;
 }
@@ -4110,7 +4015,6 @@ DOTAPlay.ValidTeamIdentity .NoValidTeamIdentitiesLabel {
     font-weight: bold;
     transform: translateY(0px);
     opacity: 0;
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
 }
@@ -4173,7 +4077,6 @@ DOTAPlay.ValidTeamIdentity .NoValidTeamIdentitiesLabel {
     color: #888;
     font-size: 16px;
     text-decoration: underline;
-
     transition-property: color;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -4229,13 +4132,10 @@ DOTAPlay.ValidTeamIdentity .NoValidTeamIdentitiesLabel {
 .RankTierContainer {
     horizontal-align: left;
     vertical-align: center;
-
     width: 65px;
     height: 65px;
-
     tooltip-position: bottom;
     tooltip-body-position: 50% 10%;
-
     background-size: 100%;
     overflow: noclip;
     margin-left: 5px;
@@ -4312,6 +4212,7 @@ DOTAPlay.ValidTeamIdentity .NoValidTeamIdentitiesLabel {
 .RankedLaneToggleButtonWithText Label {
     color: #8c9aa6;
 }
+
 .RankedLaneToggleButtonWithText.selected Label {
     color: white;
 }
@@ -4328,18 +4229,23 @@ DOTAPlay.ValidTeamIdentity .NoValidTeamIdentitiesLabel {
     wash-color: #ffffff;
     img-shadow: 0px 0px 4px rgb(124, 139, 151);
 }
+
 .RankedLaneIcon.HardSupport {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/hardsupporticon_psd.vtex");
 }
+
 .RankedLaneIcon.SoftSupport {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/softsupporticon_psd.vtex");
 }
+
 .RankedLaneIcon.Offlane {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/offlaneicon_psd.vtex");
 }
+
 .RankedLaneIcon.Midlane {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/midlaneicon_psd.vtex");
 }
+
 .RankedLaneIcon.Safelane {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/safelaneicon_psd.vtex");
 }
@@ -4357,7 +4263,6 @@ DOTAPlay.ValidTeamIdentity .NoValidTeamIdentitiesLabel {
     letter-spacing: 2px;
     font-size: 16px;
     text-transform: uppercase;
-
     margin-right: 4px;
 }
 
@@ -4372,7 +4277,6 @@ DOTAPlay.ValidTeamIdentity .NoValidTeamIdentitiesLabel {
     text-transform: uppercase;
     margin-right: 4px;
     margin-top: 10px;
-
     visibility: collapse;
 }
 
@@ -4388,7 +4292,6 @@ DOTAPlay.ValidTeamIdentity .NoValidTeamIdentitiesLabel {
 #PointMultiplierSection Label,
 #PointMultiplierSection Label {
     text-align: center;
-
     letter-spacing: 2px;
     font-size: 16px;
     text-transform: uppercase;
@@ -4403,7 +4306,6 @@ DOTAPlay.ValidTeamIdentity .NoValidTeamIdentitiesLabel {
 DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSection {
     height: 226px;
     opacity: 1;
-
     background-color: gradient(linear, 0% 0%, 100% 100%, from(ultraDarkColor), to(darkColor&66));
 }
 
@@ -4473,7 +4375,6 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 .RankedLaneShardReward {
     vertical-align: center;
     font-size: 14px;
-
     letter-spacing: 2px;
     color: dotaPlusLightGold;
 }
@@ -4521,7 +4422,6 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     height: 14px;
     transform: translateY(-1px);
     margin-left: 2px;
-
     background-image: url("s2r://panorama/images/control_icons/star_favorite_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -4531,7 +4431,6 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 #RankedHighPriorityInfo {
     width: 100%;
     flow-children: down;
-
     tooltip-position: left;
     max-height: 80px;
     padding-top: 12px;
@@ -4555,6 +4454,7 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     color: hsv-transform(winnerGreen, 0, 1, 0.8);
     visibility: collapse;
 }
+
 .HighPriorityMMEnabled #RankedHighPriorityTitleEnabled {
     visibility: visible;
 }
@@ -4596,36 +4496,30 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     margin-left: 4px;
     margin-bottom: 2px;
 }
+
 .RankedHighPriorityEnabledCheckmark {
     width: 13px;
     height: 13px;
-
     horizontal-align: left;
     vertical-align: bottom;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     background-image: url("s2r://panorama/images/control_icons/x_close_gradient_png.vtex");
     wash-color: hsv-transform(red, 0, 1, 0.6);
 }
+
 .RankedHighPriorityEnabledCheckmarkPlus {
     width: 8px;
     height: 8px;
-
     margin-left: 10px;
-
     horizontal-align: left;
     vertical-align: bottom;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     background-image: url("s2r://panorama/images/control_icons/plus_gradient_png.vtex");
     wash-color: hsv-transform(winnerGreen, 0, 1, 0.6);
-
     opacity: 0;
 }
 
@@ -4634,14 +4528,15 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     width: 16px;
     height: 16px;
     margin-bottom: 4px;
 }
+
 #RankedHighPriorityInfoButton:hover {
     brightness: 1.3;
 }
+
 #RankedHighPriorityInfoButton:active {
     brightness: 0.8;
 }
@@ -4650,6 +4545,7 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     background-image: url("s2r://panorama/images/control_icons/check_gradient_png.vtex");
     wash-color: hsv-transform(winnerGreen, 0, 1, 0.6);
 }
+
 .HighPriorityMMEarningQP .RankedHighPriorityEnabledCheckmarkPlus {
     opacity: 1;
 }
@@ -4657,19 +4553,14 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 #RankedRolesTableSlideOut {
     horizontal-align: right;
     vertical-align: bottom;
-
     margin-right: 400px;
     margin-bottom: 161px;
     width: 470px;
     height: 400px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#282f31), to(#1b201f));
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.75);
-
     flow-children: down;
-
     transform: translateX(1000px);
-
     transition-property: transform, width;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -4682,15 +4573,19 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 #RankedRolesTableSlideOut.Players5 {
     width: 470px;
 }
+
 #RankedRolesTableSlideOut.Players4 {
     width: 418px;
 }
+
 #RankedRolesTableSlideOut.Players3 {
     width: 366px;
 }
+
 #RankedRolesTableSlideOut.Players2 {
     width: 314px;
 }
+
 #RankedRolesTableSlideOut.Players1 {
     width: 262px;
 }
@@ -4698,7 +4593,6 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 #RankedRolesTableTitle {
     width: 100%;
     height: fit-children;
-
     background-color: #313a3e;
     padding: 12px;
     padding-bottom: 8px;
@@ -4727,6 +4621,7 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     flow-children: down;
     width: 52px;
 }
+
 .RoleTableFillColumn {
     flow-children: down;
     width: fill-parent-flow(1);
@@ -4741,10 +4636,10 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     width: 100%;
     padding: 3px;
 }
+
 .RankedRolesCheckboxHeaderLabel {
     vertical-align: center;
     horizontal-align: right;
-
     text-transform: uppercase;
     text-overflow: shrink;
     text-align: right;
@@ -4757,6 +4652,7 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     height: 39px;
     width: 100%;
 }
+
 .RoleTableFillCheckbox {
     height: 39px;
     width: 100%;
@@ -4765,13 +4661,10 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 .RankedRolesTableCheck {
     width: 13px;
     height: 13px;
-
     background-color: #060a13;
     border-radius: 50%;
-
     vertical-align: center;
     horizontal-align: center;
-
     box-shadow: inset 0px -1px 0px rgba(239, 243, 251, 0.25);
 }
 
@@ -4785,14 +4678,13 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 .RankedRolesTableCheck_HP {
     width: 100%;
     height: 100%;
-
     background-size: 22px 22px;
     background-repeat: no-repeat;
     background-position: center;
-
     background-image: url("s2r://panorama/images/control_icons/x_close_gradient_png.vtex");
     wash-color: hsv-transform(red, 0, 1, 0.6);
 }
+
 .RankedRolesTableCheckbox.Checked .RankedRolesTableCheck_HP,
 .RankedRolesTableCheckbox.CheckPlus .RankedRolesTableCheck_HP {
     background-image: url("s2r://panorama/images/control_icons/check_gradient_png.vtex");
@@ -4804,15 +4696,14 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     height: 14px;
     margin-left: 32px;
     margin-top: 16px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     background-image: url("s2r://panorama/images/control_icons/plus_gradient_png.vtex");
     wash-color: hsv-transform(winnerGreen, 0, 1, 0.6);
     opacity: 0;
 }
+
 .RankedRolesTableCheckbox.CheckPlus .RankedRolesTableCheck_HP_Plus {
     opacity: 1;
 }
@@ -4820,9 +4711,11 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 .RowE {
     background-color: #191e1f;
 }
+
 .RowO {
     background-color: none;
 }
+
 .RowH {
     background-color: #313a3e;
 }
@@ -4830,16 +4723,19 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 .RankedRolesAvatarHeader {
     height: 52px;
 }
+
 .RankedRolesTableAvatarContainer {
     height: 52px;
     width: 52px;
 }
+
 .RankedRolesTableAvatar {
     width: 42px;
     height: 42px;
     horizontal-align: center;
     vertical-align: center;
 }
+
 .RoleTableFillAvatar {
     height: 52px;
     width: 100%;
@@ -4853,7 +4749,6 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     text-align: right;
     horizontal-align: right;
     font-size: 14px;
-
     visibility: collapse;
 }
 
@@ -4861,6 +4756,7 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     visibility: visible;
     color: #e7ba01;
 }
+
 .HighPriorityMMEnabled .RankedRolesHPInfoNonEligible {
     visibility: collapse;
 }
@@ -4870,6 +4766,7 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 .RankedRolesHPInfoHighDemand {
     color: #6bcb6b;
 }
+
 .HighPriorityMMEarningQP .RankedRolesHPInfoEarning {
     visibility: visible;
 }
@@ -4881,6 +4778,7 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 .HighPriorityMMEnabled .RankedRolesHPInfoFiveStack {
     visibility: visible;
 }
+
 .HighPriorityMMEnabled.HighPriorityMMEarningQP .RankedRolesHPInfoFiveStack,
 .HighPriorityMMEnabled.HighPriorityMMUsingResource .RankedRolesHPInfoFiveStack,
 .HighPriorityMMEnabled.HighPriorityMMHighDemand .RankedRolesHPInfoFiveStack {
@@ -4895,7 +4793,6 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 #NewPlayerContent {
     width: 100%;
     height: 300px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#349bbe), to(#081621));
     background-color: gradient(linear, 0% 0%, 90% 100%, from(#17263a), color-stop(0.3, #1e314c), to(#081323));
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .ShowMainShop DOTAShopItemCombines {
     background-image: url("s2r://panorama/images/hud/reborn/bg_item_breakdown_recessed_psd.vtex");
     background-size: cover;
@@ -24,9 +26,7 @@ DOTAShopItem {
     width: 66px;
     height: 44px;
     height: width-percentage(72.7%);
-
     opacity: 0.01;
-
     transition-property: opacity, brightness, position;
     transition-duration: 0.2s;
 }
@@ -34,6 +34,7 @@ DOTAShopItem {
 DOTAShopItem:hover {
     brightness: 2;
 }
+
 DOTAShopItem:active {
     brightness: 1.5;
 }
@@ -49,16 +50,12 @@ DOTAShopItem.Destroying {
 .Connector {
     width: 10px;
     height: 3px;
-
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 1px;
     transform-origin: 0% 50%;
     box-shadow: 0px 0px 6px black;
-
     background-size: 100%;
-
     opacity: 0.01;
-
     transition-property: opacity, position, width, transform;
     transition-duration: 0.2s;
 }
@@ -69,7 +66,6 @@ DOTAShopItem.Destroying {
 @define Middle: rgba(255, 255, 255, 0.05);
 @define FirstStop: 0.45;
 @define SecondStop: 0.55;
-
 .Connector.NothingtoNothing {
     background-color: gradient(
         linear,
@@ -81,6 +77,7 @@ DOTAShopItem.Destroying {
         to(Nothing)
     );
 }
+
 .Connector.NothingtoGold {
     background-color: gradient(
         linear,
@@ -92,6 +89,7 @@ DOTAShopItem.Destroying {
         to(GoldPoint)
     );
 }
+
 .Connector.RedtoNothing {
     background-color: gradient(
         linear,
@@ -103,6 +101,7 @@ DOTAShopItem.Destroying {
         to(Nothing)
     );
 }
+
 .Connector.NothingtoRed {
     background-color: gradient(
         linear,
@@ -114,6 +113,7 @@ DOTAShopItem.Destroying {
         to(RedPoint)
     );
 }
+
 .Connector.RedtoGold {
     background-color: gradient(
         linear,
@@ -125,6 +125,7 @@ DOTAShopItem.Destroying {
         to(GoldPoint)
     );
 }
+
 .Connector.GoldtoRed {
     background-color: gradient(
         linear,
@@ -136,6 +137,7 @@ DOTAShopItem.Destroying {
         to(RedPoint)
     );
 }
+
 .Connector.GoldtoNothing {
     background-color: gradient(
         linear,
@@ -147,6 +149,7 @@ DOTAShopItem.Destroying {
         to(Nothing)
     );
 }
+
 .Connector.GoldtoGold {
     background-color: gradient(
         linear,
@@ -170,6 +173,7 @@ DOTAShopItem.Destroying {
         to(Nothing)
     );
 }
+
 .Connector.GoldtoGold.VerticalConnector {
     background-color: gradient(
         linear,
@@ -181,6 +185,7 @@ DOTAShopItem.Destroying {
         to(GoldPoint)
     );
 }
+
 .Connector.GoldtoRed.VerticalConnector {
     background-color: gradient(
         linear,
@@ -192,6 +197,7 @@ DOTAShopItem.Destroying {
         to(GoldPoint)
     );
 }
+
 .Connector.RedtoGold.VerticalConnector {
     background-color: gradient(
         linear,
@@ -203,6 +209,7 @@ DOTAShopItem.Destroying {
         to(GoldPoint)
     );
 }
+
 .Connector.RedtoNothing.VerticalConnector {
     background-color: gradient(
         linear,
@@ -214,6 +221,7 @@ DOTAShopItem.Destroying {
         to(Nothing)
     );
 }
+
 .Connector.NothingtoRed.VerticalConnector {
     background-color: gradient(
         linear,
@@ -225,6 +233,7 @@ DOTAShopItem.Destroying {
         to(Nothing)
     );
 }
+
 .Connector.NothingtoGold.VerticalConnector {
     background-color: gradient(
         linear,

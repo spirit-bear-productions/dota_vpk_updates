@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDClipBuilderScrubber {
     flow-children: right;
 }
@@ -192,7 +194,6 @@ SlottedSlider.HorizontalSlider #SliderThumb:hover {
     width: 16px;
     height: 16px;
     margin: 2px;
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -216,7 +217,6 @@ SlottedSlider.HorizontalSlider #SliderThumb:hover {
     wash-color: #e16349;
     brightness: 1.5;
     opacity: 0.75;
-
     width: 32px;
     height: 32px;
     align: center center;

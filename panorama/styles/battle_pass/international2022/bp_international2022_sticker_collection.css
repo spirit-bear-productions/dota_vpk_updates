@@ -1,10 +1,10 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 @define stickerCollectionShowTooltipsTray: 1;
 @define stickerCollectionShowDetailsTray: 1;
 @define stickerCollectionShowTooltipsPage: 0;
 @define stickerCollectionShowDetailsPage: 1;
-
 DOTAStickerCollectionsPage {
     width: 1920px;
     height: 100%;
@@ -15,7 +15,6 @@ DOTAStickerCollectionsPage {
     margin-top: 142px;
     width: 1350px;
     height: 800px;
-
     horizontal-align: center;
     margin-right: 400px;
     flow-children: down;
@@ -32,7 +31,6 @@ DOTAStickerCollectionsPage {
     flow-children: right;
     margin: 8px 0;
     margin-right: 16px;
-
     visibility: collapse;
 }
 
@@ -48,7 +46,6 @@ DOTAStickerCollectionsPage {
 
 .RightContents {
     visibility: collapse;
-
     margin-top: 150px;
     margin-right: 107px;
     width: 430px;
@@ -58,6 +55,7 @@ DOTAStickerCollectionsPage {
     horizontal-align: right;
     flow-children: down;
 }
+
 .RightContents .UnopenedCapsules {
     font-size: 14px;
     text-align: center;
@@ -72,6 +70,7 @@ DOTAStickerCollectionsPage {
     margin-top: 48px;
     margin-right: 32px;
 }
+
 .RightContents .UnopenedCapsules b {
     color: #58c7ff;
 }
@@ -93,13 +92,10 @@ DOTAStickerCollectionsPage {
     height: 26px;
     vertical-align: middle;
     z-index: 3;
-
     border-radius: 50%;
     background-color: black;
     horizontal-align: center;
-
     margin: 5px;
-
     margin-left: 12px;
     blur: gaussian(6px);
 }
@@ -120,6 +116,7 @@ DOTAStickerCollectionsPage {
     padding-top: 10px;
     padding-bottom: 0px;
 }
+
 .StickerTray_Empty #RightContentShadow {
     visibility: collapse;
 }
@@ -145,6 +142,7 @@ DOTAStickerCollectionsPage {
     transition-timing-function: ease-in-out;
     overflow: noclip;
 }
+
 .StickerSnippet:hover {
     brightness: 1.5;
     pre-transform-scale2d: 1;
@@ -184,7 +182,6 @@ DOTAStickerCollectionsPage {
     border-radius: 50%;
     margin-right: 6px;
     horizontal-align: right;
-
     padding-top: 2px;
 }
 
@@ -210,9 +207,7 @@ DOTAStickerCollectionsPage {
     background-image: url("s2r://panorama/images/stickers/collection_bg_psd.vtex");
     background-size: 100% 100%;
     horizontal-align: center;
-
     margin-left: 8px;
-
     ignore-parent-flow: true;
 }
 
@@ -261,7 +256,6 @@ DOTAStickerCollectionsPage {
     opacity: 1;
     transform: translateX(1px);
     width: 14px;
-
     background-color: #0000;
     padding: 3px;
     padding-left: 4px;
@@ -284,14 +278,17 @@ DOTAStickerCollectionsPage {
     margin-top: 64px;
     padding: 0 24px;
 }
+
 #NoPageSelected Label,
 #NoStickersPanel Label {
     font-size: 22px;
 }
+
 #NoPageSelected b,
 #NoStickersPanel b {
     color: white;
 }
+
 #NoPageSelected i,
 #NoStickersPanel i {
     color: white;
@@ -319,6 +316,7 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     margin-top: 32px;
     margin-left: 32px;
 }
+
 #RewardList b {
     color: #9a9a9a;
     font-weight: normal;
@@ -333,7 +331,6 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     transform: translateX(-1277px);
     width: 14px;
     height: 100%;
-
     background-color: #0000;
     padding: 3px;
     padding-left: 4px;
@@ -370,11 +367,11 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     padding-bottom: 56px;
     padding-top: 26px;
     padding-left: 59px;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
 }
+
 .Empty Label {
     horizontal-align: center;
     margin-top: 88px;
@@ -385,6 +382,7 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     z-index: 2;
     opacity: 1;
 }
+
 .TutorialState0 .Empty Label,
 .TutorialState1 .Empty Label,
 .TutorialState2 .Empty Label {
@@ -401,6 +399,7 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     height: fill-parent-flow(1);
     margin-top: 250px;
 }
+
 .Empty .BuyStickersContainer Label {
     margin-top: 64px;
     width: 500px;
@@ -414,6 +413,7 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     margin-top: 24px;
     padding: 12px 32px;
 }
+
 .Empty .BuyStickersContainer .ButtonBevel:hover {
     brightness: 2;
 }
@@ -451,6 +451,7 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     margin-top: 130px;
     flow-children: down;
 }
+
 .TutorialState0 #NoPageSelected,
 .TutorialState1 #NoPageSelected,
 .TutorialState2 #NoPageSelected {
@@ -482,11 +483,11 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     visibility: collapse;
     width: 100%;
     height: 100%;
-
     transition-property: transform;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
 }
+
 #StickerCollectionTutorialContainer .TutorialDragArrow {
     background-image: url("s2r://panorama/images/stickers/tutorial_arrow_psd.vtex");
     background-size: contain;
@@ -498,17 +499,15 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     margin-right: 132px;
     pre-transform-scale2d: 0.78;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
-
     animation-name: ArrowLoop;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
-
     transform-origin: 0% 430px;
 }
+
 .TutorialState3.Stickers_AnyPageSelected #StickerCollectionTutorialContainer .TutorialDragArrow {
     opacity: 1;
 }
@@ -516,6 +515,7 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
 #StickerCollectionTutorialContainer #TitleContainer {
     width: 100%;
 }
+
 #StickerCollectionTutorialContainer #TitleContainer Label {
     opacity: 1;
     text-transform: uppercase;
@@ -553,9 +553,9 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     transition-property: opacity, pre-transform-scale2d, height;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     margin-top: 232px;
 }
+
 .TutorialState3 #StickerCollectionTutorialContainer .TutorialPanelContainer {
     margin-top: 362px;
 }
@@ -565,19 +565,21 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     horizontal-align: center;
     height: fit-children;
 }
+
 #StickerCollectionTutorialContainer #TutorialIntroPopup .TutorialPanel0 {
     width: 860px;
     height: fit-children;
     horizontal-align: center;
 }
+
 #StickerCollectionTutorialContainer #TutorialIntroPopup .TutorialPanel0.TutorialPanel {
     height: fit-children;
     padding: 32px 32px 64px 32px;
     padding: 32px 32px 64px 32px;
 }
+
 #StickerCollectionTutorialContainer #TutorialIntroPopup .TutorialPanel0.TutorialPanel Label {
     vertical-align: top;
-
     font-size: 22px;
 }
 
@@ -590,6 +592,7 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     margin-left: 32px;
     color: #7a99ba;
 }
+
 #StickerCollectionTutorialContainer #TutorialIntroPopup .TutorialPanel0.TutorialPanel #TutorialLabelRewards b {
     color: white;
     font-weight: normal;
@@ -620,44 +623,42 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     background-color: gradient(linear, 0% 0%, 0% 100%, from(rgba(37, 69, 101, 0.98)), to(#000000ef));
     margin-bottom: 16px;
 }
+
 #StickerCollectionTutorialContainer .TutorialPanel Label {
-    color: rgb (207, 207, 207);
+    color: rgb(207, 207, 207);
     font-size: 20px;
 }
+
 #StickerCollectionTutorialContainer .TutorialPanel Label b {
     color: white;
 }
+
 #StickerCollectionTutorialContainer .TutorialPanel #StickerStoreButton {
     min-width: 260px;
     margin: 0;
     min-height: 32px;
     border-radius: 4px;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#82b250),
-            to (#4a652c)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#82b250), to(#4a652c));
     border: 1px solid transparent;
     margin-bottom: 0;
     horizontal-align: center;
     margin-top: 32px;
     margin-bottom: 32px;
 }
+
 #StickerCollectionTutorialContainer .TutorialPanel #StickerStoreButton Label {
     text-shadow: 1px 1px 5px 2 black;
     margin-bottom: 0px;
 }
+
 #StickerCollectionTutorialContainer .TutorialPanel #StickerStoreButton:hover {
     brightness: 2;
 }
+
 .TutorialState2 #StickerCollectionTutorialContainer .TutorialPanel #StickerStoreButton {
     visibility: collapse;
 }
+
 #StickerCollectionTutorialContainer .TutorialButton {
     vertical-align: bottom;
     horizontal-align: right;
@@ -665,17 +666,21 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     margin-right: 32px;
     margin-top: -12px;
 }
+
 .TutorialState0 #StickerCollectionTutorialContainer .TutorialButton {
     margin-top: 0px;
 }
+
 .TutorialState1 #StickerCollectionTutorialContainer .TutorialButton,
 .TutorialState2 #StickerCollectionTutorialContainer .TutorialButton {
     visibility: collapse;
 }
+
 #StickerCollectionTutorialContainer .TutorialButton:hover Label {
-    border: 2px solid rgb (133, 194, 255);
+    border: 2px solid rgb(133, 194, 255);
     color: #add6ff;
 }
+
 #StickerCollectionTutorialContainer .TutorialButton Label {
     text-transform: uppercase;
     border: 2px solid dodgerblue;
@@ -685,16 +690,19 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     margin-bottom: 1px;
     color: #4ea7ff;
 }
+
 .TutorialState10 #StickerCollectionTutorialContainer .TutorialPanelContainer {
     horizontal-align: left;
     margin-left: 160px;
     min-height: 100px;
 }
+
 #StickerCollectionTutorialContainer .TutorialPanel Label {
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
+
 .TutorialState0 #StickerCollectionTutorialContainer,
 .TutorialState1 #StickerCollectionTutorialContainer,
 .TutorialState2 #StickerCollectionTutorialContainer,
@@ -702,6 +710,7 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
 .TutorialState10 #StickerCollectionTutorialContainer {
     visibility: visible;
 }
+
 .ShowInTutorial0,
 .ShowInTutorial1,
 .ShowInTutorial2,
@@ -709,6 +718,7 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
 .ShowInTutorial10 {
     visibility: collapse;
 }
+
 .TutorialState0 .ShowInTutorial0,
 .TutorialState1 .ShowInTutorial1,
 .TutorialState2 .ShowInTutorial2,
@@ -716,6 +726,7 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
 .TutorialState10 .ShowInTutorial10 {
     visibility: visible;
 }
+
 .HelpContainer {
     visibility: collapse;
     width: 1392px;
@@ -725,32 +736,26 @@ DOTAStickerCollectionsPage:not(.NoCollectionsAvailable) #NoStickersPanel #NoRows
     vertical-align: middle;
     margin-top: 50px;
     flow-children: right;
-    transform: translateX (-1312px);
+    transform: translateX(-1312px);
     transition-property: opacity, wash-color, transform;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
 }
+
 DOTAStickerCollectionsPage .HelpContainer {
-    transform: translateX (-658px);
+    transform: translateX(-658px);
 }
+
 .HelpContainer .ButtonDark {
     width: 100%;
     height: 58px;
     vertical-align: bottom;
     margin: 8px;
     border-width: 1px;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#516e7722),
-            to (#374c4f77)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#516e7722), to(#374c4f77));
     border: 1px solid #000;
 }
+
 .MoreDetails,
 .LessDetails {
     flow-children: right;
@@ -760,93 +765,102 @@ DOTAStickerCollectionsPage .HelpContainer {
     opacity: 1;
     padding: 0 32px;
 }
+
 .LessDetails {
     ignore-parent-flow: true;
     opacity: 0;
 }
+
 .HelpExpandedDetails .LessDetails {
     opacity: 1;
 }
+
 .HelpExpandedDetails .MoreDetails {
     opacity: 0;
 }
+
 #ViewDetailsButton Label {
     font-size: 24px;
     letter-spacing: 2px;
     padding: 0px;
 }
+
 #ViewDetailsButton .DetailsButtonContainer {
     padding-left: 16px;
     padding-right: 16px;
 }
+
 #ViewDetailsButton .PanelSlideThumbArrow {
-    transform: translateX (-10px) rotateZ (180deg);
+    transform: translateX(-10px) rotateZ(180deg);
     horizontal-align: left;
     margin-top: 2px;
 }
+
 #ViewDetailsButton:hover .PanelSlideThumbArrow {
-    transform: translateX (-16px) rotateZ (180deg);
+    transform: translateX(-16px) rotateZ(180deg);
 }
+
 .HelpExpandedDetails #ViewDetailsButton .PanelSlideThumbArrow {
-    transform: translateX (8px) rotateZ (0deg);
+    transform: translateX(8px) rotateZ(0deg);
 }
+
 .HelpExpandedDetails #ViewDetailsButton .LessDetails .PanelSlideThumbArrow {
-    transform: translateX (-4px) rotateZ (0deg);
+    transform: translateX(-4px) rotateZ(0deg);
 }
+
 .HelpExpandedDetails #ViewDetailsButton:hover .PanelSlideThumbArrow {
-    transform: translateX (0px) rotateZ (0deg);
+    transform: translateX(0px) rotateZ(0deg);
 }
+
 .HelpExpandedDetails #ViewDetailsButton:hover .LessDetails .PanelSlideThumbArrow {
-    transform: translateX (-12px) rotateZ (0deg);
+    transform: translateX(-12px) rotateZ(0deg);
 }
+
 .HelpExpanded .HelpContainer {
-    transform: translateX (0px);
+    transform: translateX(0px);
 }
+
 .HelpExpandedDetails .HelpContainer {
-    transform: translateX (0px);
+    transform: translateX(0px);
 }
+
 .HelpDetailsContainer {
     flow-children: right;
     width: 1310px;
     width: fit-children;
     height: 100%;
     box-shadow: 2px 2px 14px 0px #000000dd;
-    background-color: gradient
-        (
-            linear,
-            0% 50%,
-
-            100% 0%,
-
-            from (#242424),
-            color-stop (0.38, #252525),
-            color-stop (0.58, #434240),
-            color-stop (0.68, #20201f),
-            color-stop (0.8, #2d2c2b),
-            to (#33312f)
-        );
+    background-color: gradient(
+        linear,
+        0% 50%,
+        100% 0%,
+        from(#242424),
+        color-stop(0.38, #252525),
+        color-stop(0.58, #434240),
+        color-stop(0.68, #20201f),
+        color-stop(0.8, #2d2c2b),
+        to(#33312f)
+    );
     border: 1px solid white;
     border-left-width: 0;
-    border-brush: gradient
-        (
-            linear,
-            10% 100%,
-
-            50% 0%,
-
-            from (#374c4f),
-            color-stop (0.38, #374c4f),
-            color-stop (0.58, #516e77),
-            color-stop (0.68, #516e77),
-            color-stop (0.8, #374c4f),
-            to (#374c4f)
-        );
+    border-brush: gradient(
+        linear,
+        10% 100%,
+        50% 0%,
+        from(#374c4f),
+        color-stop(0.38, #374c4f),
+        color-stop(0.58, #516e77),
+        color-stop(0.68, #516e77),
+        color-stop(0.8, #374c4f),
+        to(#374c4f)
+    );
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     transition-property: border-brush;
     transition-duration: 0.64s;
     transition-timing-function: ease-in-out;
 }
+
 .HelpDetails {
     width: 655px;
     height: 100%;
@@ -856,6 +870,7 @@ DOTAStickerCollectionsPage .HelpContainer {
     padding: 24px;
     z-index: 2;
 }
+
 .DetailsHeader {
     font-family: titleFont;
     font-size: 24px;
@@ -864,22 +879,27 @@ DOTAStickerCollectionsPage .HelpContainer {
     text-align: center;
     horizontal-align: left;
     font-weight: bold;
-    color: bluegreyTextBright & cc;
+    color: bluegreyTextBright&cc;
 }
+
 #AddNewRowButton .ControlIconButton {
     background-image: url("s2r://panorama/images/control_icons/plus_png.vtex");
     background-size: 100% 100%;
 }
+
 #PlaceStickersButton .ControlIconButton {
     background-image: url("s2r://panorama/images/control_icons/place_stamp_psd.vtex");
     background-size: 100% 100%;
 }
+
 #AddNewRowButton {
     context-menu-position: bottom;
 }
+
 #ResetStickersButton {
     margin-right: 0;
 }
+
 .AddButton {
     box-shadow: 2px 2px 12px black;
     border-radius: 6px;
@@ -891,17 +911,21 @@ DOTAStickerCollectionsPage .HelpContainer {
     transition-timing-function: ease-in-out;
     transition-duration: 0.21s;
 }
+
 .AddButton:disabled {
     opacity: 0.2;
     background-color: #0000;
     box-shadow: 0px 0px 0px transparent;
 }
+
 .AddButton:disabled Label {
     color: #aaa;
 }
+
 .AddButton:disabled .ControlIconButton {
     wash-color: #aaa;
 }
+
 .AddButton .ControlIconButton {
     margin: 0;
     margin-right: 8px;
@@ -910,12 +934,15 @@ DOTAStickerCollectionsPage .HelpContainer {
     transition-timing-function: ease-in-out;
     transition-duration: 0.21s;
 }
+
 .AddButton:not(:disabled):hover {
     background-color: #0afd;
 }
+
 .AddButton:not(:disabled):hover Label {
     color: #fff;
 }
+
 .AddButton Label {
     color: #fff;
     text-align: center;
@@ -927,6 +954,7 @@ DOTAStickerCollectionsPage .HelpContainer {
     transition-duration: 0.21s;
     padding-top: 3px;
 }
+
 .TopButtons {
     width: 100%;
     horizontal-align: center;
@@ -939,35 +967,31 @@ DOTAStickerCollectionsPage .HelpContainer {
     border: 1px solid #445d28b6;
     box-shadow: 2px 2px 12px black;
 }
+
 .TopButtons .ButtonBevel {
     min-width: 260px;
     margin: 0;
     min-height: 32px;
     border-radius: 4px;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#82b250),
-            to (#4a652c)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#82b250), to(#4a652c));
     border: 1px solid transparent;
 }
+
 .TopButtons .ButtonBevel Label {
     text-shadow: 1px 1px 5px 2 black;
 }
+
 .TopButtons .ButtonBevel:hover {
     brightness: 2;
 }
+
 .TopButtons .SearchLabelContainer {
     height: 32px;
     padding: 1px 8px;
-    width: fill-parent-flow (1);
+    width: fill-parent-flow(1);
     vertical-align: middle;
 }
+
 .TopButtons .SearchLabelContainer #MarketLabel,
 .TopButtons .SearchLabelContainer #MarketLabelNone,
 .TopButtons .SearchLabelContainer #MarketLabelTalent {
@@ -978,37 +1002,47 @@ DOTAStickerCollectionsPage .HelpContainer {
     color: #82b250;
     text-overflow: shrink;
 }
+
 #MarketLabel,
 #MarketLabelTalent {
     visibility: collapse;
 }
+
 .MarketStickersTeamValid #MarketLabelNone,
 .MarketStickersTalent #MarketLabelNone {
     visibility: collapse;
 }
+
 .MarketStickersTeamValid #MarketLabel {
     visibility: visible;
 }
+
 .MarketStickersTalent #MarketLabelTalent {
     visibility: visible;
 }
+
 #NoStickersTalent,
 #NoStickersTeam {
     visibility: collapse;
 }
+
 .MarketStickersTeamValid #NoStickersTeam {
     visibility: visible;
 }
+
 .MarketStickersTalent #NoStickersTalent {
     visibility: visible;
 }
+
 .IsSteamChina .MarketButton {
     visibility: collapse;
 }
+
 #TitleAndRewards {
     flow-children: down;
     margin-top: -16px;
 }
+
 #TitleAndRewards #RewardLine {
     width: 500px;
     height: 24px;
@@ -1016,13 +1050,16 @@ DOTAStickerCollectionsPage .HelpContainer {
     margin-top: 8px;
     margin-left: 4px;
 }
+
 .NoRewardLine #TitleAndRewards {
     visibility: collapse;
 }
+
 .RewardLineContainer {
     height: 100%;
     overflow: squish noclip;
 }
+
 .RewardsLineSection {
     height: 8px;
     width: 100%;
@@ -1030,13 +1067,16 @@ DOTAStickerCollectionsPage .HelpContainer {
     vertical-align: center;
     background-color: #505050;
 }
+
 .RewardsLineSection .ProgressBarLeft {
     background-color: #004d9e;
 }
+
 .RewardsLineSection .ProgressBarLeft,
 .RewardsLineSection .ProgressBarRight {
-    box-shadow: inset 1px 1px 6px rgba (0, 0, 0, 0.7);
+    box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.7);
 }
+
 .RewardPip {
     height: 24px;
     width: 24px;
@@ -1046,8 +1086,9 @@ DOTAStickerCollectionsPage .HelpContainer {
     z-index: 2;
     horizontal-align: center;
     vertical-align: center;
-    box-shadow: inset 1px 2px 8px rgba (0, 0, 0, 0.8);
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.8);
 }
+
 .RewardPipLabel {
     vertical-align: center;
     horizontal-align: center;
@@ -1060,45 +1101,43 @@ DOTAStickerCollectionsPage .HelpContainer {
     margin-left: 1px;
     margin-top: 1px;
 }
+
 .Stickers_RewardComplete .RewardPip {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#0064ce),
-            to (#004d9e)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#0064ce), to(#004d9e));
 }
+
 .Stickers_RewardComplete .RewardPipLabel {
     color: white;
     text-shadow: 0 0 12px cyan;
 }
+
 #rewardpip_0 .RewardsLineSection {
     visibility: collapse;
 }
+
 #RewardInfoPanel {
     horizontal-align: right;
     vertical-align: center;
     overflow: noclip;
     z-index: 4;
 }
+
 .RowsLeftLabel {
     font-size: 12px;
     text-align: center;
-    color: rgb (108, 109, 110);
+    color: rgb(108, 109, 110);
     text-shadow: 1px 1px 4px black;
     z-index: 3;
     vertical-align: middle;
     horizontal-align: center;
     text-transform: uppercase;
 }
+
 #StickerCapsulesButton {
     horizontal-align: center;
     margin-bottom: 32px;
 }
+
 #CapsuleScene {
     width: 210px;
     height: 210px;
@@ -1110,17 +1149,21 @@ DOTAStickerCollectionsPage .HelpContainer {
     transition-duration: 0.16s;
     transition-timing-function: ease-in-out;
 }
+
 .TutorialState2 #CapsuleScene {
     visibility: visible;
 }
+
 #CapsuleScene:hover {
     brightness: 2;
     pre-transform-scale2d: 1;
 }
+
 .TutorialPanel1,
 .TutorialPanel2 {
     visibility: collapse;
 }
+
 .TutorialState1 .TutorialPanel1,
 .TutorialState2 .TutorialPanel2 {
     visibility: visible;

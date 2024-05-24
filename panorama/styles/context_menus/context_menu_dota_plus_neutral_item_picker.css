@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents.DOTAPlusNeutralItemPicker {
     flow-children: down;
     horizontal-align: right;
@@ -21,10 +23,8 @@
     padding: 8px;
     flow-children: down;
     horizontal-align: center;
-
     opacity: 0;
     transform: translateY(20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.07s;
     background-img-opacity: 0.3;
@@ -50,9 +50,7 @@
     horizontal-align: center;
     text-align: center;
     color: white;
-
     margin-bottom: 8px;
-
     font-weight: semi-bold;
 }
 

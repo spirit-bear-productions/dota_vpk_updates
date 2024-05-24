@@ -1,7 +1,8 @@
-@define revealDuration:  1s;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define revealDuration: 1s;
 @define cooldownThreshold: 5.0s;
 @define followCursor: 0;
-
 DOTAHUDCursorCooldown {
     width: 68px;
     height: 48px;
@@ -87,16 +88,13 @@ DOTAHUDCursorCooldown.NotEnoughMana:not(.InCooldown) #NotEnoughManaLabel {
     margin-right: 10px;
     width: 100%;
     height: 100%;
-
     background-color: black;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
     wash-color: #22ff33;
-
     background-image: url("s2r://panorama/images/hud/reborn/cursor_cooldown_bg_psd.vtex");
-
     transition-property: background-image, clip;
     transition-duration: 0.05s;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTADPCTeamPlayer {
     height: 428px;
     width: 128px;
@@ -203,12 +205,15 @@ DOTAHeroImage.HeroImageValid {
 .FantasyRole4 .Role {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/midlaneicon_psd.vtex");
 }
+
 .FantasyRole3 .Role {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/offlaneicon_psd.vtex");
 }
+
 .FantasyRole2 .Role {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/hardsupporticon_psd.vtex");
 }
+
 .FantasyRole1 .Role {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/safelaneicon_psd.vtex");
 }

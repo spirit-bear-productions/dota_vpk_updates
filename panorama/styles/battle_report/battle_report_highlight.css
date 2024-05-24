@@ -1,12 +1,12 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABattleReportHighlight {
     height: 100%;
     width: fill-parent-flow(1);
     margin-right: 16px;
     background-color: rgba(0, 0, 0, 0.44);
-
     opacity: 0;
     transform: translateY(32px);
-
     transition-timing-function: cubic-bezier(0, 1, 0, 1);
     transition-property: opacity, transform;
     transition-duration: 0.4s;
@@ -164,7 +164,6 @@ DOTABattleReportHighlight.ShowHighlight {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center -2px;
-
     transition-property: opacity, transform, scale3d;
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0, 1, 0, 1);
@@ -180,9 +179,11 @@ DOTABattleReportHighlight.ShowHighlight {
 DOTABattleReportHighlight.Tier3 .HighlightMedal {
     background-image: url("s2r://panorama/images/battle_report/gold_medal_psd.vtex");
 }
+
 DOTABattleReportHighlight.Tier2 .HighlightMedal {
     background-image: url("s2r://panorama/images/battle_report/silver_medal_psd.vtex");
 }
+
 DOTABattleReportHighlight.Tier1 .HighlightMedal {
     background-image: url("s2r://panorama/images/battle_report/bronze_medal_psd.vtex");
 }
@@ -192,10 +193,8 @@ DOTABattleReportHighlight.Tier1 .HighlightMedal {
     horizontal-align: right;
     width: 124px;
     margin-bottom: 10px;
-
     opacity: 0;
     transform: scale3d(1, 1, 1) translateY(-20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -217,7 +216,6 @@ DOTABattleReportHighlight.Tier1 .HighlightMedal {
 .ShardsEarned .ShardsIcon {
     width: 24px;
     height: 24px;
-
     background-image: dotaPlusCurrencyIcon;
     background-size: contain;
     background-repeat: no-repeat;

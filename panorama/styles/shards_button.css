@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAShardsButton {
     height: 62px;
 }
@@ -19,7 +21,6 @@ DOTAShardsButton:active {
     width: 26px;
     height: 100%;
     margin-right: 8px;
-
     background-image: dotaPlusCurrencySmallIcon;
     background-size: 26px 30px;
     background-repeat: no-repeat;
@@ -55,9 +56,7 @@ DOTAShardsButton:active {
     border-radius: 50%;
     border: 1px solid dotaPlusGold&44;
     margin-right: 4px;
-
     box-shadow: fill #000000 0px 0px 12px 0px;
-
     background-color: dotaPlusGold&02;
     box-shadow: fill dotaPlusGold&01 0px 0px 8px 0px;
 }

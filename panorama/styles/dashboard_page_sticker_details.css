@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAStickerItemDetailsPage {
     margin-top: 58px;
     height: 100%;
@@ -19,7 +21,6 @@ DOTAStickerItemDetailsPage {
 .PageVisible #StickerPreview {
     opacity: 1;
     transform: none;
-
     transition-delay: 0s;
 }
 
@@ -35,7 +36,6 @@ DOTAStickerItemDetailsPage {
     height: 100%;
     opacity: 0;
     transform: scale3d(0.7, 0.7, 1);
-
     transition-property: transform, opacity;
     transition-duration: 0.8s;
     transition-delay: 0.2s;
@@ -48,14 +48,15 @@ DOTAStickerItemDetailsPage {
     width: 500px;
     flow-children: down;
 }
+
 .BodyBox #ItemHeader {
     width: 100%;
     flow-children: right;
     margin-bottom: 16px;
-
     transition-property: background-color;
     transition-duration: 0.2s;
 }
+
 .BodyBox #ItemHeader #Title {
     font-size: 28px;
     font-weight: semi-bold;
@@ -100,12 +101,9 @@ DOTAStickerItemDetailsPage {
     margin-top: 2px;
     margin-left: 0px;
     margin-bottom: 0px;
-
     ui-scale: 60%;
-
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
     tooltip-position: bottom;
 }
 
@@ -206,7 +204,6 @@ DOTAStickerItemDetailsPage {
 #StoreItemPurchase,
 #StoreBundlePurchase {
     margin-bottom: 8px;
-
     min-width: 100px;
 }
 
@@ -268,7 +265,6 @@ DOTAStickerItemDetailsPage {
         color-stop(0.8, rgba(255, 255, 255, 0.02)),
         to(rgba(255, 255, 255, 0))
     );
-
     opacity: 0;
     transform: translateY(20px);
     transition-property: transform, opacity;
@@ -276,6 +272,7 @@ DOTAStickerItemDetailsPage {
     transition-delay: 0.6s;
     transition-timing-function: cubic-bezier(0, 1, 0, 1);
 }
+
 .StickerGeneralControlsContainer .StickerGeneralControls {
     flow-children: right;
     horizontal-align: center;
@@ -292,7 +289,6 @@ DOTAStickerItemDetailsPage {
     font-size: 16px;
     color: whitesmoke;
     padding: 12px 0px 8px;
-
     width: 100%;
 }
 
@@ -333,10 +329,8 @@ DOTAStickerItemDetailsPage {
     background-size: 50%;
     background-position: center;
     border-radius: 50%;
-
     background-img-opacity: 0.1;
     border: 2px solid rgba(255, 255, 255, 0.06);
-
     transition-property: brightness;
     transition-duration: 0.2s;
     z-index: 10;
@@ -372,6 +366,7 @@ DOTAStickerItemDetailsPage {
     visibility: visible;
     opacity: 1;
 }
+
 .Stickers_ChatwheelUnlocked #VoiceLine_GrantedLabel a {
     color: #fee6a9;
     text-decoration: underline;
@@ -385,17 +380,16 @@ DOTAStickerItemDetailsPage {
     background-img-opacity: 1;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#e75035), to(#982f2e));
     border: 2px solid #ea695388;
-
     transition-property: background-color, border;
     transition-duration: 0.1s;
     transition-timing-function: ease;
-
     animation-name: glowButton;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
     animation-direction: alternate;
 }
+
 .Stickers_ChatwheelUnlocked #ChatWheelPreview:hover {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#ff5d40), to(#c53c3a));
     border: 2px solid #ea6a53;

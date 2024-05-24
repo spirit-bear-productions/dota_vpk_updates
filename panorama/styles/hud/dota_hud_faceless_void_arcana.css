@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDFacelessVoidArcana {
     width: 100%;
     height: 100%;
@@ -42,9 +44,8 @@ DOTAHUDFacelessVoidArcana {
     z-index: 1;
 }
 
-@define kGlowTranslation:  32px;
+@define kGlowTranslation: 32px;
 @define kGlyphContainerDimension: 150px;
-
 .Glow {
     opacity: 0;
     transition-property: opacity;
@@ -84,6 +85,7 @@ DOTAHUDFacelessVoidArcana {
     width: 200px;
     height: 200px;
 }
+
 #GlyphContainer #GlyphBackground,
 #GlyphContainer #Glyph,
 #GlyphContainer #GlyphForegroundOnCompletion {

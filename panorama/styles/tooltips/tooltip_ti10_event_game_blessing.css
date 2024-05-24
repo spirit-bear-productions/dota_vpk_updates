@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DOTATooltipTI10EventGameBlessing {
     width: 350px;
     height: fit-children;
@@ -31,7 +33,6 @@
 .BlessingName {
     color: #ffffff;
     font-weight: semi-bold;
-
     font-size: 20px;
 }
 
@@ -69,7 +70,6 @@
 
 #BlessingStatusActive {
     visibility: collapse;
-
     color: #ffffff;
     text-shadow: 0px 0px 4px 1 #41a0f2;
     font-weight: semi-bold;
@@ -78,7 +78,6 @@
 #BlessingStatusAvailable {
     visibility: collapse;
     color: #41a0f2;
-
     font-weight: semi-bold;
 }
 

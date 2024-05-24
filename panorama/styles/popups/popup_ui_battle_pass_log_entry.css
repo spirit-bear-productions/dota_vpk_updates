@@ -1,10 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABattlePassLogEntry {
     background-color: gradient(linear, 0% 0%, 140% 0%, from(#22282af4), to(#000000));
-
     box-shadow: none;
     flow-children: right;
     height: 38px;
-
     border-bottom: 1px solid transparent;
     border-top: 1px solid transparent;
 }
@@ -15,7 +15,6 @@ DOTABattlePassLogEntry {
     font-family: radiance;
     font-weight: normal;
     letter-spacing: 1px;
-
     vertical-align: middle;
     margin-top: 1px;
 }
@@ -104,7 +103,6 @@ DOTABattlePassLogEntry {
     width: 24px;
     height: 24px;
     wash-color: secondaryColor1;
-
     background-image: url("s2r://panorama/images/compendium/international2022/totalpoints_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -224,7 +222,6 @@ DOTABattlePassLogEntry .DescriptionColumn {
 .BattlePointsConsumed .TypeIcon {
     background-image: bp_point_log_points_consumed;
     wash-color: accentColorBright;
-
     saturation: 0;
     wash-color: accentColorBright;
     background-size: 20px 24px;

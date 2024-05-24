@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .GameplayPatchCell {
     background-color: #0009;
 }
@@ -39,12 +41,10 @@
 
 #UpdateTitleEffect {
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     vertical-align: bottom;
     horizontal-align: right;
     width: 150px;
     height: 150px;
-
     vertical-align: top;
     horizontal-align: center;
     width: 300px;

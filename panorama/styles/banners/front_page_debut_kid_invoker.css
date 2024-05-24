@@ -1,13 +1,12 @@
-@define arcana_teal:  #7fc4cc;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define arcana_teal: #7fc4cc;
 @define arcana_teal_transparent: #7fc4cc33;
 @define arcana_teal_dark: #74c0ee;
-
 #BackgroundScene {
     width: 400px;
     height: 600px;
-
     opacity: 0.01;
-
     transition-property: opacity;
     transition-duration: 2s;
 }
@@ -21,7 +20,6 @@
     vertical-align: bottom;
     horizontal-align: center;
     padding-bottom: 10px;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease;
@@ -213,7 +211,6 @@
     font-family: titleFont;
     font-weight: bold;
     text-shadow: 1px 1px 12px 3 #84e4e520;
-
     text-transform: uppercase;
     text-overflow: shrink;
     max-height: 60px;
@@ -250,9 +247,7 @@
 
 .ButtonTeal {
     padding: 6px 15px;
-
     border: 2px solid #d14ebe;
-
     transition-property: background-color, opacity, border;
     transition-duration: 0.1s;
     transition-timing-function: linear;
@@ -262,7 +257,6 @@
 
 .ButtonTeal:enabled:hover {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#d14ebe), to(#7a216d));
-
     opacity: 1;
 }
 
@@ -282,7 +276,6 @@
     text-align: center;
     vertical-align: middle;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
-
     transition-property: color;
     transition-duration: 0.35s;
     transition-timing-function: ease-in-out;

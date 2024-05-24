@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupArmoryUpgrade {
     width: 1160px;
     height: width-percentage(55%);
@@ -45,6 +47,7 @@
     flow-children: right;
     margin: 32px 0px 40px;
 }
+
 .Dashes .Dash {
     width: 64px;
     height: 1px;
@@ -66,6 +69,7 @@
     transform: translateX(30px) translateY(30px);
     flow-children: down;
 }
+
 .ScreengrabContainer .Screengrab {
     width: 100%;
 }

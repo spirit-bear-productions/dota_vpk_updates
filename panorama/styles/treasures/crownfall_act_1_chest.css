@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .Language_schinese .CrownfallLogo,
 .CrownfallLogoCN {
     visibility: collapse;
@@ -12,12 +14,10 @@
     horizontal-align: center;
     vertical-align: top;
     ui-scale: 80%;
-
     transition-property: transform, opacity;
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     transition-delay: 0.6s;
-
     opacity: 0;
     transform: translateY(-48px);
 }
@@ -36,7 +36,6 @@
     vertical-align: bottom;
     padding: 2px 8px 3px 10px;
     margin-bottom: 24px;
-
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);
     border-radius: 3px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#8d3a2f), to(#6b2c24));
@@ -50,7 +49,6 @@
     horizontal-align: center;
     vertical-align: center;
     margin-top: 16px;
-
     font-size: 50px;
     line-height: 1.4;
     letter-spacing: 2.5px;
@@ -75,7 +73,6 @@
     horizontal-align: center;
     vertical-align: bottom;
     margin-bottom: 64px;
-
     text-shadow: 0px 2px 8px 3 black;
     color: gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#b89558));
 }
@@ -83,7 +80,6 @@
 .FullPreviewMode .LogoContainer {
     opacity: 1;
     transform: translateY(-32px);
-
     transition-duration: 0.15s;
     transition-timing-function: ease-in;
     transition-delay: 0.1s;
@@ -94,13 +90,12 @@
     height: 100%;
     horizontal-align: center;
     vertical-align: bottom;
-
     wash-color: rgb(54, 79, 128);
     transform: translateY(400px);
-
     transition-property: transform;
     transition-duration: 1s;
 }
+
 .FullPreviewMode .SmokeFX {
     transform: translateY(200px);
 }

@@ -1,17 +1,16 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupBattleCupWinner.PopupPanel {
     width: 100%;
     height: 100%;
     horizontal-align: center;
-
     border: 0px;
     box-shadow: none;
     padding: 0px;
     animation-name: none;
-
     transition-property: transform;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
-
     background-color: #000000aa;
     flow-children: none;
 }
@@ -22,14 +21,12 @@ DOTAPopupBattleCupWinner.PopupPanel {
     horizontal-align: center;
     margin-top: -10px;
     opacity: 1;
-
     transition-property: opacity;
     transition-timing-function: ease-in-out;
     transition-delay: 1.9s;
     transition-duration: 1s;
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_sharp_png.vtex");
     wash-color: orange;
-
     brightness: 0.2;
 }
 
@@ -50,7 +47,6 @@ DOTAPopupBattleCupWinner.PopupPanel {
     width: 800px;
     height: 800px;
     horizontal-align: center;
-
     margin-top: 150px;
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_sharp_png.vtex");
     opacity: 1;
@@ -120,14 +116,11 @@ DOTAPopupBattleCupWinner.PopupPanel {
     horizontal-align: center;
     margin-top: 30px;
     flow-children: right;
-
     opacity: 0;
     pre-transform-scale2d: 6;
-
     transition-duration: 0.3s;
     transition-property: opacity, pre-transform-scale2d;
     transition-timing-function: ease-in-out;
-
     overflow: noclip;
 }
 

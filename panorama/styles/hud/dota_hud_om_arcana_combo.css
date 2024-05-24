@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDOMArcanaCombo {
     width: 100%;
     height: 100%;
@@ -13,7 +15,6 @@ DOTAHUDOMArcanaCombo.Hidden {
     margin-top: -10px;
     vertical-align: top;
     width: 250px;
-
     horizontal-align: center;
     opacity: 0;
     height: 119px;
@@ -135,10 +136,12 @@ DOTAHUDOMArcanaCombo.Hidden {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_0_png.vtex");
     width: 40px;
 }
+
 .OMDigit.digit_1 {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_1_png.vtex");
     width: 30px;
 }
+
 .OMDigit.digit_2 {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_2_png.vtex");
     width: 40px;
@@ -183,30 +186,39 @@ DOTAHUDOMArcanaCombo.Hidden {
 .ArcanaLevel2 .OMDigit.digit_0 {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_0_v2_png.vtex");
 }
+
 .ArcanaLevel2 .OMDigit.digit_1 {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_1_v2_png.vtex");
 }
+
 .ArcanaLevel2 .OMDigit.digit_2 {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_2_v2_png.vtex");
 }
+
 .ArcanaLevel2 .OMDigit.digit_3 {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_3_v2_png.vtex");
 }
+
 .ArcanaLevel2 .OMDigit.digit_4 {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_4_v2_png.vtex");
 }
+
 .ArcanaLevel2 .OMDigit.digit_5 {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_5_v2_png.vtex");
 }
+
 .ArcanaLevel2 .OMDigit.digit_6 {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_6_v2_png.vtex");
 }
+
 .ArcanaLevel2 .OMDigit.digit_7 {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_7_v2_png.vtex");
 }
+
 .ArcanaLevel2 .OMDigit.digit_8 {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_8_v2_png.vtex");
 }
+
 .ArcanaLevel2 .OMDigit.digit_9 {
     background-image: url("s2r://panorama/images/hud/arcana/om/numbers/multicast_9_v2_png.vtex");
 }
@@ -287,7 +299,6 @@ DOTAHUDOMArcanaCombo.Hidden {
 
 .ComboCountDigit {
     pre-transform-scale2d: 0.9;
-
     transition-property: pre-transform-scale2d, background-image;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -352,7 +363,6 @@ DOTAHUDOMArcanaCombo.Hidden {
 #ComboSummaryContainer {
     vertical-align: top;
     width: 275px;
-
     horizontal-align: center;
     opacity: 0;
     height: 120px;

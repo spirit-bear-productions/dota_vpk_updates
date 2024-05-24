@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .NPH {
     vertical-align: top;
     horizontal-align: center;
@@ -226,6 +228,7 @@
     border: 4px solid bluegreyTextReg;
     border-radius: 5px;
 }
+
 .NPH_TierPip__Active .NPH_TierPipImage {
     border: 4px solid bluegreyTextBright;
 }
@@ -240,7 +243,6 @@
     width: 100%;
     height: 100%;
     flow-children: right-wrap;
-
     opacity: 1;
     transform: translateX(0px);
 }
@@ -280,11 +282,9 @@
     height: 88px;
     margin-top: 8px;
     margin-right: 12px;
-
     background-image: url("s2r://panorama/images/new_player_intro/rewards_bg_psd.vtex");
     background-size: 100%;
     background-repeat: no-repeat;
-
     visibility: collapse;
 }
 
@@ -352,6 +352,7 @@
     height: 80px;
     visibility: collapse;
 }
+
 .NPH_RewardList__Active {
     visibility: visible;
 }
@@ -376,7 +377,6 @@
     horizontal-align: right;
     padding: 4px;
     text-overflow: shrink;
-
     visibility: collapse;
 }
 
@@ -413,7 +413,6 @@
     overflow: noclip;
     horizontal-align: right;
     margin-top: 4px;
-
     visibility: collapse;
 }
 
@@ -424,12 +423,10 @@
 .NPH_Scenario {
     width: 100%;
     height: 100%;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     opacity: 0;
-
     overflow: noclip;
 }
 
@@ -445,18 +442,14 @@
     width: 64px;
     height: 64px;
     margin: 2px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: center;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     transition-property: img-shadow;
     transition-duration: 0.2s;
-
     img-shadow: 0px 0px 12px 2 #7299db00;
 }
 
@@ -477,6 +470,7 @@
 .NPH_RewardTile__Clickable:hover {
     img-shadow: 0px 0px 14px 2 #7299db;
 }
+
 .NPH_RewardTile__Clickable:active {
     transform: translateX(1px) translateY(1px);
 }
@@ -495,17 +489,21 @@
     margin-left: 18px;
     margin-top: 4px;
 }
+
 .NPH_EmoticonReward__2 {
     margin-top: 18px;
 }
+
 .NPH_EmoticonReward__3 {
     margin-top: 18px;
     horizontal-align: right;
 }
+
 .NPH_EmoticonReward__4 {
     margin-left: 8px;
     vertical-align: bottom;
 }
+
 .NPH_EmoticonReward__5 {
     margin-right: 8px;
     vertical-align: bottom;
@@ -606,6 +604,7 @@
     width: 100px;
     height: 40px;
 }
+
 .Example.AddedByScenario .Example_Image {
     saturation: 0;
 }
@@ -637,7 +636,6 @@
     horizontal-align: center;
     text-shadow: 0px 0px 12px 1 #7299db44;
     width: 320px;
-
     margin-top: 4px;
     color: #ffffffcc;
     font-size: 18px;

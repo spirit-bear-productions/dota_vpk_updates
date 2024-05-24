@@ -1,18 +1,17 @@
-@define mouseWheelScroll:  150px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define mouseWheelScroll: 150px;
 @define asyncDestroyDelay: 0.2s;
 @define scrollPaddingMin: 16px;
 @define scrollPaddingMax: 16px;
 @define scrollPaddingRight: 60px;
 @define cellMarginRight: -14px;
-
 @define rewardDefaultWidth: 198px;
 @define rewardImportantEconItemModelWidth: 198px;
 @define rewardEmptyWidth: 54px;
 @define rewardActionListWidth: 298px;
 @define rewardEllipsisWidth: 464px;
-
 @define rewardLineBottomMargin: 42px;
-
 CompTI10RewardList {
     overflow: clip;
 }
@@ -305,7 +304,6 @@ CompTI10RewardList {
     margin-left: 0px;
     margin-right: 36px;
     border-radius: 8px;
-
     brightness: 0.8;
 }
 
@@ -315,48 +313,56 @@ CompTI10RewardList {
 #Level1 .RewardLineBackground {
     background-position: 0 0;
 }
+
 #Level35 .RewardLineBackground,
 #Level20 .RewardLineBackground,
 #Level17 .RewardLineBackground,
 #Level2 .RewardLineBackground {
     background-position: 10% 0;
 }
+
 #Level34 .RewardLineBackground,
 #Level21 .RewardLineBackground,
 #Level16 .RewardLineBackground,
 #Level3 .RewardLineBackground {
     background-position: 20% 0;
 }
+
 #Level33 .RewardLineBackground,
 #Level22 .RewardLineBackground,
 #Level15 .RewardLineBackground,
 #Level4 .RewardLineBackground {
     background-position: 30% 0;
 }
+
 #Level32 .RewardLineBackground,
 #Level23 .RewardLineBackground,
 #Level14 .RewardLineBackground,
 #Level5 .RewardLineBackground {
     background-position: 40% 0;
 }
+
 #Level31 .RewardLineBackground,
 #Level24 .RewardLineBackground,
 #Level13 .RewardLineBackground,
 #Level6 .RewardLineBackground {
     background-position: 50% 0;
 }
+
 #Level30 .RewardLineBackground,
 #Level25 .RewardLineBackground,
 #Level12 .RewardLineBackground,
 #Level7 .RewardLineBackground {
     background-position: 60% 0;
 }
+
 #Level29 .RewardLineBackground,
 #Level26 .RewardLineBackground,
 #Level11 .RewardLineBackground,
 #Level8 .RewardLineBackground {
     background-position: 70% 0;
 }
+
 #Level28 .RewardLineBackground,
 #Level27 .RewardLineBackground,
 #Level10 .RewardLineBackground,
@@ -444,10 +450,12 @@ CompTI10RewardList {
     wash-color: white;
     border-radius: 0;
 }
+
 #LevelProgress .ProgressBarRight {
     background-color: black;
     border-radius: 0;
 }
+
 .RewardLevel:not(.HasReward) #LevelProgress {
     margin: 0px 36px 1px 0px;
 }
@@ -503,6 +511,7 @@ CompTI10RewardList {
     saturation: 1;
     wash-color: white;
 }
+
 .EconIconReward:hover .RewardLineEconIcon {
     box-shadow: none;
 }
@@ -553,7 +562,6 @@ CompTI10RewardList {
     height: 25px;
     pre-transform-scale2d: 4.5;
     transform: scaleY(-0.95) translateY(50px);
-
     opacity: 1;
     brightness: 1;
     saturation: 0.8;
@@ -692,15 +700,12 @@ CompTI10RewardList {
 .EconItemReward > Label {
     horizontal-align: right;
     vertical-align: bottom;
-
     margin-right: 11px;
     margin-bottom: 7px;
-
     font-size: 24px;
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px 0px black;
-
     visibility: collapse;
 }
 
@@ -723,7 +728,6 @@ CompTI10RewardList {
     wash-color: white;
     background-color: black;
     border-radius: 50%;
-
     visibility: collapse;
 }
 
@@ -778,7 +782,6 @@ CompTI10RewardList {
     opacity: 0.5;
     border: 1px solid transparent;
     z-index: 1;
-
     visibility: collapse;
 }
 
@@ -836,7 +839,6 @@ CompTI10RewardList {
     perspective-origin: 1250px 0;
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     visibility: collapse;
 }
 
@@ -881,6 +883,7 @@ CompTI10RewardList {
 .ChatWheelMessageAll {
     visibility: collapse;
 }
+
 .ChatWheelMessage.ChatWheelMessageSendToAll .ChatWheelMessageAll {
     visibility: visible;
 }
@@ -888,11 +891,9 @@ CompTI10RewardList {
 #ChatWheelMessageSoundButton {
     width: 16px;
     height: 16px;
-
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
-
     visibility: collapse;
 }
 
@@ -909,6 +910,7 @@ CompTI10RewardList {
 #ChatWheelMessageSoundButton:hover {
     brightness: 2;
 }
+
 #ChatWheelMessageSoundButton:active {
     brightness: 1.5;
 }
@@ -929,10 +931,8 @@ CompTI10RewardList {
     vertical-align: bottom;
     horizontal-align: center;
     margin-bottom: 64px;
-
     margin-left: 8px;
     transform: translateX(-3px) translateY(20px);
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -970,7 +970,6 @@ CompTI10RewardList {
     width: 24px;
     height: 24px;
     wash-color: #c2dcd9;
-
     background-image: url("s2r://panorama/images/control_icons/random_dice_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1023,12 +1022,10 @@ CompTI10RewardList {
     height: 24px;
     vertical-align: top;
     horizontal-align: right;
-
     background-image: url("s2r://panorama/images/control_icons/check_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     pre-transform-scale2d: 0.75;
     visibility: collapse;
 }
@@ -1041,12 +1038,15 @@ CompTI10RewardList {
     width: 100%;
     flow-children: down;
 }
+
 .ActionListRewardType.ChatWheelRewardType .ActionListItem {
     width: 100%;
 }
+
 .ActionListRewardType.ChatWheelRewardType .ActionListItem #RewardContainer {
     width: 100%;
 }
+
 .ActionListRewardType.ChatWheelRewardType .ActionListItemClaimedIcon {
     horizontal-align: right;
     width: 16px;
@@ -1177,7 +1177,6 @@ CompTI10RewardList {
     background-image: url("s2r://panorama/images/cavern/style_ring_bg_psd.vtex");
     background-size: 100%;
     background-repeat: no-repeat;
-
     wash-color: #9fc4ff;
 }
 
@@ -1287,6 +1286,7 @@ CompTI10RewardList {
 .RewardLevel.ImportantLevel2 .EconItemModelReward #EconItemModelRef {
     visibility: collapse;
 }
+
 .RewardLevel.ImportantLevel2 .EconItemModelReward #EconItemModelShadow {
     width: 50px;
     height: 80px;
@@ -1337,7 +1337,6 @@ CompTI10RewardList {
     vertical-align: top;
     width: 70px;
     horizontal-align: center;
-
     margin-right: 102px;
     margin-top: 30px;
 }

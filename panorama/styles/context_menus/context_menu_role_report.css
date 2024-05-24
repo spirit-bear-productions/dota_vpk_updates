@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents {
     padding: 0px;
     border: 1px solid #dd3c1c;
@@ -10,16 +12,13 @@
 
 .Report {
     flow-children: down;
-
     width: 330px;
 }
 
 .Report_Title {
     height: 64px;
     width: 100%;
-
     margin-left: 32px;
-
     flow-children: right;
 }
 
@@ -27,13 +26,10 @@
     width: 32px;
     height: 32px;
     vertical-align: center;
-
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
-
     margin-right: 16px;
-
     background-image: url("s2r://panorama/images/conduct/report_flag_png.vtex");
     wash-color: #dd3c1c;
 }
@@ -43,20 +39,16 @@
     font-size: 20px;
     letter-spacing: 2px;
     font-weight: semi-bold;
-
     vertical-align: center;
-
     color: #dd3c1c;
 }
 
 .Report_Player {
     width: 100%;
-
     padding-top: 10px;
     padding-left: 28px;
     padding-bottom: 10px;
     padding-right: 36px;
-
     background-color: #43211c;
 }
 
@@ -67,13 +59,11 @@
 .Report_Options {
     horizontal-align: center;
     flow-children: right;
-
     margin-bottom: 8px;
 }
 
 .ReasonButton {
     flow-children: up;
-
     width: 264px;
     height: 391px;
 }
@@ -93,6 +83,7 @@
     height: 51px;
     z-index: 2;
 }
+
 .ReasonButton--DotaPlus .ReasonButton_Required_Image {
     background-image: dotaPlusLogo;
     background-size: contain;
@@ -104,11 +95,8 @@
     height: 1px;
     horizontal-align: center;
     vertical-align: center;
-
     margin-bottom: 8px;
-
     z-index: 1;
-
     box-shadow: -60px 2px 0px 124px dotaPlusGold;
 }
 
@@ -125,6 +113,7 @@
 .ReasonButton:hover .ReasonButton_Layout {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#586a7340), to(#586a7340));
 }
+
 .ReasonButton:disabled .ReasonButton_Layout {
     background-color: #1f2824;
 }
@@ -132,6 +121,7 @@
 .ReasonButton--DidNotPlayRole {
     visibility: collapse;
 }
+
 .Report--EnableDidNotPlayRole .ReasonButton--DidNotPlayRole {
     visibility: visible;
 }
@@ -139,12 +129,15 @@
 .ReasonButton--Negative:selected .ReasonButton_Layout {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#dd3c1c), to(#921800));
 }
+
 .ReasonButton--Negative:hover:selected .ReasonButton_Layout {
     background-color: #ff4620ee;
 }
+
 .ReasonButton--Positive:selected .ReasonButton_Layout {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#156100), to(#35aa14));
 }
+
 .ReasonButton--Positive:hover:selected .ReasonButton_Layout {
     background-color: #299908;
 }
@@ -155,7 +148,6 @@
     horizontal-align: center;
     margin-top: 72px;
     margin-bottom: 45px;
-
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
@@ -164,6 +156,7 @@
 .ReasonButton--DidNotPlayRole .ReasonButton_Icon {
     background-image: url("s2r://panorama/images/conduct/lane_icon_png.vtex");
 }
+
 .ReasonButton--DidNotPlayRole:selected .ReasonButton_Icon {
     background-image: url("s2r://panorama/images/conduct/lane_icon_white_png.vtex");
 }
@@ -173,7 +166,6 @@
     font-size: 18px;
     text-align: center;
     color: #ffffff;
-
     margin: 0px;
     margin-bottom: 4px;
 }
@@ -184,7 +176,6 @@
     font-weight: thin;
     padding-left: 8px;
     padding-right: 8px;
-
     margin: 0px;
     margin-bottom: 12px;
 }
@@ -193,7 +184,6 @@
     horizontal-align: center;
     text-align: center;
     font-weight: bold;
-
     margin: 0px;
 }
 
@@ -246,13 +236,10 @@ ToggleButton .TickBox {
     width: 18px;
     height: 18px;
     vertical-align: center;
-
     margin-left: 8px;
-
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
-
     background-image: url("s2r://panorama/images/conduct/report_flag_png.vtex");
     wash-color: #dd3c1c;
 }
@@ -269,7 +256,6 @@ ToggleButton .TickBox {
 
 .RoleReport_Report {
     padding: 5px;
-
     background-color: #252b30;
     min-height: 38px;
 }

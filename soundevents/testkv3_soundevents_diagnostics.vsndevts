@@ -1,560 +1,691 @@
-"testkv3_Diagnostic.simple_beep"
-{
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "core_simple_3d"
-	}}
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 
-"testkv3_Diagnostic.AAAAA_editTESTER"
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "core_start_simple_oneshot"
-		volume = 0.5
-		vsnd_files = "sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd"
-	}}
-
-"testkv3_Diagnostic.Bell.Spatial.Center"
+	m_SoundEvents = 
+	[
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.simple_beep"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "src1_3d"
-		vsnd_files = "sounds/diagnostics/bell.vsnd"
-	}}
-
-"testkv3_Diagnostic.Bell.Spatial.30FeetY"
+	type = \"core_simple_3d\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.AAAAA_editTESTER"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "src1_3d"
-		position = [ 0.0, 360.0, 64.0 ]
-		vsnd_files = "sounds/diagnostics/bell.vsnd"
-	}}
-
-"testkv3_Diagnostic.timed_beeper"
+	type = \"core_start_simple_oneshot\"
+	volume = 0.5
+	vsnd_files = \"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.Bell.Spatial.Center"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "diagnostic.timed_beeper"
-		pitch = 1.0
-		vsnd_files = "sounds/diagnostics/beep.vsnd"
-	}}
-
-"testkv3_Diagnostic.update_test_reference_op"
+	type = \"src1_3d\"
+	vsnd_files = \"sounds/diagnostics/bell.vsnd\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.Bell.Spatial.30FeetY"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "core_start_simple_oneshot"
-		volume = 0.5
-		vsnd_files = "sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd"
-	}}
-
-"testkv3_Diagnostic.update_test_start_stack_vsnd_rand_oneshot"
+	type = \"src1_3d\"
+	position = [ 0.0, 360.0, 64.0 ]
+	vsnd_files = \"sounds/diagnostics/bell.vsnd\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.timed_beeper"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_start_stack_vsnd_rand_oneshot"
-		file_list_stack_name = "diagnostics_vsnd_lists"
-		file_list_operator_name = "bird_variations"
-		file_list_field_name = "vsnd_files"
-	}}
-
-"testkv3_Diagnostic.update_test_start_vsnd_rand_oneshot"
+	type = \"diagnostic.timed_beeper\"
+	pitch = 1.0
+	vsnd_files = \"sounds/diagnostics/beep.vsnd\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_reference_op"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_start_vsnd_rand_oneshot"
-		delay = 0.0
-		vsnd_files = 
-		[
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd",
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01b.vsnd",
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd",
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02b.vsnd",
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird03.vsnd",
-		]
-	}}
-
-"testkv3_Diagnostic.update_test_start_event_vsnd_rand_oneshot"
+	type = \"core_start_simple_oneshot\"
+	volume = 0.5
+	vsnd_files = \"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_start_stack_vsnd_rand_oneshot"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_start_event_vsnd_rand_oneshot"
-		delay = 0.0
-		vsnd_files = 
-		[
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd",
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01b.vsnd",
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd",
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02b.vsnd",
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird03.vsnd",
-		]
-	}}
-
-"testkv3_Diagnostic.update_test_start_event_vsnd_rand_weighted_oneshot"
+	type = \"update_test_start_stack_vsnd_rand_oneshot\"
+	file_list_stack_name = \"diagnostics_vsnd_lists\"
+	file_list_operator_name = \"bird_variations\"
+	file_list_field_name = \"vsnd_files\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_start_vsnd_rand_oneshot"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_start_event_vsnd_rand_weighted_oneshot"
-		delay = 0.0
-		vsnd_files = 
-		[
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd",
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01b.vsnd",
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd",
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02b.vsnd",
-			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird03.vsnd",
-		]
-		weights = 
-		[
-			1.0, 2.0, 3.0, 4.0,
-			5.0,
-		]
-	}}
-
-"testkv3_Diagnostic.update_test_start_vsnd_lfo"
+	type = \"update_test_start_vsnd_rand_oneshot\"
+	delay = 0.0
+	vsnd_files = 
+	[
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd\",
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01b.vsnd\",
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd\",
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02b.vsnd\",
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird03.vsnd\",
+	]
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_start_event_vsnd_rand_oneshot"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_start_vsnd_lfo"
-	}}
-
-"testkv3_Diagnostic.update_test_start_vsnd_flo"
+	type = \"update_test_start_event_vsnd_rand_oneshot\"
+	delay = 0.0
+	vsnd_files = 
+	[
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd\",
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01b.vsnd\",
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd\",
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02b.vsnd\",
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird03.vsnd\",
+	]
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_start_event_vsnd_rand_weighted_oneshot"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_start_vsnd_lfo"
-	}}
-
-"testkv3_Diagnostic.update_test_convar"
+	type = \"update_test_start_event_vsnd_rand_weighted_oneshot\"
+	delay = 0.0
+	vsnd_files = 
+	[
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd\",
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01b.vsnd\",
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd\",
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02b.vsnd\",
+		\"sounds/diagnostics/ambient/random_amb_sfx/forest_bird03.vsnd\",
+	]
+	weights = 
+	[
+		1.0, 2.0, 3.0, 4.0,
+		5.0,
+	]
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_start_vsnd_lfo"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_convar"
-	}}
-
-"testkv3_Diagnostic.update_test_delta"
+	type = \"update_test_start_vsnd_lfo\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_start_vsnd_flo"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_delta"
-	}}
-
-"testkv3_Diagnostic.update_test_entity_info"
+	type = \"update_test_start_vsnd_lfo\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_convar"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_entity_info"
-	}}
-
-"testkv3_Diagnostic.update_test_falloff"
+	type = \"update_test_convar\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_delta"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_falloff"
-	}}
-
-"testkv3_Diagnostic.update_test_float_filter"
+	type = \"update_test_delta\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_entity_info"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_float_filter"
-	}}
-
-"testkv3_Diagnostic.update_test_opvar"
+	type = \"update_test_entity_info\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_falloff"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_opvar"
-	}}
-
-"testkv3_Diagnostic.update_test_opvar_stack_sequence"
+	type = \"update_test_falloff\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_float_filter"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_opvar_stack_sequence"
-	}}
-
-"testkv3_Diagnostic.update_test_opvar_event_sequence"
+	type = \"update_test_float_filter\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_opvar"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_opvar_event_sequence"
-		float_sequence = 
-		[
-			1.0, 2.0, 3.0, 4.0,
-			5.0, 6.0, 7.0, 8.0,
-			9.0,
-		]
-	}}
-
-"testkv3_Diagnostic.update_test_opvar_global_stack_sequence"
+	type = \"update_test_opvar\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_opvar_stack_sequence"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_opvar_global_stack_sequence"
-	}}
-
-"testkv3_Diagnostic.update_test_array_index_global_stack_sequence"
+	type = \"update_test_opvar_stack_sequence\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_opvar_event_sequence"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_array_index_global_stack_sequence"
-	}}
-
-"testkv3_Diagnostic.update_test_array_index_event_sequence"
+	type = \"update_test_opvar_event_sequence\"
+	float_sequence = 
+	[
+		1.0, 2.0, 3.0, 4.0,
+		5.0, 6.0, 7.0, 8.0,
+		9.0,
+	]
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_opvar_global_stack_sequence"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_array_index_event_sequence"
-		float_sequence = 
-		[
-			1.0, 2.0, 3.0, 4.0,
-			5.0, 6.0, 7.0, 8.0,
-			9.0,
-		]
-	}}
-
-"testkv3_Diagnostic.update_test_array_index_event_increment"
+	type = \"update_test_opvar_global_stack_sequence\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_array_index_global_stack_sequence"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_array_index_event_increment"
-		float_sequence = 
-		[
-			1.0, 2.0, 3.0, 4.0,
-			5.0, 6.0, 7.0, 8.0,
-			9.0,
-		]
-	}}
-
-"testkv3_Diagnostic.update_test_array_index_stack_increment"
+	type = \"update_test_array_index_global_stack_sequence\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_array_index_event_sequence"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_array_index_stack_increment"
-		float_sequence = 0.0
-	}}
-
-"testkv3_Diagnostic.update_test_utils"
+	type = \"update_test_array_index_event_sequence\"
+	float_sequence = 
+	[
+		1.0, 2.0, 3.0, 4.0,
+		5.0, 6.0, 7.0, 8.0,
+		9.0,
+	]
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_array_index_event_increment"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_utils"
-	}}
-
-"testkv3_Diagnostic.update_test_math_string"
+	type = \"update_test_array_index_event_increment\"
+	float_sequence = 
+	[
+		1.0, 2.0, 3.0, 4.0,
+		5.0, 6.0, 7.0, 8.0,
+		9.0,
+	]
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_array_index_stack_increment"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_math_string"
-	}}
-
-"testkv3_Diagnostic.update_test_calc_distance"
+	type = \"update_test_array_index_stack_increment\"
+	float_sequence = 0.0
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_utils"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_calc_distance"
-	}}
-
-"testkv3_Diagnostic.update_test_listener_velocity"
+	type = \"update_test_utils\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_math_string"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_listener_velocity"
-	}}
-
-"testkv3_Diagnostic.test_goto_exit"
+	type = \"update_test_math_string\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_calc_distance"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_goto_exit"
-	}}
-
-"testkv3_Diagnostic.test_goto_loop_head"
+	type = \"update_test_calc_distance\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_listener_velocity"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_goto_loop_head"
-	}}
-
-"testkv3_Diagnostic.test_goto_loop_operator"
+	type = \"update_test_listener_velocity\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_goto_exit"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_goto_loop_operator"
-	}}
-
-"testkv3_Diagnostic.update_test_simple_import_op"
+	type = \"test_goto_exit\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_goto_loop_head"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_simple_import_op"
-	}}
-
-"testkv3_Diagnostic.update_test_simple_serial_import_op"
+	type = \"test_goto_loop_head\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_goto_loop_operator"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "update_test_simple_serial_import_op"
-	}}
-
-"testkv3_Diagnostic.test_soundevent_limiter_lfo"
+	type = \"test_goto_loop_operator\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_simple_import_op"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_soundevent_limiter_lfo"
-		max_count = 0.0
-		match_substring = 1.0
-		invert_match = 1.0
-	}}
-
-"testkv3_Diagnostic.test_stop_soundevents_lfo_at_time"
+	type = \"update_test_simple_import_op\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.update_test_simple_serial_import_op"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_soundevent_control_lfo_stop_at_time"
-	}}
-
-"testkv3_Diagnostic.test_soundevent_block"
+	type = \"update_test_simple_serial_import_op\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_soundevent_limiter_lfo"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_soundevent_block"
-		duration = 10.0
-		match_substring = 0.0
-		match_event_name = "Diagnostic.test_soundevent_block"
-	}}
-
-"testkv3_Diagnostic.test_soundevent_start_oneshot"
+	type = \"test_soundevent_limiter_lfo\"
+	max_count = 0.0
+	match_substring = 1.0
+	invert_match = 1.0
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_stop_soundevents_lfo_at_time"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_soundevent_start_oneshot"
-		duration = 5.0
-	}}
-
-"testkv3_Diagnostic.test_soundevent_start_lfo"
+	type = \"test_soundevent_control_lfo_stop_at_time\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_soundevent_block"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_soundevent_start_lfo"
-		time = 17.0
-	}}
-
-"testkv3_Diagnostic.test_soundevent_start_opvar_get_parent"
+	type = \"test_soundevent_block\"
+	duration = 10.0
+	match_substring = 0.0
+	match_event_name = \"Diagnostic.test_soundevent_block\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_soundevent_start_oneshot"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_soundevent_start_opvar_get_parent"
-	}}
-
-"testkv3_Diagnostic.test_get_parent_space"
+	type = \"test_soundevent_start_oneshot\"
+	duration = 5.0
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_soundevent_start_lfo"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_get_parent_space"
-	}}
-
-"testkv3_Diagnostic.test_import_get_parent_space"
+	type = \"test_soundevent_start_lfo\"
+	time = 17.0
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_soundevent_start_opvar_get_parent"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_import_get_parent_space"
-	}}
-
-"testkv3_Diagnostic.test_random_multiple"
+	type = \"test_soundevent_start_opvar_get_parent\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_get_parent_space"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_random_multiple"
-	}}
-
-"testkv3_Diagnostic.test_import_random_multiple"
+	type = \"test_get_parent_space\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_import_get_parent_space"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_import_random_multiple"
-	}}
-
-"testkv3_Diagnostic.test_soundevent_start_random_multiple"
+	type = \"test_import_get_parent_space\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_random_multiple"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_soundevent_start_random_multiple"
-	}}
-
-"testkv3_Diagnostic.test_beep_on_track_priority_1"
+	type = \"test_random_multiple\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_import_random_multiple"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_beep_on_track"
-		track = "track_1"
-		priority = 1.0
-		pitch = 0.95
-		sync_track = "track_1"
-		sync_field = "public.sync_points"
-		start_point = 1.0
-		end_point = 8.0
-		sync_points = 
-		[
-			1.0, 2.0, 3.0, 4.0,
-			5.0, 6.0, 7.0, 8.0,
-		]
-	}}
-
-"testkv3_Diagnostic.test_beep_on_track_priority_2"
+	type = \"test_import_random_multiple\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_soundevent_start_random_multiple"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_beep_on_track"
-		track = "track_1"
-		priority = 2.0
-		pitch = 1.0
-	}}
-
-"testkv3_Diagnostic.test_beep_on_track_priority_3"
+	type = \"test_soundevent_start_random_multiple\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_beep_on_track_priority_1"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_beep_on_track"
-		track = "track_1"
-		priority = 3.0
-		pitch = 1.05
-	}}
-
-"testkv3_Diagnostic.test_beep_on_track_priority_1_override"
+	type = \"test_beep_on_track\"
+	track = \"track_1\"
+	priority = 1.0
+	pitch = 0.95
+	sync_track = \"track_1\"
+	sync_field = \"public.sync_points\"
+	start_point = 1.0
+	end_point = 8.0
+	sync_points = 
+	[
+		1.0, 2.0, 3.0, 4.0,
+		5.0, 6.0, 7.0, 8.0,
+	]
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_beep_on_track_priority_2"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_beep_on_track"
-		track = "track_1"
-		priority = 1.0
-		priority_override = 1.0
-		pitch = 1.1
-	}}
-
-"testkv3_Diagnostic.test_beep_on_track_priority_1_block_equal"
+	type = \"test_beep_on_track\"
+	track = \"track_1\"
+	priority = 2.0
+	pitch = 1.0
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_beep_on_track_priority_3"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_beep_on_track"
-		track = "track_1"
-		priority = 1.0
-		block_equal_priority = 1.0
-		pitch = 1.15
-	}}
-
-"testkv3_Diagnostic.test_beep_on_track2_priority_1"
+	type = \"test_beep_on_track\"
+	track = \"track_1\"
+	priority = 3.0
+	pitch = 1.05
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_beep_on_track_priority_1_override"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_beep_on_track"
-		track = "track_2"
-		priority = 1.0
-		pitch = 0.95
-	}}
-
-"testkv3_Diagnostic.test_beep_on_track2_priority_2"
+	type = \"test_beep_on_track\"
+	track = \"track_1\"
+	priority = 1.0
+	priority_override = 1.0
+	pitch = 1.1
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_beep_on_track_priority_1_block_equal"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_beep_on_track"
-		track = "track_2"
-		priority = 2.0
-		pitch = 1.0
-	}}
-
-"testkv3_Diagnostic.test_vsnd_on_track_priority_1"
+	type = \"test_beep_on_track\"
+	track = \"track_1\"
+	priority = 1.0
+	block_equal_priority = 1.0
+	pitch = 1.15
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_beep_on_track2_priority_1"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_vsnd_on_track"
-		priority = 1.0
-		block_equal_priority = 1.0
-		pitch = 1.15
-		vsnd_files = "sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd"
-	}}
-
-"testkv3_Diagnostic.test_vsnd_on_track_priority_1_sync"
+	type = \"test_beep_on_track\"
+	track = \"track_2\"
+	priority = 1.0
+	pitch = 0.95
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_beep_on_track2_priority_2"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_vsnd_on_track"
-		priority = 1.0
-		block_equal_priority = 1.0
-		pitch = 1.15
-		sync_track = "track_1"
-		sync_field = "public.sync_points"
-		track = "default_track"
-		vsnd_files = "sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd"
-	}}
-
-"testkv3_Diagnostic.test_stop_default_track"
+	type = \"test_beep_on_track\"
+	track = \"track_2\"
+	priority = 2.0
+	pitch = 1.0
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_vsnd_on_track_priority_1"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_stop_track"
-		track = "default_track"
-	}}
-
-"testkv3_Diagnostic.test_stop_track_1"
+	type = \"test_vsnd_on_track\"
+	priority = 1.0
+	block_equal_priority = 1.0
+	pitch = 1.15
+	vsnd_files = \"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_vsnd_on_track_priority_1_sync"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_stop_track"
-		track = "track_1"
-	}}
-
-"testkv3_Diagnostic.test_stop_track_2"
+	type = \"test_vsnd_on_track\"
+	priority = 1.0
+	block_equal_priority = 1.0
+	pitch = 1.15
+	sync_track = \"track_1\"
+	sync_field = \"public.sync_points\"
+	track = \"default_track\"
+	vsnd_files = \"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_stop_default_track"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_stop_track"
-		track = "track_2"
-	}}
-
-"testkv3_Diagnostic.test_soundevent_field_override"
+	type = \"test_stop_track\"
+	track = \"default_track\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_stop_track_1"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "test_soundevent_field_override"
-	}}
-
-"testkv3_Diagnostic.core_start_simple_oneshot"
+	type = \"test_stop_track\"
+	track = \"track_1\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_stop_track_2"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "core_start_simple_oneshot"
-		volume = 0.5
-		vsnd_files = "sounds/diagnostics/bell.vsnd"
-	}}
-
-"testkv3_Diagnostic.core_start_oneshot"
+	type = \"test_stop_track\"
+	track = \"track_2\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.test_soundevent_field_override"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "core_start_oneshot"
-		volume_min = 0.1
-		volume_max = 1.0
-		pitch_min = 0.5
-		pitch_max = 1.5
-		vsnd_files = "sounds/diagnostics/bell.vsnd"
-	}}
-
-"testkv3_Diagnostic.src1_3d"
+	type = \"test_soundevent_field_override\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.core_start_simple_oneshot"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "src1_3d"
-		pitch_rand_min = -0.1
-		vsnd_files = "sounds/diagnostics/bell.vsnd"
-	}}
-
-"testkv3_New1"
+	type = \"core_start_simple_oneshot\"
+	volume = 0.5
+	vsnd_files = \"sounds/diagnostics/bell.vsnd\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.core_start_oneshot"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "core_valve_default"
-	}}
-
+	type = \"core_start_oneshot\"
+	volume_min = 0.1
+	volume_max = 1.0
+	pitch_min = 0.5
+	pitch_max = 1.5
+	vsnd_files = \"sounds/diagnostics/bell.vsnd\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_Diagnostic.src1_3d"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	type = \"src1_3d\"
+	pitch_rand_min = -0.1
+	vsnd_files = \"sounds/diagnostics/bell.vsnd\"
+}"
+		},
+		
+		{
+			m_SoundName = "testkv3_New1"
+			m_GameData = ""
+			m_OperatorsKV = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	type = \"core_valve_default\"
+}"
+		},
+	]
+}

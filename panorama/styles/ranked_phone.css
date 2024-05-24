@@ -1,10 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupRankedPhone.PopupPanel {
     width: 660px;
     horizontal-align: center;
     vertical-align: center;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#272d2eff), to(#131617ff));
-
     flow-children: down;
     padding: 12px 30px;
 }
@@ -142,18 +142,16 @@ PopupRankedPhone.PopupPanel {
     margin-bottom: 8px;
     flow-children: right;
 }
+
 .RankedGameRemovePhoneIcon {
     background-image: url("s2r://panorama/images/control_icons/phone_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     width: 15px;
     height: 15px;
     margin-right: 8px;
-
     vertical-align: center;
-
     wash-color: #5f6a6c;
 }
 
@@ -165,6 +163,7 @@ PopupRankedPhone.PopupPanel {
 .RankedGameRemovePhone:hover {
     brightness: 1.2;
 }
+
 .RankedGameRemovePhone:active {
     brightness: 0.8;
 }

@@ -1,11 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPurchaseBattlePassReward TextButton {
     min-width: 192px;
     max-width: 500px;
     padding: 0px 16px;
     height: 48px;
-
     background-color: #00000081;
-
     border: 1px solid #718d9f;
     border-radius: 5px;
 }
@@ -16,10 +16,8 @@ DOTAPurchaseBattlePassReward TextButton Label {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #718d9f;
-
     text-overflow: shrink;
     text-align: center;
-
     horizontal-align: center;
     vertical-align: middle;
 }
@@ -96,7 +94,6 @@ DOTAPurchaseBattlePassReward TextButton:active {
 #UpgradeButton {
     background-color: gradient(linear, 100% 100%, 0% 0%, from(#2b51d8), to(#162c81));
     border: 1px solid #429aff;
-
     animation-name: PurchaseButtonGlow;
     animation-duration: 2.35s;
     animation-timing-function: linear;

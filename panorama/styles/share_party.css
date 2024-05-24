@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAShareParty {
     flow-children: right;
     border: 1px solid white;
@@ -18,7 +20,6 @@ DOTAShareParty:active {
     width: 14px;
     height: 14px;
     margin-right: 1px;
-
     visibility: collapse;
 }
 

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Diretide2020EventDetails.PopupPanel {
     width: 1280px;
     height: 864px;
@@ -8,7 +10,6 @@
     padding: 0;
     flow-children: none;
     overflow: noclip;
-
     background-image: url("s2r://panorama/images/events/diretide/2020/moreinfo_header_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -18,7 +19,6 @@
     width: 400px;
     height: 175px;
     horizontal-align: center;
-
     vertical-align: top;
     margin-top: -90px;
     background-image: url("s2r://panorama/images/events/diretide/2020/diretide_logo_en_psd.vtex");
@@ -48,6 +48,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -64,7 +65,6 @@
 
 .MoreInfoRewardsContainer {
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_png.vtex");
-
     width: 100%;
     height: 400px;
     vertical-align: bottom;
@@ -76,11 +76,9 @@
 #MoreInfoContainer {
     width: 100%;
     height: 100%;
-
     padding: 16px;
     opacity: 1;
     z-index: 3;
-
     transition-property: opacity, background-color, transform, pre-transform-scale2d;
     transition-duration: 0.2s;
 }
@@ -138,7 +136,6 @@
     width: 250px;
     height: 156px;
     opacity-mask: url("s2r://panorama/images/events/diretide/2020/treasure_mask_psd.vtex");
-
     margin-left: -64px;
     margin-top: -24px;
     transition-property: brightness, pre-transform-scale2d;
@@ -178,7 +175,6 @@
     background-position: center;
     background-repeat: no-repeat;
     hue-rotation: -120deg;
-
     horizontal-align: right;
     z-index: 3;
     margin-right: 4px;
@@ -231,9 +227,11 @@
 .CandyBullet1 {
     transform: rotateZ(-45deg);
 }
+
 .CandyBullet2 {
     transform: rotateZ(-145deg);
 }
+
 .CandyBullet3 {
     transform: rotateZ(-35deg);
 }
@@ -291,33 +289,43 @@
         transform: translateX(0px);
         wash-color: #aaf6df00;
     }
+
     10% {
         wash-color: #aaf6df;
     }
+
     20% {
         wash-color: #aaf6df00;
     }
+
     30% {
         wash-color: #99c178;
     }
+
     40% {
         wash-color: #aaf6df00;
     }
+
     50% {
         wash-color: #99c178;
     }
+
     60% {
         wash-color: #aaf6df00;
     }
+
     70% {
         wash-color: #99c178;
     }
+
     80% {
         wash-color: #aaf6df00;
     }
+
     90% {
         wash-color: #99c178;
     }
+
     100% {
         transform: translateX(-2677px);
         wash-color: #aaf6df00;
@@ -328,6 +336,7 @@
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-2677px);
     }
@@ -375,9 +384,7 @@
     animation-iteration-count: infinite;
     animation-name: ghostly;
     brightness: 2;
-
     opacity: 0.5;
-
     transition-duration: 0.31s;
     transition-property: opacity;
     transition-delay: 0.4s;
@@ -394,10 +401,12 @@
         pre-transform-scale2d: 1.1;
         wash-color: rgb(0, 255, 145);
     }
+
     50% {
         pre-transform-scale2d: 0.9;
         wash-color: rgb(255, 16, 0);
     }
+
     100% {
         pre-transform-scale2d: 1.1;
         wash-color: rgb(0, 255, 145);
@@ -435,7 +444,6 @@
     font-family: titleFont;
     padding: 6px 16px;
     border: 1px solid #748a6012;
-
     text-shadow: 1px 1px 2px 2 black;
 }
 
@@ -490,7 +498,6 @@
     width: 480px;
     height: 300px;
     margin: 0;
-
     transform: scaleX(-1);
 }
 

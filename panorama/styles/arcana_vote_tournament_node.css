@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 ArcanaVoteTournamentNode.VotingActive {
     visibility: collapse;
 }
@@ -38,7 +40,6 @@ ArcanaVoteTournamentNode.HeroLostThisRound {
     height: 65%;
     horizontal-align: center;
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_sharper_png.vtex");
-
     overflow: clip;
 }
 

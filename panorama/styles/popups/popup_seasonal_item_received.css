@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupSeasonalItemReceived {
     width: 100%;
     height: 100%;
@@ -80,18 +82,14 @@ PopupSeasonalItemReceived.PopupPanel {
 #ReceivedItemImage {
     width: 180px;
     height: 180px;
-
     margin-left: 110px;
     margin-top: 42px;
-
     box-shadow: fill #000000aa 5px 5px 14px 0px;
     border-radius: 0.1px;
     vertical-align: middle;
     horizontal-align: left;
     border: 2px solid black;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#292e2e), to(#191e1e));
-
     animation-name: 2dpanelanimation;
     animation-duration: 21.11s;
     animation-timing-function: ease-in-out;
@@ -119,7 +117,6 @@ PopupSeasonalItemReceived.PopupPanel {
 .ReceivedEmoticonImage #Emoticon {
     vertical-align: middle;
     horizontal-align: center;
-
     width: 96px;
     height: 96px;
 }
@@ -159,19 +156,15 @@ PopupSeasonalItemReceived.PopupPanel {
     padding-bottom: 32px;
     padding-right: 64px;
     padding-left: 64px;
-
     width: 1024px;
     height: 600px;
-
     vertical-align: middle;
     horizontal-align: center;
     opacity: 1;
-
     transition-property: transform, pre-transform-scale2d, opacity, saturation, background-color, border;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
-
     flow-children: none;
     margin: 0px;
     padding: 0px;
@@ -195,7 +188,6 @@ PopupSeasonalItemReceived.PopupPanel {
     horizontal-align: left;
     margin-left: 330px;
     font-size: 28px;
-
     color: #e2ad5e;
     vertical-align: middle;
     text-overflow: shrink;
@@ -221,7 +213,6 @@ PopupSeasonalItemReceived.PopupPanel {
     box-shadow: #000000cc 0px 0px 16px 0px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-
     transition-property: transform;
     transition-duration: 0.3s;
 }

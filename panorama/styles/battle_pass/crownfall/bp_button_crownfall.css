@@ -1,7 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACrownfallButton {
     transition-property: brightness, transform;
     transition-duration: 0.1s, 0.05s;
 }
+
 DOTACrownfallButton .ButtonLabel {
     max-height: 30px;
     font-size: 19px;
@@ -15,10 +18,10 @@ DOTACrownfallButton .ButtonLabel {
     margin-top: 21px;
     padding: 0px 55px;
     text-overflow: shrink;
-
     transition-property: color;
     transition-duration: 0.05s;
 }
+
 .Language_schinese DOTACrownfallButton .ButtonLabel,
 .Language_tchinese DOTACrownfallButton .ButtonLabel,
 .Language_koreana DOTACrownfallButton .ButtonLabel {
@@ -28,11 +31,9 @@ DOTACrownfallButton .ButtonLabel {
 DOTACrownfallButton .ButtonBackground,
 DOTACrownfallButton .ButtonOutline {
     width: 100%;
-
     border-width: 88px 56px 0px 56px;
     border-image-slice: 100% 112px 0px 112px;
     border-image-repeat: stretch;
-
     transition-property: brightness, wash-color;
     transition-duration: 0.05s;
 }
@@ -41,6 +42,7 @@ DOTACrownfallButton .ButtonBackground {
     wash-color: rgb(42, 123, 222);
     border-image-source: url("s2r://panorama/images/events/crownfall/buttons/button_primary_bg_psd.vtex");
 }
+
 DOTACrownfallButton .ButtonOutline {
     border-image-source: url("s2r://panorama/images/events/crownfall/buttons/button_primary_outline_psd.vtex");
 }
@@ -54,6 +56,7 @@ DOTACrownfallButton.Secondary {
     margin-right: -8px;
     max-height: 45px;
 }
+
 DOTACrownfallButton.Secondary .ButtonLabel {
     max-height: 20px;
     font-size: 15px;
@@ -68,11 +71,13 @@ DOTACrownfallButton.Secondary .ButtonLabel {
     padding: 0px 36px;
     font-family: Radiance;
 }
+
 .Language_schinese DOTACrownfallButton.Secondary .ButtonLabel,
 .Language_tchinese DOTACrownfallButton.Secondary .ButtonLabel {
     font-size: 24px;
     font-family: defaultFont;
 }
+
 .Language_koreana DOTACrownfallButton.Secondary .ButtonLabel {
     font-size: 18px;
     font-family: defaultFont;
@@ -88,6 +93,7 @@ DOTACrownfallButton.Secondary .ButtonBackground {
     wash-color: rgb(31, 55, 118);
     border-image-source: url("s2r://panorama/images/events/crownfall/buttons/button_secondary_bg_psd.vtex");
 }
+
 DOTACrownfallButton.Secondary .ButtonOutline {
     border-image-source: url("s2r://panorama/images/events/crownfall/buttons/button_secondary_outline_psd.vtex");
 }
@@ -103,6 +109,7 @@ DOTACrownfallButton:enabled:hover .ButtonLabel {
 DOTACrownfallButton:active {
     transform: scale3d(0.98, 0.98, 1);
 }
+
 DOTACrownfallButton:active .ButtonBackground {
     brightness: 0.4;
 }
@@ -131,6 +138,7 @@ DOTACrownfallButton.GlowButton {
     0% {
         brightness: 1;
     }
+
     100% {
         brightness: 2.2;
     }

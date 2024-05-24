@@ -1,7 +1,8 @@
-@define calaveraBgColor:  #F8C57A;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define calaveraBgColor: #F8C57A;
 @define calaveraFgColor: #310E27;
 @define calaveraFlamesWashColor: #0F5F4A55;
-
 DOTAPopupMuertaCalavera.PopupPanel {
     width: 100%;
     height: 100%;
@@ -33,6 +34,7 @@ DOTAPopupMuertaCalavera.PopupPanel.Hidden {
     transition-property: opacity;
     transition-duration: 0.5s;
 }
+
 .CalaveraFX.Hidden {
     opacity: 0;
 }
@@ -99,336 +101,447 @@ DOTAPopupMuertaCalavera.PopupPanel.Hidden {
 .Language_brazilian .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/brazilian/muerta_01_brazilian_png.vtex");
 }
+
 .Language_brazilian .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/brazilian/muerta_02_brazilian_png.vtex");
 }
+
 .Language_brazilian .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/brazilian/muerta_03_brazilian_png.vtex");
 }
+
 .Language_brazilian .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/brazilian/muerta_04_brazilian_png.vtex");
 }
+
 .Language_bulgarian .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/bulgarian/muerta_01_bulgarian_png.vtex");
 }
+
 .Language_bulgarian .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/bulgarian/muerta_02_bulgarian_png.vtex");
 }
+
 .Language_bulgarian .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/bulgarian/muerta_03_bulgarian_png.vtex");
 }
+
 .Language_bulgarian .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/bulgarian/muerta_04_bulgarian_png.vtex");
 }
+
 .Language_czech .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/czech/muerta_01_czech_png.vtex");
 }
+
 .Language_czech .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/czech/muerta_02_czech_png.vtex");
 }
+
 .Language_czech .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/czech/muerta_03_czech_png.vtex");
 }
+
 .Language_czech .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/czech/muerta_04_czech_png.vtex");
 }
+
 .Language_danish .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/danish/muerta_01_danish_png.vtex");
 }
+
 .Language_danish .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/danish/muerta_02_danish_png.vtex");
 }
+
 .Language_danish .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/danish/muerta_03_danish_png.vtex");
 }
+
 .Language_danish .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/danish/muerta_04_danish_png.vtex");
 }
+
 .Language_dutch .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/dutch/muerta_01_dutch_png.vtex");
 }
+
 .Language_dutch .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/dutch/muerta_02_dutch_png.vtex");
 }
+
 .Language_dutch .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/dutch/muerta_03_dutch_png.vtex");
 }
+
 .Language_dutch .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/dutch/muerta_04_dutch_png.vtex");
 }
+
 .Language_english .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/english/muerta_01_english_png.vtex");
 }
+
 .Language_english .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/english/muerta_02_english_png.vtex");
 }
+
 .Language_english .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/english/muerta_03_english_png.vtex");
 }
+
 .Language_english .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/english/muerta_04_english_png.vtex");
 }
+
 .Language_finnish .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/finnish/muerta_01_finnish_png.vtex");
 }
+
 .Language_finnish .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/finnish/muerta_02_finnish_png.vtex");
 }
+
 .Language_finnish .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/finnish/muerta_03_finnish_png.vtex");
 }
+
 .Language_finnish .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/finnish/muerta_04_finnish_png.vtex");
 }
+
 .Language_french .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/french/muerta_01_french_png.vtex");
 }
+
 .Language_french .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/french/muerta_02_french_png.vtex");
 }
+
 .Language_french .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/french/muerta_03_french_png.vtex");
 }
+
 .Language_french .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/french/muerta_04_french_png.vtex");
 }
+
 .Language_german .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/german/muerta_01_german_png.vtex");
 }
+
 .Language_german .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/german/muerta_02_german_png.vtex");
 }
+
 .Language_german .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/german/muerta_03_german_png.vtex");
 }
+
 .Language_german .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/german/muerta_04_german_png.vtex");
 }
+
 .Language_greek .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/greek/muerta_01_greek_png.vtex");
 }
+
 .Language_greek .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/greek/muerta_02_greek_png.vtex");
 }
+
 .Language_greek .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/greek/muerta_03_greek_png.vtex");
 }
+
 .Language_greek .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/greek/muerta_04_greek_png.vtex");
 }
+
 .Language_hungarian .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/hungarian/muerta_01_hungarian_png.vtex");
 }
+
 .Language_hungarian .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/hungarian/muerta_02_hungarian_png.vtex");
 }
+
 .Language_hungarian .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/hungarian/muerta_03_hungarian_png.vtex");
 }
+
 .Language_hungarian .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/hungarian/muerta_04_hungarian_png.vtex");
 }
+
 .Language_italian .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/italian/muerta_01_italian_png.vtex");
 }
+
 .Language_italian .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/italian/muerta_02_italian_png.vtex");
 }
+
 .Language_italian .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/italian/muerta_03_italian_png.vtex");
 }
+
 .Language_italian .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/italian/muerta_04_italian_png.vtex");
 }
+
 .Language_japanese .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/japanese/muerta_01_japanese_png.vtex");
 }
+
 .Language_japanese .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/japanese/muerta_02_japanese_png.vtex");
 }
+
 .Language_japanese .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/japanese/muerta_03_japanese_png.vtex");
 }
+
 .Language_japanese .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/japanese/muerta_04_japanese_png.vtex");
 }
+
 .Language_koreana .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/korean/muerta_01_korean_png.vtex");
 }
+
 .Language_koreana .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/korean/muerta_02_korean_png.vtex");
 }
+
 .Language_koreana .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/korean/muerta_03_korean_png.vtex");
 }
+
 .Language_koreana .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/korean/muerta_04_korean_png.vtex");
 }
+
 .Language_latam .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/latam/muerta_01_latam_png.vtex");
 }
+
 .Language_latam .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/latam/muerta_02_latam_png.vtex");
 }
+
 .Language_latam .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/latam/muerta_03_latam_png.vtex");
 }
+
 .Language_latam .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/latam/muerta_04_latam_png.vtex");
 }
+
 .Language_norwegian .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/norwegian/muerta_01_norwegian_png.vtex");
 }
+
 .Language_norwegian .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/norwegian/muerta_02_norwegian_png.vtex");
 }
+
 .Language_norwegian .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/norwegian/muerta_03_norwegian_png.vtex");
 }
+
 .Language_norwegian .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/norwegian/muerta_04_norwegian_png.vtex");
 }
+
 .Language_polish .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/polish/muerta_01_polish_png.vtex");
 }
+
 .Language_polish .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/polish/muerta_02_polish_png.vtex");
 }
+
 .Language_polish .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/polish/muerta_03_polish_png.vtex");
 }
+
 .Language_polish .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/polish/muerta_04_polish_png.vtex");
 }
+
 .Language_portuguese .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/portuguese/muerta_01_portuguese_png.vtex");
 }
+
 .Language_portuguese .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/portuguese/muerta_02_portuguese_png.vtex");
 }
+
 .Language_portuguese .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/portuguese/muerta_03_portuguese_png.vtex");
 }
+
 .Language_portuguese .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/portuguese/muerta_04_portuguese_png.vtex");
 }
+
 .Language_romanian .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/romanian/muerta_01_romanian_png.vtex");
 }
+
 .Language_romanian .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/romanian/muerta_02_romanian_png.vtex");
 }
+
 .Language_romanian .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/romanian/muerta_03_romanian_png.vtex");
 }
+
 .Language_romanian .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/romanian/muerta_04_romanian_png.vtex");
 }
+
 .Language_russian .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/russian/muerta_01_russian_png.vtex");
 }
+
 .Language_russian .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/russian/muerta_02_russian_png.vtex");
 }
+
 .Language_russian .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/russian/muerta_03_russian_png.vtex");
 }
+
 .Language_russian .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/russian/muerta_04_russian_png.vtex");
 }
+
 .Language_schinese .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/schinese/muerta_01_schinese_png.vtex");
 }
+
 .Language_schinese .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/schinese/muerta_02_schinese_png.vtex");
 }
+
 .Language_schinese .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/schinese/muerta_03_schinese_png.vtex");
 }
+
 .Language_schinese .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/schinese/muerta_04_schinese_png.vtex");
 }
+
 .Language_spanish .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/spanish/muerta_01_spanish_png.vtex");
 }
+
 .Language_spanish .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/spanish/muerta_02_spanish_png.vtex");
 }
+
 .Language_spanish .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/spanish/muerta_03_spanish_png.vtex");
 }
+
 .Language_spanish .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/spanish/muerta_04_spanish_png.vtex");
 }
+
 .Language_swedish .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/swedish/muerta_01_swedish_png.vtex");
 }
+
 .Language_swedish .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/swedish/muerta_02_swedish_png.vtex");
 }
+
 .Language_swedish .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/swedish/muerta_03_swedish_png.vtex");
 }
+
 .Language_swedish .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/swedish/muerta_04_swedish_png.vtex");
 }
+
 .Language_tchinese .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/tchinese/muerta_01_tchinese_png.vtex");
 }
+
 .Language_tchinese .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/tchinese/muerta_02_tchinese_png.vtex");
 }
+
 .Language_tchinese .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/tchinese/muerta_03_tchinese_png.vtex");
 }
+
 .Language_tchinese .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/tchinese/muerta_04_tchinese_png.vtex");
 }
+
 .Language_thai .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/thai/muerta_01_thai_png.vtex");
 }
+
 .Language_thai .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/thai/muerta_02_thai_png.vtex");
 }
+
 .Language_thai .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/thai/muerta_03_thai_png.vtex");
 }
+
 .Language_thai .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/thai/muerta_04_thai_png.vtex");
 }
+
 .Language_turkish .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/turkish/muerta_01_turkish_png.vtex");
 }
+
 .Language_turkish .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/turkish/muerta_02_turkish_png.vtex");
 }
+
 .Language_turkish .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/turkish/muerta_03_turkish_png.vtex");
 }
+
 .Language_turkish .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/turkish/muerta_04_turkish_png.vtex");
 }
+
 .Language_ukrainian .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/ukrainian/muerta_01_ukrainian_png.vtex");
 }
+
 .Language_ukrainian .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/ukrainian/muerta_02_ukrainian_png.vtex");
 }
+
 .Language_ukrainian .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/ukrainian/muerta_03_ukrainian_png.vtex");
 }
+
 .Language_ukrainian .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/ukrainian/muerta_04_ukrainian_png.vtex");
 }
+
 .Language_vietnamese .CalaveraImagePage1 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/vietnamese/muerta_01_vietnamese_png.vtex");
 }
+
 .Language_vietnamese .CalaveraImagePage2 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/vietnamese/muerta_02_vietnamese_png.vtex");
 }
+
 .Language_vietnamese .CalaveraImagePage3 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/vietnamese/muerta_03_vietnamese_png.vtex");
 }
+
 .Language_vietnamese .CalaveraImagePage4 {
     background-image: url("s2r://panorama/images/events/muerta/calaveras/vietnamese/muerta_04_vietnamese_png.vtex");
 }
@@ -470,17 +583,16 @@ DOTAPopupMuertaCalavera.PopupPanel.Hidden {
     vertical-align: middle;
     opacity: 1;
 }
+
 #LeftArrow .ArrowImage,
 #RightArrow .ArrowImage {
     width: 80px;
     height: 80px;
     vertical-align: middle;
     horizontal-align: center;
-
     img-shadow: 0px 0px 8px 1 #00ffaa33;
     wash-color: #8bffd8;
     brightness: 2;
-
     transition-property: transform;
     transition-duration: 0.05s;
     transition-timing-function: ease-in-out;
@@ -489,6 +601,7 @@ DOTAPopupMuertaCalavera.PopupPanel.Hidden {
 #RightArrow:hover {
     brightness: 2;
 }
+
 #RightArrow:hover .ArrowImage {
     transform: translateX(8px);
 }
@@ -496,6 +609,7 @@ DOTAPopupMuertaCalavera.PopupPanel.Hidden {
 #LeftArrow:hover {
     brightness: 2;
 }
+
 #LeftArrow:hover .ArrowImage {
     transform: translateX(8px);
 }

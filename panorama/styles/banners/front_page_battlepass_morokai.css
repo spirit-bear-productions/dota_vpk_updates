@@ -1,19 +1,18 @@
-@define ultraBrightColor:  #D8BAFF;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define ultraBrightColor: #D8BAFF;
 @define accentColorBright: #B685F7;
 @define accentColor: #9862E9;
 @define defaultColor: #7836D6;
 @define shadeColor: #552F9A;
 @define darkColor: #34156B;
 @define ultraDarkColor: #0B0119;
-
 @define secondaryUltraBrightColor: #747b8c;
 @define secondaryBrightColor: #485677;
 @define secondaryDefaultColor: #253646;
 @define secondaryDarkColor: #162034;
 @define secondaryUltraDarkColor: #04070c;
-
 @define BRD: 1px solid darkColor;
-
 .BattlePassCell {
     transition-property: brightness;
     transition-duration: 0.3s;
@@ -81,7 +80,6 @@
     margin-left: 5px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     margin-top: -30px;
     brightness: 2;
     transition-property: brightness;
@@ -107,7 +105,6 @@
     margin-left: 200px;
     margin-bottom: 100px;
     background-repeat: no-repeat;
-
     animation-name: Float;
     animation-duration: 10s;
     animation-timing-function: ease;
@@ -174,7 +171,6 @@ CustomLayoutPanel:hover #DarkWillow {
     width: 100%;
     brightness: 1;
     opacity: 0.01;
-
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in;
@@ -191,10 +187,8 @@ CustomLayoutPanel:hover #DarkWillow {
 
 .BattlePassButton {
     padding: 8px 18px 5px 18px;
-
     border: 2px solid accentColor;
     margin-right: 10px;
-
     transition-property: background-color;
     transition-duration: 0.2s;
 }
@@ -205,7 +199,6 @@ CustomLayoutPanel:hover #DarkWillow {
     font-size: 13px;
     text-align: center;
     horizontal-align: center;
-
     color: white;
     font-weight: bold;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPageWebBrowser {
     margin-top: 134px;
     margin-right: 32px;
@@ -69,7 +71,6 @@ TextEntry {
     height: 24px;
     vertical-align: center;
     margin-top: 3px;
-
     transition-property: background-image;
     transition-duration: 0.21s;
 }
@@ -116,7 +117,6 @@ TextEntry {
     height: 25px;
     opacity: 0;
     vertical-align: center;
-
     transition-property: opacity;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;

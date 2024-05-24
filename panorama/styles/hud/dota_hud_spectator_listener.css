@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTASpectatorListener {
     horizontal-align: right;
     height: fit-children;
@@ -82,7 +84,6 @@ DOTASpecItemGiftRow #HeroImage {
 #ItemPurchased {
     width: 54px;
     height: 40px;
-
     margin-right: 8px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -92,7 +93,6 @@ DOTASpecItemGiftRow #HeroImage {
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-
     height: 36px;
     width: 50px;
 }
@@ -102,7 +102,6 @@ DOTASpecItemGiftRow #HeroImage {
     height: 52px;
     margin-left: -8px;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/hud/neutral_item_stash_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #TopBarSecondaryContainer {
     margin-top: 30px;
 }
@@ -12,9 +14,11 @@
     margin-left: 20px;
     visibility: collapse;
 }
+
 .HasUnclaimedRewards #UnclaimedButton {
     visibility: visible;
 }
+
 .HasUnclaimedRewards #GoToCurrentLevel {
     visibility: collapse;
 }
@@ -70,7 +74,6 @@
     height: 100%;
     horizontal-align: right;
     flow-children: down;
-
     margin-top: 15px;
 }
 
@@ -189,7 +192,6 @@
 .SelfEventTierPlatinum #CompendiumLevelContainer {
     background-image: url("s2r://panorama/images/compendium/international2019/compendium/dashboard_rank_platinum_png.vtex");
     background-size: 100%;
-
     box-shadow: #06262c -2px -2px 6px 0px;
 }
 
@@ -232,9 +234,7 @@
     height: 90%;
     overflow: clip scroll;
     padding: 12px;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_vscroll_psd.vtex") 2;
-
     transition-property: height, wash-color;
     transition-duration: 0.25s;
 }
@@ -282,7 +282,6 @@ DOTAEventLevelShield {
     flow-children: right;
     height: 60px;
     width: 1392px;
-
     padding-top: 3px;
     margin-top: 0px;
 }
@@ -372,7 +371,6 @@ ProgressBar {
 
 .BattlePassPurchaseButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(shadeColor), to(accentColorBright));
-
     animation-name: PurchaseButtonGlow;
     animation-duration: 2.35s;
     animation-timing-function: linear;
@@ -527,12 +525,10 @@ ProgressBar {
 
 .TileLink Label {
     font-size: 13px;
-
     letter-spacing: 1px;
     text-decoration: underline;
     font-weight: light;
     opacity: 0.6;
-
     transition-property: opacity, color;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -600,10 +596,8 @@ ProgressBar {
 #RewardsWell {
     width: 1126px;
     height: 390px;
-
     vertical-align: top;
     overflow: clip;
-
     z-index: 3;
 }
 
@@ -624,9 +618,7 @@ ProgressBar {
     width: 100%;
     height: 250px;
     vertical-align: bottom;
-
     background-color: transparent;
-
     transition-property: border;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -636,7 +628,6 @@ ProgressBar {
     width: 100%;
     height: 100%;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/compendium/international2019/compendium/section_bg_lg2_png.vtex");
     background-size: 100%;
 }
@@ -656,7 +647,6 @@ ProgressBar {
 #CoachingWell {
     background-repeat: no-repeat;
     background-position: 100% 90%;
-
     width: 50%;
     height: 100%;
     vertical-align: top;
@@ -675,7 +665,6 @@ ProgressBar {
     background-image: url("s2r://panorama/images/compendium/international2019/compendium/tipping_bg_png.vtex");
     background-repeat: no-repeat;
     background-position: 160% 20%;
-
     width: 46%;
     height: 152px;
     vertical-align: bottom;
@@ -687,6 +676,7 @@ ProgressBar {
 #TippingWell .SideQuestTimer {
     visibility: collapse;
 }
+
 .TipsAvailableTimerValid #TippingWell .SideQuestTimer {
     visibility: visible;
 }
@@ -695,7 +685,6 @@ ProgressBar {
     background-image: url("s2r://panorama/images/compendium/international2019/compendium/wagering_bg_png.vtex");
     background-repeat: no-repeat;
     background-position: 100% 90%;
-
     width: 47%;
     height: 152px;
     vertical-align: bottom;
@@ -708,20 +697,14 @@ ProgressBar {
 .SideQuestTimer {
     flow-children: right;
     vertical-align: bottom;
-
     margin: 0px;
     padding-top: 3px;
     padding-left: 8px;
     padding-right: 6px;
-
     background-color: #5c7f1f;
-
     background-color: #1f537f;
-
     background-color: darkColor;
-
     tooltip-body-position: 50% 50%;
-
     border-top-right-radius: 10px;
 }
 
@@ -753,7 +736,6 @@ ProgressBar {
     width: 100%;
     text-align: center;
     vertical-align: middle;
-
     height: 100%;
 }
 
@@ -777,10 +759,8 @@ ProgressBar {
 #TokenRemainingWidget .TokenTotalIcon {
     width: 24px;
     height: 30px;
-
     margin-right: 5px;
     margin-top: 7px;
-
     background-image: url("s2r://panorama/images/compendium/totaltokens_psd.vtex");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -806,7 +786,6 @@ ProgressBar {
 .HomeLeaderboard {
     width: 100%;
     margin-top: -16px;
-
     transition-property: wash-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
@@ -826,7 +805,6 @@ ProgressBar {
 
 .AsyncWagerInfoData {
     opacity: 0;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -904,14 +882,12 @@ ProgressBar {
 #EventEndedLabel {
     text-transform: uppercase;
     text-shadow: 0px 0px 12px 2 #035581;
-
     color: #88b1d1;
     letter-spacing: 2px;
     font-size: 14px;
     font-weight: thin;
     margin-top: 2px;
     margin-right: 6px;
-
     text-shadow: 0px 0px 12px 2 secondaryBrightColor&cc;
     color: accentColorBright;
     visibility: collapse;
@@ -924,7 +900,6 @@ ProgressBar {
 
 #PointsWon {
     margin-top: 21px;
-
     font-size: 32px;
 }
 
@@ -945,12 +920,9 @@ ProgressBar {
     margin-bottom: 77px;
     wash-color: textSecondaryDefaultColor;
     opacity: 0;
-
     transition-property: opacity, wash-color;
     transition-duration: 0.12s;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#0b270500), to(#28533933));
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(secondaryDefaultColor&00), to(shadeColor&18));
 }
 
@@ -990,11 +962,8 @@ ProgressBar {
     vertical-align: bottom;
     margin-bottom: 5px;
     horizontal-align: right;
-
     min-width: 400px;
-
     flow-children: right;
-
     transition-property: opacity, wash-color;
     transition-duration: 0.12s;
 }
@@ -1013,6 +982,7 @@ ProgressBar {
     width: 30px;
     height: 20px;
 }
+
 .BigDeal .RewardLevel > Label {
     width: 100%;
     text-align: center;
@@ -1061,7 +1031,6 @@ ProgressBar {
 #ArcanaVotePanel {
     width: 100%;
     height: 152px;
-
     transition-property: border, background-color, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1102,7 +1071,6 @@ ProgressBar {
 #PromoCarousel {
     width: 100%;
     height: 100%;
-
     transition-property: border, background-color;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -1281,7 +1249,6 @@ ProgressBar {
     horizontal-align: center;
     flow-children: down;
     margin-top: 20px;
-
     visibility: collapse;
 }
 

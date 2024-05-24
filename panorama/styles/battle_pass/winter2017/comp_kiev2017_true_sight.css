@@ -1,9 +1,10 @@
-@define backgroundVeryDimColor:  #1C0803;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define backgroundVeryDimColor: #1C0803;
 @define backgroundDimColor: #270705;
 @define backgroundMediumColor: #6F2926;
 @define backgroundBrightColor: #912c24;
 @define backgroundVeryBrightColor: #ffd6a5;
-
 #OverviewBackgroundArena {
     width: 100%;
     height: 100%;
@@ -39,22 +40,16 @@
 
 #MovieUpsell {
     width: 50%;
-
     horizontal-align: center;
     text-align: center;
-
     margin-top: 135px;
-
     visibility: collapse;
 }
 
 #PurchaseBattlePassButton {
     horizontal-align: center;
-
     z-index: 1;
-
     margin-top: 220px;
-
     visibility: collapse;
 }
 
@@ -72,7 +67,6 @@
 #MovieLive {
     horizontal-align: center;
     margin-top: 510px;
-
     visibility: collapse;
 }
 
@@ -99,13 +93,11 @@
 #MovieEp1 {
     horizontal-align: center;
     margin-top: 610px;
-
     margin-right: 300px;
 }
 
 #MovieEp2 {
     horizontal-align: center;
     margin-top: 610px;
-
     margin-left: 300px;
 }

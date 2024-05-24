@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents {
     margin: 0px;
     padding: 0px;
@@ -8,7 +10,6 @@
     background-color: #ffffff03;
     padding: 0px;
     border: 0px;
-
     width: 210px;
     height: fit-children;
 }
@@ -19,6 +20,7 @@
     transition-property: background-color, color;
     transition-duration: 0.2s;
 }
+
 .EntryRowContainer:hover {
     background-color: gray;
 }
@@ -40,6 +42,7 @@
     vertical-align: center;
     flow-children: right;
 }
+
 .EntryRow Label {
     color: dimgray;
     text-transform: uppercase;
@@ -57,9 +60,11 @@
 .CurrentTargetRole.CanChangeTargetRole .EntryRow Label {
     color: white;
 }
+
 .CanChangeTargetRole .EntryRow Label {
     color: lightgray;
 }
+
 .KickMember .EntryRow Label {
     color: #ff3131;
 }

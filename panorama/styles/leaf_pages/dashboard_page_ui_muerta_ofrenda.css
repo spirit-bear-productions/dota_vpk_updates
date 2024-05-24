@@ -1,9 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAMuertaOfrendaPage {
     width: 100%;
     height: 100%;
     flow-children: none;
     opacity: 1;
-
     wash-color: #000000dd;
     transition-property: wash-color;
     transition-duration: 0.3s;
@@ -94,13 +95,12 @@ DOTAMuertaOfrendaPage {
 .CalaveraTip {
     width: 200px;
     height: 80px;
-
     opacity: 1;
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
 }
+
 .CalaveraTip.Hidden {
     opacity: 0;
     transform: translateY(15px);

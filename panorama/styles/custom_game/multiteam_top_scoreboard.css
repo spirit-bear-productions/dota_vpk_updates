@@ -1,7 +1,8 @@
-@define ANIM_TIME:  0.75s;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define ANIM_TIME: 0.75s;
 @define EXTRA_PADDING: 50px;
 @define M_EXTRA_PADDING: 0px;
-
 .CustomHudRoot {
     width: 100%;
     height: 100%;
@@ -28,7 +29,6 @@
     height: 250px;
     padding-left: EXTRA_PADDING;
     padding-right: EXTRA_PADDING;
-
     flow-children: right;
 }
 
@@ -315,7 +315,6 @@
     margin-left: 2px;
     transform: translateY(-1px);
     margin-right: 4px;
-
     background-image: url("s2r://panorama/images/dota_plus/currency_icon_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;

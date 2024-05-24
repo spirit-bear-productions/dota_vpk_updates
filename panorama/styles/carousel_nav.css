@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 CarouselNav {
     flow-children: right;
 }
@@ -50,6 +52,7 @@ DOTABattlePassReward CarouselNav {
     text-align: right;
     color: #aaa;
 }
+
 .OverMaxPips #ItemCount {
     visibility: visible;
 }
@@ -64,7 +67,6 @@ DOTABattlePassReward CarouselNav {
     border: 2px solid bluegreyTextReg;
     box-shadow: -1px 1px 3px 0px fill #00000088;
     margin: 8px 2px 8px 8px;
-
     transition-property: background-color;
     transition-duration: 0.2s;
 }
@@ -84,7 +86,6 @@ DOTABattlePassReward CarouselNav {
         color-stop(0.6, #00000000)
     );
     background-color: gradient(radial, 50% 50%, 0% 0%, 50% 50%, from(bluegreyTextReg), to(bluegreyTextReg));
-
     border: 2px solid #7e8f9300;
 }
 
@@ -186,8 +187,6 @@ DOTABattlePassReward CarouselNav {
         to(#dbab6a)
     );
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#aa955d), to(#f5d7ad));
-
     border: 0px solid #f5d7a;
-
     box-shadow: -1px 1px 6px 0px fill #00000088;
 }

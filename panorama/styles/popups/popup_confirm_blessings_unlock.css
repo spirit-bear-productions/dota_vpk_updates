@@ -1,8 +1,9 @@
-@define TableWidth:  700px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define TableWidth: 700px;
 @define NameColumnWidth: 515px;
 @define CostColumnWidth: 175px;
 @define TablePadding: 5px;
-
 .ConfirmBlessingsUnlock {
     width: 800px;
     background-image: url("s2r://panorama/images/events/aghanim/aghs_ink_png.vtex");
@@ -26,7 +27,6 @@
 
 .ConfirmTitle {
     font-size: 36px;
-
     color: #fffdf4;
     text-shadow: 0px 0px 3px #419ff2aa;
 }
@@ -35,6 +35,7 @@
     flow-children: left;
     vertical-align: bottom;
 }
+
 .OwnedFragmentsContainer .ArcaneFragmentIcon {
     width: 40px;
     height: 40px;
@@ -61,7 +62,6 @@
     width: TableWidth;
     padding: 3px 15px 3px 15px;
     flow-children: down;
-
     background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -77,17 +77,16 @@
 
 .ConfirmTableBlessingHeader {
     width: NameColumnWidth;
-
     text-transform: uppercase;
     text-shadow: 2px 2px 0px black;
     color: #ccc;
     letter-spacing: 1px;
 }
+
 .ConfrimTableCostHeader {
     width: CostColumnWidth;
     text-align: right;
     padding-right: 35px;
-
     text-transform: uppercase;
     text-shadow: 2px 2px 0px black;
     color: #ccc;
@@ -117,7 +116,6 @@
     width: NameColumnWidth;
     text-align: right;
     vertical-align: center;
-
     text-transform: uppercase;
     text-shadow: 2px 2px 0px black;
     color: #ccc;
@@ -163,7 +161,6 @@
 .BlessingLabel {
     margin-left: 10px;
     vertical-align: center;
-
     color: #d0d7ff;
     text-shadow: 0px 1px 4px 2 #000000;
     text-transform: uppercase;
@@ -176,6 +173,7 @@
     flow-children: left;
     vertical-align: center;
 }
+
 .BlessingCostContainer .ArcaneFragmentIcon {
     vertical-align: center;
 }

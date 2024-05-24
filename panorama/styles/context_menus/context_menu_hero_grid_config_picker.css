@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents.HeroGridConfigPicker {
     flow-children: down;
     padding: 0px;
@@ -65,7 +67,6 @@
     margin-bottom: 12px;
     padding: 4px 8px 6px 8px;
     box-shadow: 2px 2px 4px black;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -103,7 +104,6 @@
     width: 24px;
     height: 24px;
     margin-right: 4px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -113,18 +113,22 @@
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/safelaneicon_psd.vtex");
     wash-color: #999;
 }
+
 .PresetConfigIcon.MidlaneIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/midlaneicon_psd.vtex");
     wash-color: #999;
 }
+
 .PresetConfigIcon.OfflaneIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/offlaneicon_psd.vtex");
     wash-color: #999;
 }
+
 .PresetConfigIcon.SoftSupportIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/softsupporticon_psd.vtex");
     wash-color: #999;
 }
+
 .PresetConfigIcon.HardSupportIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/hardsupporticon_psd.vtex");
     wash-color: #999;
@@ -133,15 +137,19 @@
 .PresetConfigIcon.StrengthIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_strength_psd.vtex");
 }
+
 .PresetConfigIcon.AgilityIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_psd.vtex");
 }
+
 .ColorBlindModeEnabled .HeroCategory.AgilityIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_colorblind_psd.vtex");
 }
+
 .PresetConfigIcon.IntelligenceIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_intelligence_psd.vtex");
 }
+
 .PresetConfigIcon.AllIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_all_psd.vtex");
 }

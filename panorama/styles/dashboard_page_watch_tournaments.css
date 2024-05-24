@@ -1,12 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #DOTAWatchTournamentsPage {
     width: 1390px;
     height: 800px;
-
     horizontal-align: center;
     margin-top: 150px;
-
     flow-children: down;
-
     background-color: dpcPanelBG;
 }
 
@@ -18,13 +17,10 @@
 #TournamentTypeButtons {
     horizontal-align: left;
     vertical-align: top;
-
     margin-left: 26px;
     margin-top: 10px;
-
     width: 80%;
     height: 100%;
-
     flow-children: right;
 }
 
@@ -44,10 +40,8 @@
 #RegionSelectionDropDown {
     horizontal-align: right;
     vertical-align: top;
-
     margin-top: 12px;
     margin-right: 30px;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.1s;
@@ -71,10 +65,7 @@ DropDown#RegionSelectionDropDown Label {
 #TournamentList {
     width: 100%;
     height: fill-parent-flow(1);
-
     overflow: squish scroll;
-
     flow-children: down;
-
     padding-bottom: 20px;
 }

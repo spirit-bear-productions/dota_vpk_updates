@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DebutDarkWillow #TakeoverPageLeft,
 .DebutDarkWillow #DebutBackgroundImage,
 .DebutPangolier #TakeoverPageLeft,
@@ -20,15 +22,12 @@
     height: 100%;
     opacity: 0.001;
     pre-transform-scale2d: 1;
-
     vertical-align: middle;
     horizontal-align: center;
-
     transition-property: opacity, wash-color;
     transition-duration: 1s;
     transition-delay: 0.35s;
     transition-timing-function: ease-in;
-
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -47,7 +46,6 @@
 #ModelContainer {
     width: 100%;
     height: 100%;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 2s;
@@ -72,7 +70,6 @@
     width: 1000px;
     height: 700px;
     margin-top: 150px;
-
     horizontal-align: center;
     vertical-align: middle;
 }
@@ -81,7 +78,6 @@
 #FairyChoice {
     width: 480px;
     height: 100%;
-
     vertical-align: middle;
 }
 
@@ -106,7 +102,6 @@
     horizontal-align: center;
     margin-top: 150px;
     margin-left: 350px;
-
     transition-property: wash-color, opacity, pre-transform-scale2d;
     transition-duration: 2.5s, 2s, 3s;
     transition-timing-function: ease-in;
@@ -129,6 +124,7 @@
 #DebutInformationLeft.Initialize {
     opacity: 1;
 }
+
 #DebutInformationLeft.Initialize #ExtraInfo {
     opacity: 0;
 }
@@ -145,11 +141,9 @@
 #DebutInformationBundle {
     width: 600px;
     height: 100%;
-
     horizontal-align: right;
     margin-top: 0px;
     margin-right: 140px;
-
     transition-property: wash-color, opacity, pre-transform-scale2d;
     transition-duration: 2.5s, 2s, 3s;
     transition-timing-function: ease-in;
@@ -194,11 +188,9 @@
 #OverlayButtons {
     width: 100%;
     height: 100%;
-
     horizontal-align: center;
     margin-top: 0px;
     margin-left: 0px;
-
     transition-property: wash-color, opacity, pre-transform-scale2d;
     transition-duration: 2.5s, 2s, 3s;
     transition-timing-function: ease-in;
@@ -209,10 +201,8 @@
     horizontal-align: right;
     width: 100%;
     height: 100%;
-
     padding: 12px;
     opacity: 0;
-
     transition-property: wash-color, opacity, pre-transform-scale2d;
     transition-duration: 1s;
     transition-timing-function: ease-in;
@@ -243,7 +233,6 @@
 
 #Spacer {
     width: 100%;
-
     transition-property: wash-color, background-color, height;
 }
 
@@ -252,7 +241,6 @@
     transition-delay: 0s;
     z-index: -2;
     height: 620px;
-
     transition-property: wash-color, opacity, transform, opacity, height;
     transition-duration: 0.5s;
     transition-delay: 0.1s;
@@ -295,11 +283,11 @@
     overflow: clip;
     border: 1px solid red;
     margin-top: 250px;
-
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in;
 }
+
 #InformationBundleHeader {
     width: 100%;
     height: 239px;
@@ -311,7 +299,6 @@
     background-size: contain;
     background-position: right 0%;
     background-repeat: no-repeat;
-
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in;
@@ -328,7 +315,6 @@
     background-size: contain;
     background-position: 0% 0%;
     padding-bottom: 80px;
-
     z-index: 2;
 }
 
@@ -505,7 +491,6 @@
     height: fill-parent-flow(1);
     vertical-align: bottom;
     margin-bottom: 0px;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_vscroll_wide_psd.vtex") 1;
 }
 
@@ -557,7 +542,6 @@
     transition-property: wash-color;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
-
     border: 1px solid transparent;
     border-radius: 0px;
     background-size: 90%;
@@ -610,7 +594,6 @@
 #ItemSubtitle #RoleArmadillo3.Expand,
 #ItemSubtitle #RoleArmadillo4.Expand {
     color: #dfd9d0;
-
     opacity: 1;
     text-shadow: 1px 1px 2px #000;
 }
@@ -646,9 +629,7 @@
     margin-top: 110px;
     horizontal-align: center;
     text-align: center;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in;
@@ -662,7 +643,6 @@
 .TitleUpdate {
     horizontal-align: center;
     font-size: 100px;
-
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 18px;
@@ -690,9 +670,7 @@
     horizontal-align: center;
     vertical-align: middle;
     margin-top: 700px;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in;
@@ -752,7 +730,6 @@
     horizontal-align: center;
     font-family: titleFont;
     text-transform: uppercase;
-
     color: gradient(linear, 0% 0%, 0% 100%, from(#ae9e9c), to(#e4d3d1));
 }
 
@@ -761,7 +738,6 @@
 .HeroDonte,
 .HeroDonteGlow {
     letter-spacing: 8px;
-
     font-size: 50px;
 }
 
@@ -842,7 +818,6 @@
     background-position: 0% 0%;
     horizontal-align: right;
     wash-color: #baaf6b;
-
     width: 204px;
     height: 130px;
 }
@@ -878,7 +853,6 @@
     horizontal-align: center;
     vertical-align: bottom;
     margin-bottom: 4px;
-
     transition-property: wash-color, border, height;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -912,14 +886,12 @@
     background-color: #90a3a8;
     background-size: 12px 12px;
     background-position: 50% 50%;
-
     border-color: #000;
     width: 100px;
     height: 130px;
     vertical-align: middle;
     horizontal-align: left;
     margin-left: 65%;
-
     margin-top: 90px;
     opacity: 0.1;
     transition-property: opacity;

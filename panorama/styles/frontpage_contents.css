@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define firstRow: 0px;
 @define secondRow: 250px;
 @define thirdRow: 500px;
-
 .TopCell {
     y: firstRow;
 }
@@ -17,6 +18,7 @@
 .VisibleWhenBattlePassOwned {
     visibility: collapse;
 }
+
 .SelfEventActive .VisibleWhenBattlePassOwned {
     visibility: visible;
 }
@@ -28,7 +30,6 @@
 .VisibleWhenCountdownActive {
     width: 100%;
     height: 100%;
-
     visibility: collapse;
 }
 
@@ -40,6 +41,7 @@
 .ShowWeekendTourneyCell #LastMatch {
     visibility: collapse;
 }
+
 .ShowWeekendTourneyCell #BattleCup {
     visibility: visible;
 }
@@ -50,10 +52,10 @@
 
 #TriviaGame {
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.4s;
 }
+
 .TriviaVisible #TriviaGame {
     opacity: 1;
 }
@@ -72,6 +74,7 @@
     width: 354px;
     height: 284px;
 }
+
 .PlusSubscriber .BattleStatsCell {
     visibility: visible;
 }

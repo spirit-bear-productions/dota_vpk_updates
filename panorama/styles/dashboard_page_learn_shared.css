@@ -1,7 +1,8 @@
-@define leftMargin:  264px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define leftMargin: 264px;
 @define leftMargin4x3: 64px;
 @define leftMargin16x10: 184px;
-
 .LearnPage {
     margin-top: 80px;
     width: 100%;
@@ -114,7 +115,6 @@
     height: 164px;
     pre-transform-scale2d: 1;
     wash-color: transparent;
-
     transition-property: pre-transform-scale2d, wash-color;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -160,7 +160,6 @@
     vertical-align: bottom;
     margin-bottom: 32px;
     margin-left: 10px;
-
     transition-property: color;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -175,7 +174,6 @@
     vertical-align: bottom;
     margin-left: 10px;
     margin-bottom: 12px;
-
     transition-property: color;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -183,20 +181,16 @@
 
 #LockedIcon {
     visibility: collapse;
-
     horizontal-align: center;
     vertical-align: top;
     margin-top: 32px;
     width: 83px;
     height: 99px;
     pre-transform-scale2d: 0.9;
-
     background-image: url("s2r://panorama/images/status_icons/challenge_locked_psd.vtex");
     background-repeat: no-repeat;
     background-size: 83px 99px;
-
     wash-color: #000000aa;
-
     transition-property: pre-transform-scale2d, wash-color;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -272,7 +266,6 @@
 .ChallengeRewardContainer {
     width: 100%;
     background-color: #1b1b1d;
-
     transition-property: background-color;
     transition-duration: 0.26s;
     transition-timing-function: ease-in-out;
@@ -316,9 +309,7 @@
     background-position: right bottom;
     background-size: 116px 126px;
     margin: 16px;
-
     texture-sampling: alpha-only;
-
     transition-property: wash-color;
     transition-duration: 0.26s;
     transition-timing-function: ease-in-out;
@@ -344,6 +335,7 @@
     horizontal-align: right;
     margin-right: 72px;
 }
+
 .Arrow.Right {
     margin-right: 32px;
 }

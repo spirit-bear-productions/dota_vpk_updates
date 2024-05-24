@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAGuildFeed {
     width: 100%;
     height: 100%;
-
     flow-children: down;
 }
 
@@ -21,30 +22,39 @@ DOTAFeedTimestamp {
 .GuildPrimaryColor0 .GuildLevelUpRow #FeedTimestamp {
     color: guildColor0;
 }
+
 .GuildPrimaryColor1 .GuildLevelUpRow #FeedTimestamp {
     color: guildColor1;
 }
+
 .GuildPrimaryColor2 .GuildLevelUpRow #FeedTimestamp {
     color: guildColor2;
 }
+
 .GuildPrimaryColor3 .GuildLevelUpRow #FeedTimestamp {
     color: guildColor3;
 }
+
 .GuildPrimaryColor4 .GuildLevelUpRow #FeedTimestamp {
     color: guildColor4;
 }
+
 .GuildPrimaryColor5 .GuildLevelUpRow #FeedTimestamp {
     color: guildColor5;
 }
+
 .GuildPrimaryColor6 .GuildLevelUpRow #FeedTimestamp {
     color: guildColor6;
 }
+
 .GuildPrimaryColor7 .GuildLevelUpRow #FeedTimestamp {
     color: guildColor7;
 }
+
 .GuildPrimaryColor8 .GuildLevelUpRow #FeedTimestamp {
     color: guildColor8;
 }
+
 .GuildPrimaryColor9 .GuildLevelUpRow #FeedTimestamp {
     color: guildColor9;
 }
@@ -65,22 +75,17 @@ DOTAFeedTimestamp {
 
 .GuildFeedRow {
     min-height: 32px;
-
     height: 60px;
-
     flow-children: down;
     flow-children: none;
     margin-bottom: 8px;
-
     margin-bottom: 3px;
     background-color: #ffffff02;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff00), to(#ffffff03));
     border-top: 1px solid #ffffff02;
     border-right: 1px solid #ffffff02;
     box-shadow: 0px 0px 20px #000000aa;
-
     width: 89%;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -93,30 +98,39 @@ DOTAFeedTimestamp {
 .GuildPrimaryColor0 .GuildLevelUpRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor0&10), to(guildColor0&30));
 }
+
 .GuildPrimaryColor1 .GuildLevelUpRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor1&10), to(guildColor1&30));
 }
+
 .GuildPrimaryColor2 .GuildLevelUpRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor2&10), to(guildColor2&30));
 }
+
 .GuildPrimaryColor3 .GuildLevelUpRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor3&10), to(guildColor3&30));
 }
+
 .GuildPrimaryColor4 .GuildLevelUpRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor4&10), to(guildColor4&30));
 }
+
 .GuildPrimaryColor5 .GuildLevelUpRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor5&10), to(guildColor5&30));
 }
+
 .GuildPrimaryColor6 .GuildLevelUpRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor6&10), to(guildColor6&30));
 }
+
 .GuildPrimaryColor7 .GuildLevelUpRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor7&10), to(guildColor7&30));
 }
+
 .GuildPrimaryColor8 .GuildLevelUpRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor8&10), to(guildColor8&30));
 }
+
 .GuildPrimaryColor9 .GuildLevelUpRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor9&10), to(guildColor9&30));
 }
@@ -174,7 +188,6 @@ DOTAFeedTimestamp {
     height: 100%;
     border-radius: 12px;
     border-top: 1px solid #ffffff44;
-
     box-shadow: 0px 0px 14px #000;
     padding: 2px;
     margin-right: 0px;
@@ -183,9 +196,7 @@ DOTAFeedTimestamp {
 .FeedImage {
     width: 60px;
     height: 60px;
-
     margin-right: 8px;
-
     box-shadow: 0px 0px 12px #000;
 }
 

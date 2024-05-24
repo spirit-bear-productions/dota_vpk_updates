@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanelEffects {
     horizontal-align: center;
     vertical-align: center;
@@ -21,12 +23,12 @@
     transform: translateZ(-100px);
     horizontal-align: center;
     vertical-align: center;
-
     transition-property: pre-transform-scale2d, opacity;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
 }
+
 .ShowMatchQualityInfo #ModelUIAccept {
     transform: translateZ(0px);
     width: 85%;
@@ -48,9 +50,7 @@
     margin-top: 300px;
     height: 200px;
     opacity: 0;
-
     horizontal-align: right;
-
     transition-property: opacity;
     transition-duration: 1.5s;
     transition-timing-function: ease-in;
@@ -68,20 +68,15 @@
     border-radius: 0px;
     background-color: black;
     padding: 0px;
-
     background-image: url("s2r://panorama/images/textures/popup_rock_bg_square_png.vtex");
     background-size: cover;
     background-position: center;
-
     box-shadow: #83d79500 0px 0px 0px 0px;
-
     pre-transform-scale2d: 1;
-
     width: 768px;
     height: fit-children;
     min-height: 256px;
     opacity: 1;
-
     transition-property: transform, pre-transform-scale2d, opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -95,19 +90,15 @@
 
 .Minimized .PopupAcceptMatchPanel {
     opacity: 0.5;
-
     width: 400px;
     height: fit-children;
     min-height: 120px;
-
     horizontal-align: right;
     vertical-align: bottom;
-
     margin-left: 30px;
     margin-top: 50px;
     margin-right: 30px;
     margin-bottom: 10px;
-
     background-image: none;
     background-color: black;
 }
@@ -136,9 +127,7 @@
 
 #BattleCup {
     flow-children: down;
-
     overflow: noclip;
-
     visibility: collapse;
     animation-name: battle-cup-start;
     animation-duration: 3.3s;
@@ -146,30 +135,24 @@
     animation-iteration-count: 1;
     animation-direction: normal;
     box-shadow: #d5ad6344 0px 0px 12px 0px;
-
     horizontal-align: center;
     vertical-align: middle;
     border: 0px solid transparent;
     border-radius: 0px;
     background-color: black;
-
     border-top: 1px solid #ffd37f77;
     border-left: 1px solid #ffd37f66;
     border-right: 1px solid #b86c24dd;
     border-bottom: 1px solid #b86c24aa;
-
     background-image: url("s2r://panorama/images/textures/popup_rock_bg_psd.vtex");
     background-size: 100% 100%;
     background-position: 50% 0%;
     background-repeat: no-repeat;
-
     pre-transform-scale2d: 1;
-
     width: 768px;
     height: fit-children;
     min-height: 256px;
     opacity: 1;
-
     transition-property: transform, pre-transform-scale2d, opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -189,14 +172,12 @@
 .BattleCupTeamContainer {
     width: 50%;
     flow-children: down;
-
     height: fit-children;
     vertical-align: center;
 }
 
 #BattleCupTeamContainer0 {
     horizontal-align: left;
-
     animation-name: logo-slam-0;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -206,7 +187,6 @@
 
 #BattleCupTeamContainer1 {
     horizontal-align: right;
-
     animation-name: logo-slam-1;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
@@ -223,9 +203,7 @@
     border-left: 4px solid #1c1c1c;
     box-shadow: inset 4px -2px 12px 0px #000000;
     background-color: black;
-
     horizontal-align: center;
-
     margin-top: 30px;
 }
 
@@ -248,7 +226,6 @@
     background-size: 100%;
     background-repeat: no-repeat;
     margin-bottom: 0px;
-
     animation-name: crack-show-0;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -265,7 +242,6 @@
     background-size: 100%;
     background-repeat: no-repeat;
     margin-bottom: 0px;
-
     animation-name: crack-show-1;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
@@ -280,7 +256,6 @@
     margin-top: -5px;
     color: white;
     text-shadow: 0px 0px 12px 8 #000;
-
     horizontal-align: center;
 }
 
@@ -288,10 +263,8 @@
     font-size: 40px;
     color: white;
     text-shadow: 0px 0px 6px 1 #c1c0ff;
-
     horizontal-align: center;
     vertical-align: center;
-
     animation-name: text-slam-vs;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
@@ -320,7 +293,6 @@
     horizontal-align: center;
     margin-bottom: 3px;
     overflow: noclip;
-
     animation-name: text-slam;
     animation-duration: 0.7s;
     animation-timing-function: ease-in-out;
@@ -335,7 +307,6 @@
     font-weight: bold;
     horizontal-align: center;
     letter-spacing: 3px;
-
     opacity: 1;
 }
 
@@ -347,7 +318,6 @@
 
 #BattleCupTier {
     color: #f0cf84;
-
     text-transform: uppercase;
     font-weight: bold;
     font-size: 24px;
@@ -356,7 +326,6 @@
 
 #BattleCupDivision {
     color: #a27e37;
-
     text-transform: uppercase;
     font-size: 24px;
     font-weight: bold;
@@ -391,6 +360,7 @@
     99% {
         wash-color: white;
     }
+
     to {
         opacity: 1;
         pre-transform-scale2d: 1;
@@ -413,6 +383,7 @@
     99% {
         wash-color: white;
     }
+
     to {
         opacity: 1;
         pre-transform-scale2d: 1;
@@ -422,13 +393,13 @@
 @keyframes 'text-slam' {
     from {
         opacity: 0;
-
         wash-color: black;
     }
 
     99% {
         wash-color: white;
     }
+
     to {
         opacity: 1;
         pre-transform-scale2d: 1;
@@ -451,6 +422,7 @@
     99% {
         wash-color: white;
     }
+
     to {
         opacity: 1;
         pre-transform-scale2d: 1;
@@ -473,6 +445,7 @@
     99% {
         wash-color: white;
     }
+
     to {
         opacity: 1;
         pre-transform-scale2d: 1;
@@ -588,16 +561,20 @@
         wash-color: #00000000;
         box-shadow: #83d79544 0px 0px 12px 0px;
     }
+
     10% {
         box-shadow: #83d79500 0px 0px 0px 0px;
     }
+
     75% {
         transform: rotateX(74.5deg) translateY(-115px) translateZ(-110px);
         wash-color: black;
     }
+
     99% {
         opacity: 1;
     }
+
     to {
         transform: rotateX(90deg) translateY(-132px) translateZ(-140px);
         wash-color: black;
@@ -640,20 +617,15 @@
 .LargeButton {
     margin-left: 20px;
     margin-right: 20px;
-
     width: 320px;
     height: 64px;
-
     padding-top: 2px;
-
     overflow: noclip noclip;
     opacity: 1;
-
     transition-property: box-shadow, background-color, opacity, transform;
     transition-delay: 0s;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     box-shadow: fill #111111aa 1px 1px 8px 1px;
 }
 
@@ -665,7 +637,6 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 0px 0px 2px 1 #ffc0a000;
-
     transition-property: text-shadow;
     transition-delay: 0s;
     transition-duration: 0.1s;
@@ -675,13 +646,11 @@
 #Button0 {
     background-color: gradient(radial, 50% 30%, 0% 10%, 65% 75%, from(#45715b), to(#1a423e55));
     box-shadow: fill #48d07d00 1px 1px 8px 1px;
-
     border-top: 2px solid #48d07d22;
     border-right: 2px solid #00000088;
     border-left: 2px solid #48d07d11;
     border-bottom: 2px solid #00000088;
     margin-top: 120px;
-
     horizontal-align: center;
 }
 
@@ -711,6 +680,7 @@
     vertical-align: bottom;
     margin-right: 20px;
 }
+
 .ShowMatchQualityInfo .DeclineContainer {
     visibility: collapse;
 }
@@ -775,7 +745,6 @@
     wash-color: #00000000;
     box-shadow: #83d79544 0px 0px 12px 0px;
     opacity: 1;
-
     animation-name: ready-up-start;
     animation-duration: 0.3s;
     animation-timing-function: linear;
@@ -806,15 +775,18 @@
         box-shadow: #83d79500 0px 0px 0px 0px;
         opacity: 1;
     }
+
     25% {
         transform: rotateX(-76deg) translateY(112px) translateZ(-120px);
         wash-color: #000000dd;
         box-shadow: #83d79500 0px 0px 0px 0px;
     }
+
     60% {
         wash-color: #000000aa;
         box-shadow: #83d79500 0px 0px 0px 0px;
     }
+
     to {
         transform: rotateX(0deg) translateY(0px) translateZ(0px);
         wash-color: #00000000;
@@ -872,13 +844,13 @@
     visibility: collapse;
     vertical-align: bottom;
     flow-children: down;
-
     margin: 16px;
     margin-top: 220px;
     width: 100%;
     background-color: gradient(linear, 0% 0%, 0% 80%, from(#423621), to(dotaPlusCharcoal));
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
 }
+
 #MatchDetails .TopDash {
     width: 100%;
     height: 2px;
@@ -911,7 +883,6 @@
     width: 100%;
     margin: 12px 0px;
     padding: 0px 24px;
-
     border: 1px solid rgba(255, 255, 255, 0.04);
     border-brush: gradient(
         linear,
@@ -925,12 +896,14 @@
     border-left: 0px;
     border-right: 0px;
 }
+
 #MatchDetails .MatchInfoBlocksContainer .MatchInfoBlock {
     flow-children: down;
     width: fill-parent-flow(1);
     padding: 8px 12px 12px;
     border-left: 1px solid rgba(255, 255, 255, 0.04);
 }
+
 #MatchDetails .MatchInfoBlocksContainer .MatchInfoBlock.Block1 {
     border-left: 0px;
 }
@@ -950,6 +923,7 @@
     flow-children: right;
     margin-top: 6px;
 }
+
 #MatchDetails .ActionsContainer Button,
 #MatchDetails .ActionsContainer Label {
     vertical-align: center;
@@ -1007,6 +981,7 @@
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
     text-overflow: shrink;
 }
+
 #MatchDetails Label .good {
     color: #6fc06f;
     font-weight: semi-bold;
@@ -1034,6 +1009,7 @@
     margin: 0px 1px;
     margin-bottom: -1px;
 }
+
 #MatchDetails .FeatureFooter .FeatureFooterContents {
     flow-children: right;
     horizontal-align: center;
@@ -1051,6 +1027,7 @@
     flow-children: right;
     horizontal-align: left;
 }
+
 #MatchDetails .FeatureFooter .PlusInfo .PlusLogo {
     width: 20px;
     height: 20px;
@@ -1074,6 +1051,7 @@
     horizontal-align: left;
     flow-children: right;
 }
+
 #MatchDetails .FeatureFooter .LabsInfo .LabsLogo {
     width: 24px;
     height: 24px;
@@ -1096,6 +1074,7 @@
     text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
     opacity: 0.8;
 }
+
 #MatchDetails .FeatureFooter .LabsInfo .LabsText b {
     color: gradient(linear, 0% 10%, 0% 100%, from(#21d6e7), color-stop(0.5, #34ade4), to(#5275c1));
     font-weight: semi-bold;

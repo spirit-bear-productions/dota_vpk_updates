@@ -1,10 +1,11 @@
-@define CrateTierZero_textcolor:  gradient( linear, 0% 0%, 0% 100%, from( #F1FA90 ), to( #FCC22D ) );
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define CrateTierZero_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #F1FA90 ), to( #FCC22D ) );
 @define CrateTierOne_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #C7EAE3 ), to( #749C95 ) );
 @define CrateTierTwo_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #86EA63 ), to( #00AD6F ) );
 @define CrateTierThree_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #70E5FF ), to( #0EA1F3 ) );
 @define CrateTierFour_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #D39AFF ), to( #A378FF ) );
 @define CrateTierFive_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #FFC062 ), to( #FC782D ) );
-
 DOTACrateRecyclePage,
 DOTACrateSellPage {
     width: 100%;
@@ -42,11 +43,8 @@ DOTACrateSellPage {
     height: 775px;
     width: 691px;
     horizontal-align: left;
-
     flow-children: down;
-
     padding: 18px 24px 18px 24px;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#000000ee), color-stop(0.5, #000000cc), to(#000000cc));
     border-left: 1px solid #ffffff03;
     border-right: 1px solid #ffffff03;
@@ -61,14 +59,10 @@ DOTACrateSellPage {
     width: 337px;
     horizontal-align: left;
     flow-children: down;
-
     margin-top: 80px;
     margin-top: 120px;
-
     background-color: #000000cc;
-
     padding: 18px 24px 18px 24px;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#000000cc), color-stop(0.5, #000000cc), to(#000000ee));
     border-left: 1px solid #ffffff03;
     border-right: 1px solid #ffffff03;
@@ -87,13 +81,13 @@ DOTACrateSellPage {
     horizontal-align: left;
     font-size: 30px;
     color: white;
-
     font-family: titleFont;
     font-weight: semi-bold;
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
 .HorizontalLine {
     width: 100%;
     height: 1px;
@@ -115,7 +109,6 @@ DOTACrateSellPage {
     font-size: 14px;
     vertical-align: center;
     margin-right: 23px;
-
     font-family: titleFont;
 }
 
@@ -151,12 +144,15 @@ DOTACrateSellPage {
 .MenuTier5 .HexIcon {
     background-image: url("s2r://panorama/images/treasures/tier5_png.vtex");
 }
+
 .TierMenu {
     flow-children: right;
 }
+
 .TierMenuColumn {
     flow-children: down;
 }
+
 .TierText {
     horizontal-align: center;
     vertical-align: center;
@@ -194,15 +190,19 @@ DOTACrateSellPage {
 .FilterCrate_None .CurrentCategory Label {
     color: CrateTierZero_textcolor;
 }
+
 .FilterCrate_Tier1 .CurrentCategory Label {
     color: CrateTierOne_textcolor;
 }
+
 .FilterCrate_Tier2 .CurrentCategory Label {
     color: CrateTierTwo_textcolor;
 }
+
 .FilterCrate_Tier3 .CurrentCategory Label {
     color: CrateTierThree_textcolor;
 }
+
 .FilterCrate_Tier4 .CurrentCategory Label {
     color: CrateTierFour_textcolor;
 }
@@ -232,15 +232,19 @@ DOTACrateSellPage {
 .FilterCrate_None .CategoryName {
     color: CrateTierZero_textcolor;
 }
+
 .FilterCrate_Tier1 .CategoryName {
     color: CrateTierOne_textcolor;
 }
+
 .FilterCrate_Tier2 .CategoryName {
     color: CrateTierTwo_textcolor;
 }
+
 .FilterCrate_Tier3 .CategoryName {
     color: CrateTierThree_textcolor;
 }
+
 .FilterCrate_Tier4 .CategoryName {
     color: CrateTierFour_textcolor;
 }
@@ -319,6 +323,7 @@ VerticalScrollBar {
 .FilterCrate_Tier3 .SellableItemBackground {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#000000), color-stop(0.16, #4c7c9777), to(#4c7c9730));
 }
+
 .FilterCrate_Tier4 .RecyclableItemBackground,
 .FilterCrate_Tier4 .SellableItemBackground {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#000000), color-stop(0.16, #7f4c9777), to(#7f4c9730));
@@ -380,22 +385,27 @@ VerticalScrollBar {
 .FilterCrate_None .SellableItem:hover .AddToListButton:hover {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#fcc22d10), to(#fcc22d40));
 }
+
 .FilterCrate_Tier1 .RecyclableItem:hover .AddToListButton:hover,
 .FilterCrate_Tier1 .SellableItem:hover .AddToListButton:hover {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#47807210), to(#47807240));
 }
+
 .FilterCrate_Tier1 .RecyclableItem:hover .AddToListButton:hover,
 .FilterCrate_Tier1 .SellableItem:hover .AddToListButton:hover {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#47807210), to(#47807240));
 }
+
 .FilterCrate_Tier2 .RecyclableItem:hover .AddToListButton:hover,
 .FilterCrate_Tier2 .SellableItem:hover .AddToListButton:hover {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#48804710), to(#48804750));
 }
+
 .FilterCrate_Tier3 .RecyclableItem:hover .AddToListButton:hover,
 .FilterCrate_Tier3 .SellableItem:hover .AddToListButton:hover {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#475a8010), to(#475a8050));
 }
+
 .FilterCrate_Tier4 .RecyclableItem:hover .AddToListButton:hover,
 .FilterCrate_Tier4 .SellableItem:hover .AddToListButton:hover {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#60478010), to(#60478050));
@@ -450,12 +460,11 @@ VerticalScrollBar {
     margin-right: 0px;
     border-radius: 5px;
     border: 1px solid #ffffff09;
-
     flow-children: down;
-
     transition-duration: 0.2s;
     transition-property: brightness, background-color, border;
 }
+
 .SellableItem .AddToListButton {
     flow-children: right;
     width: fit-children;
@@ -509,6 +518,7 @@ VerticalScrollBar {
     text-shadow: 0px 0px 10px 3 #000000;
     margin-top: -9px;
 }
+
 .AddToListButton Label {
     font-weight: bold;
     text-transform: uppercase;
@@ -523,15 +533,19 @@ VerticalScrollBar {
 .FilterCrate_None .RecyclableItem:hover .AddToListButton Label {
     color: CrateTierZero_textcolor;
 }
+
 .FilterCrate_Tier1 .RecyclableItem:hover .AddToListButton Label {
     color: CrateTierOne_textcolor;
 }
+
 .FilterCrate_Tier2 .RecyclableItem:hover .AddToListButton Label {
     color: CrateTierTwo_textcolor;
 }
+
 .FilterCrate_Tier3 .RecyclableItem:hover .AddToListButton Label {
     color: CrateTierThree_textcolor;
 }
+
 .FilterCrate_Tier4 .RecyclableItem:hover .AddToListButton Label {
     color: CrateTierFour_textcolor;
 }
@@ -539,15 +553,19 @@ VerticalScrollBar {
 .FilterCrate_None .SellableItem:hover .AddToListButton Label {
     color: CrateTierZero_textcolor;
 }
+
 .FilterCrate_Tier1 .SellableItem:hover .AddToListButton Label {
     color: CrateTierOne_textcolor;
 }
+
 .FilterCrate_Tier2 .SellableItem:hover .AddToListButton Label {
     color: CrateTierTwo_textcolor;
 }
+
 .FilterCrate_Tier3 .SellableItem:hover .AddToListButton Label {
     color: CrateTierThree_textcolor;
 }
+
 .FilterCrate_Tier4 .SellableItem:hover .AddToListButton Label {
     color: CrateTierFour_textcolor;
 }
@@ -607,7 +625,6 @@ VerticalScrollBar {
     height: fit-children;
     color: white;
     text-overflow: shrink;
-
     font-family: titleFont;
     font-weight: semi-bold;
     line-height: 102%;
@@ -638,18 +655,23 @@ VerticalScrollBar {
 .FilterCrate_None .TreasureRarityFilterButton {
     brightness: 0.3;
 }
+
 .FilterCrate_None .ItemDescriptionBottom .ItemSlot {
     color: CrateTierZero_textcolor;
 }
+
 .FilterCrate_Tier1 .HeroName {
     color: CrateTierOne_textcolor;
 }
+
 .FilterCrate_Tier2 .HeroName {
     color: CrateTierTwo_textcolor;
 }
+
 .FilterCrate_Tier3 .HeroName {
     color: CrateTierThree_textcolor;
 }
+
 .FilterCrate_Tier4 .HeroName {
     color: CrateTierFour_textcolor;
 }
@@ -657,15 +679,19 @@ VerticalScrollBar {
 .ItemTier0 .ItemDescriptionBottom .ItemSlott {
     color: CrateTierOne_textcolor;
 }
+
 .ItemTier1 .HeroName {
     color: CrateTierOne_textcolor;
 }
+
 .ItemTier2 .HeroName {
     color: CrateTierTwo_textcolor;
 }
+
 .ItemTier3 .HeroName {
     color: CrateTierThree_textcolor;
 }
+
 .ItemTier4 .HeroName {
     color: CrateTierFour_textcolor;
 }
@@ -701,6 +727,7 @@ VerticalScrollBar {
     horizontal-align: right;
     vertical-align: center;
 }
+
 .ItemAvailableState {
     visibility: collapse;
 }
@@ -726,7 +753,6 @@ VerticalScrollBar {
 
 .Description {
     margin-top: 5px;
-
     height: 36px;
 }
 
@@ -757,7 +783,6 @@ VerticalScrollBar {
 .Active .ActiveContainer {
     visibility: visible;
     sound: "underdraft_drafted";
-
     sound-out: "ui_chat_slide_out";
 }
 
@@ -801,6 +826,7 @@ VerticalScrollBar {
     height: 20px;
     margin-top: -1px;
 }
+
 .RecyclingItemDetails Label {
     text-transform: uppercase;
     font-weight: semi-bold;
@@ -822,15 +848,19 @@ VerticalScrollBar {
 .ItemTier0 .MarketItemPrice {
     color: CrateTierZero_textcolor;
 }
+
 .ItemTier1 .MarketItemPrice {
     color: CrateTierOne_textcolor;
 }
+
 .ItemTier2 .MarketItemPrice {
     color: CrateTierTwo_textcolor;
 }
+
 .ItemTier3 .MarketItemPrice {
     color: CrateTierThree_textcolor;
 }
+
 .ItemTier4 .MarketItemPrice {
     color: CrateTierFour_textcolor;
 }
@@ -877,13 +907,12 @@ VerticalScrollBar {
 .BuyRemainingButton {
     width: 321px;
     height: 44px;
-
     horizontal-align: center;
     margin-top: 13px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 .RecyclingReady .BuyRemainingButton {
     opacity: 0.15;
     saturation: 0;
@@ -918,14 +947,11 @@ VerticalScrollBar {
     width: fill-parent-flow(1);
     height: 100%;
     background-color: #1c1c1c;
-
     border-radius: 8px 0px 0px 8px;
-
     border: 1px solid white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#2a6630), to(#6b6d05));
     padding: 5px;
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#1ccb0010), to(#127e0000));
-
     transition-property: background-color;
     transition-duration: 0.2s;
 }
@@ -933,7 +959,6 @@ VerticalScrollBar {
 .BuyLeft Label {
     horizontal-align: center;
     vertical-align: center;
-
     text-transform: uppercase;
     font-weight: semi-bold;
     font-size: 14px;
@@ -948,12 +973,15 @@ VerticalScrollBar {
 .BuyRemainingButton:enabled Label {
     text-shadow: 0px 0px 10px 3 #000000;
 }
+
 .BuyRemainingButton:hover {
     brightness: 1.8;
 }
+
 .BuyRemainingButton:disabled:hover {
     brightness: 1;
 }
+
 .BuyRemainingButton:active {
     brightness: 0.8;
     sound: "ui_generic_button_click";
@@ -963,7 +991,6 @@ VerticalScrollBar {
     width: 79px;
     border-left: 1px solid #3f3f3f;
     background-color: #2f2f2f;
-
     flow-children: down;
     text-align: center;
     horizontal-align: center;
@@ -976,6 +1003,7 @@ VerticalScrollBar {
     margin-left: -1px;
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#19741d30), to(#34ad3930));
 }
+
 .BuyRemainingButton:disabled .BuyRight {
     visibility: collapse;
 }
@@ -987,7 +1015,6 @@ VerticalScrollBar {
 .EmptyHex {
     width: 39px;
     height: 45px;
-
     vertical-align: center;
     margin-left: 10px;
     background-image: url("s2r://panorama/images/treasures/emptyhex_png.vtex");
@@ -999,7 +1026,6 @@ VerticalScrollBar {
     font-weight: bold;
     font-size: 20px;
     margin-top: 0px;
-
     color: #e8ffc2;
     text-transform: uppercase;
     font-weight: semi-bold;
@@ -1015,7 +1041,6 @@ VerticalScrollBar {
     margin-bottom: 2px;
     horizontal-align: center;
     vertical-align: bottom;
-
     font-size: 12px;
     color: #99c196;
     font-weight: light;
@@ -1025,6 +1050,7 @@ VerticalScrollBar {
 .Odd {
     background-color: #131313;
 }
+
 .Even {
     background-color: #191919;
 }
@@ -1065,20 +1091,16 @@ VerticalScrollBar {
     width: 324px;
     height: 44px;
     background-color: #191919;
-
     border: 1px solid #707070;
     border-radius: 5px;
-
     border-radius: 8px;
     border-right-width: 0px;
     border: 1px solid #ffffff44;
-
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#1ccb0010), to(#127e0000));
     background-image: url("s2r://panorama/images/econ/diretide/chest_button_texture_unlock_psd.vtex");
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#1ccb00), to(#127e00));
-
     opacity: 0.15;
     saturation: 0;
 }
@@ -1104,9 +1126,11 @@ VerticalScrollBar {
 .RecycleButton:enabled:hover {
     brightness: 1.5;
 }
+
 .RecycleButton:disabled:hover {
     brightness: 1;
 }
+
 .RecycleButton:active {
     brightness: 0.8;
     sound: "ui_generic_button_click";
@@ -1134,10 +1158,8 @@ VerticalScrollBar {
     width: 100%;
     height: 20%;
     horizontal-align: center;
-
     vertical-align: bottom;
     margin-bottom: 90px;
-
     background-image: url("s2r://panorama/images/econ/diretide/chest_hero_shadow_psd.vtex");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -1147,14 +1169,12 @@ VerticalScrollBar {
     width: 100%;
     height: 100%;
     margin-top: 290px;
-
     opacity: 0.8;
 }
 
 #BackgroundSceneForeground {
     width: 100%;
     height: 100%;
-
     margin-left: -550px;
     margin-top: 200px;
 }
@@ -1164,7 +1184,6 @@ VerticalScrollBar {
     height: 817px;
     vertical-align: bottom;
     margin-bottom: 70px;
-
     brightness: 1.3;
     margin-left: 30px;
 }
@@ -1205,20 +1224,15 @@ VerticalScrollBar {
 .TreasureTitle {
     font-size: 44px;
     font-weight: semi-bold;
-
     color: white;
-
     margin-top: 37px;
     overflow: squish;
     width: 440px;
     height: 103px;
     line-height: 108%;
-
     font-family: titleFont;
-
     margin-top: 110px;
     margin-left: 94px;
-
     text-shadow: 0px 0px 10px 2 green;
     color: gradient(
         linear,
@@ -1229,7 +1243,6 @@ VerticalScrollBar {
         color-stop(0.7, #ffffff),
         to(#ddfed2)
     );
-
     color: gradient(linear, 100% 0%, 0% 0%, from(#ffffff), to(#ddfed2));
 }
 

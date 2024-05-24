@@ -1,8 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .MajorStateElement {
     width: 800px;
     height: fill-parent-flow(1);
     horizontal-align: center;
-
     visibility: collapse;
 }
 
@@ -11,7 +12,6 @@
     horizontal-align: center;
     vertical-align: center;
     text-align: center;
-
     font-size: 40px;
     color: #ccc;
 }
@@ -39,7 +39,6 @@
     width: 800px;
     height: fill-parent-flow(1);
     horizontal-align: center;
-
     visibility: collapse;
 }
 
@@ -48,7 +47,6 @@
     horizontal-align: center;
     vertical-align: center;
     text-align: center;
-
     font-size: 40px;
     color: #ccc;
 }

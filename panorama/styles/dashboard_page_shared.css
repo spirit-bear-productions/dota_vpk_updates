@@ -1,8 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DashboardPage {
     opacity: 0;
     pre-transform-scale2d: 0.98;
     wash-color: #63b5af;
-
     transition-property: opacity, pre-transform-scale2d, wash-color;
     transition-duration: 0.35s;
     transition-delay: 0.1s;
@@ -18,7 +19,6 @@
     opacity: 1;
     pre-transform-scale2d: 1;
     wash-color: white;
-
     transition-duration: 0.15s;
     transition-delay: 0s;
     transition-timing-function: ease-in;

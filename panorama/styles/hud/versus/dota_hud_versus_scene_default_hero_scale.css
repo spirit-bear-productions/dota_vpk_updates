@@ -1,5 +1,6 @@
-@define scene_panel_activity_modifier: versus_screen;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define scene_panel_activity_modifier: versus_screen;
 @define alchemist_scale: 0.9;
 @define axe_scale: 0.9;
 @define bristleback_scale: 1.3;
@@ -23,7 +24,6 @@
 @define pudge_scale: 1;
 @define pudge_persona_scale: 1;
 @define skywrath_mage_arcana_scale: 0.95;
-
 @define slardar_scale: 1.1;
 @define spirit_breaker_scale: 1.2;
 @define sven_scale: 1.1;
@@ -34,7 +34,6 @@
 @define abyssal_underlord_scale: 0.85;
 @define undying_scale: 0.85;
 @define wraith_king_scale: 1;
-
 @define anti_mage_scale: 1;
 @define arc_warden_scale: 1;
 @define bloodseeker_scale: 1.2;
@@ -71,7 +70,6 @@
 @define viper_z_offset: -30;
 @define weaver_scale: 1.3;
 @define weaver_z_offset: 20;
-
 @define ancient_apparition_scale: 0.95;
 @define ancient_apparition_z_offset: -15;
 @define crystal_maiden_scale: 1.15;
@@ -107,7 +105,6 @@
 @define warlock_scale: 1.1;
 @define witch_doctor_scale: 1;
 @define zuus_scale: 1.05;
-
 @define abaddon_scale: 0.9;
 @define bane_scale: 0.9;
 @define bane_z_offset: -25;

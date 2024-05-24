@@ -1,5 +1,6 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 DOTAPlayerDuelRequestToast #MainContainer {
     margin-bottom: 8px;
     horizontal-align: right;
@@ -58,17 +59,13 @@ DOTAHeroImage {
 .DuelButton {
     background-color: accentColor;
     padding: 5px 10px 2px 10px;
-
     border-top: 1px solid #ffffff44;
     border-right: 1px solid #00000088;
     border-left: 1px solid #ffffff44;
     border-bottom: 1px solid #00000088;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5a615ecc), to(#879695cc));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5aa15e), to(#87d69533));
-
     vertical-align: center;
-
     transition-property: brightness;
     transition-duration: 0.2s;
     margin-left: 2px;
@@ -88,7 +85,6 @@ DOTAHeroImage {
     font-size: 16px;
     text-align: center;
     horizontal-align: center;
-
     color: black;
     font-weight: bold;
 }

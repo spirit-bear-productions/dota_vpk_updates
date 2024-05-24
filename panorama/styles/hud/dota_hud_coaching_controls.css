@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACoachingControls {
     height: 100%;
 }
@@ -12,9 +14,7 @@ DOTACoachingControls.CoachingStateNone {
     horizontal-align: right;
     margin-top: 8px;
     margin-right: 4px;
-
     opacity: 0.5;
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
 }
@@ -24,12 +24,10 @@ DOTACoachingControls.CoachingStateNone {
     height: 30px;
     vertical-align: middle;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/coaching/coach_icon_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     wash-color: #cdf;
 }
 
@@ -43,7 +41,6 @@ DOTACoachingControls.CoachingStateNone {
     horizontal-align: center;
     width: 36px;
     height: 36px;
-
     visibility: collapse;
 }
 
@@ -82,12 +79,9 @@ DOTACoachingControls.CoachingStateNone {
     margin-top: 12px;
     flow-children: right;
     padding: 8px 0px 12px 64px;
-
     opacity: 0;
     transform: translateX(20px);
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#0000), color-stop(0.2, #000b), to(#000000ef));
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -116,7 +110,6 @@ DOTACoachingControls.CoachingStateNone {
     width: 16px;
     height: 100%;
     wash-color: #999;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_solid_right_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -144,9 +137,11 @@ DOTACoachingControls.CoachingStateNone {
 .TeamVoiceIsOpenMic .TeamVoiceHotkey {
     visibility: collapse;
 }
+
 .TeamVoiceOpenMic {
     visibility: collapse;
 }
+
 .TeamVoiceIsOpenMic .TeamVoiceOpenMic {
     visibility: visible;
 }
@@ -209,7 +204,6 @@ DOTACoachingControls.CoachingStateNone {
     background-image: url("s2r://panorama/images/hud/reborn/icon_disconnect_png.vtex");
     background-repeat: no-repeat;
     background-size: 100%;
-
     visibility: collapse;
 }
 
@@ -348,7 +342,6 @@ DOTACoachingControls.CoachingStateNone {
 
 .RedirectVoiceButton {
     width: 204px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -407,6 +400,7 @@ DOTACoachingControls.CoachingStateNone {
     );
     color: white;
 }
+
 .IsRedirectingAllyVoiceToPrivateCoachingGroup .RedirectVoiceAllies {
     background-color: gradient(
         linear,
@@ -439,7 +433,6 @@ DOTACoachingControls.CoachingStateNone {
     vertical-align: middle;
     margin-left: 2px;
     wash-color: #a0bebd;
-
     background-image: url("s2r://panorama/images/control_icons/shuffle_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;

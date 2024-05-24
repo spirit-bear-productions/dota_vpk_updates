@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAKillCamDamageRow {
     height: 36px;
     width: 100%;
@@ -67,7 +69,6 @@ DOTAKillCamDamageRow {
     height: 100%;
     width: fit-children;
     visibility: collapse;
-
     text-align: center;
     flow-children: none;
 }

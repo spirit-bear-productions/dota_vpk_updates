@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAUIHeroPatchNotesHistory {
     width: 100%;
     height: 100%;
@@ -11,9 +13,9 @@ DOTAUIHeroPatchNotesHistory {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #666;
-
     visibility: collapse;
 }
+
 .NoNotes .NoNotesLabel {
     visibility: visible;
 }
@@ -25,6 +27,7 @@ DOTAUIHeroPatchNotesHistory {
     flow-children: down;
     overflow: squish scroll;
 }
+
 #PatchNotesContainer .SinglePatchNotes {
     width: 100%;
     flow-children: right;
@@ -33,6 +36,7 @@ DOTAUIHeroPatchNotesHistory {
     border-bottom: 1px solid white;
     border-brush: gradient(linear, 50% 0%, 100% 0%, from(#ffffff08), to(#ffffff00));
 }
+
 #PatchNotesContainer .SinglePatchNotes .NotesLabel {
     flow-children: down;
 }
@@ -55,6 +59,7 @@ DOTAUIHeroPatchNotesHistory {
 .PatchNoteLine {
     flow-children: right;
 }
+
 .PatchNoteLine .Dot {
     width: 6px;
     height: 6px;
@@ -139,6 +144,7 @@ DOTAUIHeroPatchNotesHistory {
     margin-bottom: 4px;
     visibility: collapse;
 }
+
 .HasHeroNotes #HeroNotesContainer {
     visibility: visible;
 }
@@ -146,10 +152,12 @@ DOTAUIHeroPatchNotesHistory {
 #AbilityNotesContainer {
     flow-children: down;
 }
+
 #AbilityNotesContainer .AbilityNotes {
     flow-children: right;
     margin: 6px 0px;
 }
+
 #AbilityNotesContainer .AbilityNotes #AbilityImage {
     width: 64px;
     height: 64px;
@@ -167,6 +175,7 @@ DOTAUIHeroPatchNotesHistory {
     visibility: collapse;
     margin: 6px 0px;
 }
+
 .HasTalentNotes .TalentNotes.TalentNotes {
     visibility: visible;
 }
@@ -175,7 +184,6 @@ DOTAUIHeroPatchNotesHistory {
     width: 64px;
     height: 64px;
     margin-right: 8px;
-
     background-image: url("s2r://panorama/images/spellicons/statbranch_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupCustomGameFindPrivate {
     width: 650px;
     vertical-align: center;
@@ -7,14 +9,11 @@ PopupCustomGameFindPrivate {
     perspective-origin: 62% 5% invert;
     perspective: 1000;
     flow-children: down;
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-delay: 0s;
     transition-timing-function: linear;
-
     background-color: black;
-
     padding: 25px 28px 0px 28px;
 }
 
@@ -49,7 +48,6 @@ Label {
 .ButtonFooter {
     margin-top: 8px;
     margin-bottom: 16px;
-
     flow-children: right;
     horizontal-align: right;
 }
@@ -59,7 +57,6 @@ Label {
     width: 154px;
     height: 33px;
     margin: 8px;
-
     background-image: url("s2r://panorama/images/green_med_button_off_png.vtex");
     background-size: 240px 60px;
     background-position: 50% 50%;
@@ -83,7 +80,6 @@ Label {
     width: 154px;
     height: 33px;
     margin: 8px 0px 8px 8px;
-
     background-image: url("s2r://panorama/images/red_med_button_off_png.vtex");
     background-size: 240px 60px;
     background-position: 50% 50%;

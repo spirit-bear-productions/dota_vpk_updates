@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PendingInvitesMenuContents {
     flow-children: down;
     width: 350px;
@@ -59,13 +61,11 @@
     width: 24px;
     height: 24px;
     wash-color: #d01010;
-
     background-image: url("s2r://panorama/images/control_icons/x_close_png.vtex");
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     margin: 4px;
-
     transition-property: wash-color, pre-transform-scale2d;
     transition-duration: 0.1s;
     transition-timing-function: ease-in;

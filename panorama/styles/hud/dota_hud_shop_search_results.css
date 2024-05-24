@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDShopSearchResults {
     flow-children: down;
     padding-bottom: 0px;
@@ -40,7 +42,6 @@ DOTAHUDShopSearchResults #SearchResultsTitle {
 .StatToggle {
     border: 1px solid #66666650;
     border-radius: 8px;
-
     padding: 2px;
     padding-left: 5px;
     padding-right: 3px;
@@ -57,7 +58,6 @@ DOTAHUDShopSearchResults #SearchResultsTitle {
 
 .StatToggle Label {
     font-size: 14px;
-
     letter-spacing: 0px;
     opacity: 0.5;
     padding-left: 0px;
@@ -154,6 +154,7 @@ DOTAHUDShopSearchResults #SearchResultsTitle {
     margin-right: 15px;
     visibility: collapse;
 }
+
 .SearchResult.NeutralItem .TierLabel {
     visibility: visible;
 }

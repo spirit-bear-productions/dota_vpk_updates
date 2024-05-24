@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAActionListReward {
     width: 230px;
     flow-children: down;
@@ -6,9 +8,7 @@ DOTAActionListReward {
     vertical-align: bottom;
     horizontal-align: center;
     margin-bottom: 64px;
-
     margin-left: 15px;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -48,7 +48,6 @@ DOTAActionListReward {
     height: 24px;
     wash-color: #e2fcf9;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/control_icons/random_dice_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -62,6 +61,7 @@ DOTAActionListReward {
     wash-color: #e2fcf9;
     visibility: collapse;
 }
+
 #ActionListInfoIcon.ShowInfoIcon {
     visibility: visible;
 }
@@ -107,12 +107,10 @@ DOTAActionListReward {
     height: 24px;
     vertical-align: top;
     horizontal-align: right;
-
     background-image: url("s2r://panorama/images/control_icons/check_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     pre-transform-scale2d: 0.75;
     visibility: collapse;
 }
@@ -125,12 +123,15 @@ DOTAActionListReward {
     width: 100%;
     flow-children: down;
 }
+
 .ActionListRewardType.ChatWheelRewardType .ActionListItem {
     width: 100%;
 }
+
 .ActionListRewardType.ChatWheelRewardType .ActionListItem #RewardContainer {
     width: 100%;
 }
+
 .ActionListRewardType.ChatWheelRewardType .ActionListItemClaimedIcon {
     horizontal-align: right;
     width: 16px;
@@ -193,7 +194,6 @@ DOTAActionListReward {
     opacity: 0.5;
     border: 1px solid transparent;
     z-index: 1;
-
     visibility: collapse;
 }
 
@@ -242,7 +242,6 @@ DOTAActionListReward {
     perspective-origin: 1250px 0;
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     visibility: collapse;
 }
 
@@ -287,11 +286,9 @@ DOTAActionListReward {
 #ChatWheelMessageSoundButton {
     width: 16px;
     height: 16px;
-
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
-
     visibility: collapse;
 }
 
@@ -308,6 +305,7 @@ DOTAActionListReward {
 #ChatWheelMessageSoundButton:hover {
     brightness: 2;
 }
+
 #ChatWheelMessageSoundButton:active {
     brightness: 1.5;
 }

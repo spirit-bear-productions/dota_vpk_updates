@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACompDoubleElimBracketPage.DashboardPage {
     width: 100%;
     height: 100%;
@@ -124,11 +126,9 @@ DOTACompDoubleElimBracketPage:not(.NotStarted) .FirstFill.FillWidth {
 #Header .PopupButton {
     background-color: secondaryDarkColor;
     border: 1px solid secondaryBrightColor;
-
     margin: 0px 8px 0px 0px;
     min-width: 160px;
     padding: 5px 10px 5px 10px;
-
     transition-property: background-color, wash-color;
     transition-delay: 0s;
     transition-duration: 0.1s;
@@ -342,30 +342,37 @@ DOTACompDoubleElimBracketPage:not(.NotStarted) .FirstFill.FillWidth {
     x: 160px;
     y: 134px;
 }
+
 #MatchB {
     x: 160px;
     y: 202px;
 }
+
 #MatchC {
     x: 160px;
     y: 270px;
 }
+
 #MatchD {
     x: 160px;
     y: 336px;
 }
+
 #MatchE {
     x: 504px;
     y: 170px;
 }
+
 #MatchF {
     x: 504px;
     y: 304px;
 }
+
 #MatchG {
     x: 850px;
     y: 236px;
 }
+
 .Row {
     width: 100%;
     height: fill-parent-flow(1);
@@ -421,16 +428,12 @@ DOTACompDoubleElimBracketPage:not(.NotStarted) .FirstFill.FillWidth {
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
-
     transition-property: wash-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.1s;
-
     horizontal-align: right;
     vertical-align: center;
-
     wash-color: #a6adb4;
-
     margin-left: 20px;
     margin-bottom: 6px;
     horizontal-align: center;
@@ -558,6 +561,7 @@ DOTACompDoubleElimBracketPage:not(.NotStarted) .FirstFill.FillWidth {
     horizontal-align: center;
     margin-top: 16px;
 }
+
 #RewardCells {
     flow-children: right;
     width: 100%;
@@ -602,6 +606,7 @@ DOTACompDoubleElimBracketPage:not(.NotStarted) .FirstFill.FillWidth {
 #InfoWindow .Countdown {
     visibility: collapse;
 }
+
 .NotStarted .CloseButton {
     visibility: collapse;
 }

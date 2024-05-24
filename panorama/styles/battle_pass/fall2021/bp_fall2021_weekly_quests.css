@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPFall2021WeeklyQuestsPage.FullDashboardPage {
     width: 100%;
     height: 100%;
@@ -7,7 +9,6 @@ DOTABPFall2021WeeklyQuestsPage.FullDashboardPage {
 
 #WeeklyQuestsOuter {
     margin-top: 124px;
-
     border-radius: 1px;
     width: 100%;
     height: 100%;
@@ -39,7 +40,6 @@ DOTABPFall2021WeeklyQuestsPage.FullDashboardPage {
     margin-top: 64px;
     vertical-align: top;
     horizontal-align: center;
-
     overflow: noclip;
     width: 100%;
 }
@@ -172,7 +172,6 @@ DOTABPFall2021WeeklyQuestsPage.FullDashboardPage {
     margin-top: 5px;
     vertical-align: top;
     flow-children: down;
-
     max-width: 200px;
 }
 
@@ -202,7 +201,6 @@ DOTABPFall2021WeeklyQuestsPage.FullDashboardPage {
 .SeasonAchievementsRewards {
     vertical-align: center;
     margin-bottom: 10px;
-
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -229,7 +227,6 @@ DOTABPFall2021WeeklyQuestsPage.FullDashboardPage {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-shadow: 1px 1px 4px black;
-
     horizontal-align: center;
     padding: 10px 10px;
     padding-top: 10px;
@@ -243,7 +240,6 @@ DOTABPFall2021WeeklyQuestsPage.FullDashboardPage {
 .WeekSelector.ActiveSeason .ActiveLabel Label {
     color: #d0d7ff;
     text-shadow: #3042aa 0px 0px 8px 0px;
-
     padding: 2px;
     text-align: center;
 }
@@ -254,7 +250,6 @@ DOTABPFall2021WeeklyQuestsPage.FullDashboardPage {
     transform: translateY(-2px);
     brightness: 2;
     text-shadow: 0px 0px 15px #3042aa2a;
-
     transition-property: color, transform, brightness, img-shadow, box-shadow;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -353,11 +348,9 @@ DOTAWeeklyQuest {
     color: #ffffff;
     horizontal-align: center;
     text-decoration: none;
-
     visibility: collapse;
     text-transform: uppercase;
     letter-spacing: 1px;
-
     border-radius: 2px;
     margin-top: 2px;
 }
@@ -373,15 +366,12 @@ DOTAWeeklyQuest {
     background-image: url("s2r://panorama/images/control_icons/check_thin_psd.vtex");
     vertical-align: center;
     margin-left: 0px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     visibility: collapse;
-
     opacity: 0;
     wash-color: #eaa2d0;
-
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     transition-property: transform, opacity;
@@ -401,10 +391,8 @@ DOTAWeeklyQuest {
     vertical-align: center;
     horizontal-align: center;
     margin-top: 4px;
-
     visibility: collapse;
     opacity: 0;
-
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     transition-property: transform, opacity;
@@ -416,14 +404,12 @@ DOTAWeeklyQuest {
     width: 200px;
     height: 200px;
     background-image: url("s2r://panorama/images/control_icons/lock_medium_png.vtex");
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 40px;
     margin-left: 10px;
     margin-bottom: -40px;
-
     contrast: 1.3;
     saturation: 0.5;
     wash-color: #413684aa;
@@ -570,7 +556,6 @@ DOTADashboard.IsInGame #MarkVisibleSeasonActive {
     width: 600px;
     height: 800px;
     z-index: 1;
-
     transform: translateX(-228px) skew(12deg);
     transform: translateX(-228px) skew(12deg);
     margin-top: -5px;

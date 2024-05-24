@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .HeroName {
     font-size: 52px;
     font-family: titleFont;
@@ -10,11 +12,9 @@
 .HeroModelBackground {
     width: 100%;
     height: 100%;
-
     margin-top: screenMainTopMargin;
     margin-bottom: containerMargins;
     margin-left: containerMargins;
-
     background-image: url("s2r://panorama/images/battle_report/role_featured_bg_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;

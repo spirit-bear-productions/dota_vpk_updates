@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTATalentChangedItem {
     horizontal-align: right;
     height: fit-children;
@@ -49,9 +51,7 @@ DOTATalentChangedItemTreeToast {
     height: 62px;
     horizontal-align: center;
     vertical-align: middle;
-
     ui-scale: 160%;
-
     z-index: 3;
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
@@ -88,9 +88,7 @@ DOTATalentChangedItemTreeToast {
 #StatBranchChannel {
     width: 100%;
     height: 78px;
-
     vertical-align: top;
-
     horizontal-align: center;
     overflow: noclip;
     z-index: 21;
@@ -105,12 +103,10 @@ DOTATalentChangedItemTreeToast {
 .StatBranchPip {
     width: 62px;
     height: 62px;
-
     background-image: url("s2r://panorama/images/hud/reborn/statbranch_pip_psd.vtex");
     background-size: 100%;
     background-repeat: no-repeat;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0s;
     transition-timing-function: ease-in-out;
@@ -223,9 +219,7 @@ DOTATalentChangedItemTreeToast {
     height: 3px;
     height: 6px;
     vertical-align: middle;
-
     visibility: visible;
-
     border-radius: 1px;
     background-color: none;
     box-shadow: none;
@@ -284,24 +278,31 @@ DOTATalentChangedItemTreeToast {
 #StatLabel25L {
     margin-right: 42px;
 }
+
 #StatLabel20L {
     margin-right: 50px;
 }
+
 #StatLabel15L {
     margin-right: 50px;
 }
+
 #StatLabel10L {
     margin-right: 42px;
 }
+
 #StatLabel25R {
     margin-left: 42px;
 }
+
 #StatLabel20R {
     margin-left: 50px;
 }
+
 #StatLabel15R {
     margin-left: 50px;
 }
+
 #StatLabel10R {
     margin-left: 42px;
 }

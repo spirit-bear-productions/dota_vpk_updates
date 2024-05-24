@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FrontpageCellHeader {
     width: fit-children;
     flow-children: right;
@@ -6,7 +8,6 @@
 .CellBackground {
     width: 100%;
     height: 100%;
-
     background-image: url("s2r://panorama/images/dpc/aegis_icon_flat_large_psd.vtex");
     background-repeat: no-repeat;
     background-img-opacity: 0.008;
@@ -71,7 +72,6 @@
 
 .LeagueTeams {
     margin-top: 20px;
-
     text-overflow: shrink;
     font-weight: semi-bold;
     font-size: 16px;

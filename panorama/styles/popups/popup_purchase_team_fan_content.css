@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupPurchaseTeamFanContent.PopupPanel {
     flow-children: none;
     width: 1400px;
@@ -6,7 +8,6 @@ DOTAPopupPurchaseTeamFanContent.PopupPanel {
     border: 0px solid #00000000;
     background-color: gradient(linear, 0% 0%, 90% 100%, from(#202429), to(#060708));
     box-shadow: fill #00000066 0px 0px 24px 0px;
-
     animation-name: none;
 }
 
@@ -135,6 +136,7 @@ DOTAPopupPurchaseTeamFanContent.PopupPanel {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#ebe2df11), to(#ebe2df00));
     background-image: url("s2r://panorama/images/dpc/supclub_silver_bg_psd.vtex");
 }
+
 #SupporterTier3 .SupporterTierMain {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#d8d2a811), to(#d8d2a800));
     background-image: url("s2r://panorama/images/dpc/supclub_gold_bg_psd.vtex");
@@ -327,7 +329,6 @@ DOTAEventCrestImage.Quality1 {
     color: bluegreyTextDim;
     font-size: 15px;
     margin-bottom: 12px;
-
     visibility: collapse;
 }
 
@@ -450,7 +451,6 @@ DOTAEventCrestImage.Quality1 {
     width: 280px;
     margin-bottom: 6px;
     background-color: gradient(linear, 0% 0%, 90% 100%, from(#ffffff02), color-stop(0.8, #ffffff06), to(#ffffff00));
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -471,9 +471,7 @@ DOTAEventCrestImage.Quality1 {
 .ChatWheelIcon {
     width: 22px;
     height: 22px;
-
     margin-right: 4px;
-
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -484,7 +482,6 @@ DOTAEventCrestImage.Quality1 {
     width: 92px;
     height: 92px;
     margin: 4px;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.2s;
 }
@@ -508,9 +505,7 @@ DOTAEventCrestImage.Quality1 {
     height: 90px;
     ui-scale: 87%;
     margin: 0px 4px;
-
     box-shadow: 2px 2px 4px #00000044;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.2s;
 }
@@ -541,7 +536,6 @@ DOTAEventCrestImage.Quality1 {
     width: 197px;
     height: 37px;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/dpc/healthbar_badge_preview_png.vtex");
     background-size: contain;
     background-position: center;

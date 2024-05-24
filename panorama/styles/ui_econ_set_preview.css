@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAUIEconSetPreview {
     width: 100%;
     height: 100%;
@@ -80,10 +82,8 @@ DOTAHeroPortrait.Use3DPreview #Preview3DItems {
     width: 65%;
     height: width-percentage(66%);
     visibility: collapse;
-
     vertical-align: middle;
     horizontal-align: center;
-
     border-top: 2px solid #ffffff11;
     border-right: 2px solid #ffffff11;
     border-left: 2px solid #ffffff11;
@@ -110,10 +110,8 @@ DOTAUIEconSetPreview.UseMusicPreview #Preview2DItems {
     width: 90%;
     height: width-percentage(56.25%);
     visibility: collapse;
-
     vertical-align: middle;
     horizontal-align: center;
-
     border-top: 2px solid #ffffff11;
     border-right: 2px solid #ffffff11;
     border-left: 2px solid #ffffff11;
@@ -167,7 +165,6 @@ DOTAUIEconSetPreview.UseSoundPreview #PreviewSounds {
 
 .SoundPreviewItem {
     width: 100%;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#88888899), to(#99999922));
     box-shadow: fill #002a6600 1px 1px 8px 1px;
     border-top: 1px solid #ffffff22;
@@ -180,7 +177,6 @@ DOTAUIEconSetPreview.UseSoundPreview #PreviewSounds {
     padding: 5px 14px 3px 14px;
     min-width: 188px;
     height: 39px;
-
     transition-property: background-color;
     transition-duration: 0.1s;
 }
@@ -326,6 +322,7 @@ DOTAUIEconSetPreview.UseEmoticonsPreview .PreviewEmoticonsContainer {
     width: 300px;
     height: 300px;
 }
+
 DOTAUIEconSetPreview.UseShowcaseDecorationPreview #PreviewShowcaseDecoration {
     visibility: visible;
 }

@@ -1,10 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupNewsPost {
     width: 1000px;
     height: 800px;
     flow-children: down;
     horizontal-align: center;
     vertical-align: middle;
-
     opacity: 1;
     transform: none;
     transition-property: opacity, transform, pre-transform-scale2d, wash-color;

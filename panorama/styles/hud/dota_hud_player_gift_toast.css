@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPlayerGiftToast {
     flow-children: down;
     margin-bottom: 8px;
@@ -40,6 +42,7 @@ DOTAHeroImage {
     padding: 12px;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#2e0b0c), color-stop(0.5, #5f1b1c), to(#2e0b0c));
 }
+
 #ToastHeader #GiftText {
     text-align: center;
     horizontal-align: center;
@@ -66,6 +69,7 @@ DOTAHeroImage {
     flow-children: down;
     vertical-align: center;
 }
+
 .RedEnvelopeContainer .RedEnvelopeIcon {
     width: 48px;
     height: width-percentage(100%);

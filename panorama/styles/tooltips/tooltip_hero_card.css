@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents.HeroCardTooltipContents {
     padding: 0px;
     border: 0px;
@@ -27,6 +29,7 @@
     width: 100%;
     height: 100%;
 }
+
 #HeroImage.Hidden,
 #HeroMovie.Hidden {
     visibility: collapse;
@@ -63,7 +66,6 @@
     horizontal-align: center;
     flow-children: right;
     padding: 4px;
-
     visibility: collapse;
 }
 
@@ -71,9 +73,7 @@
     width: 13px;
     height: 13px;
     margin-right: 4px;
-
     vertical-align: middle;
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,6 +88,7 @@
 #CavernCrawlFeature .HeroFeatureIcon {
     background-image: bp_cavern_crawl_challenge;
 }
+
 .CavernMapVariant1 #CavernCrawlFeature .HeroFeatureIcon {
     background-image: bp_cavern_crawl_challenge_2;
 }
@@ -101,9 +102,11 @@
 .CavernSupportAvailable #CavernCrawlFeature .HeroFeatureIcon {
     wash-color: #fff09d;
 }
+
 .CavernCarryAvailable #CavernCrawlFeature .HeroFeatureIcon {
     wash-color: #affeff;
 }
+
 .CavernUtilityAvailable #CavernCrawlFeature .HeroFeatureIcon {
     wash-color: #dfd2ff;
 }
@@ -111,6 +114,7 @@
 #DailyHeroChallengeFeature .HeroFeatureIcon {
     background-image: bp_point_log_pass_activated;
 }
+
 .DailyHeroChallenge #DailyHeroChallengeFeature {
     visibility: visible;
 }
@@ -128,6 +132,7 @@
     background-image: url("s2r://panorama/images/control_icons/thumbs_up_png.vtex");
     wash-color: #e849c6;
 }
+
 .Suggested #SuggestedFeature {
     visibility: visible;
 }
@@ -136,6 +141,7 @@
     background-image: url("s2r://panorama/images/control_icons/thumbs_down_png.vtex");
     wash-color: #f0211e;
 }
+
 .SuggestedBan #SuggestedBanFeature {
     visibility: visible;
 }
@@ -143,6 +149,7 @@
 #RecommendedFeature .HeroFeatureIcon {
     background-image: url("s2r://panorama/images/hero_selection/recommended_hero_icon_png.vtex");
 }
+
 .Recommend #RecommendedFeature {
     visibility: visible;
 }
@@ -150,6 +157,7 @@
 #AvoidFeature .HeroFeatureIcon {
     background-image: url("s2r://panorama/images/hero_selection/avoid_hero_icon_png.vtex");
 }
+
 .Avoid #AvoidFeature {
     visibility: visible;
 }
@@ -158,6 +166,7 @@
     background-image: url("s2r://panorama/images/control_icons/clock_psd.vtex");
     wash-color: #808fa6;
 }
+
 .NewHero #NewHeroFeature {
     visibility: visible;
 }
@@ -190,6 +199,7 @@
     horizontal-align: right;
     flow-children: right;
 }
+
 #OverworldTokenContainer DOTACrownfallToken {
     ui-scale: 75%;
     margin: -10px;

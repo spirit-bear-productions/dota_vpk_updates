@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAFrontpageGameplayPatch {
     width: 100%;
     height: 100%;
@@ -13,15 +15,19 @@ DOTAFrontpageGameplayPatch {
 #NumberImageContainer.color1 {
     hue-rotation: 180deg;
 }
+
 #NumberImageContainer.color2 {
     hue-rotation: 30deg;
 }
+
 #NumberImageContainer.color3 {
     hue-rotation: 230deg;
 }
+
 #NumberImageContainer.color4 {
     hue-rotation: 280deg;
 }
+
 #NumberImageContainer.color5 {
     hue-rotation: 0deg;
 }
@@ -81,30 +87,39 @@ DOTAFrontpageGameplayPatch {
 .0 {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/0_psd.vtex");
 }
+
 .1 {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/1_psd.vtex");
 }
+
 .2 {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/2_psd.vtex");
 }
+
 .3 {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/3_psd.vtex");
 }
+
 .4 {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/4_psd.vtex");
 }
+
 .5 {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/5_psd.vtex");
 }
+
 .6 {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/6_psd.vtex");
 }
+
 .7 {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/7_psd.vtex");
 }
+
 .8 {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/8_psd.vtex");
 }
+
 .9 {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/9_psd.vtex");
 }
@@ -112,33 +127,43 @@ DOTAFrontpageGameplayPatch {
 .a {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/a_psd.vtex");
 }
+
 .b {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/b_psd.vtex");
 }
+
 .c {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/c_psd.vtex");
 }
+
 .d {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/d_psd.vtex");
 }
+
 .e {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/e_psd.vtex");
 }
+
 .f {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/f_psd.vtex");
 }
+
 .g {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/g_psd.vtex");
 }
+
 .h {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/h_psd.vtex");
 }
+
 .i {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/i_psd.vtex");
 }
+
 .j {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/j_psd.vtex");
 }
+
 .k {
     background-image: url("s2r://panorama/images/front_page/700patchnumbers/k_psd.vtex");
 }

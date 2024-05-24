@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPCrownfallQuestsPage {
     background-image: url("s2r://panorama/images/events/crownfall/backgrounds/bg_png.vtex");
     background-size: cover;
@@ -13,6 +15,7 @@ DOTABPCrownfallQuestsPage {
     transition-property: brightness, transform;
     transition-duration: 0.1s;
 }
+
 .CrownfallButtonPrimary .ButtonLabel {
     text-align: center;
     color: white;
@@ -35,6 +38,7 @@ DOTABPCrownfallQuestsPage {
     flow-children: right;
     width: 100%;
 }
+
 .CrownfallButtonPrimary .ButtonOutline .Edge,
 .CrownfallButtonPrimary .ButtonBackground .Edge {
     width: 48px;
@@ -42,6 +46,7 @@ DOTABPCrownfallQuestsPage {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .CrownfallButtonPrimary .ButtonOutline .Edge.Right,
 .CrownfallButtonPrimary .ButtonBackground .Edge.Right {
     transform: scaleX(-1);
@@ -66,6 +71,7 @@ DOTABPCrownfallQuestsPage {
     transition-property: brightness, wash-color;
     transition-duration: 0.1s;
 }
+
 .CrownfallButtonPrimary .ButtonBackground .Edge {
     background-image: url("s2r://panorama/images/events/crownfall/buttons/button_primary_bg_edge_png.vtex");
 }

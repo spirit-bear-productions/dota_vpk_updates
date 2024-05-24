@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroRoles {
     flow-children: down;
 }
@@ -34,11 +36,8 @@ DOTAHeroRoles {
     width: 28px;
     border: 1px solid #cfd9e00c;
     border-radius: 1px;
-
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#0e0e0e55), to(#20242655));
-
     margin-left: 3px;
-
     transition-property: border, background-color;
     transition-duration: 0.22s;
     transition-timing-function: ease-in-out;

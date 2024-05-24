@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PurchaseItemButton {
     vertical-align: center;
     flow-children: right;
-
     border-top: 1px solid #ffffff22;
     border-left: 1px solid #ffffff11;
     border-right: 1px solid #00000044;
@@ -9,7 +10,6 @@
     padding: 5px 14px 3px 14px;
     min-width: 188px;
     height: 39px;
-
     transition-property: background-color;
     transition-duration: 0.1s;
 }

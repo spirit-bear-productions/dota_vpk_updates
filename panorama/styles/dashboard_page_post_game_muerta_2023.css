@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #CustomEventResultsContainer {
     horizontal-align: center;
     vertical-align: bottom;
@@ -56,11 +58,11 @@
     transition-delay: 0.1s;
     margin: 0px 7px;
     horizontal-align: center;
-
     background-repeat: no-repeat;
     background-size: 50px 58px;
     background-position: center 2px;
 }
+
 .Muerta2023PostgameRow.EventWon {
     background-size: 134px 62px;
     background-position: center top;
@@ -82,7 +84,6 @@
     height: 100%;
     flow-children: down;
     horizontal-align: center;
-
     background-color: gradient(
         linear,
         0% 100%,
@@ -250,7 +251,6 @@
 
 .Ranked .OverviewHeroStats {
     padding-bottom: 0px;
-
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#000000d2), color-stop(0.4, #000000b2), to(#00000000));
 }
 

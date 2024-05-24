@@ -1,11 +1,10 @@
-@define common_rarity_color_bright:  white;
-@define common_rarity_color: grey;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define common_rarity_color_bright: white;
+@define common_rarity_color: grey;
 @define elite_rarity_color_bright: #e6441f;
 @define elite_rarity_color: #b73517;
-
 @define epic_rarity_color: #A32ffc;
-
 DOTAPostGameTI10EventGame {
     width: 100%;
     height: 100%;
@@ -13,7 +12,6 @@ DOTAPostGameTI10EventGame {
 
 .PostGameTI10EventGameContainer {
     flow-children: down;
-
     height: 100%;
     width: 100%;
 }
@@ -33,7 +31,6 @@ DOTAPostGameTI10EventGame {
     flow-children: right;
     width: 1390px;
     horizontal-align: center;
-
     margin-top: 16px;
 }
 
@@ -42,10 +39,8 @@ DOTAPostGameTI10EventGame {
     font-weight: normal;
     font-size: 36px;
     font-weight: thin;
-
     color: #fa755f;
     text-shadow: 0 0 8px 2 #ae332177;
-
     margin-right: 48px;
 }
 
@@ -57,7 +52,6 @@ DOTAPostGameTI10EventGame {
     color: #b4fab6;
     text-shadow: 0 0 2px #00000065;
     visibility: collapse;
-
     text-shadow: 0 0 8px 2 #5bb10b76;
 }
 
@@ -131,7 +125,6 @@ DOTAPostGameTI10EventGame {
     horizontal-align: left;
     letter-spacing: 2px;
     color: #fffdf4;
-
     text-shadow: 0px 0px 4px #b8a071;
 }
 
@@ -170,67 +163,85 @@ DOTAPostGameTI10EventGame {
 .GuildPointsLabel {
     vertical-align: middle;
     margin-top: 2px;
-
     font-size: 17px;
 }
 
 .GuildPrimaryColor0 .GuildPointsLabel {
     color: hsv-transform(guildColor0, 0, 1, 2);
 }
+
 .GuildPrimaryColor1 .GuildPointsLabel {
     color: hsv-transform(guildColor1, 0, 1, 2);
 }
+
 .GuildPrimaryColor2 .GuildPointsLabel {
     color: hsv-transform(guildColor2, 0, 1, 2);
 }
+
 .GuildPrimaryColor3 .GuildPointsLabel {
     color: hsv-transform(guildColor3, 0, 1, 2);
 }
+
 .GuildPrimaryColor4 .GuildPointsLabel {
     color: hsv-transform(guildColor4, 0, 1, 2);
 }
+
 .GuildPrimaryColor5 .GuildPointsLabel {
     color: hsv-transform(guildColor5, 0, 1, 2);
 }
+
 .GuildPrimaryColor6 .GuildPointsLabel {
     color: hsv-transform(guildColor6, 0, 1, 2);
 }
+
 .GuildPrimaryColor7 .GuildPointsLabel {
     color: hsv-transform(guildColor7, 0, 1, 2);
 }
+
 .GuildPrimaryColor8 .GuildPointsLabel {
     color: hsv-transform(guildColor8, 0, 1, 2);
 }
+
 .GuildPrimaryColor9 .GuildPointsLabel {
     color: hsv-transform(guildColor9, 0, 1, 2);
 }
+
 .GuildPrimaryColor10 .GuildPointsLabel {
     color: hsv-transform(guildColor10, 0, 1, 2);
 }
+
 .GuildPrimaryColor11 .GuildPointsLabel {
     color: hsv-transform(guildColor11, 0, 1, 2);
 }
+
 .GuildPrimaryColor12 .GuildPointsLabel {
     color: hsv-transform(guildColor12, 0, 1, 2);
 }
+
 .GuildPrimaryColor13 .GuildPointsLabel {
     color: hsv-transform(guildColor13, 0, 1, 2);
 }
+
 .GuildPrimaryColor14 .GuildPointsLabel {
     color: hsv-transform(guildColor14, 0, 1, 2);
 }
+
 .GuildPrimaryColor15 .GuildPointsLabel {
     color: hsv-transform(guildColor15, 0, 1, 2);
 }
+
 .GuildPrimaryColor16 .GuildPointsLabel {
     color: hsv-transform(guildColor16, 0, 1, 2);
 }
+
 .GuildPrimaryColor17 .GuildPointsLabel {
     color: hsv-transform(guildColor17, 0, 1, 2);
 }
+
 .GuildPrimaryColor18 .GuildPointsLabel {
     color: hsv-transform(guildColor18, 0, 1, 2);
 }
+
 .GuildPrimaryColor19 .GuildPointsLabel {
     color: hsv-transform(guildColor19, 0, 1, 2);
 }
@@ -250,7 +261,6 @@ DOTAPostGameTI10EventGame {
 
 .ArcaneFragments .RewardLabel {
     color: #dfe9f2;
-
     text-shadow: 0px 0px 4px #41a0f2;
 }
 
@@ -259,7 +269,6 @@ DOTAPostGameTI10EventGame {
     font-size: 30px;
     font-weight: semi-bold;
     text-shadow: #ffffff22 0px 0px 30px 0px;
-
     color: #fffdf4;
     text-shadow: 0px 0px 4px hsv-transform(guildColor8, 0, 1, 2);
 }
@@ -273,16 +282,13 @@ DOTAPostGameTI10EventGame {
     max-width: 100%;
     height: 800px;
     horizontal-align: center;
-
     margin-top: 12px;
 }
 
 #ContainerCenter {
     margin-left: 280px;
     max-width: 100%;
-
     vertical-align: bottom;
-
     horizontal-align: center;
 }
 
@@ -328,9 +334,7 @@ DOTAPostGameTI10EventGame {
     horizontal-align: center;
     height: 100%;
     width: 280px;
-
     background-color: #1e2123;
-
     border: 1px solid #222222;
     border-top-width: 0px;
     border-bottom-width: 0px;
@@ -377,7 +381,6 @@ DOTAPostGameTI10EventGame {
     padding-left: 5px;
     horizontal-align: left;
     margin-left: 10px;
-
     margin-right: 12px;
 }
 
@@ -386,7 +389,6 @@ DOTAPostGameTI10EventGame {
     height: 48px;
     width: 100%;
     background-color: #151819;
-
     margin-bottom: 2px;
 }
 
@@ -413,7 +415,6 @@ DOTAPostGameTI10EventGame {
     height: 48px;
     width: 100%;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#00000076), color-stop(0.6, #00000076), to(#00000000));
-
     margin-bottom: 2px;
 }
 
@@ -462,7 +463,6 @@ DOTAPostGameTI10EventGame {
     vertical-align: center;
     font-size: 20px;
     font-weight: normal;
-
     color: #fff;
 }
 
@@ -485,7 +485,6 @@ DOTAPostGameTI10EventGame {
     vertical-align: center;
     horizontal-align: left;
     padding: 0px;
-
     margin-right: 12px;
 }
 
@@ -529,10 +528,8 @@ DOTAPostGameTI10EventGame {
 
 .EncounterRow {
     background-color: #151819;
-
     height: 64px;
     width: 100%;
-
     margin-bottom: 2px;
 }
 
@@ -574,7 +571,6 @@ DOTAPostGameTI10EventGame {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
     margin-top: 4px;
 }
 
@@ -617,7 +613,6 @@ DOTAPostGameTI10EventGame {
     background-image: url("s2r://panorama/images/events/aghanim/aghanims_room_icon_png.vtex");
     background-repeat: no-repeat;
     img-shadow: 0px 3px 8px #000;
-
     horizontal-align: center;
 }
 
@@ -664,9 +659,11 @@ DOTAPostGameTI10EventGame {
     0% {
         opacity: 0.01;
     }
+
     50% {
         opacity: 1;
     }
+
     100% {
         opacity: 0.01;
     }
@@ -683,7 +680,6 @@ DOTAPostGameTI10EventGame {
 .EncounterDataContainer {
     height: 64px;
     horizontal-align: center;
-
     margin-bottom: 2px;
 }
 
@@ -697,7 +693,6 @@ DOTAPostGameTI10EventGame {
 #AscensionAbilities {
     flow-children: down;
     horizontal-align: center;
-
     padding-top: 8px;
 }
 
@@ -897,13 +892,10 @@ Panel.PlayerRow Label.HeroHealing {
     horizontal-align: right;
     wash-color: black;
     background-color: black;
-
     transition-property: width, wash-color, opacity;
     transition-duration: 0.4s;
-
     opacity: 1;
     wash-color: white;
-
     visibility: collapse;
 }
 

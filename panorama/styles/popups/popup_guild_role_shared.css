@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #PropertiesTable {
     flow-children: down;
 }
@@ -43,6 +45,7 @@
 .SubmitFailed #SubmitStatus {
     color: loserRed;
 }
+
 .SubmitSuccess #SubmitStatus {
     color: winnerGreen;
 }

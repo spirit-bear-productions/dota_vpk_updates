@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPInternational2023FantasyPeriod {
     width: 100%;
     height: 100%;
@@ -21,12 +23,14 @@ DOTABPInternational2023FantasyPeriod {
     width: 100%;
     height: 100%;
 }
+
 #CraftingPanel .FailureContainer {
     height: fit-children;
     vertical-align: center;
     flow-children: down;
     margin-top: -60px;
 }
+
 #CraftingPanel .FailureContainer .LockedHeader {
     horizontal-align: center;
     vertical-align: middle;
@@ -48,6 +52,7 @@ DOTABPInternational2023FantasyPeriod {
     margin: 40px;
     transform: rotateZ(45deg);
 }
+
 #CraftingPanel .FailureContainer .LockIconContainer .LockIcon {
     transform: rotateZ(-45deg);
 }
@@ -72,10 +77,12 @@ DOTABPInternational2023FantasyPeriod {
     height: fill-parent-flow(1);
     flow-children: right;
 }
+
 #CraftingTabletList DOTAUIFantasyCraftTablet {
     width: fill-parent-flow(1);
     height: 100%;
 }
+
 #CraftingTabletList DOTAUIFantasyCraftTablet#tablet_1 {
     margin-right: 16px;
 }
@@ -99,11 +106,13 @@ DOTABPInternational2023FantasyPeriod {
     margin-top: 16px;
     height: 142px;
 }
+
 .CraftingFooter .CraftingTitleContainer {
     flow-children: right;
     margin-bottom: 8px;
     horizontal-align: center;
 }
+
 .CraftingFooter .CraftingTitleContainer .CraftingTitle {
     color: gradient(linear, 0% 0%, 0% 100%, from(primaryColor1), to(primaryColor2));
     text-shadow: textShadowSmall;
@@ -122,6 +131,7 @@ DOTABPInternational2023FantasyPeriod {
     flow-children: down;
     horizontal-align: center;
 }
+
 .CraftingFooter .OperationsHolderContainer #OperationsHolder {
     flow-children: right;
     margin-left: 8px;
@@ -138,11 +148,13 @@ DOTABPInternational2023FantasyPeriod {
     padding-bottom: 12px;
     margin-bottom: 4px;
 }
+
 .CraftingFooter .OperationsHolderContainer #OperationsHolder .FantasyOperationButton {
     margin: 0px 4px;
     max-width: 260px;
     height: 52px;
 }
+
 .CraftingFooter .OperationsHolderContainer #OperationsHolder .FantasyOperationButton.OperationUnavailable {
     brightness: 0.4;
     saturation: 1;
@@ -161,6 +173,7 @@ DOTABPInternational2023FantasyPeriod {
     horizontal-align: center;
     margin-top: 8px;
 }
+
 .CraftingFooter .CraftingStatus .RerollIcon {
     margin-right: 8px;
     margin-top: 1px;
@@ -175,6 +188,7 @@ DOTABPInternational2023FantasyPeriod {
     flow-children: right;
     vertical-align: center;
 }
+
 .CraftingHelpButton Label {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -191,6 +205,7 @@ DOTABPInternational2023FantasyPeriod {
     ui-scale: 80%;
     margin: 0px 8px;
 }
+
 .FantasyOperation .PopupButton Label {
     text-align: center;
     letter-spacing: 2px;
@@ -282,7 +297,6 @@ DOTABPInternational2023FantasyPeriod {
     text-transform: uppercase;
     text-align: center;
     background-color: #79242bff;
-
     visibility: collapse;
 }
 
@@ -301,6 +315,7 @@ DOTABPInternational2023FantasyPeriod {
     horizontal-align: center;
     flow-children: right;
 }
+
 .TabletPeriodScoreHolder Label {
     margin-left: 2px;
     margin-right: 2px;
@@ -332,6 +347,7 @@ DOTABPInternational2023FantasyPeriod {
         to(secondaryColor1&00)
     );
 }
+
 .TabletPeriodSeriesHolder Label {
     color: LightGrey;
     vertical-align: center;
@@ -442,6 +458,7 @@ DOTABPInternational2023FantasyPeriod {
     width: 100%;
     flow-children: down;
 }
+
 .PeriodRewardsList .ScoreContainer {
     width: 100%;
     flow-children: right;
@@ -449,6 +466,7 @@ DOTABPInternational2023FantasyPeriod {
     padding: 6px 0px;
     border-top: 1px solid primaryColor5;
 }
+
 .PeriodRewardsList .ScoreContainer Label {
     vertical-align: center;
     width: fill-parent-flow(1);
@@ -502,6 +520,7 @@ DOTABPInternational2023FantasyPeriod {
     width: 100%;
     margin-bottom: 8px;
 }
+
 .LeaderListHeader Label {
     text-transform: uppercase;
     font-size: 14px;
@@ -521,6 +540,7 @@ DOTABPInternational2023FantasyPeriod {
     flow-children: right;
     padding-right: 4px;
 }
+
 .LeaderboardRow #LeaderListAvatar {
     width: 24px;
     height: 24px;
@@ -610,7 +630,6 @@ DOTABPInternational2023FantasyPeriod {
     height: 100%;
     horizontal-align: center;
     tooltip-position: top;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -686,6 +705,7 @@ DOTABPInternational2023FantasyPeriod {
     flow-children: down;
     margin-top: -60px;
 }
+
 #LockedPanel .LockedHeader {
     horizontal-align: center;
     vertical-align: middle;
@@ -707,6 +727,7 @@ DOTABPInternational2023FantasyPeriod {
     margin: 40px;
     transform: rotateZ(45deg);
 }
+
 #LockedPanel .LockIconContainer .LockIcon {
     transform: rotateZ(-45deg);
 }
@@ -717,15 +738,18 @@ DOTABPInternational2023FantasyPeriod {
     flow-children: right;
     margin-bottom: 24px;
 }
+
 #StarterPanel .SubTitleContainer .Dash {
     width: fill-parent-flow(1);
     height: 1px;
     background-color: white;
     vertical-align: center;
 }
+
 #StarterPanel .SubTitleContainer .Dash.Left {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(primaryColor4&00), to(primaryColor4));
 }
+
 #StarterPanel .SubTitleContainer .Dash.Right {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(primaryColor4), to(primaryColor4&00));
 }
@@ -739,16 +763,13 @@ DOTABPInternational2023FantasyPeriod {
 
 #StarterPanel .Title {
     horizontal-align: center;
-
     margin-bottom: 16px;
     width: 70%;
     text-align: center;
-
     font-family: titleFont;
     font-size: 36px;
     letter-spacing: 0.2px;
     color: gradient(linear, 0% 0%, 0% 100%, from(LightestGrey), to(LighterGrey));
-
     border-brush: gradient(
         linear,
         0% 0%,
@@ -772,6 +793,7 @@ DOTABPInternational2023FantasyPeriod {
     horizontal-align: center;
     margin-bottom: 16px;
 }
+
 #PlayerSelectContainer .FantasyPlayerTitle {
     margin-bottom: 8px;
     margin-top: 16px;
@@ -785,6 +807,7 @@ DOTABPInternational2023FantasyPeriod {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#000d19), to(primaryColor6&66));
     vertical-align: center;
 }
+
 #PlayerSelectContainer .PlayerChoice #PlayerTitle {
     horizontal-align: center;
 }
@@ -802,7 +825,6 @@ DOTABPInternational2023FantasyPeriod {
     height: 100%;
     border: 2px solid primaryColor3&11;
     ignore-parent-flow: true;
-
     animation-name: GlowChoiceBorder;
     animation-duration: 0.6s;
     animation-iteration-count: infinite;
@@ -813,6 +835,7 @@ DOTABPInternational2023FantasyPeriod {
 #PlayerSelectContainer .PlayerChoice.InitialRosterHasPlayer {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(primaryColor3), to(primaryColor5));
 }
+
 #PlayerSelectContainer .PlayerChoice.InitialRosterHasPlayer .ChoiceBorder {
     animation-name: none;
     border: 2px solid primaryColor2&44;
@@ -850,21 +873,19 @@ DOTABPInternational2023FantasyPeriod {
     margin-top: 24px;
     padding-left: 56px;
     padding-right: 56px;
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     transition-delay: 1s;
-
     opacity: 1;
     transform: none;
-
     animation-name: GlowPrimaryButton;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
 }
+
 #CreateTabletButton:disabled {
     opacity: 0;
     transform: translateY(16px);
@@ -892,7 +913,6 @@ DOTABPInternational2023FantasyPeriod {
     margin-top: 12px;
     width: 100%;
     horizontal-align: left;
-
     animation-name: GlowUnclaimedRewardsBadge;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -900,6 +920,7 @@ DOTABPInternational2023FantasyPeriod {
     animation-direction: alternate-reverse;
     visibility: collapse;
 }
+
 .RewardsButton.Center {
     horizontal-align: center;
 }
@@ -945,16 +966,17 @@ DOTABPInternational2023FantasyPeriod {
 .TutorialButton {
     margin-top: 24px;
     horizontal-align: left;
-
     animation-name: GlowPrimaryButton;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
 }
+
 .TutorialButton.Center {
     horizontal-align: center;
 }
+
 .Show_InitialRoster,
 .Show_UpgradeRoster,
 .Show_ViewTablet,
@@ -1005,6 +1027,7 @@ DOTABPInternational2023FantasyPeriod {
     color: LighterGrey;
     line-height: 1.2;
 }
+
 .TutorialText.Center {
     text-align: center;
 }
@@ -1075,6 +1098,7 @@ DOTABPInternational2023FantasyPeriod {
         to(#0000)
     );
 }
+
 .OperationsMid .TutorialText,
 .UpgradeMid .TutorialText {
     text-align: center;
@@ -1104,6 +1128,7 @@ DOTABPInternational2023FantasyPeriod {
         to(#0000)
     );
 }
+
 .ShowRosterMid .TitleTutorialInitial {
     text-align: center;
     horizontal-align: center;

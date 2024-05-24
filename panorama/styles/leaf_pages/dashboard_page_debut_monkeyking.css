@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DebutUnderlord #TakeoverPageLeft,
 .DebutUnderlord #DebutBackgroundImage {
     background-image: none;
@@ -11,14 +13,11 @@
     height: 100%;
     opacity: 0;
     pre-transform-scale2d: 1;
-
     vertical-align: middle;
     horizontal-align: center;
-
     transition-property: opacity;
     transition-duration: 2s;
     transition-timing-function: ease-in;
-
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -111,15 +110,19 @@
 #Ability2 {
     background-image: url("s2r://panorama/images/spellicons/monkey_king_tree_dance_png.vtex");
 }
+
 #Ability3 {
     background-image: url("s2r://panorama/images/spellicons/monkey_king_primal_spring_png.vtex");
 }
+
 #Ability4 {
     background-image: url("s2r://panorama/images/spellicons/monkey_king_jingu_mastery_png.vtex");
 }
+
 #Ability5 {
     background-image: url("s2r://panorama/images/spellicons/monkey_king_mischief_png.vtex");
 }
+
 #Ability6 {
     background-image: url("s2r://panorama/images/spellicons/monkey_king_wukongs_command_png.vtex");
     margin-right: 0px;

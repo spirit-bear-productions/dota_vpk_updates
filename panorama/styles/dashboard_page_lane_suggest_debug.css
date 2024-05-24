@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Heroes {
     flow-children: right;
     horizontal-align: center;
@@ -6,7 +8,6 @@
 #Radiant,
 #Dire {
     flow-children: right;
-
     padding: 0px 40px;
 }
 
@@ -26,9 +27,7 @@
 
 .HeroImage {
     background-color: black;
-
     margin: 4px 4px;
-
     width: 64px;
     height: 38px;
 }
@@ -37,7 +36,6 @@
     horizontal-align: center;
     padding-top: 30px;
     height: 700px;
-
     visibility: collapse;
 }
 

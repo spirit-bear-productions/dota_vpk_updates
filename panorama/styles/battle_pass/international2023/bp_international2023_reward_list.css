@@ -1,9 +1,10 @@
-@define mouseWheelScroll:  150px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define mouseWheelScroll: 150px;
 @define asyncDestroyDelay: 0.2s;
 @define scrollPaddingMin: 64px;
 @define scrollPaddingMax: 64px;
 @define cellMarginRight: -14px;
-
 @define rewardDefaultWidth: 198px;
 @define rewardImportantEconItemModelWidth: 250px;
 @define rewardImportant2EconItemModelWidth: 400px;
@@ -12,9 +13,7 @@
 @define rewardEllipsisWidth: 500px;
 @define rewardImportantImageWidth: 300px;
 @define rewardImportant2ImageWidth: 400px;
-
 @define rewardLineBottomMargin: 40px;
-
 International2023RewardList {
     overflow: clip;
 }
@@ -42,7 +41,6 @@ International2023RewardList {
     horizontal-align: center;
     width: 100%;
     margin-right: 36px;
-
     visibility: collapse;
 }
 
@@ -163,7 +161,6 @@ International2023RewardList {
 
 .RewardLineBackgroundContainer {
     width: 100%;
-
     vertical-align: bottom;
     margin-bottom: rewardLineBottomMargin;
 }
@@ -243,7 +240,6 @@ International2023RewardList {
     height: 4px;
     width: 81%;
     width: 100%;
-
     vertical-align: bottom;
     margin: 0 32px 0 4px;
     overflow: clip;
@@ -252,15 +248,18 @@ International2023RewardList {
     border-bottom-left-radius: 2px;
     z-index: 2;
 }
+
 #LevelProgress .ProgressBarLeft {
     background-color: secondaryColor;
     wash-color: white;
     border-radius: 0;
 }
+
 #LevelProgress .ProgressBarRight {
     background-color: black;
     border-radius: 0;
 }
+
 .RewardLevel:not(.HasReward) #LevelProgress {
     margin: 0px 36px 1px 0px;
 }
@@ -342,6 +341,7 @@ International2023RewardList {
     border-radius: 4px;
     tooltip-position: top;
 }
+
 .EconIconReward:hover .RewardLineEconIcon {
     box-shadow: none;
 }
@@ -401,7 +401,6 @@ International2023RewardList {
     height: 25px;
     pre-transform-scale2d: 4.5;
     transform: scaleY(-0.95) translateY(50px);
-
     opacity: 1;
     brightness: 1;
     saturation: 0.8;
@@ -421,7 +420,6 @@ International2023RewardList {
 .RewardLevel.Ellipsis #ItemContainer {
     height: fit-children;
     width: 340px;
-
     vertical-align: bottom;
     margin-bottom: 4px;
     horizontal-align: center;
@@ -518,19 +516,15 @@ International2023RewardList {
     horizontal-align: right;
     vertical-align: bottom;
     text-align: right;
-
     margin-right: 47px;
     margin-bottom: 50px;
-
     font-size: 28px;
     color: white;
     font-weight: bold;
     text-shadow: 2px 2px 0px black;
-
     transition-property: transform;
     transition-duration: 0.28s;
     transition-timing-function: ease-in-out;
-
     visibility: collapse;
 }
 
@@ -553,7 +547,6 @@ International2023RewardList {
     wash-color: white;
     background-color: black;
     border-radius: 50%;
-
     visibility: collapse;
 }
 
@@ -562,7 +555,6 @@ International2023RewardList {
 }
 
 @define rewardHeroItemWidth: 400px;
-
 .HeroItemReward {
     width: 400px;
 }
@@ -604,7 +596,6 @@ International2023RewardList {
     margin-bottom: 40px;
     margin-right: 38px;
     border: 2px solid transparent;
-
     transition-property: border;
     transition-duration: 0.2s;
 }
@@ -724,7 +715,6 @@ International2023RewardList {
     opacity: 0.5;
     border: 1px solid transparent;
     z-index: 1;
-
     visibility: collapse;
 }
 
@@ -826,7 +816,6 @@ International2023RewardList {
 }
 
 @define rewardChatWheelWidth: 350px;
-
 .ChatWheelReward {
     width: fill-parent-flow(1);
     vertical-align: bottom;
@@ -879,7 +868,6 @@ International2023RewardList {
     perspective-origin: 1250px 0;
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     visibility: collapse;
 }
 
@@ -924,6 +912,7 @@ International2023RewardList {
 .ChatWheelMessageAll {
     visibility: collapse;
 }
+
 .ChatWheelMessage.ChatWheelMessageSendToAll .ChatWheelMessageAll {
     visibility: visible;
 }
@@ -931,11 +920,9 @@ International2023RewardList {
 #ChatWheelMessageSoundButton {
     width: 16px;
     height: 16px;
-
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
-
     visibility: collapse;
 }
 
@@ -952,6 +939,7 @@ International2023RewardList {
 #ChatWheelMessageSoundButton:hover {
     brightness: 2;
 }
+
 #ChatWheelMessageSoundButton:active {
     brightness: 1.5;
 }
@@ -972,9 +960,7 @@ International2023RewardList {
     vertical-align: bottom;
     horizontal-align: center;
     margin-bottom: 64px;
-
     transform: translateX(-18px) translateY(20px);
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -1012,7 +998,6 @@ International2023RewardList {
     width: 24px;
     height: 24px;
     wash-color: #c2dcd9;
-
     background-image: url("s2r://panorama/images/control_icons/random_dice_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1070,12 +1055,10 @@ International2023RewardList {
     height: 24px;
     vertical-align: top;
     horizontal-align: right;
-
     background-image: url("s2r://panorama/images/control_icons/check_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     pre-transform-scale2d: 0.75;
     visibility: collapse;
 }
@@ -1088,12 +1071,15 @@ International2023RewardList {
     width: 100%;
     flow-children: down;
 }
+
 .ActionListRewardType.ChatWheelRewardType .ActionListItem {
     width: 100%;
 }
+
 .ActionListRewardType.ChatWheelRewardType .ActionListItem #RewardContainer {
     width: 100%;
 }
+
 .ActionListRewardType.ChatWheelRewardType .ActionListItemClaimedIcon {
     horizontal-align: right;
     width: 16px;
@@ -1224,7 +1210,6 @@ International2023RewardList {
     background-image: url("s2r://panorama/images/cavern/style_ring_bg_psd.vtex");
     background-size: 100%;
     background-repeat: no-repeat;
-
     wash-color: #9fc4ff;
 }
 
@@ -1300,7 +1285,6 @@ International2023RewardList {
 }
 
 @define level1Width: 580px;
-
 #Level1 {
     overflow: noclip;
 }
@@ -1374,9 +1358,7 @@ International2023RewardList {
 }
 
 @define level175Snippet: RewardLevel_LegacyChatWheel;
-
 @define level175Width: 300px;
-
 .LegacyChatWheel .LevelContents {
     width: 100%;
     flow-children: down;
@@ -1414,7 +1396,6 @@ International2023RewardList {
 }
 
 @define level250Width: 500px;
-
 #Level250 .LevelContents {
     width: 100%;
     height: 100%;
@@ -1438,6 +1419,7 @@ International2023RewardList {
     horizontal-align: right;
     flow-children: down;
 }
+
 #Level250 .LevelDetails .AegisTitle {
     font-family: titleFont;
     color: white;
@@ -1456,7 +1438,6 @@ International2023RewardList {
 
 #Level250 .RegisterButton {
     horizontal-align: center;
-
     visibility: collapse;
 }
 

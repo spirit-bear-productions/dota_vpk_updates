@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .TooltipProfileCard {
     flow-children: down;
 }
@@ -9,6 +11,7 @@
 #MiniShowcase {
     visibility: collapse;
 }
+
 .ShowMiniShowcase #MiniShowcase {
     visibility: visible;
 }
@@ -16,14 +19,13 @@
 .EventLevelContainer {
     width: 100%;
     flow-children: right;
-
     visibility: collapse;
-
     background-image: url("s2r://panorama/images/events/crownfall/backgrounds/bg_act2_png.vtex");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .ShowEventLevel .EventLevelContainer {
     visibility: visible;
 }
@@ -46,6 +48,7 @@
     padding: 4px;
     visibility: collapse;
 }
+
 .ShowPartySection #PartySection {
     visibility: visible;
 }
@@ -86,6 +89,7 @@
 .NoBans .Bans .HasBansLabel {
     visibility: collapse;
 }
+
 .NoBans .Bans .NoBansLabel {
     visibility: visible;
 }

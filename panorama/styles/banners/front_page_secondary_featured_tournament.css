@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FeaturedTournamentCell {
     flow-children: down;
     background-color: black;
@@ -25,7 +27,6 @@
     letter-spacing: 2px;
     font-weight: bold;
     color: #f6d0ff;
-
     padding: 6px 12px;
 }
 
@@ -38,7 +39,6 @@
     margin-top: 4px;
     font-size: 38px;
     color: gradient(linear, 0% 0%, 0% 100%, from(#f6d0ff), to(#fff0ff));
-
     text-shadow: 0px 0px 8px #b542bf80;
 }
 
@@ -49,19 +49,15 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     horizontal-align: center;
-
     color: #d881ff;
 }
 
 .WatchButton {
     padding: 0px 32px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#f6d0ff), to(#fff0ff));
-
     box-shadow: 0px 0px 8px rgba(181, 66, 191, 0.164);
-
     margin-bottom: 24px;
     horizontal-align: center;
-
     transition-property: background-color;
     transition-duration: 0.2s;
 }
@@ -77,7 +73,6 @@
     horizontal-align: center;
     margin-bottom: 0px;
     vertical-align: middle;
-
     transition-property: color;
     transition-duration: 0.2s;
 }

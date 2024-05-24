@@ -1,12 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupPlayerCardSelect.PopupPanel {
     width: 1290px;
     height: 450px;
-
     padding: 0px;
-
     horizontal-align: center;
     vertical-align: center;
-
     background-image: url("s2r://panorama/images/compendium/international2020/compendium/compendium_bg_psd.vtex");
     background-img-opacity: 0.2;
     background-size: cover;
@@ -46,17 +45,14 @@ DOTAPopupPlayerCardSelect.PopupPanel {
     width: 100%;
     height: 60px;
     background-color: #000000aa;
-
     vertical-align: top;
     padding-right: 50px;
 }
 
 .Header Label {
     color: #cccccc;
-
     vertical-align: center;
     padding-left: 20px;
-
     font-size: 22px;
 }
 
@@ -64,7 +60,6 @@ DOTAPopupPlayerCardSelect.PopupPanel {
     vertical-align: center;
     horizontal-align: right;
     margin-right: 10px;
-
     border-width: 1px;
     border-color: white;
     border-brush: gradient(
@@ -106,13 +101,12 @@ DOTAPopupPlayerCardSelect.PopupPanel {
     width: 100%;
     height: 340px;
     margin: 0px 35px;
-
     horizontal-align: center;
 }
+
 #CardCarousel DOTAPlayerCard {
     margin-top: 30px;
     opacity: 0;
-
     transition-property: opacity, position, transform;
     transition-duration: 0.3s, 0.3s, 0.1s;
     transition-timing-function: ease-in-out;
@@ -125,15 +119,19 @@ DOTAPopupPlayerCardSelect #CardCarousel DOTAPlayerCard.CarouselHidden {
 #CardCarousel DOTAPlayerCard.LeftOfFocus1 {
     x: -140px;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus2 {
     x: -360px;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus3 {
     x: -580px;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus4 {
     x: -800px;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus5 {
     x: -1020px;
 }
@@ -141,15 +139,19 @@ DOTAPopupPlayerCardSelect #CardCarousel DOTAPlayerCard.CarouselHidden {
 #CardCarousel DOTAPlayerCard.RightOfFocus5 {
     x: 1180px;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus6 {
     x: 1400px;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus7 {
     x: 1620px;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus8 {
     x: 1840px;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus9 {
     x: 2060px;
 }
@@ -157,15 +159,19 @@ DOTAPopupPlayerCardSelect #CardCarousel DOTAPlayerCard.CarouselHidden {
 #CardCarousel DOTAPlayerCard.Focused {
     x: 80px;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus1 {
     x: 300px;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus2 {
     x: 520px;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus3 {
     x: 740px;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus4 {
     x: 960px;
 }

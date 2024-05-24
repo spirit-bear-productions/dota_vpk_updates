@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAFrontpageTrueSightButton {
     flow-children: none;
     background-color: gradient(linear, 100% 0%, 100% 100%, from(#192229), to(#000000));
@@ -11,9 +13,7 @@ DOTAFrontpageTrueSightButton {
 #Episode {
     horizontal-align: center;
     vertical-align: top;
-
     margin-top: 110px;
-
     font-size: 24px;
     color: white;
     text-shadow: 0px 0px 8px 8 black;
@@ -24,13 +24,10 @@ DOTAFrontpageTrueSightButton {
 #AvailableLabel {
     horizontal-align: center;
     vertical-align: top;
-
     margin-top: 150px;
-
     font-size: 24px;
     color: white;
     text-shadow: 0px 0px 8px 8 black;
-
     visibility: collapse;
 }
 
@@ -51,13 +48,10 @@ DOTAFrontpageTrueSightButton {
 .VideoLink {
     font-size: 20px;
     color: #dddddd;
-
     text-shadow: 0px 0px 8px 8 black;
-
     transition-property: color;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-
     visibility: collapse;
 }
 
@@ -71,14 +65,12 @@ DOTAFrontpageTrueSightButton {
     horizontal-align: center;
     vertical-align: bottom;
     margin-bottom: 40px;
-
     font-size: 30px;
 }
 
 #WatchEnglish {
     horizontal-align: left;
     vertical-align: bottom;
-
     margin-left: 60px;
     margin-bottom: 60px;
 }
@@ -86,7 +78,6 @@ DOTAFrontpageTrueSightButton {
 #WatchEnglishSubs {
     horizontal-align: left;
     vertical-align: bottom;
-
     margin-left: 60px;
     margin-bottom: 20px;
 }
@@ -94,7 +85,6 @@ DOTAFrontpageTrueSightButton {
 #WatchRussian {
     horizontal-align: left;
     vertical-align: bottom;
-
     margin-left: 200px;
     margin-bottom: 60px;
 }
@@ -102,7 +92,6 @@ DOTAFrontpageTrueSightButton {
 #WatchChinese {
     horizontal-align: left;
     vertical-align: bottom;
-
     margin-left: 200px;
     margin-bottom: 20px;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPlusButton {
     height: 62px;
     width: 70px;
@@ -17,13 +19,11 @@ DOTAPlusButton:active {
     height: 100%;
     horizontal-align: center;
     margin-left: 5px;
-
     background-image: dotaPlusLogoSmall;
     background-size: 26px 30px;
     background-repeat: no-repeat;
     background-position: 0% 50%;
     img-shadow: 0px 0px 12px #000000;
-
     brightness: 1;
     saturation: 1;
 }
@@ -48,7 +48,6 @@ DOTAPlusButton:active {
     margin-bottom: 6px;
     margin-right: 2px;
     text-shadow: 1px 1px 4px black;
-
     visibility: collapse;
 }
 

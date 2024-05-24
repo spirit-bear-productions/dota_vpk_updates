@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAStoreBrowsePage {
     margin-top: 130px;
     width: 100%;
@@ -13,12 +15,9 @@ DOTAStoreBrowsePage {
 
 #SearchBox {
     flow-children: right;
-
     border: 1px solid baseBorder;
     height: 36px;
-
     padding: 5px 7px 3px 7px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#111111ff), to(#222222ff));
 }
 
@@ -35,6 +34,7 @@ DOTAStoreBrowsePage {
     vertical-align: middle;
     visibility: collapse;
 }
+
 .HasSearchQuery #ClearSearchButton {
     visibility: visible;
 }
@@ -62,24 +62,19 @@ DOTAStoreBrowsePage {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
-
     border-top: 1px solid #3b404777;
     border-right: 1px solid #00000088;
     border-left: 1px solid #4c434677;
     border-bottom: 1px solid #00000088;
-
     box-shadow: fill #00000055 1px 1px 6px 0px;
-
     transition-property: box-shadow, brightness;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
-
     flow-children: down;
     height: 108px;
     width: 300px;
     margin-bottom: 8px;
     margin-right: 8px;
-
     overflow: squish scroll;
 }
 
@@ -144,7 +139,6 @@ DOTAStoreBrowsePage {
     width: 100%;
     flow-children: down;
     margin-bottom: 10px;
-
     transition-property: position;
     transition-duration: 0.3s;
 }
@@ -164,9 +158,11 @@ DOTAStoreBrowsePage {
     color: gradient(linear, 100% 0%, 0% 0%, from(#c29339), to(#f0cf84));
     text-shadow: 0px 0px 4px #b63a14cc;
 }
+
 #SinglesDaySaleCountdown {
     visibility: collapse;
 }
+
 #SinglesDaySaleCountdown.CountdownActive {
     visibility: visible;
 }
@@ -179,10 +175,8 @@ DOTAStoreBrowsePage {
     margin-left: 16px;
     margin-bottom: 4px;
     flow-children: down;
-
     opacity: 0;
     visibility: collapse;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-delay: 0.1s;
@@ -245,13 +239,11 @@ DOTAStoreBrowsePage {
     flow-children: right;
     border: 1px solid #aaa;
     margin-top: 2px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#292e2e), to(#191e1e));
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     background-repeat: no-repeat;
     background-position: right 38px 37%;
     background-size: 32px 32px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -290,7 +282,6 @@ DOTAStoreBrowsePage {
 #DeveloperMode {
     margin-left: 20px;
     margin-bottom: 14px;
-
     visibility: collapse;
 }
 
@@ -352,6 +343,7 @@ DOTAStoreItem {
     margin-right: 8px;
     visibility: collapse;
 }
+
 .SearchInProgress #SearchInProgressSpinner {
     visibility: visible;
 }

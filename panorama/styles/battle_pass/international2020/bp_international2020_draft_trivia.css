@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #ContentsContainer {
     width: 100%;
     height: 100%;
@@ -74,7 +76,6 @@
 
 #RightInfo {
     width: 200px;
-
     flow-children: down;
     horizontal-align: right;
     margin-top: 6px;
@@ -100,13 +101,11 @@
 
 .PrevResult {
     text-align: right;
-
     color: #ffffff50;
     font-size: 16px;
     max-width: 200px;
     text-overflow: shrink;
     font-weight: light;
-
     margin-top: 5px;
     border: 1px solid #ffffff10;
     horizontal-align: right;
@@ -186,10 +185,8 @@
 #GuessWhoWonLabel {
     horizontal-align: center;
     vertical-align: bottom;
-
     color: #ffffffaa;
     font-size: 17px;
-
     margin-bottom: 25px;
     color: #999999;
 }
@@ -224,7 +221,6 @@
 
 .DraftTriviaTimeLeftContainer {
     horizontal-align: left;
-
     vertical-align: bottom;
     width: 100%;
     height: 25px;
@@ -289,7 +285,6 @@ DOTAHeroImage {
     text-align: center;
     font-size: 14px;
     vertical-align: middle;
-
     color: #ffffff90;
 }
 
@@ -301,7 +296,6 @@ DOTAHeroImage {
 #VoteRadiant {
     background-color: #1a1a1a;
     border-top: 1.5px solid #31866a;
-
     transition-property: background-color;
 }
 
@@ -312,7 +306,6 @@ DOTAHeroImage {
 #VoteDire {
     background-color: #1a1a1a;
     border-top: 1.5px solid #a3424f;
-
     transition-property: background-color;
 }
 
@@ -538,7 +531,6 @@ DOTADashboard:not(.GlobalEventEnded) .ErrorLoadingData #ReloadDraftTriviaMatch {
     color: #ffffff50;
     font-size: 18px;
     font-weight: light;
-
     text-transform: uppercase;
     padding: 5px 10px;
     background-color: #000000;

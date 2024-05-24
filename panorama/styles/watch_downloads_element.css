@@ -1,15 +1,13 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAWatchDownloadsElement {
     flow-children: right;
-
     width: 100%;
     height: 80px;
-
     border-bottom: 1px;
     border-color: #333333;
     border-style: solid;
-
     background-color: #000000cc;
-
     transition-property: height;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -30,16 +28,13 @@ DOTAWatchDownloadsElement.SortHidden {
 #LeftBlock {
     width: 400px;
     height: 100%;
-
     padding-left: 10px;
-
     flow-children: down;
 }
 
 #TopLeftBlock {
     width: 100%;
     margin-right: 20px;
-
     border-bottom: 1px;
     border-style: solid;
     border-color: #202020;
@@ -52,7 +47,6 @@ DOTAWatchDownloadsElement.SortHidden {
 #Name {
     margin-top: 10px;
     vertical-align: middle;
-
     font-size: 24px;
     color: white;
 }
@@ -60,12 +54,9 @@ DOTAWatchDownloadsElement.SortHidden {
 #NameEditIcon {
     width: 18px;
     height: 18px;
-
     background-size: 100%;
-
     margin-top: 16px;
     margin-left: 10px;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.1s;
@@ -90,10 +81,8 @@ DOTAWatchDownloadsElement.SortHidden {
     padding-left: 4px;
     vertical-align: middle;
     height: 32px;
-
     font-size: 24px;
     color: white;
-
     visibility: collapse;
 }
 
@@ -104,29 +93,22 @@ DOTAWatchDownloadsElement.SortHidden {
 #Details {
     width: 100%;
     height: fill-parent-flow(1);
-
     margin-top: 8px;
-
     flow-children: right;
 }
 
 #MatchID {
     width: 180px;
     height: 100%;
-
     margin-right: 20px;
-
     color: #666666;
-
     font-size: 16px;
 }
 
 #Duration {
     horizontal-align: right;
     margin-right: 20px;
-
     color: #666666;
-
     font-size: 16px;
 }
 
@@ -157,25 +139,21 @@ DOTAWatchDownloadsElement.SortHidden {
 #NoMatchDetailsText {
     width: 100%;
     margin-top: 20px;
-
     text-align: center;
 }
 
 #HeroBlock {
     margin-top: 8px;
-
     flow-children: right;
 }
 
 .HeroImage {
     width: 32px;
     height: 42px;
-
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 4px;
     margin-bottom: 4px;
-
     background-color: #222;
 }
 
@@ -203,11 +181,8 @@ DOTAWatchDownloadsElement.SortHidden {
 .Date {
     width: 100%;
     height: 16px;
-
     text-align: center;
-
     font-size: 15px;
-
     color: #888;
 }
 
@@ -225,7 +200,6 @@ DOTAWatchDownloadsElement.SortHidden {
     margin-top: 8px;
     margin-left: 6px;
     flow-children: down;
-
     width: 300px;
 }
 
@@ -257,9 +231,7 @@ DOTAWatchDownloadsElement.SortHidden {
 #SizeDeleteBlock {
     width: fill-parent-flow(1);
     height: 40px;
-
     vertical-align: middle;
-
     flow-children: down;
 }
 
@@ -281,6 +253,5 @@ DOTAWatchDownloadsElement.SortHidden {
 #Watch {
     vertical-align: middle;
     horizontal-align: right;
-
     margin-right: 30px;
 }

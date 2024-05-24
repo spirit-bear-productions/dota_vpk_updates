@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #DOTAPudgePersonaDebutPage {
     width: 100%;
     height: 100%;
@@ -13,17 +15,14 @@
     transform: scaleX(1);
     width: 100%;
     height: 100%;
-
     pre-transform-scale2d: 1;
     vertical-align: middle;
     horizontal-align: center;
     saturation: 0;
     contrast: 1.03;
-
     transition-property: opacity, wash-color, saturation, contrast;
     transition-duration: 0.9s;
     transition-timing-function: ease-in;
-
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -45,14 +44,12 @@
     height: fit-children;
     opacity: 0;
     margin-top: 00px;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in;
     horizontal-align: right;
     margin-right: 30px;
     vertical-align: middle;
-
     overflow: noclip;
 }
 
@@ -86,7 +83,6 @@
     width: 600px;
     height: fit-children;
     flow-children: down;
-
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -145,10 +141,8 @@
     background-size: 50%;
     width: 48px;
     height: 48px;
-
     background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_wraith_king/close_png.vtex");
     background-size: 32px;
-
     transition-property: background-size, transform;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -187,7 +181,6 @@
 #TitleContainer {
     width: 100%;
     horizontal-align: center;
-
     transition-property: hue-rotation, wash-color, saturation;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -244,7 +237,6 @@
     transition-property: wash-color;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
-
     border: 1px solid transparent;
     border-radius: 0px;
     background-size: 100%;
@@ -265,7 +257,6 @@ VerticalScrollBar:active .ScrollThumb {
     width: 100%;
     height: 100%;
     wash-color: #000;
-
     transition-property: wash-color;
     transition-duration: 1.3s;
     transition-timing-function: ease-in;
@@ -325,9 +316,7 @@ VerticalScrollBar:active .ScrollThumb {
     width: fit-children;
     height: 48px;
     vertical-align: middle;
-
     margin-right: 24px;
-
     box-shadow: fill #00000090 1px 0px 1px 4px;
 }
 
@@ -335,7 +324,6 @@ VerticalScrollBar:active .ScrollThumb {
     height: 48px;
     font-size: 16px;
     margin-right: 0;
-
     box-shadow: fill #00000090 1px 0px 1px 4px;
 }
 
@@ -377,12 +365,10 @@ VerticalScrollBar:active .ScrollThumb {
     horizontal-align: right;
     padding: 50px;
     margin: 50px;
-
     background-image: url("s2r://panorama/images/compendium/international2020/wriath_king_arcana/seal-solo_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 1;
-
     transition-property: opacity, brightness;
     transition-duration: 1s, 0.2s;
 }
@@ -440,9 +426,7 @@ VerticalScrollBar:active .ScrollThumb {
     vertical-align: bottom;
     margin-left: 50px;
     margin-bottom: 50px;
-
     opacity: 0;
-
     transition-property: opacity, brightness;
     transition-duration: 0.3s;
 }
@@ -489,7 +473,6 @@ VerticalScrollBar:active .ScrollThumb {
     border: 1px solid #b28948;
     border-radius: 3px;
     margin-right: 10px;
-
     transition-property: background-color;
     transition-duration: 0.2s;
     width: 236px;
@@ -503,7 +486,6 @@ VerticalScrollBar:active .ScrollThumb {
 
 .BuyBattlePassButton {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#b28948), to(#3a1803));
-
     border-top: 1px solid #d9b863;
     box-shadow: 0px 0px 20px #d9b86320;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#e8cf8d), to(#503712));
@@ -528,22 +510,16 @@ VerticalScrollBar:active .ScrollThumb {
 
 .BuyBattlePassButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#222222), to(#4b555d));
-
     background-size: cover;
     border: 1px solid #83838390;
-
     margin: 8px;
-
     min-width: 192px;
     max-width: 500px;
     padding: 0px 20px;
     height: 44px;
-
     background-color: #00000090;
-
     border: 1px solid #718d9f;
     border-radius: 5px;
-
     transition-property: background-color, wash-color, transform;
     transition-delay: 0s;
     transition-duration: 0.1s;
@@ -555,13 +531,11 @@ VerticalScrollBar:active .ScrollThumb {
     font-size: 20px;
     horizontal-align: center;
     vertical-align: middle;
-
     text-transform: uppercase;
     text-overflow: shrink;
     text-shadow: 0px 0px 5px 3 #000000;
     font-weight: semi-bold;
     letter-spacing: 1px;
-
     font-size: 16px;
     font-weight: semi-bold;
     letter-spacing: 1px;
@@ -674,7 +648,6 @@ VerticalScrollBar:active .ScrollThumb {
     height: 500px;
     vertical-align: top;
     flow-children: down;
-
     visibility: collapse;
 }
 

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .ChangeLogEntry {
     width: 100%;
     border-bottom: 2px solid #1e252f;
@@ -152,17 +154,13 @@
 .ViewLog {
     horizontal-align: right;
     vertical-align: center;
-
     width: 11px;
     height: 11px;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_top_right_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 50%;
-
     wash-color: #687689;
-
     visibility: collapse;
 }
 

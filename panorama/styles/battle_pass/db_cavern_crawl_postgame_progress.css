@@ -1,17 +1,17 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define StartingScale: 0.37f;
 @define Scale: 1.0f;
 @define InitialDelay: 1.0f;
 @define UpdateDelay: 0.4f;
 @define PostAnimDelay: 0.8f;
 @define FooterFadeTime: 0.0001s;
-
 DOTACavernCrawlPostGameProgress {
     width: 100%;
     height: 100%;
     vertical-align: center;
     horizontal-align: center;
     flow-children: down;
-
     border: 0px;
     padding: 0px;
 }
@@ -70,11 +70,9 @@ DOTACavernCrawlPostGameProgress.Loaded .CavernCrawl {
     width: 3072px;
     height: 3072px;
     overflow: noclip;
-
     vertical-align: center;
     horizontal-align: center;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_png.vtex");
-
     transition-property: transform;
     transition-delay: 0s;
     transition-timing-function: ease-out;
@@ -131,7 +129,6 @@ DOTACavernCrawlPostGameProgress.Loaded .CavernCrawl {
     vertical-align: center;
     margin-right: 8px;
     wash-color: accentColorBright;
-
     background-image: bp_cavern_crawl_logo;
     background-size: 100% 100%;
     background-position: 50% 50%;
@@ -154,7 +151,6 @@ DOTACavernCrawlPostGameProgress.Loaded .CavernCrawl {
 .CCMapVariant {
     width: 100%;
     visibility: collapse;
-
     horizontal-align: center;
     flow-children: down;
 }
@@ -353,7 +349,6 @@ DOTACavernCrawlPostGameProgress.Loaded .CavernCrawl {
     wash-color: #dddddd;
     font-size: 18px;
     font-weight: semi-bold;
-
     transition-property: wash-color;
     transition-duration: 0.5s;
 }
@@ -392,7 +387,6 @@ DOTACavernCrawlPostGameProgress.Loaded .CavernCrawl {
     font-size: 20px;
     overflow: clip;
     color: white;
-
     vertical-align: top;
     visibility: collapse;
     white-space: normal;

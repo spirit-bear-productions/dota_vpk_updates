@@ -1,6 +1,7 @@
-@define PD_DireColor:  #FF5238;
-@define PD_RadiantColor: #4BC79A;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define PD_DireColor: #FF5238;
+@define PD_RadiantColor: #4BC79A;
 .PD {
     width: 100%;
     height: 100%;
@@ -16,10 +17,8 @@
     horizontal-align: center;
     vertical-align: center;
     margin-bottom: 320px;
-
     opacity: 0;
     transform: scale3d(0.9, 0.9, 1);
-
     transition-property: opacity, transform;
     transition-duration: 0.6s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
@@ -28,7 +27,6 @@
 .PD__Intro .PDIntro {
     opacity: 1;
     transform: scale3d(1, 1, 1);
-
     transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0.8, 0, 1, 0.2);
 }
@@ -37,7 +35,6 @@
     horizontal-align: center;
     font-family: titleFont;
     text-transform: uppercase;
-
     color: white;
     font-weight: bold;
     font-size: 80px;
@@ -49,13 +46,13 @@
     horizontal-align: center;
     margin-bottom: -160px;
 }
+
 .PDIntroBadgeContainer .PDIntroParticles {
     width: 520px;
     height: 520px;
     horizontal-align: center;
     vertical-align: center;
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_png.vtex");
-
     opacity: 0.4;
     hue-rotation: 180deg;
     saturation: 0.6;
@@ -65,7 +62,6 @@
     horizontal-align: center;
     vertical-align: center;
     margin-bottom: 16px;
-
     width: 100px;
     height: 100px;
     ui-scale: 200%;
@@ -89,10 +85,8 @@
 .PDVersus {
     width: 100%;
     height: 100%;
-
     opacity: 0;
     transform: scale3d(0.95, 0.95, 1);
-
     transition-property: opacity, transform;
     transition-duration: 0.3s, 4s;
     transition-timing-function: ease, cubic-bezier(0, 1, 0, 1);
@@ -109,13 +103,12 @@
     horizontal-align: center;
     vertical-align: top;
     margin-top: 310px;
-
     transition-property: transform, opacity;
     transition-duration: 0.25s, 0.05s;
     transition-timing-function: cubic-bezier(1, 0, 0, 1);
-
     opacity: 0;
 }
+
 .PD__VersusCaptainsCollide .PDCaptain {
     transform: none;
     opacity: 1;
@@ -139,20 +132,19 @@
     height: 360px;
     margin-bottom: 120px;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.8s;
-
     opacity-mask: url("s2r://panorama/images/masks/left_right_blur_png.vtex");
 }
+
 .TeamBackgrounds .TeamBackgroundContainer {
     width: 960px;
     height: 100%;
     horizontal-align: center;
-
     transition-property: trasnform;
     transition-duration: 0.8s;
 }
+
 .TeamBackgrounds .TeamBackgroundContainer.Radiant {
     transform: translateX(-480px) skewX(-16deg);
     background-color: rgb(45, 51, 45);
@@ -169,6 +161,7 @@
     height: 100%;
     transform: skewX(16deg) scale3d(1.15, 1.15, 1);
 }
+
 .TeamBackgrounds .TeamBackgroundContainer .BackgroundImage .TeamScenePanel {
     width: 100%;
     height: 100%;
@@ -187,7 +180,6 @@
     margin-top: 40px;
     background-color: black;
     box-shadow: 0px 16px 128px -12px rgba(0, 0, 0, 0.6);
-
     blur: gaussian(5);
     brightness: 0.7;
 }
@@ -196,10 +188,10 @@
     width: 100px;
     height: 100px;
     ui-scale: 200%;
-
     vertical-align: top;
     horizontal-align: center;
 }
+
 .PDCaptain__HideRank .PDCaptainBadge {
     visibility: collapse;
 }
@@ -211,9 +203,9 @@
     margin-bottom: 36px;
     color: rgba(255, 255, 255, 0.8);
     text-shadow: 0px 2px 12px 2 black;
-
     visibility: collapse;
 }
+
 .PDCaptain__IsBot .PDCaptainName {
     visibility: visible;
 }
@@ -226,6 +218,7 @@
     color: rgba(255, 255, 255, 0.8);
     text-shadow: 0px 2px 12px 2 black;
 }
+
 .PDCaptain__IsBot .PDCaptainPersona {
     visibility: collapse;
 }
@@ -237,16 +230,15 @@
     vertical-align: center;
     margin-bottom: 80px;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     opacity: 0;
     hue-rotation: 180deg;
     saturation: 0.6;
-
     transition-property: opacity, transform;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0, 1, 0, 1);
     transition-delay: 0.1s;
 }
+
 .PD__VersusBadge .PDVsParticleBurst {
     opacity: 1;
 }
@@ -257,19 +249,17 @@
     margin-bottom: 120px;
     width: 160px;
     height: 160px;
-
     opacity: 0;
     transform: scale3d(5, 5, 1);
     brightness: 10;
-
     transition-property: opacity, transform, brightness;
     transition-duration: 0.4s, 0.4s, 0.8s;
     transition-timing-function: cubic-bezier(0, 1, 0, 1);
     transition-delay: 0s;
-
     background-image: url("s2r://panorama/images/hud/immortal_team_picker/vs_badge_png.vtex");
     background-size: cover;
 }
+
 .PDIntroVsBadge Label {
     vertical-align: center;
     horizontal-align: center;
@@ -302,6 +292,7 @@
     padding: 0px 2px;
     flow-children: down;
 }
+
 .PDPick .Top {
     width: 100%;
     height: 50%;
@@ -318,6 +309,7 @@
 .PDPick.PDPick__Past.PDPick__Radiant .Top {
     background-color: PD_RadiantColor&99;
 }
+
 .PDPick.PDPick__Past.PDPick__Radiant .Bottom {
     background-color: PD_RadiantColor&99;
 }
@@ -325,6 +317,7 @@
 .PDPick.PDPick__Past.PDPick__Dire .Top {
     background-color: PD_DireColor&99;
 }
+
 .PDPick.PDPick__Past.PDPick__Dire .Bottom {
     background-color: PD_DireColor&99;
 }
@@ -336,12 +329,15 @@
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
 }
+
 .PDPick.PDPick__Current.PDPick__Radiant .Top {
     background-color: PD_RadiantColor;
 }
+
 .PDPick.PDPick__Current.PDPick__Radiant .Bottom {
     background-color: PD_RadiantColor;
 }
+
 .PDPick.PDPick__Current.PDPick__Dire {
     animation-name: GlowDirePickSequenceItem;
     animation-duration: 0.75s;
@@ -349,60 +345,74 @@
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
 }
+
 .PDPick.PDPick__Current.PDPick__Dire .Top {
     background-color: PD_DireColor;
 }
+
 .PDPick.PDPick__Current.PDPick__Dire .Bottom {
     background-color: PD_DireColor;
 }
+
 .PDPick.PDPick__Future .Top {
     border-left: 1px solid white;
     border-right: 1px solid white;
     border-top: 1px solid white;
 }
+
 .PDPick.PDPick__Future .Bottom {
     border-left: 1px solid white;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
 }
+
 .PDPick.PDPick__Future.PDPick__Radiant .Top {
-    border-color: PD_RadiantColor & 66;
+    border-color: PD_RadiantColor&66;
 }
+
 .PDPick.PDPick__Future.PDPick__Radiant .Bottom {
-    border-color: PD_RadiantColor & 66;
+    border-color: PD_RadiantColor&66;
 }
+
 .PDPick.PDPick__Future.PDPick__Dire .Top {
-    border-color: PD_DireColor & 66;
+    border-color: PD_DireColor&66;
 }
+
 .PDPick.PDPick__Future.PDPick__Dire .Bottom {
-    border-color: PD_DireColor & 66;
+    border-color: PD_DireColor&66;
 }
+
 @keyframes 'GlowRadiantPickSequenceItem' {
     0% {
-        box-shadow: 0px 0px 24px PD_RadiantColor & 00;
+        box-shadow: 0px 0px 24px PD_RadiantColor&00;
         brightness: 1;
     }
+
     100% {
-        box-shadow: 0px 0px 40px PD_RadiantColor & 66;
+        box-shadow: 0px 0px 40px PD_RadiantColor&66;
         brightness: 5;
     }
 }
+
 @keyframes 'GlowDirePickSequenceItem' {
     0% {
-        box-shadow: 0px 0px 24px PD_DireColor & 00;
+        box-shadow: 0px 0px 24px PD_DireColor&00;
         brightness: 1;
     }
+
     100% {
-        box-shadow: 0px 0px 40px PD_DireColor & 66;
+        box-shadow: 0px 0px 40px PD_DireColor&66;
         brightness: 5;
     }
 }
+
 .PDVsTop {
     horizontal-align: center;
     vertical-align: top;
     margin-top: 200px;
     flow-children: down;
 }
+
 .PDVsBottom {
     horizontal-align: center;
     vertical-align: top;
@@ -410,15 +420,17 @@
     width: 760px;
     flow-children: down;
     opacity: 0;
-    transform: translateY (24px);
+    transform: translateY(24px);
     transition-property: opacity, transform;
     transition-duration: 0.2s;
-    transition-timing-function: cubic-bezier (1, 0, 1, 0);
+    transition-timing-function: cubic-bezier(1, 0, 1, 0);
 }
+
 .PD__Description .PDVsBottom {
     opacity: 1;
     transform: none;
 }
+
 .PDDraft {
     width: 100%;
     height: 100%;
@@ -427,24 +439,30 @@
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
 }
+
 .PD__ListPlayers .PDDraft {
     opacity: 1;
 }
+
 .PD__StartDraft .PDDraft {
     opacity: 1;
 }
+
 .PD__DraftActive .PDDraft {
     opacity: 1;
 }
+
 .PDPlayers {
     vertical-align: top;
     horizontal-align: center;
     margin-top: 300px;
     flow-children: down;
 }
+
 .PDPlayerList {
     flow-children: right;
 }
+
 .DraftPlayer {
     flow-children: down;
     width: 200px;
@@ -452,71 +470,61 @@
     margin: 0px 4px;
     transition-property: transform, opacity, saturation;
     transition-duration: 0.4s;
-    transition-timing-function: cubic-bezier (0, 1, 0, 1);
-    transform: scale3d (0.9, 0.9, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0, 1);
+    transform: scale3d(0.9, 0.9, 1);
     opacity: 0;
 }
+
 .DraftPlayer .DraftPlayerBackground {
     width: 100%;
     height: 100%;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#1a1c21),
-            to (#090a0c)
-        );
-    border: 1px solid rgba (0, 0, 0, 0.2);
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#1a1c21), to(#090a0c));
+    border: 1px solid rgba(0, 0, 0, 0.2);
     ignore-parent-flow: true;
     margin: -16px;
 }
+
 .PD__DraftActive .DraftPlayer {
     transition-duration: 0.6s;
     transition-delay: 0.1s;
 }
+
 .PD__DraftActive .DraftPlayer.DraftPlayer__Picked {
     opacity: 0.3;
     saturation: 0.1;
 }
+
 .DraftPlayer.DraftPlayer__Picked .SuggestContainer {
     visibility: collapse;
 }
+
 .AspectRatio4x3 .DraftPlayer {
     ui-scale: 82%;
 }
+
 .PickedBadge {
     ignore-parent-flow: true;
     horizontal-align: center;
     vertical-align: bottom;
     visibility: collapse;
     opacity: 0;
-    transform: translateY (-2px);
+    transform: translateY(-2px);
     ui-scale: 100%;
     transition-property: ui-scale;
     transition-duration: 0.4s;
-    transition-timing-function: cubic-bezier (0, 1, 0, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0, 1);
 }
+
 .PickedBadge Label {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: semi-bold;
-    color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#f8e8b9),
-            to (#c79123)
-        );
+    color: gradient(linear, 0% 0%, 0% 100%, from(#f8e8b9), to(#c79123));
     font-size: 18px;
     padding: 12px;
     text-shadow: 0px 0px 12px #ffe6a444;
 }
+
 .DraftPlayer__Picked .PickedBadge {
     visibility: visible;
     ui-scale: 130%;
@@ -524,21 +532,25 @@
     animation-duration: 0.6s;
     animation-timing-function: linear;
 }
+
 @keyframes 'AnimatePickedBadge' {
     0% {
         opacity: 1;
         brightness: 3;
     }
+
     40% {
         opacity: 1;
         brightness: 5;
     }
+
     100% {
-        transform: translateY (-60px);
+        transform: translateY(-60px);
         opacity: 0;
         brightness: 1;
     }
 }
+
 .LocalPlayerBadge {
     ignore-parent-flow: true;
     horizontal-align: center;
@@ -549,79 +561,72 @@
     border: 1px solid #ffffff44;
     border-radius: 3px;
     background-color: #363126;
-    border-brush: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#f8e8b9),
-            to (#c79123)
-        );
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(#f8e8b9), to(#c79123));
     box-shadow: 0px 2px 6px #00000088;
     visibility: collapse;
 }
+
 .PDCaptain__IsLocalPlayer .LocalPlayerBadge {
     visibility: visible;
 }
+
 .DraftPlayer__IsLocalPlayer .LocalPlayerBadge {
     visibility: visible;
 }
+
 .LocalPlayerBadge Label {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: semi-bold;
-    color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#f8e8b9),
-            to (#c79123)
-        );
+    color: gradient(linear, 0% 0%, 0% 100%, from(#f8e8b9), to(#c79123));
     font-size: 13px;
     text-shadow: 0px 2px 8px black;
     brightness: 1.5;
 }
+
 .LocalPlayerBadge.Captain {
     vertical-align: bottom;
     margin-top: 0px;
     box-shadow: 0px 4px 24px #00000044;
 }
+
 .LocalPlayerBadge.Captain Label {
     font-size: 16px;
 }
+
 .DraftPlayerPrefsContainer {
     width: 100%;
     flow-children: down;
     margin: 18px 0px 12px;
 }
+
 .DraftPlayer__PlayIntro {
     transform: none;
     opacity: 1;
 }
+
 .PD__DraftActive .DraftPlayer {
     transform: none;
     opacity: 1;
 }
+
 .DraftPlayerInfo {
     width: 100%;
-    height: width-percentage (100%);
+    height: width-percentage(100%);
     horizontal-align: center;
 }
+
 .DraftPlayerAvatar {
     width: 100%;
-    height: width-percentage (100%);
+    height: width-percentage(100%);
     vertical-align: top;
     horizontal-align: center;
     background-color: black;
-    blur: gaussian (10px);
+    blur: gaussian(10px);
     opacity: 0.3;
     brightness: 0.4;
 }
+
 .DraftPlayerBadge {
     margin-top: -14px;
     vertical-align: top;
@@ -630,43 +635,51 @@
     height: 100px;
     ui-scale: 128%;
 }
+
 .DraftPlayer__HideRank .DraftPlayerBadge {
     visibility: collapse;
 }
+
 .DraftPlayerName {
     vertical-align: bottom;
     horizontal-align: center;
     font-size: 22px;
-    color: rgba (255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     margin-bottom: 12px;
     text-shadow: 0px 2px 12px 2 black;
     text-overflow: shrink;
     visibility: collapse;
 }
+
 .DraftPlayer__IsBot .DraftPlayerName {
     visibility: visible;
 }
+
 .DraftPlayerPersona {
     vertical-align: bottom;
     horizontal-align: center;
     font-size: 22px;
-    color: rgba (255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     margin-bottom: 16px;
     text-shadow: 0px 2px 12px 2 black;
     text-overflow: shrink;
 }
+
 .DraftPlayer__IsBot .DraftPlayerPersona {
     visibility: collapse;
 }
+
 .DraftPlayerRoleTitle {
     horizontal-align: center;
 }
+
 .DraftPlayerRole {
     horizontal-align: center;
     flow-children: right;
     margin: 4px 0px 12px;
     height: 24px;
 }
+
 .DraftPlayerRoleIcon {
     vertical-align: center;
     width: 24px;
@@ -677,92 +690,118 @@
     background-repeat: no-repeat;
     visibility: collapse;
 }
+
 .DraftPlayer__PreferRole0 .DraftPlayerRoleIcon.Role0 {
     visibility: visible;
 }
+
 .DraftPlayer__PreferRole1 .DraftPlayerRoleIcon.Role1 {
     visibility: visible;
 }
+
 .DraftPlayer__PreferRole2 .DraftPlayerRoleIcon.Role2 {
     visibility: visible;
 }
+
 .DraftPlayer__PreferRole3 .DraftPlayerRoleIcon.Role3 {
     visibility: visible;
 }
+
 .DraftPlayer__PreferRole4 .DraftPlayerRoleIcon.Role4 {
     visibility: visible;
 }
+
 .DraftPlayerRoleIcon.Role0 {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/safelaneicon_psd.vtex");
 }
+
 .DraftPlayerRoleIcon.Role1 {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/offlaneicon_psd.vtex");
 }
+
 .DraftPlayerRoleIcon.Role2 {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/midlaneicon_psd.vtex");
 }
+
 .DraftPlayerRoleIcon.Role3 {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/softsupporticon_psd.vtex");
 }
+
 .DraftPlayerRoleIcon.Role4 {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/hardsupporticon_psd.vtex");
 }
+
 .DraftPlayerRoleText {
     vertical-align: center;
     color: #b0bcc2;
     margin-left: 4px;
     visibility: collapse;
 }
+
 .DraftPlayer__PreferRole0.DraftPlayer__SingleRole .DraftPlayerRoleText.Role0 {
     visibility: visible;
 }
+
 .DraftPlayer__PreferRole1.DraftPlayer__SingleRole .DraftPlayerRoleText.Role1 {
     visibility: visible;
 }
+
 .DraftPlayer__PreferRole2.DraftPlayer__SingleRole .DraftPlayerRoleText.Role2 {
     visibility: visible;
 }
+
 .DraftPlayer__PreferRole3.DraftPlayer__SingleRole .DraftPlayerRoleText.Role3 {
     visibility: visible;
 }
+
 .DraftPlayer__PreferRole4.DraftPlayer__SingleRole .DraftPlayerRoleText.Role4 {
     visibility: visible;
 }
+
 .DraftPlayer__NoRoles .DraftPlayerRoleText.None {
     visibility: visible;
 }
+
 .DraftPlayerTeamTitle {
     horizontal-align: center;
 }
+
 .DraftPlayerTeam {
     horizontal-align: center;
     flow-children: right;
     margin: 4px 0px 12px;
     height: 24px;
 }
+
 .DraftPlayerTeamText {
     vertical-align: center;
     visibility: collapse;
 }
+
 .DraftPlayer__PreferTeamNone .DraftPlayerTeamText.None {
     visibility: visible;
 }
+
 .DraftPlayer__PreferTeamRadiant .DraftPlayerTeamText.Radiant {
     visibility: visible;
     color: PD_RadiantColor;
 }
+
 .DraftPlayer__PreferTeamDire .DraftPlayerTeamText.Dire {
     visibility: visible;
     color: PD_DireColor;
 }
+
 .DraftPlayerSelect {
     horizontal-align: center;
     width: 100%;
     visibility: collapse;
 }
+
 .PD__LocalPlayerIsCaptain .DraftPlayerSelect {
     visibility: visible;
 }
+
 .PD__LocalPlayerPick .DraftPlayer:not(.DraftPlayer__Picked) .DraftPlayerSelect {
     animation-name: GlowDraftButtonPrimary;
     animation-duration: 1s;
@@ -770,11 +809,13 @@
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
 }
+
 .DraftPlayerSelectText {
     vertical-align: center;
     horizontal-align: center;
     color: white;
 }
+
 .SuggestContainer {
     horizontal-align: center;
     vertical-align: bottom;
@@ -784,198 +825,148 @@
     border-radius: 4px;
     transition-property: opacity, transform;
     transition-duration: 0.1s;
-    transition-timing-function: cubic-bezier (0, 0.9, 0, 0.9);
-    transform: translateY (40px);
+    transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
+    transform: translateY(40px);
     opacity: 0;
 }
+
 .PD__AltPressed:not(.PD__LocalPlayerIsSpectating) .SuggestContainer {
-    transform: translateY (32px);
+    transform: translateY(32px);
     opacity: 1;
 }
+
 .PDRecommendInstructions {
     margin-top: -35px;
     z-index: -1;
     transition-property: opacity;
     transition-duration: 0.1s;
-    transition-timing-function: cubic-bezier (0, 0.9, 0, 0.9);
+    transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
 }
+
 .PD__LocalPlayerIsSpectating .PDRecommendInstructions {
     opacity: 0;
 }
+
 .PD__AltPressed .PDRecommendInstructions {
     opacity: 0;
 }
+
 .PDDraftTop {
     horizontal-align: center;
     vertical-align: top;
     margin-top: 230px;
     flow-children: down;
     opacity: 0;
-    transform: translateY (-16px) scale3d (1.5, 1.5, 1);
+    transform: translateY(-16px) scale3d(1.5, 1.5, 1);
     transition-property: transform, opacity;
     transition-duration: 0.3s;
-    transition-timing-function: cubic-bezier (0, 1, 0, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0, 1);
 }
+
 .PD__DraftActive .PDDraftTop {
     opacity: 1;
     transform: none;
 }
+
 .PDDraftBottom {
     horizontal-align: center;
     vertical-align: top;
     margin-top: 770px;
     flow-children: down;
     opacity: 0;
-    transform: translateY (24px);
+    transform: translateY(24px);
     transition-property: transform, opacity;
     transition-duration: 0.5s;
-    transition-timing-function: cubic-bezier (0, 1, 0, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0, 1);
     transition-delay: 0.2s;
 }
+
 .PD__DraftActive .PDDraftBottom {
     opacity: 1;
     transform: none;
 }
+
 .AspectRatio4x3 .PDDraftBottom {
     margin-top: 700px;
 }
+
 .PDDraftPrefs {
     flow-children: down;
     horizontal-align: center;
 }
+
 .PDDraftPrefsButtons {
     horizontal-align: center;
     flow-children: right;
-    background-color: rgba (0, 0, 0, 0.9);
-    box-shadow: inset 0px 2px 4px rgba (0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.8);
     border-radius: 9px;
     padding: 5px 3px;
 }
+
 .PDDraftPrefsTeam {
     flow-children: right;
 }
+
 .PDDraftPrefsTeam .PDDraftPrefsButton {
     min-width: 140px;
 }
+
 .PDDraftPrefsRole {
     flow-children: right;
 }
+
 .PDDraftPrefsButton {
     border-radius: 5px;
     padding: 2px 16px;
     margin: 0px 2px;
     height: 40px;
     border: 1px solid white;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#21272a),
-            to (#121719)
-        );
-    border-brush: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (rgba (255, 255, 255, 0.02)),
-            to (rgba (255, 255, 255, 0.01))
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#21272a), to(#121719));
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.02)), to(rgba(255, 255, 255, 0.01)));
     transition-duration: 0.05s, 0.1s, 0.1s, 0.2s;
     transition-property: transform, background-color, border, brightness;
     tooltip-position: top;
 }
+
 .PDDraftPrefsButton .TickBox {
     visibility: collapse;
 }
+
 .PDDraftPrefsButton:hover {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#434e53),
-            to (#272d2f)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#434e53), to(#272d2f));
 }
+
 .PDDraftPrefsButton:hover:active {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#1f2426),
-            to (#434e53)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#1f2426), to(#434e53));
 }
+
 .PDDraftPrefsButton:hover .RoleImage {
-    wash-color: rgb (168, 168, 168);
+    wash-color: rgb(168, 168, 168);
 }
+
 .PDDraftPrefsButton:active {
-    transform: translateY (1px);
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#121719),
-            to (#21272a)
-        );
+    transform: translateY(1px);
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#121719), to(#21272a));
 }
+
 .PDDraftPrefsButton:selected {
     brightness: 2;
-    background-color: gradient
-        (
-            radial,
-            50% 50%,
-
-            0% 0%,
-
-            60% 80%,
-
-            from (#48708b),
-            to (#0d2c57)
-        );
-    border-brush: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (rgba (255, 255, 255, 0.05)),
-            to (rgba (255, 255, 255, 0.03))
-        );
+    background-color: gradient(radial, 50% 50%, 0% 0%, 60% 80%, from(#48708b), to(#0d2c57));
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.05)), to(rgba(255, 255, 255, 0.03)));
     z-index: 1;
     sound: "ui_generic_button_click";
     sound-out: "ui_generic_button_click";
 }
+
 .PDDraftPrefsButton:selected Label {
     text-shadow: 0px 0px 12px #ffffff88;
 }
+
 .PDDraftPrefsButton:selected:active {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#13334e),
-            to (#31567b)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#13334e), to(#31567b));
 }
+
 .PDDraftPrefsButton Label {
     width: 100%;
     vertical-align: center;
@@ -987,6 +978,7 @@
     transition-duration: 0.1s;
     transition-property: color, text-shadow;
 }
+
 .PDDraftPrefsButton .RoleImage {
     height: 28px;
     width: 28px;
@@ -994,41 +986,51 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    wash-color: rgb (118, 120, 130);
-    img-shadow: 0px 0px 4px rgba (0, 0, 0, 0);
+    wash-color: rgb(118, 120, 130);
+    img-shadow: 0px 0px 4px rgba(0, 0, 0, 0);
     transition-duration: 0.1s, 0.2s;
     transition-property: wash-color, img-shadow;
 }
+
 .PDDraftPrefsButton:selected .RoleImage {
     wash-color: white;
-    img-shadow: 0px 0px 24px rgba (255, 255, 255, 0.2);
+    img-shadow: 0px 0px 24px rgba(255, 255, 255, 0.2);
 }
+
 .PDDraftPrefsButton.Role0 .RoleImage {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/safelaneicon_psd.vtex");
 }
+
 .PDDraftPrefsButton.Role1 .RoleImage {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/offlaneicon_psd.vtex");
 }
+
 .PDDraftPrefsButton.Role2 .RoleImage {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/midlaneicon_psd.vtex");
 }
+
 .PDDraftPrefsButton.Role3 .RoleImage {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/softsupporticon_psd.vtex");
 }
+
 .PDDraftPrefsButton.Role4 .RoleImage {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/hardsupporticon_psd.vtex");
 }
+
 .PDDraftPrefsButton.Radiant {
     border-radius: 5px 0px 0px 5px;
     margin-right: -1px;
 }
+
 .PDDraftPrefsButton.Dire {
     border-radius: 0px 5px 5px 0px;
     margin-left: 0px;
 }
+
 .PDTurn {
     flow-children: right;
 }
+
 .PDDebug {
     visibility: collapse;
     horizontal-align: right;
@@ -1036,14 +1038,17 @@
     margin-top: 80px;
     flow-children: down;
 }
+
 .PDDebugButton {
     background-color: black;
     border: 1px solid grey;
     margin: 5px;
 }
+
 .PDDebugButton Label {
     color: white;
 }
+
 .PDSpinner {
     width: 38px;
     height: 38px;
@@ -1053,102 +1058,130 @@
     transition-property: opacity;
     transition-duration: 0.2s;
 }
+
 .CaptainOnly {
     visibility: collapse;
 }
+
 .PD__LocalPlayerIsCaptain .CaptainOnly {
     visibility: visible;
 }
+
 .PD__LocalPlayerIsCaptain .PlayerOnly {
     visibility: collapse;
 }
+
 .PD__LocalPlayerIsSpectating .PlayerOnly {
     visibility: collapse;
 }
+
 .PD__LocalPlayerDrafted .NotPickedOnly {
     visibility: collapse;
 }
+
 .PickedOnly {
     visibility: collapse;
 }
+
 .PD__LocalPlayerDrafted .PickedOnly {
     visibility: visible;
 }
+
 .InGameOnly {
     visibility: visible;
 }
+
 .PD__LocalPlayerIsSpectating .InGameOnly {
     visibility: collapse;
 }
+
 .CaptainPick {
     visibility: collapse;
 }
+
 .PD__LocalPlayerPick .CaptainPick {
     visibility: visible;
 }
+
 .RadiantNotCaptainPick {
     visibility: collapse;
 }
+
 .PD__RadiantPick:not(.PD__LocalPlayerPick) .RadiantNotCaptainPick {
     visibility: visible;
 }
+
 .DireNotCaptainPick {
     visibility: collapse;
 }
+
 .PD__DirePick:not(.PD__LocalPlayerPick) .DireNotCaptainPick {
     visibility: visible;
 }
+
 .PDSpinner {
     opacity: 0;
 }
+
 .PD__LocalPlayerIsCaptain:not(.PD__LocalPlayerPick) .PDSpinner {
     opacity: 1;
 }
+
 .IsRadiantPick {
     visibility: collapse;
 }
+
 .PD__RadiantPick .IsRadiantPick {
     visibility: visible;
 }
+
 .IsDirePick {
     visibility: collapse;
 }
+
 .PD__DirePick .IsDirePick {
     visibility: visible;
 }
+
 .PDLocators {
     horizontal-align: center;
     width: 100%;
     height: 100%;
 }
+
 .PDLocator {
     width: 1px;
     height: 1px;
     border: 1px solid red;
 }
+
 .LabelSmall {
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 1px;
     color: #6b7980;
 }
+
 .LabelSelectPrefs {
     text-transform: uppercase;
     font-size: 15px;
     letter-spacing: 1px;
-    color: hsv-transform (#6b7980, 0, 0, 2);
+    color: hsv-transform(#6b7980, 0, 0, 2);
 }
+
 .LabelMedium {
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: semi-bold;
 }
+
 .BodyExtraLarge {
     font-size: 52px;
     letter-spacing: -1px;
     color: whitesmoke;
 }
+
 .BodyExtraLarge.GlowText {
     padding: 24px;
     margin-top: -24px;
@@ -1158,46 +1191,56 @@
     animation-timing-function: ease;
     animation-direction: alternate;
 }
+
 .BodyLarge {
     font-size: 24px;
     line-height: 1.3;
     color: #b0bcc2;
 }
+
 .BodySmall {
     font-size: 16px;
     opacity: 0.4;
 }
+
 .RadiantText {
     color: PD_RadiantColor;
 }
+
 .DireText {
     color: PD_DireColor;
 }
+
 .PDTopText {
     text-align: center;
 }
+
 .PDBottomText {
     text-align: center;
 }
+
 @keyframes 'glowText' {
     0% {
         text-shadow: 0px 0px 48px #a6eaff88;
         brightness: 1.5;
     }
+
     100% {
         text-shadow: 0px 0px 48px #a6eaff00;
         brightness: 1;
     }
 }
+
 .DraftButtonPrimary,
 .DraftButtonSecondary {
     border-radius: 3px;
     padding: 10px 28px;
-    box-shadow: 0px 2px 8px rgba (0, 0, 0, 0.3);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
     transition-property: background-color, border, transform, opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease;
 }
+
 .DraftButtonPrimary Label,
 .DraftButtonSecondary Label {
     color: white;
@@ -1213,16 +1256,19 @@
     transition-duration: 0.05s;
     transition-timing-function: ease;
 }
+
 .DraftButtonPrimary.Small,
 .DraftButtonSecondary.Small {
     padding: 6px 16px;
     min-width: 0px;
 }
+
 .DraftButtonPrimary.Small Label,
 .DraftButtonSecondary.Small Label {
     font-size: 16px;
     font-weight: normal;
 }
+
 .DraftButtonPrimary.Disabled,
 .DraftButtonPrimary:disabled,
 .DraftButtonSecondary.Disabled,
@@ -1230,145 +1276,91 @@
     saturation: 0;
     opacity: 0.15;
 }
+
 .DraftButtonPrimary.Disabled Label,
 .DraftButtonPrimary:disabled Label,
 .DraftButtonSecondary.Disabled Label,
 .DraftButtonSecondary:disabled Label {
     opacity: 0.6;
 }
+
 .DraftButtonPrimary {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#387d69),
-            to (#225a49)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#387d69), to(#225a49));
     border: 1px solid #ffffff10;
 }
+
 .DraftButtonPrimary:hover:enabled:not(.Disabled) {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#51b093),
-            to (#307c64)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#51b093), to(#307c64));
 }
+
 .DraftButtonPrimary:hover:enabled:not(.Disabled) Label {
     color: white;
 }
+
 .DraftButtonPrimary:active:enabled:not(.Disabled) {
     sound: "ui_generic_button_click";
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#1d463a),
-            to (#35705e)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#1d463a), to(#35705e));
 }
+
 .DraftButtonPrimary:active:enabled:not(.Disabled) Label {
-    transform: translateY (1px);
+    transform: translateY(1px);
 }
+
 .DraftButtonSecondary {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#21272a),
-            to (#121719)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#21272a), to(#121719));
     border: 1px solid white;
-    border-brush: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (rgba (255, 255, 255, 0.02)),
-            to (rgba (255, 255, 255, 0.01))
-        );
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.02)), to(rgba(255, 255, 255, 0.01)));
 }
+
 .DraftButtonSecondary Label {
     color: baseText;
 }
+
 .DraftButtonSecondary:hover:enabled:not(.Disabled) {
     border: 1px solid #8bffd8;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#434e53),
-            to (#272d2f)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#434e53), to(#272d2f));
 }
+
 .DraftButtonSecondary:hover:enabled:not(.Disabled) Label {
     color: #ffffff;
 }
+
 .DraftButtonSecondary:hover:enabled:not(.Disabled):active {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#272d2f),
-            to (#434e53)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#272d2f), to(#434e53));
 }
+
 .DraftButtonSecondary:active:enabled:not(.Disabled) {
     sound: "ui_generic_button_click";
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#121719),
-            to (#21272a)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#121719), to(#21272a));
 }
+
 .DraftButtonSecondary:active:enabled:not(.Disabled) Label {
-    transform: translateY (1px);
+    transform: translateY(1px);
 }
+
 @keyframes 'GlowDraftButtonPrimary' {
     0% {
         box-shadow: 0px 0px 24px #8bffd800;
         brightness: 1;
     }
+
     100% {
         box-shadow: 0px 0px 40px #8bffd811;
         brightness: 2.5;
     }
 }
+
 .DPHidePicked,
 .DPHideEnemyTeam {
     transition-property: opacity;
     transition-timing-function: ease-in-out;
     transition-duration: 0.3s;
 }
+
 .DraftPlayer__Picked .DPHidePicked {
     opacity: 0;
 }
+
 .DraftPlayer__HideRoles .DPHideEnemyTeam {
     opacity: 0;
 }

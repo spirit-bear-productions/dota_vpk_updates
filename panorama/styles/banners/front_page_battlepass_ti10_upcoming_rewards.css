@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAFrontpageInternational2020UpcomingRewards {
     opacity: 0.99;
 }
@@ -5,7 +7,6 @@ DOTAFrontpageInternational2020UpcomingRewards {
 #UpcomingRewardsCarousel {
     width: 100%;
     height: 100%;
-
     flow-children: right;
     overflow: clip;
 }
@@ -13,7 +14,6 @@ DOTAFrontpageInternational2020UpcomingRewards {
 .UpcomingReward {
     width: 100%;
     height: 100%;
-
     transition-property: position;
     transition-duration: 0.2s;
 }
@@ -167,9 +167,9 @@ DOTAFrontpageInternational2020UpcomingRewards {
     font-size: 14px;
     text-shadow: 2px 2px 4px black;
     font-weight: bold;
-
     visibility: collapse;
 }
+
 .RewardComingSoon #ComingSoonLabel {
     visibility: visible;
 }
@@ -192,15 +192,12 @@ DOTAFrontpageInternational2020UpcomingRewards {
 .ChangeButton {
     width: 32px;
     height: 32px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: middle;
     margin-bottom: 8px;
-
     wash-color: accentColor;
-
     transition-property: opacity, wash-color, transform;
     transition-duration: 0.2s;
 }
@@ -217,9 +214,11 @@ DOTAFrontpageInternational2020UpcomingRewards {
     background-image: url("s2r://panorama/images/control_icons/arrow_solid_left_png.vtex");
     margin-right: -5px;
 }
+
 #PreviousButton:hover {
     transform: translateX(-2px);
 }
+
 .FirstReward #PreviousButton {
     opacity: 0;
 }
@@ -228,9 +227,11 @@ DOTAFrontpageInternational2020UpcomingRewards {
     background-image: url("s2r://panorama/images/control_icons/arrow_solid_right_png.vtex");
     margin-left: -5px;
 }
+
 #NextButton:hover {
     transform: translateX(2px);
 }
+
 .LastReward #NextButton {
     opacity: 0;
 }

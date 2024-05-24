@@ -1,19 +1,16 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHudBotDebug {
     width: 400px;
-
     horizontal-align: left;
     vertical-align: top;
-
     margin-left: 40px;
     margin-top: 60px;
     padding-top: 4px;
     padding-left: 8px;
     padding-bottom: 20px;
-
     background-color: #00000099;
-
     flow-children: down;
-
     visibility: collapse;
 }
 
@@ -78,7 +75,6 @@ DOTAHudBotDebug {
 .DesireBar #Bar {
     margin-left: 20px;
     border: 1px solid black;
-
     vertical-align: center;
 }
 
@@ -115,7 +111,6 @@ DOTAHudBotDebug {
     margin-top: 10px;
     flow-children: down;
     horizontal-align: center;
-
     border-top: 1px solid #888888;
     border-bottom: 1px solid #888888;
 }
@@ -148,9 +143,7 @@ DOTAHudBotDebug.Show {
 .ExecutionTime {
     horizontal-align: right;
     vertical-align: top;
-
     margin-top: 12px;
-
     font-size: 15px;
     color: #999999;
 }
@@ -158,10 +151,8 @@ DOTAHudBotDebug.Show {
 .TeamExecutionTime {
     horizontal-align: right;
     vertical-align: top;
-
     margin-top: 4px;
     margin-right: 4px;
-
     font-size: 15px;
     color: #999999;
 }
@@ -176,7 +167,6 @@ DOTAHudBotDebug.Show {
 .PowerBar {
     width: 0px;
     height: 10px;
-
     margin-top: 2px;
     margin-left: 35px;
     border: 1px solid black;
@@ -232,11 +222,9 @@ DOTAHudBotDebug.Show {
 #ModeList {
     flow-children: down;
     margin-left: 20px;
-
     transition-property: height;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
-
     height: 0px;
 }
 
@@ -253,11 +241,8 @@ DOTAHudBotDebug.Show {
 #ModeDesireBar {
     width: 200px;
     height: 8px;
-
     vertical-align: center;
-
     margin-left: 70px;
-
     background-color: white;
     border: 1px solid black;
 }
@@ -265,72 +250,95 @@ DOTAHudBotDebug.Show {
 .ModeColor1 {
     color: #c8a458;
 }
+
 .ModeColor2 {
     color: #ff3c3c;
 }
+
 .ModeColor3 {
     color: #ffa03c;
 }
+
 .ModeColor4 {
     color: #3cff3c;
 }
+
 .ModeColor5 {
     color: #3cffc8;
 }
+
 .ModeColor6 {
     color: #3cffc8;
 }
+
 .ModeColor7 {
     color: #ffff64;
 }
+
 .ModeColor8 {
     color: #e87c7c;
 }
+
 .ModeColor9 {
     color: #e87c7c;
 }
+
 .ModeColor10 {
     color: #e87c7c;
 }
+
 .ModeColor11 {
     color: #7ce87c;
 }
+
 .ModeColor12 {
     color: #7ce87c;
 }
+
 .ModeColor13 {
     color: #7ce87c;
 }
+
 .ModeColor14 {
     color: #ffb45a;
 }
+
 .ModeColor15 {
     color: #ffb45a;
 }
+
 .ModeColor16 {
     color: #f08c28;
 }
+
 .ModeColor17 {
     color: #dbcc27;
 }
+
 .ModeColor18 {
     color: #ff3cb4;
 }
+
 .ModeColor19 {
     color: #aaaaff;
 }
+
 .ModeColor20 {
     color: #6f7af2;
 }
+
 .ModeColor21 {
     color: #9d3838;
 }
+
 .ModeColor22 {
     color: #9d389d;
 }
+
 .ModeColor23 {
     color: #ff0000;
 }
+
 .ModeColor24 {
     color: #ff0000;
 }

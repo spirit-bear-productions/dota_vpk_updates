@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DashboardPage {
     flow-children: down;
 }
@@ -55,7 +57,6 @@
 .QuestTypeIcon {
     width: 20px;
     height: 20px;
-
     horizontal-align: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -76,7 +77,6 @@
     width: 20px;
     height: 20px;
     margin-right: 4px;
-
     background-image: url("s2r://panorama/images/control_icons/starfilled_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;

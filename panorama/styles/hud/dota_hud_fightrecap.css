@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAFightRecap {
     width: 824px;
     height: 840px;
-
     horizontal-align: center;
     vertical-align: top;
 }
@@ -9,23 +10,17 @@ DOTAFightRecap {
 #AlertPanel {
     horizontal-align: center;
     vertical-align: top;
-
     margin-top: 55px;
 }
 
 .FightRecapButton {
     background-color: #252727bb;
-
     border: 2px solid#8199C514;
     border-radius: 5px;
-
     width: fit-children;
-
     padding: 0px 16px 0px 16px;
     margin-top: 8px;
-
     box-shadow: fill #7299db01 0px 0px 12px 0px;
-
     vertical-align: middle;
     width: 200px;
 }
@@ -38,9 +33,7 @@ DOTAFightRecap {
 
 .FightRecapButton Label {
     horizontal-align: center;
-
     padding: 8px;
-
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -51,7 +44,6 @@ DOTAFightRecap {
     text-align: center;
     text-overflow: shrink;
     height: 32px;
-
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -75,7 +67,6 @@ DOTAFightRecap {
 
 #ShowFightRecapButton {
     opacity: 0;
-
     transition-property: opacity, brightness, background-color, box-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -83,7 +74,6 @@ DOTAFightRecap {
 
 #HideFightRecapButton {
     opacity: 0;
-
     transition-property: opacity, brightness, background-color, box-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -96,11 +86,8 @@ DOTAFightRecap {
 
 #MainPanel {
     width: 100%;
-
     flow-children: down;
-
     background-color: bgHUDPanelA;
-
     transition-property: transform;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -133,91 +120,71 @@ DOTAFightRecap {
 
 .RecapArrowEntry {
     width: 100%;
-
     text-align: center;
-
     color: white;
     text-shadow: 0px 0px 4px 4 #000000;
     font-size: 14px;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-
     opacity: 0;
 }
 
 .TopHalfClipper {
     width: 100%;
     height: 35px;
-
     overflow: clip clip;
-
     vertical-align: top;
 }
 
 .BottomHalfClipper {
     width: 100%;
     height: 35px;
-
     overflow: clip clip;
-
     vertical-align: bottom;
 }
 
 .FullClipper {
     width: 100%;
     height: 70px;
-
     overflow: clip clip;
-
     vertical-align: bottom;
 }
 
 .RecapArrow {
     width: 60px;
     height: 100%;
-
     margin-left: 2px;
     margin-right: 2px;
-
     flow-children: down;
-
     horizontal-align: center;
 }
 
 .RecapBar {
     width: 60px;
     height: 100%;
-
     margin-left: 2px;
     margin-right: 2px;
-
     horizontal-align: center;
 }
 
 .RecapArrow .Triangle {
     width: 100%;
     height: 8px;
-
     opacity-mask: url("s2r://panorama/images/masks/triangle_psd.vtex");
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from (#888888), to (#aaaaaa));
 }
 
 .RecapArrow .Body {
     width: 100%;
     height: 27px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from (#aaaaaa), color-stop(0.5, #dddddd), to (#ffffff));
 }
 
 .RecapBar .Body {
     width: 100%;
     height: 64px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from (#666666), color-stop(0.7, #aaaaaa), to (#ffffff));
-
     vertical-align: bottom;
 }
 
@@ -227,26 +194,20 @@ DOTAFightRecap {
 
 .RecapArrowEntry {
     width: 100%;
-
     text-align: center;
-
     color: white;
     text-shadow: 0px 0px 4px 4 #000000;
     font-size: 14px;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-
     opacity: 0;
 }
 
 .SegmentHeader {
     vertical-align: top;
     horizontal-align: center;
-
     color: defaultHUDText;
-
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
@@ -273,11 +234,8 @@ DOTAFightRecap {
 .SegmentValues {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 208px;
-
     flow-children: right;
-
     margin-bottom: 12px;
 }
 
@@ -286,9 +244,7 @@ DOTAFightRecap {
     color: bluegreyTextBright;
     font-weight: bold;
     font-style: italic;
-
     text-align: center;
-
     font-size: 24px;
 }
 
@@ -303,14 +259,10 @@ DOTAFightRecap {
 #AbilityIcon {
     width: 60px;
     height: 60px;
-
     padding: 6px;
-
     margin-left: 0px;
     margin-right: 2px;
-
     saturation: 0.8;
-
     border-radius: 0px;
     box-shadow: none;
 }
@@ -323,34 +275,26 @@ DOTAFightRecap {
 .DeathIcon {
     width: 42px;
     height: 28px;
-
     background-image: url("s2r://panorama/images/hud/reborn/dead_icon_psd.vtex");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-
     vertical-align: center;
     horizontal-align: center;
-
     margin-top: 32px;
-
     visibility: collapse;
 }
 
 .DeathBuybackIcon {
     width: 42px;
     height: 28px;
-
     background-image: url("s2r://panorama/images/hud/reborn/dead_bb_icon_psd.vtex");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-
     vertical-align: center;
     horizontal-align: center;
-
     margin-top: 32px;
-
     visibility: collapse;
 }
 
@@ -374,7 +318,6 @@ DOTAFightRecap {
 .GoldEntry {
     width: 62px;
     height: 70px;
-
     opacity: 0;
 }
 
@@ -397,7 +340,6 @@ DOTAFightRecap {
 .XPEntry {
     width: 62px;
     height: 70px;
-
     opacity: 0;
 }
 
@@ -416,7 +358,6 @@ DOTAFightRecap {
 .DamageEntry {
     width: 62px;
     height: 70px;
-
     opacity: 0;
 }
 
@@ -506,12 +447,9 @@ DOTAFightRecap {
 .UsageCount {
     horizontal-align: right;
     vertical-align: bottom;
-
     margin-right: 2px;
     margin-bottom: 2px;
-
     text-shadow: 0px 0px 2px 4 #000000;
-
     color: bluegreyTextBright;
     font-size: 14px;
     font-weight: bold;

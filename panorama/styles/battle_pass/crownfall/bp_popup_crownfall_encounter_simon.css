@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel.Simon {
     flow-children: none;
     background-color: none;
@@ -23,6 +25,7 @@
     flow-children: right;
     width: 100%;
 }
+
 .Header .Title {
     font-family: titleFont;
     font-size: 48px;
@@ -35,16 +38,19 @@
 .Body {
     flow-children: right;
 }
+
 .Body .MainGameContainer {
     width: 720px;
     height: 720px;
     background-color: #222;
     flow-children: down;
 }
+
 .Body .MainGameContainer #Menu {
     width: 100%;
     flow-children: down;
 }
+
 .Body .MainGameContainer #Menu .StartGameButton,
 .Body .MainGameContainer #Menu .TryAgainButton {
     horizontal-align: center;
@@ -99,21 +105,26 @@
     horizontal-align: center;
     padding: 10px;
 }
+
 .Body .MainGameContainer #MainGame #AbilityButtons .AbilityButton {
     width: 128px;
     height: 128px;
     margin: 10px;
     brightness: 0.8;
 }
+
 .Body .MainGameContainer #MainGame #AbilityButtons .AbilityButton.Demonstrating {
     border: 4px solid yellow;
 }
+
 .Body .MainGameContainer #MainGame #AbilityButtons .AbilityButton.Incorrect {
     border: 4px solid red;
 }
+
 .Body .MainGameContainer #MainGame #AbilityButtons .AbilityButton.Correct {
     border: 4px solid green;
 }
+
 .Body .MainGameContainer #MainGame #AbilityButtons .AbilityButton.Neutral {
     border: 4px solid blue;
 }
@@ -123,15 +134,18 @@
     width: 250px;
     margin-left: 16px;
 }
+
 .Body .RightColumn .ScoreSection {
     flow-children: down;
     width: 100%;
 }
+
 .Body .RightColumn .ScoreSection .ScoreLabel {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #999;
 }
+
 .Body .RightColumn .ScoreSection .ScoreValue {
     font-family: titleFont;
     font-size: 48px;
@@ -144,6 +158,7 @@
     flow-children: down;
     width: 100%;
 }
+
 .Body .RightColumn .RewardsSection .RewardsLabel {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -153,6 +168,7 @@
 .Body .RightColumn .RewardsSection .RewardRow {
     flow-children: right;
 }
+
 .Body .RightColumn .RewardsSection .RewardRow .RewardScore {
     width: 60px;
     vertical-align: middle;
@@ -165,6 +181,7 @@
     width: 60px;
     vertical-align: middle;
 }
+
 .Body .RightColumn .RewardsSection .RewardRow .RewardValue .InfoIcon {
     margin: 0px 2px 0px 0px;
 }
@@ -172,6 +189,7 @@
 .Body .RightColumn .LeaderboardSection {
     margin-top: 48px;
 }
+
 .Body .RightColumn .LeaderboardSection .LeaderboardLabel {
     text-transform: uppercase;
     letter-spacing: 2px;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAWraithKingArcanaProgress {
     width: 100%;
     height: 100%;
@@ -20,7 +22,6 @@ DOTAWraithKingArcanaProgress {
     transition-property: wash-color, opacity;
     transition-duration: 1.24s;
     transition-timing-function: ease-in-out;
-
     wash-color: black;
     opacity: 0;
 }
@@ -35,7 +36,6 @@ DOTAWraithKingArcanaProgress {
     height: 100%;
     background-color: black;
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -50,7 +50,6 @@ DOTAWraithKingArcanaProgress {
     flow-children: down;
     width: 1158px;
     height: fit-children;
-
     background-image: url("s2r://panorama/images/compendium/international2020/wriath_king_arcana/cloudstop_psd.vtex");
     background-size: cover;
     background-repeat: no-repeat;
@@ -75,7 +74,6 @@ DOTAWraithKingArcanaProgress {
     color: #fff;
     text-shadow: 0 1px 3px 2 #00000070;
     letter-spacing: 4px;
-
     margin-top: 36px;
 }
 
@@ -94,9 +92,7 @@ DOTAWraithKingArcanaProgress {
     text-align: center;
     text-transform: none;
     color: rgba(248, 243, 237, 0.8);
-
     margin-top: 8px;
-
     width: 500px;
 }
 
@@ -104,7 +100,6 @@ DOTAWraithKingArcanaProgress {
     width: fit-children;
     height: fit-children;
     ui-scale: 200%;
-
     margin: 420px;
     margin-left: 1920px;
     margin-right: 1920px;
@@ -112,7 +107,6 @@ DOTAWraithKingArcanaProgress {
 
 .AspectRatio21x9 #Contents DOTAWraithKingHeroMap {
     ui-scale: 150%;
-
     margin-top: 620px;
     margin-bottom: 620px;
 }
@@ -144,7 +138,6 @@ DOTAWraithKingArcanaProgress {
     padding-bottom: 60px;
     padding-left: 42px;
     flow-children: none;
-
     background-image: url("s2r://panorama/images/compendium/international2020/wriath_king_arcana/seal-left_corner_psd.vtex");
     background-size: cover;
     background-repeat: no-repeat;
@@ -162,10 +155,8 @@ DOTAWraithKingArcanaProgress {
 .MapLabel {
     horizontal-align: left;
     vertical-align: bottom;
-
     margin-left: 14px;
     flow-children: down;
-
     height: fit-children;
 }
 
@@ -182,7 +173,6 @@ DOTAWraithKingArcanaProgress {
     font-weight: bold;
     font-size: 48px;
     letter-spacing: 1px;
-
     text-shadow: 0 1px 3px 2 #00000070;
     color: gradient (linear, 0% 0%, 0% 100%, from(#9c5d39), to(rgb(255, 212, 102)));
     text-shadow: 0px 1px 8px 6 #000;
@@ -191,7 +181,6 @@ DOTAWraithKingArcanaProgress {
 .ProgressButton {
     width: fit-children;
     height: fit-children;
-
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 3px;
@@ -352,7 +341,6 @@ DOTAWraithKingArcanaProgress {
     z-index: 1;
     opacity-mask: url("s2r://panorama/images/masks/wk_arc_seal_psd.vtex");
     vertical-align: bottom;
-
     transition-property: brightness, hue-rotation;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;

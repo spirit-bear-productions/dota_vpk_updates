@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents {
     width: 360px;
     flow-children: down;
@@ -75,7 +77,6 @@
     z-index: 1;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00ff0000), to(#00ff0000));
     visibility: visible;
-
     transform: rotatez(180deg);
     wash-color: #00000088;
 }

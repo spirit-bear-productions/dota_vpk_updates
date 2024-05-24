@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTARoshanTimer {
     tooltip-position: left;
     visibility: visible;
@@ -34,7 +36,6 @@ DOTARoshanTimer.ShowRoshanTimer {
     margin-top: 6px;
     transition-property: brightness, pre-transform-scale2d, wash-color, saturation;
     transition-duration: 0.25s;
-
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
     animation-duration: 0.5s;
@@ -119,10 +120,12 @@ DOTARoshanTimer:active #RoshanIcon {
         pre-transform-scale2d: 0.8;
         brightness: 1;
     }
+
     40% {
         pre-transform-scale2d: 1.2;
         brightness: 2;
     }
+
     100% {
         pre-transform-scale2d: 1;
         brightness: 1;

@@ -1,5 +1,6 @@
-@define PanelLifetime: 4.0f;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define PanelLifetime: 4.0f;
 DOTAHUDRelicProgress {
     width: 100%;
     height: 100%;
@@ -17,14 +18,11 @@ DOTAHUDRelicProgress {
 
 .RelicScroller {
     height: 100%;
-
     flow-children: down;
-
     animation-duration: 4s;
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-
     animation-name: ContainerAnim;
 }
 
@@ -68,16 +66,13 @@ DOTAHUDRelicProgress {
     padding-right: 4px;
     margin-left: 4px;
     margin-right: 4px;
-
     vertical-align: center;
     width: 60px;
     height: 60px;
-
     animation-duration: 4s;
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-
     animation-name: IconAnim;
 }
 
@@ -111,12 +106,10 @@ DOTAHUDRelicProgress {
     font-weight: bold;
     font-size: 30px;
     margin-top: 5px;
-
     animation-duration: 2s;
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-
     animation-name: ValueAnim;
 }
 
@@ -139,12 +132,10 @@ DOTAHUDRelicProgress {
     height: 3px;
     margin-left: 15px;
     background-color: white;
-
     animation-duration: 2s;
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-
     animation-name: SeparatorAnim;
 }
 
@@ -178,12 +169,10 @@ DOTAHUDRelicProgress {
     text-transform: uppercase;
     font-size: 20px;
     color: white;
-
     animation-duration: 2s;
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-
     animation-name: DescAnim;
 }
 

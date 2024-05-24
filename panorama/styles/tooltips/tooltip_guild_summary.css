@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents.GuildSummaryContents {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#000000), color-stop(0.5, #161616), to(#000000));
     border-left: 1px solid #ffffff03;
@@ -61,12 +63,15 @@
 .GuildTier0 #GuildTag {
     color: guildTierColor0;
 }
+
 .GuildTier1 #GuildTag {
     color: guildTierColor1;
 }
+
 .GuildTier2 #GuildTag {
     color: guildTierColor2;
 }
+
 .GuildTier3 #GuildTag {
     color: guildTierColor3;
 }

@@ -1,58 +1,47 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define PageTopMargin: 120px;
 @define PageEdgeMargin: 100px;
 @define brightTeal: #33ffbb;
-
 @define fullPreviewTransitionDuration: 1s;
 @define openTreasureRotationSpeed: 40.0;
 @define openTreasureRotationAcceleration: 5.0;
 @define openTreasureEliminationDelay: 3.0s;
-
 @define openTreasureSpinUpDuration: 5.0s;
 @define openTreasureBrightnessModelDelay: 4.0s;
-
 @define openTreasureAnimateContentsDuration: 0.3s;
-
 @define openTreasureFocusIntervalSlow: 0.05s;
 @define openTreasureFocusIntervalFast: 0.05s;
-
 @define bronzeTextColor: #cd8f68;
 @define bronzeGlowColor: #cd8f68;
 @define bronzeHueRotation: 155deg;
 @define bronzeSaturation: 1.0;
-
 @define silverTextColor: #ededed;
 @define silverGlowColor: #ededed;
 @define silverHueRotation: 0deg;
 @define silverSaturation: 0;
-
 @define goldTextColor: #ebcb6c;
 @define goldGlowColor: #ebd79c;
 @define goldHueRotation: 185deg;
 @define goldSaturation: 1.0;
-
 @define infusedTextColor: #a149d4;
 @define infusedGlowColor: #a149d4;
 @define infusedHueRotation: 30deg;
 @define infusedSaturation: 1.0;
-
 @define CrateTierOne_bgcolor: #749C95;
 @define CrateTierTwo_bgcolor: #00AD6F;
 @define CrateTierThree_bgcolor: #0EA1F3;
 @define CrateTierFour_bgcolor: #A378FF;
 @define CrateTierFive_bgcolor: #FC782D;
-
 @define CrateTierZero_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #F1FA90 ), to( #FCC22D ) );
 @define CrateTierOne_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #C7EAE3 ), to( #749C95 ) );
 @define CrateTierTwo_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #86EA63 ), to( #00AD6F ) );
 @define CrateTierThree_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #70E5FF ), to( #0EA1F3 ) );
 @define CrateTierFour_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #D39AFF ), to( #A378FF ) );
 @define CrateTierFive_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #FFC062 ), to( #FC782D ) );
-
 @define HasArcanaGrant_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #86EA63 ), to( #00AD6F ) );
 @define HasPersonaGrant_textcolor: gradient( linear, 0% 0%, 0% 100%, from( #70E5FF ), to( #0EA1F3 ) );
-
 @define offCenterRightPadding: 0px;
-
 .PageTitleContainer {
     width: 500px;
     flow-children: down;
@@ -72,15 +61,14 @@
     vertical-align: top;
     horizontal-align: right;
     visibility: collapse;
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     transition-delay: 0.1s;
-
     opacity: 0;
     transform: translateY(-32px);
 }
+
 .TreasureHexFocused #TreasureLogo {
     opacity: 1;
     transform: none;
@@ -120,13 +108,12 @@
     border: 1px solid #ffffff00;
     width: 128px;
     height: 38px;
-
     transition-property: box-shadow, background-color, border, transform;
     transition-duration: 0.1s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
-
     transform: none;
 }
+
 .TreasureRarityFilterButton .RadioBox {
     visibility: collapse;
 }
@@ -134,6 +121,7 @@
 .TreasureRarityFilterButton:hover {
     background-color: #ffffff02;
 }
+
 .TreasureRarityFilterButton:hover .TreasureRarityFilterName {
     color: white;
 }
@@ -197,6 +185,7 @@
     box-shadow: 0px 4px 16px -2px #000000dd;
     border: 1px solid #ffffff22;
 }
+
 .TreasureRarityFilterButton:selected .TreasureRarityFilterName {
     color: white;
 }

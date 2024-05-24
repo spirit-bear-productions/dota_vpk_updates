@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroPickingCaptainsModePicksBans {
     flow-children: down;
     padding: 8px;
@@ -24,7 +26,6 @@ DOTAHeroPickingCaptainsModePicksBans {
 .BanColumn,
 .PickColumn {
     flow-children: down;
-
     margin: 0px 0px;
     horizontal-align: center;
 }
@@ -32,6 +33,7 @@ DOTAHeroPickingCaptainsModePicksBans {
 .RadiantColumn {
     transform: translateX(-59px);
 }
+
 .DireColumn {
     transform: translateX(58px);
 }
@@ -39,6 +41,7 @@ DOTAHeroPickingCaptainsModePicksBans {
 .PickColumn.RadiantColumn {
     transform: translateX(-63px);
 }
+
 .PickColumn.DireColumn {
     transform: translateX(62px);
 }
@@ -86,7 +89,6 @@ DOTAHeroPickingCaptainsModeHeroSlot #HeroBox {
     margin-left: 0px;
     border-radius: 6px;
     box-shadow: fill 0px 2px 4px #000;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -129,7 +131,6 @@ DOTAHeroPickingCaptainsModeHeroSlot.HeroBan.HeroPickLocked #HeroBox {
 
 DOTAHeroPickingCaptainsModeHeroSlot .PickOrder {
     font-size: 16px;
-
     text-align: center;
     horizontal-align: center;
     vertical-align: middle;
@@ -152,6 +153,7 @@ DOTAHeroPickingCaptainsModeHeroSlot.HeroPickLocked .PickOrder {
     0% {
         background-color: #3b4d5d;
     }
+
     100% {
         background-color: #3b4d5d;
     }
@@ -162,6 +164,7 @@ DOTAHeroPickingCaptainsModeHeroSlot.HeroPickLocked .PickOrder {
         box-shadow: 0px 0px 3px #08f;
         background-color: #3b4d5d;
     }
+
     100% {
         box-shadow: 0px 0px 6px #02a;
         background-color: #548eb9;
@@ -255,22 +258,27 @@ DOTAHeroPickingCaptainsModeHeroSlot.AllowTentativePick #HeroBox:active {
 #CaptainsModePicksBans:not(.StartingTeamIsRadiant) .LineUp .PickOrder {
     transform: translateY(9px);
 }
+
 #CaptainsModePicksBans:not(.StartingTeamIsRadiant) .LineDown .TurnLine,
 #CaptainsModePicksBans:not(.StartingTeamIsRadiant) .LineDown .PickOrder {
     transform: translateY(-9px);
 }
+
 #CaptainsModePicksBans:not(.StartingTeamIsRadiant) .PickColumn .LineUp .TurnLine,
 #CaptainsModePicksBans:not(.StartingTeamIsRadiant) .PickColumn .LineUp .PickOrder {
     transform: translateY(14px);
 }
+
 #CaptainsModePicksBans:not(.StartingTeamIsRadiant) .PickColumn .LineDown .TurnLine,
 #CaptainsModePicksBans:not(.StartingTeamIsRadiant) .PickColumn .LineDown .PickOrder {
     transform: translateY(-14px);
 }
+
 .DOTA_GAMEMODE_REVERSE_CM #CaptainsModePicksBans:not(.StartingTeamIsRadiant) .PickColumn .LineUp .TurnLine,
 .DOTA_GAMEMODE_REVERSE_CM #CaptainsModePicksBans:not(.StartingTeamIsRadiant) .PickColumn .LineUp .PickOrder {
     transform: translateY(-14px);
 }
+
 .DOTA_GAMEMODE_REVERSE_CM #CaptainsModePicksBans:not(.StartingTeamIsRadiant) .PickColumn .LineDown .TurnLine,
 .DOTA_GAMEMODE_REVERSE_CM #CaptainsModePicksBans:not(.StartingTeamIsRadiant) .PickColumn .LineDown .PickOrder {
     transform: translateY(14px);
@@ -280,22 +288,27 @@ DOTAHeroPickingCaptainsModeHeroSlot.AllowTentativePick #HeroBox:active {
 .StartingTeamIsRadiant .LineUp .PickOrder {
     transform: translateY(-9px);
 }
+
 .StartingTeamIsRadiant .LineDown .TurnLine,
 .StartingTeamIsRadiant .LineDown .PickOrder {
     transform: translateY(9px);
 }
+
 .StartingTeamIsRadiant .PickColumn .LineUp .TurnLine,
 .StartingTeamIsRadiant .PickColumn .LineUp .PickOrder {
     transform: translateY(-14px);
 }
+
 .StartingTeamIsRadiant .PickColumn .LineDown .TurnLine,
 .StartingTeamIsRadiant .PickColumn .LineDown .PickOrder {
     transform: translateY(14px);
 }
+
 .DOTA_GAMEMODE_REVERSE_CM .StartingTeamIsRadiant .PickColumn .LineUp .TurnLine,
 .DOTA_GAMEMODE_REVERSE_CM .StartingTeamIsRadiant .PickColumn .LineUp .PickOrder {
     transform: translateY(14px);
 }
+
 .DOTA_GAMEMODE_REVERSE_CM .StartingTeamIsRadiant .PickColumn .LineDown .TurnLine,
 .DOTA_GAMEMODE_REVERSE_CM .StartingTeamIsRadiant .PickColumn .LineDown .PickOrder {
     transform: translateY(-14px);

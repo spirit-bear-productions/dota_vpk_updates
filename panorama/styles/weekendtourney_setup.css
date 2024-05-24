@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .HFill {
     width: fill-parent-flow(9999);
 }
@@ -77,7 +79,6 @@ DOTAWeekendTourneySetup {
     margin-top: 5px;
     margin-bottom: 10px;
     font-weight: bold;
-
     color: gradient(linear, 100% 0%, 0% 0%, from(#4594d8), to(#b8defd));
 }
 
@@ -88,7 +89,6 @@ DOTAWeekendTourneySetup {
 
 #PageBodyContainer {
     width: 100%;
-
     height: 850px;
     flow-children: none;
     overflow: squish scroll;
@@ -109,11 +109,9 @@ VerticalScrollBar {
 .SetupSectionContainer {
     width: 636px;
     flow-children: down;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00000088), to(#000000));
     margin-bottom: 10px;
     padding: 16px 16px 16px 16px;
-
     box-shadow: inset #00000055 -5px -5px 12px 0px;
 }
 
@@ -164,22 +162,17 @@ VerticalScrollBar {
 
 .ControlButton {
     height: 28px;
-
     background-repeat: no-repeat;
     vertical-align: middle;
     horizontal-align: right;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#373d45), to(#4d5860));
     border-style: solid;
     border-width: 1px;
-
     padding: 2px 10px 2px 10px;
-
     border-top-color: #555555;
     border-left-color: #494949;
     border-bottom-color: #333333;
     border-right-color: #404040;
-
     transition-property: brightness, wash-color;
     transition-delay: 0s;
     transition-duration: 0.1s;
@@ -258,7 +251,6 @@ VerticalScrollBar {
 .SetupStepCheckBox:selected {
     background-image: url("s2r://panorama/images/control_icons/check_png.vtex");
     wash-color: white;
-
     background-color: #b48629;
     background-size: 41% 41%;
     box-shadow: fill #9b631f 4px 0px 8px 0px;
@@ -357,6 +349,7 @@ VerticalScrollBar {
 #TeamHasBlockingMemberContainer {
     width: 150px;
 }
+
 #TeamSkillLevelContainer,
 #TeamHasBlockingMemberContainer {
     flow-children: down;
@@ -419,7 +412,6 @@ VerticalScrollBar {
 .PartyMemberSkillLevel {
     width: 65px;
     height: 30px;
-
     background-color: #333;
     text-align: center;
     font-size: 20px;
@@ -471,7 +463,6 @@ VerticalScrollBar {
     margin-bottom: 4px;
     width: 37px;
     height: 37px;
-
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#572c02), to(#7d5328));
     border-top: 2px solid #744f2b;
     border-right: 2px solid #805f40;
@@ -523,10 +514,8 @@ VerticalScrollBar {
     padding-top: 9px;
     color: white;
     font-weight: medium;
-
     text-align: center;
     margin-right: 4px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#925b1f), to(#a27e37));
 }
 
@@ -561,6 +550,7 @@ VerticalScrollBar {
     margin-left: 48px;
     visibility: collapse;
 }
+
 .LocalPlayerIsPartyLeader.TeamIdentityTypeBlank #InitialChoiceTeamButtons {
     visibility: visible;
 }
@@ -645,13 +635,10 @@ VerticalScrollBar {
 .TeamIdentityTypeAdjustButton Label {
     text-transform: uppercase;
     color: #666;
-
     transition-property: brightness, opacity;
     transition-duration: 0.2s;
     font-size: 14px;
-
     border: 1px solid #66666644;
-
     padding-left: 7px;
     padding-right: 5px;
     padding-top: 2px;
@@ -737,7 +724,6 @@ VerticalScrollBar {
     opacity: 1;
     transition-property: opacity;
     transition-duration: 1s;
-
     padding: 16px;
     margin-left: 46px;
     box-shadow: inset #000000 -3px 2px 4px 3px;
@@ -751,7 +737,6 @@ VerticalScrollBar {
 
 #TeamIdentityNameAndButtonsContainer {
     margin-right: 36px;
-
     width: 390px;
 }
 
@@ -825,11 +810,9 @@ VerticalScrollBar {
     border-left: 2px solid #aaaaaa08;
     border-right: 2px solid #aaaaaa07;
     border-bottom: 2px solid #aaaaaa03;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#111111f5), to(#222222f5));
     padding-left: 20px;
     padding-right: 20px;
-
     visibility: collapse;
 }
 
@@ -845,7 +828,6 @@ VerticalScrollBar {
     width: 636px;
     visibility: collapse;
     padding: 20px 20px 20px 20px;
-
     background-color: black;
 }
 
@@ -911,7 +893,6 @@ VerticalScrollBar {
     background-image: url("s2r://panorama/images/weekend_tourney/bc_ticket_icon_psd.vtex");
     background-size: 80% 48%;
     background-position: 55% 45%;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#572c02), to(#7d5328));
     border-left: 2px solid #744f2b;
     border-top: 2px solid #805f40;
@@ -985,12 +966,10 @@ VerticalScrollBar {
 
 #YourTicketsContainer {
     flow-children: down;
-
     margin-left: 26px;
     margin-right: 3px;
     padding: 16px;
     height: 171px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -1038,7 +1017,6 @@ VerticalScrollBar {
 #TicketPriceLabel {
     color: white;
     font-size: 15px;
-
     padding-top: 4px;
     min-width: 1000px;
     horizontal-align: center;
@@ -1060,7 +1038,6 @@ VerticalScrollBar {
 
 #TicketPurchaseButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#60862d), to(#3d5f1c));
-
     border-top: 1px solid #ffffff22;
     border-left: 1px solid #ffffff11;
     border-right: 1px solid #00000044;
@@ -1087,12 +1064,10 @@ VerticalScrollBar {
     background-position: right 23px 44%;
     background-size: 17px 17px;
     padding-left: 7px;
-
     border-top: 1px solid #ffffff22;
     border-left: 0px solid #ffffff11;
     border-right: 1px solid #00000044;
     border-bottom: 1px solid #00000088;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -1141,7 +1116,6 @@ DOTASettingsEnumDropDown {
     flow-children: right;
     opacity: 1;
     max-height: 28px;
-
     transition-property: max-height;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1236,6 +1210,7 @@ DOTAWeekendTourneySetup.IsChampionsCup:not(.LocalPlayerNoChampionsCupTicket) #Ch
 .PartyBuilderMsgInFlight #PartyBuilderMessageBusySpinner {
     visibility: visible;
 }
+
 .PartyBuilderMsgInFlight #FindTeamIcon {
     visibility: collapse;
 }
@@ -1303,6 +1278,7 @@ DOTAWeekendTourneySetup.IsChampionsCup:not(.LocalPlayerNoChampionsCupTicket) #Ch
             to(#0e0e0e)
         );
     }
+
     50% {
         background-color: gradient(
             linear,
@@ -1315,6 +1291,7 @@ DOTAWeekendTourneySetup.IsChampionsCup:not(.LocalPlayerNoChampionsCupTicket) #Ch
             to(#0e0e0e)
         );
     }
+
     100% {
         background-color: gradient(
             linear,
@@ -1349,9 +1326,11 @@ DOTAWeekendTourneySetup.IsChampionsCup:not(.LocalPlayerNoChampionsCupTicket) #Ch
     0% {
         wash-color: #6eff3c;
     }
+
     50% {
         wash-color: #99ff99;
     }
+
     100% {
         wash-color: #6eff3c;
     }
@@ -1365,7 +1344,6 @@ DOTAWeekendTourneySetup.IsChampionsCup:not(.LocalPlayerNoChampionsCupTicket) #Ch
 #FindTeamIcon {
     width: 15px;
     height: 15px;
-
     margin-left: 8px;
     margin-right: 10px;
 }
@@ -1441,6 +1419,7 @@ DOTAWeekendTourneySetup.IsChampionsCup:not(.LocalPlayerNoChampionsCupTicket) #Ch
             to(#29481a)
         );
     }
+
     50% {
         background-color: gradient(
             linear,
@@ -1452,6 +1431,7 @@ DOTAWeekendTourneySetup.IsChampionsCup:not(.LocalPlayerNoChampionsCupTicket) #Ch
             to(#29481a)
         );
     }
+
     100% {
         background-color: gradient(
             linear,

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Background {
     margin-top: 35px;
     background-image: url("s2r://panorama/images/hud/vs/vs_notier_png.vtex");
@@ -9,18 +11,23 @@
 .BronzeTier #Background {
     background-image: url("s2r://panorama/images/hud/vs/vs_bronze_png.vtex");
 }
+
 .SilverTier #Background {
     background-image: url("s2r://panorama/images/hud/vs/vs_silver_png.vtex");
 }
+
 .GoldTier #Background {
     background-image: url("s2r://panorama/images/hud/vs/vs_gold_png.vtex");
 }
+
 .PlatinumTier #Background {
     background-image: url("s2r://panorama/images/hud/vs/vs_platinum_png.vtex");
 }
+
 .MasterTier #Background {
     background-image: url("s2r://panorama/images/hud/vs/vs_master_png.vtex");
 }
+
 .GrandmasterTier #Background {
     background-image: url("s2r://panorama/images/hud/vs/vs_grandmaster_png.vtex");
 }
@@ -28,12 +35,15 @@
 .BPBronzeTier #Background {
     background-image: url("s2r://panorama/images/hud/vs/vs_bronze_png.vtex");
 }
+
 .BPSilverTier #Background {
     background-image: url("s2r://panorama/images/hud/vs/vs_silver_png.vtex");
 }
+
 .BPGoldTier #Background {
     background-image: url("s2r://panorama/images/hud/vs/vs_gold_png.vtex");
 }
+
 .BPPlatinumTier #Background {
     background-image: url("s2r://panorama/images/hud/vs/vs_platinum_png.vtex");
 }
@@ -62,7 +72,6 @@
     margin-right: 2px;
     horizontal-align: left;
     transform: translateY(17px);
-
     visibility: collapse;
 }
 
@@ -98,7 +107,6 @@
     ui-scale: 78%;
     margin-top: 150px;
     margin-left: 29px;
-
     visibility: collapse;
 }
 
@@ -113,7 +121,6 @@
     height: 182px;
     background-image: url("s2r://panorama/images/hero_relics/relic_container_vs_psd.vtex");
     background-size: contain;
-
     visibility: collapse;
 }
 
@@ -124,21 +131,27 @@
 .NoTier #HeroRelicsContainer {
     background-image: url("s2r://panorama/images/hero_relics/relic_container_vs_bronze_psd.vtex");
 }
+
 .BronzeTier #HeroRelicsContainer {
     background-image: url("s2r://panorama/images/hero_relics/relic_container_vs_bronze_psd.vtex");
 }
+
 .SilverTier #HeroRelicsContainer {
     background-image: url("s2r://panorama/images/hero_relics/relic_container_vs_silver_psd.vtex");
 }
+
 .GoldTier #HeroRelicsContainer {
     background-image: url("s2r://panorama/images/hero_relics/relic_container_vs_gold_psd.vtex");
 }
+
 .PlatinumTier #HeroRelicsContainer {
     background-image: url("s2r://panorama/images/hero_relics/relic_container_vs_platinum_psd.vtex");
 }
+
 .MasterTier #HeroRelicsContainer {
     background-image: url("s2r://panorama/images/hero_relics/relic_container_vs_master_psd.vtex");
 }
+
 .GrandmasterTier #HeroRelicsContainer {
     background-image: url("s2r://panorama/images/hero_relics/relic_container_vs_grandmaster_psd.vtex");
 }
@@ -152,7 +165,6 @@
     text-shadow: 2px 2px 8px black;
     max-width: 670px;
     letter-spacing: 2px;
-
     height: 110px;
     padding-right: 20px;
     color: #ffffffee;
@@ -233,7 +245,6 @@
     margin-right: 2px;
     width: 32px;
     height: 32px;
-
     visibility: collapse;
 }
 

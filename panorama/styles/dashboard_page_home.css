@@ -1,5 +1,6 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 DOTAHomePage {
     padding-top: 56px;
     width: 100%;
@@ -14,7 +15,6 @@ DOTAHomePage {
     pre-transform-scale2d: 1;
     wash-color: white;
     overflow: noclip;
-
     transition-property: opacity-mask, opacity, pre-transform-scale2d, wash-color, transform;
     transition-duration: PreConnectedTransitionDuration;
     transition-timing-function: ease-in-out;
@@ -35,7 +35,6 @@ DOTADashboard.InitialDisplay #TodayPages {
     margin-top: 44px;
     wash-color: white;
     overflow: noclip;
-
     transition-property: opacity-mask, opacity, pre-transform-scale2d, wash-color, transform;
     transition-duration: PreConnectedTransitionDuration;
     transition-timing-function: ease-in-out;
@@ -65,7 +64,6 @@ DOTADashboard.InitialDisplay #TodayPages {
     margin-top: 510px;
     margin-right: 16px;
     flow-children: none;
-
     visibility: visible;
 }
 
@@ -78,7 +76,6 @@ DOTADashboard.InitialDisplay #TodayPages {
     margin-right: 20px;
     transform: translateY(0px);
     z-index: 100;
-
     transition-property: transform, opacity;
     transition-duration: PreConnectedTransitionDuration;
     transition-timing-function: ease-in-out;

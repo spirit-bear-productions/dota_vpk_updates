@@ -1,5 +1,6 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 .PopupPanel {
     pre-transform-scale2d: 1;
     opacity: 1;
@@ -8,12 +9,9 @@
     background-color: none;
     border: 0px solid transparent;
     animation-name: none;
-
     box-shadow: none;
-
     padding: 0px;
     flow-children: none;
-
     transition-property: background-color, transform, pre-transform-scale2d, opacity, wash-color;
     transition-duration: 0.35s;
 }
@@ -28,9 +26,7 @@
     horizontal-align: center;
     margin: 24px;
     flow-children: down;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(secondaryDarkColor), to(secondaryUltraDarkColor));
-
     box-shadow: secondaryUltraDarkColor 0px 0px 8px 0px;
 }
 
@@ -72,10 +68,8 @@
 
 #LeftSide {
     vertical-align: center;
-
     min-width: 350px;
     width: 400px;
-
     transition-property: width;
     transition-duration: 0.7s;
     transition-timing-function: ease-in-out;
@@ -109,13 +103,11 @@
     font-weight: semi-bold;
     letter-spacing: 2px;
     text-shadow: 0px 0px 16px ultraDarkColor&66;
-
     margin-left: 180px;
     font-size: 50px;
     text-align: center;
     vertical-align: center;
     margin-right: 30px;
-
     padding: 5px;
 }
 
@@ -163,7 +155,6 @@
     vertical-align: middle;
     horizontal-align: center;
     background-color: accentColor&11;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -177,13 +168,10 @@
     width: fill-parent-flow(1);
     vertical-align: middle;
     horizontal-align: center;
-
     margin-right: 40px;
     margin-left: 40px;
     flow-children: down;
-
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -197,9 +185,7 @@
     width: 200px;
     height: 16px;
     horizontal-align: center;
-
     border: 1px solid accentColor&42;
-
     margin-bottom: 5px;
 }
 
@@ -215,7 +201,6 @@
     color: accentColor;
     font-size: 20px;
     horizontal-align: center;
-
     color: accentColor;
     font-family: titleFont;
     font-weight: semi-bold;

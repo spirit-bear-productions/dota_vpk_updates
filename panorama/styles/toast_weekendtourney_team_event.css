@@ -1,10 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAWeekendTourneyTeamEventToast {
     flow-children: down;
     background-color: black;
     background-image: url("s2r://panorama/images/weekend_tourney/battle_cup_toast_backer_png.vtex");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
     width: 340px;
     border-top: 2px solid #ffffff09;
     border-right: 2px solid #ffffff05;
@@ -60,7 +61,6 @@ DOTAWeekendTourneyTeamEventToast {
 #EventDescription {
     width: 100%;
     text-align: center;
-
     text-transform: uppercase;
     color: #ffd480;
     font-size: 16px;

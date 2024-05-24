@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAGameNeutralItemTable {
     width: fit-children;
     height: 100%;
@@ -45,7 +47,6 @@ DOTAGameNeutralItemTable {
     padding: 12px 16px 0px 16px;
     height: 749px;
     width: 330px;
-
     padding-right: 10px;
 }
 
@@ -112,12 +113,9 @@ DOTAGameNeutralItemTable {
     width: 44px;
     height: width-percentage(72.7%);
     margin: 0px 6px 6px 0px;
-
     box-shadow: 0px 0px 4px black;
-
     brightness: 0.93;
     saturation: 0.9;
-
     transition-property: box-shadow, saturation, brightness;
     transition-duration: 0.2s;
 }

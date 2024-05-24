@@ -1,7 +1,8 @@
-@define textMediumColor:  #666464;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define textMediumColor: #666464;
 @define XPCircleGradient: gradient( linear, 0% 0%, 0% 100%, from( #270705 ), to( #912c24 ) );
 @define XPCircleBorder: 1px solid #9a3128;
-
 DOTABPSpring2016QuestsPage {
     width: 100%;
     height: 100%;
@@ -49,9 +50,7 @@ DOTABPSpring2016QuestsPage {
 .QuestLineBackground {
     width: 100%;
     height: 100%;
-
     flow-children: right;
-
     transition-property: opacity, wash-color, brightness;
     transition-duration: 0.5s;
 }
@@ -134,7 +133,6 @@ DOTABPSpring2016Page .QuestLineBackground {
 .CompendiumHeader {
     width: 1392px;
     height: 72px;
-
     horizontal-align: center;
     vertical-align: top;
     margin-top: 100px;
@@ -183,12 +181,10 @@ DOTABPSpring2016Page .QuestLineBackground {
     width: 100%;
     height: 100%;
     padding-top: 82px;
-
     background-image: url("s2r://panorama/images/textures/papergrain_psd.vtex");
     background-position: 50% 50%;
     transition-property: pre-transform-scale2d, transform;
     transition-duration: 0.25s;
-
     overflow: clip scroll;
 }
 
@@ -243,7 +239,6 @@ DOTABPSpring2016Page .QuestLineBackground {
 DOTAQuest {
     height: 200px;
     horizontal-align: center;
-
     transform: rotateX(35deg);
     overflow: noclip;
     opacity: 0;
@@ -279,27 +274,20 @@ DOTAQuestPath {
     width: 64px;
     height: 6px;
     margin-bottom: 18px;
-
     background-image: url("s2r://panorama/images/compendium/pathdots_psd.vtex");
     wash-color: #3b669c;
     wash-color: #3182f7;
     wash-color: #6a2815;
-
     wash-color: #3b6a15;
-
     opacity-mask: url("s2r://panorama/images/compendium/pathmask_horizontal_psd.vtex") 1;
-
     background-position: 55% 55%;
     background-size: 120px 120px;
     background-repeat: no-repeat;
     vertical-align: middle;
-
     z-index: 0;
-
     transition-property: width, brightness, height, opacity, transform, background-color;
     transition-duration: 0.25s;
     opacity: 0.4;
-
     animation-duration: 0.6s;
     animation-delay: 0.15s;
     animation-timing-function: ease-in-out;
@@ -371,10 +359,12 @@ DOTABPSpring2016Page DOTAQuestPath.PathSelected {
         brightness: 1;
         background-color: #aaaaaa00;
     }
+
     50% {
         brightness: 6;
         background-color: #aaaaaa22;
     }
+
     100% {
         brightness: 1;
         background-color: #aaaaaa00;
@@ -388,7 +378,6 @@ DOTABPSpring2016Page DOTAQuestPath.PathSelected {
 
 .Overview DOTAQuestPath {
     background-size: 120px 120px;
-
     height: 6px;
     opacity: 0.15;
 }
@@ -448,7 +437,6 @@ DOTAQuestPath.PathComplete {
     wash-color: #9bd7ff;
     wash-color: #5c99e9;
     wash-color: #81362b;
-
     wash-color: #49812b;
     height: 8px;
     opacity: 1;
@@ -457,7 +445,6 @@ DOTAQuestPath.PathComplete {
 DOTAQuestPath.PathAvailable {
     background-color: #ffffff22;
     wash-color: #c55b47;
-
     wash-color: #68c547;
     opacity: 1;
 }
@@ -576,7 +563,6 @@ DOTAQuestNode {
     margin-bottom: 24px;
     z-index: 1;
     pre-transform-scale2d: 1;
-
     transition-property: brightness, pre-transform-scale2d, width, height, box-shadow, border, transform;
     transition-duration: 0.25s;
 }
@@ -585,20 +571,15 @@ DOTAQuestNode {
     width: 64px;
     height: 64px;
     transform: translateY(12px);
-
     background-color: black;
     border: 2px solid #863c3744;
-
     border-radius: 50%;
     vertical-align: top;
     horizontal-align: center;
     box-shadow: fill #00000077 0px 2px 6px 0px;
-
     border: 2px solid #27431b;
-
     z-index: 1;
     pre-transform-scale2d: 1;
-
     transition-property: brightness, pre-transform-scale2d, width, height, box-shadow, border, transform;
     transition-duration: 0.25s;
 }
@@ -610,7 +591,6 @@ DOTAQuestNode {
 
 #Quest4 DOTAQuestNode {
     border-color: #624511;
-
     width: 104px;
     height: 104px;
 }
@@ -794,14 +774,12 @@ DOTAQuestNode.NodeAvailable:hover {
 
 DOTAQuestNode.NodeAvailable:active .QuestNodeCircle {
     background-color: #621101;
-
     background-color: #2c6201;
 }
 
 DOTAQuestNode.NodeAvailable .QuestNodeCircle {
     border: 2px solid #4488ff;
     border: 3px solid #b64b37;
-
     border: 3px solid #58a934;
 }
 
@@ -811,7 +789,6 @@ DOTAQuestNode.NodeAvailable .QuestNodeCircle {
 
 .Overview DOTAQuestNode.NodeAvailable .QuestNodeCircle {
     border: 1px solid #b64b37;
-
     border: 1px solid #58a934;
 }
 
@@ -822,10 +799,8 @@ DOTAQuestNode.NodeAvailable .QuestNodeCircle {
 DOTAQuestNode.NodeSelected .QuestNodeCircle {
     border: 4px solid #66aaff;
     border: 4px solid #f7b67f;
-
     box-shadow: #84ba36dd 0px 0px 18px 0px;
     border: 4px solid #b5f77f;
-
     animation-name: SelectedGlow;
     animation-duration: 1.61s;
     animation-delay: 0.15s;
@@ -844,7 +819,6 @@ DOTABPSpring2016Page DOTAQuestNode.NodeSelected {
 
 DOTAQuestNode.NodeSelected .QuestNodeCenter {
     background-color: #823426;
-
     background-color: #428226;
     background-color: gradient(radial, 50% 50%, 0% 0%, 100% 100%, from(#00c009cc), to(#023a05cc));
 }
@@ -853,9 +827,11 @@ DOTAQuestNode.NodeSelected .QuestNodeCenter {
     0% {
         box-shadow: #84ba36dd 0px 0px 6px 0px;
     }
+
     50% {
         box-shadow: #84ba3622 0px 0px 4px 0px;
     }
+
     100% {
         box-shadow: #84ba36dd 0px 0px 6px 0px;
     }
@@ -865,9 +841,11 @@ DOTAQuestNode.NodeSelected .QuestNodeCenter {
     0% {
         box-shadow: #ffaa5577 0px 0px 18px 0px;
     }
+
     50% {
         box-shadow: #ffaa5522 0px 0px 14px 0px;
     }
+
     100% {
         box-shadow: #ffaa5577 0px 0px 18px 0px;
     }
@@ -887,9 +865,7 @@ DOTAQuestNode.NodeComplete .QuestNodeCenter {
     height: 100%;
     margin: 8px;
     background-color: #321d1d88;
-
     background-color: #132322;
-
     border-radius: 50%;
 }
 
@@ -906,23 +882,18 @@ DOTAQuestNode.NodeComplete .QuestNodeCenter {
 .ActiveQuestNodeCenter {
     width: 72px;
     height: 72px;
-
     background-image: url("s2r://panorama/images/compendium/spring2016/quests/activequestring_psd.vtex");
     background-position: 50% 50%;
     background-size: cover;
     z-index: 0;
     wash-color: #66aaff;
-
     wash-color: #9cff66;
     brightness: 3;
     pre-transform-scale2d: 1.45;
-
     opacity: 0;
-
     transition-property: opacity, pre-transform-scale2d, width, height;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
-
     animation-name: ActiveQuestRing;
     animation-duration: 5.3s;
     animation-delay: 0.15s;
@@ -1005,34 +976,44 @@ DOTABPSpring2016Page .Overview .ActiveQuestNodeCenter.QuestNodeTop {
         transform: rotateZ(0deg);
         wash-color: #b34a35ff;
     }
+
     10% {
         wash-color: #b34a3500;
     }
+
     20% {
         wash-color: #b34a35ff;
     }
+
     30% {
         wash-color: #b34a3500;
     }
+
     40% {
         wash-color: #b34a35ff;
     }
+
     50% {
         transform: rotateZ(180deg);
         wash-color: #b34a3500;
     }
+
     60% {
         wash-color: #b34a35ff;
     }
+
     70% {
         wash-color: #b34a3500;
     }
+
     80% {
         wash-color: #b34a35ff;
     }
+
     90% {
         wash-color: #b34a3500;
     }
+
     100% {
         transform: rotateZ(360deg);
         wash-color: #b34a35ff;
@@ -1060,7 +1041,6 @@ DOTAHeroImage {
 .QuestColumn {
     height: 100%;
     width: 66px;
-
     overflow: noclip;
     z-index: 1;
     transition-property: width;
@@ -1216,6 +1196,7 @@ DOTAQuestPicker #QuestPickerQuestMap .QuestColumn {
     height: 6px;
     transform: translateY(-8px);
 }
+
 .Overview .QuestPathDownRight {
     height: 6px;
 }
@@ -1383,16 +1364,13 @@ DOTABPSpring2016Page .Overview .LeftScroll {
     margin-left: 16px;
     vertical-align: bottom;
     z-index: 3;
-
     horizontal-align: left;
     vertical-align: bottom;
     margin-bottom: 32px;
     margin-right: 16px;
-
     padding: 0px;
     padding-bottom: 8px;
     padding-top: 12px;
-
     animation-duration: 0.51s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
@@ -1407,6 +1385,7 @@ DOTABPSpring2016Page .Overview .LeftScroll {
         transform: translateX(30px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0px);
         opacity: 1;
@@ -1422,11 +1401,9 @@ DOTABPSpring2016Page .Overview .LeftScroll {
     margin-top: 210px;
     margin-left: 16px;
     opacity: 0;
-
     transition-property: transform, opacity;
     transition-duration: 0.14s;
     transition-timing-function: linear;
-
     visibility: collapse;
 }
 
@@ -1439,12 +1416,10 @@ DOTABPSpring2016Page .Overview .LeftScroll {
     margin-top: 210px;
     margin-left: 16px;
     opacity: 0;
-
     transition-property: transform, opacity;
     transition-duration: 0.14s;
     transition-delay: 0.25s, 0s;
     transition-timing-function: linear;
-
     visibility: collapse;
 }
 
@@ -1457,9 +1432,11 @@ DOTABPSpring2016Page .Overview .LeftScroll {
 #SelectorArrow.Quest1 {
     transform: translateY(8px) translateX(0px);
 }
+
 #SelectorArrow.Quest2 {
     transform: translateY(200px) translateX(0px);
 }
+
 #SelectorArrow.Quest3 {
     transform: translateY(390px) translateX(0px);
 }
@@ -1467,9 +1444,11 @@ DOTABPSpring2016Page .Overview .LeftScroll {
 #SelectorArrowWell.Quest1 {
     transform: translateY(8px) translateX(0px);
 }
+
 #SelectorArrowWell.Quest2 {
     transform: translateY(200px) translateX(0px);
 }
+
 #SelectorArrowWell.Quest3 {
     transform: translateY(390px) translateX(0px);
 }
@@ -1560,12 +1539,10 @@ DOTAQuest.ActiveQuestLine #Completion {
     height: 158px;
     width: 1090px;
     visibility: collapse;
-
     horizontal-align: left;
     vertical-align: top;
     pre-transform-scale2d: 1;
     margin-left: 16px;
-
     transform: translateY(0px);
     transition-property: opacity, pre-transform-scale2d, transform;
     transition-duration: 0.24s;
@@ -1645,12 +1622,15 @@ DOTAQuest.ActiveQuestLine #Completion {
 #Quest1 {
     transform: translateY(20px) rotateX(35deg);
 }
+
 #Quest2 {
     transform: translateY(234px) rotateX(35deg);
 }
+
 #Quest3 {
     transform: translateY(450px) rotateX(35deg);
 }
+
 #Quest4 {
     transform: translateY(20px) rotateX(35deg);
     visibility: collapse;
@@ -1659,12 +1639,15 @@ DOTAQuest.ActiveQuestLine #Completion {
 .HasLegionQuest #Quest1 {
     transform: translateY(20px) rotateX(35deg);
 }
+
 .HasLegionQuest #Quest2 {
     transform: translateY(234px) rotateX(35deg);
 }
+
 .HasLegionQuest #Quest3 {
     transform: translateY(450px) rotateX(35deg);
 }
+
 .HasLegionQuest #Quest4 {
     transform: translateY(20px) rotateX(35deg);
     visibility: visible;
@@ -1673,12 +1656,15 @@ DOTAQuest.ActiveQuestLine #Completion {
 #Quest1.ActiveQuestLine {
     transform: translateY(0px) rotateX(35deg);
 }
+
 #Quest2.ActiveQuestLine {
     transform: translateY(0px) rotateX(35deg);
 }
+
 #Quest3.ActiveQuestLine {
     transform: translateY(0px) rotateX(35deg);
 }
+
 #Quest4.ActiveQuestLine {
     transform: translateY(0px) rotateX(35deg);
 }
@@ -1686,12 +1672,15 @@ DOTAQuest.ActiveQuestLine #Completion {
 .Overview #Quest1 {
     transform: translateY(30px);
 }
+
 .Overview #Quest2 {
     transform: translateY(240px);
 }
+
 .Overview #Quest3 {
     transform: translateY(450px);
 }
+
 .Overview #Quest4 {
     transform: translateY(660px);
 }
@@ -1699,12 +1688,15 @@ DOTAQuest.ActiveQuestLine #Completion {
 .HasLegionQuest.Overview #Quest4 {
     transform: translateY(30px);
 }
+
 .HasLegionQuest.Overview #Quest1 {
     transform: translateY(240px);
 }
+
 .HasLegionQuest.Overview #Quest2 {
     transform: translateY(450px);
 }
+
 .HasLegionQuest.Overview #Quest3 {
     transform: translateY(660px);
 }
@@ -1751,9 +1743,7 @@ DOTAQuest.ActiveQuestLine #Completion {
 #QuestChallengeProgress .ProgressBarLeft {
     background-color: dotalevelgradient;
     box-shadow: #61789caa 0px 0px 4px 0px;
-
     border-radius: 2px;
-
     transition-property: width;
     transition-duration: 1s;
     transition-timing-function: linear;
@@ -1835,12 +1825,15 @@ DOTAQuest.ActiveQuestLine #Completion {
 .Quest1Active #Questline1Reward {
     visibility: visible;
 }
+
 .Quest2Active #Questline2Reward {
     visibility: visible;
 }
+
 .Quest3Active #Questline3Reward {
     visibility: visible;
 }
+
 .Quest4Active #Questline4Reward {
     visibility: visible;
 }
@@ -1857,12 +1850,10 @@ DOTAQuest.ActiveQuestLine #Completion {
     vertical-align: bottom;
     margin-right: 120px;
     margin-bottom: 32px;
-
     border-radius: 50%;
     border: 1px solid #76221c;
     background-color: black;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.35s;
     transition-timing-function: ease-in-out;
@@ -1914,7 +1905,6 @@ DOTAQuest.ActiveQuestLine #Completion {
     vertical-align: bottom;
     margin-left: -120px;
     margin-bottom: 0px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -2010,17 +2000,14 @@ DOTAQuest.ActiveQuestLine #Completion {
     height: 50px;
     border-radius: 50%;
     flow-children: down;
-
     background-color: XPCircleGradient;
     border: XPCircleBorder;
-
     box-shadow: -2px 0px 4px 0px #000000;
-
     z-index: 1;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
 }
+
 .ChallengeTime {
     margin-right: 4px;
 }
@@ -2069,9 +2056,7 @@ DOTAQuest.ActiveQuestLine #Completion {
     margin-top: 10px;
     margin-left: 3px;
     font-size: 18px;
-
     text-shadow: -1px 1px 8px 2 #000000bb;
-
     color: white;
     horizontal-align: center;
     vertical-align: middle;
@@ -2117,12 +2102,15 @@ DOTAQuest.ActiveQuestLine #Completion {
 #Quest1Title {
     margin-top: 16px;
 }
+
 #Quest2Title {
     margin-top: 226px;
 }
+
 #Quest3Title {
     margin-top: 436px;
 }
+
 #Quest4Title {
     visibility: collapse;
 }
@@ -2138,9 +2126,11 @@ DOTAQuest.ActiveQuestLine #Completion {
 .HasLegionQuest #Quest1Title {
     margin-top: 226px;
 }
+
 .HasLegionQuest #Quest2Title {
     margin-top: 436px;
 }
+
 .HasLegionQuest #Quest3Title {
     margin-top: 646px;
 }
@@ -2149,14 +2139,17 @@ DOTAQuest.ActiveQuestLine #Completion {
     color: white;
     background-color: #691301;
 }
+
 .Quest2Active #Quest2Title {
     color: white;
     background-color: #691301;
 }
+
 .Quest3Active #Quest3Title {
     color: white;
     background-color: #691301;
 }
+
 .Quest4Active #Quest4Title {
     color: white;
     background-color: #691301;
@@ -2207,7 +2200,6 @@ DOTAQuest.ActiveQuestLine #Completion {
     font-weight: thin;
     font-size: 16px;
     color: #9e9e97;
-
     margin-top: 2px;
     margin-left: 45px;
     margin-bottom: 20px;
@@ -2228,7 +2220,6 @@ DOTAQuest.ActiveQuestLine #Completion {
 
 #ProgressChallengeBlock {
     vertical-align: bottom;
-
     horizontal-align: left;
     margin-left: 14px;
 }
@@ -2270,7 +2261,6 @@ DOTAQuest.ActiveQuestLine #Completion {
     background-size: cover;
     transform: translateX(-220px) translateY(-180px);
     opacity: 0.4;
-
     animation-name: CoverGlow;
     animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
@@ -2281,9 +2271,11 @@ DOTAQuest.ActiveQuestLine #Completion {
     0% {
         opacity: 0.4;
     }
+
     50% {
         opacity: 0.2;
     }
+
     100% {
         opacity: 0.4;
     }
@@ -2337,7 +2329,6 @@ DOTAQuest.ActiveQuestLine #Completion {
 #IntroInformationPanel {
     width: 658px;
     height: 372px;
-
     horizontal-align: center;
     vertical-align: bottom;
     background-color: #00000066;
@@ -2350,7 +2341,6 @@ DOTAQuest.ActiveQuestLine #Completion {
     width: 100%;
     height: 29%;
     margin: 8px;
-
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#0e151d), to(#331f25));
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#171412), to(#4d211a));
 }
@@ -2412,12 +2402,10 @@ DOTAQuest.ActiveQuestLine #Completion {
 
 #IntroPanelCommunity {
     transform: rotateX(35deg) translateX(-360px) translateY(26px) translateZ(40px);
-
     width: 512px;
     vertical-align: top;
     horizontal-align: right;
     visibility: collapse;
-
     transition-property: opacity, pre-transform-scale2d, transform;
     transition-duration: 0.24s;
     transition-delay: 0s, 0s, 0s;
@@ -2483,7 +2471,6 @@ DOTAQuest.ActiveQuestLine #Completion {
 #IntroToggle {
     horizontal-align: right;
     height: 100%;
-
     width: 1000px;
     z-index: 5;
 }
@@ -2512,9 +2499,7 @@ DOTAQuest.ActiveQuestLine #Completion {
     z-index: 5;
     wash-color: #5b1405;
     transform: translateX(-2px);
-
     opacity: 0;
-
     transition-property: opacity, wash-color;
     transition-duration: 0.25s;
 }
@@ -2553,7 +2538,6 @@ DOTAQuest.ActiveQuestLine #Completion {
     opacity: 0;
     pre-transform-scale2d: 2.5;
     wash-color: #c04e39;
-
     transition-property: pre-transform-scale2d, opacity, wash-color;
     transition-duration: 0.4s, 0.4s, 0.12s;
 }
@@ -2566,7 +2550,6 @@ DOTAQuest.ActiveQuestLine #Completion {
     text-align: center;
     color: #d69d1f;
     font-size: 22px;
-
     transition-property: color;
     transition-duration: 0.25s;
 }
@@ -2580,7 +2563,6 @@ DOTAQuest.ActiveQuestLine #Completion {
     background-color: #000000;
     margin-top: 62px;
     box-shadow: #d69d1f 0px 0px 8px 0px;
-
     transition-property: box-shadow, border, background-color;
     transition-duration: 0.25s;
 }
@@ -2634,7 +2616,6 @@ DOTAQuest.ActiveQuestLine #Completion {
     background-color: #1a468b;
     background-color: #713027;
     tooltip-body-position: 50% 50%;
-
     border-top-right-radius: 10px;
 }
 
@@ -2698,9 +2679,7 @@ DOTAQuest.ActiveQuestLine #Completion {
     margin-top: 24px;
     z-index: 5;
     padding: 84px;
-
     visibility: collapse;
-
     transition-property: transform, opacity, pre-transform-scale2d, blur;
     transition-duration: 0.42s;
     transition-timing-function: ease-in-out;
@@ -2710,9 +2689,7 @@ DOTAQuest.ActiveQuestLine #Completion {
     width: 100%;
     height: 100%;
     background-color: #000000f5;
-
     opacity: 0;
-
     transition-property: opacity, transform, pre-transform-scale2d, blur;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -2724,7 +2701,6 @@ DOTAQuest.ActiveQuestLine #Completion {
 
 #NoteWritingContainer {
     width: 550px;
-
     horizontal-align: center;
     vertical-align: middle;
     margin-left: 420px;
@@ -2742,7 +2718,6 @@ DOTAQuest.ActiveQuestLine #Completion {
     pre-transform-scale2d: 0.5;
     transform: translateY(-28px) translateX(-28px);
     opacity: 0;
-
     opacity-mask: url("s2r://panorama/images/masks/textvignette_psd.vtex") 0.75;
     horizontal-align: center;
     transition-property: opacity, transform, pre-transform-scale2d, color;
@@ -2797,7 +2772,6 @@ DOTAQuest.ActiveQuestLine #Completion {
     z-index: 3;
     margin-top: 92px;
     margin-left: 62px;
-
     background-image: url("s2r://panorama/images/compendium/hongbao_psd.vtex");
     background-size: 100%;
     box-shadow: fill #000000aa 0px 0px 8px 8px;
@@ -2812,7 +2786,6 @@ DOTAQuest.ActiveQuestLine #Completion {
     transform: rotateX(35deg);
     text-shadow: 0px 1px 2px 3 #000000;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -2847,15 +2820,12 @@ DOTAQuest.ActiveQuestLine #Completion {
 #QuestLineArt {
     width: 25%;
     height: 25%;
-
     vertical-align: middle;
     horizontal-align: center;
-
     background-color: black;
     background-image: url("s2r://panorama/images/compendium/spring2016/quests/tabletop_psd.vtex");
     background-size: 100%;
     blur: gaussian(2, 2, 2);
-
     pre-transform-scale2d: 5.2;
     transition-property: pre-transform-scale2d;
     transition-duration: 0.32s;
@@ -2876,10 +2846,8 @@ DOTAQuest.ActiveQuestLine #Completion {
     vertical-align: bottom;
     background-image: url("s2r://panorama/images/status_icons/3star_empty_psd.vtex");
     background-size: 100%;
-
     z-index: 5;
     margin-bottom: 4px;
-
     transition-property: wash-color, opacity;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -2892,9 +2860,11 @@ DOTAQuest.ActiveQuestLine #Completion {
 .QuestTier1Complete .QuestStarCompletion {
     background-image: url("s2r://panorama/images/status_icons/3star_1_psd.vtex");
 }
+
 .QuestTier2Complete .QuestStarCompletion {
     background-image: url("s2r://panorama/images/status_icons/3star_2_psd.vtex");
 }
+
 .QuestTier3Complete .QuestStarCompletion {
     background-image: url("s2r://panorama/images/status_icons/3star_3_psd.vtex");
 }
@@ -2902,31 +2872,26 @@ DOTAQuest.ActiveQuestLine #Completion {
 .NodeAvailable.NodeSelected .QuestStarCompletion,
 .NodeSelected .QuestStarCompletion {
     wash-color: #f7b67f;
-
     wash-color: #e7f77f;
 }
 
 .QuestTier3Complete .QuestStarCompletion {
     wash-color: #7b352b;
-
     wash-color: #7a7b2b;
 }
 
 .Quest4Active .QuestTier3Complete .QuestStarCompletion {
     wash-color: #b28701;
-
     wash-color: #acb201;
 }
 
 .NodeAvailable .QuestStarCompletion {
     wash-color: #b64b37;
-
     wash-color: #94aa2b;
 }
 
 .Quest4Active .NodeAvailable .QuestStarCompletion {
     wash-color: #f6b54e;
-
     wash-color: #d8f64e;
 }
 
@@ -2937,12 +2902,9 @@ DOTAQuest.ActiveQuestLine #Completion {
 #Choose,
 #QuestLineName {
     font-size: 42px;
-
     padding: 0px;
-
     overflow: noclip;
     margin: 0px;
-
     transition-property: transform, opacity, color;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;

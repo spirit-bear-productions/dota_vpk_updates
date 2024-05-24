@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAUIHeroFacetPicker {
     height: fit-children;
     flow-children: down;
@@ -10,11 +12,11 @@ DOTAUIHeroFacetPicker {
     tooltip-position: bottom;
     margin: 0px 3px;
     box-shadow: 0px 4px 24px -4px rgba(0, 0, 0, 0.4);
-
     transition-property: transform, box-shadow;
     transition-duration: 0.1s;
     transition-timing-function: ease-out;
 }
+
 .HeroFacetSnippet .HeroFacetSnippetContainer {
     width: 100%;
     margin: 1px;
@@ -29,6 +31,7 @@ DOTAUIHeroFacetPicker {
     padding-right: 8px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00000000), to(#00000060));
 }
+
 .witch_doctor .HeroFacetSnippet .FacetContents,
 .dragon_knight .HeroFacetSnippet .FacetContents {
     height: 56px;
@@ -47,7 +50,6 @@ DOTAUIHeroFacetPicker {
     ignore-parent-flow: true;
     opacity: 0.9;
     brightness: 0.5;
-
     transition-property: saturation, brightness;
     transition-duration: 0.1s;
 }
@@ -76,11 +78,9 @@ DOTAUIHeroFacetPicker {
     border: 0px solid rgb(255, 255, 255);
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#fffffffd), to(#707c86fd));
     border-radius: 3px;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease-out;
-
     opacity: 0;
 }
 
@@ -89,11 +89,9 @@ DOTAUIHeroFacetPicker {
     height: 22px;
     horizontal-align: right;
     wash-color: #ebeff1fd;
-
     transition-property: opacity, transform;
     transition-duration: 0.05s, 0.3s;
     transition-timing-function: cubic-bezier(0, 1, 0, 1);
-
     opacity: 0;
     transform: translateY(-10px) translateX(10px);
 }
@@ -117,6 +115,7 @@ DOTAUIHeroFacetPicker {
     flow-children: down;
     margin-left: 8px;
 }
+
 .HeroFacetSnippet .FacetHeaderText Label {
     transition-property: transform;
     transition-duration: 0.05s;
@@ -128,6 +127,7 @@ DOTAUIHeroFacetPicker {
     opacity: 0.6;
     margin-bottom: -2px;
 }
+
 .chen .HeroFacetSnippet .FacetHeaderText .FacetLabel {
     visibility: collapse;
 }
@@ -142,6 +142,7 @@ DOTAUIHeroFacetPicker {
     height: 20px;
     text-overflow: shrink;
 }
+
 .witch_doctor .HeroFacetSnippet .FacetHeaderText .FacetName,
 .dragon_knight .HeroFacetSnippet .FacetHeaderText .FacetName {
     height: fit-children;
@@ -152,6 +153,7 @@ DOTAUIHeroFacetPicker {
     z-index: 1;
     box-shadow: 0px 8px 48px -4px rgba(0, 0, 0, 0.4);
 }
+
 .HeroFacetSnippet.Selected .FacetSelectedBorder {
     border: 1.3px solid rgb(255, 255, 255);
     opacity: 1;
@@ -195,6 +197,7 @@ DOTAUIHeroFacetPicker {
     brightness: 0.5;
     transform: translateY(0.5px) scale3d(0.98, 0.98, 1);
 }
+
 .HeroFacetSnippet:active Label {
     transform: translateY(0.5px);
 }
@@ -287,6 +290,7 @@ DOTAUIHeroFacetPicker {
     animation-timing-function: ease;
     animation-delay: 0.2s;
 }
+
 .IconsOnly .HeroFacetSnippet.Selected .GlimmerShine {
     animation-name: Shimmer;
     animation-duration: 0.5s;

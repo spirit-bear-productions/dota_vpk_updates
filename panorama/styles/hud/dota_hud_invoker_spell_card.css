@@ -1,17 +1,16 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTASpellCard {
     horizontal-align: center;
     vertical-align: bottom;
     margin-bottom: 232px;
-
     background-color: #000000ee;
     border-radius: 6px;
     border: 2px solid black;
-
     transform: translateX(0px) translateY(0px);
     pre-transform-scale2d: 1;
     opacity: 1;
     box-shadow: #000000aa 0px 0px 8px 0px;
-
     transition-property: transform, pre-transform-scale2d, opacity;
     transition-duration: 0.22s;
     transition-timing-function: ease-in-out;
@@ -85,7 +84,6 @@ DOTASpellCardRow {
 .InvokeKey {
     horizontal-align: center;
     border-radius: 6px;
-
     text-align: center;
     font-size: 20px;
     width: 24px;
@@ -173,11 +171,9 @@ DOTASpellCardRow {
     text-overflow: shrink;
     color: white;
     width: 104px;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-delay: 0s;
-
     transition-timing-function: ease-in-out;
 }
 
@@ -190,9 +186,11 @@ DOTASpellCardRow {
 #SpellColumn0 #AbilityName {
     color: #88c5e9;
 }
+
 #SpellColumn3 #AbilityName {
     color: #c284bf;
 }
+
 #SpellColumn6 #AbilityName {
     color: #c69a25;
 }
@@ -208,7 +206,6 @@ DOTASpellCardRow {
     transition-property: width;
     transition-duration: 0.22s;
     z-index: 4;
-
     transition-timing-function: ease-in-out;
 }
 

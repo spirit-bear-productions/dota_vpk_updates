@@ -1,13 +1,12 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACompTI10PlayerCardDetailsPopup#PlayerCardDetail.PopupPanel {
     width: 100%;
     height: 100%;
-
     animation-name: none;
     padding: 12px;
-
     background-color: #000d;
     border: 0px solid transparent;
-
     horizontal-align: center;
     vertical-align: center;
     box-shadow: none;
@@ -36,7 +35,6 @@ DOTACompTI10PlayerCardDetailsPopup #PlayerCardDetailsContainer {
     width: 100%;
     vertical-align: middle;
     horizontal-align: center;
-
     flow-children: none;
 }
 
@@ -67,7 +65,6 @@ DOTACompTI10PlayerCardDetailsPopup #CardCarousel DOTAPlayerCard {
     transition-timing-function: ease-in-out;
     pre-transform-scale2d: 0.8;
     opacity: 0.999;
-
     box-shadow: 0px 0px 14px 1px #000000;
 }
 
@@ -79,55 +76,66 @@ DOTACompTI10PlayerCardDetailsPopup #CardCarousel DOTAPlayerCard.Dusted {
     transform: translateX(-30px);
     wash-color: #00000044;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus2 {
     transform: translateX(-30px);
     wash-color: #00000066;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus3 {
     transform: translateX(-30px);
     wash-color: #00000088;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus4 {
     transform: translateX(-30px);
     wash-color: #000000aa;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus5 {
     transform: translateX(-30px);
     wash-color: #000000cc;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus6 {
     transform: translateX(-30px);
     wash-color: #000000ee;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus7 {
     transform: translateX(-30px);
     wash-color: #000000ee;
     opacity: 0.8;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus8 {
     transform: translateX(-30px);
     wash-color: #000000ff;
     opacity: 0.6;
     box-shadow: -7px 0px 14px 0px #000000dd;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus9 {
     transform: translateX(-30px);
     wash-color: #000000ff;
     opacity: 0.4;
     box-shadow: -7px 0px 14px 0px #000000bb;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus10 {
     transform: translateX(-30px);
     wash-color: #000000ff;
     opacity: 0.2;
     box-shadow: -7px 0px 14px 0px #00000088;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus11 {
     transform: translateX(-30px);
     wash-color: #000000ff;
     opacity: 0;
     box-shadow: -7px 0px 14px 0px #00000055;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus12 {
     transform: translateX(-30px);
     wash-color: #000000ff;
@@ -139,51 +147,62 @@ DOTACompTI10PlayerCardDetailsPopup #CardCarousel DOTAPlayerCard.Dusted {
     transform: translateX(30px);
     wash-color: #00000044;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus2 {
     transform: translateX(30px);
     wash-color: #00000066;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus3 {
     transform: translateX(30px);
     wash-color: #00000088;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus4 {
     transform: translateX(30px);
     wash-color: #000000aa;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus5 {
     transform: translateX(30px);
     wash-color: #000000cc;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus6 {
     transform: translateX(30px);
     wash-color: #000000ee;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus7 {
     transform: translateX(30px);
     wash-color: #000000ff;
     opacity: 0.8;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus8 {
     transform: translateX(30px);
     wash-color: #000000ff;
     opacity: 0.6;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus9 {
     transform: translateX(30px);
     wash-color: #000000ff;
     opacity: 0.4;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus10 {
     transform: translateX(30px);
     wash-color: #000000ff;
     opacity: 0.2;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus11 {
     transform: translateX(30px);
     wash-color: #000000ff;
     opacity: 0;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus12 {
     transform: translateX(30px);
     wash-color: #000000ff;
@@ -197,7 +216,6 @@ DOTACompTI10PlayerCardDetailsPopup #CardCarousel DOTAPlayerCard.Dusted {
 #CardCarousel DOTAPlayerCard.Focused {
     z-index: 2;
     opacity: 0.999;
-
     blur: gaussian(0, 0, 0);
     transform: translateY(-30px);
     wash-color: #00000000;
@@ -228,7 +246,6 @@ DOTACompTI10PlayerCardDetailsPopup #MatchesContainer {
     margin: 10px 10px;
     width: 1200px;
     height: 300px;
-
     background-color: #222222;
 }
 

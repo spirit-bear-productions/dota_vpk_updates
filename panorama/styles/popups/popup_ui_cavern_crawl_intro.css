@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupUICavernCrawlIntro.PopupPanel {
     width: 1100px;
     vertical-align: center;
@@ -36,7 +38,6 @@ DOTAPopupUICavernCrawlIntro.PopupPanel {
 
 .headerBackgroundFXLeft {
     ignore-parent-flow: true;
-
     width: 100%;
     height: 208px;
     horizontal-align: left;
@@ -50,7 +51,6 @@ DOTAPopupUICavernCrawlIntro.PopupPanel {
 
 .headerBackgroundFXCenter {
     ignore-parent-flow: true;
-
     width: 100%;
     height: 416px;
     transform: translate3d(0px, 60px, 0px);
@@ -64,7 +64,6 @@ DOTAPopupUICavernCrawlIntro.PopupPanel {
 
 .headerBackgroundFXRight {
     ignore-parent-flow: true;
-
     width: 100%;
     height: 208px;
     transform: translate3d(680px, 60px, 0px);
@@ -89,7 +88,6 @@ DOTAPopupUICavernCrawlIntro.PopupPanel {
     vertical-align: center;
     margin-right: 8px;
     wash-color: accentColorBright;
-
     background-image: bp_cavern_crawl_logo;
     background-size: 100% 100%;
     background-position: 50% 50%;
@@ -172,12 +170,10 @@ DOTAPopupUICavernCrawlIntro.PopupPanel {
 .HeroCavernImage {
     width: 300px;
     height: 240px;
-
     background-image: url("s2r://panorama/images/cavern/herocanvernimage_psd.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     horizontal-align: center;
     box-shadow: 0px 0px 18px #00000070;
 }
@@ -185,12 +181,10 @@ DOTAPopupUICavernCrawlIntro.PopupPanel {
 .ButtonPreview {
     width: 300px;
     height: 240px;
-
     background-image: url("s2r://panorama/images/cavern/cavern_button_psd.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     horizontal-align: center;
     box-shadow: 0px 0px 18px #00000070;
 }
@@ -206,12 +200,10 @@ DOTAPopupUICavernCrawlIntro.PopupPanel {
     margin-bottom: 2px;
     vertical-align: bottom;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/cavern/cavern_filter_psd.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     box-shadow: 0px 0px 18px #00000070;
 }
 

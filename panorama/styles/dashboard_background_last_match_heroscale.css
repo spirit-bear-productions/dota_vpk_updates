@@ -1,4 +1,6 @@
-@define abaddon_scale:  1.0;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define abaddon_scale: 1.0;
 @define abyssal_underlord_chat_offset: 1.06;
 @define abyssal_underlord_scale: 0.945;
 @define abyssal_underlord_x_offset: -30;
@@ -389,7 +391,5 @@
 @define zuus_scale: 1.12;
 @define zuus_x_offset: -10;
 @define zuus_y_offset: 0;
-
 @define skeleton_king_activity_modifier: PostGameIdle;
-
 @define scene_panel_activity_modifier: last_match_screen;

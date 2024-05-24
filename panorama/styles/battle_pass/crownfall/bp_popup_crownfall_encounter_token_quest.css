@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .Title {
     font-family: monospace;
     text-transform: uppercase;
@@ -11,6 +13,7 @@
 .Center {
     flow-children: right;
 }
+
 .Center .OldManIcon {
     width: 128px;
     height: 128px;
@@ -26,6 +29,7 @@
     min-width: 320px;
     min-height: 250px;
 }
+
 #RewardContainer Panel {
     vertical-align: center;
     horizontal-align: center;
@@ -35,6 +39,7 @@
     horizontal-align: center;
     flow-children: down;
 }
+
 #RewardContainer .ModelReward #ModelPreview {
     width: 480px;
     height: 320px;
@@ -44,6 +49,7 @@
     flow-children: down;
     horizontal-align: center;
 }
+
 #RewardContainer .EconItemReward .ImageContainer {
     width: 240px;
     height: 160px;
@@ -59,6 +65,7 @@
 #RewardContainer .CandyShopRerollChargesItem {
     flow-children: down;
 }
+
 #RewardContainer .CandyShopRerollChargesItem .CandyShopRerollChargeImage {
     width: 200px;
     height: 200px;
@@ -96,6 +103,7 @@
     max-width: 700px;
     max-height: 280px;
 }
+
 #CostTokensContainer DOTACrownfallToken {
     ui-scale: 260%;
     margin: -4px;
@@ -111,6 +119,7 @@
     vertical-align: bottom;
     margin-bottom: 50px;
 }
+
 .BodyContainer .LowerContainer Panel {
     vertical-align: bottom;
 }
@@ -118,6 +127,7 @@
 .BodyContainer AsyncDataPanel {
     horizontal-align: center;
 }
+
 .PopupClosing .BodyContainer AsyncDataPanel {
     visibility: collapse;
 }
@@ -133,6 +143,7 @@
     horizontal-align: center;
     flow-children: right;
 }
+
 .AlreadyClaimed .BodyContainer .CenterContainer {
     visibility: collapse;
 }
@@ -160,6 +171,7 @@
     width: 600px;
     flow-children: down;
 }
+
 .AlreadyClaimed .BodyContainer .AsyncContainer .Actions .ClaimRewardButton {
     visibility: collapse;
 }

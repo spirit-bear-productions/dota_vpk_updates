@@ -1,65 +1,56 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define fullPreviewTransitionDuration: 1s;
 @define openTreasureRotationSpeed: 40.0;
 @define openTreasureRotationAcceleration: 5.0;
 @define openTreasureSpinUpDuration: 2.0s;
 @define openTreasureEliminationDelay: 1.0s;
-
 @define uncommonTextColor: #4cc2de;
 @define uncommonGlowColor: #4bafde;
 @define uncommonEscalatingChanceIconColor: #4bafde;
 @define uncommonHueRotation: 240deg;
 @define uncommonSaturation: 1.0;
-
 @define rareTextColor: #9ede4c;
 @define rareGlowColor: #afde4b;
 @define rareEscalatingChanceIconColor: #afde4b;
 @define rareHueRotation: 240deg;
 @define rareSaturation: 1.0;
-
 @define veryRareTextColor: #fd9d55;
 @define veryRareGlowColor: #fdc194;
 @define veryRareEscalatingChanceIconColor: #fd9d55;
 @define veryRareHueRotation: 150deg;
 @define veryRareSaturation: 1.0;
-
 @define extremelyRareTextColor: #fddb87;
 @define extremelyRareGlowColor: #fdca4a;
 @define extremelyRareEscalatingChanceIconColor: #fdca4a;
 @define extremelyRareHueRotation: 170deg;
 @define extremelyRareSaturation: 1.0;
-
 @define ultraRareChanceTextColor: #fddb87;
 @define ultraRareChanceGlowColor: #fdca4a;
 @define ultraRareEscalatingChanceIconColor: #fdca4a;
 @define ultraRareChanceHueRotation: 170deg;
 @define ultraRareChanceSaturation: 1.0;
-
 @define cosmicallyRareChanceTextColor: #b759f3;
 @define cosmicallyRareChanceGlowColor: #9400f3;
 @define cosmicallyRareEscalatingChanceIconColor: #9400f3;
 @define cosmicallyRareChanceHueRotation: 70deg;
 @define cosmicallyRareChanceSaturation: 1.0;
-
 @define bronzeTextColor: #cd8f68;
 @define bronzeGlowColor: #cd8f68;
 @define bronzeHueRotation: 155deg;
 @define bronzeSaturation: 1.0;
-
 @define silverTextColor: #ededed;
 @define silverGlowColor: #ededed;
 @define silverHueRotation: 0deg;
 @define silverSaturation: 0;
-
 @define goldTextColor: #ebcb6c;
 @define goldGlowColor: #ebd79c;
 @define goldHueRotation: 185deg;
 @define goldSaturation: 1.0;
-
 @define infusedTextColor: #a149d4;
 @define infusedGlowColor: #a149d4;
 @define infusedHueRotation: 30deg;
 @define infusedSaturation: 1.0;
-
 DOTATreasureDetailsPage {
     width: 100%;
     height: 100%;
@@ -121,12 +112,12 @@ DOTATreasureDetailsPage {
 
 #TreasureModelContainer {
     visibility: collapse;
-
     width: 110px;
     height: 72px;
     overflow: noclip;
     background-size: cover;
 }
+
 #TreasureModelContainer .TreasureModelSmall {
     width: 300px;
     height: 120px;
@@ -138,7 +129,6 @@ DOTATreasureDetailsPage {
 
 .GrantButton {
     width: 86px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#2d4f86), to(#1b355e));
     border-top: 1px solid #ffffff22;
     border-left: 1px solid #ffffff11;
@@ -174,9 +164,11 @@ DOTATreasureDetailsPage {
     visibility: collapse;
     margin-right: 4px;
 }
+
 .MainBranch #TreasureGrantButton {
     visibility: visible;
 }
+
 .MainBranch .KeyRequired #KeyGrantButton {
     visibility: visible;
 }
@@ -191,12 +183,10 @@ DOTATreasureDetailsPage {
     font-size: 28px;
     line-height: 130%;
     margin-top: -2px;
-
     color: gradient(linear, 0% 0%, 0% 100%, from(white), to(LightestGrey));
     opacity: 0.8;
     text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.6);
     font-family: titleFont;
-
     width: 100%;
     letter-spacing: -0.4px;
 }
@@ -227,6 +217,7 @@ DOTATreasureDetailsPage {
 .ColoredButton:hover:enabled {
     brightness: 1.5;
 }
+
 .ColoredButton:active {
     brightness: 2;
 }
@@ -308,6 +299,7 @@ DOTATreasureDetailsPage {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#60842c), to(#40601d));
     border-right: 1px solid #00000085;
 }
+
 .PurchaseMarketCommodity #TreasurePurchaseButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#307663), to(#245a4b));
 }
@@ -315,6 +307,7 @@ DOTATreasureDetailsPage {
 #TreasurePriceButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#60842c), to(#40601d));
 }
+
 #TreasurePriceContents {
     horizontal-align: center;
     flow-children: right;
@@ -325,11 +318,9 @@ DOTATreasureDetailsPage {
     width: 20px;
     height: 20px;
     margin-bottom: -3px;
-
     background-image: url("s2r://panorama/images/compendium/coin_icon_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     visibility: collapse;
 }
 
@@ -410,11 +401,11 @@ DOTATreasureDetailsPage {
 .NotSelectedPeek.PurchaseAvailable #TreasurePurchaseRow {
     opacity: 0;
     max-height: 0;
-
     transition-property: max-height;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
+
 .PurchaseAvailable #TreasurePurchaseRow {
     opacity: 1;
     max-height: 100%;
@@ -429,9 +420,9 @@ DropDown {
     background-color: #000a;
     padding: 14px 14px 18px 14px;
     flow-children: down;
-
     visibility: collapse;
 }
+
 .EventPurchaseAvailable #EventPurchase,
 .HasUnclaimedEventRewards #EventPurchase {
     visibility: visible;
@@ -442,6 +433,7 @@ DropDown {
     horizontal-align: center;
     margin-bottom: 3px;
 }
+
 .EventIcon {
     background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_small_png.vtex");
     background-size: contain;
@@ -450,12 +442,14 @@ DropDown {
     height: 26px;
     margin-right: 6px;
 }
+
 .EventPurchaseHeaderText {
     color: #fffa;
     text-transform: uppercase;
     vertical-align: middle;
     margin-top: 2px;
 }
+
 .EventPurchaseHeaderText .LevelAmount {
     color: white;
     font-weight: bold;
@@ -466,6 +460,7 @@ DropDown {
 #UnclaimedEventRewards {
     visibility: collapse;
 }
+
 .OwnsEvent:not(.HasUnclaimedEventRewards) #EventLevelsRequired,
 .OwnsEvent.HasUnclaimedEventRewards #UnclaimedEventRewards {
     visibility: visible;
@@ -474,22 +469,20 @@ DropDown {
 .EventPurchaseButton {
     margin-top: 8px;
     horizontal-align: center;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#60842c), to(#40601d));
     padding: 0px 14px;
-
     transition-property: border, brightness;
     transition-duration: 0.1s;
     transition-timing-function: linear;
-
     min-width: 300px;
     min-height: 45px;
-
     visibility: collapse;
 }
+
 .EventPurchaseButton:hover {
     brightness: 2;
 }
+
 .EventPurchaseButton:active {
     brightness: 1.5;
 }
@@ -513,7 +506,6 @@ DropDown {
     padding-left: 8px;
     padding-right: 8px;
     padding-top: 2px;
-
     transition-property: color;
     transition-duration: 0.1s;
     transition-timing-function: linear;
@@ -531,9 +523,11 @@ DropDown {
 #PurchaseEventButton {
     visibility: visible;
 }
+
 .OwnsEvent #PurchaseEventButton {
     visibility: collapse;
 }
+
 .OwnsEvent.CanPurchaseEventLevels #PurchaseEventLevelsButton,
 .OwnsEvent:not(.CanPurchaseEventLevels) #ViewEventLevelsButton {
     visibility: visible;
@@ -542,6 +536,7 @@ DropDown {
 .OwnsEvent.HasUnclaimedEventRewards #ClaimEventRewardsButton {
     visibility: visible;
 }
+
 .OwnsEvent.HasUnclaimedEventRewards #PurchaseEventLevelsButton,
 .OwnsEvent.HasUnclaimedEventRewards #ViewEventLevelsButton {
     visibility: collapse;
@@ -552,7 +547,6 @@ DropDown {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#55262f), to(#2a131b));
     padding: 6px 12px;
     width: 100%;
-
     visibility: collapse;
 }
 
@@ -578,10 +572,8 @@ DropDown {
     vertical-align: middle;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#2b102a), to(#1c0d32));
     border-radius: 6px;
-
     padding: 9px 18px 6px 18px;
     box-shadow: fill 0px 0px 4px black;
-
     transition-duration: 0.2s;
     transition-property: brightness;
 }
@@ -611,9 +603,11 @@ DropDown {
 #CharmPriceButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#24421c), to(#18340e));
 }
+
 #CharmPurchaseRow {
     visibility: collapse;
 }
+
 .CharmAvailable #CharmPurchaseRow {
     visibility: visible;
 }
@@ -634,10 +628,10 @@ DropDown {
     height: 100%;
     width: 82px;
     border-top: 1px solid #ffffff11;
-
     border-right: 1px solid #00000044;
     border-bottom: 1px solid #00000088;
 }
+
 #CharmsOwnedCount {
     color: white;
     font-size: 20px;
@@ -647,6 +641,7 @@ DropDown {
     text-shadow: 2px 2px 2px black;
     visibility: collapse;
 }
+
 .OwnsCharm #CharmsOwnedCount {
     visibility: visible;
 }
@@ -654,12 +649,15 @@ DropDown {
 #InfuserPurchaseButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5a2e79), to(#3b1956));
 }
+
 #InfuserPurchaseRow {
     visibility: collapse;
 }
+
 .OwnsInfuser #InfuserPurchaseRow {
     margin-bottom: 0px;
 }
+
 .InfuserPurchaseAvailable #InfuserPurchaseRow {
     visibility: visible;
 }
@@ -681,9 +679,9 @@ DropDown {
     background-color: #5a2e7933;
     flow-children: right;
     padding: 6px 4px 4px 4px;
-
     visibility: collapse;
 }
+
 .OwnsInfuser #InfusersOwnedRow {
     visibility: visible;
 }
@@ -712,9 +710,9 @@ DropDown {
     background-color: #5a2e7933;
     flow-children: right;
     padding: 6px 4px 4px 4px;
-
     visibility: collapse;
 }
+
 .OwnsInfuser #KeysOwnedRow {
     visibility: visible;
 }
@@ -722,6 +720,7 @@ DropDown {
 #KeyPurchaseRow {
     visibility: collapse;
 }
+
 .KeyPurchaseAvailable #KeyPurchaseRow {
     visibility: visible;
 }
@@ -739,19 +738,24 @@ DropDown {
 #MarketPurchaseButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#245a4b), to(#1d493d));
 }
+
 #MarketPriceButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#307663), to(#245a4b));
 }
+
 #MarketPurchaseRow {
     visibility: collapse;
 }
+
 .MarketAvailable #MarketPurchaseRow {
     visibility: visible;
 }
+
 .NotSelectedPeek #MarketPurchaseRow,
 .IsSteamChina #MarketPurchaseRow {
     visibility: collapse;
 }
+
 .PurchaseAvailable.MarketAvailable #MarketPurchaseRow {
     visibility: collapse;
 }
@@ -765,6 +769,7 @@ DropDown {
 #AutographRow {
     visibility: collapse;
 }
+
 .AutographAvailable #AutographRow {
     visibility: visible;
 }
@@ -846,7 +851,6 @@ DropDown {
 .AutographOwnedIcon {
     width: 20px;
     height: 20px;
-
     background-image: url("s2r://panorama/images/icon_treasure_button_png.vtex");
     background-repeat: no-repeat;
     background-position: center;
@@ -867,6 +871,7 @@ DropDown {
     width: 100px;
     height: 100%;
 }
+
 .KeyRequired #OwnedTreasuresCount {
     width: 80px;
 }
@@ -875,14 +880,11 @@ DropDown {
 .NotSelectedPeek.OwnsTreasure #OwnedTreasures {
     margin-top: 0px;
     margin-bottom: 0px;
-
     flow-children: right;
     width: 100%;
-
     visibility: collapse;
     opacity: 0;
     max-height: 0;
-
     transition-property: opacity, max-height;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -917,11 +919,13 @@ DropDown {
     width: 100px;
     margin-left: 14px;
 }
+
 #GiftTreasureButton Label {
     color: white;
     horizontal-align: center;
     text-transform: uppercase;
 }
+
 #GiftTreasureButton:disabled {
     visibility: collapse;
 }
@@ -933,6 +937,7 @@ DropDown {
 #UnlockTreasureButton {
     visibility: collapse;
 }
+
 .KeyRequired #UnlockTreasureButton {
     visibility: visible;
 }
@@ -1026,6 +1031,7 @@ DropDown {
     text-transform: uppercase;
     vertical-align: middle;
 }
+
 #TreasureNavigation Button Image {
     vertical-align: middle;
 }
@@ -1082,14 +1088,11 @@ DropDown {
 #TreasureHelp {
     flow-children: down;
     background-color: #000000f6;
-
     padding-bottom: 1px;
     width: 100%;
     margin-bottom: 14px;
-
     opacity: 1;
     max-height: 100%;
-
     transition-property: max-height;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -1157,6 +1160,7 @@ DropDown {
     vertical-align: center;
     text-align: center;
 }
+
 #TreasureHelpHeader,
 #TreasureHelpHeaderPW,
 #TreasureHelpHeaderPWNotPurchasable,
@@ -1177,7 +1181,6 @@ DropDown {
     margin-bottom: 8px;
     width: 390px;
     flow-children: down;
-
     visibility: collapse;
 }
 
@@ -1195,6 +1198,7 @@ DropDown {
     margin-top: 10px;
     visibility: collapse;
 }
+
 .HasRareItems #TreasureHelpRareItems {
     visibility: visible;
 }
@@ -1242,11 +1246,8 @@ DropDown {
 #TreasureContents {
     padding-top: 50px;
     flow-children: right;
-
     min-width: 100%;
-
     transform-origin: 0% 80%;
-
     transition-property: transform;
     transition-duration: fullPreviewTransitionDuration;
 }
@@ -1274,12 +1275,10 @@ DOTATreasureDetailsPage.FullPreviewMode:not(.CanHaveDuplicates) #TreasureContent
     margin: 0px -300px;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
     pre-transform-scale2d: 1;
-
     brightness: 0.12;
     saturation: 0.6;
     transform: scale3d(0.7, 0.7, 1);
     blur: gaussian(3);
-
     transition-property: transform, position, brightness, opacity, saturation, blur, pre-transform-scale2d;
     transition-duration: 0.35s;
 }
@@ -1302,7 +1301,6 @@ DOTATreasureDetailsPage.FullPreviewMode:not(.CanHaveDuplicates) #TreasureContent
     width: 100%;
     height: 20%;
     margin: 0px 50px 0px 50px;
-
     background-color: gradient(radial, 50% 50%, 0% 0%, 70% 50%, from(#000000aa), to(#00000000)),
         gradient(radial, 50% 50%, 0% 0%, 35% 25%, from(#000000), to(#00000000));
     vertical-align: bottom;
@@ -1327,6 +1325,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem {
     pre-transform-scale2d: 0.8;
     brightness: 1;
 }
+
 DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     pre-transform-scale2d: 1;
     brightness: 2;
@@ -1352,7 +1351,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     width: 80%;
     height: 100%;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/glows/treasure_rare_glow_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1362,27 +1360,35 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 .TreasureItem.InfuserAvailable .TreasureItemBackgroundGlow {
     wash-color: infusedGlowColor;
 }
+
 .TreasureItem.TreasureItemRarity_Rare .TreasureItemBackgroundGlow {
     wash-color: rareGlowColor;
 }
+
 .TreasureItem.TreasureItemRarity_VeryRare .TreasureItemBackgroundGlow {
     wash-color: veryRareGlowColor;
 }
+
 .TreasureItem.TreasureItemRarity_ExtremelyRare .TreasureItemBackgroundGlow {
     wash-color: extremelyRareGlowColor;
 }
+
 .TreasureItem.TreasureItemRarity_UltraRare .TreasureItemBackgroundGlow {
     wash-color: ultraRareChanceGlowColor;
 }
+
 .TreasureItem.TreasureItemRarity_CosmicallyRare .TreasureItemBackgroundGlow {
     wash-color: cosmicallyRareChanceGlowColor;
 }
+
 .TreasureItem.OverrideClass.TreasureClassBronze .TreasureItemBackgroundGlow {
     wash-color: bronzeGlowColor;
 }
+
 .TreasureItem.OverrideClass.TreasureClassSilver .TreasureItemBackgroundGlow {
     wash-color: silverGlowColor;
 }
+
 .TreasureItem.OverrideClass.TreasureClassGold .TreasureItemBackgroundGlow {
     wash-color: goldGlowColor;
 }
@@ -1391,7 +1397,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     horizontal-align: center;
     width: 50%;
     height: 100%;
-
     visibility: collapse;
 }
 
@@ -1472,18 +1477,23 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 .TreasureItemRarity_Uncommon .EscalatingChancesPopupIcon {
     wash-color: uncommonEscalatingChanceIconColor;
 }
+
 .TreasureItemRarity_Rare .EscalatingChancesPopupIcon {
     wash-color: rareEscalatingChanceIconColor;
 }
+
 .TreasureItemRarity_VeryRare .EscalatingChancesPopupIcon {
     wash-color: veryRareEscalatingChanceIconColor;
 }
+
 .TreasureItemRarity_ExtremelyRare .EscalatingChancesPopupIcon {
     wash-color: extremelyRareEscalatingChanceIconColor;
 }
+
 .TreasureItemRarity_UltraRare .EscalatingChancesPopupIcon {
     wash-color: ultraRareEscalatingChanceIconColor;
 }
+
 .TreasureItemRarity_CosmicallyRare .EscalatingChancesPopupIcon {
     wash-color: cosmicallyRareEscalatingChanceIconColor;
 }
@@ -1491,18 +1501,23 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 .TreasureItemRarity_Uncommon .EscalatingChancesIcon {
     wash-color: uncommonEscalatingChanceIconColor;
 }
+
 .TreasureItemRarity_Rare .EscalatingChancesIcon {
     wash-color: rareEscalatingChanceIconColor;
 }
+
 .TreasureItemRarity_VeryRare .EscalatingChancesIcon {
     wash-color: veryRareEscalatingChanceIconColor;
 }
+
 .TreasureItemRarity_ExtremelyRare .EscalatingChancesIcon {
     wash-color: extremelyRareEscalatingChanceIconColor;
 }
+
 .TreasureItemRarity_UltraRare .EscalatingChancesIcon {
     wash-color: ultraRareEscalatingChanceIconColor;
 }
+
 .TreasureItemRarity_CosmicallyRare .EscalatingChancesIcon {
     wash-color: cosmicallyRareEscalatingChanceIconColor;
 }
@@ -1523,38 +1538,47 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 .InfuserAvailable .TreasureItemInfoLabel {
     color: infusedTextColor;
 }
+
 .TreasureItemRarity_Uncommon .TreasureItemInfoLabel,
 .TreasureItemRarity_Uncommon #TreasureControlsRarityValue {
     color: uncommonTextColor;
 }
+
 .TreasureItemRarity_Rare .TreasureItemInfoLabel,
 .TreasureItemRarity_Rare #TreasureControlsRarityValue {
     color: rareTextColor;
 }
+
 .TreasureItemRarity_VeryRare .TreasureItemInfoLabel,
 .TreasureItemRarity_VeryRare #TreasureControlsRarityValue {
     color: veryRareTextColor;
 }
+
 .TreasureItemRarity_ExtremelyRare .TreasureItemInfoLabel,
 .TreasureItemRarity_ExtremelyRare #TreasureControlsRarityValue {
     color: extremelyRareTextColor;
 }
+
 .TreasureItemRarity_UltraRare .TreasureItemInfoLabel,
 .TreasureItemRarity_UltraRare #TreasureControlsRarityValue {
     color: ultraRareChanceTextColor;
 }
+
 .TreasureItemRarity_CosmicallyRare .TreasureItemInfoLabel,
 .TreasureItemRarity_CosmicallyRare #TreasureControlsRarityValue {
     color: cosmicallyRareChanceTextColor;
 }
+
 .OverrideClass.TreasureClassBronze .TreasureItemInfoLabel,
 .OverrideClass.TreasureClassBronze #TreasureControlsRarityValue {
     color: bronzeTextColor;
 }
+
 .OverrideClass.TreasureClassSilver .TreasureItemInfoLabel,
 .OverrideClass.TreasureClassSilver #TreasureControlsRarityValue {
     color: silverTextColor;
 }
+
 .OverrideClass.TreasureClassGold .TreasureItemInfoLabel,
 .OverrideClass.TreasureClassGold #TreasureControlsRarityValue {
     color: goldTextColor;
@@ -1574,11 +1598,10 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     height: 32px;
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     border-radius: 50%;
-
     background-color: #c4ceda;
 }
+
 #TreasureItemSlotPreviewPips .PrimarySlotPip:selected {
     brightness: 2;
 }
@@ -1586,6 +1609,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 #TreasureItemSlotPreviewPips .PrimarySlotPip:hover {
     background-color: white;
 }
+
 #TreasureItemSlotPreviewPips .PrimarySlotPip:active {
     background-color: #ccc;
 }
@@ -1593,18 +1617,23 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 .TreasureItemRarity_Uncommon #TreasureItemSlotPreviewPips .PrimarySlotPip {
     background-color: uncommonTextColor;
 }
+
 .TreasureItemRarity_Rare #TreasureItemSlotPreviewPips .PrimarySlotPip {
     background-color: rareTextColor;
 }
+
 .TreasureItemRarity_VeryRare #TreasureItemSlotPreviewPips .PrimarySlotPip {
     background-color: veryRareTextColor;
 }
+
 .TreasureItemRarity_ExtremelyRare #TreasureItemSlotPreviewPips .PrimarySlotPip {
     background-color: extremelyRareTextColor;
 }
+
 .TreasureItemRarity_UltraRare #TreasureItemSlotPreviewPips .PrimarySlotPip {
     background-color: ultraRareChanceTextColor;
 }
+
 .TreasureItemRarity_CosmicallyRare #TreasureItemSlotPreviewPips .PrimarySlotPip {
     background-color: cosmicallyRareChanceTextColor;
 }
@@ -1615,9 +1644,11 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     transition-property: opacity;
     transition-duration: fullPreviewTransitionDuration;
 }
+
 .FullPreviewMode .TreasureItemBackgroundGlow {
     opacity: 0.1;
 }
+
 .FullPreviewMode .TreasureItemInfo {
     opacity: 1;
 }
@@ -1640,7 +1671,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     height: 50%;
     horizontal-align: center;
     vertical-align: bottom;
-
     opacity: 0.75;
     opacity-mask: url("s2r://panorama/images/masks/softedge_top_png.vtex");
     transition-property: opacity;
@@ -1662,48 +1692,56 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     hue-rotation: infusedHueRotation;
     saturation: infusedSaturation;
 }
+
 .TreasureItemRarity_Rare .MainPreviewRays,
 .TreasureItemRarity_Rare #RarityBackgroundGradient,
 .TreasureItemRarity_Rare #PreviewRaysSmall {
     hue-rotation: rareHueRotation;
     saturation: rareSaturation;
 }
+
 .TreasureItemRarity_VeryRare .MainPreviewRays,
 .TreasureItemRarity_VeryRare #RarityBackgroundGradient,
 .TreasureItemRarity_VeryRare #PreviewRaysSmall {
     hue-rotation: veryRareHueRotation;
     saturation: veryRareSaturation;
 }
+
 .TreasureItemRarity_ExtremelyRare .MainPreviewRays,
 .TreasureItemRarity_ExtremelyRare #RarityBackgroundGradient,
 .TreasureItemRarity_ExtremelyRare #PreviewRaysSmall {
     hue-rotation: extremelyRareHueRotation;
     saturation: extremelyRareSaturation;
 }
+
 .TreasureItemRarity_UltraRare .MainPreviewRays,
 .TreasureItemRarity_UltraRare #RarityBackgroundGradient,
 .TreasureItemRarity_UltraRare #PreviewRaysSmall {
     hue-rotation: ultraRareChanceHueRotation;
     saturation: ultraRareChanceSaturation;
 }
+
 .TreasureItemRarity_CosmicallyRare .MainPreviewRays,
 .TreasureItemRarity_CosmicallyRare #RarityBackgroundGradient,
 .TreasureItemRarity_CosmicallyRare #PreviewRaysSmall {
     hue-rotation: cosmicallyRareChanceHueRotation;
     saturation: cosmicallyRareChanceSaturation;
 }
+
 .OverrideClass.TreasureClassBronze .MainPreviewRays,
 .OverrideClass.TreasureClassBronze #RarityBackgroundGradient,
 .OverrideClass.TreasureClassBronze #PreviewRaysSmall {
     hue-rotation: bronzeHueRotation;
     saturation: bronzeSaturation;
 }
+
 .OverrideClass.TreasureClassSilver .MainPreviewRays,
 .OverrideClass.TreasureClassSilver #RarityBackgroundGradient,
 .OverrideClass.TreasureClassSilver #PreviewRaysSmall {
     hue-rotation: silverHueRotation;
     saturation: silverSaturation;
 }
+
 .OverrideClass.TreasureClassGold .MainPreviewRays,
 .OverrideClass.TreasureClassGold #RarityBackgroundGradient,
 .OverrideClass.TreasureClassGold #PreviewRaysSmall {
@@ -1721,7 +1759,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     vertical-align: bottom;
     flow-children: down;
     margin-bottom: 130px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -1781,7 +1818,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 
 #TreasureItemStyles {
     flow-children: right;
-
     visibility: collapse;
 }
 
@@ -1814,9 +1850,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     margin: 0px 391px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#71b6bb99), to(#305d5a99));
     flow-children: right;
-
     visibility: collapse;
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
 }
@@ -1852,12 +1886,10 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     horizontal-align: center;
     width: 80%;
     height: 80%;
-
     background-image: url("s2r://panorama/images/control_icons/check_shadow_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     wash-color: #488391;
 }
 
@@ -1885,6 +1917,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 #PreviousItemButton Panel {
     transform: rotateZ(90deg);
 }
+
 #NextItemButton Panel {
     transform: rotateZ(-90deg);
 }
@@ -1892,6 +1925,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 #PreviousItemButton:active Panel {
     transform: translateX(1px) translateY(-1px) rotateZ(90deg);
 }
+
 #NextItemButton:active Panel {
     transform: translateX(-1px) translateY(1px) rotateZ(-90deg);
 }
@@ -1901,7 +1935,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     margin: 0px 5px;
     width: 390px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#373e46), to(#48555d));
-
     border-style: solid;
     border-width: 1px;
     border-top-color: #555555;
@@ -1916,7 +1949,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 
 #ItemDetailsButton:active {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#393939), to(#555555));
-
     border-top-color: #222222;
     border-left-color: #303030;
     border-bottom-color: #666666;
@@ -1958,17 +1990,18 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     height: 16px;
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     border-radius: 50%;
-
     background-color: #6a7076;
 }
+
 #SlotPreviewPips .PrimarySlotPip:selected {
     background-color: #c4ceda;
 }
+
 #SlotPreviewPips .PrimarySlotPip:hover {
     background-color: white;
 }
+
 #SlotPreviewPips .PrimarySlotPip:active {
     background-color: #ccc;
 }
@@ -1993,7 +2026,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     height: 100%;
     horizontal-align: right;
     margin-right: 5px;
-
     visibility: collapse;
 }
 
@@ -2006,7 +2038,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     horizontal-align: right;
     height: 100%;
     margin-right: 5px;
-
     visibility: collapse;
 }
 
@@ -2014,6 +2045,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     hue-rotation: infusedHueRotation;
     visibility: visible;
 }
+
 .CanEquip #TreasureControlsLeftBackground,
 .Equipped #TreasureControlsLeftBackground {
     visibility: visible;
@@ -2036,7 +2068,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     transform: rotateZ(90deg);
     transform-origin: 60% 90%;
     margin-top: -300px;
-
     width: 250px;
     height: 350px;
     opacity: 1;
@@ -2079,6 +2110,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
 }
+
 .HasInfuserInInventory .CanEquip #TreasureControlsEquipInfusedButton {
     visibility: visible;
 }
@@ -2106,9 +2138,11 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     height: 100%;
     visibility: collapse;
 }
+
 .InfuserAvailable #TreasureControlsPreviewInfused {
     visibility: visible;
 }
+
 .Equipped #TreasureControlsPreviewInfused,
 .CanEquip #TreasureControlsPreviewInfused {
     visibility: collapse;
@@ -2124,6 +2158,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 #TreasurecontrolsPreviewInfusedButton .TickBox {
     visibility: collapse;
 }
+
 #TreasureControlsPreviewInfusedButton Label {
     margin: 2px 0px 0px 0px;
     font-size: 18px;
@@ -2134,9 +2169,11 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     horizontal-align: center;
     visibility: collapse;
 }
+
 #TreasureControlsPreviewInfusedButton:selected #HideInfusedLabel {
     visibility: visible;
 }
+
 #TreasureControlsPreviewInfusedButton:not(:selected) #ShowInfusedLabel {
     visibility: visible;
 }
@@ -2171,6 +2208,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 .RarityVisible #PreviewRaysSmall {
     opacity: 0.2;
 }
+
 .RarityVisible #RarityBackgroundGradient {
     opacity: 1;
 }
@@ -2178,9 +2216,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 #TreasureControlsRarity {
     margin-left: 5px;
     overflow: clip;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -2210,6 +2246,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     margin-top: -4px;
     visibility: collapse;
 }
+
 .HasRarityText #TreasureControlsRarityValue {
     visibility: visible;
 }
@@ -2221,7 +2258,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     margin-left: 40px;
     padding-top: 80px;
     padding-left: 40px;
-
     transition-property: opacity;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -2245,7 +2281,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     width: 450px;
     height: 225px;
     opacity-mask: url("s2r://panorama/images/masks/scratched_box_psd.vtex");
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -2292,7 +2327,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     width: 500px;
     margin-top: 40px;
     min-height: 180px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -2326,6 +2360,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     margin: 4px 0px;
     visibility: collapse;
 }
+
 #OpeningInProgressDisplay .Spinner {
     vertical-align: center;
     horizontal-align: center;
@@ -2354,7 +2389,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     padding: 14px;
     width: 500px;
     margin-top: 0px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -2369,7 +2403,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     box-shadow: fill #00000044 1px -1px 8px 1px;
-
     padding: 8px 14px 6px 14px;
     margin: 0px 14px 0px 0px;
     visibility: collapse;
@@ -2386,12 +2419,10 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 
 #CancelOpeningButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#373d45), to(#4d5860));
-
     transition-property: background-color;
     transition-duration: 0.2s;
     box-shadow: fill #00000055 0px 0px 4px 0px;
     padding: 8px 24px 6px 24px;
-
     visibility: collapse;
     border: 1px solid;
     border-top-color: #555555;
@@ -2407,7 +2438,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     transition-duration: 0.2s;
     box-shadow: fill #00000055 0px 0px 4px 0px;
     padding: 8px 24px 6px 24px;
-
     visibility: collapse;
     border: 1px solid;
     border-top-color: #555555;
@@ -2423,7 +2453,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     transition-duration: 0.2s;
     box-shadow: fill #00000055 0px 0px 4px 0px;
     padding: 8px 24px 6px 24px;
-
     visibility: collapse;
     border: 1px solid;
     border-top-color: #555555;
@@ -2442,7 +2471,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     box-shadow: fill #00000044 1px -1px 8px 1px;
-
     padding: 8px 14px 6px 14px;
     margin: 0px 14px 0px 0px;
     visibility: collapse;
@@ -2467,7 +2495,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     box-shadow: fill #00000044 1px -1px 8px 1px;
-
     padding: 8px 14px 6px 14px;
     margin: 0px 14px 0px 0px;
     visibility: collapse;
@@ -2489,7 +2516,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     transition-property: background-color;
     transition-duration: 0.2s;
     box-shadow: fill #00000055 0px 0px 4px 0px;
-
     visibility: collapse;
     border: 1px solid;
     border-top-color: #555555;
@@ -2502,15 +2528,12 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 #TreasureOpeningButtons Button {
     transition-property: background-color;
     transition-duration: 0.2s;
-
     padding: 8px 24px 6px 24px;
-
     visibility: collapse;
 }
 
 #TreasureOpeningButtons Button:hover {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#4c5561), to(#6c7d88));
-
     border-top-color: #aaaaaa77;
     border-left-color: #aaaaaa33;
     border-bottom-color: #333333;
@@ -2614,7 +2637,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     padding-bottom: 5px;
     opacity: 0;
     min-width: 525px;
-
     transition-duration: 0.4s;
     transition-property: opacity;
 }
@@ -2644,7 +2666,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     padding: 5px;
     padding-left: 10px;
     margin-top: -20px;
-
     padding-bottom: 10px;
     margin-bottom: 5px;
 }
@@ -2681,7 +2702,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
-
     letter-spacing: 2px;
     color: white;
 }
@@ -2713,24 +2733,31 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 .ShowForBattlePass {
     visibility: collapse;
 }
+
 .ShowForPlusRecycling {
     visibility: collapse;
 }
+
 .ShowForFantasyRecycling {
     visibility: collapse;
 }
+
 .ShowForEconRecycling {
     visibility: collapse;
 }
+
 .BattlePassRecycling .ShowForBattlePass {
     visibility: visible;
 }
+
 .PlusRecycling .ShowForPlusRecycling {
     visibility: visible;
 }
+
 .FantasyRecycling .ShowForFantasyRecycling {
     visibility: visible;
 }
+
 .EconRecycling .ShowForEconRecycling {
     visibility: visible;
 }
@@ -2743,6 +2770,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     blur: none;
     brightness: 1;
 }
+
 .RecyclingRequiresPlusSubscription #RecyclingRewardProgress {
     blur: gaussian(3);
     brightness: 0.25;
@@ -2768,6 +2796,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 .DotaPlusUpsellContents {
     visibility: collapse;
 }
+
 .RecyclingRequiresPlusSubscription .DotaPlusUpsellContents {
     visibility: visible;
 }
@@ -2844,7 +2873,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
 #RecyclingTreasureImageContainer {
     width: 60.75px;
     height: 40.5px;
-
     vertical-align: center;
 }
 
@@ -2872,6 +2900,7 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     horizontal-align: right;
     visibility: collapse;
 }
+
 .RecyclingAdditionalRewardHasQuantity #RecyclingAdditionalItemQty {
     visibility: visible;
 }
@@ -2892,7 +2921,6 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     margin-top: 5px;
     vertical-align: center;
     horizontal-align: center;
-
     visibility: collapse;
 }
 
@@ -2906,9 +2934,9 @@ DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem:hover {
     background-image: url("s2r://panorama/images/compendium/international2019/prestigerewards/mystery_item_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     visibility: collapse;
 }
+
 .HasMysteryItemRecyclingReward #RecyclingBattlePassReward {
     visibility: visible;
 }
@@ -2969,7 +2997,6 @@ Label {
     margin-top: 15px;
     horizontal-align: center;
     vertical-align: center;
-
     font-size: 20px;
     font-weight: bold;
 }
@@ -2988,18 +3015,23 @@ DOTAPunchCard .StampPanel:selected {
 #ProgressTick_5 {
     z-index: 110;
 }
+
 #ProgressTick_4 {
     z-index: 100;
 }
+
 #ProgressTick_3 {
     z-index: 99;
 }
+
 #ProgressTick_2 {
     z-index: 98;
 }
+
 #ProgressTick_1 {
     z-index: 97;
 }
+
 #ProgressTick_0 {
     z-index: 96;
 }
@@ -3014,6 +3046,7 @@ DOTAPunchCard .StampPanel:selected {
     padding-right: 20px;
     margin-top: 10px;
 }
+
 .RecyclingRequiresPlusSubscription #TreasureBundlesReceivedList {
     visibility: collapse;
 }
@@ -3035,7 +3068,6 @@ DOTAPunchCard .StampPanel:selected {
     font-weight: bold;
     color: #d8dce2;
     overflow: clip;
-
     color: #c4ceda;
     font-size: 24px;
     font-weight: bold;
@@ -3051,13 +3083,11 @@ DOTAPunchCard .StampPanel:selected {
     horizontal-align: right;
     vertical-align: center;
     margin-right: 0px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3484a7), to(#245575));
     background-color: #253646;
     border-top: 1px solid #485677;
     transition-property: background-color, box-shadow;
     transition-duration: 0.2s;
-
     animation-duration: 3.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -3307,7 +3337,6 @@ DOTAPunchCard .StampPanel:selected {
 .treasure_itemdef_29300 #TopRightGodRays,
 .treasure_itemdef_27048 #TopRightGodRays {
     visibility: visible;
-
     transform: translateY(-90px) translateX(0px);
     horizontal-align: center;
     width: 100%;
@@ -3315,7 +3344,6 @@ DOTAPunchCard .StampPanel:selected {
     transform: rotateZ(45deg) translate3d(320px, -120px, 0px) scale3d(1.2, 1.2, 1.2);
     opacity-mask: url("s2r://panorama/images/masks/preview_rays_mask_psd.vtex");
     hue-rotation: 30deg;
-
     transition-property: opacity;
     transition-duration: 0.6s;
     opacity: 1;
@@ -3345,6 +3373,7 @@ DOTAPunchCard .StampPanel:selected {
     margin-right: 60px;
     margin-top: 64px;
 }
+
 .treasure_itemdef_29300 #TreasureDetails #OwnedTreasuresCount,
 .treasure_itemdef_27048 #TreasureDetails #OwnedTreasuresCount {
     background-color: gradient(linear, 0% 0%, 100% 100%, from(#893cad), to(#431172));
@@ -3390,6 +3419,7 @@ DOTAPunchCard .StampPanel:selected {
     background-color: none;
     margin-top: -8px;
 }
+
 .treasure_itemdef_29300 #TreasureDetails #TreasureHelp #TreasureHelpIcon,
 .treasure_itemdef_27048 #TreasureDetails #TreasureHelp #TreasureHelpIcon {
     margin-left: 0px;
@@ -3431,10 +3461,10 @@ DOTAPunchCard .StampPanel:selected {
     animation-name: none;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
     padding: 8px 24px;
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
+
 .treasure_itemdef_29300 .OpenTreasureButton:enabled Label,
 .treasure_itemdef_29300 #StartOpeningButton Label,
 .treasure_itemdef_29300 #OpenAnotherButton Label,
@@ -3508,7 +3538,6 @@ DOTAPunchCard .StampPanel:selected {
 
 .treasure_itemdef_27046 #TopRightGodRays {
     visibility: visible;
-
     horizontal-align: center;
     width: 100%;
     height: 100%;
@@ -3518,7 +3547,6 @@ DOTAPunchCard .StampPanel:selected {
     saturation: 0.6;
     brightness: 0.8;
     -s2-mix-blend-mode: screen;
-
     transition-property: opacity;
     transition-duration: 0.5s;
 }
@@ -3543,11 +3571,9 @@ DOTAPunchCard .StampPanel:selected {
     background-image: url("s2r://panorama/images/events/newbloom/2024/newbloom2024_treasure_background_png.vtex");
     background-size: cover;
     visibility: visible;
-
     transition-property: blur, transform;
     transition-duration: 0.8s;
     transition-timing-function: ease;
-
     blur: gaussian(6px);
     transform: scale3d(1.05, 1.05, 1) translateY(-8px);
     transition-timing-function: cubic-bezier(1, 0, 0, 1);
@@ -3556,10 +3582,10 @@ DOTAPunchCard .StampPanel:selected {
 .treasure_itemdef_27046 #TreasureDetails #TreasureHelp {
     background-color: none;
     margin-top: -8px;
-
     transition-property: background-color;
     transition-duration: 0.1s;
 }
+
 .treasure_itemdef_27046 #TreasureDetails #TreasureHelp #TreasureHelpIcon {
     margin-left: 0px;
     margin-right: 8px;
@@ -3587,6 +3613,7 @@ DOTAPunchCard .StampPanel:selected {
 .treasure_itemdef_27046 #TreasureModelContainer {
     background-image: url("s2r://panorama/images/events/newbloom/2024/treasure_icon_bacbkground_png.vtex");
 }
+
 .treasure_itemdef_27046 #TreasureModelContainer #NewBloomTreasureModel {
     visibility: visible;
 }
@@ -3613,26 +3640,26 @@ DOTAPunchCard .StampPanel:selected {
     wash-color: rgb(72, 54, 66);
     opacity-mask: url("s2r://panorama/images/masks/hero_model_preview_mask_loadout_psd.vtex");
     margin-top: 120px;
-
     opacity: 0.5;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-delay: 0s;
-
     visibility: collapse;
 }
+
 .FullPreviewMode .SmokeFX {
     opacity: 0;
     transition-duration: 1s;
     transition-delay: 1s;
 }
+
 .FullPreviewMode.treasure_itemdef_30937 .TreasureDetailsBackground,
 .FullPreviewMode.treasure_itemdef_30939 .TreasureDetailsBackground,
 .FullPreviewMode.treasure_itemdef_30938 .TreasureDetailsBackground {
-    blur: gaussian (0px);
+    blur: gaussian(0px);
     transform: none;
 }
+
 .treasure_itemdef_30937 #TopRightGodRays,
 .treasure_itemdef_30939 #TopRightGodRays,
 .treasure_itemdef_30938 #TopRightGodRays {
@@ -3640,15 +3667,7 @@ DOTAPunchCard .StampPanel:selected {
     horizontal-align: center;
     width: 100%;
     height: 100%;
-    transform: rotateZ (-45deg) translate3d
-        (
-            -300px,
-
-            -320px,
-
-            0px
-        )
-        scale3d (1.1, 1.1, 1);
+    transform: rotateZ(-45deg) translate3d(-300px, -320px, 0px) scale3d(1.1, 1.1, 1);
     opacity-mask: url("s2r://panorama/images/masks/preview_rays_mask_psd.vtex");
     hue-rotation: 15deg;
     saturation: 0.6;
@@ -3657,6 +3676,7 @@ DOTAPunchCard .StampPanel:selected {
     transition-property: opacity;
     transition-duration: 0.5s;
 }
+
 .treasure_itemdef_30937 .CompendiumLogoContainer,
 .treasure_itemdef_30937 .CompendiumBGParticles,
 .treasure_itemdef_30937 .TreasureSeasonBar,
@@ -3668,11 +3688,13 @@ DOTAPunchCard .StampPanel:selected {
 .treasure_itemdef_30938 .TreasureSeasonBar {
     visibility: collapse;
 }
+
 .treasure_itemdef_30937 .BottomGradient,
 .treasure_itemdef_30939 .BottomGradient,
 .treasure_itemdef_30938 .BottomGradient {
     opacity: 0.75;
 }
+
 .treasure_itemdef_30937 #TreasureExtraInfo,
 .treasure_itemdef_30939 #TreasureExtraInfo,
 .treasure_itemdef_30938 #TreasureExtraInfo {
@@ -3680,29 +3702,22 @@ DOTAPunchCard .StampPanel:selected {
     width: 100%;
     height: 100%;
 }
+
 .treasure_itemdef_30937 .TreasureDetailsBackground,
 .treasure_itemdef_30939 .TreasureDetailsBackground,
 .treasure_itemdef_30938 .TreasureDetailsBackground {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#320f15),
-            to (#000000)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#320f15), to(#000000));
     background-image: url("s2r://panorama/images/events/crownfall/backgrounds/bg_png.vtex");
     background-size: cover;
     visibility: visible;
     transition-property: blur, transform;
     transition-duration: 0.8s;
     transition-timing-function: ease;
-    blur: gaussian (12px);
-    transform: scale3d (1.05, 1.05, 1) translateY (-8px);
-    transition-timing-function: cubic-bezier (1, 0, 0, 1);
+    blur: gaussian(12px);
+    transform: scale3d(1.05, 1.05, 1) translateY(-8px);
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
 }
+
 .treasure_itemdef_30937 #TreasureDetails #TreasureHelp,
 .treasure_itemdef_30939 #TreasureDetails #TreasureHelp,
 .treasure_itemdef_30938 #TreasureDetails #TreasureHelp {
@@ -3711,6 +3726,7 @@ DOTAPunchCard .StampPanel:selected {
     transition-property: background-color;
     transition-duration: 0.1s;
 }
+
 .treasure_itemdef_30937 #TreasureDetails #TreasureHelp #TreasureHelpIcon,
 .treasure_itemdef_30939 #TreasureDetails #TreasureHelp #TreasureHelpIcon,
 .treasure_itemdef_30938 #TreasureDetails #TreasureHelp #TreasureHelpIcon {
@@ -3720,53 +3736,63 @@ DOTAPunchCard .StampPanel:selected {
     height: 20px;
     wash-color: Grey;
 }
+
 .treasure_itemdef_30937 #TreasureDetails #TreasureHelp #TreasureHelpHeader,
 .treasure_itemdef_30939 #TreasureDetails #TreasureHelp #TreasureHelpHeader,
 .treasure_itemdef_30938 #TreasureDetails #TreasureHelp #TreasureHelpHeader {
     text-transform: none;
 }
+
 .treasure_itemdef_30937 #TreasureDetails #TreasureHelp:hover,
 .treasure_itemdef_30939 #TreasureDetails #TreasureHelp:hover,
 .treasure_itemdef_30938 #TreasureDetails #TreasureHelp:hover {
-    background-color: rgba (0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
 }
+
 .treasure_itemdef_30937 #OwnedTreasures,
 .treasure_itemdef_30939 #OwnedTreasures,
 .treasure_itemdef_30938 #OwnedTreasures {
-    box-shadow: 0px 8px 48px -4px rgba (0, 0, 0, 0.4);
+    box-shadow: 0px 8px 48px -4px rgba(0, 0, 0, 0.4);
 }
+
 .treasure_itemdef_30937 .SmokeFX,
 .treasure_itemdef_30939 .SmokeFX,
 .treasure_itemdef_30938 .SmokeFX {
     visibility: visible;
 }
+
 .treasure_itemdef_30937 #TreasureModelContainer,
 .treasure_itemdef_30939 #TreasureModelContainer,
 .treasure_itemdef_30938 #TreasureModelContainer {
     background-image: url("s2r://panorama/images/events/newbloom/2024/treasure_icon_bacbkground_png.vtex");
 }
+
 .treasure_itemdef_30937 #TreasureModelContainer #NewBloomTreasureModel,
 .treasure_itemdef_30939 #TreasureModelContainer #NewBloomTreasureModel,
 .treasure_itemdef_30938 #TreasureModelContainer #NewBloomTreasureModel {
     visibility: visible;
 }
+
 .treasure_itemdef_30937 #TreasureContentsContainer {
     opacity-mask: url("s2r://panorama/images/masks/80_20_psd.vtex");
     opacity-mask-position: 0% -10%;
 }
+
 .FullPreviewMode.treasure_itemdef_27046 #TreasureContentsContainer {
     opacity-mask-position: 0% 0%;
 }
+
 .treasure_itemdef_30937 DOTATreasureDetailsPage.FullPreviewMode #TreasureContents .TreasureItem,
 .treasure_itemdef_30937 #TreasureContents .TreasureItem.Focused {
-    transform: translateY (-0px) translateX (0px) scale3d (1.16, 1.16, 1);
+    transform: translateY(-0px) translateX(0px) scale3d(1.16, 1.16, 1);
 }
+
 .SmokeFX {
     width: 100%;
     height: 100%;
     horizontal-align: center;
     vertical-align: bottom;
-    wash-color: rgb (72, 54, 66);
+    wash-color: rgb(72, 54, 66);
     opacity-mask: url("s2r://panorama/images/masks/hero_model_preview_mask_loadout_psd.vtex");
     margin-top: 120px;
     opacity: 0.5;
@@ -3775,6 +3801,7 @@ DOTAPunchCard .StampPanel:selected {
     transition-delay: 0s;
     visibility: collapse;
 }
+
 .FullPreviewMode .SmokeFX {
     opacity: 0;
     transition-duration: 1s;

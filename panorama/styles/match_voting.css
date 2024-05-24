@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAMatchVoting {
     flow-children: right;
     width: 100%;
@@ -12,9 +14,11 @@ DOTAMatchVoting {
     border-right: 1px solid black;
     border-left: 1px solid black;
 }
+
 .LocalVoteNone .VoteButton:hover {
     brightness: 2;
 }
+
 .LocalVoteNone .VoteButton:active {
     brightness: 1.5;
 }
@@ -22,7 +26,6 @@ DOTAMatchVoting {
 .VoteButtonIcon {
     width: 100%;
     height: 100%;
-
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -30,6 +33,7 @@ DOTAMatchVoting {
 #UpvoteButton {
     background-color: #319c40;
 }
+
 #UpvoteButton .VoteButtonIcon {
     wash-color: #ffffff;
     background-image: url("s2r://panorama/images/control_icons/thumbs_up_png.vtex");
@@ -38,6 +42,7 @@ DOTAMatchVoting {
 #DownvoteButton {
     background-color: #b83434;
 }
+
 #DownvoteButton .VoteButtonIcon {
     wash-color: #ffffff;
     background-image: url("s2r://panorama/images/control_icons/thumbs_down_png.vtex");
@@ -72,6 +77,7 @@ DOTAMatchVoting {
     height: fill-parent-flow(1);
     flow-children: right;
 }
+
 #VotingTextContainer > Label {
     text-overflow: shrink;
     width: fill-parent-flow(1);
@@ -79,6 +85,7 @@ DOTAMatchVoting {
     margin: 0px 4px;
     vertical-align: middle;
 }
+
 #DownvoteText {
     text-align: right;
 }
@@ -101,6 +108,7 @@ DOTAMatchVoting {
     width: fill-parent-flow(0.3);
     background-color: #319c40;
 }
+
 #VotingBarNegative {
     width: fill-parent-flow(0.7);
     background-color: #b83434;

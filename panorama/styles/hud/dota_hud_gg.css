@@ -1,19 +1,17 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAGG {
     opacity: 0;
     transform: translateY(-20px);
     width: 500px;
     height: 300px;
-
     margin-top: 64px;
     margin-right: 44px;
-
     horizontal-align: right;
     vertical-align: top;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from (#373737), to (#171717));
     border-radius: 8px;
     border: 2px solid #000000;
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -25,23 +23,17 @@ DOTAGG.GGActive {
 #Cancel {
     horizontal-align: center;
     vertical-align: bottom;
-
     margin-bottom: 10px;
 }
 
 #Header {
     width: 100%;
-
     vertical-align: top;
     margin-top: 10px;
-
     border-bottom: 2px solid #5b5b5c;
-
     margin-left: 20px;
     margin-right: 20px;
-
     color: #cc9933;
-
     text-align: center;
     font-size: 48px;
     text-transform: uppercase;
@@ -50,7 +42,6 @@ DOTAGG.GGActive {
 
 #LoseCounter {
     margin-top: 100px;
-
     width: 100%;
     text-align: center;
     font-size: 24px;
@@ -59,13 +50,9 @@ DOTAGG.GGActive {
 #Time {
     width: 100%;
     margin-top: 135px;
-
     font-size: 80px;
-
     color: #dddddd;
-
     text-align: center;
-
     visibility: collapse;
 }
 

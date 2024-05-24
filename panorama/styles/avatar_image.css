@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAAvatarImage #AvatarImage {
     width: 100%;
     height: 100%;
@@ -35,6 +37,7 @@ DOTAAvatarImage.Season_Crownfall.EventTierBronze #BorderImage {
         to(#1d4489)
     );
 }
+
 DOTAAvatarImage.Season_Crownfall.EventTierSilver #BorderImage {
     border-brush: gradient(
         linear,
@@ -46,6 +49,7 @@ DOTAAvatarImage.Season_Crownfall.EventTierSilver #BorderImage {
         to(#6c3f1e)
     );
 }
+
 DOTAAvatarImage.Season_Crownfall.EventTierGold #BorderImage {
     border-brush: gradient(
         linear,
@@ -57,6 +61,7 @@ DOTAAvatarImage.Season_Crownfall.EventTierGold #BorderImage {
         to(#727880)
     );
 }
+
 DOTAAvatarImage.Season_Crownfall.EventTierPlatinum #BorderImage {
     border-brush: gradient(
         linear,

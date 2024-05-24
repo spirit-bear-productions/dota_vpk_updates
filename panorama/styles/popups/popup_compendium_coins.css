@@ -1,6 +1,7 @@
-@define compendiumCoinAnimateDelay:  1.4s;
-@define compendiumCoinAnimateInterval: 0.1s;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define compendiumCoinAnimateDelay: 1.4s;
+@define compendiumCoinAnimateInterval: 0.1s;
 .PopupPanel {
     pre-transform-scale2d: 1;
     opacity: 1;
@@ -10,12 +11,9 @@
     background-color: none;
     border: 0px solid #32383677;
     animation-name: none;
-
     box-shadow: none;
-
     padding: 0px;
     flow-children: none;
-
     transition-property: background-color, transform, pre-transform-scale2d, opacity, wash-color;
     transition-duration: 0.35s;
 }
@@ -30,9 +28,7 @@
     horizontal-align: center;
     margin: 24px;
     flow-children: down;
-
     padding-top: 40px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#272d2eff), to(#131617ff));
     border: 1px solid #5e6869;
 }

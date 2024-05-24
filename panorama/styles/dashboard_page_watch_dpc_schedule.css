@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #DOTAWatchDPCSchedule {
     width: 1920px;
     height: 900px;
@@ -37,9 +39,7 @@
     background-position: center;
     horizontal-align: left;
     vertical-align: center;
-
     img-shadow: 1px 1px 12px 1 #00000088;
-
     transition-property: brightness;
     transition-duration: 0.2s;
     visibility: collapse;
@@ -60,7 +60,6 @@
     color: bluegreyTextReg;
     font-weight: light;
     margin-right: 12px;
-
     letter-spacing: 1px;
 }
 
@@ -103,7 +102,6 @@
 .TimeLabel {
     visibility: collapse;
     horizontal-align: center;
-
     font-size: 15px;
     font-weight: semibold;
     letter-spacing: 1px;
@@ -248,14 +246,15 @@
     opacity-mask: url("s2r://panorama/images/dpc/schedule_mask_psd.vtex");
     overflow: scroll;
 }
+
 #ScheduleBackground {
     width: 100%;
     min-height: 200px;
     height: 700px;
     horizontal-align: center;
-
     flow-children: down;
 }
+
 .Live .VSText {
     visibility: collapse;
 }
@@ -357,7 +356,6 @@
     font-size: 16px;
     font-weight: semibold;
     letter-spacing: 1px;
-
     color: #748b8b;
 }
 
@@ -433,12 +431,10 @@
     margin-right: 12px;
     margin-top: 12px;
     margin-bottom: 4px;
-
     color: bluegreyTextReg;
     font-size: 22px;
     font-weight: semibold;
     letter-spacing: 2px;
-
     horizontal-align: left;
     vertical-align: top;
 }
@@ -456,7 +452,6 @@
     font-size: 16px;
     font-weight: semibold;
     color: bluegreyTextReg;
-
     transition-property: color;
     transition-duration: 0.2s;
 }
@@ -476,9 +471,11 @@
 .Expanded .Show {
     visibility: collapse;
 }
+
 .Live .Show {
     visibility: collapse;
 }
+
 .Watch {
     visibility: collapse;
 }
@@ -507,7 +504,6 @@
     horizontal-align: right;
     margin-right: 24px;
     brightness: 1;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -519,9 +515,11 @@
 #WatchReplayButton:enabled {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#516e7799), to(#374c4f99));
 }
+
 #WatchReplayButton:enabled:hover {
     brightness: 1.4;
 }
+
 #WatchReplayButton:enabled:active {
     brightness: 0.8;
 }

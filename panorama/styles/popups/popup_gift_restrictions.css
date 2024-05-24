@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupGiftRestrictions {
     width: 800px;
 }
@@ -5,6 +7,7 @@ DOTAPopupGiftRestrictions {
 #Contents > Panel {
     visibility: collapse;
 }
+
 .LoadingInProgress #LoadingInProgressContents,
 .LoadingFailed #LoadingFailedContents,
 .LoadingSuccess #LoadingSuccessContents {
@@ -14,6 +17,7 @@ DOTAPopupGiftRestrictions {
 #LoadingSuccessContents > Panel {
     visibility: collapse;
 }
+
 .NoRestrictions #NoRestrictions,
 .SenderRestricted #SenderRestrictions,
 .ReceiversRestricted #ReceiverRestrictions {
@@ -39,6 +43,7 @@ DOTAPopupGiftRestrictions Label a {
 #NoRestrictions {
     width: 100%;
 }
+
 #NoRestrictions > Label {
     horizontal-align: center;
     text-align: center;
@@ -95,6 +100,7 @@ DOTAPopupGiftRestrictions Label a {
     margin-top: 16px;
     font-size: 16px;
 }
+
 .IsSteamChina .RestrictionsFooter {
     visibility: collapse;
 }

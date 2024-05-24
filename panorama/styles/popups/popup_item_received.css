@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupItemReceived {
     width: 100%;
     height: 100%;
@@ -86,18 +88,14 @@ PopupItemReceived.PopupPanel.Hidden {
 .ReceivedItemIcon {
     width: 180px;
     height: 180px;
-
     margin-left: 110px;
     margin-top: 42px;
-
     box-shadow: fill #000000aa 5px 5px 14px 0px;
     border-radius: 0.1px;
     vertical-align: middle;
     horizontal-align: left;
     border: 2px solid black;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#292e2e), to(#191e1e));
-
     animation-name: 2dpanelanimation;
     animation-duration: 21.11s;
     animation-timing-function: ease-in-out;
@@ -141,6 +139,7 @@ PopupItemReceived.PopupPanel.Hidden {
     transition-duration: 0.15s;
     transition-delay: 0s;
 }
+
 .ItemSetPreview.HasTreasureModel {
     width: 100%;
     height: 100%;
@@ -181,6 +180,7 @@ PopupItemReceived.PopupPanel.Hidden {
     blur: gaussian(24px);
     opacity: 0.7;
 }
+
 .Slot_type_courier #ItemShadow {
     margin-top: 190px;
 }
@@ -205,6 +205,7 @@ PopupItemReceived.PopupPanel.Hidden {
     );
     opacity: 0.5;
 }
+
 .Slot_type_courier #Horizon {
     margin-bottom: 70px;
 }
@@ -223,6 +224,7 @@ PopupItemReceived.PopupPanel.Hidden {
     horizontal-align: center;
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_png.vtex") 1;
 }
+
 .Slot_type_courier #BackgroundFXWindow {
     margin-top: -70px;
     transform: scale3d(0.8, 0.8, 1);
@@ -247,40 +249,48 @@ PopupItemReceived.ItemRarity_common #BackgroundFXWindow {
     saturation: 0.5;
     opacity: 0.1;
 }
+
 PopupItemReceived.ItemRarity_uncommon #BackgroundFXWindow {
     saturation: 0;
     wash-color: #5e98d9;
     opacity: 1;
 }
+
 PopupItemReceived.ItemRarity_rare #BackgroundFXWindow {
     hue-rotation: 190deg;
     saturation: 0.6;
     wash-color: #4b69ff;
     opacity: 1;
 }
+
 PopupItemReceived.ItemRarity_mythical #BackgroundFXWindow {
     hue-rotation: 220deg;
     wash-color: #5e98d955;
     opacity: 1;
 }
+
 PopupItemReceived.ItemRarity_legendary #BackgroundFXWindow {
     hue-rotation: 250deg;
     opacity: 1;
 }
+
 PopupItemReceived.ItemRarity_ancient #BackgroundFXWindow {
     hue-rotation: 330deg;
     opacity: 1;
 }
+
 PopupItemReceived.ItemRarity_immortal #BackgroundFXWindow {
     hue-rotation: 0deg;
     opacity: 1;
 }
+
 PopupItemReceived.ItemRarity_arcana #BackgroundFXWindow {
     hue-rotation: 66deg;
     saturation: 0.6;
     wash-color: #ade55c88;
     opacity: 1;
 }
+
 PopupItemReceived.Gift #BackgroundFXWindow {
     hue-rotation: 320deg;
     opacity: 1;
@@ -290,27 +300,35 @@ PopupItemReceived.ItemRarity_unknown #ItemName,
 PopupItemReceived.ItemRarity_common #ItemName {
     color: rarity_color_common;
 }
+
 PopupItemReceived.ItemRarity_uncommon #ItemName {
     color: rarity_color_uncommon;
 }
+
 PopupItemReceived.ItemRarity_rare #ItemName {
     color: rarity_color_rare;
 }
+
 PopupItemReceived.ItemRarity_mythical #ItemName {
     color: rarity_color_mythical;
 }
+
 PopupItemReceived.ItemRarity_legendary #ItemName {
     color: rarity_color_legendary;
 }
+
 PopupItemReceived.ItemRarity_ancient #ItemName {
     color: rarity_color_ancient;
 }
+
 PopupItemReceived.ItemRarity_immortal #ItemName {
     color: rarity_color_immortal;
 }
+
 PopupItemReceived.ItemRarity_arcana #ItemName {
     color: rarity_color_arcana;
 }
+
 PopupItemReceived.Gift #ItemName {
     color: #ff4f74ff;
 }
@@ -336,19 +354,15 @@ PopupItemReceived.Gift #ItemName {
     padding-bottom: 32px;
     padding-right: 64px;
     padding-left: 64px;
-
     width: 1024px;
     height: 680px;
-
     vertical-align: middle;
     horizontal-align: center;
     opacity: 1;
-
     transition-property: transform, pre-transform-scale2d, opacity, saturation, background-color, border;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
-
     flow-children: none;
     margin: 0px;
     padding: 0px;
@@ -385,12 +399,10 @@ PopupItemReceived #Body {
     padding: 15px;
     border-radius: 8px;
     margin-top: 8px;
-
     font-size: 21px;
     font-weight: thin;
     color: #cccccc;
     background-color: #00000088;
-
     text-shadow: 0px 0px 48px 1 #bee9ff25;
 }
 
@@ -422,7 +434,6 @@ PopupItemReceived #Body {
     horizontal-align: center;
     vertical-align: bottom;
     width: 100%;
-
     transition-property: transform;
     transition-duration: 0.3s;
     margin-bottom: 12px;
@@ -448,6 +459,7 @@ PopupItemReceived #Body {
     flow-children: right;
     width: 100%;
 }
+
 .GiftSenderInfo .Dash {
     width: fill-parent-flow(1);
     height: 1px;
@@ -456,6 +468,7 @@ PopupItemReceived #Body {
     margin: 6px 12px 0px 8px;
     opacity: 0.2;
 }
+
 .GiftSenderInfo .Dash.Left {
     transform: scaleX(-1);
 }
@@ -483,9 +496,9 @@ PopupItemReceived #Body {
     vertical-align: middle;
     margin-left: 6px;
     height: 1px;
-
     visibility: collapse;
 }
+
 #GiftInfo.HasDedication .GiftSenderDedicationBar {
     visibility: visible;
 }
@@ -494,6 +507,7 @@ PopupItemReceived #Body {
     width: 100%;
     visibility: collapse;
 }
+
 #GiftInfo.HasDedication .GiftDedication {
     visibility: visible;
 }
@@ -506,7 +520,6 @@ PopupItemReceived #Body {
     margin: 4px 8px;
     font-size: 22px;
     font-style: italic;
-
     color: LighterGrey;
     letter-spacing: -0.3px;
 }
@@ -561,6 +574,7 @@ PopupItemReceived #IOfNLabel {
     border: 2px solid black;
     z-index: 2;
 }
+
 PopupItemReceived.MultipleItems #IOfNLabel {
     opacity: 1;
 }
@@ -572,13 +586,11 @@ PopupItemReceived.MultipleItems #IOfNLabel {
     width: 72px;
     height: 72px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#445259), to(#3f4b52));
-
     wash-color: none;
     border-radius: 50%;
     border: 2px solid black;
     margin: 32px;
     box-shadow: #000000aa 0px 0px 8px 0px;
-
     transition-property: transform, pre-transform-scale2d, opacity, background-color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -593,6 +605,7 @@ PopupItemReceived.MultipleItems #IOfNLabel {
 #PrevArrowButton {
     horizontal-align: left;
 }
+
 #NextArrowButton {
     horizontal-align: right;
 }
@@ -609,14 +622,10 @@ PopupItemReceived.MultipleItems #IOfNLabel {
 
 #RecycleButton {
     visibility: collapse;
-
     vertical-align: bottom;
-
     padding: 8px 16px 8px 16px;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     transition-duration: 0.2s;
     transition-property: brightness;
 }
@@ -638,15 +647,12 @@ PopupItemReceived.MultipleItems #IOfNLabel {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1c0d32), to(#2b102a));
     padding: 5px 10px 5px 10px;
     box-shadow: 0px 0px 8px #d2636499;
-
     border-top: 1px solid #ffffff05;
     border-left: 1px solid #ffffff05;
     border-right: 1px solid #11111190;
     border-bottom: 1px solid #11111190;
-
     width: 228px;
     height: 44px;
-
     margin-top: 24px;
 }
 

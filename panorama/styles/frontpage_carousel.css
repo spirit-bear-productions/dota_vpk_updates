@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #InnerCarousel {
     flow-children: right;
     width: 100%;
@@ -21,6 +23,7 @@
     horizontal-align: right;
     vertical-align: top;
 }
+
 .PipAlignment_BottomLeft #InnerCarouselNav {
     horizontal-align: left;
     vertical-align: bottom;

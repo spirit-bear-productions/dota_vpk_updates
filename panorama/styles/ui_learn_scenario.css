@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .ScenarioTile {
     width: 280px;
     height: 280px;
@@ -33,6 +35,7 @@
     border: 1px solid #ffffff00;
     border-radius: 1px;
 }
+
 .SelectedTile .ScenarioTile_Image {
     pre-transform-scale2d: 1.05;
     saturation: 1;
@@ -87,13 +90,11 @@
     height: 20px;
     vertical-align: bottom;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/control_icons/check_png.vtex");
     background-size: contain;
     background-repeat: no-repeat no-repeat;
     wash-color: #4ea350;
     margin-left: -1px;
-
     opacity: 0;
 }
 
@@ -126,6 +127,7 @@
 .ScenarioDuration {
     color: #3f5058;
 }
+
 .ScenarioTile__HasDescription .ScenarioDuration {
     color: #3f5058;
 }

@@ -1,7 +1,8 @@
-@define leftMargin:  264px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define leftMargin: 264px;
 @define leftMargin4x3: 64px;
 @define leftMargin16x10: 184px;
-
 DOTAChallengeDetailsPage {
     margin-top: 170px;
     width: 100%;
@@ -58,9 +59,7 @@ DOTAChallengeDetailsPage {
 
 #ChallengeDetailsBackground {
     border: 1px solid #00000022;
-
     box-shadow: #00000033 1px 1px 8px 1px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#000000aa), to(#00000045));
     flow-children: down;
     margin-top: 104px;
@@ -85,7 +84,6 @@ DOTAChallengeDetailsPage {
     horizontal-align: right;
     width: 850px;
     height: 750px;
-
     margin-bottom: 210px;
     margin-right: 64px;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
@@ -183,7 +181,6 @@ DOTAChallengeDetailsPage {
 
 .ChallengeList {
     margin-top: 8px;
-
     width: 100%;
 }
 
@@ -199,6 +196,7 @@ DOTAChallengeDetailsPage {
     horizontal-align: right;
     margin-right: 72px;
 }
+
 .Arrow.Right {
     margin-right: 32px;
 }

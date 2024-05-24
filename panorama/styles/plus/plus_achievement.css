@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPlusAchievement {
     flow-children: right;
     tooltip-body-position: 50% 50%;
@@ -62,7 +64,6 @@ DOTAPlusMenu .Completed #AchievementName {
     letter-spacing: 2px;
     text-align: right;
     font-size: 16px;
-
     visibility: collapse;
 }
 
@@ -76,26 +77,20 @@ DOTAPlusMenu .Completed #AchievementName {
     height: 12px;
     margin-right: 13px;
     margin-top: 12px;
-
     border: 2px solid dotaPlusGold&99;
 }
 
 #CompletedCheckmark {
     horizontal-align: right;
-
     width: 16px;
     height: 16px;
-
     margin-top: 7px;
     margin-right: 9px;
-
     wash-color: dotaPlusLightGold;
-
     background-image: url("s2r://panorama/images/control_icons/check_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
     visibility: collapse;
 }
 
@@ -123,7 +118,6 @@ DOTAPlusMenu .Completed #AchievementName {
     width: 16px;
     height: 16px;
     transform: translateY(2px);
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -139,12 +133,10 @@ DOTAPlusMenu .Completed #AchievementName {
     vertical-align: middle;
     padding: 4px 6px 2px 6px;
     margin-right: 12px;
-
     animation-name: ClaimButtonAnimation;
     animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-
     visibility: collapse;
 }
 
@@ -152,6 +144,7 @@ DOTAPlusMenu .Completed #AchievementName {
     0% {
         box-shadow: 0px 0px 4px dotaPlusGold&66;
     }
+
     100% {
         box-shadow: 0px 0px 8px dotaPlusGold&99;
     }
@@ -166,7 +159,6 @@ DOTAPlusMenu .Completed #AchievementName {
     height: 16px;
     margin-left: 4px;
     transform: translateY(2px);
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

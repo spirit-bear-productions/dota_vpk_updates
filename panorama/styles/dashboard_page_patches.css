@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPatchesPage {
     width: 100%;
     height: 100%;
@@ -6,9 +8,7 @@ DOTAPatchesPage {
 #BackgroundImage {
     width: 100%;
     height: 100%;
-
     brightness: 0.5;
-
     visibility: collapse;
 }
 
@@ -82,23 +82,19 @@ DropDownMenu {
     background-color: #303030ff;
     overflow: squish scroll;
     transform: translateY(-40px);
-
     transition-property: opacity, transform;
     transition-duration: 0.15s;
     transition-timing-function: ease-in;
-
     box-shadow: none;
 }
 
 DropDownMenu Label {
     width: 100%;
     padding: 0px;
-
     color: white;
     background-color: none;
     padding-left: 8px;
     padding-bottom: -6px;
-
     font-size: 36px;
     font-weight: bold;
     border: 0px;
@@ -144,7 +140,6 @@ DropDownMenu Label:hover {
 #WebPatchNotes {
     height: fill-parent-flow(1);
     width: 1200px;
-
     visibility: collapse;
 }
 
@@ -245,13 +240,14 @@ DropDownMenu Label:hover {
     height: 64px;
     box-shadow: 0px 4px 16px -2px rgba(0, 0, 0, 0.6);
     tooltip-position: left;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 #ItemImage:hover {
     brightness: 2;
 }
+
 #ItemImage:active {
     brightness: 1.5;
 }
@@ -380,13 +376,14 @@ DropDownMenu Label:hover {
     width: 88px;
     height: width-percentage(56.25%);
     box-shadow: 0px 4px 24px -2px rgba(0, 0, 0, 0.4);
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 #HeroImage:hover {
     brightness: 2;
 }
+
 #HeroImage:active {
     brightness: 1.5;
 }
@@ -440,13 +437,11 @@ DropDownMenu Label:hover {
 #TalentTreeImage {
     width: 64px;
     height: 64px;
-
     background-image: url("s2r://panorama/images/spellicons/statbranch_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     wash-color: #aaa;
-
     tooltip-position: left;
 }
 
@@ -640,9 +635,11 @@ DropDownMenu Label:hover {
     margin-bottom: 12px;
     width: 100%;
 }
+
 .InnateSubsection .InnateSubsectionTop {
     flow-children: down;
 }
+
 .InnateSubsection .InnateSubsectionTop .HeroSubsectionName {
     text-transform: uppercase;
     font-size: 16px;
@@ -672,6 +669,7 @@ DropDownMenu Label:hover {
     horizontal-align: left;
     margin-left: -8px;
 }
+
 .FacetContainer .hero_facet {
     flow-children: down;
     margin-left: 8px;
@@ -717,9 +715,9 @@ DropDownMenu Label:hover {
     padding: 12px 16px;
     width: 100%;
     background-img-opacity: 0.1;
-
     flow-children: down;
 }
+
 .children_count_5 .SubsectionNotesMain {
     padding: 8px;
     padding-bottom: 16px;
@@ -735,6 +733,7 @@ DropDownMenu Label:hover {
     height: fit-children;
     margin-top: 8px;
 }
+
 .FacetContainerOuter .HeroSubsectionName {
     text-transform: uppercase;
     font-size: 16px;
@@ -750,6 +749,7 @@ DropDownMenu Label:hover {
     height: fit-children;
     flow-children: right;
 }
+
 .FacetHeader .FacetBackground {
     width: 100%;
     height: 100%;
@@ -771,6 +771,7 @@ DropDownMenu Label:hover {
     vertical-align: center;
     margin-right: 8px;
 }
+
 .FacetIconContainer .FacetIconContainerShard {
     width: 100%;
     height: 100%;
@@ -785,6 +786,7 @@ DropDownMenu Label:hover {
     margin: 12px 20px;
     img-shadow: 0px 2px 8px black;
 }
+
 .children_count_5 .FacetIconContainer #FacetIcon,
 .children_count_3 .FacetIconContainer #FacetIcon {
     margin-left: 12px;
@@ -799,6 +801,7 @@ DropDownMenu Label:hover {
     padding: 6px;
     flow-children: right;
 }
+
 .FacetHeaderText Label {
     horizontal-align: left;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);

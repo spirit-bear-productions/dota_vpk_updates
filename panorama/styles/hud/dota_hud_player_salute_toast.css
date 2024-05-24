@@ -1,5 +1,6 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 DOTAPlayerSaluteToast #MainContainer {
     width: 320px;
     height: 100px;
@@ -70,7 +71,6 @@ DOTAHeroImage {
     height: 24px;
     margin-right: 2px;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/dota_plus/currency_icon_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -102,6 +102,7 @@ DOTAPlayerSaluteToast.Season_Frostivus #SaluteText {
 DOTAPlayerSaluteToast.Season_Frostivus #TipIcon {
     visibility: collapse;
 }
+
 DOTAPlayerSaluteToast.Season_Frostivus #TipValue {
     visibility: collapse;
 }
@@ -212,9 +213,11 @@ DOTAPlayerSaluteToast.muerta2023.NumRecentTips0 .BlingParticles0 {
 .muerta2023.NumRecentTips1 .TI11_Foreground {
     background-image: url("s2r://panorama/images/events/muerta/muerta_silver_tip_fg_lvl1_psd.vtex");
 }
+
 .muerta2023.NumRecentTips1 .TI11_Background {
     background-image: url("s2r://panorama/images/events/muerta/muerta_silver_tip_bg_lvl1_psd.vtex");
 }
+
 .muerta2023.NumRecentTips1 .BlingParticles1 {
     visibility: visible;
 }
@@ -222,9 +225,11 @@ DOTAPlayerSaluteToast.muerta2023.NumRecentTips0 .BlingParticles0 {
 .muerta2023.NumRecentTips2 .TI11_Foreground {
     background-image: url("s2r://panorama/images/events/muerta/muerta_silver_tip_fg_lvl2_psd.vtex");
 }
+
 .muerta2023.NumRecentTips2 .TI11_Background {
     background-image: url("s2r://panorama/images/events/muerta/muerta_silver_tip_bg_lvl2_psd.vtex");
 }
+
 .muerta2023.NumRecentTips2 .BlingParticles2 {
     visibility: visible;
 }
@@ -232,9 +237,11 @@ DOTAPlayerSaluteToast.muerta2023.NumRecentTips0 .BlingParticles0 {
 .muerta2023.NumRecentTips3 .TI11_Foreground {
     background-image: url("s2r://panorama/images/events/muerta/muerta_silver_tip_fg_lvl3_psd.vtex");
 }
+
 .muerta2023.NumRecentTips3 .TI11_Background {
     background-image: url("s2r://panorama/images/events/muerta/muerta_silver_tip_bg_lvl3_psd.vtex");
 }
+
 .muerta2023.NumRecentTips3 .BlingParticles3 {
     visibility: visible;
 }
@@ -242,6 +249,7 @@ DOTAPlayerSaluteToast.muerta2023.NumRecentTips0 .BlingParticles0 {
 .muerta2023.NumRecentTips4 .TI11_Foreground {
     background-image: url("s2r://panorama/images/events/muerta/muerta_silver_tip_fg_lvl3_psd.vtex");
 }
+
 .muerta2023.NumRecentTips4 .BlingParticles3 {
     visibility: visible;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .BackgroundPanel {
     width: 100%;
     height: 100%;
@@ -35,9 +37,7 @@
     margin-right: 425px;
     margin-top: 120px;
     flow-children: down;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -67,7 +67,6 @@
 #FeatureLogo {
     width: 475px;
     height: 390px;
-
     background-image: url("s2r://panorama/images/leaf_pages/debut_primal_beast/primal_beast_logo_en_debut_psd.vtex");
     background-size: contain;
     background-position: top;
@@ -99,7 +98,6 @@
     border: 1px solid white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#9b5c48), to(#1a1414));
     box-shadow: 0px 2px 4px 3 black;
-
     transition-property: brightness, border, border-brush;
     transition-delay: 0.05s;
     transition-duration: 0.1s;
@@ -120,7 +118,6 @@
     text-shadow: 0px 0px 5px 3 #5e1717;
     font-weight: semi-bold;
     letter-spacing: 1px;
-
     transition-property: text-shadow;
     transition-delay: 0.05s;
     transition-duration: 0.1s;
@@ -137,7 +134,6 @@
     border: 1px solid white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#ff6e2b), to(#702400));
     box-shadow: 0px 2px 4px 3 black;
-
     transition-property: brightness, border, border-brush;
     transition-delay: 0.05s;
     transition-duration: 0.1s;

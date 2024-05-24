@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel.RewardsHelpPopup {
     flow-children: none;
     background-image: url("s2r://panorama/images/battlepass/international2023/bg_night_compendium_subsection_jpg.vtex");
@@ -14,6 +16,7 @@
     flow-children: down;
     padding: 32px 64px;
 }
+
 .MainContents .PopupTitle {
     font-family: titleFont;
     font-size: 48px;
@@ -34,12 +37,11 @@
     height: 100%;
     background-color: #0009;
     flow-children: right;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
+
 .CarouselItem.Focused {
     opacity: 1;
 }
@@ -49,6 +51,7 @@
     height: 100%;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
 }
+
 .CarouselItem .CarouselVisual .CarouselImage {
     width: 100%;
     height: 100%;
@@ -59,15 +62,14 @@
     height: 200px;
     horizontal-align: center;
     vertical-align: middle;
-
     padding: 12px 12px 8px 12px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(primaryColor3), to(primaryColor4));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(primaryColor6), to(rgba(0, 0, 0, 1)));
-
     transition-property: border, background-color, brightness;
     transition-duration: 0.1s;
 }
+
 .CarouselItem .CarouselVisual .ApplyButton .ApplyLabel {
     text-align: center;
     vertical-align: bottom;
@@ -76,7 +78,6 @@
     width: 100%;
     font-size: 20px;
     visibility: collapse;
-
     transition-property: color;
     transition-duration: 0.1s;
 }
@@ -97,6 +98,7 @@
 .CarouselItem .CarouselVisual .ApplyButton.ApplyLevels .Icon {
     background-image: url("s2r://panorama/images/compendium/applylevels_icon_psd.vtex");
 }
+
 .CarouselItem .CarouselVisual .ApplyButton.ApplyBoosters .Icon {
     background-image: url("s2r://panorama/images/compendium/applyboost_icon_psd.vtex");
 }
@@ -106,6 +108,7 @@
     padding: 16px;
     vertical-align: middle;
 }
+
 .CarouselItem .CarouselItemText .CarouselItemTitle {
     font-size: 24px;
     text-transform: uppercase;

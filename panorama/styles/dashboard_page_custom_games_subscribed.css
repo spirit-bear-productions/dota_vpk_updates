@@ -1,9 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACustomGamesSubscribedPage {
     width: 1394px;
     height: 794px;
     margin-top: 156px;
     horizontal-align: center;
-
     background-color: #00000077;
     padding: 8px;
     box-shadow: #00000033 0px 0px 1px 3px;
@@ -117,6 +118,7 @@ RadioButton Label {
 #SortingDropDownMenu .DropDownChild:hover {
     color: white;
 }
+
 #Sorting:hover {
     border: 2px solid #90a5a666;
 }
@@ -135,7 +137,6 @@ RadioButton Label {
     padding-right: 16px;
     padding-top: 4px;
     padding-bottom: 0px;
-
     color: #adc6c8;
     font-size: 18px;
     letter-spacing: 1px;

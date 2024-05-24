@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHudVersusSceneInteractiveControls {
     visibility: collapse;
 }
@@ -14,7 +16,6 @@ DOTAHudVersusSceneInteractiveControls.CanInteract {
     horizontal-align: center;
     vertical-align: bottom;
     margin-bottom: 50px;
-
     font-weight: semi-bold;
     text-shadow: 0px 0px 10px 5 #000000;
 }
@@ -36,7 +37,6 @@ DOTAHudVersusSceneInteractiveControls.CanInteract {
     horizontal-align: center;
     flow-children: right;
     margin-bottom: 76px;
-
     width: fit-children;
 }
 
@@ -87,14 +87,12 @@ DOTAHudVersusSceneInteractiveControls.CanInteract {
     width: 200px;
     height: 200px;
     padding: 20px;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.1s;
     pre-transform-scale2d: 0.8;
     margin: 0px 15px;
-
     overflow: noclip;
 }
 
@@ -202,7 +200,6 @@ DOTAHudVersusSceneInteractiveControls.CanInteract {
     min-height: 16px;
     max-width: 70px;
     max-height: 15px;
-
     white-space: nowrap;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#393939), to(#414849));
     border: 1px solid #ffffff05;

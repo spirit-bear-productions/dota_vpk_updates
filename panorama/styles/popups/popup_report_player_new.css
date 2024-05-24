@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     border: 1px solid #610702;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1c1d20ee), to(#230600ee));
@@ -15,14 +17,12 @@
     flow-children: down;
     width: 800px;
     height: 760px;
-
     padding: 0px 0px 0px 0px;
 }
 
 .Report_Title {
     height: 86px;
     width: 100%;
-
     margin-left: 34px;
     margin-right: 34px;
 }
@@ -37,24 +37,26 @@
     width: 42px;
     height: 42px;
     vertical-align: center;
-
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
-
     margin-right: 24px;
 }
+
 .Report_Negative .Report_Title_Icon {
     background-image: url("s2r://panorama/images/conduct/report_flag_png.vtex");
     wash-color: #dd3c1c;
 }
+
 .Report_Positive .Report_Title_Icon {
     background-image: url("s2r://panorama/images/conduct/commend_star_png.vtex");
     wash-color: #35aa14;
 }
+
 .Report_Positive .Report_Title_Label_Negative {
     visibility: collapse;
 }
+
 .Report_Negative .Report_Title_Label_Positive {
     visibility: collapse;
 }
@@ -62,6 +64,7 @@
 .ReasonRow .Positive .Report_Title_Label_Negative {
     visibility: collapse;
 }
+
 .ReasonRow .Negative .Report_Title_Label_Positive {
     visibility: collapse;
 }
@@ -71,12 +74,13 @@
     font-size: 32px;
     letter-spacing: 2px;
     font-weight: semi-bold;
-
     vertical-align: center;
 }
+
 .Report_Negative .Report_Title_Label {
     color: #dd3c1c;
 }
+
 .Report_Positive .Report_Title_Label {
     color: #35aa14;
 }
@@ -117,6 +121,7 @@
 .Report_Negative .Report_Player {
     background-color: #43211c;
 }
+
 .Report_Positive .Report_Player {
     background-color: #2a361a;
 }
@@ -129,7 +134,6 @@
     flow-children: down;
     padding-left: 30px;
     padding-right: 30px;
-
     margin-top: 10px;
     margin-bottom: 12px;
     horizontal-align: center;
@@ -142,12 +146,10 @@
 
 .ReasonButton {
     flow-children: up;
-
     width: 160px;
     height: 160px;
     padding-bottom: 0px;
     padding-top: 0px;
-
     margin-bottom: 16px;
     margin-right: 16px;
 }
@@ -175,6 +177,7 @@
     height: 51px;
     z-index: 2;
 }
+
 .ReasonButton_DotaPlus .ReasonButton_Required_Image {
     background-image: dotaPlusLogo;
     background-size: contain;
@@ -186,11 +189,8 @@
     height: 1px;
     horizontal-align: center;
     vertical-align: center;
-
     margin-bottom: 8px;
-
     z-index: 1;
-
     box-shadow: -60px 2px 0px 124px dotaPlusGold;
 }
 
@@ -235,6 +235,7 @@
 .ReasonButton_DidNotPlayRole {
     visibility: collapse;
 }
+
 .Report_EnableDidNotPlayRole .ReasonButton_DidNotPlayRole {
     visibility: visible;
 }
@@ -250,6 +251,7 @@
 .ReasonButton_Negative:selected {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#43211cee), to(#dd3c1caa));
 }
+
 .ReasonButton_Negative:hover:selected {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#43211cee), to(#dd3c1caa));
 }
@@ -261,6 +263,7 @@
 .ReasonButton_Positive:selected {
     background-color: #15aa00;
 }
+
 .ReasonButton_Positive:hover:selected {
     background-color: #29aa08;
 }
@@ -270,11 +273,9 @@
     height: 100px;
     horizontal-align: center;
     vertical-align: center;
-
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
-
     wash-color: #dd3c1c;
     opacity: 0.6;
     margin-bottom: 20px;
@@ -343,7 +344,6 @@
 .ReasonButton_Copy {
     flow-children: down;
     width: 100%;
-
     margin-left: 24px;
 }
 
@@ -357,7 +357,6 @@
     height: 18px;
     horizontal-align: center;
     vertical-align: middle;
-
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
@@ -382,7 +381,6 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #c69652;
-
     text-shadow: 0 1px 1px #432d0d60;
 }
 
@@ -391,7 +389,6 @@
     horizontal-align: left;
     text-align: left;
     font-weight: thin;
-
     margin: 0px;
 }
 
@@ -399,7 +396,6 @@
     horizontal-align: center;
     text-align: center;
     font-weight: bold;
-
     margin: 0px;
 }
 
@@ -425,7 +421,6 @@
     color: #ffffff;
     letter-spacing: 4px;
     horizontal-align: center;
-
     margin-bottom: 8px;
 }
 
@@ -445,9 +440,7 @@
     border-top: 1px solid #a77c41;
     vertical-align: middle;
     horizontal-align: right;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#7c5d32), to(#634c2b));
-
     padding-left: 18px;
     padding-right: 18px;
     margin-right: 36px;
@@ -512,7 +505,6 @@ DOTAFriend#ReportPlayer {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#a2753130), to(#a2753100));
     width: 400px;
     flow-children: left;
-
     visibility: collapse;
 }
 
@@ -521,7 +513,6 @@ DOTAFriend#ReportPlayer {
     height: 36px;
     vertical-align: middle;
     margin-right: 36px;
-
     background-image: url("s2r://panorama/images/dotaplus_logo_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;

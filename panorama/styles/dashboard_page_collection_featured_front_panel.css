@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACollectionPageFeaturedFrontPanel {
     width: 100%;
     flow-children: right;
@@ -6,19 +8,18 @@ DOTACollectionPageFeaturedFrontPanel {
 }
 
 @define TilePadding: 32px;
-
 .FeaturedTile {
     width: fill-parent-flow(1);
     margin: 0px 6px;
     height: 380px;
     box-shadow: 0px 6px 24px -8px rgba(0, 0, 0, 0.8);
 }
+
 .FeaturedTile .TileBackground {
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100%;
-
     transition-property: transform, brightness;
     transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0, 1, 0, 1);
@@ -29,6 +30,7 @@ DOTACollectionPageFeaturedFrontPanel {
     flow-children: down;
     padding: TilePadding 0px 0px TilePadding;
 }
+
 .FeaturedTile .FeaturedTileInfoContainer .TileLabel {
     margin-bottom: 16px;
     letter-spacing: 2px;
@@ -61,6 +63,7 @@ DOTACollectionPageFeaturedFrontPanel {
     vertical-align: bottom;
     transform: translateX(20px) translateY(20px);
 }
+
 .DotaPlusLogoContainer .PlusLogo {
     width: 100%;
     height: 100%;
@@ -81,9 +84,9 @@ DOTACollectionPageFeaturedFrontPanel {
 
 #CC_Summer_2023 {
     overflow: clip;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#090d32), to(#0e0f1c));
 }
+
 #CC_Summer_2023 DOTACCBackgroundSummer2023 {
     overflow: noclip;
     width: 138%;
@@ -94,6 +97,7 @@ DOTACollectionPageFeaturedFrontPanel {
 #DOTAPlusUpsell {
     visibility: visible;
 }
+
 .IsPlusMember #DOTAPlusUpsell {
     visibility: collapse;
 }
@@ -104,12 +108,13 @@ DOTACollectionPageFeaturedFrontPanel {
 
 #DOTAPlusTreasure {
     visibility: collapse;
-
     background-color: DarkGrey;
 }
+
 .IsPlusMember #DOTAPlusTreasure {
     visibility: visible;
 }
+
 #DOTAPlusTreasure .TileBackground {
     background-image: url("s2r://panorama/images/store_home/shard_shop_background_png.vtex");
 }

@@ -1,21 +1,17 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define PopupManageTeammates-DeletionTransitionTime: 0.2s;
 @define PopupManageTeammates-MinRows: 8;
-
 .PopupManageTeammates {
     pre-transform-scale2d: 1;
     opacity: 1;
-
     background-color: gradient(linear, 0% 0%, 0% 25%, from(#1c1d20), to(#230600));
-
     width: fit-children;
     height: fit-children;
-
     horizontal-align: center;
     vertical-align: center;
-
     transition-property: background-color, transform, pre-transform-scale2d, opacity, wash-color;
     transition-duration: 0.35s;
-
     flow-children: down;
 }
 
@@ -40,9 +36,7 @@
     height: 56px;
     margin-left: 12px;
     margin-top: 0;
-
     background-image: url("s2r://panorama/images/control_icons/avoid_player_icon_filled_png.vtex");
-
     background-size: contain;
     background-repeat: no-repeat;
     wash-color: #dd3c1c;
@@ -82,12 +76,9 @@
 .ManageTeammatePlayerRow {
     flow-children: right;
     background-color: #ffffff02;
-
     height: 64px;
     width: 100%;
-
     padding-right: 8px;
-
     opacity: 0;
 }
 
@@ -142,6 +133,7 @@ TextEntry {
 .ManageTeammatePlayerRow_Note_Edit {
     visibility: collapse;
 }
+
 .ManageTeammatePlayerRow--EditingNote .ManageTeammatePlayerRow_Note_Edit {
     visibility: visible;
 }
@@ -153,12 +145,15 @@ TextEntry {
     color: dotaPlusGold;
     font-size: 16px;
 }
+
 .ManageTeammatePlayerRow--EditingNote .ManageTeammatePlayerRow_Note_Label {
     visibility: collapse;
 }
+
 .ManageTeammatePlayerRow--EmptyNote .ManageTeammatePlayerRow_Note_Label {
     color: #565656;
 }
+
 .ManageTeammatePlayerRow_Note_Label:hover {
     brightness: 1.5;
 }
@@ -174,19 +169,19 @@ TextEntry {
     padding-top: 8px;
     padding-bottom: 8px;
     width: 200px;
-
     font-size: 14px;
     color: hsv-transform(red, 0, 0.9, 0.2);
-
     visibility: collapse;
 }
 
 .ManageTeammatePlayerRow--ValidCreationTime .ManageTeammatePlayerRow_Time--Added {
     visibility: visible;
 }
+
 .ManageTeammatePlayerRow--ValidExpirationTime .ManageTeammatePlayerRow_Time--Added {
     visibility: collapse;
 }
+
 .ManageTeammatePlayerRow--ValidExpirationTime .ManageTeammatePlayerRow_Time--Expires {
     visibility: visible;
 }
@@ -198,15 +193,16 @@ TextEntry {
     margin-right: 15px;
     vertical-align: center;
     background-image: url("s2r://panorama/images/control_icons/icon_trash_small_png.vtex");
-
     background-size: auto 22px;
     background-position: center center;
     background-repeat: no-repeat;
     wash-color: #382d2bee;
 }
+
 .ManageTeammatePlayerRow_Remove:enabled:hover {
     wash-color: #d23419;
 }
+
 .ManageTeammatePlayerRow_Remove:enabled:active {
     wash-color: #ccc;
     background-position: 40% 60%;
@@ -239,11 +235,13 @@ TextEntry {
     vertical-align: center;
     letter-spacing: 1px;
 }
+
 .PopupManageTeammates--Empty .PopupManageTeammates_Content_None {
     visibility: visible;
     vertical-align: top;
     padding-top: 21px;
 }
+
 .PopupManageTeammates--Loading .PopupManageTeammates_Content_None {
     visibility: collapse;
 }
@@ -272,9 +270,11 @@ TextEntry {
 .PopupManageTeammates_AvoidFooter_Note.AvoidUpgradesPurchased {
     visibility: collapse;
 }
+
 .PopupManageTeammates--CanPurchaseAvoidSlot .PopupManageTeammates_AvoidFooter_Note.AvoidUpgradesPurchased {
     visibility: visible;
 }
+
 .PopupManageTeammates--CanPurchaseAvoidSlot .PopupManageTeammates_AvoidFooter_Note.AvoidUpgradesAllPurchased {
     visibility: collapse;
 }
@@ -285,6 +285,7 @@ TextEntry {
     margin-right: 20px;
     width: 225px;
 }
+
 .PopupManageTeammates--CanPurchaseAvoidSlot .PopupManageTeammates_AvoidFooter_Purchase {
     visibility: visible;
 }

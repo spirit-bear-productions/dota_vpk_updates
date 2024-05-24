@@ -1,175 +1,220 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .WhisperChat,
 .WhisperChat a {
     color: #7e5a9f;
 }
+
 .WhisperChat.ChatPersona,
 .WhisperChat.ChatLinePersonaLabel {
     color: #907fac;
 }
+
 .PartyChat,
 .PartyChat a {
     color: #749ab8;
 }
+
 .PartyChat.ChatPersona,
 .PartyChat.ChatLinePersonaLabel {
     color: #8bb7db;
 }
+
 .LobbyChat,
 .LobbyChat a {
     color: #92e4e5;
 }
+
 .LobbyChat.ChatPersona,
 .LobbyChat.ChatLinePersonaLabel {
     color: #abe4e5;
 }
+
 .GuildChat,
 .GuildChat a {
     color: #a4e9a7;
 }
+
 .GuildChat.ChatPersona,
 .GuildChat.ChatLinePersonaLabel {
     color: #c0e9c2;
 }
+
 .TeamChat,
 .TeamChat a {
     color: #d7848c;
 }
+
 .TeamChat.ChatPersona,
 .TeamChat.ChatLinePersonaLabel {
     color: #d79da2;
 }
+
 .ChannelChat,
 .ChannelChat a {
     color: #8c9a9f;
 }
+
 .ChannelChat.ChatPersona,
 .ChannelChat.ChatLinePersonaLabel {
     color: #c0d4db;
 }
+
 .RegionalChannelChat,
 .RegionalChannelChat a {
     color: #9c9383;
 }
+
 .RegionalChannelChat.ChatPersona,
 .RegionalChannelChat.ChatLinePersonaLabel {
     color: #c5b8aa;
 }
+
 .CustomGameChannelChat,
 .CustomGameChannelChat a {
     color: #6d9788;
 }
+
 .CustomGameChannelChat.ChatPersona,
 .CustomGameChannelChat.ChatLinePersonaLabel {
     color: #93ccb7;
 }
+
 .PostGameChannelChat,
 .PostGameChannelChat a {
     color: #4c96be;
 }
+
 .PostGameChannelChat.ChatPersona,
 .PostGameChannelChat.ChatLinePersonaLabel {
     color: #7ebcde;
 }
+
 .PrivateChannelChat,
 .PrivateChannelChat a {
     color: #95b899;
 }
+
 .PrivateChannelChat.ChatPersona,
 .PrivateChannelChat.ChatLinePersonaLabel {
     color: #c1d8c4;
 }
+
 .ConsoleChat,
 .ConsoleChat a {
     color: #a5ada2;
 }
+
 .ConsoleChat.ChatPersona,
 .ConsoleChat.ChatLinePersonaLabel {
     color: #a5ada2;
 }
+
 .TabChat,
 .TabChat a {
     color: #a5ada2;
 }
+
 .TabChat.ChatPersona,
 .TabChat.ChatLinePersonaLabel {
     color: #a5ada2;
 }
+
 .InvalidChat,
 .InvalidChat a {
     color: #ffffff;
 }
+
 .InvalidChat.ChatPersona,
 .InvalidChat.ChatLinePersonaLabel {
     color: #ffffff;
 }
+
 .GameAllChat,
 .GameAllChat a {
     color: #faeac9;
 }
+
 .GameAllChat.ChatPersona,
 .GameAllChat.ChatLinePersonaLabel {
     color: #ffffff;
 }
+
 .GameAlliesChat,
 .GameAlliesChat a {
     color: #faeac9;
 }
+
 .GameAlliesChat.ChatPersona,
 .GameAlliesChat.ChatLinePersonaLabel {
     color: #ffffff;
 }
+
 .GameCoachingChat,
 .GameCoachingChat a {
     color: #faeac9;
 }
+
 .GameCoachingChat.ChatPersona,
 .GameCoachingChat.ChatLinePersonaLabel {
     color: #ffffff;
 }
+
 .GameSpectatorChat,
 .GameSpectatorChat a {
     color: #ffffff;
 }
+
 .GameSpectatorChat.ChatPersona,
 .GameSpectatorChat.ChatLinePersonaLabel {
     color: #ffffff;
 }
+
 .GameEventsChat,
 .GameEventsChat a {
     color: #ffffff;
 }
+
 .GameEventsChat.ChatPersona,
 .GameEventsChat.ChatLinePersonaLabel {
     color: #ffffff;
 }
+
 .HLTVSpectatorChannelChat,
 .HLTVSpectatorChannelChat a {
     color: #ffffff;
 }
+
 .HLTVSpectatorChannelChat.ChatPersona,
 .HLTVSpectatorChannelChat.ChatLinePersonaLabel {
     color: #ffffff;
 }
+
 .TriviaChat,
 .TriviaChat a {
     color: #86aeac;
 }
+
 .TriviaChat.ChatPersona,
 .TriviaChat.ChatLinePersonaLabel {
     color: #98c5c3;
 }
+
 .BattleCupChat,
 .BattleCupChat {
     color: #8b6f4e;
 }
+
 .BattleCupChat.ChatPersona,
 .BattleCupChat.ChatLinePersonaLabel {
     color: #896338;
 }
+
 .PrivateCoachingChat,
 .PrivateCoachingChat a {
     color: #c67c9a;
 }
+
 .PrivateCoachingChat.ChatPersona,
 .PrivateCoachingChat.ChatLinePersonaLabel {
     color: #c4698d;
@@ -179,6 +224,7 @@ DOTAChat#HudChat .WhisperChat,
 .WhisperChat a {
     color: #c08af2;
 }
+
 DOTAChat#HudChat .WhisperChat.ChatPersona {
     color: #c3ace9;
 }
@@ -187,6 +233,7 @@ DOTAChat#HudChat .LobbyChat.Visitor,
 .LobbyChat.Visitor a {
     color: #92e4e5;
 }
+
 DOTAChat#HudChat .LobbyChat.Visitor.ChatPersona {
     color: #abe4e5;
 }
@@ -195,6 +242,7 @@ DOTAChat#HudChat .PartyChat.Visitor,
 .PartyChat.Visitor a {
     color: #749ab8;
 }
+
 DOTAChat#HudChat .PartyChat.Visitor.ChatPersona {
     color: #8bb7db;
 }
@@ -202,9 +250,11 @@ DOTAChat#HudChat .PartyChat.Visitor.ChatPersona {
 .PrivateChannelChat.UserMessageType {
     color: #999999;
 }
+
 .PrivateChannelChat.UserMessage {
     color: #777777;
 }
+
 .PrivateChannelChat.UserMessageUser {
     color: #dddddd;
 }
@@ -212,62 +262,77 @@ DOTAChat#HudChat .PartyChat.Visitor.ChatPersona {
 .PartyChat.Visitor {
     color: #516c82;
 }
+
 .PartyChat.Visitor.ChatPersona,
 .PartyChat.Visitor.ChatLinePersonaLabel {
     color: #6a8eaa;
 }
+
 .ChannelChat.Visitor,
 .ChannelChat.Visitor a {
     color: #576065;
 }
+
 .ChannelChat.Visitor.ChatPersona,
 .ChannelChat.Visitor.ChatLinePersonaLabel {
     color: #606b70;
 }
+
 .RegionalChannelChat.Visitor,
 .RegionalChannelChat.Visitor a {
     color: #5e594f;
 }
+
 .RegionalChannelChat.Visitor.ChatPersona,
 .RegionalChannelChat.Visitor.ChatLinePersonaLabel {
     color: #7a7168;
 }
+
 .LobbyChat.Visitor,
 .LobbyChat.Visitor a {
     color: #678e8f;
 }
+
 .LobbyChat.Visitor.ChatPersona,
 .LobbyChat.Visitor.ChatLinePersonaLabel {
     color: #779192;
 }
+
 .CustomGameChannelChat.Visitor,
 .CustomGameChannelChat.Visitor a {
     color: #435850;
 }
+
 .CustomGameChannelChat.Visitor.ChatPersona,
 .CustomGameChannelChat.Visitor.ChatLinePersonaLabel {
     color: #59796e;
 }
+
 .PostGameChannelChat.Visitor,
 .PostGameChannelChat.Visitor a {
     color: #226c94;
 }
+
 .PostGameChannelChat.Visitor.ChatPersona,
 .PostGameChannelChat.Visitor.ChatLinePersonaLabel {
     color: #4c96d5;
 }
+
 .BattleCupChat.Visitor,
 .BattleCupChat.Visitor a {
     color: #8b6f4e;
 }
+
 .BattleCupChat.Visitor.ChatPersona,
 .BattleCupChat.Visitor.ChatLinePersonaLabel {
     color: #896338;
 }
+
 .PrivateCoachingChat.Visitor,
 .PrivateCoachingChat.Visitor a {
     color: #9e637b;
 }
+
 .PrivateCoachingChat.Visitor.ChatPersona,
 .PrivateCoachingChat.Visitor.ChatLinePersonaLabel {
     color: #a25775;
@@ -277,10 +342,12 @@ DOTAChat#HudChat .PartyChat.Visitor.ChatPersona {
 .PartyChat.Visitor.ReadyCheckTitle {
     color: white;
 }
+
 .PartyChat.ReadyCheckReady,
 .PartyChat.Visitor.ReadyCheckReady {
     color: #00ffaa;
 }
+
 .PartyChat.ReadyCheckNotReady,
 .PartyChat.Visitor.ReadyCheckNotReady {
     color: #cc0000;
@@ -289,18 +356,23 @@ DOTAChat#HudChat .PartyChat.Visitor.ChatPersona {
 .UnlockHeroBadgeTier.BronzeTier {
     color: gradient(linear, 0% 0%, 0% 100%, from(#fce8a2), to(#f7c184));
 }
+
 .UnlockHeroBadgeTier.SilverTier {
     color: gradient(linear, 0% 0%, 0% 100%, from(#f1fbfc), to(#acd7e0));
 }
+
 .UnlockHeroBadgeTier.GoldTier {
     color: gradient(linear, 0% 0%, 0% 100%, from(#f8f7e7), to(#f8ef5a));
 }
+
 .UnlockHeroBadgeTier.PlatinumTier {
     color: gradient(linear, 0% 0%, 0% 100%, from(#fbffff), to(#5c9dff));
 }
+
 .UnlockHeroBadgeTier.MasterTier {
     color: gradient(linear, 0% 0%, 0% 100%, from(#e5a7ff), to(#b300ff));
 }
+
 .UnlockHeroBadgeTier.GrandmasterTier {
     color: gradient(linear, 0% 0%, 0% 100%, from(#f7ee8b), to(#d6191c));
 }
@@ -308,27 +380,35 @@ DOTAChat#HudChat .PartyChat.Visitor.ChatPersona {
 .Escalating1 {
     color: #ffff88;
 }
+
 .Escalating2 {
     color: #ffdd77;
 }
+
 .Escalating3 {
     color: #ffbb66;
 }
+
 .Escalating4 {
     color: #ff9955;
 }
+
 .Escalating5 {
     color: #ff7744;
 }
+
 .Escalating6 {
     color: #ff5533;
 }
+
 .Escalating7 {
     color: #ff3322;
 }
+
 .Escalating8 {
     color: #ff2211;
 }
+
 .Escalating9 {
     color: gradient(linear, 10% 20%, 5% 20%, from(#ff2211), to(#ffff88));
 }

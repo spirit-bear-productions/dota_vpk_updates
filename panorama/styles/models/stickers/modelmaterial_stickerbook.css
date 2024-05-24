@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #StickerbookModel {
     width: 1536px;
     height: 512px;
-
     background-color: #333;
 }
 
@@ -15,7 +16,6 @@
 .PositionedStickerSnippet {
     width: 96px;
     height: 96px;
-
     opacity: 0;
 }
 
@@ -31,6 +31,7 @@
 .UseScenePanelStickers #Preview3DItems {
     visibility: visible;
 }
+
 .UseScenePanelStickers #ImagePanel {
     visibility: collapse;
 }

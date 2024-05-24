@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 CustomLayoutPanel {
     opacity: 0.99;
 }
@@ -19,7 +21,6 @@ CustomLayoutPanel {
 
 #Header {
     flow-children: down;
-
     padding: 18px;
 }
 
@@ -54,11 +55,9 @@ CustomLayoutPanel {
     margin-right: 6px;
     horizontal-align: right;
     vertical-align: middle;
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
     visibility: visible;
 }
 

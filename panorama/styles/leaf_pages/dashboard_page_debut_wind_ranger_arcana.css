@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #ModelContainer {
     width: 100%;
     height: 100%;
@@ -8,17 +10,14 @@
     transform: scaleX(1);
     width: 100%;
     height: 100%;
-
     pre-transform-scale2d: 1;
     vertical-align: middle;
     horizontal-align: center;
     saturation: 0;
     contrast: 1.03;
-
     transition-property: opacity, wash-color, saturation, contrast;
     transition-duration: 0.9s;
     transition-timing-function: ease-in;
-
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -41,7 +40,6 @@
     opacity: 0;
     margin-left: 0px;
     margin-right: 880px;
-
     opacity: 0;
     transition-property: wash-color, opacity, pre-transform-scale2d;
     transition-duration: 3s;
@@ -62,7 +60,6 @@
 
 #InformationBody {
     padding: 40px 24px;
-
     horizontal-align: center;
     width: 620px;
     height: 820px;
@@ -125,7 +122,6 @@
     background-repeat: no-repeat;
     background-position: center;
     img-shadow: 0px 0px 100px #000000;
-
     transition-property: wash-color;
     transition-duration: 0s;
     transition-timing-function: ease-in-out;
@@ -144,9 +140,7 @@
     margin-right: 70px;
     img-shadow: 0px 4px 18px #000000;
     transform: translateX(40px);
-
     opacity: 0;
-
     transition-property: wash-color, opacity;
     transition-duration: 3s;
     transition-timing-function: ease-in;
@@ -216,7 +210,6 @@
 
 #ItemLore {
     color: #fff;
-
     font-weight: light;
     font-size: 17px;
     margin: 12px 12px 12px 0px;
@@ -234,11 +227,9 @@
 #TitleContainer {
     width: 100%;
     horizontal-align: center;
-
     transition-property: hue-rotation, wash-color, saturation;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-
     flow-children: down;
     overflow: noclip;
 }
@@ -304,7 +295,6 @@
     transition-property: wash-color;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
-
     border: 1px solid transparent;
     border-radius: 0px;
     background-size: 90%;
@@ -325,7 +315,6 @@ VerticalScrollBar:active .ScrollThumb {
     width: 100%;
     height: 100%;
     wash-color: #000;
-
     transition-property: wash-color;
     transition-duration: 0.4s;
     transition-timing-function: ease-in;
@@ -347,6 +336,7 @@ VerticalScrollBar:active .ScrollThumb {
     font-weight: normal;
     letter-spacing: 3px;
 }
+
 .PreviewMode {
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#af5417), to(#af5417));
     opacity: 0.9;
@@ -430,7 +420,6 @@ VerticalScrollBar:active .ScrollThumb {
     horizontal-align: left;
     vertical-align: bottom;
     margin-right: 20px;
-
     visibility: collapse;
 }
 
@@ -520,6 +509,7 @@ HorizontalScrollBar {
 .DashboardPage.ShowingAlternateStyle #SecondStyle {
     opacity: 0;
 }
+
 .DashboardPage.ShowingAlternateStyle #ModelBackgroundAlt {
     opacity: 1;
     transition-duration: 0.9s;

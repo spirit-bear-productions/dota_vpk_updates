@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     background-color: none;
     animation: none;
@@ -11,7 +13,6 @@
 .MainContents {
     border: 0px solid rgb(255, 255, 255);
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(gold1), color-stop(0.5, gold2), to(gold3));
-
     horizontal-align: center;
     vertical-align: middle;
     width: 1244px;
@@ -42,6 +43,7 @@
     width: 100%;
     height: 100%;
 }
+
 .MainContents .InnerContents .Header {
     width: 100%;
 }
@@ -50,10 +52,12 @@
     width: 100%;
     height: 100%;
 }
+
 .MainContents .InnerContents .Body .Scene {
     width: 100%;
     height: width-percentage(56.25%);
 }
+
 .MainContents .InnerContents .Body .Scene #GameScene,
 .MainContents .InnerContents .Body .Scene #GameSceneBG {
     border: 1px solid gold1;
@@ -62,6 +66,7 @@
     height: 100%;
     opacity: 0;
 }
+
 .MainContents .InnerContents .Body .Scene #GameScene.SceneLoaded,
 .MainContents .InnerContents .Body .Scene #GameSceneBG.SceneLoaded {
     opacity: 1;
@@ -87,17 +92,14 @@
     ignore-parent-flow: true;
     horizontal-align: center;
     vertical-align: middle;
-
     flow-children: down;
     width: 800px;
     height: 600px;
     padding-left: 30px;
     padding-right: 30px;
-
     border: 2px solid rgb(255, 255, 255);
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(gold1), color-stop(0.5, gold2), to(gold3));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(charcoalLight), to(charcoalDark));
-
     opacity: 0;
     transform: translateY(-20px);
     transition-property: opacity, transform;
@@ -115,6 +117,7 @@
     flow-children: down;
     padding: 0px;
 }
+
 .MainContents .InnerContents .Body .MainMenu .HowToPlaySection .HowToPlayTitle {
     text-transform: uppercase;
     font-size: 20px;
@@ -122,10 +125,12 @@
     color: gold1;
     margin-bottom: 6px;
 }
+
 .MainContents .InnerContents .Body .MainMenu .HowToPlaySection .HowToPlayDescription {
     font-size: 16px;
     line-height: 1.2;
 }
+
 .MainContents .InnerContents .Body .MainMenu .HowToPlaySection .HowToPlayDescription b {
     font-weight: bold;
     font-size: 16px;
@@ -138,7 +143,6 @@
     font-family: titleFont;
     font-size: 34px;
     letter-spacing: 4px;
-
     text-transform: uppercase;
     font-weight: bold;
     color: gradient(linear, 0% 00%, 0% 100%, from(#f9e7cd), to(gold2));
@@ -146,17 +150,20 @@
     margin-top: 8px;
     margin-bottom: 15px;
 }
+
 .MainContents .InnerContents .Body .MainMenu .ColumnContainer {
     flow-children: right;
     width: 100%;
     height: 400px;
 }
+
 .MainContents .InnerContents .Body .MainMenu .ColumnContainer .Column1 {
     width: 50%;
     height: 100%;
     flow-children: down;
     overflow: clip scroll;
 }
+
 .MainContents .InnerContents .Body .MainMenu .ColumnContainer .Column2 {
     width: 50%;
     height: 100%;
@@ -170,6 +177,7 @@
     color: gold1;
     margin-top: 12px;
 }
+
 .MainContents .InnerContents .Body .MainMenu .RewardsSection {
     margin-top: 12px;
     flow-children: down;
@@ -182,9 +190,11 @@
     width: 100%;
     margin-bottom: 2px;
 }
+
 .MainContents .InnerContents .Body .MainMenu .RewardsSection .RewardRow.Unlocked {
     brightness: 0.1;
 }
+
 .MainContents .InnerContents .Body .MainMenu .RewardsSection .RewardRow .RewardScore {
     width: 80px;
     vertical-align: middle;
@@ -197,6 +207,7 @@
     width: 100%;
     vertical-align: middle;
 }
+
 .MainContents .InnerContents .Body .MainMenu .RewardsSection .RewardRow .RewardValue DOTACrownfallToken {
     width: 38px;
     ui-scale: 64%;
@@ -209,9 +220,11 @@
     horizontal-align: center;
     vertical-align: bottom;
 }
+
 .MainContents .InnerContents .Body .BottomButtons .ExitButton {
     visibility: collapse;
 }
+
 .PlayedOnce .MainContents .InnerContents .Body .BottomButtons .ExitButton {
     visibility: visible;
 }
@@ -222,6 +235,7 @@
     visibility: visible;
     ui-scale: 200%;
 }
+
 .SceneLoaded .MainContents .InnerContents .Body .MissingDataSpinnerContainer {
     visibility: collapse;
 }
@@ -232,6 +246,7 @@
     height: 100%;
     visibility: collapse;
 }
+
 .SceneLoaded .OverlayHUD {
     visibility: visible;
 }
@@ -246,24 +261,27 @@
     margin-left: 20px;
     margin-top: 20px;
     width: 222px;
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
 }
+
 .HideScore .OverlayHUD .ScoreSection {
     transform: translateX(-40px);
     opacity: 0;
 }
+
 .IntroMenu .OverlayHUD .ScoreSection {
     transform: translateX(-40px);
     opacity: 0;
 }
+
 .OverlayHUD .ScoreSection .Header {
     flow-children: down;
     horizontal-align: center;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(rgba(52, 66, 83, 1)), to(rgba(12, 17, 28, 1)));
     padding: 10px;
 }
+
 .OverlayHUD .ScoreSection .Header .Title {
     font-size: 22px;
     horizontal-align: center;
@@ -282,9 +300,11 @@
     background-color: #000a;
     border-bottom: 2px solid gold1;
 }
+
 .IntroMenu .OverlayHUD .ScoreSection .Main {
     height: 2px;
 }
+
 .OverlayHUD .ScoreSection .Main .ScoreLabel {
     horizontal-align: center;
     text-transform: uppercase;
@@ -294,12 +314,14 @@
     color: gold1;
     text-shadow: 1px 1px 4px black;
 }
+
 .OverlayHUD .ScoreSection .Main .CurrentScoreValueContainer {
     width: 100%;
     horizontal-align: center;
     margin-top: -8px;
     min-height: 58px;
 }
+
 .OverlayHUD .ScoreSection .Main .CurrentScoreValueContainer .RemainingScore {
     font-family: Radiance;
     font-size: 20px;
@@ -311,6 +333,7 @@
     vertical-align: bottom;
     visibility: collapse;
 }
+
 .ShowRemainingScore .OverlayHUD .ScoreSection .Main .CurrentScoreValueContainer .RemainingScore {
     visibility: visible;
 }
@@ -323,10 +346,10 @@
     horizontal-align: center;
     color: gradient(linear, 0% 0%, 0% 100%, from(gold1), to(gold3));
     text-shadow: 1px 1px 8px black;
-
     transition-property: ui-scale;
     transition-duration: 0.3s;
 }
+
 .ShowRemainingScore .OverlayHUD .ScoreSection .Main .CurrentScoreValueContainer .ScoreValue {
     ui-scale: 77%;
 }
@@ -336,12 +359,14 @@
     height: 1px;
     width: 100%;
 }
+
 .OverlayHUD .ScoreSection .Main .HighScoreLabelContainer {
     margin-top: 10px;
     width: 100%;
     height: 16px;
     horizontal-align: center;
 }
+
 .OverlayHUD .ScoreSection .Main .HighScoreLabelContainer .HighScoreLabel {
     horizontal-align: center;
     text-transform: uppercase;
@@ -350,13 +375,12 @@
     text-shadow: 2px 2px 3px black;
     color: gold1;
 }
+
 .OverlayHUD .ScoreSection .Main .HighScoreLabelContainer .HighScoreNewLabel {
     font-size: 14px;
     font-family: Radiance;
     color: gold1;
-
     text-shadow: 2px 2px 3px black;
-
     horizontal-align: right;
     transition-property: opacity, transform;
     transition-duration: 0.4s;
@@ -364,6 +388,7 @@
     transform: translateY(-20px);
     brightness: 0;
 }
+
 .NewHighScore .OverlayHUD .ScoreSection .Main .HighScoreLabelContainer .HighScoreNewLabel {
     opacity: 1;
     brightness: 1.2;
@@ -378,13 +403,13 @@
     margin-top: -2px;
     margin-bottom: 10px;
 }
+
 .OverlayHUD .ScoreSection .Main .HighScoreValueContainer .HighScoreValue {
     horizontal-align: center;
     font-family: titleFont;
     font-size: 27px;
     letter-spacing: 2px;
     color: gradient(linear, 0% 0%, 0% 100%, from(gold1), to(gold3));
-
     text-shadow: 2px 2px 5px black;
 }
 
@@ -395,32 +420,39 @@
     font-size: 14px;
     text-shadow: 2px 2px 3px black;
 }
+
 .OverlayHUD .ScoreSection .Main .NextRewardContainer {
     horizontal-align: center;
     flow-children: down;
     visibility: collapse;
 }
+
 .ShowNextRewards .OverlayHUD .ScoreSection .Main .NextRewardContainer {
     visibility: visible;
 }
+
 .OverlayHUD .ScoreSection .Main .NextRewardContainer .NextRewardTokens {
     flow-children: right;
 }
+
 .CanClaimReward .OverlayHUD .ScoreSection .Main .NextRewardContainer .NextRewardTokens {
     animation-name: GlowText;
     animation-duration: 0.6s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
 .OverlayHUD .ScoreSection .Main .NextRewardContainer .NextRewardTokens .NextRewardScore {
     margin-left: 5px;
     color: gradient(linear, 0% 0%, 0% 100%, from(gold1), to(gold3));
     font-size: 27px;
     text-shadow: 2px 2px 3px black;
 }
+
 .OverlayHUD .ScoreSection .Main .NextRewardContainer .NextRewardTokens .Hidden {
     visibility: collapse;
 }
+
 .OverlayHUD .ScoreSection .Main .NextRewardContainer .NextRewardTokens DOTACrownfallToken {
     width: 38px;
     height: 38px;
@@ -433,16 +465,17 @@
     margin-right: 10px;
     horizontal-align: center;
     width: 100%;
-
     transition-property: transform, opacity;
     transition-duration: 0.5s;
     transform: scaleY(0.1) translateY(-30px);
     opacity: 0;
 }
+
 .ReelingFish .OverlayHUD .ScoreSection .ClaimRewardSection {
     transform: scaleY(1);
     opacity: 1;
 }
+
 .OverlayHUD .ScoreSection .ClaimRewardSection .ClaimRewardButton {
     horizontal-align: center;
     vertical-align: middle;
@@ -459,9 +492,11 @@
     transition-property: transform;
     transition-duration: 1s;
 }
+
 .ShowRewardClaimedToast .OverlayHUD .RewardClaimedToast {
     transform: none;
 }
+
 .OverlayHUD .RewardClaimedToast .RewardClaimedToastText {
     color: gold1;
 }
@@ -470,14 +505,12 @@
     margin-left: 10px;
     width: 100%;
     horizontal-align: right;
-
     flow-children: down;
-
     margin-top: 7px;
 }
+
 .LeaderboardContainer .LeaderList {
     width: 100%;
-
     flow-children: down;
     overflow: clip scroll;
 }
@@ -486,6 +519,7 @@
     width: 100%;
     margin-bottom: 8px;
 }
+
 .LeaderboardContainer .LeaderListHeader Label {
     text-transform: uppercase;
     font-size: 16px;
@@ -502,19 +536,19 @@
     ui-scale: 100%;
     width: 100%;
     margin-bottom: 2px;
-
     flow-children: right;
     padding-right: 0px;
     height: 24px;
 }
+
 .LeaderboardContainer .LeaderboardRow.OddRow {
     background-color: #0005;
 }
+
 .LeaderboardContainer .LeaderboardRow #LeaderListAvatar {
     width: 24px;
     height: 24px;
     vertical-align: middle;
-
     margin-right: 5px;
 }
 
@@ -543,7 +577,6 @@
     img-shadow: 0px 1px 8px rgba(0, 0, 0, 1);
     wash-color: LighterGrey;
     opacity: 0.6;
-
     transition-property: wash-color, opacity;
     transition-duration: 0.1s;
 }
@@ -556,9 +589,11 @@
 #CloseButtonContainer .CloseIcon {
     visibility: collapse;
 }
+
 .IntroMenu #CloseButtonContainer .ReturnIcon {
     visibility: collapse;
 }
+
 .IntroMenu #CloseButtonContainer .CloseIcon {
     visibility: visible;
 }
@@ -568,13 +603,13 @@
     height: 100%;
     padding-top: 100px;
     background-color: #0005;
-
     background-repeat: repeat;
     transition-property: opacity, blur;
     transition-duration: 0.5s, 0.3s;
     opacity: 0;
     blur: gaussian(10px);
 }
+
 .ShowVisualNovel .VisualNovelOuterContainer {
     opacity: 1;
     blur: gaussian(0px);
@@ -588,7 +623,6 @@
 .VisualNovelBackground {
     border: 1px solid rgb(255, 255, 255);
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(gold1), color-stop(0.5, gold2), to(gold3));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(charcoalLight), to(charcoalDark));
     opacity: 0.99;
     width: 100%;

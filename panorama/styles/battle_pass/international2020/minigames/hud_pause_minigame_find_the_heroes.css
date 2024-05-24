@@ -1,7 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .MinigameFindTheHeroes {
     horizontal-align: center;
     flow-children: down;
 }
+
 #HeroContainer {
     flow-children: right-wrap;
     width: 821px;
@@ -35,9 +38,11 @@
     50% {
         transform: rotateZ(179deg);
     }
+
     51% {
         transform: rotateZ(181deg);
     }
+
     100% {
         transform: rotateZ(360deg);
     }
@@ -89,9 +94,11 @@
     50% {
         transform: rotateZ(179deg);
     }
+
     51% {
         transform: rotateZ(181deg);
     }
+
     100% {
         transform: rotateZ(360deg);
     }

@@ -1,11 +1,11 @@
-@define frontPageCellTextShadow: 0px 2px 4px rgba(0,0,0,0.4);
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define frontPageCellTextShadow: 0px 2px 4px rgba(0,0,0,0.4);
 .DotaPlusGeneralUpdate {
     background-image: url("s2r://panorama/images/front_page/dota_plus_update_summer_2022_top_psd.vtex");
     background-position: center center;
     background-size: 100%;
     flow-children: down;
-
     transition-property: brightness, background-size;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -60,7 +60,6 @@
     text-shadow: frontPageCellTextShadow;
     horizontal-align: center;
     padding-top: 8px;
-
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: ease;

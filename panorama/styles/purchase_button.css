@@ -1,5 +1,6 @@
-@define elementMargin: 2px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define elementMargin: 2px;
 DOTAPurchaseButton {
     flow-children: right;
     padding: 0px 8px;
@@ -9,11 +10,11 @@ DOTAPurchaseButton {
     box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.4);
     background-color: GreenGradientBackgroundColor;
     height: 34px;
-
     transition-property: border, brightness;
     transition-duration: 0.1s;
     transition-timing-function: ease;
 }
+
 DOTAPurchaseButton Label {
     max-height: 20px;
 }
@@ -23,6 +24,7 @@ DOTAPurchaseButton.Large {
     padding: 10px 28px;
     height: 48px;
 }
+
 DOTAPurchaseButton.Large Label {
     font-size: 19px;
     line-height: 24px;
@@ -56,17 +58,14 @@ DOTAPurchaseButton.NoPrice.NoShardsPrice:not(.BaseEventReward) {
     width: 20px;
     height: 20px;
     margin-right: 6px;
-
     vertical-align: middle;
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
     visibility: collapse;
-
     background-image: url("s2r://panorama/images/control_icons/gift_png.vtex");
 }
+
 DOTAPurchaseButton.Gift #GiftIcon {
     visibility: visible;
 }
@@ -75,13 +74,10 @@ DOTAPurchaseButton.Gift #GiftIcon {
     width: 20px;
     height: 20px;
     margin-right: 6px;
-
     vertical-align: middle;
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
     visibility: collapse;
 }
 
@@ -90,6 +86,7 @@ DOTAPurchaseButton.Gift #GiftIcon {
     text-transform: uppercase;
     margin-right: elementMargin;
 }
+
 .HidePurchaseMethod:not(.BaseEventReward) #PurchaseMethod,
 .IconButton #PurchaseMethod {
     visibility: collapse;
@@ -109,11 +106,9 @@ DOTAPurchaseButton.Gift #GiftIcon {
     horizontal-align: center;
     visibility: collapse;
     wash-color: #ceffbb;
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
     background-image: url("s2r://panorama/images/icon_treasure_arrow_psd.vtex");
 }
 
@@ -122,7 +117,6 @@ DOTAPurchaseButton.Gift #GiftIcon {
     height: 20px;
     vertical-align: middle;
     horizontal-align: center;
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -132,6 +126,7 @@ DOTAPurchaseButton.InTreasure #SourceIcon,
 DOTAPurchaseButton.AdditionalDropInTreasure #SourceIcon {
     background-image: url("s2r://panorama/images/icon_treasure_button_png.vtex");
 }
+
 DOTAPurchaseButton.InBundle #SourceIcon {
     background-image: url("s2r://panorama/images/control_icons/brackets_png.vtex");
 }
@@ -149,9 +144,9 @@ DOTAPurchaseButton.InBundle #SourceIconContainer {
 #PurchaseSource {
     color: white;
     text-transform: uppercase;
-
     visibility: collapse;
 }
+
 DOTAPurchaseButton.InTreasure:not(.IconButton) #PurchaseSource,
 DOTAPurchaseButton.AdditionalDropInTreasure:not(.IconButton) #PurchaseSource,
 DOTAPurchaseButton.InBundle:not(.IconButton) #PurchaseSource,
@@ -175,10 +170,12 @@ DOTAPurchaseButton.InBundle:not(.IconButton) #PurchaseSource,
 #SaleRegularPrice {
     visibility: collapse;
 }
+
 .OnSale #SaleAmount,
 .OnSale #SaleRegularPrice {
     visibility: visible;
 }
+
 .HideSaleAmount #SaleAmount,
 .HideSaleRegularPrice #SaleRegularPrice,
 .NoRegularPrice #SaleRegularPrice,
@@ -190,6 +187,7 @@ DOTAPurchaseButton.InBundle:not(.IconButton) #PurchaseSource,
 #Price {
     color: white;
 }
+
 .NoPrice #Price {
     visibility: collapse;
 }
@@ -205,9 +203,11 @@ DOTAPurchaseButton.InBundle:not(.IconButton) #PurchaseSource,
 .NoShardsPrice #ShardsPrice {
     visibility: collapse;
 }
+
 .IconButton #ShardsPrice {
     visibility: collapse;
 }
+
 DOTAPurchaseButton.ShardsPurchase #EventIcon {
     background-image: url("s2r://panorama/images/dota_plus/currency_icon_png.vtex");
     visibility: visible;
@@ -239,6 +239,7 @@ DOTAPurchaseButton.InBundle #ShardsPrice,
 .PurchaseItemButton:hover:enabled {
     brightness: 2;
 }
+
 .PurchaseItemButton:active {
     brightness: 1.5;
 }
@@ -250,12 +251,15 @@ DOTAPurchaseButton.InBundle #ShardsPrice,
 DOTAPurchaseButton.Direct {
     background-color: GreenGradientBackgroundColor;
 }
+
 DOTAPurchaseButton.Direct.InBundle {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#c28000), to(#744c00));
 }
+
 DOTAPurchaseButton.Direct.InTreasure {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3784a6), to(#215373));
 }
+
 DOTAPurchaseButton.Direct.AdditionalDropInTreasure {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3784a6), to(#215373));
 }
@@ -263,9 +267,11 @@ DOTAPurchaseButton.Direct.AdditionalDropInTreasure {
 DOTAPurchaseButton.DotaPlus {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#e0c59a), to(#ae9249));
 }
+
 DOTAPurchaseButton.DotaPlus:hover {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#f7d9aa), to(#d1af58));
 }
+
 DOTAPurchaseButton.DotaPlus:active {
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#f7d9aa), to(#d1af58));
 }
@@ -282,6 +288,7 @@ DOTAPurchaseButton.DotaPlus #PurchaseSource {
 .Tool_subscription .PurchaseItemButton:hover:enabled {
     brightness: 1;
 }
+
 .Tool_subscription .PurchaseItemButton:active {
     brightness: 1;
 }
@@ -292,9 +299,9 @@ DOTAPurchaseButton.Market {
 
 DOTAPurchaseButton.ShardsPurchase {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#433620), to(#141b21));
-
     border-brush: WhiteGradientBorderSoft;
 }
+
 DOTAPurchaseButton.Gift {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#60862d), to(#3d5f1c));
 }
@@ -304,6 +311,7 @@ DOTAPurchaseButton.EventReward.IndividualItem.Season_Winter2017 {
     background-image: url("s2r://panorama/images/compendium/winter2016/home_block_backgrounds/silver_png.vtex");
     background-size: 100% 100%;
 }
+
 DOTAPurchaseButton.EventReward.IndividualItem.Season_WinterMajor2016 #EventIcon,
 DOTAPurchaseButton.EventReward.IndividualItem.Season_Winter2017 #EventIcon {
     background-image: url("s2r://panorama/images/compendium/winter2016/battlepass_icon_png.vtex");
@@ -336,6 +344,7 @@ DOTAPurchaseButton.EventReward.IndividualItem.Season_Fall2016 {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#2b3e18), to(#455c1e));
     background-size: 100% 100%;
 }
+
 DOTAPurchaseButton.EventReward.IndividualItem.Season_Fall2016 #EventIcon {
     background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_small_png.vtex");
     visibility: visible;
@@ -345,6 +354,7 @@ DOTAPurchaseButton.EventReward.IndividualItem.Season_International2017 {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#154e6b), to(#52a0ae));
     background-size: 100% 100%;
 }
+
 DOTAPurchaseButton.EventReward.IndividualItem.Season_International2017 #EventIcon {
     background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_small_png.vtex");
     visibility: visible;
@@ -354,6 +364,7 @@ DOTAPurchaseButton.EventReward.IndividualItem.Season_International2018 {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#012311), to(#1f8c51));
     background-size: 100% 100%;
 }
+
 DOTAPurchaseButton.EventReward.IndividualItem.Season_International2018 #EventIcon {
     background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_small_png.vtex");
     visibility: visible;
@@ -363,6 +374,7 @@ DOTAPurchaseButton.EventReward.IndividualItem.Season_International2019 {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#0b0119), to(#34156b));
     background-size: 100% 100%;
 }
+
 DOTAPurchaseButton.EventReward.IndividualItem.Season_International2019 #EventIcon {
     background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_small_png.vtex");
     visibility: visible;
@@ -382,6 +394,7 @@ DOTAPurchaseButton.EventReward.IndividualItem.Season_Spring2021 {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#9d5599), to(#3a103a));
     background-size: 100% 100%;
 }
+
 DOTAPurchaseButton.EventReward.IndividualItem.Season_Spring2021 #EventIcon {
     background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_small_png.vtex");
     visibility: visible;
@@ -391,6 +404,7 @@ DOTAPurchaseButton.EventReward.IndividualItem.Season_International2022 {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#952e2e), to(#331a1a));
     background-size: 100% 100%;
 }
+
 DOTAPurchaseButton.EventReward.IndividualItem.Season_International2022 #EventIcon {
     background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_small_png.vtex");
     visibility: visible;

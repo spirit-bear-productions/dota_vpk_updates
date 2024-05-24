@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .BattlePass2022ProgressMain {
     width: 1440px;
     height: 780px;
@@ -16,7 +18,6 @@
     height: 180px;
     margin-top: -56px;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/battlepass/international2022/logo_battlepass_part2_en_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -34,6 +35,7 @@
     width: 320px;
     horizontal-align: center;
 }
+
 .YearHeader .Separator {
     width: 96px;
 }
@@ -82,10 +84,8 @@
     flow-children: down;
     width: 100%;
     margin: 0px 12px 12px 12px;
-
     opacity: 0;
     transform: translateX(-20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -135,6 +135,7 @@
     0% {
         pre-transform-scale2d: 1.25;
     }
+
     100% {
         pre-transform-scale2d: 1;
     }
@@ -142,7 +143,6 @@
 
 .BattlePass2022TierStar.StarAchieved {
     background-image: url("s2r://panorama/images/battlepass/international2022/quest_star_filled_part2_psd.vtex");
-
     animation-name: BattlePass2022PulseWeeklyQuestStar;
     animation-duration: 0.4s;
 }
@@ -202,22 +202,16 @@
     height: 208px;
     flow-children: down;
     margin-bottom: 12px;
-
     visibility: collapse;
-
     opacity: 0;
     transform: translateY(20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     background-color: defaultColor&06;
-
     border: 1px solid #00000088;
     border-bottom: 2px solid #000;
     border-radius: 3px;
-
     box-shadow: 0px 0px 32px #00000066;
-
     transform: skew(12deg);
 }
 
@@ -287,6 +281,7 @@
     horizontal-align: center;
     flow-children: right;
 }
+
 .BattlePass2022CavernCrawlBattlePointsValue Label {
     font-size: 24px;
     color: white;
@@ -298,9 +293,7 @@
     height: 26px;
     vertical-align: center;
     margin-left: 4px;
-
     wash-color: accentColor;
-
     background-image: url("s2r://panorama/images/compendium/fall2021/totalpoints_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -359,7 +352,6 @@
 .BattlePass2022WeeklyBonusProgressBarContainer Label {
     width: 100%;
     text-align: center;
-
     padding: 6px 8px 0px 8px;
     horizontal-align: right;
     color: ultraBrightColor;
@@ -386,9 +378,7 @@
     height: 26px;
     vertical-align: center;
     margin-left: 4px;
-
     wash-color: accentColor;
-
     background-image: url("s2r://panorama/images/compendium/fall2021/totalpoints_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -398,6 +388,7 @@
 #BattlePass2022CandyPointsProgress {
     height: 270px;
 }
+
 #BattlePass2022CandyPointsProgress.GainedReroll {
     height: 310px;
 }
@@ -486,7 +477,6 @@
     vertical-align: center;
     margin-left: 4px;
     wash-color: accentColor;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -610,7 +600,6 @@
     height: 640px;
     horizontal-align: center;
     margin: -60px 0px -30px 0px;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -630,7 +619,6 @@
 .BattlePass2022ProgressMain .BackgroundFXAegisGleam {
     width: 512px;
     height: 512px;
-
     vertical-align: center;
     horizontal-align: center;
 }
@@ -664,7 +652,6 @@
     img-shadow: 0px 0px 10px 3 #0000003f;
     wash-color: rgba(0, 0, 0, 0.2);
     contrast: 1;
-
     transition-property: transform, img-shadow, brightness, ui-scale, contrast, wash-color;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -681,7 +668,6 @@
 .BattlePass2022ProgressMain .BackgroundFXAegisGleam {
     opacity-mask: url("s2r://panorama/images/battlepass/international2022/bp_dashboard_aegis_metal_mask_psd.vtex");
     wash-color: rgba(241, 170, 63, 0.918);
-
     animation-name: IconGleam;
     animation-duration: 25s;
     animation-delay: 6s;
@@ -707,6 +693,7 @@
             to(rgba(255, 255, 255, 0))
         );
     }
+
     10% {
         background-color: gradient(
             linear,
@@ -719,6 +706,7 @@
             to(rgba(255, 255, 255, 0))
         );
     }
+
     100% {
         background-color: gradient(
             linear,

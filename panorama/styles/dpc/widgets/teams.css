@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DotaDPCTeamWidget {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#0e1318fc), color-stop(0.5, #151c24ed), to(#0e131855));
     background-color: #0e1318dd;
@@ -15,7 +17,6 @@ DotaDPCTeamWidget {
 .Header {
     width: 100%;
     flow-children: right;
-
     height: 40px;
 }
 
@@ -35,7 +36,6 @@ DotaDPCTeamWidget {
     letter-spacing: 2px;
     font-size: 16px;
     color: bluegreyTextReg;
-
     margin-top: 2px;
     transition-property: color;
     transition-duration: 0.2s;
@@ -76,7 +76,6 @@ DotaDPCTeamWidget {
     text-align: center;
     padding: 0px 16px;
     margin-top: 60px;
-
     visibility: collapse;
 }
 
@@ -122,7 +121,6 @@ DotaDPCTeamWidget {
 .CurrentFavorite.TeamInfo {
     background-color: #18273b;
     background-image: url("s2r://panorama/images/dpc/featured_team_home_bg_psd.vtex");
-
     background-img-opacity: 0.5;
     background-size: cover;
     background-repeat: no-repeat;
@@ -138,7 +136,6 @@ DotaDPCTeamWidget {
     height: 48px;
     margin-right: 12px;
     margin-left: 12px;
-
     transition-property: brightness, img-shadow;
     transition-duration: 0.2s;
 }
@@ -156,7 +153,6 @@ DotaDPCTeamWidget {
     font-size: 18px;
     height: 20px;
     text-overflow: shrink;
-
     transition-property: brightness, text-shadow;
     transition-duration: 0.2s;
 }
@@ -171,7 +167,6 @@ DotaDPCTeamWidget {
     font-size: 16px;
     letter-spacing: 1px;
     font-weight: semi-bold;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -244,10 +239,8 @@ DotaDPCTeamWidget {
 
 .HasSeries {
     flow-children: right;
-
     transition-property: brightness;
     transition-duration: 0.18s;
-
     visibility: collapse;
 }
 
@@ -279,7 +272,6 @@ DotaDPCTeamWidget {
     width: 20px;
     height: 20px;
     margin-right: 6px;
-
     margin-top: 1px;
 }
 
@@ -295,6 +287,7 @@ DotaDPCTeamWidget {
 .WatchDPC__SpoilerMode .TeamSeries .TeamLastSeriesScore {
     visibility: collapse;
 }
+
 .WatchDPC__SpoilerMode .TeamSeries .TeamLastSeriesSpoiler {
     visibility: visible;
 }
@@ -308,9 +301,11 @@ DotaDPCTeamWidget {
     transition-duration: 0.2s;
     transition-property: background-image, brightness;
 }
+
 .TeamInfo #TeamFavoriteButton:hover {
     brightness: 1.2;
 }
+
 .TeamInfo #TeamFavoriteButton:active {
     brightness: 1;
 }
@@ -323,14 +318,11 @@ DotaDPCTeamWidget {
 .TeamInfo #TeamFavoriteButton .DPCFavoriteStar {
     horizontal-align: right;
     vertical-align: bottom;
-
     width: 20px;
     height: 20px;
     margin-right: 12px;
     margin-bottom: 14px;
-
     transition-property: background-image;
-
     background-image: url("s2r://panorama/images/dpc/favorite_star_off_psd.vtex");
 }
 

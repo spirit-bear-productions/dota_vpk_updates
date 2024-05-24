@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .TokenName_Premium .TokenIconImage {
     background-image: url("s2r://panorama/images/control_icons/bp2019_mvp_icon_png.vtex");
 }
@@ -5,78 +7,103 @@
 .TokenName_Walking .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/walking_png.vtex");
 }
+
 .TokenName_Running .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/running_png.vtex");
 }
+
 .TokenName_Flying .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/flying_png.vtex");
 }
+
 .TokenName_Fish .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/fish_png.vtex");
 }
+
 .TokenName_Floating .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/floating_png.vtex");
 }
+
 .TokenName_Slithering .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/slithering_png.vtex");
 }
+
 .TokenName_Mounted .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/mounted_png.vtex");
 }
+
 .TokenName_Crawling .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/crawling_png.vtex");
 }
+
 .TokenName_Jumping .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/jumping_png.vtex");
 }
+
 .TokenName_Teleporting .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/teleporting_png.vtex");
 }
+
 .TokenName_Melee .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/melee_png.vtex");
 }
+
 .TokenName_Ranged .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/ranged_png.vtex");
 }
+
 .TokenName_Disabler .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/disabler_png.vtex");
 }
+
 .TokenName_Escape .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/escape_png.vtex");
 }
+
 .TokenName_Durable .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/durable_png.vtex");
 }
+
 .TokenName_Initiator .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/initiator_png.vtex");
 }
+
 .TokenName_Nuker .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/nuker_png.vtex");
 }
+
 .TokenName_Pusher .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/pusher_png.vtex");
 }
+
 .TokenName_Healer .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/healer_png.vtex");
 }
+
 .TokenName_Random .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/random_png.vtex");
 }
+
 .TokenName_Stargazer .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/stargazer_png.vtex");
 }
+
 .TokenName_Candle .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/candle_png.vtex");
 }
+
 .TokenName_Mystery .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/mystery_png.vtex");
 }
+
 .TokenName_MeepoQuest .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/meepo_png.vtex");
 }
+
 .TokenName_JuggernautQuest .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/juggernaut_png.vtex");
 }
+
 .TokenName_RikiQuest .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/riki_png.vtex");
 }
@@ -84,42 +111,55 @@
 .TokenName_Strength .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/strength_png.vtex");
 }
+
 .TokenName_Agility .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/agility_png.vtex");
 }
+
 .TokenName_Intelligence .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/intelligence_png.vtex");
 }
+
 .TokenName_Universal .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/universal_png.vtex");
 }
+
 .TokenName_Demon .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/demon_png.vtex");
 }
+
 .TokenName_Undead .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/undead_png.vtex");
 }
+
 .TokenName_Spirit .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/spirit_png.vtex");
 }
+
 .TokenName_Beast .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/beast_png.vtex");
 }
+
 .TokenName_Monster .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/monster_png.vtex");
 }
+
 .TokenName_God .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/god_png.vtex");
 }
+
 .TokenName_Aquatic .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/aquatic_png.vtex");
 }
+
 .TokenName_Elemental .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/elemental_png.vtex");
 }
+
 .TokenName_Sword .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/blade_png.vtex");
 }
+
 .TokenName_Unarmed .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/unarmed_png.vtex");
 }
@@ -127,48 +167,63 @@
 .TokenName_Blade .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/blade_png.vtex");
 }
+
 .TokenName_Axe .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/axe_png.vtex");
 }
+
 .TokenName_Polearm .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/polearm_png.vtex");
 }
+
 .TokenName_Club .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/club_png.vtex");
 }
+
 .TokenName_Wand .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/wand_png.vtex");
 }
+
 .TokenName_Ammunition .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/bow_png.vtex");
 }
+
 .TokenName_Pathfinder .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/pathfinder_png.vtex");
 }
+
 .TokenName_Ammunition .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/ammunition_png.vtex");
 }
+
 .TokenName_DruudScrap .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/druudscrap_png.vtex");
 }
+
 .TokenName_Sandfish .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/spearfishing_png.vtex");
 }
+
 .TokenName_Bat .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/medal_png.vtex");
 }
+
 .TokenName_Potion .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/potion_png.vtex");
 }
+
 .TokenName_CactusFlower .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/cactus_flower_png.vtex");
 }
+
 .TokenName_DemonBlood .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/demon_blood_png.vtex");
 }
+
 .TokenName_FirebugThorax .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/firebug_png.vtex");
 }
+
 .TokenName_PuffballMushroom .TokenIconImage {
     background-image: url("s2r://panorama/images/events/crownfall/tokens/puffball_png.vtex");
 }
@@ -177,6 +232,7 @@
 .TokenAct1.TokenName_Premium .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 35% 90%, from(#dd4433), to(#991100));
 }
+
 .TokenAct2.TokenName_Premium .TokenBackground,
 .TokenAct2.TokenName_Premium .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 35% 90%, from(#dd7833), to(#994e00));
@@ -197,102 +253,127 @@
 .TokenName_Walking .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#aeb48c), to(#606646));
 }
+
 .TokenName_Running .TokenBackground,
 .TokenName_Running .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#8cca74), to(#4e7931));
 }
+
 .TokenName_Flying .TokenBackground,
 .TokenName_Flying .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#8fd9e7), to(#2648ba));
 }
+
 .TokenName_Fish .TokenBackground,
 .TokenName_Fish .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#8fd9e7), to(#2648ba));
 }
+
 .TokenName_Floating .TokenBackground,
 .TokenName_Floating .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#f0d98c), to(#a08b22));
 }
+
 .TokenName_Slithering .TokenBackground,
 .TokenName_Slithering .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#49b45d), to(#174737));
 }
+
 .TokenName_Mounted .TokenBackground,
 .TokenName_Mounted .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#aa917b), to(#4b3625));
 }
+
 .TokenName_Crawling .TokenBackground,
 .TokenName_Crawling .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#83afa4), to(#243d36));
 }
+
 .TokenName_Jumping .TokenBackground,
 .TokenName_Jumping .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#a38cf0), to(#683b80));
 }
+
 .TokenName_Teleporting .TokenBackground,
 .TokenName_Teleporting .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#9cd7eb), to(#40598d));
 }
+
 .TokenName_Melee .TokenBackground,
 .TokenName_Melee .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#94abb5), to(#455f6c));
 }
+
 .TokenName_Ranged .TokenBackground,
 .TokenName_Ranged .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#b68080), to(#572c2c));
 }
+
 .TokenName_Disabler .TokenBackground,
 .TokenName_Disabler .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#b1abc9), to(#464063));
 }
+
 .TokenName_Escape .TokenBackground,
 .TokenName_Escape .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#5874d8), to(#31499f));
 }
+
 .TokenName_Durable .TokenBackground,
 .TokenName_Durable .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#ffe3b8), color-stop(0.5, #cea25a), to(#856227));
 }
+
 .TokenName_Initiator .TokenBackground,
 .TokenName_Initiator .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#6c807b), to(#33443f));
 }
+
 .TokenName_Nuker .TokenBackground,
 .TokenName_Nuker .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#ffb264), color-stop(0.5, #c5633d), to(#742727));
 }
+
 .TokenName_Pusher .TokenBackground,
 .TokenName_Pusher .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#7f81ad), to(#242251));
 }
+
 .TokenName_Healer .TokenBackground,
 .TokenName_Healer .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#74d689), to(#2b8038));
 }
+
 .TokenName_Random .TokenBackground,
 .TokenName_Random .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#74d689), to(#2b8038));
 }
+
 .TokenName_Stargazer .TokenBackground,
 .TokenName_Stargazer .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#a19bd2), to(#293cba));
 }
+
 .TokenName_Candle .TokenBackground,
 .TokenName_Candle .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#ffd0a3), to(#9b482a));
 }
+
 .TokenName_Mystery .TokenBackground,
 .TokenName_Mystery .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#8fd9e7), to(#2648ba));
 }
+
 .TokenName_MeepoQuest .TokenBackground,
 .TokenName_MeepoQuest .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#b4d6da), to(#527379));
 }
+
 .TokenName_JuggernautQuest .TokenBackground,
 .TokenName_JuggernautQuest .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#d4ccb4), to(#8b7241));
 }
+
 .TokenName_RikiQuest .TokenBackground,
 .TokenName_RikiQuest .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#cc7dcc), to(#663396));
@@ -302,86 +383,107 @@
 .TokenName_Strength .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#ff7878), to(#881919));
 }
+
 .TokenName_Agility .TokenBackground,
 .TokenName_Agility .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#55cc69), to(#1a652f));
 }
+
 .TokenName_Intelligence .TokenBackground,
 .TokenName_Intelligence .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#63b5cc), to(#206a7f));
 }
+
 .TokenName_Universal .TokenBackground,
 .TokenName_Universal .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#9674c6), to(#211f72));
 }
+
 .TokenName_Demon .TokenBackground,
 .TokenName_Demon .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#e07051), to(#651724));
 }
+
 .TokenName_Undead .TokenBackground,
 .TokenName_Undead .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#a0d187), to(#756926));
 }
+
 .TokenName_Spirit .TokenBackground,
 .TokenName_Spirit .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#a0c0e1), to(#42318b));
 }
+
 .TokenName_Beast .TokenBackground,
 .TokenName_Beast .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#c7bca5), to(#584c32));
 }
+
 .TokenName_Monster .TokenBackground,
 .TokenName_Monster .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#c7bca5), to(#584c32));
 }
+
 .TokenName_God .TokenBackground,
 .TokenName_God .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#d7aa5b), to(#78461d));
 }
+
 .TokenName_Aquatic .TokenBackground,
 .TokenName_Aquatic .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#62c4b2), to(#2272a4));
 }
+
 .TokenName_Elemental .TokenBackground,
 .TokenName_Elemental .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#62c4b2), to(#2272a4));
 }
+
 .TokenName_Sword .TokenBackground,
 .TokenName_Sword .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#b6c8e0), to(#353d52));
 }
+
 .TokenName_Unarmed .TokenBackground,
 .TokenName_Unarmed .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#ff9c78), to(#883219));
 }
+
 .TokenName_Blade .TokenBackground,
 .TokenName_Blade .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#b6c8e0), to(#353d52));
 }
+
 .TokenName_Axe .TokenBackground,
 .TokenName_Axe .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#b56666), to(#871d1d));
 }
+
 .TokenName_Polearm .TokenBackground,
 .TokenName_Polearm .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#a2b48c), to(#3c613b));
 }
+
 .TokenName_Club .TokenBackground,
 .TokenName_Club .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#81acb0), to(#2e4244));
 }
+
 .TokenName_Wand .TokenBackground,
 .TokenName_Wand .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#a375e7), to(#17275d));
 }
+
 .TokenName_Ammunition .TokenBackground,
 .TokenName_Ammunition .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#a29869), to(#302d26));
 }
+
 .TokenName_DruudScrap .TokenBackground,
 .TokenName_DruudScrap .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#aaaaaa), to(#666666));
 }
+
 .TokenName_Sandfish .TokenBackground,
 .TokenName_Sandfish .TokenBackgroundExtrude {
     background-color: gradient(linear, 10% 10%, 55% 90%, from(#b0af81), to(#44412e));
@@ -391,13 +493,12 @@ DOTACrownfallToken {
     width: 64px;
     height: width-percentage(100%);
     overflow: noclip;
-
     tooltip-position: top;
     tooltip-body-position: 50% 20px;
-
     transition-property: transform, brightness;
     transition-duration: 0.1s;
 }
+
 DOTACrownfallToken.Token2 {
     z-index: 1;
 }
@@ -422,7 +523,6 @@ DOTACrownfallToken .TokenBackgroundExtrude {
     vertical-align: center;
     opacity-mask: url("s2r://panorama/images/events/crownfall/tokens/token_mask_png.vtex");
     background-color: gradient(linear, 0% 0%, 0% 100%, from(rgb(9, 14, 24)), to(rgb(19, 26, 39)));
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
@@ -447,7 +547,6 @@ DOTACrownfallToken .TokenOutline {
     horizontal-align: center;
     vertical-align: center;
     margin-top: 1px;
-
     visibility: collapse;
 }
 
@@ -456,7 +555,6 @@ DOTACrownfallToken .TokenOuterBorder {
     height: width-percentage(100%);
     horizontal-align: center;
     vertical-align: center;
-
     visibility: collapse;
 }
 
@@ -467,10 +565,10 @@ DOTACrownfallToken .TokenBackgroundBorder {
     vertical-align: center;
     opacity-mask: url("s2r://panorama/images/events/crownfall/tokens/token_mask_png.vtex");
     opacity: 0.3;
-
     transition-property: opacity;
     transition-duration: 0.1s;
 }
+
 DOTACrownfallToken .TokenBackgroundBorder.Large {
     visibility: collapse;
 }
@@ -480,7 +578,6 @@ DOTACrownfallToken .TokenGradientOverlay {
     height: width-percentage(100%);
     horizontal-align: center;
     vertical-align: center;
-
     visibility: collapse;
 }
 
@@ -491,7 +588,6 @@ DOTACrownfallToken .TokenIconImage {
     horizontal-align: center;
     vertical-align: center;
     img-shadow: 0px 1px 8px rgba(0, 0, 0, 0.8);
-
     transition-property: wash-color, transform, opacity, brightness;
     transition-duration: 0.1s;
 }
@@ -512,34 +608,31 @@ DOTACrownfallToken .TokenComplete {
     );
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.9);
     transform: translateX(14px) translateY(6px);
-
     visibility: collapse;
 }
+
 DOTACrownfallToken .TokenComplete .CheckIcon {
     width: 12px;
-    height: width-percentage (100%);
+    height: width-percentage(100%);
     img-shadow: 0px 1px 4px black;
 }
+
 DOTACrownfallToken .SelectedGlow {
     width: 64px;
-    height: width-percentage (100%);
+    height: width-percentage(100%);
     horizontal-align: center;
     vertical-align: center;
-    background-color: gradient
-        (
-            radial,
-            50% 50%,
-
-            0% 0%,
-
-            50% 50%,
-
-            from (rgb (255, 255, 255)),
-            color-stop (0.5, rgba (165, 205, 255, 0.692)),
-            color-stop (0.8, rgba (0, 85, 255, 0.477)),
-            to (rgba (8, 0, 255, 0))
-        );
-    blur: gaussian (6px);
+    background-color: gradient(
+        radial,
+        50% 50%,
+        0% 0%,
+        50% 50%,
+        from(rgb(255, 255, 255)),
+        color-stop(0.5, rgba(165, 205, 255, 0.692)),
+        color-stop(0.8, rgba(0, 85, 255, 0.477)),
+        to(rgba(8, 0, 255, 0))
+    );
+    blur: gaussian(6px);
     opacity: 0.4;
     saturation: 0.9;
     visibility: collapse;
@@ -548,6 +641,7 @@ DOTACrownfallToken .SelectedGlow {
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
+
 DOTACrownfallToken .InventoryCount {
     visibility: collapse;
     horizontal-align: center;
@@ -558,38 +652,21 @@ DOTACrownfallToken .InventoryCount {
     text-overflow: shrink;
     margin-right: 3px;
     margin-top: 0px;
-    transform: translateX (16px) translateY (-10px);
-    text-shadow: 0px 1px 6px 2 rgba (0, 0, 0, 1);
-    color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (white),
-            to (LightGrey)
-        );
+    transform: translateX(16px) translateY(-10px);
+    text-shadow: 0px 1px 6px 2 rgba(0, 0, 0, 1);
+    color: gradient(linear, 0% 0%, 0% 100%, from(white), to(LightGrey));
     font-size: 13px;
     font-weight: semi-bold;
     border-radius: 24px;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (DarkGrey),
-            to (DarkestGrey)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(DarkGrey), to(DarkestGrey));
     text-align: center;
-    box-shadow: 0px 1px 2px rgba (0, 0, 0, 0.4);
-    border: 1px solid rgb (0, 0, 0);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(0, 0, 0);
 }
+
 DOTACrownfallToken .TokenShimmer {
     width: 36px;
-    height: width-percentage (100%);
+    height: width-percentage(100%);
     horizontal-align: center;
     vertical-align: center;
     opacity-mask: url("s2r://panorama/images/events/crownfall/tokens/token_mask_png.vtex");
@@ -597,82 +674,81 @@ DOTACrownfallToken .TokenShimmer {
     opacity: 0.2;
     visibility: collapse;
 }
+
 DOTACrownfallToken .TokenShimmer .TokenShimmerShape {
     width: 100px;
     height: 20px;
     horizontal-align: center;
-    background-color: gradient
-        (
-            linear,
-            100% 100%,
-
-            50% 100%,
-
-            from (white),
-            to (rgba (255, 255, 255, 0))
-        );
-    transform: rotateZ (-30deg) translateX (-5px) translateY (-1px);
+    background-color: gradient(linear, 100% 100%, 50% 100%, from(white), to(rgba(255, 255, 255, 0)));
+    transform: rotateZ(-30deg) translateX(-5px) translateY(-1px);
 }
+
 DOTACrownfallToken.LargeToken .TokenShimmer {
     visibility: visible;
 }
+
 DOTACrownfallToken.LargeToken .TokenIconImage {
     width: 16px;
-    img-shadow: 0px 0.5px 4px rgba (0, 0, 0, 0.2);
+    img-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.2);
 }
+
 DOTACrownfallToken.LargeToken .TokenBackgroundBorder {
     visibility: collapse;
     opacity: 0.5;
 }
+
 DOTACrownfallToken.LargeToken .TokenBackgroundBorder.Large {
     visibility: visible;
 }
+
 DOTACrownfallToken.LargeToken .InventoryCount {
     ui-scale: 70%;
 }
+
 DOTACrownfallToken.LargeToken .TokenShadow {
     opacity: 1;
 }
+
 DOTACrownfallToken.Empty .TokenShimmer {
     visibility: collapse;
 }
+
 DOTACrownfallToken.TokenUnowned .TokenShimmer {
     visibility: collapse;
 }
+
 DOTACrownfallToken.TokenUnowned .TokenIconImage {
     wash-color: LightGrey;
 }
+
 DOTACrownfallToken.TokenUnowned .TokenBackground,
 DOTACrownfallToken.TokenUnowned .TokenBackgroundExtrude {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (rgb (9, 14, 24)),
-            to (rgb (19, 26, 39))
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(rgb(9, 14, 24)), to(rgb(19, 26, 39)));
 }
+
 DOTACrownfallToken.TokenUnowned .TokenBackgroundBorder {
     opacity: 0.1;
 }
+
 DOTACrownfallToken.TokenUnowned .TokenBackground {
     opacity: 1;
 }
+
 DOTACrownfallToken.TokenUnowned .TokenGradientOverlay {
     visibility: collapse;
 }
+
 DOTACrownfallToken.TokenUnowned .TokenOuterBorder {
     visibility: collapse;
     wash-color: grey;
     opacity: 0.9;
 }
+
 DOTACrownfallToken:hover .TokenBackground,
 DOTACrownfallToken.SameTypeTokenHovered .TokenBackground {
     brightness: 2;
 }
+
 .Unowned DOTACrownfallToken:hover .TokenIconImage,
 .Path DOTACrownfallToken:hover:not(.TokenOwned) .TokenIconImage,
 .Unowned DOTACrownfallToken.SameTypeTokenHovered .TokenIconImage,
@@ -680,80 +756,101 @@ DOTACrownfallToken.SameTypeTokenHovered .TokenBackground {
     brightness: 2;
     opacity: 1;
 }
+
 .Unowned DOTACrownfallToken:hover .TokenBackground,
 .Path DOTACrownfallToken:hover:not(.TokenOwned) .TokenBackground,
 .Unowned DOTACrownfallToken.SameTypeTokenHovered .TokenBackground,
 .Path DOTACrownfallToken.SameTypeTokenHovered:not(.TokenOwned) .TokenBackground {
     brightness: 1;
 }
+
 .Unowned DOTACrownfallToken:hover .TokenBackgroundBorder,
 .Path DOTACrownfallToken:hover:not(.TokenOwned) .TokenBackgroundBorder,
 .Unowned DOTACrownfallToken.SameTypeTokenHovered .TokenBackgroundBorder,
 .Path DOTACrownfallToken.SameTypeTokenHovered:not(.TokenOwned) .TokenBackgroundBorder {
     opacity: 0.4;
 }
+
 .Unowned DOTACrownfallToken:hover .TokenOuterBorder,
 .Path DOTACrownfallToken:hover:not(.TokenOwned) .TokenOuterBorder,
 .Unowned DOTACrownfallToken.SameTypeTokenHovered .TokenOuterBorder,
 .Path DOTACrownfallToken.SameTypeTokenHovered:not(.TokenOwned) .TokenOuterBorder {
     visibility: collapse;
 }
+
 DOTACrownfallToken.ShowCount .InventoryCount {
     visibility: visible;
 }
+
 .HideExtrude .TokenBackgroundExtrude {
     visibility: collapse;
 }
+
 .TokenTrade DOTACrownfallToken:hover {
-    transform: scale3d (1.08, 1.08, 1);
+    transform: scale3d(1.08, 1.08, 1);
 }
+
 .TokenTrade DOTACrownfallToken:hover .TokenBackground {
     brightness: 2;
 }
+
 .TokenTrade DOTACrownfallToken:hover .TokenBackgroundBorder {
     opacity: 0.8;
 }
+
 #OverworldTokensContainer .Selected .SelectedGlow {
     visibility: visible;
     brightness: 0.2;
 }
+
 #OverworldTokensContainer .Selected .TokenIconImage {
     brightness: 4;
     opacity: 1;
 }
+
 .InventoryItem.Selected .SelectedGlow {
     visibility: visible;
 }
+
 .InventoryItem.Selected .TokenIconImage {
     brightness: 4;
     opacity: 1;
 }
+
 .InventoryItem .TokenUnowned .TokenIconImage {
     opacity: 0.7;
 }
+
 .InventoryItem .TokenOwned .OwnedParticlesContainer {
     visibility: visible;
 }
+
 .TokenTreasure .TokenIconImage {
     opacity: 1;
     wash-color: white;
 }
+
 .ShowingIntro .TokenOwned .SelectedGlow {
     visibility: visible;
 }
+
 .Path .TokenBackgroundExtrude {
     visibility: collapse;
 }
+
 .Path .TokenShadow {
     opacity: 0.3;
 }
+
 .Path .TokenOuterBorder {
     visibility: visible;
     wash-color: gold1;
 }
+
 .Path .TokenOwned .TokenComplete {
     visibility: visible;
 }
+
 .Path .TokenOwned .TokenBackground {
     opacity: 1;
     animation-name: GlowActiveTokenImage;
@@ -761,50 +858,62 @@ DOTACrownfallToken.ShowCount .InventoryCount {
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
+
 .Path .TokenOwned .TokenIconImage {
     animation-name: GlowActiveTokenImage;
     animation-duration: 0.8s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
+
 .Path .TokenOwned .OwnedParticlesContainer {
     visibility: visible;
 }
+
 .Path .TokenOwned .TokenBackgroundBorder {
     opacity: 0.5;
 }
+
 @keyframes 'GlowActiveTokenBackground' {
     0% {
         brightness: 1;
     }
+
     100% {
         brightness: 12;
     }
 }
+
 @keyframes 'GlowActiveTokenImage' {
     0% {
         brightness: 1;
     }
+
     100% {
         brightness: 1.5;
     }
 }
+
 @keyframes 'GlowSelectedGlow' {
     0% {
         opacity: 0.4;
     }
+
     100% {
         opacity: 1;
     }
 }
+
 .InventoryItem.GrantsProgress .TokenIconImage {
     brightness: 1.1;
     wash-color: gold2;
 }
+
 DOTAUIOverworldInventoryPicker .GrantsProgress .TokenOutline {
     wash-color: gold2;
     visibility: visible;
 }
+
 DOTAUIOverworldInventoryPicker .GrantsProgress .TokenIconImage {
     brightness: 1.1;
 }

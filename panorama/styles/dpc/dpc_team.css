@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .TeamPage {
     margin-top: 110px;
     width: 100%;
@@ -30,6 +32,7 @@
     height: 472px;
     margin-top: 206px;
 }
+
 #PlayerImage {
     height: 120px;
     width: 120px;
@@ -43,7 +46,6 @@
 #PlayerPortrait {
     height: 128px;
     width: 128px;
-
     background-color: gradient(linear, 0% 0%, 90% 100%, from(#2a2d36), to(#0f1113));
     margin-top: 20px;
 }
@@ -155,6 +157,7 @@
     width: fit-children;
     flow-children: right;
 }
+
 .Achievements {
     font-size: 14px;
     margin-left: 264px;
@@ -292,6 +295,7 @@
     horizontal-align: center;
     text-transform: uppercase;
 }
+
 .TierDetail {
     font-size: 14px;
     horizontal-align: center;
@@ -322,6 +326,7 @@
     width: 24px;
     height: 24px;
 }
+
 .IsFollowingTeam .FollowStarIcon {
     background-image: url("s2r://panorama/images/dpc/favorite_star_psd.vtex");
 }
@@ -479,6 +484,7 @@
     margin-top: 20px;
     margin-left: 56px;
 }
+
 .TopHeroesTitleLabel {
     color: bluegreyTextDim;
     text-transform: uppercase;
@@ -712,7 +718,6 @@
 
 .RecordList {
     flow-children: right-wrap;
-
     margin-left: -2px;
 }
 
@@ -785,7 +790,6 @@
     width: 440px;
     height: 168px;
     flow-children: none;
-
     transition-property: brightness;
     transition-duration: 0.2s;
     visibility: collapse;
@@ -823,7 +827,6 @@
     opacity: 0.04;
     overflow: noclip;
     margin-top: -44px;
-
     transition-property: opacity, pre-transform-scale2d;
     transition-duration: 0.2s;
 }
@@ -908,12 +911,15 @@
     font-family: titleFont;
     visibility: collapse;
 }
+
 .SupportPanelBronze {
     color: #b3897c;
 }
+
 .SupportPanelSilver {
     color: #ebe2df;
 }
+
 .SupportPanelGold {
     color: #d8d2a8;
 }
@@ -944,7 +950,6 @@
     font-family: titleFont;
     font-weight: semi-bold;
     letter-spacing: 2px;
-
     padding: 4px 8px 4px 20px;
     border-radius: 3px;
 }
@@ -988,7 +993,6 @@
     font-family: titleFont;
     font-weight: semi-bold;
     letter-spacing: 2px;
-
     padding: 4px 8px 4px 20px;
     border-radius: 3px;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @keyframes 'popup_appear' {
     0% {
         opacity: 0;
@@ -23,12 +25,12 @@ DOTAPopupMiniShowcaseEdit.PopupPanel {
     box-shadow: none;
     transition-property: background-color;
     transition-duration: 0s;
-
     animation-name: popup_appear;
     animation-duration: 0.3s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
 }
+
 DOTAPopupMiniShowcaseEdit.PopupPanel DOTAShowcaseContents {
     background-image: url("s2r://panorama/images/textures/miniprofile_rock_psd.vtex");
     background-repeat: no-repeat;
@@ -56,12 +58,12 @@ DOTAPopupMiniShowcaseEdit.PopupPanel DOTAShowcaseContents {
     border: 1px solid LighterGrey&08;
     width: 320px;
     position: 420px 160px 0px;
-
     animation-name: show_main_edit_controls;
     animation-duration: 0.2s;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
 }
+
 .SaveInProgress #MainEditControls {
     visibility: collapse;
 }
@@ -122,6 +124,7 @@ DOTAPopupMiniShowcaseEdit.PopupPanel DOTAShowcaseContents {
     context-menu-body-position: 0% 0%;
     margin: 0px 1px 1px 1px;
 }
+
 .SaveInProgress #ItemEditControls {
     visibility: collapse;
 }
@@ -137,6 +140,7 @@ DOTAPopupMiniShowcaseEdit.PopupPanel DOTAShowcaseContents {
     tooltip-position: bottom;
     box-shadow: none;
 }
+
 #ItemEditControls Button:hover,
 #ItemEditControls TextButton:hover {
     z-index: 1;
@@ -147,9 +151,9 @@ DOTAPopupMiniShowcaseEdit.PopupPanel DOTAShowcaseContents {
     flow-children: right;
     tooltip-position: top;
     padding: 2px 8px;
-
     width: fill-parent-flow(1);
 }
+
 #ItemEditControls .SliderContainer Slider {
     vertical-align: center;
     margin: 0px;
@@ -167,12 +171,15 @@ DOTAPopupMiniShowcaseEdit.PopupPanel DOTAShowcaseContents {
 #ItemEditControls #SendToBackButton {
     border-radius: 3px 0px 0px 3px;
 }
+
 #ItemEditControls #MoveBackwardButton {
     border-radius: 0px;
 }
+
 #ItemEditControls #MoveForwardButton {
     border-radius: 0px;
 }
+
 #ItemEditControls #SendToFrontButton {
     border-radius: 0px 3px 3px 0px;
 }
@@ -195,15 +202,16 @@ DOTAPopupMiniShowcaseEdit.PopupPanel DOTAShowcaseContents {
 #ItemEditControls #FlipHorizontallyButton {
     visibility: collapse;
 }
+
 .AllowFlipHorizontally #ItemEditControls #FlipHorizontallyButton {
     visibility: visible;
 }
 
 #ItemEditControls #CustomizeAppearanceButton {
     visibility: collapse;
-
     width: 100%;
 }
+
 .AllowCustomizeAppearance #ItemEditControls #CustomizeAppearanceButton {
     visibility: visible;
 }
@@ -229,17 +237,16 @@ DOTAPopupMiniShowcaseEdit.PopupPanel DOTAShowcaseContents {
     context-menu-position: bottom;
     context-menu-body-position: 0% 0%;
     width: 100%;
-
     padding: 5px;
     padding: 4px 16px 6px 12px;
     border-radius: 3px;
     background-color: DarkerGrey&00;
     box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0);
-
     opacity: 0.5;
     transition-property: opacity, background-color, box-shadow;
     transition-duration: 0.1s;
 }
+
 #LayerButton:hover {
     opacity: 1;
     background-color: DarkerGrey&44;
@@ -264,15 +271,12 @@ DOTAPopupMiniShowcaseEdit.PopupPanel DOTAShowcaseContents {
     width: 12px;
     height: 12px;
     margin-bottom: -2px;
-
     margin-right: 8px;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_solid_right_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     transition-property: transform;
     transition-duration: 0.1s;
 }
@@ -284,6 +288,7 @@ DOTAPopupMiniShowcaseEdit.PopupPanel DOTAShowcaseContents {
 .ShowIfItemSelected {
     visibility: collapse;
 }
+
 .IsItemSelected .ShowIfItemSelected {
     visibility: visible;
 }
@@ -291,6 +296,7 @@ DOTAPopupMiniShowcaseEdit.PopupPanel DOTAShowcaseContents {
 .ShowIfNothingSelected {
     visibility: collapse;
 }
+
 .IsNothingSelected .ShowIfNothingSelected {
     visibility: visible;
 }
@@ -300,9 +306,9 @@ DOTAPopupMiniShowcaseEdit.PopupPanel DOTAShowcaseContents {
     horizontal-align: center;
     vertical-align: center;
     margin: 10px;
-
     visibility: collapse;
 }
+
 .SaveInProgress .SaveInProgressIndicator {
     visibility: visible;
 }

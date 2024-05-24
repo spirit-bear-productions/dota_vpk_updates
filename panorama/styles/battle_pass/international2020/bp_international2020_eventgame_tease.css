@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CompendiumBody {
     background-color: secondaryGradient;
     background-image: url("s2r://panorama/images/compendium/international2020/compendium/special_summer_event_bg_psd.vtex");
@@ -56,7 +58,6 @@
     height: fit-children;
     width: fit-children;
     flow-children: down;
-
     margin-top: 32px;
 }
 
@@ -72,7 +73,6 @@
     color: #c79123;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     text-shadow: 0 1px 3px #000;
 }
 
@@ -83,7 +83,6 @@
     text-transform: uppercase;
     letter-spacing: 6px;
     margin-top: -2px;
-
     text-shadow: 0px 0px 3px #c79123;
 }
 
@@ -96,7 +95,6 @@
     width: 720px;
     horizontal-align: center;
     vertical-align: bottom;
-
     text-shadow: 0 2px 3px #000;
 }
 
@@ -150,7 +148,6 @@
     vertical-align: bottom;
     margin: 5px;
     horizontal-align: center;
-
     text-shadow: 0 1px 3px #000;
 }
 
@@ -261,14 +258,12 @@
 #PlayGame {
     horizontal-align: center;
     background-color: black;
-
     background-size: auto 100%;
     width: 100%;
     height: 130px;
     vertical-align: bottom;
     margin-top: 100px;
     box-shadow: 0px 0px 70px #00000050;
-
     visibility: collapse;
 }
 
@@ -283,11 +278,9 @@
     horizontal-align: left;
     vertical-align: middle;
     text-align: left;
-
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     color: #6f8484;
 }
 
@@ -295,14 +288,11 @@
     font-weight: bold;
     font-size: 19px;
     line-height: 132%;
-
     text-align: right;
     letter-spacing: 2px;
     text-transform: uppercase;
     vertical-align: middle;
-
     color: #dfe9f2;
-
     text-shadow: 0px 0px 3px #419ff2aa;
 }
 
@@ -320,13 +310,10 @@
 .SecondaryValueText {
     font-size: 15px;
     line-height: 132%;
-
     text-align: right;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     color: #fee2e9;
-
     text-shadow: 0px 0px 4px #b94461;
 }
 
@@ -336,6 +323,5 @@
     letter-spacing: 2px;
     line-height: 16px;
     margin-top: -2px;
-
     color: #41a0f2aa;
 }

@@ -1,9 +1,12 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACrownfallPurchaseButton {
     flow-children: right;
     height: 42px;
     width: 400px;
     overflow: noclip;
 }
+
 DOTACrownfallPurchaseButton .PriceInfo {
     height: 100%;
     background-color: gradient(
@@ -21,12 +24,10 @@ DOTACrownfallPurchaseButton .PriceInfo {
     border: 1px solid rgba(191, 226, 255, 0.08);
     border-right: 0px;
     margin-right: -2px;
-
     transition-property: background-color;
     transition-duration: 1s;
     transition-delay: 1s;
     transition-timing-function: ease-in-out;
-
     animation-duration: 1.2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -36,6 +37,7 @@ DOTACrownfallPurchaseButton .PurchaseButton.Large {
     height: 100%;
     width: 200px;
 }
+
 DOTACrownfallPurchaseButton .PurchaseButton.Large:disabled,
 DOTACrownfallPurchaseButton .PurchaseButton.Large:parentdisabled {
     saturation: 0.2;
@@ -47,6 +49,7 @@ DOTACrownfallPurchaseButton .PurchaseButton.Large:parentdisabled {
     width: 100%;
     vertical-align: middle;
 }
+
 #DiscountPriceLabelsContainer .DefaultPrice,
 .DefaultPriceContainer .DefaultPrice {
     horizontal-align: center;
@@ -65,7 +68,6 @@ DOTACrownfallPurchaseButton .PurchaseButton.Large:parentdisabled {
     letter-spacing: 2px;
     font-size: 24px;
     text-shadow: 0px 2px 10px black;
-
     transition-property: color;
     transition-timing-function: cubic-bezier(0.02, 0.97, 0.54, 0.99);
     transition-duration: 2s;
@@ -75,9 +77,9 @@ DOTACrownfallPurchaseButton .PurchaseButton.Large:parentdisabled {
     width: 100%;
     vertical-align: middle;
     flow-children: right;
-
     visibility: collapse;
 }
+
 .DiscountPriceContainer .DefaultPrice {
     width: fill-parent-flow(1);
     text-align: center;
@@ -93,14 +95,13 @@ DOTACrownfallPurchaseButton .PurchaseButton.Large:parentdisabled {
 .DiscountPriceContainer .DiscountInfo {
     width: fill-parent-flow(1);
     flow-children: down;
-
     transform: translateY(5.5px);
-
     transition-property: transform;
     transition-delay: 1.2s;
     transition-timing-function: ease-in-out;
     transition-duration: 0.8s;
 }
+
 .DiscountPriceContainer .DiscountInfo .DiscountPrice {
     horizontal-align: center;
     text-align: center;
@@ -110,7 +111,6 @@ DOTACrownfallPurchaseButton .PurchaseButton.Large:parentdisabled {
     font-size: 24px;
     opacity: 0;
     letter-spacing: 2px;
-
     transition-property: color, text-shadow;
     transition-delay: 1s;
     transition-timing-function: cubic-bezier(0.02, 0.97, 0.54, 0.99);
@@ -163,7 +163,6 @@ DOTACrownfallPurchaseButton.ShowDiscountPrice #PriceInfoID.CutPriceTransition {
         color-stop(0.5, rgb(194, 146, 84)),
         to(rgb(180, 127, 59))
     );
-
     transition-delay: 0s;
     border: 0px;
     border-radius: 3px 0px 0px 3px;
@@ -172,6 +171,7 @@ DOTACrownfallPurchaseButton.ShowDiscountPrice #PriceInfoID.CutPriceTransition {
 DOTACrownfallPurchaseButton.ShowDiscountPrice .DefaultPriceContainer {
     visibility: collapse;
 }
+
 DOTACrownfallPurchaseButton.ShowDiscountPrice .DiscountPriceContainer {
     visibility: visible;
 }
@@ -180,9 +180,11 @@ DOTACrownfallPurchaseButton.ShowDiscountPrice .DiscountPriceContainer {
     0% {
         box-shadow: 0 0 1px 2px rgba(255, 163, 42, 0.1);
     }
+
     50% {
         box-shadow: 0 0 6px 6px rgba(255, 163, 42, 0.3);
     }
+
     100% {
         box-shadow: 0 0 1px 2px rgba(255, 163, 42, 0.1);
     }
@@ -203,125 +205,119 @@ DOTACrownfallPurchaseButton.ShowDiscountPrice .DiscountPriceContainer {
     transition-delay: 0s, 0.3s;
     width: fill-parent-flow(1);
     vertical-align: middle;
-
     z-index: 2;
 }
+
 #DefaultPriceCutContainer Label {
     font-size: 24px;
 }
+
 #DefaultPriceCutContainer .LabelContainer {
     transition-property: transform;
-    transition-timing-function: cubic-bezier (0.02, 0.97, 0.54, 0.99);
+    transition-timing-function: cubic-bezier(0.02, 0.97, 0.54, 0.99);
     transition-duration: 0.7s;
 }
+
 #DefaultPriceCutContainer Label {
     opacity: 0;
     transition-property: color;
-    transition-timing-function: cubic-bezier (0.02, 0.97, 0.54, 0.99);
+    transition-timing-function: cubic-bezier(0.02, 0.97, 0.54, 0.99);
     transition-duration: 1s;
     letter-spacing: 2px;
-    color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (gold1),
-            to (gold2)
-        );
+    color: gradient(linear, 0% 0%, 0% 100%, from(gold1), to(gold2));
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 24px;
     text-shadow: 2px 2px 4px black;
 }
+
 #DefaultPriceCutContainer .PriceTop {
     height: 17px;
-    transform: rotateZ (-0deg) translateY (0px);
+    transform: rotateZ(-0deg) translateY(0px);
     transform: none;
 }
+
 #DefaultPriceCutContainer .PriceTop Label {
-    transform: translateY (-1px);
+    transform: translateY(-1px);
 }
+
 #DefaultPriceCutContainer .PriceBottom {
     height: 17px;
     margin-top: 14px;
-    transform: rotateZ (0deg) translateY (0px);
+    transform: rotateZ(0deg) translateY(0px);
     transform: none;
     overflow: clip;
 }
+
 #DefaultPriceCutContainer .PriceBottom Label {
-    transform: translateY (-10px);
+    transform: translateY(-10px);
 }
+
 #DefaultPriceCutContainer.CutPriceTransition {
     opacity: 0;
 }
+
 #DefaultPriceCutContainer.CutPriceTransition .PriceTop {
-    transform: rotateZ (-7deg) translateY (-0px) translateX (-8px);
+    transform: rotateZ(-7deg) translateY(-0px) translateX(-8px);
     transition-duration: 0s;
 }
+
 #DefaultPriceCutContainer.CutPriceTransition .PriceTop Label {
     text-decoration: line-through;
 }
+
 #DefaultPriceCutContainer.CutPriceTransition .PriceBottom {
-    transform: rotateZ (2deg) translateY (12px) translateX (-6px);
+    transform: rotateZ(2deg) translateY(12px) translateX(-6px);
     transition-duration: 0s;
 }
+
 #DefaultPriceCutContainer.CutPriceTransition .PriceBottom Label {
     text-decoration: line-through;
 }
+
 #DefaultPriceCutContainer.CutPriceTransition {
-    transform: translateX (-30px) translateY (5px);
+    transform: translateX(-30px) translateY(5px);
 }
+
 #DefaultPriceCutContainer.CutPriceTransition Label {
     text-shadow: 0 0 0 transparent;
     opacity: 1;
 }
+
 .ShowDiscountPrice .PriceTop {
-    transform: rotateZ (-3deg) translateY (-3px);
+    transform: rotateZ(-3deg) translateY(-3px);
 }
+
 .ShowDiscountPrice .PriceBottom {
-    transform: rotateZ (3deg) translateY (4px);
+    transform: rotateZ(3deg) translateY(4px);
 }
+
 #PurchaseSlashFX {
     width: 600px;
     height: 400px;
     ignore-parent-flow: true;
-    transform: translateY (-180px) translateX (-100px);
+    transform: translateY(-180px) translateX(-100px);
     visibility: collapse;
-    opacity-brush:
-        gradient
-            (
-                linear,
-                0% 0%,
-
-                100% 0%,
-
-                from (#0000),
-                color-stop (0.1, #fff),
-                color-stop (0.8, #fff),
-                to (#0000)
-            ),
-        gradient
-            (
-                linear,
-                0% 0%,
-
-                0% 100%,
-
-                from (#0000),
-                color-stop (0.1, #fff),
-                color-stop (0.8, #fff),
-                to (#0000)
-            );
+    opacity-brush: gradient(
+            linear,
+            0% 0%,
+            100% 0%,
+            from(#0000),
+            color-stop(0.1, #fff),
+            color-stop(0.8, #fff),
+            to(#0000)
+        ),
+        gradient(linear, 0% 0%, 0% 100%, from(#0000), color-stop(0.1, #fff), color-stop(0.8, #fff), to(#0000));
     opacity: 1;
     transition-property: opacity;
     transition-timing-function: ease-in-out;
     transition-duration: 2s;
 }
+
 .HasDiscountPrice.DiscountModeActive #PurchaseSlashFX {
     visibility: visible;
 }
+
 #PurchaseSlashFX.CutPriceTransition {
     opacity: 0;
 }

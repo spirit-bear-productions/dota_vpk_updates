@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAWraithKingHeroMap {
     padding: 8px;
 }
@@ -29,7 +31,6 @@ DOTAWraithKingHeroMap HorizontalScrollBar {
     height: width-percentage(140%);
     vertical-align: middle;
     horizontal-align: middle;
-
     opacity: 0.99;
 }
 
@@ -71,10 +72,10 @@ DOTAWraithKingHeroMap HorizontalScrollBar {
 .Layer #Particles {
     width: 150%;
     height: 150%;
-
     margin-left: -25%;
     margin-top: -25%;
 }
+
 .Layer #Particles DOTAParticleScenePanel {
     opacity: 2;
     width: 100%;
@@ -108,15 +109,19 @@ DOTAWraithKingHeroMap HorizontalScrollBar {
 #npc_dota_hero_wisp_bg.Highlight {
     margin: -20px 0px 0px -40px;
 }
+
 #npc_dota_hero_troll_warlord_bg.Highlight {
     margin: -18px 0px 0px 30px;
 }
+
 #npc_dota_hero_terrorblade_bg.Highlight {
     margin: -18px 0px 0px 20px;
 }
+
 #npc_dota_hero_zuus_bg.Highlight {
     margin: 90px 0px 0px -12px;
 }
+
 #npc_dota_hero_legion_commander_bg.Highlight {
     margin: 0px 0px 0px 42px;
 }

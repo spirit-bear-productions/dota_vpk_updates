@@ -1,10 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .MapBackground {
     width: 100%;
     height: 100%;
     horizontal-align: center;
     vertical-align: top;
     texture-sampling: point;
-
     background-image: url("s2r://panorama/images/events/crownfall/overworld/midgate/midgate_base_map_psd.vtex");
     background-size: 100% 100%;
 }
@@ -59,6 +60,7 @@
     x: 1840px;
     y: 602px;
 }
+
 .ChapterInfoContainer.JuggSidequest .ChapterNumberIcon {
     width: 18px;
     opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/sidequest_jugg_png.vtex");
@@ -71,6 +73,7 @@
     x: 2595px;
     y: 852px;
 }
+
 .ChapterInfoContainer.RikiSidequest .ChapterNumberIcon {
     width: 20px;
     opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/sidequest_riki_png.vtex");
@@ -92,6 +95,7 @@
     x: 622px;
     y: 856px;
 }
+
 .MeepoQuestStarted #PremiumRope {
     visibility: collapse;
 }
@@ -100,6 +104,7 @@
     x: 2480px;
     y: 1150px;
 }
+
 .RikiQuestStarted #PremiumRope2 {
     visibility: collapse;
 }
@@ -180,13 +185,13 @@
     transition-duration: 1s;
     transition-delay: 0.5s;
     opacity: 0;
-
     x: 2730px;
     y: 1840px;
     brightness: 0.2;
     saturation: 0.8;
     texture-sampling: point;
 }
+
 .FinishedChapter4 #TemplePudge {
     visibility: visible;
     opacity: 1;
@@ -204,10 +209,12 @@
     x: 568px;
     y: 680px;
 }
+
 #ClickDonkey AnimatedImageStrip {
     width: 84px;
     height: 90px;
 }
+
 #ClickDonkey.PlaySound {
     sound: "crownfall.map.click.donkey";
 }
@@ -216,10 +223,12 @@
     x: 1102px;
     y: 660px;
 }
+
 #ClickTango AnimatedImageStrip {
     width: 32px;
     height: 26px;
 }
+
 #ClickTango.PlaySound {
     sound: "crownfall.map.click.tango";
 }
@@ -228,10 +237,12 @@
     x: 1130px;
     y: 667px;
 }
+
 #ClickTango2 AnimatedImageStrip {
     width: 32px;
     height: 26px;
 }
+
 #ClickTango2.PlaySound {
     sound: "crownfall.map.click.tango";
 }
@@ -240,10 +251,12 @@
     x: 1694px;
     y: 856px;
 }
+
 #ClickMango AnimatedImageStrip {
     width: 32px;
     height: 32px;
 }
+
 #ClickMango.PlaySound {
     sound: "crownfall.map.click.mango";
 }
@@ -253,10 +266,12 @@
     y: 1417px;
     width: 250px;
 }
+
 #ClickSnakeCharmer AnimatedImageStrip {
     width: 120px;
     height: 120px;
 }
+
 #ClickSnakeCharmer AnimatedImageStrip.Notes {
     transform: translateX(124px) translateY(-4px);
     width: 120px;
@@ -271,10 +286,12 @@
     x: 1288px;
     y: 1408px;
 }
+
 #ClickTidehunterFish AnimatedImageStrip {
     width: 88px;
     height: 80px;
 }
+
 #ClickTidehunterFish.PlaySound {
     sound: "crownfall.map.click.fish";
 }
@@ -284,6 +301,7 @@
     y: 1644px;
     visibility: collapse;
 }
+
 .DangerousEyesEncounterUnlocked #ClickSpookyEyes {
     visibility: visible;
 }
@@ -292,6 +310,7 @@
     width: 140px;
     height: 180px;
 }
+
 #ClickSpookyEyes.PlaySound {
     sound: "crownfall.map.click.spookyeyes";
 }
@@ -300,10 +319,12 @@
     x: 816px;
     y: 724px;
 }
+
 #ClickBakeetSign AnimatedImageStrip {
     width: 132px;
     height: 140px;
 }
+
 #ClickBakeetSign.PlaySound {
     sound: "crownfall.map.click.bakeetsign";
 }
@@ -312,10 +333,12 @@
     x: 772px;
     y: 882px;
 }
+
 #ClickBakeetSignChop AnimatedImageStrip {
     width: 172px;
     height: 104px;
 }
+
 #ClickBakeetSignChop.PlaySound {
     sound: "crownfall.map.click.bakeetchop";
 }
@@ -324,10 +347,12 @@
     x: 1114px;
     y: 1002px;
 }
+
 #ClickCuckoo AnimatedImageStrip {
     width: 128px;
     height: 128px;
 }
+
 #ClickCuckoo.PlaySound {
     sound: "crownfall.map.click.cuckoo";
 }
@@ -336,10 +361,12 @@
     x: 1158px;
     y: 1150px;
 }
+
 #ClickFountain AnimatedImageStrip {
     width: 240px;
     height: 220px;
 }
+
 #ClickFountain.PlaySound {
     sound: "crownfall.map.click.fountain";
 }
@@ -348,10 +375,12 @@
     x: 998px;
     y: 1327px;
 }
+
 #ClickBobble AnimatedImageStrip {
     width: 126px;
     height: 132px;
 }
+
 #ClickBobble.PlaySound {
     sound: "crownfall.map.click.bobblewind";
 }
@@ -360,10 +389,12 @@
     x: 3236px;
     y: 1412px;
 }
+
 #ClickSmithCat AnimatedImageStrip {
     width: 90px;
     height: 100px;
 }
+
 #ClickSmithCat.PlaySound {
     sound: "crownfall.map.click.smithcatfire";
 }
@@ -372,10 +403,12 @@
     x: 2924px;
     y: 996px;
 }
+
 #ClickSmithRound AnimatedImageStrip {
     width: 144px;
     height: 188px;
 }
+
 #ClickSmithRound.PlaySound {
     sound: "crownfall.map.click.smithfurnace";
 }
@@ -384,10 +417,12 @@
     x: 2902px;
     y: 1398px;
 }
+
 #ClickSmithBarrel AnimatedImageStrip {
     width: 30px;
     height: 76px;
 }
+
 #ClickSmithBarrel.PlaySound {
     sound: "crownfall.map.click.barrel";
 }
@@ -396,10 +431,12 @@
     x: 1359px;
     y: 310px;
 }
+
 #ClickPopcorn AnimatedImageStrip {
     width: 156px;
     height: 176px;
 }
+
 #ClickPopcorn.PlaySound {
     sound: "crownfall.map.click.popcorn";
 }
@@ -408,10 +445,12 @@
     x: 1579px;
     y: 180px;
 }
+
 #ClickTar AnimatedImageStrip {
     width: 104px;
     height: 116px;
 }
+
 #ClickTar.PlaySound {
     sound: "crownfall.map.click.tarfeathers";
 }
@@ -420,10 +459,12 @@
     x: 1102px;
     y: 154px;
 }
+
 #ClickMeepoPoster AnimatedImageStrip {
     width: 80px;
     height: 80px;
 }
+
 #ClickMeepoPoster.PlaySound {
     sound: "crownfall.map.click.meepoposter";
 }
@@ -432,10 +473,12 @@
     x: 750px;
     y: 268px;
 }
+
 #ClickSmoke AnimatedImageStrip {
     width: 88px;
     height: 146px;
 }
+
 #ClickSmoke.PlaySound {
     sound: "crownfall.map.click.smoke";
 }
@@ -444,10 +487,12 @@
     x: 3036px;
     y: 1478px;
 }
+
 #ClickPoorMansShield AnimatedImageStrip {
     width: 118px;
     height: 84px;
 }
+
 #ClickPoorMansShield.PlaySound {
     sound: "crownfall.map.click.shield";
 }
@@ -457,15 +502,18 @@
     width: 14px;
     height: 26px;
 }
+
 .Candle AnimatedImageStrip {
     margin-left: -18px;
     margin-top: -12px;
     width: 76px;
     height: 28px;
 }
+
 .Candle.PlaySound {
     sound: "crownfall.map.click.candle";
 }
+
 .ShowDestroyedTemple .Candle {
     visibility: collapse;
 }
@@ -474,42 +522,52 @@
     x: 2957px;
     y: 205px;
 }
+
 #ClickCandleFlame2 {
     x: 2947px;
     y: 211px;
 }
+
 #ClickCandleFlame3 {
     x: 2949px;
     y: 183px;
 }
+
 #ClickCandleFlame4 {
     x: 2965px;
     y: 187px;
 }
+
 #ClickCandleFlame5 {
     x: 2977px;
     y: 196px;
 }
+
 #ClickCandleFlame6 {
     x: 3041px;
     y: 195px;
 }
+
 #ClickCandleFlame7 {
     x: 3051px;
     y: 186px;
 }
+
 #ClickCandleFlame8 {
     x: 3055px;
     y: 211px;
 }
+
 #ClickFlags {
     x: 1964px;
     y: 1005px;
 }
+
 #ClickFlags AnimatedImageStrip {
     width: 332px;
     height: 154px;
 }
+
 #ClickFlags.PlaySound {
     sound: "crownfall.map.click.flags";
 }
@@ -518,13 +576,16 @@
     x: 1448px;
     y: 2174px;
 }
+
 #ClickClothesLine AnimatedImageStrip {
     width: 64px;
     height: 48px;
 }
+
 #ClickClothesLine.PlaySound {
     sound: "crownfall.map.click.clothesline";
 }
+
 .ShowMainQuestCave #ClickClothesLine {
     visibility: collapse;
 }
@@ -533,13 +594,16 @@
     x: 2056px;
     y: 1946px;
 }
+
 #ClickNotes AnimatedImageStrip {
     width: 120px;
     height: 52px;
 }
+
 #ClickNotes.PlaySound {
     sound: "crownfall.map.click.notes";
 }
+
 .ShowMainQuestCave #ClickNotes {
     visibility: collapse;
 }
@@ -548,13 +612,16 @@
     x: 2088px;
     y: 1716px;
 }
+
 #ClickDummy AnimatedImageStrip {
     width: 160px;
     height: 156px;
 }
+
 #ClickDummy.PlaySound {
     sound: "crownfall.map.click.dummy";
 }
+
 .ShowMainQuestCave #ClickDummy {
     visibility: collapse;
 }
@@ -563,10 +630,12 @@
     x: 1032px;
     y: 294px;
 }
+
 #ClickNecronomicon AnimatedImageStrip {
     width: 220px;
     height: 248px;
 }
+
 #ClickNecronomicon.PlaySound {
     sound: "crownfall.map.click.necronomicon";
 }
@@ -575,10 +644,12 @@
     x: 520px;
     y: 808px;
 }
+
 #ClickMagicSparkles AnimatedImageStrip {
     width: 108px;
     height: 106px;
 }
+
 #ClickMagicSparkles.PlaySound {
     sound: "crownfall.map.click.magicsparkles";
 }
@@ -587,10 +658,12 @@
     x: 770px;
     y: 398px;
 }
+
 #ClickMagicSparkles2 AnimatedImageStrip {
     width: 108px;
     height: 106px;
 }
+
 #ClickMagicSparkles2.PlaySound {
     sound: "crownfall.map.click.magicsparkles";
 }
@@ -599,13 +672,16 @@
     x: 2720px;
     y: 350px;
 }
+
 #ClickMagicSparkles3 AnimatedImageStrip {
     width: 108px;
     height: 106px;
 }
+
 #ClickMagicSparkles3.PlaySound {
     sound: "crownfall.map.click.magicsparkles";
 }
+
 .ShowDestroyedTemple #ClickMagicSparkles3 {
     visibility: collapse;
 }
@@ -614,13 +690,16 @@
     x: 2720px;
     y: 500px;
 }
+
 #ClickMagicSparkles4 AnimatedImageStrip {
     width: 108px;
     height: 106px;
 }
+
 #ClickMagicSparkles4.PlaySound {
     sound: "crownfall.map.click.magicsparkles";
 }
+
 .ShowDestroyedTemple #ClickMagicSparkles4 {
     visibility: collapse;
 }
@@ -629,10 +708,12 @@
     x: 2750px;
     y: 1164px;
 }
+
 #ClickFurnaceFire AnimatedImageStrip {
     width: 88px;
     height: 100px;
 }
+
 #ClickFurnaceFire.PlaySound {
     sound: "crownfall.map.click.furnace";
 }
@@ -641,10 +722,12 @@
     x: 3100px;
     y: 1362px;
 }
+
 #ClickFurnaceFire2 AnimatedImageStrip {
     width: 88px;
     height: 100px;
 }
+
 #ClickFurnaceFire2.PlaySound {
     sound: "crownfall.map.click.furnace";
 }
@@ -655,6 +738,7 @@
     width: 50px;
     height: 50px;
 }
+
 #ClickDrums.PlaySound {
     sound: "crownfall.map.click.drumhit";
 }
@@ -663,6 +747,7 @@
     x: 1116px;
     y: 1456px;
 }
+
 #ClickTentacle AnimatedImageStrip {
     width: 140px;
     height: 148px;
@@ -679,6 +764,7 @@
     height: 2px;
     overflow: noclip;
 }
+
 #ClickRippleInTheDark AnimatedImageStrip {
     margin-left: -158px;
     margin-top: -246px;
@@ -690,6 +776,7 @@
     0% {
         opacity: 0.3;
     }
+
     100% {
         opacity: 1;
     }
@@ -704,15 +791,19 @@
     transition-delay: 2s;
     transition-duration: 10s;
 }
+
 .FinishedChapter1 #MidgateComet {
     transform: translateX(100px) translateY(10px);
 }
+
 .FinishedChapter2 #MidgateComet {
     transform: translateX(200px) translateY(20px);
 }
+
 .FinishedChapter3 #MidgateComet {
     transform: translateX(300px) translateY(30px);
 }
+
 .FinishedChapter4 #MidgateComet {
     transform: translateX(400px) translateY(40px);
     opacity: 0;
@@ -722,27 +813,35 @@
     0% {
         transform: translateY(0px);
     }
+
     12.5% {
         transform: translateY(10px);
     }
+
     37.5% {
         transform: translateY(-10px);
     }
+
     50% {
         transform: translateY(0px);
     }
+
     50.0001% {
         transform: translateY(0px) scaleX(-1);
     }
+
     62.5% {
         transform: translateY(10px) scaleX(-1);
     }
+
     87.5% {
         transform: translateY(-10px) scaleX(-1);
     }
+
     99.9999% {
         transform: translateY(0px) scaleX(-1);
     }
+
     100% {
         transform: translateY(0px) scaleX(1);
     }
@@ -754,6 +853,7 @@
     transition-property: opacity;
     transition-duration: 1s;
 }
+
 .ShowQueensguard:not(.HideQueensguard) .Queensguard {
     visibility: visible;
     opacity: 1;
@@ -763,7 +863,6 @@
     texture-sampling: point;
     width: 92px;
     height: 70px;
-
     animation-name: QueensguardMovement;
     animation-duration: 10s;
     animation-timing-function: linear;
@@ -862,6 +961,7 @@
     height: 1186px;
     texture-sampling: point;
 }
+
 .ShowMainQuestCave .MainQuestSouthDistrict {
     opacity: 0;
 }
@@ -878,6 +978,7 @@
     height: 628px;
     texture-sampling: point;
 }
+
 .ShowMainQuestMassacre .MainQuestMassacre {
     visibility: visible;
     opacity: 1;
@@ -895,6 +996,7 @@
     height: 860px;
     texture-sampling: point;
 }
+
 .ShowDestroyedTemple .DestroyedTemple {
     visibility: visible;
     opacity: 1;

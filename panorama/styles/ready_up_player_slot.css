@@ -1,15 +1,14 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAReadyUpPlayerSlot {
     margin: 4px;
-
     width: 64px;
     height: 64px;
     visibility: visible;
-
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#222222), to(#666666));
     overflow: noclip;
     wash-color: #888888;
     box-shadow: #000000aa 0px 0px 4px 0px;
-
     transition-property: wash-color, box-shadow, background-color;
     transition-duration: 0.3s;
     transition-delay: 0.2s;
@@ -41,7 +40,6 @@ DOTAAvatarImage {
     background-position: 50% 45%;
     background-repeat: no-repeat;
     wash-color: #888888;
-
     transition-property: wash-color;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -61,15 +59,12 @@ DOTAReadyUpPlayerSlot.Hidden {
 .AcceptedMatch {
     width: 100%;
     height: 100%;
-
     background-image: url("s2r://panorama/images/status_icons/ready_up_accept_psd.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     border: 2px solid #00ffaa66;
     box-shadow: #00ff0066 0px 0px 4px 0px;
-
     opacity: 0;
     pre-transform-scale2d: 0.5;
     transition-property: pre-transform-scale2d, opacity;
@@ -102,7 +97,6 @@ DOTAReadyUpPlayerSlot.Accepted .AcceptedMatch {
     visibility: collapse;
     width: 100%;
     height: 100%;
-
     background-image: url("s2r://panorama/images/status_icons/ready_up_deny_psd.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;

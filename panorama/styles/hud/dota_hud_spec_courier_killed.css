@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTASpecCourierKilledToast {
     height: fit-children;
     width: 280px;
@@ -26,7 +28,6 @@ DOTASpecCourierKilledToast {
     border-left: 1px solid #ffffff08;
     border-top: 1px solid #ffffff07;
     width: 100%;
-
     background-size: cover;
 }
 
@@ -128,7 +129,6 @@ DOTASpecCourierKilledToast {
 .ItemQuantity {
     color: #f4d769;
     text-shadow: 1px 1px 0px 1 #000000;
-
     width: 20px;
     vertical-align: bottom;
     horizontal-align: right;

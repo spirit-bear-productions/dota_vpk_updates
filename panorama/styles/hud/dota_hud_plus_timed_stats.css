@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPlusTimedStats {
     visibility: collapse;
     flow-children: down;
@@ -7,7 +9,6 @@ DOTAPlusTimedStats {
     width: 200px;
     margin-top: 180px;
     min-width: 106px;
-
     background-color: #00000090;
     z-index: 0;
 }
@@ -33,7 +34,6 @@ DOTAPlusTimedStats.PlusStatsValid {
     transition-property: opacity;
     transition-duration: 0.12s;
     transition-timing-function: ease-in-out;
-
     padding-left: 0px;
     width: fit-children;
 }
@@ -143,7 +143,6 @@ DOTAPlusTimedStats.PlusStatsValid {
     background-size: 15px 15px;
     transform: rotateZ(180deg);
     wash-color: red;
-
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }

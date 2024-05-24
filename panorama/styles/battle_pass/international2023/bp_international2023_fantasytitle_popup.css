@@ -1,19 +1,20 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupFantasyCraftTitle {
     width: 1280px;
     height: 800px;
     horizontal-align: center;
     vertical-align: center;
     flow-children: down;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(primaryColor6), to(#000b16));
     border: 2px solid rgba(255, 255, 255, 0.05);
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(primaryColor3), to(primaryColor4));
-
     transition-property: transform, pre-transform-scale2d, opacity, background-color, height, box-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
 }
+
 PopupFantasyCraftTitle.Hidden {
     opacity: 0;
     pre-transform-scale2d: 1.25;
@@ -25,12 +26,12 @@ PopupFantasyCraftTitle.Hidden {
 #ChoiceHolder {
     width: 100%;
     height: fill-parent-flow(1);
-
     overflow: clip scroll;
     padding: 32px;
     background-color: rgba(0, 0, 0, 0.4);
     border: 2px solid primaryColor4&44;
 }
+
 #ChoiceHolder #Choices {
     width: fill-parent-flow(1);
     flow-children: right-wrap;
@@ -50,9 +51,9 @@ PopupFantasyCraftTitle.Hidden {
     text-align: center;
     horizontal-align: center;
 }
+
 .PlayerNameAndTitle Label {
     width: 100%;
-
     text-align: center;
     vertical-align: middle;
     margin-bottom: 12px;
@@ -66,6 +67,7 @@ PopupFantasyCraftTitle.Hidden {
     width: 100%;
     height: 100%;
 }
+
 .PlayerAndImages .RoleAndName {
     flow-children: down;
     width: 100%;
@@ -80,6 +82,7 @@ PopupFantasyCraftTitle.Hidden {
     horizontal-align: center;
     vertical-align: bottom;
 }
+
 .PlayerAndImages .PlayerImages #Headshot {
     width: 100%;
     height: width-percentage(100%);
@@ -115,6 +118,7 @@ PopupFantasyCraftTitle.Hidden {
     width: 100%;
     padding: 16px;
 }
+
 #Options #SubmitButton {
     horizontal-align: center;
     padding-left: 48px;
@@ -137,6 +141,7 @@ PopupFantasyCraftTitle.Hidden {
     width: 100%;
     padding: 24px 32px;
 }
+
 .Header .PlayerChoiceTitle {
     horizontal-align: center;
     text-shadow: textShadowSmall;
@@ -153,10 +158,10 @@ PopupFantasyCraftTitle.Hidden {
     margin-bottom: 6px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(primaryColor5&66), to(primaryColor6&88));
     box-shadow: 0px 4px 12px -2px rgba(0, 0, 0, 0.5);
-
     transition-property: transform, background-color, box-shadow, brightness;
     transition-duration: 0.05s, 0.1s;
 }
+
 .TitleChoice #PlayerTitle {
     margin-bottom: 4px;
 }
@@ -174,7 +179,6 @@ PopupFantasyCraftTitle.Hidden {
     width: 100%;
     height: 100%;
     border: 2px solid primaryColor3&00;
-
     transition-property: border;
     transition-duration: 0.1s;
 }
@@ -197,10 +201,10 @@ PopupFantasyCraftTitle.Hidden {
     z-index: 1;
     brightness: 1.2;
 }
+
 .TitleChoice.ChoiceSelected .TitleChoiceBorder {
     border: 2px solid primaryColor2;
     opacity: 0.3;
-
     animation-name: GlowChoiceBorder;
     animation-duration: 0.6s;
     animation-iteration-count: infinite;
@@ -251,6 +255,7 @@ PopupFantasyCraftTitle.Hidden {
     flow-children: down;
     padding-bottom: 32px;
 }
+
 .TitlesAvailable .HasTitles .ControlButtons {
     width: fit-children;
     flow-children: right;
@@ -258,7 +263,6 @@ PopupFantasyCraftTitle.Hidden {
     horizontal-align: center;
     width: 100%;
     padding-top: 16px;
-
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-brush: gradient(
         linear,
@@ -270,6 +274,7 @@ PopupFantasyCraftTitle.Hidden {
         to(primaryColor4&00)
     );
 }
+
 .TitlesAvailable .HasTitles .ControlButtons Button {
     margin-left: 8px;
     margin-right: 8px;
@@ -292,16 +297,15 @@ PopupFantasyCraftTitle.Hidden {
     width: fit-children;
     horizontal-align: center;
     flow-children: down;
-
     width: 100%;
     height: fill-parent-flow(1);
-
     overflow: clip scroll;
     padding: 32px;
     margin-bottom: 32px;
     background-color: rgba(0, 0, 0, 0.4);
     border: 2px solid primaryColor4&44;
 }
+
 .NoTitles #TokensContainer {
     horizontal-align: center;
     margin-top: 64px;

@@ -1,12 +1,12 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACompManila2016TeamsPage .CompendiumBody {
     width: 1392px;
     height: 700px;
-
     margin-top: 215px;
     border-top: 0;
     border-bottom: 0;
     background-color: transparent;
-
     horizontal-align: center;
 }
 
@@ -27,7 +27,6 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 
 #TeamSelector {
     flow-children: down;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -40,7 +39,6 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #TeamSelector #TeamLogo {
     width: 128px;
     height: 128px;
-
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 5px;
@@ -53,7 +51,6 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #TeamSelector .TeamLogoBG {
     width: 100%;
     height: 100%;
-
     border-bottom: 1px solid #497ca8;
 }
 
@@ -64,7 +61,6 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #TeamSelector .Team {
     flow-children: down;
     horizontal-align: center;
-
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -73,17 +69,13 @@ DOTACompManila2016TeamsPage .CompendiumBody {
     width: 100%;
     height: 45px;
     text-align: center;
-
     margin-top: 3px;
-
     text-transform: uppercase;
     font-size: 15px;
     letter-spacing: 1.5px;
-
     transition-property: color;
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
-
     color: #497ca8;
 }
 
@@ -94,7 +86,6 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #TeamContainer {
     width: 100%;
     overflow: clip scroll;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.2s;
@@ -103,11 +94,9 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 
 #TeamContainer #Header {
     width: 100%;
-
     margin-top: 20px;
     margin-left: 120px;
     margin-right: 120px;
-
     background-color: #082736;
 }
 
@@ -121,7 +110,6 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #TeamContainer #TeamLogo {
     width: 128px;
     height: 128px;
-
     margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -164,14 +152,17 @@ DOTACompManila2016TeamsPage .CompendiumBody {
     x: 245px;
     y: 173px;
 }
+
 #TeamLogoTransition.HomePosition1520578 {
     x: 483px;
     y: 173px;
 }
+
 #TeamLogoTransition.HomePosition1883502 {
     x: 721px;
     y: 173px;
 }
+
 #TeamLogoTransition.HomePosition111474 {
     x: 959px;
     y: 173px;
@@ -181,14 +172,17 @@ DOTACompManila2016TeamsPage .CompendiumBody {
     x: 245px;
     y: 356px;
 }
+
 #TeamLogoTransition.HomePosition350190 {
     x: 483px;
     y: 356px;
 }
+
 #TeamLogoTransition.HomePosition1375614 {
     x: 721px;
     y: 356px;
 }
+
 #TeamLogoTransition.HomePosition3 {
     x: 959px;
     y: 356px;
@@ -198,14 +192,17 @@ DOTACompManila2016TeamsPage .CompendiumBody {
     x: 245px;
     y: 539px;
 }
+
 #TeamLogoTransition.HomePosition1148284 {
     x: 483px;
     y: 539px;
 }
+
 #TeamLogoTransition.HomePosition2244697 {
     x: 721px;
     y: 539px;
 }
+
 #TeamLogoTransition.HomePosition2621843 {
     x: 959px;
     y: 539px;
@@ -231,9 +228,7 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #TeamContainer Label#TeamName {
     color: #cccccc;
     letter-spacing: 2px;
-
     text-shadow: 2px 2px 4px 1 #000000;
-
     font-size: 48px;
 }
 
@@ -278,11 +273,8 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #TeamContainer #LiveBlock {
     width: 300px;
     height: 60px;
-
     margin-right: 60px;
-
     background-color: black;
-
     visibility: collapse;
 }
 
@@ -293,9 +285,7 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #TeamContainer #Roster {
     width: 100%;
     height: 240px;
-
     margin-top: 20px;
-
     margin-left: 140px;
     margin-right: 140px;
 }
@@ -303,9 +293,7 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #TeamContainer .PlayerContainer {
     width: fill-parent-flow(0.14);
     height: 100%;
-
     flow-children: down;
-
     opacity: 0;
 }
 
@@ -316,25 +304,19 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #TeamContainer #PlayerImage {
     width: 100%;
     height: width-percentage(100%);
-
     margin-left: 5px;
     margin-right: 5px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#444444), to(#888888));
-
     box-shadow: -1px 0px 8px 0px black;
 }
 
 #TeamContainer #PlayerFlag {
     width: 18px;
     height: 13px;
-
     margin-left: 7px;
     margin-top: 10px;
     margin-bottom: 5px;
-
     border: 1px solid black;
-
     background-color: black;
 }
 
@@ -345,13 +327,10 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #TeamContainer #PlayerNew,
 #TeamContainer #PlayerSub {
     color: #666666;
-
     text-transform: uppercase;
     letter-spacing: 1.2px;
     font-size: 14px;
-
     margin-left: 5px;
-
     visibility: collapse;
 }
 
@@ -366,16 +345,13 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #PreviousTournaments {
     width: 100%;
     height: 150px;
-
     margin-left: 120px;
     margin-right: 120px;
-
     background-color: #0c151c;
 }
 
 #PreviousTournaments Label {
     font-size: 14px;
-
     text-transform: uppercase;
     color: #3f759b;
 }
@@ -383,7 +359,6 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #PreviousTournaments #PreviousMajor {
     width: 370px;
     height: 100%;
-
     visibility: collapse;
 }
 
@@ -394,10 +369,8 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #PreviousTournaments .TournamentsTitle {
     vertical-align: top;
     horizontal-align: left;
-
     margin-top: 10px;
     margin-left: 20px;
-
     letter-spacing: 1.5px;
 }
 
@@ -408,21 +381,16 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #PreviousTournaments #FallMajorLogo {
     width: 200px;
     height: 80px;
-
     margin-left: 20px;
     margin-right: 20px;
-
     background-color: black;
 }
 
 #PreviousTournaments #Separator {
     border: 1px solid #28445c;
-
     margin-top: 10px;
     margin-bottom: 10px;
-
     height: 100%;
-
     visibility: collapse;
 }
 
@@ -433,7 +401,6 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #PreviousTournaments #OtherTournaments {
     height: 100%;
     width: 100%;
-
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -453,10 +420,8 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 
 #PreviousTournaments .OtherTournament {
     width: fill-parent-flow(1);
-
     margin-left: 20px;
     margin-right: 20px;
-
     visibility: collapse;
 }
 
@@ -472,9 +437,7 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #PreviousTournaments #OtherTournaments .TournamentFinish {
     horizontal-align: center;
     margin-top: 4px;
-
     color: #185179;
-
     visibility: collapse;
 }
 
@@ -486,9 +449,7 @@ DOTACompManila2016TeamsPage .CompendiumBody {
     margin-top: 20px;
     margin-left: 120px;
     margin-right: 120px;
-
     width: 100%;
-
     flow-children: down;
 }
 
@@ -501,7 +462,6 @@ DOTACompManila2016TeamsPage .CompendiumBody {
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1.8px;
-
     color: #3f759b;
 }
 
@@ -520,7 +480,6 @@ DOTACompManila2016TeamsPage .CompendiumBody {
 #Footer #GameHistoryHeader {
     width: 100%;
     height: 40px;
-
     background-color: #0c151c;
 }
 
@@ -528,9 +487,7 @@ DOTACompManila2016TeamsPage .CompendiumBody {
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 1.8px;
-
     vertical-align: center;
-
     color: #3f759b;
 }
 
@@ -591,22 +548,17 @@ DOTACompendiumTeamsGameRow .ButtonsColumn,
 #Footer #GameHistoryList .GameHistoryPage {
     width: 100%;
     flow-children: down;
-
     margin-top: 2px;
 }
 
 DOTACompendiumTeamsGameRow {
     width: 100%;
     height: 40px;
-
     margin-top: 2px;
     margin-bottom: 2px;
-
     flow-children: right;
-
     opacity: 0;
     background-color: #00000044;
-
     transition-property: opacity;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
@@ -615,11 +567,8 @@ DOTACompendiumTeamsGameRow {
 
 DOTACompendiumTeamsGameRow Label {
     color: #bbbbbb;
-
     vertical-align: middle;
-
     font-size: 16px;
-
     margin-top: 3px;
 }
 
@@ -630,37 +579,45 @@ DOTACompendiumTeamsGameRow Label {
 DOTACompendiumTeamsGameRow.Match0 {
     transition-delay: 0.02s;
 }
+
 DOTACompendiumTeamsGameRow.Match1 {
     transition-delay: 0.04s;
 }
+
 DOTACompendiumTeamsGameRow.Match2 {
     transition-delay: 0.06s;
 }
+
 DOTACompendiumTeamsGameRow.Match3 {
     transition-delay: 0.08s;
 }
+
 DOTACompendiumTeamsGameRow.Match4 {
     transition-delay: 0.1s;
 }
+
 DOTACompendiumTeamsGameRow.Match5 {
     transition-delay: 0.12s;
 }
+
 DOTACompendiumTeamsGameRow.Match6 {
     transition-delay: 0.14s;
 }
+
 DOTACompendiumTeamsGameRow.Match7 {
     transition-delay: 0.16s;
 }
+
 DOTACompendiumTeamsGameRow.Match8 {
     transition-delay: 0.18s;
 }
+
 DOTACompendiumTeamsGameRow.Match9 {
     transition-delay: 0.2s;
 }
 
 #Footer #GameHistoryList .CarouselItem {
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -672,14 +629,10 @@ DOTACompendiumTeamsGameRow.Match9 {
 
 .FlatBlueButton {
     background-color: #1c3142;
-
     height: 28px;
-
     margin-left: 4px;
     margin-right: 4px;
-
     vertical-align: center;
-
     transition-property: background-color;
     transition-duration: 0.05s;
     transition-timing-function: ease-in-out;
@@ -689,13 +642,10 @@ DOTACompendiumTeamsGameRow.Match9 {
     transition-property: color;
     transition-duration: 0.05s;
     transition-timing-function: ease-in-out;
-
     color: #cccccc;
-
     margin-left: 10px;
     margin-right: 10px;
     min-width: 80px;
-
     text-align: center;
     text-transform: uppercase;
     font-size: 15px;

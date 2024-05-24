@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDESArcanaCombo {
     width: 100%;
     height: 100%;
@@ -13,7 +15,6 @@ DOTAHUDESArcanaCombo.Hidden {
     margin-top: -10px;
     vertical-align: top;
     width: 250px;
-
     horizontal-align: center;
     opacity: 0;
     height: 119px;
@@ -121,10 +122,12 @@ DOTAHUDESArcanaCombo.Hidden {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_0_png.vtex");
     width: 28px;
 }
+
 .ESDigit.digit_1 {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_1_png.vtex");
     width: 25px;
 }
+
 .ESDigit.digit_2 {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_2_png.vtex");
     width: 34px;
@@ -169,30 +172,39 @@ DOTAHUDESArcanaCombo.Hidden {
 .ArcanaLevel2 .ESDigit.digit_0 {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_0_v2_png.vtex");
 }
+
 .ArcanaLevel2 .ESDigit.digit_1 {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_1_v2_png.vtex");
 }
+
 .ArcanaLevel2 .ESDigit.digit_2 {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_2_v2_png.vtex");
 }
+
 .ArcanaLevel2 .ESDigit.digit_3 {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_3_v2_png.vtex");
 }
+
 .ArcanaLevel2 .ESDigit.digit_4 {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_4_v2_png.vtex");
 }
+
 .ArcanaLevel2 .ESDigit.digit_5 {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_5_v2_png.vtex");
 }
+
 .ArcanaLevel2 .ESDigit.digit_6 {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_6_v2_png.vtex");
 }
+
 .ArcanaLevel2 .ESDigit.digit_7 {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_7_v2_png.vtex");
 }
+
 .ArcanaLevel2 .ESDigit.digit_8 {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_8_v2_png.vtex");
 }
+
 .ArcanaLevel2 .ESDigit.digit_9 {
     background-image: url("s2r://panorama/images/hud/arcana/es/numbers/combo_9_v2_png.vtex");
 }
@@ -273,7 +285,6 @@ DOTAHUDESArcanaCombo.Hidden {
 
 .ComboCountDigit {
     pre-transform-scale2d: 0.9;
-
     transition-property: pre-transform-scale2d, background-image;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -308,7 +319,6 @@ DOTAHUDESArcanaCombo.Hidden {
 #ComboSummaryContainer {
     vertical-align: top;
     width: 275px;
-
     horizontal-align: center;
     opacity: 0;
     height: 120px;

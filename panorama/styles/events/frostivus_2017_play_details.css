@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CustomGameDetailsOuter {
     width: 323px;
     height: 100%;
@@ -30,6 +32,7 @@
     color: black;
     text-shadow: 0px 0px 22px 2 #d26364;
 }
+
 #CustomGameDetailsTitleGlow {
     text-shadow: 0px 0px 3px 2 #f3a998;
 }
@@ -42,7 +45,6 @@
 #CustomGameDescription {
     text-align: left;
     horizontal-align: center;
-
     padding: 16px;
     color: #999999;
     font-weight: thin;
@@ -89,7 +91,6 @@
     tooltip-position: left;
     tooltip-body-position: 50%;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -104,10 +105,12 @@
         pre-transform-scale2d: 1;
         brightness: 2;
     }
+
     50% {
         pre-transform-scale2d: 0.98;
         brightness: 1;
     }
+
     100% {
         pre-transform-scale2d: 1;
         brightness: 2;
@@ -163,16 +166,13 @@
     margin-right: 32px;
     padding: 0px;
     flow-children: down;
-
     background-image: url("s2r://panorama/images/textures/glassbutton_darkmoon_psd.vtex");
     background-size: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     transition-property: box-shadow, background-image, background-color;
     transition-duration: 0.16s;
     transition-timing-function: ease-in-out;
-
     border-radius: 6px;
     visibility: collapse;
 }
@@ -230,7 +230,6 @@ DOTAPlay.DarkMoon .ClaimLabel.PointAmount {
 #IntroInformationPanel {
     width: 100%;
     height: 364px;
-
     horizontal-align: center;
     vertical-align: bottom;
     background-color: #00000066;
@@ -265,9 +264,7 @@ DOTAPlay.DarkMoon .ClaimLabel.PointAmount {
 .DetailsTextContainer {
     width: 100%;
     height: 100%;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#321f25aa), color-stop(0.5, #321f25ee), to(#321f25ee));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#4e6425aa), color-stop(0.5, #4e6425ee), to(#4e6425ee));
     opacity: 0;
     transition-property: opacity;

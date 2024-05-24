@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTADashboardBackgroundLastMatch {
     width: 100%;
     height: 100%;
@@ -35,7 +37,6 @@ DOTADashboardBackgroundLastMatch {
     background-image: url("s2r://panorama/images/backgrounds/chest_vignette_psd.vtex");
     background-size: 100%;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1e3245dd), to(#041931ee));
-
     transition-property: background-color;
     transition-duration: 0.2s;
 }
@@ -51,7 +52,6 @@ DOTADashboardBackgroundLastMatch {
     vertical-align: bottom;
     horizontal-align: center;
     flow-children: down;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.2s;
@@ -77,6 +77,7 @@ DOTADashboardBackgroundLastMatch {
 .DataMissing #DetailsContainer {
     visibility: collapse;
 }
+
 .DataMissing #MissingDataContainer {
     visibility: visible;
 }

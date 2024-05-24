@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAChatWheelMessage {
     flow-children: right;
 }
@@ -6,12 +8,12 @@ DOTAChatWheelMessage {
     width: 20px;
     height: 20px;
     margin-right: 4px;
-
     background-image: url("s2r://panorama/images/control_icons/chat_wheel_icon_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .HasSound .ArrowIcon {
     visibility: collapse;
 }
@@ -24,17 +26,15 @@ DOTAChatWheelMessage {
     width: 20px;
     height: 20px;
     margin-right: 4px;
-
     visibility: collapse;
-
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 .HasSound #SoundIcon {
     visibility: visible;
 }
@@ -42,6 +42,7 @@ DOTAChatWheelMessage {
 #SoundIcon:hover {
     brightness: 2;
 }
+
 #SoundIcon:active {
     brightness: 1.5;
 }
@@ -49,9 +50,9 @@ DOTAChatWheelMessage {
 #SprayImage {
     width: 128px;
     height: 128px;
-
     visibility: collapse;
 }
+
 .IsSpray #SprayImage {
     visibility: visible;
 }
@@ -63,9 +64,9 @@ DOTAChatWheelMessage {
 .SendToAllText {
     color: #999;
     margin-right: 4px;
-
     visibility: collapse;
 }
+
 .ShowSendToAll .SendToAllText {
     visibility: visible;
 }
@@ -92,18 +93,23 @@ PopupSettings .MessageIsLocked .MessageText {
 .BronzeTier .MessageText {
     color: gradient(linear, 0% 0%, 0% 100%, from(#fce8a2), to(#f7c184));
 }
+
 .SilverTier .MessageText {
     color: gradient(linear, 0% 0%, 0% 100%, from(#f1fbfc), to(#acd7e0));
 }
+
 .GoldTier .MessageText {
     color: gradient(linear, 0% 0%, 0% 100%, from(#f8f7e7), to(#f8ef5a));
 }
+
 .PlatinumTier .MessageText {
     color: gradient(linear, 0% 0%, 0% 100%, from(#fbffff), to(#5c9dff));
 }
+
 .MasterTier .MessageText {
     color: gradient(linear, 0% 0%, 0% 100%, from(#e5a7ff), to(#b300ff));
 }
+
 .GrandmasterTier .MessageText {
     color: gradient(linear, 0% 0%, 0% 100%, from(#f7ee8b), to(#d6191c));
 }
@@ -114,9 +120,9 @@ PopupSettings .MessageIsLocked .MessageText {
     margin-left: 2px;
     margin-right: 2px;
     transform: translateY(-3px);
-
     visibility: collapse;
 }
+
 .HasEmoticon #Emoticon {
     visibility: visible;
 }
@@ -126,9 +132,9 @@ PopupSettings .MessageIsLocked .MessageText {
     font-size: 14px;
     font-weight: normal;
     text-shadow: 1px 1.5px 0px 2 #000000;
-
     visibility: collapse;
 }
+
 .HasTranslation .MessageTranslation {
     visibility: visible;
 }
@@ -140,9 +146,9 @@ PopupSettings .MessageIsLocked .MessageText {
     font-style: italic;
     font-weight: normal;
     text-shadow: 1px 1.5px 0px 2 #000000;
-
     visibility: collapse;
 }
+
 .HasSource .MessageSource {
     visibility: visible;
 }

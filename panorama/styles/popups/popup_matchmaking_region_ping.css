@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupMatchmakingRegionPing {
     margin-left: 4px;
     margin-bottom: 10px;
@@ -32,7 +34,6 @@ PopupMatchmakingRegionPing:disabled Label {
     margin-top: 4px;
     margin-left: 0px;
     opacity-mask: url("s2r://panorama/images/status_icons/ping_psd.vtex");
-
     transition-property: background-color;
     transition-duration: 1.33s;
     transition-timing-function: ease-in-out;

@@ -1,10 +1,9 @@
-@define blessing_height:  84px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define blessing_height: 84px;
 @define blessing_width: 84px;
-
 @define connector_height: 22px;
-
 @define connector_width: 9px;
-
 .CompendiumBody {
     background-color: secondaryGradient;
     background-image: url("s2r://panorama/images/compendium/international2020/compendium/special_summer_event_bg_psd.vtex");
@@ -96,14 +95,12 @@
 #GameModeExplainContainer {
     height: 850px;
     flow-children: down;
-
     margin-right: 24px;
 }
 
 #AghanimsLogo {
     width: 100%;
     height: 300px;
-
     background-image: url("s2r://panorama/images/events/aghanim/aghamins_logo_en_psd.vtex");
     background-size: contain;
     background-position: center;
@@ -142,7 +139,6 @@
 #BlessingsExplain {
     width: 100%;
     height: 240px;
-
     flow-children: down;
 }
 
@@ -152,7 +148,6 @@
     height: fit-children;
     width: fit-children;
     flow-children: down;
-
     margin-top: 32px;
 }
 
@@ -168,7 +163,6 @@
     color: #c79123;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     text-shadow: 0 1px 3px #000;
 }
 
@@ -179,7 +173,6 @@
     text-transform: uppercase;
     letter-spacing: 6px;
     margin-top: -2px;
-
     text-shadow: 0px 0px 3px #c79123;
 }
 
@@ -192,7 +185,6 @@
     width: 720px;
     horizontal-align: center;
     vertical-align: bottom;
-
     text-shadow: 0 2px 3px #000;
 }
 
@@ -245,7 +237,6 @@
     vertical-align: bottom;
     margin: 5px;
     horizontal-align: center;
-
     text-shadow: 0 1px 3px #000;
 }
 
@@ -342,19 +333,14 @@
     padding: 4px 22px 4px 22px;
     margin: 5px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5aa15e), to(#87d69533));
-
     background-image: url("s2r://panorama/images/backgrounds/background_play_button_2x_png.vtex");
     background-size: 450px 60px;
-
     box-shadow: fill #002a6644 1px 1px 8px 1px;
-
     border-top: 1px solid #ffffff44;
     border-right: 1px solid #00000088;
     border-left: 1px solid #ffffff44;
     border-bottom: 1px solid #00000088;
-
     opacity: 1;
-
     transition-property: box-shadow, background-color, opacity, transform;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -372,7 +358,6 @@
     text-align: center;
     height: 50px;
     text-overflow: shrink;
-
     transition-property: color;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -406,7 +391,6 @@
 #BattlePointsEarnedDesc,
 #PremiumBattlePointsEarnedDesc {
     color: #dedede;
-
     text-shadow: 0px 0px 4px accentColor;
     font-weight: bold;
 }
@@ -439,14 +423,12 @@
 #PlayGame {
     horizontal-align: center;
     background-color: black;
-
     background-size: auto 100%;
     width: 100%;
     height: 130px;
     vertical-align: bottom;
     margin-top: 100px;
     box-shadow: 0px 0px 70px #00000050;
-
     visibility: collapse;
 }
 
@@ -494,7 +476,6 @@
     width: 60px;
     height: 60px;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(ultraBrightColor), to(accentColor));
-
     margin-right: 80px;
     margin-top: -65px;
     margin-bottom: 5px;
@@ -527,7 +508,6 @@
     line-height: 132%;
     font-weight: semi-bold;
     color: #dedede;
-
     text-shadow: 0px 0px 4px #3375ff;
 }
 
@@ -604,7 +584,6 @@
     border-radius: 2px;
     margin-top: 2px;
     margin-bottom: 5px;
-
     color: white;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -624,7 +603,6 @@
     padding: 3px 16px;
     border-radius: 2px;
     margin-bottom: 5px;
-
     color: #fff;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -690,7 +668,6 @@
     margin-top: 10px;
     width: 280px;
     height: 45px;
-
     box-shadow: 0px 0px 16px accentColorSectionBG;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#e8cf8d), to(#503712));
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#b28948), to(#3a1803));
@@ -720,16 +697,11 @@
 .Lore {
     width: 100%;
     text-align: center;
-
     margin-bottom: 16px;
-
     font-size: 16px;
     line-height: 164%;
-
     text-align: center;
-
     color: #e9f6fd;
-
     text-shadow: 0px 0px 4px #3b929c;
 }
 
@@ -740,7 +712,6 @@
         0px 0px 4px #3b929c,
         0px 0px 2px #87ccd1;
     horizontal-align: center;
-
     margin-bottom: 24px;
 }
 
@@ -769,11 +740,9 @@
     horizontal-align: left;
     vertical-align: middle;
     text-align: left;
-
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     color: #dfe9f2;
 }
 
@@ -817,14 +786,11 @@
     font-weight: bold;
     font-size: 19px;
     line-height: 132%;
-
     text-align: right;
     letter-spacing: 2px;
     text-transform: uppercase;
     vertical-align: middle;
-
     color: #dfe9f2;
-
     text-shadow: 0px 0px 3px #419ff2aa;
 }
 
@@ -842,11 +808,9 @@
 .SecondaryValueText {
     font-size: 15px;
     line-height: 132%;
-
     text-align: right;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     color: #fee2e9;
     text-shadow: 0px 0px 4px #b94461;
 }
@@ -877,9 +841,7 @@ TextButton {
     letter-spacing: 2px;
     text-decoration: underline;
     margin-top: 4px;
-
     line-height: 132%;
-
     color: #d9f1ff;
     text-shadow: 0px 0px 4px #3375ff;
 }
@@ -911,7 +873,6 @@ TextButton {
 .CurrencyIcon {
     width: 30px;
     height: 30px;
-
     vertical-align: middle;
     margin-left: 4px;
 }
@@ -1006,7 +967,6 @@ TextButton {
     letter-spacing: 2px;
     line-height: 16px;
     margin-top: -2px;
-
     color: #41a0f2aa;
 }
 
@@ -1110,10 +1070,8 @@ TextButton {
 
 #DailyBonusActive Label {
     color: #dedede;
-
     text-shadow: 0px 0px 10px accentColor;
     font-weight: bold;
-
     color: ultraBrightColor;
     letter-spacing: 2px;
     font-size: 24px;
@@ -1137,20 +1095,14 @@ TextButton {
 
 .BlessingTreesButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(shadeColor), to(accentColorBright));
-
     padding: 7px 10px 7px 10px;
-
     border: 1px solid defaultColor;
-
     horizontal-align: center;
-
     box-shadow: -4px 0px 8px 0px accentColor;
-
     animation-name: BlessingTreesButtonGlow;
     animation-duration: 2.35s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-
     transition-property: brightness, img-shadow;
     transition-duration: 0.2s;
 }
@@ -1183,7 +1135,6 @@ TextButton {
     font-size: 13px;
     text-align: center;
     horizontal-align: center;
-
     color: white;
     font-weight: bold;
     text-shadow: 0px 1px 2px 1.5 ultraDarkColor&50;
@@ -1191,16 +1142,11 @@ TextButton {
 
 DOTABlessingTrees {
     height: 850px;
-
     margin-top: 12px;
-
     horizontal-align: right;
-
     opacity: 1;
-
     background-size: cover;
     background-repeat: no-repeat;
-
     transition-property: opacity;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -1215,28 +1161,21 @@ DOTABlessingTrees {
 
 .BlessingTreesTitle {
     color: textAccentColorBright;
-
     text-align: center;
     text-transform: uppercase;
-
     font-size: 40px;
     font-weight: medium;
     letter-spacing: 3px;
-
     horizontal-align: center;
     vertical-align: center;
-
     margin-top: 5px;
     margin-bottom: 0px;
-
     width: 95%;
-
     z-index: 1;
 }
 
 .DOTABlessingTrees .CloseButton {
     wash-color: #888888;
-
     background-image: url("s2r://panorama/images/control_icons/x_close_png.vtex");
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -1252,15 +1191,11 @@ DOTABlessingTrees {
     font-size: 18px;
     font-weight: medium;
     letter-spacing: 2px;
-
     text-align: center;
     text-transform: uppercase;
-
     color: accentColor;
-
     horizontal-align: center;
     vertical-align: center;
-
     margin-bottom: 10px;
 }
 
@@ -1268,15 +1203,11 @@ DOTABlessingTrees {
     font-size: 12px;
     font-weight: medium;
     letter-spacing: 2px;
-
     text-align: center;
     text-transform: uppercase;
-
     color: accentColor;
-
     horizontal-align: center;
     vertical-align: center;
-
     margin-bottom: 10px;
 }
 
@@ -1284,14 +1215,10 @@ DOTABlessingTrees {
     x: 0px;
     y: 0px;
     height: 20px;
-
     margin-top: -7px;
-
     horizontal-align: center;
     vertical-align: bottom;
-
     border: 1px solid rgb(235, 214, 138);
-
     background-size: 100%;
     background-color: shadeColor;
 }
@@ -1311,14 +1238,12 @@ DOTABlessingTrees {
     height: fit-children;
     y: 100px;
     horizontal-align: center;
-
     flow-children: none;
 }
 
 .BlessingTreeContainer {
     width: fit-children;
     height: fit-children;
-
     flow-children: right;
     overflow: noclip;
     margin-top: 12px;
@@ -1357,7 +1282,6 @@ DOTABlessingTrees {
     margin-right: -3px;
     margin-top: -10px;
     margin-bottom: -10px;
-
     height: connector_height;
     width: connector_width;
 }
@@ -1366,7 +1290,6 @@ DOTABlessingTrees {
     margin-top: -10px;
     margin-bottom: -10px;
     z-index: -1;
-
     height: connector_height;
     width: blessing_width;
     background-size: 12px 1px;
@@ -1399,7 +1322,6 @@ DOTABlessingTrees {
     margin-left: -3px;
     margin-right: -3px;
     z-index: -1;
-
     height: blessing_height;
     width: connector_width;
     background-size: 1px 12px;
@@ -1436,7 +1358,6 @@ DOTABlessingTrees {
 .ConnectorCustom {
     width: 400px;
     height: 100px;
-
     margin-top: 28px;
 }
 
@@ -1484,14 +1405,12 @@ DOTABlessingTrees {
     height: blessing_height;
     width: blessing_width;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_png.vtex");
-
     z-index: 3;
 }
 
 .BlessingAmbientFX {
     height: blessing_height;
     width: blessing_width;
-
     z-index: 1;
 }
 
@@ -1505,11 +1424,9 @@ DOTABlessingTrees {
     height: 24px;
     margin-bottom: 5px;
     margin-left: -5px;
-
     flow-children: right;
     vertical-align: bottom;
     horizontal-align: center;
-
     opacity: 0;
 }
 
@@ -1545,9 +1462,7 @@ DOTABlessingTrees {
 .BlessingButton {
     height: 100%;
     width: 100%;
-
     horizontal-align: center;
-
     background-size: contain;
     background-image: url("s2r://panorama/images/events/aghanim/blessing_icons/blessing_base_png.vtex");
     background-position: center;
@@ -1560,7 +1475,6 @@ DOTABlessingTrees {
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url("s2r://panorama/images/events/aghanim/blessing_icons/blessing_middle_color_root_png.vtex");
-
     visibility: collapse;
 }
 
@@ -1592,7 +1506,6 @@ DOTABlessingTrees {
     background-size: 100%;
     background-image: url("s2r://panorama/images/events/aghanim/blessing_icons/blessing_icon_test_dormant_png.vtex");
     overflow: noclip;
-
     z-index: 2;
 }
 
@@ -1620,7 +1533,6 @@ DOTABlessingTrees {
     animation-duration: 1.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-
     transition-property: img-shadow, brightness;
     transition-duration: 0.2s;
 }
@@ -1674,7 +1586,6 @@ DOTABlessingTrees {
     padding: 12px 0;
     background-color: gradient (linear, 0% 0%, 0% 100%, from(#4d4e66), to(#3c3c53));
     color: red;
-
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 12px;
@@ -1713,6 +1624,7 @@ DOTABlessingTrees {
     background-position: top;
     background-repeat: no-repeat;
 }
+
 #LeaderboardPlaceholderText {
     vertical-align: middle;
     horizontal-align: center;
@@ -1782,7 +1694,6 @@ DOTABlessingTrees {
 
 .LeaderboardTab {
     margin-right: 12px;
-
     width: 170px;
     height: 48px;
     background-color: #121725ee;
@@ -1953,7 +1864,6 @@ DOTABlessingTrees {
     vertical-align: middle;
     horizontal-align: right;
     min-width: 100px;
-
     margin-right: 20px;
 }
 

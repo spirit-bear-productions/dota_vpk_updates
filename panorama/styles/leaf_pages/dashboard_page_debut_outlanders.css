@@ -1,16 +1,15 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DashboardPage {
     width: 100%;
     height: 100%;
-
     background-color: black;
 }
 
 #Outlanders {
     width: 100%;
     height: 100%;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 3s;
 }
@@ -24,9 +23,7 @@
     flow-children: down;
     vertical-align: middle;
     horizontal-align: center;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 6s;
     transition-timing-function: ease-in;

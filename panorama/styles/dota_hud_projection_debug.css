@@ -1,12 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAProjectionDebug {
     padding: 10px;
-
     visibility: collapse;
-
     width: 850px;
     height: 900px;
     background-color: #000000dd;
-
     flow-children: down;
 }
 

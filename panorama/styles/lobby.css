@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTALobby {
     visibility: visible;
     flow-children: none;
@@ -39,12 +41,10 @@ DOTALobby Label {
 #LobbyContentUpper {
     width: 100%;
     height: 696px;
-
     flow-children: down;
     padding: 0px;
     opacity: 1;
     wash-color: #00000000;
-
     transition-property: opacity, wash-color;
     transition-delay: 0.4s;
     transition-duration: 1.2s;
@@ -60,9 +60,7 @@ DOTALobby Label {
     max-width: 325px;
     font-size: 26px;
     color: white;
-
     margin-left: 2px;
-
     wash-color: #00000000;
     transition-property: wash-color;
     transition-delay: 0.1s;
@@ -85,7 +83,6 @@ DOTALobby Label {
 
 #PlayersSection {
     width: 100%;
-
     background-color: gradient(
         linear,
         100% 0%,
@@ -102,7 +99,6 @@ DOTALobby Label {
 .PlayersColumn {
     flow-children: down;
     width: 50%;
-
     height: 420px;
     padding: 10px;
 }
@@ -125,7 +121,6 @@ DOTALobby Label {
 #PlayerButtonsContainer {
     width: 100%;
     height: 40px;
-
     margin-top: 0px;
     margin-bottom: 4px;
 }
@@ -287,7 +282,6 @@ DOTALobby.LocalPlayerIsAdmin.ShuffleTeamsDisallowed #BalancedShuffleButton {
     margin-top: 2px;
     opacity: 1;
     transform: translateX(0px);
-
     transition-property: opacity, transform;
     transition-duration: 0.4s;
 }
@@ -297,13 +291,9 @@ DOTALobby.LocalPlayerIsAdmin.ShuffleTeamsDisallowed #BalancedShuffleButton {
     height: 30px;
     horizontal-align: right;
     margin-right: 4px;
-
     opacity: 0.2;
-
     background-position: right 31px 35%;
-
     pre-transform-scale2d: 1;
-
     transition-property: opacity, pre-transform-scale2d;
     transition-duration: 0.4s;
 }
@@ -518,19 +508,14 @@ DOTALobby.LocalPlayerIsAdmin.ShuffleTeamsDisallowed #BalancedShuffleButton {
     width: 330px;
     min-height: 36px;
     margin-right: 18px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#2c1b1b), to(#482e2f));
-
     box-shadow: fill #552e2f00 1px 1px 8px 1px;
-
     border-top: 1px solid #3d2929;
     border-right: 1px solid #372121;
     border-left: 1px solid #372121;
     border-bottom: 1px solid #2e1f21;
-
     overflow: noclip noclip;
     opacity: 1;
-
     transition-property: border, box-shadow, background-color, opacity, transform;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -576,6 +561,7 @@ DOTALobby.LocalPlayerIsAdmin.ShuffleTeamsDisallowed #BalancedShuffleButton {
 .ADSetting {
     visibility: collapse;
 }
+
 .IsADLobby .ADSetting {
     visibility: visible;
 }
@@ -583,6 +569,7 @@ DOTALobby.LocalPlayerIsAdmin.ShuffleTeamsDisallowed #BalancedShuffleButton {
 .PlayerDraftSetting {
     visibility: collapse;
 }
+
 .IsPlayerDraftLobby .PlayerDraftSetting {
     visibility: visible;
 }
@@ -606,12 +593,9 @@ DOTALobby.LocalPlayerIsAdmin.ShuffleTeamsDisallowed #BalancedShuffleButton {
     margin-top: 20px;
     margin-left: 251px;
     opacity: 0;
-
     background-color: #151719;
     border: 1px solid #252729;
-
     transform: translateX(50px);
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
 }
@@ -722,7 +706,6 @@ DOTALobby.SelectionPriorityAutomaticSlideOutVisible #AutomaticSelectionPriorityS
 #AutomaticSelectionPriorityCoin {
     width: 100%;
     height: 100%;
-
     padding-left: 101px;
     padding-top: 26px;
     visibility: collapse;
@@ -893,9 +876,7 @@ DOTALobby.SelectionPriorityAutomaticSlideOutVisible #AutomaticSelectionPriorityS
     margin-top: 20px;
     margin-left: 16px;
     opacity: 0;
-
     transform: translateX(50px);
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
 }
@@ -960,10 +941,8 @@ DOTALobby.LobbyBroadcastersVisible.LobbyVisible.HasBroadcastChannels #NoBroadcas
     border-top-right-radius: 8px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-
     transition-property: transform;
     transition-duration: 0.5s;
-
     visibility: collapse;
 }
 
@@ -998,7 +977,6 @@ DOTALobby.LobbyBroadcastersVisible.LobbyVisible.HasBroadcastChannels #NoBroadcas
     margin-top: 4px;
     width: 22px;
     height: 22px;
-
     transition-property: transform, wash-color;
     transition-duration: 0.2s;
 }
@@ -1012,7 +990,6 @@ DOTALobby.LobbyBroadcastersVisible.LobbyVisible.HasBroadcastChannels #NoBroadcas
     padding: 24px 16px 42px 16px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-
     transition-property: background-color;
     transition-duration: 0.5s;
 }
@@ -1023,7 +1000,6 @@ DOTALobby.LobbyBroadcastersVisible.LobbyVisible.HasBroadcastChannels #NoBroadcas
     text-align: center;
     text-transform: uppercase;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.3s;
 }
@@ -1065,14 +1041,12 @@ DOTALobby.HasBroadcastChannels #NoBroadcastChannels {
     width: 100%;
     padding: 8px;
     opacity: 0;
-
     box-shadow: inset #00000066 0px 0px 4px 4px;
     background-color: gradient(linear, 100% 0%, 100% 100%, from(#222222), to(#171717));
     opacity: 0.99999;
     wash-color: #000000ff;
     transition-property: wash-color, opacity;
     transition-duration: 0.3s;
-
     margin-top: 10px;
 }
 

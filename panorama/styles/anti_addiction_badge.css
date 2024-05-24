@@ -1,10 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAAntiAddictionBadge {
     width: fit-children;
     height: fit-children;
     visibility: visible;
     margin-left: 8px;
     margin-right: 8px;
-
     tooltip-position: bottom;
 }
 
@@ -49,12 +50,15 @@ DOTAAntiAddictionBadge.NotVisible {
 .StateImage {
     visibility: collapse;
 }
+
 .GreenState .StateImage__Green {
     visibility: visible;
 }
+
 .YellowState .StateImage__Yellow {
     visibility: visible;
 }
+
 .RedState .StateImage__Red {
     visibility: visible;
 }

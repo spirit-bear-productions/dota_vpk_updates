@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 TournamentMatchList {
     width: 100%;
     height: 100%;
@@ -7,10 +9,8 @@ TournamentMatchList {
 #DayButtons {
     width: 100%;
     height: 52px;
-
     margin-bottom: 8px;
     margin-left: 12px;
-
     flow-children: right;
 }
 
@@ -21,16 +21,12 @@ TournamentMatchList {
 .DayButton {
     width: 52px;
     height: 52px;
-
     border: 1px solid #222a2d;
-
     margin-right: 8px;
     padding-top: 6px;
-
     transition-property: border, background-color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     flow-children: down;
 }
 
@@ -43,13 +39,10 @@ TournamentMatchList {
     color: #637877;
     text-transform: uppercase;
     horizontal-align: center;
-
     margin-left: 0px;
     margin-right: 0px;
-
     width: 100%;
     text-align: center;
-
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -78,19 +71,16 @@ TournamentMatchList {
 #MatchesPanel {
     width: 100%;
     height: fill-parent-flow(1);
-
     margin-bottom: 12px;
 }
 
 .MatchesDayPanel {
     width: 100%;
     height: 100%;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     opacity: 1;
-
     flow-children: down;
     overflow: clip scroll;
 }

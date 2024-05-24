@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTASpectatorLobbyCell {
     width: 600px;
     height: 900px;
@@ -20,9 +22,11 @@ DOTASpectatorLobbyCell:hover {
 .CellTitle .WatchingLive {
     color: #64c390;
 }
+
 .CellTitle .WatchingReplay {
     color: #dfb272;
 }
+
 .CellTitle .WatchingStream {
     color: #ac7ed0;
 }
@@ -32,9 +36,9 @@ DOTASpectatorLobbyCell:hover {
     width: 100%;
     height: width-percentage(39%);
     tooltip-body-position: 50% 50%;
-
     visibility: collapse;
 }
+
 .HasLeague #LeagueImage {
     visibility: visible;
 }
@@ -43,7 +47,6 @@ DOTASpectatorLobbyCell:hover {
     margin-top: 24px;
     width: 100%;
     flow-children: down;
-
     visibility: collapse;
 }
 
@@ -78,7 +81,6 @@ DOTASpectatorLobbyCell:hover {
 .DefaultTeamLogo {
     width: 100%;
     height: 100%;
-
     background-image: url("s2r://panorama/images/team_icons/radiant_png.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;
@@ -88,6 +90,7 @@ DOTASpectatorLobbyCell:hover {
 #RadiantDefaultLogo {
     background-image: url("s2r://panorama/images/team_icons/radiant_png.vtex");
 }
+
 #DireDefaultLogo {
     background-image: url("s2r://panorama/images/team_icons/dire_png.vtex");
 }
@@ -102,6 +105,7 @@ DOTASpectatorLobbyCell:hover {
 .HasDireLogo #DireDefaultLogo {
     visibility: collapse;
 }
+
 .HasRadiantLogo #RadiantUGCImage,
 .HasDireLogo #DireUGCImage {
     visibility: visible;
@@ -117,9 +121,9 @@ DOTASpectatorLobbyCell:hover {
     horizontal-align: center;
     margin-top: 24px;
     font-size: 36px;
-
     visibility: collapse;
 }
+
 .PartOfSeries .GameSeries {
     visibility: visible;
 }
@@ -160,7 +164,6 @@ DOTASpectatorLobbyCell:hover {
 .MembersIcon {
     width: 80px;
     height: 80px;
-
     background-image: url("s2r://panorama/images/control_icons/friends_small_png.vtex");
     background-size: contain;
     background-position: 50% 50%;
@@ -177,15 +180,12 @@ DOTASpectatorLobbyCell:hover {
 .PasswordedIcon {
     width: 80px;
     height: 80px;
-
     background-image: url("s2r://panorama/images/control_icons/lock_small_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     vertical-align: middle;
     horizontal-align: center;
-
     wash-color: #888;
-
     visibility: collapse;
 }
 
@@ -197,9 +197,9 @@ DOTASpectatorLobbyCell.Passworded .PasswordedIcon {
     color: #63c290;
     font-size: 40px;
     text-transform: uppercase;
-
     visibility: collapse;
 }
+
 .HasFriendsInLobby #FriendsInLobby {
     visibility: visible;
 }

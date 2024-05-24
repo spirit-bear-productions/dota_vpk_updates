@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #ModelContainer {
     width: 100%;
     height: 100%;
@@ -30,9 +32,7 @@
     horizontal-align: center;
     margin-top: 150px;
     margin-left: 790px;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 1s;
 }
@@ -70,7 +70,6 @@
 
 #HeroNameContainer {
     width: 100%;
-
     opacity-mask: url("s2r://panorama/images/leaf_pages/debut_kid_invoker/hero-name-mask_psd.vtex");
 }
 
@@ -173,7 +172,6 @@
     font-size: 84px;
     font-weight: black;
     text-transform: uppercase;
-
     letter-spacing: 4px;
     margin-top: 24px;
     text-align: center;
@@ -195,7 +193,6 @@
     font-weight: semi-bold;
     margin-top: 18px;
     line-height: 21px;
-
     text-align: left;
 }
 

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAGuildIntroPage {
     width: 100%;
     height: 100%;
@@ -45,7 +47,6 @@ DOTAGuildIntroPage {
     vertical-align: middle;
     font-size: 62px;
     color: white;
-
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-left: 12px;
@@ -103,11 +104,9 @@ DOTAGuildIntroPage {
 .IntroSectionImage {
     width: 100%;
     height: fill-parent-flow(1);
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
     border-top: 1px solid #ffffff09;
     border-left: 1px solid #ffffff07;
     border-right: 1px solid #ffffff05;
@@ -136,7 +135,6 @@ DOTAGuildIntroPage {
     letter-spacing: 2px;
     font-size: 24px;
     width: 100%;
-
     height: 63px;
 }
 
@@ -150,15 +148,19 @@ DOTAGuildIntroPage {
 #JoinGuildSection .IntroSectionImage {
     background-image: url("s2r://panorama/images/guilds/intro/guild_intro_join_psd.vtex");
 }
+
 #PlayMatchesSection .IntroSectionImage {
     background-image: url("s2r://panorama/images/guilds/intro/guild_intro_play_psd.vtex");
 }
+
 #ClaimContractsSection .IntroSectionImage {
     background-image: url("s2r://panorama/images/guilds/intro/guild_intro_contracts_psd.vtex");
 }
+
 #CompleteChallengesSection .IntroSectionImage {
     background-image: url("s2r://panorama/images/guilds/intro/guild_intro_challenges_psd.vtex");
 }
+
 #UnlockRewardsSection .IntroSectionImage {
     background-image: url("s2r://panorama/images/guilds/intro/guild_intro_rewards_psd.vtex");
 }
@@ -185,7 +187,6 @@ DOTAGuildIntroPage {
     vertical-align: middle;
     background-image: bp_point_log_pass_activated;
     background-image: dotaPlusLogoSmall;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

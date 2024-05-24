@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .ContentsRoot {
     background-color: #00000066;
     flow-children: down;
@@ -20,11 +22,9 @@
     horizontal-align: center;
     margin-bottom: 2px;
     margin-top: 10px;
-
     font-family: titleFont;
     color: #ffffff;
     color: gradient(linear, 0% 0%, 100% 0%, from(#c0f8ff), color-stop(0.5, #bbfbff), to(#c0f8ff));
-
     text-shadow: 0px 0px 16px 1 #3bb3ff22;
     text-transform: uppercase;
     font-weight: bold;
@@ -85,7 +85,6 @@
     padding: 10px;
     padding-top: 0px;
     padding-left: 0px;
-
     margin: 2px;
     height: 185px;
     width: 200px;
@@ -179,12 +178,15 @@
 #StrengthIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_strength_psd.vtex");
 }
+
 #AgilityIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_psd.vtex");
 }
+
 .ColorBlindModeEnabled #AgilityIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_colorblind_psd.vtex");
 }
+
 #IntelligenceIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_intelligence_psd.vtex");
 }
@@ -267,7 +269,6 @@
 
 .AbilitiesContainer {
     flow-children: down;
-
     horizontal-align: left;
     margin-left: 28px;
 }
@@ -293,12 +294,9 @@ DOTAAbilityImage {
 
 .AbilityButton {
     margin: 5px;
-
     width: 65px;
     height: 65px;
-
     vertical-align: center;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00000000), to(#00000000));
     transition-property: pre-transform-scale2d, brightness, saturation, background-color, opacity;
     transition-duration: 0.06s, 0.1s;
@@ -320,7 +318,6 @@ DOTAAbilityImage {
     z-index: 1;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00ff0000), to(#00ff0000));
     visibility: visible;
-
     transition-property: brightness, background-color;
     transition-duration: 0.12s;
     transition-timing-function: ease-in;
@@ -331,11 +328,9 @@ DOTAAbilityImage {
     height: 100%;
     z-index: -1;
     margin: 9px;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.12s;
     transition-timing-function: ease-in;
-
     box-shadow: #000000 0px 0px 40px 0px;
 }
 

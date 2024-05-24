@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHudVersusSceneAccolade {
     width: 260px;
     height: 100%;
@@ -44,7 +46,6 @@ DOTAHudVersusSceneAccolade {
     height: 32px;
     vertical-align: middle;
     horizontal-align: center;
-
     visibility: collapse;
 }
 

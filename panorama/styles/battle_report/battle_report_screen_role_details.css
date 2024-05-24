@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .RoleTitle {
     flow-children: right;
 }
@@ -11,7 +13,6 @@
     border-radius: 120px;
     padding: 2px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-
     visibility: collapse;
 }
 
@@ -34,7 +35,6 @@
     horizontal-align: center;
     wash-color: white;
     img-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/softsupporticon_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -45,17 +45,21 @@
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/safelaneicon_psd.vtex");
     margin-top: 2px;
 }
+
 .MidLane .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/midlaneicon_psd.vtex");
     margin-top: 2px;
 }
+
 .OffLane .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/offlaneicon_psd.vtex");
     margin-top: 4px;
 }
+
 .SoftSupport .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/softsupporticon_psd.vtex");
 }
+
 .HardSupport .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/hardsupporticon_psd.vtex");
 }
@@ -64,7 +68,6 @@
     width: 500px;
     height: 500px;
     vertical-align: bottom;
-
     visibility: collapse;
 }
 
@@ -98,10 +101,12 @@
     text-shadow: 2px 2px 4px black;
     margin-top: -2px;
 }
+
 .RoleHeroStats .Wins {
     color: winnerGreen;
     font-weight: bold;
 }
+
 .RoleHeroStats .Losses {
     color: #ff4949;
     font-weight: bold;
@@ -130,15 +135,19 @@
 .SafeLane .RoleHeroes {
     background-image: url("s2r://panorama/images/battle_report/battle_report_role_positions_bot_bg_psd.vtex");
 }
+
 .MidLane .RoleHeroes {
     background-image: url("s2r://panorama/images/battle_report/battle_report_role_positions_mid_bg_psd.vtex");
 }
+
 .OffLane .RoleHeroes {
     background-image: url("s2r://panorama/images/battle_report/battle_report_role_positions_top_bg_psd.vtex");
 }
+
 .SoftSupport .RoleHeroes {
     background-image: url("s2r://panorama/images/battle_report/battle_report_role_positions_top_bg_psd.vtex");
 }
+
 .HardSupport .RoleHeroes {
     background-image: url("s2r://panorama/images/battle_report/battle_report_role_positions_bot_bg_psd.vtex");
 }

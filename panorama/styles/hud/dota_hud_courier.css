@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #CourierControlsTopRow {
     flow-children: right;
 }
@@ -36,6 +38,7 @@
     background-size: 100% 100%;
     overflow: noclip noclip;
 }
+
 .ScoutButton {
     height: 34px;
     width: 34px;
@@ -50,6 +53,7 @@
     margin-top: 13px;
     background-image: url("s2r://panorama/images/hud/reborn/icon_courier_standard_psd.vtex");
 }
+
 #SelectCourierButton {
     tooltip-position: top;
     context-menu-position: top;
@@ -230,13 +234,11 @@
     width: 22px;
     border-radius: 50%;
     background-color: #bf481e;
-
     border: 1px solid #300;
     horizontal-align: right;
     vertical-align: top;
     pre-transform-scale2d: 0;
     opacity: 0;
-
     transition-property: opacity, pre-transform-scale2d;
     transition-duration: 0.28s;
     transition-timing-function: ease-in-out;
@@ -272,11 +274,9 @@
     margin: 4px;
     saturation: 0.7;
     brightness: 0.4;
-
     transition-property: saturation, brightness, opacity;
     transition-duration: 0.05s;
     transition-timing-function: ease-in-out;
-
     opacity: 0;
 }
 

@@ -1,17 +1,15 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 .SideQuestBox {
     width: 226px;
     height: 162px;
     border-radius: 5%;
     margin-left: 8px;
     margin-right: 8px;
-
     background-color: #121922;
-
     background-color: #0b183788;
     border: 1px solid #8daefe11;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(secondaryDarkColor), to(secondaryUltraDarkColor));
     border: 1px solid darkColor&aa;
 }
@@ -44,7 +42,6 @@
     z-index: 2;
     text-overflow: shrink;
     horizontal-align: left;
-
     transition-property: border, background-color, color;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -113,15 +110,12 @@
 .SideQuestTimer {
     flow-children: right;
     vertical-align: bottom;
-
     margin: 0px;
     padding-top: 3px;
     padding-left: 8px;
     padding-right: 6px;
     background-color: darkColor;
-
     tooltip-body-position: 50% 50%;
-
     border-top-right-radius: 10px;
 }
 
@@ -153,14 +147,10 @@
     height: 50px;
     border-radius: 50%;
     flow-children: down;
-
     background-color: XPCircleGradient;
     border: XPCircleBorder;
-
     box-shadow: -2px 0px 4px 0px #000000;
-
     z-index: 1;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
 }
@@ -179,9 +169,7 @@
     margin-top: 6px;
     margin-left: 3px;
     font-size: 18px;
-
     text-shadow: -1px 1px 8px 2 #000000bb;
-
     color: white;
     horizontal-align: center;
     vertical-align: middle;

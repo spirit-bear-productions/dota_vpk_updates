@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DashboardPage {
     flow-children: down;
 }
@@ -111,6 +113,7 @@
     margin-top: 24px;
     horizontal-align: center;
 }
+
 #ClaimRewardButton {
     horizontal-align: center;
 }
@@ -205,9 +208,7 @@
     color: white;
     text-shadow: 2px 2px 4px black;
     horizontal-align: center;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -239,7 +240,6 @@
     margin: 0px 6px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#333), to(black));
     border: 1px solid black;
-
     saturation: 0.2;
     brightness: 0.2;
 }

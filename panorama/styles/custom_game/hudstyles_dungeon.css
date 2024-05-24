@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #DungeonHUD #inventory_list,
 #DungeonHUD #inventory_list2 {
     width: 162px;
@@ -11,7 +13,6 @@
 #DungeonHUD #inventory_backpack_list {
     flow-children: down;
     horizontal-align: right;
-
     padding-top: 8px;
     margin-top: 0px;
 }
@@ -20,7 +21,6 @@
     width: 48px;
     horizontal-align: right;
     height: 100%;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -187,7 +187,6 @@
     background-position: 0%;
     transform: scalex(-1);
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;

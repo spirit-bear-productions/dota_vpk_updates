@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABattleReportSimpleStat {
     flow-children: down;
     width: 183px;
@@ -61,7 +63,6 @@ DOTABattleReportSimpleStat Label {
     margin-right: 2px;
     wash-color: #ccc;
     vertical-align: middle;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -70,15 +71,19 @@ DOTABattleReportSimpleStat Label {
 .SafeLane .MaxRoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/safelaneicon_psd.vtex");
 }
+
 .MidLane .MaxRoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/midlaneicon_psd.vtex");
 }
+
 .OffLane .MaxRoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/offlaneicon_psd.vtex");
 }
+
 .SoftSupport .MaxRoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/softsupporticon_psd.vtex");
 }
+
 .HardSupport .MaxRoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/hardsupporticon_psd.vtex");
 }

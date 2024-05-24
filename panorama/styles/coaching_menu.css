@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACoachingMenu {
     width: 366px;
     background-color: black;
@@ -136,9 +138,11 @@ DOTACoachingMenu {
 .OtherSessionMember .CoachRole {
     visibility: collapse;
 }
+
 .OtherSessionMember.MemberIsCoach .CoachRole {
     visibility: visible;
 }
+
 .OtherSessionMember.MemberIsCoach .StudentRole {
     visibility: collapse;
 }

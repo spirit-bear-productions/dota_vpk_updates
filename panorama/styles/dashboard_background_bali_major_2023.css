@@ -1,14 +1,13 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .OnHomePage .MajorBackground {
     width: 100%;
     height: 100%;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#000), to(#222));
-
     background-repeat: no-repeat;
     background-position: center;
     background-color: none;
     background-size: cover;
-
     opacity: 1;
 }
 
@@ -23,7 +22,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: none;
-
     opacity: 1;
 }
 
@@ -32,7 +30,6 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-
     transition-property: opacity, background-image;
     transition-duration: 0.2s;
 }
@@ -42,6 +39,7 @@
     height: 1080px;
     opacity: 0;
 }
+
 #backgroundFX Label {
     color: black;
 }
@@ -56,10 +54,8 @@
     flow-children: down;
     horizontal-align: center;
     width: 900px;
-
     opacity: 0;
     transform: translateY(20px);
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
 }
@@ -79,7 +75,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-
     saturation: 0;
     wash-color: #68685d;
     visibility: collapse;
@@ -202,10 +197,8 @@
     brightness: 0.9;
     saturation: 0.8;
     wash-color: #f1f4c188;
-
     pre-transform-scale2d: 1;
     opacity-brush: gradient(linear, 0% 0%, 0% 100%, from(#ffffffff), to(#ffffff77));
-
     transition-property: brightness, pre-transform-scale2d, wash-color, saturation;
     transition-duration: 0.15s;
 }
@@ -220,11 +213,9 @@
 #WatchButton {
     margin-top: 56px;
     horizontal-align: left;
-
     width: 240px;
     height: 40px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#ffffff4d), to(#efefef06));
-
     vertical-align: center;
     border-radius: 3px;
     padding: 8px;
@@ -258,6 +249,7 @@
     opacity: 1;
     y: 0px;
 }
+
 .Logo {
     opacity: 0;
     y: 100px;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CompendiumBody {
     background-color: black;
     background-image: url("s2r://panorama/images/compendium/international2020/underdraft/sideshop-bg_psd.vtex");
@@ -80,12 +82,14 @@
     flow-children: down;
     width: fill-parent-flow(1);
 }
+
 #RightColumn {
     width: 326px;
     height: 100%;
     flow-children: down;
     margin-left: 8px;
 }
+
 #LeftFooter {
     flow-children: right;
     height: 200px;
@@ -196,7 +200,6 @@
     transition-property: color, background-color;
     transition-duration: 0.21s;
     transition-timing-function: ease-in-out;
-
     width: 300px;
 }
 
@@ -308,7 +311,6 @@
     horizontal-align: left;
     horizontal-align: center;
     font-size: 17px;
-
     text-align: center;
     margin-left: 24px;
 }
@@ -335,9 +337,7 @@
     text-align: right;
     horizontal-align: center;
     color: #f0e6d2;
-
     margin-left: 4px;
-
     font-weight: bold;
     font-size: 24px;
     letter-spacing: 1px;
@@ -412,7 +412,6 @@
     border-top: 1px solid #485677;
     margin-bottom: 12px;
     margin-right: 12px;
-
     transition-property: brightness;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -508,7 +507,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
     vertical-align: middle;
     horizontal-align: center;
     margin-right: -4px;
@@ -649,6 +647,7 @@
     vertical-align: bottom;
     horizontal-align: center;
 }
+
 #MyScoreContents {
     flow-children: down;
     horizontal-align: center;
@@ -711,7 +710,6 @@
     horizontal-align: center;
     margin-right: 4px;
     margin-top: -8px;
-
     visibility: collapse;
 }
 
@@ -817,6 +815,7 @@
 .Tier2 .BenchSlotRing {
     wash-color: rgb(51, 197, 75);
 }
+
 .Tier2 .BenchSlotEmptyFX {
     wash-color: #4e9650;
 }
@@ -832,6 +831,7 @@
         to(#4164b100)
     );
 }
+
 .Tier3 .BenchSlotRing,
 .Tier3 .BenchSlotEmptyFX {
     wash-color: rgb(62, 120, 247);
@@ -848,9 +848,11 @@
         to(#c45edd00)
     );
 }
+
 .Tier4 .BenchSlotRing {
     wash-color: rgb(232, 139, 255);
 }
+
 .Tier4 .BenchSlotEmptyFX {
     wash-color: #c45edd;
 }
@@ -866,9 +868,11 @@
         to(#c19b4600)
     );
 }
+
 .Tier5 .BenchSlotRing {
     wash-color: rgb(255, 166, 50);
 }
+
 .Tier5 .BenchSlotEmptyFX {
     wash-color: rgb(187, 114, 18);
 }
@@ -921,10 +925,12 @@
         brightness: 1;
         saturation: 1;
     }
+
     50% {
         brightness: 5;
         saturation: 1.5;
     }
+
     100% {
         brightness: 1;
         saturation: 1;
@@ -1002,7 +1008,6 @@
 
 .BenchSlot {
     margin: 0px 4px;
-
     overflow: noclip;
 }
 
@@ -1039,6 +1044,7 @@
 .SmallBench .Bench {
     ui-scale: 88%;
 }
+
 .BenchMovie {
     width: 266px;
     height: 246px;
@@ -1094,7 +1100,6 @@
     height: 32px;
     margin: -4px;
     margin-top: 0;
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1131,7 +1136,6 @@
     border: 2px solid secondaryDarkColor;
     box-shadow: inset 0px 0px 16px secondaryDarkColor&90;
     padding: 5px;
-
     transition-property: color, border, box-shadow;
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
@@ -1146,7 +1150,6 @@
     font-weight: bold;
     font-size: 19px;
     text-transform: uppercase;
-
     color: #f0e6d2;
     color: red;
 }

@@ -1,8 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAApplyInfuser {
     flow-children: right;
-
     visibility: collapse;
 }
+
 DOTAApplyInfuser.HasInfusers {
     visibility: visible;
 }
@@ -32,7 +34,6 @@ DOTAApplyInfuser.HasInfusers {
 
 #ApplyButton {
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/compendium/fall2015_button_1_png.vtex");
     background-size: 100% 100%;
     padding: 8px;

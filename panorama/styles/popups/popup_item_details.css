@@ -1,5 +1,6 @@
-@import url("s2r://panorama/styles/collection_shared.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/collection_shared.vcss_c");
 #ItemDetails {
     background-color: #00000000;
 }
@@ -7,7 +8,6 @@
 .PopupPanel.Hidden {
     opacity: 0;
     pre-transform-scale2d: 0.85;
-
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     transition-duration: 0.2s;
 }
@@ -16,10 +16,10 @@
     border: 0px;
     box-shadow: 0px 24px 80px 0px rgba(0, 0, 0, 0.5);
     box-shadow: none;
-
     transition-duration: 0.15s;
     transition-timing-function: ease-in;
 }
+
 .PopupPanel .PopupHeader {
     width: 100%;
     ignore-parent-flow: true;
@@ -32,7 +32,6 @@
     horizontal-align: right;
     vertical-align: top;
     ignore-parent-flow: true;
-
     margin-top: -12px;
     margin-right: 32px;
 }
@@ -59,7 +58,6 @@
     width: 1480px;
     height: 800px;
     border: 1px solid #5e6869;
-
     margin: 24px;
 }
 
@@ -84,7 +82,6 @@
 
 .PopupPanel #Page.Opened {
     animation-name: PageFadeIn;
-
     animation-duration: 0.3s;
     animation-timing-function: ease-in-out;
 }
@@ -131,6 +128,7 @@
 #NavigateBackButton {
     visibility: collapse;
 }
+
 .HasHistory #NavigateBackButton {
     visibility: visible;
 }

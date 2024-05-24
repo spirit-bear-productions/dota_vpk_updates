@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #DOTAStatBranch {
     horizontal-align: center;
     vertical-align: bottom;
@@ -146,7 +148,6 @@ DOTAStatBranch.HasTalentComments .TalentGuideContainer {
     vertical-align: center;
     transition-property: opacity;
     transition-duration: 0.4s;
-
     transition-timing-function: ease-in;
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -408,45 +409,52 @@ DOTAStatBranch:not(.ShowStatBranchAsTooltip) .BranchActive .ReqLabel {
 .StatHotkey {
     visibility: collapse;
 }
+
 DOTAStatBranch:not(.ShowStatBranchAsTooltip) .RightBranchActive .RightBranch.StatHotkey {
     visibility: visible;
 }
+
 DOTAStatBranch:not(.ShowStatBranchAsTooltip) .LeftBranchActive .LeftBranch.StatHotkey {
     visibility: visible;
 }
+
 DOTAStatBranch:not(.ShowStatBranchAsTooltip) .AttributeChoiceActive .StatChoice.StatHotkey {
     visibility: visible;
 }
+
 #LowerTalentArea {
     horizontal-align: center;
     vertical-align: bottom;
     width: 420px;
     height: 63px;
 }
+
 #LowerTalentArea .StatHotkey {
     min-width: 17px;
     min-height: 17px;
     background-color: #212726;
-
     border-radius: 0px 0px 4px 4px;
     border: 1px solid black;
 }
+
 #LowerTalentArea .StatHotkey.LeftBranch {
     margin-left: 9px;
     horizontal-align: left;
 }
+
 #LowerTalentArea .StatHotkey.RightBranch {
     margin-right: 9px;
     horizontal-align: right;
 }
+
 #LowerTalentArea .StatHotkey.StatChoice {
     border-radius: 4px;
     horizontal-align: center;
     transform: translateY(3px);
 }
+
 #LowerTalentArea .StatHotkey Label {
     horizontal-align: center;
-
     color: white;
     text-shadow: 1px 1px 2px 2 #000000;
     font-size: 14px;
@@ -569,7 +577,6 @@ Panel#DetailsScoreboard .LevelProgress {
     background-image: url("s2r://panorama/images/hud/reborn/statbranch_stat_background_psd.vtex");
     background-size: 100%;
     margin-top: -2px;
-
     animation-name: none;
     animation-duration: 2.02s;
     animation-timing-function: linear;
@@ -646,7 +653,6 @@ DOTAStatBranch:not(.ShowStatBranchAsTooltip) #UpgradeStat.could_level_up.TalentB
     horizontal-align: center;
     margin-bottom: 4px;
     vertical-align: bottom;
-
     z-index: 100;
 }
 

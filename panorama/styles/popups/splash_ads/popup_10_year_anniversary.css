@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     width: 1040px;
     height: 700px;
-
     overflow: noclip;
     flow-children: none;
     vertical-align: center;
@@ -32,7 +33,6 @@
         color-stop(0.8, #3ebe98),
         to(#08aac700)
     );
-
     animation-name: ShowBanner;
     animation-duration: 0.8s;
     animation-timing-function: ease-in;
@@ -42,14 +42,17 @@
     0% {
         opacity: 0;
     }
+
     50% {
         transform: rotateZ(-6deg) scale3d(2, 2, 1);
         opacity: 0;
     }
+
     75% {
         transform: rotateZ(-10deg) scale3d(0.9, 0.9, 1);
         opacity: 1;
     }
+
     100% {
         transform: rotateZ(-10deg) scale3d(1, 1, 1);
         opacity: 1;
@@ -259,7 +262,6 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-
     vertical-align: center;
     horizontal-align: center;
 }
@@ -312,11 +314,13 @@
     margin-left: 12px;
     margin-top: 10px;
 }
+
 .TreasureOverview .AnniversaryContainer .YearsContainer {
     width: 100%;
     flow-children: right;
     margin-right: 12px;
 }
+
 .TreasureOverview .AnniversaryContainer .YearsContainer .YearsLabel {
     color: #f7e6b5;
 }
@@ -343,6 +347,7 @@
     flow-children: right;
     margin-right: 8px;
 }
+
 .TreasureOverview .AnniversaryContainer .TreasureContainer .TreasureLabel {
     color: #f7e6b5;
 }
@@ -371,12 +376,11 @@
 .TreasureOverview #ViewTreasurePanel {
     horizontal-align: center;
     width: 375px;
-
     ignore-parent-flow: true;
     vertical-align: bottom;
-
     margin-top: 200px;
 }
+
 .TreasureOverview #ViewTreasurePanel.Inactive {
     visibility: collapse;
 }
@@ -396,6 +400,7 @@
     transition-duration: 0.1s;
     transition-timing-function: ease;
 }
+
 .TreasureOverview .ViewTreasure Label,
 .TreasureOverview .ClaimTreasure Label {
     color: white;
@@ -403,11 +408,9 @@
     font-weight: semi-bold;
     horizontal-align: center;
     vertical-align: middle;
-
     text-transform: uppercase;
     text-shadow: 0px 1px 6px #00000088;
     letter-spacing: 1px;
-
     transition-property: transform;
     transition-duration: 0.05s;
     transition-timing-function: ease;
@@ -420,6 +423,7 @@
     saturation: 0;
     opacity: 0.2;
 }
+
 .TreasureOverview .ViewTreasure.Disabled Label,
 .TreasureOverview .ViewTreasure:disabled Label,
 .TreasureOverview .ClaimTreasure.Disabled Label,
@@ -437,7 +441,6 @@
         color-stop(0.55, #ae9259),
         to(#dcb870)
     );
-
     animation-name: GlowTreasureButtonPrimary;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -460,12 +463,11 @@
 .TreasureOverview .ViewTreasure {
     border: 1px solid white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#f7e7b573), to(#f7e7b519));
-
     width: fill-parent-flow(1);
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
+
 .TreasureOverview .ViewTreasure Label {
     color: #ffffff;
     font-size: 20px;
@@ -477,6 +479,7 @@
 .TreasureOverview .ViewTreasure:hover:enabled:not(.Disabled) {
     brightness: 1.5;
 }
+
 .TreasureOverview .ViewTreasure:hover:enabled:not(.Disabled) Label {
     color: #ffffff;
 }
@@ -484,6 +487,7 @@
 .TreasureOverview .ViewTreasure:active:enabled:not(.Disabled) {
     sound: "ui_generic_button_click";
 }
+
 .TreasureOverview .ViewTreasure:active:enabled:not(.Disabled) Label {
     transform: translateY(1px);
 }

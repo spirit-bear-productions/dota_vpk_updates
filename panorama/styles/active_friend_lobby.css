@@ -1,14 +1,13 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAActiveFriendLobby {
     flow-children: none;
     width: 100%;
     padding: 4px;
-
     padding-left: 10px;
-
     border-top: 1px solid #000000aa;
     border-bottom: 1px solid #000000aa;
     border-right: 16px solid transparent;
-
     background-color: gradient(
         linear,
         100% 0%,
@@ -21,7 +20,6 @@ DOTAActiveFriendLobby {
         color-stop(0.75, #64c390),
         to(#64c390)
     );
-
     transition-property: background-color, pre-transform-scale2d;
     transition-duration: 0.65s;
     transition-delay: 0.2s;
@@ -41,7 +39,6 @@ DOTAActiveFriendLobby {
         color-stop(0.055, #272e31),
         to(#272e31)
     );
-
     transition-delay: 0.5s;
     padding-left: 16px;
 }
@@ -57,7 +54,6 @@ DOTAActiveFriendLobby {
         color-stop(0.035, #272e31),
         to(#272e31)
     );
-
     transition-delay: 0.5s;
     padding-left: 6px;
     padding-top: 2px;
@@ -81,9 +77,7 @@ DOTATooltipFriendsMenu DOTAActiveFriendLobby {
         color-stop(0.035, #272e31),
         to(#272e31)
     );
-
     border-right: 0px solid transparent;
-
     height: 52px;
     transition-delay: 0.5s;
     padding-left: 16px;
@@ -108,7 +102,6 @@ DOTAActiveFriendLobby.FriendMenu .LobbyDetails {
     vertical-align: top;
     horizontal-align: right;
     flow-children: none;
-
     height: 100%;
     margin-left: 0px;
 }

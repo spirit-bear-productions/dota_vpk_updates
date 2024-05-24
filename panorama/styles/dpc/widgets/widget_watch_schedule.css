@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #MainContents {
     horizontal-align: center;
     width: fill-parent-flow(1);
@@ -15,13 +17,11 @@
 #RightArrow {
     height: 100%;
     width: 110px;
-
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
     img-shadow: 1px 1px 8px 1 #333333;
     brightness: 0.9;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -48,10 +48,8 @@
 #RightArrow,
 #RightArrow4x3 {
     background-image: url("s2r://panorama/images/dpc/ticker_arrow_right_psd.vtex");
-
     background-size: contain;
     background-position: 100% 50%;
-
     horizontal-align: right;
 }
 
@@ -72,19 +70,14 @@
 #ScheduleDescriptor {
     width: 288px;
     height: 100%;
-
     background-image: url("s2r://panorama/images/dpc/ticker_title_bg_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: -36px;
-
     flow-children: down;
-
     brightness: 0.9;
-
     transition-property: brightness;
     transition-duration: 0.2s;
-
     z-index: 1;
 }
 
@@ -95,12 +88,10 @@
 .ScheduleWidgetContainer {
     height: 100%;
     width: 340px;
-
     transition-property: position, opacity, background-image, brightness;
     transition-duration: 0.21s;
     transition-timing-function: cubic-bezier(0.785, 0.385, 0.555, 1.505);
     transition-timing-function: ease-in-out;
-
     background-image: url("s2r://panorama/images/dpc/ticker_bg_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,9 +114,11 @@
 .LiveGame.ScheduleWidgetContainer {
     background-image: url("s2r://panorama/images/dpc/ticker_bg_live_psd.vtex");
 }
+
 .LiveGame.HightlightedMatch.ScheduleWidgetContainer {
     background-image: url("s2r://panorama/images/dpc/ticker_bg_selected_live_psd.vtex");
 }
+
 .ScheduleWidgetContainer.Offscreen {
     opacity: 0;
 }
@@ -134,14 +127,11 @@
 .CarouselInitialItemContainer {
     width: 340px;
     height: 100%;
-
     background-image: url("s2r://panorama/images/dpc/ticker_bg_endcap_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
     img-shadow: 1px 1px 8px 1 #333333;
-
     brightness: 0.9;
-
     transition-property: position, opacity, brightness;
     transition-duration: 0.2s;
     overflow: noclip;
@@ -169,11 +159,9 @@
 
 .DayBreak {
     visibility: collapse;
-
     height: 100%;
     width: 40px;
     margin-left: 11px;
-
     background-image: url("s2r://panorama/images/dpc/ticker_divide_psd.vtex");
     background-size: cover;
     transition-property: position, opacity;
@@ -217,7 +205,6 @@
     flow-children: right;
     horizontal-align: center;
     margin-top: 6px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -233,19 +220,14 @@
 #DivisionCycleDescriptor {
     width: 288px;
     height: 100%;
-
     background-image: url("s2r://panorama/images/dpc/ticker_title_bg_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: -36px;
-
     flow-children: down;
-
     brightness: 0.9;
-
     transition-property: brightness;
     transition-duration: 0.2s;
-
     z-index: 1;
 }
 
@@ -274,7 +256,6 @@
 .DivisionCycleLink,
 .ScheduleLink {
     font-size: 16px;
-
     color: bluegreyTextReg;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -289,7 +270,6 @@
 .LinkArrow {
     width: 12px;
     height: 12px;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_minimal_dropdown_psd.vtex");
     background-repeat: no-repeat;
     background-size: 90%;
@@ -306,7 +286,6 @@
 .MatchStatus {
     height: 20px;
     width: 100%;
-
     margin-top: 8px;
     margin-bottom: 2px;
 }
@@ -358,7 +337,6 @@
 .MatchStatusDivision {
     height: 100%;
     width: fill-parent-flow(1);
-
     text-align: right;
     font-size: 16px;
     font-weight: bold;
@@ -383,7 +361,6 @@
 .TeamWins,
 .TeamRecord {
     visibility: collapse;
-
     width: fill-parent-flow(1);
     text-align: right;
     vertical-align: center;
@@ -409,17 +386,18 @@
 .PastGame .TeamName {
     color: bluegreyTextReg;
 }
+
 .Team1Winner.PastGame .TeamName__1,
 .Team2Winner.PastGame .TeamName__2 {
     color: bluegreyTextBright;
 }
+
 .WatchDPC__SpoilerMode .PastGame .TeamName {
     color: bluegreyTextBright;
 }
 
 .TeamFavorite {
     visibility: collapse;
-
     margin-left: 2px;
     vertical-align: center;
 }
@@ -440,7 +418,6 @@
 .PastGame .TeamWins,
 .LiveGame .TeamWins {
     visibility: visible;
-
     font-size: 20px;
 }
 

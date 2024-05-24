@@ -1,5 +1,6 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 DOTAQuickStats {
     visibility: visible;
     flow-children: down;
@@ -94,7 +95,6 @@ DOTAQuickStats.Hidden {
     text-shadow: 1px 1px 1px 2 #00000033;
     width: fit-children;
     text-align: center;
-
     font-family: monospaceNumbersFont;
     margin-right: 4px;
     horizontal-align: center;
@@ -146,7 +146,6 @@ DOTAQuickStats.Hidden {
     text-shadow: 1px 1px 1px 2 #00000099;
     width: fit-children;
     text-align: center;
-
     font-family: monospaceNumbersFont;
     margin-right: 4px;
     horizontal-align: center;
@@ -216,7 +215,6 @@ DOTAQuickStats.Hidden {
     background-size: 15px 15px;
     transform: rotateZ(180deg);
     wash-color: red;
-
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -297,7 +295,6 @@ DOTAQuickStats.Hidden {
     margin-top: 4px;
     margin-right: 5px;
     background-size: 100%;
-
     background-image: url("s2r://panorama/images/badges/international_2020_battle_pass_badge_3_png.vtex");
 }
 
@@ -371,7 +368,6 @@ DOTAQuickStats.Hidden {
     font-size: 14px;
     text-shadow: 1px 1px 1px 2 #00000099;
     text-overflow: ellipsis;
-
     color: white;
     width: 100%;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAEmoticonPicker {
     background-color: #222222f5;
     padding-left: 8px;
@@ -5,6 +7,7 @@ DOTAEmoticonPicker {
     padding-bottom: 8px;
     border: 1px solid #333333;
 }
+
 DOTAEmoticonPicker.HideBackground {
     background-color: #00000000;
     border: 0px;
@@ -33,6 +36,7 @@ DOTACollectionPageGlobalInterfaceItems #EmoticonsContainer {
 PopupShowcaseAddItemV2 #EmoticonDisplay {
     width: 100%;
 }
+
 PopupShowcaseAddItemV2 #EmoticonDisplay #EmoticonsContainer {
     height: 650px;
     max-height: 650px;
@@ -83,6 +87,7 @@ VerticalScrollBar {
     background-color: black;
     border-radius: 8px;
 }
+
 .HideAlias #EmoticonAlias {
     visibility: collapse;
 }
@@ -94,7 +99,6 @@ VerticalScrollBar {
 
 #EmoticonsContainer DOTAEmoticon {
     margin: 4px;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.2s;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .TeamSelect {
     width: 100%;
     height: 100%;
@@ -30,7 +32,6 @@
         to(#000000dd)
     );
     box-shadow: black 0px 0px 8px 0px;
-
     animation-name: TeamsListAppear;
     animation-duration: 0.75s;
 }
@@ -62,7 +63,6 @@
     font-size: 22px;
     letter-spacing: 1px;
     color: #667273;
-
     margin-left: 8px;
 }
 
@@ -265,7 +265,6 @@
     letter-spacing: 1px;
     color: #667273;
     text-transform: uppercase;
-
     transition-property: color;
     transition-duration: 0.2s;
 }
@@ -377,12 +376,9 @@
 
 #CancelAndUnlockButton {
     horizontal-align: right;
-
     visibility: collapse;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#2c1b1b), to(#482e2f));
     box-shadow: fill #552e2f00 1px 1px 8px 1px;
-
     border-top: 1px solid #3d2929;
     border-right: 1px solid #372121;
     border-left: 1px solid #372121;
@@ -466,7 +462,6 @@
     horizontal-align: right;
     vertical-align: center;
     margin-top: 4px;
-
     transition-property: color;
     transition-duration: 0.2s;
 }
@@ -556,13 +551,11 @@ DOTAAvatarImage {
     width: 24px;
     height: 24px;
     wash-color: #aa0000ee;
-
     background-image: url("s2r://panorama/images/control_icons/x_close_png.vtex");
     background-size: 24px 24px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     margin: 4px;
-
     visibility: collapse;
 }
 

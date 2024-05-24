@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .TournamentMatchDetailsGame {
     width: 100%;
     flow-children: down;
@@ -10,7 +12,6 @@
 .WeekendTourneyPageOpen .MatchDetailsGameTeam {
     flow-children: down;
     width: fill-parent-flow(0.6);
-
     margin-bottom: 4px;
     margin-top: 15px;
 }
@@ -19,14 +20,17 @@
     flow-children: down;
     width: fill-parent-flow(0.3);
 }
+
 .MatchDetailsGameTeamImages {
     flow-children: right;
     horizontal-align: center;
 }
+
 .MatchDetailsGameInfo {
     width: fill-parent-flow(0.4);
     flow-children: down;
 }
+
 .WeekendTourneyPageOpen .MatchDetailsGameInfo {
     margin-top: 20px;
 }
@@ -82,12 +86,14 @@
     flow-children: right;
     padding: 6px 8px 8px 8px;
 }
+
 .MatchDetailsGameButton {
     margin: 0px 5px;
     padding: 4px 5px 2px 5px;
     min-width: 0px;
     width: fill-parent-flow(1);
 }
+
 .MatchDetailsGameButton Label {
     font-size: 16px;
     text-transform: uppercase;
@@ -138,10 +144,12 @@
     background-color: #488d68;
     visibility: collapse;
 }
+
 #MatchDetailsGameWatchLive Label {
     color: black;
     letter-spacing: 1px;
 }
+
 #MatchDetailsGameWatchLive:hover:enabled {
     brightness: 1.5;
 }
@@ -153,6 +161,7 @@
 .LiveGame #MatchDetailsGameTime {
     color: #488d68;
 }
+
 .LiveGame #MatchDetailsGameShowDetails,
 .LiveGame #MatchDetailsGameWatchReplay {
     visibility: collapse;
@@ -174,7 +183,6 @@
     color: #cccccc;
     font-size: 16px;
     margin-top: 2px;
-
     visibility: collapse;
 }
 

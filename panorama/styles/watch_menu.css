@@ -1,12 +1,12 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAWatchMenu {
     background-color: gradient(linear, 0% 0%, 0% 2%, from(#222631), to(#222631));
     width: 100%;
     box-shadow: #000 0px 0px 10px fill;
     flow-children: down;
-
     transform: translateY(-100%);
     opacity: 0;
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
 }
@@ -19,7 +19,6 @@ DOTAWatchMenu.MenuVisible {
 .Header {
     flow-children: right;
     width: 100%;
-
     background-image: url("s2r://panorama/images/backgrounds/watch_drawer_header_psd.vtex");
     background-size: cover;
     background-repeat: no-repeat;
@@ -116,10 +115,8 @@ DOTAWatchMenu.MenuVisible {
 
 .FantasyButton {
     padding: 2px 8px;
-
     background-color: #576792;
     border: 1px solid #687ebd;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -150,7 +147,6 @@ DOTAWatchMenu.MenuVisible {
     width: 100%;
     flow-children: down;
     margin-top: 12px;
-
     visibility: collapse;
 }
 
@@ -212,7 +208,6 @@ DOTAWatchMenu.MenuVisible {
     background-color: #181b23;
     margin-top: 12px;
     padding-bottom: 15px;
-
     visibility: collapse;
 }
 
@@ -223,12 +218,10 @@ DOTAWatchMenu.MenuVisible {
 .FantasyHeader {
     flow-children: right;
     padding: 8px 12px;
-
     background-image: url("s2r://panorama/images/backgrounds/watch_drawer_fantasy_header_psd.vtex");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -338,13 +331,14 @@ DOTAWatchMenu.MenuVisible {
     color: #999;
     font-size: 16px;
     text-decoration: underline;
-
     transition-property: color;
     transition-duration: 0.2s;
 }
+
 .FantasySetRosterLink:hover Label {
     color: white;
 }
+
 .FantasySetRosterLink:active Label {
     color: #ccc;
 }
@@ -436,7 +430,6 @@ DOTAWatchMenu.MenuVisible {
     background-color: black;
     margin-top: 12px;
     visibility: collapse;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -457,7 +450,6 @@ DOTAWatchMenu.MenuVisible {
     width: 100%;
     height: 100%;
     horizontal-align: right;
-
     background-image: url("s2r://panorama/images/backgrounds/watch_drawer_supporters_header_psd.vtex");
     background-size: cover;
     background-repeat: no-repeat;
@@ -489,7 +481,6 @@ DOTAWatchMenu.MenuVisible {
     margin-top: 4px;
     padding: 2px 6px 2px 6px;
     background-color: #327e3d;
-
     visibility: collapse;
 }
 

@@ -1,5 +1,6 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 .WeeklyChallengeProgressLabel {
     vertical-align: middle;
     horizontal-align: center;
@@ -22,14 +23,11 @@
 
 #ChallengeProgress .ProgressBarLeft {
     background-color: #f7b67f;
-
     background-color: #baf77f;
     box-shadow: none;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(defaultColor), to(accentColorBright));
     box-shadow: none;
     border-radius: 50px;
-
     background-color: accentColor;
 }
 

@@ -1,16 +1,15 @@
-@define legacyWidth:  512px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define legacyWidth: 512px;
 @define legacyHeight: 608px;
 @define newWidth: 674px;
 @define newHeight: 800px;
-
 DOTACompendiumPage {
     margin-top: 110px;
     width: 100%;
     height: 840px;
-
     vertical-align: top;
     horizontal-align: center;
-
     opacity: 0;
 }
 
@@ -185,17 +184,14 @@ DOTACompendiumPage.Loaded #ContainerLoaded {
 
 .NavButton {
     vertical-align: middle;
-
     width: 50px;
     height: 50px;
     margin-left: 6px;
     margin-right: 6px;
-
     wash-color: #9db1b7;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
     transition-property: wash-color, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -237,13 +233,11 @@ DOTACompendiumPage.Loaded #ContainerLoaded {
     height: 67px;
     padding-left: 30px;
     padding-right: 30px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5eaa69aa), to(#334433ff));
     box-shadow: fill #00ff0044 0px 0px 6px 0px;
     border: 2px solid #5eff6966;
     border-radius: 5px;
     opacity: 0;
-
     transition-property: opacity, background-color, border, box-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -273,9 +267,7 @@ DOTACompendiumPage.IsPreview #PreviewContainer {
     horizontal-align: right;
     flow-children: right;
     wash-color: #9db1b7;
-
     margin-right: 72px;
-
     opacity: 0;
 }
 
@@ -331,7 +323,6 @@ DOTACompendiumPage.HasLevel #LevelContainer {
     horizontal-align: left;
     margin-left: 20px;
     vertical-align: bottom;
-
     z-index: 1;
 }
 

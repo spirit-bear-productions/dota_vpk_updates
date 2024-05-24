@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 TournamentNode {
     flow-children: down;
 }
@@ -23,7 +25,6 @@ TournamentNode {
     text-align: center;
     text-transform: uppercase;
     vertical-align: bottom;
-
     color: #c3a771;
     margin-bottom: 8px;
     letter-spacing: 2px;
@@ -51,7 +52,6 @@ TournamentNode {
     letter-spacing: 1px;
     text-align: center;
     width: 100%;
-
     vertical-align: bottom;
 }
 
@@ -66,10 +66,10 @@ TournamentNode {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#24242488), to(#24242488));
     margin-top: 2px;
     margin-bottom: 2px;
-
     transition-property: background-color;
     transition-duration: 0s;
 }
+
 .BattleCupBracket.BracketAnimationInProgress TournamentNodeTeam {
     transition-duration: 0.5s;
 }
@@ -81,6 +81,7 @@ TournamentNode {
 .BattleCupBracket .CurrentRound TournamentNodeTeam {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#925b1f), to(#a27e37));
 }
+
 .BattleCupBracket.FadeOthersInCurrentRound .CurrentRound:not(.YourNode) TournamentNodeTeam {
     background-color: #24242488;
 }
@@ -111,7 +112,6 @@ TournamentNode {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#242424), to(#242424));
     margin-top: 2px;
     margin-bottom: 2px;
-
     animation-name: losing-node;
     animation-duration: 7s;
     animation-timing-function: linear;
@@ -157,7 +157,6 @@ TournamentNode {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#393939), to(#5c5c5c));
     margin-top: 2px;
     margin-bottom: 2px;
-
     animation-name: winning-node;
     animation-duration: 7s;
     animation-timing-function: linear;
@@ -214,7 +213,6 @@ TournamentNode {
     height: 180px;
     margin-bottom: -180px;
     transform: translateY(-10px) translateX(-90px);
-
     hue-rotation: 160deg;
     opacity: 0;
     wash-color: #936017;
@@ -236,7 +234,6 @@ TournamentNode {
 #Scores {
     width: 100%;
     height: fit-children;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -254,18 +251,14 @@ TournamentNode.ScoreSpoilerBlocked #Background:hover #Scores {
 #SpoilerLock {
     horizontal-align: center;
     vertical-align: center;
-
     wash-color: #788a8a;
 }
 
 #SpoilerLockScores {
     vertical-align: center;
     horizontal-align: right;
-
     margin-right: 4px;
-
     wash-color: #788a8a;
-
     visibility: collapse;
 }
 
@@ -276,7 +269,6 @@ TournamentNode.ScoreSpoilerBlocked #Background:hover #Scores {
 #StageSpoilerCover {
     width: 100%;
     height: 100%;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -294,9 +286,7 @@ TournamentNode.NodeSpoilerBlocked #Background:hover #StageSpoilerCover {
 #StageSpoilerCover Label {
     horizontal-align: center;
     vertical-align: center;
-
     margin-top: 2px;
-
     color: #788a8a;
     font-size: 17px;
 }
@@ -304,7 +294,6 @@ TournamentNode.NodeSpoilerBlocked #Background:hover #StageSpoilerCover {
 #SpoilerCover {
     width: 100%;
     height: 50px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -314,9 +303,7 @@ TournamentNode.NodeSpoilerBlocked #Background:hover #StageSpoilerCover {
 #SpoilerCover Label {
     horizontal-align: center;
     vertical-align: center;
-
     margin-top: 2px;
-
     color: #788a8a;
     font-size: 17px;
 }
@@ -334,7 +321,6 @@ TournamentNode.ScoreSpoilerBlocked #Background:hover #SpoilerCover {
     flow-children: down;
     width: 100%;
     height: fit-children;
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
@@ -444,15 +430,18 @@ TournamentNode:enabled #Background:hover {
 .Live {
     border-color: green;
 }
+
 #WatchLive {
     width: 100%;
     height: 20px;
     background-color: black;
     visibility: collapse;
 }
+
 .CanWatchLive #WatchLive {
     visibility: visible;
 }
+
 #WatchLive Label {
     width: 100%;
     text-align: center;

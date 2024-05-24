@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #PredictionTitle {
     font-size: 30px;
     text-transform: uppercase;
@@ -8,19 +10,23 @@ DOTAPopupPredictionResults {
     width: 800px;
     flow-children: down;
 }
+
 #TopHeader {
     width: 100%;
     flow-children: right;
 }
+
 #MainSectionContainer {
     background-color: #333333;
     width: 100%;
     flow-children: down;
 }
+
 #Header {
     flow-children: right;
     width: 100%;
 }
+
 #Rank {
     width: 10%;
 }
@@ -50,31 +56,38 @@ DOTAPopupPredictionResults {
     horizontal-align: center;
     vertical-align: middle;
 }
+
 #HeroContainer {
     width: 100%;
     horizontal-align: left;
     flow-children: right;
     text-align: center;
 }
+
 #HeroNameLabel {
     horizontal-align: left;
 }
+
 .TeamPopup #HeroImage,
 .PlayerPopup #HeroImage,
 .TeamPopup #HeroNameLabel,
 .PlayerPopup #HeroNameLabel {
     visibility: collapse;
 }
+
 .HeroPopup #PlayerTeamImage {
     visibility: collapse;
 }
+
 .HeroPopup .BodyRow {
     height: 50px;
     margin-bottom: 5px;
 }
+
 #TeamPlayerContainer .AnswerLabel {
     horizontal-align: left;
 }
+
 .HeroPopup .AnswerLabel {
     visibility: collapse;
 }
@@ -84,11 +97,13 @@ DOTAPopupPredictionResults {
     height: 80px;
     margin-bottom: 5px;
 }
+
 #PlayerTeamImage {
     width: 80px;
     height: 80px;
     horizontal-align: center;
 }
+
 .ResultText Label {
     color: #bfd2ee;
     vertical-align: middle;
@@ -96,6 +111,7 @@ DOTAPopupPredictionResults {
     text-align: center;
     padding-left: 20px;
 }
+
 #TeamPlayerContainer {
     width: 100%;
     horizontal-align: left;

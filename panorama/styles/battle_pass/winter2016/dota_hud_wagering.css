@@ -1,10 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAWagering {
     opacity: 0;
     transform: translateY(-20px);
     width: 866px;
-
     padding-top: 44px;
-
     horizontal-align: center;
     transition-property: opacity, transform;
     transition-delay: 2s;
@@ -20,7 +20,6 @@ DOTAWagering.WageringComplete {
 
 #CenterPanel {
     horizontal-align: center;
-
     margin-top: 20px;
     width: 840px;
     height: 134px;
@@ -33,7 +32,6 @@ DOTAWagering.WageringComplete {
         color-stop(0.05, #000000cc),
         to(#ff000000)
     );
-
     transition-property: opacity, transform, background-color;
     transition-duration: 0.32s;
 }
@@ -70,7 +68,6 @@ DOTAWagering.WageringComplete {
 
 #YourCoins {
     width: 255px;
-
     horizontal-align: left;
     vertical-align: center;
     margin-top: 4px;
@@ -81,9 +78,7 @@ DOTAWagering.WageringComplete {
     color: #aaaaaa;
     letter-spacing: 1px;
     text-shadow: 0px 0px 6px 4 black;
-
     horizontal-align: right;
-
     tooltip-position: left;
 }
 
@@ -194,15 +189,12 @@ DOTAWagering.WageringComplete {
 .TokenImage {
     width: 58px;
     height: 58px;
-
     border-radius: 50%;
     wash-color: #62c2f4;
     background-image: url("s2r://panorama/images/control_icons/wagertoken_psd.vtex");
-
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-
     transition-property: width, height;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -217,7 +209,6 @@ DOTAWagering.WageringComplete {
 
 #TimeContainer {
     padding: 3px;
-
     flow-children: right;
     horizontal-align: center;
     margin-top: 106px;
@@ -307,12 +298,9 @@ DOTAWagering.WageringComplete {
     width: 45px;
     height: 45px;
     horizontal-align: center;
-
     border-radius: 50%;
     border: 1px solid #62c2f4;
-
     box-shadow: #000000dd 0px 0px 10px 0px;
-
     opacity: 0;
 }
 
@@ -320,6 +308,7 @@ DOTAWagering.WageringComplete {
     40% {
         brightness: 10;
     }
+
     60% {
         brightness: 10;
     }
@@ -344,7 +333,6 @@ DOTAWagering.WageringComplete {
 .PlayerWager .TokenImage {
     height: 45px;
     width: 45px;
-
     padding: 0px;
     margin: 0px;
     border: 0px solid transparent;
@@ -379,7 +367,6 @@ DOTAWagering.WageringComplete {
 
 .CloseButton {
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_up_png.vtex");
-
     transition-property: transform;
     transition-duration: 0.15s;
     margin-left: 12px;
@@ -402,12 +389,9 @@ DOTAWagering.WageringComplete {
 
 #WagerCompletePanel {
     horizontal-align: center;
-
     transition-property: opacity;
     transition-duration: 1s;
-
     margin-top: 20px;
-
     opacity: 0;
 }
 

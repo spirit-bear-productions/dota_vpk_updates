@@ -1,5 +1,6 @@
-@define partybordercolor: #37413f;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define partybordercolor: #37413f;
 DOTAReadyUpPlayers {
     padding: 2px;
     flow-children: down;

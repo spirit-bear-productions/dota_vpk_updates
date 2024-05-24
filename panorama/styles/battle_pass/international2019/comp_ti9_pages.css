@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FullScreenBackground {
     width: 100%;
     height: 100%;
@@ -11,7 +13,6 @@
         color-stop(0.8, #344862cc),
         to(#192331aa)
     );
-
     transition-property: background-color;
     transition-duration: 0.5s;
 }
@@ -63,14 +64,12 @@
     saturation: 1;
     contrast: 1;
     brightness: 1;
-
     transform: translateX(0px);
     width: 542px;
     horizontal-align: right;
     flow-children: right;
     height: 120px;
     margin-top: 60px;
-
     transition-property: transform, saturation, contrast, brightness, hue-rotation;
     transition-duration: 0.5s;
 }
@@ -86,13 +85,10 @@
     margin-top: -60px;
     margin-left: 32px;
     transform: rotateZ(20deg) translateY(12px);
-
     background-image: url("s2r://panorama/images/compendium/whitebox_glass_psd.vtex");
     background-size: cover;
-
     border-radius: 1px;
     overflow: noclip;
-
     animation-name: SlantMotion;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -101,9 +97,11 @@
 #WhiteBox1 {
     animation-duration: 31.3s;
 }
+
 #WhiteBox2 {
     animation-duration: 21.161s;
 }
+
 #WhiteBox3 {
     animation-duration: 26.7s;
 }
@@ -112,9 +110,11 @@
     0% {
         transform: rotateZ(20deg) translateY(12px) translateX(0px);
     }
+
     50% {
         transform: rotateZ(20deg) translateY(12px) translateX(-22px);
     }
+
     100% {
         transform: rotateZ(20deg) translateY(12px) translateX(0px);
     }
@@ -124,12 +124,10 @@
     width: 428px;
     height: 72px;
     border-radius: 1px;
-
     background-image: url("s2r://panorama/images/compendium/whitebox_glass_psd.vtex");
     background-size: cover;
     transform: rotateZ(-215deg) translateX(-40px) translateY(-50px);
     opacity: 0.2;
-
     animation-duration: 18s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -160,7 +158,6 @@
     background-image: url("s2r://panorama/images/compendium/campaigncoverart_glow_psd.vtex");
     background-repeat: no-repeat;
     background-size: 100%;
-
     transition-property: transform, saturation, hue-rotation, opacity;
     transition-duration: 0.5s;
 }
@@ -180,9 +177,11 @@
 #WhiteBox1 .Reflection {
     animation-name: ReflectionMotion1;
 }
+
 #WhiteBox2 .Reflection {
     animation-name: ReflectionMotion2;
 }
+
 #WhiteBox3 .Reflection {
     animation-name: ReflectionMotion3;
 }
@@ -191,9 +190,11 @@
     0% {
         transform: rotateZ(-210deg) translateX(-20px) translateY(-20px);
     }
+
     50% {
         transform: rotateZ(-205deg) translateX(-20px) translateY(-30px);
     }
+
     100% {
         transform: rotateZ(-210deg) translateX(-20px) translateY(-20px);
     }
@@ -203,9 +204,11 @@
     0% {
         transform: rotateZ(-209deg) translateX(-110px) translateY(2px);
     }
+
     50% {
         transform: rotateZ(-204deg) translateX(-110px) translateY(2px);
     }
+
     100% {
         transform: rotateZ(-209deg) translateX(-110px) translateY(2px);
     }
@@ -215,9 +218,11 @@
     0% {
         transform: rotateZ(-208deg) translateX(-180px) translateY(14px);
     }
+
     50% {
         transform: rotateZ(-203deg) translateX(-180px) translateY(19px);
     }
+
     100% {
         transform: rotateZ(-208deg) translateX(-180px) translateY(14px);
     }
@@ -233,7 +238,6 @@
 .CompendiumHeader {
     width: 1392px;
     height: 72px;
-
     horizontal-align: center;
     vertical-align: top;
     margin-top: 100px;
@@ -243,7 +247,6 @@
     padding-top: 10px;
     width: 1392px;
     height: 800px;
-
     horizontal-align: center;
     z-index: 2;
 }
@@ -361,15 +364,12 @@
     padding: 8px 10px 4px 10px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#156300ff), to(#158f00ff));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#60862d), to(#3d5f1c));
-
     border-top: 1px solid #ffffff22;
     border-left: 1px solid #ffffff11;
     border-right: 1px solid #00000044;
     border-bottom: 1px solid #00000088;
-
     transition-property: background-color;
     transition-duration: 0.2s;
-
     visibility: collapse;
 }
 
@@ -400,11 +400,9 @@
     color: white;
     margin-top: -12px;
     opacity: 1;
-
     horizontal-align: left;
     text-shadow: 0px 0px 5px 3 #000000;
     text-shadow: 0px 0px 8px 1 #61beff;
-
     transition-property: opacity;
     transition-duration: 0.5s;
 }
@@ -447,7 +445,6 @@
     letter-spacing: 5px;
     text-shadow: 0px 0px 8px 1 #61beff;
     margin-top: 28px;
-
     text-align: left;
     opacity: 0;
     transition-property: opacity;
@@ -464,11 +461,8 @@
     background-size: contain;
     width: 314px;
     height: 100px;
-
     margin-top: 28px;
-
     opacity: 1;
-
     transition-property: opacity, brightness;
     transition-duration: 0.5s, 0.12s;
 }
@@ -483,7 +477,6 @@
     pre-transform-scale2d: 0.5;
     transform: translateX(-48px) translateY(-16px);
     opacity: 0;
-
     horizontal-align: left;
 }
 
@@ -505,7 +498,6 @@
 .CompendiumBody {
     width: 1920px;
     height: 790px;
-
     horizontal-align: center;
 }
 
@@ -568,11 +560,8 @@ DOTABPInternational2019WageringPage .CompendiumBody {
     background-color: black;
     overflow: clip scroll;
     padding: 16px;
-
     wash-color: black;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_vscroll_psd.vtex") 1;
-
     transition-property: height, wash-color;
     transition-duration: 0.25s;
 }
@@ -594,7 +583,6 @@ DOTABPInternational2019WageringPage .CompendiumBody {
     width: 64px;
     height: 64px;
     vertical-align: center;
-
     background-image: url("s2r://panorama/images/compendium/shield_icon_psd.vtex");
     background-size: cover;
 }
@@ -739,10 +727,8 @@ DOTABPInternational2019WageringPage .CompendiumBody {
 #QuestEventGoal {
     vertical-align: bottom;
     horizontal-align: right;
-
     margin-bottom: 16px;
     margin-right: 16px;
-
     z-index: 2;
 }
 
@@ -767,7 +753,6 @@ DOTABPInternational2019WageringPage .CompendiumBody {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-
     transition-property: opacity, background-image;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -807,7 +792,6 @@ DOTABPInternational2019WageringPage .CompendiumBody {
     transform: rotateZ(0deg) translateY(0px);
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     wash-color: #91bee3;
-
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 2px;
@@ -843,9 +827,7 @@ DOTABPInternational2019WageringPage .CompendiumBody {
     width: 900px;
     height: 116px;
     border: 1px solid black;
-
     saturation: 0.5;
-
     background-color: #000000ee;
     background-position: 50% 50%;
     background-size: cover;
@@ -876,9 +858,11 @@ DOTABPInternational2019WageringPage .CompendiumBody {
 #Questline1Picker {
     background-image: url("s2r://panorama/images/temp/temp_quest1_psd.vtex");
 }
+
 #Questline2Picker {
     background-image: url("s2r://panorama/images/temp/temp_quest2_psd.vtex");
 }
+
 #Questline3Picker {
     background-image: url("s2r://panorama/images/temp/temp_quest3_psd.vtex");
 }
@@ -895,9 +879,7 @@ DOTABPInternational2019WageringPage .CompendiumBody {
 #QuestWell {
     width: 900px;
     height: 353px;
-
     overflow: clip;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex") 1;
 }
 
@@ -908,7 +890,6 @@ DOTABPInternational2019WageringPage .CompendiumBody {
 #RewardsWell {
     width: 2560px;
     height: 356px;
-
     margin-top: 16px;
     vertical-align: bottom;
     overflow: clip;
@@ -938,7 +919,6 @@ DOTABPInternational2019WageringPage .CompendiumBody {
 .ContentsHeader {
     height: 30px;
     background-color: #1e2f41;
-
     text-align: center;
     color: white;
     font-size: 16px;
@@ -1038,7 +1018,6 @@ DOTABPInternational2019WageringPage .CompendiumBody {
     width: 100%;
     margin-top: -16px;
     wash-color: black;
-
     transition-property: wash-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
@@ -1126,7 +1105,6 @@ DOTABPInternational2019WageringPage .CompendiumBody {
     margin: 16px;
     wash-color: #78a0c8;
     opacity: 0.2;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -1145,7 +1123,6 @@ DOTABPInternational2019WageringPage .CompendiumBody {
     padding-left: 16px;
     padding-right: 16px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#202d3d00), color-stop(0.5, #202d3ddd), to(#202d3ddd));
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -1159,7 +1136,6 @@ DOTABPInternational2019WageringPage .CompendiumBody {
     letter-spacing: 1px;
     color: #92b4d9;
     margin-top: 16px;
-
     transition-property: color;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -1193,7 +1169,6 @@ DOTABPInternational2019WageringPage .CompendiumBody {
     width: 326px;
     height: 335px;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/compendium/tokenstack_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1225,9 +1200,11 @@ DOTABPInternational2019WageringPage .CompendiumBody {
 #Next1 {
     margin-right: 660px;
 }
+
 #Next2 {
     margin-left: 26px;
 }
+
 #Next3 {
     margin-left: 714px;
 }
@@ -1327,7 +1304,6 @@ VerticalScrollBar:hover .ScrollThumb {
 .AsyncWagerInfoData {
     opacity: 0;
     margin-bottom: 32px;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -1356,11 +1332,8 @@ VerticalScrollBar:hover .ScrollThumb {
     margin-right: 16px;
     margin-top: 16px;
     padding-left: 2px;
-
     box-shadow: -2px 0px 4px 0px #000000;
-
     z-index: 1;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
 }
@@ -1368,7 +1341,6 @@ VerticalScrollBar:hover .ScrollThumb {
 .CommunityGoal {
     width: 100%;
     height: 64px;
-
     margin: 16px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -1441,10 +1413,8 @@ VerticalScrollBar:hover .ScrollThumb {
     width: fit-children;
     text-overflow: clip;
     color: #7b96ca;
-
     color: white;
     visibility: visible;
-
     horizontal-align: center;
     text-shadow: 0px 0px 5px 3 #000000;
     text-shadow: 0px 0px 8px 1 #61beff;
@@ -1505,7 +1475,6 @@ VerticalScrollBar:hover .ScrollThumb {
 
 DOTACompTI9PlayerCardsPage #CompendiumBody {
     flow-children: down;
-
     background-color: #23110a;
     background-color: gradient(
         linear,
@@ -1527,7 +1496,6 @@ DOTACompTI9PlayerCardsPage #CardPackScenePanel {
     transition-timing-function: ease-in-out;
     transform: translateY(-20px) translateX(-300px);
     opacity: 1;
-
     pre-transform-scale2d: 0.8;
 }
 
@@ -1544,15 +1512,11 @@ DOTACompTI9PlayerCardsPage.NoTeams #NoTeamsPanel {
 DOTACompTI9PlayerCardsPage.NoTeams #NoTeamsLabel {
     font-size: 20px;
     font-weight: bold;
-
     width: 400px;
     margin-bottom: 50px;
-
     vertical-align: center;
     horizontal-align: right;
-
     color: white;
-
     margin-right: 450px;
 }
 
@@ -1565,7 +1529,6 @@ DOTACompTI9PlayerCardsPage #PremiumContainer {
     horizontal-align: center;
     height: 60px;
     width: 1360px;
-
     background-color: gradient(
         linear,
         100% 0%,
@@ -1587,7 +1550,6 @@ DOTACompTI9PlayerCardsPage #PremiumContainer {
         color-stop(0.6, #a77a42),
         to(#f7b56300)
     );
-
     margin-top: 10px;
 }
 
@@ -1596,7 +1558,6 @@ DOTACompTI9PlayerCardsPage #PremiumContainer #OpenPremiumPackButton {
     width: 258px;
     horizontal-align: left;
     vertical-align: center;
-
     height: 36px;
     margin-left: 40px;
 }
@@ -1615,7 +1576,6 @@ DOTACompTI9PlayerCardsPage #PremiumContainer #OpenPremiumPackButton Label {
     padding-left: 10px;
     vertical-align: middle;
     overflow: noclip;
-
     flow-children: right;
 }
 
@@ -1635,7 +1595,6 @@ DOTACompTI9PlayerCardsPage #PremiumContainer #OpenPremiumPackButton Label {
     vertical-align: center;
     text-shadow: 0px 0px 5px 3 #000000;
     margin-right: 4px;
-
     color: #cccccc;
 }
 
@@ -1644,7 +1603,6 @@ DOTACompTI9PlayerCardsPage #PremiumContainer #OpenPremiumPackButton Label {
     pre-transform-scale2d: 1;
     brightness: 1;
     opacity: 1;
-
     transition-property: pre-transform-scale2d, brightness, opacity, text-shadow;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -1670,21 +1628,16 @@ DOTACompTI9PlayerCardsPage #PlayerCardsHeader .DustContainer,
 DOTACompTI9PlayerCardsPage #PremiumContainer .DustContainer {
     vertical-align: middle;
     horizontal-align: right;
-
     flow-children: right;
 }
 
 DOTACompTI9PlayerCardsPage .DustCount {
     horizontal-align: center;
     vertical-align: center;
-
     text-shadow: 0px 0px 5px 3 #000000;
     font-size: 22px;
-
     text-align: right;
-
     color: #cccccc;
-
     margin-top: 10px;
 }
 
@@ -1696,7 +1649,6 @@ DOTACompTI9PlayerCardsPage #SpecificPlayerButton {
 DOTACompTI9PlayerCardsPage #RecyleAllDupesButton {
     horizontal-align: center;
     height: 0;
-
     transition-property: height;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -1723,10 +1675,8 @@ DOTACompTI9PlayerCardsPage #PremiumContainer #CreatePremiumPackButton {
     width: 258px;
     horizontal-align: right;
     vertical-align: center;
-
     max-height: 36px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#9079c7e8), to(#453254f8));
-
     margin-right: 40px;
 }
 
@@ -1768,9 +1718,7 @@ DOTACompTI9PlayerCardsPage
 
 DOTACompTI9PlayerCardsPage #PlayerCardsBody {
     height: 800px;
-
     horizontal-align: center;
-
     flow-children: right-wrap;
     overflow: clip scroll;
     opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_vscroll_wide_psd.vtex") 1;
@@ -1784,11 +1732,9 @@ DOTACompTI9PlayerCardsPage #FantasyLabel {
     letter-spacing: 2px;
     text-align: center;
     horizontal-align: left;
-
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     padding-bottom: 4px;
 }
 
@@ -1813,7 +1759,6 @@ DOTACompTI9PlayerCardsPage #FantasyLabelLink {
         color-stop(0.8, #000000),
         to(#00000000)
     );
-
     flow-children: down;
 }
 
@@ -1844,14 +1789,11 @@ DOTACompTI9PlayerCardsPage .PlayerContainers .CardCount {
     padding-left: 4px;
     padding-right: 4px;
     padding-top: 2px;
-
     horizontal-align: right;
     vertical-align: bottom;
-
     border-radius: 5px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#374249), to(#2a3037));
     border: 1px solid black;
-
     visibility: collapse;
 }
 
@@ -1877,14 +1819,10 @@ DOTACompTI9PlayerCardsPage .PlayerContainer Label {
 DOTACompTI9PlayerCardsPage .TeamContainer {
     width: 654px;
     height: 220px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#111111), to(#202020));
-
     padding: 5px;
     margin: 10px 10px;
-
     border: 1px solid #222222;
-
     flow-children: down;
 }
 
@@ -1899,13 +1837,10 @@ DOTACompTI9PlayerCardsPage .TeamContainer Label {
 DOTACompTI9PlayerCardDetailsPopup#PlayerCardDetail.PopupPanel {
     width: 100%;
     height: 100%;
-
     animation-name: none;
     padding: 12px;
-
     background-color: transparent;
     border: 0px solid transparent;
-
     horizontal-align: center;
     vertical-align: center;
 }
@@ -1933,7 +1868,6 @@ DOTACompTI9PlayerCardDetailsPopup #PlayerCardDetailsContainer {
     width: 100%;
     vertical-align: middle;
     horizontal-align: center;
-
     flow-children: none;
 }
 
@@ -1964,7 +1898,6 @@ DOTACompTI9PlayerCardDetailsPopup #CardCarousel DOTAPlayerCard {
     transition-timing-function: ease-in-out;
     pre-transform-scale2d: 0.8;
     opacity: 0.999;
-
     box-shadow: -7px 0px 14px 0px #000000;
 }
 
@@ -1976,55 +1909,66 @@ DOTACompTI9PlayerCardDetailsPopup #CardCarousel DOTAPlayerCard.Dusted {
     transform: translateX(-30px);
     wash-color: #00000044;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus2 {
     transform: translateX(-30px);
     wash-color: #00000066;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus3 {
     transform: translateX(-30px);
     wash-color: #00000088;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus4 {
     transform: translateX(-30px);
     wash-color: #000000aa;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus5 {
     transform: translateX(-30px);
     wash-color: #000000cc;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus6 {
     transform: translateX(-30px);
     wash-color: #000000ee;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus7 {
     transform: translateX(-30px);
     wash-color: #000000ee;
     opacity: 0.8;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus8 {
     transform: translateX(-30px);
     wash-color: #000000ff;
     opacity: 0.6;
     box-shadow: -7px 0px 14px 0px #000000dd;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus9 {
     transform: translateX(-30px);
     wash-color: #000000ff;
     opacity: 0.4;
     box-shadow: -7px 0px 14px 0px #000000bb;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus10 {
     transform: translateX(-30px);
     wash-color: #000000ff;
     opacity: 0.2;
     box-shadow: -7px 0px 14px 0px #00000088;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus11 {
     transform: translateX(-30px);
     wash-color: #000000ff;
     opacity: 0;
     box-shadow: -7px 0px 14px 0px #00000055;
 }
+
 #CardCarousel DOTAPlayerCard.LeftOfFocus12 {
     transform: translateX(-30px);
     wash-color: #000000ff;
@@ -2036,51 +1980,62 @@ DOTACompTI9PlayerCardDetailsPopup #CardCarousel DOTAPlayerCard.Dusted {
     transform: translateX(30px);
     wash-color: #00000044;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus2 {
     transform: translateX(30px);
     wash-color: #00000066;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus3 {
     transform: translateX(30px);
     wash-color: #00000088;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus4 {
     transform: translateX(30px);
     wash-color: #000000aa;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus5 {
     transform: translateX(30px);
     wash-color: #000000cc;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus6 {
     transform: translateX(30px);
     wash-color: #000000ee;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus7 {
     transform: translateX(30px);
     wash-color: #000000ff;
     opacity: 0.8;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus8 {
     transform: translateX(30px);
     wash-color: #000000ff;
     opacity: 0.6;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus9 {
     transform: translateX(30px);
     wash-color: #000000ff;
     opacity: 0.4;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus10 {
     transform: translateX(30px);
     wash-color: #000000ff;
     opacity: 0.2;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus11 {
     transform: translateX(30px);
     wash-color: #000000ff;
     opacity: 0;
 }
+
 #CardCarousel DOTAPlayerCard.RightOfFocus12 {
     transform: translateX(30px);
     wash-color: #000000ff;
@@ -2094,7 +2049,6 @@ DOTACompTI9PlayerCardDetailsPopup #CardCarousel DOTAPlayerCard.Dusted {
 #CardCarousel DOTAPlayerCard.Focused {
     z-index: 2;
     opacity: 0.999;
-
     blur: gaussian(0, 0, 0);
     transform: translateY(-30px);
     wash-color: #00000000;
@@ -2125,29 +2079,23 @@ DOTACompTI9PlayerCardDetailsPopup #MatchesContainer {
     margin: 10px 10px;
     width: 1200px;
     height: 300px;
-
     background-color: #222222;
 }
 
 DOTACompTI9FantasyPage {
     width: 100%;
     height: 100%;
-
     horizontal-align: center;
     vertical-align: center;
 }
 
 DOTACompTI9FantasyPage #CompendiumBody {
     background-image: url("s2r://panorama/images/backgrounds/fantasy_bg_psd.vtex");
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
     background-color: #333333;
-
     flow-children: none;
-
     transition-property: blur, brightness, saturation;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -2156,9 +2104,7 @@ DOTACompTI9FantasyPage #CompendiumBody {
 DOTACompTI9FantasyPage #TopSection {
     width: 1360px;
     height: 120px;
-
     margin-top: 6px;
-
     horizontal-align: center;
 }
 
@@ -2210,7 +2156,6 @@ DOTACompTI9FantasyPage #TopSection #DayContainer #LockText {
     height: 40px;
     color: #a3cbef;
     margin-top: 40px;
-
     text-align: center;
     horizontal-align: center;
     font-size: 11px;
@@ -2225,12 +2170,10 @@ DOTACompTI9FantasyPage #TopSection #DayContainer .Day {
     width: 110px;
     height: 36px;
     background-color: #2c3341;
-
     border: 1px solid #40505e;
     box-shadow: -3px 0px 6px 0px #668bbc00;
     margin-left: 4px;
     margin-right: 4px;
-
     transition-property: background-color, border, box-shadow;
     transition-duration: 0.2s, 0.12s, 0.45s;
     transition-delay: 0s;
@@ -2250,7 +2193,6 @@ DOTACompTI9FantasyPage #TopSection #DayContainer .Day:hover {
 DOTACompTI9FantasyPage #TopSection #DayContainer .Day #Lock {
     height: 12px;
     width: 12px;
-
     vertical-align: center;
     wash-color: #a3cbef;
     margin-left: 10px;
@@ -2298,9 +2240,7 @@ DOTACompTI9FantasyPage #TopSection #DayContainer .DayButtonRosterFull .Day #Comp
 DOTACompTI9FantasyPage #MiddleSection {
     width: 1360px;
     height: 425px;
-
     margin-top: 120px;
-
     horizontal-align: center;
 }
 
@@ -2308,12 +2248,9 @@ DOTACompTI9FantasyPage #MiddleSection .Header {
     text-transform: uppercase;
     font-size: 34px;
     font-weight: bold;
-
     color: #cccccc;
     margin-top: -7px;
-
     horizontal-align: left;
-
     vertical-align: top;
 }
 
@@ -2325,7 +2262,6 @@ DOTACompTI9FantasyPage #MiddleSection .RoleContainer {
     border-left: 1px solid black;
     border-right: 1px solid black;
     flow-children: down;
-
     transition-property: background-color;
     transition-duration: 0.28s;
     transition-timing-function: ease-in-out;
@@ -2373,7 +2309,6 @@ DOTACompTI9FantasyPage #MiddleSection .CardsContainer {
     horizontal-align: center;
     flow-children: right;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -2456,28 +2391,23 @@ DOTACompTI9FantasyPage #BottomSection {
     width: 1360px;
     horizontal-align: center;
     height: fill-parent-flow(1);
-
     margin-top: 565px;
 }
 
 DOTACompTI9FantasyPage #BottomSection #ScoreSummaryContainer {
     width: 546px;
     height: 100%;
-
     horizontal-align: right;
     margin-top: 32px;
     margin-bottom: 32px;
-
     margin-right: 0px;
 }
 
 DOTACompTI9FantasyPage #BottomSection #ScoreSummaryContainer .DayLabel {
     text-transform: uppercase;
     letter-spacing: 1px;
-
     font-size: 26px;
     color: #8badcc;
-
     horizontal-align: left;
     vertical-align: bottom;
     margin-bottom: 60px;
@@ -2486,10 +2416,8 @@ DOTACompTI9FantasyPage #BottomSection #ScoreSummaryContainer .DayLabel {
 DOTACompTI9FantasyPage #BottomSection #ScoreSummaryContainer .DayValue {
     horizontal-align: right;
     vertical-align: bottom;
-
     font-size: 26px;
     color: #8badcc;
-
     margin-right: 8px;
     margin-bottom: 60px;
 }
@@ -2497,10 +2425,8 @@ DOTACompTI9FantasyPage #BottomSection #ScoreSummaryContainer .DayValue {
 DOTACompTI9FantasyPage #BottomSection #ScoreSummaryContainer .TotalLabel {
     horizontal-align: left;
     vertical-align: bottom;
-
     text-transform: uppercase;
     letter-spacing: 1px;
-
     font-size: 28px;
     color: #a3cbef;
 }
@@ -2508,12 +2434,9 @@ DOTACompTI9FantasyPage #BottomSection #ScoreSummaryContainer .TotalLabel {
 DOTACompTI9FantasyPage #BottomSection #ScoreSummaryContainer .TotalValue {
     horizontal-align: right;
     vertical-align: bottom;
-
     margin-right: 8px;
-
     font-size: 32px;
     color: #dddddd;
-
     font-size: 48px;
     color: #dddddd;
     margin-bottom: -8px;
@@ -2523,10 +2446,8 @@ DOTACompTI9FantasyPage #BottomSection #ScoreSummaryContainer .TotalValue {
 DOTACompTI9FantasyPage #BottomSection #ScoreSummaryContainer .PercentileLabel {
     text-transform: uppercase;
     letter-spacing: 1px;
-
     font-size: 26px;
     color: #8badcc;
-
     horizontal-align: left;
     vertical-align: bottom;
 }
@@ -2534,12 +2455,9 @@ DOTACompTI9FantasyPage #BottomSection #ScoreSummaryContainer .PercentileLabel {
 DOTACompTI9FantasyPage #BottomSection #ScoreSummaryContainer .PercentileValue {
     horizontal-align: right;
     vertical-align: bottom;
-
     margin-right: 8px;
-
     font-size: 32px;
     color: #dddddd;
-
     font-size: 48px;
     color: #dddddd;
     margin-bottom: -8px;
@@ -2569,13 +2487,10 @@ DOTACompTI9FantasyPage.HasPercentile #BottomSection #ScoreSummaryContainer .DayV
 DOTACompTI9FantasyPage #BottomSection .LeaderboardContainer {
     width: 384px;
     height: 100%;
-
     horizontal-align: left;
     margin-top: 16px;
     margin-bottom: 16px;
-
     background-color: #000000de;
-
     border-top: 1px solid #7c531f55;
     border-bottom: 1px solid #7c531f55;
 }
@@ -2623,7 +2538,6 @@ DOTACompTI9FantasyPage #BottomSection .LeaderboardContainer .Footer {
     text-transform: uppercase;
     letter-spacing: 1.1px;
     color: #777777;
-
     horizontal-align: right;
     vertical-align: bottom;
 }
@@ -2641,16 +2555,11 @@ DOTACompTI9FantasyPage #HelpPeek {
     width: 400px;
     height: 700px;
     x: -250px;
-
     horizontal-align: left;
     vertical-align: center;
-
     background-color: black;
-
     border-radius: 50%;
-
     overflow: clip;
-
     transition-property: position, opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -2664,13 +2573,10 @@ DOTACompTI9FantasyPage #HelpPeek #ExpandLabel {
     horizontal-align: right;
     vertical-align: center;
     text-align: right;
-
     margin-right: 20px;
-
     color: #cccccc;
     text-transform: uppercase;
     letter-spacing: 0.9px;
-
     transition-property: color;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -2688,17 +2594,12 @@ DOTACompTI9FantasyPage.HelpExpanded #HelpPeek {
 DOTACompTI9FantasyPage #HelpSection {
     width: 1200px;
     height: 700px;
-
     margin-top: 50px;
-
     horizontal-align: left;
     vertical-align: center;
-
     background-color: #111111;
     border: 1px solid #363636;
-
     x: -1200px;
-
     transition-property: position;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -2723,7 +2624,6 @@ DOTACompTI9FantasyPage #HelpSection #HelpContainer {
 DOTACompTI9FantasyPage #HelpSection #HelpContainer Button {
     horizontal-align: right;
     vertical-align: bottom;
-
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -2731,23 +2631,17 @@ DOTACompTI9FantasyPage #HelpSection #HelpContainer Button {
 DOTACompTI9FantasyPage #HelpSection #HelpRight {
     width: 50%;
     height: 100%;
-
     horizontal-align: right;
     flow-children: down;
-
     padding: 12px;
 }
 
 DOTACompTI9FantasyPage #HelpSection #HelpRight .Header {
     margin-top: 10px;
-
     width: 520px;
-
     text-transform: uppercase;
     letter-spacing: 1px;
-
     border-bottom: 1px solid #a38863;
-
     font-size: 20px;
     color: #c8a778;
 }
@@ -2758,7 +2652,6 @@ DOTACompTI9FantasyPage #HelpSection #HelpRight .Header {
 #PremiumCardToDust {
     width: 100%;
     height: 100%;
-
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -2808,11 +2701,9 @@ DOTACompTI9FantasyPage #HelpSection #HelpRight .Header {
     width: 1392px;
     height: 770px;
     vertical-align: middle;
-
     margin-top: 50px;
     flow-children: right;
     transform: translateX(-1310px);
-
     transition-property: opacity, wash-color, transform;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -2924,7 +2815,6 @@ DOTACompTI9FantasyPage .HelpSubsection .HelpDetail {
     width: 655px;
     height: 100%;
     box-shadow: -7px 0px 14px 0px #000000;
-
     background-color: secondaryDarkColor&f3;
     border: 1px solid ultraDarkColor;
     border-left: 1px solid #000000;
@@ -2939,9 +2829,7 @@ DOTACompTI9FantasyPage .HelpSubsection .HelpDetail {
 #HelpLeft .DetailsQuad {
     width: 100%;
     height: 140px;
-
     margin: 8px;
-
     border: 1px solid darkColor&33;
     background-color: gradient(linear, 100% 0%, 0% 0%, from(secondaryDarkColor), to(darkColor));
 }
@@ -2960,18 +2848,13 @@ DOTACompTI9FantasyPage .HelpSubsection .HelpDetail {
 #HelpLeft .DetailsQuad .DetailsTitle {
     vertical-align: middle;
     horizontal-align: center;
-
     margin-top: 0px;
-
     padding-left: 20px;
     padding-right: 20px;
-
     text-align: center;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-
     color: #cca86e;
 }
 
@@ -2986,24 +2869,17 @@ DOTACompTI9FantasyPage .HelpSubsection .HelpDetail {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-
     background-color: none;
-
     color: #cca86e;
 }
 
 #HelpLeft .DetailsNext {
     width: 53px;
     height: 64px;
-
     transform: rotateZ(90deg);
-
     saturation: 0.9;
-
     horizontal-align: center;
-
     margin-top: 64px;
-
     background-image: url("s2r://panorama/images/compendium/international2019/wagerdesc_next_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
@@ -3031,7 +2907,6 @@ DOTACompTI9FantasyPage .HelpSubsection .HelpDetail {
     vertical-align: middle;
     height: 200px;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(secondaryDarkColor), to(darkColor));
-
     width: 64px;
     border-top-right-radius: 32px;
     border-bottom-right-radius: 32px;
@@ -3039,7 +2914,6 @@ DOTACompTI9FantasyPage .HelpSubsection .HelpDetail {
     transform: translateX(-2px);
     opacity: 1;
     border: 1px solid darkColor&22;
-
     transition-property: opacity, wash-color, brightness;
     transition-duration: 0.25s;
 }
@@ -3065,7 +2939,6 @@ DOTACompTI9FantasyPage .HelpSubsection .HelpDetail {
     vertical-align: middle;
     margin-top: 100px;
     margin-left: 4px;
-
     transform: rotateZ(180deg);
 }
 
@@ -3090,7 +2963,6 @@ DOTACompTI9FantasyPage .HelpSubsection .HelpDetail {
     background-image: url("s2r://panorama/images/textures/fantasy_hbar_short_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     width: 530px;
     height: 30px;
 }
@@ -3199,7 +3071,6 @@ DOTACompTI9FantasyPage #TopSection #DayContainer #Day9.Selected #GrandFinals {
     );
     text-transform: uppercase;
     horizontal-align: center;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -3216,7 +3087,6 @@ DOTACompTI9FantasyPage #TopSection #DayContainer #Day9.Selected #GrandFinals {
     background-color: #000000f8;
     border-radius: 12px;
     padding: 10px;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -3236,6 +3106,7 @@ DOTACompTI9FantasyPage #TopSection #DayContainer #Day9.Selected #GrandFinals {
     color: #c3b699;
     margin-top: 2.5px;
 }
+
 #PlayerScoreStats .FantasyStatsLine Label.Stat {
     text-align: right;
     min-width: 30px;
@@ -3256,15 +3127,12 @@ DOTACompTI9FantasyPage #TopSection #DayContainer #Day9.Selected #GrandFinals {
 DOTACompTI9FavoriteTeamPage #Body {
     width: 1360px;
     height: 100%;
-
     horizontal-align: center;
-
     background-color: black;
 }
 
 DOTACompTI9FavoriteTeamPage #TeamSelectContainer {
     margin-top: 40px;
-
     horizontal-align: center;
     vertical-align: top;
 }
@@ -3295,7 +3163,6 @@ DOTACompTI9FavoriteTeamPage #Header {
 
 DOTACompTI9FavoriteTeamPage #Description {
     padding-top: 40px;
-
     vertical-align: top;
     horizontal-align: center;
     flow-children: down;
@@ -3304,13 +3171,10 @@ DOTACompTI9FavoriteTeamPage #Description {
 DOTACompTI9FavoriteTeamPage #Description Label {
     vertical-align: center;
     horizontal-align: center;
-
     color: #b4d7e1;
     margin-right: 70px;
     text-align: left;
-
     width: 750px;
-
     line-height: 18px;
 }
 
@@ -3324,9 +3188,7 @@ DOTACompTI9FavoriteTeamPage #Header Label a:hover {
 
 DOTACompTI9FavoriteTeamPage #ExamplesContainer {
     flow-children: right;
-
     margin-top: 40px;
-
     horizontal-align: center;
 }
 
@@ -3336,18 +3198,15 @@ DOTACompTI9FavoriteTeamPage #UIContainer {
 
 DOTACompTI9FavoriteTeamPage .SubExample {
     margin-bottom: 10px;
-
     margin-left: 40px;
 }
 
 DOTACompTI9FavoriteTeamPage .ExampleHeader {
     text-transform: uppercase;
     letter-spacing: 2px;
-
     font-size: 16px;
     font-weight: bold;
     color: ultraBrightColor;
-
     horizontal-align: center;
     vertical-align: top;
     margin-top: 6px;
@@ -3358,11 +3217,9 @@ DOTACompTI9FavoriteTeamPage .ExampleImage {
     margin-top: 30px;
     width: 408px;
     height: 146px;
-
     horizontal-align: center;
     vertical-align: top;
     margin-right: 20px;
-
     background-repeat: no-repeat;
     background-size: 408px 146px;
 }
@@ -3370,7 +3227,6 @@ DOTACompTI9FavoriteTeamPage .ExampleImage {
 DOTACompTI9FavoriteTeamPage .ExampleImage.Large {
     width: 223px;
     height: 420px;
-
     background-size: cover;
 }
 
@@ -3416,12 +3272,9 @@ DOTACompTI9AllStarPage .CompendiumBody {
 DOTACompTI9AllStarPage #Header {
     flow-children: right;
     padding: 10px 0px;
-
     width: 1360px;
-
     margin-top: 24px;
     margin-bottom: 12px;
-
     vertical-align: top;
     horizontal-align: center;
 }
@@ -3435,7 +3288,6 @@ DOTACompTI9AllStarPage #Header .allstar-title {
     color: gradient(linear, 0% 0%, 0% 100%, from(#fff), to(ultraBrightColor));
     text-shadow: 0px 0px 10px 3 shadeColor;
     font-weight: bold;
-
     vertical-align: middle;
     text-align: center;
 }
@@ -3451,13 +3303,9 @@ DOTACompTI9AllStarPage #Header .allstar-description {
 DOTACompTI9AllStarPage #Body {
     width: 1360px;
     height: 720px;
-
     flow-children: right;
-
     margin-top: 20px;
-
     horizontal-align: center;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -3482,11 +3330,9 @@ DOTACompTI9AllStarPage #Versus {
 DOTACompTI9AllStarPage #VersusLabel {
     vertical-align: center;
     horizontal-align: center;
-
     font-size: 36px;
     font-weight: bold;
     color: gradient(linear, 0% 0%, 0% 100%, from(#fff), to(ultraBrightColor));
-
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -3494,7 +3340,6 @@ DOTACompTI9AllStarPage #VersusLabel {
 DOTACompTI9AllStarPage #VersusDesc {
     vertical-align: center;
     horizontal-align: center;
-
     font-size: 18px;
     color: #fff;
     text-transform: uppercase;
@@ -3508,7 +3353,6 @@ DOTACompTI9AllStarPage .Team {
     width: fit-children;
     height: 248px;
     flow-children: right;
-
     margin-right: 24px;
 }
 
@@ -3618,7 +3462,6 @@ DOTACompTI9AllStarPage #PlayerInfo {
     vertical-align: top;
     horizontal-align: center;
     width: 100%;
-
     flow-children: down;
     padding-top: 18px;
 }
@@ -3629,7 +3472,6 @@ DOTACompTI9AllStarPage .PlayerName {
     font-size: 16px;
     letter-spacing: 1px;
     font-weight: bold;
-
     color: #fff;
     text-shadow: 0px 3px 1px #000000;
 }
@@ -3650,7 +3492,6 @@ DOTACompTI9AllStarPage .PlayerRole {
     text-align: center;
     font-size: 16px;
     letter-spacing: 1px;
-
     color: #a1b5d8;
     text-shadow: 0px 3px 1px #000000;
 }
@@ -3665,7 +3506,6 @@ DOTACompTI9AllStarPage .TeamHeaderName.Two {
 
 DOTACompTI9AllStarPage .Team .RoleColumn {
     horizontal-align: left;
-
     width: 100px;
     height: 100%;
 }
@@ -3680,7 +3520,6 @@ DOTACompTI9AllStarPage .RoleColumn .PositionGradient {
     height: 360px;
     horizontal-align: center;
     vertical-align: center;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(red), to(green));
 }
 
@@ -3702,19 +3541,16 @@ DOTACompTI9AllStarPage .SelectionColumn DropDown {
     horizontal-align: center;
     margin: 8px 0px;
     height: 64px;
-
     background-image: none;
 }
 
 DOTACompTI9AllStarPage #SelectedPlayer {
     width: 448px;
     height: 620px;
-
     background-color: #162034;
     border: 2px solid #552f9a;
     box-shadow: inset 0px 0px 148px #0b011990;
     margin-right: 12px;
-
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -3791,13 +3627,10 @@ DOTACompTI9AllStarPage .PickTimeValid .pick_until {
 .ProPlayerDropdown {
     width: 100%;
     height: 64px;
-
     transition-property: background-color;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-
     border-bottom: 1px solid #333;
-
     background-color: #3d4448;
 }
 
@@ -3808,7 +3641,6 @@ DOTACompTI9AllStarPage .PickTimeValid .pick_until {
 .ProPlayerDropdown #TeamLogo {
     width: 46px;
     height: 46px;
-
     margin-top: 4px;
     margin-left: 8px;
 }
@@ -3816,7 +3648,6 @@ DOTACompTI9AllStarPage .PickTimeValid .pick_until {
 .ProPlayerDropdown #PlayerImage {
     width: 50px;
     height: 50px;
-
     margin-left: 68px;
 }
 
@@ -3826,7 +3657,6 @@ DOTACompTI9AllStarPage .PickTimeValid .pick_until {
     margin-right: 4px;
     border: 0px;
     font-size: 22px;
-
     background-color: none;
 }
 
@@ -3836,7 +3666,6 @@ DOTACompTI9AllStarPage .PickTimeValid .pick_until {
     border: 0px;
     font-size: 16px;
     color: #999999;
-
     background-color: none;
 }
 
@@ -3844,7 +3673,6 @@ DOTACompTI9AllStarPage .PickTimeValid .pick_until {
     color: white;
     margin-top: 14px;
     font-size: 20px;
-
     visibility: collapse;
 }
 
@@ -3889,14 +3717,12 @@ DropDownMenu.ProPlayerMenu {
 DOTACompTI9AllStarPage #SubmitButton {
     vertical-align: bottom;
     horizontal-align: center;
-
     margin-bottom: 42px;
 }
 
 DOTACompTI9AllStarPage #CountdownLabel {
     vertical-align: bottom;
     horizontal-align: center;
-
     color: #b4d7e1;
     margin-bottom: 4px;
 }

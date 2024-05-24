@@ -1,17 +1,18 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define chatBorderColor: #000000;
 @define chatBorderWidth: 1px;
 @define chatBorderStyle: solid;
-
 @define chatBackgroundColor: #161E24;
-
 @define chatTransitionDuration: 0.3s;
-
 .ChatIconButton {
     wash-color: #737f83;
 }
+
 .ChatIconButton:hover {
     wash-color: #b3c6cc;
 }
+
 .ChatIconButton:active {
     wash-color: #ffffff;
 }
@@ -53,11 +54,9 @@ DOTAChat.Hidden {
     horizontal-align: center;
     text-align: center;
     opacity: 1;
-
     color: white;
     font-weight: bold;
     font-size: 14px;
-
     transition-property: opacity;
     transition-duration: 0.3s;
 }
@@ -89,11 +88,9 @@ DOTAChat.Hidden {
 #ChatTotalMissed {
     margin-right: 8px;
     margin-bottom: 8px;
-
     transition-property: opacity;
     transition-duration: chatTransitionDuration;
     transition-timing-function: ease-in-out;
-
     opacity: 0;
 }
 
@@ -116,7 +113,6 @@ DOTAChat.Hidden {
 .ChatCorePanel {
     width: fill-parent-flow(1);
     vertical-align: bottom;
-
     transition-property: width, transform;
     transition-duration: chatTransitionDuration;
     transition-timing-function: ease-in-out;
@@ -139,7 +135,6 @@ DOTAChat.Hidden {
     background-color: #2e3736fd;
     background-color: gradient(linear, 100% 0%, 100% 100%, from(#262d32fd), color-stop(0.9, #262d32fa), to(#000000));
     background-color: #000000f8;
-
     border-top: chatBorderWidth chatBorderStyle chatBorderColor;
     border-left: chatBorderWidth chatBorderStyle chatBorderColor;
     border-right: chatBorderWidth chatBorderStyle chatBorderColor;
@@ -212,7 +207,6 @@ DOTAChat.Hidden {
     wash-color: #869797;
     pre-transform-scale2d: 0.25;
     opacity: 0;
-
     transition-property: pre-transform-scale2d, opacity;
     transition-duration: 0.2s;
 }
@@ -264,7 +258,6 @@ DOTAChat.ChatExpanded #ParticipantArea {
 }
 
 @define participantTransitionDuration: 0.2s;
-
 #ParticipantList Label {
     font-size: 14px;
     color: #8c9a9f;
@@ -275,7 +268,6 @@ DOTAChat.ChatExpanded #ParticipantArea {
     opacity: 0;
     transform: translateX(-30px);
     height: 18px;
-
     transition-property: position, opacity, transform;
     transition-duration: participantTransitionDuration;
 }
@@ -288,7 +280,6 @@ DOTAChat.ChatExpanded #ParticipantArea {
 #ParticipantList Label.ChatParticipantActive.Admin {
     opacity: 1;
     transform: none;
-
     color: white;
 }
 
@@ -300,11 +291,8 @@ DOTAChat.ChatExpanded #ParticipantArea {
     width: 100%;
     padding: 5px 8px 2px 8px;
     background-color: #2f373d6f;
-
     height: 0px;
-
     transform: translateY(30px);
-
     transition-property: position, opacity, transform, height;
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
@@ -347,7 +335,6 @@ DOTAChat.ChatExpanded #ParticipantArea {
     width: 73.9%;
     height: 100%;
     border-left: chatBorderWidth chatBorderStyle chatBorderColor;
-
     transition-property: opacity;
     transition-duration: chatTransitionDuration;
 }
@@ -364,9 +351,7 @@ DOTAChat.ChatExpanded #ParticipantArea {
     border-left: chatBorderWidth chatBorderStyle transparent;
     border-right: chatBorderWidth chatBorderStyle transparent;
     border-bottom: chatBorderWidth chatBorderStyle transparent;
-
     transform: scaleY(-1);
-
     transition-property: background-color, height, opacity-mask;
     transition-duration: chatTransitionDuration;
 }
@@ -394,9 +379,7 @@ DOTADashboard #ChatLinesContainer {
     vertical-align: top;
     overflow: squish noclip;
     padding-right: 14px;
-
     transform: scaleY(-1);
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -406,7 +389,6 @@ DOTADashboard #ChatLinesContainer {
         color-stop(0.1, #0000),
         to(#0000)
     );
-
     transition-property: background-color;
     transition-duration: 0.23s;
     transition-timing-function: ease-in-out;
@@ -483,11 +465,8 @@ DOTADashboard #ChatLinesContainer {
     background-color: #1c2124;
     padding: 4px;
     min-width: 64px;
-
     opacity: 0.99999;
-
     transform: translateY(-100%);
-
     transition-property: transform;
     transition-duration: 0.2s;
 }
@@ -557,15 +536,19 @@ DOTADashboard #ChatLinesContainer {
     0% {
         transform: rotateZ(0deg);
     }
+
     20% {
         transform: rotateZ(25deg);
     }
+
     40% {
         transform: rotateZ(-25deg);
     }
+
     60% {
         transform: rotateZ(15deg);
     }
+
     80% {
         transform: rotateZ(-15deg);
     }
@@ -591,19 +574,21 @@ DOTADashboard #ChatLinesContainer {
 #CloseTabButton,
 .ToggleOptionButton {
     visibility: collapse;
-
     tooltip-position: bottom;
 }
 
 #ChatTabOptions.CanClose #CloseTabButton {
     visibility: visible;
 }
+
 #ChatTabOptions.CanToggleGlobal #ToggleTabGlobalButton {
     visibility: visible;
 }
+
 #ChatTabOptions.CanToggleWhispersGlobal #ToggleWhispersGlobalButton {
     visibility: visible;
 }
+
 #ChatTabOptions.CanToggleSounds #ToggleTabSoundsButton {
     visibility: visible;
 }
@@ -705,7 +690,6 @@ DOTAChat.ChatExpanded #ChatTotalMissed.HasMissedMessages.MissedMessagesAcknowled
     background-color: transparent;
     border: 1px solid transparent;
     wash-color: #cccccc;
-
     background-image: url("s2r://panorama/images/control_icons/plus_thin_png.vtex");
     background-size: 16px 16px;
     background-repeat: no-repeat;
@@ -736,6 +720,7 @@ DOTAChat.ChatExpanded #ChatTotalMissed.HasMissedMessages.MissedMessagesAcknowled
 #NewChatTabButton:hover Label {
     color: white;
 }
+
 #NewChatTabButton:hover {
     background-color: #363d3e;
 }
@@ -749,7 +734,6 @@ DOTAChat.ChatExpanded #ChatTotalMissed.HasMissedMessages.MissedMessagesAcknowled
     background-color: #2c3434;
     border: 1px solid black;
     wash-color: #cccccc;
-
     width: 31px;
     margin-left: 1px;
     margin-right: 1px;
@@ -950,7 +934,6 @@ DOTAChatTab:selected #ChatTabName {
     width: 0px;
     height: 0px;
     opacity: 0;
-
     transition-property: width, opacity, height;
     transition-duration: 0.3s;
 }
@@ -979,7 +962,6 @@ DOTAChatTab:selected #ChatTabName {
 
 #ChatTargetLabel {
     max-width: 180px;
-
     padding-right: 0px;
     padding-left: 5px;
 }
@@ -1044,10 +1026,8 @@ DOTAChatTab:selected #ChatTabName {
     background-color: #2c3434;
     border: 1px solid black;
     wash-color: #cccccc;
-
     context-menu-position: top;
     context-menu-body-position: 100% 100%;
-
     visibility: collapse;
 }
 
@@ -1074,10 +1054,8 @@ DOTAChatTab:selected #ChatTabName {
     background-color: #2c3434;
     border: 1px solid black;
     wash-color: #cccccc;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     visibility: collapse;
 }
 
@@ -1089,6 +1067,7 @@ DOTAChatTab:selected #ChatTabName {
     background-color: #363d3e;
     wash-color: white;
 }
+
 #ChatTabReadyCheckButton:active {
     wash-color: #999999;
 }
@@ -1105,16 +1084,12 @@ DOTAChatTab:selected #ChatTabName {
 
 #ChatEmoticonPicker {
     vertical-align: bottom;
-
     margin-bottom: 4px;
     box-shadow: -2px 0px 4px 0px #000000;
-
     transform: translateY(128px);
     opacity: 0;
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
-
     max-width: 242px;
 }
 
@@ -1132,16 +1107,12 @@ DOTAChatTab:selected #ChatTabName {
     background-color: #000000f6;
     flow-children: right;
     padding: 8px;
-
     border-left: chatBorderWidth solid chatBorderColor;
     border-right: chatBorderWidth solid chatBorderColor;
     border-top: chatBorderWidth solid chatBorderColor;
-
     width: 100%;
-
     opacity: 0;
     transform: translateY(142px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -1279,6 +1250,7 @@ ToggleButton:hover .TickBox {
 .SuggestedHero {
     font-weight: bold;
 }
+
 .SuggestedHeroRole {
     font-weight: bold;
 }
@@ -1290,12 +1262,9 @@ ToggleButton:hover .TickBox {
 DOTAChat#HudChat {
     horizontal-align: center;
     vertical-align: bottom;
-
     y: -220px;
-
     width: 800px;
     height: 460px;
-
     transition-property: position;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1312,12 +1281,9 @@ DOTAChat#HudChat.Channeling {
 DOTAChat#HudChat #ChatLinesContainer,
 DOTAChat#HudChat #ChatHeaderPanel {
     border: 0px solid black;
-
     height: 162px;
     margin-bottom: 0px;
-
     background-color: #00000000;
-
     opacity-mask: url("s2r://panorama/images/masks/hudchat_mask_psd.vtex") 1;
 }
 
@@ -1344,7 +1310,6 @@ DOTAChat#HudChat .ChatLine {
     width: 750px;
     max-width: 750px;
     font-weight: bold;
-
     text-shadow: 1px 1.5px 0px 2 #000000;
 }
 
@@ -1374,7 +1339,6 @@ DOTAChat .ChatLine .HeroIcon {
 DOTAChat .ChatLine .HeroBadge {
     width: 32px;
     height: 32px;
-
     margin-top: -5px;
     margin-bottom: -5px;
 }
@@ -1382,14 +1346,12 @@ DOTAChat .ChatLine .HeroBadge {
 DOTAChat#HudChat .ChatLine.Expired {
     transition-property: opacity!immediate;
     transition-duration: 0.3s;
-
     opacity: 0;
 }
 
 DOTAChat#HudChat.Active .ChatLine.Expired {
     transition-property: opacity!immediate;
     transition-duration: 0.1s;
-
     opacity: 1;
 }
 
@@ -1404,30 +1366,39 @@ DOTAChat#HudChat .ChatTimestamp {
 DOTAChat#HudChat .PlayerColor0 {
     color: HeroSlot0Color;
 }
+
 DOTAChat#HudChat .PlayerColor1 {
     color: HeroSlot1Color;
 }
+
 DOTAChat#HudChat .PlayerColor2 {
     color: HeroSlot2Color;
 }
+
 DOTAChat#HudChat .PlayerColor3 {
     color: HeroSlot3Color;
 }
+
 DOTAChat#HudChat .PlayerColor4 {
     color: HeroSlot4Color;
 }
+
 DOTAChat#HudChat .PlayerColor5 {
     color: HeroSlot5Color;
 }
+
 DOTAChat#HudChat .PlayerColor6 {
     color: HeroSlot6Color;
 }
+
 DOTAChat#HudChat .PlayerColor7 {
     color: HeroSlot7Color;
 }
+
 DOTAChat#HudChat .PlayerColor8 {
     color: HeroSlot8Color;
 }
+
 DOTAChat#HudChat .PlayerColor9 {
     color: HeroSlot9Color;
 }
@@ -1436,26 +1407,32 @@ DOTAChat#HudChat .RuneDD {
     color: RuneDDColor;
     font-weight: bold;
 }
+
 DOTAChat#HudChat .RuneHaste {
     color: RuneHasteColor;
     font-weight: bold;
 }
+
 DOTAChat#HudChat .RuneIllus {
     color: RuneIllusionColor;
     font-weight: bold;
 }
+
 DOTAChat#HudChat .RuneInvis {
     color: RuneInvisColor;
     font-weight: bold;
 }
+
 DOTAChat#HudChat .RuneRegen {
     color: RuneRegenColor;
     font-weight: bold;
 }
+
 DOTAChat#HudChat .RuneArcane {
     color: RuneArcaneColor;
     font-weight: bold;
 }
+
 DOTAChat#HudChat .RuneBounty {
     color: RuneBountyColor;
     font-weight: bold;
@@ -1465,7 +1442,6 @@ DOTAChat#HudChat .RuneBounty {
     width: 20px;
     height: 20px;
     margin-right: 2px;
-
     vertical-align: top;
 }
 
@@ -1492,6 +1468,7 @@ DOTAChat#HudChat #ChatMissedContainer {
 .ChatFooter {
     visibility: collapse;
 }
+
 DOTAChat#HudChat.Active .ChatFooter {
     visibility: visible;
 }
@@ -1502,9 +1479,9 @@ DOTAChat#HudChat.Active .ChatFooter {
     margin-top: 2px;
     color: #999;
     text-shadow: 1px 1px 0px black;
-
     visibility: collapse;
 }
+
 .BeingPrivateCoached .CoachingHint {
     visibility: visible;
 }

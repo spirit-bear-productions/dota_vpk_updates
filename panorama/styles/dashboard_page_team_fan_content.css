@@ -1,8 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTATeamFanContentPage {
     flow-children: down;
-
     margin-top: 80px;
-
     background-color: #222;
     border: 3px solid #black;
     margin: 0px 10px 130px 10px;
@@ -14,14 +14,11 @@ DOTATeamFanContentPage {
     font-size: 20px;
     text-align: center;
     horizontal-align: center;
-
     transition-property: opacity;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
-
     margin: 15px;
     opacity: 0;
-
     color: #69a8c3;
 }
 
@@ -37,9 +34,7 @@ DOTATeamFanContentPage {
     width: 95%;
     flow-children: down;
     overflow: clip scroll;
-
     horizontal-align: center;
-
     visibility: collapse;
 }
 
@@ -51,9 +46,7 @@ DOTATeamFanContentPage {
     width: 100%;
     height: 80px;
     flow-children: right;
-
     border-bottom: 1px solid #000;
-
     transition-property: height, opacity;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -68,9 +61,7 @@ DOTATeamFanContentPage {
     width: 60px;
     height: 60px;
     background-color: black;
-
     vertical-align: center;
-
     padding: 4px;
     margin-right: 20px;
 }
@@ -78,7 +69,6 @@ DOTATeamFanContentPage {
 .TeamStatus #NameBlock {
     width: 450px;
     flow-children: down;
-
     vertical-align: center;
 }
 
@@ -86,7 +76,6 @@ DOTATeamFanContentPage {
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
-
     color: white;
 }
 
@@ -98,11 +87,9 @@ DOTATeamFanContentPage {
 .TeamStatus #StatusButton,
 .TeamStatus #EmailButton {
     vertical-align: center;
-
     padding: 8px 14px;
     border-radius: 4px;
     width: 110px;
-
     transition-property: brightness, contrast, transform;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;

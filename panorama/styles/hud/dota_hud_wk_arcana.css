@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDWKArcana {
     width: 100%;
     height: 100%;
@@ -14,22 +16,16 @@ DOTAHUDWKArcana.Hidden {
     opacity: 0;
     vertical-align: top;
     horizontal-align: left;
-
     margin-top: 200px;
-
     width: 600px;
     height: 469px;
-
     padding-top: 190px;
     padding-left: 40px;
-
     background-image: url("s2r://panorama/images/compendium/international2020/wriath_king_arcana/seal-left_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
-
     transform: translateX(-200px);
-
     transition-duration: 0.21s;
     transition-property: transform, opacity;
     transition-timing-function: ease-in-out;
@@ -85,7 +81,6 @@ DOTAHUDWKArcana.Hidden {
     horizontal-align: right;
     vertical-align: top;
     z-index: 10;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     opacity: 0;
@@ -153,7 +148,6 @@ DOTAHUDWKArcana.Hidden {
     padding-top: 300px;
     padding-left: 0;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/compendium/international2020/wriath_king_arcana/seal-main_psd.vtex");
     background-position: right;
     width: 900px;
@@ -187,7 +181,6 @@ DOTAHUDWKArcana.Hidden {
     opacity-mask: url("s2r://panorama/images/masks/wk_arc_seal_psd.vtex");
     vertical-align: top;
     horizontal-align: left;
-
     transition-property: brightness, hue-rotation;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -224,7 +217,6 @@ DOTAHUDWKArcana.Hidden {
 .WkArcana_Desc {
     font-size: 18px;
     color: #ffffff90;
-
     margin-top: 4px;
     padding-right: 96px;
 }
@@ -325,13 +317,10 @@ DOTAHUDWKArcana.Hidden {
     opacity: 0;
     vertical-align: top;
     horizontal-align: left;
-
     margin-top: 275px;
     flow-children: right;
-
     height: 100px;
     padding-right: 32px;
-
     transition-property: transform, opacity, wash-color;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
@@ -344,9 +333,7 @@ DOTAHUDWKArcana.Hidden {
         color-stop(0.7, #280502bb),
         to(#28050200)
     );
-
     transform: translateX(-400px);
-
     overflow: noclip;
 }
 
@@ -354,10 +341,8 @@ DOTAHUDWKArcana.Hidden {
     width: fit-children;
     height: 100%;
     flow-children: right;
-
     padding-left: 64px;
     margin-left: -64px;
-
     z-index: 1;
 }
 
@@ -371,7 +356,6 @@ DOTAHUDWKArcana.Hidden {
     font-size: 18px;
     font-weight: normal;
     color: #f8f3ed;
-
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
@@ -392,13 +376,11 @@ DOTAHUDWKArcana.Hidden {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
     width: 151px;
     height: 200px;
     margin-left: -30px;
     margin-top: -90px;
     opacity: 0.9;
-
     z-index: 2;
 }
 

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .GuildDetailsContents {
     flow-children: down;
 }
@@ -13,7 +15,6 @@
 
 #DetailsSection {
     width: 740px;
-
     height: 100%;
 }
 
@@ -24,6 +25,7 @@
 #EditDetailsButton {
     visibility: collapse;
 }
+
 .CanEditGuildInfo #ActionButtons #EditDetailsButton {
     visibility: visible;
 }
@@ -87,19 +89,15 @@ DOTASettingsEnumDropDown Label {
     width: 100%;
     margin-right: 8px;
     height: 40px;
-
     background-color: #ffffff02;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff03), to(#ffffff01));
     border-top: 1px solid #ffffff02;
     border-right: 1px solid #ffffff02;
     border-left: 0px;
     border-bottom: 0px;
-
     box-shadow: 0px 0px 20px #00000066;
-
     transition-property: background-color;
     transition-duration: 0.2s;
-
     height: 42px;
 }
 
@@ -154,7 +152,6 @@ Label.GuildPropertyValue {
 
 #ActionButtons .PopupButton {
     margin: 0px 12px 0px 0px;
-
     visibility: collapse;
 }
 
@@ -175,6 +172,7 @@ Label.GuildPropertyValue {
 .OnlyWhenCreating {
     visibility: collapse;
 }
+
 .IsCreatingNewGuild .OnlyWhenCreating {
     visibility: visible;
 }
@@ -208,6 +206,7 @@ Label.GuildPropertyValue {
 .OnlyWhenCreatingOrEditing {
     visibility: collapse;
 }
+
 .IsEditing .OnlyWhenCreatingOrEditing {
     visibility: visible;
 }
@@ -215,6 +214,7 @@ Label.GuildPropertyValue {
 .OnlyWhenViewing {
     visibility: visible;
 }
+
 .IsEditing .OnlyWhenViewing {
     visibility: collapse;
 }
@@ -222,6 +222,7 @@ Label.GuildPropertyValue {
 .OnlyWhenViewingOrEditing {
     visibility: visible;
 }
+
 .IsCreatingNewGuild .OnlyWhenViewingOrEditing {
     visibility: collapse;
 }
@@ -234,7 +235,6 @@ Label.GuildPropertyValue {
 
 #EditButtons .PopupButton {
     margin: 0px 14px 0px 0px;
-
     visibility: collapse;
 }
 
@@ -263,12 +263,9 @@ Label.GuildPropertyValue {
 .StyleSwatch {
     width: 103px;
     height: 103px;
-
     transition-property: border;
     transition-duration: 0.2s;
-
     box-shadow: inset 0px 0px 40px #000000cc;
-
     z-index: 10;
 }
 
@@ -292,16 +289,13 @@ Label.GuildPropertyValue {
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position: center;
-
     visibility: collapse;
-
     background-color: #ffffff02;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff02), to(#ffffff05));
     border-top: 1px solid #ffffff02;
     border-right: 1px solid #ffffff02;
     border-left: 0px;
     border-bottom: 0px;
-
     box-shadow: 0px 0px 20px #00000066;
 }
 
@@ -320,60 +314,79 @@ Label.GuildPropertyValue {
 .GuildPrimaryColor0 #PrimaryColorSwatch {
     background-color: guildColor0;
 }
+
 .GuildPrimaryColor1 #PrimaryColorSwatch {
     background-color: guildColor1;
 }
+
 .GuildPrimaryColor2 #PrimaryColorSwatch {
     background-color: guildColor2;
 }
+
 .GuildPrimaryColor3 #PrimaryColorSwatch {
     background-color: guildColor3;
 }
+
 .GuildPrimaryColor4 #PrimaryColorSwatch {
     background-color: guildColor4;
 }
+
 .GuildPrimaryColor5 #PrimaryColorSwatch {
     background-color: guildColor5;
 }
+
 .GuildPrimaryColor6 #PrimaryColorSwatch {
     background-color: guildColor6;
 }
+
 .GuildPrimaryColor7 #PrimaryColorSwatch {
     background-color: guildColor7;
 }
+
 .GuildPrimaryColor8 #PrimaryColorSwatch {
     background-color: guildColor8;
 }
+
 .GuildPrimaryColor9 #PrimaryColorSwatch {
     background-color: guildColor9;
 }
+
 .GuildPrimaryColor10 #PrimaryColorSwatch {
     background-color: guildColor10;
 }
+
 .GuildPrimaryColor11 #PrimaryColorSwatch {
     background-color: guildColor11;
 }
+
 .GuildPrimaryColor12 #PrimaryColorSwatch {
     background-color: guildColor12;
 }
+
 .GuildPrimaryColor13 #PrimaryColorSwatch {
     background-color: guildColor13;
 }
+
 .GuildPrimaryColor14 #PrimaryColorSwatch {
     background-color: guildColor14;
 }
+
 .GuildPrimaryColor15 #PrimaryColorSwatch {
     background-color: guildColor15;
 }
+
 .GuildPrimaryColor16 #PrimaryColorSwatch {
     background-color: guildColor16;
 }
+
 .GuildPrimaryColor17 #PrimaryColorSwatch {
     background-color: guildColor17;
 }
+
 .GuildPrimaryColor18 #PrimaryColorSwatch {
     background-color: guildColor18;
 }
+
 .GuildPrimaryColor19 #PrimaryColorSwatch {
     background-color: guildColor19;
 }
@@ -381,60 +394,79 @@ Label.GuildPropertyValue {
 .GuildSecondaryColor0 #SecondaryColorSwatch {
     background-color: guildSecondaryColor0;
 }
+
 .GuildSecondaryColor1 #SecondaryColorSwatch {
     background-color: guildSecondaryColor1;
 }
+
 .GuildSecondaryColor2 #SecondaryColorSwatch {
     background-color: guildSecondaryColor2;
 }
+
 .GuildSecondaryColor3 #SecondaryColorSwatch {
     background-color: guildSecondaryColor3;
 }
+
 .GuildSecondaryColor4 #SecondaryColorSwatch {
     background-color: guildSecondaryColor4;
 }
+
 .GuildSecondaryColor5 #SecondaryColorSwatch {
     background-color: guildSecondaryColor5;
 }
+
 .GuildSecondaryColor6 #SecondaryColorSwatch {
     background-color: guildSecondaryColor6;
 }
+
 .GuildSecondaryColor7 #SecondaryColorSwatch {
     background-color: guildSecondaryColor7;
 }
+
 .GuildSecondaryColor8 #SecondaryColorSwatch {
     background-color: guildSecondaryColor8;
 }
+
 .GuildSecondaryColor9 #SecondaryColorSwatch {
     background-color: guildSecondaryColor9;
 }
+
 .GuildSecondaryColor10 #SecondaryColorSwatch {
     background-color: guildSecondaryColor10;
 }
+
 .GuildSecondaryColor11 #SecondaryColorSwatch {
     background-color: guildSecondaryColor11;
 }
+
 .GuildSecondaryColor12 #SecondaryColorSwatch {
     background-color: guildSecondaryColor12;
 }
+
 .GuildSecondaryColor13 #SecondaryColorSwatch {
     background-color: guildSecondaryColor13;
 }
+
 .GuildSecondaryColor14 #SecondaryColorSwatch {
     background-color: guildSecondaryColor14;
 }
+
 .GuildSecondaryColor15 #SecondaryColorSwatch {
     background-color: guildSecondaryColor15;
 }
+
 .GuildSecondaryColor16 #SecondaryColorSwatch {
     background-color: guildSecondaryColor16;
 }
+
 .GuildSecondaryColor17 #SecondaryColorSwatch {
     background-color: guildSecondaryColor17;
 }
+
 .GuildSecondaryColor18 #SecondaryColorSwatch {
     background-color: guildSecondaryColor18;
 }
+
 .GuildSecondaryColor19 #SecondaryColorSwatch {
     background-color: guildSecondaryColor19;
 }
@@ -449,36 +481,47 @@ Label.GuildPropertyValue {
 .GuildPattern0 #PatternSwatch {
     background-image: guildPattern0;
 }
+
 .GuildPattern1 #PatternSwatch {
     background-image: guildPattern1;
 }
+
 .GuildPattern2 #PatternSwatch {
     background-image: guildPattern2;
 }
+
 .GuildPattern3 #PatternSwatch {
     background-image: guildPattern3;
 }
+
 .GuildPattern4 #PatternSwatch {
     background-image: guildPattern4;
 }
+
 .GuildPattern5 #PatternSwatch {
     background-image: guildPattern5;
 }
+
 .GuildPattern6 #PatternSwatch {
     background-image: guildPattern6;
 }
+
 .GuildPattern7 #PatternSwatch {
     background-image: guildPattern7;
 }
+
 .GuildPattern8 #PatternSwatch {
     background-image: guildPattern8;
 }
+
 .GuildPattern9 #PatternSwatch {
     background-image: guildPattern9;
 }
+
 .GuildPattern10 #PatternSwatch {
     background-image: guildPattern10;
 }
+
 .GuildPattern11 #PatternSwatch {
     background-image: guildPattern11;
 }
@@ -493,7 +536,6 @@ Label.GuildPropertyValue {
 #RightSectionParticleContainer {
     width: 100%;
     height: 100%;
-
     overflow: clip;
     flow-children: none;
 }
@@ -509,60 +551,79 @@ Label.GuildPropertyValue {
 .GuildPrimaryColor0 #RightSectionParticle {
     wash-color: guildColor0;
 }
+
 .GuildPrimaryColor1 #RightSectionParticle {
     wash-color: guildColor1;
 }
+
 .GuildPrimaryColor2 #RightSectionParticle {
     wash-color: guildColor2;
 }
+
 .GuildPrimaryColor3 #RightSectionParticle {
     wash-color: guildColor3;
 }
+
 .GuildPrimaryColor4 #RightSectionParticle {
     wash-color: guildColor4;
 }
+
 .GuildPrimaryColor5 #RightSectionParticle {
     wash-color: guildColor5;
 }
+
 .GuildPrimaryColor6 #RightSectionParticle {
     wash-color: guildColor6;
 }
+
 .GuildPrimaryColor7 #RightSectionParticle {
     wash-color: guildColor7;
 }
+
 .GuildPrimaryColor8 #RightSectionParticle {
     wash-color: guildColor8;
 }
+
 .GuildPrimaryColor9 #RightSectionParticle {
     wash-color: guildColor9;
 }
+
 .GuildPrimaryColor10 #RightSectionParticle {
     wash-color: guildColor10;
 }
+
 .GuildPrimaryColor11 #RightSectionParticle {
     wash-color: guildColor11;
 }
+
 .GuildPrimaryColor12 #RightSectionParticle {
     wash-color: guildColor12;
 }
+
 .GuildPrimaryColor13 #RightSectionParticle {
     wash-color: guildColor13;
 }
+
 .GuildPrimaryColor14 #RightSectionParticle {
     wash-color: guildColor14;
 }
+
 .GuildPrimaryColor15 #RightSectionParticle {
     wash-color: guildColor15;
 }
+
 .GuildPrimaryColor16 #RightSectionParticle {
     wash-color: guildColor16;
 }
+
 .GuildPrimaryColor17 #RightSectionParticle {
     wash-color: guildColor17;
 }
+
 .GuildPrimaryColor18 #RightSectionParticle {
     wash-color: guildColor18;
 }
+
 .GuildPrimaryColor19 #RightSectionParticle {
     wash-color: guildColor19;
 }
@@ -570,60 +631,79 @@ Label.GuildPropertyValue {
 .GuildPrimaryColor0 #RightSectionParticle {
     opacity: 0.5;
 }
+
 .GuildPrimaryColor1 #RightSectionParticle {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor2 #RightSectionParticle {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor3 #RightSectionParticle {
     opacity: 0.25;
 }
+
 .GuildPrimaryColor4 #RightSectionParticle {
     opacity: 0.25;
 }
+
 .GuildPrimaryColor5 #RightSectionParticle {
     opacity: 0.4;
 }
+
 .GuildPrimaryColor6 #RightSectionParticle {
     opacity: 0.2;
 }
+
 .GuildPrimaryColor7 #RightSectionParticle {
     opacity: 0.4;
 }
+
 .GuildPrimaryColor8 #RightSectionParticle {
     opacity: 0.5;
 }
+
 .GuildPrimaryColor9 #RightSectionParticle {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor10 #RightSectionParticle {
     opacity: 0.5;
 }
+
 .GuildPrimaryColor11 #RightSectionParticle {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor12 #RightSectionParticle {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor13 #RightSectionParticle {
     opacity: 0.25;
 }
+
 .GuildPrimaryColor14 #RightSectionParticle {
     opacity: 0.25;
 }
+
 .GuildPrimaryColor15 #RightSectionParticle {
     opacity: 0.4;
 }
+
 .GuildPrimaryColor16 #RightSectionParticle {
     opacity: 0.2;
 }
+
 .GuildPrimaryColor17 #RightSectionParticle {
     opacity: 0.4;
 }
+
 .GuildPrimaryColor18 #RightSectionParticle {
     opacity: 0.5;
 }
+
 .GuildPrimaryColor19 #RightSectionParticle {
     opacity: 0.3;
 }
@@ -633,6 +713,7 @@ Label.GuildPropertyValue {
     height: 50%;
     vertical-align: top;
 }
+
 .GuildPrimaryColor0 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -643,6 +724,7 @@ Label.GuildPropertyValue {
         to(guildColor0&00)
     );
 }
+
 .GuildPrimaryColor1 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -653,6 +735,7 @@ Label.GuildPropertyValue {
         to(guildColor1&00)
     );
 }
+
 .GuildPrimaryColor2 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -663,6 +746,7 @@ Label.GuildPropertyValue {
         to(guildColor2&00)
     );
 }
+
 .GuildPrimaryColor3 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -673,6 +757,7 @@ Label.GuildPropertyValue {
         to(guildColor3&00)
     );
 }
+
 .GuildPrimaryColor4 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -683,6 +768,7 @@ Label.GuildPropertyValue {
         to(guildColor4&00)
     );
 }
+
 .GuildPrimaryColor5 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -693,6 +779,7 @@ Label.GuildPropertyValue {
         to(guildColor5&00)
     );
 }
+
 .GuildPrimaryColor6 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -703,6 +790,7 @@ Label.GuildPropertyValue {
         to(guildColor6&00)
     );
 }
+
 .GuildPrimaryColor7 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -713,6 +801,7 @@ Label.GuildPropertyValue {
         to(guildColor7&00)
     );
 }
+
 .GuildPrimaryColor8 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -723,6 +812,7 @@ Label.GuildPropertyValue {
         to(guildColor8&00)
     );
 }
+
 .GuildPrimaryColor9 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -733,6 +823,7 @@ Label.GuildPropertyValue {
         to(guildColor9&00)
     );
 }
+
 .GuildPrimaryColor10 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -743,6 +834,7 @@ Label.GuildPropertyValue {
         to(guildColor10&00)
     );
 }
+
 .GuildPrimaryColor11 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -753,6 +845,7 @@ Label.GuildPropertyValue {
         to(guildColor11&00)
     );
 }
+
 .GuildPrimaryColor12 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -763,6 +856,7 @@ Label.GuildPropertyValue {
         to(guildColor12&00)
     );
 }
+
 .GuildPrimaryColor13 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -773,6 +867,7 @@ Label.GuildPropertyValue {
         to(guildColor13&00)
     );
 }
+
 .GuildPrimaryColor14 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -783,6 +878,7 @@ Label.GuildPropertyValue {
         to(guildColor14&00)
     );
 }
+
 .GuildPrimaryColor15 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -793,6 +889,7 @@ Label.GuildPropertyValue {
         to(guildColor15&00)
     );
 }
+
 .GuildPrimaryColor16 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -803,6 +900,7 @@ Label.GuildPropertyValue {
         to(guildColor16&00)
     );
 }
+
 .GuildPrimaryColor17 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -813,6 +911,7 @@ Label.GuildPropertyValue {
         to(guildColor17&00)
     );
 }
+
 .GuildPrimaryColor18 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -823,6 +922,7 @@ Label.GuildPropertyValue {
         to(guildColor18&00)
     );
 }
+
 .GuildPrimaryColor19 #RightSectionGradient {
     background-color: gradient(
         radial,
@@ -836,7 +936,6 @@ Label.GuildPropertyValue {
 
 #AppearanceSection {
     width: 300px;
-
     visibility: collapse;
 }
 
@@ -914,7 +1013,6 @@ Label.GuildPropertyValue {
 #MembersList {
     flow-children: down;
     overflow: squish scroll;
-
     width: 100%;
     opacity: 0.99;
 }
@@ -939,21 +1037,16 @@ Label.GuildPropertyValue {
 .GuildMember {
     flow-children: right;
     margin-bottom: 3px;
-
     background-color: #ffffff02;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff01), to(#ffffff03));
     border-top: 1px solid #ffffff02;
     border-right: 1px solid #ffffff02;
     border-left: 0px;
     border-bottom: 0px;
-
     box-shadow: 0px 0px 20px #00000066;
-
     transition-property: brightness;
     transition-duration: 0.2s;
-
     height: 25px;
-
     width: 92%;
 }
 
@@ -969,7 +1062,6 @@ Label.GuildPropertyValue {
     width: 24px;
     height: 24px;
     margin-right: 4px;
-
     box-shadow: 0px 0px 20px #000000aa;
 }
 
@@ -987,60 +1079,79 @@ Label.GuildPropertyValue {
 .GuildPrimaryColor0 .GuildPopupButton:hover {
     background-color: guildColor0&77;
 }
+
 .GuildPrimaryColor1 .GuildPopupButton:hover {
     background-color: guildColor1&77;
 }
+
 .GuildPrimaryColor2 .GuildPopupButton:hover {
     background-color: guildColor2&77;
 }
+
 .GuildPrimaryColor3 .GuildPopupButton:hover {
     background-color: guildColor3&77;
 }
+
 .GuildPrimaryColor4 .GuildPopupButton:hover {
     background-color: guildColor4&77;
 }
+
 .GuildPrimaryColor5 .GuildPopupButton:hover {
     background-color: guildColor5&77;
 }
+
 .GuildPrimaryColor6 .GuildPopupButton:hover {
     background-color: guildColor6&77;
 }
+
 .GuildPrimaryColor7 .GuildPopupButton:hover {
     background-color: guildColor7&77;
 }
+
 .GuildPrimaryColor8 .GuildPopupButton:hover {
     background-color: guildColor8&77;
 }
+
 .GuildPrimaryColor9 .GuildPopupButton:hover {
     background-color: guildColor9&77;
 }
+
 .GuildPrimaryColor10 .GuildPopupButton:hover {
     background-color: guildColor10&77;
 }
+
 .GuildPrimaryColor11 .GuildPopupButton:hover {
     background-color: guildColor11&77;
 }
+
 .GuildPrimaryColor12 .GuildPopupButton:hover {
     background-color: guildColor12&77;
 }
+
 .GuildPrimaryColor13 .GuildPopupButton:hover {
     background-color: guildColor13&77;
 }
+
 .GuildPrimaryColor14 .GuildPopupButton:hover {
     background-color: guildColor14&77;
 }
+
 .GuildPrimaryColor15 .GuildPopupButton:hover {
     background-color: guildColor15&77;
 }
+
 .GuildPrimaryColor16 .GuildPopupButton:hover {
     background-color: guildColor16&77;
 }
+
 .GuildPrimaryColor17 .GuildPopupButton:hover {
     background-color: guildColor17&77;
 }
+
 .GuildPrimaryColor18 .GuildPopupButton:hover {
     background-color: guildColor18&77;
 }
+
 .GuildPrimaryColor19 .GuildPopupButton:hover {
     background-color: guildColor19&77;
 }
@@ -1071,60 +1182,79 @@ Label.GuildPropertyValue {
 .GuildPrimaryColor0 .GuildPopupButton {
     background-color: guildColor0&77;
 }
+
 .GuildPrimaryColor1 .GuildPopupButton {
     background-color: guildColor1&77;
 }
+
 .GuildPrimaryColor2 .GuildPopupButton {
     background-color: guildColor2&77;
 }
+
 .GuildPrimaryColor3 .GuildPopupButton {
     background-color: guildColor3&77;
 }
+
 .GuildPrimaryColor4 .GuildPopupButton {
     background-color: guildColor4&77;
 }
+
 .GuildPrimaryColor5 .GuildPopupButton {
     background-color: guildColor5&77;
 }
+
 .GuildPrimaryColor6 .GuildPopupButton {
     background-color: guildColor6&77;
 }
+
 .GuildPrimaryColor7 .GuildPopupButton {
     background-color: guildColor7&77;
 }
+
 .GuildPrimaryColor8 .GuildPopupButton {
     background-color: guildColor8&77;
 }
+
 .GuildPrimaryColor9 .GuildPopupButton {
     background-color: guildColor9&77;
 }
+
 .GuildPrimaryColor10 .GuildPopupButton {
     background-color: guildColor10&77;
 }
+
 .GuildPrimaryColor11 .GuildPopupButton {
     background-color: guildColor11&77;
 }
+
 .GuildPrimaryColor12 .GuildPopupButton {
     background-color: guildColor12&77;
 }
+
 .GuildPrimaryColor13 .GuildPopupButton {
     background-color: guildColor13&77;
 }
+
 .GuildPrimaryColor14 .GuildPopupButton {
     background-color: guildColor14&77;
 }
+
 .GuildPrimaryColor15 .GuildPopupButton {
     background-color: guildColor15&77;
 }
+
 .GuildPrimaryColor16 .GuildPopupButton {
     background-color: guildColor16&77;
 }
+
 .GuildPrimaryColor17 .GuildPopupButton {
     background-color: guildColor17&77;
 }
+
 .GuildPrimaryColor18 .GuildPopupButton {
     background-color: guildColor18&77;
 }
+
 .GuildPrimaryColor19 .GuildPopupButton {
     background-color: guildColor19&77;
 }
@@ -1133,12 +1263,10 @@ Label.GuildPropertyValue {
     background-color: red;
     text-transform: uppercase;
     min-width: 300px;
-
     border-top: 0px solid #ffffff11;
     border-right: 0px solid #ffffff11;
     border-left: 0px solid #ffffff11;
     border-bottom: 0px solid #ffffff01;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -1150,60 +1278,79 @@ Label.GuildPropertyValue {
 .GuildPrimaryColor0 .GuildPopupButtonCancel:hover {
     background-color: guildColor0&11;
 }
+
 .GuildPrimaryColor1 .GuildPopupButtonCancel:hover {
     background-color: guildColor1&11;
 }
+
 .GuildPrimaryColor2 .GuildPopupButtonCancel:hover {
     background-color: guildColor2&11;
 }
+
 .GuildPrimaryColor3 .GuildPopupButtonCancel:hover {
     background-color: guildColor3&11;
 }
+
 .GuildPrimaryColor4 .GuildPopupButtonCancel:hover {
     background-color: guildColor4&11;
 }
+
 .GuildPrimaryColor5 .GuildPopupButtonCancel:hover {
     background-color: guildColor5&11;
 }
+
 .GuildPrimaryColor6 .GuildPopupButtonCancel:hover {
     background-color: guildColor6&11;
 }
+
 .GuildPrimaryColor7 .GuildPopupButtonCancel:hover {
     background-color: guildColor7&11;
 }
+
 .GuildPrimaryColor8 .GuildPopupButtonCancel:hover {
     background-color: guildColor8&11;
 }
+
 .GuildPrimaryColor9 .GuildPopupButtonCancel:hover {
     background-color: guildColor9&11;
 }
+
 .GuildPrimaryColor10 .GuildPopupButtonCancel:hover {
     background-color: guildColor10&11;
 }
+
 .GuildPrimaryColor11 .GuildPopupButtonCancel:hover {
     background-color: guildColor11&11;
 }
+
 .GuildPrimaryColor12 .GuildPopupButtonCancel:hover {
     background-color: guildColor12&11;
 }
+
 .GuildPrimaryColor13 .GuildPopupButtonCancel:hover {
     background-color: guildColor13&11;
 }
+
 .GuildPrimaryColor14 .GuildPopupButtonCancel:hover {
     background-color: guildColor14&11;
 }
+
 .GuildPrimaryColor15 .GuildPopupButtonCancel:hover {
     background-color: guildColor15&11;
 }
+
 .GuildPrimaryColor16 .GuildPopupButtonCancel:hover {
     background-color: guildColor16&11;
 }
+
 .GuildPrimaryColor17 .GuildPopupButtonCancel:hover {
     background-color: guildColor17&11;
 }
+
 .GuildPrimaryColor18 .GuildPopupButtonCancel:hover {
     background-color: guildColor18&11;
 }
+
 .GuildPrimaryColor19 .GuildPopupButtonCancel:hover {
     background-color: guildColor19&11;
 }
@@ -1227,60 +1374,79 @@ Label.GuildPropertyValue {
 .GuildPrimaryColor0 .GuildPopupButtonCancel {
     background-color: guildColor0&11;
 }
+
 .GuildPrimaryColor1 .GuildPopupButtonCancel {
     background-color: guildColor1&10;
 }
+
 .GuildPrimaryColor2 .GuildPopupButtonCancel {
     background-color: guildColor2&11;
 }
+
 .GuildPrimaryColor3 .GuildPopupButtonCancel {
     background-color: guildColor3&11;
 }
+
 .GuildPrimaryColor4 .GuildPopupButtonCancel {
     background-color: guildColor4&11;
 }
+
 .GuildPrimaryColor5 .GuildPopupButtonCancel {
     background-color: guildColor5&11;
 }
+
 .GuildPrimaryColor6 .GuildPopupButtonCancel {
     background-color: guildColor6&11;
 }
+
 .GuildPrimaryColor7 .GuildPopupButtonCancel {
     background-color: guildColor7&11;
 }
+
 .GuildPrimaryColor8 .GuildPopupButtonCancel {
     background-color: guildColor8&11;
 }
+
 .GuildPrimaryColor9 .GuildPopupButtonCancel {
     background-color: guildColor9&11;
 }
+
 .GuildPrimaryColor10 .GuildPopupButtonCancel {
     background-color: guildColor10&11;
 }
+
 .GuildPrimaryColor11 .GuildPopupButtonCancel {
     background-color: guildColor11&10;
 }
+
 .GuildPrimaryColor12 .GuildPopupButtonCancel {
     background-color: guildColor12&11;
 }
+
 .GuildPrimaryColor13 .GuildPopupButtonCancel {
     background-color: guildColor13&11;
 }
+
 .GuildPrimaryColor14 .GuildPopupButtonCancel {
     background-color: guildColor14&11;
 }
+
 .GuildPrimaryColor15 .GuildPopupButtonCancel {
     background-color: guildColor15&11;
 }
+
 .GuildPrimaryColor16 .GuildPopupButtonCancel {
     background-color: guildColor16&11;
 }
+
 .GuildPrimaryColor17 .GuildPopupButtonCancel {
     background-color: guildColor17&11;
 }
+
 .GuildPrimaryColor18 .GuildPopupButtonCancel {
     background-color: guildColor18&11;
 }
+
 .GuildPrimaryColor19 .GuildPopupButtonCancel {
     background-color: guildColor19&11;
 }

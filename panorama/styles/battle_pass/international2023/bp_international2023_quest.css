@@ -1,8 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DOTARoadToTIQuest {
     horizontal-align: center;
     vertical-align: top;
     flow-children: down;
-
     width: 100%;
     height: 100%;
 }
@@ -11,6 +12,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -24,6 +26,7 @@
     margin-bottom: 16px;
     padding-top: 64px;
 }
+
 .QuestTypePlayer #QuestHeader {
     padding-top: 48px;
 }
@@ -67,6 +70,7 @@
         to(primaryColor4&00)
     );
 }
+
 .QuestTypePlayer .QuestDetailsContainer {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -106,6 +110,7 @@
     );
     width: 60%;
 }
+
 #QuestFooter .QuestExtraInstructions {
     horizontal-align: center;
     margin-top: 8px;
@@ -144,7 +149,6 @@
 
 .MatchDetails {
     flow-children: down;
-
     opacity: 0;
     vertical-align: center;
 }
@@ -154,9 +158,9 @@
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-
     tooltip-position: left;
 }
+
 .LeagueDetailsLoaded .MatchDetails.OpposingTeam {
     tooltip-position: right;
 }
@@ -210,7 +214,6 @@
 
 #PlayerName {
     text-align: center;
-
     color: white;
 }
 
@@ -260,6 +263,7 @@
     flow-children: right;
     margin: 24px;
 }
+
 #QuestDifficulty .DifficultyLabel {
     margin-left: 2px;
     font-weight: semi-bold;
@@ -283,12 +287,12 @@
     margin: 24px;
     margin-top: 48px;
 }
+
 #QuestRewards .PointIcon {
     width: 24px;
     height: 24px;
     margin-left: 4px;
     wash-color: secondaryColor1;
-
     background-image: url("s2r://panorama/images/compendium/international2022/totalpoints_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -302,7 +306,6 @@
     height: 20px;
     margin-left: 4px;
     wash-color: secondaryColor1;
-
     background-image: url("s2r://panorama/images/control_icons/icon_league_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -311,6 +314,7 @@
     vertical-align: middle;
     visibility: collapse;
 }
+
 .TrophyReward #QuestRewards .TrophyIcon {
     visibility: visible;
 }
@@ -331,6 +335,7 @@
     margin: 0px 8px;
     box-shadow: shadowMedium;
 }
+
 .QuestHero DOTAHeroMovie,
 .QuestHero DOTAHeroImage {
     width: 100%;
@@ -369,7 +374,6 @@
     visibility: collapse;
     transform: translateY(106%);
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     hue-rotation: 80deg;
 }
 
@@ -407,6 +411,7 @@
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
 }
+
 .QuestHero.Completed .CompletedFX,
 .QuestHero.Completed .CompletedFXParticles {
     visibility: visible;
@@ -463,32 +468,37 @@
     border-radius: 3px;
     flow-children: right;
     margin-bottom: 12px;
-
     visibility: collapse;
 }
+
 #CompletedIconContainer .CompletionStatus {
     font-weight: semi-bold;
-    text-shadow: 0px 0px 12px rgba (255, 255, 255, 0.1);
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.1);
     text-shadow: textShadowMedium;
     margin-bottom: 2px;
 }
+
 #CompletedIconContainer #HalfCompleteLabel,
 #CompletedIconContainer #CompleteLabel {
     visibility: collapse;
 }
+
 #CompletedIconContainer #IncompleteLabel {
-    color: rgba (255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
+
 .Completed #CompletedIconContainer #CompleteLabel {
     visibility: visible;
     color: white;
     font-size: 20px;
     margin-bottom: 0px;
 }
+
 .HalfProgress #CompletedIconContainer #HalfCompleteLabel {
     visibility: visible;
     color: white;
 }
+
 #CompletedPip1,
 #CompletedPip2 {
     width: 24px;
@@ -502,6 +512,7 @@
     opacity: 1;
     visibility: collapse;
 }
+
 .HalfProgress #CompletedPip1,
 .Completed #CompletedPip1,
 .Completed #CompletedPip2 {

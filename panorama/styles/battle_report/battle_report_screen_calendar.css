@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABattleReportScreenCalendar {
     flow-children: down;
     padding: 24px containerMargins 0px containerMargins;
@@ -26,7 +28,6 @@ DOTABattleReportScreenCalendar {
 
 @define calendarColor: #00000000;
 @define calendarBorder: 1px solid calendarColor;
-
 .CalendarSection {
     width: 100%;
     flow-children: right;
@@ -37,7 +38,6 @@ DOTABattleReportScreenCalendar {
     margin-left: 100px;
     vertical-align: center;
     horizontal-align: center;
-
     overflow: scroll;
 }
 
@@ -138,7 +138,6 @@ DOTABattleReportScreenCalendar {
 
 .CalendarGame {
     flow-children: down;
-
     margin: 4px;
 }
 
@@ -163,7 +162,6 @@ DOTAHeroImage {
     border-radius: 80px;
     min-width: 160px;
     margin: 0px 2px;
-
     transition-property: background-color;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -193,7 +191,6 @@ DOTAHeroImage {
     horizontal-align: center;
     font-weight: semi-bold;
     opacity: 0.6;
-
     transition-property: color, opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease;

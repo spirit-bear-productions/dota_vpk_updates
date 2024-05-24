@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAArcanaVoteMatch {
     background-color: #191919;
     box-shadow: none;
@@ -216,7 +218,6 @@ DOTAArcanaVoteMatch.HasVoted .ClearButton {
     width: 16px;
     height: 16px;
     wash-color: accentColor;
-
     background-image: url("s2r://panorama/images/control_icons/x_close_png.vtex");
     background-size: 16px 16px;
     background-repeat: no-repeat;

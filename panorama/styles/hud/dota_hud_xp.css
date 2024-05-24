@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAXP {
     tooltip-position: top;
     tooltip-body-position: 0% 50%;
@@ -16,6 +18,7 @@ DOTAXP {
     z-index: 50;
     margin-bottom: 12px;
 }
+
 :hover #LevelLabel {
     brightness: 1.5;
 }
@@ -89,7 +92,6 @@ DOTAScoreboardPlayer #XPLabel {
     vertical-align: bottom;
     z-index: -1;
     visibility: collapse;
-
     background-color: #121212;
 }
 
@@ -121,12 +123,11 @@ DOTAScoreboardPlayer #XPLabel {
     padding-left: 6px;
     width: 54px;
     height: 54px;
-
     margin-bottom: 0px;
-
     width: 48px;
     height: 48px;
 }
+
 .ShowXPBar #CircularXPProgressBlur:hover,
 .ShowXPBar #CircularXPProgress:hover {
     brightness: 2;
@@ -193,7 +194,6 @@ DOTAScoreboardPlayer #XPLabel {
     color: #d5a409;
     font-weight: thin;
     text-shadow: 0px 0px 2px 2.5 #000000;
-
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     text-align: center;

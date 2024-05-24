@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroStatue {
     visibility: collapse;
     background-image: url("s2r://panorama/images/hud/international_bg_png.vtex");
@@ -118,7 +120,6 @@ DOTAHeroStatue.Visible {
     z-index: 10;
     background-color: black;
     wash-color: #7595b5;
-
     background-image: url("s2r://panorama/images/icon_thumbs_up_png.vtex");
     background-position: center center;
     background-repeat: no-repeat;

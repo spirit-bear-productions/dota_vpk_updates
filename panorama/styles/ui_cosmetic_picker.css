@@ -1,9 +1,10 @@
-@define CosmeticPicker_Heroes_SetTile_Width:  245px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define CosmeticPicker_Heroes_SetTile_Width: 245px;
 @define CosmeticPicker_Heroes_SetTile_Height: 373px;
 @define CosmeticPicker_Heroes_ItemTile_Width: 185px;
 @define CosmeticPicker_Heroes_ItemTile_Height: 237px;
 @define CosmeticPicker_Contents_FadeDuration: 0.3s;
-
 DOTACosmeticPicker {
     width: 100%;
     height: 100%;
@@ -16,11 +17,13 @@ DOTACosmeticPicker {
     flow-children: right;
     visibility: collapse;
 }
+
 .HeaderContainer .TitleContainer {
     flow-children: right;
     width: fill-parent-flow(1);
     height: 40px;
 }
+
 .HeaderContainer .TitleContainer .HeroTitle {
     text-overflow: shrink;
 }
@@ -69,9 +72,11 @@ PopupShowcaseCustomizeHero.PopupPanel .ItemStatusFilters {
 DOTACollectionPageHeroes .RightColumn {
     width: 716px;
 }
+
 .AspectRatio16x10 DOTACollectionPageHeroes .RightColumn {
     width: 716px;
 }
+
 .AspectRatio21x9 DOTACollectionPageHeroes .RightColumn {
     width: 950px;
 }
@@ -79,9 +84,11 @@ DOTACollectionPageHeroes .RightColumn {
 DOTAHeroPageNewV2 .RightColumn {
     width: 764px;
 }
+
 .AspectRatio16x10 DOTAHeroPageNewV2 .RightColumn {
     width: 764px;
 }
+
 .AspectRatio21x9 DOTAHeroPageNewV2 .RightColumn {
     width: 1138px;
 }
@@ -89,19 +96,19 @@ DOTAHeroPageNewV2 .RightColumn {
 DOTAHudPreGame .RightColumn {
     width: 794px;
 }
+
 .AspectRatio16x10 DOTAHudPreGame .RightColumn {
     width: 794px;
 }
+
 .AspectRatio21x9 DOTAHudPreGame .RightColumn {
     width: 794px;
 }
 
 .RightColumn {
     height: 100%;
-
     flow-children: down;
     background-color: ItemsContainerBackgroundGradient;
-
     border-left: 1px solid rgba(255, 255, 255, 0.02);
     box-shadow: 0px -4px 40px rgba(0, 0, 0, 0.5);
 }
@@ -133,7 +140,6 @@ DOTAHudPreGame .RightColumn {
     flow-children: down;
     padding: 12px 8px 12px 12px;
     box-shadow: inset 0px 1px 0px rgba(238, 245, 255, 0.02);
-
     overflow: squish scroll;
 }
 
@@ -162,13 +168,13 @@ DOTAHudPreGame .RightColumn {
 
 .CosmeticPickerContentsContainer {
     visibility: collapse;
-
     width: 100%;
     height: 100%;
     overflow: squish scroll;
     padding: 12px 8px 12px 12px;
     box-shadow: inset 0px 1px 0px rgba(238, 245, 255, 0.02);
 }
+
 .CosmeticPickerContentsContainer:hover VerticalScrollBar {
     opacity: 1;
 }
@@ -294,9 +300,9 @@ DOTAEconItemAnimated.EquippedItemsSet {
     vertical-align: center;
     horizontal-align: right;
     margin-top: -1px;
-
     visibility: collapse;
 }
+
 .CollectionGroup_Heroes.Sets #CollectionTracker {
     visibility: visible;
 }
@@ -324,6 +330,7 @@ DOTAEconItemAnimated.EquippedItemsSet {
     margin-left: 2px;
     transform: skew(-15deg);
 }
+
 #CollectionTracker #CollectionPipsContainer .CollectionPip.Unowned {
     background-color: rgba(0, 0, 0, 0.7);
     border: 1px solid rgba(222, 231, 255, 0.08);
@@ -333,7 +340,6 @@ DOTAEconItemAnimated.EquippedItemsSet {
     background-color: gradient(linear, 0% 0%, 0% 90%, from(#d7e2eb), to(#7d898f));
     border: 1px solid rgb(0, 0, 0);
     z-index: 1;
-
     animation-name: PulseCollectionPip;
     animation-duration: 1s;
     animation-direction: alternate;

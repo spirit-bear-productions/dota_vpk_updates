@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTARubickArcanaProgress {
     width: 560px;
     height: 691px;
@@ -54,9 +56,7 @@ DOTARubickArcanaProgress {
 #WinsContainer {
     width: 120px;
     height: 120px;
-
     horizontal-align: right;
-
     background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_rubick/cube_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -75,6 +75,7 @@ DOTARubickArcanaProgress {
     0% {
         pre-transform-scale2d: 1.5;
     }
+
     100% {
         pre-transform-scale2d: 1;
     }
@@ -179,7 +180,6 @@ DOTARubickArcanaProgress {
 
 .UnlockGroup #UnlockGroupAbilities {
     flow-children: right-wrap;
-
     saturation: 0;
     brightness: 0.2;
 }

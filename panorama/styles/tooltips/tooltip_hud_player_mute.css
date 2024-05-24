@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents.PlayerMuteTooltipContents {
     flow-children: down;
     padding: 0px;
@@ -58,7 +60,6 @@
     width: 32px;
     height: 32px;
     horizontal-align: center;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -67,6 +68,7 @@
 #VoiceMuteStatus .MuteIcon {
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_psd.vtex");
 }
+
 .VoiceMuted #VoiceMuteStatus .MuteIcon {
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_sound_on_psd.vtex");
 }
@@ -74,6 +76,7 @@
 #TextMuteStatus .MuteIcon {
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_text_psd.vtex");
 }
+
 .TextMuted #TextMuteStatus .MuteIcon {
     background-image: url("s2r://panorama/images/hud/reborn/icon_scoreboard_mute_text_on_psd.vtex");
 }

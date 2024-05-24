@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPlusRewardLogEntry {
     background-color: gradient(linear, 0% 0%, 140% 0%, from(#32383af4), to(#000000));
     box-shadow: none;
@@ -110,17 +112,13 @@ DOTAPlusRewardLogEntry .DescriptionColumn {
 
 .WagerWon .TypeIcon {
     background-image: url("s2r://panorama/images/compendium/spring2016/logicon_wonwager_psd.vtex");
-
     hue-rotation: 110deg;
-
     hue-rotation: 200deg;
 }
 
 .RecycledItem .TypeIcon {
     background-image: url("s2r://panorama/images/compendium/spring2016/logicon_recycle_psd.vtex");
-
     hue-rotation: 110deg;
-
     hue-rotation: 200deg;
 }
 
@@ -132,27 +130,21 @@ DOTAPlusRewardLogEntry .DescriptionColumn {
 
 .QuestComplete .TypeIcon {
     background-image: url("s2r://panorama/images/compendium/spring2016/logicon_questcomplete_psd.vtex");
-
     hue-rotation: 110deg;
-
     hue-rotation: 200deg;
 }
 
 .WeekendTourneyPayout .TypeIcon {
     wash-color: dotaPlusLightGold;
     background-image: url("s2r://panorama/images/weekend_tourney/battlecup_icon_psd.vtex");
-
     hue-rotation: 110deg;
-
     hue-rotation: 200deg;
 }
 
 .FantasyChallengeWinnings .TypeIcon {
     wash-color: dotaPlusLightGold;
     background-image: url("s2r://panorama/images/compendium/spring2016/logicon_achievement_psd.vtex");
-
     hue-rotation: 110deg;
-
     hue-rotation: 200deg;
 }
 

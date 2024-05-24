@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .Reborn #TimeOfDayBG {
     horizontal-align: center;
     visibility: visible;
@@ -20,7 +22,6 @@
     width: 220px;
     horizontal-align: center;
     vertical-align: top;
-
     opacity-mask: url("s2r://panorama/images/hud/reborn/hud_custom_ti12/time_bg_rays_mask_psd.vtex");
     opacity: 1.2;
     z-index: 10;
@@ -31,7 +32,6 @@
     width: 220px;
     horizontal-align: center;
     vertical-align: top;
-
     opacity-mask: url("s2r://panorama/images/hud/reborn/hud_custom_ti12/time_bg_mask_psd.vtex");
     opacity: 2;
     overflow: noclip;

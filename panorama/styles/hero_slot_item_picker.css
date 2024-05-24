@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroSlotItemPicker {
     flow-children: down;
 }
@@ -30,7 +32,6 @@ DOTAHudPreGame .Header > Label {
 #SlotItemCount {
     color: white;
     margin-right: 1px;
-
     visibility: collapse;
 }
 
@@ -41,7 +42,6 @@ DOTAHudPreGame .Header > Label {
 #SlotEconItemContainer {
     flow-children: down;
     context-menu-position: bottom;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -81,12 +81,10 @@ DOTAHeroSlotItemPicker:not(.HasItemsForSlot) #MenuArrowContainer {
     width: 16px;
     height: 16px;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_solid_down_png.vtex");
     background-size: 16px 11px;
     background-position: center 2px;
     background-repeat: no-repeat;
-
     wash-color: #777;
 }
 
@@ -95,7 +93,6 @@ DOTAHeroSlotItemPicker:not(.HasItemsForSlot) #MenuArrowContainer {
     box-shadow: none;
     saturation: 1;
     wash-color: white;
-
     border-right: 0px;
     border-left: 1px solid #ffffff22;
     border-bottom: 0px;

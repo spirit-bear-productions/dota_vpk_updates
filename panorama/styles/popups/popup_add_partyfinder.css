@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     background-color: #000000;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#162034), to(#090f1f));
-
     border: 1px solid #232323;
 }
 

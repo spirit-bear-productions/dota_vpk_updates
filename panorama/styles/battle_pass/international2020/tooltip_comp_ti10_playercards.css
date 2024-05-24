@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents.PlayerCardsContents {
     flow-children: down;
     width: 700px;
@@ -110,7 +112,6 @@
 }
 
 @define tableBorder: 1px solid #fff1;
-
 .SupportersClubCardPacksRow {
     width: fill-parent-flow(1);
     flow-children: right;
@@ -138,6 +139,7 @@
     width: fill-parent-flow(1);
     text-align: right;
 }
+
 .SupportersClubCardPacksRow.LastRow {
     border-bottom: tableBorder;
     margin-bottom: 12px;

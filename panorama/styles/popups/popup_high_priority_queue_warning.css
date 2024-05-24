@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     width: 1000px;
     background-image: url("s2r://panorama/images/textures/slow_queue_dialog_bg_psd.vtex");
@@ -15,7 +17,6 @@
     font-weight: normal;
     font-size: 42px;
     color: #cccccc;
-
     margin-top: 32px;
 }
 
@@ -38,10 +39,8 @@
 
 .ButtonRow Label {
     font-size: 16px;
-
     color: #ccc;
     font-weight: normal;
-
     margin-top: 4px;
 }
 
@@ -52,7 +51,6 @@
 .PopupButton {
     width: 350px;
     height: 60px;
-
     margin-bottom: 12px;
 }
 
@@ -67,7 +65,6 @@
     text-transform: uppercase;
     font-size: 22px;
     padding-bottom: 4px;
-
     font-weight: semibold;
 }
 

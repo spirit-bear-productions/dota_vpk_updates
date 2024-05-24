@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHudClipBuilder {
     width: 100%;
     height: 100%;
@@ -19,7 +21,6 @@ DOTAHudClipBuilder.Hidden,
     horizontal-align: center;
     vertical-align: center;
     text-transform: uppercase;
-
     transition-property: color;
     transition-duration: 0.15s;
     transition-timing-function: linear;
@@ -35,7 +36,6 @@ DOTAHudClipBuilder.Hidden,
     margin-right: 6px;
     margin-top: 6px;
     wash-color: #8199c5;
-
     transition-property: brightness;
     transition-duration: 0.15s;
 }
@@ -53,12 +53,9 @@ DOTAHudClipBuilder.Hidden,
     height: 208px;
     vertical-align: bottom;
     horizontal-align: center;
-
     margin-bottom: 24px;
-
     background-color: #181919f3;
     border-radius: 3px;
-
     box-shadow: fill #00000088 0px 0px 24px 0px;
 }
 
@@ -87,14 +84,11 @@ DOTAHudClipBuilder.Hidden,
     background-color: #57688688;
     color: #8199c5;
     border-radius: 5px;
-
     horizontal-align: left;
-
     height: 32px;
     padding: 8px 12px;
     z-index: 1;
     sound: "ui_generic_button_click";
-
     transition-property: background-color;
     transition-duration: 0.15s;
     transition-timing-function: linear;
@@ -109,7 +103,6 @@ DOTAHudClipBuilder.Hidden,
     height: 32px;
     tooltip-position: bottom;
     tooltip-body-position: 50% 50%;
-
     transition-property: background-color, wash-color;
     transition-duration: 0.15s;
 }
@@ -124,7 +117,6 @@ DOTAHudClipBuilder.Hidden,
     wash-color: #8199c5;
     width: 18px;
     height: 18px;
-
     transition-property: background-color, wash-color, background-image;
     transition-duration: 0.15s;
 }
@@ -152,7 +144,6 @@ DOTAHudClipBuilder.Hidden,
     vertical-align: center;
     tooltip-position: top;
     margin-bottom: 12px;
-
     transition-property: brightness;
     transition-duration: 0.15s;
 }
@@ -180,13 +171,11 @@ DOTAHudClipBuilder.Hidden,
 #PlayButton {
     width: 44px;
     height: 44px;
-
     background-color: #576886aa;
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
-
     transition-property: background-color, wash-color;
     transition-duration: 0.15s;
     margin: 0px 4px 0px 4px;
@@ -217,7 +206,6 @@ DOTAHudClipBuilder.Hidden,
     wash-color: #8199c5;
     width: 24px;
     height: 24px;
-
     transition-property: background-color, wash-color, background-image;
     transition-duration: 0.15s;
 }
@@ -226,9 +214,11 @@ DOTAHudClipBuilder.Hidden,
     0% {
         transform: rotateZ(360deg);
     }
+
     50% {
         transform: rotateZ(180deg);
     }
+
     100% {
         transform: rotateZ(0deg);
     }
@@ -238,18 +228,13 @@ DOTAHudClipBuilder.Hidden,
     background-image: url("s2r://panorama/images/status_icons/loadingthrobber_round_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     animation-name: DownloadingSpinnerAnimation;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-
     align: center center;
-
     width: 40px;
-
     height: 40px;
-
     visibility: collapse;
 }
 
@@ -270,7 +255,6 @@ DOTAHudClipBuilder.Hidden,
     height: 32px;
     tooltip-position: bottom;
     tooltip-body-position: 50% 50%;
-
     transition-property: background-color, wash-color;
     transition-duration: 0.15s;
 }
@@ -283,7 +267,6 @@ DOTAHudClipBuilder.Hidden,
     height: 18px;
     font-weight: bold;
     color: bluegreyTextBright;
-
     transition-property: background-color, wash-color;
     transition-duration: 0.15s;
 }

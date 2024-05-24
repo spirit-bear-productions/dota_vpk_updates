@@ -1,9 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAFriendMenu {
     width: 366px;
     height: 100%;
-
     vertical-align: bottom;
-
     transition-property: opacity, transform;
     transition-timing-function: ease-in-out;
     transition-duration: 0.35s;
@@ -16,7 +16,6 @@ DOTAFriendMenu {
     width: 100%;
     height: 890px;
     vertical-align: bottom;
-
     margin-top: 10px;
     overflow: noclip;
 }
@@ -28,15 +27,16 @@ DOTAFriendMenu {
 #ProfileCard {
     z-index: 1;
 }
+
 .ShowMiniShowcase #ProfileCard {
     visibility: collapse;
 }
 
 .MiniShowcaseContainer {
     z-index: 1;
-
     visibility: collapse;
 }
+
 .ShowMiniShowcase .MiniShowcaseContainer {
     visibility: visible;
 }
@@ -45,10 +45,10 @@ DOTAFriendMenu {
     horizontal-align: right;
     margin-top: 88px;
     margin-right: 8px;
-
     opacity: 0;
     transform: translateX(12px);
 }
+
 .MiniShowcaseContainer #EditShowcaseButton:disabled {
     wash-color: #888888;
 }
@@ -58,6 +58,7 @@ DOTAFriendMenu {
     height: 16px;
     tooltip-position: bottom;
 }
+
 .CanEditShowcase .MiniShowcaseContainer #EditShowcaseButton #EditShowcaseLockedImage {
     visibility: collapse;
 }
@@ -78,12 +79,10 @@ DOTAFriendMenu.Hidden {
 
 #FriendPanelFriendsList {
     opacity: 1;
-
     width: 100%;
     height: fill-parent-flow(1);
     overflow: squish scroll;
     flow-children: down;
-
     transition-property: height, opacity, transform, height;
     transition-timing-function: ease-in-out;
     transition-duration: 0.35s, 0.35s, 0.35s, 0s;
@@ -157,10 +156,8 @@ VerticalScrollBar .ScrollThumb {
 
 .FriendsCategory {
     flow-children: down;
-
     width: 100%;
     height: fit-children;
-
     transition-property: height, opacity;
     transition-duration: 0.35s;
     transition-delay: 0.4s, 0s;
@@ -213,9 +210,7 @@ VerticalScrollBar .ScrollThumb {
     background-repeat: no-repeat;
     vertical-align: middle;
     margin-right: 8px;
-
     wash-color: #666;
-
     tooltip-position: top;
     tooltip-body-position: 50%;
 }
@@ -236,9 +231,11 @@ VerticalScrollBar .ScrollThumb {
     transform: translateY(-1px);
     background-image: url("s2r://panorama/images/control_icons/ghostfriend_inactive_psd.vtex");
 }
+
 #FilterToggleButton:selected {
     background-image: url("s2r://panorama/images/control_icons/ghostfriend_png.vtex");
 }
+
 #FilterToggleButton .TickBox {
     visibility: collapse;
 }
@@ -252,17 +249,13 @@ VerticalScrollBar .ScrollThumb {
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 8px;
-
     height: 38px;
-
     font-size: 18px;
     font-weight: bold;
     color: #929ba0;
     background-color: none;
     opacity: 1;
-
     flow-children: right;
-
     transition-property: height, opacity;
     transition-duration: 0.2s;
 }
@@ -278,10 +271,10 @@ VerticalScrollBar .ScrollThumb {
     box-shadow: none;
     border: 0px solid transparent;
     wash-color: #888888;
-
     transition-property: transform, wash-color;
     transition-duration: 0.2s;
 }
+
 #FriendsHeader Label {
     color: #999999;
     margin: 0px 0px 0px 8px;
@@ -313,7 +306,6 @@ VerticalScrollBar .ScrollThumb {
     padding-left: 16px;
     padding-bottom: 0px;
     padding-top: 0px;
-
     transition-property: height;
     transition-duration: 1s;
     transition-delay: 0s;
@@ -325,7 +317,6 @@ VerticalScrollBar .ScrollThumb {
     flow-children: down;
     padding-left: 25px;
     padding-bottom: 16px;
-
     transition-property: height;
     transition-duration: 1s;
     transition-delay: 0s;
@@ -347,7 +338,6 @@ VerticalScrollBar .ScrollThumb {
 .FriendMenuItem {
     opacity: 0;
     height: 0px;
-
     width: 0px;
     transition-property: opacity, height, width;
     transition-duration: 0.3s;
@@ -364,23 +354,27 @@ VerticalScrollBar .ScrollThumb {
     width: 100%;
     height: 96px;
 }
+
 #PartyList .FriendMenuItem.Visible {
     opacity: 1;
     width: 100%;
     height: 108px;
     padding: 0px;
-
     border-bottom: 2px solid #00000033;
 }
+
 #PartyList .FriendMenuItem.AvatarRows2.Visible {
     height: 180px;
 }
+
 #PartyList .FriendMenuItem.AvatarRows3.Visible {
     height: 268px;
 }
+
 #PartyList .FriendMenuItem.AvatarRows4.Visible {
     height: 348px;
 }
+
 #PartyList .FriendMenuItem.AvatarRows5.Visible {
     height: 428px;
 }
@@ -434,7 +428,6 @@ VerticalScrollBar .ScrollThumb {
     width: 100%;
     height: 30px;
     flow-children: right;
-
     background-image: url("s2r://panorama/images/conduct/ovw-bar-bg_png.vtex");
     background-size: 100% 100%;
     padding: 2px;
@@ -525,7 +518,6 @@ VerticalScrollBar .ScrollThumb {
     margin-top: 1px;
     transition-property: background-color;
     transition-duration: 0.2s;
-
     border: 1px solid #000000;
 }
 
@@ -543,6 +535,7 @@ VerticalScrollBar .ScrollThumb {
     width: fill-parent-flow(1);
     margin-right: 8px;
 }
+
 #FriendSearch TextEntry {
     width: 100%;
     background-color: black;
@@ -551,14 +544,13 @@ VerticalScrollBar .ScrollThumb {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#11111100), to(#22222200));
     height: fit-children;
     padding: 4px 7px;
-
     transition-property: border, background-color;
     transition-duration: 0.15s;
 }
+
 #FriendSearch TextEntry Label {
     font-weight: normal;
     margin-top: 1px;
-
     transition-property: color;
     transition-duration: 0.1s;
 }
@@ -567,17 +559,16 @@ VerticalScrollBar .ScrollThumb {
     border-color: #555555;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#111111ff), to(#222222ff));
 }
+
 #FriendSearch TextEntry:hover Label {
     color: #888888;
 }
 
 #FriendSearch #SearchButton {
     visibility: visible;
-
     background-image: url("s2r://panorama/images/control_icons/icon_search_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
-
     width: 24px;
     height: 24px;
     vertical-align: middle;
@@ -589,11 +580,9 @@ VerticalScrollBar .ScrollThumb {
 
 #FriendSearch #ClearButton {
     visibility: collapse;
-
     background-image: url("s2r://panorama/images/control_icons/x_close_filled_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
-
     width: 20px;
     height: 20px;
     vertical-align: middle;
@@ -601,10 +590,10 @@ VerticalScrollBar .ScrollThumb {
     margin-left: 2px;
     horizontal-align: right;
     opacity: 0.2;
-
     transition-property: opacity, transform;
     transition-duration: 0.1s;
 }
+
 #FriendSearch #ClearButton:hover {
     opacity: 0.8;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACandyImage {
     width: 64px;
     height: width-percentage(100%);
@@ -11,6 +13,7 @@ DOTACandyImage.NotOwned {
     border: 2px solid rgba(0, 0, 0, 0.3);
     border-radius: 4px;
 }
+
 DOTACandyImage.NotOwned #CandyImage {
     img-shadow: none;
     opacity: 0.2;
@@ -30,6 +33,7 @@ DOTACandyImage.RemovedByExchangeRecipe {
     border-radius: 3px;
     box-shadow: #0000006d 0px 4px 12px 0px;
 }
+
 DOTACandyImage.RemovedByExchangeRecipe #CandyImage {
     img-shadow: none;
 }

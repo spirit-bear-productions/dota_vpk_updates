@@ -1,5 +1,6 @@
-@define accentColor:  #A9372E;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define accentColor: #A9372E;
 PopupEventDungeonLeaderboards {
     width: 1050px;
     height: 600px;
@@ -117,7 +118,6 @@ PopupEventDungeonLeaderboards {
     letter-spacing: 2.25px;
     text-transform: uppercase;
     z-index: 2;
-
     transition-property: border, background-color, color;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -233,7 +233,6 @@ VerticalScrollBar:hover .ScrollThumb {
     margin-left: 16px;
     margin-bottom: 0px;
     margin-top: 5px;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_top_right_png.vtex");
     background-repeat: no-repeat;
     background-size: 11px 11px;

@@ -1,15 +1,15 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define initialAnimationDelay: 2.0s;
 @define rewardTitleAnimationDuration: 0.5s;
 @define levelUpAnimationDuration: 0.5s;
 @define segmentAnimationDuration: 2.5s;
-
 DOTAArcanaVote {
     width: 100%;
     height: 100%;
     vertical-align: center;
     horizontal-align: center;
     flow-children: down;
-
     border: 0px;
     padding: 0px;
 }
@@ -76,15 +76,12 @@ DOTAArcanaVote.Loaded .ArcanaVote {
     flow-children: down;
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#080808), to(#101010));
     border: 1px solid black;
-
     border-top-color: #ffffff04;
     border-left-color: #ffffff04;
     border-bottom-color: #ffffff03;
     border-right-color: #ffffff04;
     visibility: collapse;
-
     overflow: squish clip;
-
     transition-property: opacity, width, transform;
     transition-duration: 0.43s;
     transition-timing-function: ease-in-out;
@@ -163,16 +160,12 @@ DOTAArcanaVote.VotingEnabled #Voting {
 #Voting .VotingInfo {
     width: 100%;
     height: 0px;
-
     transition-property: height;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
-
     padding: 24px;
-
     flow-children: down;
-
     overflow: squish clip;
 }
 
@@ -206,13 +199,10 @@ DOTAArcanaVote.VotingEnabled #Voting {
 #BracketOverview {
     width: 164px;
     height: 164px;
-
     background-image: url("s2r://panorama/images/compendium/bracket_nav_png.vtex");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
@@ -250,15 +240,11 @@ DOTAArcanaVote.VotingEnabled #Voting {
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
-
     transition-property: wash-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.1s;
-
     horizontal-align: right;
-
     wash-color: #a6adb4;
-
     margin-right: 8px;
     margin-top: 2px;
     opacity: 0.4;
@@ -371,11 +357,13 @@ DOTAArcanaVote.HasNextResults .NextResults {
     margin-right: 2px;
     color: accentColorBright;
 }
+
 .VotingEndsContainer {
     width: 100%;
     flow-children: down;
     margin-top: 60px;
 }
+
 .VotingEndsContainer .BigLabel {
     font-size: 16px;
     color: grey;
@@ -488,9 +476,9 @@ DOTAArcanaVote.HideColumn1 #VoteColumn1 {
     vertical-align: top;
     horizontal-align: center;
 }
+
 .ButtonBevel {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(accentColor), to(accentColorBright));
-
     border-top-color: accentColorBright;
     border-left-color: accentColor;
     border-bottom-color: accentColor;
@@ -499,19 +487,16 @@ DOTAArcanaVote.HideColumn1 #VoteColumn1 {
 
 .ButtonBevel:enabled:hover {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(accentColor), to(accentColorBright));
-
     border-top-color: accentColorBright;
     border-left-color: accentColor;
     border-bottom-color: accentColor;
     border-right-color: accentColor;
-
     brightness: 1.7;
 }
 
 .ButtonBevel:disabled {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#272727), to(#363636));
     saturation: 0;
-
     border-top-color: #323232;
     border-left-color: #1c1c1c;
     border-bottom-color: #1c1c1c;
@@ -552,7 +537,6 @@ DOTAArcanaVote.HideVotingControls #ArcanaVoteButton {
 .ZoomInControl {
     width: 50%;
     height: 50%;
-
     transition-property: background-color, border;
     transition-timing-function: ease-in-out;
     transition-duration: 0.1s;
@@ -561,16 +545,11 @@ DOTAArcanaVote.HideVotingControls #ArcanaVoteButton {
 .ZoomInControl .Search {
     background-size: cover;
     background-repeat: no-repeat;
-
     width: 32px;
     height: 32px;
-
     wash-color: #a6adb4;
-
     margin: 8px;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-timing-function: ease-in-out;
     transition-duration: 0.1s;
@@ -579,12 +558,15 @@ DOTAArcanaVote.HideVotingControls #ArcanaVoteButton {
 .ZoomInControl.North .Search {
     vertical-align: top;
 }
+
 .ZoomInControl.South .Search {
     vertical-align: bottom;
 }
+
 .ZoomInControl.East .Search {
     horizontal-align: left;
 }
+
 .ZoomInControl.West .Search {
     horizontal-align: right;
 }
@@ -624,7 +606,6 @@ DOTAArcanaVote.ZoomedIn #Instructions {
 
 DOTAArcanaVote #Instructions {
     visibility: visible;
-
     font-size: 14px;
     vertical-align: bottom;
     horizontal-align: center;
@@ -632,9 +613,7 @@ DOTAArcanaVote #Instructions {
     color: #ffffff22;
     text-transform: uppercase;
     letter-spacing: 1px;
-
     opacity: 1;
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -644,13 +623,11 @@ DOTAArcanaVote #Instructions {
     width: 200%;
     height: 200%;
     overflow: noclip;
-
     transition-property: transform, position;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
     transform: scaleX(0.5) scaleY(0.5);
-
     vertical-align: center;
     horizontal-align: center;
 }
@@ -658,7 +635,6 @@ DOTAArcanaVote #Instructions {
 .VoteButtonContainer {
     vertical-align: bottom;
     flow-children: down;
-
     transition-property: transform;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;

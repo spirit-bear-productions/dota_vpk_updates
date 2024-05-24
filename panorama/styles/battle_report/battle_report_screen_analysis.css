@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABattleReportScreenAnalysis {
     flow-children: down;
     padding: 24px containerMargins 0px containerMargins;
@@ -38,7 +40,6 @@ DOTABattleReportScreenAnalysis {
     border-radius: 80px;
     min-width: 160px;
     margin: 0px 2px;
-
     transition-property: background-color;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -68,7 +69,6 @@ DOTABattleReportScreenAnalysis {
     horizontal-align: center;
     font-weight: semi-bold;
     opacity: 0.6;
-
     transition-property: color, opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -130,6 +130,7 @@ DOTABattleReportScreenAnalysis {
     flow-children: down;
     visibility: collapse;
 }
+
 .AnalysisTableRow.Expanded .AnalysisSubRows {
     visibility: visible;
 }
@@ -159,13 +160,14 @@ DOTABattleReportScreenAnalysis {
     height: 28px;
     border-radius: 2px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
+
 .ColumnHeader:hover {
     brightness: 2;
 }
+
 .ColumnHeader:active {
     brightness: 1.5;
 }
@@ -186,12 +188,10 @@ DOTABattleReportScreenAnalysis {
     height: 16px;
     wash-color: baseText;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     visibility: collapse;
 }
 
@@ -210,12 +210,10 @@ DOTABattleReportScreenAnalysis {
     vertical-align: middle;
     wash-color: #ccc;
     margin-right: 4px;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_solid_right_png.vtex");
     background-size: 10px 16px;
     background-repeat: no-repeat;
     background-position: center;
-
     transition-property: transform, brightness;
     transition-duration: 0.2s;
 }
@@ -278,9 +276,7 @@ DOTABattleReportScreenAnalysis {
 .ProgressBarColumnData ProgressBar {
     vertical-align: middle;
     width: 100px;
-
     height: 10px;
-
     border-radius: 2px;
     margin-left: 4px;
     margin-right: 18px;
@@ -312,7 +308,6 @@ DOTABattleReportScreenAnalysis {
     margin-right: 4px;
     wash-color: #ccc;
     vertical-align: middle;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -321,15 +316,19 @@ DOTABattleReportScreenAnalysis {
 .RoleColumnData.SafeLane .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/safelaneicon_psd.vtex");
 }
+
 .RoleColumnData.MidLane .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/midlaneicon_psd.vtex");
 }
+
 .RoleColumnData.OffLane .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/offlaneicon_psd.vtex");
 }
+
 .RoleColumnData.SoftSupport .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/softsupporticon_psd.vtex");
 }
+
 .RoleColumnData.HardSupport .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/hardsupporticon_psd.vtex");
 }
@@ -344,6 +343,7 @@ DOTABattleReportScreenAnalysis {
     height: 72px;
     margin-left: 8px;
 }
+
 .HeroImageColumnData #HeroImage {
     width: 100%;
     height: 100%;
@@ -360,7 +360,6 @@ DOTABattleReportScreenAnalysis {
     flow-children: right;
     horizontal-align: right;
     vertical-align: bottom;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -384,15 +383,12 @@ DOTABattleReportScreenAnalysis {
 .ChangeColumnsButton {
     width: 26px;
     height: 26px;
-
     background-color: #0009;
     tooltip-position: top;
-
     background-image: url("s2r://panorama/images/dota_plus/column_button_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     horizontal-align: right;
     vertical-align: center;
 }
@@ -416,6 +412,7 @@ DOTABattleReportScreenAnalysis {
 #HeroesTable .ColumnData {
     height: 36px;
 }
+
 #HeroesTable .AnalysisTableSubRow .ColumnData {
     height: 24px;
 }
@@ -423,6 +420,7 @@ DOTABattleReportScreenAnalysis {
 #HeroesTable .HeroColumn {
     width: 300px;
 }
+
 #HeroesTable .RoleColumn {
     width: 300px;
     padding-left: 88px;
@@ -474,6 +472,7 @@ DOTABattleReportScreenAnalysis {
 #RolesTable .ColumnData {
     height: 36px;
 }
+
 #RolesTable .AnalysisTableSubRow .ColumnData {
     height: 24px;
 }
@@ -481,6 +480,7 @@ DOTABattleReportScreenAnalysis {
 #RolesTable .RoleColumn {
     width: 300px;
 }
+
 #RolesTable .HeroColumn {
     width: 300px;
     padding-left: 60px;
@@ -505,9 +505,11 @@ DOTABattleReportScreenAnalysis {
 #MatchesTable .DateColumn {
     width: 180px;
 }
+
 #MatchesTable .RoleColumn {
     width: 160px;
 }
+
 #MatchesTable .HeroColumn {
     width: 80px;
 }

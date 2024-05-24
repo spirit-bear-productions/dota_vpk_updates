@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #RewardsTab {
     width: 100%;
     height: 100%;
@@ -58,7 +60,6 @@
     background-color: black;
     padding-left: 24px;
     padding-right: 24px;
-
     z-index: 1;
     border-right: 2px solid #2d3e56;
     border-left: 2px solid #2d3e56;
@@ -82,7 +83,6 @@
     contrast: 0.99;
     border-radius: 4px;
     border: 1px solid transparent;
-
     height: 75%;
     width: 154px;
     margin: 32px;
@@ -115,9 +115,11 @@
 .QuestlineReward {
     margin: 0px 4px 1px 4px;
 }
+
 #Questline1 {
     margin-left: 10px;
 }
+
 #Questline3 {
     margin-right: 10px;
 }
@@ -125,12 +127,15 @@
 #Questline1 .CampaignRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/campaignrewards/carry_psd.vtex");
 }
+
 #Questline2 .CampaignRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/campaignrewards/support_psd.vtex");
 }
+
 #Questline3 .CampaignRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/campaignrewards/mid_psd.vtex");
 }
+
 #Questline4 .CampaignRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/campaignrewards/newbloom_psd.vtex");
 }
@@ -188,10 +193,8 @@
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
     width: 100%;
     height: 500px;
-
     vertical-align: bottom;
     hue-rotation: 15deg;
-
     transform: scaleX(-1);
 }
 
@@ -234,7 +237,6 @@ HorizontalScrollBar .ScrollThumb {
 .PrestigeRewardSquare {
     width: 172px;
     height: 172px;
-
     margin-left: 8px;
     margin-right: 8px;
 }
@@ -290,7 +292,6 @@ HorizontalScrollBar .ScrollThumb {
     saturation: 0;
     wash-color: #182231ee;
     tooltip-position: bottom;
-
     transition-property: pre-transform-scale2d, wash-color, saturation;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -313,7 +314,6 @@ HorizontalScrollBar .ScrollThumb {
     pre-transform-scale2d: 0.8;
     border-radius: 0.1px;
     border: 3px solid black;
-
     box-shadow: #00000088 fill -6px -3px 12px 12px;
 }
 
@@ -325,43 +325,53 @@ HorizontalScrollBar .ScrollThumb {
 
 #Taunts #Venomancer {
     transform: rotateX(30deg) rotateY(30deg) rotateZ(-10deg) translateY(40px) translateX(-10px) translateZ(35px);
-
     background-image: url("s2r://panorama/images/econ/taunts/dota_icon_taunt_venomancer_little_friend_png.vtex");
 }
 
 #Teleport .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/teleport_psd.vtex");
 }
+
 #Emoticons .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/emoticons_psd.vtex");
 }
+
 #Infuser .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/infuser_psd.vtex");
 }
+
 #EffigyBlock .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/effigyblock_psd.vtex");
 }
+
 #Taunts .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/taunts_psd.vtex");
 }
+
 #Courier .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/courier_psd.vtex");
 }
+
 #Blink .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/blink_psd.vtex");
 }
+
 #Ward .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/ward_psd.vtex");
 }
+
 #Fountain .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/fountain_psd.vtex");
 }
+
 #Loadscreens .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/loadscreens_psd.vtex");
 }
+
 #Cyclone .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/cyclone_psd.vtex");
 }
+
 #Forcestaff .PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/forcestaff_psd.vtex");
 }
@@ -399,6 +409,7 @@ HorizontalScrollBar .ScrollThumb {
     saturation: 1;
     wash-color: #00000000;
 }
+
 .Courier.LevelQualifies:hover {
     opacity: 1;
     saturation: 1;
@@ -409,12 +420,15 @@ HorizontalScrollBar .ScrollThumb {
     opacity: 1;
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/courier1_psd.vtex");
 }
+
 #Courier2.PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/courier2_psd.vtex");
 }
+
 #Courier3.PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/courier3_psd.vtex");
 }
+
 #Courier4.PrestigeRewardImage {
     background-image: url("s2r://panorama/images/compendium/winter2016/prestigerewards/courier4_psd.vtex");
 }
@@ -533,7 +547,6 @@ HorizontalScrollBar .ScrollThumb {
     width: 128px;
     height: 128px;
     pre-transform-scale2d: 1;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
@@ -551,12 +564,15 @@ HorizontalScrollBar .ScrollThumb {
 #Treasure1Icon {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/treasure1_icon_psd.vtex");
 }
+
 #Treasure2Icon {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/treasure2_icon_psd.vtex");
 }
+
 #Treasure3Icon {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/treasure3_icon_psd.vtex");
 }
+
 #Treasure4Icon {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/treasure4_icon_psd.vtex");
 }
@@ -567,13 +583,11 @@ HorizontalScrollBar .ScrollThumb {
     background-repeat: no-repeat;
     width: 108px;
     height: 108px;
-
     margin-left: 12px;
     margin-right: 12px;
     tooltip-position: right;
     tooltip-body-position: 0% 50%;
     tooltip-arrow-position: 50%;
-
     saturation: 0.2;
     brightness: 0.045;
     border-radius: 14px;
@@ -643,7 +657,6 @@ HorizontalScrollBar .ScrollThumb {
     height: 128px;
     pre-transform-scale2d: 1;
     horizontal-align: center;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
@@ -652,7 +665,6 @@ HorizontalScrollBar .ScrollThumb {
 #SpinWheel {
     width: 245px;
     height: 256px;
-
     background-image: url("s2r://panorama/images/compendium/winter2016/spinwheel_psd.vtex");
 }
 
@@ -706,21 +718,27 @@ HorizontalScrollBar .ScrollThumb {
 #c1t1 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c1t1_psd.vtex");
 }
+
 #c1t2 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c1t2_psd.vtex");
 }
+
 #c1t3 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c1t3_psd.vtex");
 }
+
 #c1t4 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c1t4_psd.vtex");
 }
+
 #c1t5 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c1t5_psd.vtex");
 }
+
 #c1r1 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c1r1_psd.vtex");
 }
+
 #c1ur1 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c1ur1_psd.vtex");
 }
@@ -728,21 +746,27 @@ HorizontalScrollBar .ScrollThumb {
 #c2t1 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c2t1_psd.vtex");
 }
+
 #c2t2 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c2t2_psd.vtex");
 }
+
 #c2t3 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c2t3_psd.vtex");
 }
+
 #c2t4 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c2t4_psd.vtex");
 }
+
 #c2t5 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c2t5_psd.vtex");
 }
+
 #c2r1 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c2r1_psd.vtex");
 }
+
 #c2ur1 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c2ur1_psd.vtex");
 }
@@ -750,21 +774,27 @@ HorizontalScrollBar .ScrollThumb {
 #c3t1 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c3t1_psd.vtex");
 }
+
 #c3t2 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c3t2_psd.vtex");
 }
+
 #c3t3 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c3t3_psd.vtex");
 }
+
 #c3t4 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c3t4_psd.vtex");
 }
+
 #c3t5 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c3t5_psd.vtex");
 }
+
 #c3r1 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c3r1_psd.vtex");
 }
+
 #c3ur1 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c3ur1_psd.vtex");
 }
@@ -772,21 +802,27 @@ HorizontalScrollBar .ScrollThumb {
 #c4t1 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c4t1_psd.vtex");
 }
+
 #c4t2 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c4t2_psd.vtex");
 }
+
 #c4t3 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c4t3_psd.vtex");
 }
+
 #c4t4 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c4t4_psd.vtex");
 }
+
 #c4t5 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c4t5_psd.vtex");
 }
+
 #c4r1 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c4r1_psd.vtex");
 }
+
 #c4ur1 {
     background-image: url("s2r://panorama/images/compendium/winter2016/treasure_images/c4ur1_psd.vtex");
 }
@@ -801,7 +837,6 @@ HorizontalScrollBar .ScrollThumb {
     width: 100%;
     height: 100%;
     opacity: 0;
-
     transition-property: brightness;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -812,7 +847,6 @@ HorizontalScrollBar .ScrollThumb {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
     width: 32px;
     height: 32px;
     vertical-align: bottom;
@@ -821,7 +855,6 @@ HorizontalScrollBar .ScrollThumb {
     box-shadow: #000000ee fill -6px -6px 12px 12px;
     border-radius: 50%;
     opacity: 0;
-
     transition-property: opacity, pre-transform-scale2d;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -878,7 +911,6 @@ HorizontalScrollBar .ScrollThumb {
     color: #487098;
     margin-left: 12px;
     margin-top: 4px;
-
     transition-property: color;
     transition-duration: 0.12s;
     transition-timing-function: ease-in-out;
@@ -1042,7 +1074,6 @@ DOTATrophyOwned {
     width: 30px;
     height: 30px;
     background-image: url("s2r://panorama/images/compendium/infusableicon_psd.vtex");
-
     background-color: #000000dd;
     border-radius: 3px;
     background-size: contain;
@@ -1065,13 +1096,11 @@ DOTATrophyOwned {
     padding-bottom: 4px;
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#4b2460dd), to(#69318d));
     font-size: 14px;
-
     width: 100%;
     opacity: 0;
     margin-top: 3px;
     margin-left: 3px;
     margin-right: 3px;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;

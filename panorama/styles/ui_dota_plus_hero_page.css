@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #HeroLevelIconContainer {
     horizontal-align: center;
 }
@@ -21,7 +23,6 @@
 #HeroLevelBarContainer {
     margin-top: 12px;
     width: 100%;
-
     flow-children: right;
 }
 
@@ -36,7 +37,6 @@
     tooltip-position: left;
     margin-right: 5px;
     img-shadow: 0px 0px 15px 3 #000000;
-
     visibility: collapse;
 }
 
@@ -65,9 +65,11 @@
     letter-spacing: 2px;
     font-size: 16px;
 }
+
 #NextHeroLevelRewardsButton:hover > Label {
     color: white;
 }
+
 #NextHeroLevelRewardsButton:active > Label {
     color: #ddd;
 }
@@ -79,15 +81,16 @@
     margin-right: 6px;
     transform: translateY(-2px);
     wash-color: #ccc;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_popout_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #NextHeroLevelRewardsButton:hover #NextRewardsIcon {
     wash-color: white;
 }
+
 #NextHeroLevelRewardsButton:active #NextRewardsIcon {
     wash-color: #ddd;
 }
@@ -109,13 +112,10 @@
 .NextHeroLevelReward {
     width: 19px;
     height: 19px;
-
     margin-left: 4px;
-
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
 }
@@ -123,6 +123,7 @@
 .NextHeroLevelChatWheelReward {
     background-image: url("s2r://panorama/images/dota_plus/chatwheel_icon_png.vtex");
 }
+
 .NextHeroLevelCurrencyReward {
     background-image: url("s2r://panorama/images/dota_plus/currency_icon_png.vtex");
 }
@@ -192,7 +193,6 @@
     width: 22px;
     height: 22px;
     vertical-align: middle;
-
     img-shadow: 0px 0px 4px 1 #00000088;
     background-size: contain;
     background-repeat: no-repeat;
@@ -223,7 +223,6 @@
     border-radius: 3px;
     background-color: none;
     padding: 6px 16px 6px 16px;
-
     transition-duration: 0.2s;
     transition-property: brightness;
 }
@@ -248,12 +247,15 @@
 .PrimaryAttributeStrength #PurchaseCommonRelicButton.RelicPurchaseButton {
     background-image: url("s2r://panorama/images/dota_plus/relic_str_button_psd.vtex");
 }
+
 .PrimaryAttributeAgility #PurchaseCommonRelicButton.RelicPurchaseButton {
     background-image: url("s2r://panorama/images/dota_plus/relic_agi_button_psd.vtex");
 }
+
 .PrimaryAttributeIntellect #PurchaseCommonRelicButton.RelicPurchaseButton {
     background-image: url("s2r://panorama/images/dota_plus/relic_int_button_psd.vtex");
 }
+
 .PrimaryAttributeUniversal #PurchaseCommonRelicButton.RelicPurchaseButton {
     background-image: url("s2r://panorama/images/dota_plus/relic_uni_button_psd.vtex");
 }
@@ -273,12 +275,15 @@
 .PrimaryAttributeStrength #PurchaseCommonRelicButton .RelicPurchaseButtonTitle {
     color: dotaPlusRelicTextStr;
 }
+
 .PrimaryAttributeAgility #PurchaseCommonRelicButton .RelicPurchaseButtonTitle {
     color: dotaPlusRelicTextAgi;
 }
+
 .PrimaryAttributeIntellect #PurchaseCommonRelicButton .RelicPurchaseButtonTitle {
     color: dotaPlusRelicTextInt;
 }
+
 .PrimaryAttributeUniversal #PurchaseCommonRelicButton .RelicPurchaseButtonTitle {
     color: dotaPlusRelicTextUni;
 }
@@ -317,7 +322,6 @@ Label.RelicShardPrice {
 #ChallengesContainer {
     height: 537px;
     width: 400px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#222), to(#141c23));
 }
 
@@ -329,11 +333,11 @@ Label.RelicShardPrice {
 
 #ChallengesControl {
     width: 100%;
-
     margin-right: 5px;
     margin-top: 0px;
     padding: 20px;
 }
+
 #ChallengesControl .SideQuestBox {
     margin-bottom: 8px;
 }
@@ -417,7 +421,6 @@ Label.RelicShardPrice {
 
 #GetChallengesLabel {
     visibility: collapse;
-
     font-size: 15px;
     color: white;
     height: 22px;
@@ -453,7 +456,6 @@ Label.RelicShardPrice {
 #ChallengesUpsell {
     margin-top: 0px;
     padding-top: 12px;
-
     visibility: collapse;
 }
 
@@ -488,7 +490,6 @@ Label.RelicShardPrice {
 #ChallengeTimer {
     width: 100%;
     height: 50px;
-
     vertical-align: bottom;
     margin-bottom: 10px;
 }
@@ -498,7 +499,6 @@ Label.RelicShardPrice {
     height: 197px;
     background-image: url("s2r://panorama/images/dota_plus/challenge_stars_png.vtex");
     background-size: 100%;
-
     horizontal-align: center;
     margin-top: -10px;
 }
@@ -507,7 +507,6 @@ Label.RelicShardPrice {
     text-align: center;
     width: 100%;
     horizontal-align: center;
-
     text-transform: uppercase;
     color: white;
     font-size: 30px;

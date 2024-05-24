@@ -1,13 +1,13 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .GleamPanel {
     height: 100%;
     width: 100%;
-
     background-size: 100%;
 }
 
 #HUDSkinFXMap {
     opacity-mask: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/bg_minimap_mask_psd.vtex");
-
     animation-name: Gleam;
     animation-duration: 6s;
     animation-delay: 4.5s;
@@ -17,19 +17,16 @@
 
 #HUDSkinFXGlyph {
     opacity-mask: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/glyph_scan_bg_mask_psd.vtex");
-
     animation-name: Gleam;
     animation-duration: 6s;
     animation-delay: 5s;
     animation-iteration-count: infinite;
     animation-direction: normal;
-
     margin-right: -12px;
 }
 
 #HUDSkinFXLeftFlare {
     opacity-mask: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/side_flare_tall_mask_psd.vtex");
-
     animation-name: Gleam;
     animation-duration: 6s;
     animation-delay: 5.5s;
@@ -39,7 +36,6 @@
 
 #HUDSkinFXGold {
     opacity-mask: url("s2r://panorama/images/hud/reborn/hud_custom_aghs2/gold_bg_mask_psd.vtex");
-
     animation-name: Gleam2;
     animation-duration: 6s;
     animation-delay: 6.5s;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAFrontpageVideoStreamTwitch {
     flow-children: down;
 }
@@ -6,23 +8,18 @@ DOTAFrontpageVideoStreamTwitch {
     width: 100%;
     height: 32px;
     flow-children: right;
-
     background-color: black;
 }
 
 #Live {
     margin-top: 5px;
     margin-left: 5px;
-
     vertical-align: top;
     horizontal-align: right;
-
     text-transform: uppercase;
-
     color: #64c390;
     font-weight: bold;
     letter-spacing: 1px;
-
     visibility: collapse;
 }
 
@@ -33,21 +30,19 @@ DOTAFrontpageVideoStreamTwitch {
 #LeagueName {
     margin-top: 5px;
     margin-left: 12px;
-
     vertical-align: top;
     horizontal-align: left;
-
     text-transform: uppercase;
-
     color: white;
     letter-spacing: 1px;
-
     transition-property: text-shadow;
     transition-duration: 0.1s;
 }
+
 #LeagueName:hover {
     text-shadow: 0px 0px 6px #f18227;
 }
+
 #LeagueName:active {
     text-shadow: 0px 0px 6px 2 #f18227;
 }
@@ -62,7 +57,6 @@ DOTAFrontpageVideoStreamTwitch {
     height: 100%;
     width: 160px;
     padding: 0px 16px;
-
     visibility: collapse;
 }
 
@@ -81,11 +75,9 @@ DOTAFrontpageVideoStreamTwitch {
     height: 20px;
     margin-right: 5px;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/control_icons/eye_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     wash-color: #82807e;
 }
 
@@ -96,6 +88,7 @@ DOTAFrontpageVideoStreamTwitch {
     vertical-align: middle;
     color: #82807e;
 }
+
 #HideButton .ShowText {
     visibility: collapse;
 }
@@ -103,6 +96,7 @@ DOTAFrontpageVideoStreamTwitch {
 .UserHideVideo #HideButton .ShowText {
     visibility: visible;
 }
+
 .UserHideVideo #HideButton .HideText {
     visibility: collapse;
 }
@@ -110,6 +104,7 @@ DOTAFrontpageVideoStreamTwitch {
 #HideButton:hover {
     brightness: 1.5;
 }
+
 #HideButton:active {
     brightness: 2;
 }
@@ -122,11 +117,8 @@ DOTAFrontpageVideoStreamTwitch {
 .ContentsPanel {
     width: 100%;
     height: 100%;
-
     horizontal-align: center;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -158,16 +150,12 @@ DOTAFrontpageVideoStreamTwitch:not(.ShowingStream) #NotStreamingContainer {
 #LogoImage {
     width: 500px;
     height: 200px;
-
     background-image: url("s2r://panorama/images/front_page/ti7_logo_psd.vtex");
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
     horizontal-align: center;
     margin-bottom: 16px;
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
@@ -175,6 +163,7 @@ DOTAFrontpageVideoStreamTwitch:not(.ShowingStream) #NotStreamingContainer {
 #LogoImage:hover {
     brightness: 1.5;
 }
+
 #LogoImage:active {
     brightness: 2;
 }
@@ -238,18 +227,22 @@ DOTAFrontpageVideoStreamTwitch:not(.ShowingStream) #NotStreamingContainer {
     flow-children: right;
     horizontal-align: center;
 }
+
 .WatchInBrowserLink > .ExpandIcon {
     width: 18px;
     height: 18px;
 }
+
 .WatchInBrowserLink > Label {
     text-transform: uppercase;
     color: #888;
     vertical-align: middle;
 }
+
 .WatchInBrowserLink:hover {
     brightness: 2;
 }
+
 .WatchInBrowserLink:active {
     brightness: 1.5;
 }
@@ -276,14 +269,12 @@ DOTAFrontpageVideoStreamTwitch:not(.ShowingStream) #NotStreamingContainer {
 #InlineVideoPanel {
     width: 100%;
     height: 387px;
-
     border-width: -3px;
 }
 
 #Footer {
     width: 100%;
     background-color: black;
-
     flow-children: right;
     visibility: collapse;
 }
@@ -315,6 +306,7 @@ DOTAFrontpageVideoStreamTwitch:not(.ShowingStream) #NotStreamingContainer {
     padding-top: 4px;
     padding-bottom: 2px;
 }
+
 .PopupButton Label {
     font-size: 14px;
     text-transform: uppercase;
@@ -335,17 +327,13 @@ DOTAFrontpageVideoStreamTwitch:not(.ShowingStream) #NotStreamingContainer {
 .PopupButton,
 #ViewDetailsButton {
     min-width: 110px;
-
     background-color: none;
     text-transform: uppercase;
     color: #888;
-
     border: 1px solid #66666655;
-
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
-
     margin-top: 6px;
 }
 
@@ -386,15 +374,11 @@ DOTAFrontpageVideoStreamTwitch:not(.ShowingStream) #NotStreamingContainer {
     margin-bottom: 8px;
     vertical-align: middle;
     tooltip-body-position: 50% 50%;
-
     visibility: collapse;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5a6c75), to(#3d4a50));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#2c2411), to(#2c2411dd));
-
     transition-property: brightness;
     transition-duration: 0.2s;
-
     border-radius: 3px;
 }
 
@@ -493,7 +477,6 @@ DOTAFrontpageVideoStreamTwitch:not(.ShowingStream) #NotStreamingContainer {
     line-height: 14px;
     font-weight: thin;
     letter-spacing: 2px;
-
     transition-property: color;
     transition-duration: 0.2s;
 }
@@ -528,6 +511,7 @@ DOTAFrontpageVideoStreamTwitch:not(.ShowingStream) #NotStreamingContainer {
 #WatchInBrowserButton:hover {
     brightness: 1.6;
 }
+
 #WatchInBrowserButton:active {
     brightness: 1.2;
 }
@@ -543,6 +527,7 @@ DOTAFrontpageVideoStreamTwitch:not(.ShowingStream) #NotStreamingContainer {
 #WatchInGameButton:hover {
     brightness: 2;
 }
+
 #WatchInGameButton:active {
     brightness: 1.5;
 }
@@ -550,6 +535,7 @@ DOTAFrontpageVideoStreamTwitch:not(.ShowingStream) #NotStreamingContainer {
 #FullscreenButton:hover {
     brightness: 2;
 }
+
 #FullscreenButton:active {
     brightness: 1.5;
 }
@@ -567,10 +553,8 @@ DOTAFrontpageVideoStreamTwitch:not(.ShowingStream) #NotStreamingContainer {
 .TwitchStreamOverlayFullscreenButton {
     width: 25px;
     height: 20px;
-
     horizontal-align: right;
     margin-right: 0px;
-
     vertical-align: bottom;
     margin-bottom: 18px;
 }

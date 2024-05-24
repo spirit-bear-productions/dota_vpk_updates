@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .RecyclingRoot {
     flow-children: right;
     padding: 12px 14px;
@@ -55,9 +57,7 @@
     background-color: #507456;
     padding: 8px;
     border: 2px solid #253527;
-
     brightness: 1;
-
     transition-property: background-color;
     transition-duration: 0.2s;
 }
@@ -75,7 +75,6 @@
     padding: 0px 10px;
     text-transform: uppercase;
     color: #253527;
-
     transition-property: color;
     transition-duration: 0.2s;
 }
@@ -93,7 +92,6 @@
     background-position: center;
     wash-color: #253527;
     margin: 10px 10px;
-
     transition-property: wash-color;
     transition-duration: 0.2s;
 }

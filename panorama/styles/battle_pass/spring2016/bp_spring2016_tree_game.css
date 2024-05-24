@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPSpring2016TreeGamePage {
     width: 1920px;
     height: 100%;
@@ -8,21 +10,17 @@ DOTABPSpring2016TreeGamePage {
     pre-transform-scale2d: 1;
     box-shadow: none;
     vertical-align: top;
-
     animation-name: none;
-
     transition-property: transform, pre-transform-scale2d, opacity, background-color;
     transition-duration: 0.25s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
-
     overflow: noclip;
     flow-children: none;
 }
 
 #CommunityChallengeBackground {
     width: 1920px;
-
     background-size: 100% 100%;
 }
 
@@ -75,6 +73,7 @@ DOTABPSpring2016TreeGamePage {
     font-size: 22px;
     color: textBrightColor;
 }
+
 #CurrentChallengeProgressPanel #LifetimeScore {
     width: 100%;
     text-align: center;
@@ -97,7 +96,6 @@ DOTABPSpring2016TreeGamePage {
 #CurrentChallengeLabel {
     color: #923028ff;
     font-size: 16px;
-
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -131,7 +129,6 @@ DOTABPSpring2016TreeGamePage {
     height: 16px;
     border: 1px solid #923028;
     vertical-align: bottom;
-
     margin-top: 16px;
     padding: 3px;
     box-shadow: inset #532017 -3px 0px 6px;

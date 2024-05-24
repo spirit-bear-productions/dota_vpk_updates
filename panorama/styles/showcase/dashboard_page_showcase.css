@@ -1,8 +1,9 @@
-@define colorBehaviorBad:  #b7493a;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define colorBehaviorBad: #b7493a;
 @define colorBehaviorWarning: #B78C3A;
 @define colorBehaviorGood: #5bb73a;
 @define statusLabelsGap: 12px;
-
 Label {
     color: LighterGrey;
     font-size: 16px;
@@ -30,6 +31,7 @@ DOTAShowcasePage {
     flow-children: right;
     visibility: collapse;
 }
+
 .ViewingSelf:not(.SaveInProgress) #MainEditControls {
     visibility: visible;
 }
@@ -64,14 +66,13 @@ DOTAShowcasePage {
     context-menu-position: top;
     context-menu-body-position: 0% 0%;
     box-shadow: inset 0px 0px 0px 1px black;
-
     opacity: 0;
     transform: translateY(12px);
-
     transition-property: opacity, transform;
     transition-duration: 0.25s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
 }
+
 .AspectRatio16x10 #ItemEditControls {
     margin-bottom: 160px;
 }
@@ -93,6 +94,7 @@ DOTAShowcasePage {
     context-menu-position: top;
     context-menu-body-position: 0% 0%;
 }
+
 #ItemEditControls Button:hover,
 #ItemEditControls TextButton:hover {
     z-index: 1;
@@ -101,10 +103,10 @@ DOTAShowcasePage {
 #ItemEditControls .SliderContainer {
     vertical-align: center;
     flow-children: right;
-
     tooltip-position: top;
     padding: 2px 12px;
 }
+
 #ItemEditControls .SliderContainer Slider {
     vertical-align: center;
     margin: 0px;
@@ -122,12 +124,15 @@ DOTAShowcasePage {
 #ItemEditControls #SendToBackButton {
     border-radius: 3px 0px 0px 3px;
 }
+
 #ItemEditControls #MoveBackwardButton {
     border-radius: 0px;
 }
+
 #ItemEditControls #MoveForwardButton {
     border-radius: 0px;
 }
+
 #ItemEditControls #SendToFrontButton {
     border-radius: 0px 3px 3px 0px;
 }
@@ -148,6 +153,7 @@ DOTAShowcasePage {
     margin-left: 6px;
     visibility: collapse;
 }
+
 .AllowCustomizeAppearance #ItemEditControls #CustomizeAppearanceButton {
     visibility: visible;
 }
@@ -156,6 +162,7 @@ DOTAShowcasePage {
     margin-left: 6px;
     visibility: collapse;
 }
+
 .AllowCustomizeAppearance #ItemEditControls #MoreOptionsButton {
     visibility: visible;
 }
@@ -163,6 +170,7 @@ DOTAShowcasePage {
 #ItemEditControls #FlipHorizontallyButton {
     visibility: collapse;
 }
+
 .AllowFlipHorizontally #ItemEditControls #FlipHorizontallyButton {
     visibility: visible;
 }
@@ -176,12 +184,11 @@ DOTAShowcasePage {
     border-radius: 3px;
     background-color: DarkerGrey&00;
     box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0);
-
     opacity: 0.5;
-
     transition-property: opacity, background-color, box-shadow;
     transition-duration: 0.1s;
 }
+
 #ItemEditControls #LayerButton Label,
 #ItemEditControls #LayerButton Panel {
     vertical-align: center;
@@ -201,15 +208,12 @@ DOTAShowcasePage {
     width: 12px;
     height: 12px;
     margin-bottom: -2px;
-
     margin-right: 8px;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_solid_right_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     transition-property: transform;
     transition-duration: 0.1s;
 }
@@ -230,14 +234,13 @@ DOTAShowcasePage {
     width: 400px;
     margin-left: 1360px;
     padding: 12px;
-
     opacity: 0;
     transform: translateY(12px);
-
     transition-property: opacity, transform;
     transition-duration: 0.25s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
 }
+
 .IsEditing #ShowcaseBudgetProgressBar {
     opacity: 1;
     transform: none;
@@ -253,22 +256,19 @@ DOTAShowcasePage {
 #HeaderNameContainer {
     margin-top: 140px;
     horizontal-align: center;
-
     width: 1392px;
     height: 146px;
 }
+
 #HeaderNameContainer #AvatarImage {
     height: 100%;
     width: height-percentage(100%);
-
     transition-property: border;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     border-radius: 4px;
     width: 136px;
     height: 136px;
-
     box-shadow: 0px 4px 32px -6px rgba(0, 0, 0, 0.8);
 }
 
@@ -288,6 +288,7 @@ DOTAShowcasePage {
     margin-bottom: -12px;
     margin-top: -5px;
 }
+
 #HeaderNameContainer #ProfileMainCorner .MainNameLine #FavoriteTeam {
     width: 32px;
     height: 32px;
@@ -295,6 +296,7 @@ DOTAShowcasePage {
     vertical-align: center;
     margin-left: 5px;
 }
+
 #HeaderNameContainer #ProfileMainCorner .MainNameLine #FavoriteTeam.HasTeamCrest {
     visibility: visible;
 }
@@ -306,6 +308,7 @@ DOTAShowcasePage {
     height: 48px;
     margin-bottom: 10px;
 }
+
 #HeaderNameContainer #ProfileMainCorner .MainNameLine #ProfileName Label {
     max-width: 800px;
     font-size: 40px;
@@ -322,11 +325,13 @@ DOTAShowcasePage {
     margin-bottom: 12px;
     vertical-align: bottom;
 }
+
 #HeaderNameContainer #ProfileMainCorner .MainNameLine #ProfileNickname Label {
     font-size: 20px;
     white-space: nowrap;
     text-shadow: 0px 2px 8px #000000;
 }
+
 #HeaderNameContainer #ProfileMainCorner .MainNameLine #ProfileNickname Label .PersonaName {
     color: #ccc;
     text-shadow: 0px 2px 8px #000000;
@@ -335,6 +340,7 @@ DOTAShowcasePage {
 #HeaderNameContainer #ProfileMainCorner .StatusLine {
     margin-top: 4px;
 }
+
 #HeaderNameContainer #ProfileMainCorner .StatusLine Panel {
     vertical-align: center;
 }
@@ -358,6 +364,7 @@ DOTAShowcasePage {
     flow-children: right;
     margin-right: statusLabelsGap;
 }
+
 #HeaderNameContainer #ProfileMainCorner .StatusLine #SteamFriends #FriendsIDLabel {
     font-size: 16px;
     horizontal-align: left;
@@ -378,6 +385,7 @@ DOTAShowcasePage {
     flow-children: right;
     margin-right: statusLabelsGap;
 }
+
 #HeaderNameContainer #ProfileMainCorner .StatusLine #PlusStatus Image {
     width: 16px;
     height: 18px;
@@ -393,6 +401,7 @@ DOTAShowcasePage {
     flow-children: right;
     margin-right: statusLabelsGap;
 }
+
 #HeaderNameContainer #ProfileMainCorner .StatusLine #MemberSince .MemberSince {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -411,12 +420,13 @@ DOTAShowcasePage {
     margin-left: 16px;
     width: fit-children;
 }
+
 #HeaderNameContainer #ProfileActionButtons Button {
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     visibility: collapse;
 }
+
 #HeaderNameContainer #ProfileActionButtons Button.Visible {
     visibility: visible;
 }
@@ -438,28 +448,33 @@ DOTAShowcasePage {
     margin-right: 24px;
     border-right: 1px solid rgba(255, 255, 255, 0.02);
     visibility: collapse;
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
+
 .BehaviorScoreAvailable.IsViewing:not(.BehaviorScoreLoading) #BehaviorStatus {
     visibility: visible;
 }
+
 #BehaviorStatus:hover {
     brightness: 1.5;
 }
+
 #BehaviorStatus #ScoresContainer {
     flow-children: right;
 }
+
 #BehaviorStatus #CommunicationScoreSection {
     margin-right: 10px;
 }
+
 #BehaviorStatus #CommunicationScoreSection,
 #BehaviorStatus #BehaviorScoreSection {
     flow-children: right;
     horizontal-align: right;
     tooltip-position: bottom;
 }
+
 #BehaviorStatus #CommunicationScoreSection #BehaviorScoreImage,
 #BehaviorStatus #CommunicationScoreSection #CommunicationScoreImage,
 #BehaviorStatus #BehaviorScoreSection #BehaviorScoreImage,
@@ -471,54 +486,69 @@ DOTAShowcasePage {
     margin-right: 4px;
     vertical-align: center;
 }
+
 #BehaviorStatus #CommunicationScoreSection #BehaviorScoreLabel,
 #BehaviorStatus #CommunicationScoreSection #CommunicationScoreLabel,
 #BehaviorStatus #BehaviorScoreSection #BehaviorScoreLabel,
 #BehaviorStatus #BehaviorScoreSection #CommunicationScoreLabel {
     vertical-align: center;
 }
+
 #PlusStatus,
 #MemberSince {
     visibility: collapse;
 }
+
 .ViewingPlusSubscriber #PlusStatus,
 .ViewingPlusSubscriber #MemberSince {
     visibility: visible;
 }
+
 .ViewingPlusSubscriber #PlusStatus,
 .ViewingPlusSubscriber #MemberSince {
     visibility: visible;
 }
+
 .ShowIfItemSelected {
     visibility: collapse;
 }
+
 .IsItemSelected .ShowIfItemSelected {
     visibility: visible;
 }
+
 .ShowIfNothingSelected {
     visibility: collapse;
 }
+
 .IsNothingSelected .ShowIfNothingSelected {
     visibility: visible;
 }
+
 .ShowIfViewingOther {
     visibility: collapse;
 }
+
 .ViewingOther .ShowIfViewingOther {
     visibility: visible;
 }
+
 .ShowIfEditing {
     visibility: collapse;
 }
+
 .IsEditing .ShowIfEditing {
     visibility: visible;
 }
+
 .HideIfEditing {
     visibility: collapse;
 }
+
 .IsViewing .HideIfEditing {
     visibility: visible;
 }
+
 .ShowcaseData {
     width: 100%;
     height: 100%;
@@ -527,10 +557,12 @@ DOTAShowcasePage {
     background-size: cover;
     opacity-mask: url("s2r://panorama/images/masks/showcase_fade_psd.vtex");
 }
+
 .ShowcaseData .ShowcaseMain {
     width: 100%;
     height: 100%;
 }
+
 .ShowcaseData .ShowcaseMain #ShowcaseContents {
     width: 1920px;
     height: 1080px;
@@ -538,6 +570,7 @@ DOTAShowcasePage {
     horizontal-align: center;
     overflow: noclip;
 }
+
 .SaveInProgressIndicator {
     flow-children: right;
     horizontal-align: right;
@@ -546,12 +579,15 @@ DOTAShowcasePage {
     margin-right: 60px;
     visibility: collapse;
 }
+
 .SaveInProgress .SaveInProgressIndicator {
     visibility: visible;
 }
+
 .SaveInProgressIndicator .Spinner {
     wash-color: winnerGreen;
 }
+
 .SaveInProgressIndicator Label {
     margin-left: 8px;
     vertical-align: middle;
@@ -559,6 +595,7 @@ DOTAShowcasePage {
     letter-spacing: 2px;
     color: winnerGreen;
 }
+
 .InviteIconButton {
     height: 24px;
     width: 24px;
@@ -567,27 +604,21 @@ DOTAShowcasePage {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 60% 60%;
-    background-color: gradient
-        (
-            linear,
-            0% 100%,
-
-            0% 0%,
-
-            from (#3e4b51),
-            to (#5c9c68)
-        );
+    background-color: gradient(linear, 0% 100%, 0% 0%, from(#3e4b51), to(#5c9c68));
     wash-color: #abeaa8;
     border-radius: 3px;
     transition-property: wash-color;
     transition-duration: 0.2s;
 }
+
 .InviteIconButton:hover {
     wash-color: #ffffff;
 }
+
 #ActionInviteToParty {
     background-image: url("s2r://panorama/images/control_icons/plus_png.vtex");
 }
+
 #ActionViewGuild {
     background-size: 100% 100%;
     background-color: none;
@@ -595,6 +626,7 @@ DOTAShowcasePage {
     wash-color: #888888ff;
     margin-top: 3px;
 }
+
 Button.SimpleIconButton {
     flow-children: right;
     transition-duration: 0.1s;
@@ -604,13 +636,16 @@ Button.SimpleIconButton {
     wash-color: #888888ff;
     margin-right: 8px;
 }
+
 Button.SimpleIconButton:hover {
     wash-color: #ffffffff;
 }
+
 Button.SimpleIconButton Image {
     height: 100%;
-    width: height-percentage (100%);
+    width: height-percentage(100%);
 }
+
 Button.SimpleIconButtonPending {
     flow-children: right;
     transition-duration: 0.1s;
@@ -620,9 +655,11 @@ Button.SimpleIconButtonPending {
     wash-color: #eeee82ff;
     margin-right: 8px;
 }
+
 Button.SimpleIconButtonPending:hover {
     wash-color: #ffffffff;
 }
+
 Button.SimpleIconButtonSteam {
     flow-children: right;
     transition-duration: 0.1s;
@@ -633,41 +670,50 @@ Button.SimpleIconButtonSteam {
     margin-left: -1px;
     tooltip-position: left;
 }
+
 Button.SimpleIconButtonSteam:hover {
     wash-color: #ffffff;
     color: #ffffff;
 }
+
 Button.SimpleIconButtonSteam Image {
     width: 20px;
     margin-right: 4px;
 }
+
 .Score_Good #BehaviorScoreLabel,
 .Score_Good #CommunicationScoreLabel {
     color: colorBehaviorGood;
 }
+
 .Score_Warning #BehaviorScoreLabel,
 .Score_Warning #CommunicationScoreLabel {
     color: colorBehaviorWarning;
 }
+
 .Score_Bad #BehaviorScoreLabel,
 .Score_Bad #CommunicationScoreLabel {
     color: colorBehaviorBad;
 }
+
 .Score_Good #BehaviorScoreImage,
 .Score_Good #CommunicationScoreImage {
     wash-color: colorBehaviorGood;
     background-image: url("s2r://panorama/images/conduct/behavior_normal_png.vtex");
 }
+
 .Score_Warning #BehaviorScoreImage,
 .Score_Warning #CommunicationScoreImage {
     wash-color: colorBehaviorWarning;
     background-image: url("s2r://panorama/images/conduct/behavior_neutral_png.vtex");
 }
+
 .Score_Bad #BehaviorScoreImage,
 .Score_Bad #CommunicationScoreImage {
     wash-color: colorBehaviorBad;
     background-image: url("s2r://panorama/images/conduct/behavior_bad_png.vtex");
 }
+
 .GridSnap #GridSnapButton {
     background-color: LightGreyGradientBackgroundColor_Inverted;
     brightness: 0.8;

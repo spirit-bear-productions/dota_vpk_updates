@@ -1,6 +1,7 @@
-@define minOwnedItemSlotRows:  2;
-@define ownedItemSlotsPerRow: 5;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define minOwnedItemSlotRows: 2;
+@define ownedItemSlotsPerRow: 5;
 DOTAGlobalItemSlotPage {
     width: 100%;
     height: 100%;
@@ -10,7 +11,6 @@ DOTAGlobalItemSlotPage {
     width: 60%;
     height: 100%;
     opacity-mask: url("s2r://panorama/images/masks/hero_model_opacity_mask_png.vtex");
-
     transform: translateY(-70px) translateX(-45px);
 }
 
@@ -25,12 +25,10 @@ DOTAGlobalItemSlotPage {
 #LargeModelOverlay {
     width: 60%;
     height: 100%;
-
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 68px;
     padding-top: 200px;
-
     transform: translateY(-70px) translateX(-45px);
 }
 
@@ -77,7 +75,6 @@ DOTAGlobalItemSlotPage {
 
 #LargeModelTeamSelector {
     horizontal-align: right;
-
     visibility: collapse;
 }
 
@@ -148,7 +145,6 @@ DOTAGlobalItemSlotPage.LargeModelItemInShuffle.ShuffleSlotEnabled #LargeModelShu
     flow-children: down;
     margin-left: 40px;
     margin-bottom: 8px;
-
     visibility: collapse;
 }
 
@@ -173,7 +169,6 @@ DOTAGlobalItemSlotPage.LargeModelItemInShuffle.ShuffleSlotEnabled #LargeModelShu
     font-size: 20px;
     margin-top: -2px;
     letter-spacing: 1px;
-
     visibility: collapse;
 }
 
@@ -275,16 +270,18 @@ DOTAGlobalItemSlotPage.LargeModelItemOwned.ShuffleSlotEnabled.LargeModelItemInSh
     text-transform: uppercase;
     font-size: 18px;
     margin-top: 4px;
-
     color: #666;
 }
+
 #OwnedHeader #ShuffleButton:selected Label {
     color: #ccc;
     text-shadow: 0px 0px 4px #00ffff66;
 }
+
 #OwnedHeader #ShuffleButton:hover Label {
     color: white;
 }
+
 #OwnedHeader #ShuffleButton:active Label {
     color: #ddd;
 }
@@ -293,6 +290,7 @@ DOTAGlobalItemSlotPage.LargeModelItemOwned.ShuffleSlotEnabled.LargeModelItemInSh
 #OwnedHeader #ShuffleButton:selected #ShuffleDisabledLabel {
     visibility: collapse;
 }
+
 #OwnedHeader #ShuffleButton:selected #ShuffleEnabledLabel {
     visibility: visible;
 }
@@ -303,14 +301,13 @@ DOTAGlobalItemSlotPage.LargeModelItemOwned.ShuffleSlotEnabled.LargeModelItemInSh
     border: 0px solid transparent;
     box-shadow: none;
     background-color: none;
-
     background-image: url("s2r://panorama/images/control_icons/shuffle_psd.vtex");
     background-size: 16px 14px;
     background-repeat: no-repeat;
     background-position: center;
-
     wash-color: #666;
 }
+
 #OwnedHeader #ShuffleButton:selected .TickBox {
     background-color: none;
     box-shadow: none;
@@ -318,9 +315,11 @@ DOTAGlobalItemSlotPage.LargeModelItemOwned.ShuffleSlotEnabled.LargeModelItemInSh
     background-image: url("s2r://panorama/images/control_icons/shuffle_enabled_psd.vtex");
     background-size: 20px 20px;
 }
+
 #OwnedHeader #ShuffleButton:hover .TickBox {
     wash-color: white;
 }
+
 #OwnedHeader #ShuffleButton:active .TickBox {
     wash-color: #ddd;
 }
@@ -337,7 +336,6 @@ DOTAGlobalItemSlotPage.LargeModelItemOwned.ShuffleSlotEnabled.LargeModelItemInSh
     width: 154px;
     height: 192px;
     background-color: #0009;
-
     transition-property: background-color;
     transition-duration: 0.1s;
 }
@@ -354,6 +352,7 @@ DOTAGlobalItemSlotPage.LargeModelItemOwned.ShuffleSlotEnabled.LargeModelItemInSh
     width: 100%;
     height: 100%;
 }
+
 .OwnedItem:disabled .OwnedItemContents {
     visibility: collapse;
 }
@@ -372,9 +371,7 @@ DOTAGlobalItemSlotPage.LargeModelItemOwned.ShuffleSlotEnabled.LargeModelItemInSh
     color: white;
     margin-bottom: 4px;
     text-shadow: 2px 2px 4px 2 black;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -446,17 +443,13 @@ DOTAGlobalItemSlotPage.ShuffleSlotEnabled .OwnedItem.InShuffle #Shuffled {
     vertical-align: bottom;
     margin-right: 4px;
     margin-bottom: 8px;
-
     width: 24px;
     height: 24px;
-
     tooltip-body-position: 50% 50%;
-
     background-image: url("s2r://panorama/images/control_icons/brackets_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     visibility: collapse;
 }
 
@@ -493,6 +486,7 @@ DOTAGlobalItemSlotPage.ShuffleSlotEnabled .OwnedItem.InShuffle #Shuffled {
 #StoreButton > Label:hover {
     color: white;
 }
+
 #StoreButton > Label:active {
     color: #aaa;
 }
@@ -510,7 +504,6 @@ DOTAGlobalItemSlotPage.ShuffleSlotEnabled .OwnedItem.InShuffle #Shuffled {
 #AvailableItemsCarousel .CarouselPage {
     flow-children: right;
     width: 100%;
-
     transition-property: position;
     transition-duration: 0.3s;
 }

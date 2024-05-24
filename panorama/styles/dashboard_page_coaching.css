@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACoachingPage {
     flow-children: right;
 }
@@ -118,12 +120,15 @@ DOTACoachingPage {
     color: winnerGreen;
     visibility: collapse;
 }
+
 .IsEligible .CoachEligiblityStatusGood {
     visibility: visible;
 }
+
 .CoachEligiblityStatusBad {
     color: loserRed;
 }
+
 .IsEligible .CoachEligiblityStatusBad {
     visibility: collapse;
 }
@@ -159,6 +164,7 @@ DOTACoachingPage {
     height: 36px;
     margin-right: 4px;
 }
+
 #LanguageDropDown Label {
     margin-top: 2px;
 }
@@ -227,6 +233,7 @@ DOTACoachingPage {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(black), to(#222));
     padding: 8px;
 }
+
 .CoachingRequestRow .CoachingRequestPlayer {
     flow-children: right;
     vertical-align: middle;
@@ -251,7 +258,6 @@ DOTACoachingPage {
     vertical-align: middle;
     width: 50px;
     height: 50px;
-
     visibility: collapse;
 }
 
@@ -279,7 +285,6 @@ DOTACoachingPage {
     width: 32px;
     height: 32px;
     margin-right: 4px;
-
     background-image: url("s2r://panorama/images/hud/sprout_icon_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -302,6 +307,7 @@ DOTACoachingPage {
     font-size: 16px;
     vertical-align: middle;
 }
+
 .CoachingRequestRow.HasServer .CoachingRequestStatusDashboard {
     visibility: collapse;
 }
@@ -326,11 +332,13 @@ DOTACoachingPage {
     horizontal-align: left;
     flow-children: right;
 }
+
 .CoachingRequestRow .CoachingRequestStatusInGame > .AsyncLoadingContainer .Wrapper .Spinner {
     vertical-align: middle;
     horizontal-align: left;
     margin-right: 4px;
 }
+
 .CoachingRequestRow .CoachingRequestStatusInGame > .AsyncLoadingContainer .Wrapper Label {
     vertical-align: middle;
     horizontal-align: left;
@@ -347,7 +355,6 @@ DOTACoachingPage {
 
 .CoachingRequestRow .CoachingRequestStatusHero {
     flow-children: down;
-
     visibility: collapse;
 }
 

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .RequirementsNotMetPopup {
     background-image: url("s2r://panorama/images/coaching/tiny_coach_dashboard_background_png.vtex");
     background-position: 0px 0px;
@@ -26,7 +28,6 @@
 
 .RequirementsContainer {
     flow-children: down;
-
     margin-top: 24px;
 }
 
@@ -36,19 +37,16 @@
 
 @define requirementPassedColor: hsv-transform( winnerGreen, 0, 1, 0.6 );
 @define requirementFailedColor: hsv-transform( loserRed, 0, 1, 0.4 );
-
 .CoachRequirementIcon {
     width: 14px;
     height: 14px;
     margin-right: 8px;
     vertical-align: middle;
     margin-bottom: 5px;
-
     background-image: url("s2r://panorama/images/control_icons/check_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     wash-color: requirementPassedColor;
 }
 

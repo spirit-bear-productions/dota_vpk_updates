@@ -1,6 +1,7 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .RootPanel {
     flow-children: down;
-
     width: 420px;
 }
 
@@ -27,7 +28,6 @@
     flow-children: down;
     horizontal-align: center;
     width: 420px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(backgroundVeryDimColor), to(backgroundDimColor));
     padding: 14px 8px 16px 8px;
 }
@@ -127,12 +127,10 @@
 .TreasureIcon {
     width: 14px;
     height: 14px;
-
     background-image: url("s2r://panorama/images/icon_treasure_button_png.vtex");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
     vertical-align: middle;
     horizontal-align: center;
 }

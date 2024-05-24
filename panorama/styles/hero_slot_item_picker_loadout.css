@@ -1,11 +1,13 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroSlotItemPickerLoadout {
     flow-children: down;
     border-top: 1px solid rgba(255, 255, 255, 0.015);
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-
     transition-property: background-color;
     transition-duration: 0s;
 }
+
 DOTAHeroSlotItemPickerLoadout.ShowTitles {
     min-width: 210px;
     flow-children: right;
@@ -15,6 +17,7 @@ DOTAHeroSlotItemPickerLoadout:hover {
     background-color: gradient(linear, 0% 0%, 120% 0%, from(#56688a22), to(#56688a00));
     transition-duration: 0.2s;
 }
+
 DOTAHeroSlotItemPickerLoadout:hover #SlotName {
     color: LightestGrey;
 }
@@ -35,14 +38,12 @@ DOTAHeroSlotItemPickerLoadout:hover .MenuArrow {
 DOTAHeroSlotItemPickerLoadout.IsActive {
     border-top: 1px solid rgba(255, 255, 255, 0.015);
     border-bottom: 1px solid rgba(0, 0, 0, 0.6);
-
     background-color: gradient(linear, 0% 0%, 140% 80%, from(#b0cdff14), to(#62718b0a));
-
     sound: "ui_preview_button_click";
 }
+
 DOTAHeroSlotItemPickerLoadout.IsActive #SlotName {
     color: LightestGrey;
-
     animation-name: GlowTextBright;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -52,7 +53,6 @@ DOTAHeroSlotItemPickerLoadout.IsActive #SlotName {
 
 DOTAHeroSlotItemPickerLoadout.IsActive #SlotItemCount {
     color: LightestGrey;
-
     animation-name: GlowTextBright;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -63,7 +63,6 @@ DOTAHeroSlotItemPickerLoadout.IsActive #SlotItemCount {
 DOTAHeroSlotItemPickerLoadout.IsActive #SlotNameLabel {
     color: LightestGrey;
     opacity: 1;
-
     animation-name: GlowTextBright;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -79,7 +78,6 @@ DOTAHeroSlotItemPickerLoadout.IsActive #SlotEconItem {
 DOTAHeroSlotItemPickerLoadout.IsActive .MenuArrow {
     opacity: 1;
     transform: none;
-
     animation-name: GlowImageBright;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -97,9 +95,7 @@ DOTAHeroSlotItemPickerLoadout.IsActive .LeftEdge {
     opacity: 0;
     width: 2px;
     margin: -1px 0px 0px;
-
     ignore-parent-flow: true;
-
     transition-property: width, opacity;
     transition-duration: 0.2s;
 }
@@ -130,7 +126,6 @@ DOTAHeroSlotItemPickerLoadout.IsActive .LeftEdge {
     visibility: collapse;
     padding: 12px;
     margin: -12px;
-
     transition-property: color;
     transition-duration: 0.1s;
 }
@@ -164,19 +159,16 @@ DOTAHeroSlotItemPickerLoadout.IsActive .LeftEdge {
     opacity: 0;
     transform: translateX(-4px);
     margin-right: -12px;
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
-
     background-image: url("s2r://panorama/images/control_icons/24px/caret_right.vsvg");
     background-size: 50% 50%;
     background-repeat: no-repeat;
     background-position: center;
-
     wash-color: white;
-
     visibility: collapse;
 }
+
 .ShowTitles .MenuArrow {
     visibility: visible;
 }
@@ -186,11 +178,9 @@ DOTAHeroSlotItemPickerLoadout.IsActive .LeftEdge {
     box-shadow: none;
     saturation: 1;
     wash-color: white;
-
     width: 72px;
     height: 72px;
     border: 0px;
-
     tooltip-position: top bottom;
 }
 
@@ -219,7 +209,6 @@ DOTAHeroSlotItemPickerLoadout.IsActive .LeftEdge {
     height: 100px;
     tooltip-position: top bottom;
     box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.02);
-
     visibility: collapse;
 }
 
@@ -249,11 +238,11 @@ DOTAHeroSlotItemPickerLoadout.IsActive .LeftEdge {
 
 #AbilityEffectsSlotContainer {
     visibility: collapse;
-
     width: 72px;
     height: 72px;
     border: 0px;
 }
+
 #AbilityEffectsSlotContainer .AbilityIcon {
     width: 56px;
     height: 56px;

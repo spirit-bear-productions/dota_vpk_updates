@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CoinFlipContainer {
     width: 60%;
     height: 60%;
@@ -10,7 +12,6 @@
 #CoinContainer {
     width: 128px;
     height: 128px;
-
     padding: 16px;
     horizontal-align: center;
     vertical-align: middle;
@@ -23,9 +24,7 @@
     width: 100%;
     height: 100%;
     background-color: red;
-
     opacity: 1;
-
     animation-name: spinCoinTails;
     animation-duration: 3.244s;
     animation-delay: 0s;
@@ -48,6 +47,7 @@
         transform: rotateY(90deg);
         opacity: 1;
     }
+
     50.1% {
         transform: rotateY(90deg);
         opacity: 0;
@@ -69,6 +69,7 @@
         transform: rotateY(-90deg);
         opacity: 1;
     }
+
     50.1% {
         transform: rotateY(-90deg);
         opacity: 0;
@@ -95,9 +96,11 @@
     0% {
         transform: translateX(-16px) rotateY(0deg);
     }
+
     50% {
         transform: translateX(116px) rotateY(180deg);
     }
+
     100% {
         transform: translateX(-16px) rotateY(360deg);
     }

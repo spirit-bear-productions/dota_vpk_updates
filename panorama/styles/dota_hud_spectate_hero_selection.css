@@ -1,6 +1,7 @@
-@define radiantColor:  #440b0b;
-@define direColor: #054405;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define radiantColor: #440b0b;
+@define direColor: #054405;
 DOTASpectateHeroSelection {
     width: 100%;
     height: 100%;
@@ -21,7 +22,6 @@ DOTASpectateHeroSelection.Hidden {
 
 #PhaseStatus {
     width: 100%;
-
     margin-left: 220px;
     flow-children: right;
     horizontal-align: center;
@@ -53,7 +53,6 @@ DOTASpectateHeroSelection.Hidden {
     wash-color: #fff;
     margin-left: 62px;
     margin-top: 13px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -77,7 +76,6 @@ DOTASpectateHeroSelection.Hidden {
     opacity: 0.4;
     margin-left: 14px;
     margin-top: 12px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -87,7 +85,6 @@ DOTASpectateHeroSelection.Hidden {
     margin-top: 0px;
     height: 56px;
     flow-children: right;
-
     padding: 0px 32px 0px 102px;
 }
 
@@ -112,7 +109,6 @@ DOTASpectateHeroSelection.Hidden {
     opacity-mask: url("s2r://panorama/images/masks/gradient_leftright_png.vtex") 1;
     transform-origin: 0px 50%;
     margin-left: 0px;
-
     brightness: 0.5;
     saturation: 1.3;
 }
@@ -165,9 +161,7 @@ DOTASpectateHeroSelection.Hidden {
     margin-right: 40px;
     width: 24px;
     height: 24px;
-
     wash-color: #888888;
-
     background-size: 24px 24px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -255,7 +249,6 @@ DOTASpectateHeroSelection.Hidden {
 
 .HeroPickedLabel {
     horizontal-align: center;
-
     width: 360px;
     height: 58px;
     margin-bottom: 146px;
@@ -263,7 +256,6 @@ DOTASpectateHeroSelection.Hidden {
     opacity: 0;
     transform: translateX(0px);
     pre-transform-scale2d: 1;
-
     transition-property: opacity, transform, pre-transform-scale2d;
     transition-duration: 0.32s;
     transition-delay: 0.32s;
@@ -315,12 +307,15 @@ DOTASpectateHeroSelection.Hidden {
 .AspectRatio16x10 .DireTurn.BanPhase #BansBackground {
     transform: translateX(-735px) translateY(248px);
 }
+
 .AspectRatio16x10 .RadiantTurn.BanPhase #BansBackground {
     transform: translateX(-735px) translateY(-248px);
 }
+
 .AspectRatio4x3 .DireTurn.BanPhase #BansBackground {
     transform: translateX(-591px) translateY(248px);
 }
+
 .AspectRatio4x3 .RadiantTurn.BanPhase #BansBackground {
     transform: translateX(-591px) translateY(-248px);
 }
@@ -430,18 +425,23 @@ DOTASpectateHeroSelection.Hidden {
     transform: translateX(0px) translateY(282px);
     opacity: 0;
 }
+
 .IsCaptainsModeSelectPhase #BansBackground.team1slot0 {
     transform: translateX(-530px) translateY(282px);
 }
+
 .IsCaptainsModeSelectPhase #BansBackground.team1slot1 {
     transform: translateX(-266px) translateY(282px);
 }
+
 .IsCaptainsModeSelectPhase #BansBackground.team1slot2 {
     transform: translateX(0px) translateY(282px);
 }
+
 .IsCaptainsModeSelectPhase #BansBackground.team1slot3 {
     transform: translateX(264px) translateY(282px);
 }
+
 .IsCaptainsModeSelectPhase #BansBackground.team1slot4 {
     transform: translateX(530px) translateY(282px);
 }
@@ -449,15 +449,19 @@ DOTASpectateHeroSelection.Hidden {
 .IsCaptainsModeSelectPhase #BansBackground.team0slot0 {
     transform: translateX(-530px) translateY(-258px);
 }
+
 .IsCaptainsModeSelectPhase #BansBackground.team0slot1 {
     transform: translateX(-266px) translateY(-258px);
 }
+
 .IsCaptainsModeSelectPhase #BansBackground.team0slot2 {
     transform: translateX(0px) translateY(-258px);
 }
+
 .IsCaptainsModeSelectPhase #BansBackground.team0slot3 {
     transform: translateX(264px) translateY(-258px);
 }
+
 .IsCaptainsModeSelectPhase #BansBackground.team0slot4 {
     transform: translateX(530px) translateY(-258px);
 }
@@ -465,15 +469,19 @@ DOTASpectateHeroSelection.Hidden {
 .AspectRatio16x10 .IsCaptainsModeSelectPhase #BansBackground.team1slot0 {
     transform: translateX(-490px) translateY(282px);
 }
+
 .AspectRatio16x10 .IsCaptainsModeSelectPhase #BansBackground.team1slot1 {
     transform: translateX(-245px) translateY(282px);
 }
+
 .AspectRatio16x10 .IsCaptainsModeSelectPhase #BansBackground.team1slot2 {
     transform: translateX(0px) translateY(282px);
 }
+
 .AspectRatio16x10 .IsCaptainsModeSelectPhase #BansBackground.team1slot3 {
     transform: translateX(244px) translateY(282px);
 }
+
 .AspectRatio16x10 .IsCaptainsModeSelectPhase #BansBackground.team1slot4 {
     transform: translateX(486px) translateY(282px);
 }
@@ -481,15 +489,19 @@ DOTASpectateHeroSelection.Hidden {
 .AspectRatio16x10 .IsCaptainsModeSelectPhase #BansBackground.team0slot0 {
     transform: translateX(-490px) translateY(-258px);
 }
+
 .AspectRatio16x10 .IsCaptainsModeSelectPhase #BansBackground.team0slot1 {
     transform: translateX(-245px) translateY(-258px);
 }
+
 .AspectRatio16x10 .IsCaptainsModeSelectPhase #BansBackground.team0slot2 {
     transform: translateX(0px) translateY(-258px);
 }
+
 .AspectRatio16x10 .IsCaptainsModeSelectPhase #BansBackground.team0slot3 {
     transform: translateX(244px) translateY(-258px);
 }
+
 .AspectRatio16x10 .IsCaptainsModeSelectPhase #BansBackground.team0slot4 {
     transform: translateX(486px) translateY(-258px);
 }
@@ -497,15 +509,19 @@ DOTASpectateHeroSelection.Hidden {
 .AspectRatio4x3 .IsCaptainsModeSelectPhase #BansBackground.team1slot0 {
     transform: translateX(-403px) translateY(282px);
 }
+
 .AspectRatio4x3 .IsCaptainsModeSelectPhase #BansBackground.team1slot1 {
     transform: translateX(-205px) translateY(282px);
 }
+
 .AspectRatio4x3 .IsCaptainsModeSelectPhase #BansBackground.team1slot2 {
     transform: translateX(0px) translateY(282px);
 }
+
 .AspectRatio4x3 .IsCaptainsModeSelectPhase #BansBackground.team1slot3 {
     transform: translateX(204px) translateY(282px);
 }
+
 .AspectRatio4x3 .IsCaptainsModeSelectPhase #BansBackground.team1slot4 {
     transform: translateX(403px) translateY(282px);
 }
@@ -513,15 +529,19 @@ DOTASpectateHeroSelection.Hidden {
 .AspectRatio4x3 .IsCaptainsModeSelectPhase #BansBackground.team0slot0 {
     transform: translateX(-403px) translateY(-258px);
 }
+
 .AspectRatio4x3 .IsCaptainsModeSelectPhase #BansBackground.team0slot1 {
     transform: translateX(-205px) translateY(-258px);
 }
+
 .AspectRatio4x3 .IsCaptainsModeSelectPhase #BansBackground.team0slot2 {
     transform: translateX(0px) translateY(-258px);
 }
+
 .AspectRatio4x3 .IsCaptainsModeSelectPhase #BansBackground.team0slot3 {
     transform: translateX(204px) translateY(-258px);
 }
+
 .AspectRatio4x3 .IsCaptainsModeSelectPhase #BansBackground.team0slot4 {
     transform: translateX(403px) translateY(-258px);
 }
@@ -586,7 +606,6 @@ DOTASpectateHeroSelection.Hidden {
     flow-children: none;
     horizontal-align: center;
     width: 100%;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00000000), to(#000000ee));
     background-color: black;
 }
@@ -641,7 +660,6 @@ DOTASpectateHeroSelection.Hidden {
 #BanPhaseTimeLabel,
 #PhaseTimeLabel {
     color: #fff8;
-
     color: gradient(linear, 0% 0%, 0% 100%, from(#fff8), color-stop(0.4, #ffff), to(#aaa));
     font-size: 64px;
     font-weight: thin;
@@ -649,9 +667,7 @@ DOTASpectateHeroSelection.Hidden {
     margin-bottom: 100px;
     text-align: center;
     horizontal-align: center;
-
     text-shadow: 0px 2px 0px 3 #000;
-
     transition-property: transform, opacity, pre-transform-scale2d, wash-color;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -669,7 +685,6 @@ DOTASpectateHeroSelection.Hidden {
     margin-left: 16px;
     font-weight: thin;
     letter-spacing: 4px;
-
     vertical-align: middle;
     text-transform: uppercase;
 }
@@ -850,7 +865,6 @@ DOTASpectateHeroSelection.Hidden {
 #HeroPool {
     horizontal-align: left;
     vertical-align: center;
-
     visibility: collapse;
 }
 
@@ -860,7 +874,6 @@ DOTASpectateHeroSelection.Hidden {
 
 .TeamPlayer {
     margin-bottom: 4px;
-
     width: 190px;
     margin-left: 10px;
     overflow: noclip;
@@ -970,13 +983,11 @@ DOTASpectateHeroSelection.Hidden {
     height: 47px;
     visibility: visible;
     horizontal-align: center;
-
     saturation: 0.34;
     wash-color: #a44d;
     background-color: black;
     border-radius: 6px;
     border: 2px solid #000;
-
     transition-property: border, box-shadow;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -1005,7 +1016,6 @@ DOTASpectateHeroSelection.Hidden {
 
 .HeroCardBackground {
     width: 264px;
-
     height: 450px;
 }
 
@@ -1101,7 +1111,6 @@ DOTASpectateHeroSelection.Hidden {
     margin-top: 7px;
     margin-left: 24px;
     margin-right: 24px;
-
     text-overflow: shrink;
     text-transform: uppercase;
     font-weight: bold;
@@ -1115,10 +1124,12 @@ DOTASpectateHeroSelection.Hidden {
 #Row0 #HeroName {
     color: #a8f4cc;
 }
+
 #HeroPickedDire #HeroPickedName,
 #Row1 #HeroName {
     color: #e26c20;
 }
+
 .BanPickComplete #Row0 .Hero.PlayerIsAssigned #HeroName,
 .BanPickComplete #Row1 .Hero.PlayerIsAssigned #HeroName,
 .BanPickComplete .Hero.PlayerIsAssigned #HeroName {
@@ -1142,15 +1153,19 @@ DOTASpectateHeroSelection.Hidden {
 .PrimaryAttributeAgility #HeroStrAgiIntIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_psd.vtex");
 }
+
 .ColorBlindModeEnabled .PrimaryAttributeAgility #HeroStrAgiIntIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_colorblind_psd.vtex");
 }
+
 .PrimaryAttributeStrength #HeroStrAgiIntIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_strength_psd.vtex");
 }
+
 .PrimaryAttributeIntellect #HeroStrAgiIntIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_intelligence_psd.vtex");
 }
+
 .PrimaryAttributeUniversal #HeroStrAgiIntIcon {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_all_psd.vtex");
 }
@@ -1163,11 +1178,9 @@ DOTASpectateHeroSelection.Hidden {
     visibility: collapse;
     flow-children: up;
     opacity: 0;
-
     transition-property: opacity, transform, pre-transform-scale2d;
     transition-duration: 0.28s;
     transition-timing-function: ease-in-out;
-
     background-color: #000000d1;
     border-radius: 4px;
 }
@@ -1202,7 +1215,6 @@ DOTASpectateHeroSelection.Hidden {
     background-position: 0px 0px;
     vertical-align: middle;
     border-radius: 4px;
-
     margin-left: 1px;
     margin-right: 1px;
 }
@@ -1212,14 +1224,11 @@ DOTASpectateHeroSelection.Hidden {
     height: 40px;
     background-size: 95% 95%;
     background-position: 50% 50%;
-
     margin-left: 1px;
     margin-right: 1px;
     border: 0px solid transparent;
     wash-color: #6f819b;
-
     box-shadow: none;
-
     visibility: collapse;
 }
 
@@ -1257,11 +1266,9 @@ DOTASpectateHeroSelection.Hidden {
     vertical-align: middle;
     z-index: -10;
     horizontal-align: center;
-
     saturation: 1;
     brightness: 1;
     contrast: 1;
-
     transition-property: contrast, brightness, saturation;
     transition-duration: 0.5s;
     transition-delay: 2s;
@@ -1301,7 +1308,6 @@ DOTASpectateHeroSelection.Hidden {
 .HeroFocusVignetteContainer {
     width: 100%;
     height: 100%;
-
     transition-property: opacity;
     transition-duration: 0.8s;
     opacity: 1;
@@ -1406,6 +1412,7 @@ DOTASpectateHeroSelection.Hidden {
     padding: 6px 12px 4px 12px;
     margin-bottom: 4px;
 }
+
 #ToggleChatButton > Label {
     font-size: 18px;
     text-transform: uppercase;
@@ -1415,6 +1422,7 @@ DOTASpectateHeroSelection.Hidden {
 #ToggleChatButton:hover Label {
     color: white;
 }
+
 #ToggleChatButton:active Label {
     color: #ccc;
 }
@@ -1423,17 +1431,16 @@ DOTASpectateHeroSelection.Hidden {
     width: 14px;
     height: 100%;
     margin-bottom: 3px;
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
     wash-color: #999;
 }
 
 #ToggleChatButton:hover .ToggleChatArrow {
     wash-color: white;
 }
+
 #ToggleChatButton:active .ToggleChatArrow {
     wash-color: #ccc;
 }
@@ -1442,6 +1449,7 @@ DOTASpectateHeroSelection.Hidden {
     background-image: url("s2r://panorama/images/control_icons/double_arrow_left_png.vtex");
     margin-right: 2px;
 }
+
 .ToggleChatArrow.RightArrow {
     background-image: url("s2r://panorama/images/control_icons/double_arrow_right_png.vtex");
     margin-left: 2px;
@@ -1451,15 +1459,14 @@ DOTASpectateHeroSelection.Hidden {
 .RequestedPreGameChat .ToggleChatArrow.LeftArrow {
     visibility: collapse;
 }
+
 .RequestedPreGameChat .ToggleChatArrow.RightArrow {
     visibility: visible;
 }
 
 #GoldChange {
     flow-children: right;
-
     opacity: 0.001;
-
     horizontal-align: center;
     vertical-align: bottom;
     margin-bottom: 108px;
@@ -1470,10 +1477,12 @@ DOTASpectateHeroSelection.Hidden {
         transform: translateY(0px) scale3d(0.66, 0.66, 1);
         opacity: 0.5;
     }
+
     15% {
         transform: translateY(0px);
         opacity: 1;
     }
+
     100% {
         transform: translateY(13px);
         opacity: 0;
@@ -1496,10 +1505,8 @@ DOTASpectateHeroSelection.Hidden {
 #GoldChangeIcon {
     width: 30px;
     height: 30px;
-
     margin-left: 4px;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/hud/icon_gold_psd.vtex");
     background-size: contain;
 }
@@ -1603,6 +1610,7 @@ DOTASpectateHeroSelection.Hidden {
 .BroadcastLowerThird.RadiantTurn.BanPhase #BansBackground {
     transform: translateX(-896px) translateY(405px);
 }
+
 .BroadcastLowerThird.DireTurn.BanPhase #BansBackground {
     transform: translateX(894px) translateY(405px);
 }
@@ -1610,6 +1618,7 @@ DOTASpectateHeroSelection.Hidden {
 .BroadcastLowerThird #ReserveTimeLabel {
     transform: translateY(-0px);
 }
+
 .InReserveTime .BroadcastLowerThird #PhaseTimeLabel {
     transform: translateY(0px);
 }
@@ -1629,15 +1638,19 @@ DOTASpectateHeroSelection.Hidden {
 .IsCaptainsModeSelectPhase .BroadcastLowerThird #BansBackground.team1slot0 {
     transform: translateX(228px) translateY(408px);
 }
+
 .IsCaptainsModeSelectPhase .BroadcastLowerThird #BansBackground.team1slot1 {
     transform: translateX(348px) translateY(408px);
 }
+
 .IsCaptainsModeSelectPhase .BroadcastLowerThird #BansBackground.team1slot2 {
     transform: translateX(480px) translateY(408px);
 }
+
 .IsCaptainsModeSelectPhase .BroadcastLowerThird #BansBackground.team1slot3 {
     transform: translateX(604px) translateY(408px);
 }
+
 .IsCaptainsModeSelectPhase .BroadcastLowerThird #BansBackground.team1slot4 {
     transform: translateX(760px) translateY(408px);
 }
@@ -1645,15 +1658,19 @@ DOTASpectateHeroSelection.Hidden {
 .IsCaptainsModeSelectPhase .BroadcastLowerThird #BansBackground.team0slot0 {
     transform: translateX(-738px) translateY(408px);
 }
+
 .IsCaptainsModeSelectPhase .BroadcastLowerThird #BansBackground.team0slot1 {
     transform: translateX(-608px) translateY(408px);
 }
+
 .IsCaptainsModeSelectPhase .BroadcastLowerThird #BansBackground.team0slot2 {
     transform: translateX(-478px) translateY(408px);
 }
+
 .IsCaptainsModeSelectPhase .BroadcastLowerThird #BansBackground.team0slot3 {
     transform: translateX(-358px) translateY(408px);
 }
+
 .IsCaptainsModeSelectPhase .BroadcastLowerThird #BansBackground.team0slot4 {
     transform: translateX(-204px) translateY(408px);
 }

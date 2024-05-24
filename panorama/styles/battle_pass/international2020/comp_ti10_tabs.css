@@ -1,8 +1,9 @@
-@define prizeRewardMeterLength:  600px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define prizeRewardMeterLength: 600px;
 @define prizeRewardPerPixel: 73000.0;
 @define prizeReward: 34330068;
 @define stretchPrizeReward: 40000000;
-
 #CompendiumBody {
     background-color: #161213;
 }
@@ -93,6 +94,7 @@
     margin-bottom: 40px;
     color: #ffffff;
 }
+
 #TIContent {
     horizontal-align: center;
     flow-children: down;
@@ -114,7 +116,6 @@
 #PopOut {
     width: 16px;
     height: 16px;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_top_right_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -155,42 +156,52 @@
     padding-bottom: 10px;
     visibility: collapse;
 }
+
 .NotLive #VideoStream {
     height: 500px;
 }
+
 #MovieUpsell {
     visibility: collapse;
 }
+
 #MovieCountdown {
     visibility: collapse;
 }
+
 #MovieOver {
     visibility: collapse;
 }
+
 .SelfEventActive .Ended #MovieOver {
     visibility: visible;
     width: 100%;
     margin-top: 220px;
     horizontal-align: center;
 }
+
 .SelfEventActive .NotLive #MovieCountdown {
     visibility: visible;
     width: 100%;
     margin-top: 220px;
     horizontal-align: center;
 }
+
 .SelfEventNotActive #MovieUpsell {
     visibility: visible;
     width: 75%;
     horizontal-align: center;
     vertical-align: middle;
 }
+
 .SelfEventActive #VideoStream {
     visibility: visible;
 }
+
 .SelfEventActive .Ended #VideoStream {
     visibility: collapse;
 }
+
 .CompendiumBottomSection {
     width: 1392px;
     height: 800px;
@@ -245,7 +256,6 @@
 #Beam {
     width: 100%;
     height: 100%;
-
     transform: scaleY(-1) scaleX(0.25);
 }
 
@@ -254,9 +264,7 @@
     height: 100%;
     transform-origin: 50% 100%;
     vertical-align: bottom;
-
     visibility: collapse;
-
     animation-duration: 7.11s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -267,9 +275,11 @@
     0% {
         transform: rotateZ(45deg) translateY(-50px);
     }
+
     50% {
         transform: rotateZ(-15deg) translateY(-50px);
     }
+
     100% {
         transform: rotateZ(45deg) translateY(-50px);
     }
@@ -279,9 +289,11 @@
     0% {
         transform: rotateZ(-37deg);
     }
+
     50% {
         transform: rotateZ(5deg);
     }
+
     100% {
         transform: rotateZ(-37deg);
     }
@@ -291,9 +303,11 @@
     0% {
         transform: rotateZ(45deg);
     }
+
     50% {
         transform: rotateZ(15deg);
     }
+
     100% {
         transform: rotateZ(45deg);
     }
@@ -303,9 +317,11 @@
     0% {
         transform: rotateZ(5deg) translateX(200px) translateY(-100px);
     }
+
     50% {
         transform: rotateZ(-55deg) translateX(200px) translateY(-100px);
     }
+
     100% {
         transform: rotateZ(5deg) translateX(200px) translateY(-100px);
     }
@@ -354,11 +370,9 @@
     vertical-align: middle;
     margin-top: 10px;
     width: 100%;
-
     transition-property: opacity!immediate;
     transition-duration: 0s;
     transition-timing-function: ease-in;
-
     opacity: 1;
 }
 
@@ -366,7 +380,6 @@
     transition-property: opacity!immediate;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
-
     opacity: 1;
 }
 
@@ -438,7 +451,6 @@
     margin-left: 8px;
     letter-spacing: 2px;
     font-size: 16px;
-
     visibility: collapse;
 }
 

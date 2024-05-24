@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FrontpageCell {
     background-color: black;
 }
@@ -17,7 +19,6 @@
     transform: rotateZ(10deg);
     margin-top: 48px;
     margin-right: 16px;
-
     color: white;
     font-weight: bold;
     text-shadow: 0px 0px 4px 3 #000000;
@@ -56,7 +57,6 @@
 .BattleLevelsLabel,
 .Plus {
     color: #a6daff;
-
     vertical-align: middle;
     margin-bottom: 4px;
     text-transform: uppercase;
@@ -94,11 +94,9 @@
     height: 32px;
     vertical-align: center;
     wash-color: #a6daff;
-
     padding-top: 4px;
     padding-bottom: 4px;
     margin-bottom: 6px;
-
     background-image: url("s2r://panorama/images/compendium/shield_icon_shadowed_psd.vtex");
     background-size: cover;
 }

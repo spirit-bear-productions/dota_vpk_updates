@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACustomGamesOverviewPage {
     width: 1394px;
     height: 794px;
@@ -161,11 +163,9 @@ DOTAAvatarImage {
     width: 100%;
     height: fill-parent-flow(1);
     flow-children: down;
-
     background-color: #00000099;
     padding: 12px;
     box-shadow: #00000033 0px 0px 1px 3px;
-
     visibility: visible;
 }
 
@@ -184,9 +184,7 @@ DOTAAvatarImage {
     horizontal-align: right;
     flow-children: right;
     margin-bottom: 10px;
-
     wash-color: #888888;
-
     transition-property: wash-color;
     transition-duration: 0.2s;
 }
@@ -253,13 +251,11 @@ DOTAAvatarImage {
     padding-left: 10px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#4c5561), to(#6c7d88));
     wash-color: #74eafe66;
-
     border: 1px solid;
     border-top-color: #aaaaaa77;
     border-left-color: #aaaaaa33;
     border-bottom-color: #333333;
     border-right-color: #404040;
-
     transition-property: wash-color;
     transition-duration: 0.12s;
     transition-delay: 0s;
@@ -290,9 +286,7 @@ DOTAAvatarImage {
     margin-left: 16px;
     opacity: 1;
     box-shadow: #00000033 0px 0px 1px 3px;
-
     visibility: visible;
-
     transition-property: opacity;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -336,7 +330,6 @@ DOTAAvatarImage {
     margin: 24px 0px 0px 0px;
     margin-left: 0px;
     horizontal-align: center;
-
     transition-property: wash-color, saturation;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
@@ -373,18 +366,15 @@ DOTAAvatarImage {
     background-image: url("s2r://panorama/images/control_icons/playbutton_nocircle_psd.vtex");
     background-size: 100% 100%;
     background-position: 0px 0px;
-
     z-index: 2;
     width: 35px;
     height: 35px;
     pre-transform-scale2d: 0.9;
-
     padding: 12px;
     background-size: 100%;
     background-position: 50% 50%;
     horizontal-align: center;
     vertical-align: center;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
@@ -399,7 +389,6 @@ DOTAAvatarImage {
     width: 70px;
     height: 70px;
     pre-transform-scale2d: 1;
-
     horizontal-align: center;
     vertical-align: center;
     border: 5px solid white;
@@ -408,7 +397,6 @@ DOTAAvatarImage {
     background-size: 50%;
     background-color: #000000aa;
     box-shadow: #000000 0px 0px 2px 0px;
-
     transition-property: pre-transform-scale2d, opacity;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
@@ -506,7 +494,6 @@ DOTAAvatarImage {
 .ModsRefreshButton {
     flow-children: right;
     margin-right: 20px;
-
     transition-property: wash-color;
     transition-duration: 0.6s;
     transition-timing-function: ease-in-out;
@@ -548,7 +535,6 @@ DOTAAvatarImage {
 
 .LobbyListButtonBox {
     width: 100%;
-
     padding: 8px;
     background-color: #00000077;
     flow-children: right;
@@ -596,7 +582,6 @@ Button.CustomGamesOverviewButton:active Label {
 .RightArrowButton {
     vertical-align: bottom;
     horizontal-align: right;
-
     transition-property: wash-color;
     transition-delay: 0s;
     transition-duration: 0.25s;
@@ -618,9 +603,7 @@ Button.CustomGamesOverviewButton:active Label {
     background-size: contain;
     background-repeat: no-repeat;
     wash-color: #91aba6;
-
     transform: translateX(-12px);
-
     transition-property: transform, wash-color;
     transition-delay: 0s;
     transition-duration: 0.25s;
@@ -640,7 +623,6 @@ Button.CustomGamesOverviewButton:active Label {
     text-transform: uppercase;
     margin-top: 4px;
     margin-right: 32px;
-
     transition-property: color;
     transition-delay: 0s;
     transition-duration: 0.25s;
@@ -671,25 +653,19 @@ Button.CustomGamesOverviewButton:active Label {
 #CreateLobbyBtn {
     min-width: 250px;
     min-height: 25px;
-
     padding: 4px 12px 4px 12px;
-
     box-shadow: fill transparent 0px 0px 0px 0px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#102149cc), to(#1e3565cc));
     border-top: 1px solid #486ca944;
     border-left: 1px solid #486ca944;
     margin-top: -6px;
-
     background-image: url("s2r://panorama/images/backgrounds/background_play_button_2x_png.vtex");
     background-size: 328px 50px;
-
     border-right: 1px solid #00000088;
     border-bottom: 1px solid #00000088;
-
     horizontal-align: right;
     vertical-align: center;
     opacity: 1;
-
     transition-property: box-shadow, background-color, opacity, transform;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -714,7 +690,6 @@ Button.CustomGamesOverviewButton:active Label {
     letter-spacing: 2px;
     text-align: center;
     font-weight: thin;
-
     transition-property: color;
     transition-delay: 0s;
     transition-duration: 0.2s;

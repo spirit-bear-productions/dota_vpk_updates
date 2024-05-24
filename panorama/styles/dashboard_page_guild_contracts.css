@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .GuildContractsContents {
     flow-children: right;
     flow-children: none;
@@ -22,60 +24,79 @@
 .GuildPrimaryColor0 #ContractSlotsParticle {
     wash-color: guildColor0;
 }
+
 .GuildPrimaryColor1 #ContractSlotsParticle {
     wash-color: guildColor1;
 }
+
 .GuildPrimaryColor2 #ContractSlotsParticle {
     wash-color: guildColor2;
 }
+
 .GuildPrimaryColor3 #ContractSlotsParticle {
     wash-color: guildColor3;
 }
+
 .GuildPrimaryColor4 #ContractSlotsParticle {
     wash-color: guildColor4;
 }
+
 .GuildPrimaryColor5 #ContractSlotsParticle {
     wash-color: guildColor5;
 }
+
 .GuildPrimaryColor6 #ContractSlotsParticle {
     wash-color: guildColor6;
 }
+
 .GuildPrimaryColor7 #ContractSlotsParticle {
     wash-color: guildColor7;
 }
+
 .GuildPrimaryColor8 #ContractSlotsParticle {
     wash-color: guildColor8;
 }
+
 .GuildPrimaryColor9 #ContractSlotsParticle {
     wash-color: guildColor9;
 }
+
 .GuildPrimaryColor10 #ContractSlotsParticle {
     wash-color: guildColor10;
 }
+
 .GuildPrimaryColor11 #ContractSlotsParticle {
     wash-color: guildColor11;
 }
+
 .GuildPrimaryColor12 #ContractSlotsParticle {
     wash-color: guildColor12;
 }
+
 .GuildPrimaryColor13 #ContractSlotsParticle {
     wash-color: guildColor13;
 }
+
 .GuildPrimaryColor14 #ContractSlotsParticle {
     wash-color: guildColor14;
 }
+
 .GuildPrimaryColor15 #ContractSlotsParticle {
     wash-color: guildColor15;
 }
+
 .GuildPrimaryColor16 #ContractSlotsParticle {
     wash-color: guildColor16;
 }
+
 .GuildPrimaryColor17 #ContractSlotsParticle {
     wash-color: guildColor17;
 }
+
 .GuildPrimaryColor18 #ContractSlotsParticle {
     wash-color: guildColor18;
 }
+
 .GuildPrimaryColor19 #ContractSlotsParticle {
     wash-color: guildColor19;
 }
@@ -83,60 +104,79 @@
 .GuildPrimaryColor0 #ContractSlotsParticle {
     opacity: 0.5;
 }
+
 .GuildPrimaryColor1 #ContractSlotsParticle {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor2 #ContractSlotsParticle {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor3 #ContractSlotsParticle {
     opacity: 0.25;
 }
+
 .GuildPrimaryColor4 #ContractSlotsParticle {
     opacity: 0.25;
 }
+
 .GuildPrimaryColor5 #ContractSlotsParticle {
     opacity: 0.4;
 }
+
 .GuildPrimaryColor6 #ContractSlotsParticle {
     opacity: 0.2;
 }
+
 .GuildPrimaryColor7 #ContractSlotsParticle {
     opacity: 0.4;
 }
+
 .GuildPrimaryColor8 #ContractSlotsParticle {
     opacity: 0.5;
 }
+
 .GuildPrimaryColor9 #ContractSlotsParticle {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor10 #ContractSlotsParticle {
     opacity: 0.5;
 }
+
 .GuildPrimaryColor11 #ContractSlotsParticle {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor12 #ContractSlotsParticle {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor13 #ContractSlotsParticle {
     opacity: 0.25;
 }
+
 .GuildPrimaryColor14 #ContractSlotsParticle {
     opacity: 0.25;
 }
+
 .GuildPrimaryColor15 #ContractSlotsParticle {
     opacity: 0.4;
 }
+
 .GuildPrimaryColor16 #ContractSlotsParticle {
     opacity: 0.2;
 }
+
 .GuildPrimaryColor17 #ContractSlotsParticle {
     opacity: 0.4;
 }
+
 .GuildPrimaryColor18 #ContractSlotsParticle {
     opacity: 0.5;
 }
+
 .GuildPrimaryColor19 #ContractSlotsParticle {
     opacity: 0.3;
 }
@@ -149,60 +189,79 @@
 .GuildPrimaryColor0 #ContractSlotsSection {
     background-color: hsv-transform(guildColor0&aa, 0, 1, 0.03);
 }
+
 .GuildPrimaryColor1 #ContractSlotsSection {
     background-color: hsv-transform(guildColor1&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor2 #ContractSlotsSection {
     background-color: hsv-transform(guildColor2&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor3 #ContractSlotsSection {
     background-color: hsv-transform(guildColor3&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor4 #ContractSlotsSection {
     background-color: hsv-transform(guildColor4&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor5 #ContractSlotsSection {
     background-color: hsv-transform(guildColor5&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor6 #ContractSlotsSection {
     background-color: hsv-transform(guildColor6&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor7 #ContractSlotsSection {
     background-color: hsv-transform(guildColor7&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor8 #ContractSlotsSection {
     background-color: hsv-transform(guildColor8&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor9 #ContractSlotsSection {
     background-color: hsv-transform(guildColor9&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor10 #ContractSlotsSection {
     background-color: hsv-transform(guildColor10&aa, 0, 1, 0.03);
 }
+
 .GuildPrimaryColor11 #ContractSlotsSection {
     background-color: hsv-transform(guildColor11&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor12 #ContractSlotsSection {
     background-color: hsv-transform(guildColor12&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor13 #ContractSlotsSection {
     background-color: hsv-transform(guildColor13&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor14 #ContractSlotsSection {
     background-color: hsv-transform(guildColor14&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor15 #ContractSlotsSection {
     background-color: hsv-transform(guildColor15&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor16 #ContractSlotsSection {
     background-color: hsv-transform(guildColor16&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor17 #ContractSlotsSection {
     background-color: hsv-transform(guildColor17&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor18 #ContractSlotsSection {
     background-color: hsv-transform(guildColor18&aa, 0, 1, 0.02);
 }
+
 .GuildPrimaryColor19 #ContractSlotsSection {
     background-color: hsv-transform(guildColor19&aa, 0, 1, 0.02);
 }
@@ -211,6 +270,7 @@
     width: 100%;
     height: 100%;
 }
+
 .GuildPrimaryColor0 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -221,6 +281,7 @@
         to(guildColor0&00)
     );
 }
+
 .GuildPrimaryColor1 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -231,6 +292,7 @@
         to(guildColor1&00)
     );
 }
+
 .GuildPrimaryColor2 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -241,6 +303,7 @@
         to(guildColor2&00)
     );
 }
+
 .GuildPrimaryColor3 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -251,6 +314,7 @@
         to(guildColor3&00)
     );
 }
+
 .GuildPrimaryColor4 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -261,6 +325,7 @@
         to(guildColor4&00)
     );
 }
+
 .GuildPrimaryColor5 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -271,6 +336,7 @@
         to(guildColor5&00)
     );
 }
+
 .GuildPrimaryColor6 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -281,6 +347,7 @@
         to(guildColor6&00)
     );
 }
+
 .GuildPrimaryColor7 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -291,6 +358,7 @@
         to(guildColor7&00)
     );
 }
+
 .GuildPrimaryColor8 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -301,6 +369,7 @@
         to(guildColor8&00)
     );
 }
+
 .GuildPrimaryColor9 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -311,6 +380,7 @@
         to(guildColor9&00)
     );
 }
+
 .GuildPrimaryColor10 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -321,6 +391,7 @@
         to(guildColor10&00)
     );
 }
+
 .GuildPrimaryColor11 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -331,6 +402,7 @@
         to(guildColor11&00)
     );
 }
+
 .GuildPrimaryColor12 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -341,6 +413,7 @@
         to(guildColor12&00)
     );
 }
+
 .GuildPrimaryColor13 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -351,6 +424,7 @@
         to(guildColor13&00)
     );
 }
+
 .GuildPrimaryColor14 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -361,6 +435,7 @@
         to(guildColor14&00)
     );
 }
+
 .GuildPrimaryColor15 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -371,6 +446,7 @@
         to(guildColor15&00)
     );
 }
+
 .GuildPrimaryColor16 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -381,6 +457,7 @@
         to(guildColor16&00)
     );
 }
+
 .GuildPrimaryColor17 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -391,6 +468,7 @@
         to(guildColor17&00)
     );
 }
+
 .GuildPrimaryColor18 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -401,6 +479,7 @@
         to(guildColor18&00)
     );
 }
+
 .GuildPrimaryColor19 #GuildContractSlotsGradientBG {
     background-color: gradient(
         radial,
@@ -435,7 +514,6 @@
     padding: 0px 44px;
     color: gradient(linear, 0% 0%, 100% 0%, from(#777), color-stop(0.5, #999), to(#777));
     font-size: 16px;
-
     animation-name: SelectGlow;
     animation-duration: 2.5s;
     animation-timing-function: linear;
@@ -479,7 +557,6 @@
     flow-children: right-wrap;
     padding: 0px 0px 0px 28px;
     overflow: squish scroll;
-
     margin-bottom: 14px;
 }
 
@@ -489,10 +566,8 @@
     margin-bottom: 1px;
     margin-bottom: 5px;
     ui-scale: 86.5%;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.2s;
-
     pre-transform-scale2d: 1;
 }
 
@@ -500,6 +575,7 @@
     brightness: 2;
     pre-transform-scale2d: 1.04;
 }
+
 .ActiveContract:active {
     brightness: 1.5;
 }
@@ -509,9 +585,7 @@
     height: 100%;
     background-color: #000000e0;
     margin: 2px 2px 0px 2px;
-
     visibility: collapse;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_sharper_png.vtex");
 }
 
@@ -528,7 +602,6 @@
     flow-children: none;
     horizontal-align: center;
     vertical-align: top;
-
     height: 100%;
 }
 
@@ -541,9 +614,7 @@
     font-size: 14px;
     margin: 2px 0px;
     height: fit-children;
-
     visibility: collapse;
-
     text-shadow: -3px -3px 6px 6px #000000aa;
     margin-top: 112px;
     vertical-align: top;
@@ -562,18 +633,13 @@
 .ActiveContract #AssignedAvatarImage {
     width: 48px;
     height: 48px;
-
     border-top: 1px solid #ffffff44;
     border-left: 1px solid #ffffff22;
     border-right: 1px solid #ffffff00;
     border-bottom: 1px solid #333;
-
     box-shadow: -3px 0px 6px 0px #000000aa;
-
     horizontal-align: center;
-
     vertical-align: top;
-
     margin-top: 60px;
 }
 
@@ -585,9 +651,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     visibility: collapse;
-
     vertical-align: top;
     margin-top: 15px;
 }

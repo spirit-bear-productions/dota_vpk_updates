@@ -1,10 +1,11 @@
-<!-- xml reconstructed by Source 2 Viewer 5.0.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/hud_perfstats_basics.vcss_c" />
 	</styles>
 	<HudPerfStatsBasics hittest="false" hittestchildren="false">
 		<Panel id="fps_row">
+			<Label id="frame_rate_amnesty_reason" class="MonoNumbersFont" />
 			<Label id="graphics_driver_out_of_date_label" class="MonoNumbersFont" text="#hud_telemetry_driver_out_of_date" />
 			<Label id="frame_time_label" class="MonoNumbersFont" text="" />
 		</Panel>

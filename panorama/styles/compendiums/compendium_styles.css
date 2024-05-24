@@ -1,11 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define RewardItemsOffset16x9: 245.0f;
 @define RewardItemsOffset4x3: -5.0f;
 @define RewardItemsOffset16x10: 150.0f;
 @define RewardItemsOffset5x4: 10.0f;
 @define RewardsLength: 3030.0f;
-
 @import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
-
 DOTAReferencePage {
     width: 100%;
     height: 100%;
@@ -27,7 +27,6 @@ DOTAReferencePage {
 .CompendiumHeader {
     width: 1392px;
     height: 72px;
-
     horizontal-align: center;
     vertical-align: top;
     margin-top: 100px;
@@ -55,7 +54,6 @@ DOTAReferencePage {
 .CompendiumBody {
     background-color: #00000066;
     border-top: 1px solid #487098;
-
     width: 100%;
     height: 100%;
     margin-top: 60px;
@@ -81,9 +79,7 @@ DOTAReferencePage {
 
 .CompendiumOpen .textAccentColorBright:selected Label {
     text-shadow: 0px 0px 12px #f7deb555;
-
     text-shadow: 0px 0px 12px #72ebe188;
-
     text-shadow: 0px 0px 12px textAccentColor&88;
 }
 
@@ -102,10 +98,8 @@ DOTAReferencePage {
 .CompendiumOpen .textAccentColorBright .SecondaryTabPostfixImage {
     wash-color: #3d5b4e;
     margin-left: 0px;
-
     wash-color: #436579;
     margin-left: 0px;
-
     wash-color: textShadeColor;
     margin-left: 0px;
 }
@@ -114,7 +108,6 @@ DOTAReferencePage {
     width: 100%;
     height: 100%;
     padding-top: 64px;
-
     background-image: url("s2r://panorama/images/textures/papergrain_psd.vtex");
     background-position: 50% 50%;
     overflow: scroll;
@@ -147,9 +140,7 @@ DOTAReferencePage {
     height: 2px;
     background-color: #56647777;
     vertical-align: middle;
-
     z-index: 0;
-
     transition-property: width, brightness;
     transition-duration: 0.25s;
 }
@@ -182,7 +173,6 @@ DOTAReferencePage {
     box-shadow: fill #00000077 0px 4px 18px 0px;
     z-index: 1;
     pre-transform-scale2d: 1;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
 }
@@ -220,7 +210,6 @@ DOTAReferencePage {
 .QuestNode.QuestSelected {
     border: 4px solid #66aaff;
     box-shadow: #55aaff77 0px 0px 18px 0px;
-
     animation-name: SelectedGlow;
     animation-duration: 1.6s;
     animation-delay: 0.15s;
@@ -241,9 +230,11 @@ DOTAReferencePage {
     0% {
         box-shadow: #55aaff77 0px 0px 18px 0px;
     }
+
     50% {
         box-shadow: #55aaff22 0px 0px 14px 0px;
     }
+
     100% {
         box-shadow: #55aaff77 0px 0px 18px 0px;
     }
@@ -362,7 +353,6 @@ DOTAReferencePage {
 #CampaignVignette {
     width: 100%;
     height: 100%;
-
     z-index: 2;
 }
 
@@ -375,7 +365,6 @@ DOTAReferencePage {
 
 #ActiveCampaign {
     margin-left: 254px;
-
     padding: 18px;
     vertical-align: top;
     z-index: 3;
@@ -444,10 +433,8 @@ DOTAReferencePage {
 #RewardPath {
     overflow: noclip;
     transform: translateY(0px) translateX(0px) rotateX(50deg);
-
     transition-property: transform;
     transition-duration: 0.6s;
-
     z-index: -1;
 }
 
@@ -455,7 +442,6 @@ DOTAReferencePage {
     overflow: noclip;
     transform: translateY(-100px) translateX(0px) translateZ(0px);
     z-index: 2;
-
     transition-property: transform;
     transition-duration: 0.6s;
 }
@@ -470,7 +456,6 @@ DOTAReferencePage {
 
 .RewardNode {
     width: 48px;
-
     margin: 8px;
     overflow: noclip;
     height: 350px;
@@ -505,7 +490,6 @@ DOTAReferencePage {
         color-stop(0.8, #4a4e5333),
         to(#2a4f7500)
     );
-
     animation-duration: 1.8s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -537,7 +521,6 @@ DOTAReferencePage {
 .RewardPathCore {
     width: 48px;
     height: 72px;
-
     vertical-align: bottom;
     margin: 2px;
     margin-bottom: 90px;
@@ -555,7 +538,6 @@ DOTAReferencePage {
     background-size: cover;
     background-position: 50% 60%;
     background-repeat: no-repeat;
-
     visibility: collapse;
 }
 
@@ -590,7 +572,6 @@ DOTAReferencePage {
     margin-bottom: 94px;
     saturation: 0;
     brightness: 0.2;
-
     animation-duration: 1.8s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -613,6 +594,7 @@ DOTAReferencePage {
     0% {
         brightness: 1;
     }
+
     50% {
         brightness: 4;
     }
@@ -804,7 +786,6 @@ DOTAReferencePage {
     pre-transform-scale2d: 0.8;
     brightness: 0.8;
     transform-origin: 50% 70%;
-
     transition-property: pre-transform-scale2d, brightness;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -828,15 +809,19 @@ DOTAReferencePage {
     0% {
         transform: rotateZ(0deg);
     }
+
     10% {
         transform: rotateZ(10deg);
     }
+
     20% {
         transform: rotateZ(-10deg);
     }
+
     30% {
         transform: rotateZ(5deg);
     }
+
     40% {
         transform: rotateZ(-5deg);
     }
@@ -844,6 +829,7 @@ DOTAReferencePage {
     50% {
         transform: rotateZ(0deg);
     }
+
     100% {
         transform: rotateZ(0deg);
     }
@@ -913,11 +899,11 @@ DOTAReferencePage {
     border: 2px solid #4488ff44;
     vertical-align: bottom;
     margin-bottom: 26px;
-
     transition-property: transform;
     transition-duration: 1s;
     z-index: 3;
 }
+
 .RewardTimelineSelector.Dragging {
     transition-duration: 0s;
 }
@@ -1048,6 +1034,7 @@ DOTAReferencePage {
     width: 100%;
     height: 100%;
 }
+
 .AspectRatio4x3 .RewardContainer {
     padding-left: 12px;
     padding-right: 12px;
@@ -1069,7 +1056,6 @@ DOTAReferencePage {
 #CardTable {
     width: 1224px;
     height: 712px;
-
     horizontal-align: center;
     vertical-align: middle;
 }
@@ -1094,9 +1080,7 @@ DOTAReferencePage {
     background-repeat: no-repeat;
     pre-transform-scale2d: 1;
     opacity: 1;
-
     box-shadow: #000000 0px 0px 18px 0px;
-
     transition-property: transform, pre-transform-scale2d, opacity;
     transition-duration: 0.4s;
 }
@@ -1164,6 +1148,7 @@ DOTAReferencePage {
     transform: translateX(180px) rotateX(90deg) rotateY(90deg) translateZ(-1120px);
     opacity: 0;
 }
+
 .Hidden #CardFX {
     opacity: 0;
     pre-transform-scale2d: 1.1;
@@ -1176,7 +1161,6 @@ DOTAReferencePage {
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
     hue-rotation: 90deg;
     wash-color: #487098;
-
     transition-property: pre-transform-scale2d, opacity;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
@@ -1236,7 +1220,6 @@ DOTAReferencePage {
 #AchievementsBody {
     width: 1392px;
     height: 100%;
-
     horizontal-align: center;
 }
 
@@ -1260,7 +1243,6 @@ DOTAReferencePage {
     horizontal-align: center;
     height: 56px;
     width: 1392px;
-
     z-index: 0;
     overflow: noclip;
 }
@@ -1277,7 +1259,6 @@ DOTAReferencePage {
     vertical-align: bottom;
     text-transform: uppercase;
     letter-spacing: 2px;
-
     color: accentColorBright;
     text-shadow: 0px 1px 3px 3 #000000;
 }

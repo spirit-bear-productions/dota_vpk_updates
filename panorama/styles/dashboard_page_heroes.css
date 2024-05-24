@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroesPage {
     margin-top: 120px;
     width: 100%;
@@ -28,6 +30,7 @@ DOTAHeroesPage {
     horizontal-align: right;
     flow-children: right;
 }
+
 #BanDisplay Label {
     vertical-align: center;
     text-transform: uppercase;
@@ -52,9 +55,11 @@ DOTAHeroesPage {
     padding-top: 6px;
     padding-right: 6px;
 }
+
 #BanDisplay .BanEntry:hover {
     z-index: 1;
 }
+
 #BanDisplay .BanEntry:hover .ClearButton {
     opacity: 1;
     pre-transform-scale2d: 1;
@@ -73,18 +78,16 @@ DOTAHeroesPage {
     horizontal-align: center;
     border-radius: 50%;
     margin-top: 10px;
-
     border: 2px solid white;
     wash-color: #3f474d;
-
     transform: rotateZ(45deg);
     img-shadow: 2px 2px 6px black;
     transition-property: opacity-brush, opacity, pre-transform-scale2d, transform;
     transition-timing-function: ease-in-out;
     transition-duration: 0.1s;
-
     visibility: collapse;
 }
+
 #BanDisplay .BanEntry .BanOverlay .Strikethrough {
     width: 24px;
     height: 2px;
@@ -115,6 +118,7 @@ DOTAHeroesPage {
     saturation: 1;
     background-color: rgb(4, 7, 12);
 }
+
 #BanDisplay .BanEntry.Empty DOTAHeroImage:hover .BanOverlay {
     visibility: visible;
     pre-transform-scale2d: 1.5;
@@ -132,13 +136,12 @@ DOTAHeroesPage {
     width: 20px;
     height: 20px;
     background-color: #333;
-
     transform: translateX(6px) translateY(4px);
-
     transition-property: opacity, transform, wash-color, pre-transform-scale2d;
     transition-timing-function: ease-in-out;
     transition-duration: 0.16s;
 }
+
 #BanDisplay .BanEntry .ClearButton .ClearX {
     width: 18px;
     height: 18px;
@@ -169,7 +172,6 @@ DOTAHeroesPage {
     wash-color: #f008;
     saturation: 0.5;
     brightness: 0.6;
-
     border: 1px solid #808fa600;
     box-shadow: 2px 2px 12px #0008;
     transition-property: opacity, pre-transform-scale2d, brightness, border, wash-color, saturation, brightness,

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupOverworldMap {
     flow-children: down;
     background-color: #1e252f;
@@ -14,6 +16,7 @@ DOTAPopupOverworldMap {
 .Header {
     width: 100%;
 }
+
 .Header .Title {
     font-family: titleFont;
     font-size: 38px;

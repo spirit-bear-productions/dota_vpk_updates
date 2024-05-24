@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTASpectatorItemsPlayerRow {
     margin-right: 4px;
     margin-bottom: 4px;
@@ -107,7 +109,6 @@ DOTASpectatorItemsPlayerRow {
     padding-left: 4px;
     padding-right: 4px;
     flow-children: right;
-
     border: 1.5px solid defaultHUDText&15;
 }
 
@@ -154,7 +155,6 @@ DOTASpectatorItemsPlayerRow {
     background-size: 100%;
     horizontal-align: center;
     vertical-align: top;
-
     margin-top: 6px;
 }
 
@@ -163,7 +163,6 @@ DOTASpectatorItemsPlayerRow {
     background-size: 100%;
     horizontal-align: center;
     vertical-align: bottom;
-
     margin-bottom: 6px;
 }
 
@@ -173,17 +172,21 @@ DOTASpectatorItemsPlayerRow {
     flow-children: none;
     visibility: collapse;
 }
+
 .AtLeastOnePlayerHasAghsOrShard .PlayerBuffsCell {
     visibility: visible;
 }
+
 .BuffIcon {
     width: 20px;
     height: 20px;
     opacity: 0;
 }
+
 .HasShard .ShardIcon {
     opacity: 1;
 }
+
 .HasAghs .AghsIcon {
     opacity: 1;
 }

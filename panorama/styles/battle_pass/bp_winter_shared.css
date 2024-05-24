@@ -1,76 +1,60 @@
-@define accentColor:  #6299CF;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define accentColor: #6299CF;
 @define accentColor: #15446b;
 @define accentBorderColor: #15446b33;
-
 @define accentColorSectionBG: #1E2F41;
 @define textMediumColor: #646566;
 @define textBrightColor: #b5b8bb;
-
 @define textColoredMediumColor: #3277a7;
 @define textColoredBrightColor: #4d96f0;
 @define textColoredVeryBrightColor: #75c9ff;
-
 @define backgroundVeryDimColor: #03121c;
 @define backgroundDimColor: #051927;
 @define backgroundMediumColor: #051a27;
 @define backgroundBrightColor: #246791;
 @define backgroundVeryBrightColor: #a5dcff;
-
 @define BRD: 1px solid #343d49;
-
 @define bp_battlePassLogoColor: #42a2e5;
-
 @define XPCircleGradient: gradient( linear, 0% 0%, 0% 100%, from( backgroundDimColor ), to( backgroundBrightColor ) );
 @define XPCircleBorder: 1px solid #286b9a;
-
 @define XPRequiredHeroCircleGradient: gradient( linear, 0% 0%, 0% 100%, from( #245b82 ), to( #1d8ad6 ) );
 @define XPRequiredHeroCircleBorder: 1px solid #1b7fc5;
-
 @define bp_battleLevelColor: #55a8dc;
-
-@define bp_single_point: url( "s2r://panorama/images/compendium/winter/single_point_psd.vtex");
-@define bp_single_point_selected: url( "s2r://panorama/images/compendium/winter/single_point_selected_psd.vtex");
-@define bp_activequestring_small: url( "s2r://panorama/images/compendium/spring2016/activequestring_small_psd.vtex");
-@define bp_activequestring_endscreen: url( "s2r://panorama/images/compendium/winter/activequestring_endscreen_psd.vtex");
-@define bp_shield_icon_endscreen: url( "s2r://panorama/images/compendium/winter/shield_icon_end_screen_psd.vtex");
-@define bp_tip_button_points: url( "s2r://panorama/images/compendium/winter/tip_button_points_psd.vtex");
-@define bp_tip_button_points_hover: url( "s2r://panorama/images/compendium/winter/tip_button_points_hover_psd.vtex");
-@define bp_total_tokens: url( "s2r://panorama/images/compendium/winter/totaltokens_psd.vtex");
-
-@define bp_quest_rank_empty: url( "s2r://panorama/images/status_icons/3star_empty_psd.vtex");
-@define bp_quest_rank_1: url( "s2r://panorama/images/status_icons/3star_1_psd.vtex");
-@define bp_quest_rank_2: url( "s2r://panorama/images/status_icons/3star_2_psd.vtex");
-@define bp_quest_rank_3: url( "s2r://panorama/images/status_icons/3star_3_psd.vtex");
-
+@define bp_single_point: url("s2r://panorama/images/compendium/winter/single_point_psd.vtex");
+@define bp_single_point_selected: url("s2r://panorama/images/compendium/winter/single_point_selected_psd.vtex");
+@define bp_activequestring_small: url("s2r://panorama/images/compendium/spring2016/activequestring_small_psd.vtex");
+@define bp_activequestring_endscreen: url("s2r://panorama/images/compendium/winter/activequestring_endscreen_psd.vtex");
+@define bp_shield_icon_endscreen: url("s2r://panorama/images/compendium/winter/shield_icon_end_screen_psd.vtex");
+@define bp_tip_button_points: url("s2r://panorama/images/compendium/winter/tip_button_points_psd.vtex");
+@define bp_tip_button_points_hover: url("s2r://panorama/images/compendium/winter/tip_button_points_hover_psd.vtex");
+@define bp_total_tokens: url("s2r://panorama/images/compendium/winter/totaltokens_psd.vtex");
+@define bp_quest_rank_empty: url("s2r://panorama/images/status_icons/3star_empty_psd.vtex");
+@define bp_quest_rank_1: url("s2r://panorama/images/status_icons/3star_1_psd.vtex");
+@define bp_quest_rank_2: url("s2r://panorama/images/status_icons/3star_2_psd.vtex");
+@define bp_quest_rank_3: url("s2r://panorama/images/status_icons/3star_3_psd.vtex");
 @define bp_xp_background_color: #262626;
 @define bp_xp_border: #4d8eb7;
-
 @define bp_popup_game_end_local_player_highlight: #861c0d22;
 @define bp_popup_game_end_hovered_player_highlight: #861c0d22;
-
 @define bp_tip_button_background_color: gradient( linear, 0% 0%, 0% 100%, from( #AC3C2C ), to( #8D1D0D ) );
 @define bp_tip_button_active_background_color: gradient( linear, 0% 0%, 0% 100%, from( #E87868 ), to( #A33A2B ) );
 @define bp_tip_button_border_top: 1px solid #C75747;
 @define bp_tip_button_border_bottom: 1px solid #811101;
 @define bp_tip_button_border_sides: 1px solid #BA4A3A;
-
-@define bp_bracket_help_header_image: url( "s2r://panorama/images/compendium/winter/bracket_info_header_png.vtex");
-@define bp_bracket_help_footer_image: url( "s2r://panorama/images/compendium/winter/bracket_info_footer_png.vtex");
-
+@define bp_bracket_help_header_image: url("s2r://panorama/images/compendium/winter/bracket_info_header_png.vtex");
+@define bp_bracket_help_footer_image: url("s2r://panorama/images/compendium/winter/bracket_info_footer_png.vtex");
 .BattlePassPage {
     width: 100%;
     height: 100%;
     flow-children: none;
-
     wash-color: #2d5604;
-
     wash-color: #043256;
 }
 
 .BattlePassButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#051525), to(#071d30));
     border: 1px solid #0f2b43;
-
     transition-property: brightness;
     transition-duration: 0.2s;
     transition-timing-function: linear;
@@ -87,14 +71,12 @@
 .BattlePassButton:active {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#020508), to(#0b1b2c));
     border: 1px solid #0f2e43;
-
     sound: "ui_generic_button_click";
 }
 
 .BattlePassButton Label {
     margin-top: 2px;
     text-transform: uppercase;
-
     horizontal-align: center;
     font-weight: thin;
     font-size: 14px;
@@ -103,9 +85,7 @@
     vertical-align: middle;
     text-shadow: 0px 0px 6px 1 #000000;
     padding: 7px 8px 5px 8px;
-
     color: #a6b4bf;
-
     transition-property: color;
     transition-duration: 0.1s;
     transition-timing-function: linear;
@@ -127,12 +107,10 @@
 .BattlePassBrightButton {
     background-color: accentColor;
     padding: 5px 10px 2px 10px;
-
     border-top: 1px solid #ffffff77;
     border-bottom: 1px solid #00000055;
     border-left: 1px solid #ffffff55;
     border-right: 1px solid #00000088;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -143,7 +121,6 @@
     font-size: 16px;
     text-align: center;
     horizontal-align: center;
-
     color: black;
     font-weight: bold;
 }
@@ -162,20 +139,17 @@
 
 .BattlePassDarkLink > Label {
     color: textMediumColor;
-
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 16px;
     text-align: center;
-
     transition-property: color;
     transition-duration: 0.2s;
 }
 
 .BattlePassDarkLink:hover > Label {
     color: #acff53;
-
     color: #53bcff;
 }
 
@@ -197,7 +171,6 @@
     letter-spacing: 2.25px;
     text-transform: uppercase;
     z-index: 2;
-
     transition-property: border, background-color, color;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -218,7 +191,6 @@
     transform: rotateZ(0deg) translateY(0px);
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     wash-color: #84ba36dd;
-
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 2px;
@@ -239,11 +211,8 @@
     border: 1px solid accentBorderColor;
     margin: 8px;
     margin-bottom: 8px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3e3c3822), to(#4d211a));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#383e3e22), to(#1e2b20));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#383e3e22), to(#1e262b));
 }
 
@@ -253,7 +222,6 @@
     margin: 16px;
     wash-color: textColoredBrightColor;
     opacity: 0.4;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -264,11 +232,8 @@
     color: #92b4d9;
     color: #78a0c8;
     color: #cdbbb5;
-
     color: #c2cdb5;
-
     color: #b5c3cd;
-
     text-shadow: 0px 1px 2px 3 #000000;
     opacity: 0;
     background-color: #000000aa;
@@ -277,13 +242,9 @@
     padding-bottom: 8px;
     padding-left: 16px;
     padding-right: 16px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#4c211a00), color-stop(0.5, #4c211add), to(#4c211add));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#334c1a00), color-stop(0.5, #334c1add), to(#334c1add));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1a374c00), color-stop(0.5, #1a374cdd), to(#1a374cdd));
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -297,7 +258,6 @@
     letter-spacing: 1px;
     color: textBrightColor;
     margin-top: 16px;
-
     transition-property: color;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -323,9 +283,7 @@
     background-image: url("s2r://panorama/images/compendium/spring2016/wagerdesc_next_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
-
     hue-rotation: 90deg;
-
     hue-rotation: 210deg;
 }
 
@@ -384,6 +342,7 @@
 .LeaderListName Label {
     color: white;
 }
+
 .LeaderListTier {
     height: 24px;
     width: 24px;
@@ -392,6 +351,7 @@
     color: white;
     padding-top: 2px;
 }
+
 .LeaderListName .PersonaName {
     color: textBrightColor;
 }
@@ -423,11 +383,8 @@
 
 VerticalScrollBar {
     background-color: #38161288;
-
     background-color: #202621dd;
-
     background-color: #1f242aaa;
-
     width: 6px;
 }
 
@@ -436,10 +393,8 @@ VerticalScrollBar:active .ScrollThumb,
 VerticalScrollBar:hover .ScrollThumb {
     background-color: #45201d;
     border: 1px solid #ffffff02;
-
     background-color: #39443a;
     border: 1px solid #ffffff02;
-
     background-color: #393e44;
     border: 1px solid #ffffff02;
 }
@@ -454,12 +409,9 @@ VerticalScrollBar:hover .ScrollThumb {
     margin-right: 16px;
     margin-top: 16px;
     padding-left: 0px;
-
     background-color: XPCircleGradient;
     border: XPCircleBorder;
-
     box-shadow: 0px 2px 4px 0px #00000066;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
 }

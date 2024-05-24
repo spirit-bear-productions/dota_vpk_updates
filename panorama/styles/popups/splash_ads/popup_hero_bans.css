@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .HeroBansPopup {
     width: 1040px;
     height: 700px;
@@ -20,6 +22,7 @@
     vertical-align: center;
     flow-children: down;
 }
+
 .ContentsContainer Label {
     horizontal-align: center;
     text-align: center;
@@ -61,6 +64,7 @@
     line-height: 1.3;
     margin-bottom: 20px;
 }
+
 .ContentsContainer .Description b {
     color: white;
     font-weight: semi-bold;

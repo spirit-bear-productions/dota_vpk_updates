@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupConductScorecard {
     flow-children: down;
     margin: 0px;
@@ -10,7 +12,6 @@ PopupConductScorecard {
     transition-property: transform, pre-transform-scale2d, opacity, saturation, background-color, border;
     transition-duration: 0.2s;
     width: 1100px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#272d2eee), to(#131617ee));
     border: 1px solid #81b27f44;
 }
@@ -54,7 +55,6 @@ PopupConductScorecard.PopupPanel {
 #MainArea {
     margin-top: 4px;
     margin-bottom: 4px;
-
     width: 100%;
 }
 
@@ -63,7 +63,6 @@ PopupConductScorecard.PopupPanel {
     font-size: 30px;
     color: #82e949;
     letter-spacing: 2px;
-
     visibility: collapse;
     margin-bottom: 16px;
     font-weight: thin;
@@ -76,7 +75,6 @@ PopupConductScorecard.PopupPanel {
 
 #TimePeriod {
     margin-top: 16px;
-
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -107,7 +105,6 @@ PopupConductScorecard.PopupPanel {
     padding-left: 36px;
     padding-right: 36px;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#323631), to(#32363100));
-
     margin-bottom: 2px;
 }
 
@@ -168,18 +165,22 @@ PopupConductScorecard.PopupPanel {
     background-image: url("s2r://panorama/images/conduct/cheating_icon_png.vtex");
     opacity: 0.4;
 }
+
 #ReportsImage2 {
     background-image: url("s2r://panorama/images/conduct/disruptive_icon_png.vtex");
     opacity: 0.4;
 }
+
 #CommsReportsImage {
     background-image: url("s2r://panorama/images/conduct/communication_icon_png.vtex");
     opacity: 0.4;
 }
+
 #CommendsImage {
     background-image: url("s2r://panorama/images/conduct/commend_star_png.vtex");
     opacity: 0.4;
 }
+
 #AbandonsImage {
     background-image: url("s2r://panorama/images/conduct/abandon_png.vtex");
     opacity: 0.4;
@@ -246,6 +247,7 @@ PopupConductScorecard.PopupPanel {
 .FeedbackCategory.Bad .CategoryLabel {
     color: #ff4e16;
 }
+
 .FeedbackCategory.Bad .CategoryDetails {
     color: #a23310;
 }
@@ -257,7 +259,6 @@ PopupConductScorecard.PopupPanel {
 #Footer {
     width: 100%;
     padding-bottom: 16px;
-
     margin-top: 12px;
 }
 

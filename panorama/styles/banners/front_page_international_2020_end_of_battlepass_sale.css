@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FrontpageCell {
     background-color: black;
     transition-property: brightness, pre-transform-scale2d, box-shadow;
@@ -28,7 +30,6 @@
 
 .BundleImage {
     background-image: url("s2r://panorama/images/compendium/international2020/level_bundle_items_png.vtex");
-
     background-size: 100% 100%;
     background-position: center;
     width: 520px;
@@ -43,7 +44,6 @@
 
 .2cellversion .BundleImage {
     ui-scale: 100%;
-
     width: 520px;
     height: 550px;
     background-position: center;
@@ -78,7 +78,6 @@
 .2cellversion #BundleWeekendOnly {
     color: accentColor;
     color: white;
-
     font-size: 14px;
     font-weight: normal;
 }
@@ -136,7 +135,6 @@
     box-shadow: 0px 0px 10px 3 #00cc39;
     font-weight: semi-bold;
     padding: 2px 8px 1px 8px;
-
     horizontal-align: center;
 }
 
@@ -150,9 +148,7 @@
     text-transform: uppercase;
     text-align: center;
     color: #ffffffee;
-
     text-shadow: 0px 0px 5px 3 #000000aa;
-
     horizontal-align: center;
     text-align: center;
     text-overflow: shrink;
@@ -174,7 +170,6 @@
 
 .BundleAmount {
     font-weight: bold;
-
     color: gradient(linear, 0% 0%, 0% 100%, from(white), to(accentColorBright));
 }
 
@@ -261,7 +256,6 @@
 
 .2cellversion .PurchaseButtonsRow {
     flow-children: down;
-
     ui-scale: 105%;
 }
 
@@ -269,11 +263,8 @@
     flow-children: right;
     margin: 0px 8px;
     height: 30px;
-
     horizontal-align: center;
-
     margin-top: 5px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -340,7 +331,6 @@
     horizontal-align: center;
     text-align: center;
     letter-spacing: 2px;
-
     color: #ffffff90;
     font-weight: bold;
     font-size: 16px;
@@ -407,9 +397,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: normal;
-
     horizontal-align: right;
-
     transition-property: color;
     transition-duration: 0.15s;
     transition-timing-function: ease-in;

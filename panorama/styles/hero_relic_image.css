@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroRelicImage {
     width: 116px;
     height: 124px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 0%;
@@ -25,7 +26,6 @@ DOTAHeroRelicImage.Small #RelicImageInternal,
 .RelicImageLayer {
     width: 100%;
     height: 100%;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 0%;
@@ -37,7 +37,6 @@ DOTAHeroRelicImage.Small #RelicImageInternal,
 
 .RelicImageColored {
     background-color: #252525;
-
     saturation: 0.39;
     brightness: 1.5;
     contrast: 0.92;
@@ -46,12 +45,15 @@ DOTAHeroRelicImage.Small #RelicImageInternal,
 DOTAHeroRelicImage.PrimaryAttributeStrength .RelicImageColored {
     wash-color: #f37069;
 }
+
 DOTAHeroRelicImage.PrimaryAttributeAgility .RelicImageColored {
     wash-color: #b6de4d;
 }
+
 DOTAHeroRelicImage.PrimaryAttributeIntellect .RelicImageColored {
     wash-color: #05ddcf;
 }
+
 DOTAHeroRelicImage.PrimaryAttributeUniversal .RelicImageColored {
     wash-color: #a305dd;
 }
@@ -84,7 +86,6 @@ DOTAHeroRelicImage.Empty .RelicImageColored {
     brightness: 3;
     contrast: 1.5;
     opacity: 0.3;
-
     wash-color: #333;
 }
 
@@ -139,11 +140,11 @@ DOTAHeroRelicImage.RareRelic .RelicImageShadow {
     background-image: url("s2r://panorama/images/hero_relics/h_hero_relic_rare_innershadow_psd.vtex"),
         url("s2r://panorama/images/hero_relics/h_hero_relic_rare_shine_psd.vtex");
 }
+
 DOTAHeroRelicImage.RareRelic .RelicImageColored {
     saturation: 0;
     brightness: 1.9;
     contrast: 0.95;
-
     wash-color: #ffbb41;
 }
 
@@ -175,7 +176,6 @@ DOTAHeroRelicImage.RareRelic.Empty .RelicImageColored {
     brightness: 3;
     contrast: 1.5;
     opacity: 0.3;
-
     wash-color: #333;
 }
 

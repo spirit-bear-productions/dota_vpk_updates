@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTATeamsPage {
     width: 100%;
     height: 100%;
@@ -29,7 +31,6 @@ DOTATeamsPage {
     margin-left: 8px;
     vertical-align: middle;
     wash-color: #666;
-
     background-image: url("s2r://panorama/images/control_icons/edit_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -89,7 +90,6 @@ DOTATeamsPage {
 .TeamPanel #TeamEditButton {
     vertical-align: middle;
     margin-right: 12px;
-
     width: 100px;
     background-color: #000000;
     height: 30px;

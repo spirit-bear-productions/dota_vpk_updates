@@ -1,20 +1,17 @@
-@define itemWidth:  101px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define itemWidth: 101px;
 @define itemHeight: 108px;
 @define vrItemWidth: 230px;
 @define vrItemHeight: 245px;
-
 #Contents.ContextMenuHeroItemSlotPicker {
     flow-children: down;
     padding: 0px;
     margin: 0px;
-
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#000), to(#222));
-
     border: 0px;
-
     border-top: 1px solid #ffffff09;
     border-left: 1px solid #ffffff09;
-
     box-shadow: fill #00000077 0px 0px 8px 4px;
 }
 
@@ -22,20 +19,15 @@
     border: 0px;
     border-top: 1px solid #ffffff09;
     border-left: 1px solid #ffffff22;
-
     box-shadow: fill #00000077 0px 0px 8px 4px;
 }
 
 .ContextMenuHeroItemSlotPicker DOTAEconItem:enabled:hover {
     brightness: 2;
-
     pre-transform-scale2d: 1;
-
     border: 0px;
-
     border-top: 1px solid #ffffff09;
     border-left: 1px solid #ffffff22;
-
     box-shadow: fill #00000077 0px 0px 8px 4px;
 }
 
@@ -66,7 +58,6 @@
     width: 406px;
     max-width: 505px;
     max-height: 330px;
-
     overflow: squish scroll;
 }
 

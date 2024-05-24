@@ -1,13 +1,13 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroPickerPopup {
     flow-children: down;
     background-color: #1e252f;
     padding: 0px;
     border: 0px;
     box-shadow: #000000 0px 0px 8px 0px;
-
     width: 816px;
     height: 690px;
-
     vertical-align: center;
     horizontal-align: center;
 }

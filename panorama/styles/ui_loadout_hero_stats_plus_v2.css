@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTALoadoutHeroStatsPlusV2 {
     width: 800px;
 }
@@ -12,10 +14,8 @@ DOTALoadoutHeroStatsPlusV2 > .PlusGlobalStatsContainer {
 
 DOTALoadoutHeroStatsPlusV2 .HeroStatsSimpleStat {
     width: 100px;
-
     background-color: #363f41;
     background-color: gradient(linear, 100% 100%, 0% 0%, from(#2d3436ff), to(#434d50));
-
     padding-top: 4px;
 }
 
@@ -120,7 +120,6 @@ DOTALoadoutHeroStatsPlusV2 .FillBar {
     width: 20px;
     height: 20px;
     margin-bottom: 4px;
-
     vertical-align: bottom;
     horizontal-align: right;
 }
@@ -363,7 +362,6 @@ DOTALoadoutHeroStatsPlusV2 .ProgressBarLeft {
 .GraphTooltipTarget {
     tooltip-position: right;
     tooltip-body-position: 3%;
-
     transition-property: background-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0s;

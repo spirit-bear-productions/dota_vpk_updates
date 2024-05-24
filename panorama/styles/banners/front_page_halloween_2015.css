@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #FrontpageCellHalloween2015 {
     contrast: 1;
     brightness: 1;
@@ -41,13 +43,11 @@
 #HauntedBackgroundImage {
     width: 363px;
     height: 238px;
-
     background-image: url("s2r://panorama/images/banners/halloween2015/background_psd.vtex");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
     overflow: noclip;
-
     transition-property: brightness, pre-transform-scale2d, transform;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -56,12 +56,10 @@
 .ImageLayer {
     width: 336px;
     height: 232px;
-
     background-image: url("s2r://panorama/images/banners/layeredcell/layer1_png.vtex");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
-
     transition-property: brightness, pre-transform-scale2d, transform;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -73,7 +71,6 @@
     pre-transform-scale2d: 1;
     transform: translateX(30px) translateY(-20px);
     overflow: noclip;
-
     transition-duration: 0.3s;
     background-image: url("s2r://panorama/images/banners/halloween2015/tiny_psd.vtex");
     horizontal-align: right;
@@ -83,10 +80,8 @@
     width: 190px;
     height: 254px;
     overflow: noclip;
-
     pre-transform-scale2d: 1;
     transform: translateX(0px) translateY(20px);
-
     background-image: url("s2r://panorama/images/banners/halloween2015/earthshaker_psd.vtex");
 }
 
@@ -95,7 +90,6 @@
     visibility: visible;
     color: black;
     text-shadow: none;
-
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;

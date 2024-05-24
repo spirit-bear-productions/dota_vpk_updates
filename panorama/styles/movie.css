@@ -1,8 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define applabel: gradient( linear, 0% 96%, 96% 100%, from( #f2f2f2ff ), color-stop( 0.90, #f2f2f2ff ), to( #97989800 ) );
 @define box_shadow_on_color: #52c7ebcc;
 @define slideshow_bg: gradient( linear, 0% 0%, 0% 100%, from( #000000aa ), to( #00000055 ) );
 @define ui_common_control_bright: #3890b5;
-
 @keyframes 'main-button-glow-movement-no-fill' {
     0% {
         box-shadow: box_shadow_on_color -4.5px -4.5px 18px 9px;
@@ -104,7 +105,6 @@ MoviePanel {
 #MovieCaptions {
     width: 100%;
     height: 100%;
-
     visibility: collapse;
 }
 
@@ -129,7 +129,6 @@ MoviePanel {
 
 #CaptionsControls {
     flow-children: down;
-
     horizontal-align: right;
     vertical-align: bottom;
     margin: 16px 20px;
@@ -142,10 +141,8 @@ MoviePanel {
     padding: 8px;
     text-align: center;
     margin-bottom: 8px;
-
     transform: translateY(6px);
     opacity: 0;
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
 }
@@ -158,20 +155,15 @@ MoviePanel {
 #CaptionsButton {
     width: 32px;
     height: 32px;
-
     horizontal-align: right;
-
     background-image: url("s2r://panorama/images/captions_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     wash-color: #999;
     opacity: 0.1;
-
     transition-property: wash-color, brightness, opacity;
     transition-duration: 0.2s;
-
     visibility: collapse;
 }
 
@@ -197,9 +189,7 @@ MoviePanel {
     width: 40%;
     height: 40%;
     align: center center;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.75s;
     transition-timing-function: ease-in-out;
@@ -209,7 +199,6 @@ MoviePanel {
     background-image: url("s2r://panorama/images/transport_controls/icon_play_large_png.vtex");
     background-position: center;
     background-repeat: no-repeat;
-
     opacity: 1;
 }
 
@@ -237,9 +226,7 @@ MoviePanel {
     color: white;
     align: center center;
     text-align: center;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.75s;
     transition-timing-function: ease-in-out;
@@ -258,9 +245,7 @@ MoviePanel {
     width: 100%;
     flow-children: down;
     vertical-align: bottom;
-
     transform: translatey(327px);
-
     transition-property: transform;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -280,7 +265,6 @@ MoviePanel {
     width: 100%;
     height: 77px;
     vertical-align: top;
-
     background-color: none;
 }
 
@@ -308,7 +292,6 @@ MoviePanel {
 
 .PlaybackControl {
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -321,7 +304,6 @@ MoviePanel {
 #Timeline {
     width: 547px;
     height: 20px;
-
     border: 2px solid black;
     padding: 2px;
     margin: 0px 6px 0px 6px;
@@ -337,7 +319,6 @@ MoviePanel {
 #PlaybackProgress {
     width: 100%;
     height: 100%;
-
     transform-origin: 0% 0% parent-relative;
     background-color: ui_common_control_bright;
 }
@@ -364,7 +345,6 @@ MoviePanel {
     width: 60px;
     height: 50px;
     border: 2px solid #00000000;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.1s;
     transition-timing-function: linear;
@@ -375,7 +355,6 @@ MoviePanel {
     pre-transform-scale2d: 1;
     box-shadow: box_shadow_on_color -4.5px -4.5px 16px 9px;
     border-color: #fdfefef0;
-
     animation-name: movie-button-focus, main-button-glow-movement-no-fill;
     animation-duration: 1.7s;
     animation-delay: 0.4s;
@@ -472,12 +451,10 @@ VolumeSliderPopup {
 VolumeSliderPopup .PopupWrapper {
     width: 60px;
     height: 150px;
-
     background-color: gradient(linear, -0% 0%, 0% 100%, from(#f0f0f0), to(#c2c2c2));
     box-shadow: box_shadow_on_color -4.5px -4.5px 16px 9px;
     border: 2px solid #fdfefef0;
     border-radius: 4px;
-
     transform: translatey(-10px);
 }
 
@@ -495,12 +472,10 @@ VideoQualityPopup .PopupWrapper {
     min-width: 80px;
     flow-children: down;
     padding: 0px 6px;
-
     background-color: gradient(linear, -0% 0%, 0% 100%, from(#f0f0f0), to(#c2c2c2));
     box-shadow: box_shadow_on_color -4.5px -4.5px 16px 9px;
     border: 2px solid #fdfefef0;
     border-radius: 4px;
-
     transform: translatey(-10px);
 }
 

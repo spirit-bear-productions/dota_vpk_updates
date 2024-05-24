@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTADebutMoviePopup {
     background-color: black;
 }
@@ -36,7 +38,6 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
     background-image: url("s2r://panorama/images/events/nemestice/overview_bg_psd.vtex");
     background-position: center;
     background-size: cover;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.5s;
@@ -46,7 +47,6 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
     width: 100%;
     height: 100%;
     background-color: #000000cc;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.5s;
@@ -66,9 +66,7 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
     height: 48px;
     wash-color: white;
     border: 2px solid #222;
-
     opacity: 0;
-
     transition-property: opacity, border;
     transition-duration: 0.2s;
 }
@@ -89,12 +87,9 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
     horizontal-align: center;
     vertical-align: bottom;
     flow-children: right;
-
     opacity: 0;
-
     transition-property: opacity, wash-color;
     transition-duration: 0.5s;
-
     margin-top: 60px;
 }
 
@@ -116,6 +111,7 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
     height: 100%;
     visibility: collapse;
 }
+
 .MovieFinished #ArtContainer {
     visibility: visible;
 }
@@ -125,7 +121,6 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
     height: 54px;
     horizontal-align: center;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/control_icons/aghs_replay_icon_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -142,12 +137,9 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
     font-size: 24px;
     font-weight: bold;
     line-height: 100%;
-
     letter-spacing: 3px;
     text-transform: uppercase;
-
     color: #d6a1dd;
-
     text-shadow: 0px 0px 3px #d531c733;
 }
 
@@ -158,10 +150,8 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
     margin-top: 620px;
     margin-right: 228px;
     width: 600px;
-
     opacity: 0;
     transform: translateY(20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
 }
@@ -188,11 +178,9 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
 
 #DetailsButton {
     visibility: collapse;
-
     border: 1px solid #71ccff;
     box-shadow: inset 0px 0px 24px #3374ff30;
     background-color: #01121c;
-
     transition-property: box-shadow;
     transition-duration: 0.2s;
 }
@@ -223,7 +211,6 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
     text-shadow: 0px 0px 6px #44dba588;
     transition-property: brightness;
     transition-duration: 0.25s;
-
     padding: 0px 8px;
     color: gradient(linear, 0% 0%, 100% 0%, from(#a8a9e8), color-stop(0.5, #ffffff), to(#e3bce6));
     text-shadow: 0px 0px 6px #d5d33133;
@@ -241,7 +228,6 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
 .parallaxBG {
     background-size: contain;
     background-repeat: no-repeat;
-
     animation-duration: 0.6s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
@@ -266,6 +252,7 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
         brightness: 12;
         wash-color: #a7e4c0;
     }
+
     100% {
         transform: translateX(0px);
     }
@@ -335,7 +322,6 @@ DOTADebutMoviePopup.PopupPanel.Hidden {
     background-size: contain;
     background-repeat: no-repeat;
     horizontal-align: center;
-
     width: 600px;
     height: 192px;
     ui-scale: 120%;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAInternationalHallOfFame {
     visibility: collapse;
     width: 664px;
@@ -146,7 +148,6 @@ DOTAInternationalHallOfFame.Visible {
 #CurrentChampionName {
     color: #ffffff;
     font-size: 32px;
-
     text-align: center;
     horizontal-align: right;
     text-align: right;
@@ -259,11 +260,9 @@ DOTAInternationalHallOfFame.Visible {
     height: 340px;
     margin-left: 0px;
     background-color: #162024f8;
-
     transform: translateX(62px);
     horizontal-align: left;
     opacity: 0;
-
     transition-property: opacity, transform;
     transition-duration: 0.18s;
     transition-timing-function: ease-in-out;
@@ -341,7 +340,6 @@ DOTAInternationalHallOfFame.Visible {
     height: 60px;
     horizontal-align: center;
     margin-top: 10px;
-
     transition-property: background-image;
     transition-duration: 0.18s;
 }
@@ -349,36 +347,47 @@ DOTAInternationalHallOfFame.Visible {
 .TI12 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_teamspirit_2023_psd.vtex");
 }
+
 .TI11 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_tundra_psd.vtex");
 }
+
 .TI10 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_teamspirit_psd.vtex");
 }
+
 .TI9 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_og_psd.vtex");
 }
+
 .TI8 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_og_psd.vtex");
 }
+
 .TI7 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_liquid_psd.vtex");
 }
+
 .TI6 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_wings_psd.vtex");
 }
+
 .TI5 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_eg_psd.vtex");
 }
+
 .TI4 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_newbee_psd.vtex");
 }
+
 .TI3 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_alliance_psd.vtex");
 }
+
 .TI2 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_ig_psd.vtex");
 }
+
 .TI1 #TeamLogo {
     background-image: url("s2r://panorama/images/hud/ti_team_navi_psd.vtex");
 }
@@ -400,30 +409,39 @@ DOTAInternationalHallOfFame.Visible {
 .TI10 #TooltipFlag {
     background-image: url("s2r://panorama/images/hud/winner_flag_ukraine_psd.vtex");
 }
+
 .TI9 #TooltipFlag {
     background-image: url("s2r://panorama/images/hud/winner_flag_europe_psd.vtex");
 }
+
 .TI8 #TooltipFlag {
     background-image: url("s2r://panorama/images/hud/winner_flag_europe_psd.vtex");
 }
+
 .TI7 #TooltipFlag {
     background-image: url("s2r://panorama/images/hud/winner_flag_europe_psd.vtex");
 }
+
 .TI6 #TooltipFlag {
     background-image: url("s2r://panorama/images/hud/winner_flag_cn_psd.vtex");
 }
+
 .TI5 #TooltipFlag {
     background-image: url("s2r://panorama/images/hud/winner_flag_usa_psd.vtex");
 }
+
 .TI4 #TooltipFlag {
     background-image: url("s2r://panorama/images/hud/winner_flag_cn_psd.vtex");
 }
+
 .TI3 #TooltipFlag {
     background-image: url("s2r://panorama/images/hud/winner_flag_sweden_psd.vtex");
 }
+
 .TI2 #TooltipFlag {
     background-image: url("s2r://panorama/images/hud/winner_flag_cn_psd.vtex");
 }
+
 .TI1 #TooltipFlag {
     background-image: url("s2r://panorama/images/hud/winner_flag_ukraine_psd.vtex");
 }

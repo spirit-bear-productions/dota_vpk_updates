@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     pre-transform-scale2d: 1;
     opacity: 1;
@@ -6,9 +8,7 @@
     horizontal-align: center;
     background-color: none;
     border: 0px solid #32383677;
-
     box-shadow: none;
-
     padding: 0px;
     flow-children: none;
 }

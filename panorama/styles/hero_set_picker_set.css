@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroSetPickerSet {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#222), to(#666));
     background-color: gradient(
@@ -13,7 +15,6 @@ DOTAHeroSetPickerSet {
     overflow: clip;
     border: 2px solid black;
     box-shadow: #000000aa 1px 0px 2px 2px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -35,7 +36,6 @@ DOTAHeroSetPickerSet:disabled #HeroSetName {
     width: 200%;
     height: 120%;
     horizontal-align: center;
-
     transform: translateY(-35px);
     background-color: gradient(
         linear,
@@ -56,18 +56,23 @@ DOTAHeroSetPicker.EnableSaveAsCustomSet #ScenePanel {
 DOTAHeroSetPicker.EnableSaveAsCustomSet.npc_dota_hero_meepo #ScenePanel {
     transform: translateY(-35px);
 }
+
 DOTAHeroSetPicker.EnableSaveAsCustomSet.npc_dota_hero_sniper #ScenePanel {
     transform: translateY(-25px);
 }
+
 DOTAHeroSetPicker.EnableSaveAsCustomSet.npc_dota_hero_pangolier #ScenePanel {
     transform: translateY(-30px);
 }
+
 DOTAHeroSetPicker.EnableSaveAsCustomSet.npc_dota_hero_weaver #ScenePanel {
     transform: translateY(-35px);
 }
+
 DOTAHeroSetPicker.EnableSaveAsCustomSet.npc_dota_hero_broodmother #ScenePanel {
     transform: translateY(-35px);
 }
+
 DOTAHeroSetPicker.EnableSaveAsCustomSet.npc_dota_hero_invoker.Persona1 #ScenePanel {
     transform: translateY(-34px);
 }
@@ -104,6 +109,7 @@ DOTAHeroSetPicker.EnableSaveAsCustomSet.npc_dota_hero_invoker.Persona1 #ScenePan
 .SetDef #HeroSetName {
     color: #b8e1e1;
 }
+
 .IsInBundle #HeroSetName {
     width: 124px;
 }
@@ -112,16 +118,12 @@ DOTAHeroSetPicker.EnableSaveAsCustomSet.npc_dota_hero_invoker.Persona1 #ScenePan
     horizontal-align: right;
     vertical-align: bottom;
     margin: 0px 7px 7px 0px;
-
     width: 15px;
     height: 15px;
-
     background-image: url("s2r://panorama/images/control_icons/gear_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     wash-color: #faffae;
-
     visibility: collapse;
 }
 
@@ -141,16 +143,12 @@ DOTAHeroSetPicker.EnableSaveAsCustomSet.npc_dota_hero_invoker.Persona1 #ScenePan
     horizontal-align: right;
     vertical-align: bottom;
     margin: 0px 5px 5px 0px;
-
     width: 18px;
     height: 18px;
-
     background-image: url("s2r://panorama/images/control_icons/brackets_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     wash-color: #b8e1e1;
-
     visibility: collapse;
 }
 
@@ -173,6 +171,7 @@ DOTAHeroSetPicker.EnableSaveAsCustomSet.npc_dota_hero_invoker.Persona1 #ScenePan
 #Equipped {
     background-image: url("s2r://panorama/images/status_icons/econtooltip_equipped_psd.vtex");
 }
+
 DOTAContextMenuHeroSetPicker:not(.HeroSetShuffleEnabled) DOTAHeroSetPickerSet.Equipped #Equipped {
     visibility: visible;
 }
@@ -180,6 +179,7 @@ DOTAContextMenuHeroSetPicker:not(.HeroSetShuffleEnabled) DOTAHeroSetPickerSet.Eq
 #Shuffled {
     background-image: url("s2r://panorama/images/status_icons/econtooltip_shuffled_psd.vtex");
 }
+
 DOTAContextMenuHeroSetPicker.HeroSetShuffleEnabled DOTAHeroSetPickerSet.InShuffle #Shuffled {
     visibility: visible;
 }
@@ -191,6 +191,7 @@ DOTAHeroSetPicker DOTAHeroSetPickerSet {
 DOTAHeroSetPicker DOTAHeroSetPickerSet:hover {
     brightness: 1;
 }
+
 DOTAHeroSetPicker DOTAHeroSetPickerSet:active {
     brightness: 1;
 }

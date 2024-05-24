@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #FrontpageCompendiumUpSale > Panel {
     perspective: 130px;
     perspective-origin: 40% 70%;
-
     transition-property: perspective, perspective-origin;
     transition-duration: 0.9s;
     transition-timing-function: ease-in-out;
@@ -20,7 +21,6 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
-
     transition-property: brightness;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -29,12 +29,10 @@
 .UpsellLayer {
     width: 336px;
     height: 232px;
-
     background-image: url("s2r://panorama/images/banners/layeredcell/layer1_png.vtex");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
-
     animation-name: SingleItemBillboardMotion;
     animation-duration: 13s;
     animation-timing-function: ease-in-out;
@@ -46,16 +44,19 @@
     background-image: url("s2r://panorama/images/banners/layeredcell/layer1_png.vtex");
     animation-name: SingleItemBillboardMotion1;
 }
+
 #Layer2 {
     overflow: noclip;
     background-image: url("s2r://panorama/images/banners/layeredcell/layer2_png.vtex");
     animation-name: SingleItemBillboardMotion2;
 }
+
 #Layer3 {
     overflow: noclip;
     background-image: url("s2r://panorama/images/banners/layeredcell/layer3_png.vtex");
     animation-name: SingleItemBillboardMotion3;
 }
+
 #Layer4 {
     overflow: noclip;
     background-image: url("s2r://panorama/images/banners/layeredcell/layer4_png.vtex");
@@ -65,15 +66,12 @@
 .SingleItemBillboard {
     width: 720px;
     height: 480px;
-
     border-radius: 0.1px;
-
     animation-name: SingleItemBillboardMotion;
     animation-delay: 0s;
     animation-duration: 13s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-
     opacity: 0;
 }
 
@@ -85,13 +83,11 @@
     border: 1px solid black;
     border-radius: 0.1px;
     box-shadow: fill #00000099 0px 0px 12px 0px;
-
     animation-name: none;
     animation-delay: 0s;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-
     background-image: url("s2r://panorama/images/banners/singleitemtreasure/item01_png.vtex");
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -102,9 +98,11 @@
     0% {
         transform: translateZ(-60px) translateX(-0px) translateY(-20px) rotateY(10deg) rotateX(3deg);
     }
+
     50% {
         transform: translateZ(-60px) translateX(-3px) translateY(-20px) rotateY(10deg) rotateX(4deg);
     }
+
     100% {
         transform: translateZ(-60px) translateX(-0px) translateY(-20px) rotateY(10deg) rotateX(3deg);
     }
@@ -114,9 +112,11 @@
     0% {
         transform: translateZ(-30px) translateX(-0px) translateY(-20px) rotateY(10deg) rotateX(3deg);
     }
+
     50% {
         transform: translateZ(-30px) translateX(-1px) translateY(-20px) rotateY(10deg) rotateX(4deg);
     }
+
     100% {
         transform: translateZ(-30px) translateX(-0px) translateY(-20px) rotateY(10deg) rotateX(3deg);
     }
@@ -126,9 +126,11 @@
     0% {
         transform: translateZ(-0px) translateX(-0px) translateY(-20px) rotateY(10deg) rotateX(3deg);
     }
+
     40% {
         transform: translateZ(8px) translateX(-5px) translateY(-22px) rotateY(10deg) rotateX(4deg);
     }
+
     100% {
         transform: translateZ(-0px) translateX(-0px) translateY(-20px) rotateY(10deg) rotateX(3deg);
     }
@@ -138,9 +140,11 @@
     0% {
         transform: translateZ(30px) translateX(-20px) translateY(-20px) rotateY(10deg) rotateX(3deg);
     }
+
     50% {
         transform: translateZ(40px) translateX(-10px) translateY(-10px) rotateY(7deg) rotateX(4deg);
     }
+
     100% {
         transform: translateZ(30px) translateX(-20px) translateY(-20px) rotateY(10deg) rotateX(3deg);
     }
@@ -149,33 +153,43 @@
 #Item01.SingleItemBillboard {
     animation-name: SingleItemBillboardMotion1;
 }
+
 #Item02.SingleItemBillboard {
     animation-name: SingleItemBillboardMotion2;
 }
+
 #Item03.SingleItemBillboard {
     animation-name: SingleItemBillboardMotion3;
 }
+
 #Item04.SingleItemBillboard {
     animation-name: SingleItemBillboardMotion4;
 }
+
 #Item05.SingleItemBillboard {
     animation-name: SingleItemBillboardMotion5;
 }
+
 #Item06.SingleItemBillboard {
     animation-name: SingleItemBillboardMotion6;
 }
+
 #Item07.SingleItemBillboard {
     animation-name: SingleItemBillboardMotion7;
 }
+
 #Item08.SingleItemBillboard {
     animation-name: SingleItemBillboardMotion8;
 }
+
 #Item09.SingleItemBillboard {
     animation-name: SingleItemBillboardMotion9;
 }
+
 #Item10.SingleItemBillboard {
     animation-name: SingleItemBillboardMotion10;
 }
+
 #Item11.SingleItemBillboard {
     animation-name: SingleItemBillboardMotion11;
 }

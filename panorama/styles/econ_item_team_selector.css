@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAEconItemTeamSelector {
     flow-children: right;
 }
@@ -5,14 +7,11 @@ DOTAEconItemTeamSelector {
 .TeamButton {
     width: 28px;
     height: 28px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
     saturation: 0;
     brightness: 0.2;
-
     transition-property: saturation, brightness;
     transition-duration: 0.2s;
 }

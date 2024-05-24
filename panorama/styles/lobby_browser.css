@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTALobbyBrowser {
     background-color: none;
     padding: 8px;
@@ -35,7 +37,6 @@ DOTALobbyBrowser {
     width: 100%;
     height: 500px;
     background-color: #111111ee;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -67,7 +68,6 @@ DOTALobbyBrowser {
     margin-top: 18px;
     padding: 16px;
     padding-top: 12px;
-
     width: 587px;
     height: 717px;
 }
@@ -150,7 +150,6 @@ DOTALobbyBrowser {
     margin-left: 4px;
     vertical-align: center;
     width: 32px;
-
     background-image: url("s2r://panorama/images/control_icons/friends_small_png.vtex");
     background-size: 16px 16px;
     background-position: 50% 50%;
@@ -200,7 +199,6 @@ DOTALobbyBrowser {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     visibility: collapse;
-
     wash-color: #ffffff;
 }
 
@@ -220,7 +218,6 @@ DOTALobbyBrowser {
     width: 250px;
     max-width: 250px;
     text-overflow: ellipsis;
-
     margin-left: 60px;
     margin-right: 8px;
 }
@@ -229,7 +226,6 @@ DOTALobbyBrowser {
     horizontal-align: right;
     width: 72px;
     text-overflow: clip;
-
     margin-left: 8px;
     margin-right: 306px;
 }
@@ -239,7 +235,6 @@ DOTALobbyBrowser {
     width: 150px;
     max-width: 150px;
     text-overflow: clip;
-
     margin-left: 8px;
     margin-right: 138px;
 }
@@ -249,7 +244,6 @@ DOTALobbyBrowser {
     width: 131px;
     max-width: 150px;
     text-overflow: clip;
-
     margin-left: 8px;
     margin-right: 8px;
 }
@@ -307,7 +301,6 @@ DOTALobbyBrowser {
     horizontal-align: right;
     height: 28px;
     wash-color: #888888;
-
     transition-property: wash-color;
     transition-duration: 0.2s;
 }

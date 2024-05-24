@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTADiretideTreasureDetailsPage {
     width: 100%;
     height: 100%;
@@ -18,6 +20,7 @@ DOTATierTreasureDetails {
     wash-color: rgb(114, 142, 189);
     opacity: 0;
 }
+
 .TreasureHexFocused #BackgroundScene {
     opacity: 1;
 }
@@ -47,15 +50,14 @@ DOTATierTreasureDetails {
     margin-top: PageTopMargin;
     width: 500px;
     horizontal-align: left;
-
     transition-property: opacity, transform;
     transition-duration: 0.4s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     transition-delay: 0.4s;
-
     opacity: 0;
     transform: translateX(-48px);
 }
+
 .PageVisible #TreasureDetails {
     opacity: 1;
     transform: none;
@@ -72,10 +74,10 @@ DOTATierTreasureDetails {
 #TreasureDetails #TreasureDetailsContents {
     flow-children: down;
     width: 100%;
-
     transition-property: transform, opacity, blur;
     transition-duration: 0.25s;
 }
+
 .OpeningInProgress #TreasureDetails #TreasureDetailsContents,
 .OpeningFinished #TreasureDetails #TreasureDetailsContents {
     opacity: 0.2;
@@ -87,6 +89,7 @@ DOTATierTreasureDetails {
     flow-children: right;
     padding: 4px 0px;
 }
+
 #TreasureDetails #TreasureDetailsContents #TreasureInfo .TreasureDetailsTitle {
     margin-bottom: 8px;
     text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.05);
@@ -104,6 +107,7 @@ DOTATierTreasureDetails {
     margin-top: 8px;
     visibility: collapse;
 }
+
 .OpeningAny #TreasureDetails #TreasureDetailsContents #TreasureInfo #PreviewContentsButton,
 .OpeningAny.IsPeekable #TreasureDetails #TreasureDetailsContents #TreasureInfo #PreviewContentsButton {
     visibility: collapse;
@@ -124,6 +128,7 @@ DOTATierTreasureDetails {
     width: 100%;
     flow-children: right;
 }
+
 #TreasureDetails #TreasureDetailsContents .PurchaseRowDivider .Emblem {
     width: 16px;
     height: 16px;
@@ -145,6 +150,7 @@ DOTATierTreasureDetails {
     margin-top: 8px;
     visibility: collapse;
 }
+
 #TreasureDetails #TreasureDetailsContents .TreasureMarketPurchaseRow .BuyOnMarketLabel {
     vertical-align: center;
     margin-right: 8px;
@@ -161,6 +167,7 @@ DOTATierTreasureDetails {
 #TreasureDetails #TreasureDetailsContents #TreasureImageContainer {
     flow-children: down;
 }
+
 #TreasureDetails #TreasureDetailsContents #TreasureImageContainer #TreasureImage {
     width: 86px;
     height: width-percentage(65%);
@@ -171,6 +178,7 @@ DOTATierTreasureDetails {
 #TreasureDetails #TreasureDetailsContents #KeyInfo {
     visibility: collapse;
 }
+
 .RequiresKey #TreasureDetails #TreasureDetailsContents #KeyInfo {
     visibility: visible;
 }
@@ -179,6 +187,7 @@ DOTATierTreasureDetails {
     visibility: collapse;
     margin-bottom: 8px;
 }
+
 .KeyPurchasable #TreasureDetails #TreasureDetailsContents #KeyInfo .PurchaseKeyTitle {
     visibility: visible;
 }
@@ -186,6 +195,7 @@ DOTATierTreasureDetails {
 #TreasureDetails #TreasureDetailsContents #KeyInfo .KeyTitle {
     visibility: visible;
 }
+
 .KeyPurchasable #TreasureDetails #TreasureDetailsContents #KeyInfo .KeyTitle {
     visibility: collapse;
 }
@@ -193,6 +203,7 @@ DOTATierTreasureDetails {
 #TreasureDetails #TreasureDetailsContents #KeyInfo .OwnedKeyCountLabel {
     visibility: collapse;
 }
+
 .OwnsKeys #TreasureDetails #TreasureDetailsContents #KeyInfo .OwnedKeyCountLabel {
     visibility: visible;
 }
@@ -200,10 +211,12 @@ DOTATierTreasureDetails {
 #TreasureDetails #TreasureDetailsContents #KeyInfo .PurchaseSubRow {
     margin-bottom: 8px;
 }
+
 #TreasureDetails #TreasureDetailsContents #KeyInfo .PurchaseSubRow #BuyKeyButton {
     margin-right: 6px;
     visibility: collapse;
 }
+
 .KeySteamPurchasable #TreasureDetails #TreasureDetailsContents #KeyInfo .PurchaseSubRow #BuyKeyButton {
     visibility: visible;
 }
@@ -212,6 +225,7 @@ DOTATierTreasureDetails {
     margin-right: 6px;
     visibility: collapse;
 }
+
 .KeyShardPurchasable #TreasureDetails #TreasureDetailsContents #KeyInfo .PurchaseSubRow #BuyKeyShardsButton {
     visibility: visible;
 }
@@ -221,6 +235,7 @@ DOTATierTreasureDetails {
     padding: 16px 0px;
     flow-children: down;
 }
+
 #TreasureDetails #TreasureDetailsContents .TradeUpInformationContainer .TradeUpInformationLabel {
     margin-bottom: 12px;
 }
@@ -233,6 +248,7 @@ DOTATierTreasureDetails {
     flow-children: down;
     width: 100%;
 }
+
 #TreasureDetails #TreasureDetailsContents .TradeUpInformationContainer .TradeUpTierContainer .TradeUpTier {
     width: 100%;
     padding: 6px 0px 6px 4px;
@@ -240,6 +256,7 @@ DOTATierTreasureDetails {
     border-top: 1px solid rgba(255, 255, 255, 0.03);
     border-brush: gradient(linear, 40% 0%, 90% 0%, from(white), to(rgba(255, 255, 255, 0)));
 }
+
 #TreasureDetails #TreasureDetailsContents .TradeUpInformationContainer .TradeUpTierContainer .TradeUpTier Label {
     vertical-align: center;
 }
@@ -281,6 +298,7 @@ DOTATierTreasureDetails {
     .TradeUpTierCountLabel {
     background-color: CrateTierOne_textcolor;
 }
+
 #TreasureDetails
     #TreasureDetailsContents
     .TradeUpInformationContainer
@@ -298,6 +316,7 @@ DOTATierTreasureDetails {
     .TradeUpTierCountLabel {
     background-color: CrateTierTwo_textcolor;
 }
+
 #TreasureDetails
     #TreasureDetailsContents
     .TradeUpInformationContainer
@@ -315,6 +334,7 @@ DOTATierTreasureDetails {
     .TradeUpTierCountLabel {
     background-color: CrateTierThree_textcolor;
 }
+
 #TreasureDetails
     #TreasureDetailsContents
     .TradeUpInformationContainer
@@ -364,6 +384,7 @@ DOTATierTreasureDetails {
     width: 100%;
     height: 100%;
 }
+
 .OpeningInProgress #TreasureDetails #TreasureDetailsBlocker,
 .OpeningFinished #TreasureDetails #TreasureDetailsBlocker {
     visibility: visible;
@@ -390,11 +411,11 @@ DOTATierTreasureDetails {
     margin-top: PageTopMargin;
     opacity: 1;
     transform: none;
-
     transition-property: opacity, transform;
     transition-duration: 0.1s;
     transition-timing-function: ease;
 }
+
 .AspectRatio21x9 .ItemInfoColumn {
     margin-right: 240px;
 }
@@ -435,12 +456,12 @@ DOTATierTreasureDetails {
         to(#ffffff)
     );
     text-shadow: 0px 0px 12px 1 #000000;
-
     transition-property: pre-transform-scale2d, opacity;
     transition-duration: 0.2s;
     pre-transform-scale2d: 2;
     opacity: 0;
 }
+
 .ItemInfoColumn #TreasureOpeningMessage.NoText {
     visibility: collapse;
 }
@@ -461,6 +482,7 @@ DOTATierTreasureDetails {
     background-color: rgba(0, 0, 0, 0.6);
     border-left: 3px solid rgba(255, 255, 255, 0.8);
 }
+
 .Selected__TreasureItemRarity_Crate_Tier1 .ItemInfoColumn .ItemDetails {
     border-brush: CrateTierOne_textcolor;
 }
@@ -493,23 +515,29 @@ DOTATierTreasureDetails {
     margin-bottom: 12px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.02);
 }
+
 .ItemInfoColumn .ItemDetails .ItemDetailsHeader .CurrentItemTierLabel {
     vertical-align: center;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
     brightness: 1.2;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier1 .ItemInfoColumn .ItemDetails .ItemDetailsHeader .CurrentItemTierLabel {
     color: CrateTierOne_textcolor;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier2 .ItemInfoColumn .ItemDetails .ItemDetailsHeader .CurrentItemTierLabel {
     color: CrateTierTwo_textcolor;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier3 .ItemInfoColumn .ItemDetails .ItemDetailsHeader .CurrentItemTierLabel {
     color: CrateTierThree_textcolor;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier4 .ItemInfoColumn .ItemDetails .ItemDetailsHeader .CurrentItemTierLabel {
     color: CrateTierFour_textcolor;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier5 .ItemInfoColumn .ItemDetails .ItemDetailsHeader .CurrentItemTierLabel,
 .Selected__TreasureItemRarity_CosmicallyRare .ItemInfoColumn .ItemDetails .ItemDetailsHeader .CurrentItemTierLabel {
     color: CrateTierFive_textcolor;
@@ -520,10 +548,10 @@ DOTATierTreasureDetails {
     flow-children: right;
     vertical-align: center;
     visibility: collapse;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
+
 .ItemInfoColumn .ItemDetails .ItemDetailsHeader #ItemTradeUpContainer .DuplicateLabel {
     vertical-align: center;
     margin-right: 8px;
@@ -541,6 +569,7 @@ DOTATierTreasureDetails {
 .ItemInfoColumn .ItemDetails .ItemDetailsHeader #ItemTradeUpContainer #TradeUpButton {
     visibility: collapse;
 }
+
 .ItemPartOfTradeUpRecipe .ItemInfoColumn .ItemDetails .ItemDetailsHeader #ItemTradeUpContainer #TradeUpButton {
     visibility: visible;
 }
@@ -548,17 +577,20 @@ DOTATierTreasureDetails {
 .ItemInfoColumn .ItemDetails .ItemDetailsContainer {
     flow-children: down;
 }
+
 .ItemInfoColumn .ItemDetails .ItemDetailsContainer .ItemNameContainer {
     width: fit-children;
     height: fit-children;
     flow-children: down;
 }
+
 .ItemInfoColumn .ItemDetails .ItemDetailsContainer .ItemNameContainer .UnitName {
     opacity: 0.6;
     saturation: 0.9;
     brightness: 2;
     margin-bottom: 2px;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier1
     .ItemInfoColumn
     .ItemDetails
@@ -567,6 +599,7 @@ DOTATierTreasureDetails {
     .UnitName {
     color: CrateTierOne_textcolor;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier2
     .ItemInfoColumn
     .ItemDetails
@@ -575,6 +608,7 @@ DOTATierTreasureDetails {
     .UnitName {
     color: CrateTierTwo_textcolor;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier3
     .ItemInfoColumn
     .ItemDetails
@@ -583,6 +617,7 @@ DOTATierTreasureDetails {
     .UnitName {
     color: CrateTierThree_textcolor;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier4
     .ItemInfoColumn
     .ItemDetails
@@ -591,6 +626,7 @@ DOTATierTreasureDetails {
     .UnitName {
     color: CrateTierFour_textcolor;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier5
     .ItemInfoColumn
     .ItemDetails
@@ -624,6 +660,7 @@ DOTATierTreasureDetails {
     color: white;
     margin-bottom: 2px;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier1
     .ItemInfoColumn
     .ItemDetails
@@ -679,9 +716,11 @@ DOTATierTreasureDetails {
     flow-children: right;
     margin-top: 2px;
 }
+
 .ItemInfoColumn .ItemDetails .ItemDetailsContainer .ItemDetailsRow .ItemSlot {
     visibility: collapse;
 }
+
 .HasItemSlot .ItemInfoColumn .ItemDetails .ItemDetailsContainer .ItemDetailsRow .ItemSlot {
     visibility: visible;
 }
@@ -696,6 +735,7 @@ DOTATierTreasureDetails {
     margin-top: 11px;
     opacity: 0;
 }
+
 .ItemInfoColumn .ItemDetails .ItemDetailsContainer .ItemExtrasRow Label,
 .ItemInfoColumn .ItemDetails .ItemDetailsContainer .ItemExtrasRow Panel {
     vertical-align: center;
@@ -711,6 +751,7 @@ DOTATierTreasureDetails {
     flow-children: right;
     visibility: visible;
 }
+
 .ReceivedItem .ItemInfoColumn .ItemDetails .ItemDetailsContainer .ItemExtrasRow .ModifiersList {
     visibility: collapse;
 }
@@ -737,6 +778,7 @@ DOTATierTreasureDetails {
     margin-bottom: 2px;
     flow-children: right;
 }
+
 .ItemInfoColumn .ItemDetails .ItemDetailsContainer .ItemExtrasRow .SlotPreviewPips .PrimarySlotPip {
     margin-left: 6px;
     width: 16px;
@@ -748,10 +790,10 @@ DOTATierTreasureDetails {
     border: 2px solid white;
     border-brush: LighterGreyGradientBackgroundColor;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
-
     transition-property: transform, border, box-shadow;
     transition-duration: 0.05s, 0.2s;
 }
+
 .ItemInfoColumn .ItemDetails .ItemDetailsContainer .ItemExtrasRow .SlotPreviewPips .PrimarySlotPip:hover {
     border-brush: LighterGrey;
 }
@@ -768,6 +810,7 @@ DOTATierTreasureDetails {
 .ItemInfoColumn .ItemDetails .ItemDetailsContainer #AdditionalItemView {
     visibility: collapse;
 }
+
 .HasAdditionalPeekItems .ItemInfoColumn .ItemDetails .ItemDetailsContainer #AdditionalItemView {
     visibility: visible;
 }
@@ -780,6 +823,7 @@ DOTATierTreasureDetails {
     text-shadow: 0px 0px 8px 1.8 #c329f922;
     text-overflow: shrink;
 }
+
 .HasAdditionalPeekItems .ItemInfoColumn .ItemDetails .ItemDetailsContainer #AdditionalItemName {
     visibility: visible;
 }
@@ -789,10 +833,10 @@ DOTATierTreasureDetails {
     visibility: collapse;
     margin-top: 16px;
     opacity: 0;
-
     transition-property: opacity, transform;
     transition-duration: 0.25s;
 }
+
 .ItemInfoColumn #ArcanaPersonaItemDetails .UnitHeroImageContainer {
     width: 128px;
     vertical-align: center;
@@ -801,6 +845,7 @@ DOTATierTreasureDetails {
     margin-right: 16px;
     box-shadow: 0px 8px 40px -8px rgba(0, 0, 0, 0.4);
 }
+
 .ItemInfoColumn #ArcanaPersonaItemDetails .UnitHeroImageContainer #HeroArcanaPersonaImage {
     box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.03);
 }
@@ -809,6 +854,7 @@ DOTATierTreasureDetails {
     flow-children: down;
     vertical-align: center;
 }
+
 .ItemInfoColumn #ArcanaPersonaItemDetails .UnitNameContainer .ArcanaPersonaLabel {
     font-size: 22px;
     color: white;
@@ -816,6 +862,7 @@ DOTATierTreasureDetails {
     padding: 0px 8px;
     margin-left: -8px;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier1
     .ItemInfoColumn
     #ArcanaPersonaItemDetails
@@ -823,6 +870,7 @@ DOTATierTreasureDetails {
     .ArcanaPersonaLabel {
     text-shadow: 0px 0px 12px CrateTierOne_bgcolor&CC;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier2
     .ItemInfoColumn
     #ArcanaPersonaItemDetails
@@ -830,6 +878,7 @@ DOTATierTreasureDetails {
     .ArcanaPersonaLabel {
     text-shadow: 0px 0px 12px CrateTierTwo_bgcolor&CC;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier3
     .ItemInfoColumn
     #ArcanaPersonaItemDetails
@@ -837,6 +886,7 @@ DOTATierTreasureDetails {
     .ArcanaPersonaLabel {
     text-shadow: 0px 0px 12px CrateTierThree_bgcolor&CC;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier4
     .ItemInfoColumn
     #ArcanaPersonaItemDetails
@@ -844,6 +894,7 @@ DOTATierTreasureDetails {
     .ArcanaPersonaLabel {
     text-shadow: 0px 0px 12px CrateTierFour_bgcolor&CC;
 }
+
 .Selected__TreasureItemRarity_Crate_Tier5
     .ItemInfoColumn
     #ArcanaPersonaItemDetails
@@ -883,12 +934,12 @@ DOTATierTreasureDetails {
     blur: gaussian(80px);
     margin-top: 160px;
     background-color: gradient(radial, 50% 50%, 0% 0%, 35% 35%, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0)));
-
     transition-property: opacity, transform;
     transition-duration: 0.6s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     transition-delay: 0s;
 }
+
 .OpeningFinished .SelectedItemShadow {
     opacity: 1;
     transform: scale3d(1.5, 1.5, 1) translateY(150px);
@@ -899,13 +950,13 @@ DOTATierTreasureDetails {
     horizontal-align: center;
     margin-right: offCenterRightPadding;
     background-color: transparent;
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     transform: translateY(-160px) scale3d(0.91, 0.91, 1);
     transition-delay: 0s;
 }
+
 .OpeningAny #TreasureItemPreviewContainer {
     opacity: 0;
 }
@@ -943,6 +994,7 @@ DOTATierTreasureDetails {
     transition-duration: 0.3s;
     transition-delay: 0s;
 }
+
 .OpeningAny.OpeningFinished #TreasureModelContainer {
     opacity: 0;
 }
@@ -957,17 +1009,15 @@ DOTATierTreasureDetails {
     height: 100%;
     horizontal-align: center;
     vertical-align: top;
-
     brightness: 1;
     transform: none;
-
     opacity-mask: url("s2r://panorama/images/masks/softeredge_horizontal_png.vtex");
-
     transition-property: brightness, transform;
     transition-duration: 1s;
     transition-delay: openTreasureBrightnessModelDelay;
     transition-timing-function: cubic-bezier(1, 0, 1, 0);
 }
+
 .OpeningInProgress #TreasureModelContainer #TreasureModel {
     brightness: 3;
     transform: scale3d(1.05, 1.05, 1);
@@ -979,14 +1029,13 @@ DOTATierTreasureDetails {
     height: 296px;
     vertical-align: bottom;
     background-color: gradient(linear, 0% 0%, 0% 80%, from(#00000089), to(#00000000));
-
     opacity: 1;
     transform: none;
-
     transition-property: transform, opacity;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
+
 .OpeningFinished .TreasureContentsGradient {
     opacity: 0;
     transform: translateY(-80px);
@@ -998,11 +1047,11 @@ DOTATierTreasureDetails {
     width: 100%;
     flow-children: down;
     padding-bottom: 130px;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     opacity-mask: url("s2r://panorama/images/masks/softeredge_horizontal_png.vtex");
 }
+
 .OpeningFailed #TreasureContentsContainer {
     visibility: collapse;
 }
@@ -1021,15 +1070,14 @@ DOTATierTreasureDetails {
 #TreasureContentsContainer #TreasureRarityFilter {
     flow-children: down;
     horizontal-align: center;
-
     opacity: 1;
     transform: none;
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
 }
+
 .ShowListView #TreasureContentsContainer #TreasureRarityFilter {
     opacity: 0;
 }
@@ -1038,7 +1086,6 @@ DOTATierTreasureDetails {
 .OpeningInProgress #TreasureContentsContainer #TreasureRarityFilter {
     opacity: 0;
     transform: translateY(24px);
-
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     transition-delay: 0.3s;
@@ -1053,7 +1100,6 @@ DOTATierTreasureDetails {
     transition-property: height, width, pre-transform-scale2d, box-shadow, background-color, border, saturation,
         brightness;
     transition-duration: 0.28s;
-
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -1065,11 +1111,11 @@ DOTATierTreasureDetails {
     width: 360px;
     height: 280px;
     opacity: 1;
-
     transition-property: position, pre-transform-scale2d, transform, brightness, opacity;
     transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
 }
+
 .OpeningInProgress .TreasureItem {
     opacity: 1;
     transition-duration: openTreasureFocusIntervalFast;
@@ -1161,9 +1207,9 @@ DOTATierTreasureDetails {
     height: 100%;
     vertical-align: bottom;
     margin-bottom: 30px;
-
     visibility: collapse;
 }
+
 .TreasureItem .ItemBackdrop #ItemBackdropParticles {
     width: 100%;
     height: 100%;
@@ -1181,6 +1227,7 @@ DOTATierTreasureDetails {
     flow-children: none;
     transition-property: brightness;
 }
+
 .TreasureItem #ChestHexContainer .ItemShadow {
     width: 100%;
     height: 24px;
@@ -1196,10 +1243,10 @@ DOTATierTreasureDetails {
     height: 85%;
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_png.vtex");
 }
+
 .TreasureItem #ChestHexContainer #BackgroundFXContainer #BackgroundFX {
     width: 100%;
     height: 100%;
-
     visibility: collapse;
     opacity: 0;
     transition-property: opacity;
@@ -1234,12 +1281,12 @@ DOTATierTreasureDetails {
     padding: 0px 76px;
     flow-children: right;
     margin-bottom: 19px;
-
     opacity: 1;
     transition-property: opacity, transform;
     transition-duration: 0.3s;
     transition-delay: 0.5s;
 }
+
 .OpeningInProgress #TreasureItemRarityHex {
     opacity: 0;
 }
@@ -1287,6 +1334,7 @@ DOTATierTreasureDetails {
     margin-bottom: 10px;
     opacity: 0.2;
 }
+
 .TreasureItemRarity_Crate_Tier1 #TreasureItemRarityHex .RarityDash {
     background-color: CrateTierOne_textcolor;
 }
@@ -1321,16 +1369,17 @@ DOTATierTreasureDetails {
     transition-duration: 0.3s;
     transition-delay: 0.5s;
 }
+
 .OpeningInProgress #TreasureItemSubtext {
     opacity: 0;
 }
 
 #TreasureItemSubtext #TreasureItemImmortal {
     font-size: 14px;
-
     margin-right: 4px;
     visibility: collapse;
 }
+
 .ContainsImmortal #TreasureItemSubtext #TreasureItemImmortal {
     visibility: visible;
 }
@@ -1361,6 +1410,7 @@ DOTATierTreasureDetails {
     margin-right: 3px;
     visibility: collapse;
 }
+
 .ContainsImmortal.IsSet #TreasureItemSubtext #TreasureItemSet {
     visibility: visible;
 }
@@ -1397,6 +1447,7 @@ DOTATierTreasureDetails {
 #TreasureItemSubtext #TreasureItemArcanaPersona {
     font-size: 14px;
 }
+
 .TreasureItemRarity_Crate_Tier1 #TreasureItemSubtext #TreasureItemArcanaPersona {
     color: CrateTierOne_textcolor;
 }
@@ -1429,6 +1480,7 @@ DOTATierTreasureDetails {
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     transition-delay: 0s;
 }
+
 .OpeningAny #TreasureContentsPagination {
     opacity: 0;
     transform: translateY(16px);
@@ -1443,13 +1495,13 @@ DOTATierTreasureDetails {
     margin-top: 16px;
     background-color: rgba(0, 0, 0, 0.6);
     opacity-mask: url("s2r://panorama/images/masks/ability_effect_video_mask_png.vtex");
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-delay: 0.2s;
     transition-timing-function: ease-out;
     opacity: 0;
 }
+
 #TreasureItemPreviewMovieContainer .Spinner {
     opacity: 0.5;
     vertical-align: center;
@@ -1472,15 +1524,14 @@ DOTATierTreasureDetails {
 #ItemPreviewMovie {
     width: 400px;
     height: width-percentage(50%);
-
     margin: -16px 0px;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-delay: 0.1s;
     transition-timing-function: ease-out;
 }
+
 #ItemPreviewMovie.IsPlaying {
     opacity: 1;
     transition-duration: 0s;
@@ -1506,6 +1557,7 @@ DOTATierTreasureDetails {
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
     visibility: collapse;
 }
+
 .OpeningAny #TreasureOpeningBurst,
 .OpeningFinished #TreasureOpeningBurst,
 .OpeningAny #TreasureOpeningSparkles,
@@ -1550,7 +1602,6 @@ DOTATierTreasureDetails {
     height: 50%;
     horizontal-align: center;
     vertical-align: bottom;
-
     opacity: 0.75;
     opacity-mask: url("s2r://panorama/images/masks/softedge_top_png.vtex");
     transition-property: opacity;
@@ -1562,16 +1613,15 @@ DOTATierTreasureDetails {
     horizontal-align: center;
     margin-bottom: 130px;
     width: 300px;
-
     opacity: 0;
     transform: translateY(12px);
-
     transition-property: opacity, transform, background-color, border;
     transition-duration: 0.3s;
     transition-delay: 0.3s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     visibility: collapse;
 }
+
 .OpeningInProgress #SkipOpeningButton {
     visibility: visible;
     opacity: 1;
@@ -1586,15 +1636,14 @@ DOTATierTreasureDetails {
     vertical-align: bottom;
     horizontal-align: center;
     margin-bottom: 130px;
-
     opacity: 0;
     transform: translateY(24px);
-
     transition-property: transform, opacity;
     transition-duration: 0.3s;
     transition-delay: 0.8s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
 }
+
 .OpeningFinished .ReceivedTreasureActionsContainer {
     opacity: 1;
     transform: translateY(0px);
@@ -1613,11 +1662,13 @@ DOTATierTreasureDetails {
     padding-left: 80px;
     padding-right: 80px;
 }
+
 .ReceivedTreasureActionsContainer #EquipButton .TreasureOpeningEquipCheck {
     visibility: collapse;
     width: 20px;
     height: 20px;
 }
+
 .Equipped .ReceivedTreasureActionsContainer #EquipButton .TreasureOpeningEquipCheck {
     visibility: visible;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPInternational2022HomePage {
     width: 100%;
     height: 100%;
@@ -95,11 +97,11 @@ DOTABPInternational2022HomePage {
 .DashboardPage:not(.PageVisible) #PremiumRewardModelsContainer #CMWolf .PremiumRewardBackgroundContainer,
 .DashboardPage:not(.PageVisible) #PremiumRewardModelsContainer #RazorArcana .PremiumRewardBackgroundContainer {
     width: 0%;
-
     transition-property: width;
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0, 1, 0, 1);
 }
+
 .DashboardPage:not(.PageVisible)
     #PremiumRewardModelsContainer
     #FVArcana
@@ -126,6 +128,7 @@ DOTABPInternational2022HomePage {
 .DashboardPage:not(.PageVisible) #PremiumRewardModelsContainer #CMWolf .PremiumRewardBackgroundContainer {
     transition-delay: 0.2s;
 }
+
 .DashboardPage:not(.PageVisible)
     #PremiumRewardModelsContainer
     #CMWolf
@@ -137,6 +140,7 @@ DOTABPInternational2022HomePage {
 .DashboardPage:not(.PageVisible) #PremiumRewardModelsContainer #PAMale .PremiumRewardBackgroundContainer {
     transition-delay: 0.3s;
 }
+
 .DashboardPage:not(.PageVisible)
     #PremiumRewardModelsContainer
     #PAMale
@@ -148,6 +152,7 @@ DOTABPInternational2022HomePage {
 .DashboardPage:not(.PageVisible) #PremiumRewardModelsContainer #RazorArcana .PremiumRewardBackgroundContainer {
     transition-delay: 0.4s;
 }
+
 .DashboardPage:not(.PageVisible)
     #PremiumRewardModelsContainer
     #RazorArcana
@@ -159,6 +164,7 @@ DOTABPInternational2022HomePage {
 .DashboardPage:not(.PageVisible) #PremiumRewardModelsContainer #FVArcana .PremiumRewardBackgroundContainer {
     transition-delay: 0.5s;
 }
+
 .DashboardPage:not(.PageVisible)
     #PremiumRewardModelsContainer
     #FVArcana
@@ -174,6 +180,7 @@ DOTABPInternational2022HomePage {
     width: 100%;
     transition-delay: 1s;
 }
+
 .DashboardPage
     .PageVisible
     #PremiumRewardModelsContainer
@@ -209,120 +216,144 @@ DOTABPInternational2022HomePage {
     flow-children: right;
     overflow: noclip;
 }
+
 #PremiumRewardModelsContainer #FVArcana .PremiumRewardHeroKeyArt {
     background-image: url("s2r://panorama/images/battlepass/international2022/premium_reward_models/faceless-void-keyart_psd.vtex");
 }
+
 #PremiumRewardModelsContainer #FVArcana .PremiumRewardBackgroundImage {
     background-image: url("s2r://panorama/images/battlepass/international2022/premium_reward_models/faceless-void-background_psd.vtex");
 }
+
 #PremiumRewardModelsContainer #FVArcana .PremiumRewardInfo {
     opacity: 0.9;
-    transform: translatey (0px);
+    transform: translatey(0px);
 }
+
 #PremiumRewardModelsContainer #PAMale .PremiumRewardHeroKeyArt {
     background-image: url("s2r://panorama/images/battlepass/international2022/premium_reward_models/phantom-assassin-keyart_psd.vtex");
 }
+
 #PremiumRewardModelsContainer #PAMale .PremiumRewardBackgroundImage {
     background-image: url("s2r://panorama/images/battlepass/international2022/premium_reward_models/phantom-assassin-background_psd.vtex");
 }
+
 #PremiumRewardModelsContainer #PAMale .PremiumRewardInfo {
     opacity: 0.9;
-    transform: translatey (0px);
+    transform: translatey(0px);
 }
+
 #PremiumRewardModelsContainer #PAMale .PremiumRewardHeroModel {
     margin-top: -10px;
     margin-left: -4px;
 }
+
 #PremiumRewardModelsContainer #CMWolf {
     z-index: 1;
 }
+
 #PremiumRewardModelsContainer #CMWolf .PremiumRewardHeroKeyArt {
     background-image: url("s2r://panorama/images/battlepass/international2022/premium_reward_models/crystal-maiden-keyart_psd.vtex");
 }
+
 #PremiumRewardModelsContainer #CMWolf .PremiumRewardBackgroundImage {
     background-image: url("s2r://panorama/images/battlepass/international2022/premium_reward_models/crystal-maiden-background_psd.vtex");
 }
+
 #PremiumRewardModelsContainer #CMWolf .PremiumRewardInfo {
     opacity: 0.9;
-    transform: translatey (0px);
+    transform: translatey(0px);
 }
+
 #PremiumRewardModelsContainer #CMWolf .PremiumRewardHeroModel {
     margin-top: -96px;
     margin-left: -80px;
 }
+
 #PremiumRewardModelsContainer #CMWolf .ModelForeground {
     background-image: url("s2r://panorama/images/battlepass/international2022/premium_reward_models/crystal-mainden-foreground-art_psd.vtex");
     width: 100%;
     height: 100%;
 }
+
 #PremiumRewardModelsContainer #CMWolf.GrowHero .PremiumRewardHeroModel {
-    transform: scale3d (0.98, 0.98, 1) translateX (50px) translateY (-105px);
+    transform: scale3d(0.98, 0.98, 1) translateX(50px) translateY(-105px);
 }
+
 #PremiumRewardModelsContainer #RazorArcana .PremiumRewardInfo {
     opacity: 0.9;
-    transform: translatey (0px);
+    transform: translatey(0px);
 }
+
 #PremiumRewardModelsContainer #RazorArcana .PremiumRewardBackgroundImage {
     background-image: url("s2r://panorama/images/battlepass/international2022/premium_reward_models/razor-background_psd.vtex");
 }
+
 #PremiumRewardModelsContainer .PremiumReward {
     height: 1000px;
     max-width: 520px;
     overflow: noclip;
 }
+
 #PremiumRewardModelsContainer .PremiumReward .PremiumRewardBackgroundContainer {
     width: 100%;
     height: 680px;
-    transform: skew (-13deg);
+    transform: skew(-13deg);
     overflow: clip;
     opacity-mask: url("s2r://panorama/images/battlepass/international2022/premium_reward_models/background-mask_psd.vtex");
 }
+
 #PremiumRewardModelsContainer .PremiumReward .PremiumRewardBackgroundContainer .BackgroundImageScaler {
-    transform: scale3d (1, 1, 1);
+    transform: scale3d(1, 1, 1);
     transition-property: transform;
     transition-duration: 0.6s;
-    transition-timing-function: cubic-bezier (0, 1, 0, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0, 1);
 }
+
 #PremiumRewardModelsContainer .PremiumReward .PremiumRewardBackgroundContainer .PremiumRewardHeroKeyArtContainer {
-    transform: skew (13deg);
+    transform: skew(13deg);
     width: 1000px;
     height: 1000px;
     horizontal-align: center;
     vertical-align: center;
 }
+
 #PremiumRewardModelsContainer .PremiumReward .PremiumRewardBackgroundContainer .PremiumRewardHeroKeyArt {
     width: 100%;
     height: 100%;
-    wash-color: ultraDarkColor & 88;
+    wash-color: ultraDarkColor&88;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transform: scale3d (0.7, 0.7, 1) translateY (30px);
+    transform: scale3d(0.7, 0.7, 1) translateY(30px);
     transition-property: transform, wash-color, opacity;
     transition-duration: 0.4s;
-    transition-timing-function: cubic-bezier (0, 1, 0, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0, 1);
 }
+
 #PremiumRewardModelsContainer .PremiumReward .PremiumRewardBackgroundContainer .PremiumRewardBackgroundImage {
     width: 680px;
     height: 680px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transform: skew (13deg);
+    transform: skew(13deg);
     opacity: 0.2;
     transition-property: opacity, transform;
     transition-duration: 0.5s;
-    transition-timing-function: cubic-bezier (0, 1, 0, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0, 1);
 }
+
 #PremiumRewardModelsContainer .PremiumReward .PremiumRewardHeroModel {
     width: 1000px;
     height: 1000px;
     horizontal-align: center;
-    transform: scale3d (0.88, 0.88, 1) translateX (50px) translateY (-100px);
+    transform: scale3d(0.88, 0.88, 1) translateX(50px) translateY(-100px);
     transition-property: transform;
     transition-duration: 0.4s;
-    transition-timing-function: cubic-bezier (0, 1, 0, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0, 1);
 }
+
 #PremiumRewardModelsContainer .PremiumReward .ComingSoonInfo {
     margin-left: 84px;
     margin-top: 56px;
@@ -334,22 +365,20 @@ DOTABPInternational2022HomePage {
     letter-spacing: 2px;
     font-size: 14px;
     border-bottom: 1px solid white;
-    border-brush: gradient
-        (
-            linear,
-            0% 0%,
-
-            100% 0%,
-
-            from (rgba (255, 255, 255, 0)),
-            color-stop (0.5, rgba (255, 255, 255, 0.2)),
-            to (rgba (255, 255, 255, 0))
-        );
+    border-brush: gradient(
+        linear,
+        0% 0%,
+        100% 0%,
+        from(rgba(255, 255, 255, 0)),
+        color-stop(0.5, rgba(255, 255, 255, 0.2)),
+        to(rgba(255, 255, 255, 0))
+    );
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-delay: 0s;
     transition-timing-function: ease;
 }
+
 #PremiumRewardModelsContainer .PremiumReward .PremiumRewardInfo {
     flow-children: down;
     horizontal-align: center;
@@ -358,11 +387,12 @@ DOTABPInternational2022HomePage {
     margin-left: 84px;
     width: 280px;
     opacity: 0;
-    transform: translatey (10px);
+    transform: translatey(10px);
     transition-property: opacity, transform;
     transition-duration: 0.4s;
-    transition-timing-function: cubic-bezier (0, 1, 0, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0, 1);
 }
+
 #PremiumRewardModelsContainer .PremiumReward .PremiumRewardInfo .RewardType {
     horizontal-align: center;
     font-size: 12px;
@@ -374,9 +404,11 @@ DOTABPInternational2022HomePage {
     text-shadow: 0px 2px 8px black;
     color: white;
 }
+
 #PremiumRewardModelsContainer .PremiumReward .PremiumRewardInfo .RewardType.HeroName {
     margin-left: 3px;
 }
+
 #PremiumRewardModelsContainer .PremiumReward .PremiumRewardInfo .RewardHeroName {
     horizontal-align: center;
     font-size: 20px;
@@ -388,68 +420,77 @@ DOTABPInternational2022HomePage {
     text-align: center;
     padding: 0px 8px;
 }
+
 #PremiumRewardModelsContainer .PremiumReward .PremiumRewardInfo .RewardHeroLevel {
     flow-children: right;
     horizontal-align: center;
     font-size: 28px;
     font-style: italic;
     text-shadow: 0px 2px 12px 4 black;
-    color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (rgb (114, 148, 158)),
-            color-stop (0.4, rgb (130, 151, 151)),
-            color-stop (0.5, rgb (157, 176, 187)),
-            color-stop (0.7, rgb (123, 140, 143)),
-            to (rgb (78, 90, 95))
-        );
+    color: gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(rgb(114, 148, 158)),
+        color-stop(0.4, rgb(130, 151, 151)),
+        color-stop(0.5, rgb(157, 176, 187)),
+        color-stop(0.7, rgb(123, 140, 143)),
+        to(rgb(78, 90, 95))
+    );
 }
+
 #PremiumRewardModelsContainer .PremiumReward .PremiumRewardHitBox {
     width: 340px;
     height: 600px;
 }
+
 #PremiumRewardModelsContainer .PremiumReward.GrowHero {
     z-index: 5;
 }
+
 #PremiumRewardModelsContainer .PremiumReward.GrowHero .PremiumRewardBackgroundImage {
     opacity: 1;
 }
+
 #PremiumRewardModelsContainer .PremiumReward.GrowHero .PremiumRewardHeroKeyArt {
-    transform: scale3d (0.76, 0.76, 1) translateY (40px);
+    transform: scale3d(0.76, 0.76, 1) translateY(40px);
     wash-color: none;
 }
+
 #PremiumRewardModelsContainer .PremiumReward.GrowHero .PremiumRewardHeroModel {
     width: 1000px;
     height: 1000px;
     horizontal-align: center;
-    transform: scale3d (0.98, 0.98, 1) translateX (50px) translateY (-90px);
+    transform: scale3d(0.98, 0.98, 1) translateX(50px) translateY(-90px);
 }
+
 #PremiumRewardModelsContainer .PremiumReward.GrowHero .BackgroundImageScaler {
-    transform: scale3d (1.05, 1.05, 1);
+    transform: scale3d(1.05, 1.05, 1);
 }
+
 #PremiumRewardModelsContainer .PremiumReward.GrowHero .ComingSoonInfo {
     opacity: 0;
     transition-delay: 0.2s;
     transition-duration: 0.5s;
 }
+
 #PremiumRewardModelsContainer .PremiumReward.GrowHero .PremiumRewardInfo {
     opacity: 0.9;
-    transform: translatey (0px);
+    transform: translatey(0px);
 }
+
 #FriendsEntry {
     width: 636px;
     height: 850px;
     background-size: 550px 250px;
 }
+
 #FriendsEntry .SlantPanelEntry {
     margin: 16px 0;
     margin-left: -64px;
     margin-right: 76px;
 }
+
 #FriendsLeaderboard {
     height: 282px;
     width: 586px;
@@ -457,11 +498,13 @@ DOTABPInternational2022HomePage {
     margin-top: 8px;
     padding-right: 84px;
 }
+
 .BPProgress {
     height: 6px;
     border-radius: 0;
     margin-bottom: 24px;
 }
+
 .ProgressContainer {
     margin-top: 24px;
     text-transform: uppercase;
@@ -469,6 +512,7 @@ DOTABPInternational2022HomePage {
     font-size: 16px;
     color: white;
 }
+
 #RewardList {
     height: 400px;
     vertical-align: bottom;
@@ -481,6 +525,7 @@ DOTABPInternational2022HomePage {
     width: 100%;
     opacity-mask: url("s2r://panorama/images/battlepass/international2022/battlepass-2022-slanted-rewardline-mask_png.vtex");
 }
+
 DOTAEventLevelShield #LevelLabel {
     vertical-align: bottom;
     horizontal-align: right;
@@ -492,6 +537,7 @@ DOTAEventLevelShield #LevelLabel {
     font-style: italic;
     visibility: collapse;
 }
+
 .FeaturedHitBox {
     width: 300px;
     height: 700px;
@@ -499,68 +545,79 @@ DOTAEventLevelShield #LevelLabel {
     vertical-align: middle;
     z-index: 3;
 }
+
 #ArcanaHitBox {
     width: 500px;
     height: 550px;
     margin-top: 150px;
     horizontal-align: center;
     vertical-align: top;
-    transform: rotateZ (0deg) translateX (-80px) translateY (-150px);
+    transform: rotateZ(0deg) translateX(-80px) translateY(-150px);
 }
+
 .AspectRatio21x9 #ArcanaHitBox {
     width: 650px;
-    transform: rotateZ (0deg) translateX (-190px) translateY (-150px);
+    transform: rotateZ(0deg) translateX(-190px) translateY(-150px);
 }
+
 .AspectRatio16x10 #ArcanaHitBox {
     width: 480px;
     height: 600px;
-    transform: rotateZ (0deg) translateX (0px) translateY (-70px);
+    transform: rotateZ(0deg) translateX(0px) translateY(-70px);
 }
+
 #PersonaHitBox {
     width: 650px;
     height: 550px;
-    transform: rotateZ (0deg) translateX (-100px) translateY (-235px);
+    transform: rotateZ(0deg) translateX(-100px) translateY(-235px);
     z-index: 4;
     horizontal-align: right;
 }
+
 .AspectRatio21x9 #PersonaHitBox {
     width: 800px;
     height: 500px;
-    transform: rotateZ (0deg) translateX (-350px) translateY (-210px);
+    transform: rotateZ(0deg) translateX(-350px) translateY(-210px);
 }
+
 .AspectRatio16x10 #PersonaHitBox {
     width: 560px;
     height: 460px;
-    transform: rotateZ (0deg) translateX (-100px) translateY (-180px);
+    transform: rotateZ(0deg) translateX(-100px) translateY(-180px);
 }
+
 #PersonaGlow {
     width: 250px;
     height: 237.5px;
     pre-transform-scale2d: 4;
     horizontal-align: right;
     margin-right: 675px;
-    transform: translateY (316px) translateX (360px);
+    transform: translateY(316px) translateX(360px);
     brightness: 90;
     wash-color: secondaryColor;
     z-index: -4;
-    blur: gaussian (1px);
+    blur: gaussian(1px);
     opacity: 0;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
     transition-property: opacity, transform;
     transition-duration: 0.12s, 0.52s;
     transition-timing-function: ease-in-out;
 }
+
 .AspectRatio21x9 #PersonaGlow {
-    transform: translateY (316px) translateX (60px);
+    transform: translateY(316px) translateX(60px);
 }
+
 .AspectRatio16x10 #PersonaGlow {
     pre-transform-scale2d: 3.6;
-    transform: translateY (316px) translateX (388px);
+    transform: translateY(316px) translateX(388px);
 }
+
 #ArcanaGlow.Hovered,
 #PersonaGlow.Hovered {
     opacity: 1;
 }
+
 #ArcanaGlow {
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
     width: 560px;
@@ -570,37 +627,43 @@ DOTAEventLevelShield #LevelLabel {
     height: 250px;
     pre-transform-scale2d: 4;
     horizontal-align: center;
-    transform: translateX (-200px) translateY (165px);
-    transform: translateX (20px) translateY (316px);
+    transform: translateX(-200px) translateY(165px);
+    transform: translateX(20px) translateY(316px);
     brightness: 24;
     wash-color: secondaryColor;
     z-index: -2;
     wash-color: #fc3164;
-    blur: gaussian (1px);
+    blur: gaussian(1px);
     opacity: 0;
     transition-property: opacity, transform;
     transition-duration: 0.12s, 0.52s;
     transition-timing-function: ease-in-out;
 }
+
 #Dashboard:not(.International2022BPHome) #ArcanaGlow {
-    transform: translateX (-480px) translateY (316px);
+    transform: translateX(-480px) translateY(316px);
 }
+
 .AspectRatio16x10 #ArcanaGlow {
     pre-transform-scale2d: 3.38;
-    transform: scaleY (1) translateX (5px) translateY (280px);
+    transform: scaleY(1) translateX(5px) translateY(280px);
 }
+
 .AspectRatio21x9 #ArcanaGlow {
-    transform: translateX (-200px) translateY (316px);
+    transform: translateX(-200px) translateY(316px);
 }
+
 .BigInfoContainer {
     flow-children: right;
 }
+
 .LvlInfo {
     height: 100%;
     background-color: black;
     flow-children: down;
     padding-top: -2px;
 }
+
 .LvlInfoLabel {
     margin-top: 2px;
     width: 80px;
@@ -612,11 +675,13 @@ DOTAEventLevelShield #LevelLabel {
     margin-right: -12px;
     text-overflow: noclip;
 }
+
 .LvlInfoLabel.LevelNumber {
     margin-top: -4px;
-    transform: scaleX (0.6) scaleY (1.3) translateY (-6px);
+    transform: scaleX(0.6) scaleY(1.3) translateY(-6px);
     font-size: 45px;
 }
+
 .BigRewardInfoContainer {
     horizontal-align: center;
     vertical-align: middle;
@@ -626,11 +691,13 @@ DOTAEventLevelShield #LevelLabel {
     opacity: 0;
     pre-transform-scale2d: 0.25;
 }
+
 .BigRewardInfoContainer.Hovered {
     pre-transform-scale2d: 1;
     opacity: 1;
-    transform: translateX (0px);
+    transform: translateX(0px);
 }
+
 .BigRewardInfo {
     width: 300px;
     border: 2px solid black;
@@ -638,9 +705,11 @@ DOTAEventLevelShield #LevelLabel {
     background-color: #fffc;
     padding: 4px 10px 4px 10px;
 }
+
 #PersonaInfo .BigRewardInfo {
     width: 350px;
 }
+
 .BigRewardDescription,
 .BigRewardName {
     max-height: 32px;
@@ -652,11 +721,13 @@ DOTAEventLevelShield #LevelLabel {
     text-align: center;
     margin-bottom: -6px;
 }
+
 .BigRewardName {
     letter-spacing: 1px;
     font-weight: black;
     font-family: titleFont;
 }
+
 .ViewIntroLabel {
     font-size: 14px;
     color: black;
@@ -664,32 +735,39 @@ DOTAEventLevelShield #LevelLabel {
     horizontal-align: center;
     margin-top: 8px;
 }
+
 .AspectRatio16x10 #PersonaInfo {
     margin-left: 980px;
     margin-bottom: 60px;
 }
+
 #PersonaInfo {
     margin-left: 1280px;
     margin-bottom: 100px;
-    transform: translateX (-100px);
+    transform: translateX(-100px);
 }
+
 .AspectRatio16x10 #ArcanaInfo {
     margin-right: 260px;
     margin-bottom: 60px;
 }
+
 #ArcanaInfo {
     z-index: 3;
     margin-right: 460px;
     margin-bottom: 100px;
-    transform: translateX (100px);
+    transform: translateX(100px);
 }
+
 #ArcanaInfo.Hovered,
 #PersonaInfo.Hovered {
-    transform: translateX (0px);
+    transform: translateX(0px);
 }
+
 #ArcanaInfo .RewardInfoConnectLine {
     width: 0px;
 }
+
 .RewardInfoConnectLine {
     width: 170px;
     height: 2px;
@@ -699,20 +777,19 @@ DOTAEventLevelShield #LevelLabel {
     margin-left: 400px;
     z-index: -1;
 }
+
 #PersonaInfo .RewardInfoConnectLine {
-    background-color: gradient
-        (
-            linear,
-            66% 0%,
-
-            45% 0%,
-
-            from (#dfa1df),
-            color-stop (0.2, #bb00ab),
-            color-stop (0.7, #000),
-            to (black)
-        );
+    background-color: gradient(
+        linear,
+        66% 0%,
+        45% 0%,
+        from(#dfa1df),
+        color-stop(0.2, #bb00ab),
+        color-stop(0.7, #000),
+        to(black)
+    );
 }
+
 .ClickLabel {
     text-align: center;
     color: #000a;
@@ -720,20 +797,24 @@ DOTAEventLevelShield #LevelLabel {
     font-size: 14px;
     text-transform: uppercase;
 }
+
 .PanelContent {
     visibility: collapse;
 }
+
 #BPLevelEntry .SlantPanelEntry {
     margin: 16px 0px;
     margin-left: -30px;
     margin-right: 60px;
 }
+
 DOTAEventLevelShield {
     ui-scale: 140%;
     margin-left: -5px;
     vertical-align: bottom;
     horizontal-align: center;
 }
+
 #LevelWellContent {
     width: 500px;
     height: 115px;
@@ -741,6 +822,7 @@ DOTAEventLevelShield {
     flow-children: right;
     vertical-align: middle;
 }
+
 #LevelDetails {
     height: 80px;
     width: 342px;
@@ -749,12 +831,14 @@ DOTAEventLevelShield {
     margin-right: 15px;
     padding: 10px;
 }
+
 #LevelProgressBar {
     width: 330px;
     height: 10px;
     vertical-align: bottom;
     border-radius: 2px;
 }
+
 #PointsNeeded {
     font-size: 15px;
     font-weight: normal;
@@ -767,6 +851,7 @@ DOTAEventLevelShield {
     margin-bottom: 14px;
     letter-spacing: 1px;
 }
+
 #PointsInfo {
     flow-children: right;
     horizontal-align: right;
@@ -776,6 +861,7 @@ DOTAEventLevelShield {
     box-shadow: none;
     color: white;
 }
+
 #LogIcon {
     width: 12px;
     height: 12px;
@@ -788,6 +874,7 @@ DOTAEventLevelShield {
     vertical-align: middle;
     img-shadow: 1px 1px 2px #000000;
 }
+
 #BattlePassPointLog Label {
     text-align: right;
     color: textDefaultColor;
@@ -797,27 +884,32 @@ DOTAEventLevelShield {
     letter-spacing: 1px;
     vertical-align: middle;
 }
+
 #PointsInfo:hover {
-    box-shadow: 0px 0px 8px accentColor & 11;
+    box-shadow: 0px 0px 8px accentColor&11;
     transition-property: brightness, img-shadow, box-shadow;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
+
 #PointsInfo:hover Label {
     brightness: 2;
     color: ultraBrightColor;
     text-shadow: 0px 0px 4px 1 accentColor;
 }
+
 #PointsInfo:hover #LogIcon {
     brightness: 2;
     wash-color: ultraBrightColor;
     img-shadow: none;
 }
+
 #LevelButtons {
     vertical-align: top;
     width: 100%;
     margin-right: 0px;
 }
+
 #LevelButtons > TextButton {
     width: 184px;
     height: 40px;
@@ -825,12 +917,14 @@ DOTAEventLevelShield {
     vertical-align: middle;
     horizontal-align: left;
 }
+
 #GiftProgressBar {
     flow-children: right;
     horizontal-align: center;
     vertical-align: middle;
     padding: 4px 4px;
 }
+
 .GiftsIcon {
     background-image: url("s2r://panorama/images/battlepass/international2022/icon_gifts_default_psd.vtex");
     background-size: cover;
@@ -838,31 +932,38 @@ DOTAEventLevelShield {
     height: 30px;
     wash-color: secondaryDarkColor;
 }
+
 .GiftsIcon.Reached {
     background-image: url("s2r://panorama/images/battlepass/international2022/icon_gifts_psd.vtex");
     brightness: 2;
-    img-shadow: 0px 0px 4px accentColorBright & 33;
+    img-shadow: 0px 0px 4px accentColorBright&33;
     wash-color: accentColorBright;
 }
+
 #GiftBattlePassButton {
     visibility: collapse;
     margin-left: 45px;
     margin-top: 4px;
     margin-bottom: 4px;
 }
+
 .CurrentSeason.Season_International2022.GlobalEventActive.SelfEventNeedsActivate #ActivateBattlePassButton {
     visibility: visible;
 }
+
 .CurrentSeason.Season_International2022.GlobalEventActive.GlobalEventPurchasable.SelfEventNotActive
     #PurchaseBattlePassButton {
     visibility: visible;
 }
+
 .CurrentSeason.Season_International2022.SelfEventActive.GlobalEventActive.GlobalEventPurchasable #PurchaseLevelsButton {
     visibility: visible;
 }
+
 .CurrentSeason.Season_International2022.GlobalEventActive.GlobalEventPurchasable #GiftBattlePassButton {
     visibility: visible;
 }
+
 #dev_GroundPlaneLine {
     width: 100%;
     height: 1px;
@@ -872,6 +973,7 @@ DOTAEventLevelShield {
     z-index: 100;
     visibility: collapse;
 }
+
 #RewardListUIContainer {
     width: 100%;
     height: 64px;
@@ -882,6 +984,7 @@ DOTAEventLevelShield {
     z-index: 5;
     margin-bottom: 132px;
 }
+
 #RewardListUIContainer #CurrentAndClaim {
     color: textAccentColorBright;
     horizontal-align: center;
@@ -889,19 +992,24 @@ DOTAEventLevelShield {
     margin-bottom: 5px;
     padding: 0 8px;
 }
+
 #RewardListUIContainer .HasUnclaimedRewards #CurrentAndClaim {
     margin-bottom: 0px;
     padding: 0px;
 }
+
 #RewardListUIContainer #BackJump {
-    transform: scaleX (-1);
+    transform: scaleX(-1);
 }
+
 #RewardListUIContainer #BackJump Label {
-    transform: scaleX (-1);
+    transform: scaleX(-1);
 }
+
 #RewardListUIContainer #ForwardJump {
     horizontal-align: right;
 }
+
 #RewardListUIContainer .BigDeal {
     horizontal-align: right;
     padding: 0px 6px;
@@ -909,15 +1017,18 @@ DOTAEventLevelShield {
     margin-bottom: 11px;
     flow-children: right;
 }
+
 #RewardListUIContainer #NextBigDeal .BigDealContainer {
     horizontal-align: right;
 }
+
 #RewardListUIContainer .BigDealContainer {
     color: textAccentColorBright;
     transition-property: brightness;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
+
 #RewardListUIContainer .BigDeal Label {
     color: textAccentColorBright;
     font-size: 14px;
@@ -926,24 +1037,30 @@ DOTAEventLevelShield {
     transition-property: brightness, text-shadow, color;
     transition-duration: 0.1s;
 }
+
 #RewardListUIContainer .BigDealContainer:hover {
     color: textAccentColorBright;
 }
+
 #RewardListUIContainer .BigDealContainer:hover Label {
-    text-shadow: 0px 0px 8px 1 accentColor & 66;
+    text-shadow: 0px 0px 8px 1 accentColor&66;
     color: ultraBrightColor;
 }
+
 #RewardListUIContainer .BigDealContainer:hover .RewardNumber {
     wash-color: white;
 }
+
 #RewardListUIContainer .BigDealContainer:hover .RewardName {
     opacity: 0.8;
 }
+
 #RewardListUIContainer .BigDeal .RewardLevel {
     width: fit-children;
     min-width: 45px;
     min-height: 40px;
 }
+
 #RewardListUIContainer .BigDeal .RewardLevel > Label {
     width: 100%;
     text-align: center;
@@ -954,6 +1071,7 @@ DOTAEventLevelShield {
     font-weight: bold;
     color: white;
 }
+
 #RewardListUIContainer .BigDeal .RewardName {
     margin: 0px 0px;
     text-transform: uppercase;
@@ -962,6 +1080,7 @@ DOTAEventLevelShield {
     letter-spacing: 2px;
     opacity: 0.4;
 }
+
 #RewardListUIContainer .BigDeal .RewardNumber {
     font-weight: bold;
     font-size: 16px;
@@ -971,36 +1090,45 @@ DOTAEventLevelShield {
     color: white;
     wash-color: textAccentColorBright;
 }
+
 #RewardListUIContainer #LastBigDeal.BigDeal .RewardNumber {
     margin-right: 5px;
     background-image: url("s2r://panorama/images/control_icons/chevron-mini-left_png.vtex");
     background-position: 0%;
     padding-left: 18px;
 }
+
 #RewardListUIContainer #NextBigDeal.BigDeal .RewardNumber {
     margin-left: 5px;
     background-image: url("s2r://panorama/images/control_icons/chevron-mini-right_png.vtex");
     background-position: 100%;
     padding-right: 18px;
 }
+
 #RewardListUIContainer #LastBigDeal {
     horizontal-align: left;
 }
+
 #RewardListUIContainer .BigDeal:disabled {
     opacity: 0;
 }
+
 #RewardListUIContainer .BigDeal:enabled:hover {
     brightness: 1;
 }
+
 #RewardListUIContainer .BigDeal:enabled:hover > Label {
     text-decoration: underline;
 }
+
 #RewardListUIContainer .BigDeal:active {
     brightness: 1.5;
 }
+
 #UnclaimedButton {
     visibility: collapse;
 }
+
 .HasUnclaimedRewards #UnclaimedButton {
     visibility: visible;
     animation-name: glowButton;
@@ -1009,9 +1137,11 @@ DOTAEventLevelShield {
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
 }
+
 .HasUnclaimedRewards #GoToCurrentLevel {
     visibility: collapse;
 }
+
 #GoToCurrentLevel {
     padding: 1px 0px;
     vertical-align: bottom;
@@ -1020,6 +1150,7 @@ DOTAEventLevelShield {
     transition-duration: 0.21s;
     transition-timing-function: ease-in-out;
 }
+
 #GoToCurrentLevel Label {
     font-size: 16px;
     font-weight: semi-bold;
@@ -1027,45 +1158,54 @@ DOTAEventLevelShield {
     letter-spacing: 2px;
     vertical-align: middle;
 }
+
 #GoToCurrentLevel:hover Label {
     color: ultraBrightColor;
-    text-shadow: 0px 0px 12px accentColorBright & 44;
+    text-shadow: 0px 0px 12px accentColorBright&44;
 }
+
 #GiftAndRemaining {
     flow-children: right;
     width: 436px;
     horizontal-align: left;
     vertical-align: middle;
 }
+
 #TimeLeft {
     flow-children: down;
     horizontal-align: right;
     visibility: collapse;
 }
+
 .EventActive #TimeLeft {
     flow-children: down;
     horizontal-align: right;
     visibility: collapse;
 }
+
 #EventEnded {
     flow-children: down;
     visibility: collapse;
 }
+
 .EventEnded #EventEnded,
 .EventExpired #EventEnded {
     visibility: visible;
 }
+
 .EndedTitle {
     color: #b1bfff;
     text-shadow: 2px 2px 4px black;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
 .EndedDate {
     font-size: 16px;
     color: #999;
     margin-top: -1px;
 }
+
 .TimeLeftLabels {
     text-transform: uppercase;
     font-size: 14px;
@@ -1075,19 +1215,23 @@ DOTAEventLevelShield {
     text-align: right;
     margin-left: 20px;
 }
+
 #TimeLeftLabel {
     margin-right: 4px;
 }
+
 #TimeLeftDate {
     color: #b1bfff;
     text-shadow: 0px 1px 1px 2 #000000;
 }
+
 #SpinWheelContainer {
-    transform: skew (-12deg) scaleY (0.7);
+    transform: skew(-12deg) scaleY(0.7);
     vertical-align: bottom;
     margin-bottom: 10px;
     horizontal-align: center;
 }
+
 #SpinWheel {
     width: 160px;
     height: 160px;
@@ -1096,139 +1240,154 @@ DOTAEventLevelShield {
     border-radius: 50%;
     border: 3px solid pink;
     background-color: black;
-    transform: rotateZ (60deg);
+    transform: rotateZ(60deg);
 }
+
 .SpinWheelSection {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 3px solid black;
-    background-color: rgb (96, 87, 224);
-    clip: radial
-        (
-            50% 50%,
-
-            0deg,
-            120deg
-        );
+    background-color: rgb(96, 87, 224);
+    clip: radial(50% 50%, 0deg, 120deg);
     saturation: 0.5;
     brightness: 0.15;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 .SpinWheelEmoticon,
 #Spinner,
 .SpinWheelSection {
     animation-duration: 1s;
     animation-direction: reverse;
 }
+
 #Section1 {
-    transform: rotateZ (0deg);
+    transform: rotateZ(0deg);
     animation-name: Section1Highlight;
 }
+
 #Section2 {
-    transform: rotateZ (120deg);
-    background-color: rgb (69, 173, 69);
+    transform: rotateZ(120deg);
+    background-color: rgb(69, 173, 69);
     animation-name: Section2Highlight;
 }
+
 #Section3 {
-    transform: rotateZ (240deg);
-    background-color: rgb (158, 55, 55);
+    transform: rotateZ(240deg);
+    background-color: rgb(158, 55, 55);
     animation-name: Section3Highlight;
 }
+
 @keyframes 'Section1Highlight' {
     0% {
         brightness: 1;
         saturation: 2;
     }
+
     33.32% {
         brightness: 1;
         saturation: 2;
     }
+
     33.33% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     66.66% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     66.67% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     100% {
         brightness: 0.15;
         saturation: 0.5;
     }
 }
+
 @keyframes 'Section2Highlight' {
     0% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     33.32% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     33.33% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     66.66% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     66.67% {
         brightness: 1;
         saturation: 2;
     }
+
     100% {
         brightness: 1;
         saturation: 2;
     }
 }
+
 @keyframes 'Section3Highlight' {
     0% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     33.32% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     33.33% {
         brightness: 1;
         saturation: 2;
     }
+
     66.66% {
         brightness: 1;
         saturation: 2;
     }
+
     66.67% {
         brightness: 0.15;
         saturation: 0.5;
     }
+
     100% {
         brightness: 0.15;
         saturation: 0.5;
     }
 }
+
 #Spinner {
     width: 3px;
     height: 140px;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#0000),
-            color-stop (0.5, #0000),
-            color-stop (0.5, white),
-            to (white)
-        );
+    background-color: gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(#0000),
+        color-stop(0.5, #0000),
+        color-stop(0.5, white),
+        to(white)
+    );
     horizontal-align: center;
     vertical-align: center;
     border-top-left-radius: 5px;
@@ -1237,17 +1396,21 @@ DOTAEventLevelShield {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 @keyframes 'SpinnerRotate' {
     0% {
-        transform: rotateZ (0deg);
+        transform: rotateZ(0deg);
     }
+
     50% {
-        transform: rotateZ (180deg);
+        transform: rotateZ(180deg);
     }
+
     100% {
-        transform: rotateZ (360deg);
+        transform: rotateZ(360deg);
     }
 }
+
 #SpinRewardContainer {
     width: 150px;
     height: 120px;
@@ -1255,6 +1418,7 @@ DOTAEventLevelShield {
     horizontal-align: center;
     margin-bottom: 52px;
 }
+
 .SpinWheelEmoticon {
     width: 50px;
     height: 50px;
@@ -1262,21 +1426,25 @@ DOTAEventLevelShield {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 #SpinWheelEmoticon1 {
     horizontal-align: right;
     vertical-align: bottom;
     animation-name: Section1Highlight;
 }
+
 #SpinWheelEmoticon2 {
     horizontal-align: left;
     vertical-align: bottom;
     animation-name: Section2Highlight;
 }
+
 #SpinWheelEmoticon3 {
     horizontal-align: center;
     vertical-align: top;
     animation-name: Section3Highlight;
 }
+
 .BackgroundHomeFX {
     width: 1460px;
     height: 930px;
@@ -1287,6 +1455,7 @@ DOTAEventLevelShield {
     opacity-mask: url("s2r://panorama/images/masks/bp_2022_home_opacity_mask_psd.vtex");
     opacity: 1;
 }
+
 #TestRewardTypeAbilityFX {
     visibility: collapse;
     height: 250px;
@@ -1297,6 +1466,7 @@ DOTAEventLevelShield {
     z-index: 100;
     margin-bottom: 730px;
 }
+
 #AbilityFXVideo {
     horizontal-align: center;
     vertical-align: bottom;
@@ -1304,20 +1474,18 @@ DOTAEventLevelShield {
     margin-left: 1px;
     width: 214px;
     height: 119px;
-    opacity-brush: gradient
-        (
-            linear,
-            9% -39%,
-
-            101% 0%,
-
-            from (#0000),
-            color-stop (0.1, #0000),
-            color-stop (0.11, #fff),
-            color-stop (0.99, #fff),
-            to (#ffffff00)
-        );
+    opacity-brush: gradient(
+        linear,
+        9% -39%,
+        101% 0%,
+        from(#0000),
+        color-stop(0.1, #0000),
+        color-stop(0.11, #fff),
+        color-stop(0.99, #fff),
+        to(#ffffff00)
+    );
 }
+
 .RewardLevel.AbilityEffectRewardType {
     width: 225px;
 }

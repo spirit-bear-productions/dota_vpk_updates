@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .SkyVengeDebut {
     width: 100%;
     height: 100%;
@@ -25,6 +27,7 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
+
 #ModelBackground.Initialize {
     saturation: 1;
     contrast: 1;
@@ -41,11 +44,11 @@
     horizontal-align: center;
     height: 100%;
     wash-color: #000;
-
     transition-property: wash-color;
     transition-duration: 1s;
     transition-timing-function: ease-in;
 }
+
 #MainContainer.Initialize {
     wash-color: #fff;
     transition-duration: 0.2s;
@@ -55,10 +58,10 @@
     width: 100%;
     vertical-align: bottom;
     transform: translateY(-100px);
-
     transition-property: transform;
     transition-duration: 1s;
 }
+
 .FullscreenPage .BottomControls {
     transform: none;
 }
@@ -69,13 +72,12 @@
     ui-scale: 67%;
     horizontal-align: center;
     vertical-align: bottom;
-
     opacity: 0;
     transform: translateY(80px);
-
     transition-property: opacity, transform;
     transition-duration: 1s;
 }
+
 #CrownfallLogo.Initialize {
     opacity: 1;
     transform: translateY(60px);
@@ -88,13 +90,12 @@
     margin-bottom: 12px;
     horizontal-align: center;
     vertical-align: bottom;
-
     opacity: 0;
     transform: translateY(20px);
-
     transition-property: opacity, transform;
     transition-duration: 1s;
 }
+
 #ContinueButton.Initialize {
     opacity: 1;
     transform: none;

@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .HeroUIContainer {
     horizontal-align: center;
     flow-children: down;
-
     overflow: noclip;
 }
 
@@ -57,7 +58,6 @@
 
 .GlossaryIntroBullet {
     margin-bottom: 24px;
-
     horizontal-align: left;
     flow-children: right;
 }
@@ -114,7 +114,6 @@
     horizontal-align: center;
     padding: 6px;
     padding-left: 6px;
-
     width: 64px;
     height: 64px;
 }
@@ -150,9 +149,7 @@
     margin-right: 30px;
     width: 85px;
     height: 85px;
-
     vertical-align: center;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00000000), to(#00000000));
     transition-property: pre-transform-scale2d, brightness, saturation, background-color, opacity;
     transition-duration: 0.06s, 0.1s;
@@ -174,7 +171,6 @@
     z-index: 1;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00ff0000), to(#00ff0000));
     visibility: visible;
-
     transition-property: brightness, background-color;
     transition-duration: 0.12s;
     transition-timing-function: ease-in;
@@ -185,7 +181,6 @@
     height: 100%;
     z-index: -1;
     margin: 9px;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.12s;
     transition-timing-function: ease-in;
@@ -291,18 +286,14 @@
     width: 48px;
     height: 48px;
     margin: 5px;
-
     vertical-align: center;
     horizontal-align: left;
-
     brightness: 0.5;
     saturation: 0.5;
-
     border-radius: 50%;
     box-shadow: inset white 0px 1px 1px 2px;
     background-color: #000000ee;
     border: 1px solid #000000ee;
-
     transition-property: height, width;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -319,7 +310,6 @@
 .QueuedOrder .OrderBorder {
     height: 100%;
     width: 100%;
-
     background-image: url("s2r://panorama/images/hud/reborn/circle_frame_png.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;

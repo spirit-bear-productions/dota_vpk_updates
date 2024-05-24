@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define stickerStashSizeLarge: 370px;
 @define stickerStashSizeMedium: 246px;
 @define stickerStashSizeSmall: 184px;
-
 DOTAUIStickerStash {
     width: 100%;
     height: 100%;
@@ -24,14 +25,12 @@ DOTAUIStickerStash {
     margin-bottom: 2px;
     margin-left: 28px;
     margin-right: 2px;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_png.vtex");
 }
 
 #StickerListContainer {
     width: 1500px;
     height: 100%;
-
     opacity-mask: url("s2r://panorama/images/masks/gradient_lower_fade_png.vtex");
 }
 
@@ -100,6 +99,7 @@ DOTAUIStickerStash {
     transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
 }
+
 .StickerDisplaySnippet:hover {
     transform: scale3d(1.08, 1.08, 1);
     brightness: 1.5;
@@ -128,7 +128,6 @@ DropDownMenu {
     horizontal-align: left;
     vertical-align: middle;
     margin: 16px 0px 8px;
-
     color: baseText;
     font-size: 18px;
     opacity: 0.4;
@@ -199,17 +198,13 @@ ToggleButton Label {
 
 .StickerDisplaySnippet .StackCount {
     opacity: 0;
-
     vertical-align: bottom;
     horizontal-align: right;
-
     background-color: #222;
     border-radius: 50%;
     border: 1px solid #555;
-
     text-align: center;
     text-overflow: shrink;
-
     color: white;
 }
 
@@ -260,7 +255,6 @@ ToggleButton Label {
     font-weight: semi-bold;
     padding: 12px 20px;
     color: whitesmoke;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -280,7 +274,6 @@ ToggleButton Label {
 
 #NoStickersContainer {
     visibility: collapse;
-
     ignore-parent-flow: true;
     flow-children: down;
     margin-right: 100px;
@@ -288,6 +281,7 @@ ToggleButton Label {
     vertical-align: center;
     margin-bottom: 160px;
 }
+
 #NoStickersContainer .Title {
     font-size: 28px;
     text-transform: uppercase;
@@ -343,6 +337,7 @@ ToggleButton Label {
     margin-top: 40px;
     visibility: collapse;
 }
+
 #UnopenedStickerReminder .BlockTitle {
     text-transform: uppercase;
     letter-spacing: 2px;

@@ -1,9 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #BackgroundScene {
     width: 100%;
     height: 100%;
-
     opacity: 0.01;
-
     transition-property: opacity;
     transition-duration: 2s;
 }
@@ -17,9 +17,7 @@
     vertical-align: bottom;
     horizontal-align: center;
     padding-bottom: 10px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#000e), to(#000f));
-
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease;
@@ -96,7 +94,6 @@
     border: 2px solid rgba(201, 155, 88, 0.6);
     color: rgba(201, 155, 88, 1);
     box-shadow: fill #11181e20 7px 4px 10px 0px;
-
     transition-property: opacity, border, background-color, box-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease;

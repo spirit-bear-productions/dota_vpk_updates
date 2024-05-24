@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAUIHeroPicker {
     flow-children: down;
     width: 1000px;
@@ -7,9 +9,11 @@ DOTAUIHeroPicker {
 .Season_International2016 #Contents {
     background-color: #252421;
 }
+
 .Season_International2016 #HeaderRow {
     background-color: #94342a33;
 }
+
 .Season_International2016 #HeaderRow Label {
     color: #a9372e;
     text-shadow: 0px 1px 2px 2 #000000;
@@ -60,6 +64,7 @@ DOTAUIHeroPicker {
     background-color: #242d39;
     padding: 16px 16px 12px 16px;
 }
+
 .BanPicker #HeaderRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(loserRed&22), to(#242d39));
 }
@@ -93,14 +98,11 @@ DOTAUIHeroPicker {
     background-image: url("s2r://panorama/images/control_icons/icon_search_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
-
     width: 27px;
     height: 27px;
     margin: 0px 8px;
     vertical-align: middle;
-
     wash-color: #4f4f4f;
-
     transition-property: wash-color;
     transition-duration: 0.1s;
 }
@@ -135,7 +137,6 @@ DOTAUIHeroPicker {
     height: width-percentage(100%);
     margin: 0px 8px 8px 0px;
     border: 1px solid black;
-
     transition-property: border, saturation, opacity, brightness;
     transition-duration: 0.2s;
 }
@@ -186,6 +187,7 @@ DOTAUIHeroPicker {
 .Filtering .HeroCategory Image {
     box-shadow: #ffffaa44 0px 0px 16px 0px;
 }
+
 .Filtering .HeroCategory DOTAHeroImage:disabled,
 .Filtering .HeroCategory Image:disabled {
     box-shadow: none;
@@ -201,13 +203,10 @@ DOTAUIHeroPicker {
     margin-bottom: 0px;
     horizontal-align: left;
     flow-children: down;
-
     opacity: 1;
     transform: none;
-
     transition-property: opacity, transform;
     transition-duration: 0.1s;
-
     visibility: collapse;
 }
 
@@ -253,7 +252,6 @@ DOTAUIHeroPicker {
     height: width-percentage(100%);
     margin: 0px 8px 8px 0px;
     border: 1px solid black;
-
     transition-property: border, saturation, opacity;
     transition-duration: 0.2s;
 }
@@ -272,7 +270,6 @@ DOTAUIHeroPicker {
     height: width-percentage(100%);
     margin: 0px 8px 8px 0px;
     border: 1px solid black;
-
     transition-property: border, saturation, opacity;
     transition-duration: 0.2s;
 }
@@ -285,10 +282,10 @@ DOTAUIHeroPicker {
     saturation: 0;
     opacity: 0.2;
 }
+
 .HeroCategory Button {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5a6c75), to(#3d4a50));
     border: 1px solid black;
-
     margin-bottom: 10px;
     min-width: 300px;
     padding: 2px 4px 2px 4px;
@@ -296,7 +293,6 @@ DOTAUIHeroPicker {
     border-right: 1px solid #4e5b60;
     border-left: 1px solid #4e5b60;
     border-bottom: 1px solid #00000088;
-
     transition-property: background-color, wash-color;
     transition-delay: 0s;
     transition-duration: 0.1s;
@@ -325,10 +321,10 @@ DOTAUIHeroPicker {
 .HeroCategory Button:hover {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#a9c8da), to(#596b75));
 }
+
 .HeroCategory Button:hover:active {
     border: 1px solid black;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#272f33), to(#5a6c75));
-
     border-top: 1px solid #00000088;
     border-right: 1px solid #00000088;
     border-left: 1px solid #00000088;
@@ -343,24 +339,30 @@ DOTAUIHeroPicker {
     vertical-align: middle;
     margin-top: 6px;
 }
+
 .GenericPicker .TabContents {
     width: 320px;
     height: fit-children;
 }
+
 .GenericPicker #HeroSearch {
     visibility: collapse;
 }
+
 .PlayerPicker .TabContents {
     width: 500px;
 }
+
 .TeamPicker .TabContents {
     width: 464px;
     height: 540px;
 }
+
 .TeamContainer {
     flow-children: right;
     width: 500px;
 }
+
 .TeamLogo {
     width: 80px;
     height: 80px;
@@ -380,6 +382,7 @@ DOTAUIHeroPicker {
     width: 40px;
     height: 40px;
 }
+
 .PlayerContainer {
     flow-children: down;
     margin-bottom: 10px;
@@ -388,6 +391,7 @@ DOTAUIHeroPicker {
 .HeroCategory .PlayerName {
     font-size: 14px;
 }
+
 .PlayerName {
     text-overflow: shrink;
     width: 72px;
@@ -398,7 +402,6 @@ DOTAUIHeroPicker {
 .HeroCategory .TeamImage {
     width: 92px;
     margin: 8px 8px 8px 8px;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
 }

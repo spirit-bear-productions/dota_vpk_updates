@@ -1,8 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .MinigameChairs {
     flow-children: down;
     horizontal-align: center;
     width: 1000px;
-
     overflow: noclip;
 }
 
@@ -77,9 +78,11 @@
     50% {
         transform: rotateZ(179deg);
     }
+
     51% {
         transform: rotateZ(181deg);
     }
+
     100% {
         transform: rotateZ(360deg);
     }
@@ -132,10 +135,12 @@
 .ScorePlayer {
     flow-children: right;
 }
+
 #ScoreContainer {
     width: 00px;
     flow-children: down;
 }
+
 #Horizontal {
     width: 100%;
 }
@@ -154,6 +159,7 @@
     horizontal-align: center;
     vertical-align: center;
 }
+
 .Circle {
     width: 30px;
     height: 30px;
@@ -172,9 +178,11 @@
     text-align: center;
     font-weight: bold;
 }
+
 #Players .PointsLabel {
     margin-left: 20px;
 }
+
 .PointsLabel {
     font-size: 24px;
     width: 30px;

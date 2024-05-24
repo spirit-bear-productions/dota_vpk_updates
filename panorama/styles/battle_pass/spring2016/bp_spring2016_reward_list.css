@@ -1,7 +1,8 @@
-@define mouseWheelScroll:  150px;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define mouseWheelScroll: 150px;
 @define asyncDestroyDelay: 0.2s;
 @define scrollPadding: 100px;
-
 Spring2016RewardList {
     overflow: clip;
     opacity-mask: url("s2r://panorama/images/masks/softedge_horizontal_png.vtex");
@@ -31,7 +32,6 @@ Spring2016RewardList {
 #RewardPath > .PathNode,
 #RewardItems > .ItemNode {
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -39,7 +39,6 @@ Spring2016RewardList {
 #RewardPath > .PathNode.LevelActive,
 #RewardItems > .ItemNode.LevelActive {
     opacity: 1;
-
     transition-property: transform, opacity, brightness;
     transition-duration: 0.3s, 0.2s;
 }
@@ -83,7 +82,6 @@ Spring2016RewardList {
 .PathNodeDefault.Achieved:not(.AlreadyClaimed) .PathNodeContents {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#66281f), to(#a6352b));
     border: 6px solid #bf686d;
-
     animation-name: ClaimBorderPulse;
     animation-duration: 0.64s;
     animation-timing-function: ease-in-out;
@@ -95,10 +93,12 @@ Spring2016RewardList {
         background-color: gradient(linear, 0% 0%, 0% 100%, from(#66281f), to(#bf686d));
         border: 2px solid #bf686dff;
     }
+
     50% {
         background-color: gradient(linear, 0% 0%, 0% 100%, from(#66281f), to(#a6352b));
         border: 2px solid #bf686d00;
     }
+
     to {
         background-color: gradient(linear, 0% 0%, 0% 100%, from(#66281f), to(#bf686d));
         border: 2px solid #bf686dff;
@@ -190,7 +190,6 @@ Spring2016RewardList {
     width: 100%;
     margin-bottom: 26px;
     height: 100%;
-
     transition-property: wash-color, saturation;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -212,12 +211,10 @@ Spring2016RewardList {
     );
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_png.vtex");
     opacity: 0;
-
     animation-name: GlowPulse;
     animation-duration: 1.61s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-
     transition-property: opacity;
     transition-duration: 0.32s;
 }
@@ -282,11 +279,9 @@ Spring2016RewardList {
     width: 92px;
     margin-left: -4px;
     margin-bottom: 6px;
-
     pre-transform-scale2d: 0.8;
     brightness: 0.8;
     transform-origin: 50% 70%;
-
     transition-property: pre-transform-scale2d, brightness;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -310,15 +305,19 @@ Spring2016RewardList {
     0% {
         transform: rotateZ(0deg);
     }
+
     10% {
         transform: rotateZ(10deg);
     }
+
     20% {
         transform: rotateZ(-10deg);
     }
+
     30% {
         transform: rotateZ(5deg);
     }
+
     40% {
         transform: rotateZ(-5deg);
     }
@@ -326,6 +325,7 @@ Spring2016RewardList {
     50% {
         transform: rotateZ(0deg);
     }
+
     100% {
         transform: rotateZ(0deg);
     }
@@ -348,7 +348,6 @@ Spring2016RewardList {
     vertical-align: middle;
     margin-top: 92px;
     text-overflow: shrink;
-
     letter-spacing: 2px;
     color: white;
     text-shadow: 0px 0px 8px 2 #ff0000;
@@ -364,10 +363,12 @@ Spring2016RewardList {
         color: #bf686d;
         text-shadow: 0px 0px 18px 2 #ff0000ff;
     }
+
     50% {
         color: white;
         text-shadow: 0px 0px 18px 2 #ff000033;
     }
+
     to {
         color: #bf686d;
         text-shadow: 0px 0px 18px 2 #ff0000ff;
@@ -409,9 +410,7 @@ Spring2016RewardList {
 
 @define rewardEmptyWidth: 20px;
 @define rewardDefaultWidth: 100px;
-
 @define level1Width: 768px;
-
 #Path1.PathNode {
     height: 100%;
 }
@@ -504,7 +503,6 @@ Spring2016RewardList {
 }
 
 @define level225Width: 300px;
-
 #Item225.ItemNode {
     height: 100%;
 }
@@ -532,7 +530,6 @@ Spring2016RewardList {
 #Item225.ItemNode .Level225Contents > DOTAUIEconSetPreview {
     transform: translateY(8px);
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -575,7 +572,6 @@ Spring2016RewardList {
 }
 
 @define level1000Width: 300px;
-
 #Item1000.ItemNode .Level1000Contents {
     width: 100%;
     height: 100%;
@@ -593,7 +589,6 @@ Spring2016RewardList {
 #Item1000.ItemNode .Level1000Contents > DOTAScenePanel {
     width: 380px;
     height: 380px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
@@ -608,7 +603,6 @@ Spring2016RewardList {
 }
 
 @define level2000Width: 200px;
-
 #Item2000.ItemNode {
     height: 100%;
 }
@@ -618,7 +612,6 @@ Spring2016RewardList {
     height: 100%;
     margin-right: 0px;
     margin-bottom: 0px;
-
     overflow: noclip;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
 }
@@ -634,9 +627,7 @@ Spring2016RewardList {
 #Item2000.ItemNode .Level2000Contents > DOTAUIEconSetPreview {
     width: 400px;
     height: 244px;
-
     transform: translateX(-94px);
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -675,11 +666,11 @@ Spring2016RewardList {
 }
 
 @define level75Width: 108px;
-
 #Path75 .PathNodeContents {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#84292d), to(#a19087));
     border: 2px solid #8b3e42;
 }
+
 .LevelTierBadge {
     width: 74px;
     height: 98px;
@@ -757,7 +748,6 @@ Spring2016RewardList {
 }
 
 @define rewardEllipsisWidth: 350px;
-
 .ItemNodeEllipsis {
     height: 100%;
 }
@@ -808,11 +798,9 @@ Spring2016RewardList {
     border-radius: 50%;
     width: 100%;
     height: 96px;
-
     margin-bottom: 94px;
     saturation: 0.5;
     brightness: 0.1;
-
     animation-duration: 1.8s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .GuildPerksContents {
     flow-children: right;
 }
@@ -6,10 +8,12 @@
     width: 100%;
     height: fill-parent-flow(1);
 }
+
 #GuildLevelSection {
     width: 100%;
     height: 100%;
 }
+
 #TopContributorSection {
     width: 100%;
     height: fill-parent-flow(1);
@@ -36,7 +40,6 @@
 .TopContributorRow {
     width: 100%;
     height: 82px;
-
     margin-bottom: 6px;
     background-color: #ffffff02;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff00), to(#ffffff03));
@@ -44,22 +47,25 @@
     border-right: 1px solid #ffffff02;
     box-shadow: 0px 0px 20px #000000aa;
 }
+
 .ContributorProfileColumn {
     width: fit-children;
     height: 100%;
     horizontal-align: left;
     flow-children: right;
 }
+
 .TopContributorRow DOTAAvatarImage {
     width: 81px;
     height: 81px;
-
     box-shadow: #000 6px 0px 12px 0px;
 }
+
 .TopContributorRow .PlayerDescContainer {
     margin-left: 12px;
     vertical-align: center;
 }
+
 .TopContributorRow .MemberEarnedColumn {
     horizontal-align: right;
     vertical-align: center;
@@ -71,60 +77,79 @@
 .GuildPrimaryColor0 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor0;
 }
+
 .GuildPrimaryColor1 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor1;
 }
+
 .GuildPrimaryColor2 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor2;
 }
+
 .GuildPrimaryColor3 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor3;
 }
+
 .GuildPrimaryColor4 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor4;
 }
+
 .GuildPrimaryColor5 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor5;
 }
+
 .GuildPrimaryColor6 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor6;
 }
+
 .GuildPrimaryColor7 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor7;
 }
+
 .GuildPrimaryColor8 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor8;
 }
+
 .GuildPrimaryColor9 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor9;
 }
+
 .GuildPrimaryColor10 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor10;
 }
+
 .GuildPrimaryColor11 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor11;
 }
+
 .GuildPrimaryColor12 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor12;
 }
+
 .GuildPrimaryColor13 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor13;
 }
+
 .GuildPrimaryColor14 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor14;
 }
+
 .GuildPrimaryColor15 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor15;
 }
+
 .GuildPrimaryColor16 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor16;
 }
+
 .GuildPrimaryColor17 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor17;
 }
+
 .GuildPrimaryColor18 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor18;
 }
+
 .GuildPrimaryColor19 .TopContributor.TopContributorRow .MemberEarnedColumn {
     color: guildColor19;
 }
@@ -137,60 +162,79 @@
 .GuildPrimaryColor0 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor0&03), to(guildColor0&15));
 }
+
 .GuildPrimaryColor1 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor1&03), to(guildColor1&15));
 }
+
 .GuildPrimaryColor2 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor2&03), to(guildColor2&15));
 }
+
 .GuildPrimaryColor3 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor3&03), to(guildColor3&15));
 }
+
 .GuildPrimaryColor4 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor4&03), to(guildColor4&15));
 }
+
 .GuildPrimaryColor5 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor5&03), to(guildColor5&15));
 }
+
 .GuildPrimaryColor6 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor6&03), to(guildColor6&15));
 }
+
 .GuildPrimaryColor7 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor7&03), to(guildColor7&15));
 }
+
 .GuildPrimaryColor8 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor8&03), to(guildColor8&15));
 }
+
 .GuildPrimaryColor9 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor9&03), to(guildColor9&15));
 }
+
 .GuildPrimaryColor10 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor10&03), to(guildColor10&15));
 }
+
 .GuildPrimaryColor11 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor11&03), to(guildColor11&15));
 }
+
 .GuildPrimaryColor12 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor12&03), to(guildColor12&15));
 }
+
 .GuildPrimaryColor13 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor13&03), to(guildColor13&15));
 }
+
 .GuildPrimaryColor14 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor14&03), to(guildColor14&15));
 }
+
 .GuildPrimaryColor15 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor15&03), to(guildColor15&15));
 }
+
 .GuildPrimaryColor16 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor16&03), to(guildColor16&15));
 }
+
 .GuildPrimaryColor17 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor17&03), to(guildColor17&15));
 }
+
 .GuildPrimaryColor18 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor18&03), to(guildColor18&15));
 }
+
 .GuildPrimaryColor19 .TopContributor.TopContributorRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor19&03), to(guildColor19&15));
 }
@@ -198,17 +242,20 @@
 #GuildPerkContainer {
     margin-left: 12px;
 }
+
 #GuildPerkSection {
     width: 100%;
     height: 100%;
     flow-children: down;
 }
+
 #GuildPerkSubheader {
     flow-children: left;
     width: 100%;
     height: 30px;
     padding: 0px;
 }
+
 .GuildPerkSubheaderColumnTitle {
     vertical-align: bottom;
     text-align: left;
@@ -217,6 +264,7 @@
     font-size: 12px;
     color: #666;
 }
+
 #StatusSubheader {
     width: 70px;
 }
@@ -224,6 +272,7 @@
 #UnlocksAtSubheader {
     width: 105px;
 }
+
 #GuildPerksList {
     flow-children: down;
     overflow: squish scroll;
@@ -237,7 +286,6 @@
     width: 100%;
     height: 100%;
     margin-left: 14px;
-
     margin-bottom: 14px;
     opacity: 0.99;
 }
@@ -248,7 +296,6 @@
     height: 82px;
     height: 111px;
     flow-children: right;
-
     margin-bottom: 6px;
     background-color: #ffffff02;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff00), to(#ffffff03));
@@ -256,6 +303,7 @@
     border-right: 1px solid #ffffff02;
     box-shadow: 0px 0px 20px #000000aa;
 }
+
 .NextUnlock.GuildPerkRow {
     height: 181px;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff01), to(#ffffff08));
@@ -264,60 +312,79 @@
 .GuildPrimaryColor0 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor0&06), to(guildColor0&11));
 }
+
 .GuildPrimaryColor1 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor1&02), to(guildColor1&09));
 }
+
 .GuildPrimaryColor2 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor2&02), to(guildColor2&09));
 }
+
 .GuildPrimaryColor3 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor3&02), to(guildColor3&09));
 }
+
 .GuildPrimaryColor4 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor4&02), to(guildColor4&09));
 }
+
 .GuildPrimaryColor5 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor5&02), to(guildColor5&09));
 }
+
 .GuildPrimaryColor6 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor6&02), to(guildColor6&09));
 }
+
 .GuildPrimaryColor7 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor7&02), to(guildColor7&09));
 }
+
 .GuildPrimaryColor8 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor8&02), to(guildColor8&09));
 }
+
 .GuildPrimaryColor9 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor9&02), to(guildColor9&09));
 }
+
 .GuildPrimaryColor10 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor10&06), to(guildColor10&11));
 }
+
 .GuildPrimaryColor11 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor11&02), to(guildColor11&09));
 }
+
 .GuildPrimaryColor12 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor12&02), to(guildColor12&09));
 }
+
 .GuildPrimaryColor13 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor13&02), to(guildColor13&09));
 }
+
 .GuildPrimaryColor14 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor14&02), to(guildColor14&09));
 }
+
 .GuildPrimaryColor15 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor15&02), to(guildColor15&09));
 }
+
 .GuildPrimaryColor16 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor16&02), to(guildColor16&09));
 }
+
 .GuildPrimaryColor17 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor17&02), to(guildColor17&09));
 }
+
 .GuildPrimaryColor18 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor18&02), to(guildColor18&09));
 }
+
 .GuildPrimaryColor19 .GuildPerkUnlocked.GuildPerkRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor19&02), to(guildColor19&09));
 }
@@ -378,60 +445,79 @@
 .GuildPrimaryColor0 .GuildPerkNextUnlockLabel {
     color: guildColor0;
 }
+
 .GuildPrimaryColor1 .GuildPerkNextUnlockLabel {
     color: guildColor1;
 }
+
 .GuildPrimaryColor2 .GuildPerkNextUnlockLabel {
     color: guildColor2;
 }
+
 .GuildPrimaryColor3 .GuildPerkNextUnlockLabel {
     color: guildColor3;
 }
+
 .GuildPrimaryColor4 .GuildPerkNextUnlockLabel {
     color: guildColor4;
 }
+
 .GuildPrimaryColor5 .GuildPerkNextUnlockLabel {
     color: guildColor5;
 }
+
 .GuildPrimaryColor6 .GuildPerkNextUnlockLabel {
     color: guildColor6;
 }
+
 .GuildPrimaryColor7 .GuildPerkNextUnlockLabel {
     color: guildColor7;
 }
+
 .GuildPrimaryColor8 .GuildPerkNextUnlockLabel {
     color: guildColor8;
 }
+
 .GuildPrimaryColor9 .GuildPerkNextUnlockLabel {
     color: guildColor9;
 }
+
 .GuildPrimaryColor10 .GuildPerkNextUnlockLabel {
     color: guildColor10;
 }
+
 .GuildPrimaryColor11 .GuildPerkNextUnlockLabel {
     color: guildColor11;
 }
+
 .GuildPrimaryColor12 .GuildPerkNextUnlockLabel {
     color: guildColor12;
 }
+
 .GuildPrimaryColor13 .GuildPerkNextUnlockLabel {
     color: guildColor13;
 }
+
 .GuildPrimaryColor14 .GuildPerkNextUnlockLabel {
     color: guildColor14;
 }
+
 .GuildPrimaryColor15 .GuildPerkNextUnlockLabel {
     color: guildColor15;
 }
+
 .GuildPrimaryColor16 .GuildPerkNextUnlockLabel {
     color: guildColor16;
 }
+
 .GuildPrimaryColor17 .GuildPerkNextUnlockLabel {
     color: guildColor17;
 }
+
 .GuildPrimaryColor18 .GuildPerkNextUnlockLabel {
     color: guildColor18;
 }
+
 .GuildPrimaryColor19 .GuildPerkNextUnlockLabel {
     color: guildColor19;
 }
@@ -457,6 +543,7 @@
     width: 50px;
     height: 100%;
 }
+
 .GuildPerkStatusIcon {
     vertical-align: middle;
     horizontal-align: center;
@@ -466,11 +553,11 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .GuildPerkLocked .GuildPerkLockedIcon {
     background-image: url("s2r://panorama/images/guilds/contracts/locked_icon_psd.vtex");
     opacity: 0.4;
     visibility: visible;
-
     img-shadow: #000 0px 0px 12px 12px;
 }
 
@@ -503,6 +590,7 @@
     height: 100%;
     flow-children: right;
 }
+
 .GuildLevelColumn Label {
     vertical-align: center;
     margin-right: 8px;
@@ -528,6 +616,7 @@
     width: 100%;
     height: 100%;
 }
+
 .GuildPrimaryColor0 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -538,6 +627,7 @@
         to(guildColor0&00)
     );
 }
+
 .GuildPrimaryColor1 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -548,6 +638,7 @@
         to(guildColor1&00)
     );
 }
+
 .GuildPrimaryColor2 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -558,6 +649,7 @@
         to(guildColor2&00)
     );
 }
+
 .GuildPrimaryColor3 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -568,6 +660,7 @@
         to(guildColor3&00)
     );
 }
+
 .GuildPrimaryColor4 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -578,6 +671,7 @@
         to(guildColor4&00)
     );
 }
+
 .GuildPrimaryColor5 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -588,6 +682,7 @@
         to(guildColor5&00)
     );
 }
+
 .GuildPrimaryColor6 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -598,6 +693,7 @@
         to(guildColor6&00)
     );
 }
+
 .GuildPrimaryColor7 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -608,6 +704,7 @@
         to(guildColor7&00)
     );
 }
+
 .GuildPrimaryColor8 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -618,6 +715,7 @@
         to(guildColor8&00)
     );
 }
+
 .GuildPrimaryColor9 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -628,6 +726,7 @@
         to(guildColor9&00)
     );
 }
+
 .GuildPrimaryColor10 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -638,6 +737,7 @@
         to(guildColor10&00)
     );
 }
+
 .GuildPrimaryColor11 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -648,6 +748,7 @@
         to(guildColor11&00)
     );
 }
+
 .GuildPrimaryColor12 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -658,6 +759,7 @@
         to(guildColor12&00)
     );
 }
+
 .GuildPrimaryColor13 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -668,6 +770,7 @@
         to(guildColor13&00)
     );
 }
+
 .GuildPrimaryColor14 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -678,6 +781,7 @@
         to(guildColor14&00)
     );
 }
+
 .GuildPrimaryColor15 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -688,6 +792,7 @@
         to(guildColor15&00)
     );
 }
+
 .GuildPrimaryColor16 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -698,6 +803,7 @@
         to(guildColor16&00)
     );
 }
+
 .GuildPrimaryColor17 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -708,6 +814,7 @@
         to(guildColor17&00)
     );
 }
+
 .GuildPrimaryColor18 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -718,6 +825,7 @@
         to(guildColor18&00)
     );
 }
+
 .GuildPrimaryColor19 #GuildLevelGradientBG {
     background-color: gradient(
         radial,
@@ -750,60 +858,79 @@
 .GuildPrimaryColor0 #RewardParticleContainer {
     wash-color: guildColor0;
 }
+
 .GuildPrimaryColor1 #RewardParticleContainer {
     wash-color: guildColor1;
 }
+
 .GuildPrimaryColor2 #RewardParticleContainer {
     wash-color: guildColor2;
 }
+
 .GuildPrimaryColor3 #RewardParticleContainer {
     wash-color: guildColor3;
 }
+
 .GuildPrimaryColor4 #RewardParticleContainer {
     wash-color: guildColor4;
 }
+
 .GuildPrimaryColor5 #RewardParticleContainer {
     wash-color: guildColor5;
 }
+
 .GuildPrimaryColor6 #RewardParticleContainer {
     wash-color: guildColor6;
 }
+
 .GuildPrimaryColor7 #RewardParticleContainer {
     wash-color: guildColor7;
 }
+
 .GuildPrimaryColor8 #RewardParticleContainer {
     wash-color: guildColor8;
 }
+
 .GuildPrimaryColor9 #RewardParticleContainer {
     wash-color: guildColor9;
 }
+
 .GuildPrimaryColor10 #RewardParticleContainer {
     wash-color: guildColor10;
 }
+
 .GuildPrimaryColor11 #RewardParticleContainer {
     wash-color: guildColor11;
 }
+
 .GuildPrimaryColor12 #RewardParticleContainer {
     wash-color: guildColor12;
 }
+
 .GuildPrimaryColor13 #RewardParticleContainer {
     wash-color: guildColor13;
 }
+
 .GuildPrimaryColor14 #RewardParticleContainer {
     wash-color: guildColor14;
 }
+
 .GuildPrimaryColor15 #RewardParticleContainer {
     wash-color: guildColor15;
 }
+
 .GuildPrimaryColor16 #RewardParticleContainer {
     wash-color: guildColor16;
 }
+
 .GuildPrimaryColor17 #RewardParticleContainer {
     wash-color: guildColor17;
 }
+
 .GuildPrimaryColor18 #RewardParticleContainer {
     wash-color: guildColor18;
 }
+
 .GuildPrimaryColor19 #RewardParticleContainer {
     wash-color: guildColor19;
 }
@@ -811,60 +938,79 @@
 .GuildPrimaryColor0 #RewardParticleContainer {
     opacity: 0.5;
 }
+
 .GuildPrimaryColor1 #RewardParticleContainer {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor2 #RewardParticleContainer {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor3 #RewardParticleContainer {
     opacity: 0.25;
 }
+
 .GuildPrimaryColor4 #RewardParticleContainer {
     opacity: 0.25;
 }
+
 .GuildPrimaryColor5 #RewardParticleContainer {
     opacity: 0.4;
 }
+
 .GuildPrimaryColor6 #RewardParticleContainer {
     opacity: 0.2;
 }
+
 .GuildPrimaryColor7 #RewardParticleContainer {
     opacity: 0.4;
 }
+
 .GuildPrimaryColor8 #RewardParticleContainer {
     opacity: 0.5;
 }
+
 .GuildPrimaryColor9 #RewardParticleContainer {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor10 #RewardParticleContainer {
     opacity: 0.5;
 }
+
 .GuildPrimaryColor11 #RewardParticleContainer {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor12 #RewardParticleContainer {
     opacity: 0.3;
 }
+
 .GuildPrimaryColor13 #RewardParticleContainer {
     opacity: 0.25;
 }
+
 .GuildPrimaryColor14 #RewardParticleContainer {
     opacity: 0.25;
 }
+
 .GuildPrimaryColor15 #RewardParticleContainer {
     opacity: 0.4;
 }
+
 .GuildPrimaryColor16 #RewardParticleContainer {
     opacity: 0.2;
 }
+
 .GuildPrimaryColor17 #RewardParticleContainer {
     opacity: 0.4;
 }
+
 .GuildPrimaryColor18 #RewardParticleContainer {
     opacity: 0.5;
 }
+
 .GuildPrimaryColor19 #RewardParticleContainer {
     opacity: 0.3;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #MainContents {
     flow-children: down;
     width: 100%;
@@ -9,7 +11,6 @@
     flow-children: right;
     background-color: black;
     padding: 8px 8px 0px 8px;
-
     background-image: url("s2r://panorama/images/front_page/ti7_front_bar_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -21,7 +22,6 @@
     color: #ccc;
     margin-left: 8px;
     margin-bottom: 8px;
-
     background-image: url("s2r://panorama/images/compendium/international2017/compendium/2017_international_logo_text_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -57,14 +57,12 @@
     height: 100%;
     padding-top: 16px;
     padding-left: 16px;
-
     flow-children: right;
 }
 
 #Contents .FrontpageCell {
     width: 268px;
     height: 188px;
-
     margin-right: 16px;
 }
 
@@ -123,7 +121,6 @@
 #FirstCell {
     width: 268px;
     height: 188px;
-
     margin-right: 16px;
 }
 

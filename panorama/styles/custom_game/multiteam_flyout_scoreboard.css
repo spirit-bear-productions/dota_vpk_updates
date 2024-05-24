@@ -1,13 +1,13 @@
-@define BACKGROUND_COLOR:  #000000;
-@define BACKGROUND_COLOR_WHITE: #FFFFFF28;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define BACKGROUND_COLOR: #000000;
+@define BACKGROUND_COLOR_WHITE: #FFFFFF28;
 .FlyoutScoreboardRoot {
     horizontal-align: left;
     vertical-align: top;
     margin-top: 150px;
     flow-children: down;
     padding: 10px;
-
     transform: translatex(-600px);
     transition-property: transform;
     transition-duration: 0.1s;
@@ -191,6 +191,7 @@
     text-shadow: 2px 2px 2px black;
     margin-top: -1px;
 }
+
 #MuteButton {
     margin-right: 0px;
     margin-top: 0px;

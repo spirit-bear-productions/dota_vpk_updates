@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #InteractiveControls {
     width: 100%;
     height: 100%;
@@ -91,27 +93,21 @@
 @define kunkka_scale: 1.05;
 @define legion_commander_scale: 1.05;
 @define life_stealer_scale: 0.9;
-
 @define lycan_scale: 1.15;
 @define magnataur_scale: 1.15;
 @define mars_scale: 0.95;
-
 @define night_stalker_scale: 1.08;
 @define omniknight_scale: 1.08;
-
 @define pudge_scale: 0.95;
 @define rattletrap_scale: 1.15;
 @define sand_king_scale: 1.15;
-
 @define slardar_scale: 1.1;
 @define snapfire_chat_offset: 0;
 @define tiny_scale: 0.9;
-
 @define tiny_chat_offset: 1.06;
 @define treant_scale: 0.9;
 @define tusk_scale: 1.05;
 @define tusk_chat_offset: 0.06;
-
 @define antimage_scale: 0.965;
 @define arc_warden_scale: 0.985;
 @define bloodseeker_scale: 1.05;
@@ -150,9 +146,7 @@
 @define venomancer_scale: 0.975;
 @define viper_scale: 0.96;
 @define weaver_scale: 0.95;
-
 @define ancient_apparition_scale: 0.92;
-
 @define bane_scale: 1.0;
 @define bane_z_offset: -15.0;
 @define batrider_scale: 0.95;

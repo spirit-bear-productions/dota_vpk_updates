@@ -1,6 +1,7 @@
-@define zuus_activity_modifier:  versus_screen;
-@define mirana_activity_modifier: run;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define zuus_activity_modifier: versus_screen;
+@define mirana_activity_modifier: run;
 @define gyrocopter_z_offset: 0;
 @define razor_z_offset: 0;
 @define viper_z_offset: 0;
@@ -19,6 +20,5 @@
 @define snapfire_z_offset: 0;
 @define visage_z_offset: 0;
 @define skywrath_mage_arcana_z_offset: 25.0;
-
 @define dark_willow_scale: 0.9;
 @define ring_master_scale: 0.8;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FullScreenBackground {
     width: 100%;
     height: 100%;
@@ -11,7 +13,6 @@
         color-stop(0.8, #344862cc),
         to(#192331aa)
     );
-
     transition-property: background-color;
     transition-duration: 0.5s;
 }
@@ -59,14 +60,12 @@
     saturation: 1;
     contrast: 1;
     brightness: 1;
-
     transform: translateX(0px);
     width: 542px;
     horizontal-align: right;
     flow-children: right;
     height: 120px;
     margin-top: 60px;
-
     transition-property: transform, saturation, contrast, brightness, hue-rotation;
     transition-duration: 0.5s;
 }
@@ -82,13 +81,10 @@
     margin-top: -60px;
     margin-left: 32px;
     transform: rotateZ(20deg) translateY(12px);
-
     background-image: url("s2r://panorama/images/compendium/whitebox_glass_psd.vtex");
     background-size: cover;
-
     border-radius: 1px;
     overflow: noclip;
-
     animation-name: SlantMotion;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -97,9 +93,11 @@
 #WhiteBox1 {
     animation-duration: 31.3s;
 }
+
 #WhiteBox2 {
     animation-duration: 21.161s;
 }
+
 #WhiteBox3 {
     animation-duration: 26.7s;
 }
@@ -108,9 +106,11 @@
     0% {
         transform: rotateZ(20deg) translateY(12px) translateX(0px);
     }
+
     50% {
         transform: rotateZ(20deg) translateY(12px) translateX(-22px);
     }
+
     100% {
         transform: rotateZ(20deg) translateY(12px) translateX(0px);
     }
@@ -120,12 +120,10 @@
     width: 428px;
     height: 72px;
     border-radius: 1px;
-
     background-image: url("s2r://panorama/images/compendium/whitebox_glass_psd.vtex");
     background-size: cover;
     transform: rotateZ(-215deg) translateX(-40px) translateY(-50px);
     opacity: 0.2;
-
     animation-duration: 18s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -156,7 +154,6 @@
     background-image: url("s2r://panorama/images/compendium/campaigncoverart_glow_psd.vtex");
     background-repeat: no-repeat;
     background-size: 100%;
-
     transition-property: transform, saturation, hue-rotation, opacity;
     transition-duration: 0.5s;
 }
@@ -176,9 +173,11 @@
 #WhiteBox1 .Reflection {
     animation-name: ReflectionMotion1;
 }
+
 #WhiteBox2 .Reflection {
     animation-name: ReflectionMotion2;
 }
+
 #WhiteBox3 .Reflection {
     animation-name: ReflectionMotion3;
 }
@@ -187,9 +186,11 @@
     0% {
         transform: rotateZ(-210deg) translateX(-20px) translateY(-20px);
     }
+
     50% {
         transform: rotateZ(-205deg) translateX(-20px) translateY(-30px);
     }
+
     100% {
         transform: rotateZ(-210deg) translateX(-20px) translateY(-20px);
     }
@@ -199,9 +200,11 @@
     0% {
         transform: rotateZ(-209deg) translateX(-110px) translateY(2px);
     }
+
     50% {
         transform: rotateZ(-204deg) translateX(-110px) translateY(2px);
     }
+
     100% {
         transform: rotateZ(-209deg) translateX(-110px) translateY(2px);
     }
@@ -211,9 +214,11 @@
     0% {
         transform: rotateZ(-208deg) translateX(-180px) translateY(14px);
     }
+
     50% {
         transform: rotateZ(-203deg) translateX(-180px) translateY(19px);
     }
+
     100% {
         transform: rotateZ(-208deg) translateX(-180px) translateY(14px);
     }
@@ -229,7 +234,6 @@
 .CompendiumHeader {
     width: 1392px;
     height: 72px;
-
     horizontal-align: center;
     vertical-align: top;
     margin-top: 100px;
@@ -239,7 +243,6 @@
     padding-top: 16px;
     width: 1392px;
     height: 800px;
-
     horizontal-align: center;
     z-index: 2;
 }
@@ -357,15 +360,12 @@
     padding: 8px 10px 4px 10px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#156300ff), to(#158f00ff));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#60862d), to(#3d5f1c));
-
     border-top: 1px solid #ffffff22;
     border-left: 1px solid #ffffff11;
     border-right: 1px solid #00000044;
     border-bottom: 1px solid #00000088;
-
     transition-property: background-color;
     transition-duration: 0.2s;
-
     visibility: collapse;
 }
 
@@ -396,11 +396,9 @@
     color: white;
     margin-top: -12px;
     opacity: 1;
-
     horizontal-align: left;
     text-shadow: 0px 0px 5px 3 #000000;
     text-shadow: 0px 0px 8px 1 #61beff;
-
     transition-property: opacity;
     transition-duration: 0.5s;
 }
@@ -443,7 +441,6 @@
     letter-spacing: 5px;
     text-shadow: 0px 0px 8px 1 #61beff;
     margin-top: 28px;
-
     text-align: left;
     opacity: 0;
     transition-property: opacity;
@@ -460,11 +457,8 @@
     background-size: contain;
     width: 314px;
     height: 100px;
-
     margin-top: 28px;
-
     opacity: 1;
-
     transition-property: opacity, brightness;
     transition-duration: 0.5s, 0.12s;
 }
@@ -479,7 +473,6 @@
     pre-transform-scale2d: 0.5;
     transform: translateX(-48px) translateY(-16px);
     opacity: 0;
-
     horizontal-align: left;
 }
 
@@ -578,11 +571,8 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     background-color: black;
     overflow: clip scroll;
     padding: 16px;
-
     wash-color: black;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_vscroll_psd.vtex") 1;
-
     transition-property: height, wash-color;
     transition-duration: 0.25s;
 }
@@ -604,7 +594,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     width: 64px;
     height: 64px;
     vertical-align: center;
-
     background-image: url("s2r://panorama/images/compendium/shield_icon_psd.vtex");
     background-size: cover;
 }
@@ -748,10 +737,8 @@ DOTABPWinter2016WageringPage .CompendiumBody {
 #QuestEventGoal {
     vertical-align: bottom;
     horizontal-align: right;
-
     margin-bottom: 16px;
     margin-right: 16px;
-
     z-index: 2;
 }
 
@@ -776,7 +763,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-
     transition-property: opacity, background-image;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -816,7 +802,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     transform: rotateZ(0deg) translateY(0px);
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     wash-color: #91bee3;
-
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 2px;
@@ -852,9 +837,7 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     width: 900px;
     height: 116px;
     border: 1px solid black;
-
     saturation: 0.5;
-
     background-color: #000000ee;
     background-position: 50% 50%;
     background-size: cover;
@@ -885,9 +868,11 @@ DOTABPWinter2016WageringPage .CompendiumBody {
 #Questline1Picker {
     background-image: url("s2r://panorama/images/temp/temp_quest1_psd.vtex");
 }
+
 #Questline2Picker {
     background-image: url("s2r://panorama/images/temp/temp_quest2_psd.vtex");
 }
+
 #Questline3Picker {
     background-image: url("s2r://panorama/images/temp/temp_quest3_psd.vtex");
 }
@@ -904,9 +889,7 @@ DOTABPWinter2016WageringPage .CompendiumBody {
 #QuestWell {
     width: 900px;
     height: 353px;
-
     overflow: clip;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex") 1;
 }
 
@@ -917,7 +900,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
 #RewardsWell {
     width: 2560px;
     height: 356px;
-
     margin-top: 16px;
     vertical-align: bottom;
     overflow: clip;
@@ -947,7 +929,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
 .ContentsHeader {
     height: 30px;
     background-color: #1e2f41;
-
     text-align: center;
     color: white;
     font-size: 16px;
@@ -1062,7 +1043,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     width: 100%;
     margin-top: -16px;
     wash-color: black;
-
     transition-property: wash-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
@@ -1150,7 +1130,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     margin: 16px;
     wash-color: #78a0c8;
     opacity: 0.2;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -1169,7 +1148,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     padding-left: 16px;
     padding-right: 16px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#202d3d00), color-stop(0.5, #202d3ddd), to(#202d3ddd));
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -1183,7 +1161,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     letter-spacing: 1px;
     color: #92b4d9;
     margin-top: 16px;
-
     transition-property: color;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -1217,7 +1194,6 @@ DOTABPWinter2016WageringPage .CompendiumBody {
     width: 326px;
     height: 335px;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/compendium/tokenstack_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1249,9 +1225,11 @@ DOTABPWinter2016WageringPage .CompendiumBody {
 #Next1 {
     margin-right: 660px;
 }
+
 #Next2 {
     margin-left: 26px;
 }
+
 #Next3 {
     margin-left: 714px;
 }
@@ -1351,7 +1329,6 @@ VerticalScrollBar:hover .ScrollThumb {
 .AsyncWagerInfoData {
     opacity: 0;
     margin-bottom: 32px;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -1380,11 +1357,8 @@ VerticalScrollBar:hover .ScrollThumb {
     margin-right: 16px;
     margin-top: 16px;
     padding-left: 2px;
-
     box-shadow: -2px 0px 4px 0px #000000;
-
     z-index: 1;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
 }
@@ -1392,7 +1366,6 @@ VerticalScrollBar:hover .ScrollThumb {
 .CommunityGoal {
     width: 100%;
     height: 64px;
-
     margin: 16px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -1465,10 +1438,8 @@ VerticalScrollBar:hover .ScrollThumb {
     width: fit-children;
     text-overflow: clip;
     color: #7b96ca;
-
     color: white;
     visibility: visible;
-
     horizontal-align: center;
     text-shadow: 0px 0px 5px 3 #000000;
     text-shadow: 0px 0px 8px 1 #61beff;

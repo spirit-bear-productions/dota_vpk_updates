@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAInventory {
     tooltip-position: right;
     tooltip-body-position: 100% 90%;
@@ -36,7 +38,6 @@ DOTAInventory {
     flow-children: right;
     width: 196px;
     padding: 0px;
-
     width: 200px;
     height: 50px;
 }
@@ -147,10 +148,8 @@ DOTAInventory {
     width: 60px;
     height: 34px;
     transform: translateX(-4px);
-
     margin-left: 3px;
     margin-right: 3px;
-
     horizontal-align: center;
     border-bottom: 1px solid #ffffff06;
 }
@@ -217,7 +216,6 @@ DOTAInventory {
     height: 44px;
     margin-top: 107px;
     z-index: 3;
-
     background-color: gradient(
         linear,
         0% 0%,

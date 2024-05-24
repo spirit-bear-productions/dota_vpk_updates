@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CompendiumBody {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#000000dd), to(#000000aa));
     background-color: #000000;
@@ -33,7 +35,6 @@
     width: 1020px;
     height: 100%;
     margin-right: 16px;
-
     background-repeat: no-repeat;
     background-position: right;
     flow-children: down;
@@ -42,7 +43,6 @@
 .BountiesTitle {
     font-size: 50px;
     horizontal-align: center;
-
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: semi-bold;
@@ -70,6 +70,7 @@ AsyncDataPanel {
     width: 400px;
     height: 200px;
 }
+
 .BountyCounter {
     horizontal-align: center;
     font-size: 60px;
@@ -132,7 +133,6 @@ AsyncDataPanel {
     color: textAccentColorBright;
     width: 200px;
     text-align: center;
-
     visibility: collapse;
 }
 
@@ -172,7 +172,6 @@ AsyncDataPanel {
     width: 326px;
     height: 335px;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/compendium/international2020/bounties1_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,9 +192,11 @@ AsyncDataPanel {
 #Next1 {
     margin-right: 660px;
 }
+
 #Next2 {
     margin-left: 26px;
 }
+
 #Next3 {
     margin-left: 714px;
 }

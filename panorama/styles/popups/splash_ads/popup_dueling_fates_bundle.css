@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     width: 810px;
     padding: 0px;
@@ -95,6 +97,7 @@
     0% {
         box-shadow: fill 0px 0px 8px #99ff9999;
     }
+
     100% {
         box-shadow: fill 0px 0px 16px #99ff99;
     }
@@ -108,10 +111,8 @@
 #OnSale {
     margin-top: 12px;
     horizontal-align: center;
-
     flow-children: right;
     padding: 8px 18px 8px 18px;
-
     animation-duration: 0.75s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
@@ -143,7 +144,6 @@
     color: #ccc;
     width: fill-parent-flow(1);
     vertical-align: middle;
-
     font-size: 20px;
     padding: 0 40px;
     margin-top: 4px;

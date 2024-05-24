@@ -1,16 +1,14 @@
-@define setsPerCarouselPage:  4;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define setsPerCarouselPage: 4;
 #Contents.ContextMenuHeroSetPicker {
     flow-children: down;
     padding: 0px;
     margin: 0px;
     border: 0px;
-
     box-shadow: fill #000000cc 0px 0px 4px 4px;
-
     border-top: 1px solid #ffffff07;
     border-left: 1px solid #ffffff07;
-
     background-color: #222;
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#000), to(#222));
 }
@@ -24,9 +22,7 @@
 #Header {
     flow-children: right;
     margin-bottom: 2px;
-
     background-color: black;
-
     width: 100%;
     padding: 6px 6px 6px 10px;
 }
@@ -61,7 +57,6 @@
 .CarouselPage {
     flow-children: right;
     width: 100%;
-
     transition-property: position;
     transition-duration: 0.2s;
 }
@@ -70,12 +65,10 @@
     width: 160px;
     height: 270px;
     margin-right: 12px;
-
     border-right: 0px;
     border-left: 1px solid #ffffff05;
     border-bottom: 0px;
     border-top: 1px solid #ffffff06;
-
     box-shadow: fill #00000099 0px 0px 4px 4px;
 }
 
@@ -96,16 +89,18 @@
     text-transform: uppercase;
     font-size: 18px;
     margin-top: 4px;
-
     color: #666;
 }
+
 #ShuffleButton:selected Label {
     color: #ccc;
     text-shadow: 0px 0px 4px #00ffff66;
 }
+
 #ShuffleButton:hover Label {
     color: white;
 }
+
 #ShuffleButton:active Label {
     color: #ddd;
 }
@@ -114,6 +109,7 @@
 #ShuffleButton:selected #ShuffleDisabledLabel {
     visibility: collapse;
 }
+
 #ShuffleButton:selected #ShuffleEnabledLabel {
     visibility: visible;
 }
@@ -124,14 +120,13 @@
     border: 0px solid transparent;
     box-shadow: none;
     background-color: none;
-
     background-image: url("s2r://panorama/images/control_icons/shuffle_psd.vtex");
     background-size: 16px 14px;
     background-repeat: no-repeat;
     background-position: center;
-
     wash-color: #666;
 }
+
 #ShuffleButton:selected .TickBox {
     background-color: none;
     box-shadow: none;
@@ -139,9 +134,11 @@
     background-image: url("s2r://panorama/images/control_icons/shuffle_enabled_psd.vtex");
     background-size: 20px 20px;
 }
+
 #ShuffleButton:hover .TickBox {
     wash-color: white;
 }
+
 #ShuffleButton:active .TickBox {
     wash-color: #ddd;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPAGravestone {
     visibility: collapse;
     background-image: url("s2r://panorama/images/hud/pa_gravestone_bg_png.vtex");
@@ -70,7 +72,6 @@ DOTAPAGravestone.Visible {
     vertical-align: bottom;
     margin-bottom: 20px;
     visibility: collapse;
-
     font-family: titleFont;
 }
 

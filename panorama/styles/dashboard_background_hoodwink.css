@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DiretideBackground {
     width: 100%;
     height: 100%;
@@ -6,11 +8,9 @@
 #BackgroundScene {
     width: 100%;
     height: 100%;
-
     blur: gaussian(8px);
     brightness: 0.7;
     wash-color: #65a520aa;
-
     transition-property: blur, brightness, wash-color;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -35,7 +35,6 @@
     flow-children: right;
     vertical-align: bottom;
     margin-bottom: 130px;
-
     visibility: collapse;
 }
 
@@ -52,7 +51,6 @@
     opacity: 0;
     margin-top: 130px;
     overflow: noclip;
-
     transition-property: opacity, background-color;
     transition-duration: 0.2s;
 }
@@ -82,7 +80,6 @@
     width: 600px;
     height: 350px;
     horizontal-align: center;
-
     vertical-align: bottom;
     margin-bottom: 0px;
     background-image: url("s2r://panorama/images/leaf_pages/debut_hoodwink/hoodwink_logo_en_psd.vtex");
@@ -90,7 +87,6 @@
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 0px;
-
     transition-property: transform, pre-transform-scale2d, contrast, opacity;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -121,7 +117,6 @@
     contrast: 1.2;
     brightness: 1.2;
     opacity-mask: url("s2r://panorama/images/events/diretide/2020/diretide_logo_en_mask_psd.vtex");
-
     transition-property: contrast, background-color, brightness;
     transition-duration: 0.21s;
     transition-timing-function: ease-in-out;
@@ -131,16 +126,13 @@
     horizontal-align: center;
     vertical-align: bottom;
     margin-bottom: -8px;
-
     text-align: center;
     text-overflow: shrink;
     text-shadow: 0px 0px 4px #99a08688;
     opacity: 0.6;
-
     transition-property: opacity, border, color, brightness;
     transition-duration: 0.21s;
     transition-timing-function: ease-in-out;
-
     padding: 6px 10px;
     border: 1px solid #c4e07600;
 }
@@ -210,7 +202,6 @@
     border: 2px solid #ffffff;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#f5c16f), to(#9f6f33));
     background-color: gradient(linear, 0% 100%, 0% 0%, from(#4c6a38), to(#222e1c));
-
     background-image: url("s2r://panorama/images/leaf_pages/debut_hoodwink/hoodwink_btn_psd.vtex");
     background-size: 100% 100%;
     background-repeat: no-repeat;

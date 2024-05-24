@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Captions {
     flow-children: down;
     margin-bottom: 75px;
@@ -22,12 +24,15 @@
 .Transmitting #SelfVoice {
     background-image: url("s2r://panorama/images/hud/voiceicon_regular_png.vtex");
 }
+
 .TransmittingLoud #SelfVoice {
     background-image: url("s2r://panorama/images/hud/voiceicon_loud_png.vtex");
 }
+
 .NotTransmitting #SelfVoice {
     background-image: url("s2r://panorama/images/hud/voiceicon_mute_png.vtex");
 }
+
 .Restricted #SelfVoice {
     background-image: url("s2r://panorama/images/hud/voiceicon_restricted_png.vtex");
 }
@@ -60,12 +65,10 @@
 DOTAVoiceChatPlayer {
     background-image: url("s2r://panorama/images/hud/reborn/item_purchase_bg_psd.vtex");
     background-size: 100%;
-
     width: 216px;
     height: 34px;
     margin-bottom: 4px;
     flow-children: right;
-
     visibility: collapse;
 }
 
@@ -124,10 +127,8 @@ DOTAVoiceChatCaption {
     border: 1px solid black;
     border-radius: 20px;
     background-size: 100%;
-
     min-width: 100px;
     height: 35px;
-
     flow-children: right;
     visibility: collapse;
 }

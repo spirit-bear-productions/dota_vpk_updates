@@ -1,11 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAMutations {
     width: 400px;
-
     flow-children: down;
     box-shadow: none;
-
     margin-top: 120px;
-
     visibility: collapse;
 }
 
@@ -16,7 +15,6 @@ DOTAMutations {
 DOTAMutations .Name {
     margin-top: 4px;
     margin-left: 8px;
-
     font-size: 14px;
     color: #a3fdcc;
 }

@@ -1,5 +1,6 @@
-@define AutoMaximizeDelay:  0.2s;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define AutoMaximizeDelay: 0.2s;
 DOTACustomLobby {
     vertical-align: bottom;
     horizontal-align: right;
@@ -38,15 +39,12 @@ DOTACustomLobby {
     height: 100%;
     horizontal-align: right;
     padding-bottom: 0px;
-
     transform: translatex(418px) translatey(0px);
-
     opacity: 0;
     transition-property: transform, opacity;
     transition-duration: 0.2s, 0s;
     transition-delay: 0s, 0s;
     transition-timing-function: ease-in;
-
     box-shadow: black 0px 0px 8px 0px;
 }
 
@@ -245,7 +243,6 @@ RadioButton Label {
     font-size: 16px;
     margin-top: 5px;
     opacity: 0;
-
     transition-property: opacity;
     transition-delay: 0s;
     transition-duration: 0.1s;
@@ -291,19 +288,14 @@ DOTACustomLobby.Passworded .PasswordedHint {
     width: 330px;
     min-height: 36px;
     margin-bottom: 12px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#2c1b1b), to(#482e2f));
-
     box-shadow: fill #552e2f00 1px 1px 8px 1px;
-
     border-top: 1px solid #3d2929;
     border-right: 1px solid #372121;
     border-left: 1px solid #372121;
     border-bottom: 1px solid #2e1f21;
-
     overflow: noclip noclip;
     opacity: 1;
-
     transition-property: border, box-shadow, background-color, opacity, transform;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -343,19 +335,14 @@ DOTACustomLobby.Passworded .PasswordedHint {
 .LaunchLobbyButton {
     min-width: 330px;
     min-height: 48px;
-
     padding: 4px 12px 4px 12px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#2d4881cc), to(#486ca9cc));
     box-shadow: fill #486ca922 0px 0px 8px 0px;
-
     border-top: 1px solid #ffffff03;
     border-left: 1px solid #ffffff03;
     border-right: 1px solid #00000088;
     border-bottom: 1px solid #00000088;
-
     opacity: 1;
-
     transition-property: box-shadow, background-color, opacity, transform;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -380,7 +367,6 @@ DOTACustomLobby.Passworded .PasswordedHint {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
-
     transition-property: color;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -425,11 +411,9 @@ DOTACustomLobby.Passworded .PasswordedHint {
     height: 27px;
     vertical-align: middle;
     margin-right: 13px;
-
     background-image: url("s2r://panorama/images/status_icons/loadingthrobber_round_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     animation-name: LobbySpinnerAnimation;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -446,11 +430,9 @@ DOTACustomLobby.Passworded .PasswordedHint {
     vertical-align: middle;
     margin-right: 10px;
     margin-left: 10px;
-
     background-image: url("s2r://panorama/images/status_icons/loadingthrobber_round_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     animation-name: LobbySpinnerAnimation;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -462,33 +444,35 @@ DOTACustomLobby.Passworded .PasswordedHint {
     width: 25px;
     margin-left: 20px;
     margin-right: 14px;
-
     background-image: url("s2r://panorama/images/connection_icons/connection_quality_1_png.vtex");
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     vertical-align: center;
     tooltip-position: right;
     tooltip-body-position: 50% 10%;
-
     visibility: visible;
 }
 
 .ConnectionQuality5 #ConnectionQualityIcon {
     background-image: url("s2r://panorama/images/connection_icons/connection_quality_5_png.vtex");
 }
+
 .ConnectionQuality4 #ConnectionQualityIcon {
     background-image: url("s2r://panorama/images/connection_icons/connection_quality_4_png.vtex");
 }
+
 .ConnectionQuality3 #ConnectionQualityIcon {
     background-image: url("s2r://panorama/images/connection_icons/connection_quality_3_png.vtex");
 }
+
 .ConnectionQuality2 #ConnectionQualityIcon {
     background-image: url("s2r://panorama/images/connection_icons/connection_quality_2_png.vtex");
 }
+
 .ConnectionQuality1 #ConnectionQualityIcon {
     background-image: url("s2r://panorama/images/connection_icons/connection_quality_1_png.vtex");
 }
+
 .ConnectionQualityUnavailable #ConnectionQualityIcon {
     height: 22px;
     width: 48px;

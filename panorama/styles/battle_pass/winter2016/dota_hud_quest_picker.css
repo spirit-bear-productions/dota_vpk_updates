@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAQuestPicker.QuestPickerHidden {
     opacity: 0;
 }
@@ -15,7 +17,6 @@ DOTAQuestPicker.QuestPickerHidden {
     width: 685px;
     height: 495px;
     background-color: #121820fc;
-
     border: 1px solid #336385;
     border-left: 0px solid #336385;
     box-shadow: #000000dd 0px 0px 12px 0px;
@@ -35,7 +36,6 @@ DOTAQuestPicker.QuestPickerHidden {
 #ActiveContainer {
     width: 240px;
     height: 100%;
-
     horizontal-align: right;
 }
 
@@ -62,7 +62,6 @@ DOTAQuestPicker.QuestPickerHidden {
 
 #QuestLine {
     height: 182px;
-
     opacity: 1;
     margin-top: 0px;
     flow-children: none;
@@ -112,6 +111,7 @@ DOTAQuestPicker.QuestPickerHidden {
     font-size: 20px;
     font-weight: thin;
 }
+
 #CurrentQuestDesc {
     margin-top: 86px;
     font-size: 20px;
@@ -177,7 +177,6 @@ DOTABPWinter2016QuestsPage #QuestPickerHeader {
     margin-top: 52px;
     margin-left: -6px;
     background-color: #00000088;
-
     transition-property: opacity, border, color;
     transition-duration: 0.26s;
     transition-timing-function: ease-in-out;
@@ -195,12 +194,9 @@ DOTABPWinter2016QuestsPage #QuestPickerHeader {
 #Choose,
 DOTABPWinter2016QuestsPage #QuestLineName {
     font-size: 42px;
-
     padding: 0px;
-
     overflow: noclip;
     margin: 0px;
-
     transition-property: transform, opacity, color;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -224,9 +220,7 @@ DOTABPWinter2016QuestsPage #QuestLineName {
     color: #82a0c5;
     horizontal-align: center;
     margin-top: 52px;
-
     text-shadow: 0px 0px 1px 2 black;
-
     letter-spacing: 1px;
     opacity: 0;
     transition-property: opacity, color;
@@ -268,7 +262,6 @@ DOTABPWinter2016QuestsPage #QuestPickerDropDown {
     transform: rotateZ(0deg) translateY(0px);
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     wash-color: #91bee3;
-
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 2px;
@@ -360,11 +353,9 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
     vertical-align: bottom;
     margin-bottom: 0px;
     margin-right: 16px;
-
     background-image: none;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
     padding: 0px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -459,7 +450,6 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
     vertical-align: bottom;
     opacity: 1;
     background-color: #00000000;
-
     transition-property: opacity, background-color;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -474,7 +464,6 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
     height: 33.333%;
     height: 33.33%;
     width: 100%;
-
     wash-color: black;
     opacity: 0;
     transition-property: transform, wash-color, opacity;
@@ -499,7 +488,6 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
     background-size: cover;
     saturation: 0.5;
     wash-color: #3a6883;
-
     transition-property: saturation, wash-color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -575,12 +563,15 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
 #QuestPickerPanel.Expand #QuestLine1 {
     transition-delay: 0.3s;
 }
+
 #QuestPickerPanel.Expand #QuestLine2 {
     transition-delay: 0.2s;
 }
+
 #QuestPickerPanel.Expand #QuestLine3 {
     transition-delay: 0.1s;
 }
+
 #QuestPickerPanel.Expand #QuestLine4 {
     transition-delay: 0s;
 }
@@ -604,9 +595,7 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
 #ChallengeProgress .ProgressBarLeft {
     background-color: dotalevelgradient;
     box-shadow: #61789caa 0px 0px 4px 0px;
-
     border-radius: 2px;
-
     transition-property: width;
     transition-duration: 1s;
     transition-timing-function: linear;
@@ -650,7 +639,6 @@ DOTABPWinter2016QuestsPage .QuestLineDropDown {
 
 #ActiveQuestContainer {
     opacity: 1;
-
     pre-transform-scale2d: 1;
     transform: translateY(0px);
     transition-property: transform, opacity, pre-transform-scale2d;

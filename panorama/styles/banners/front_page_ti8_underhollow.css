@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #BackgroundImage {
     background-size: cover;
 }
@@ -6,7 +8,6 @@
 #Model_FG {
     width: 100%;
     height: 100%;
-
     transition-property: opacity, wash-color;
     transition-duration: 1s;
     transition-delay: 0s, 1s;
@@ -64,12 +65,15 @@
 .CampaignTitle.Glow1 {
     text-shadow: 0px -2px 6px 2 #0008;
 }
+
 .CampaignTitle.Glow2 {
     text-shadow: 0px -6px 12px 2 #0008;
 }
+
 .CampaignTitle.Glow3 {
     text-shadow: 0px -12px 18px 2 #0006;
 }
+
 .CampaignTitle.Glow4 {
     text-shadow: 0px -18px 26px 2 #0004;
 }

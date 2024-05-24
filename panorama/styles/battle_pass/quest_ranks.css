@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAQuestRanks {
     flow-children: right;
 }
@@ -34,13 +36,11 @@ DOTAQuestRanks {
     border-left: 1px solid #74221b;
     border-right: 1px solid #74221b;
     border-bottom: 1px solid #511511;
-
     color: #5e9a28;
     border-top: 1px solid #3a6918;
     border-left: 1px solid #3f741b;
     border-right: 1px solid #3f741b;
     border-bottom: 1px solid #2b5111;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#051927), to(#246791));
     color: #2c76a9;
     border-top: 1px solid #1b4f74;
@@ -56,7 +56,6 @@ DOTAQuestRanks {
 .QuestRank.QuestTierComplete .Star {
     background-image: url("s2r://panorama/images/status_icons/icon_star_png.vtex");
     wash-color: accentColor;
-
     wash-color: #4bcaff;
 }
 

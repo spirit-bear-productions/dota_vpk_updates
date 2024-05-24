@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .International2023TalentCell {
     overflow: clip;
 }
@@ -21,7 +23,6 @@
     background-image: url("s2r://panorama/images/compendium/international2023/lastchance_popup/talent_stickers_png.vtex");
     background-size: cover;
     background-position: center;
-
     transition-duration: 0.25s;
     transition-property: transform;
     transition-timing-function: ease-out;
@@ -32,6 +33,7 @@
     width: 80%;
     padding: 20px;
 }
+
 .Contents Label {
     width: 100%;
 }
@@ -87,7 +89,6 @@
         color-stop(0.7, primaryColor3),
         to(primaryColor3&00)
     );
-
     transition-duration: 0.1s;
     transition-property: color;
     transition-timing-function: ease-out;

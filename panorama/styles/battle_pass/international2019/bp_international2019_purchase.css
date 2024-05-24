@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .ViewingCompendium .FullScreenBackground {
     background-color: gradient(
         linear,
@@ -12,7 +14,6 @@
 
 #PageInterior {
     background-color: #000001;
-
     width: 100%;
     height: 100%;
 }
@@ -23,11 +24,9 @@
 
 #PurchaseHeader {
     horizontal-align: center;
-
     width: 100%;
     height: 140px;
     margin: 0px;
-
     flow-children: none;
 }
 
@@ -86,6 +85,7 @@
 .PurchaseAsGift #DefaultHeaderText {
     visibility: collapse;
 }
+
 .PurchaseAsGift #GiftHeaderText {
     visibility: visible;
 }
@@ -122,7 +122,6 @@
     width: fill-parent-flow(1);
     height: 320px;
     flow-children: down;
-
     padding: 10px 20px 10px 20px;
 }
 
@@ -230,7 +229,6 @@
 .Tier1-btn {
     background-color: #383d51;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#5a6278), to(#3a4358));
-
     box-shadow: 2px 2px 3px #000000;
     transition-property: background-color;
     transition-duration: 0.1s;
@@ -266,7 +264,6 @@
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#69a1cb), to(#576ad7));
     transition-property: background-color;
     transition-duration: 0.1s;
-
     box-shadow: 2px 2px 3px #000000;
 }
 
@@ -300,7 +297,6 @@
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#d287f2), to(#bc51ee));
     transition-property: background-color;
     transition-duration: 0.1s;
-
     box-shadow: 2px 2px 3px #000000;
 }
 
@@ -418,7 +414,6 @@
         to(#181f21)
     );
     border-top: 1px solid #ffffff06;
-
     width: 100%;
     height: 100%;
 }
@@ -491,7 +486,6 @@
 
 .PurchaseOptionTitle {
     horizontal-align: center;
-
     text-align: center;
     font-size: 32px;
     letter-spacing: 2px;
@@ -539,20 +533,16 @@
 .PurchaseBasicFeaturesTop {
     flow-children: right;
     horizontal-align: center;
-
     height: fit-children;
     width: fit-children;
-
     margin-top: 4px;
 }
 
 .PurchaseBasicFeaturesBot {
     flow-children: right;
     horizontal-align: center;
-
     height: fit-children;
     width: fit-children;
-
     margin-top: 6px;
     margin-bottom: 10px;
 }
@@ -575,16 +565,12 @@
 .PurchaseFeatureImage {
     width: 120px;
     height: 80px;
-
     border-top: 1px solid #ffffff06;
     border-left: 1px solid #ffffff05;
     box-shadow: #00000088 0px 0px 6px 0px;
-
     horizontal-align: center;
-
     background-repeat: no-repeat;
     background-size: contain;
-
     margin-bottom: 5px;
 }
 
@@ -665,7 +651,6 @@
 .PurchaseBundleRewards {
     flow-children: down;
     width: 100%;
-
     margin-bottom: 20px;
 }
 
@@ -725,12 +710,10 @@
 #LevelCircle {
     width: 40px;
     height: 40px;
-
     vertical-align: top;
     margin-top: 14px;
     margin-left: -1px;
     horizontal-align: center;
-
     wash-color: white;
 }
 
@@ -743,7 +726,6 @@
 
 #BasicLevelBadge {
     background-color: #2d3b3f;
-
     border: 1px solid #ffffff09;
 }
 
@@ -764,23 +746,17 @@
 #CourierPreview {
     width: 500px;
     height: 300px;
-
     horizontal-align: left;
     vertical-align: top;
-
     background-color: none;
-
     visibility: collapse;
 }
 
 #Hermes {
     width: 900px;
     height: 900px;
-
     horizontal-align: center;
-
     background-color: none;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_png.vtex") 1;
     transform: translateY(284px) translateX(-660px) scaleX(-1);
 }
@@ -800,7 +776,6 @@
 #ButtonFooterContainer {
     horizontal-align: center;
     vertical-align: center;
-
     flow-children: right;
 }
 

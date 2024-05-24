@@ -1,14 +1,17 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents.NodeTooltipContents {
     min-width: 300px;
     padding: 0px;
-
     brightness: 0.75;
     transition-property: brightness, opacity;
     transition-duration: 0.2s, 0.1s;
 }
+
 .Hidden #Contents.NodeTooltipContents {
     opacity: 0.5;
 }
+
 .Interactive #Contents.NodeTooltipContents {
     brightness: 1;
 }
@@ -16,6 +19,7 @@
 #Contents.NodeTooltipContents .AsyncPanel {
     width: 100%;
 }
+
 #Contents.NodeTooltipContents .AsyncPanel .AsyncFailureContainer {
     height: 100px;
 }
@@ -33,11 +37,13 @@
     width: 100%;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(charcoalLight), to(charcoalDark));
 }
+
 .TooltipSection .TopGoldDash {
     width: 100%;
     height: 3px;
     brightness: 0.4;
 }
+
 .Interactive .TooltipSection .TopGoldDash {
     brightness: 1;
 }
@@ -49,14 +55,17 @@
     padding: 10px 8px 16px;
     border-bottom: 1px solid rgba(212, 235, 255, 0.02);
 }
+
 .TooltipSection .Header .ChapterInfo {
     flow-children: right;
     horizontal-align: center;
     visibility: collapse;
 }
+
 .ShowChapterTitle .TooltipSection .Header .ChapterInfo {
     visibility: visible;
 }
+
 .TooltipSection .Header .ChapterInfo .ChapterTitle {
     color: #ccc;
     text-shadow: 0px 1px 6px black;
@@ -74,6 +83,7 @@
     margin-top: -2px;
     visibility: collapse;
 }
+
 .ShowDialogueTitle .TooltipSection .Header .DialogueTitle {
     visibility: visible;
 }
@@ -95,6 +105,7 @@
 .RewardsSection {
     visibility: collapse;
 }
+
 .HasRewards .RewardsSection {
     visibility: visible;
 }
@@ -108,10 +119,12 @@
     padding: 12px 12px 8px;
     width: 100%;
 }
+
 .RewardsSection #RewardList .RewardContainer {
     width: 100%;
     margin-bottom: 8px;
 }
+
 .RewardsSection #RewardList .RewardContainer .EconItemReward {
     padding-top: 2px;
     transition-property: transform;
@@ -122,6 +135,7 @@
 .RewardsSection #RewardList .RewardContainer.CanClick:hover {
     brightness: 1.5;
 }
+
 .RewardsSection #RewardList .RewardContainer.CanClick:hover .EconItemReward {
     transition-property: transform;
     transition-duration: 0.2s;
@@ -139,6 +153,7 @@
     width: 100%;
     visibility: collapse;
 }
+
 .HasShowcaseRewards .RewardsSection #ShowcaseRewardsContainer {
     visibility: visible;
 }
@@ -148,16 +163,19 @@
     width: fit-children;
     flow-children: right;
 }
+
 .RewardsSection #ShowcaseRewardsContainer #ShowcaseRewardsList DOTAShowcaseDecoration {
     width: 60px;
     height: 60px;
 }
+
 .RewardsSection #ShowcaseRewardsContainer #ShowcaseRewardsList DOTAShowcaseDecoration:hover {
     brightness: 1.5;
     transition-property: transform;
     transition-duration: 0.2s;
     transform: scale3d(1.04, 1.04, 1);
 }
+
 .RewardsSection #ShowcaseRewardsContainer #ShowcaseRewardsList DOTAShowcaseDecoration:active {
     brightness: 0.5;
 }
@@ -186,6 +204,7 @@
         to(rgba(255, 255, 255, 0))
     );
 }
+
 .RewardStatus .RewardStatusInfo,
 .RewardStatus .EncounterStatusInfo,
 .EncounterStatus .RewardStatusInfo,
@@ -236,6 +255,7 @@
     wash-color: winnerGreen;
     img-shadow: 0px 0px 12px winnerGreen&22;
 }
+
 .RewardsUnlocked .RewardStatus Label {
     color: winnerGreen;
     text-shadow: 0px 0px 12px winnerGreen&22;
@@ -251,6 +271,7 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     margin: 0;
     margin-bottom: 4px;
 }
+
 .HasDialogue.EncounterUnlocked DOTACrownfallButton.ReplayDialogue.Secondary,
 .HasDialogue.RewardsUnlocked DOTACrownfallButton.ReplayDialogue.Secondary {
     visibility: visible;
@@ -261,12 +282,14 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     horizontal-align: center;
     width: 100%;
 }
+
 .EconItemReward .ImageContainer {
     width: 120px;
     height: 80px;
     horizontal-align: center;
     margin-bottom: 8px;
 }
+
 .EconItemReward .ImageContainer #ItemImage {
     width: 100%;
     height: 100%;
@@ -281,7 +304,6 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     font-weight: bold;
     font-size: 32px;
     margin: 2px 6px;
-
     visibility: collapse;
 }
 
@@ -294,6 +316,7 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     horizontal-align: center;
     width: 100%;
 }
+
 .EconItemReward .Details .ItemName {
     color: LightestGrey;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);
@@ -305,12 +328,14 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     flow-children: down;
     horizontal-align: center;
 }
+
 .ChatWheelSprayReward .ImageContainer {
     width: 220px;
     height: 200px;
     horizontal-align: center;
     margin-bottom: 8px;
 }
+
 .ChatWheelSprayReward .ImageContainer #ItemImage {
     width: 100%;
     height: 100%;
@@ -321,6 +346,7 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     vertical-align: middle;
     horizontal-align: center;
 }
+
 .ChatWheelSprayReward .Details .ItemName {
     color: LightestGrey;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);
@@ -330,6 +356,7 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     flow-children: down;
     horizontal-align: center;
 }
+
 .ActionListReward #ActionList {
     width: 220px;
     horizontal-align: center;
@@ -342,6 +369,7 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     horizontal-align: center;
     text-align: center;
 }
+
 .ActionListReward .Details .ItemName {
     color: LightestGrey;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);
@@ -360,6 +388,7 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     margin-top: -8px;
     margin-bottom: 16px;
 }
+
 .HasActionListReward .ActionListRewardInfo {
     visibility: visible;
 }
@@ -368,6 +397,7 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     flow-children: down;
     horizontal-align: center;
 }
+
 .TrophyReward #TrophyImage {
     width: 120px;
     height: 120px;
@@ -385,6 +415,7 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     flow-children: down;
     horizontal-align: center;
 }
+
 .CandyShopRerollChargesItem .CandyShopRerollChargeImage {
     width: 120px;
     height: 120px;
@@ -405,6 +436,7 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
 .EncounterSection {
     visibility: collapse;
 }
+
 .HasEncounter .EncounterSection {
     visibility: visible;
 }
@@ -415,15 +447,15 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     margin-bottom: 8px;
     padding: 12px 12px 8px;
 }
+
 .EncounterSection .EncounterDetails #EncounterImage {
     width: 80px;
     height: 80px;
     margin-bottom: 8px;
-
     horizontal-align: center;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(gold1), to (gold3));
 }
+
 .HideEncounterImage .EncounterSection .EncounterDetails #EncounterImage {
     visibility: collapse;
 }
@@ -432,6 +464,7 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     flow-children: down;
     vertical-align: middle;
 }
+
 .EncounterSection .EncounterDetails .EncounterInfo .EncounterName {
     horizontal-align: center;
     text-align: center;
@@ -450,9 +483,11 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
     0% {
         brightness: 0.7;
     }
+
     50% {
         brightness: 1.3;
     }
+
     100% {
         brightness: 0.7;
     }

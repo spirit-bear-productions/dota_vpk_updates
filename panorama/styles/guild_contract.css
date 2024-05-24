@@ -1,9 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAGuildContract {
     width: 128px;
     height: 214px;
-
     flow-children: down;
-
     background-image: url("s2r://panorama/images/guilds/contracts/contract_backer_slot_0_psd.vtex");
     background-size: 100%;
 }
@@ -11,9 +11,11 @@ DOTAGuildContract {
 #Slot0 DOTAGuildContract {
     background-image: url("s2r://panorama/images/guilds/contracts/contract_backer_slot_0_psd.vtex");
 }
+
 #Slot1 DOTAGuildContract {
     background-image: url("s2r://panorama/images/guilds/contracts/contract_backer_slot_1_psd.vtex");
 }
+
 #Slot2 DOTAGuildContract {
     background-image: url("s2r://panorama/images/guilds/contracts/contract_backer_slot_2_psd.vtex");
 }
@@ -21,9 +23,11 @@ DOTAGuildContract {
 #Slot0.SlotState_Available DOTAGuildContract {
     background-image: url("s2r://panorama/images/guilds/contracts/contract_backer_slot_0_available_psd.vtex");
 }
+
 #Slot1.SlotState_Available DOTAGuildContract {
     background-image: url("s2r://panorama/images/guilds/contracts/contract_backer_slot_1_available_psd.vtex");
 }
+
 #Slot2.SlotState_Available DOTAGuildContract {
     background-image: url("s2r://panorama/images/guilds/contracts/contract_backer_slot_2_available_psd.vtex");
 }
@@ -31,9 +35,11 @@ DOTAGuildContract {
 #Slot0.SlotState_SlotLocked DOTAGuildContract {
     background-image: url("s2r://panorama/images/guilds/contracts/contract_backer_slot_0_locked_psd.vtex");
 }
+
 #Slot1.SlotState_SlotLocked DOTAGuildContract {
     background-image: url("s2r://panorama/images/guilds/contracts/contract_backer_slot_1_locked_psd.vtex");
 }
+
 #Slot2.SlotState_SlotLocked DOTAGuildContract {
     background-image: url("s2r://panorama/images/guilds/contracts/contract_backer_slot_2_locked_psd.vtex");
 }
@@ -56,12 +62,10 @@ DOTAGuildContract {
     margin-top: 4px;
     width: 19px;
     height: 19px;
-
     background-image: url("s2r://panorama/images/guilds/contracts/contracts_star_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     visibility: collapse;
 }
 
@@ -76,11 +80,9 @@ DOTAGuildContract {
 
 #ContractImageContainer {
     margin-top: 23px;
-
     width: 94px;
     height: 94px;
     horizontal-align: center;
-
     background-color: #111;
 }
 
@@ -106,14 +108,11 @@ DOTAGuildContract {
     horizontal-align: center;
     width: 100%;
     height: 100%;
-
     border-top: 1px solid #ffffff44;
     border-left: 1px solid #ffffff22;
     border-right: 1px solid #ffffff00;
     border-bottom: 1px solid #333;
-
     box-shadow: 0px 0px 6px 0px #000000aa;
-
     visibility: collapse;
 }
 
@@ -123,7 +122,6 @@ DOTAGuildContract {
     border-left: 1px solid #ffffff11;
     border-right: 1px solid #ffffff11;
     border-bottom: 1px solid #333;
-
     box-shadow: 0px 0px 4px 0px #000000aa;
 }
 
@@ -157,7 +155,6 @@ DOTAGuildContract {
     text-align: center;
     vertical-align: center;
     font-size: 14px;
-
     margin-bottom: 2px;
     color: #000000;
     height: 60px;

@@ -1,16 +1,16 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACompDPCPlayerCardsPage.DashboardPage {
     width: 100%;
     height: 100%;
     transition-property: transform, opacity, wash-color, pre-transform-scale2d;
     transition-duration: 0.32s;
-
     opacity: 0;
     pre-transform-scale2d: 0.975;
 }
 
 DOTACompDPCPlayerCardsPage.PageVisible {
     opacity: 1;
-
     pre-transform-scale2d: 1;
 }
 
@@ -82,7 +82,6 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
         color-stop(0.8, #daab66),
         to(#b17829)
     );
-
     letter-spacing: 1px;
     font-size: 14px;
 }
@@ -176,6 +175,7 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
     horizontal-align: center;
     opacity: 0;
 }
+
 .CardPackScenePanel.SceneLoaded {
     opacity: 1;
 }
@@ -280,7 +280,6 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
         color-stop(0.8, #daab66),
         to(#b17829)
     );
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
 }
@@ -302,7 +301,6 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
     transition-timing-function: ease-in-out;
     transform: translateY(-20px) translateX(-300px);
     opacity: 1;
-
     pre-transform-scale2d: 0.8;
 }
 
@@ -324,7 +322,6 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
 #ClaimInitialPacksButton,
 #ClaimTeamPacksButton {
     margin-top: 10px;
-
     visibility: collapse;
 }
 
@@ -386,9 +383,7 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#201a25), to(#2f2a36));
     border-color: white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#875794), to(#534258));
-
     margin-right: 12px;
-
     transition-property: background-color, border-color;
     transition-duration: 0.05s;
     transition-timing-function: linear;
@@ -404,11 +399,9 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
     width: 32px;
     height: 32px;
     wash-color: #c7b0cf;
-
     transition-property: background-color, opacity;
     transition-duration: 0.05s;
     transition-timing-function: linear;
-
     background-image: url("s2r://panorama/images/control_icons/icon_recycle_png.vtex");
     background-size: 24px 24px;
     background-repeat: no-repeat;
@@ -432,15 +425,11 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
 .NoTeams #NoTeamsLabel {
     font-size: 20px;
     font-weight: bold;
-
     width: 420px;
     margin-bottom: 50px;
-
     vertical-align: center;
     horizontal-align: center;
-
     color: white;
-
     margin-left: 200px;
 }
 
@@ -482,7 +471,6 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
     width: 100%;
     height: 100%;
     horizontal-align: center;
-
     flow-children: right-wrap;
     overflow: clip scroll;
     padding-right: 12px;
@@ -498,14 +486,11 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
     padding-right: 4px;
     padding-top: 2px;
     padding-bottom: 2px;
-
     horizontal-align: right;
     vertical-align: bottom;
-
     border-radius: 5px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#717d85), to(#373f47));
     border: 1px solid black;
-
     visibility: collapse;
 }
 
@@ -531,17 +516,12 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
 .TeamContainer {
     width: 654px;
     height: 220px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#111111cc), to(#000c));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#11111100), to(#000c));
-
     border-radius: 6px;
-
     padding: 8px;
     margin: 6px 10px;
-
     border-bottom: 1px solid #222222;
-
     flow-children: down;
 }
 
@@ -570,18 +550,15 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
     border-right: 1px solid #00000085;
     vertical-align: middle;
     height: 32px;
-
     flow-children: right;
-
     border-top: 1px solid #ffffff22;
     border-bottom: 1px solid #00000088;
     padding: 4px 12px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
-
     visibility: collapse;
 }
+
 .TeamPackExists #TeamPackPurchaseButton {
     visibility: visible;
 }
@@ -609,12 +586,11 @@ DOTACompDPCPlayerCardsPage:not(.PageVisible) {
     flow-children: right;
     margin-left: 12px;
     tooltip-position: top;
-
     transition-property: brightness;
     transition-duration: 0.2s;
-
     visibility: collapse;
 }
+
 .TeamPackExists #OwnedTeamPacks {
     visibility: visible;
 }

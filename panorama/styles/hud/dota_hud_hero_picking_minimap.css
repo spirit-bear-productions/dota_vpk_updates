@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroPickingMinimap {
     background-color: black;
     background-image: url("s2r://panorama/images/minimap/dotamap_psd.vtex");
@@ -25,12 +27,9 @@ DOTAHeroPickingMinimap {
     background-image: url("s2r://panorama/images/minimap/minimaplaneglow_botdire_psd.vtex");
     background-size: cover;
     background-repeat: no-repeat;
-
     background-size: 110%;
     background-position: 50%;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.113s;
     transition-timing-function: ease-in-out;
@@ -120,12 +119,15 @@ DOTAHeroPickingMinimap {
 #TopDireGlow {
     background-image: url("s2r://panorama/images/minimap/minimaplaneglow_topdire_psd.vtex");
 }
+
 #JungleDireGlow {
     background-image: url("s2r://panorama/images/minimap/minimaplaneglow_jungledire_psd.vtex");
 }
+
 #BottomDireGlow {
     background-image: url("s2r://panorama/images/minimap/minimaplaneglow_botdire_psd.vtex");
 }
+
 #MidDireGlow {
     background-image: url("s2r://panorama/images/minimap/minimaplaneglow_middire_psd.vtex");
 }
@@ -133,12 +135,15 @@ DOTAHeroPickingMinimap {
 #TopRadiantGlow {
     background-image: url("s2r://panorama/images/minimap/minimaplaneglow_topradiant_psd.vtex");
 }
+
 #JungleRadiantGlow {
     background-image: url("s2r://panorama/images/minimap/minimaplaneglow_jungleradiant_psd.vtex");
 }
+
 #BottomRadiantGlow {
     background-image: url("s2r://panorama/images/minimap/minimaplaneglow_botradiant_psd.vtex");
 }
+
 #MidRadiantGlow {
     background-image: url("s2r://panorama/images/minimap/minimaplaneglow_midradiant_psd.vtex");
 }
@@ -148,9 +153,7 @@ DOTAHeroPickingMinimap {
     width: 34px;
     height: 34px;
     padding: 1px;
-
     opacity: 0;
-
     transition-property: position, opacity;
     transition-duration: 0.5s;
 }
@@ -159,6 +162,7 @@ DOTAHeroPickingMinimap {
 #WardPlacements > .DesiredWardPlacement.Visible {
     opacity: 1;
 }
+
 #HeroImages > DOTAHeroPickingHeroIcon.Destroying,
 #WardPlacements > .DesiredWardPlacement.Destroying {
     opacity: 0;
@@ -181,7 +185,6 @@ DOTAHeroPickingMinimap {
     background-size: 16px 16px;
     background-position: center;
     background-repeat: no-repeat;
-
     wash-color: #00ff00;
 }
 
@@ -198,14 +201,11 @@ DOTAHeroPickingMinimap {
 
 #LaneNames > Panel {
     flow-children: down;
-
     background-color: #0009;
     padding: 4px 8px;
     border-radius: 4px;
-
     opacity: 0;
     transform: translateX(-10px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-delay: 0.2s;
@@ -241,34 +241,41 @@ DOTAHeroPickingMinimap {
     margin-left: 20%;
     margin-top: 20%;
 }
+
 #MidDireName {
     horizontal-align: right;
     margin-right: 40%;
     margin-top: 22%;
 }
+
 #BottomDireName {
     horizontal-align: right;
     margin-top: 45%;
     margin-right: 15%;
 }
+
 #JungleDireName {
     horizontal-align: right;
     margin-top: 26%;
     margin-right: 65%;
 }
+
 #TopRadiantName {
     margin-left: 23%;
     margin-top: 44%;
 }
+
 #MidRadiantName {
     margin-left: 36%;
     margin-top: 68%;
 }
+
 #BottomRadiantName {
     vertical-align: bottom;
     margin-bottom: 20%;
     margin-left: 42%;
 }
+
 #JungleRadiantName {
     vertical-align: bottom;
     horizontal-align: right;
@@ -280,13 +287,11 @@ DOTAHeroPickingMinimap {
     height: 100%;
     width: 100%;
     opacity: 1;
-
     background-size: 110%;
     background-position: 50%;
     background-repeat: no-repeat;
     background-position: center;
     border: 4px solid black;
-
     transition-property: opacity;
     transition-duration: 0.8s;
     transition-timing-function: ease-in-out;

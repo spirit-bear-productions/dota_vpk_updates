@@ -1,14 +1,15 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define backgroundVeryDimColor: #121c03;
 @define backgroundDimColor: #1b2705;
 @define backgroundMediumColor: #05270d;
 @define backgroundBrightColor: #5a9124;
 @define backgroundVeryBrightColor: #d1ffa5;
-
 @define bp_battleLevelColor: #88cd4a;
-
 .PredictionsBody {
     flow-children: down;
 }
+
 #InvitesCentered {
     width: 1392px;
     horizontal-align: center;
@@ -58,6 +59,7 @@
     99% {
         wash-color: white;
     }
+
     to {
         opacity: 1;
         pre-transform-scale2d: 1;
@@ -134,12 +136,15 @@
     visibility: visible;
     opacity: 1;
 }
+
 .Revealed #TeamName {
     visibility: visible;
 }
+
 .Revealed .Countdown {
     visibility: collapse;
 }
+
 .Title {
     color: white;
     font-size: 36px;
@@ -159,7 +164,6 @@
 
 #RegionalFrames {
     flow-children: right;
-
     horizontal-align: center;
     margin-top: 15px;
 }
@@ -186,6 +190,7 @@
     background-repeat: no-repeat;
     box-shadow: black 6px 0px 12px;
 }
+
 .RegionalTitle {
     width: 100%;
     text-align: center;
@@ -197,16 +202,19 @@
     letter-spacing: 3px;
     margin-top: 8px;
 }
+
 .RegionalTeamContainer {
     flow-children: down;
     width: 100%;
     height: 100%;
     margin-top: 10px;
 }
+
 .RegionalFrame Label {
     text-align: center;
     width: 100%;
 }
+
 .TeamContainer {
     width: 100%;
     height: 22px;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #DVRControls,
 #ReplayControls {
     horizontal-align: center;
@@ -37,17 +39,13 @@ DOTASpectatorDVR.ForceVisible #ReplayControls {
 DOTASpectatorDVR #ExpandButton {
     background-color: #222222;
     border: 1px solid #444444;
-
     transition-property: position, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     y: 0px;
     x: 30px;
-
     width: 32px;
     height: 32px;
-
     horizontal-align: left;
     vertical-align: bottom;
 }
@@ -190,7 +188,6 @@ DOTASpectatorDVR.DemoFile #GoLiveButton {
     background-repeat: no-repeat;
     vertical-align: middle;
     flow-children: right;
-
     padding: 2px 5px;
     background-color: #00000090;
     width: 30px;

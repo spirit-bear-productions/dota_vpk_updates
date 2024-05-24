@@ -1,5 +1,6 @@
-@define unlearnedWashColor:  #666666;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define unlearnedWashColor: #666666;
 DOTAAbilityPanel {
     visibility: visible;
     transition-property: width;
@@ -99,32 +100,35 @@ DOTAAbilityPanel.Hidden {
     opacity: 0;
     margin: 2px;
     pre-transform-scale2d: 1.2;
-
     transition-property: opacity, pre-transform-scale2d;
     transition-timing-function: ease-in-out;
     transition-duration: 0.22s;
 }
+
 .unitmuted.InventoryItem #AbilityDisabledOverlay {
     background-image: url("s2r://panorama/images/hud/reborn/spells_silenced_item_psd.vtex");
     opacity: 1;
     pre-transform-scale2d: 1;
 }
+
 .passives_disabled #AbilityDisabledOverlay {
     background-image: url("s2r://panorama/images/hud/reborn/passives_broken_psd.vtex");
     opacity: 1;
     pre-transform-scale2d: 1;
 }
+
 .rooted_or_leashed #AbilityDisabledOverlay {
     background-image: url("s2r://panorama/images/hud/reborn/spells_silenced_psd.vtex");
-
     opacity: 1;
     pre-transform-scale2d: 1;
 }
+
 .disarmed #AbilityDisabledOverlay {
     background-image: url("s2r://panorama/images/hud/reborn/spells_silenced_psd.vtex");
     opacity: 1;
     pre-transform-scale2d: 1;
 }
+
 .silenced #AbilityDisabledOverlay {
     background-image: url("s2r://panorama/images/hud/reborn/spells_silenced_psd.vtex");
     opacity: 1;
@@ -247,13 +251,10 @@ DOTAAbilityPanel.Hidden {
 #LevelUpTab {
     width: 100%;
     height: 36px;
-
     margin-bottom: -4px;
     opacity: 0;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
-
     z-index: 2;
     transition-property: opacity, brightness;
     transition-timing-function: ease-in-out;
@@ -263,16 +264,13 @@ DOTAAbilityPanel.Hidden {
 #LevelUpButton {
     width: 100%;
     height: 36px;
-
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_psd.vtex");
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     transition-property: opacity, brightness, pre-transform-scale2d;
     transition-timing-function: ease-in-out;
     transition-duration: 0.12s;
-
     margin-bottom: -4px;
 }
 
@@ -280,17 +278,13 @@ DOTAAbilityPanel.Hidden {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_learnmode_psd.vtex");
     height: 92px;
     width: 72px;
-
     horizontal-align: center;
     margin-top: 14px;
     z-index: 6;
-
     background-size: 100% 100%;
     background-position: 100% 100%;
     background-repeat: no-repeat;
-
     visibility: collapse;
-
     transition-property: opacity, brightness, pre-transform-scale2d;
     transition-timing-function: ease-in-out;
     transition-duration: 0.12s;
@@ -307,12 +301,15 @@ DOTAAbilityPanel.Hidden {
 #Ability0 #LevelUpButton {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_2_psd.vtex");
 }
+
 #Ability1 #LevelUpButton {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_2_psd.vtex");
 }
+
 #Ability2 #LevelUpButton {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_4_psd.vtex");
 }
+
 #Ability3 #LevelUpButton {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_5_psd.vtex");
 }
@@ -320,9 +317,11 @@ DOTAAbilityPanel.Hidden {
 .FiveAbilities #Ability2 #LevelUpButton {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_3_psd.vtex");
 }
+
 .FiveAbilities #Ability3 #LevelUpButton {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_4_psd.vtex");
 }
+
 .FiveAbilities #Ability4 #LevelUpButton {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_5_psd.vtex");
 }
@@ -330,12 +329,15 @@ DOTAAbilityPanel.Hidden {
 .SixAbilities #Ability2 #LevelUpButton {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_3_psd.vtex");
 }
+
 .SixAbilities #Ability3 #LevelUpButton {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_3_psd.vtex");
 }
+
 .SixAbilities #Ability4 #LevelUpButton {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_4_psd.vtex");
 }
+
 .SixAbilities #Ability5 #LevelUpButton {
     background-image: url("s2r://panorama/images/hud/reborn/levelup_button_5_psd.vtex");
 }
@@ -425,7 +427,6 @@ DOTAAbilityPanel.Hidden {
 #AbilityButton {
     width: 100%;
     height: 100%;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00000000), to(#00000000));
     transition-property: pre-transform-scale2d, brightness, saturation, background-color, opacity;
     transition-duration: 0.06s, 0.1s;
@@ -441,7 +442,6 @@ DOTAAbilityPanel.Hidden {
     height: 100%;
     z-index: -1;
     margin: 9px;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.12s;
     transition-timing-function: ease-in;
@@ -465,6 +465,7 @@ DOTAAbilityPanel.Hidden {
     saturation: 0.5;
     brightness: 0.7;
 }
+
 .passives_disabled #AbilityImage {
     saturation: 0.4;
     brightness: 0.7;
@@ -514,6 +515,7 @@ DOTAAbilityPanel.Hidden {
 .ability_muted #CooldownTimer {
     color: red;
 }
+
 .ability_phase #CooldownTimer {
     visibility: collapse;
 }
@@ -586,6 +588,7 @@ DOTAAbilityPanel.Hidden {
 .show_item_charges_border #ItemChargesBorder {
     visibility: visible;
 }
+
 .show_item_charges_border #ItemChargesContainer {
     vertical-align: bottom;
     horizontal-align: left;
@@ -726,7 +729,6 @@ DOTAAbilityPanel.Hidden {
     font-size: 14px;
     font-weight: bold;
     text-shadow: 0px 0px 3px 3 #000000;
-
     vertical-align: bottom;
     horizontal-align: left;
 }
@@ -777,7 +779,6 @@ DOTAAbilityPanel.Hidden {
     margin-left: -4px;
     z-index: 16;
     border-radius: 20%;
-
     vertical-align: top;
     horizontal-align: left;
     min-width: 14px;
@@ -785,7 +786,6 @@ DOTAAbilityPanel.Hidden {
     max-width: 70px;
     max-height: 15px;
     white-space: nowrap;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#393939), to(#414849));
     border: 1px solid #ffffff05;
     box-shadow: fill black 2px 1px 1px 2px;
@@ -809,11 +809,9 @@ DOTAAbilityPanel.Hidden {
     horizontal-align: left;
     min-width: 18px;
     flow-children: down;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#393939), to(#414849));
     border: 1px solid #ffffff05;
     box-shadow: fill black 2px 1px 1px 2px;
-
     visibility: collapse;
 }
 
@@ -839,12 +837,10 @@ DOTAAbilityPanel.Hidden {
     vertical-align: top;
     horizontal-align: left;
     min-width: 31px;
-
     background-color: #212726;
     border-radius: 4px;
     border: 1px solid black;
     box-shadow: fill #000000dd 1px 0px 2px 2px;
-
     visibility: collapse;
 }
 
@@ -902,10 +898,8 @@ DOTAAbilityPanel.Hidden {
 .LevelPanel {
     width: 17px;
     height: 16px;
-
     background-image: url("s2r://panorama/images/hud/pip_off_png.vtex");
     background-size: 100% 100%;
-
     visibility: visible;
 }
 
@@ -958,7 +952,6 @@ DOTAAbilityPanel.Hidden {
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
-
     opacity: 0.00001;
     animation-name: none;
     animation-duration: 0.4s;
@@ -1182,7 +1175,6 @@ DOTAAbilityPanel.Hidden {
     height: 100%;
     opacity: 1;
     margin: 3px;
-
     transition-property: background-image;
     transition-duration: 0.16s;
     transition-timing-function: ease-in-out;
@@ -1449,7 +1441,6 @@ DOTAAbilityPanel.Hidden {
     z-index: 1;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00ff0000), to(#00ff0000));
     visibility: visible;
-
     transition-property: brightness, background-color;
     transition-duration: 0.12s;
     transition-timing-function: ease-in;
@@ -1533,7 +1524,6 @@ DOTAAbilityPanel.Hidden {
     width: 64px;
     height: 64px;
     vertical-align: bottom;
-
     background-image: url("s2r://panorama/images/hud/reborn/active_ability_border_psd.vtex");
     background-size: 58px 58px;
     background-position: 50% 50%;
@@ -1555,7 +1545,6 @@ DOTAAbilityPanel.Hidden {
 .Reborn #inventory #ButtonWell {
     width: fit-children;
     height: fit-children;
-
     background-size: 0px;
 }
 
@@ -1581,7 +1570,6 @@ DOTAAbilityPanel.Hidden {
     contrast: 0.9;
     saturation: 0.6;
     wash-color: #000000a4;
-
     pre-transform-scale2d: 1;
     contrast: 1;
     saturation: 0.6;
@@ -1616,7 +1604,6 @@ DOTAAbilityPanel.Hidden {
 
 .Reborn #AbilityLevelContainer {
     margin-top: 0px;
-
     margin-bottom: 4px;
     margin-bottom: 6px;
     margin-bottom: 16px;
@@ -1667,7 +1654,6 @@ DOTAAbilityPanel.Hidden {
     height: 4px;
     margin: 3px 2px 3px 2px;
     border-radius: 1px;
-
     background-image: none;
     background-size: 100% 100%;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#111111ff), to(#000000ff));
@@ -1706,10 +1692,12 @@ DOTAAbilityPanel.Hidden {
         opacity: 1;
         pre-transform-scale2d: 1;
     }
+
     50% {
         opacity: 1;
         pre-transform-scale2d: 1.1;
     }
+
     100% {
         opacity: 1;
         pre-transform-scale2d: 1;
@@ -1730,16 +1718,13 @@ DOTAAbilityPanel.Hidden {
 .Reborn .InventoryItem #ButtonSize {
     width: 60px;
     height: 45px;
-
     background-size: cover;
     overflow: noclip;
     background-color: #1a1c1d88;
-
     margin-left: 3px;
     margin-right: 3px;
     margin-top: 2px;
     margin-bottom: 2px;
-
     background-image: url("s2r://panorama/images/hud/reborn/inventory_item_well_psd.vtex");
     box-shadow: fill #000000aa 0px 0px 2px 0px;
 }
@@ -1887,9 +1872,7 @@ DOTAAbilityPanel.Hidden {
     background-color: #2127268a;
     box-shadow: fill #000000bb 1px 0px 1px 1px;
     border-radius: 4px;
-
     border-radius: 2px;
-
     border: 1px solid black;
 }
 
@@ -1944,7 +1927,6 @@ DOTAAbilityPanel.Hidden {
 .Reborn .QueryUnit #ButtonSize {
     width: 64px;
     height: 64px;
-
     width: 39px;
     height: 39px;
 }
@@ -2038,6 +2020,7 @@ DOTAAbilityPanel.Hidden {
 .Reborn .QueryUnit .active_level.LevelPanel {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#e7d291), to(#887845));
 }
+
 .Reborn .QueryUnit.FiveQueryAbilities .LevelPanel {
     width: 7px;
     height: 3px;
@@ -2085,7 +2068,6 @@ DOTAAbilityPanel.Hidden {
     vertical-align: middle;
     margin-top: -3px;
     z-index: 0;
-
     transition-property: brightness, saturation;
     transition-duration: 0.18s;
     transition-timing-function: ease-in-out;
@@ -2192,7 +2174,6 @@ DOTAAbilityPanel.Hidden {
     border-radius: 50%;
     border: 5px solid #000000;
     background-color: none;
-
     margin: 0px;
 }
 
@@ -2200,7 +2181,6 @@ DOTAAbilityPanel.Hidden {
     border-radius: 50%;
     border: 5px solid #000000;
     background-color: rgba(0, 0, 0, 0.8);
-
     margin: 0px;
 }
 
@@ -2326,7 +2306,6 @@ DOTAAbilityPanel.Hidden {
     vertical-align: middle;
     margin-top: -3px;
     z-index: 0;
-
     transition-property: brightness, saturation;
     transition-duration: 0.18s;
     transition-timing-function: ease-in-out;

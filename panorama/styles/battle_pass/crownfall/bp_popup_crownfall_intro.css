@@ -1,10 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel.CrownfallIntro {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#202b36), to(#0a111c));
     width: 1000px;
     padding: 0px;
     border: 0;
     box-shadow: 0px 16px 64px -4px rgba(0, 0, 0, 0.6);
-
     background-image: url("s2r://panorama/images/events/crownfall/backgrounds/bg_png.vtex");
     background-size: cover;
     background-position: center;
@@ -29,16 +30,20 @@
     background-color: #222;
     visibility: collapse;
 }
+
 .LeftNavigation .SectionButton {
     margin-left: 20px;
 }
+
 .LeftNavigation .SectionButton Label {
     font-size: 34px;
     text-transform: uppercase;
 }
+
 .LeftNavigation .SectionButton:hover {
     brightness: 1.5;
 }
+
 .LeftNavigation .SectionButton:active {
     brightness: 0.5;
 }
@@ -57,11 +62,11 @@
     flow-children: down;
     overflow: squish scroll;
 }
+
 .MainContainer .Content {
     width: 100%;
     flow-children: right;
     horizontal-align: center;
-
     padding: 40px 0px 56px;
     border-bottom: 1px solid rgba(208, 233, 255, 0.128);
     border-brush: gradient(
@@ -76,6 +81,7 @@
     );
     background-color: gradient(radial, 50% 0%, 0% 0%, 50% 80%, from(rgba(119, 142, 171, 0.1)), to(gold3&00));
 }
+
 .MainContainer .Content .ImageColumn {
     width: 240px;
     height: 240px;
@@ -90,6 +96,7 @@
         to(rgba(33, 43, 62, 0))
     );
 }
+
 .MainContainer .Content .ImageColumn .ImageShadow {
     horizontal-align: center;
     width: 90%;
@@ -113,6 +120,7 @@
     margin-left: 60px;
     flow-children: down;
 }
+
 .MainContainer .Content .TextColumn Label {
     font-size: 17px;
     margin-top: 10px;
@@ -120,6 +128,7 @@
     color: LighterGrey;
     text-shadow: 0px 2px 10px black;
 }
+
 .MainContainer .Content .TextColumn Label b {
     font-weight: semi-bold;
     color: #ddd;
@@ -128,7 +137,6 @@
 .MainContainer .Content .TextColumn Label.Bullet {
     padding-left: 24px;
     margin-left: 16px;
-
     background-image: url("s2r://panorama/images/events/crownfall/control_icons/bullet_png.vtex");
     background-position: 0px 8px;
     background-repeat: no-repeat;
@@ -160,6 +168,7 @@
     flow-children: right;
     margin-top: 32px;
 }
+
 .Characters .CharacterIcon {
     width: 80px;
     height: width-percentage(100%);
@@ -173,6 +182,7 @@
     vertical-align: center;
     ui-scale: 170%;
 }
+
 #ExploreImageContainer .Node.FinishNode {
     width: 180px;
     height: 240px;
@@ -196,7 +206,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     wash-color: #32404f;
     width: 90px;
     height: width-percentage(100%);
@@ -207,6 +216,7 @@
     width: 100%;
     height: 100%;
 }
+
 #ExploreImageContainer .Node #NodeContents #AnimatedImage {
     texture-sampling: point;
     vertical-align: middle;
@@ -244,10 +254,12 @@
     horizontal-align: center;
     overflow: noclip;
 }
+
 #TokensImageContainer .TokensContainer DOTACrownfallToken {
     ui-scale: 220%;
     vertical-align: center;
 }
+
 #TokensImageContainer .TokensContainer DOTACrownfallToken#1 {
     horizontal-align: left;
     blur: gaussian(0.4px);
@@ -285,6 +297,7 @@
     horizontal-align: center;
     margin-top: 24px;
 }
+
 #StoryImageContainer .StoryBlocksContainer .StoryBlock {
     width: 100px;
     height: width-percentage(100%);
@@ -292,10 +305,10 @@
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1d71ad), to(#0d2a65));
     border: 1.5px solid rgba(255, 255, 255, 1);
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(gold1), to(gold3));
-
     vertical-align: center;
     margin: 24px;
 }
+
 #StoryImageContainer .StoryBlocksContainer .StoryBlock Image {
     horizontal-align: center;
     vertical-align: center;
@@ -312,7 +325,6 @@
     blur: gaussian(0.3px);
     brightness: 0.6;
     width: 72px;
-
     border: 1.5px solid rgba(255, 255, 255, 0.1);
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#59503b48), to(#5f4e347b));
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(gold1), to(gold3));
@@ -330,7 +342,6 @@
     blur: gaussian(0.3px);
     brightness: 0.6;
     width: 72px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#080d10), to(#15181e));
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(DarkGrey), to(DarkGrey));
     box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.4);
@@ -348,6 +359,7 @@
     horizontal-align: center;
     vertical-align: center;
 }
+
 #CoinsImageContainer .CoinContainer .NodeBackground,
 #CoinsImageContainer .CoinContainer .NodeBackgroundInner {
     width: 220px;
@@ -357,6 +369,7 @@
     vertical-align: center;
     transform: scaleY(0.5);
 }
+
 #CoinsImageContainer .CoinContainer .NodeBackground.Back,
 #CoinsImageContainer .CoinContainer .NodeBackgroundInner.Back {
     margin-top: 8px;
@@ -393,6 +406,7 @@
     horizontal-align: center;
     vertical-align: center;
 }
+
 #CandyImageContainer .CandyContainer .NodeBackground,
 #CandyImageContainer .CandyContainer .NodeBackgroundInner {
     width: 280px;
@@ -402,6 +416,7 @@
     vertical-align: center;
     transform: scaleY(0.5);
 }
+
 #CandyImageContainer .CandyContainer .NodeBackground.Back,
 #CandyImageContainer .CandyContainer .NodeBackgroundInner.Back {
     margin-top: 8px;
@@ -440,6 +455,7 @@
     vertical-align: center;
     ui-scale: 120%;
 }
+
 #TrinketsImageContainer .TricketsContainer .Trinket {
     texture-sampling: point;
 }
@@ -470,6 +486,7 @@
 .ShowSchedule #NavSchedule Label {
     color: gold1;
 }
+
 .ShowTokens #NavTokens:hover,
 .ShowStory #NavStory:hover,
 .ShowCoins #NavCoins:hover,
@@ -509,6 +526,7 @@
     min-height: 120px;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.5);
 }
+
 .WelcomeTitleContainer .WelcomeTitle {
     vertical-align: center;
     horizontal-align: center;

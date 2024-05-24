@@ -1,8 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .MapBackground {
     width: 100%;
     height: 100%;
     texture-sampling: point;
-
     background-image: url("s2r://panorama/images/events/crownfall/overworld/druud/druud_base_map_01_psd.vtex");
     background-size: 100% 100%;
 }
@@ -46,6 +47,7 @@
     x: 3100px;
     y: 1035px;
 }
+
 .ChapterInfoContainer.WarlockSidequest .ChapterNumberIcon {
     opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/sidequest_warlock_png.vtex");
 }
@@ -78,6 +80,7 @@
     x: 1575px;
     y: 2895px;
 }
+
 .ChapterInfoContainer.CentaurSidequest .ChapterNumberIcon {
     opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/sidequest_centaur_png.vtex");
 }
@@ -86,6 +89,7 @@
     x: 805px;
     y: 1610px;
 }
+
 .ChapterInfoContainer.LegionSidequest .ChapterNumberIcon {
     opacity-mask: url("s2r://panorama/images/events/crownfall/overworld/nodes/icons/sidequest_legion_png.vtex");
 }
@@ -141,6 +145,7 @@
     height: 36px;
     texture-sampling: point;
 }
+
 .ArenaFlags {
     x: 959px;
     y: 2740px;
@@ -148,30 +153,37 @@
     width: 500px;
     texture-sampling: point;
 }
+
 .ArenaFlags .ArenaFlag {
     width: 108px;
     height: 36px;
     texture-sampling: point;
 }
+
 .ArenaFlags #ArenaFlag0 {
     y: 173px;
 }
+
 .ArenaFlags #ArenaFlag1 {
     x: 95px;
     y: 30px;
 }
+
 .ArenaFlags #ArenaFlag2 {
     x: 91px;
     y: 324px;
 }
+
 .ArenaFlags #ArenaFlag3 {
     x: 286px;
     y: 30px;
 }
+
 .ArenaFlags #ArenaFlag4 {
     x: 289px;
     y: 334px;
 }
+
 .ArenaFlags #ArenaFlag5 {
     x: 391px;
     y: 174px;
@@ -190,10 +202,12 @@
     y: 1412px;
     texture-sampling: point;
 }
+
 #ClickChickenPot AnimatedImageStrip {
     width: 118px;
     height: 150px;
 }
+
 #ClickChickenPot.PlaySound {
     sound: "crownfall.map.click.chickenpot";
 }
@@ -203,10 +217,12 @@
     y: 424px;
     texture-sampling: point;
 }
+
 #ClickSpirits AnimatedImageStrip {
     width: 468px;
     height: 560px;
 }
+
 #ClickSpirits.PlaySound {
     sound: "crownfall.map.click.spirits";
 }
@@ -216,10 +232,12 @@
     y: 1822px;
     texture-sampling: point;
 }
+
 #ClickAcademy AnimatedImageStrip {
     width: 588px;
     height: 432px;
 }
+
 #ClickAcademy.PlaySound {
     sound: "crownfall.map.click.academy";
 }
@@ -229,10 +247,12 @@
     y: 2600px;
     texture-sampling: point;
 }
+
 #ClickMortimer AnimatedImageStrip {
     width: 734px;
     height: 374px;
 }
+
 #ClickMortimer.PlaySound {
     sound: "crownfall.map.click.mortimer";
 }
@@ -242,10 +262,12 @@
     y: 3336px;
     texture-sampling: point;
 }
+
 #ClickOasis AnimatedImageStrip {
     width: 460px;
     height: 364px;
 }
+
 #ClickOasis.PlaySound {
     sound: "crownfall.map.click.oasis";
 }
@@ -256,13 +278,16 @@
     texture-sampling: point;
     visibility: collapse;
 }
+
 .ShowDungeon #ClickAwoo {
     visibility: visible;
 }
+
 #ClickAwoo AnimatedImageStrip {
     width: 400px;
     height: 340px;
 }
+
 #ClickAwoo.PlaySound {
     sound: "crownfall.map.click.awoo";
 }
@@ -274,6 +299,7 @@
     visibility: collapse;
     height: 260px;
 }
+
 #QuestingHeartsSign AnimatedImageStrip {
     width: 156px;
     height: 100px;
@@ -288,10 +314,12 @@
 .QuestingHeartsPot {
     texture-sampling: point;
 }
+
 .QuestingHeartsPot AnimatedImageStrip {
     width: 70px;
     height: 136px;
 }
+
 .QuestingHeartsPot.PlaySound {
     sound: "crownfall.map.click.magicsparkles";
 }
@@ -299,201 +327,249 @@
 .Pineapple {
     texture-sampling: point;
 }
+
 .Pineapple AnimatedImageStrip {
     width: 172px;
     height: 192px;
 }
+
 .Pineapple.PlaySound {
     sound: "crownfall.map.click.magicsparkles";
 }
 
 .ThreeBeardEyes {
     padding: 20px;
-
     visibility: collapse;
 }
+
 .ThreeBeardEyes AnimatedImageStrip {
     width: 32px;
     height: 16px;
 }
+
 .ThreeBeardEyes.PlaySound {
     sound: "crownfall.map.click.spookyeyes";
 }
+
 .ThreebeardEncounterUnlocked .ThreeBeardEyes {
     visibility: visible;
 }
+
 .DruudFireSmall {
     opacity: 1;
     transition-property: opacity;
     transition-duration: 1s;
 }
+
 .DruudFireSmall AnimatedImageStrip {
     width: 88px;
     height: 100px;
 }
+
 .DruudFireSmall.PlaySound {
     sound: "crownfall.map.click.SmallFire";
 }
+
 .DruudFireSmall.FinishedAnimating {
     opacity: 0;
 }
+
 .SnapfireCactusBloom,
 .SnapfireCactusWilt {
     opacity: 1;
     transition-property: opacity;
     transition-duration: 1s;
 }
+
 .SnapfireCactusBloom AnimatedImageStrip,
 .SnapfireCactusWilt AnimatedImageStrip {
     width: 52px;
     height: 50px;
 }
+
 .SnapfireCactusBloom.SnapfireCactusBloom.PlaySound,
 .SnapfireCactusWilt.SnapfireCactusBloom.PlaySound {
     sound: "crownfall.map.click.SnapfireCactusBloom";
 }
+
 .SnapfireCactusBloom.SnapfireCactusWilt.PlaySound,
 .SnapfireCactusWilt.SnapfireCactusWilt.PlaySound {
     sound: "crownfall.map.click.SnapfireCactusWilt";
 }
+
 .SnapfireCactusBloom:not(.IsDragging),
 .SnapfireCactusWilt:not(.IsDragging) {
     visibility: collapse;
 }
+
 .TreasureHuntUnlocked .SnapfireCactusBloom,
 .TreasureHuntUnlocked .SnapfireCactusWilt {
     visibility: visible;
 }
+
 .SnapfireCactusBloom.FinishedAnimating,
 .SnapfireCactusWilt.FinishedAnimating {
     opacity: 0;
 }
+
 .SnapfireDemonBlood AnimatedImageStrip {
     width: 140px;
     height: 208px;
 }
+
 .SnapfireDemonBlood.PlaySound {
     sound: "crownfall.map.click.SnapfireDemonBlood";
 }
+
 .SnapfireDemonBlood:not(.IsDragging) {
     visibility: collapse;
 }
+
 .TreasureHuntComplete_1 .SnapfireDemonBlood {
     visibility: visible;
 }
+
 .SnapfirePuffball {
     opacity: 0;
     transition-property: opacity;
     transition-duration: 1s;
     visibility: collapse;
 }
+
 .SnapfirePuffball AnimatedImageStrip {
     width: 54px;
     height: 40px;
 }
+
 .EditMode .SnapfirePuffball,
 .SnapfirePuffball.PuffballVisible {
     opacity: 1;
 }
+
 .SnapfirePuffball.PlaySound {
     sound: "crownfall.map.click.SnapfirePuffball";
 }
+
 .EditMode .SnapfirePuffball,
 .TreasureHuntComplete_2 .SnapfirePuffball {
     visibility: visible;
 }
+
 .SnapfirePuffball.FinishedAnimating {
     opacity: 0;
 }
+
 .SnapfirePuffballDecoy AnimatedImageStrip {
     width: 54px;
     height: 40px;
 }
+
 .SnapfirePuffballDecoy.PlaySound {
     sound: "crownfall.map.click.SnapfirePuffballDecoy";
 }
+
 .SnapfirePuffballDecoy:not(.IsDragging) {
     visibility: collapse;
 }
+
 .TreasureHuntComplete_2 .SnapfirePuffballDecoy {
     visibility: visible;
 }
+
 .SnapfireFirebug {
     width: 200px;
     height: 200px;
-
     transition-property: position, opacity;
     transition-duration: 0.05s, 0.5s;
 }
+
 .SnapfireFirebug .FirebugBorder {
     width: 100%;
     height: 100%;
 }
+
 .SnapfireFirebug .FirebugClickable {
     width: 32px;
     height: 28px;
     vertical-align: center;
     horizontal-align: center;
 }
+
 .SnapfireFirebug .FlyingState {
     width: 40px;
     height: 36px;
     vertical-align: center;
     horizontal-align: center;
 }
+
 .SnapfireFirebug .CrawlingState {
     width: 32px;
     height: 28px;
     vertical-align: center;
     horizontal-align: center;
 }
+
 .SnapfireFirebug .SquishedState {
     width: 32px;
     height: 28px;
     vertical-align: center;
     horizontal-align: center;
 }
+
 .SnapfireFirebug.PlaySound {
     sound: "crownfall.map.click.SnapfireFirebugCaught";
 }
+
 .SnapfireFirebug:not(.IsDragging) {
     visibility: collapse;
 }
+
 .TreasureHuntComplete_3.ShowDungeon .SnapfireFirebug {
     visibility: visible;
 }
+
 .SnapfireFirebug .FlyingState {
     visibility: collapse;
 }
+
 .SnapfireFirebug .SquishedState {
     visibility: collapse;
 }
+
 .SnapfireFirebug.Flying .FlyingState {
     visibility: visible;
 }
+
 .SnapfireFirebug.Flying .CrawlingState {
     visibility: collapse;
 }
+
 .SnapfireFirebug.Flying .SquishedState {
     visibility: collapse;
 }
+
 .SnapfireFirebug.Squished .FlyingState {
     visibility: collapse;
 }
+
 .SnapfireFirebug.Squished .CrawlingState {
     visibility: collapse;
 }
+
 .SnapfireFirebug.Squished .SquishedState {
     visibility: visible;
 }
+
 .SnapfireFirebug.FinishedAnimating {
     opacity: 0;
 }
+
 #CometMovie {
     width: 100%;
-    height: width-percentage (56.25%);
+    height: width-percentage(56.25%);
     visibility: collapse;
 }
+
 .CometCrater {
     x: 3422px;
     y: 1410px;
@@ -501,41 +577,49 @@
     transition-property: opacity;
     transition-duration: 0s;
 }
+
 .CometCrater .CometCraterImage {
     texture-sampling: point;
     width: 726px;
     height: 534px;
 }
+
 .ShowComet .CometCrater {
     visibility: visible;
     opacity: 1;
     transition-duration: 0.5s;
 }
+
 .ShowComet .HideCometCrater .CometCrater {
     opacity: 0;
 }
+
 .CometFlashContainer {
-    background-color: rgba (137, 225, 245, 1);
+    background-color: rgba(137, 225, 245, 1);
     width: 100%;
     height: 100%;
     visibility: collapse;
 }
+
 .CometFlash .CometFlashContainer {
     visibility: visible;
     animation-name: Flash;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
+
 @keyframes 'Flash' {
     0% {
         opacity: 1;
         background-color: white;
     }
+
     100% {
         opacity: 0;
-        background-color: rgba (137, 225, 245, 1);
+        background-color: rgba(137, 225, 245, 1);
     }
 }
+
 .Dungeon {
     x: 2790px;
     y: 2160px;
@@ -543,26 +627,32 @@
     transition-property: opacity;
     transition-duration: 0.5s;
 }
+
 .Dungeon .DungeonImage {
     texture-sampling: point;
     width: 1690px;
     height: 1262px;
 }
+
 .ShowDungeon .Dungeon {
     opacity: 1;
 }
+
 .ShowDungeon .HideDungeon .Dungeon {
     opacity: 0;
 }
+
 .Dungeon Label {
     color: black;
     vertical-align: middle;
     horizontal-align: center;
 }
+
 @keyframes 'DebugAnim' {
     0% {
         opacity: 0.3;
     }
+
     100% {
         opacity: 1;
     }

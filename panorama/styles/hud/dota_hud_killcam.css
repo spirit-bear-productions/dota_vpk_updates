@@ -1,20 +1,18 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAKillCam {
     width: 508px;
     height: 362px;
-
     margin-top: 138px;
-
     padding-bottom: 20px;
     flow-children: none;
     horizontal-align: right;
     opacity: 1;
-
     transform: translateX(0px);
     transition-property: transform, opacity;
     transition-duration: 0.32s;
     transition-delay: 0s, 0.2s;
     transition-timing-function: ease-in-out;
-
     z-index: 10;
 }
 
@@ -76,15 +74,19 @@ DOTAKillCam.Collapsed #MainKillerContainer {
 DOTAKillCam.KillcamAbilities1 #MainKillerContainer {
     transform: translateX(173px);
 }
+
 DOTAKillCam.KillcamAbilities2 #MainKillerContainer {
     transform: translateX(129px);
 }
+
 DOTAKillCam.KillcamAbilities3 #MainKillerContainer {
     transform: translateX(83px);
 }
+
 DOTAKillCam.KillcamAbilities4 #MainKillerContainer {
     transform: translateX(39px);
 }
+
 DOTAKillCam.KillcamAbilities5 #MainKillerContainer {
     transform: translateX(0px);
 }
@@ -115,14 +117,12 @@ DOTAKillCam.Hidden {
 
 #HeroDmgContainer {
     width: 428px;
-
     height: fit-children;
     height: 218px;
     flow-children: down;
     transform-origin: 50% 0%;
     background-color: #000000ef;
     margin-left: 166px;
-
     transition-property: transform;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -140,15 +140,19 @@ DOTAKillCam.Hidden {
 .KillCamOnLeft DOTAKillCam.KillcamAbilities1.Collapsed #HeroDmgContainer {
     transform: translateX(-212px);
 }
+
 .KillCamOnLeft DOTAKillCam.KillcamAbilities2.Collapsed #HeroDmgContainer {
     transform: translateX(-212px);
 }
+
 .KillCamOnLeft DOTAKillCam.KillcamAbilities3.Collapsed #HeroDmgContainer {
     transform: translateX(-294px);
 }
+
 .KillCamOnLeft DOTAKillCam.KillcamAbilities4.Collapsed #HeroDmgContainer {
     transform: translateX(-256px);
 }
+
 .KillCamOnLeft DOTAKillCam.KillcamAbilities5.Collapsed #HeroDmgContainer {
     transform: translateX(-294px);
 }
@@ -160,15 +164,19 @@ DOTAKillCam.Hidden {
 DOTAKillCam.KillcamAbilities1 #HeroDmgContainer {
     width: 168px;
 }
+
 DOTAKillCam.KillcamAbilities2 #HeroDmgContainer {
     width: 212px;
 }
+
 DOTAKillCam.KillcamAbilities3 #HeroDmgContainer {
     width: 258px;
 }
+
 DOTAKillCam.KillcamAbilities4 #HeroDmgContainer {
     width: 302px;
 }
+
 DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
     width: 428px;
 }
@@ -188,15 +196,19 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
 .KillCamOnLeft DOTAKillCam.KillcamAbilities1 #KillerInfo {
     transform: translateX(46px);
 }
+
 .KillCamOnLeft DOTAKillCam.KillcamAbilities2 #KillerInfo {
     transform: translateX(90px);
 }
+
 .KillCamOnLeft DOTAKillCam.KillcamAbilities3 #KillerInfo {
     transform: translateX(136px);
 }
+
 .KillCamOnLeft DOTAKillCam.KillcamAbilities4 #KillerInfo {
     transform: translateX(180px);
 }
+
 .KillCamOnLeft DOTAKillCam.KillcamAbilities5 #KillerInfo {
     transform: translateX(216px);
 }
@@ -204,15 +216,19 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
 .KillCamOnLeft DOTAKillCam.KillcamAbilities1.Collapsed #KillerInfo {
     transform: translateX(46px);
 }
+
 .KillCamOnLeft DOTAKillCam.KillcamAbilities2.Collapsed #KillerInfo {
     transform: translateX(46px);
 }
+
 .KillCamOnLeft DOTAKillCam.KillcamAbilities3.Collapsed #KillerInfo {
     transform: translateX(46px);
 }
+
 .KillCamOnLeft DOTAKillCam.KillcamAbilities4.Collapsed #KillerInfo {
     transform: translateX(46px);
 }
+
 .KillCamOnLeft DOTAKillCam.KillcamAbilities5.Collapsed #KillerInfo {
     transform: translateX(46px);
 }
@@ -247,14 +263,12 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
     margin-bottom: 0px;
     margin-left: 32px;
     font-size: 24px;
-
     color: white;
     text-shadow: 1px 1px 3px 3 #000000ff;
     vertical-align: bottom;
     horizontal-align: left;
     z-index: 2;
     max-width: 136px;
-
     max-height: 32px;
 }
 
@@ -283,7 +297,6 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
     vertical-align: bottom;
     padding-left: 16px;
     padding-right: 64px;
-
     background-color: gradient(
         radial,
         50% 50%,
@@ -300,7 +313,6 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
     ui-scale: 40%;
     vertical-align: middle;
     margin-right: 0px;
-
     visibility: collapse;
 }
 
@@ -319,7 +331,6 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
     margin-bottom: 0px;
     height: 50px;
     padding-left: 18px;
-
     letter-spacing: -3px;
     text-transform: uppercase;
     transition-property: opacity-mask;
@@ -349,13 +360,12 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
     padding: 8px;
     border-radius: 50%;
     border: 2px solid #722320;
-
     visibility: collapse;
-
     transition-property: background-color, border;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
+
 #InspectHero:hover {
     background-color: #750400;
     border-color: #de0f00;
@@ -387,7 +397,6 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
     border-radius: 50%;
     border: 2px solid #722320;
     transform: rotateZ(0deg);
-
     transition-property: transform, background-color, border, wash-color;
     transition-duration: 0.32s, 0.2s, 0.2s;
     transition-timing-function: ease-in-out;
@@ -446,12 +455,10 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
     vertical-align: top;
     width: 168px;
     height: 32px;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#7e523920), to(#e0c59a));
     border-style: solid;
     border-width: 1px;
     visibility: collapse;
-
     background-size: 20px 20px;
     background-position: 98% 50%;
     background-repeat: no-repeat;
@@ -519,7 +526,6 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
 #KillCamHeroImageOrMovie {
     width: 168px;
     height: 218px;
-
     transform: translateX(-122px);
     transition-property: transform, background-color;
     transition-duration: 0.32s;
@@ -578,6 +584,7 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
 .KillCamOnLeft .CenterBuffer.BufferLeft {
     width: fill-parent-flow(1);
 }
+
 .KillCamOnLeft .CenterBuffer.BufferRight {
     width: fill-parent-flow(0);
 }
@@ -631,7 +638,6 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
     padding-top: 4px;
     border-top-left-radius: 6px;
     transform: translateY(0px);
-
     opacity: 1;
     transition-property: opacity, transform;
     transition-duration: 0.2s;
@@ -657,7 +663,6 @@ DOTAKillCam.KillcamAbilities5 #HeroDmgContainer {
     horizontal-align: right;
     background-color: #330000;
     transform: translateX(0px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-delay: 0s;

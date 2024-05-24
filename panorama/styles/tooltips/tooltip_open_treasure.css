@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents.OpenTreasureContents {
     width: 600px;
     flow-children: down;
@@ -67,7 +69,6 @@
     text-transform: uppercase;
     margin-top: 2px;
     margin-right: 8px;
-
     visibility: collapse;
 }
 
@@ -92,12 +93,10 @@
     horizontal-align: center;
     width: 80%;
     height: 80%;
-
     background-image: url("s2r://panorama/images/control_icons/check_shadow_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     wash-color: #139dde;
 }
 

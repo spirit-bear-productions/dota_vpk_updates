@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAStatsRegion {
     opacity: 1;
     visibility: collapse;
@@ -51,12 +53,12 @@ DOTAStatsRegion.ShowDamageArmorMovement {
 .HUDFlipped DOTAStatsRegion {
     transform: ScaleX(-1);
 }
+
 .Reborn #Aligner {
     flow-children: down;
     horizontal-align: right;
     min-width: 208px;
     margin-left: 0px;
-
     margin-right: 5px;
     margin-top: 4px;
 }
@@ -140,13 +142,10 @@ DOTAStatsRegion.ShowDamageArmorMovement {
     horizontal-align: right;
     margin-top: 3px;
     text-shadow: 0px 0px 4px 4 #00000088;
-
     font-family: monospaceNumbersFont;
-
     transition-property: transform, opacity, width, pre-transform-scale2d;
     transition-duration: 0.12s;
     transition-timing-function: ease-in-out;
-
     color: #ccc;
 }
 
@@ -192,7 +191,6 @@ DOTAStatsRegion.ShowDamageArmorMovement {
 .LabelColumn {
     height: 36px;
     height: fit-children;
-
     flow-children: right;
 }
 
@@ -200,7 +198,6 @@ DOTAStatsRegion.ShowDamageArmorMovement {
     flow-children: right;
     padding-left: 0px;
     horizontal-align: right;
-
     transition-property: width;
     transition-duration: 0.22s;
     transition-timing-function: ease-in-out;

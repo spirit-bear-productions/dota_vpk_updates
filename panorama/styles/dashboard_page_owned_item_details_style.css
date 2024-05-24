@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .StyleIcon {
     width: 16px;
     height: 16px;
@@ -14,9 +16,11 @@
 .EditRow.StyleUnlocked .StyleRow {
     wash-color: #95b0d6;
 }
+
 .EditRow.StyleLockedAvailable .StyleRow {
     wash-color: #617089;
 }
+
 .EditRow.StyleLocked .StyleRow {
     wash-color: #444547;
 }

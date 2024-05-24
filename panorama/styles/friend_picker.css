@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAFriendPicker {
     flow-children: down;
     overflow: squish scroll;
@@ -28,7 +30,6 @@ DOTAFriendPicker RadioButton .RadioBox {
 DOTAFriendPicker RadioButton DOTAAvatarImage {
     width: 32px;
     height: 32px;
-
     margin-left: 8px;
     vertical-align: middle;
 }

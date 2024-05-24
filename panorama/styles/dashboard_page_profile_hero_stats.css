@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAProfileHeroStatsPage {
     width: 100%;
     height: 100%;
@@ -9,7 +11,6 @@ DOTAProfileHeroStatsPage {
     width: 1392px;
     height: fill-parent-flow(1);
     horizontal-align: center;
-
     padding: 0px 0px 10px 0px;
 }
 
@@ -18,7 +19,6 @@ DOTAProfileHeroStatsPage {
     flow-children: down;
     width: 1392px;
     horizontal-align: center;
-
     padding: 0px 0px 10px 0px;
 }
 
@@ -43,6 +43,7 @@ DOTAProfileHeroStatsPage {
     transition-timing-function: ease;
     background-color: #000000b9;
 }
+
 #StatsContents.ChildExpanded {
     opacity: 0;
 }
@@ -57,6 +58,7 @@ DOTAProfileHeroStatsPage {
     padding: 2px 0px;
     margin: 0px 4px;
 }
+
 .TabGroupContainer .TabItem {
     padding: 6px 16px;
     border-radius: 80px;
@@ -66,11 +68,11 @@ DOTAProfileHeroStatsPage {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0);
     border-color: transparent;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#44505500), to(#2f363a00));
-
     transition-property: color, border, background-color, box-shadow, text-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease;
 }
+
 .TabGroupContainer .TabItem Label {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -78,7 +80,6 @@ DOTAProfileHeroStatsPage {
     color: #768e8d;
     text-align: center;
     height: 20px;
-
     transition-property: color, text-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -90,7 +91,6 @@ DOTAProfileHeroStatsPage {
     background-size: cover;
     wash-color: #768e8d;
     img-shadow: 0px 0px 12px rgba(197, 222, 255, 0);
-
     transition-property: wash-color, img-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -110,6 +110,7 @@ DOTAProfileHeroStatsPage {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#445055), to(#2f363a));
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
 .TabGroupContainer .TabItem:selected Label {
     color: white;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
@@ -201,14 +202,12 @@ DOTAProfileHeroStatsPage {
 
 #HeroStatsRows > DelayLoadPanel {
     height: 48px;
-
     transition-property: position;
     transition-duration: 0.1s;
 }
 
 DOTAHeroStatRow {
     flow-children: right;
-
     transition-property: background-color;
     transition-duration: 0.1s;
 }
@@ -274,7 +273,6 @@ DOTAHeroStatRow .SimpleStatColumn {
     vertical-align: middle;
     text-transform: uppercase;
     font-size: 16px;
-
     text-align: right;
     color: #ccccccff;
 }
@@ -306,6 +304,7 @@ DOTAHeroStatRow Label.SimpleStatColumn.Wide {
 DOTAHeroStatRow .SimpleStatColumn.Bad {
     color: #ccaaaa;
 }
+
 DOTAHeroStatRow .SimpleStatColumn.Good {
     color: #aaccaa;
 }
@@ -324,7 +323,6 @@ DOTAHeroStatRow .SimpleStatColumn.Good {
     width: 100%;
     vertical-align: middle;
     height: 16px;
-
     border-radius: 0px;
     margin-left: 8px;
     margin-right: 18px;
@@ -420,7 +418,6 @@ DOTAHeroStatRow Label.SimpleStatColumn.BestXPM {
     background-image: url("s2r://panorama/images/dota_plus/dota_plus_horizontal_banner_background_png.vtex");
     background-size: cover;
     padding: 0px 16px 0px 0px;
-
     transform: translateY(32px);
     opacity: 0;
     transition-property: transform, opacity;
@@ -428,9 +425,11 @@ DOTAHeroStatRow Label.SimpleStatColumn.BestXPM {
     transition-delay: 0.3s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
 }
+
 .HaveDotaPlus #DotaPlusStatsBanner {
     visibility: collapse;
 }
+
 .PageVisible #DotaPlusStatsBanner {
     transform: none;
     opacity: 1;
@@ -489,10 +488,10 @@ DOTAHeroStatRow Label.SimpleStatColumn.BestXPM {
     opacity: 0.2;
     border-radius: 2px;
     border: 1px solid #ffffff00;
-
     transition-property: opacity;
     transition-duration: 0.1s;
 }
+
 #DotaPlusStatsBanner #DismissButton:hover {
     opacity: 1;
     background-color: #00000055;
@@ -511,7 +510,6 @@ DOTAHeroStatRow Label.SimpleStatColumn.BestXPM {
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     margin-top: 0px;
 }
 
@@ -690,6 +688,7 @@ Panel.RecentGameWeekendTourneyHeader Label {
 Panel.RecentGameWeekendTourneyHeader {
     margin-top: 20px;
 }
+
 Panel.BottomMatchInTourney {
     margin-bottom: 20px;
 }
@@ -700,7 +699,6 @@ Panel.BottomMatchInTourney {
     width: 40px;
     height: 20px;
     background-size: 20px;
-
     flow-children: right;
     wash-color: #768e8d;
     transition-property: wash-color;
@@ -738,17 +736,13 @@ DOTAProfileHeroStatsPage.LocalUser .SelfOrFriend {
     horizontal-align: center;
     margin-left: 1130px;
     margin-top: 62px;
-
     background-color: gradient(linear, 0% 0%, 0% 5%, from(#232326), to(#1c1d20));
     border: 2px solid #32383677;
     box-shadow: fill #00000099 0px 0px 8px 4px;
-
     padding: 7px 9px 7px 9px;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.3s;
-
     flow-children: down;
     z-index: 5;
 }
@@ -760,6 +754,7 @@ DOTAProfileHeroStatsPage.LocalUser .SelfOrFriend {
 Panel.RecentGame Label {
     color: #bbbbbb;
 }
+
 #RecentGames Label.TimestampDate {
     vertical-align: middle;
     text-align: center;
@@ -771,6 +766,7 @@ Panel.RecentGame Label {
     padding-right: 20px;
     vertical-align: middle;
 }
+
 #HeroIcon {
     margin-top: 2px;
     margin-bottom: 2px;
@@ -785,11 +781,13 @@ Panel.RecentGame Label {
     flow-children: right;
     horizontal-align: center;
 }
+
 .HeroNameRecentGamesColumn .HeroIconAndFacet {
     width: 57px;
     height: 36px;
     flow-children: none;
 }
+
 .HeroNameRecentGamesColumn .HeroIconAndFacet #FacetInfo {
     ui-scale: 75%;
     vertical-align: bottom;
@@ -804,21 +802,24 @@ Panel.RecentGame Label {
     flow-children: right;
     vertical-align: middle;
 }
+
 .ResultColumn {
     width: 250px;
     padding-right: 6px;
 }
+
 .PerformanceColumn {
     width: 150px;
     padding-right: 6px;
 }
+
 .DurationColumn {
     width: 200px;
     padding-right: 6px;
 }
+
 .GameTypeColumn {
     padding-right: 6px;
-
     width: fill-parent-flow(1);
 }
 
@@ -1003,7 +1004,6 @@ Panel.RecentGame Label {
     width: 240px;
     vertical-align: middle;
     height: 16px;
-
     border-radius: 0px;
     border-color: #3b5d6b33;
     margin-bottom: 2px;
@@ -1062,7 +1062,6 @@ Panel.RecentGame Label {
     flow-children: right;
     padding-left: 20px;
     padding-right: 20px;
-
     transition-property: position;
     transition-duration: 0.1s;
 }
@@ -1088,7 +1087,6 @@ Panel.RecentGame Label {
     margin-bottom: 0px;
     z-index: 100;
     width: 100%;
-
     background-color: #000000d2;
     width: 100%;
     height: 80px;
@@ -1102,7 +1100,6 @@ Panel.RecentGame Label {
 #AllHeroChallengeBanner.Expanded {
     height: 100%;
     width: 100%;
-
     opacity: 1;
 }
 
@@ -1117,14 +1114,11 @@ Panel.RecentGame Label {
 #AllHeroChallenge {
     width: 100%;
     height: 100%;
-
     flow-children: down;
     padding: 0px;
     margin-left: 220px;
     margin-right: 220px;
-
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -1158,7 +1152,6 @@ Panel.RecentGame Label {
     margin-top: 1px;
     margin-right: 6px;
     border: 1px solid black;
-
     transition-property: width, height;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1238,7 +1231,6 @@ Panel.AHCStat .Right {
     width: 100%;
     flow-children: down;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1274,7 +1266,6 @@ Panel.AHCStat .Right {
     height: 53px;
     border: 1px solid black;
     margin-right: 2px;
-
     saturation: 0.8;
     brightness: 1.7;
 }

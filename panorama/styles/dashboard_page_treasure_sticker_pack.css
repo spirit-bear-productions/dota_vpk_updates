@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define fullPreviewTransitionDuration: 1s;
 @define openTreasureRotationSpeed: 40.0;
 @define openTreasureRotationAcceleration: 5.0;
@@ -6,25 +8,20 @@
 @define openTreasureAnimateContentsDuration: 8s;
 @define openTreasureFocusIntervalFast: 0.2s;
 @define openTreasureFocusIntervalSlow: 0.4s;
-@define treasureCarouselFadeTime:  0.6s;
-
+@define treasureCarouselFadeTime: 0.6s;
 @define bronzeGlowColor: #cd8f68;
 @define bronzeHueRotation: 155deg;
 @define bronzeSaturation: 1.0;
-
 @define silverTextColor: #ededed;
 @define silverGlowColor: #ededed;
 @define silverHueRotation: 0deg;
 @define silverSaturation: 0;
-
 @define goldTextColor: #ebcb6c;
 @define goldGlowColor: #ebd79c;
 @define goldHueRotation: 185deg;
 @define goldSaturation: 1.0;
-
 @define offCenterRightPadding: 0px;
 @define detailsPadding: 14px;
-
 DOTATreasureStickerPackDetailsPage {
     width: 100%;
     height: 100%;
@@ -73,10 +70,10 @@ DOTATreasureStickerPackDetailsPage {
     height: 20px;
     margin: 0px 12px;
     vertical-align: middle;
-
     background-color: #18386e;
     border-radius: 50%;
 }
+
 #TreasureHelpIcon Label {
     font-weight: bold;
     font-size: 16px;
@@ -190,10 +187,8 @@ DOTATreasureStickerPackDetailsPage {
     vertical-align: top;
     border-bottom: 1px solid #1b1d22;
     flow-children: right;
-
     transition-property: opacity;
     transition-duration: 0.25s;
-
     visibility: collapse;
 }
 
@@ -246,6 +241,7 @@ DOTATreasureStickerPackDetailsPage {
     flow-children: right;
     margin-right: 18px;
 }
+
 .PackOverviewTeamEntry Label {
     vertical-align: center;
     horizontal-align: right;
@@ -254,7 +250,6 @@ DOTATreasureStickerPackDetailsPage {
     margin: 4px;
     margin-top: 1px;
     text-overflow: shrink;
-
     font-weight: semi-bold;
     line-height: 112%;
 }
@@ -288,7 +283,6 @@ DOTATreasureStickerPackDetailsPage {
     margin-top: 1px;
     horizontal-align: right;
     vertical-align: center;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_top_right_png.vtex");
     background-repeat: no-repeat;
     background-size: 12px 12px;
@@ -322,13 +316,11 @@ DOTATreasureStickerPackDetailsPage {
     margin: 4px;
     margin-top: 0px;
     text-overflow: shrink;
-
     font-family: titleFont;
     font-weight: semibold;
     line-height: 112%;
     blur: gaussian (8);
     opacity-mask: url("s2r://panorama/images/masks/softeredge_horizontal_png.vtex");
-
     visibility: collapse;
 }
 
@@ -456,7 +448,6 @@ DOTATreasureStickerPackDetailsPage {
     width: 100%;
     height: 100%;
     transform: none;
-
     transition-property: opacity, blur, transform;
     transition-duration: 0.4s;
     transition-delay: 0s;
@@ -467,7 +458,6 @@ DOTATreasureStickerPackDetailsPage {
     opacity: 0.06;
     blur: gaussian(6);
     transform: scale3d(0.94, 0.94, 1);
-
     transition-timing-function: cubic-bezier(0.7, 0, 0, 1);
     transition-delay: 0.2s;
     transition-duration: 0.4s;
@@ -527,7 +517,6 @@ DOTATreasureStickerPackDetailsPage {
     flow-children: down;
     margin-left: 40px;
     width: 100%;
-
     transition-property: transform, opacity;
     transition-duration: 0.25s;
 }
@@ -544,7 +533,6 @@ DOTATreasureStickerPackDetailsPage {
 .StickerType {
     visibility: collapse;
     margin-bottom: 16px;
-
     font-size: 18px;
     letter-spacing: 1px;
     overflow: squish;
@@ -580,7 +568,6 @@ DOTATreasureStickerPackDetailsPage {
     padding-top: 20px;
     opacity: 0;
     transform: translateY(-20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
@@ -600,6 +587,7 @@ DOTATreasureStickerPackDetailsPage {
 #TreasurePurchaseRow {
     visibility: collapse;
 }
+
 .TreasurePurchaseAvailable #TreasurePurchaseRow {
     visibility: visible;
 }
@@ -629,7 +617,6 @@ DOTATreasureStickerPackDetailsPage:not(.TreasureMarketAvailable) #TreasureOwnedR
     height: 100%;
     flow-children: down;
     opacity: 0;
-
     transform: translatez(-100px);
     transition-property: transform, opacity;
     transition-duration: 0.3s;
@@ -650,6 +637,7 @@ DOTATreasureStickerPackDetailsPage:not(.TreasureMarketAvailable) #TreasureOwnedR
     padding: 16px 24px;
     border: 2px solid #1b1d22;
 }
+
 #DetailedTreasureContentsBody .DetailedTreasureContentsHeader {
     width: 100%;
     flow-children: right;
@@ -742,7 +730,6 @@ DOTATreasureStickerPackDetailsPage:not(.TreasureMarketAvailable) #TreasureOwnedR
     width: 100%;
     height: 100%;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.5s;
     transition-delay: 0.1s;
@@ -759,7 +746,6 @@ DOTATreasureStickerPackDetailsPage:not(.TreasureMarketAvailable) #TreasureOwnedR
     height: 100%;
     opacity: 0;
     margin-bottom: 40px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-delay: 0.1s;
@@ -792,7 +778,6 @@ DOTATreasureStickerPackDetailsPage:not(.TreasureMarketAvailable) #TreasureOwnedR
     background-repeat: no-repeat;
     transform: scale3d(1.4, 1.4, 1);
     opacity: 0;
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
     transition-delay: 1s;
@@ -820,7 +805,6 @@ DOTATreasureStickerPackDetailsPage:not(.TreasureMarketAvailable) #TreasureOwnedR
     flow-children: down;
     opacity: 0;
     transform: scale3d(1.2, 1.2, 1);
-
     transition-property: opacity, transform;
     transition-duration: 0.4s;
     transition-delay: 0.3s;
@@ -864,7 +848,6 @@ DOTATreasureStickerPackDetailsPage:not(.TreasureMarketAvailable) #TreasureOwnedR
     saturation: 1.1;
     opacity-mask: url("s2r://panorama/images/masks/softedge_circle_png.vtex") 1;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.5s;
     transition-delay: 0.5s;
@@ -886,6 +869,7 @@ DOTATreasureStickerPackDetailsPage:not(.TreasureMarketAvailable) #TreasureOwnedR
     margin-bottom: 16px;
     visibility: collapse;
 }
+
 .PeekRoot #PeekItemPreview {
     width: 72px;
     height: 72px;
@@ -896,6 +880,7 @@ DOTATreasureStickerPackDetailsPage:not(.TreasureMarketAvailable) #TreasureOwnedR
     flow-children: down;
     margin-top: -4px;
 }
+
 .PeekRoot .PeekNextTreasure #PreviewContentsLabel {
     text-transform: uppercase;
     font-size: 14px;

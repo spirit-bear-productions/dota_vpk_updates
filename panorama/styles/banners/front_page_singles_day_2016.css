@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FrontpageCellImage {
     background-image: url("s2r://panorama/images/front_page/singles_day_2016_psd.vtex");
     background-size: cover;
@@ -25,6 +27,7 @@
     0% {
         pre-transform-scale2d: 1.2;
     }
+
     100% {
         pre-transform-scale2d: 1;
     }
@@ -44,7 +47,6 @@
     color: white;
     font-size: 24px;
     text-shadow: 2px 2px 8px black;
-
     visibility: collapse;
 }
 

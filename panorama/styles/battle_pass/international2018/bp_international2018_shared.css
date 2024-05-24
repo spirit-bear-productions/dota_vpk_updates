@@ -1,12 +1,12 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define accentColor: #88fcbd80;
 @define accentColorBright: #88fcbd;
 @define accentColorGlow: #88fcbd63;
 @define accentBorderColor: #88fcbd10;
-
 @define accentColorSectionBG: #1b633c;
 @define textMediumColor: #505251;
 @define textBrightColor: #a3a9a6;
-
 @define textColoredMediumColor: #2b9c5f;
 @define textColoredBrightColor: #3bde85;
 @define textColoredBrightAltColor: #86ae98;
@@ -15,7 +15,6 @@
 @define SecondaryTabButton: #7ca18d;
 @define SecondaryTabButtonSelected: #01d361;
 @define SecondaryTabSeparator: #36694d;
-
 @define backgroundVeryDimColor: #011a0c;
 @define backgroundDimColor: #012311;
 @define backgroundMediumColor: #012311;
@@ -23,10 +22,8 @@
 @define backgroundVeryBrightColor: #a3fdcc;
 @define bp_battlePassLogoColor: #37da81;
 @define bp_wagerTokenColor: #7cffb8;
-
 @define PurchaseLevelsButtonColor: #2cbd71;
 @define PurchaseLevelsButtonColorSecondary: #19a34f;
-
 @define bp_color1: #11492b;
 @define bp_color2: #11492b;
 @define bp_color3: #17201b;
@@ -42,46 +39,35 @@
 @define bp_color13: #3c7e5a;
 @define bp_color14: #7cc39c;
 @define bp_color15: #75ffb5;
-
 @define BRD: 1px solid #5ecb9030;
-
 @define XPCircleGradient: gradient( linear, 0% 0%, 0% 100%, from( bp_color8 ), to( bp_color11 ) );
 @define XPCircleBorder: 1px solid bp_color7;
-
 @define XPRequiredHeroCircleGradient: gradient( linear, 0% 0%, 0% 100%, from( bp_color11 ), to( bp_battlePassLogoColor ) );
 @define XPRequiredHeroCircleBorder: 1px solid bp_color7;
-
 @define bp_battleLevelColor: #88fcbd;
-
-@define bp_single_point: url( "s2r://panorama/images/compendium/international2018/single_point_psd.vtex");
-@define bp_single_point_selected: url( "s2r://panorama/images/compendium/international2018/single_point_selected_psd.vtex");
-@define bp_activequestring_small: url( "s2r://panorama/images/compendium/international2018/activequestring_small_psd.vtex");
-@define bp_activequestring_endscreen: url( "s2r://panorama/images/compendium/international2018/activequestring_endscreen_psd.vtex");
-@define bp_shield_icon_endscreen: url( "s2r://panorama/images/compendium/international2018/shield_icon_end_screen_psd.vtex");
-@define bp_tip_button_points: url( "s2r://panorama/images/compendium/international2018/tip_button_points_psd.vtex");
-@define bp_tip_button_points_hover: url( "s2r://panorama/images/compendium/international2018/tip_button_points_hover_psd.vtex");
-@define bp_total_tokens: url( "s2r://panorama/images/compendium/international2018/totaltokens_psd.vtex");
-@define bp_total_points: url( "s2r://panorama/images/compendium/international2018/totalpoints_psd.vtex");
-
-@define bp_cavern_crawl_logo: url( "s2r://panorama/images/cavern/icon_logo_png.vtex");
-@define bp_cavern_crawl_challenge: url( "s2r://panorama/images/cavern/icon_challenge_available_png.vtex");
-@define bp_cavern_crawl_post_game: url( "s2r://panorama/images/compendium/international2018/cavern_icon_png.vtex");
-
-@define bp_quest_rank_empty: url( "s2r://panorama/images/status_icons/3star_empty_psd.vtex");
-@define bp_quest_rank_1: url( "s2r://panorama/images/status_icons/3star_1_psd.vtex");
-@define bp_quest_rank_2: url( "s2r://panorama/images/status_icons/3star_2_psd.vtex");
-@define bp_quest_rank_3: url( "s2r://panorama/images/status_icons/3star_3_psd.vtex");
-
-@define bp_quest_tabletop: url( "s2r://panorama/images/compendium/international2018/tabletop_psd.vtex");
-@define bp_quest_scroll_left_texture: url( "s2r://panorama/images/compendium/international2018/scroll_left_texture_psd.vtex");
-@define bp_quest_scroll_texture: url( "s2r://panorama/images/compendium/international2018/scroll_texture_psd.vtex");
-
-@define bp_profile_tooltip_max: url( "s2r://panorama/images/compendium/international2018/profiletooltip_max_psd.vtex");
-@define bp_platinum_backer: url( "s2r://panorama/images/compendium/international2018/platinum_backer_psd.vtex");
-
+@define bp_single_point: url("s2r://panorama/images/compendium/international2018/single_point_psd.vtex");
+@define bp_single_point_selected: url("s2r://panorama/images/compendium/international2018/single_point_selected_psd.vtex");
+@define bp_activequestring_small: url("s2r://panorama/images/compendium/international2018/activequestring_small_psd.vtex");
+@define bp_activequestring_endscreen: url("s2r://panorama/images/compendium/international2018/activequestring_endscreen_psd.vtex");
+@define bp_shield_icon_endscreen: url("s2r://panorama/images/compendium/international2018/shield_icon_end_screen_psd.vtex");
+@define bp_tip_button_points: url("s2r://panorama/images/compendium/international2018/tip_button_points_psd.vtex");
+@define bp_tip_button_points_hover: url("s2r://panorama/images/compendium/international2018/tip_button_points_hover_psd.vtex");
+@define bp_total_tokens: url("s2r://panorama/images/compendium/international2018/totaltokens_psd.vtex");
+@define bp_total_points: url("s2r://panorama/images/compendium/international2018/totalpoints_psd.vtex");
+@define bp_cavern_crawl_logo: url("s2r://panorama/images/cavern/icon_logo_png.vtex");
+@define bp_cavern_crawl_challenge: url("s2r://panorama/images/cavern/icon_challenge_available_png.vtex");
+@define bp_cavern_crawl_post_game: url("s2r://panorama/images/compendium/international2018/cavern_icon_png.vtex");
+@define bp_quest_rank_empty: url("s2r://panorama/images/status_icons/3star_empty_psd.vtex");
+@define bp_quest_rank_1: url("s2r://panorama/images/status_icons/3star_1_psd.vtex");
+@define bp_quest_rank_2: url("s2r://panorama/images/status_icons/3star_2_psd.vtex");
+@define bp_quest_rank_3: url("s2r://panorama/images/status_icons/3star_3_psd.vtex");
+@define bp_quest_tabletop: url("s2r://panorama/images/compendium/international2018/tabletop_psd.vtex");
+@define bp_quest_scroll_left_texture: url("s2r://panorama/images/compendium/international2018/scroll_left_texture_psd.vtex");
+@define bp_quest_scroll_texture: url("s2r://panorama/images/compendium/international2018/scroll_texture_psd.vtex");
+@define bp_profile_tooltip_max: url("s2r://panorama/images/compendium/international2018/profiletooltip_max_psd.vtex");
+@define bp_platinum_backer: url("s2r://panorama/images/compendium/international2018/platinum_backer_psd.vtex");
 @define bp_avatar_border_default: url("s2r://panorama/images/compendium/international2018/avatarborder_default_psd.vtex");
 @define bp_avatar_border_max: url("s2r://panorama/images/compendium/international2018/avatarborder_max_psd.vtex");
-
 @define bp_point_log_tip_received: url("s2r://panorama/images/compendium/international2018/logicon_gottip_psd.vtex");
 @define bp_point_log_tip_given: url("s2r://panorama/images/compendium/international2018/logicon_gavetip_psd.vtex");
 @define bp_point_log_pass_activated: url("s2r://panorama/images/compendium/international2018/logicon_activate_psd.vtex");
@@ -96,30 +82,23 @@
 @define bp_point_log_won_battlecup: url("s2r://panorama/images/weekend_tourney/battlecup_icon_psd.vtex");
 @define bp_point_log_prediction_tokens: url("s2r://panorama/images/compendium/international2018/prediction_tokens_psd.vtex");
 @define bp_point_log_event_game: url("s2r://panorama/images/compendium/international2018/underhollow_icon_psd.vtex");
-
 @define bp_rewardsList_LevelContainer_background_color: gradient( linear, 0% 0%, 0% 100%, from( bp_color1 ), to( #000000FF ) );
-
 @define bp_rewardsList_LevelContainer_StatSub_silverTier_Label_color: bp_color3;
 @define bp_rewardsList_pointLog_silverTier_Label_color: #e9faff;
 @define bp_rewardsList_LevelContainer_LevelLabel_PrizePoolNumber_silverTier_color: bp_battlePassLogoColor;
 @define bp_rewardsList_LevelContainer_LevelLabel_PrizePoolNumber_silverTier_text_shadow: 1px 1px 6px 5 #000000;
 @define bp_rewardsList_LevelContainer_LevelCircle_silverTier_Label_color: bp_battlePassLogoColor;
 @define bp_rewardsList_LevelContainer_LevelCircle_Label_silverTier_wash_color: bp_color4;
-
 @define bp_rewardsList_LevelContainer_StatSub_goldTier_Label_color: #A5744A;
 @define bp_rewardsList_pointLog_goldTier_Label_color: #FFFFE9;
 @define bp_rewardsList_LevelContainer_LevelCircle_Label_goldTier_wash_color: #F9BE2D;
-
 @define bp_rewardsList_LevelContainer_StatSub_platinumTier_Label_color: backgroundBrightColor;
 @define bp_rewardsList_pointLog_platinumTier_Label_color: #e9faff;
 @define bp_rewardsList_LevelContainer_LevelCircle_Label_platinumTier_wash_color: bp_color5;
-
 @define bp_LevelCircle_wash_color: accentColor;
-
 @define bp_levelup_popup_background: url("s2r://panorama/images/compendium/international2018/battlepass_levelup_popup_background_psd.vtex");
 @define bp_battlepoint_popup_header: url("s2r://panorama/images/compendium/international2018/battlepointlog_header_psd.vtex");
 @define bp_battlepoint_purchase_header: url("s2r://panorama/images/compendium/international2018/battepointlog_purchase_header_psd.vtex");
-
 .bp_text_accent_color {
     color: accentColor;
 }
@@ -180,9 +159,8 @@
     height: 30px;
 }
 
-@define bp_bracket_help_header_image: url( "s2r://panorama/images/compendium/international2018/bracket_info_header_psd.vtex");
-@define bp_bracket_help_footer_image: url( "s2r://panorama/images/compendium/international2018/bracket_info_footer_psd.vtex");
-
+@define bp_bracket_help_header_image: url("s2r://panorama/images/compendium/international2018/bracket_info_header_psd.vtex");
+@define bp_bracket_help_footer_image: url("s2r://panorama/images/compendium/international2018/bracket_info_footer_psd.vtex");
 .bp_bracket_help_header_image {
     background-image: bp_bracket_help_header_image;
     background-size: cover;
@@ -203,18 +181,14 @@
     width: 100%;
     height: 100%;
     flow-children: none;
-
     wash-color: #2d5604;
-
     wash-color: #043256;
-
     wash-color: #07793b;
 }
 
 .BattlePassButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(bp_color1&11), to(bp_color2&22));
     border: 1px solid bp_color8;
-
     transition-property: brightness;
     transition-duration: 0.2s;
     transition-timing-function: linear;
@@ -230,14 +204,12 @@
 
 .BattlePassButton:active {
     border: 1px solid bp_color8;
-
     sound: "ui_generic_button_click";
 }
 
 .BattlePassButton Label {
     margin-top: 2px;
     text-transform: uppercase;
-
     horizontal-align: center;
     font-weight: thin;
     font-size: 14px;
@@ -246,9 +218,7 @@
     vertical-align: middle;
     text-shadow: 0px 0px 6px 1 #000000;
     padding: 7px 8px 5px 8px;
-
     color: #ffffffdd;
-
     transition-property: color;
     transition-duration: 0.1s;
     transition-timing-function: linear;
@@ -270,12 +240,10 @@
 .BattlePassBrightButton {
     background-color: accentColor;
     padding: 5px 10px 2px 10px;
-
     border-top: 1px solid #88fcbd;
     border-bottom: 1px solid #00000055;
     border-left: 1px solid #88fcbd;
     border-right: 1px solid #00000088;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -286,7 +254,6 @@
     font-size: 16px;
     text-align: center;
     horizontal-align: center;
-
     color: black;
     font-weight: bold;
 }
@@ -307,15 +274,12 @@
 .BattlePassLargeBrightButton {
     background-color: accentColor;
     padding: 5px 10px 2px 10px;
-
     border-top: 1px solid #88fcbd;
     border-bottom: 1px solid #00000055;
     border-left: 1px solid #88fcbd;
     border-right: 1px solid #00000088;
-
     transition-property: brightness;
     transition-duration: 0.2s;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -331,7 +295,6 @@
     font-size: 21px;
     text-align: center;
     horizontal-align: center;
-
     color: white;
     font-weight: normal;
     text-shadow: 0px 2px 2px black;
@@ -353,22 +316,18 @@
 
 .BattlePassDarkLink > Label {
     color: textBrightColor;
-
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 16px;
     text-align: center;
-
     transition-property: color;
     transition-duration: 0.2s;
 }
 
 .BattlePassDarkLink:hover > Label {
     color: #acff53;
-
     color: #53bcff;
-
     color: accentColor;
 }
 
@@ -391,7 +350,6 @@
     text-transform: uppercase;
     z-index: 2;
     text-overflow: shrink;
-
     transition-property: border, background-color, color;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -412,7 +370,6 @@
     transform: rotateZ(0deg) translateY(0px);
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     wash-color: bp_battlePassLogoColor&dd;
-
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 2px;
@@ -448,13 +405,9 @@
     border: 1px solid accentBorderColor;
     margin: 8px;
     margin-bottom: 8px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3e3c3822), to(#4d211a));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#383e3e22), to(#1e2b20));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#383e3e22), to(#1e262b));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(bp_color10&22), to(bp_color2));
 }
 
@@ -464,7 +417,6 @@
     margin: 16px;
     wash-color: textColoredMediumColor;
     opacity: 0.4;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -475,13 +427,9 @@
     color: #92b4d9;
     color: #78a0c8;
     color: #cdbbb5;
-
     color: #c2cdb5;
-
     color: #b5c3cd;
-
     color: textBrightColor;
-
     text-shadow: 0px 1px 2px 3 #000000;
     opacity: 0;
     background-color: #000000aa;
@@ -490,13 +438,9 @@
     padding-bottom: 8px;
     padding-left: 16px;
     padding-right: 16px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#4c211a00), color-stop(0.5, #4c211add), to(#4c211add));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#334c1a00), color-stop(0.5, #334c1add), to(#334c1add));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1a374c00), color-stop(0.5, #1a374cdd), to(#1a374cdd));
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -505,7 +449,6 @@
         color-stop(0.5, bp_color1&dd),
         to(bp_color1&dd)
     );
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -519,7 +462,6 @@
     letter-spacing: 1px;
     color: textBrightColor;
     margin-top: 16px;
-
     transition-property: color;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -613,6 +555,7 @@
 .LeaderListName Label {
     color: white;
 }
+
 .LeaderListTier {
     height: 24px;
     width: 24px;
@@ -621,6 +564,7 @@
     color: white;
     padding-top: 2px;
 }
+
 .LeaderListName .PersonaName {
     color: textBrightColor;
 }
@@ -672,12 +616,9 @@
     margin-right: 16px;
     margin-top: 16px;
     padding-left: 0px;
-
     background-color: XPCircleGradient;
     border: XPCircleBorder;
-
     box-shadow: 0px 2px 4px 0px #00000066;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
 }
@@ -729,7 +670,6 @@
     margin-top: 1px;
     horizontal-align: center;
     vertical-align: center;
-
     opacity: 1;
 }
 
@@ -767,7 +707,6 @@
     height: 770px;
     margin-top: 180px;
     background-color: #000000aa;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -781,18 +720,15 @@
     border-bottom: 1px solid bp_color10&33;
 }
 
-@define battlecup_current_season_icon: url( "s2r://panorama/images/icon_trophy_battle_cup_summer_psd.vtex");
-@define battlecup_current_season_champions_icon: url( "s2r://panorama/images/icon_trophy_champions_cup_psd.vtex");
-@define battlecup_current_season_champions_animation_icon: url( "s2r://panorama/images/icon_trophy_champions_cup_animation_png.vtex");
-
+@define battlecup_current_season_icon: url("s2r://panorama/images/icon_trophy_battle_cup_summer_psd.vtex");
+@define battlecup_current_season_champions_icon: url("s2r://panorama/images/icon_trophy_champions_cup_psd.vtex");
+@define battlecup_current_season_champions_animation_icon: url("s2r://panorama/images/icon_trophy_champions_cup_animation_png.vtex");
 .WagerToken {
     width: 58px;
     height: 58px;
-
     border-radius: 50%;
     wash-color: bp_wagerTokenColor;
     background-image: url("s2r://panorama/images/control_icons/wagertoken_psd.vtex");
-
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -801,11 +737,9 @@
 .TeamWagerToken {
     width: 58px;
     height: 58px;
-
     border-radius: 50%;
     wash-color: #d69600;
     background-image: url("s2r://panorama/images/control_icons/wagertoken_psd.vtex");
-
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -814,22 +748,17 @@
 .TeamWagerTokenContainer {
     vertical-align: bottom;
     horizontal-align: center;
-
     margin-right: 64px;
     margin-bottom: 20px;
-
     flow-children: down;
 }
 
 .TeamWagerTokenLabel {
     color: white;
-
     horizontal-align: center;
     vertical-align: center;
-
     text-align: center;
     width: 58px;
-
     margin-top: 3px;
 }
 
@@ -840,6 +769,7 @@
     margin-right: 20px;
     font-size: 24px;
 }
+
 #BackgroundGradient {
     width: 100%;
     height: 100px;

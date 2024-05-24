@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #DevStatDump {
     horizontal-align: right;
     flow-children: down;
@@ -144,7 +146,6 @@
     wash-color: #ccc;
     vertical-align: middle;
     margin-right: 4px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -184,15 +185,19 @@
 #SafeLaneBar .RoleBarRoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/safelaneicon_psd.vtex");
 }
+
 #MidLaneBar .RoleBarRoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/midlaneicon_psd.vtex");
 }
+
 #OffLaneBar .RoleBarRoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/offlaneicon_psd.vtex");
 }
+
 #SoftSupportBar .RoleBarRoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/softsupporticon_psd.vtex");
 }
+
 #HardSupportBar .RoleBarRoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/hardsupporticon_psd.vtex");
 }
@@ -256,7 +261,6 @@
 #DireGameCircleBar {
     height: 110px;
     width: 110px;
-
     border-radius: 100%;
     border: 1px solid black;
     horizontal-align: center;

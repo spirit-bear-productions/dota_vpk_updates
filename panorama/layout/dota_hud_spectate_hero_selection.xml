@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 5.0.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -34,6 +34,7 @@
 					<Label id="AsLabel" html="true" text="{s:assigned_hero_prefix}" />
 					<Panel id="HeroStrAgiIntIcon" />
 					<Panel id="HeroFooter">
+						<DOTAFacetIcon id="HeroFacet" class="ShowName" />
 						<Panel id="Abilities" />
 					</Panel>
 					<Panel id="HeroHeader">

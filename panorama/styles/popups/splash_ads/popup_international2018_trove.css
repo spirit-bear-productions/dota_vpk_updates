@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     padding: 0px;
     overflow: clip;
@@ -26,7 +28,6 @@
     background-image: url("s2r://panorama/images/splash_ads/ti8_trove_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
-
     ui-scale: 120%;
 }
 

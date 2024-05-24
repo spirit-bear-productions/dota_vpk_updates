@@ -1,60 +1,48 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define accentColor: #94d53f;
 @define accentColorTransparent: #7dad1c11;
 @define accentColorGlow: #426b15;
 @define accentBorderColor: #426b1533;
-
 @define accentColorSectionBG: #333333;
 @define textMediumColor: #666464;
 @define textBrightColor: #BBB9B5;
-
 @define textColoredMediumColor: #A74532;
 @define textColoredBrightColor: #87ca28;
 @define textColoredVeryBrightColor: #E87868;
-
 @define backgroundVeryDimColor: #121c03;
 @define backgroundDimColor: #1b2705;
 @define backgroundMediumColor: #05270d;
 @define backgroundBrightColor: #5a9124;
 @define backgroundVeryBrightColor: #d1ffa5;
-
 @define BRD: 1px solid #393e38;
-
 @define bp_battlePassLogoColor: #96e542;
-
 @define XPCircleGradient: gradient( linear, 0% 0%, 0% 100%, from( backgroundDimColor ), to( backgroundBrightColor ) );
 @define XPCircleBorder: 1px solid #709a28;
-
 @define XPRequiredHeroCircleGradient: gradient( linear, 0% 0%, 0% 100%, from( #33711a ), to( #6fc51b ) );
 @define XPRequiredHeroCircleBorder: 1px solid #67c51b;
-
 @define bp_battleLevelColor: #88cd4a;
-
-@define bp_single_point: url( "s2r://panorama/images/compendium/spring2016/single_point_psd.vtex");
-@define bp_single_point_selected: url( "s2r://panorama/images/compendium/spring2016/single_point_selected_psd.vtex");
-@define bp_activequestring_small: url( "s2r://panorama/images/compendium/spring2016/activequestring_small_psd.vtex");
-@define bp_activequestring_endscreen: url( "s2r://panorama/images/compendium/spring2016/activequestring_endscreen_psd.vtex");
-@define bp_shield_icon_endscreen: url( "s2r://panorama/images/compendium/spring2016/shield_icon_end_screen_psd.vtex");
-@define bp_tip_button_points: url( "s2r://panorama/images/compendium/spring2016/tip_button_points_psd.vtex");
-@define bp_tip_button_points_hover: url( "s2r://panorama/images/compendium/spring2016/tip_button_points_hover_psd.vtex");
-@define bp_total_tokens: url( "s2r://panorama/images/compendium/spring2016/totaltokens_psd.vtex");
-
-@define bp_quest_rank_empty: url( "s2r://panorama/images/status_icons/3star_empty_psd.vtex");
-@define bp_quest_rank_1: url( "s2r://panorama/images/status_icons/3star_1_psd.vtex");
-@define bp_quest_rank_2: url( "s2r://panorama/images/status_icons/3star_2_psd.vtex");
-@define bp_quest_rank_3: url( "s2r://panorama/images/status_icons/3star_3_psd.vtex");
-
+@define bp_single_point: url("s2r://panorama/images/compendium/spring2016/single_point_psd.vtex");
+@define bp_single_point_selected: url("s2r://panorama/images/compendium/spring2016/single_point_selected_psd.vtex");
+@define bp_activequestring_small: url("s2r://panorama/images/compendium/spring2016/activequestring_small_psd.vtex");
+@define bp_activequestring_endscreen: url("s2r://panorama/images/compendium/spring2016/activequestring_endscreen_psd.vtex");
+@define bp_shield_icon_endscreen: url("s2r://panorama/images/compendium/spring2016/shield_icon_end_screen_psd.vtex");
+@define bp_tip_button_points: url("s2r://panorama/images/compendium/spring2016/tip_button_points_psd.vtex");
+@define bp_tip_button_points_hover: url("s2r://panorama/images/compendium/spring2016/tip_button_points_hover_psd.vtex");
+@define bp_total_tokens: url("s2r://panorama/images/compendium/spring2016/totaltokens_psd.vtex");
+@define bp_quest_rank_empty: url("s2r://panorama/images/status_icons/3star_empty_psd.vtex");
+@define bp_quest_rank_1: url("s2r://panorama/images/status_icons/3star_1_psd.vtex");
+@define bp_quest_rank_2: url("s2r://panorama/images/status_icons/3star_2_psd.vtex");
+@define bp_quest_rank_3: url("s2r://panorama/images/status_icons/3star_3_psd.vtex");
 @define bp_xp_background_color: #262626;
 @define bp_xp_border: #B75B4D;
-
 @define bp_popup_game_end_local_player_highlight: #861c0d22;
 @define bp_popup_game_end_hovered_player_highlight: #861c0d22;
-
 @define bp_tip_button_background_color: gradient( linear, 0% 0%, 0% 100%, from( #AC3C2C ), to( #8D1D0D ) );
 @define bp_tip_button_active_background_color: gradient( linear, 0% 0%, 0% 100%, from( #E87868 ), to( #A33A2B ) );
 @define bp_tip_button_border_top: 1px solid #C75747;
 @define bp_tip_button_border_bottom: 1px solid #811101;
 @define bp_tip_button_border_sides: 1px solid #BA4A3A;
-
 DOTACompDoubleElimBracketPage {
     width: 100%;
     height: 100%;
@@ -64,7 +52,6 @@ DOTACompDoubleElimBracketPage {
 .FullScreenBackground {
     width: 100%;
     height: 100%;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -74,7 +61,6 @@ DOTACompDoubleElimBracketPage {
         color-stop(0.4, #0d0f0f),
         to(#0c0d09)
     );
-
     transition-property: background-color;
     transition-duration: 0.5s;
 }
@@ -89,7 +75,6 @@ DOTACompDoubleElimBracketPage {
         color-stop(0.4, #0f0f0d),
         to(#0d090a)
     );
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -107,11 +92,9 @@ DOTACompDoubleElimBracketPage {
     horizontal-align: center;
     pre-transform-scale2d: 1;
     margin-top: 60px;
-
     transition-property: transform, opacity;
     transition-duration: 1.8s;
     transition-timing-function: ease-in-out;
-
     opacity: 0.7;
 }
 
@@ -156,7 +139,6 @@ DOTACompDoubleElimBracketPage {
     padding: 6px 10px;
     font-size: 16px;
     text-align: center;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -168,12 +150,10 @@ DOTACompDoubleElimBracketPage {
     font-weight: bold;
     margin-left: 16px;
     padding-top: 4px;
-
     border-top: 1px solid #be6861;
     border-bottom: 1px solid #471713;
     border-left: 1px solid #6b231d;
     border-right: 1px solid #6b231d;
-
     border-top: 1px solid #ffffff77;
     border-bottom: 1px solid #00000055;
     border-left: 1px solid #ffffff55;
@@ -187,6 +167,7 @@ DOTACompDoubleElimBracketPage {
 #UnclaimedButton {
     visibility: collapse;
 }
+
 .HasUnclaimedRewards #UnclaimedButton {
     visibility: visible;
 }
@@ -210,7 +191,6 @@ DOTACompDoubleElimBracketPage {
 
 #GoToCurrentLevelLabel:hover {
     color: #ff7053;
-
     color: #acff53;
 }
 
@@ -219,7 +199,6 @@ DOTACompDoubleElimBracketPage {
     saturation: 0.8;
     contrast: 1;
     brightness: 1;
-
     transform: translateX(0px);
     width: 542px;
     horizontal-align: right;
@@ -242,13 +221,10 @@ DOTACompDoubleElimBracketPage {
     margin-top: -60px;
     margin-left: 32px;
     transform: rotateZ(20deg) translateY(12px);
-
     background-image: url("s2r://panorama/images/compendium/whitebox_glass_psd.vtex");
     background-size: cover;
-
     border-radius: 1px;
     overflow: noclip;
-
     animation-name: SlantMotion;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -257,9 +233,11 @@ DOTACompDoubleElimBracketPage {
 #WhiteBox1 {
     animation-duration: 31.3s;
 }
+
 #WhiteBox2 {
     animation-duration: 21.161s;
 }
+
 #WhiteBox3 {
     animation-duration: 26.7s;
 }
@@ -268,9 +246,11 @@ DOTACompDoubleElimBracketPage {
     0% {
         transform: rotateZ(20deg) translateY(12px) translateX(0px);
     }
+
     50% {
         transform: rotateZ(20deg) translateY(12px) translateX(-22px);
     }
+
     100% {
         transform: rotateZ(20deg) translateY(12px) translateX(0px);
     }
@@ -280,12 +260,10 @@ DOTACompDoubleElimBracketPage {
     width: 428px;
     height: 72px;
     border-radius: 1px;
-
     background-image: url("s2r://panorama/images/compendium/whitebox_glass_psd.vtex");
     background-size: cover;
     transform: rotateZ(-215deg) translateX(-40px) translateY(-50px);
     opacity: 0.2;
-
     animation-duration: 18s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -293,7 +271,6 @@ DOTACompDoubleElimBracketPage {
 
 .SelfEventTierSilver #SlantGraphic {
     hue-rotation: -40deg;
-
     saturation: 0.3;
     contrast: 1.4;
     brightness: 3;
@@ -301,7 +278,6 @@ DOTACompDoubleElimBracketPage {
 
 .SelfEventTierGold #SlantGraphic {
     hue-rotation: 180deg;
-
     hue-rotation: 165deg;
     saturation: 1.2;
     contrast: 1.2;
@@ -313,7 +289,6 @@ DOTACompDoubleElimBracketPage {
     saturation: 1;
     brightness: 2;
     contrast: 1;
-
     hue-rotation: -100deg;
     saturation: 2;
     brightness: 0.5;
@@ -341,7 +316,6 @@ DOTACompDoubleElimBracketPage {
     background-image: url("s2r://panorama/images/compendium/campaigncoverart_glow_psd.vtex");
     background-repeat: no-repeat;
     background-size: 100%;
-
     transition-property: transform, saturation, opacity, wash-color, pre-transform-scale2d;
     transition-duration: 1.2s;
     transition-timing-function: ease-in-out;
@@ -349,24 +323,19 @@ DOTACompDoubleElimBracketPage {
 
 .ViewingCompendium #TierGlow {
     transform: translateX(-1180px);
-
     transition-duration: 0.9s;
 }
 
 .SelfEventTierSilver #TierGlow {
     hue-rotation: 190deg;
-
     hue-rotation: 80deg;
-
     saturation: 0.4;
     opacity: 0.6;
 }
 
 .SelfEventTierGold #TierGlow {
     hue-rotation: -10deg;
-
     hue-rotation: -60deg;
-
     saturation: 0.5;
     opacity: 0.3;
 }
@@ -390,7 +359,6 @@ DOTACompDoubleElimBracketPage {
     margin-top: 60px;
     vertical-align: top;
     horizontal-align: left;
-
     transition-property: transform, opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -400,9 +368,11 @@ DOTACompDoubleElimBracketPage {
 #WhiteBox1 .Reflection {
     animation-name: ReflectionMotion1;
 }
+
 #WhiteBox2 .Reflection {
     animation-name: ReflectionMotion2;
 }
+
 #WhiteBox3 .Reflection {
     animation-name: ReflectionMotion3;
 }
@@ -411,9 +381,11 @@ DOTACompDoubleElimBracketPage {
     0% {
         transform: rotateZ(-210deg) translateX(-20px) translateY(-20px);
     }
+
     50% {
         transform: rotateZ(-205deg) translateX(-20px) translateY(-30px);
     }
+
     100% {
         transform: rotateZ(-210deg) translateX(-20px) translateY(-20px);
     }
@@ -423,9 +395,11 @@ DOTACompDoubleElimBracketPage {
     0% {
         transform: rotateZ(-209deg) translateX(-110px) translateY(2px);
     }
+
     50% {
         transform: rotateZ(-204deg) translateX(-110px) translateY(2px);
     }
+
     100% {
         transform: rotateZ(-209deg) translateX(-110px) translateY(2px);
     }
@@ -435,9 +409,11 @@ DOTACompDoubleElimBracketPage {
     0% {
         transform: rotateZ(-208deg) translateX(-180px) translateY(14px);
     }
+
     50% {
         transform: rotateZ(-203deg) translateX(-180px) translateY(19px);
     }
+
     100% {
         transform: rotateZ(-208deg) translateX(-180px) translateY(14px);
     }
@@ -453,7 +429,6 @@ DOTACompDoubleElimBracketPage {
 .CompendiumHeader {
     width: 1405px;
     height: 100px;
-
     horizontal-align: center;
     vertical-align: top;
     margin-top: 80px;
@@ -463,7 +438,6 @@ DOTACompDoubleElimBracketPage {
     padding-top: 16px;
     width: 1392px;
     height: 800px;
-
     horizontal-align: center;
     z-index: 2;
 }
@@ -473,7 +447,6 @@ DOTACompDoubleElimBracketPage {
     height: 330px;
     horizontal-align: center;
     z-index: 2;
-
     vertical-align: bottom;
     margin-bottom: 16px;
     flow-children: right;
@@ -565,16 +538,12 @@ DOTACompDoubleElimBracketPage {
     color: #9ec0ff;
     text-shadow: 0px 0px 5px 3 #000000;
     text-shadow: 0px 0px 8px 1 #61beff;
-
     color: #f3ffec;
     text-shadow: 0px 0px 6px 1 #9cff6100;
-
     margin-bottom: 10px;
     margin-left: 3px;
     opacity: 1;
-
     horizontal-align: left;
-
     transition-property: opacity;
     transition-duration: 0.5s;
 }
@@ -627,15 +596,12 @@ DOTACompDoubleElimBracketPage {
     padding: 8px 10px 4px 10px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#156300ff), to(#158f00ff));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#60862d), to(#3d5f1c));
-
     border-top: 1px solid #ffffff22;
     border-left: 1px solid #ffffff11;
     border-right: 1px solid #00000044;
     border-bottom: 1px solid #00000088;
-
     transition-property: background-color;
     transition-duration: 0.2s;
-
     visibility: collapse;
 }
 
@@ -676,20 +642,15 @@ DOTACompDoubleElimBracketPage {
 
 #CompendiumID {
     background-image: url("s2r://panorama/images/compendium/spring2016/logoheader_ti6_psd.vtex");
-
     width: 220px;
     height: 42px;
-
     opacity: 1;
-
     horizontal-align: center;
     vertical-align: middle;
     margin: 0px;
     margin-bottom: 54px;
-
     transition-property: opacity;
     transition-duration: 0.5s;
-
     visibility: collapse;
 }
 
@@ -739,12 +700,9 @@ DOTACompDoubleElimBracketPage {
     font-weight: bold;
     letter-spacing: 5px;
     text-shadow: 0px 0px 8px 1 #c14f39;
-
     text-shadow: 0px 0px 8px 1 #93c139;
-
     margin-top: 48px;
     padding-left: 6px;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.5s;
@@ -762,12 +720,9 @@ DOTACompDoubleElimBracketPage {
     width: 314px;
     height: 100px;
     margin-bottom: 8px;
-
     margin-top: 28px;
     vertical-align: bottom;
-
     opacity: 1;
-
     transition-property: opacity, brightness;
     transition-duration: 0.5s, 0.12s;
 }
@@ -782,7 +737,6 @@ DOTACompDoubleElimBracketPage {
     pre-transform-scale2d: 0.5;
     transform: translateX(-48px) translateY(-16px);
     opacity: 0;
-
     horizontal-align: left;
 }
 
@@ -812,7 +766,6 @@ DOTACompDoubleElimBracketPage {
     width: 100%;
     height: 770px;
     margin-top: 180px;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -840,7 +793,6 @@ DOTACompDoubleElimBracketPage {
 
 .CompendiumBody {
     background-color: #000000aa;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -921,7 +873,6 @@ DOTACompDoubleElimBracketPage {
 .SelfEventTierSilver #CompendiumLevelContainer .StatSub,
 .SelfEventTierSilver #CompendiumLevelContainer .StatSub Label {
     color: #26100e;
-
     color: #192218;
     font-weight: bold;
 }
@@ -937,7 +888,6 @@ DOTACompDoubleElimBracketPage {
 .SelfEventTierGold #PrizePoolNumber,
 .SelfEventTierSilver #PrizePoolNumber {
     color: #ed5649;
-
     color: #9aed49;
     text-shadow: 1px 1px 6px 5 #000000;
 }
@@ -953,7 +903,6 @@ DOTACompDoubleElimBracketPage {
 .SelfEventTierGold #CompendiumLevelContainer #LevelCircle Label,
 .SelfEventTierSilver #CompendiumLevelContainer #LevelCircle Label {
     color: #ed5649;
-
     color: #9aed49;
     text-shadow: 1px 1px 6px 5 #000000;
 }
@@ -991,7 +940,6 @@ DOTACompDoubleElimBracketPage {
 .SelfEventTierPlatinum #CompendiumLevelContainer .StatSub,
 .SelfEventTierPlatinum #CompendiumLevelContainer .StatSub Label {
     color: #84292d;
-
     color: #298449;
 }
 
@@ -1023,9 +971,7 @@ DOTACompDoubleElimBracketPage {
 #LeaderboardPanel {
     width: 100%;
     height: 100%;
-
     opacity: 1;
-
     padding-top: 6px;
 }
 
@@ -1035,9 +981,7 @@ DOTACompDoubleElimBracketPage {
     background-color: black;
     overflow: clip scroll;
     padding: 16px;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_vscroll_psd.vtex") 1;
-
     transition-property: height, wash-color;
     transition-duration: 0.25s;
 }
@@ -1062,9 +1006,7 @@ DOTACompDoubleElimBracketPage {
     height: 64px;
     vertical-align: center;
     wash-color: accentColor;
-
     wash-color: #76d232;
-
     background-image: url("s2r://panorama/images/compendium/shield_icon_psd.vtex");
     background-size: cover;
 }
@@ -1094,10 +1036,8 @@ DOTACompDoubleElimBracketPage {
     width: 100%;
     height: 16px;
     border: BRD;
-
     margin-bottom: 6px;
     padding: 3px;
-
     box-shadow: inset #17531a -3px 0px 6px;
 }
 
@@ -1211,7 +1151,6 @@ DOTACompDoubleElimBracketPage {
     background-color: black;
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 176px;
     margin-bottom: 16px;
     height: 24px;
@@ -1239,7 +1178,6 @@ DOTACompDoubleElimBracketPage {
 
 .HasArcanaVotesRemaining .ArcanaVoteButton {
     background-color: accentColor;
-
     border-top: 1px solid #be6861;
     border-bottom: 1px solid #471713;
     border-left: 1px solid #6b231d;
@@ -1257,7 +1195,6 @@ DOTACompDoubleElimBracketPage {
 .HasArcanaVotesRemaining .ArcanaVoteButton:hover {
     brightness: 2;
     background-color: accentColor;
-
     border-top: 1px solid #be6861;
     border-bottom: 1px solid #471713;
     border-left: 1px solid #6b231d;
@@ -1340,7 +1277,6 @@ DOTACompDoubleElimBracketPage {
 
 .ArcanaBestMatchContainer {
     horizontal-align: center;
-
     visibility: collapse;
     width: 100%;
 }
@@ -1574,10 +1510,8 @@ DOTACompDoubleElimBracketPage {
     border: 1px solid #224577;
     vertical-align: bottom;
     horizontal-align: right;
-
     margin-bottom: 16px;
     margin-right: 16px;
-
     z-index: 2;
 }
 
@@ -1598,12 +1532,10 @@ DOTACompDoubleElimBracketPage {
     blur: gaussian(1, 1, 1);
     horizontal-align: center;
     vertical-align: middle;
-
     background-color: #09101b;
     background-position: 65% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-
     transition-property: opacity, background-image;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -1636,7 +1568,6 @@ DOTACompDoubleElimBracketPage {
 
 #ActiveQuestChallenge {
     width: 650px;
-
     animation-duration: 0.51s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
@@ -1647,6 +1578,7 @@ DOTACompDoubleElimBracketPage {
         transform: translateX(30px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0px);
         opacity: 1;
@@ -1668,7 +1600,6 @@ DOTACompDoubleElimBracketPage {
     transform: rotateZ(0deg) translateY(0px);
     background-image: url("s2r://panorama/images/control_icons/arrow_dropdown_png.vtex");
     wash-color: #84ba36dd;
-
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 2px;
@@ -1701,11 +1632,8 @@ DOTACompDoubleElimBracketPage {
     vertical-align: middle;
     horizontal-align: center;
     margin-bottom: 20px;
-
     color: #487117ff;
-
     color: #3895d7ff;
-
     text-shadow: 0px 1px 2px 3 #000000;
     box-shadow: fill -7px 0px 14px 0px #000000dd;
     padding: 0px;
@@ -1723,7 +1651,6 @@ DOTACompDoubleElimBracketPage {
     padding-top: 32px;
     background-color: #000000ad;
     border: 1px solid black;
-
     transition-property: opacity;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -1747,14 +1674,11 @@ DOTACompDoubleElimBracketPage {
     border: 2px solid black;
     margin-left: 16px;
     margin-top: 0px;
-
     saturation: 0.2;
-
     background-color: #000000ee;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-
     transition-property: opacity, saturation;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -1793,10 +1717,8 @@ DOTACompDoubleElimBracketPage {
     horizontal-align: center;
     margin-bottom: 20px;
     color: #3f82c0;
-
     text-shadow: 0px 1px 2px 3 #000000;
     box-shadow: fill -7px 0px 14px 0px #000000dd;
-
     transition-property: color;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -1807,19 +1729,21 @@ DOTACompDoubleElimBracketPage {
     margin-bottom: 0px;
     text-transform: uppercase;
     letter-spacing: 1px;
-
     wash-color: #00000088;
 }
 
 #Questline1Picker {
     background-image: url("s2r://panorama/images/compendium/winter2016/support_quest_psd.vtex");
 }
+
 #Questline2Picker {
     background-image: url("s2r://panorama/images/compendium/winter2016/solo_quest_psd.vtex");
 }
+
 #Questline3Picker {
     background-image: url("s2r://panorama/images/compendium/winter2016/carry_quest_psd.vtex");
 }
+
 #Questline4Picker {
     background-image: url("s2r://panorama/images/compendium/winter2016/newbloom_quest_psd.vtex");
     horizontal-align: center;
@@ -1850,7 +1774,6 @@ DOTACompDoubleElimBracketPage {
     padding-left: 6px;
     padding-top: 4px;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#bd4d3822), to(#bd4d3800));
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#334e2566), to(#334e2500));
 }
 
@@ -1858,7 +1781,6 @@ DOTACompDoubleElimBracketPage {
     color: textBrightColor;
     padding-left: 6px;
     padding-top: 6px;
-
     width: 290px;
     height: fit-children;
 }
@@ -1866,9 +1788,7 @@ DOTACompDoubleElimBracketPage {
 #QuestWell {
     width: 900px;
     height: 353px;
-
     overflow: clip;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex") 1;
     visibility: collapse;
 }
@@ -1880,11 +1800,9 @@ DOTACompDoubleElimBracketPage {
 #RewardsWell {
     width: 1126px;
     height: 390px;
-
     border: BRD;
     vertical-align: top;
     overflow: clip;
-
     z-index: 3;
 }
 
@@ -1905,7 +1823,6 @@ DOTACompDoubleElimBracketPage {
     height: 390px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#000000aa), to(#00000000));
     border: BRD;
-
     transition-property: border;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -1928,7 +1845,6 @@ DOTACompDoubleElimBracketPage {
 #ArcanaVotePanel {
     width: 100%;
     height: fill-parent-flow(1);
-
     border: BRD;
     background-color: #00000088;
     transition-property: border, background-color;
@@ -1950,7 +1866,6 @@ DOTACompDoubleElimBracketPage {
 .ContentsHeader {
     height: 30px;
     background-color: accentColorSectionBG;
-
     text-align: center;
     color: white;
     font-size: 16px;
@@ -1958,7 +1873,6 @@ DOTACompDoubleElimBracketPage {
     letter-spacing: 2.25px;
     text-transform: uppercase;
     z-index: 2;
-
     transition-property: border, background-color, color;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -1970,7 +1884,6 @@ DOTACompDoubleElimBracketPage {
     width: 49%;
     text-align: center;
     vertical-align: middle;
-
     height: 200px;
     background-color: gradient(
         linear,
@@ -1991,7 +1904,6 @@ DOTACompDoubleElimBracketPage {
 #BalanceStatsWell {
     horizontal-align: left;
     vertical-align: middle;
-
     margin-right: 20px;
 }
 
@@ -2053,7 +1965,6 @@ DOTACompDoubleElimBracketPage {
     background-size: cover;
     margin-right: 12px;
     margin-top: 6px;
-
     hue-rotation: 120deg;
 }
 
@@ -2081,7 +1992,6 @@ DOTACompDoubleElimBracketPage {
     margin-top: 6px;
     color: textBrightColor;
     width: 200px;
-
     visibility: collapse;
 }
 
@@ -2093,7 +2003,6 @@ DOTACompDoubleElimBracketPage {
 .HomeLeaderboard {
     width: 100%;
     margin-top: -16px;
-
     transition-property: wash-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
@@ -2174,9 +2083,7 @@ DOTACompDoubleElimBracketPage {
     border: 1px solid accentBorderColor;
     margin: 8px;
     margin-bottom: 8px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3e3c3822), to(#4d211a));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#383e3e22), to(#1e2b20));
 }
 
@@ -2186,7 +2093,6 @@ DOTACompDoubleElimBracketPage {
     margin: 16px;
     wash-color: textColoredBrightColor;
     opacity: 0.4;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -2197,7 +2103,6 @@ DOTACompDoubleElimBracketPage {
     color: #92b4d9;
     color: #78a0c8;
     color: #cdbbb5;
-
     color: #c2cdb5;
     text-shadow: 0px 1px 2px 3 #000000;
     opacity: 0;
@@ -2207,11 +2112,8 @@ DOTACompDoubleElimBracketPage {
     padding-bottom: 8px;
     padding-left: 16px;
     padding-right: 16px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#4c211a00), color-stop(0.5, #4c211add), to(#4c211add));
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#334c1a00), color-stop(0.5, #334c1add), to(#334c1add));
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -2225,7 +2127,6 @@ DOTACompDoubleElimBracketPage {
     letter-spacing: 1px;
     color: textBrightColor;
     margin-top: 16px;
-
     transition-property: color;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -2259,7 +2160,6 @@ DOTACompDoubleElimBracketPage {
     width: 326px;
     height: 335px;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/compendium/tokenstack_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
@@ -2286,16 +2186,17 @@ DOTACompDoubleElimBracketPage {
     background-image: url("s2r://panorama/images/compendium/spring2016/wagerdesc_next_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
-
     hue-rotation: 90deg;
 }
 
 #Next1 {
     margin-right: 660px;
 }
+
 #Next2 {
     margin-left: 26px;
 }
+
 #Next3 {
     margin-left: 714px;
 }
@@ -2309,7 +2210,6 @@ DOTACompDoubleElimBracketPage {
 
 .LeaderListRow.IsCurrentUser {
     background-color: #2c442e55;
-
     background-color: #2c374477;
 }
 
@@ -2369,6 +2269,7 @@ DOTACompDoubleElimBracketPage {
 .LeaderListName Label {
     color: white;
 }
+
 .LeaderListTier {
     height: 24px;
     width: 24px;
@@ -2377,6 +2278,7 @@ DOTACompDoubleElimBracketPage {
     color: white;
     padding-top: 2px;
 }
+
 .LeaderListName .PersonaName {
     color: textBrightColor;
 }
@@ -2408,9 +2310,7 @@ DOTACompDoubleElimBracketPage {
 
 VerticalScrollBar {
     background-color: #38161288;
-
     background-color: #202621dd;
-
     width: 6px;
 }
 
@@ -2419,7 +2319,6 @@ VerticalScrollBar:active .ScrollThumb,
 VerticalScrollBar:hover .ScrollThumb {
     background-color: #45201d;
     border: 1px solid #ffffff02;
-
     background-color: #39443a;
     border: 1px solid #ffffff02;
 }
@@ -2427,7 +2326,6 @@ VerticalScrollBar:hover .ScrollThumb {
 .AsyncWagerInfoData {
     opacity: 0;
     margin-bottom: 32px;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -2455,12 +2353,9 @@ VerticalScrollBar:hover .ScrollThumb {
     margin-right: 16px;
     margin-top: 16px;
     padding-left: 0px;
-
     background-color: XPCircleGradient;
     border: XPCircleBorder;
-
     box-shadow: 0px 2px 4px 0px #00000066;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
 }
@@ -2520,7 +2415,6 @@ VerticalScrollBar:hover .ScrollThumb {
 .CommunityGoal {
     width: 100%;
     height: 72px;
-
     margin: 16px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -2617,13 +2511,11 @@ VerticalScrollBar:hover .ScrollThumb {
 
 .FirstTimeUser .FirstTimeUserText {
     font-size: 24px;
-
     width: 834px;
     color: #7b96ca;
     font-weight: thin;
     color: #9ba8b7;
     visibility: visible;
-
     horizontal-align: center;
 }
 
@@ -2660,7 +2552,6 @@ VerticalScrollBar:hover .ScrollThumb {
 #EventEndsLabel,
 #EventEndedLabel {
     text-transform: uppercase;
-
     color: white;
     letter-spacing: 2px;
     font-size: 14px;
@@ -2745,7 +2636,6 @@ VerticalScrollBar:hover .ScrollThumb {
     margin-right: 16px;
     text-shadow: 0px 1px 2px 3 #000000;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -2792,7 +2682,6 @@ VerticalScrollBar:hover .ScrollThumb {
 
 .DashboardPage {
     wash-color: #c24e39;
-
     wash-color: #2d5604;
 }
 
@@ -2833,14 +2722,11 @@ VerticalScrollBar:hover .ScrollThumb {
 .ButtonBattlePass {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#200e0d), to(#311410));
     border: 1px solid #45201d;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#062505), to(#143007));
     border: 1px solid #23430f;
-
     transition-property: border, background-color;
     transition-duration: 0.1s;
     transition-timing-function: linear;
-
     min-width: 184px;
     min-height: 36px;
 }
@@ -2857,21 +2743,16 @@ VerticalScrollBar:hover .ScrollThumb {
 .ButtonBattlePass:active {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3e1a1811), to(#5c261e11));
     border: 1px solid #501f18;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#040802), to(#182c0b));
     border: 1px solid #23430f;
-
     sound: "ui_generic_button_click";
 }
 
 .ButtonBattlePass Label {
     margin-top: 2px;
     text-transform: uppercase;
-
     color: #aa9988;
-
     color: #acbfa6;
-
     horizontal-align: center;
     font-weight: thin;
     font-size: 14px;
@@ -2881,7 +2762,6 @@ VerticalScrollBar:hover .ScrollThumb {
     text-shadow: 0px 0px 6px 1 #000000;
     padding-left: 8px;
     padding-right: 8px;
-
     transition-property: color;
     transition-duration: 0.1s;
     transition-timing-function: linear;
@@ -2943,7 +2823,6 @@ VerticalScrollBar:hover .ScrollThumb {
 
 #MyQuests {
     height: 100%;
-
     width: 100%;
 }
 
@@ -2959,11 +2838,9 @@ VerticalScrollBar:hover .ScrollThumb {
     margin-top: 16px;
     margin-bottom: -6px;
     text-shadow: 0px 0px 8px 1 accentColorGlow;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
-
     opacity: 0;
 }
 
@@ -3007,10 +2884,8 @@ VerticalScrollBar:hover .ScrollThumb {
     margin-bottom: 77px;
     wash-color: textMediumColor;
     opacity: 0;
-
     transition-property: opacity, wash-color;
     transition-duration: 0.12s;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#0b270500), to(#28533933));
 }
 
@@ -3048,15 +2923,12 @@ VerticalScrollBar:hover .ScrollThumb {
 
 .BigDeal {
     visibility: collapse;
-
     vertical-align: bottom;
     margin-bottom: 16px;
     horizontal-align: right;
     margin-right: 16px;
     min-width: 400px;
-
     flow-children: right;
-
     transition-property: opacity, wash-color;
     transition-duration: 0.12s;
 }
@@ -3073,13 +2945,12 @@ VerticalScrollBar:hover .ScrollThumb {
 .BigDeal .RewardLevel {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#66281f), to(#a6352b));
     border: 2px solid #bf686d;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3b661f), to(#5ca62b));
     border: 2px solid #97bf68;
-
     width: 40px;
     height: 40px;
 }
+
 .BigDeal .RewardLevel > Label {
     width: 100%;
     text-align: center;
@@ -3150,7 +3021,6 @@ VerticalScrollBar:hover .ScrollThumb {
     color: textBrightColor;
     padding-left: 6px;
     padding-top: 15px;
-
     max-width: 325px;
     height: 150px;
     visibility: collapse;
@@ -3162,7 +3032,6 @@ VerticalScrollBar:hover .ScrollThumb {
     border: BRD;
     border: 1px solid #563c35;
     vertical-align: bottom;
-
     margin-top: 16px;
     padding: 3px;
     box-shadow: inset #532017 -3px 0px 6px;
@@ -3193,17 +3062,13 @@ VerticalScrollBar:hover .ScrollThumb {
     text-shadow: 0px 0px 8px 2 #da5a11aa;
     padding-top: 18px;
     pre-transform-scale2d: 0.8;
-
     width: 80px;
     height: 80px;
     vertical-align: middle;
-
     opacity: 1;
     border-radius: 50%;
-
     background-image: url("s2r://panorama/images/compendium/linagame_ball_psd.vtex");
     background-size: contain;
-
     transition-property: pre-transform-scale2d, brightness;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -3266,7 +3131,6 @@ VerticalScrollBar:hover .ScrollThumb {
     border-radius: 12px;
     text-shadow: 0px 0px 8px 2 #000000aa;
     text-transform: uppercase;
-
     visibility: collapse;
 }
 
@@ -3299,6 +3163,7 @@ VerticalScrollBar:hover .ScrollThumb {
     width: 100%;
     height: 100%;
 }
+
 #FireballFX {
     width: 212px;
     height: 212px;

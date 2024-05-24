@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .Frostivus2023Cell {
     overflow: clip;
 }
@@ -18,7 +20,6 @@
     overflow: noclip;
     background-size: cover;
     background-position: center;
-
     transition-duration: 0.25s;
     transition-property: transform;
     transition-timing-function: ease-out;
@@ -42,6 +43,7 @@
     width: 70%;
     padding: 20px;
 }
+
 .Contents Label {
     width: 100%;
 }
@@ -84,9 +86,7 @@
     margin: 0px 16px;
     padding: 12px 0px;
     font-weight: semi-bold;
-
     border-top: 1px solid rgba(255, 255, 255, 0.6);
-
     transition-duration: 0.1s;
     transition-property: color;
     transition-timing-function: ease-out;

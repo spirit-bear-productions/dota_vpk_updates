@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #BackgroundImage {
     background-image: url("s2r://panorama/images/front_page/dota_plus_debut_psd.vtex");
     background-size: cover;
@@ -40,7 +42,6 @@
     height: 248px;
     horizontal-align: center;
     vertical-align: center;
-
     background-image: url("s2r://panorama/images/dota_plus/dotaplus_logo_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -129,9 +130,11 @@
 #PrepaidPrice {
     visibility: collapse;
 }
+
 .IsSteamChina #PrepaidPrice {
     visibility: visible;
 }
+
 .IsSteamChina #SubscriptionPrice {
     visibility: collapse;
 }

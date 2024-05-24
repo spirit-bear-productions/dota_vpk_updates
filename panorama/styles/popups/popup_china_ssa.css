@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupChinaSSA {
     width: 100%;
     height: 100%;
@@ -12,9 +14,7 @@ DOTAPopupChinaSSA {
 #MainContainer {
     width: 100%;
     height: 100%;
-
     margin: 100px;
-
     flow-children: down;
     horizontal-align: center;
 }
@@ -57,10 +57,8 @@ DOTAPopupChinaSSA {
 #Error {
     margin: 120px;
     flow-children: down;
-
     vertical-align: center;
     horizontal-align: center;
-
     visibility: collapse;
 }
 

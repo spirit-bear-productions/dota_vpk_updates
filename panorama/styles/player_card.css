@@ -1,13 +1,12 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 @define backgroundGradient: gradient( linear, 0% 0%, 0% 100%, from( #ffffff02 ), to( #ffffff04 ) );
 @define backgroundGradientHover: gradient( linear, 0% 0%, 0% 100%, from( #ffffff06 ), to( #ffffff10) );
 @define backgroundGradientActive: gradient( linear, 0% 0%, 0% 100%, from( #ffffff04 ), to( #ffffff0f ) );
-
 DOTAPlayerCard {
     width: 300px;
     height: 420px;
-
     border-radius: 18px;
 }
 
@@ -15,11 +14,8 @@ DOTAPlayerCard {
 #Background {
     width: 100%;
     height: 100%;
-
     background-image: url("s2r://panorama/images/playercards/papergrain_psd.vtex");
-
     background-size: 30%;
-
     transition-property: background-color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -153,10 +149,8 @@ DOTAPlayerCard.Unowned #TeamLogo {
 #BackgroundInset {
     width: 284px;
     height: 404px;
-
     horizontal-align: center;
     vertical-align: center;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -167,14 +161,11 @@ DOTAPlayerCard.Unowned #TeamLogo {
         to(#300a0b)
     );
     background-color: transparent;
-
     background-image: url("s2r://panorama/images/playercards/cardfront_ti6_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
-
     border-radius: 13px;
     border: 1px solid #000000;
-
     flow-children: down;
 }
 
@@ -209,14 +200,10 @@ DOTAPlayerCard.Unowned #TeamLogo {
 #AngledStripe {
     width: 200px;
     height: 35px;
-
     x: -40px;
     y: 40px;
-
     background-color: #00000066;
-
     flow-children: down;
-
     transform: rotateZ(-45deg);
     visibility: collapse;
 }
@@ -262,19 +249,16 @@ DOTAPlayerCard.Unowned #TeamLogo {
 #MiddleCardSection {
     width: 100%;
     height: 50px;
-
     background-color: black;
     background-image: url("s2r://panorama/images/playercards/blackstripe_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
-
     flow-children: none;
 }
 
 #MiddleCardSection .HalfSection {
     width: 50%;
     height: 100%;
-
     padding: 6px 14px;
     flow-children: down;
 }
@@ -290,9 +274,7 @@ DOTAPlayerCard.Unowned #TeamLogo {
 #MiddleCardSection .FullSection {
     width: 100%;
     height: 100%;
-
     flow-children: down;
-
     visibility: collapse;
 }
 
@@ -335,7 +317,6 @@ DOTAPlayerCard.Gold .MiddleCardValue.Team {
     width: 200px;
     height: 200px;
     margin-right: 54px;
-
     vertical-align: bottom;
     horizontal-align: center;
     img-shadow: 1px 1px 8px black;
@@ -355,9 +336,7 @@ DOTAPlayerCard.Gold .MiddleCardValue.Team {
     width: 132px;
     height: 132px;
     z-index: -2;
-
     margin: 6px;
-
     vertical-align: top;
     horizontal-align: right;
 }
@@ -367,7 +346,6 @@ DOTAPlayerCard.Gold .MiddleCardValue.Team {
     height: fill-parent-flow(1);
     padding: 10px;
     padding-left: 14px;
-
     flow-children: none;
 }
 
@@ -455,7 +433,6 @@ DOTAPlayerCard.Gold #BottomCardSection #FantasyStats .FantasyRoleHeader {
 #BottomCardSection #FantasyStats .FantasyStatsHeader {
     text-transform: uppercase;
     letter-spacing: 1.4px;
-
     margin-top: 8px;
     font-size: 11px;
 }
@@ -463,7 +440,6 @@ DOTAPlayerCard.Gold #BottomCardSection #FantasyStats .FantasyRoleHeader {
 #BottomCardSection #FantasyStats .FantasyStatsContainer {
     flow-children: right;
     margin-top: -2px;
-
     visibility: collapse;
 }
 
@@ -518,7 +494,6 @@ DOTAPlayerCard.Gold #BottomCardSection #FantasyStats .FantasyRoleHeader {
 DOTAPlayerCard.Medium {
     width: 200px;
     height: 280px;
-
     border-radius: 12px;
 }
 
@@ -570,7 +545,6 @@ DOTAPlayerCard.Medium {
 .Medium #AngledStripe {
     width: 130px;
     height: 22px;
-
     x: -30px;
     y: 30px;
 }
@@ -692,23 +666,19 @@ DOTAPlayerCard.Medium {
 DOTAPlayerCard.Small {
     width: 120px;
     height: 180px;
-
     border-radius: 8px;
-
     margin: 4px;
 }
 
 .Small #BackgroundInset {
     width: 116px;
     height: 168px;
-
     border-radius: 7px;
 }
 
 .Small #Headshot {
     width: 76px;
     height: 76px;
-
     margin-right: 20px;
 }
 
@@ -743,7 +713,6 @@ DOTAPlayerCard.Small {
     margin-top: 4px;
     margin-bottom: -10px;
     horizontal-align: center;
-
     horizontal-align: left;
     text-align: left;
 }
@@ -905,13 +874,10 @@ DOTAPlayerCard.Small {
     padding-right: 16px;
     padding-left: 16px;
     flow-children: down;
-
     background-color: #444444ea;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-
     box-shadow: -2px 0px 4px 0px #000000;
-
     visibility: collapse;
 }
 
@@ -951,9 +917,7 @@ DOTAPlayerCard.Small {
     padding-left: 16px;
     padding-bottom: 16px;
     font-size: 18px;
-
     vertical-align: middle;
-
     horizontal-align: center;
     color: #0e98f1;
 }
@@ -981,18 +945,13 @@ DOTAPlayerCard.Small {
 #NotPlayingIndicator {
     width: 40px;
     height: 40px;
-
     horizontal-align: left;
     vertical-align: top;
-
     margin-left: 4px;
     margin-top: 4px;
-
     background-color: red;
     border-radius: 50%;
-
     box-shadow: -6px 0px 12px 0px #000000;
-
     visibility: collapse;
 }
 
@@ -1000,7 +959,6 @@ DOTAPlayerCard.Small {
     horizontal-align: center;
     vertical-align: center;
     text-align: center;
-
     font-size: 32px;
     color: black;
     font-weight: bold;

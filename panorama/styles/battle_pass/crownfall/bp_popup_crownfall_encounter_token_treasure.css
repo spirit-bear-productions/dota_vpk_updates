@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .TokenTreasure {
     min-width: 500px;
     min-height: 300px;
@@ -22,6 +24,7 @@
     flow-children: right;
     margin-top: 48px;
 }
+
 .Shopkeeper .MeepoIcon {
     width: 128px;
     height: 128px;
@@ -56,6 +59,7 @@ DOTACrownfallToken {
     margin-top: 48px;
     margin-bottom: -32px;
 }
+
 .Center .Chest {
     horizontal-align: center;
     width: 320px;
@@ -66,6 +70,7 @@ DOTACrownfallToken {
 .Center .Chest.NotEnoughTokens .ChestParticlesContainer {
     opacity: 0;
 }
+
 .Center .Chest.NotEnoughTokens .ChestMessage {
     visibility: visible;
 }
@@ -100,6 +105,7 @@ DOTACrownfallToken {
     flow-children: right;
     horizontal-align: center;
 }
+
 .Center .Chest #RewardTokensContainer DOTACrownfallToken {
     ui-scale: 160%;
     margin: -32px;
@@ -112,6 +118,7 @@ DOTACrownfallToken {
     vertical-align: bottom;
     margin-bottom: 80px;
 }
+
 .Center .Chest .ChestImage .ChestParticlesContainer {
     ignore-parent-flow: true;
     width: 100%;
@@ -120,6 +127,7 @@ DOTACrownfallToken {
     overflow: clip;
     margin-top: -120px;
 }
+
 .Center .Chest .ChestImage .ChestParticlesContainer .ChestParticles {
     width: 80%;
     height: 360%;
@@ -137,6 +145,7 @@ DOTACrownfallToken {
     vertical-align: bottom;
     margin-bottom: 50px;
 }
+
 .Center .Chest .ChestCost .InstructionLabel {
     horizontal-align: center;
 }
@@ -155,6 +164,7 @@ DOTACrownfallToken {
     transition-property: opacity;
     transition-duration: 0.3s;
 }
+
 .DialogueComplete .Center .Chest .ChestCost #ClaimRewardOptionButton {
     opacity: 1;
 }
@@ -168,6 +178,7 @@ DOTACrownfallToken {
     flow-children: right;
     margin-top: 48px;
 }
+
 .Tokens DOTACrownfallToken {
     ui-scale: 300%;
 }
@@ -179,11 +190,11 @@ DOTACrownfallToken {
     color: LighterGrey;
     letter-spacing: 2px;
     text-shadow: 0px 2px 8px black;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.3s;
 }
+
 .DialogueComplete .ChooseOneLabel {
     opacity: 1;
 }

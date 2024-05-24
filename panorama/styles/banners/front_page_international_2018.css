@@ -1,13 +1,12 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #MainContents {
     flow-children: down;
     width: 100%;
     height: 100%;
-
     margin-top: 30px;
     margin-right: 16px;
-
     box-shadow: 0px 0px 12px backgroundBrightColor&88;
-
     transition-property: box-shadow;
     transition-duration: 0.28s;
     transition-timing-function: ease-in-out;
@@ -22,7 +21,6 @@
     flow-children: right;
     background-color: black;
     padding: 8px 8px 0px 8px;
-
     background-image: url("s2r://panorama/images/front_page/ti8_front_bar_psd.vtex");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -34,7 +32,6 @@
     color: #ccc;
     margin-left: 8px;
     margin-bottom: 8px;
-
     background-image: url("s2r://panorama/images/compendium/international2018/compendium/international_logo_text_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -88,7 +85,6 @@
     width: 300px;
     height: 300px;
     transform: translateX(794px) translateY(70px);
-
     transition-property: opacity;
     transition-duration: 0.4s;
 }
@@ -116,7 +112,6 @@
 #FirstCell {
     width: 268px;
     height: 188px;
-
     margin-right: 16px;
 }
 
@@ -132,7 +127,6 @@
     horizontal-align: right;
     width: 200px;
     padding-bottom: 20px;
-
     transition-property: opacity;
     transition-duration: 0.4s;
 }
@@ -160,10 +154,8 @@
     margin-right: 39px;
     margin-bottom: 16px;
     border: 2px solid black;
-
     transition-property: opacity;
     transition-duration: 0.4s;
-
     opacity: 0;
 }
 
@@ -174,7 +166,6 @@
     vertical-align: bottom;
     margin-right: 39px;
     margin-bottom: 16px;
-
     visibility: collapse;
 }
 
@@ -185,13 +176,10 @@
     margin-right: 24px;
     pre-transform-scale2d: 0.9;
     brightness: 0.95;
-
     transform: translateY(-190px);
     opacity-mask: url("s2r://panorama/images/masks/softedge_sharper_bottom_png.vtex");
-
     transition-property: opacity, pre-transform-scale2d, brightness;
     transition-duration: 0.4s;
-
     opacity: 0;
 }
 
@@ -203,21 +191,17 @@
 #GrimstrokeTitle {
     width: 499px;
     height: 100px;
-
     vertical-align: bottom;
     horizontal-align: right;
     margin-right: 40px;
     margin-bottom: 28px;
     ui-scale: 86%;
-
     background-image: url("s2r://panorama/images/front_page/grimstroke_title_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     transition-property: opacity, pre-transform-scale2d, brightness;
     transition-duration: 0.4s;
-
     opacity: 0;
 }
 
@@ -245,10 +229,8 @@
     margin-right: 6px;
     border: 3px solid black;
     box-shadow: 0px 0px 4px black;
-
     background-color: black;
     border-radius: 50%;
-
     transition-property: background;
     transition-duration: 0.2s;
 }

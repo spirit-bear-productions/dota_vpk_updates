@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .Title {
     font-family: monospace;
     text-transform: uppercase;
@@ -18,6 +20,7 @@
     flow-children: right;
     margin-top: 48px;
 }
+
 .AlreadyClaimed .Tokens {
     brightness: 0.2;
 }
@@ -38,6 +41,7 @@
     brightness: 2;
     hue-rotation: 100deg;
 }
+
 .AlreadyClaimed .Tokens .TokenContainer .TokenParticles {
     visibility: collapse;
 }
@@ -59,11 +63,11 @@
 
 .BodyContainer {
     vertical-align: center;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.2s;
 }
+
 .DialogueComplete .BodyContainer {
     opacity: 1;
 }
@@ -78,10 +82,12 @@
     width: fit-children;
     horizontal-align: center;
 }
+
 .BodyContainer #FighterContainer .Fighter {
     width: 330px;
     flow-children: down;
 }
+
 .BodyContainer #FighterContainer .Fighter .FighterName {
     text-align: center;
     font-size: 30px;
@@ -96,9 +102,11 @@
     horizontal-align: center;
     margin-top: 8px;
 }
+
 .BodyContainer #FighterContainer .Fighter .StatsContainer .Stat {
     flow-children: right;
 }
+
 .BodyContainer #FighterContainer .Fighter .StatsContainer .Stat .StatItem {
     margin: 5px;
 }
@@ -115,6 +123,7 @@
 .BodyContainer #FighterContainer .Fighter .StatsContainer .Stat .StatPipContainer {
     flow-children: right;
 }
+
 .BodyContainer #FighterContainer .Fighter .StatsContainer .Stat .StatPipContainer .StatPip {
     width: 8px;
     height: 20px;
@@ -154,6 +163,7 @@
     horizontal-align: center;
     ui-scale: 80%;
 }
+
 .BodyContainer #FighterContainer .Fighter DOTACrownfallButton:disabled {
     saturation: 0.5;
     brightness: 0.25;
@@ -206,6 +216,7 @@
     flow-children: down;
     width: 100%;
 }
+
 .BodyContainer #BetContainer Label {
     horizontal-align: center;
     text-align: center;
@@ -226,6 +237,7 @@
     transition-property: opacity;
     transition-duration: 0.2s;
 }
+
 .DialogueComplete .TakeTokensButton {
     opacity: 1;
 }

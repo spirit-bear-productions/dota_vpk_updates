@@ -1,14 +1,12 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 TournamentMatchListRowMain {
     width: 100%;
     height: 58px;
-
     background-color: #1a202477;
-
     margin-right: 14px;
     margin-left: 12px;
-
     margin-top: 2px;
-
     flow-children: right;
 }
 
@@ -25,9 +23,7 @@ TournamentMatchListRowMain.LastOfSeries {
 #StageAndMatchInfo {
     width: 220px;
     padding-right: 20px;
-
     vertical-align: middle;
-
     margin-left: 20px;
 }
 
@@ -48,17 +44,14 @@ TournamentMatchListRowMain.LastOfSeries {
 #SpoilerBlocker {
     horizontal-align: center;
     vertical-align: center;
-
     width: 200px;
     height: 40px;
 }
 
 #SpoilerBlocker Image {
     wash-color: #788a8a;
-
     horizontal-align: center;
     vertical-align: center;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -68,7 +61,6 @@ TournamentMatchListRowMain.LastOfSeries {
 #SpoilerReveal {
     width: 100%;
     height: 100%;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -91,9 +83,7 @@ TournamentMatchListRowMain.LastOfSeries {
 #Teams {
     width: 500px;
     height: 32px;
-
     vertical-align: middle;
-
     flow-children: right;
 }
 
@@ -126,10 +116,8 @@ TournamentMatchListRowMain.LastOfSeries {
 .TeamLogo {
     width: 32px;
     height: 52px;
-
     margin-left: 12px;
     margin-right: 12px;
-
     vertical-align: middle;
 }
 
@@ -143,11 +131,8 @@ TournamentMatchListRowMain.LastOfSeries {
 #Buttons {
     horizontal-align: right;
     vertical-align: center;
-
     flow-children: right;
-
     min-width: 160px;
-
     padding-left: 6px;
     padding-right: 6px;
 }
@@ -208,7 +193,6 @@ TournamentMatchListRowMain.LastOfSeries {
 #DecompressingLabel {
     text-align: center;
     width: 250px;
-
     visibility: collapse;
 }
 
@@ -219,12 +203,9 @@ TournamentMatchListRowMain.LastOfSeries {
 
 .FlatGreyButton {
     background-color: #222a2e;
-
     height: 32px;
-
     margin-left: 2px;
     margin-right: 2px;
-
     transition-property: background-color;
     transition-duration: 0.05s;
     transition-timing-function: ease-in-out;
@@ -234,16 +215,12 @@ TournamentMatchListRowMain.LastOfSeries {
     transition-property: color;
     transition-duration: 0.05s;
     transition-timing-function: ease-in-out;
-
     color: #cccccc;
-
     margin-top: 8px;
     margin-bottom: 6px;
-
     margin-left: 10px;
     margin-right: 10px;
     min-width: 70px;
-
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;

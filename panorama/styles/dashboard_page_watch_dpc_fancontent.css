@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DotaWatchDPCFanContentPage {
     flow-children: right;
 }
@@ -18,7 +20,6 @@ DotaWatchDPCFanContentPage {
     horizontal-align: left;
     vertical-align: bottom;
     flow-children: down;
-
     margin-right: 16px;
 }
 
@@ -31,7 +32,6 @@ DotaWatchDPCFanContentPage {
     color: bluegreyTextBright;
     font-weight: semi-bold;
     vertical-align: bottom;
-
     margin-top: 40px;
 }
 
@@ -127,7 +127,6 @@ DotaWatchDPCFanContentPage {
     border-radius: 5px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#7990b600), to(#7990b606));
     background-position: center top;
-
     transition-duration: 0.2s;
     transition-property: brightness, background-color, pre-transform-scale2d;
 }
@@ -329,11 +328,11 @@ DotaWatchDPCFanContentPage {
 .OwnedTeam {
     width: 380px;
     opacity: 0.2;
-
     transition-duration: 0.2s;
     transition-property: opacity, brightness;
     margin-bottom: 2px;
 }
+
 .OwnedTeamInfo {
     vertical-align: center;
 }
@@ -373,6 +372,7 @@ DotaWatchDPCFanContentPage {
 .NewItem .NewBadge {
     visibility: visible;
 }
+
 #NewTeams {
     text-transform: uppercase;
     font-size: 14px;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #PredictionTitle {
     font-size: 30px;
     color: white;
@@ -10,37 +12,45 @@ DOTAPopupPredictionResults {
     max-height: 800px;
     background-color: #1e252f;
 }
+
 DOTAPopupPredictionResults.PopupPanel {
     background-color: #1e252f;
     border: 0px;
     transition-duration: 0s;
     animation-duration: 0s;
 }
+
 #TopHeader {
     width: 100%;
     flow-children: right;
 }
+
 #MainSectionContainer {
     background-color: #191f27;
     width: 100%;
     flow-children: down;
     overflow: clip scroll;
 }
+
 #Header {
     flow-children: right;
     width: 100%;
     height: 32px;
 }
+
 #Rank {
     width: 10%;
 }
+
 #Prediction {
     width: 50%;
 }
+
 #Amount,
 #Community {
     width: 20%;
 }
+
 #Rank,
 #Prediction,
 #Amount,
@@ -63,13 +73,16 @@ DOTAPopupPredictionResults.PopupPanel {
     letter-spacing: 1px;
     font-size: 14px;
 }
+
 .ResultText Label {
     color: #bfd2ee;
 }
+
 #Body {
     flow-children: down;
     width: 100%;
 }
+
 .BodyRow {
     flow-children: right;
     height: 20px;

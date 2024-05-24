@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .International2023RewardsCell {
     overflow: clip;
 }
@@ -19,7 +21,6 @@
     background-image: url("s2r://panorama/images/compendium/international2023/lastchance_popup/compendium_rewards_png.vtex");
     background-size: cover;
     background-position: center;
-
     transition-duration: 0.25s;
     transition-property: transform;
     transition-timing-function: ease-out;
@@ -30,6 +31,7 @@
     width: 100%;
     padding: 24px 16px;
 }
+
 .Top Label {
     width: 100%;
     text-align: center;
@@ -70,6 +72,7 @@
     width: 100%;
     flow-children: down;
 }
+
 .Bottom .Desc {
     width: 100%;
     text-align: center;
@@ -96,7 +99,6 @@
         color-stop(0.7, primaryColor3),
         to(primaryColor3&00)
     );
-
     transition-duration: 0.2s;
     transition-property: color;
     transition-timing-function: ease-out;

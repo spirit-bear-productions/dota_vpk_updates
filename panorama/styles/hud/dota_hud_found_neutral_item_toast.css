@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAFoundNeutralItemToast {
     margin-bottom: 8px;
     horizontal-align: right;
@@ -7,7 +9,6 @@ DOTAFoundNeutralItemToast {
     background-size: cover;
     padding: 8px;
     tooltip-position: left;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -21,7 +22,6 @@ DOTANeutralTierToast {
     background-size: cover;
     padding: 8px;
     tooltip-position: left;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -49,7 +49,6 @@ DOTAFoundNeutralItemToast:hover {
     text-transform: uppercase;
     font-size: 18px;
     color: #dedede;
-
     text-shadow: 2px 2px 4px black;
     letter-spacing: 2px;
     font-weight: semi-bold;
@@ -102,13 +101,11 @@ DOTAFoundNeutralItemToast:hover {
 #TierToastFooter {
     font-size: 16px;
     font-style: italic;
-
     text-shadow: 2px 2px 4px black;
 }
 
 .TierLabel {
     color: #ffffff;
-
     font-weight: semi-bold;
 }
 
@@ -119,15 +116,19 @@ DOTAFoundNeutralItemToast:hover {
 .NeutralTier1 .TierLabel {
     color: NeutralTier1;
 }
+
 .NeutralTier2 .TierLabel {
     color: NeutralTier2;
 }
+
 .NeutralTier3 .TierLabel {
     color: NeutralTier3;
 }
+
 .NeutralTier4 .TierLabel {
     color: NeutralTier4;
 }
+
 .NeutralTier5 .TierLabel {
     color: NeutralTier5;
 }

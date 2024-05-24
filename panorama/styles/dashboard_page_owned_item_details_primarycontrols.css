@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPageOwnedItemDetailsPrimaryControls {
     width: 100%;
     flow-children: down;
@@ -64,7 +66,6 @@ DOTAPageOwnedItemDetailsPrimaryControls {
     font-size: 18px;
     margin-right: 7px;
     margin-right: 7px;
-
     visibility: collapse;
 }
 

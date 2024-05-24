@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroDisplay {
     horizontal-align: left;
     width: 110px;
@@ -37,9 +39,11 @@ DOTAHeroDisplayRow {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0.2;
     }
+
     100% {
         opacity: 1;
     }
@@ -49,9 +53,11 @@ DOTAHeroDisplayRow {
     0% {
         opacity: 0.7;
     }
+
     70% {
         opacity: 0;
     }
+
     100% {
         opacity: 0;
     }
@@ -120,7 +126,6 @@ DOTAHeroDisplayRow {
 
 #HeroDisplayImage {
     brightness: 0.4;
-
     height: 100%;
     width: 100%;
 }

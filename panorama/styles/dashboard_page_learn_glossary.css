@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .HeroStatsHelpContents {
     width: 100%;
     flow-children: down;
@@ -14,7 +16,6 @@
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 14px;
-
     font-family: titleFont;
     font-weight: bold;
 }
@@ -38,7 +39,6 @@
 .HelpEntry.PrimaryAttribute {
     margin-top: -16px;
     margin-bottom: 20px;
-
     visibility: collapse;
 }
 
@@ -53,7 +53,6 @@
     height: 32px;
     margin-right: 8px;
     vertical-align: center;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -74,7 +73,6 @@
     font-family: titleFont;
     color: #ffffff;
     color: gradient(linear, 0% 0%, 100% 0%, from(#c0f8ff), color-stop(0.5, #bbfbff), to(#c0f8ff));
-
     text-shadow: 0px 0px 16px 1 #3bb3ff22;
 }
 
@@ -125,7 +123,6 @@
     margin-bottom: 20px;
     width: 100%;
     horizontal-align: center;
-
     height: fit-children;
     font-size: 16px;
     line-height: 22px;
@@ -183,6 +180,7 @@
         to(#175d17)
     );
 }
+
 #HealthEntry .ResourceRegen {
     color: #3ed038;
 }
@@ -190,6 +188,7 @@
 #ManaEntry .HeroResourceBar {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#6a90ba), color-stop(0.4, #144b91), to(#2e5187));
 }
+
 #ManaEntry .ResourceRegen {
     color: #83c2fe;
 }
@@ -204,12 +203,9 @@
     margin-top: 170px;
     background-color: #1e283477;
     background-color: #090e13cc;
-
     height: 78%;
-
     height: 70%;
     border-top: 1px solid #ffffff06;
-
     box-shadow: 0px 0px 30px #000000aa;
 }
 
@@ -225,7 +221,6 @@
     width: 290px;
     height: 100%;
     background-color: red;
-
     background-color: gradient(linear, 100% 0%, 0% 0%, from(#7586a610), to(#7586a604));
 }
 
@@ -239,7 +234,6 @@
 
 .GlossarySubNav {
     flow-children: down;
-
     transition-property: opacity;
     transition-duration: 0.6s;
     visibility: collapse;
@@ -268,7 +262,6 @@ RadioButton:selected > .GlossarySubNav {
     width: 100%;
     flow-children: down;
     margin-bottom: 20px;
-
     transition-property: position;
     transition-duration: 0.3s;
 }
@@ -283,7 +276,6 @@ RadioButton:selected > .GlossarySubNav {
     margin: 0px;
     color: #888888;
     overflow: squish;
-
     font-family: titleFont;
     font-weight: semi-bold;
 }
@@ -294,9 +286,7 @@ RadioButton:selected > .GlossarySubNav {
 
 .MainContents {
     horizontal-align: center;
-
     flow-children: down;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_bottom_vscroll_wide_big_psd.vtex");
 }
 
@@ -313,7 +303,6 @@ DOTASingleGlossaryPage {
     width: 1500px;
     horizontal-align: left;
     flow-children: down;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-delay: 0.1s;
@@ -329,26 +318,32 @@ DOTASingleGlossaryPage {
     opacity: 1;
     visibility: visible;
 }
+
 .GlossaryPageVisible_mechanics #GlossaryPage_mechanics {
     opacity: 1;
     visibility: visible;
 }
+
 .GlossaryPageVisible_units #GlossaryPage_units {
     opacity: 1;
     visibility: visible;
 }
+
 .GlossaryPageVisible_items #GlossaryPage_items {
     opacity: 1;
     visibility: visible;
 }
+
 .GlossaryPageVisible_advanced #GlossaryPage_advanced {
     opacity: 1;
     visibility: visible;
 }
+
 .GlossaryPageVisible_map #GlossaryPage_map {
     opacity: 1;
     visibility: visible;
 }
+
 .GlossaryPageVisible_teamwork #GlossaryPage_teamwork {
     opacity: 1;
     visibility: visible;
@@ -370,7 +365,6 @@ DOTASingleGlossaryPage {
     horizontal-align: left;
     flow-children: down;
     width: 100%;
-
     height: fit-children;
 }
 
@@ -402,7 +396,6 @@ DOTASingleGlossaryPage {
     horizontal-align: left;
     flow-children: right;
     width: 100%;
-
     horizontal-align: center;
 }
 
@@ -411,7 +404,6 @@ DOTASingleGlossaryPage {
     flow-children: right;
     width: 100%;
     margin-bottom: 100px;
-
     horizontal-align: center;
 }
 
@@ -419,7 +411,6 @@ DOTASingleGlossaryPage {
     horizontal-align: left;
     flow-children: right;
     width: 100%;
-
     background-color: gradient(
         linear,
         100% 0%,
@@ -429,7 +420,6 @@ DOTASingleGlossaryPage {
         color-stop(0.7, #000000aa),
         to(#00000000)
     );
-
     horizontal-align: center;
 }
 
@@ -441,7 +431,6 @@ DOTASingleGlossaryPage {
     horizontal-align: left;
     flow-children: down;
     width: 700px;
-
     horizontal-align: center;
 }
 
@@ -458,7 +447,6 @@ DOTASingleGlossaryPage {
     flow-children: down;
     width: 700px;
     margin-bottom: 100px;
-
     horizontal-align: center;
 }
 
@@ -471,7 +459,6 @@ DOTASingleGlossaryPage {
 
 .GlossaryTextContainerRight {
     width: 40%;
-
     flow-children: down;
     padding-left: 50px;
     padding-right: 60px;
@@ -487,7 +474,6 @@ DOTASingleGlossaryPage {
 .GlossarySectionLabelPreHeader {
     font-family: titleFont;
     font-size: 16px;
-
     margin-bottom: -4px;
     text-transform: uppercase;
     color: #ffffff55;
@@ -497,7 +483,6 @@ DOTASingleGlossaryPage {
 .GlossarySectionLabelPreHeaderCentered {
     font-family: titleFont;
     font-size: 16px;
-
     margin-bottom: -4px;
     text-transform: uppercase;
     color: #ffffff55;
@@ -535,12 +520,10 @@ DOTASingleGlossaryPage {
     font-size: 26px;
     color: white;
     vertical-align: center;
-
     font-family: titleFont;
     font-weight: semi-bold;
     margin-bottom: 18px;
     letter-spacing: 1px;
-
     width: fit-children;
 }
 
@@ -557,7 +540,6 @@ DOTASingleGlossaryPage {
     margin-bottom: 20px;
     width: 100%;
     horizontal-align: center;
-
     height: fit-children;
     font-size: 16px;
     line-height: 22px;
@@ -575,7 +557,6 @@ DOTASingleGlossaryPage {
     margin-top: 30px;
     width: 100%;
     horizontal-align: center;
-
     height: fit-children;
     font-size: 16px;
     line-height: 22px;
@@ -592,7 +573,6 @@ DOTASingleGlossaryPage {
     margin-bottom: 20px;
     width: fit-children;
     horizontal-align: center;
-
     height: fit-children;
     font-size: 16px;
     line-height: 22px;
@@ -634,7 +614,6 @@ DOTASingleGlossaryPage {
     flow-children: down;
     width: 100%;
     margin: 10px;
-
     margin-left: 50px;
     margin-right: 50px;
     background-color: #7586a606;
@@ -660,7 +639,6 @@ DOTASingleGlossaryPage {
 
 .GlossarySubsectionLabelAltSmall {
     text-align: center;
-
     font-size: 30px;
     color: white;
     vertical-align: center;
@@ -770,10 +748,8 @@ DOTASingleGlossaryPage {
 .ShopItemDetails {
     width: 300px;
     margin: 10px;
-
     border: 2px solid #80808044;
     padding: 2px;
-
     border-top: 1px solid #ffffff04;
     border-left: 1px solid #ffffff02;
     border-bottom: 1px solid #826b8a11;
@@ -786,9 +762,7 @@ DOTASingleGlossaryPage {
     margin-right: 10px;
     width: 85px;
     height: 85px;
-
     vertical-align: center;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00000000), to(#00000000));
     transition-property: pre-transform-scale2d, brightness, saturation, background-color, opacity;
     transition-duration: 0.06s, 0.1s;
@@ -816,7 +790,6 @@ DOTASingleGlossaryPage {
     z-index: 1;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#00ff0000), to(#00ff0000));
     visibility: visible;
-
     transition-property: brightness, background-color;
     transition-duration: 0.12s;
     transition-timing-function: ease-in;
@@ -827,7 +800,6 @@ DOTASingleGlossaryPage {
     height: 100%;
     z-index: -1;
     margin: 9px;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.12s;
     transition-timing-function: ease-in;
@@ -867,14 +839,12 @@ DOTASingleGlossaryPage {
 
 #GlossaryNavSearchBox {
     horizontal-align: middle;
-
     width: 100%;
     flow-children: right;
     transition-property: border;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     padding: 10px;
-
     background-color: #ffffff08;
     transition-property: brightness;
     transition-duration: 0.2s;

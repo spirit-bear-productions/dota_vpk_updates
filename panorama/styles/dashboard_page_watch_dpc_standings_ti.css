@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAWatchDPCStandingsTI {
     flow-children: down;
 }
@@ -20,7 +22,6 @@ DOTAWatchDPCStandingsTI {
     flow-children: down;
     height: fit-children;
     width: 100%;
-
     transition-property: transform, opacity;
     transition-duration: 0.21s;
     transition-timing-function: ease-in-out;
@@ -53,7 +54,6 @@ DOTAWatchDPCStandingsTI {
     opacity: 1;
     width: 1390px;
     height: 736px;
-
     transition-property: transform, opacity;
     transition-duration: 0.21s;
     transition-timing-function: ease-in-out;
@@ -115,7 +115,6 @@ DOTAWatchDPCStandingsTI:not(.LeagueDataIsValid) .TIStanding,
 
 #DOTAWatchDPCStandingsTI.NumTeams_16 #PlayoffsBackground {
     background-image: url("s2r://panorama/images/dpc/playoffs_blocks_ti10_psd.vtex");
-
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -443,6 +442,7 @@ DOTAWatchDPCStandingsTI:not(.LeagueDataIsValid) .TIStanding,
     margin-left: 38px;
     font-weight: semi-bold;
 }
+
 .Team1Name {
     margin-top: 10px;
 }
@@ -600,9 +600,7 @@ DOTAWatchDPCStandingsTI:not(.LeagueDataIsValid) .TIStanding,
     background-position: center;
     horizontal-align: left;
     vertical-align: center;
-
     img-shadow: 1px 1px 12px 1 #00000088;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }

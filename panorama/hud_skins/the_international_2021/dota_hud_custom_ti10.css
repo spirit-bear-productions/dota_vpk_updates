@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .Reborn.CustomHUDSkin #unitname {
     width: 159px;
     transform: translateY(0px);
@@ -92,14 +94,11 @@
 .Reborn.CustomHUDSkin #center_bg {
     width: 100%;
     height: 145px;
-
     margin-left: 110px;
     margin-right: 154px;
-
     transition-duration: 0.05s;
     transition-property: background-image;
     transition-timing-function: ease-in-out;
-
     background-image: url("s2r://panorama/images/hud/reborn/hud_custom_ti10/ability_bg_psd.vtex");
     background-size: 100%;
     vertical-align: bottom;

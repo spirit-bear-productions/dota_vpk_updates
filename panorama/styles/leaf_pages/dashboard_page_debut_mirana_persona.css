@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #ModelContainer {
     width: 100%;
     height: 100%;
@@ -11,11 +13,9 @@
     height: 100%;
     vertical-align: middle;
     horizontal-align: center;
-
     transition-property: opacity;
     transition-duration: 0s;
     transition-timing-function: ease-in;
-
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -49,7 +49,6 @@
     height: fit-children;
     opacity: 0;
     margin-top: 20px;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in;
@@ -94,7 +93,6 @@
     height: 950px;
     z-index: 10;
     opacity: 1;
-
     flow-children: down;
     background-size: contain;
     background-position: center;
@@ -111,7 +109,6 @@
     transition-duration: 3s;
     transition-timing-function: ease-in;
     transition-delay: 1s;
-
     opacity: 0;
 }
 
@@ -150,10 +147,8 @@
     background-size: 50%;
     width: 48px;
     height: 48px;
-
     background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_wraith_king/close_png.vtex");
     background-size: 32px;
-
     transition-property: background-size, transform;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -191,7 +186,6 @@
 #TitleContainer {
     width: 100%;
     horizontal-align: center;
-
     transition-property: hue-rotation, wash-color, saturation;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -229,7 +223,6 @@ VerticalScrollBar:active .ScrollThumb {
     width: 100%;
     height: 100%;
     wash-color: #000;
-
     transition-property: wash-color;
     transition-duration: 2s;
     transition-timing-function: ease-in;
@@ -309,7 +302,6 @@ VerticalScrollBar:active .ScrollThumb {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
     width: 130%;
     height: 290px;
     height: 200px;
@@ -423,9 +415,7 @@ DOTAPurchaseBattlePassReward.RewardClaimed {
     vertical-align: bottom;
     margin-left: 50px;
     margin-bottom: 50px;
-
     opacity: 0;
-
     transition-property: opacity, brightness, color;
     transition-duration: 0.3s;
 }
@@ -442,7 +432,6 @@ DOTAPurchaseBattlePassReward.RewardClaimed {
     text-transform: uppercase;
     font-family: titleFont;
     color: #e1eff0;
-
     transition-property: color, text-shadow, opacity;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;

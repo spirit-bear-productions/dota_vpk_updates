@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .HeroStatsHelpContents {
     flow-children: down;
 }
@@ -19,7 +21,6 @@
 .HelpEntry.PrimaryAttribute {
     margin-top: -16px;
     margin-bottom: 20px;
-
     visibility: collapse;
 }
 
@@ -34,7 +35,6 @@
     height: 24px;
     margin-right: 8px;
     vertical-align: center;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -99,6 +99,7 @@
         to(#175d17)
     );
 }
+
 #HealthEntry .ResourceRegen {
     color: #3ed038;
 }
@@ -106,6 +107,7 @@
 #ManaEntry .HeroResourceBar {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#6a90ba), color-stop(0.4, #144b91), to(#2e5187));
 }
+
 #ManaEntry .ResourceRegen {
     color: #83c2fe;
 }

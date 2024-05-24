@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDDeathPanel {
     width: 100%;
     height: 186px;
@@ -61,7 +63,6 @@ DOTAHUDDeathPanel.Dead.ValidUnit {
     padding-top: 4px;
     margin-top: -1px;
     letter-spacing: 1px;
-
     font-weight: bold;
 }
 
@@ -93,7 +94,6 @@ DOTAHUDDeathPanel.Dead.ValidUnit {
     font-size: 15px;
     horizontal-align: center;
     text-transform: uppercase;
-
     font-weight: bold;
 }
 
@@ -148,9 +148,7 @@ DOTAHUDDeathPanel.Dead.ValidUnit {
     height: 100px;
     text-align: center;
     margin-bottom: 51px;
-
     visibility: collapse;
-
     z-index: 5;
 }
 
@@ -177,7 +175,6 @@ DOTAHUDDeathPanel.Dead.ValidUnit {
     margin-left: 22px;
     visibility: collapse;
     text-shadow: 1px 1px 4px 2 #000000;
-
     font-weight: bold;
 }
 
@@ -236,20 +233,17 @@ DOTAHUDDeathPanel.Dead.ValidUnit {
     background-image: none;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#6da18b), to(#494137));
     background-repeat: no-repeat;
-
     background-position: 50% 50%;
     background-size: 100%;
     visibility: collapse;
     vertical-align: bottom;
     brightness: 1;
     z-index: 5;
-
     border-top: 2px solid #78d7bf;
     border-bottom: 2px solid #4c4136;
     border-left: 2px solid #4c8d79;
     border-right: 2px solid #4c8d79;
     box-shadow: -4px 0px 8px 0px #00000089;
-
     transition-property: opacity, pre-transform-scale2d, transform;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -293,7 +287,6 @@ DOTAHUDDeathPanel.Dead.ValidUnit {
 
 #BuybackStatusContainer {
     horizontal-align: center;
-
     margin-top: 20px;
 }
 

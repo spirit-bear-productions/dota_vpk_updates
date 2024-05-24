@@ -1,23 +1,21 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #HUDSkinPreCenterParticlesRight {
     height: 100%;
     width: 100%;
-
     horizontal-align: left;
     vertical-align: bottom;
-
     overflow: noclip;
 }
 
 .GleamPanel {
     height: 100%;
     width: 100%;
-
     animation-name: Gleam;
     animation-duration: 6s;
     animation-delay: 6s;
     animation-iteration-count: infinite;
     animation-direction: normal;
-
     opacity-mask: url("s2r://panorama/images/hud/reborn/hud_custom_ti11/right_flare_bg_mask_psd.vtex");
 }
 
@@ -36,7 +34,6 @@
     vertical-align: bottom;
     horizontal-align: left;
     margin-left: -100px;
-
     opacity-mask: url("s2r://panorama/images/hud/reborn/hud_custom_ti11/lower_hud_particlemask_lava_right_psd.vtex");
     z-index: 10;
 }

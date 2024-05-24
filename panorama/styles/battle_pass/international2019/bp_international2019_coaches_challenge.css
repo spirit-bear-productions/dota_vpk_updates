@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CompendiumBody {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#000000dd), to(#000000aa));
 }
@@ -5,7 +7,6 @@
 #Background {
     width: 100%;
     height: 100%;
-
     background-image: url("s2r://panorama/images/coaching/tiny_coach_dashboard_background_png.vtex");
     background-position: left;
     background-size: contain;
@@ -58,14 +59,17 @@
 .CoachTier_None #CoachRatingTier {
     visibility: collapse;
 }
+
 .CoachTier_Bronze #CoachRatingTier {
     color: gradient(linear, 0% 0%, 0% 100%, from(#f1ddac), to(#984e30));
     text-shadow: 0px 0px 8px #984e3099;
 }
+
 .CoachTier_Silver #CoachRatingTier {
     color: gradient(linear, 0% 0%, 0% 100%, from(#b1b9cc), to(#313c52));
     text-shadow: 0px 0px 8px #313c5299;
 }
+
 .CoachTier_Gold #CoachRatingTier {
     color: gradient(linear, 0% 0%, 0% 100%, from(#fff699), to(#d3730e));
     text-shadow: 0px 0px 8px #d3730e99;
@@ -77,9 +81,9 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px black;
-
     visibility: collapse;
 }
+
 .HasNextTierInfo #ProgressToNextTier {
     visibility: visible;
 }
@@ -112,15 +116,16 @@
 #NoRecentMatches {
     color: textSecondaryBrightColor;
 }
+
 .HasMatches #NoRecentMatches {
     visibility: collapse;
 }
 
 #RecentMatchesTable {
     flow-children: down;
-
     visibility: collapse;
 }
+
 .HasMatches #RecentMatchesTable {
     visibility: visible;
 }
@@ -139,15 +144,19 @@
 .RecentMatchTimestamp {
     width: 200px;
 }
+
 .RecentMatchResult {
     width: 100px;
 }
+
 .RecentMatchDuration {
     width: 130px;
 }
+
 .RecentMatchVotes {
     width: 120px;
 }
+
 .RecentMatchRating {
     width: 100px;
 }
@@ -155,9 +164,11 @@
 .WonMatch .RecentMatchResult {
     color: winnerGreen;
 }
+
 .LostMatch .RecentMatchResult {
     color: loserRed;
 }
+
 .NotScoredMatch .RecentMatchResult {
     color: #666;
 }
@@ -205,7 +216,6 @@
 .MatchVote {
     width: 20px;
     height: 20px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -230,9 +240,11 @@
 .PositiveRatingChange .RecentMatchRating {
     color: winnerGreen;
 }
+
 .NegativeRatingChange .RecentMatchRating {
     color: loserRed;
 }
+
 .NoRatingChange .RecentMatchRating {
     color: #666;
 }
@@ -375,12 +387,15 @@
 #QueueAsCoachCell .InstructionCellImage {
     background-image: url("s2r://panorama/images/coaching/instructions_queue_as_coach_png.vtex");
 }
+
 #CoachTeamCell .InstructionCellImage {
     background-image: url("s2r://panorama/images/coaching/instructions_coach_team_png.vtex");
 }
+
 #TeamVoteCell .InstructionCellImage {
     background-image: url("s2r://panorama/images/coaching/instructions_team_rating_png.vtex");
 }
+
 #EarnRewardsCell .InstructionCellImage {
     background-image: url("s2r://panorama/images/coaching/instructions_rewards_png.vtex");
 }
@@ -388,6 +403,7 @@
 #QueueAsCoachCell {
     margin-left: 0px;
 }
+
 #EarnRewardsCell {
     margin-right: 0px;
 }

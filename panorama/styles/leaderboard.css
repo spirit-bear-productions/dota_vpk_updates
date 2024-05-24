@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTALeaderboard {
     width: 300px;
     flow-children: down;
@@ -14,12 +16,11 @@ DOTALeaderboard {
     opacity: 1;
     background-color: black;
 }
+
 .Header .LeaderboardTitle {
     margin-top: 6px;
     margin-bottom: 2px;
-
     visibility: collapse;
-
     horizontal-align: center;
     text-align: center;
     text-transform: uppercase;
@@ -31,9 +32,9 @@ DOTALeaderboard {
 
 .Header .NameScore {
     flow-children: right;
-
     visibility: collapse;
 }
+
 .Header .NameScore Label {
     color: #999999;
     text-transform: uppercase;
@@ -47,6 +48,7 @@ DOTALeaderboard {
 .HasTitle .LeaderboardTitle {
     visibility: visible;
 }
+
 .HasNameOrScore .NameScore {
     visibility: visible;
 }
@@ -73,6 +75,7 @@ DOTALeaderboard {
     padding: 2px 12px;
     width: 100%;
 }
+
 .LeaderboardEntry #AvatarImage {
     width: 22px;
     height: 22px;
@@ -104,6 +107,7 @@ DOTALeaderboard {
 .LeaderboardEntry.IsCurrentUser {
     background-color: #ffffff03;
 }
+
 .LeaderboardEntry.IsCurrentUser Label {
     font-weight: bold;
 }

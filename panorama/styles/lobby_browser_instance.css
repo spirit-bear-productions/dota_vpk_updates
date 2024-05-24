@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTALobbyBrowserInstance {
     flow-children: none;
     background-color: gradient(radial, 50% 15%, 0% 15%, 75% 85%, from(#48575e00), to(#00000000));
@@ -5,7 +7,6 @@ DOTALobbyBrowserInstance {
     height: 32px;
     border-top: 1px solid #aaaaaa02;
     border-bottom: 1px solid #00000044;
-
     animation-name: LobbyListStart;
     animation-duration: 0.75s;
     animation-timing-function: ease-in;
@@ -78,7 +79,6 @@ DOTALobbyBrowserInstance:selected:hover {
 .FriendsIcon {
     width: 16px;
     height: 16px;
-
     margin-left: 12px;
     margin-right: 8px;
 }
@@ -100,7 +100,6 @@ DOTALobbyBrowserInstance.LobbyHasFriends.LeagueLobby .FriendsIcon {
 .LANIcon {
     width: 16px;
     height: 16px;
-
     margin-left: 12px;
     margin-right: 8px;
 }
@@ -121,7 +120,6 @@ DOTALobbyBrowserInstance.LobbyHasFriends.LeagueLobby .LANIcon {
 .LeagueIcon {
     width: 16px;
     height: 16px;
-
     margin-left: 12px;
     margin-right: 8px;
 }
@@ -142,7 +140,6 @@ DOTALobbyBrowserInstance.LobbyHasFriends.LANLobby .LeagueIcon {
 .PasswordIcon {
     width: 16px;
     height: 16px;
-
     margin-top: 0px;
     margin-left: 36px;
     margin-right: 8px;

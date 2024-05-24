@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTATreasuryPage {
     width: 100%;
     height: 100%;
@@ -58,7 +60,6 @@ DOTATreasuryPage {
 }
 
 @define treasuresPerCarouselItem: 8;
-
 .CarouselItem {
     flow-children: right-wrap;
     overflow: clip;

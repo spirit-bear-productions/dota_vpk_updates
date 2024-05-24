@@ -1,14 +1,16 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 TooltipFantasyCraftTitle {
     width: 300px;
     height: fit-children;
     horizontal-align: center;
     vertical-align: center;
     flow-children: down;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(primaryColor6), to(#000b16));
     border: 2px solid rgba(255, 255, 255, 0.05);
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(primaryColor3), to(primaryColor4));
 }
+
 TooltipFantasyCraftTitle #Contents {
     flow-children: down;
     width: 500px;
@@ -31,6 +33,7 @@ TooltipFantasyCraftTitle .TooltipText {
     flow-children: right-wrap;
     margin-bottom: 8px;
 }
+
 #HeroIcons DOTAHeroImage {
     width: 28px;
     height: width-percentage(100%);

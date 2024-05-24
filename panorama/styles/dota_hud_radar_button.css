@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTARadarButton {
     tooltip-position: left;
     visibility: collapse;
@@ -14,7 +16,6 @@ DOTARadarButton.ShowRadar {
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-
     transition-property: brightness;
     transition-duration: 0.25s;
 }
@@ -26,7 +27,6 @@ DOTARadarButton.ShowRadar {
     background-repeat: no-repeat;
     width: 44px;
     height: 100%;
-
     transition-property: brightness;
     transition-duration: 0.25s;
 }
@@ -124,7 +124,6 @@ DOTARadarButton:active #RadarIcon {
     background-repeat: no-repeat;
     width: 44px;
     height: 100%;
-
     transition-property: brightness;
     transition-duration: 0.25s;
     visibility: collapse;
@@ -147,6 +146,7 @@ DOTARadarButton:active #RadarIcon {
     height: 20px;
     box-shadow: fill 2px 2px 4px black;
 }
+
 #ChargeCount Label {
     horizontal-align: center;
     vertical-align: center;

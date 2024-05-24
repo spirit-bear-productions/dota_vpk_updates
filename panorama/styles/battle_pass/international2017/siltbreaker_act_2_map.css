@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTASiltbreakerMapAct2 {
     width: 682px;
     height: 600px;
@@ -14,9 +16,7 @@ DOTASiltbreakerMapAct2 {
     background-position: 50%;
     wash-color: #2b140e;
     wash-color: #453c35;
-
     opacity: 0.5;
-
     transition-property: wash-color, opacity;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -472,7 +472,6 @@ DOTASiltbreakerMapAct2 {
 
 #ZoneNameLabels {
     margin-left: 36px;
-
     margin-bottom: 16px;
     horizontal-align: left;
     vertical-align: bottom;
@@ -493,7 +492,6 @@ DOTASiltbreakerMapAct2 {
     opacity: 0;
     text-shadow: 0px 1px 0px 2 #342e29;
     visibility: collapse;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -687,6 +685,7 @@ DOTASiltbreakerMapAct2 {
 .ZoneStars_crypt_holdout_0 #Zone07HitBox {
     visibility: visible;
 }
+
 .ZoneStars_crypt_1 #Zone06bHitBox,
 .ZoneStars_crypt_2 #Zone06bHitBox,
 .ZoneStars_crypt_3 #Zone06bHitBox,
@@ -746,6 +745,7 @@ DOTASiltbreakerMapAct2 {
 .ZoneStars_crypt_0 #Zone07HitBox {
     visibility: visible;
 }
+
 .ZoneStars_crag_1 #Zone06bHitBox,
 .ZoneStars_crag_2 #Zone06bHitBox,
 .ZoneStars_crag_3 #Zone06bHitBox,

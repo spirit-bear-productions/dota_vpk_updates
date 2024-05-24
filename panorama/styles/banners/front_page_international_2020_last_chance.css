@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FrontpageCell {
     background-color: black;
     transition-property: brightness, pre-transform-scale2d, box-shadow;
@@ -24,7 +26,6 @@
 
 .BundleImage {
     background-image: url("s2r://panorama/images/compendium/international2020/level_bundle_items_png.vtex");
-
     background-size: 100% 100%;
     background-position: center;
     width: 520px;
@@ -39,7 +40,6 @@
 
 .2cellversion .BundleImage {
     ui-scale: 100%;
-
     width: 520px;
     height: 550px;
     background-position: center;
@@ -61,13 +61,11 @@
     margin-top: 25px;
     margin-bottom: 0px;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/compendium/international2020/compendium/dashboard_logo_aegis_shadow_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     img-shadow: 0px 0px 30px 5 #000000;
-
     background-image: url("s2r://panorama/images/compendium/international2020/compendium/logo_sm_png.vtex");
 }
 

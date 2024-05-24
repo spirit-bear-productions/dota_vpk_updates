@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #MatchDetailsGeneralInfo {
     flow-children: down;
     vertical-align: bottom;
@@ -5,7 +7,6 @@
     border-top: 1px solid #454d4f;
     width: 100%;
     background-color: #212627;
-
     visibility: collapse;
 }
 
@@ -28,6 +29,7 @@
 .MatchDetailsWinner {
     horizontal-align: center;
 }
+
 .TournamentMatchDetails {
     width: 380px;
     max-height: 600px;
@@ -44,13 +46,13 @@
 
 #MatchDetails {
     flow-children: down;
-
     width: 350px;
     max-height: 400px;
     background-color: #2b3335;
     border-top: 1px solid #454d4f;
     border-bottom: 1px solid #454d4f;
 }
+
 #MatchDetailsVersus {
     flow-children: right;
     width: 100%;
@@ -69,7 +71,6 @@
 
 .TeamContainer DOTAUGCImage {
     horizontal-align: center;
-
     width: 64px;
     height: 64px;
     margin-bottom: 5px;
@@ -109,9 +110,9 @@
 #MatchDetailsGames {
     width: 100%;
     flow-children: down;
-
     visibility: collapse;
 }
+
 .HasTournamentGames #MatchDetailsGames {
     visibility: visible;
 }
@@ -167,7 +168,6 @@
     letter-spacing: 1px;
     font-size: 14px;
     color: #999;
-
     visibility: collapse;
 }
 

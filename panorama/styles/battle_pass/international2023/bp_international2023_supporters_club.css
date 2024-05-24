@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPInternational2023SupportersClub {
     flow-children: right;
 }
@@ -30,7 +32,6 @@ DOTABPInternational2023SupportersClub {
     horizontal-align: left;
     vertical-align: bottom;
     flow-children: down;
-
     margin-right: 16px;
 }
 
@@ -43,7 +44,6 @@ DOTABPInternational2023SupportersClub {
     color: bluegreyTextBright;
     font-weight: semi-bold;
     vertical-align: bottom;
-
     margin-top: 40px;
 }
 
@@ -139,7 +139,6 @@ DOTABPInternational2023SupportersClub {
     border-radius: 5px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#7990b600), to(#7990b606));
     background-position: center top;
-
     transition-duration: 0.2s;
     transition-property: brightness, background-color, pre-transform-scale2d;
 }
@@ -341,11 +340,11 @@ DOTABPInternational2023SupportersClub {
 .OwnedTeam {
     width: 280px;
     opacity: 0.2;
-
     transition-duration: 0.2s;
     transition-property: opacity, brightness;
     margin-bottom: 2px;
 }
+
 .OwnedTeamInfo {
     vertical-align: center;
 }
@@ -385,6 +384,7 @@ DOTABPInternational2023SupportersClub {
 .NewItem .NewBadge {
     visibility: visible;
 }
+
 #NewTeams {
     text-transform: uppercase;
     font-size: 14px;

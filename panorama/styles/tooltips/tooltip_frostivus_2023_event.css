@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents.Frostivus2023EventTooltip {
     flow-children: down;
     width: 450px;
@@ -32,6 +34,7 @@
     flow-children: right-wrap;
     width: 100%;
 }
+
 .ul .li {
     flow-children: down;
     width: 135px;
@@ -40,11 +43,13 @@
     margin-bottom: 2px;
     padding: 8px 4px;
 }
+
 .ul .li .bulletText {
     width: 100%;
     flow-children: right;
     margin-bottom: 6px;
 }
+
 .ul .li .bulletText .bulletNumber {
     text-align: center;
     font-size: 14px;
@@ -68,6 +73,7 @@
     background-color: winnerGreenLow&11;
     z-index: 1;
 }
+
 .ul .li.Claimed .bulletNumber {
     color: winnerGreen;
 }
@@ -88,7 +94,6 @@
 .ul .li.Claimed .bulletClaimedStatus {
     wash-color: winnerGreen;
     opacity: 0.6;
-
     background-image: url("s2r://panorama/images/control_icons/24px/check_corner_topright.vsvg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -141,7 +146,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     visibility: collapse;
 }
 
@@ -174,17 +178,17 @@
     horizontal-align: center;
     vertical-align: middle;
     visibility: collapse;
-
     overflow: noclip;
 }
+
 .ul .li .bulletPreview .RewardCell .SprayScale {
     width: 64px;
     height: 64px;
-
     ui-scale: 200%;
     horizontal-align: center;
     vertical-align: center;
 }
+
 .ul .li .bulletPreview .RewardCell .SprayWheelImage {
     transform: scale3d(0.5, 0.5, 1);
 }

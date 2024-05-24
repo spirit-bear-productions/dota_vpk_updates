@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAMiniShowcase {
     width: 366px;
     height: fit-children;
@@ -22,6 +24,7 @@ DOTAMiniShowcase {
     border-bottom: 1px solid black;
     box-shadow: inset 0px -2px 0px rgba(255, 255, 255, 0.015);
 }
+
 .Header #UserDetailsContainer {
     width: 280px;
 }
@@ -70,6 +73,7 @@ DOTAPopupMiniShowcaseEdit .Header {
     background-position: 50% 50%;
     background-size: cover;
 }
+
 .ShowcaseData .ShowcaseMain {
     width: fit-children;
     height: fit-children;
@@ -80,6 +84,7 @@ DOTAMiniShowcase.ViewingOther #ReportControls {
     ui-scale: 100%;
     visibility: collapse;
 }
+
 #ContextMenuBody DOTAMiniShowcase.ViewingOther #ReportControls {
     visibility: visible;
 }
@@ -89,15 +94,13 @@ DOTAMiniShowcase.ViewingOther #ReportControls {
     vertical-align: top;
     margin-top: -6px;
     margin-right: 5px;
-
     width: 100px;
     height: 100px;
-
     tooltip-position: bottom;
     tooltip-body-position: 50% 10%;
-
     ui-scale: 80%;
 }
+
 .HideRankTier #RankTierContainer,
 .LoadingRank #RankTierContainer {
     visibility: collapse;
@@ -111,7 +114,6 @@ DOTAMiniShowcase.ViewingOther #ReportControls {
     overflow: noclip;
     margin-top: 2px;
     margin-bottom: 5px;
-
     visibility: collapse;
 }
 

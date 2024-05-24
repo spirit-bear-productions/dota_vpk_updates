@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABroadcastVideoStream {
     flow-children: down;
 }
@@ -6,25 +8,22 @@ DOTABroadcastVideoStream {
     width: 100%;
     height: 32px;
     flow-children: right;
-
     background-color: black;
 }
+
 .NotLive #Header {
     background-color: transparent;
 }
+
 #Live {
     margin-top: 5px;
     margin-left: 5px;
-
     vertical-align: top;
     horizontal-align: right;
-
     text-transform: uppercase;
-
     color: #64c390;
     font-weight: bold;
     letter-spacing: 1px;
-
     visibility: collapse;
 }
 
@@ -35,21 +34,19 @@ DOTABroadcastVideoStream {
 #LeagueName {
     margin-top: 5px;
     margin-left: 12px;
-
     vertical-align: top;
     horizontal-align: left;
-
     text-transform: uppercase;
-
     color: white;
     letter-spacing: 1px;
-
     transition-property: text-shadow;
     transition-duration: 0.1s;
 }
+
 #LeagueName:hover {
     text-shadow: 0px 0px 6px #1990b9;
 }
+
 #LeagueName:active {
     text-shadow: 0px 0px 6px 2 #1990b9;
 }
@@ -64,7 +61,6 @@ DOTABroadcastVideoStream {
     height: 100%;
     width: 160px;
     padding: 0px 16px;
-
     visibility: collapse;
 }
 
@@ -83,11 +79,9 @@ DOTABroadcastVideoStream {
     height: 20px;
     margin-right: 5px;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/control_icons/eye_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     wash-color: #82807e;
 }
 
@@ -98,6 +92,7 @@ DOTABroadcastVideoStream {
     vertical-align: middle;
     color: #82807e;
 }
+
 #HideButton .ShowText {
     visibility: collapse;
 }
@@ -105,6 +100,7 @@ DOTABroadcastVideoStream {
 .UserHideVideo #HideButton .ShowText {
     visibility: visible;
 }
+
 .UserHideVideo #HideButton .HideText {
     visibility: collapse;
 }
@@ -112,6 +108,7 @@ DOTABroadcastVideoStream {
 #HideButton:hover {
     brightness: 1.5;
 }
+
 #HideButton:active {
     brightness: 2;
 }
@@ -124,9 +121,7 @@ DOTABroadcastVideoStream {
 .ContentsPanel {
     width: 100%;
     height: 100%;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -139,7 +134,6 @@ DOTABroadcastVideoStream {
 #InlineVideoPanel {
     width: 100%;
     height: 100%;
-
     border: -3px solid white;
 }
 
@@ -160,17 +154,13 @@ DOTABroadcastVideoStream:not(.ShowingStream) #NotStreamingContainer {
 #LogoImage {
     width: 500px;
     height: 200px;
-
     margin-left: -10px;
     background-image: url("s2r://panorama/images/front_page/ads/movie_series_jpg.vtex");
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
     horizontal-align: center;
     margin-bottom: 16px;
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
@@ -178,6 +168,7 @@ DOTABroadcastVideoStream:not(.ShowingStream) #NotStreamingContainer {
 #LogoImage:hover {
     brightness: 1.5;
 }
+
 #LogoImage:active {
     brightness: 2;
 }
@@ -191,7 +182,6 @@ DOTABroadcastVideoStream:not(.ShowingStream) #NotStreamingContainer {
     flow-children: down;
     background-color: black;
     padding: 12px;
-
     visibility: collapse;
 }
 
@@ -228,6 +218,7 @@ DOTABroadcastVideoStream:not(.ShowingStream) #NotStreamingContainer {
 #WatchInBrowserButton:hover Label {
     color: #ccc;
 }
+
 #WatchInBrowserButton:active Label {
     color: #fff;
 }
@@ -239,14 +230,15 @@ DOTABroadcastVideoStream:not(.ShowingStream) #NotStreamingContainer {
     wash-color: #aaa;
     margin-bottom: 5px;
     margin-left: 2px;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_popout_png.vtex");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 #WatchInBrowserButton:hover .WatchInBrowserIcon {
     wash-color: #ccc;
 }
+
 #WatchInBrowserButton:active .WatchInBrowserIcon {
     wash-color: #fff;
 }
@@ -271,7 +263,6 @@ DOTABroadcastVideoStream:not(.ShowingStream) #NotStreamingContainer {
 #OfflineMessage {
     horizontal-align: center;
     vertical-align: middle;
-
     font-size: 28px;
 }
 
@@ -283,7 +274,6 @@ DOTABroadcastVideoStream:not(.ShowingStream) #NotStreamingContainer {
 #StreamingFooter {
     width: 100%;
     padding: 8px 12px;
-
     visibility: collapse;
 }
 
@@ -322,9 +312,11 @@ DOTABroadcastVideoStream:not(.ShowingStream) #NotStreamingContainer {
     flow-children: right;
     margin-right: 8px;
 }
+
 #WatchExternal:hover {
     brightness: 2;
 }
+
 #WatchExternal:active {
     brightness: 1.5;
 }
@@ -341,12 +333,10 @@ DOTABroadcastVideoStream:not(.ShowingStream) #NotStreamingContainer {
     width: 41px;
     height: 41px;
     vertical-align: middle;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_popout_png.vtex");
     background-repeat: no-repeat;
     background-size: 70% 70%;
     background-position: 50% 50%;
-
     wash-color: #aaa;
 }
 
@@ -354,7 +344,6 @@ DOTABroadcastVideoStream:not(.ShowingStream) #NotStreamingContainer {
     width: 100%;
     padding: 8px 8px 8px 12px;
     flow-children: right;
-
     visibility: collapse;
 }
 
@@ -375,6 +364,7 @@ DOTABroadcastVideoStream:not(.ShowingStream) #NotStreamingContainer {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .PopupButton Label {
     font-size: 18px;
     margin-top: 2px;

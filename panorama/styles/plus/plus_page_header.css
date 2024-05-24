@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPlusPageHeader {
     horizontal-align: center;
     margin-top: 130px;
@@ -84,7 +86,6 @@ DOTAPlusPageHeader {
     horizontal-align: right;
     transition-property: brightness;
     transition-duration: 0.2s;
-
     visibility: collapse;
 }
 

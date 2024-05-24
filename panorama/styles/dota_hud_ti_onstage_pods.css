@@ -1,10 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTATIOnstagePods {
     width: 100%;
     height: 100%;
     flow-children: down;
-
     visibility: collapse;
-
     z-index: 0;
 }
 
@@ -36,7 +36,6 @@ DOTATIOnstagePodsHero {
 #PlayerColor {
     width: 100%;
     height: 48px;
-
     background-image: url("s2r://panorama/images/onstage_pods/top_bar_mask_png.vtex");
     background-size: 100%;
 }
@@ -55,11 +54,9 @@ DOTATIOnstagePodsHero {
     vertical-align: bottom;
     horizontal-align: center;
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.5s;
     transition-delay: 0.2s;
-
     visibility: collapse;
 }
 
@@ -116,9 +113,7 @@ DOTATIOnstagePodsHero {
 #HasAegis {
     width: 160px;
     height: 160px;
-
     margin-bottom: 0px;
-
     vertical-align: bottom;
     horizontal-align: right;
     visibility: collapse;
@@ -168,9 +163,7 @@ DOTATIOnstagePodsHero.HasManyRapiers #RapierCount {
 #HasBuyback {
     width: 150px;
     height: 150px;
-
     margin-bottom: -30px;
-
     vertical-align: bottom;
     horizontal-align: right;
     visibility: collapse;
@@ -185,14 +178,17 @@ DOTATIOnstagePodsHero.CanBuyback #HasBuyback {
         opacity: 0;
         transform: translateY(40px);
     }
+
     15% {
         opacity: 1;
         transform: translateY(0px);
     }
+
     85% {
         opacity: 1;
         transform: translateY(0px);
     }
+
     to {
         opacity: 0;
         transform: translateY(-40px);
@@ -205,7 +201,6 @@ DOTATIOnstagePodsHero.CanBuyback #HasBuyback {
     horizontal-align: center;
     margin-top: 200px;
     opacity: 0;
-
     transition-property: transform, opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in;
@@ -236,19 +231,24 @@ DOTATIOnstagePodsHero.ShowLevelUp .LevelUpBlock {
         opacity: 0;
         pre-transform-scale2d: 0.3;
     }
+
     5% {
         opacity: 1;
         transform: translateY(0px);
     }
+
     10% {
         pre-transform-scale2d: 1;
     }
+
     90% {
         pre-transform-scale2d: 1;
     }
+
     95% {
         opacity: 1;
     }
+
     to {
         opacity: 0;
         pre-transform-scale2d: 0.3;
@@ -281,13 +281,16 @@ DOTATIOnstagePodsHero.ShowItemPickup .ItemPickupBlock {
         opacity: 0;
         transform: translateY(-40px);
     }
+
     15% {
         opacity: 1;
         transform: translateY(0px);
     }
+
     85% {
         opacity: 1;
     }
+
     to {
         opacity: 0;
     }
@@ -326,7 +329,6 @@ DOTATIOnstagePodsHero.UsedBuyback .BuybackUsedBlock {
     width: 100%;
     height: 100%;
     opacity: 0;
-
     transition-property: saturation, wash-color, opacity;
     transition-duration: 0.2s, 0.2s, 0.4s;
     transition-timing-function: ease-in-out;
@@ -340,6 +342,7 @@ DOTATIOnstagePodsHero.UsedBuyback .BuybackUsedBlock {
     from {
         wash-color: red;
     }
+
     to {
         wash-color: white;
     }
@@ -357,7 +360,6 @@ DOTATIOnstagePodsHero.UsedBuyback .BuybackUsedBlock {
     height: 110px;
     vertical-align: bottom;
     visibility: collapse;
-
     opacity: 1;
     transition-property: opacity;
     transition-duration: 0.5s;

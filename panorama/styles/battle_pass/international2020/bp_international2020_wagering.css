@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CompendiumBody {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#000000dd), to(#000000aa));
 }
@@ -61,7 +63,6 @@
     color: textAccentColorBright;
     width: 200px;
     text-align: center;
-
     visibility: collapse;
 }
 
@@ -101,7 +102,6 @@
     width: 326px;
     height: 335px;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/compendium/international2020/tokenstack_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,9 +122,11 @@
 #Next1 {
     margin-right: 660px;
 }
+
 #Next2 {
     margin-left: 26px;
 }
+
 #Next3 {
     margin-left: 714px;
 }

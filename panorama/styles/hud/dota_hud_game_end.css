@@ -1,11 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAGameEnd {
     width: 100%;
     height: 95%;
-
     transition-property: background-color;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
-
     background-color: #00000000;
 }
 
@@ -23,17 +23,14 @@ DOTAGameEnd {
     color: white;
     text-align: center;
     text-shadow: 0px 0px 8px 5 #a1ffac11;
-
     pre-transform-scale2d: 1;
     opacity: 0;
     padding-left: 16px;
     padding-right: 16px;
-
     transition-property: opacity, transform, pre-transform-scale2d;
     transition-delay: 0s;
     transition-duration: 0.8s;
     transition-timing-function: ease-in;
-
     animation-duration: 5.1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
@@ -96,15 +93,12 @@ DOTAGameEnd {
     background-color: gradient(radial, 50% 50%, 0% 0%, 80% 80%, from(#000000ff), to(#00000000));
     width: 100%;
     height: 100%;
-
     horizontal-align: center;
     vertical-align: top;
     wash-color: #2fcdaf;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
-
     opacity: 0;
     pre-transform-scale2d: 0.2;
-
     transition-property: opacity, transform, pre-transform-scale2d;
     transition-delay: 0s;
     transition-duration: 0.8s;
@@ -124,14 +118,10 @@ DOTAGameEnd {
     padding: 30px;
     padding-top: 2px;
     padding-bottom: 2px;
-
     horizontal-align: center;
     vertical-align: bottom;
-
     margin-bottom: 94px;
-
     opacity: 0;
-
     transition-property: opacity, transform;
     transition-delay: 0s;
     transition-duration: 0.5s;
@@ -184,7 +174,6 @@ DOTAGameEnd.FadeDown {
     height: 140px;
     margin-top: 380px;
     horizontal-align: center;
-
     transition-property: opacity;
     transition-delay: 0s;
     transition-duration: 0.8s;

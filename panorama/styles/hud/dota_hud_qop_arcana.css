@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDQoPArcana {
     width: 100%;
     height: 100%;
@@ -33,7 +35,6 @@ DOTAHUDQoPArcana.Hidden {
     vertical-align: top;
     width: 340px;
     height: 240px;
-
     horizontal-align: center;
     opacity: 0;
     transition-property: opacity;
@@ -61,7 +62,6 @@ DOTAHUDQoPArcana.Hidden {
     vertical-align: top;
     z-index: 101;
     padding: 3px 0px 4px 0px;
-
     background-color: gradient(
         linear,
         0% 0%,
@@ -101,12 +101,12 @@ DOTAHUDQoPArcana.Hidden {
     vertical-align: bottom;
     horizontal-align: center;
     background-image: url("s2r://panorama/images/hud/arcana/qop/meter_needle_psd.vtex");
-
     animation-duration: 5s;
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 .ArcanaLevel2 #MeterNeedle {
     background-image: url("s2r://panorama/images/hud/arcana/qop/meter_needle_alt_psd.vtex");
 }
@@ -115,188 +115,247 @@ DOTAHUDQoPArcana.Hidden {
     0% {
         transform: rotateZ(-85deg);
     }
+
     25% {
         transform: rotateZ(-45deg);
     }
+
     38% {
         transform: rotateZ(-40deg);
     }
+
     50% {
         transform: rotateZ(-45deg);
     }
+
     62% {
         transform: rotateZ(-40deg);
     }
+
     75% {
         transform: rotateZ(-45deg);
     }
+
     88% {
         transform: rotateZ(-40deg);
     }
+
     100% {
         transform: rotateZ(-45deg);
     }
 }
+
 @keyframes 'Combo2Wiggle' {
     0% {
         transform: rotateZ(-85deg);
     }
+
     18% {
         transform: rotateZ(-12deg);
     }
+
     28% {
         transform: rotateZ(-17deg);
     }
+
     39% {
         transform: rotateZ(-12deg);
     }
+
     50% {
         transform: rotateZ(-17deg);
     }
+
     60% {
         transform: rotateZ(-12deg);
     }
+
     71% {
         transform: rotateZ(-17deg);
     }
+
     82% {
         transform: rotateZ(-12deg);
     }
+
     92% {
         transform: rotateZ(-17deg);
     }
+
     100% {
         transform: rotateZ(-12deg);
     }
 }
+
 @keyframes 'Combo3Wiggle' {
     0% {
         transform: rotateZ(-85deg);
     }
+
     17% {
         transform: rotateZ(17deg);
     }
+
     25% {
         transform: rotateZ(12deg);
     }
+
     33% {
         transform: rotateZ(17deg);
     }
+
     42% {
         transform: rotateZ(12deg);
     }
+
     50% {
         transform: rotateZ(17deg);
     }
+
     58% {
         transform: rotateZ(12deg);
     }
+
     67% {
         transform: rotateZ(17deg);
     }
+
     75% {
         transform: rotateZ(12deg);
     }
+
     83% {
         transform: rotateZ(17deg);
     }
+
     92% {
         transform: rotateZ(12deg);
     }
+
     100% {
         transform: rotateZ(17deg);
     }
 }
+
 @keyframes 'Combo4Wiggle' {
     0% {
         transform: rotateZ(-85deg);
     }
+
     15% {
         transform: rotateZ(45deg);
     }
+
     22% {
         transform: rotateZ(40deg);
     }
+
     29% {
         transform: rotateZ(45deg);
     }
+
     36% {
         transform: rotateZ(40deg);
     }
+
     44% {
         transform: rotateZ(45deg);
     }
+
     51% {
         transform: rotateZ(40deg);
     }
+
     58% {
         transform: rotateZ(45deg);
     }
+
     65% {
         transform: rotateZ(40deg);
     }
+
     72% {
         transform: rotateZ(45deg);
     }
+
     79% {
         transform: rotateZ(40deg);
     }
+
     86% {
         transform: rotateZ(45deg);
     }
+
     93% {
         transform: rotateZ(40deg);
     }
+
     100% {
         transform: rotateZ(45deg);
     }
 }
+
 @keyframes 'Combo5Wiggle' {
     0% {
         transform: rotateZ(-85deg);
     }
+
     12% {
         transform: rotateZ(70deg);
     }
+
     18% {
         transform: rotateZ(65deg);
     }
+
     24% {
         transform: rotateZ(70deg);
     }
+
     31% {
         transform: rotateZ(65deg);
     }
+
     37% {
         transform: rotateZ(70deg);
     }
+
     43% {
         transform: rotateZ(65deg);
     }
+
     50% {
         transform: rotateZ(70deg);
     }
+
     56% {
         transform: rotateZ(65deg);
     }
+
     62% {
         transform: rotateZ(70deg);
     }
+
     69% {
         transform: rotateZ(65deg);
     }
+
     75% {
         transform: rotateZ(70deg);
     }
+
     81% {
         transform: rotateZ(65deg);
     }
+
     88% {
         transform: rotateZ(70deg);
     }
+
     94% {
         transform: rotateZ(65deg);
     }
+
     100% {
         transform: rotateZ(70deg);
     }
@@ -305,15 +364,19 @@ DOTAHUDQoPArcana.Hidden {
 #MeterNeedle.Combo1 {
     animation-name: Combo1Wiggle;
 }
+
 #MeterNeedle.Combo2 {
     animation-name: Combo2Wiggle;
 }
+
 #MeterNeedle.Combo3 {
     animation-name: Combo3Wiggle;
 }
+
 #MeterNeedle.Combo4 {
     animation-name: Combo4Wiggle;
 }
+
 #MeterNeedle.Combo5 {
     animation-name: Combo5Wiggle;
 }

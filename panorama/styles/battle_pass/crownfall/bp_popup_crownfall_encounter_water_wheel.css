@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .Title {
     font-family: monospace;
     text-transform: uppercase;
@@ -12,6 +14,7 @@
     flow-children: right;
     margin-top: 48px;
 }
+
 .Center .OldManIcon {
     width: 128px;
     height: 128px;
@@ -25,6 +28,7 @@
     flow-children: right;
     margin-top: 48px;
 }
+
 .Tokens DOTACrownfallToken {
     ui-scale: 340%;
     margin: -8px;

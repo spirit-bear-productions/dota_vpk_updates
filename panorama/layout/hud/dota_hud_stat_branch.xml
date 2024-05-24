@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 5.0.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -116,6 +116,7 @@
 				<Panel class="StatBranchCenter">
 					<Label id="BranchTitle" text="#DOTA_StatBranch_Title" />
 					<Label id="TooltipBranchTitle" text="#DOTA_StatBranch_TooltipTitle" />
+					<Panel class="OgreTalents" />
 					<Panel id="StatBranchColumn" class="TopBottomFlow">
 						<Panel id="UpgradeOption4" class="BranchPair">
 							<Panel id="Upgrade8Container" hittest="false" class="UpgradeContainer">

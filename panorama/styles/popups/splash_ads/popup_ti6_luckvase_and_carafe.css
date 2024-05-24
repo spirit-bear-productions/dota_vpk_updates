@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupTI6LuckvaseAndCarafe {
     width: 1200px;
     padding: 0px;
@@ -120,6 +122,7 @@
 #AutographsMessage a {
     text-decoration: underline;
 }
+
 #AutographsMessage a:hover {
     color: #ccc;
 }
@@ -182,6 +185,7 @@
 #LuckvaseColumn .TreasureImage {
     background-image: url("s2r://panorama/images/splash_ads/ti6_lockless_jpg.vtex");
 }
+
 #CarafeColumn .TreasureImage {
     background-image: url("s2r://panorama/images/splash_ads/ti6_trove_jpg.vtex");
 }

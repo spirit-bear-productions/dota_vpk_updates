@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroGuideViewer {
     width: 100%;
     height: 100%;
@@ -160,7 +162,6 @@ DOTAHeroGuideViewer {
     wash-color: #7595b5;
     margin-bottom: 2px;
     margin-right: 3px;
-
     transition-property: wash-color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -230,6 +231,7 @@ ToggleButton#FavoriteStar:selected:hover {
 ToggleButton#FavoriteStar .TickBox {
     visibility: collapse;
 }
+
 ToggleButton#FavoriteStar .Label {
     visibility: collapse;
 }

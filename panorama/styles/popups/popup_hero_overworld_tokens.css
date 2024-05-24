@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroOverworldTokensPopup {
     flow-children: down;
     background-color: #1e252f;
@@ -54,12 +56,12 @@ DOTAHeroOverworldTokensPopup {
 .HeroRow #TokenContainer {
     flow-children: right;
 }
+
 .HeroRow #TokenContainer DOTACrownfallToken {
     ui-scale: 75%;
     vertical-align: center;
     margin-left: -10px;
     margin-right: -10px;
-
     vertical-align: center;
     tooltip-body-position: 50% 30px;
 }

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CompendiumBody {
     background-color: black;
     background-image: url("s2r://panorama/images/compendium/international2020/underdraft/sideshop-bg_psd.vtex");
@@ -66,9 +68,7 @@
     width: 377px;
     height: 100%;
     vertical-align: bottom;
-
     margin-right: -16px;
-
     z-index: 2;
 }
 
@@ -110,7 +110,6 @@
     text-shadow: 0px 1px 0px rgb(141, 92, 0);
     horizontal-align: left;
     letter-spacing: 1px;
-
     horizontal-align: center;
     font-size: 54px;
     letter-spacing: 4px;
@@ -175,6 +174,7 @@
     overflow: noclip;
     margin-top: -20px;
 }
+
 .GoldChestIcon {
     width: 119px;
     height: 119px;
@@ -216,9 +216,7 @@
     text-align: right;
     horizontal-align: center;
     color: #f0e6d2;
-
     margin-left: 4px;
-
     font-weight: bold;
     font-size: 24px;
     letter-spacing: 1px;
@@ -280,7 +278,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
     vertical-align: middle;
     horizontal-align: center;
     margin-right: -4px;
@@ -332,12 +329,14 @@
     flow-children: down;
     width: fill-parent-flow(1);
 }
+
 #RightColumn {
     width: 326px;
     height: 100%;
     flow-children: down;
     margin-left: 8px;
 }
+
 #LeftFooter {
     flow-children: right;
     height: 200px;
@@ -362,7 +361,6 @@
         color-stop(0.9, #03020290),
         to(#03020200)
     );
-
     padding: 48px 0 36px 0;
     ui-scale: 90%;
 }
@@ -434,7 +432,6 @@
 .RewardPanel {
     width: 220px;
     height: fit-children;
-
     overflow: noclip;
 }
 
@@ -446,7 +443,6 @@
     width: 100%;
     height: fit-children;
     flow-children: down;
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
@@ -475,7 +471,6 @@
 
 .RewardButton {
     horizontal-align: center;
-
     margin-top: 8px;
     width: 100%;
 }
@@ -502,7 +497,6 @@
     font-size: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
-
     color: #f48471;
     margin-top: 5px;
     margin-left: -8px;
@@ -585,7 +579,6 @@
     font-size: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
-
     color: accentColor;
     text-shadow: 0px 2px 1px rgba(27, 27, 33, 0.5);
 }
@@ -602,7 +595,6 @@
     horizontal-align: right;
     margin-right: 30px;
     margin-bottom: 4px;
-
     font-size: 15px;
     text-align: right;
     letter-spacing: 2px;
@@ -653,7 +645,6 @@ ProgressBar {
     horizontal-align: right;
     margin-right: 36px;
     margin-bottom: 4px;
-
     font-size: 15px;
     text-align: right;
     letter-spacing: 2px;
@@ -674,7 +665,6 @@ ProgressBar .BonusTreasureUnclaimed {
 .EmblemContents {
     flow-children: right;
     horizontal-align: center;
-
     margin-top: -24px;
 }
 
@@ -698,6 +688,7 @@ ProgressBar .BonusTreasureUnclaimed {
 .EmblemContainer:hover {
     pre-transform-scale2d: 1.1;
 }
+
 .ShopMovie {
     width: 340px;
     height: 260px;
@@ -721,7 +712,6 @@ ProgressBar .BonusTreasureUnclaimed {
     letter-spacing: 4px;
     margin: 0 0 12px 0;
     text-align: center;
-
     color: #ecd393;
 }
 
@@ -730,10 +720,10 @@ ProgressBar .BonusTreasureUnclaimed {
     margin-right: 20px;
     horizontal-align: center;
     text-align: center;
-
     font-size: 20px;
     color: #ccc;
 }
+
 .DotaPlusShard {
     background-image: dotaPlusCurrencyIcon;
     background-size: cover;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #ChatAutocompletePanel {
     flow-children: down;
     background-color: #2d2d2d;
@@ -35,7 +37,6 @@
 DOTAChatAutocompleteEntryChatCommand {
     flow-children: right;
     width: 350px;
-
     border-bottom: 1px solid #444444;
 }
 

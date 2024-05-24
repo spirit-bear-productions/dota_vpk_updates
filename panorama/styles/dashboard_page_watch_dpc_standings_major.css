@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAWatchDPCStandingsMajor {
     flow-children: down;
 }
@@ -48,7 +50,6 @@ DOTAWatchDPCStandingsMajor {
 .PlayoffsContainer {
     background-image: url("s2r://panorama/images/dpc/playoffs_blocks_png.vtex");
     background-position: 50% 80%;
-
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -228,6 +229,7 @@ DOTAWatchDPCStandingsMajor {
     margin-left: 44px;
     font-weight: semi-bold;
 }
+
 .Team1Name {
     margin-top: 7px;
 }

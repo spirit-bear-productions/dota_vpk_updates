@@ -1,14 +1,13 @@
-@define InitialSkillFadeoutTime:  0.3s;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define InitialSkillFadeoutTime: 0.3s;
 PopupInitialSkill.PopupPanel {
     flow-children: none;
     width: 100%;
     height: 100%;
-
     background-color: black;
     padding: 0px;
     border: 0px;
-
     sound: "ui.npd_welcome";
 }
 
@@ -115,7 +114,6 @@ PopupInitialSkill.PopupPanel {
 
 .SkillOptions {
     flow-children: down;
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     horizontal-align: center;
@@ -130,6 +128,7 @@ PopupInitialSkill.PopupPanel {
     opacity: 0;
     transform: translateX(50px);
 }
+
 .ShowMOBAPanel #MOBAPanel {
     opacity: 1;
     transform: none;
@@ -155,7 +154,6 @@ PopupInitialSkill.PopupPanel {
     padding-left: 20px;
     padding-top: 18px;
     border-radius: 3px;
-
     background-color: gradient(radial, 50% 50%, 0% 0%, 80% 80%, from(#3c4d69cc), to(#2b3647cc));
     brightness: 1;
     transition-property: brightness;

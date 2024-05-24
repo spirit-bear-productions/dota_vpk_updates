@@ -1,24 +1,22 @@
-@define ultraBrightColor:  #D8BAFF;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define ultraBrightColor: #D8BAFF;
 @define accentColorBright: #B685F7;
 @define accentColor: #9862E9;
 @define defaultColor: #7836D6;
 @define shadeColor: #552F9A;
 @define darkColor: #34156B;
 @define ultraDarkColor: #0B0119;
-
 @define secondaryUltraBrightColor: #747b8c;
 @define secondaryBrightColor: #485677;
 @define secondaryDefaultColor: #253646;
 @define secondaryDarkColor: #162034;
 @define secondaryUltraDarkColor: #04070c;
-
 @define BRD: 1px solid darkColor;
-
 .BattlePassCell {
     transition-property: brightness;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
-
     background-color: black;
 }
 
@@ -62,7 +60,6 @@
     width: 100%;
     brightness: 1;
     opacity: 0.01;
-
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in;
@@ -76,17 +73,14 @@
 .BattlePassButton {
     padding: 8px 18px 8px 18px;
     border-top: 1px solid #999999;
-
     margin-right: 10px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#333333), to(secondaryUltraDarkColor));
-
     transition-property: background-color;
     transition-duration: 0.2s;
 }
 
 .BuyBattlePassButton {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#b28948), to(#3a1803));
-
     border-top: 1px solid #d9b863;
     box-shadow: 0px 0px 20px #d9b86320;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#e8cf8d), to(#503712));
@@ -99,7 +93,6 @@
     font-size: 16px;
     text-align: center;
     horizontal-align: center;
-
     color: white;
     font-weight: bold;
 }

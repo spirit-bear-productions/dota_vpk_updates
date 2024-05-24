@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FantasyActiveOnly,
 .FantasyAvailable .FantasyInactiveOnly {
     visibility: collapse;
@@ -32,6 +34,7 @@
 .FantasyAvailable .FantasyActiveOnly #SectionDivider {
     flow-children: right;
 }
+
 .FantasyInactiveOnly #SectionDivider Label,
 .FantasyAvailable .FantasyActiveOnly #SectionDivider Label {
     margin: 0px 12px;
@@ -48,6 +51,7 @@
     height: 1px;
     vertical-align: center;
 }
+
 .FantasyInactiveOnly #SectionDivider .DivivderDash.Right,
 .FantasyAvailable .FantasyActiveOnly #SectionDivider .DivivderDash.Right {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ea6953), to(#ea695300));
@@ -83,7 +87,6 @@
     width: 1400px;
     height: 800px;
     margin-top: 150px;
-
     flow-children: down;
 }
 
@@ -106,7 +109,6 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-right: 12px;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -168,7 +170,6 @@
     margin: 16px;
     wash-color: #78a0c8;
     opacity: 0.2;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -187,7 +188,6 @@
     padding-left: 16px;
     padding-right: 16px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#202d3d00), color-stop(0.5, #202d3ddd), to(#202d3ddd));
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -201,7 +201,6 @@
     letter-spacing: 1px;
     color: #92b4d9;
     margin-top: 16px;
-
     transition-property: color;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;

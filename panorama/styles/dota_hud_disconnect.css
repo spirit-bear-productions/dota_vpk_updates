@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDDisconnect {
     flow-children: down;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#7a222400), color-stop(0.5, #7a2224cc), to(#441111ee));
@@ -38,7 +40,6 @@ DOTAHUDDisconnect Image {
     background-repeat: no-repeat;
     width: 64px;
     height: 32px;
-
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-name: Disconnect_Male;
@@ -66,9 +67,11 @@ DOTAHUDDisconnect Image {
     0% {
         transform: translateX(0px);
     }
+
     50% {
         transform: translateX(10px);
     }
+
     100% {
         transform: translateX(0px);
     }
@@ -78,9 +81,11 @@ DOTAHUDDisconnect Image {
     0% {
         transform: translateX(0px);
     }
+
     50% {
         transform: translateX(-10px);
     }
+
     100% {
         transform: translateX(0px);
     }

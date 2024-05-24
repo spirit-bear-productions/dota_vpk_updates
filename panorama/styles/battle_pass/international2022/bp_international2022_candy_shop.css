@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPInternational2022CandyShopPage {
     width: 100%;
     height: 100%;
@@ -9,9 +11,7 @@ DOTABPInternational2022CandyShopPage {
     height: 876px;
     margin-top: 64px;
     margin-left: 384px;
-
     opacity: 0;
-
     transition-duration: 0.5s;
     transition-property: opacity;
     transition-delay: 1.75s;
@@ -23,7 +23,6 @@ DOTABPInternational2022CandyShopPage {
 
 .PageVisible .MainContents {
     opacity: 1;
-
     transition-delay: 0s;
 }
 
@@ -82,6 +81,7 @@ DOTABPInternational2022CandyShopPage {
     margin-bottom: 8px;
     flow-children: right;
 }
+
 .SubSectionTitle .Rule {
     width: fill-parent-flow(1);
     height: 1px;
@@ -128,7 +128,6 @@ DOTABPInternational2022CandyShopPage {
     brightness: 1;
     background-color: secondaryDarkColor;
     box-shadow: none;
-
     transition-property: brightness, background-color, box-shadow;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -164,7 +163,6 @@ DOTABPInternational2022CandyShopPage {
 .CandyShopSlotsAvailableHasCandy #CandyInventory .CandyInventorySlot.SlotFillable {
     background-color: accentColor&11;
     border: 1px solid accentColor;
-
     animation-name: FillSlot;
     animation-duration: 1.7s;
     animation-timing-function: linear;
@@ -195,6 +193,7 @@ DOTABPInternational2022CandyShopPage {
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
+
 .CandyShopSlotsFull .CandyPacksMain .BattlePassBrightButton {
     background-color: secondaryDarkColor;
     border-color: ultraBrightColor&06;
@@ -209,7 +208,6 @@ DOTABPInternational2022CandyShopPage {
     brightness: 1;
     background-color: secondaryDarkColor;
     box-shadow: none;
-
     transition-property: brightness, background-color, box-shadow;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -226,6 +224,7 @@ DOTABPInternational2022CandyShopPage {
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
+
 .CandyPacksMain .CandyCount {
     vertical-align: center;
 }
@@ -273,7 +272,6 @@ DOTABPInternational2022CandyShopPage {
 
 #BackgroundFXWindow {
     ignore-parent-flow: true;
-
     width: 420px;
     height: 420px;
     margin-left: -108px;
@@ -291,7 +289,6 @@ DOTABPInternational2022CandyShopPage {
     width: 216px;
     height: 216px;
     margin-top: 24px;
-
     background-image: url("s2r://panorama/images/battlepass/international2022/candy_shop/candy_bag_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -302,9 +299,9 @@ DOTABPInternational2022CandyShopPage {
     width: 100%;
     padding: 32px 24px 24px 24px;
     flow-children: down;
-
     background-color: #00000066;
 }
+
 .CandyOwned .SubSectionTitle {
     margin-top: 16px;
 }
@@ -335,7 +332,6 @@ DOTABPInternational2022CandyShopPage {
 .CandyInventorySlot #CandyImage {
     width: 100%;
     height: 100%;
-
     visibility: collapse;
 }
 
@@ -346,19 +342,18 @@ DOTABPInternational2022CandyShopPage {
 .CandyInventorySlot .LockedIcon {
     width: 100%;
     height: 100%;
-
     background-image: url("s2r://panorama/images/control_icons/lock_medium_png.vtex");
     background-size: 75% 75%;
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.01;
-
     visibility: collapse;
 }
 
 .CandyInventorySlot.SlotLocked {
     background-color: gradient(radial, 50% 50%, 0% 0%, 75% 75%, from(#00000066), to(#00000088));
 }
+
 .CandyInventorySlot.SlotLocked .LockedIcon {
     visibility: visible;
 }
@@ -401,9 +396,7 @@ DOTABPInternational2022CandyShopPage {
     margin-bottom: 4px;
     border-radius: 4px;
     background-color: #ffffff03;
-
     border: 1px solid #ffffff04;
-
     transition:
         border 0.5s ease-in-out 0s,
         background-color 0.5s ease-in-out 0s;
@@ -413,6 +406,7 @@ DOTABPInternational2022CandyShopPage {
     brightness: 2;
     background-color: #ffffff03;
 }
+
 .ExchangeRecipe:hover .ExchangeButton {
     pre-transform-scale2d: 1.25;
     transition: pre-transform-scale2d 0.1s ease-in-out 0s;
@@ -421,7 +415,6 @@ DOTABPInternational2022CandyShopPage {
 
 .ExchangeRecipe:active {
     brightness: 4;
-
     transition: brightness 0.5s ease-in-out 0s;
 }
 
@@ -429,6 +422,7 @@ DOTABPInternational2022CandyShopPage {
     background-color: #00000033;
     brightness: 1;
 }
+
 .ExchangeRecipeInvalid.ExchangeRecipe:hover .ExchangeButton {
     pre-transform-scale2d: 1;
     background-color: none;
@@ -437,11 +431,11 @@ DOTABPInternational2022CandyShopPage {
 .ExchangeRecipeInvalid {
     background-color: #00000033;
     border: 1px solid #00000000;
-
     transition:
         border 0.5s ease-in-out 0s,
         background-color 0.5s ease-in-out 0s;
 }
+
 .ExchangeRecipeInvalid .ExchangeButton {
     background-color: none;
     border: 0px;
@@ -463,6 +457,7 @@ DOTABPInternational2022CandyShopPage {
     vertical-align: center;
     width: fill-parent-flow (1);
 }
+
 .ExchangeInputs DropDown {
     width: fill-parent-flow (1);
 }
@@ -491,6 +486,7 @@ DOTABPInternational2022CandyShopPage {
     vertical-align: center;
     width: fill-parent-flow (1);
 }
+
 .ExchangeOutputs DropDown {
     width: fill-parent-flow (1);
 }
@@ -507,6 +503,7 @@ DOTABPInternational2022CandyShopPage {
     border-radius: 50%;
     box-shadow: #00000066 0px 2px 8px 0px;
 }
+
 .ExchangeButton .ExchangeArrow {
     vertical-align: center;
     horizontal-align: center;
@@ -522,6 +519,7 @@ DOTABPInternational2022CandyShopPage {
     background-color: none;
     border: 0px;
 }
+
 .ExchangeButton:disabled .CandyRewardShelf {
     background-color: red;
 }
@@ -579,6 +577,7 @@ DOTABPInternational2022CandyShopPage {
 #InfoButtons {
     horizontal-align: center;
 }
+
 #InfoButtons .battlepassBtnMinor {
     height: 35px;
     margin: 0px 0px 0px 0px;
@@ -590,7 +589,6 @@ DOTABPInternational2022CandyShopPage {
 .LeftSection {
     width: 924px;
     height: 100%;
-
     flow-children: down;
     z-index: 100;
 }
@@ -638,12 +636,10 @@ DOTABPInternational2022CandyShopPage {
     background-size: contain;
     margin-left: 0px;
     margin-right: 4px;
-
     tooltip-position: right;
     tooltip-body-position: 50% 10%;
     wash-color: accentColor;
     vertical-align: middle;
-
     transition-property: wash-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
@@ -663,11 +659,13 @@ DOTABPInternational2022CandyShopPage {
     margin-left: -112px;
     overflow: noclip;
 }
+
 .CandyReward .CandyRewardTop {
     width: 100%;
     height: 448px;
     overflow: noclip;
 }
+
 .CandyReward .CandyRewardTop .CandyRewardShelf {
     horizontal-align: center;
     height: 128px;
@@ -691,6 +689,7 @@ DOTABPInternational2022CandyShopPage {
     height: 100%;
     overflow: noclip;
 }
+
 .CandyReward .CandyRewardTop #CandyRewardDetail .DiretideTag {
     width: 222px;
     height: 96px;
@@ -707,16 +706,15 @@ DOTABPInternational2022CandyShopPage {
 .CandyReward .CandyRewardTop #CandyRewardDetail .EconItemDetail {
     width: 100%;
     height: 100%;
-
     tooltip-body-position: -160px 50%;
 }
+
 .CandyReward .CandyRewardTop #CandyRewardDetail .EconItemDetail #ItemShadow {
     width: 48px;
     height: 48px;
     vertical-align: bottom;
     horizontal-align: center;
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
-
     pre-transform-scale2d: 7;
     blur: gaussian(1px);
     brightness: 0;
@@ -760,12 +758,10 @@ DOTABPInternational2022CandyShopPage {
 .CandyReward .CandyRewardTop #CandyRewardDetail .EconItemDetail.Showing2DPreview #ItemReflection {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(0.85) scaleY(-0.5) translateX(0px) translateY(96px);
-
     blur: gaussian(3px);
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
     opacity: 0.25;
@@ -776,13 +772,13 @@ DOTABPInternational2022CandyShopPage {
     width: 100%;
     height: 100%;
 }
+
 .CandyReward .CandyRewardTop #CandyRewardDetail .HeroItemReward #ItemShadow {
     width: 48px;
     height: 48px;
     vertical-align: bottom;
     horizontal-align: center;
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
-
     pre-transform-scale2d: 7;
     blur: gaussian(1px);
     brightness: 0;
@@ -816,6 +812,7 @@ DOTABPInternational2022CandyShopPage {
     height: 100%;
     overflow: clip;
 }
+
 .CandyReward .CandyRewardTop #CandyRewardDetail .EventPointsDetail #ItemSetPreview {
     width: 420px;
     height: 420px;
@@ -827,12 +824,10 @@ DOTABPInternational2022CandyShopPage {
 .CandyReward .CandyRewardTop #CandyRewardDetail .EventPointsDetail #ItemShadow {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(1.25) scaleY(0.7) translateX(40px) translateY(16px);
-
     opacity: 0.75;
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
     blur: gaussian(3px);
@@ -843,12 +838,10 @@ DOTABPInternational2022CandyShopPage {
 .CandyReward .CandyRewardTop #CandyRewardDetail .EventPointsDetail #ItemReflection {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(1.25) scaleY(-0.7) translateX(40px) translateY(96px);
-
     blur: gaussian(3px);
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
     opacity: 0.5;
@@ -886,12 +879,13 @@ DOTABPInternational2022CandyShopPage {
     box-shadow: #000000aa 0px 2px 16px 0px;
     flow-children: down;
 }
+
 .CandyReward .CandyRewardFront .CandyRewardName {
     margin: 0px 16px;
-
     width: 100%;
     height: 46px;
 }
+
 .CandyReward .CandyRewardFront .CandyRewardName Label {
     vertical-align: middle;
     horizontal-align: center;
@@ -909,11 +903,13 @@ DOTABPInternational2022CandyShopPage {
     padding: 0px 16px;
     margin-top: -8px;
 }
+
 .CandyReward .CandyRewardFront .CandyRewardPrice #CandyRewardPriceCandies {
     vertical-align: middle;
     horizontal-align: center;
     flow-children: right-wrap;
 }
+
 .CandyReward .CandyRewardFront .CandyRewardPrice #CandyRewardPriceCandies DOTACandyImage {
     ui-scale: 50%;
 }
@@ -948,15 +944,12 @@ DOTABPInternational2022CandyShopPage {
 .RewardAnnouncer.CandyReward #CandyRewardDetail .EconItemDetail #ItemShadow {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(0.8) scaleY(0.5) translateX(0px) translateY(-8px);
-
     opacity: 0.75;
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
-
     blur: gaussian(3px);
     brightness: 0;
     saturation: 0;
@@ -965,12 +958,10 @@ DOTABPInternational2022CandyShopPage {
 .RewardAnnouncer.CandyReward #CandyRewardDetail .EconItemDetail #ItemReflection {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(0.8) scaleY(-0.5) translateX(0px) translateY(88px);
-
     blur: gaussian(3px);
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
     opacity: 0.5;
@@ -988,15 +979,12 @@ DOTABPInternational2022CandyShopPage {
 .RewardHeroSet.CandyReward #CandyRewardDetail .EconItemDetail #ItemShadow {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(1) scaleY(0.5) translateX(0px) translateY(-34px);
-
     opacity: 0.75;
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
-
     blur: gaussian(3px);
     brightness: 0;
     saturation: 0;
@@ -1005,12 +993,10 @@ DOTABPInternational2022CandyShopPage {
 .RewardHeroSet.CandyReward #CandyRewardDetail .EconItemDetail #ItemReflection {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(1) scaleY(-0.5) translateX(0px) translateY(108px);
-
     blur: gaussian(3px);
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
     opacity: 0.5;
@@ -1028,15 +1014,12 @@ DOTABPInternational2022CandyShopPage {
 .RewardRoshanSkin.CandyReward #CandyRewardDetail .EconItemDetail #ItemShadow {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(1) scaleY(0.5) translateX(0px) translateY(-16px);
-
     opacity: 0.75;
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
-
     blur: gaussian(3px);
     brightness: 0;
     saturation: 0;
@@ -1045,12 +1028,10 @@ DOTABPInternational2022CandyShopPage {
 .RewardRoshanSkin.CandyReward #CandyRewardDetail .EconItemDetail #ItemReflection {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(1) scaleY(-0.5) translateX(0px) translateY(64px);
-
     blur: gaussian(3px);
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
     opacity: 0.5;
@@ -1068,15 +1049,12 @@ DOTABPInternational2022CandyShopPage {
 .RewardTreasure.CandyReward #CandyRewardDetail .EconItemDetail #ItemShadow {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(0.85) scaleY(0.5) translateX(16px) translateY(-32px);
-
     opacity: 0.75;
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
-
     blur: gaussian(3px);
     brightness: 0;
     saturation: 0;
@@ -1085,12 +1063,10 @@ DOTABPInternational2022CandyShopPage {
 .RewardTreasure.CandyReward #CandyRewardDetail .EconItemDetail #ItemReflection {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(0.85) scaleY(-0.5) translateX(16px) translateY(128px);
-
     blur: gaussian(3px);
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
     opacity: 0.5;
@@ -1108,15 +1084,12 @@ DOTABPInternational2022CandyShopPage {
 .RewardCourier.CandyReward #CandyRewardDetail .EconItemDetail #ItemShadow {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(1) scaleY(0.5) translateX(0px) translateY(8px);
-
     opacity: 0.75;
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
-
     blur: gaussian(3px);
     brightness: 0;
     saturation: 0;
@@ -1125,12 +1098,10 @@ DOTABPInternational2022CandyShopPage {
 .RewardCourier.CandyReward #CandyRewardDetail .EconItemDetail #ItemReflection {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(1) scaleY(-0.5) translateX(0px) translateY(88px);
-
     blur: gaussian(3px);
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
     opacity: 1;
@@ -1148,15 +1119,12 @@ DOTABPInternational2022CandyShopPage {
 .RewardWard.CandyReward #CandyRewardDetail .EconItemDetail #ItemShadow {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(1) scaleY(0.5) translateX(-56px) translateY(-16px);
-
     opacity: 0.75;
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
-
     blur: gaussian(3px);
     brightness: 0;
     saturation: 0;
@@ -1165,12 +1133,10 @@ DOTABPInternational2022CandyShopPage {
 .RewardWard.CandyReward #CandyRewardDetail .EconItemDetail #ItemReflection {
     vertical-align: bottom;
     horizontal-align: center;
-
     width: 210px;
     height: 210px;
     pre-transform-scale2d: 2;
     transform: scaleX(1) scaleY(-0.5) translateX(-56px) translateY(104px);
-
     blur: gaussian(3px);
     opacity-mask: url("s2r://panorama/images/masks/rewardline_reflection_psd.vtex");
     opacity: 0.5;
@@ -1203,6 +1169,7 @@ DOTABPInternational2022CandyShopPage {
     width: fit-children;
     min-width: 256px;
 }
+
 .RerollRow .BattlePassBrightButton Label {
     margin: 0px 24px;
 }
@@ -1262,7 +1229,6 @@ DOTABPInternational2022CandyShopPage {
 
 .RerollRow .RerollCountContainer {
     horizontal-align: center;
-
     margin: 0px 16px;
 }
 
@@ -1333,6 +1299,7 @@ DOTABPInternational2022CandyShopPage {
         pre-transform-scale2d 0.15s ease-in-out 0s,
         brightness 0.15s ease-in-out 0s;
 }
+
 .BattlePassBrightButton Label {
     font-weight: semi-bold;
 }
@@ -1342,16 +1309,17 @@ DOTABPInternational2022CandyShopPage {
     margin: -20px 0px 0px 0px;
     box-shadow: #00000066 0px 2px 16px 0px;
 }
+
 #PurchaseButton.BattlePassBrightButton.Disabled,
 #PurchaseButton.BattlePassBrightButton:disabled,
 #PurchaseButton.BattlePass2022ButtonPrimary.Disabled,
 #PurchaseButton.BattlePass2022ButtonPrimary:disabled {
     background-color: darkColor;
     border: 1px solid shadeColor&33;
-
     saturation: 1;
     opacity: 1;
 }
+
 #PurchaseButton.BattlePassBrightButton.Disabled Label,
 #PurchaseButton.BattlePassBrightButton:disabled Label,
 #PurchaseButton.BattlePass2022ButtonPrimary.Disabled Label,
@@ -1364,6 +1332,7 @@ DOTABPInternational2022CandyShopPage {
     brightness: 1.5;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(secondaryDefaultColor), to(secondaryDarkColor));
 }
+
 #PurchaseButton.BattlePassBrightButton.PurchasableByExchangeRecipe Label {
     color: #ffffff66;
 }
@@ -1371,7 +1340,6 @@ DOTABPInternational2022CandyShopPage {
 #PurchaseButton.BattlePassBrightButton.UnPurchasableByExchangeRecipe {
     pre-transform-scale2d: 0.95;
     brightness: 0.25;
-
     transition:
         pre-transform-scale2d 0.15s ease-in-out 0s,
         brightness 0.15s ease-in-out 0s;
@@ -1395,6 +1363,7 @@ DropDownMenu {
     width: fit-children;
     background-color: secondaryDarkColor;
 }
+
 DropDownMenu .DropDownChild {
     padding: 8px 40px 8px 8px;
 }

@@ -1,23 +1,26 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .OnlyVariant0 {
     visibility: collapse;
 }
+
 .MapVariant0 .OnlyVariant0 {
     visibility: visible;
 }
+
 .OnlyVariant1 {
     visibility: collapse;
 }
+
 .MapVariant1 .OnlyVariant1 {
     visibility: visible;
 }
 
 .Instructions {
     width: 1100px;
-
     border: 1px solid accentColorBright&20;
     background-repeat: no-repeat;
     color: textDefaultColor;
-
     padding: 0px;
     background-image: url("s2r://panorama/images/cavern/popup_background_psd.vtex");
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#120f07), to(#000000));
@@ -41,7 +44,6 @@
     wash-color: accentColorBright;
     transform: translateY(-2px);
     img-shadow: #008cff 0px 0px 10px 0px;
-
     transition-property: brightness, wash-color, transform, img-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -57,7 +59,6 @@
 
 .ModalLogo {
     width: 100%;
-
     vertical-align: top;
     horizontal-align: center;
 }
@@ -86,7 +87,6 @@
 .Language_schinese .NemesticeLogo {
     width: 100%;
     height: 160px;
-
     background-image: url("s2r://panorama/images/battlepass/fall2021/continuum_logo_schinese_png.vtex");
     background-size: 360px 180px;
     background-position: center;
@@ -96,7 +96,6 @@
 .Language_russian .NemesticeLogo {
     width: 100%;
     height: 160px;
-
     background-image: url("s2r://panorama/images/battlepass/fall2021/continuum_logo_russian_png.vtex");
     background-size: 360px 180px;
     background-position: center;
@@ -113,7 +112,6 @@
     max-width: 800px;
     margin-bottom: 10px;
     height: 75px;
-
     horizontal-align: center;
 }
 
@@ -135,11 +133,9 @@
     color: gradient(linear, 0% 50%, 0% 100%, from(accentColorBright), to(accentColor));
     letter-spacing: 2px;
     text-shadow: accentColorBright&33 0px 0px 8px 0px;
-
     padding-left: 40px;
     padding-right: 40px;
     padding-top: -6px;
-
     horizontal-align: center;
     text-transform: uppercase;
 }
@@ -158,7 +154,6 @@
     width: 820px;
     overflow: clip scroll;
     text-overflow: shrink;
-
     text-align: center;
     font-weight: normal;
     horizontal-align: center;
@@ -172,10 +167,8 @@
     font-size: 16px;
     font-weight: thin;
     color: textDefaultColor&aa;
-
     max-width: 95%;
     margin-top: 10px;
-
     text-align: center;
     horizontal-align: center;
 }
@@ -188,9 +181,7 @@
 
 .TutorialContainer {
     flow-children: right;
-
     height: 300px;
-
     horizontal-align: center;
 }
 

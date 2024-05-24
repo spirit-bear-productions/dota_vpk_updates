@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .BodyContainer {
     flow-children: down;
 }
@@ -16,6 +18,7 @@
     flow-children: right;
     margin-top: 48px;
 }
+
 .Center .TokenTraderIcon {
     width: 128px;
     height: 128px;
@@ -38,6 +41,7 @@
 .DashDotDivider {
     margin: 24px 0px;
 }
+
 .DashDotDivider.ThreeTradeDivider {
     visibility: collapse;
 }
@@ -56,6 +60,7 @@
     padding: 8px;
     margin-right: 138px;
 }
+
 .TokenTrade .Tokens {
     flow-children: right;
 }
@@ -105,20 +110,20 @@
         to(rgba(108, 154, 192, 0))
     );
 }
+
 .ResetContainer .ResetButton {
     horizontal-align: center;
     flow-children: right;
     padding: 8px;
-
     transition-property: transform, brightness;
     transition-duration: 0.05s;
 }
+
 .ResetContainer .ResetButton Label {
     vertical-align: center;
     color: LightGrey;
     text-shadow: 0px 2px 8px black;
     margin-right: 4px;
-
     transition-property: color;
     transition-duration: 0.1s;
 }
@@ -129,7 +134,6 @@
     width: 20px;
     height: width-percentage(100%);
     img-shadow: 0px 2px 8px black;
-
     transition-property: wash-color;
     transition-duration: 0.1s;
 }
@@ -137,6 +141,7 @@
 .ResetContainer .ResetButton:hover Label {
     color: white;
 }
+
 .ResetContainer .ResetButton:hover Image {
     wash-color: white;
 }
@@ -158,6 +163,7 @@
     vertical-align: center;
     min-width: 240px;
 }
+
 .ExecuteTradeButton .TradeLabel,
 .ExecuteTradeButton .Spinner {
     transition-property: opacity;
@@ -168,13 +174,16 @@
 .ExecuteTradeButton .TradeLabel {
     opacity: 1;
 }
+
 .ExecuteTradeButton .Spinner {
     horizontal-align: center;
     opacity: 0;
 }
+
 .TradeExecuting .ExecuteTradeButton .Spinner {
     opacity: 1;
 }
+
 .TradeExecuting .ExecuteTradeButton .TradeLabel {
     opacity: 0;
 }
@@ -190,6 +199,7 @@
 .ThreeTrades .DashDotDivider {
     margin: 0px 0px;
 }
+
 .ThreeTrades .DashDotDivider.ThreeTradeDivider {
     visibility: visible;
 }
@@ -205,6 +215,7 @@
     margin-top: 5px;
     padding: 0px;
 }
+
 .ThreeTrades .TokenTrade DOTACrownfallToken {
     ui-scale: 160%;
 }

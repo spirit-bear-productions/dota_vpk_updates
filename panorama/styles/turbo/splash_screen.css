@@ -1,7 +1,10 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #splash_screen {
     width: 100%;
     height: 100%;
 }
+
 #splash_screen_container {
     horizontal-align: center;
     margin-top: 10%;
@@ -12,7 +15,6 @@
 #splash_screen_contents {
     width: 834px;
     height: 748px;
-
     background-repeat: no-repeat;
     background-image: url("s2r://panorama/images/turbo/dota_turbo_background_psd.vtex");
 }

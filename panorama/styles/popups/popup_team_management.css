@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #ManageTeamInfo {
     width: 740px;
     padding-top: 0px;
@@ -92,7 +94,6 @@
     flow-children: right;
     padding: 13px 16px 10px 16px;
     background-color: #333;
-
     opacity: 1;
     transition-property: transform, opacity;
     transition-duration: 0.3s;
@@ -108,7 +109,6 @@
     margin: 0px;
     vertical-align: middle;
     wash-color: white;
-
     transition-property: wash-color;
     transition-duration: 0.6s;
     transition-timing-function: ease-in-out;
@@ -154,7 +154,6 @@
     opacity: 0;
     pre-transform-scale2d: 0.975;
     wash-color: #63b5af;
-
     transition-property: opacity, pre-transform-scale2d, wash-color;
     transition-duration: 0.32s;
     transition-timing-function: ease-in;
@@ -274,9 +273,7 @@ HorizontalScrollBar {
 
 #ProInfo {
     width: 100%;
-
     flow-children: down;
-
     padding: 0px 20px 0px 20px;
 }
 
@@ -313,9 +310,7 @@ HorizontalScrollBar {
     width: 100%;
     margin-top: 20px;
     padding: 20px 20px 20px 20px;
-
     flow-children: down;
-
     background-color: #000000;
 }
 
@@ -328,11 +323,9 @@ HorizontalScrollBar {
 #ProInfoPreview {
     margin-top: 10px;
     margin-bottom: 10px;
-
     horizontal-align: center;
     text-align: center;
     color: #ffffff;
-
     font-size: 24px;
     min-height: 20px;
 }
@@ -359,10 +352,8 @@ HorizontalScrollBar {
 #ProInfoSubmitFailureLabel {
     min-height: 24px;
     height: 24px;
-
     horizontal-align: center;
     text-align: center;
-
     visibility: collapse;
 }
 
@@ -390,7 +381,6 @@ HorizontalScrollBar {
 #ProInfoResults .ButtonBevel {
     min-height: 24px;
     height: 24px;
-
     horizontal-align: center;
 }
 
@@ -402,7 +392,6 @@ HorizontalScrollBar {
 TextEntry.SmallerEntry {
     height: 30px;
     width: 320px;
-
     font-size: 16px;
 }
 
@@ -421,7 +410,6 @@ DropDown.SmallerDropdown Label {
     background-color: #000000;
     height: 100px;
     width: 100%;
-
     padding-right: 25px;
 }
 
@@ -487,7 +475,6 @@ DropDown.SmallerDropdown Label {
 
 #TeamRosterPanel {
     background-color: #000000;
-
     height: 100%;
     width: 300px;
     padding: 16px;
@@ -525,7 +512,6 @@ DropDown.SmallerDropdown Label {
 #TeamRosterPro {
     margin: 20px;
     width: 400px;
-
     visibility: collapse;
 }
 
@@ -633,10 +619,8 @@ DropDown.SmallerDropdown Label {
     font-size: 28px;
     z-index: 0;
     opacity: 1;
-
     border-top: 1px solid #00000066;
     border-bottom: 1px solid #00000066;
-
     transition-property: background-color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -650,7 +634,6 @@ DropDown.SmallerDropdown Label {
 #TeamInviteAutocompleteOption Label {
     width: fill-parent-flow(1);
     padding-left: 6px;
-
     color: #ffffff99;
     font-size: 18px;
     font-weight: normal;

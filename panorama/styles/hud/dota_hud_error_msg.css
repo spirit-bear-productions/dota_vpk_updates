@@ -1,10 +1,14 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @keyframes 'PopOutErrorMsg' {
     0% {
         pre-transform-scale2d: 1;
     }
+
     50% {
         pre-transform-scale2d: 1.2;
     }
+
     100% {
         pre-transform-scale2d: 1;
     }
@@ -13,7 +17,6 @@
 DOTAErrorMsg {
     margin-top: 70%;
     horizontal-align: middle;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#780000aa), to(#590000aa));
     padding-left: 15px;
     padding-right: 15px;

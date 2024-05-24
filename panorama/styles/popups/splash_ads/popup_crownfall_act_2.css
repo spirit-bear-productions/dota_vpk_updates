@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .CrownfallAct2Popup {
     width: 1180px;
     height: 740px;
@@ -30,6 +32,7 @@
     vertical-align: center;
     flow-children: down;
 }
+
 .ContentsContainer .CrownfallLogo,
 .ContentsContainer .CrownfallLogoCN {
     horizontal-align: center;
@@ -42,6 +45,7 @@
     width: 600px;
     margin-bottom: 12px;
 }
+
 .ContentsContainer .DashDotDivider Label {
     margin: 0px 12px;
     color: gradient(linear, 0% 0%, 0% 100%, from(gold1), to(gold3));
@@ -88,6 +92,7 @@
     line-height: 1.3;
     margin: 20px 0px 40px;
 }
+
 .ContentsContainer .Description b {
     color: white;
     font-weight: semi-bold;

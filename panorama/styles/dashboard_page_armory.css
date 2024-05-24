@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define armoryItemWidth: 101px;
 @define armoryItemHeight: 108px;
 @define armoryScratchpadItemWidth: 84px;
@@ -8,10 +10,8 @@
 @define armoryScratchpadCraftingItemHeight: 56px;
 @define armoryRecentItemWidth: 330px;
 @define armoryRecentItemHeight: 101px;
-
 @define scratchpadPageColumns: 6;
 @define scratchpadSpacerWidth: 32px;
-
 DOTAArmoryPage {
     margin-top: 130px;
     padding-top: 20px;
@@ -46,7 +46,6 @@ DOTAArmoryPage {
 #ArmoryCapacityInfo {
     horizontal-align: left;
     vertical-align: top;
-
     height: 20px;
     width: 20px;
     padding-right: 10px;
@@ -95,7 +94,6 @@ DOTAArmoryPage {
     horizontal-align: right;
     vertical-align: middle;
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -135,7 +133,6 @@ DOTAArmoryPage {
     margin-left: 36px;
     width: 100%;
     height: 64px;
-
     margin-right: 124px;
 }
 
@@ -218,7 +215,6 @@ DOTAArmoryPage {
     text-transform: uppercase;
     color: #888888;
     color: #647274;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -251,7 +247,6 @@ DOTAArmoryPage {
     font-weight: bold;
     color: #adc6c8;
     color: #718385;
-
     horizontal-align: right;
     text-align: right;
     font-size: 32px;
@@ -265,6 +260,7 @@ DOTAArmoryPage {
 .MenuLabel:selected Label {
     text-shadow: 0px 0px 12px 1 #ffffff55;
 }
+
 .ItemCategoryLabel Label {
     color: #829798;
     horizontal-align: right;
@@ -359,7 +355,6 @@ DOTAArmoryPage {
     pre-transform-scale2d: 0.4;
     opacity: 0.2;
     flow-children: down;
-
     transition-property: opacity, pre-transform-scale2d;
     transition-duration: 0.32s;
 }
@@ -394,7 +389,6 @@ DOTAArmoryPage {
     flow-children: down-wrap;
     min-width: 130px;
     height: 672px;
-
     padding-top: 6px;
     padding-left: 6px;
 }
@@ -513,9 +507,11 @@ DOTAEconItem.New {
 #Filters:disabled {
     brightness: 0.5;
 }
+
 #Filters:enabled:hover {
     brightness: 2;
 }
+
 #Filters:active {
     brightness: 3;
 }
@@ -542,9 +538,11 @@ DOTAEconItem.New {
 #EditFilter:disabled {
     brightness: 1;
 }
+
 #EditFilter:enabled:hover {
     brightness: 2;
 }
+
 #EditFilter:active {
     brightness: 3;
 }
@@ -561,7 +559,6 @@ DOTAEconItem.New {
     padding-top: 2px;
     padding-bottom: 0px;
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.32s;
 }
@@ -588,7 +585,6 @@ DOTAEconItem.New {
     padding-right: 16px;
     padding-top: 4px;
     padding-bottom: 0px;
-
     color: #adc6c8;
     font-size: 22px;
     letter-spacing: 1px;
@@ -661,6 +657,7 @@ DOTAEconItem.New {
 #ArmorySortingDropDownMenu .DropDownChild:hover {
     color: white;
 }
+
 #ArmorySorting:hover {
     border: 2px solid #90a5a666;
 }
@@ -679,7 +676,6 @@ DOTAEconItem.New {
     padding-right: 16px;
     padding-top: 4px;
     padding-bottom: 0px;
-
     color: #adc6c8;
     font-size: 22px;
     letter-spacing: 1px;
@@ -740,21 +736,18 @@ DOTAEconItem.New {
 
 #CraftingSection DOTACraftingButton {
     vertical-align: middle;
-
     border-top: 2px solid #394c3c;
     border-right: 2px solid #1e2820;
     border-bottom: 2px solid #1e2820;
     border-left: 2px solid #2c3a2e;
-
     width: 100%;
     margin-top: 2px;
     background-color: #374753;
-
     brightness: 0.7;
-
     transition-property: brightness, saturation;
     transition-duration: 0.2s;
 }
+
 #CraftingSection DOTACraftingButton Label {
     horizontal-align: center;
     color: white;
@@ -778,7 +771,6 @@ DOTAEconItem.New {
     width: 100%;
     background-color: #000000cc;
     vertical-align: bottom;
-
     transition-property: height, opacity;
     transition-duration: 0.28s, 0.28s;
     transition-delay: 0s, 0.28s;
@@ -796,6 +788,7 @@ DOTAEconItem.New {
     transition-duration: dragCompleteDuration;
     opacity: 0.95;
 }
+
 .DragItemsPanel.DragComplete {
     opacity: 0;
     transform: scale3d(0.1, 0.1, 0.1);
@@ -808,7 +801,6 @@ DOTAEconItem.New {
     transition-property: opacity;
     transition-duration: 0.4s;
     vertical-align: center;
-
     background-image: url("s2r://panorama/images/control_icons/arrow_solid_right_png.vtex");
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -873,7 +865,6 @@ DOTAEconItemList DOTARecentArmoryItem {
     width: 306px;
     height: 93px;
     border-left: 2px solid transparent;
-
     background-color: #00000055;
 }
 

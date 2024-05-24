@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAStoreItemDetailsPage {
     margin-top: 58px;
     height: 100%;
@@ -8,6 +10,7 @@ DOTAStoreItemDetailsPage {
     width: 60%;
     height: 100%;
 }
+
 .IsPopup .ModelContainer {
     width: 824px;
 }
@@ -15,9 +18,9 @@ DOTAStoreItemDetailsPage {
 #ModelPreview {
     width: 100%;
     height: 100%;
-
     transform: translateY(-70px) translateX(-45px);
 }
+
 .IsPopup #ModelPreview {
     transform: translateX(0px) translateY(0px);
 }
@@ -37,6 +40,7 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
     height: 100%;
     margin-bottom: 120px;
 }
+
 .IsPopup .MainControls {
     margin-bottom: 0px;
 }
@@ -47,6 +51,7 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
     width: fill-parent-flow(1);
     margin-right: 20px;
 }
+
 .IsPopup .PrimaryControls {
     margin-bottom: 16px;
 }
@@ -65,6 +70,7 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
     box-shadow: #000000aa 0px 0px 12px 0px;
     border: 2px solid black;
 }
+
 .IsPopup .BodyBox {
     margin: 0px;
     border: 0px;
@@ -90,6 +96,7 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
     width: 525px;
     vertical-align: center;
 }
+
 .IsPopup #Title {
     width: fill-parent-flow(1);
     margin-right: 54px;
@@ -139,6 +146,7 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
     background-color: #000000bb;
     transition-property: background-color;
 }
+
 .IsPopup .CloseButton {
     visibility: collapse;
 }
@@ -150,6 +158,7 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
 #ItemIcon {
     box-shadow: 0px 0px 0px #00000000;
 }
+
 .IsPopup #ItemIcon {
     margin: 16px;
 }
@@ -161,7 +170,6 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
 
 #Banner {
     flow-children: right;
-
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     width: 100%;
@@ -211,6 +219,7 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
     flow-children: down;
     overflow: squish scroll;
 }
+
 .IsPopup .SectionList {
     padding: 16px;
 }
@@ -221,7 +230,6 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
 
 .Section {
     width: 100%;
-
     background-color: #00000058;
     border: 1px solid rgba(0, 0, 0, 0.6);
     flow-children: down;
@@ -275,7 +283,6 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
 
 .CarouselItem {
     flow-children: right-wrap;
-
     width: 100%;
     transition-property: position, opacity;
     transition-duration: 0.3s;
@@ -290,7 +297,6 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
     margin-left: 6px;
     padding-bottom: 0px;
     width: 100%;
-
     vertical-align: top;
 }
 
@@ -326,6 +332,7 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
     flow-children: right;
     overflow: scroll squish;
 }
+
 #BundleIconList DOTAEconItem {
     width: 64px;
     height: 64px;
@@ -371,12 +378,9 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
     margin-top: 2px;
     margin-left: 0px;
     margin-bottom: 0px;
-
     ui-scale: 60%;
-
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
     tooltip-position: bottom;
 }
 
@@ -403,7 +407,6 @@ DOTAStoreItemDetailsPage:not(.IsPopup) #ModelPreview {
 
 .StyleName {
     width: 25%;
-
     margin-left: 12px;
     font-size: 16px;
 }
@@ -437,12 +440,9 @@ DOTAAbilityImage {
     margin-top: 2px;
     width: 50px;
     height: 52px;
-
     saturation: 0;
-
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
     tooltip-position: bottom;
 }
 
@@ -692,6 +692,7 @@ DOTAAbilityImage.HasModifiedAbilityIcon {
     horizontal-align: right;
     flow-children: right;
 }
+
 .IsPopup .StorePurchaseButtons {
     margin-top: 8px;
 }
@@ -699,7 +700,6 @@ DOTAAbilityImage.HasModifiedAbilityIcon {
 #StoreItemGrant {
     margin-right: 10px;
     tooltip-body-position: 50% 50%;
-
     visibility: collapse;
 }
 
@@ -711,7 +711,6 @@ DOTAAbilityImage.HasModifiedAbilityIcon {
     margin: 10px;
     tooltip-body-position: 50% 50%;
     horizontal-align: right;
-
     visibility: collapse;
 }
 
@@ -722,7 +721,6 @@ DOTAAbilityImage.HasModifiedAbilityIcon {
 #ViewInWorkshopAdmin {
     margin-right: 10px;
     tooltip-body-position: 50% 50%;
-
     visibility: collapse;
 }
 
@@ -733,6 +731,7 @@ DOTAAbilityImage.HasModifiedAbilityIcon {
 #StoreItemPurchase {
     horizontal-align: right;
 }
+
 #StoreItemPurchase:disabled {
     visibility: collapse;
 }
@@ -742,7 +741,6 @@ DOTAAbilityImage.HasModifiedAbilityIcon {
     height: 39px;
     margin-left: 10px;
     tooltip-body-position: 50% 50%;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#60862d), to(#3d5f1c));
     border-top: 1px solid #ffffff22;
     border-left: 1px solid #ffffff11;
@@ -755,7 +753,6 @@ DOTAAbilityImage.HasModifiedAbilityIcon {
     height: 23px;
     vertical-align: middle;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/control_icons/gift_png.vtex");
     background-size: contain;
 }
@@ -780,9 +777,9 @@ DOTAAbilityImage.HasModifiedAbilityIcon {
     background-position: center;
     blur: gaussian (4px);
     background-color: gradient(linear, 0% 50%, 0% 100%, from(#13171f), to(#2b415a));
-
     visibility: collapse;
 }
+
 .IsPopup #HeroBackgroundImage {
     visibility: visible;
 }
@@ -806,6 +803,7 @@ DOTAAbilityImage.HasModifiedAbilityIcon {
     background-color: rgba(0, 0, 0, 0.6);
     visibility: collapse;
 }
+
 #ItemPreviewMovieContainer .Spinner {
     opacity: 0.5;
     vertical-align: center;
@@ -821,7 +819,6 @@ DOTAAbilityImage.HasModifiedAbilityIcon {
 #ItemPreviewMovie {
     width: 400px;
     height: width-percentage(56.25%);
-
     margin: -16px 0px;
     opacity: 0;
     transition-property: opacity;
@@ -829,6 +826,7 @@ DOTAAbilityImage.HasModifiedAbilityIcon {
     transition-delay: 0.1s;
     transition-timing-function: ease-out;
 }
+
 #ItemPreviewMovie.IsPlaying {
     opacity: 1;
     transition-duration: 0s;

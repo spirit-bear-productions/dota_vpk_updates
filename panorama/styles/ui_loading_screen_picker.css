@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAUILoadingScreenPicker {
     flow-children: down;
     width: 794px;
@@ -16,7 +18,6 @@ DOTAUILoadingScreenPicker {
 #ItemList DOTAEconItem {
     height: 93px;
     width: height-percentage(91.96%);
-
     margin: 0px 12px 12px 0px;
 }
 

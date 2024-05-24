@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DemoButton {
     vertical-align: middle;
     tooltip-position: top;
@@ -8,6 +10,7 @@
     border-radius: 3px;
     padding: 10px 28px;
 }
+
 .Large .DemoButton Label {
     font-size: 20px;
     line-height: 24px;
@@ -32,7 +35,6 @@
 
 .DemoButton {
     background-color: GreenGradientBackgroundColor;
-
     border-brush: WhiteGradientBorderStrong;
 }
 

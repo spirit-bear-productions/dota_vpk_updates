@@ -1,8 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAEventGoal {
     flow-children: down;
-
     padding: 7px;
-
     tooltip-position: bottom;
     tooltip-body-position: 50% 0%;
 }
@@ -50,7 +50,6 @@ DOTAEventGoal:hover #TitleText {
 #Loading {
     flow-children: right;
     horizontal-align: center;
-
     visibility: collapse;
 }
 
@@ -97,6 +96,7 @@ DOTAEventGoal .Spinner {
     margin-top: 4px;
     margin-left: 4px;
 }
+
 .HasData #ProgressText {
     visibility: visible;
 }

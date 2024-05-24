@@ -1,15 +1,15 @@
-@define primaryColor1:  #31C8DB;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
+@define primaryColor1: #31C8DB;
 @define primaryColor2: #30A4D5;
 @define primaryColor3: #176490;
 @define primaryColor4: #0E4B80;
 @define primaryColor5: #002C4C;
 @define primaryColor6: #00182E;
-
 @define secondaryColor1: #EADAC0;
 @define secondaryColor2: #CBB593;
 @define secondaryColor3: #948A76;
 @define secondaryColor4: #4E4B44;
-
 @keyframes 'GlowTablet' {
     0% {
         brightness: 1;
@@ -26,15 +26,16 @@ DOTAUIFantasyCraftTablet {
     brightness: 0.3;
     opacity: 0.5;
     flow-children: down;
-
     transition-property: transform, border, brightness, saturation;
     transition-timing-function: ease;
     transition-duration: 0.075s, 0.1s;
 }
+
 DOTAUIFantasyCraftTablet .TabletDetails {
     width: 100%;
     height: 100%;
 }
+
 DOTAUIFantasyCraftTablet .TabletDetails .AsyncSuccessContainer {
     height: 100%;
     flow-children: down;
@@ -49,6 +50,7 @@ DOTAUIFantasyCraftTablet.Selected {
     brightness: 1;
     opacity: 1;
 }
+
 DOTAUIFantasyCraftTablet.Selected .FantasyTablet {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(primaryColor4&99), to(#00091f));
 }
@@ -93,6 +95,7 @@ DOTAUIFantasyCraftTablet .Ornament {
     horizontal-align: center;
     z-index: 1;
 }
+
 DOTAUIFantasyCraftTablet .Ornament.Bottom {
     transform: scaleY(-1);
 }
@@ -103,7 +106,6 @@ DOTAUIFantasyCraftTablet .FantasyTablet {
     flow-children: right;
     background-color: gradient(linear, 0% 0%, 20% 100%, from(primaryColor6), to(black));
     box-shadow: 0px 8px 48px -8px rgba(0, 0, 0, 0.3);
-
     transition-property: background-color, border;
     transition-timing-function: ease;
     transition-duration: 0.1s;
@@ -123,7 +125,6 @@ DOTAUIFantasyCraftTablet .FantasyTablet .TabletBorder {
         color-stop(0.5, secondaryColor1),
         to(secondaryColor3)
     );
-
     transition-property: border;
     transition-timing-function: ease;
     transition-duration: 0.1s;
@@ -134,6 +135,7 @@ DOTAUIFantasyCraftTablet .FantasyTablet .PlayerNameAndTitle {
     text-align: center;
     horizontal-align: center;
 }
+
 DOTAUIFantasyCraftTablet .FantasyTablet .PlayerNameAndTitle Label {
     width: 100%;
     font-size: 18px;
@@ -163,6 +165,7 @@ DOTAUIFantasyCraftTablet .FantasyTablet .PlayerImages {
     horizontal-align: center;
     vertical-align: bottom;
 }
+
 DOTAUIFantasyCraftTablet .FantasyTablet .PlayerImages #Headshot {
     height: 64%;
     width: height-percentage(100%);
@@ -187,9 +190,9 @@ DOTAUIFantasyCraftTablet .FantasyGemHolderContainer {
     horizontal-align: right;
     margin-top: 16px;
     margin-right: 8px;
-
     z-index: 1;
 }
+
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer .WarbannerBackground {
     width: 100%;
     height: 100%;
@@ -217,12 +220,14 @@ DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder {
     padding: 12px;
     margin-bottom: 32px;
 }
+
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem {
     width: 100%;
     margin: 4px;
     box-shadow: 0px 2px 8px #0006;
     height: fit-children;
 }
+
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem.HighlightEntireGem {
     box-shadow: 0px 0px 4px #ffff0066;
 }
@@ -236,6 +241,7 @@ DOTAUIFantasyCraftTablet
     .GemStat {
     color: gold;
 }
+
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem.HighlightStat .GemStatIcon {
     border: 2px solid #ffff0066;
 }
@@ -253,12 +259,10 @@ DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGe
     height: width-percentage(100%);
     vertical-align: top;
     background-color: black;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     z-index: 10;
-
     -s2-mix-blend-mode: screen;
 }
 
@@ -278,10 +282,10 @@ DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGe
     width: 100%;
     height: 80px;
 }
+
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem .GemContents .Background {
     width: 100%;
     height: 100%;
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
@@ -292,11 +296,13 @@ DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGe
     width: 100%;
     height: fit-children;
 }
+
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem .GemContents .Details .Header {
     flow-children: right;
     background-color: #000a;
     width: 100%;
 }
+
 DOTAUIFantasyCraftTablet
     .FantasyGemHolderContainer
     #FantasyGemHolder
@@ -333,6 +339,7 @@ DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGe
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem.gem_type0 .GemContents {
     background-color: #3e1717;
 }
+
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem.gem_type0 .GemContents .Background {
     background-image: url("s2r://panorama/images/guild_patterns/guild_pattern_2_psd.vtex");
     wash-color: #3e1717fd;
@@ -341,6 +348,7 @@ DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGe
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem.gem_type1 .GemContents {
     background-color: #171e3e;
 }
+
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem.gem_type1 .GemContents .Background {
     background-image: url("s2r://panorama/images/guild_patterns/guild_pattern_3_psd.vtex");
     wash-color: #171e3efd;
@@ -349,6 +357,7 @@ DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGe
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem.gem_type2 .GemContents {
     background-color: #173e18;
 }
+
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem.gem_type2 .GemContents .Background {
     background-image: url("s2r://panorama/images/guild_patterns/guild_pattern_4_psd.vtex");
     wash-color: #173e18fd;
@@ -358,6 +367,7 @@ DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGe
     width: fill-parent-flow(1);
     margin-left: 32px;
 }
+
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem .GemTotal {
     text-align: right;
 }
@@ -366,10 +376,10 @@ DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGe
     flow-children: right;
     padding: 2px 6px;
     border: 2px solid transparent;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGem .GemAttribute:hover {
     brightness: 2;
 }
@@ -380,7 +390,6 @@ DOTAUIFantasyCraftTablet .FantasyGemHolderContainer #FantasyGemHolder .FantasyGe
     wash-color: #aaa;
     margin-right: 8px;
     img-shadow: 2px 2px 4px black;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -408,54 +417,71 @@ DOTAUIFantasyCraftTablet
 .gem_stat0 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_kills_png.vtex");
 }
+
 .gem_stat1 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_deaths_png.vtex");
 }
+
 .gem_stat2 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_creep_score_png.vtex");
 }
+
 .gem_stat3 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_gpm_png.vtex");
 }
+
 .gem_stat4 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_towers_killed_png.vtex");
 }
+
 .gem_stat5 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_roshan_png.vtex");
 }
+
 .gem_stat6 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_teamfight_png.vtex");
 }
+
 .gem_stat7 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_wards_placed_png.vtex");
 }
+
 .gem_stat8 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_creeps_stacked_png.vtex");
 }
+
 .gem_stat9 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_rune_png.vtex");
 }
+
 .gem_stat10 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_first_blood_png.vtex");
 }
+
 .gem_stat11 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_stuns_png.vtex");
 }
+
 .gem_stat12 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_smoke_png.vtex");
 }
+
 .gem_stat13 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_neutral_token_png.vtex");
 }
+
 .gem_stat14 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_sentinel_png.vtex");
 }
+
 .gem_stat15 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_lotus_png.vtex");
 }
+
 .gem_stat16 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_tormentor_png.vtex");
 }
+
 .gem_stat17 .GemStatIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/fantasy_emblem_courier_kill_png.vtex");
 }
@@ -463,15 +489,19 @@ DOTAUIFantasyCraftTablet
 .gem_shape1 #GemShape .GemAttributeIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_round_png.vtex");
 }
+
 .gem_shape2 #GemShape .GemAttributeIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_pear_png.vtex");
 }
+
 .gem_shape3 #GemShape .GemAttributeIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_cushion_png.vtex");
 }
+
 .gem_shape4 #GemShape .GemAttributeIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_princess_png.vtex");
 }
+
 .gem_shape5 #GemShape .GemAttributeIcon {
     background-image: url("s2r://panorama/images/fantasy_craft/gem_shape_heart_png.vtex");
 }
@@ -479,15 +509,19 @@ DOTAUIFantasyCraftTablet
 .gem_quality1 #GemQuality .GemAttributeIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank1_psd.vtex");
 }
+
 .gem_quality2 #GemQuality .GemAttributeIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank2_psd.vtex");
 }
+
 .gem_quality3 #GemQuality .GemAttributeIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank3_psd.vtex");
 }
+
 .gem_quality4 #GemQuality .GemAttributeIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank4_psd.vtex");
 }
+
 .gem_quality5 #GemQuality .GemAttributeIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/mini/rank5_psd.vtex");
 }
@@ -527,6 +561,7 @@ DOTAUIFantasyCraftTablet
     height: 100%;
     padding: 40px 0px 0px 12px;
 }
+
 .PlayerAndImages .RoleAndName {
     flow-children: down;
     width: 100%;
@@ -773,7 +808,6 @@ DOTAUIFantasyCraftTablet .FantasyGem .GemContents .Body .gem_value_changed {
     width: 40px;
     height: 40px;
     margin-left: 15%;
-
     visibility: collapse;
 }
 
@@ -804,18 +838,14 @@ DOTAUIFantasyCraftTablet .FantasyGem .GemContents .Body .gem_value_changed {
 .HeroGameplayUpdatePulse {
     width: 100%;
     height: 100%;
-
     border-radius: 50%;
     border: 3px solid #bb5c2c;
     opacity: 0;
-
     transition-property: opacity, transform;
-
     animation-name: pulsealert;
     animation-duration: 1.01s;
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
-
     overflow: noclip;
 }
 
@@ -828,12 +858,15 @@ DOTAUIFantasyCraftTablet .FantasyGem .GemContents .Body .gem_value_changed {
         opacity: 1;
         pre-transform-scale2d: 0.001;
     }
+
     60% {
         opacity: 1;
     }
+
     95% {
         opacity: 0;
     }
+
     99% {
         pre-transform-scale2d: 0.9;
     }

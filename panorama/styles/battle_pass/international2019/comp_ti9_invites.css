@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PredictionsBody {
     flow-children: down;
 }
@@ -155,6 +157,7 @@
     99% {
         wash-color: white;
     }
+
     to {
         opacity: 1;
         pre-transform-scale2d: 1;
@@ -230,9 +233,11 @@
     visibility: visible;
     opacity: 1;
 }
+
 .Revealed #TeamName {
     visibility: visible;
 }
+
 .Revealed .Countdown {
     visibility: collapse;
 }
@@ -289,6 +294,7 @@
     background-repeat: no-repeat;
     box-shadow: black 6px 0px 12px;
 }
+
 .RegionalTitle {
     width: 100%;
     text-align: center;
@@ -307,6 +313,7 @@
     height: 100%;
     margin-top: 10px;
 }
+
 .TeamContainer {
     horizontal-align: center;
     flow-children: right;
@@ -324,9 +331,7 @@
     height: 18px;
     margin-left: 2px;
     margin-right: -18px;
-
     wash-color: #0f0;
-
     background-image: url("s2r://panorama/images/icon_checkdefault_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -357,7 +362,6 @@
 #BattleCupChampionsLegend .LegendIcon {
     width: 18px;
     height: 18px;
-
     background-image: url("s2r://panorama/images/icon_trophy_battle_cup_winter_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -369,9 +373,7 @@
     width: 18px;
     height: 18px;
     margin-right: 4px;
-
     wash-color: #88b0cc;
-
     background-image: url("s2r://panorama/images/status_icons/icon_star_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHeroPickingTeamComposition {
     flow-children: down;
 }
@@ -305,9 +307,11 @@ Label.Title {
     0% {
         background-color: gradient(linear, 0% 100%, 0% 0%, from(#363f57cc), to(#6e9ee3cc));
     }
+
     50% {
         background-color: gradient(linear, 0% 100%, 0% 0%, from(#363f57cc), to(#ffffffcc));
     }
+
     100% {
         background-color: gradient(linear, 0% 100%, 0% 0%, from(#363f57cc), to(#6e9ee3cc));
     }

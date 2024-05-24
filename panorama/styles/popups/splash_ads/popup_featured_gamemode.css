@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FeaturedGamemodePopup {
     padding: 0;
     border: 0;
@@ -31,7 +33,6 @@
     height: 40px;
     background-size: 60%;
     margin-right: 8px;
-
     wash-color: #999999;
     z-index: 10;
 }
@@ -53,7 +54,6 @@
     padding-top: 10px;
     height: 60px;
     width: 100%;
-
     color: white;
     font-size: 18px;
     text-transform: uppercase;
@@ -65,7 +65,6 @@
 #FeaturedEndTime {
     width: 100%;
     margin-top: -28px;
-
     text-align: center;
     color: #a5c9ff;
     font-size: 14px;
@@ -81,7 +80,6 @@
     margin-top: 16px;
     margin-left: 10px;
     margin-right: 10px;
-
     font-family: titleFont;
     color: white;
     text-transform: uppercase;
@@ -112,7 +110,6 @@
     font-size: 16px;
     color: #ffffff70;
     text-shadow: 2px 2px 5px #000;
-
     border-bottom: 2px solid white;
     border-brush: gradient(linear, 100% 0%, 0% 0%, from(#375d9600), color-stop(0.5, #375d96), to(#375d9600));
 }
@@ -120,7 +117,6 @@
 #FeaturedWinCount {
     width: 100%;
     margin-top: 20px;
-
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
@@ -137,7 +133,6 @@
     height: 50px;
     width: 50px;
     margin-left: 250px;
-
     background-size: 100%;
     background-repeat: no-repeat;
     background-image: url("s2r://panorama/images/game_modes/shards_icon_png.vtex");
@@ -149,7 +144,6 @@
     width: 100%;
     margin-top: 9px;
     margin-left: 30px;
-
     text-align: center;
     color: #ffd7a5;
     font-weight: bold;
@@ -163,12 +157,10 @@
     width: 150px;
     height: 40px;
     margin: 10px 0px 10px 0px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#4b7bc5), to(#375d96));
     border: 1.5px solid white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#789fda), to(#375d96));
     box-shadow: 0px 0px 10px transparent;
-
     transition-property: box-shadow, background-color, border-brush;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -177,10 +169,8 @@
 #FeaturedGamemodeOkButton Label {
     vertical-align: center;
     horizontal-align: center;
-
     font-weight: semi-bold;
     color: white;
-
     transition-property: text-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;

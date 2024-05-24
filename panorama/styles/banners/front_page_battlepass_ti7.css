@@ -1,8 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #FrontpageCellBattlePassTI7 {
     transition-property: brightness;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
-
     width: 688px;
     height: 480px;
 }
@@ -23,11 +24,9 @@
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
     transition-property: brightness, transform;
     transition-duration: 0.28s;
     transition-timing-function: ease-in;
-
     border-top: 1px solid #ffffff11;
     border-left: 1px solid #ffffff07;
     border-right: 1px solid #ffffff07;
@@ -42,15 +41,12 @@
 
 #FrontpageCellBattlePassTI7 #CustomHeader {
     visibility: visible;
-
     vertical-align: top;
     horizontal-align: left;
     margin-bottom: 30px;
-
     background-color: transparent;
     color: white;
     font-weight: bold;
-
     letter-spacing: 2px;
 }
 
@@ -86,7 +82,6 @@
     brightness: 1;
     transform: rotateZ(255deg) translateY(160px) translateX(-45px) scaleX(2.2) scaleY(1);
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in;

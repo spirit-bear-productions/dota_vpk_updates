@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACompTI10PlayerCardsPage.DashboardPage {
     width: 100%;
     height: 100%;
@@ -390,7 +392,6 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
     color: white;
     margin-right: 4px;
     margin-bottom: 4px;
-
     visibility: collapse;
     border: 1px solid white;
     border-brush: gradient(
@@ -405,6 +406,7 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
         to(#b17829)
     );
 }
+
 .TeamPackCountLarge {
     horizontal-align: center;
     vertical-align: center;
@@ -488,7 +490,6 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
     transition-timing-function: ease-in-out;
     transform: translateY(-20px) translateX(-300px);
     opacity: 1;
-
     pre-transform-scale2d: 0.8;
 }
 
@@ -518,7 +519,6 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
     border-radius: 8px;
     margin-right: 8px;
     border: 3px solid black;
-
     background-image: url("s2r://panorama/images/playercards/cardback_ti10_psd.vtex");
     background-size: cover;
     background-repeat: no-repeat;
@@ -590,9 +590,7 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#201a25), to(#2f2a36));
     border-color: white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#875794), to(#534258));
-
     margin-right: 12px;
-
     transition-property: background-color, border-color;
     transition-duration: 0.05s;
     transition-timing-function: linear;
@@ -608,11 +606,9 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
     width: 32px;
     height: 32px;
     wash-color: #c7b0cf;
-
     transition-property: background-color, opacity;
     transition-duration: 0.05s;
     transition-timing-function: linear;
-
     background-image: url("s2r://panorama/images/control_icons/icon_recycle_png.vtex");
     background-size: 24px 24px;
     background-repeat: no-repeat;
@@ -636,15 +632,11 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
 .NoTeams #NoTeamsLabel {
     font-size: 20px;
     font-weight: bold;
-
     width: 420px;
     margin-bottom: 50px;
-
     vertical-align: center;
     horizontal-align: right;
-
     color: white;
-
     margin-right: 450px;
 }
 
@@ -686,7 +678,6 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
 #PlayerCardsBody {
     height: 100%;
     horizontal-align: center;
-
     flow-children: right-wrap;
     overflow: clip scroll;
     padding-right: 12px;
@@ -702,14 +693,11 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
     padding-right: 4px;
     padding-top: 2px;
     padding-bottom: 2px;
-
     horizontal-align: right;
     vertical-align: bottom;
-
     border-radius: 5px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#717d85), to(#373f47));
     border: 1px solid black;
-
     visibility: collapse;
 }
 
@@ -735,17 +723,12 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
 .TeamContainer {
     width: 654px;
     height: 220px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#111111cc), to(#000c));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#11111100), to(#000c));
-
     border-radius: 6px;
-
     padding: 8px;
     margin: 6px 10px;
-
     border-bottom: 1px solid #222222;
-
     flow-children: down;
 }
 
@@ -796,7 +779,6 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
 #TeamPurchaseHeaderCount {
     color: #f5ae44;
     font-size: 16px;
-
     visibility: collapse;
 }
 
@@ -832,9 +814,7 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
     border-right: 1px solid #00000085;
     height: 36px;
     vertical-align: middle;
-
     flow-children: right;
-
     border-top: 1px solid #ffffff22;
     border-bottom: 1px solid #00000088;
     padding: 5px 14px 3px 14px;
@@ -877,6 +857,7 @@ DOTACompTI10PlayerCardsPage:not(.PageVisible) {
     text-overflow: shrink;
     height: 36px;
 }
+
 #DustRecycleAmountLabel,
 #RecycleButtonLabel {
     vertical-align: middle;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAArmoryFilterPopup.PopupPanel {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -202,7 +204,6 @@ DOTAArmoryFilterPopup.PopupPanel {
     letter-spacing: 1px;
     font-weight: thin;
     color: #586a73ff;
-
     transition-property: color;
     transition-duration: 0.1s;
 }
@@ -249,6 +250,7 @@ SlottedSlider.HorizontalSlider #SliderThumb {
     box-shadow: fill rgba(0, 0, 0, 0.4) 0px 4px 16px 0px;
     z-index: 4;
 }
+
 SlottedSlider.HorizontalSlider #SliderThumb:hover {
     brightness: 2;
 }
@@ -304,27 +306,35 @@ SlottedSlider.HorizontalSlider .SliderNotch:hover {
 #Seasonal:selected .TickBox {
     wash-color: rarity_color_seasonal;
 }
+
 #Arcana:selected .TickBox {
     wash-color: rarity_color_arcana;
 }
+
 #Immortal:selected .TickBox {
     wash-color: rarity_color_immortal;
 }
+
 #Ancient:selected .TickBox {
     wash-color: rarity_color_ancient;
 }
+
 #Legendary:selected .TickBox {
     wash-color: rarity_color_legendary;
 }
+
 #Mythical:selected .TickBox {
     wash-color: rarity_color_mythical;
 }
+
 #Rare:selected .TickBox {
     wash-color: rarity_color_rare;
 }
+
 #Uncommon:selected .TickBox {
     wash-color: rarity_color_uncommon;
 }
+
 #Common:selected .TickBox {
     wash-color: rarity_color_common;
 }
@@ -332,27 +342,35 @@ SlottedSlider.HorizontalSlider .SliderNotch:hover {
 #StripeSeasonal {
     wash-color: rarity_color_seasonal;
 }
+
 #StripeArcana {
     wash-color: rarity_color_arcana;
 }
+
 #StripeImmortal {
     wash-color: rarity_color_immortal;
 }
+
 #StripeAncient {
     wash-color: rarity_color_ancient;
 }
+
 #StripeLegendary {
     wash-color: rarity_color_legendary;
 }
+
 #StripeMythical {
     wash-color: rarity_color_mythical;
 }
+
 #StripeRare {
     wash-color: rarity_color_rare;
 }
+
 #StripeUncommon {
     wash-color: rarity_color_uncommon;
 }
+
 #StripeCommon {
     wash-color: rarity_color_common;
 }
@@ -373,7 +391,6 @@ SlottedSlider.HorizontalSlider .SliderNotch:hover {
     text-align: center;
     vertical-align: top;
     margin-top: 2px;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     opacity: 0;

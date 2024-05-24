@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @keyframes 'Jumping' {
     0% {
         transform: translateY(0px);
@@ -56,9 +58,11 @@ DOTAMinigameBase {
     transition-delay: 0.2s;
     background-color: #000000dd;
 }
+
 .TopContainer {
     width: 100%;
 }
+
 #TitleArea {
     flow-children: right;
     width: 100%;
@@ -71,6 +75,7 @@ DOTAMinigameBase {
     opacity: 0;
     transition-delay: 0.5s;
 }
+
 .MiniGameHidden {
     width: 320px;
     horizontal-align: left;
@@ -78,9 +83,11 @@ DOTAMinigameBase {
     background-color: #00000011;
     x: 0px;
 }
+
 .MiniGameHidden Label.ShowGame {
     color: #dddddd;
 }
+
 #ArcadeBlock {
     width: 320px;
     background-color: black;
@@ -137,9 +144,11 @@ DOTAMinigameBase {
     transition-duration: 0.5s;
     height: 520px;
 }
+
 .MiniGameHidden .GameArea {
     height: 0px;
 }
+
 .GameName {
     font-size: 22px;
     color: white;
@@ -157,6 +166,7 @@ DOTAMinigameBase {
     margin-top: 2px;
     width: 620px;
 }
+
 #Players,
 #Observers {
     padding: 10px;
@@ -250,22 +260,17 @@ DOTAMinigameBase {
 
 #Minimize {
     height: 20px;
-
     horizontal-align: right;
-
     font-size: 16px;
     color: #999999;
     text-transform: uppercase;
-
     letter-spacing: 1px;
     margin: 10px 10px 0px 0px;
 }
 
 #Minimize Label {
     font-size: 16px;
-
     text-transform: uppercase;
-
     letter-spacing: 1px;
     vertical-align: middle;
 }
@@ -288,7 +293,6 @@ DOTAMinigameBase {
 
 #Mute {
     height: 20px;
-
     horizontal-align: right;
     margin: 10px 10px 0px 0px;
     flow-children: right;
@@ -309,7 +313,6 @@ DOTAMinigameBase {
     font-size: 16px;
     color: #666666;
     text-transform: uppercase;
-
     letter-spacing: 1px;
     vertical-align: middle;
 }

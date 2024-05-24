@@ -1,11 +1,11 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 DOTATopBar {
     vertical-align: top;
     horizontal-align: center;
     height: 165px;
     width: 1640px;
-
     transform: translateY(0px);
     transition-property: transform;
     transition-duration: 1s;
@@ -286,6 +286,7 @@ DOTATeamCheersDisplay {
     transform: scaleX(-1);
     visibility: collapse;
 }
+
 #TopBarRightFlare {
     background-image: url("s2r://panorama/images/hud/reborn/header_endcap_psd.vtex");
     horizontal-align: right;
@@ -299,6 +300,7 @@ DOTATeamCheersDisplay {
     width: 820px;
     height: 100%;
 }
+
 .Winter2022 #TopBarRadiantTeamContainer,
 .Winter2022 #TopBarDireTeamContainer {
     width: 750px;
@@ -381,6 +383,7 @@ DOTATeamCheersDisplay {
     z-index: 10;
     opacity: 0;
 }
+
 .NoVision .VisionIcon {
     width: 100%;
     height: 100%;
@@ -402,11 +405,9 @@ DOTATeamCheersDisplay {
 .CoachImage {
     width: 55px;
     height: 30px;
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
     margin-top: 2px;
 }
 
@@ -448,11 +449,9 @@ DOTATeamCheersDisplay {
 DOTATopBarPlayer #HeroBadgeOverlay {
     width: 100%;
     height: 100%;
-
     background-size: 69px 47px;
     background-position: 0px -4px;
     background-repeat: no-repeat;
-
     visibility: collapse;
 }
 
@@ -479,22 +478,27 @@ DOTATopBarPlayer.BronzeTier #HeroBadgeOverlay {
     visibility: visible;
     background-image: url("s2r://panorama/images/hud/reborn/top_bar_hero_radiant_badge_1_psd.vtex");
 }
+
 DOTATopBarPlayer.SilverTier #HeroBadgeOverlay {
     visibility: visible;
     background-image: url("s2r://panorama/images/hud/reborn/top_bar_hero_radiant_badge_2_psd.vtex");
 }
+
 DOTATopBarPlayer.GoldTier #HeroBadgeOverlay {
     visibility: visible;
     background-image: url("s2r://panorama/images/hud/reborn/top_bar_hero_radiant_badge_3_psd.vtex");
 }
+
 DOTATopBarPlayer.PlatinumTier #HeroBadgeOverlay {
     visibility: visible;
     background-image: url("s2r://panorama/images/hud/reborn/top_bar_hero_radiant_badge_4_psd.vtex");
 }
+
 DOTATopBarPlayer.MasterTier #HeroBadgeOverlay {
     visibility: visible;
     background-image: url("s2r://panorama/images/hud/reborn/top_bar_hero_radiant_badge_5_psd.vtex");
 }
+
 DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     visibility: visible;
     background-image: url("s2r://panorama/images/hud/reborn/top_bar_hero_radiant_badge_6_psd.vtex");
@@ -508,22 +512,27 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     visibility: visible;
     background-image: url("s2r://panorama/images/hud/reborn/top_bar_hero_dire_badge_1_psd.vtex");
 }
+
 #TopBarDirePlayersContainer DOTATopBarPlayer.SilverTier #HeroBadgeOverlay {
     visibility: visible;
     background-image: url("s2r://panorama/images/hud/reborn/top_bar_hero_dire_badge_2_psd.vtex");
 }
+
 #TopBarDirePlayersContainer DOTATopBarPlayer.GoldTier #HeroBadgeOverlay {
     visibility: visible;
     background-image: url("s2r://panorama/images/hud/reborn/top_bar_hero_dire_badge_3_psd.vtex");
 }
+
 #TopBarDirePlayersContainer DOTATopBarPlayer.PlatinumTier #HeroBadgeOverlay {
     visibility: visible;
     background-image: url("s2r://panorama/images/hud/reborn/top_bar_hero_dire_badge_4_psd.vtex");
 }
+
 #TopBarDirePlayersContainer DOTATopBarPlayer.MasterTier #HeroBadgeOverlay {
     visibility: visible;
     background-image: url("s2r://panorama/images/hud/reborn/top_bar_hero_dire_badge_5_psd.vtex");
 }
+
 #TopBarDirePlayersContainer DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     visibility: visible;
     background-image: url("s2r://panorama/images/hud/reborn/top_bar_hero_dire_badge_6_psd.vtex");
@@ -538,7 +547,6 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     background-image: url("s2r://panorama/images/hud/reborn/buyback_topbar_alive_psd.vtex");
     background-size: 100%;
     background-repeat: no-repeat;
-
     width: 100%;
     height: 11px;
     opacity: 0;
@@ -548,7 +556,6 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     margin-bottom: 106px;
     margin-left: 6px;
     transform: translateY(-13px);
-
     transition-property: opacity, pre-transform-scale2d, transform;
     transition-duration: 0.12s;
     transition-timing-function: ease-out;
@@ -639,6 +646,7 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
 #TopBarRadiantScore {
     margin-right: 4px;
 }
+
 #TopBarDireScore {
     margin-left: 4px;
 }
@@ -700,16 +708,12 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
 .TopBarUltIndicator {
     vertical-align: top;
     horizontal-align: center;
-
     width: 38px;
     height: 20px;
-
     background-size: 18px;
     background-position: 50% 100%;
     background-repeat: no-repeat;
-
     z-index: 500;
-
     opacity: 0;
     margin-top: 28px;
     tooltip-position: bottom;
@@ -720,13 +724,10 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     visibility: collapse;
     width: 58px;
     height: 30px;
-
     vertical-align: top;
     horizontal-align: center;
-
     tooltip-position: bottom;
     tooltip-body-position: 50% 50%;
-
     opacity: 1;
 }
 
@@ -773,12 +774,10 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     background-size: cover;
     background-image: url("s2r://panorama/images/hud/reborn/glow_day_psd.vtex");
     background-repeat: no-repeat;
-
     animation-name: DayNightPulse;
     animation-duration: 2.94s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-
     visibility: collapse;
 }
 
@@ -791,12 +790,10 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     background-size: cover;
     background-image: url("s2r://panorama/images/hud/reborn/glow_night_psd.vtex");
     background-repeat: no-repeat;
-
     animation-name: DayNightPulse;
     animation-duration: 2.94s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-
     visibility: collapse;
 }
 
@@ -859,7 +856,6 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
 #SpectatorGoldDisplay {
     margin-top: 40px;
     width: 210px;
-
     horizontal-align: center;
     vertical-align: top;
     z-index: -1;
@@ -906,7 +902,6 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     margin-right: 4px;
     width: 62px;
     height: 24px;
-
     horizontal-align: right;
     visibility: collapse;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#151616cc), color-stop(0.3, #25272788), to(#151616aa));
@@ -921,7 +916,6 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     color: #ddc05a;
     font-weight: bold;
     text-shadow: 1px 1px 0px 1 #000000;
-
     font-size: 14px;
     margin-top: 2px;
     margin-left: 2px;
@@ -967,7 +961,6 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     background-color: gradient(linear, 0% 0%, 0% 100%, from (#181b1d), to (#22292f));
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
@@ -995,6 +988,7 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     font-weight: bold;
     text-shadow: 0px 0px 0px 2 #000000;
 }
+
 .RespawnDisabled #RespawnTimerLabel {
     opacity: 0;
 }
@@ -1080,7 +1074,6 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     opacity: 0;
     margin-top: 4px;
     margin-bottom: 98px;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -1095,9 +1088,11 @@ DOTATopBarPlayer.GrandmasterTier #HeroBadgeOverlay {
     0% {
         pre-transform-scale2d: 1.2;
     }
+
     25% {
         pre-transform-scale2d: 2;
     }
+
     100% {
         pre-transform-scale2d: 1;
     }
@@ -1157,39 +1152,46 @@ DOTAFacetIcon {
     margin-left: -1px;
     transform: translateY(-12px);
     tooltip-position: bottom;
-
     transition-property: pre-transform-scale2d, opacity, transform;
     transition-duration: 0.1s;
     transition-timing-function: ease-out;
 }
+
 .AltPressed DOTAFacetIcon {
     opacity: 1;
     transform: translateY(4px);
 }
+
 .AltPressed DOTAFacetIcon .HasFacet {
     visibility: visible;
 }
+
 #TopBarDirePlayersContainer DOTAFacetIcon {
     horizontal-align: right;
     margin-left: 0px;
     margin-right: -1px;
 }
+
 #TopBarDirePlayersContainer DOTAFacetIcon {
     horizontal-align: right;
-    transform: translateY (-12px) scaleX (-1);
+    transform: translateY(-12px) scaleX(-1);
 }
+
 .AltPressed #TopBarDirePlayersContainer DOTAFacetIcon {
-    transform: translateY (4px) scaleX (-1);
+    transform: translateY(4px) scaleX(-1);
 }
+
 .DrowArcanaRevengeTarget #PlayerOverlay {
     visibility: visible;
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-image: url("s2r://panorama/images/hud/arcana/drow/drow_arcana_portrait_target_psd.vtex");
 }
+
 #MuertaMinigameOpponentIndicator {
     visibility: collapse;
 }
+
 .MuertaMiniGameTarget #MuertaMinigameOpponentIndicator {
     visibility: visible;
     width: 15px;
@@ -1202,17 +1204,21 @@ DOTAFacetIcon {
     brightness: 2;
     img-shadow: 2px 2px 10px 3 #000000ff;
 }
+
 .HIDE_TOP_BAR_BACKGROUND #PlayerColorShadow {
     visibility: collapse;
 }
+
 #TopBarDirePlayersContainer #PlayerColor {
     background-size: 93% 100%;
     background-position: 5px 0px;
 }
+
 .Disconnected DOTAHeroImage,
 .Disconnected #CoachImage {
     opacity: 0.5;
 }
+
 #DisconnectIcon {
     width: 67px;
     height: 20px;
@@ -1224,18 +1230,22 @@ DOTAFacetIcon {
     z-index: 20;
     opacity: 0;
 }
+
 .Coach.Disconnected #DisconnectIcon {
     opacity: 0.5;
 }
+
 .Disconnected #DisconnectIcon {
     opacity: 1;
 }
+
 .COOP_BOT_MATCH .Disconnected #DisconnectIcon,
 .NEW_PLAYER_POOL .Disconnected #DisconnectIcon {
     opacity: 0.3;
     vertical-align: bottom;
     margin-bottom: -3px;
 }
+
 .TopBarHealthBar {
     width: 60px;
     height: 8px;
@@ -1250,11 +1260,13 @@ DOTAFacetIcon {
     transition-duration: 0.12s;
     transition-timing-function: ease-in-out;
 }
+
 .AltPressed .TopBarHealthBar,
 .IsLocalPlayerSpectatingAllTeams .TopBarHealthBar {
     opacity: 1;
-    transform: translateY (11px);
+    transform: translateY(11px);
 }
+
 .TopBarManaBar {
     width: 60px;
     height: 8px;
@@ -1269,35 +1281,37 @@ DOTAFacetIcon {
     transition-duration: 0.12s;
     transition-timing-function: ease-in-out;
 }
+
 .AltPressed .TopBarManaBar,
 .IsLocalPlayerSpectatingAllTeams .TopBarManaBar {
     opacity: 1;
-    transform: translateY (11px);
+    transform: translateY(11px);
 }
+
 .Dead #HealthBar,
 .Dead #ManaBar {
     opacity: 0;
 }
+
 #ManaBar .ProgressBarLeft {
     border-radius: 0px;
     background-image: url("s2r://panorama/images/hud/reborn/topbar_mana_psd.vtex");
     background-size: cover;
 }
+
 #ManaBar .ProgressBarRight {
     border-radius: 0px;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#101932),
-            color-stop (0.2, #172447),
-            color-stop (0.5, #162244),
-            to (#101932)
-        );
+    background-color: gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(#101932),
+        color-stop(0.2, #172447),
+        color-stop(0.5, #162244),
+        to(#101932)
+    );
 }
+
 #TopBarRadiantPlayersContainer .TopBarHealthBar,
 #TopBarRadiantPlayersContainer .TopBarUltIndicator,
 #TopBarRadiantPlayersContainer #ManaBar,
@@ -1305,6 +1319,7 @@ DOTAFacetIcon {
 #TopBarRadiantPlayersContainer #RespawnTimer {
     margin-left: 6px;
 }
+
 #TopBarDirePlayersContainer .TopBarHealthBar,
 #TopBarDirePlayersContainer .TopBarUltIndicator,
 #TopBarDirePlayersContainer #ManaBar,
@@ -1312,6 +1327,7 @@ DOTAFacetIcon {
 #TopBarDirePlayersContainer #RespawnTimer {
     margin-right: 6px;
 }
+
 .HIDE_TOP_TIMEOFDAY #TimeOfDayLeftFlare,
 .HIDE_TOP_TIMEOFDAY #TimeOfDay,
 .HIDE_TOP_TIMEOFDAY #TimeOfDayRightFlare,
@@ -1322,12 +1338,14 @@ DOTAFacetIcon {
 .HIDE_TOP_TIMEOFDAY #SpectatorGoldDisplay {
     visibility: collapse;
 }
+
 .HIDE_TOP_HEROES #TopBarRadiantTeam,
 .HIDE_TOP_HEROES #TopBarDireTeam,
 .HIDE_TOP_HEROES #TopBarLeftFlare,
 .HIDE_TOP_HEROES #TopBarRightFlare {
     visibility: collapse;
 }
+
 .HIDE_TOP_BAR_BACKGROUND #TimeOfDayLeftFlare,
 .HIDE_TOP_BAR_BACKGROUND #TimeOfDayRightFlare,
 .HIDE_TOP_BAR_BACKGROUND #TopBarLeftFlare,
@@ -1335,18 +1353,22 @@ DOTAFacetIcon {
 .HIDE_TOP_BAR_BACKGROUND .TeamBackground {
     visibility: collapse;
 }
+
 .HIDE_TOP_BAR_RADIANT_TEAM {
     visibility: collapse;
 }
+
 .HIDE_TOP_BAR_DIRE_TEAM #TopBarDireTeam,
 .HIDE_TOP_BAR_DIRE_TEAM #TopBarRightFlare,
 .HIDE_TOP_BAR_DIRE_TEAM #TopBarDireScore {
     visibility: collapse;
 }
+
 .HIDE_TOP_BAR_SCORE #TopBarRadiantScore,
 .HIDE_TOP_BAR_SCORE #TopBarDireScore {
     opacity: 0;
 }
+
 #TimeOfDayBG {
     horizontal-align: center;
     visibility: visible;
@@ -1356,6 +1378,7 @@ DOTAFacetIcon {
     height: 46px;
     width: 90px;
 }
+
 #TimeUntil {
     color: white;
     vertical-align: bottom;
@@ -1370,13 +1393,15 @@ DOTAFacetIcon {
     transition-property: transform, opacity;
     transition-duration: 0.18s;
     transition-timing-function: ease-in-out;
-    transform: translateY (-4px);
+    transform: translateY(-4px);
 }
+
 #TimeUntil.ShowTimeUntil,
 .AltPressed #TimeUntil {
     opacity: 1;
-    transform: translateY (0px);
+    transform: translateY(0px);
 }
+
 #HUDSkinTopBarBG {
     height: 40px;
     width: 65%;
@@ -1387,12 +1412,15 @@ DOTAFacetIcon {
     opacity: 1;
     overflow: clip;
 }
+
 .Reborn.CustomHUDSkin:not(.HIDE_TOP_BAR_BACKGROUND) #HUDSkinTopBarBG {
     visibility: visible;
 }
+
 .Reborn.CustomHUDSkin .TopBarBackground {
     opacity: 0;
 }
+
 #RoleButton {
     vertical-align: top;
     horizontal-align: center;
@@ -1402,7 +1430,7 @@ DOTAFacetIcon {
     horizontal-align: center;
     flow-children: down;
     opacity: 0;
-    transform: translateY (-28px);
+    transform: translateY(-28px);
     transition-property: opacity, transform;
     transition-duration: 0.12s;
     transition-timing-function: ease-in-out;
@@ -1413,24 +1441,31 @@ DOTAFacetIcon {
     context-menu-position: bottom;
     context-menu-body-position: 50% 50%;
 }
+
 .Dead #RoleButton {
-    transform: translateY (0px);
+    transform: translateY(0px);
 }
+
 #RoleButton.ShowRole {
     opacity: 1;
 }
+
 #RoleButton:hover {
     brightness: 1.5;
 }
+
 #RoleButton:active {
     brightness: 1.8;
 }
+
 .AltPressed #RoleButton {
     opacity: 0;
 }
+
 #RoleButton:disabled #RoleButton_Dropdown {
     visibility: collapse;
 }
+
 #RoleButton_Role {
     font-size: 12px;
     text-align: center;
@@ -1440,6 +1475,7 @@ DOTAFacetIcon {
     horizontal-align: center;
     text-shadow: 1px 1px 0px 2 #000000f0;
 }
+
 #RoleButton_Dropdown {
     background-image: url("s2r://panorama/images/hud/drop_down_arrow_png.vtex");
     background-repeat: no-repeat;
@@ -1451,6 +1487,7 @@ DOTAFacetIcon {
     margin-top: 4px;
     horizontal-align: center;
 }
+
 #PlayerModifier {
     margin-bottom: 0px;
     horizontal-align: center;
@@ -1458,22 +1495,25 @@ DOTAFacetIcon {
     height: 100px;
     width: 60px;
 }
+
 .PlayerModifierItemPanel {
     width: 100%;
     height: 100%;
 }
+
 #PlayerModifierItemImage {
     width: 40px;
     height: 40px;
     vertical-align: bottom;
     horizontal-align: center;
     opacity: 0;
-    transform: translateY (-32px);
+    transform: translateY(-32px);
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     visibility: collapse;
 }
+
 #PlayerModifiedParticleCheese,
 #PlayerModifiedParticleAegis,
 #PlayerModifiedParticleAegisSparks,
@@ -1481,20 +1521,23 @@ DOTAFacetIcon {
     width: 100%;
     height: 100%;
     opacity: 0;
-    transform: translateY (-24px);
+    transform: translateY(-24px);
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     visibility: collapse;
 }
+
 #PlayerModifiedParticleCheese,
 #PlayerModifiedParticleAegisSparks,
 #PlayerModifiedParticleAegis {
     opacity-mask: url("s2r://panorama/images/items/topbar/aegis_bg_mask_psd.vtex");
 }
+
 #PlayerModifiedParticleSmoke {
     opacity-mask: url("s2r://panorama/images/items/topbar/smoke_of_deceit_portrait_mask_psd.vtex");
 }
+
 #PlayerModifiedParticleSmokeBottle {
     width: 40px;
     height: 40px;
@@ -1503,11 +1546,12 @@ DOTAFacetIcon {
     opacity-mask: url("s2r://panorama/images/items/topbar/smoke_of_deceit_mask_psd.vtex");
     visibility: collapse;
 }
+
 .PlayerHoldingAegis #PlayerModifierItemImage {
     background-image: url("s2r://panorama/images/items/topbar/aegis_psd.vtex");
     background-size: 100%;
     opacity: 1;
-    transform: translateY (0px);
+    transform: translateY(0px);
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1518,56 +1562,64 @@ DOTAFacetIcon {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 @keyframes 'AegisPulse' {
     0% {
-        transform: scale3d (1, 1, 1);
+        transform: scale3d(1, 1, 1);
     }
+
     80% {
-        transform: scale3d (1.075, 1.075, 1);
+        transform: scale3d(1.075, 1.075, 1);
     }
+
     100% {
-        transform: scale3d (1, 1, 1);
+        transform: scale3d(1, 1, 1);
     }
 }
+
 .PlayerHoldingCheese #PlayerModifierItemImage {
     background-image: url("s2r://panorama/images/items/topbar/cheese_psd.vtex");
     background-size: 100%;
     opacity: 1;
-    transform: translateY (0px);
+    transform: translateY(0px);
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     visibility: visible;
 }
+
 .PlayerActiveSmoke #PlayerModifierItemImage {
     background-image: url("s2r://panorama/images/items/topbar/smoke_of_deceit_psd.vtex");
     background-size: 100%;
     opacity: 1;
-    transform: translateY (0px);
+    transform: translateY(0px);
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     visibility: visible;
 }
+
 .PlayerHoldingCheese #PlayerModifiedParticleCheese {
     opacity: 0.3;
-    transform: translateY (0px);
+    transform: translateY(0px);
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     visibility: visible;
 }
+
 .PlayerHoldingAegis #PlayerModifiedParticleAegis,
 .PlayerHoldingAegis #PlayerModifiedParticleAegisSparks,
 .PlayerActiveSmoke #PlayerModifiedParticleSmokeBottle,
 .PlayerActiveSmoke #PlayerModifiedParticleSmoke {
     opacity: 1;
-    transform: translateY (0px);
+    transform: translateY(0px);
     transition-property: opacity, transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     visibility: visible;
 }
+
 #TipButton {
     overflow: clip;
     width: 58px;
@@ -1583,9 +1635,11 @@ DOTAFacetIcon {
     transition-timing-function: ease-in-out;
     visibility: collapse;
 }
+
 .TipsAvailable #TipButton {
     visibility: visible;
 }
+
 #BountyButton {
     vertical-align: bottom;
     margin-bottom: -14px;
@@ -1602,8 +1656,9 @@ DOTAFacetIcon {
     transition-timing-function: ease-in-out;
     visibility: collapse;
     width: 100%;
-    height: width-percentage (140%);
+    height: width-percentage(140%);
 }
+
 #BountyButton #BountyIcon {
     width: 100%;
     height: 100%;
@@ -1614,6 +1669,7 @@ DOTAFacetIcon {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #BountyButton #BountyHeroImage {
     z-index: 0;
     width: 50%;
@@ -1622,52 +1678,65 @@ DOTAFacetIcon {
     vertical-align: center;
     margin-bottom: 10px;
 }
+
 .PlayerBountyCancelable #BountyButton #BountyIcon,
 .PlayerBountyCancelable #BountyButton #BountyHeroImage {
     visibility: collapse;
 }
+
 .BountiesAvailable #BountyButton,
 .PlayerBountyCancelable #BountyButton {
     visibility: visible;
 }
+
 #BountyCancelButton {
     padding: 2px;
     margin-top: 48px;
     horizontal-align: center;
 }
+
 #BountyCancelButton Label {
     font-size: 10px;
 }
+
 #BountyCancelLabel {
     color: white;
     font-size: 13px;
     text-transform: uppercase;
     text-align: center;
 }
+
 #BountyCancelLabel,
 #BountyCancelButton {
     visibility: collapse;
 }
+
 .PlayerBountyCancelable #BountyCancelLabel,
 .PlayerBountyCancelable #BountyCancelButton {
     visibility: visible;
 }
+
 #TopBarRadiantPlayersContainer .TipGiftContainer {
     margin-left: 6px;
 }
+
 #TopBarDirePlayersContainer .TipGiftContainer {
     margin-right: 6px;
 }
+
 .AltPressed DOTATopBarPlayer.PlayerTippable #TipButton {
     opacity: 0.3;
 }
+
 .AltPressed DOTATopBarPlayer.PlayerTippable #TipButton:hover {
     opacity: 1;
 }
+
 .TipGiftContainer {
     flow-children: down;
     margin-top: 68px;
 }
+
 #GiftButton {
     visibility: collapse;
     opacity: 0;
@@ -1677,50 +1746,61 @@ DOTAFacetIcon {
     margin-top: 4px;
     border-radius: 2px;
 }
+
 #GiftButton:disabled {
     saturation: 0;
     wash-color: #555;
 }
+
 .GiftsAvailable #GiftButton {
     visibility: visible;
 }
+
 .AltPressed DOTATopBarPlayer.PlayerGiftable #GiftButton {
     opacity: 0.2;
 }
+
 .AltPressed DOTATopBarPlayer.PlayerGiftable #GiftButton:hover {
     opacity: 1;
 }
+
 .AltPressed DOTATopBarPlayer.PlayerBountiable #BountyButton {
     opacity: 0.5;
 }
+
 .AltPressed DOTATopBarPlayer.PlayerBountyCancelable #BountyButton,
 .AltPressed DOTATopBarPlayer.PlayerBountiable #BountyButton:hover,
 .AltPressed DOTATopBarPlayer.PlayerBountyCancelable #BountyButton:hover {
     opacity: 1;
 }
+
 .LocalPlayer #TipButton,
 .LocalPlayer #GiftButton {
     visibility: collapse;
 }
+
 #TipButton Label {
     font-size: 14px;
     letter-spacing: 1px;
     vertical-align: middle;
 }
+
 #TipButton #TipIcon {
     width: 16px;
     height: 16px;
     margin-left: 2px;
-    transform: translateY (-1px);
+    transform: translateY(-1px);
     margin-right: 4px;
     background-image: url("s2r://panorama/images/dota_plus/currency_icon_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #TipButton.Season_PlusSubscription #TipIcon {
     background-image: url("s2r://panorama/images/dota_plus/currency_icon_png.vtex");
 }
+
 #TipButton.Season_Frostivus {
     transition-property: brightness;
     transition-duration: 0.2s;
@@ -1729,16 +1809,20 @@ DOTAFacetIcon {
     border-bottom: 1px solid #00000055;
     border-right: 1px solid #00000088;
 }
+
 #TipButton.Season_Frostivus:hover {
     brightness: 2;
 }
+
 #TipButton.Season_Frostivus:active {
     brightness: 1.5;
 }
+
 #TipButton.Season_Frostivus:disabled {
     saturation: 0;
     wash-color: #555;
 }
+
 #TipButton.Season_Frostivus Label {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -1748,37 +1832,45 @@ DOTAFacetIcon {
     color: white;
     font-weight: bold;
 }
+
 #TipButton.Season_Frostivus #TipIcon {
     visibility: collapse;
 }
+
 #Bounties {
     width: 100%;
     margin-top: 40px;
     flow-children: down;
 }
+
 .IsLocalPlayerSpectatingAllTeams #Bounties {
     margin-top: 56px;
 }
+
 .Dead #Bounties {
     margin-top: 70px;
 }
+
 .Dead .BuybackReady #Bounties {
     margin-top: 80px;
 }
+
 #Bounties .ActiveBounty {
     flow-children: right;
 }
+
 #Bounties .ActiveBounty .BountyIcon {
     width: 16px;
     height: 16px;
     margin-top: 2px;
-    transform: translateY (-1px);
+    transform: translateY(-1px);
     overflow: clip;
     background-image: bp_bounty_shadow_icon;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #Bounties .ActiveBounty .BountyTime {
     font-size: 14px;
     width: 26px;
@@ -1787,6 +1879,7 @@ DOTAFacetIcon {
     margin-left: 2px;
     text-shadow: 1px 1px 0px 2 #00000011;
 }
+
 #Bounties .ActiveBounty #BountyIssuerHeroImage {
     width: 16px;
     height: 16px;
@@ -1794,30 +1887,38 @@ DOTAFacetIcon {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .TPIndicator {
     margin-bottom: 40px;
     horizontal-align: center;
     vertical-align: bottom;
     opacity: 0;
 }
+
 .TipsAvailable .TPIndicator {
     margin-bottom: 20px;
 }
+
 .GiftsAvailable .TPIndicator {
     margin-bottom: 0px;
 }
+
 .TPIndicator.HasTP {
     opacity: 1;
 }
+
 .EnemyTeam .TPIndicator {
     opacity: 0;
 }
+
 #TopBarRadiantPlayersContainer .TPIndicator {
     margin-left: 6px;
 }
+
 #TopBarDirePlayersContainer .TPIndicator {
     margin-right: 6px;
 }
+
 #TopBarTPIcon {
     height: 48px;
     width: 48px;
@@ -1825,22 +1926,25 @@ DOTAFacetIcon {
     vertical-align: bottom;
     opacity: 0;
     pre-transform-scale2d: 0.5;
-    transform: translateY (-32px);
+    transform: translateY(-32px);
     transition-property: pre-transform-scale2d, opacity, transform;
     transition-duration: 0.12s;
     transition-timing-function: ease-in-out;
 }
+
 .AltPressed #TopBarTPIcon {
     opacity: 1;
     pre-transform-scale2d: 1;
-    transform: translateY (0px);
+    transform: translateY(0px);
 }
+
 #StreakParticle {
     margin-left: -30px;
     width: 130px;
     height: 130px;
     z-index: -10;
 }
+
 #StreakBorder {
     width: 72px;
     height: 43px;
@@ -1852,37 +1956,47 @@ DOTAFacetIcon {
     transition-property: opacity;
     transition-duration: 0.3s;
 }
+
 .FireStreak #StreakBorder {
     background-image: url("s2r://panorama/images/hud/reborn/streaks/killstreak_style1_topbar_psd.vtex");
 }
+
 .GoldStreak #StreakBorder {
     background-image: url("s2r://panorama/images/hud/reborn/streaks/killstreak_style2_topbar_psd.vtex");
 }
+
 .DiretideStreak #StreakBorder {
     background-image: url("s2r://panorama/images/hud/reborn/streaks/killstreak_style4_topbar_psd.vtex");
 }
+
 #TopBarDirePlayersContainer #StreakBorder {
     background-image: url("s2r://panorama/images/hud/reborn/streaks/killstreak_style3_topbar_dire_psd.vtex");
 }
+
 #TopBarDirePlayersContainer .FireStreak #StreakBorder {
     background-image: url("s2r://panorama/images/hud/reborn/streaks/killstreak_style1_topbar_dire_psd.vtex");
 }
+
 #TopBarDirePlayersContainer .GoldStreak #StreakBorder {
     background-image: url("s2r://panorama/images/hud/reborn/streaks/killstreak_style2_topbar_dire_psd.vtex");
 }
+
 #TopBarDirePlayersContainer .DiretideStreak #StreakBorder {
     background-image: url("s2r://panorama/images/hud/reborn/streaks/killstreak_style2_topbar_dire_psd.vtex");
 }
+
 .StreakLv1 #StreakBorder,
 .StreakLv2 #StreakBorder {
     opacity: 1;
 }
+
 .Diretide2020 #TopBarRadiantScore,
 .Diretide2020 #TopBarDireScore,
 .Winter2022 #TopBarRadiantScore,
 .Winter2022 #TopBarDireScore {
     opacity: 0;
 }
+
 .Diretide2020 #SpectatorGoldDisplay,
 .Winter2022 #SpectatorGoldDisplay {
     visibility: collapse;

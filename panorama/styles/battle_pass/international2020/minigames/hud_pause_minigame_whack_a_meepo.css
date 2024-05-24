@@ -1,6 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .MinigameMeepo {
     horizontal-align: center;
 }
+
 #MeepoContainer {
     flow-children: right-wrap;
     width: 441px;
@@ -24,9 +27,11 @@
     50% {
         transform: rotateZ(179deg);
     }
+
     51% {
         transform: rotateZ(181deg);
     }
+
     100% {
         transform: rotateZ(360deg);
     }

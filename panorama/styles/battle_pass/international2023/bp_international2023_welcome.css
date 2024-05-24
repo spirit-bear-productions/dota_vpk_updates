@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupInternational2023Welcome.PopupPanel {
     flow-children: down;
     background-image: url("s2r://panorama/images/battlepass/international2023/bg_night_compendium_subsection_jpg.vtex");
@@ -36,12 +38,14 @@ PopupInternational2023Welcome.PopupPanel {
     flow-children: down;
     margin: 0px 16px;
 }
+
 .RewardCategory .RewardCategoryName {
     width: 100%;
     margin-bottom: 4px;
     height: 48px;
     border-bottom: 1px solid primaryColor1&11;
 }
+
 .RewardCategory .RewardCategoryName > Label {
     width: 100%;
     vertical-align: bottom;
@@ -56,16 +60,19 @@ PopupInternational2023Welcome.PopupPanel {
     flow-children: right;
     margin-top: 4px;
 }
+
 .RewardCategory .RewardItems .RewardItem {
     flow-children: down;
     width: 120px;
     margin: 0px 8px;
 }
+
 .RewardCategory .RewardItems .RewardItem .RewardVisual {
     width: 100%;
     height: 120px;
     tooltip-position: top;
 }
+
 .RewardCategory .RewardItems .RewardItem .RewardVisual .RewardQuantity {
     color: white;
     font-size: 32px;
@@ -99,6 +106,7 @@ PopupInternational2023Welcome.PopupPanel {
     width: 100%;
     height: 40px;
 }
+
 .ClaimSection .ClaimButton {
     horizontal-align: center;
     vertical-align: middle;
@@ -110,6 +118,7 @@ PopupInternational2023Welcome.PopupPanel {
     vertical-align: middle;
     visibility: collapse;
 }
+
 .ClaimSection .ClaimingIndicator .Spinner {
     vertical-align: middle;
     wash-color: primaryColor1;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTALobbyUnassignedPlayer {
     min-width: 80px;
     max-width: 250px;
@@ -7,7 +9,6 @@ DOTALobbyUnassignedPlayer {
     background-color: #aaaaaa03;
     margin-right: 4px;
     margin-bottom: 4px;
-
     transition-property: border, background-color;
     transition-duration: 0.2s;
 }

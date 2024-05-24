@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupPlayerCardSpecific.PopupPanel {
     width: 880px;
     height: 600px;
@@ -15,7 +17,6 @@ DOTAPopupPlayerCardSpecific.PopupPanel {
     height: 100%;
     flow-children: none;
     background-color: gradient(radial, 50% 50%, 0% 0%, 60% 40%, from(#262b30), to(#262b3022));
-
     background-image: url("s2r://panorama/images/compendium/international2020/compendium/compendium_bg_psd.vtex");
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,10 +31,8 @@ DOTAPopupPlayerCardSpecific.PopupPanel {
 .PlayerCardContainer {
     width: 250px;
     height: 360px;
-
     vertical-align: middle;
     horizontal-align: center;
-
     transition-property: pre-transform-scale2d, transform, wash-color, opacity;
     transition-duration: 1s, 1.4s, 1s, 0.2s;
     transition-delay: 0s, 1.5s, 0s, 0s;
@@ -44,15 +43,11 @@ DOTAPopupPlayerCardSpecific.PopupPanel {
     margin-top: 48px;
     width: 200px;
     height: 280px;
-
     horizontal-align: center;
-
     border-radius: 12px;
     box-shadow: fill #000000ee 0px 0px 18px 0px;
-
     transform: rotateX(0deg);
     pre-transform-scale2d: 1;
-
     transition-property: transform, opacity, pre-transform-scale2d;
     transition-duration: 0.6s;
     transition-delay: 0s, 0s, 0.4s;
@@ -86,7 +81,6 @@ DOTAPopupPlayerCardSpecific.PopupPanel {
 
 #PlayerSelectors {
     horizontal-align: center;
-
     flow-children: right;
 }
 
@@ -141,13 +135,10 @@ DOTAPopupPlayerCardSpecific.PopupPanel {
     );
     transform: scaleY(-1);
     border-radius: 12px;
-
     background-image: url("s2r://panorama/images/playercards/cardback_ti10_psd.vtex");
     background-repeat: no-repeat;
     background-size: cover;
-
     opacity: 0;
-
     transition-property: opacity, wash-color, pre-transform-scale2d;
     transition-duration: 0.3s, 0.3s;
     transition-delay: 0s, 0s;
@@ -174,7 +165,6 @@ DOTAPopupPlayerCardSpecific.PopupPanel {
     transition-property: opacity, pre-transform-scale2d, transform;
     transition-duration: 0.8s;
     transition-timing-function: ease-in-out;
-
     flow-children: down;
 }
 
@@ -183,12 +173,10 @@ DOTAPopupPlayerCardSpecific.PopupPanel {
     padding: 32px;
     background-color: #000000d0;
     visibility: collapse;
-
     width: 500px;
     horizontal-align: center;
     vertical-align: center;
     border: 2px solid black;
-
     flow-children: down;
 }
 

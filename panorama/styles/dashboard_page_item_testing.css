@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAItemTestingPage {
     width: 100%;
     height: 100%;
@@ -7,7 +9,6 @@ DOTAItemTestingPage {
     width: 60%;
     height: 100%;
     opacity-mask: url("s2r://panorama/images/masks/hero_model_opacity_mask_png.vtex");
-
     transform: translateY(-70px) translateX(-45px);
 }
 

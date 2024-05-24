@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAQuestStatus.QuestStatusHidden {
     opacity: 0;
 }
@@ -10,18 +12,12 @@ DOTAQuestStatus.QuestStatusHidden {
 .QuestExpandButton {
     width: 30px;
     height: 30px;
-
     wash-color: #84ba36;
-
     wash-color: #39b3e7;
-
     wash-color: defaultColor;
-
     background-image: url("s2r://panorama/images/hud/reborn/icon_quest_monitor_psd.vtex");
     background-size: 100%;
-
     margin-left: 154px;
-
     pre-transform-scale2d: 1;
     transition-property: pre-transform-scale2d, opacity, border, background-color;
     transition-duration: 0.24s, 0.24s, 0.1s, 0.24s;
@@ -39,11 +35,9 @@ DOTAQuestStatus.QuestStatusHidden {
     font-size: 14px;
     font-weight: bold;
     text-shadow: 1px 1px 2px 2 #00000044;
-
     transition-property: pre-transform-scale2d, opacity, transform;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
-
     margin-top: 6px;
     margin-left: 187px;
 }
@@ -58,10 +52,8 @@ DOTAQuestStatus.QuestStatusHidden {
 
 .FullyComplete .CheckIcon {
     wash-color: #84ba36dd;
-
     wash-color: #5183e9dd;
     opacity: 1;
-
     wash-color: accentColor&dd;
     opacity: 1;
 }
@@ -101,7 +93,6 @@ DOTAQuestStatus.QuestStatusHidden {
     height: 32px;
     horizontal-align: center;
     vertical-align: middle;
-
     background-size: cover;
     background-position: 50% 60%;
     background-repeat: no-repeat;
@@ -132,6 +123,7 @@ DOTAQuestStatus.QuestStatusHidden {
 #QuestStatus2.QuestExpandSecondary.HiddenQuest {
     opacity: 0;
 }
+
 #QuestStatus3.HiddenQuest,
 #QuestStatus3.QuestExpandSecondary.HiddenQuest {
     opacity: 0;
@@ -140,6 +132,7 @@ DOTAQuestStatus.QuestStatusHidden {
 #Quest2 .NoQuest {
     visibility: collapse;
 }
+
 #Quest3 .NoQuest {
     visibility: collapse;
 }
@@ -152,26 +145,32 @@ DOTAQuestStatus.QuestStatusHidden {
     transform: translateY(-48px);
     transition-delay: 0.05s;
 }
+
 .Quest3 {
     transform: translateY(-88px);
     transition-delay: 0.1s;
 }
+
 .Quest4 {
     transform: translateY(-88px);
     transition-delay: 0.15s;
 }
+
 .Quest5 {
     transform: translateY(-108px);
     transition-delay: 0.2s;
 }
+
 .Quest6 {
     transform: translateY(-128px);
     transition-delay: 0.25s;
 }
+
 .Quest7 {
     transform: translateY(-148px);
     transition-delay: 0.3s;
 }
+
 .Quest8 {
     transform: translateY(-168px);
     transition-delay: 0.35s;
@@ -181,26 +180,32 @@ DOTAQuestStatus.QuestStatusHidden {
     transform: translateY(-48px);
     transition-delay: 0.3s;
 }
+
 #QuestStatusContainer.Expand .Quest3 {
     transform: translateY(-88px);
     transition-delay: 0.25s;
 }
+
 #QuestStatusContainer.Expand .Quest4 {
     transform: translateY(-88px);
     transition-delay: 0.2s;
 }
+
 #QuestStatusContainer.Expand .Quest5 {
     transform: translateY(-108px);
     transition-delay: 0.15s;
 }
+
 #QuestStatusContainer.Expand .Quest6 {
     transform: translateY(-128px);
     transition-delay: 0.1s;
 }
+
 #QuestStatusContainer.Expand .Quest7 {
     transform: translateY(-148px);
     transition-delay: 0.05s;
 }
+
 #QuestStatusContainer.Expand .Quest8 {
     transform: translateY(-168px);
     transition-delay: 0s;
@@ -209,24 +214,31 @@ DOTAQuestStatus.QuestStatusHidden {
 .Quest1 .QuestStatusDesc {
     transition-delay: 0.1s;
 }
+
 .Quest2 .QuestStatusDesc {
     transition-delay: 0.15s;
 }
+
 .Quest3 .QuestStatusDesc {
     transition-delay: 0.2s;
 }
+
 .Quest4 .QuestStatusDesc {
     transition-delay: 0.25s;
 }
+
 .Quest5 .QuestStatusDesc {
     transition-delay: 0.3s;
 }
+
 .Quest6 .QuestStatusDesc {
     transition-delay: 0.35s;
 }
+
 .Quest7 .QuestStatusDesc {
     transition-delay: 0.4s;
 }
+
 .Quest8 .QuestStatusDesc {
     transition-delay: 0.45s;
 }
@@ -275,7 +287,6 @@ DOTAQuestStatus.QuestStatusHidden {
     color: white;
     margin-top: 1px;
     margin-left: 2px;
-
     z-index: 0;
     letter-spacing: 0px;
     font-family: monospaceNumbersFont;
@@ -290,7 +301,6 @@ DOTAQuestStatus.QuestStatusHidden {
     font-size: 14px;
     font-weight: bold;
     text-shadow: 1px 1px 2px 2 #00000044;
-
     horizontal-align: center;
     vertical-align: middle;
     transition-property: opacity, pre-transform-scale2d;
@@ -306,7 +316,6 @@ DOTAQuestStatus.QuestStatusHidden {
     font-size: 14px;
     font-weight: bold;
     text-shadow: 1px 1px 2px 2 #00000044;
-
     pre-transform-scale2d: 0.1;
     opacity: 0;
 }
@@ -318,10 +327,8 @@ DOTAQuestStatus.QuestStatusHidden {
     wash-color: defaultColor;
     width: 66px;
     height: 22px;
-
     background-image: url("s2r://panorama/images/status_icons/3star_empty_psd.vtex");
     background-size: 100%;
-
     transition-property: wash-color, opacity;
     transition-duration: 0.32s;
     transition-timing-function: ease-in-out;
@@ -335,9 +342,11 @@ DOTAQuestStatus.QuestStatusHidden {
 .QuestStatusStars.QuestTier1Complete {
     background-image: url("s2r://panorama/images/status_icons/3star_1_psd.vtex");
 }
+
 .QuestStatusStars.QuestTier2Complete {
     background-image: url("s2r://panorama/images/status_icons/3star_2_psd.vtex");
 }
+
 .QuestStatusStars.QuestTier3Complete {
     background-image: url("s2r://panorama/images/status_icons/3star_3_psd.vtex");
 }

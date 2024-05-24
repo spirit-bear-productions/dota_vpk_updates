@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .WePlayTournamentCell {
     flow-children: down;
     background-color: black;
-
     background-image: url("s2r://panorama/images/front_page/ads/weplay_bg_jpg.vtex");
     background-size: 100%;
     background-position: center;
@@ -20,7 +21,6 @@
     font-size: 22px;
     text-align: center;
     horizontal-align: center;
-
     color: #009dd6;
 }
 
@@ -42,7 +42,6 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     horizontal-align: center;
-
     color: #089cd0;
 }
 
@@ -52,7 +51,6 @@
     width: 60%;
     height: 160px;
     margin-top: -18px;
-
     background-image: url("s2r://panorama/images/underlords/underlords_full_logo_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;

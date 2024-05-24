@@ -1,8 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #RelicList {
     width: 390px;
     height: 457px;
     margin-top: 0px;
-
     background-image: url("s2r://panorama/images/hero_relics/hero_relic_backing_art_png.vtex");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -11,14 +12,12 @@
 #ParticlesOverlay {
     width: 100%;
     height: 100%;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
 }
 
 .RelicGlow {
     width: 100%;
     height: 100%;
-
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -26,15 +25,19 @@
 .HeroRelic.PrimaryAttributeStrength:not(.Empty) .RelicGlow {
     background-image: url("s2r://panorama/images/hero_relics/hero_relic_glow_red_png.vtex");
 }
+
 .HeroRelic.PrimaryAttributeAgility:not(.Empty) .RelicGlow {
     background-image: url("s2r://panorama/images/hero_relics/hero_relic_glow_green_png.vtex");
 }
+
 .HeroRelic.PrimaryAttributeIntellect:not(.Empty) .RelicGlow {
     background-image: url("s2r://panorama/images/hero_relics/hero_relic_glow_blue_png.vtex");
 }
+
 .HeroRelic.PrimaryAttributeUniversal:not(.Empty) .RelicGlow {
     background-image: url("s2r://panorama/images/hero_relics/hero_relic_glow_purple_png.vtex");
 }
+
 .HeroRelic.RareRelic:not(.Empty) .RelicGlow {
     background-image: url("s2r://panorama/images/hero_relics/hero_relic_glow_rare_psd.vtex");
 }
@@ -97,7 +100,6 @@
 .HeroRelic {
     width: 91px;
     height: 125px;
-
     overflow: clip;
 }
 
@@ -106,10 +108,10 @@
     horizontal-align: center;
     transform: translate3d(0px, 5px, 0px);
     brightness: 2;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
 }
+
 .HeroRelic.RareRelic {
     width: 91px;
     height: 144px;
@@ -119,7 +121,6 @@
     margin-left: 0px;
     margin-top: 0px;
     ui-scale: 60%;
-
     transform: translate3d(1px, 1px, 0px);
     brightness: 2;
 }
@@ -144,15 +145,19 @@
 .HeroRelic.PrimaryAttributeStrength .HeroRelicStatValue {
     color: dotaPlusRelicTextStr;
 }
+
 .HeroRelic.PrimaryAttributeAgility .HeroRelicStatValue {
     color: dotaPlusRelicTextAgi;
 }
+
 .HeroRelic.PrimaryAttributeIntellect .HeroRelicStatValue {
     color: dotaPlusRelicTextInt;
 }
+
 .HeroRelic.PrimaryAttributeUniversal .HeroRelicStatValue {
     color: dotaPlusRelicTextUni;
 }
+
 .HeroRelic.RareRelic .HeroRelicStatValue {
     color: dotaPlusRelicTextRare;
 }
@@ -175,15 +180,19 @@
 .HeroRelic.PrimaryAttributeStrength .HeroRelicLevelLabel {
     color: dotaPlusRelicTextStr;
 }
+
 .HeroRelic.PrimaryAttributeAgility .HeroRelicLevelLabel {
     color: dotaPlusRelicTextAgi;
 }
+
 .HeroRelic.PrimaryAttributeIntellect .HeroRelicLevelLabel {
     color: dotaPlusRelicTextInt;
 }
+
 .HeroRelic.PrimaryAttributeUniversal .HeroRelicLevelLabel {
     color: dotaPlusRelicTextUni;
 }
+
 .HeroRelic.RareRelic .HeroRelicLevelLabel {
     color: dotaPlusRelicTextRare;
 }
@@ -220,22 +229,23 @@
 .HeroRelic .RelicHighlight {
     width: 100%;
     height: 100%;
-
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
     visibility: collapse;
 }
 
 .HeroRelic.PrimaryAttributeStrength .RelicHighlight {
     background-image: url("s2r://panorama/images/hero_relics/hero_relic_highlight_str_psd.vtex");
 }
+
 .HeroRelic.PrimaryAttributeAgility .RelicHighlight {
     background-image: url("s2r://panorama/images/hero_relics/hero_relic_highlight_agi_psd.vtex");
 }
+
 .HeroRelic.PrimaryAttributeIntellect .RelicHighlight {
     background-image: url("s2r://panorama/images/hero_relics/hero_relic_highlight_int_psd.vtex");
 }
+
 .HeroRelic.PrimaryAttributeUniversal .RelicHighlight {
     background-image: url("s2r://panorama/images/hero_relics/hero_relic_highlight_uni_psd.vtex");
 }
@@ -250,11 +260,11 @@
 }
 
 @define receivedAnimationDuration: 0.6s;
-
 @keyframes 'SlamIntoPlace' {
     0% {
         pre-transform-scale2d: 1.8;
     }
+
     100% {
         pre-transform-scale2d: 1;
     }
@@ -270,14 +280,17 @@
     x: 16px;
     y: 17px;
 }
+
 #Rare1 {
     x: 105px;
     y: 17px;
 }
+
 #Rare2 {
     x: 194px;
     y: 17px;
 }
+
 #Rare3 {
     x: 283px;
     y: 17px;
@@ -287,38 +300,47 @@
     x: 61px;
     y: 127px;
 }
+
 #Normal8 {
     x: 151px;
     y: 127px;
 }
+
 #Normal7 {
     x: 239px;
     y: 127px;
 }
+
 #Normal6 {
     x: 16px;
     y: 219px;
 }
+
 #Normal5 {
     x: 106px;
     y: 219px;
 }
+
 #Normal4 {
     x: 194px;
     y: 219px;
 }
+
 #Normal3 {
     x: 283px;
     y: 219px;
 }
+
 #Normal2 {
     x: 61px;
     y: 310px;
 }
+
 #Normal1 {
     x: 151px;
     y: 310px;
 }
+
 #Normal0 {
     x: 239px;
     y: 310px;
@@ -327,69 +349,91 @@
 #Rare4 {
     visibility: collapse;
 }
+
 #Rare5 {
     visibility: collapse;
 }
+
 #Rare6 {
     visibility: collapse;
 }
+
 #Rare7 {
     visibility: collapse;
 }
+
 #Rare8 {
     visibility: collapse;
 }
+
 #Rare9 {
     visibility: collapse;
 }
+
 #Rare10 {
     visibility: collapse;
 }
+
 #Rare11 {
     visibility: collapse;
 }
+
 #Rare12 {
     visibility: collapse;
 }
+
 #Rare13 {
     visibility: collapse;
 }
+
 #Rare14 {
     visibility: collapse;
 }
+
 #Rare15 {
     visibility: collapse;
 }
+
 #Normal10 {
     visibility: collapse;
 }
+
 #Normal11 {
     visibility: collapse;
 }
+
 #Normal12 {
     visibility: collapse;
 }
+
 #Normal13 {
     visibility: collapse;
 }
+
 #Normal14 {
     visibility: collapse;
 }
+
 #Normal15 {
     visibility: collapse;
 }
+
 #Normal16 {
     visibility: collapse;
 }
+
 #Normal17 {
     visibility: collapse;
 }
+
 #Normal18 {
     visibility: collapse;
 }
+
 #Normal19 {
     visibility: collapse;
 }
+
 #Normal20 {
     visibility: collapse;
 }

@@ -1,24 +1,24 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .EditButton {
     width: 36px;
     height: 36px;
     margin-right: 8px;
     vertical-align: middle;
-
     background-image: none;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     tooltip-position: top;
-
     transition-property: brightness;
     transition-duration: 0.2s;
-
     wash-color: #ccc;
 }
+
 .EditButton:hover {
     brightness: 2;
 }
+
 .EditButton:active {
     brightness: 1.5;
 }
@@ -48,6 +48,7 @@
     width: 320px;
     opacity: 0.95;
 }
+
 #Contents.ShowcaseItemMoreOptionsPopupContents .MoreOptionsLabel {
     padding-bottom: 8px;
 }
@@ -74,6 +75,7 @@
     flow-children: down;
     margin-top: 4px;
 }
+
 #Contents.ShowcaseItemMoreOptionsPopupContents .AnimationPickerContainer DropDown {
     margin-top: 4px;
 }
@@ -98,6 +100,7 @@
     overflow: squish scroll;
     padding: 8px;
 }
+
 #ShowcaseItemMoreOptions #RotationSlider,
 #ShowcaseItemMoreOptions #ZoomSlider {
     margin-bottom: 0px;
@@ -110,7 +113,6 @@
     margin-top: 2px;
     wash-color: LighterGrey;
     img-shadow: 0px 1px 4px black;
-
     transition-property: wash-color;
     transition-duration: 0.1s;
     margin-right: 6px;
@@ -124,6 +126,7 @@
     flow-children: right;
     visibility: collapse;
 }
+
 .ViewingOther #ReportControls {
     visibility: visible;
 }
@@ -142,6 +145,7 @@
     0% {
         brightness: 1;
     }
+
     100% {
         brightness: 3;
     }
@@ -150,6 +154,7 @@
 .SaveChangesButton {
     wash-color: #808080;
 }
+
 .ShowcaseModified .SaveChangesButton {
     wash-color: #ffffff;
     brightness: 2;
@@ -167,6 +172,7 @@
     0% {
         brightness: 1;
     }
+
     100% {
         brightness: 3;
     }

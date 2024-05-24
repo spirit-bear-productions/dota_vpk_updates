@@ -1,6 +1,7 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DOTAEconItemPage {
     margin-top: 58px;
-
     height: 100%;
     width: 100%;
     flow-children: right;
@@ -8,12 +9,9 @@
 
 #HeroPageContainer {
     vertical-align: middle;
-
     width: 100%;
     height: 100%;
-
     background-color: #00000000;
-
     transition-property: background-color;
     transition-duration: 0.45s;
     transition-timing-function: ease-in-out;
@@ -40,7 +38,6 @@
 .HeroPageBackgroundHorizontal {
     transition-property: background-color;
     transition-duration: 0.3s;
-
     transition-timing-function: linear;
 }
 
@@ -130,7 +127,6 @@
 #NextHero:hover {
     color: white;
     opacity: 0.5;
-
     background-color: #111111;
 }
 
@@ -144,14 +140,11 @@
     width: 60%;
     height: 100%;
     saturation: 1;
-
     opacity: 0;
-
     transition-property: opacity, saturation;
     transition-delay: 0.1s;
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
-
     transform: translateY(-70px) translateX(-45px);
 }
 
@@ -186,7 +179,6 @@
     opacity: 0;
     margin-left: -180px;
     opacity-mask: url("s2r://panorama/images/masks/hero_model_opacity_mask_png.vtex");
-
     transition-property: opacity;
     transition-duration: 1s;
 }
@@ -308,6 +300,7 @@
     width: 100%;
     height: 100%;
 }
+
 .IsPopup .EconItemInfo {
     box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.5);
 }
@@ -346,12 +339,15 @@
 .DOTAEconItemPage.Strength #PrimaryAttribute {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_strength_psd.vtex");
 }
+
 .DOTAEconItemPage.Agility #PrimaryAttribute {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_psd.vtex");
 }
+
 .ColorBlindModeEnabled .DOTAEconItemPage.Agility #PrimaryAttribute {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_colorblind_psd.vtex");
 }
+
 .DOTAEconItemPage.Intelligence #PrimaryAttribute {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_intelligence_psd.vtex");
 }
@@ -471,10 +467,8 @@ DOTAAbilityImage {
     margin-top: 2px;
     width: 50px;
     height: 52px;
-
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
     tooltip-position: bottom;
 }
 
@@ -497,7 +491,6 @@ DOTAAbilityImage {
 .HeroMovieMode .EconSetPreview {
     horizontal-align: center;
     transform: translateY(-70px) translateX(-45px);
-
     opacity-mask: none;
 }
 
@@ -522,9 +515,9 @@ DOTAAbilityImage {
     background-position: center;
     blur: gaussian (4px);
     background-color: gradient(linear, 0% 50%, 0% 100%, from(#13171f), to(#2b415a));
-
     visibility: collapse;
 }
+
 .IsPopup #HeroBackgroundImage {
     visibility: visible;
 }
@@ -532,7 +525,6 @@ DOTAAbilityImage {
 #DebutToolButton {
     margin: 10px;
     tooltip-body-position: 50% 50%;
-
     visibility: collapse;
 }
 

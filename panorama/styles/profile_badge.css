@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAProfileBadge {
     width: 96px;
     height: 96px;
@@ -39,7 +41,6 @@ DOTAProfileBadge {
     vertical-align: bottom;
     horizontal-align: center;
     text-align: center;
-
     font-weight: bold;
     text-overflow: shrink;
     width: 100%;
@@ -54,7 +55,6 @@ DOTAProfileBadge {
     vertical-align: bottom;
     horizontal-align: center;
     text-align: center;
-
     font-weight: bold;
     text-overflow: shrink;
     width: 100%;

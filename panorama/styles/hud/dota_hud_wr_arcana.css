@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDWRArcana {
     width: 100%;
     height: 100%;
@@ -32,9 +34,7 @@ DOTAHUDWRArcana.Hidden {
     border-radius: 8px;
     overflow: noclip;
     horizontal-align: center;
-
     width: 900px;
-
     transition-property: opacity;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -130,9 +130,7 @@ DOTAHUDWRArcana.Hidden {
     horizontal-align: center;
     vertical-align: top;
     margin-left: 10px;
-
     text-shadow: 1px 1px 0px 3 #00000088;
-
     font-size: 17px;
     font-weight: semi-bold;
 }
@@ -179,11 +177,9 @@ DOTAHUDWRArcana.Hidden {
     z-index: -1;
     margin-left: 12px;
     opacity: 1;
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -198,7 +194,6 @@ DOTAHUDWRArcana.Hidden {
     width: 180px;
     vertical-align: center;
     horizontal-align: left;
-
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 10px;
@@ -210,7 +205,6 @@ DOTAHUDWRArcana.Hidden {
     width: 120px;
     height: 187px;
     horizontal-align: center;
-
     margin-top: -5px;
     overflow: noclip;
     transition-property: background-image;
@@ -314,6 +308,7 @@ DOTAHUDWRArcana.Hidden {
         pre-transform-scale2d: 1;
         opacity: 1;
     }
+
     100% {
         pre-transform-scale2d: 1.4;
         opacity: 0;
@@ -325,14 +320,12 @@ DOTAHUDWRArcana.Hidden {
     width: 180px;
     vertical-align: center;
     horizontal-align: left;
-
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 2;
     margin-left: 10px;
     opacity: 1;
     brightness: 1.2;
-
     clip: radial(50% 50%, 0deg, 180deg);
 }
 
@@ -344,7 +337,6 @@ DOTAHUDWRArcana.Hidden {
     width: 170px;
     vertical-align: center;
     horizontal-align: center;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -367,7 +359,6 @@ DOTAHUDWRArcana.Hidden {
     horizontal-align: center;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -432,7 +423,6 @@ DOTAHUDWRArcana.Hidden {
     margin: 20px;
     horizontal-align: center;
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -519,10 +509,12 @@ DOTAHUDWRArcana.Hidden {
     background-image: url("s2r://panorama/images/hud/arcana/wr/numbers/combo_0_png.vtex");
     width: 28px;
 }
+
 .WRDigit.digit_1 {
     background-image: url("s2r://panorama/images/hud/arcana/wr/numbers/combo_1_png.vtex");
     width: 25px;
 }
+
 .WRDigit.digit_2 {
     background-image: url("s2r://panorama/images/hud/arcana/wr/numbers/combo_2_png.vtex");
     width: 34px;
@@ -568,10 +560,12 @@ DOTAHUDWRArcana.Hidden {
     background-image: url("s2r://panorama/images/hud/arcana/wr/numbers/combo_0_v2_png.vtex");
     width: 28px;
 }
+
 .ArcanaLevel2 .WRDigit.digit_1 {
     background-image: url("s2r://panorama/images/hud/arcana/wr/numbers/combo_1_v2_png.vtex");
     width: 25px;
 }
+
 .ArcanaLevel2 .WRDigit.digit_2 {
     background-image: url("s2r://panorama/images/hud/arcana/wr/numbers/combo_2_v2_png.vtex");
     width: 34px;

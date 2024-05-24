@@ -1,7 +1,8 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACompTI10EventSummary {
     width: 100%;
     flow-children: down;
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -17,7 +18,6 @@ DOTACompTI10EventSummary {
     z-index: 1;
     padding: 0px 0px;
     box-shadow: inset 0px 0px 4px black;
-
     visibility: collapse;
 }
 
@@ -28,7 +28,6 @@ DOTACompTI10EventSummary.HasEventData {
 .InternationalLogo {
     horizontal-align: center;
     flow-children: down;
-
     width: 100%;
     height: 50px;
 }
@@ -171,7 +170,6 @@ DOTACompTI10EventSummary.HasEventData {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: right;
-
     visibility: collapse;
 }
 
@@ -210,6 +208,7 @@ DOTACompTI10EventSummary.HasEventData {
     transition-property: color;
     transition-duration: 0.2s;
 }
+
 .SupporterClubsButton:hover Label {
     color: gradient(
         linear,
@@ -223,6 +222,7 @@ DOTACompTI10EventSummary.HasEventData {
         to(#fff)
     );
 }
+
 .SupporterClubsButton:active Label {
     color: #999;
 }
@@ -234,6 +234,7 @@ DOTACompTI10EventSummary.HasEventData {
 .SupportersPacksAvailable #SupportersPacks .ClaimPacksButton {
     visibility: visible;
 }
+
 #SupportersPacks .SupporterClubsButton {
     visibility: collapse;
 }
@@ -241,6 +242,7 @@ DOTACompTI10EventSummary.HasEventData {
 #DailyWinPacks {
     visibility: collapse;
 }
+
 .ShowDailyWinPacks #DailyWinPacks {
     visibility: visible;
 }
@@ -285,7 +287,6 @@ DOTACompTI10EventSummary.HasEventData {
     width: 100%;
     margin: 8px;
     padding: 4px 8px;
-
     visibility: collapse;
 }
 

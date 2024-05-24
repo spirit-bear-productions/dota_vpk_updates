@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .Prediction {
     width: 120px;
     height: fit-children;
@@ -85,6 +87,7 @@
     border: 1px solid #414040;
     background-color: #1b1a1a;
 }
+
 .Locked .Picker.Team2 {
     border-left: 1px solid #414040;
     border-right: 1px solid #414040;
@@ -243,6 +246,5 @@
 
 .LoserMatch .Picker.Team1 .NoTeamMark {
     font-size: 14px;
-
     padding-top: 5px;
 }

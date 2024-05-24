@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PopupPanel {
     width: 1010px;
     height: 650px;
@@ -100,6 +102,7 @@
     width: 100%;
     flow-children: down;
 }
+
 .header #SubTitle {
     horizontal-align: center;
     text-align: center;
@@ -146,6 +149,7 @@
     padding: 12px 0px 16px;
     margin: 4px 0px;
 }
+
 #Countdown .time-left {
     font-weight: normal;
     horizontal-align: center;

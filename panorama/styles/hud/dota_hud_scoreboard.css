@@ -1,14 +1,13 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 DOTAScoreboard {
     width: 1522px;
     height: 810px;
     vertical-align: top;
     margin-top: 54px;
     flow-children: right;
-
     transform: translateX(0);
-
     z-index: 3;
 }
 
@@ -26,7 +25,6 @@ DOTAScoreboard {
     background-image: url("s2r://panorama/images/hud/reborn/bg_scoreboard_psd.vtex");
     background-size: cover;
     background-color: #000000da;
-
     box-shadow: #000000f5 0px 0px 8px 0px;
 }
 
@@ -76,6 +74,7 @@ DOTAScoreboard {
     width: 100px;
     visibility: collapse;
 }
+
 .ArcanaColumnVisible .ArcanaColumn {
     visibility: visible;
 }
@@ -84,6 +83,7 @@ DOTAScoreboard {
     width: 100px;
     visibility: collapse;
 }
+
 .ShowTipping .TippingColumn {
     visibility: visible;
 }
@@ -101,6 +101,7 @@ DOTAScoreboard {
     width: 160px;
     visibility: collapse;
 }
+
 .ShowBounty .BountyColumn {
     visibility: visible;
 }
@@ -127,6 +128,7 @@ DOTAScoreboard {
 #RadiantScoreLabel {
     text-shadow: 0px 0px 6px 1 #9be40c8f;
 }
+
 #DireScoreLabel {
     text-shadow: 0px 0px 6px 1 #e74d088f;
 }
@@ -146,6 +148,7 @@ DOTAScoreboard {
 #RadiantTeamLabel {
     text-shadow: 0px 0px 6px 1 #9be40c8f;
 }
+
 #DireTeamLabel {
     text-shadow: 0px 0px 6px 1 #e74d088f;
 }
@@ -196,15 +199,14 @@ DOTAScoreboardPlayer .NameColumn {
     margin: 0px -8px;
     ui-scale: 60%;
     vertical-align: middle;
-
     opacity: 0;
-
     visibility: collapse;
 }
 
 .ShowLevelShield .ScoreboardLevelShield {
     visibility: visible;
 }
+
 .ShowLevelShield.IsSpectatingProGame .ScoreboardLevelShield {
     visibility: collapse;
 }
@@ -240,6 +242,7 @@ DOTAScoreboardPlayer.HasBattlePass .ScoreboardLevelShield {
 .FacetOuter {
     visibility: collapse;
 }
+
 .FacetOuter #PlayerAndHeroNameContainer {
     margin-bottom: 0px;
 }
@@ -364,6 +367,7 @@ DOTAScoreboardPlayer .KillsColumn {
         to(#ffffff00)
     );
 }
+
 DOTAScoreboardPlayer .KillsColumn Label {
     font-weight: bold;
 }
@@ -379,7 +383,6 @@ DOTAScoreboardPlayer .KillsColumn Label {
     height: 20px;
     background-size: contain;
     z-index: 20;
-
     opacity: 0;
 }
 
@@ -547,7 +550,6 @@ DOTAScoreboardPlayer .ReportControlsContents {
     vertical-align: middle;
     color: #999;
     margin-top: -4px;
-
     visibility: collapse;
 }
 
@@ -611,7 +613,6 @@ DOTAScoreboardPlayer .ReportControlsContents {
     margin-left: 2px;
     transform: translateY(-1px);
     overflow: clip;
-
     background-image: url("s2r://panorama/images/dota_plus/currency_icon_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -624,7 +625,6 @@ DOTAScoreboardPlayer .ReportControlsContents {
     margin-left: 2px;
     transform: translateY(-1px);
     overflow: clip;
-
     background-image: bp_bounty_shadow_icon;
     background-size: contain;
     background-repeat: no-repeat;
@@ -638,18 +638,20 @@ DOTAScoreboardPlayer .ReportControlsContents {
 .Tip_Season_Frostivus #TipButton {
     transition-property: brightness;
     transition-duration: 0.2s;
-
     background-color: #2e6285;
     border-top: 1px solid #d0d0ff;
     border-bottom: 1px solid #00000055;
     border-right: 1px solid #00000088;
 }
+
 .Tip_Season_Frostivus #TipButton:hover {
     brightness: 2;
 }
+
 .Tip_Season_Frostivus #TipButton:active {
     brightness: 1.5;
 }
+
 .Tip_Season_Frostivus #TipButton:disabled {
     saturation: 0;
     wash-color: #aaa;
@@ -661,7 +663,6 @@ DOTAScoreboardPlayer .ReportControlsContents {
     margin-top: 1px;
     text-align: center;
     horizontal-align: center;
-
     color: white;
     font-weight: bold;
 }
@@ -736,11 +737,9 @@ DOTAScoreboardPlayer.LocalPlayer {
     margin-top: 0px;
     flow-children: none;
     z-index: 0;
-
     background-image: url("s2r://panorama/images/hud/reborn/bg_scoreboard_psd.vtex");
     background-size: 240% 240%;
     background-color: #000000ff;
-
     opacity: 0;
     visibility: collapse;
     border-color: black;
@@ -857,15 +856,12 @@ DOTAScoreboardPlayer.LocalPlayer {
 .ScoreboardBuybackIndicator {
     vertical-align: center;
     horizontal-align: center;
-
     width: 60px;
     height: 24px;
     background-image: url("s2r://panorama/images/hud/reborn/scoreboard_buyback_psd.vtex");
     background-size: 100%;
     background-repeat: no-repeat;
-
     z-index: 20;
-
     opacity: 0;
 }
 
@@ -938,10 +934,8 @@ DOTAScoreboardPlayer .ScoreColumn {
     vertical-align: center;
     margin-left: 8px;
     border-radius: 50%;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from (#d12525), to (#720606));
     box-shadow: #00000090 0px 0px 4px 0px;
-
     background-image: url("s2r://panorama/images/conduct/report_flag_basic_png.vtex");
     background-size: 11px 14px;
     background-repeat: no-repeat;
@@ -1003,7 +997,6 @@ DOTAScoreboardPlayer .ScoreColumn {
 #CoachMuteContainer {
     horizontal-align: left;
     vertical-align: bottom;
-
     visibility: collapse;
 }
 
@@ -1015,12 +1008,10 @@ DOTAScoreboardPlayer .ScoreColumn {
 DOTAScoreboardPlayerInventory {
     height: 64px;
     width: 246px;
-
     margin-top: 3px;
     margin-bottom: 3px;
     padding-left: 8px;
     background-color: #000000ff;
-
     border-top: 1px solid #ffffff05;
     border-bottom: 1px solid #ffffff03;
     border-right: 1px solid black;
@@ -1028,7 +1019,6 @@ DOTAScoreboardPlayerInventory {
 
 #TeamInventories {
     margin-left: 10px;
-
     opacity: 0;
     visibility: collapse;
     transform: none;
@@ -1042,7 +1032,6 @@ DOTAScoreboardPlayerInventory {
 #RadiantTeamInventory,
 #DireTeamInventory {
     horizontal-align: left;
-
     width: 400px;
     height: 384px;
     flow-children: none;
@@ -1063,14 +1052,11 @@ DOTAScoreboardPlayerInventory {
     margin-top: 0px;
     flow-children: none;
     z-index: 0;
-
     background-image: url("s2r://panorama/images/hud/reborn/bg_scoreboard_psd.vtex");
     background-size: 260% 260%;
     background-color: #000000da;
-
     border-color: black;
     box-shadow: #00000000 0px 0px 4px 0px;
-
     box-shadow: #000000ff 0px 0px 4px 0px;
 }
 
@@ -1142,13 +1128,11 @@ DOTAScoreboardPlayerInventory #ScoreboardStash {
     height: 24px;
     vertical-align: center;
     horizontal-align: left;
-
     background-image: url("s2r://panorama/images/control_icons/icon_search_png.vtex");
     background-size: 95%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-color: black;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     opacity: 0;
@@ -1175,7 +1159,6 @@ DOTAScoreboardPlayer .ArcanaColumn {
 .WraithKingArcanaSeal {
     width: 100%;
     height: 100%;
-
     background-image: url("s2r://panorama/images/compendium/international2020/wriath_king_arcana/seal-solo_png.vtex");
     background-size: 56px;
     background-repeat: no-repeat;
@@ -1186,11 +1169,9 @@ DOTAScoreboardPlayer .ArcanaColumn {
     horizontal-align: center;
     width: 50%;
     height: 100%;
-
     background-image: url("s2r://panorama/images/compendium/international2020/wriath_king_arcana/large-slash_png.vtex");
     background-position: 50% 50%;
     background-size: 90%;
-
     visibility: collapse;
 }
 
@@ -1208,7 +1189,6 @@ DOTAScoreboardPlayer .ArcanaColumn {
     width: 32px;
     height: 32px;
     vertical-align: center;
-
     background-image: url("s2r://panorama/images/heroes/icons/npc_dota_hero_spectre_alt2_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1239,6 +1219,7 @@ DOTAScoreboardPlayer .ArcanaColumn {
     margin-top: 2px;
     visibility: collapse;
 }
+
 .ShowGifting #NestedMenuButtons #GiftEnvelopeAllButton {
     visibility: visible;
 }

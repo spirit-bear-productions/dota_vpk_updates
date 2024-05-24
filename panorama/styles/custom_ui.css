@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .WindowRoot {
     width: 100%;
     height: 100%;
@@ -80,12 +82,9 @@ DOTAPopupManager {
 #GameInfoIcon {
     width: 24px;
     height: 24px;
-
     opacity: 0.3;
-
     vertical-align: top;
     horizontal-align: right;
-
     background-image: url("s2r://panorama/images/custom_gameinfo_icon_psd.vtex");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -104,11 +103,9 @@ DOTAPopupManager {
 #GameInfoOpenClose {
     width: 24px;
     height: 24px;
-
     horizontal-align: right;
     vertical-align: bottom;
     opacity: 0.3;
-
     background-image: url("s2r://panorama/images/custom_gameinfo_open_psd.vtex");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -174,7 +171,6 @@ DOTAPopupManager {
         color-stop(0.9, #181a1e),
         to(#181a1e)
     );
-
     margin-right: 8px;
 }
 
@@ -183,7 +179,6 @@ DOTAPopupManager {
     width: 100%;
     height: 100px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#25292f), to(#25292f00));
-
     margin-right: 8px;
 }
 
@@ -192,7 +187,6 @@ DOTAPopupManager {
     width: 100%;
     height: 200px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#181a1e00), to(#181a1e));
-
     margin-right: 8px;
 }
 

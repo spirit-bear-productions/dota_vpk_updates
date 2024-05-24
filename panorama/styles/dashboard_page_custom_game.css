@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACustomGamePage {
     margin-top: 140px;
     horizontal-align: center;
@@ -34,7 +36,6 @@ DOTACustomGamePage {
     width: 100%;
     height: 709px;
     flow-children: right;
-
     padding-left: 168px;
     padding-right: 168px;
     border-top: 1px solid black;
@@ -44,7 +45,6 @@ DOTACustomGamePage {
 
 .ImagesColumn {
     width: 643px;
-
     margin-top: 36px;
     margin-right: 45px;
     flow-children: down;
@@ -242,7 +242,6 @@ DOTACustomGamePage.HasDedicatedServerSupport #LastUpdated Label {
 
 .UpdatedBlock {
     flow-children: right;
-
     vertical-align: bottom;
     horizontal-align: right;
 }
@@ -351,11 +350,9 @@ HorizontalScrollBar {
 .ScreenshotImageContainer {
     max-height: 80px;
     background-color: black;
-
     margin-right: 10px;
     border: 1px solid #9bcaf41a;
     box-shadow: fill #000000 5px 2px 4px 0px;
-
     transition-property: border, pre-transform-scale2d;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
@@ -393,6 +390,7 @@ HorizontalScrollBar {
 #FavoritesContainer:hover Label {
     color: white;
 }
+
 ToggleButton#FavoriteStar {
     padding: 0px 0px;
     background-image: url("s2r://panorama/images/control_icons/star_favorite_psd.vtex");
@@ -400,18 +398,15 @@ ToggleButton#FavoriteStar {
     background-size: 24px 24px;
     background-position: 93% 50%;
     wash-color: #444444;
-
     background-color: #00000088;
     flow-children: right;
     border-radius: 6px;
     padding: 6px 12px 6px 12px;
     margin-right: 6px;
     margin-bottom: 6px;
-
     transition-property: background-color, wash-color;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
-
     visibility: visible;
 }
 
@@ -443,7 +438,6 @@ ToggleButton#FavoriteStar .TickBox {
     overflow: clip clip;
     border-radius: 12px;
     border: 1px solid #56676733;
-
     box-shadow: fill #00000055 0px 0px 12px 0px;
 }
 
@@ -453,43 +447,33 @@ Button.CustomButton {
     max-height: 120px;
     border-radius: 0px;
     horizontal-align: center;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5aa15e), to(#87d69533));
     background-image: url("s2r://panorama/images/backgrounds/background_play_button_large_2x_png.vtex");
     background-size: 320px 120px;
-
     box-shadow: fill #002a6644 1px 1px 8px 1px;
-
     border-top: 1px solid #ffffff44;
     border-right: 1px solid #00000088;
     border-left: 1px solid #ffffff44;
     border-bottom: 1px solid #00000088;
-
     transition-property: box-shadow, background-color, opacity, transform;
     transition-delay: 0s;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-
     visibility: collapse;
 }
 
 Button.CustomButton Label {
     color: white;
     max-width: 318px;
-
     text-align: center;
     text-transform: uppercase;
     text-overflow: ellipsis;
     margin-top: 2px;
-
     horizontal-align: center;
     vertical-align: center;
-
     font-size: 28px;
     font-weight: bold;
-
     letter-spacing: 3px;
-
     padding-left: 8px;
     padding-right: 8px;
 }
@@ -521,7 +505,6 @@ Button.CustomButton:disabled Label {
 
 #PlayEffects {
     width: 400px;
-
     z-index: -1;
     visibility: visible;
 }
@@ -549,7 +532,6 @@ DOTACustomGamePage.InLobby #PlayEffects {
     border: 2px solid #424a4a;
     border-right: 0px solid #424a4a;
     height: 100%;
-
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -592,7 +574,6 @@ DropDown Label {
     visibility: collapse;
     box-shadow: fill #00000066 0px 0px 8px 0px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5aa15e), to(#87d69533));
-
     animation-duration: 2s;
     animation-delay: 0.1s;
     animation-timing-function: linear;
@@ -729,7 +710,6 @@ DOTACustomGamePage.Subscribed #UnsubscribeButton {
 #UpdateButton {
     visibility: collapse;
     vertical-align: bottom;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5a615ecc), to(#879695cc));
 }
 
@@ -878,7 +858,6 @@ Button.TextLink:active Label {
 .WorkshopArea {
     flow-children: down;
     vertical-align: bottom;
-
     width: 100%;
 }
 
@@ -985,6 +964,7 @@ Button.WorkshopPageButton:active Label {
     height: 16px;
     wash-color: #3c4e5e;
 }
+
 .RatingBlock .StarLit {
     wash-color: #a4e84a;
 }
@@ -998,7 +978,6 @@ Button.WorkshopPageButton:active Label {
     margin: 0px;
     vertical-align: middle;
     wash-color: white;
-
     transition-property: wash-color;
     transition-duration: 0.6s;
     transition-timing-function: ease-in-out;
@@ -1075,7 +1054,6 @@ a:hover {
     background-color: #00000066;
     border-radius: 3px;
     padding: 4px;
-
     transition-property: wash-color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -1112,9 +1090,9 @@ a:hover {
     width: 100%;
     flow-children: none;
 }
+
 #JoinChatButton {
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
@@ -1153,15 +1131,12 @@ DOTACustomGamePage.InChat #LeaveChatButton {
     width: 30px;
     height: 30px;
     pre-transform-scale2d: 0.9;
-
     padding: 12px;
     background-size: 100%;
     background-position: 50% 50%;
     horizontal-align: center;
     vertical-align: center;
-
     background-image: url("s2r://panorama/images/control_icons/playbutton_nocircle_psd.vtex");
-
     transition-property: pre-transform-scale2d;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
@@ -1172,7 +1147,6 @@ DOTACustomGamePage.InChat #LeaveChatButton {
     width: 50px;
     height: 50px;
     pre-transform-scale2d: 1;
-
     horizontal-align: center;
     vertical-align: center;
     border: 3px solid white;
@@ -1181,7 +1155,6 @@ DOTACustomGamePage.InChat #LeaveChatButton {
     background-size: 50%;
     background-color: #000000aa;
     box-shadow: #000000 0px 0px 2px 0px;
-
     transition-property: pre-transform-scale2d, opacity;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;

@@ -1,10 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHelpTipsManager {
     width: 100%;
     height: 100%;
 }
 
 @define targetColor: #d8ac15;
-
 #DimBackground,
 #TipTargets {
     width: 100%;
@@ -13,7 +14,6 @@ DOTAHelpTipsManager {
 
 .Dimmer {
     background-color: #0000;
-
     transition-property: background-color;
     transition-duration: 0.5s;
 }
@@ -26,6 +26,7 @@ DOTAHelpTipsManager {
     0% {
         box-shadow: hollow 0px 0px 6px targetColor;
     }
+
     100% {
         box-shadow: hollow 0px 0px 12px targetColor;
     }
@@ -33,12 +34,10 @@ DOTAHelpTipsManager {
 
 .Highlight {
     opacity: 0;
-
     animation-name: HighlightBorder;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-delay: 0.1s;
@@ -61,6 +60,7 @@ DOTAHelpTipsManager {
     0% {
         pre-transform-scale2d: 1;
     }
+
     100% {
         pre-transform-scale2d: 1.05;
     }
@@ -90,6 +90,7 @@ DOTAHelpTipsManager {
         opacity: 1;
         pre-transform-scale2d: 0.001;
     }
+
     100% {
         opacity: 0;
         pre-transform-scale2d: 1;
@@ -136,11 +137,8 @@ DOTAHelpTipsManager {
 #BottomArrow {
     background-repeat: no-repeat;
     background-position: 0px 0px;
-
     z-index: 1;
-
     visibility: collapse;
-
     background-size: contain;
 }
 
@@ -148,16 +146,17 @@ DOTAHelpTipsManager {
 #RightArrow {
     width: 24px;
     height: 24px;
-
     margin-top: 4px;
     margin-bottom: 4px;
     margin-right: 4px;
 }
+
 #LeftArrow {
     background-image: url("s2r://panorama/images/tooltips/tooltip_arrow_left_png.vtex");
     wash-color: #252b30;
     margin-right: -5px;
 }
+
 #RightArrow {
     background-image: url("s2r://panorama/images/tooltips/tooltip_arrow_right_png.vtex");
     wash-color: #252b30;
@@ -171,11 +170,13 @@ DOTAHelpTipsManager {
     margin-left: 12px;
     margin-right: 12px;
 }
+
 #TopArrow {
     background-image: url("s2r://panorama/images/tooltips/tooltip_arrow_top_png.vtex");
     wash-color: #252b30;
     margin-bottom: -2px;
 }
+
 #BottomArrow {
     background-image: url("s2r://panorama/images/tooltips/tooltip_arrow_bottom_png.vtex");
     wash-color: #252b30;
@@ -185,12 +186,15 @@ DOTAHelpTipsManager {
 #TipContainer.LeftArrowVisible #LeftArrow {
     visibility: visible;
 }
+
 #TipContainer.RightArrowVisible #RightArrow {
     visibility: visible;
 }
+
 #TipContainer.TopArrowVisible #TopArrow {
     visibility: visible;
 }
+
 #TipContainer.BottomArrowVisible #BottomArrow {
     visibility: visible;
 }
@@ -222,14 +226,17 @@ DOTAHelpTipsManager {
     margin-left: 0px;
     min-height: 40px;
 }
+
 #TipContainer.RightArrowVisible #Contents {
     margin-right: 0px;
     min-height: 40px;
 }
+
 #TipContainer.BottomArrowVisible #Contents {
     margin-bottom: 0px;
     min-width: 60px;
 }
+
 #TipContainer.TopArrowVisible #Contents {
     margin-top: 0px;
     min-width: 60px;
@@ -237,9 +244,7 @@ DOTAHelpTipsManager {
 
 #TipContainer {
     flow-children: down;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.175s;
 }
@@ -283,10 +288,12 @@ DOTAHelpTipsManager {
     text-transform: uppercase;
     color: #666;
 }
+
 #HideAllButton:hover > Label {
     color: #aaa;
     text-decoration: underline;
 }
+
 #HideAllButton:active > Label {
     color: #999;
 }

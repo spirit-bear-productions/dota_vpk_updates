@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 5.0.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -12,7 +12,10 @@
 		<Panel class="Actions">
 			<TextButton id="ShowDialogueButton" class="PopupButton" text="Show Dialogue" onactivate="DOTAOverworldNodeDebugShowDialogue()" />
 			<TextButton id="ShowEncounterButton" class="PopupButton" text="Show Encounter" onactivate="DOTAOverworldNodeDebugShowEncounter()" />
-			<TextButton id="CompleteNodeButton" class="PopupButton" text="Complete Node" onactivate="DOTAOverworldNodeDebugCompleteNode()" />
+			<Panel id="CompleteNodeContainer">
+				<TextButton id="CompleteNodeButton" class="PopupButton" text="Complete Node" onactivate="DOTAOverworldNodeDebugCompleteNode()" />
+				<DOTASettingsCheckbox id="SuppressPopupsButton" convar="dota_crownfall_suppress_popups_when_completing_nodes" text="Suppress Popups" />
+			</Panel>
 		</Panel>
 		<Label class="DialogueHeader" text="Preview for Dialogue {s:dialogue_name}:" />
 		<Label class="DialogueLabel" text="{s:dialogue_preview}" />

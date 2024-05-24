@@ -1,5 +1,6 @@
-@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 DOTABountyToast {
     margin-bottom: 8px;
     horizontal-align: right;
@@ -11,7 +12,6 @@ DOTABountyToast {
     tooltip-position: left;
     height: 84px;
     height: fit-children;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
@@ -69,7 +69,6 @@ DOTABountyToast {
 
 .BountyText .Top {
     width: 100%;
-
     font-size: 20px;
     font-weight: bold;
     color: white;

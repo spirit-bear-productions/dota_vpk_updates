@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .ProgressTextContainer {
     margin-top: 8px;
 }
@@ -23,10 +25,10 @@
     horizontal-align: left;
     color: #8e9795;
     vertical-align: bottom;
-
     width: 240px;
     text-overflow: shrink;
 }
+
 .FullWidth .ChallengeDescText {
     width: 100%;
 }
@@ -98,6 +100,7 @@ DOTAHudPreGame .ChallengeDescText {
     border-brush: YellowGradientBackgroundColor;
     box-shadow: 0px 8px 24px -2px rgba(0, 0, 0, 0.4);
 }
+
 .Large .ChallengeIcon {
     width: 92px;
     height: 92px;
@@ -191,7 +194,6 @@ DOTAHudPreGame .ChallengeDescText {
     vertical-align: bottom;
     margin-bottom: 0px;
     margin-right: 16px;
-
     background-image: none;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -208,6 +210,7 @@ DOTAHudPreGame .ChallengeDescText {
     width: 376px;
     flow-children: down;
 }
+
 .SideQuestBox.FullWidth {
     width: 100%;
 }
@@ -457,6 +460,7 @@ DOTAHudPreGame .ChallengeDescText {
 .MaxHeroLevel #XPRewardLabel {
     visibility: collapse;
 }
+
 .MaxHeroLevel #ShardsRewardLabel {
     visibility: visible;
 }

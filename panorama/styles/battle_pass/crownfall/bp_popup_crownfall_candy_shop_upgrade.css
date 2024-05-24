@@ -1,19 +1,15 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define StampPosX1: 85px;
 @define StampPosY1: 260px;
-
 @define StampPosX2: 250px;
 @define StampPosY2: 200px;
-
 @define StampPosX3: 400px;
 @define StampPosY3: 150px;
-
 @define StampPosX4: 550px;
 @define StampPosY4: 90px;
-
 @define BaseHandPosition: translateX(-70px) translateY(-200px);
-
 @define HandAnimDuration: 2s;
-
 .PopupPanel {
     padding: 0px;
     flow-children: none;
@@ -47,7 +43,6 @@
 .Description {
     horizontal-align: center;
     text-align: center;
-
     margin: 5px 0px 30px 0px;
     color: white;
 }
@@ -69,7 +64,6 @@
     border: 1px solid #cccccc;
     border-radius: 15px;
     margin-bottom: 1px;
-
     transition-property: background-image, wash-color, brightness;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -83,7 +77,6 @@
     background-repeat: no-repeat;
     background-position: 45% 55%;
     background-size: 75% 75%;
-
     wash-color: #11ff11;
 }
 
@@ -93,7 +86,6 @@
     vertical-align: center;
     white-space: normal;
     text-overflow: shrink;
-
     color: #555;
     transition-property: color;
     transition-duration: 0.5s;
@@ -115,7 +107,6 @@
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
-
     text-shadow: 0px 0px 8px 3 #ccc8;
 }
 
@@ -123,15 +114,19 @@
     0% {
         text-shadow: none;
     }
+
     30% {
         text-shadow: 0px 0px 8px 3 #ccc4;
     }
+
     50% {
         text-shadow: 0px 0px 8px 3 #ccc5;
     }
+
     70% {
         text-shadow: 0px 0px 8px 3 #ccc4;
     }
+
     100% {
         text-shadow: none;
     }
@@ -169,10 +164,12 @@
     background-repeat: no-repeat;
     visibility: collapse;
 }
+
 .StampContainer.Stamp1 {
     x: StampPosX1;
     y: StampPosY1;
 }
+
 .StampClaimed1 .StampContainer.Stamp1 {
     visibility: visible;
 }
@@ -181,6 +178,7 @@
     x: StampPosX2;
     y: StampPosY2;
 }
+
 .StampClaimed2 .StampContainer.Stamp2 {
     visibility: visible;
 }
@@ -189,6 +187,7 @@
     x: StampPosX3;
     y: StampPosY3;
 }
+
 .StampClaimed3 .StampContainer.Stamp3 {
     visibility: visible;
 }
@@ -197,6 +196,7 @@
     x: StampPosX4;
     y: StampPosY4;
 }
+
 .StampClaimed4 .StampContainer.Stamp4 {
     visibility: visible;
 }
@@ -237,10 +237,8 @@
 .SithilHandTop {
     width: 1000px;
     height: 400px;
-
     background-size: contain;
     background-repeat: no-repeat;
-
     opacity: 0.001;
 }
 
@@ -275,13 +273,12 @@
 .SithilHandStamp {
     width: 600px;
     height: 400px;
-
     background-image: url("s2r://panorama/images/battle_path/ui/sithil_hand_with_stamp_bot_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     opacity: 0.001;
 }
+
 .AnimateStamp .SithilHandStamp {
     opacity: 1;
     animation-name: SithilHandStamp;
@@ -294,21 +291,27 @@
     0% {
         transform: BaseHandPosition translateX(800px) translateY(0px);
     }
+
     30% {
         transform: BaseHandPosition translateX(0px) translateY(-100px);
     }
+
     40% {
         transform: BaseHandPosition translateX(0px) translateY(0px);
     }
+
     50% {
         transform: BaseHandPosition translateX(0px) translateY(100px);
     }
+
     60% {
         transform: BaseHandPosition translateX(0px) translateY(0px);
     }
+
     90% {
         transform: BaseHandPosition translateX(800px) translateY(-100px);
     }
+
     100% {
         transform: BaseHandPosition translateX(800px) translateY(0px);
     }
@@ -318,21 +321,27 @@
     0% {
         transform: BaseHandPosition translateX(800px) translateY(20px);
     }
+
     30% {
         transform: BaseHandPosition translateX(0px) translateY(20px);
     }
+
     40% {
         transform: BaseHandPosition translateX(0px) translateY(20px);
     }
+
     50% {
         transform: BaseHandPosition translateX(0px) translateY(20px);
     }
+
     60% {
         transform: BaseHandPosition translateX(0px) translateY(20px);
     }
+
     90% {
         transform: BaseHandPosition translateX(800px) translateY(20px);
     }
+
     100% {
         transform: BaseHandPosition translateX(800px) translateY(20px);
     }
@@ -342,15 +351,19 @@
     0% {
         transform: translateY(0px);
     }
+
     40% {
         transform: translateY(0px);
     }
+
     50% {
         transform: translateY(-100px);
     }
+
     60% {
         transform: translateY(0px);
     }
+
     100% {
         transform: translateY(0px);
     }

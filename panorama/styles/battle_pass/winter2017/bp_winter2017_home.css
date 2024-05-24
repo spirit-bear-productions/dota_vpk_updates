@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #QuestWell HorizontalScrollBar {
     width: 200px;
     height: 32px;
@@ -21,9 +23,11 @@
     margin-left: 20px;
     visibility: collapse;
 }
+
 .HasUnclaimedRewards #UnclaimedButton {
     visibility: visible;
 }
+
 .HasUnclaimedRewards #GoToCurrentLevel {
     visibility: collapse;
 }
@@ -69,7 +73,6 @@
 
 .SelfEventNotActive.GlobalEventPurchasable #CompendiumLevelContainer {
     background-color: gradient(linear, 100% 90%, 0% 0%, from(#2a4614), to(#12230d));
-
     background-color: gradient(linear, 100% 90%, 0% 0%, from(#17374f), to(#111e2d));
 }
 
@@ -116,10 +119,8 @@
 .SelfEventTierSilver #CompendiumLevelContainer .StatSub,
 .SelfEventTierSilver #CompendiumLevelContainer .StatSub Label {
     color: #26100e;
-
     color: #192218;
     font-weight: bold;
-
     color: #181e22;
 }
 
@@ -134,9 +135,7 @@
 .SelfEventTierGold #PrizePoolNumber,
 .SelfEventTierSilver #PrizePoolNumber {
     color: #ed5649;
-
     color: #9aed49;
-
     color: #49a9ed;
     text-shadow: 1px 1px 6px 5 #000000;
 }
@@ -152,10 +151,8 @@
 .SelfEventTierGold #CompendiumLevelContainer #LevelCircle Label,
 .SelfEventTierSilver #CompendiumLevelContainer #LevelCircle Label {
     color: #ed5649;
-
     color: #9aed49;
     text-shadow: 1px 1px 6px 5 #000000;
-
     color: #49a9ed;
 }
 
@@ -192,9 +189,7 @@
 .SelfEventTierPlatinum #CompendiumLevelContainer .StatSub,
 .SelfEventTierPlatinum #CompendiumLevelContainer .StatSub Label {
     color: #84292d;
-
     color: #298449;
-
     color: #295f84;
 }
 
@@ -228,7 +223,6 @@
     height: 100%;
     background-color: #000000aa;
     opacity: 1;
-
     padding-top: 6px;
 }
 
@@ -238,9 +232,7 @@
     background-color: black;
     overflow: clip scroll;
     padding: 16px;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_vertical_vscroll_psd.vtex") 1;
-
     transition-property: height, wash-color;
     transition-duration: 0.25s;
 }
@@ -265,11 +257,8 @@
     height: 64px;
     vertical-align: center;
     wash-color: accentColor;
-
     wash-color: #76d232;
-
     wash-color: #61bef0;
-
     background-image: url("s2r://panorama/images/compendium/shield_icon_psd.vtex");
     background-size: cover;
 }
@@ -299,12 +288,9 @@
     width: 100%;
     height: 16px;
     border: BRD;
-
     margin-bottom: 6px;
     padding: 3px;
-
     box-shadow: inset #17531a -3px 0px 6px;
-
     box-shadow: inset #173353 -3px 0px 6px;
 }
 
@@ -313,7 +299,6 @@
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#afe01c), to(#111111));
     box-shadow: inset accentColorGlow -3px 0px 6px;
     border-radius: 3px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1c99e0), to(#111111));
     box-shadow: inset accentColorGlow -3px 0px 6px;
     border-radius: 3px;
@@ -502,10 +487,8 @@
     border: 1px solid #224577;
     vertical-align: bottom;
     horizontal-align: right;
-
     margin-bottom: 16px;
     margin-right: 16px;
-
     z-index: 2;
 }
 
@@ -525,7 +508,6 @@
 
 #ActiveQuestChallenge {
     width: 650px;
-
     animation-duration: 0.51s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
@@ -536,6 +518,7 @@
         transform: translateX(30px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0px);
         opacity: 1;
@@ -577,7 +560,6 @@
     padding-top: 32px;
     background-color: #000000ad;
     border: 1px solid black;
-
     transition-property: opacity;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -601,14 +583,11 @@
     border: 2px solid black;
     margin-left: 16px;
     margin-top: 0px;
-
     saturation: 0.2;
-
     background-color: #000000ee;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-
     transition-property: opacity, saturation;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -647,10 +626,8 @@
     horizontal-align: center;
     margin-bottom: 20px;
     color: #3f82c0;
-
     text-shadow: 0px 1px 2px 3 #000000;
     box-shadow: fill -7px 0px 14px 0px #000000dd;
-
     transition-property: color;
     transition-duration: 0.24s;
     transition-timing-function: ease-in-out;
@@ -661,19 +638,21 @@
     margin-bottom: 0px;
     text-transform: uppercase;
     letter-spacing: 1px;
-
     wash-color: #00000088;
 }
 
 #Questline1Picker {
     background-image: url("s2r://panorama/images/compendium/winter2016/support_quest_psd.vtex");
 }
+
 #Questline2Picker {
     background-image: url("s2r://panorama/images/compendium/winter2016/solo_quest_psd.vtex");
 }
+
 #Questline3Picker {
     background-image: url("s2r://panorama/images/compendium/winter2016/carry_quest_psd.vtex");
 }
+
 #Questline4Picker {
     background-image: url("s2r://panorama/images/compendium/winter2016/newbloom_quest_psd.vtex");
     horizontal-align: center;
@@ -704,9 +683,7 @@
     padding-left: 6px;
     padding-top: 4px;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#bd4d3822), to(#bd4d3800));
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#334e2566), to(#334e2500));
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#122b5aaa), to(#122b5a00));
 }
 
@@ -714,7 +691,6 @@
     color: textBrightColor;
     padding-left: 6px;
     padding-top: 6px;
-
     width: 290px;
     height: fit-children;
 }
@@ -722,9 +698,7 @@
 #QuestWell {
     width: 900px;
     height: 353px;
-
     overflow: clip;
-
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex") 1;
     visibility: collapse;
 }
@@ -732,10 +706,8 @@
 #RewardsWell {
     width: 1126px;
     height: 390px;
-
     vertical-align: top;
     overflow: clip;
-
     z-index: 3;
 }
 
@@ -755,7 +727,6 @@
     width: 1126px;
     height: 390px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#000000aa), to(#00000000));
-
     transition-property: border;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -789,7 +760,6 @@
     width: 49%;
     text-align: center;
     vertical-align: middle;
-
     height: 200px;
     background-color: gradient(
         linear,
@@ -810,7 +780,6 @@
 #BalanceStatsWell {
     horizontal-align: left;
     vertical-align: middle;
-
     margin-right: 20px;
 }
 
@@ -837,7 +806,6 @@
 .HomeLeaderboard {
     width: 100%;
     margin-top: -16px;
-
     transition-property: wash-color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
@@ -856,7 +824,6 @@
 .AsyncWagerInfoData {
     opacity: 0;
     margin-bottom: 32px;
-
     transition-property: opacity;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -896,7 +863,6 @@
 #EventEndedLabel {
     text-transform: uppercase;
     text-shadow: 0px 0px 12px 2 #035581;
-
     color: #88b1d1;
     letter-spacing: 2px;
     font-size: 14px;
@@ -930,7 +896,6 @@
 
 #MyQuests {
     height: 100%;
-
     width: 100%;
 }
 
@@ -951,10 +916,8 @@
     margin-bottom: 77px;
     wash-color: textMediumColor;
     opacity: 0;
-
     transition-property: opacity, wash-color;
     transition-duration: 0.12s;
-
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#0b270500), to(#28533933));
 }
 
@@ -996,9 +959,7 @@
     horizontal-align: right;
     margin-right: 16px;
     min-width: 400px;
-
     flow-children: right;
-
     transition-property: opacity, wash-color;
     transition-duration: 0.12s;
 }
@@ -1015,16 +976,14 @@
 .BigDeal .RewardLevel {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#66281f), to(#a6352b));
     border: 2px solid #bf686d;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#3b661f), to(#5ca62b));
     border: 2px solid #97bf68;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1f4066), to(#2b68a6));
     border: 2px solid #6893bf;
-
     width: 40px;
     height: 40px;
 }
+
 .BigDeal .RewardLevel > Label {
     width: 100%;
     text-align: center;

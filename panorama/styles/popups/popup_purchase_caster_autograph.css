@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupPurchaseCasterAutograph.PopupPanel {
     flow-children: none;
     width: 720px;
@@ -6,10 +8,8 @@ DOTAPopupPurchaseCasterAutograph.PopupPanel {
     border: 0px solid #00000000;
     background-color: gradient(linear, 0% 0%, 90% 100%, from(#202429), to(#060708));
     box-shadow: fill #00000066 0px 0px 24px 0px;
-
     vertical-align: center;
     horizontal-align: center;
-
     background-image: url("s2r://panorama/images/compendium/international2020/compendium/signature_panel_bg_psd.vtex");
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,6 +37,7 @@ DOTAPopupPurchaseCasterAutograph.PopupPanel {
     height: 32px;
     background-image: url("s2r://panorama/images/control_icons/x_close_white_psd.vtex");
 }
+
 .TooltipHeader {
     flow-children: down;
     background-image: url("s2r://panorama/images/dpc/tournament_branding/ti10_upper_block_psd.vtex");
@@ -45,7 +46,6 @@ DOTAPopupPurchaseCasterAutograph.PopupPanel {
     width: 100%;
     padding: 8px 8px 4px 8px;
     height: 68px;
-
     background-img-opacity: 0.9;
     box-shadow: fill #00000066 0px 0px 24px 0px;
 }
@@ -79,7 +79,6 @@ DOTAPopupPurchaseCasterAutograph.PopupPanel {
         color-stop(0.8, #f5e9d798),
         to(#f5e9d798)
     );
-
     vertical-align: middle;
     horizontal-align: center;
     text-shadow: 1px 1px 3px 3 black;
@@ -102,7 +101,6 @@ DOTAPopupPurchaseCasterAutograph.PopupPanel {
     text-transform: uppercase;
     letter-spacing: 1px;
     horizontal-align: center;
-
     visibility: collapse;
 }
 
@@ -138,24 +136,18 @@ DOTAPopupPurchaseCasterAutograph.PopupPanel {
 #AutographImage {
     width: 240px;
     height: 240px;
-
     background-image: url("s2r://panorama/images/compendium/international2020/compendium/signature_large_bg_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50%;
-
     padding: 32px 32px;
     margin: -36px 0px 0px 0px;
     ui-scale: 140%;
     img-shadow: 1px 1px 4px 1 #000000018;
-
     horizontal-align: right;
     vertical-align: bottom;
-
     transform: rotateZ(-4deg);
-
     opacity: 1;
-
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -178,7 +170,6 @@ DOTAPopupPurchaseCasterAutograph.PopupPanel {
 #ChatWheelPreview:hover {
     transition-property: brightness;
     transition-duration: 0.2s;
-
     brightness: 1.4;
 }
 
@@ -236,12 +227,10 @@ DOTAPopupPurchaseCasterAutograph.PopupPanel {
 
 #TeamPackPurchaseButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#60842c), to(#40601d));
-
     height: 36px;
     vertical-align: middle;
     flow-children: right;
     border-top: 1px solid #ffffff22;
-
     padding: 4px 14px 3px 14px;
     min-width: 180px;
     height: 36px;
@@ -255,7 +244,6 @@ DOTAPopupPurchaseCasterAutograph.PopupPanel {
     horizontal-align: center;
     font-size: 18px;
     letter-spacing: 1px;
-
     color: bluegreyTextBright;
     horizontal-align: center;
     font-weight: semi-bold;

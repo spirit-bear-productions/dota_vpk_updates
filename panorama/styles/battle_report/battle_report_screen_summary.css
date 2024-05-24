@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABattleReportScreenSummary {
     flow-children: down;
 }
@@ -92,7 +94,6 @@ DOTABattleReportScreenSummary .ReportScreenTitleContainer {
 .SingleMedal .MedalImage {
     width: 100%;
     height: 60%;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center top;
@@ -101,9 +102,11 @@ DOTABattleReportScreenSummary .ReportScreenTitleContainer {
 .SingleMedal.Gold .MedalImage {
     background-image: url("s2r://panorama/images/battle_report/gold_medal_small_psd.vtex");
 }
+
 .SingleMedal.Silver .MedalImage {
     background-image: url("s2r://panorama/images/battle_report/silver_medal_small_psd.vtex");
 }
+
 .SingleMedal.Bronze .MedalImage {
     background-image: url("s2r://panorama/images/battle_report/bronze_medal_small_psd.vtex");
 }
@@ -134,15 +137,19 @@ DOTABattleReportScreenSummary .ReportScreenTitleContainer {
 .SafeLane .RoleBackground {
     background-image: url("s2r://panorama/images/battle_report/battle_report_role_positions_bot_bg_psd.vtex");
 }
+
 .MidLane .RoleBackground {
     background-image: url("s2r://panorama/images/battle_report/battle_report_role_positions_mid_bg_psd.vtex");
 }
+
 .OffLane .RoleBackground {
     background-image: url("s2r://panorama/images/battle_report/battle_report_role_positions_top_bg_psd.vtex");
 }
+
 .SoftSupport .RoleBackground {
     background-image: url("s2r://panorama/images/battle_report/battle_report_role_positions_top_bg_psd.vtex");
 }
+
 .HardSupport .RoleBackground {
     background-image: url("s2r://panorama/images/battle_report/battle_report_role_positions_bot_bg_psd.vtex");
 }
@@ -153,7 +160,6 @@ DOTABattleReportScreenSummary .ReportScreenTitleContainer {
     vertical-align: middle;
     horizontal-align: center;
     img-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -162,15 +168,19 @@ DOTABattleReportScreenSummary .ReportScreenTitleContainer {
 .SafeLane .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/safelaneicon_psd.vtex");
 }
+
 .MidLane .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/midlaneicon_psd.vtex");
 }
+
 .OffLane .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/offlaneicon_psd.vtex");
 }
+
 .SoftSupport .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/softsupporticon_psd.vtex");
 }
+
 .HardSupport .RoleIcon {
     background-image: url("s2r://panorama/images/rank_tier_icons/handicap/hardsupporticon_psd.vtex");
 }
@@ -244,7 +254,6 @@ DOTABattleReportScreenSummary .ReportScreenTitleContainer {
     width: 48px;
     height: 48px;
     vertical-align: center;
-
     background-image: dotaPlusCurrencyIcon;
     background-size: contain;
     background-repeat: no-repeat;
@@ -267,15 +276,12 @@ DOTABattleReportScreenSummary .ReportScreenTitleContainer {
     horizontal-align: center;
     margin-top: 16px;
     border: 2px solid rgba(255, 255, 255, 0.01);
-
     transform: translateY(24px);
     opacity: 0;
-
     transition-property: transform, opacity, border-brush, box-shadow, background-color;
     transition-duration: 0.6s;
     transition-delay: 0.2s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
-
     animation-name: glowButton;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -283,6 +289,7 @@ DOTABattleReportScreenSummary .ReportScreenTitleContainer {
     animation-direction: alternate;
     animation-delay: 1s;
 }
+
 .Active #BattleAnalysisBanner {
     transform: none;
     opacity: 1;
@@ -306,6 +313,7 @@ DOTABattleReportScreenSummary .ReportScreenTitleContainer {
     width: fill-parent-flow(1);
     margin-right: 20px;
 }
+
 #BattleAnalysisBanner .Description b {
     color: #f1d380;
 }
@@ -315,12 +323,10 @@ DOTABattleReportScreenSummary .ReportScreenTitleContainer {
     width: 100%;
     height: 100%;
     margin: -2px;
-
     transition-property: border-brush, box-shadow;
     transition-duration: 1s;
     transition-delay: 0.4s;
     transition-timing-function: cubic-bezier(0.5, 0, 0, 1);
-
     border: 2px solid white;
     border-brush: gradient(
         linear,
@@ -331,6 +337,7 @@ DOTABattleReportScreenSummary .ReportScreenTitleContainer {
         to(rgba(255, 255, 255, 0.01))
     );
 }
+
 .Active .BorderAnimation {
     border-brush: gradient(
         linear,
@@ -340,7 +347,6 @@ DOTABattleReportScreenSummary .ReportScreenTitleContainer {
         color-stop(0.5, rgba(255, 255, 255, 0.3)),
         to(rgba(255, 255, 255, 0.01))
     );
-
     transition-duration: 0.4s;
     transition-delay: 0s;
 }

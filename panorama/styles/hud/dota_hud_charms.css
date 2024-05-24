@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDCharms {
     margin-top: 500px;
     horizontal-align: left;
@@ -140,7 +142,6 @@ DOTAHUDCharm {
     height: 40px;
     overflow: noclip;
     vertical-align: center;
-
     margin: 3px;
 }
 

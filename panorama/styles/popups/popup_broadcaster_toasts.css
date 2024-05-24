@@ -1,13 +1,12 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .ToastTextEntryHeader {
     border: 2px solid #ffffff11;
     max-width: 500px;
     min-width: 340px;
     height: 120px;
-
     padding: 1px 1px 1px 1px;
-
     background-color: none;
-
     color: white;
     font-size: 16px;
     text-overflow: clip;
@@ -20,11 +19,8 @@
     max-width: 500px;
     min-width: 340px;
     height: 120px;
-
     padding: 1px 1px 1px 1px;
-
     background-color: none;
-
     color: white;
     font-size: 16px;
     text-overflow: clip;
@@ -78,18 +74,23 @@ TextEntry.HasInput #PlaceholderText {
 #ToastStyleBasic {
     background-image: url("s2r://panorama/images/broadcaster/simpletext_png.vtex");
 }
+
 #ToastStyleSingleImage {
     background-image: url("s2r://panorama/images/broadcaster/singleimage_png.vtex");
 }
+
 #ToastStyleDualImage {
     background-image: url("s2r://panorama/images/broadcaster/dualimage_png.vtex");
 }
+
 #ToastStyleTable {
     background-image: url("s2r://panorama/images/broadcaster/table_png.vtex");
 }
+
 #ToastStyleMultiline {
     background-image: url("s2r://panorama/images/broadcaster/multiline_png.vtex");
 }
+
 #ToastStyleBroadcasterFact {
     background-image: url("s2r://panorama/images/broadcaster/fact_png.vtex");
 }
@@ -129,7 +130,6 @@ TextEntry.HasInput #PlaceholderText {
     font-size: 24px;
     font-weight: thin;
     color: #afb4b4;
-
     margin-bottom: 2px;
     horizontal-align: center;
 }

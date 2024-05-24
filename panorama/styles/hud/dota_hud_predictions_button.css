@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPredictionsButton {
     flow-children: right;
     background-color: black;
@@ -23,7 +25,6 @@ DOTAPredictionsButton.ShowCharmsButton {
     width: 35px;
     height: 35px;
     margin-left: 2px;
-
     background-image: url("s2r://panorama/images/control_icons/x_close_png.vtex");
     background-size: 60%;
     background-repeat: no-repeat;

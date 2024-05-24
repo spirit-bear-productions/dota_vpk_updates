@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAHUDStrAgiInt {
     visibility: collapse;
     background-color: black;
@@ -156,6 +158,7 @@ DOTAHUDStrAgiInt.ShowStrAgiInt {
     font-family: monospaceNumbersFont;
     text-align: right;
 }
+
 .Reborn .AltPressed .StatLabel {
     font-size: 12px;
     margin-bottom: 4px;
@@ -238,15 +241,11 @@ DOTAHUDStrAgiInt.ShowStrAgiInt {
 
 .Reborn #StrengthIcon {
     border: 0px solid #ec3d06;
-
     border-radius: 50%;
-
     background-image: url("s2r://panorama/images/primary_attribute_icons/mini_primary_attribute_icon_strength_psd.vtex");
     width: 13px;
     height: 13px;
-
     opacity: 0.5;
-
     margin-left: 3px;
     brightness: 0.8;
 }
@@ -255,10 +254,8 @@ DOTAHUDStrAgiInt.ShowStrAgiInt {
     background-image: url("s2r://panorama/images/primary_attribute_icons/mini_primary_attribute_icon_agility_psd.vtex");
     width: 13px;
     height: 13px;
-
     opacity: 0.5;
     brightness: 0.8;
-
     margin-left: 3px;
 }
 
@@ -268,16 +265,12 @@ DOTAHUDStrAgiInt.ShowStrAgiInt {
 
 .Reborn #IntelligenceIcon {
     border: 0px solid #00d9ec;
-
     background-image: url("s2r://panorama/images/hud/reborn/mini_int_icon_psd.vtex");
     background-image: url("s2r://panorama/images/primary_attribute_icons/mini_primary_attribute_icon_intelligence_psd.vtex");
-
     width: 13px;
     height: 13px;
-
     opacity: 0.5;
     brightness: 0.8;
-
     margin-left: 3px;
 }
 

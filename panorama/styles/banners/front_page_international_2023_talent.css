@@ -1,8 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .Top {
     flow-children: down;
     width: 100%;
     padding: 24px 16px;
 }
+
 .Top Label {
     width: 100%;
     text-align: center;
@@ -39,6 +42,7 @@
     width: 100%;
     flow-children: down;
 }
+
 .Bottom .Desc {
     width: 100%;
     text-align: center;

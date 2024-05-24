@@ -1,12 +1,11 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 @define correctColor: textAccentColorBright;
 @define incorrectColor: #c00;
-
 DOTATriviaGame {
     flow-children: down;
-
     background-color: ultraDarkColor;
     border: 1px solid accentColorGlow;
-
     width: 336px;
     height: 480px;
 }
@@ -38,7 +37,6 @@ DOTATriviaGame {
     color: #fff;
     padding: 4px 0px 2px 0px;
     text-align: right;
-
     visibility: collapse;
 }
 
@@ -53,6 +51,7 @@ DOTATriviaGame {
     0% {
         transform: scale3d(1, 1, 1);
     }
+
     100% {
         transform: scale3d(1.2, 1.2, 1);
     }
@@ -60,7 +59,6 @@ DOTATriviaGame {
 
 #CurrentScore.LocalUserPointsAnimating {
     color: correctColor;
-
     animation-name: AnimatingScorePulse;
     animation-duration: 0.25s;
     animation-timing-function: ease-in-out;
@@ -81,9 +79,7 @@ DOTATriviaGame {
 .TriviaMainContents {
     width: 100%;
     height: 100%;
-
     flow-children: down;
-
     visibility: collapse;
 }
 
@@ -91,6 +87,7 @@ DOTATriviaGame {
 .QuestionActive #QuestionActive {
     visibility: visible;
 }
+
 .QuestionActive #TriviaInactive {
     visibility: collapse;
 }
@@ -106,7 +103,6 @@ DOTATriviaGame {
     height: 200px;
     horizontal-align: center;
     margin-bottom: 20px;
-
     background-image: url("s2r://panorama/images/compendium/trivia_logo_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
@@ -120,7 +116,6 @@ DOTATriviaGame {
     text-transform: uppercase;
     padding: 0px 8px;
     font-size: 20px;
-
     visibility: collapse;
 }
 
@@ -137,7 +132,6 @@ DOTATriviaGame {
 #InactiveSpinner {
     flow-children: right;
     horizontal-align: center;
-
     visibility: collapse;
 }
 
@@ -149,30 +143,33 @@ DOTATriviaGame {
 .InactiveSpinnerPart {
     width: 34px;
     height: 34px;
-
     wash-color: textAccentColor;
     background-image: none;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-
     animation-name: SpinnerRotate;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 #InactiveSpinnerPart0 {
     animation-delay: 0.1s;
 }
+
 #InactiveSpinnerPart1 {
     animation-delay: 0.2s;
 }
+
 #InactiveSpinnerPart2 {
     animation-delay: 0.3s;
 }
+
 #InactiveSpinnerPart3 {
     animation-delay: 0.4s;
 }
+
 #InactiveSpinnerPart4 {
     animation-delay: 0.5s;
 }
@@ -184,7 +181,6 @@ DOTATriviaGame {
     text-align: center;
     font-size: 18px;
     margin-top: 4px;
-
     visibility: collapse;
 }
 
@@ -220,10 +216,8 @@ DOTATriviaGame {
 .AnswerButton {
     width: fill-parent-flow(1);
     height: 64px;
-
     background-color: secondaryDarkColor;
     border: 1px solid accentColorGlow;
-
     padding: 4px;
     margin: 4px;
 }
@@ -292,10 +286,8 @@ DOTATriviaGame {
 .AnswerResultsIcon {
     width: 18px;
     height: 18px;
-
     horizontal-align: center;
     vertical-align: bottom;
-
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -344,7 +336,6 @@ DOTATriviaGame {
 .HeroAttributesIcon {
     width: 30px;
     height: 30px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -353,12 +344,15 @@ DOTATriviaGame {
 .HeroAttributesIcon.Strength {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_strength_psd.vtex");
 }
+
 .HeroAttributesIcon.Agility {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_psd.vtex");
 }
+
 .ColorBlindModeEnabled .HeroAttributesIcon.Agility {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility_colorblind_psd.vtex");
 }
+
 .HeroAttributesIcon.Intelligence {
     background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_intelligence_psd.vtex");
 }
@@ -381,7 +375,6 @@ DOTATriviaGame {
 .HeroStatsIcon {
     width: 26px;
     height: 26px;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -390,9 +383,11 @@ DOTATriviaGame {
 .HeroStatsIcon.Damage {
     background-image: url("s2r://panorama/images/hud/reborn/icon_damage_psd.vtex");
 }
+
 .HeroStatsIcon.Armor {
     background-image: url("s2r://panorama/images/hud/reborn/icon_armor_psd.vtex");
 }
+
 .HeroStatsIcon.MovementSpeed {
     background-image: url("s2r://panorama/images/hud/reborn/icon_speed_psd.vtex");
 }
@@ -419,7 +414,6 @@ DOTATriviaGame {
     height: 20px;
     vertical-align: middle;
     color: #ccc;
-
     font-size: 16px;
     text-overflow: shrink;
 }
@@ -431,13 +425,11 @@ DOTATriviaGame {
 .TalentLevel {
     width: 30px;
     margin: 0px 8px;
-
     border: 2px solid black;
     text-align: center;
     border-radius: 50%;
     padding-top: 2px;
     font-size: 16px;
-
     text-shadow: 0px 0px 3px 3.7 #ec780e24;
     color: #e7d291;
 }
@@ -445,23 +437,18 @@ DOTATriviaGame {
 .PlaySoundButton {
     width: 96px;
     height: 96px;
-
     background-color: gradient(linear, 0% 0%, 0% 100%, from(darkColor), to(darkColor));
     border-radius: 50%;
     border: 1px solid darkColor;
-
     horizontal-align: center;
 }
 
 .PlaySoundIcon {
     width: 60px;
     height: 60px;
-
     vertical-align: middle;
     horizontal-align: center;
-
     wash-color: #aaa;
-
     background-image: url("s2r://panorama/images/control_icons/play_sound_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -555,22 +542,24 @@ DOTATriviaGame {
 .AnswerContents .ManaCostIcon {
     width: 18px;
     height: 18px;
-
     transform: translateY(-2px);
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .AnswerContents .MovementSpeedIcon {
     background-image: url("s2r://panorama/images/hud/reborn/icon_speed_psd.vtex");
 }
+
 .AnswerContents .GoldIcon {
     background-image: url("s2r://panorama/images/hud/icon_gold_psd.vtex");
 }
+
 .AnswerContents .CooldownIcon {
     background-image: url("s2r://panorama/images/status_icons/ability_cooldown_icon_psd.vtex");
 }
+
 .AnswerContents .ManaCostIcon {
     background-image: url("s2r://panorama/images/status_icons/ability_manacost_icon_psd.vtex");
 }
@@ -584,7 +573,6 @@ DOTATriviaGame {
     width: 96px;
     height: 54px;
     margin-left: 6px;
-
     horizontal-align: center;
 }
 
@@ -592,7 +580,6 @@ DOTATriviaGame {
     width: 74px;
     height: 54px;
     margin-left: 8px;
-
     horizontal-align: center;
 }
 
@@ -600,7 +587,6 @@ DOTATriviaGame {
     width: 54px;
     height: 54px;
     margin-left: 8px;
-
     horizontal-align: center;
 }
 
@@ -612,11 +598,9 @@ DOTATriviaGame {
 .PhaseInfo {
     width: 100%;
     height: 100%;
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
     transition-delay: 0.25s;
-
     opacity: 0;
     transform: translateX(40px);
 }
@@ -671,7 +655,6 @@ DOTATriviaGame {
 #PhaseDisplayingCorrectAnswerInfo .DisplayingAnswerState {
     vertical-align: middle;
     horizontal-align: center;
-
     visibility: collapse;
 }
 
@@ -693,18 +676,22 @@ DOTATriviaGame {
 #CorrectAnswerState {
     flow-children: down;
 }
+
 #CorrectAnswerState > Label {
     color: correctColor;
     horizontal-align: center;
 }
+
 #CorrectPointsLabel {
     margin-top: -12px;
     font-size: 24px;
     text-transform: uppercase;
 }
+
 #PhaseDisplayingCorrectAnswerInfo #IncorrectLabel {
     color: incorrectColor;
 }
+
 #PhaseDisplayingCorrectAnswerInfo #NoAnswerLabel {
     color: #6663;
     font-size: 20px;
@@ -728,38 +715,39 @@ DOTATriviaGame {
 
 #PartyMemberResults {
     flow-children: down;
-
     overflow: squish scroll;
 }
 
 .PartyMemberResult {
     flow-children: right;
     margin: 0px 8px -2px 0px;
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
-
     opacity: 0;
     transform: translateX(30px);
-
     visibility: collapse;
 }
 
 #PartyMemberResult0 {
     transition-delay: 0.3s;
 }
+
 #PartyMemberResult1 {
     transition-delay: 0.6s;
 }
+
 #PartyMemberResult2 {
     transition-delay: 0.9s;
 }
+
 #PartyMemberResult3 {
     transition-delay: 1.2s;
 }
+
 #PartyMemberResult4 {
     transition-delay: 1.5s;
 }
+
 #PartyMemberResult5 {
     transition-delay: 1.8s;
 }
@@ -797,6 +785,7 @@ DOTATriviaGame {
 .PartyMemberAnswerCorrect .PartyAnswerLetter {
     color: correctColor;
 }
+
 .PartyMemberAnswerIncorrect .PartyAnswerLetter {
     color: incorrectColor;
 }
@@ -809,10 +798,8 @@ DOTATriviaGame {
 .WorldAnswerResult {
     width: 100%;
     flow-children: right;
-
     transition-property: opacity, transform;
     transition-duration: 0.3s;
-
     opacity: 0;
     transform: translateX(30px);
 }
@@ -827,12 +814,15 @@ DOTATriviaGame {
 #WorldAnswerResult0 {
     transition-delay: 0.3s;
 }
+
 #WorldAnswerResult1 {
     transition-delay: 0.6s;
 }
+
 #WorldAnswerResult2 {
     transition-delay: 0.9s;
 }
+
 #WorldAnswerResult3 {
     transition-delay: 1.2s;
 }
@@ -845,6 +835,7 @@ DOTATriviaGame {
 .WorldAnswerCorrect .WorldAnswerLetter {
     color: correctColor;
 }
+
 .WorldAnswerIncorrect .WorldAnswerLetter {
     color: incorrectColor;
 }
@@ -858,7 +849,6 @@ DOTATriviaGame {
     vertical-align: middle;
     height: 10px;
     background-color: #999;
-
     transition-property: width;
     transition-duration: 0.5s;
 }
@@ -866,6 +856,7 @@ DOTATriviaGame {
 .WorldAnswerCorrect .WorldAnswerBar {
     background-color: correctColor;
 }
+
 .WorldAnswerIncorrect .WorldAnswerBar {
     background-color: textAccentColor&66;
 }
@@ -892,11 +883,9 @@ DOTATriviaGame {
     color: correctColor;
     text-transform: uppercase;
     text-shadow: 0px 0px 4px 2 darkColor;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-delay: 1.7s;
-
     opacity: 0;
 }
 
@@ -955,14 +944,10 @@ DOTATriviaGame {
 #FooterPartyMembers > DOTAAvatarImage {
     width: 24px;
     height: 24px;
-
     margin-right: 2px;
-
     wash-color: #999;
-
     transition-property: wash-color;
     transition-duration: 0.5s;
-
     visibility: collapse;
 }
 
@@ -983,7 +968,6 @@ DOTATriviaGame {
     wash-color: secondaryBrightColor;
     tooltip-position: bottom;
     tooltip-body-position: 50% 50%;
-
     background-image: url("s2r://panorama/images/control_icons/comment_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -1007,7 +991,6 @@ DOTATriviaGame {
     wash-color: secondaryBrightColor;
     tooltip-position: bottom;
     tooltip-body-position: 50% 50%;
-
     background-image: url("s2r://panorama/images/control_icons/bell_off_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -1039,10 +1022,8 @@ DOTATriviaGame {
     margin-left: 15px;
     vertical-align: center;
     horizontal-align: center;
-
     width: 290px;
     height: 114px;
-
     background-image: url("s2r://panorama/images/textures/dota_itembuild_trivia_baked_inventory_psd.vtex");
     background-repeat: no-repeat;
     background-position: center, center;
@@ -1072,11 +1053,9 @@ DOTATriviaGame {
     horizontal-align: right;
     width: 48px;
     height: 48px;
-
     background-image: url("s2r://panorama/images/hud/reborn/bg_neutral_slot_png.vtex");
     background-size: 100%;
     background-position: center;
-
     border-radius: 50%;
     border: 1px solid #393939;
     box-shadow: inset #000000cc 1px 1px 8px 6px;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .FooterGradient {
     background-color: gradient(linear, 0% 0%, 0% 75%, from(#0d0b1000), color-stop(0.8, #0d0b10e8), to(#0d0b10));
     width: 100%;
@@ -10,10 +12,12 @@
     flow-children: right;
     horizontal-align: center;
 }
+
 .ProceedsNotes Label {
     vertical-align: center;
     opacity: 0.8;
 }
+
 .ProceedsNotes Label b {
     color: gradient(linear, 0% 30%, 0% 140%, from(#5aa15e), to(#406c55));
     font-weight: semi-bold;
@@ -40,11 +44,11 @@
     padding: 4px 16px;
     margin-top: 16px;
     border-radius: 4px;
-
     transition-property: opacity;
     transition-duration: 0.1s;
     transition-timing-function: ease;
 }
+
 .TreasureGrantButton Label {
     color: white;
     horizontal-align: center;
@@ -72,10 +76,10 @@
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
     border-radius: 2px;
     brightness: 1;
-
     transition-property: background-color;
     transition-duration: 0.1s;
 }
+
 .CloseButton.Small {
     width: 64px;
     height: 44px;
@@ -93,6 +97,7 @@
     transition-delay: 0.6s;
     transition-timing-function: cubic-bezier(0, 1, 0, 1);
 }
+
 .QualitySelector .Title {
     vertical-align: center;
     font-size: 18px;
@@ -111,6 +116,7 @@
     border-radius: 200px;
     border: 1px solid rgba(255, 255, 255, 0);
 }
+
 .QualitySelector .QualitySelection .RadioBox {
     visibility: collapse;
 }
@@ -122,6 +128,7 @@
     border-radius: 50%;
     vertical-align: center;
 }
+
 .QualitySelector .QualitySelection .QualityRadioBox .Dot {
     width: 16px;
     height: 16px;
@@ -169,6 +176,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#2b2f3a), to(#25262c));
 }
+
 .QualitySelector .QualitySelection:selected .QualityName {
     opacity: 1;
 }

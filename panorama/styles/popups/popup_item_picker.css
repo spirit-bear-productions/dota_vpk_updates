@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #PopupContents {
     flow-children: down;
 }
@@ -49,6 +51,7 @@ DOTAItemPickerChoice #ChoiceLabels {
     margin-right: 8px;
     height: fill-parent-flow(1);
 }
+
 DOTAItemPickerChoice #ChoiceLabelsContents {
     vertical-align: top;
     flow-children: down;
@@ -88,6 +91,7 @@ DOTAItemPickerChoice.IsInspectable .DetailEmptySpace {
 DOTAItemPickerChoice #ViewItemButton Label {
     font-size: 16px;
 }
+
 DOTAItemPickerChoice #ViewItemButton:hover Label {
     text-decoration: underline;
 }
@@ -97,6 +101,7 @@ DOTAItemPickerChoice #SelectButton {
     padding: 4px 10px 2px 10px;
     margin: 0px;
 }
+
 DOTAItemPickerChoice #SelectButton Label {
     text-transform: uppercase;
     font-size: 18px;

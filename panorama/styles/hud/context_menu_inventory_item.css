@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #Contents {
     padding: 0px;
     margin: 0px;
@@ -34,18 +36,23 @@ Button Label#SellBackSeconds {
 Button:hover Label {
     color: #eae9e9;
 }
+
 .bSellable #Sell {
     visibility: visible;
 }
+
 .bDisassemble #Disassemble {
     visibility: visible;
 }
+
 .bShowCombineLock #CombineLock {
     visibility: visible;
 }
+
 .bShowCombineUnlock #CombineUnlock {
     visibility: visible;
 }
+
 .bIsNeutralItem Button#CombineLock,
 .bIsNeutralItem Button#CombineUnlock {
     background-color: #020b02;
@@ -59,24 +66,31 @@ Button:hover Label {
 .bShowInShop #ShowInShop {
     visibility: visible;
 }
+
 .bDropFromStash #DropFromStash {
     visibility: visible;
 }
+
 .bAlertable #Alert {
     visibility: visible;
 }
+
 .bMoveToStash #MoveToStash {
     visibility: visible;
 }
+
 .bDropAtFountain #DropAtFountain {
     visibility: visible;
 }
+
 .bTeleportToNeutralStash #TeleportToNeutralStash {
     visibility: visible;
 }
+
 .bDropImmediate #DropImmediate {
     visibility: visible;
 }
+
 .bCanBeConsumed #ConsumeItem {
     visibility: visible;
 }

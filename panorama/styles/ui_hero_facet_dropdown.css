@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .HeroFacetDropdown {
     width: 52px;
     height: 52px;
@@ -34,11 +36,9 @@
 .FacetBackground {
     width: 100%;
     height: 100%;
-
     transition-property: brightness, saturation;
     transition-duration: 0.1s;
     transition-timing-function: ease-out;
-
     animation-name: BorderPulse;
     animation-timing-function: ease-in-out;
     animation-duration: 2s;
@@ -61,7 +61,6 @@
     background-color: DarkGreyGradientBackgroundColor;
     opacity: 0.96;
     box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
-
     transition-property: background-color;
     transition-duration: 0.1s;
     transition-timing-function: ease-out;
@@ -82,11 +81,11 @@
     horizontal-align: center;
     background-size: cover;
     img-shadow: 0px 2px 8px black;
-
     transition-property: transform, brightness;
     transition-duration: 0.1s;
     transition-timing-function: ease-out;
 }
+
 .Small #FacetIcon {
     width: 16px;
     height: 16px;

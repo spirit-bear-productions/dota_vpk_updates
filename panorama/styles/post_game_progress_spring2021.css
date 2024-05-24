@@ -1,5 +1,6 @@
-@define Spring2021ProgressFadeTime: 0.1s;
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define Spring2021ProgressFadeTime: 0.1s;
 .Spring2021Progress {
     color: gradient(linear, 0% 100%, 0% 0%, from(#a6e5e8), to(#24addf));
     color: highlightGradient;
@@ -10,14 +11,11 @@
     width: 100%;
     height: 100%;
     margin-top: 180px;
-
     background-image: url("s2r://panorama/images/compendium/international2020/bp-postgame-progress-bg_jpg.vtex");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
-
     overflow: noclip;
-
     visibility: collapse;
 }
 
@@ -31,7 +29,6 @@
     background-size: cover;
     background-position: center;
     brightness: 0.2;
-
     visibility: collapse;
 }
 
@@ -42,7 +39,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
     horizontal-align: center;
     z-index: 2;
     transform: translateY(-180px);
@@ -53,9 +49,7 @@
     width: 1440px;
     horizontal-align: center;
     overflow: noclip;
-
     margin-top: 120px;
-
     flow-children: down;
 }
 
@@ -81,7 +75,6 @@
     margin-top: 12px;
     vertical-align: middle;
     wash-color: defaultColor;
-
     background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -152,10 +145,8 @@
     color: accentColorBright;
     font-size: 18px;
     vertical-align: bottom;
-
     margin-left: 8px;
     text-align: right;
-
     horizontal-align: right;
 }
 
@@ -186,7 +177,6 @@
     color: gradient(linear, 0% 0%, 0% 100%, from(#f8f3ed), to(#f8e8b9));
     letter-spacing: 1px;
     font-size: 60px;
-
     text-shadow: 1px 3px 0px #8e601b;
     transform: translateY(-8px);
 }
@@ -198,7 +188,6 @@
 
 .SeasonalPassProgressCore {
     margin-top: 8px;
-
     flow-children: right;
     horizontal-align: center;
 }
@@ -211,9 +200,7 @@
     margin: 4px;
     padding: 12px;
     opacity: 0;
-
     visibility: collapse;
-
     transition-property: opacity, transform;
     transition-duration: Spring2021ProgressFadeTime;
     transition-timing-function: ease-in;
@@ -225,7 +212,6 @@
 
 .Spring2021ProgressTypeContainerLarge {
     width: 660px;
-
     background-image: url("s2r://panorama/images/events/nemestice/postgame_weekly_progress_bg_psd.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -256,10 +242,8 @@
     height: 40px;
     margin-bottom: 4px;
     flow-children: right;
-
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1);
-
     transition-property: opacity, transform;
     transition-duration: Spring2021ProgressFadeTime;
     transition-timing-function: ease-in;
@@ -273,13 +257,10 @@
 .Spring2021Action {
     width: fit-children;
     horizontal-align: center;
-
     margin-bottom: 10px;
     flow-children: right;
-
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1);
-
     transition-property: opacity, transform;
     transition-duration: Spring2021ProgressFadeTime;
     transition-timing-function: ease-in;
@@ -302,7 +283,6 @@
 #GuildContractList .Spring2021GuildContract {
     opacity: 0;
     transform: translateY(20px);
-
     transition-property: opacity, transform;
     transition-duration: 0.2s;
 }
@@ -327,7 +307,6 @@
 .GauntletSpring2021Progress {
     width: 1440px;
     horizontal-align: center;
-
     margin-top: 737px;
 }
 
@@ -406,7 +385,6 @@
 .WeeklyProgressItemName {
     padding-left: 16px;
     color: #fff;
-
     font-size: 14px;
     color: rgb(255, 196, 245);
     font-weight: normal;
@@ -502,6 +480,7 @@
     0% {
         pre-transform-scale2d: 1;
     }
+
     100% {
         pre-transform-scale2d: 1.25;
     }
@@ -565,7 +544,6 @@
     opacity: 0;
     transition-property: color;
     transition-duration: 2s;
-
     transition-timing-function: ease-in;
 }
 
@@ -618,12 +596,10 @@
     width: 100%;
     height: 100%;
     margin-top: 180px;
-
     background-image: url("s2r://panorama/images/compendium/international2020/bp-postgame-progress-bg_jpg.vtex");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
-
     overflow: noclip;
 }
 
@@ -637,7 +613,6 @@
     background-size: cover;
     background-position: center;
     brightness: 0.2;
-
     visibility: collapse;
 }
 
@@ -648,7 +623,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
     horizontal-align: center;
     z-index: 2;
     transform: translateY(-180px);
@@ -658,14 +632,10 @@
     width: 1440px;
     horizontal-align: center;
     overflow: noclip;
-
     margin-top: 212px;
-
     opacity: 1;
-
     transition-property: opacity, transform;
     transition-duration: 0.5s;
-
     flow-children: down;
 }
 
@@ -701,7 +671,6 @@
     margin-top: 12px;
     vertical-align: middle;
     wash-color: defaultColor;
-
     background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
@@ -795,7 +764,6 @@
     vertical-align: bottom;
     margin-top: -2px;
     text-align: right;
-
     font-weight: normal;
     font-size: 16px;
     color: textDefaultColor;
@@ -878,7 +846,6 @@
     font-size: 24px;
     text-shadow: 0px 0px 5px accentColor;
     margin-top: -2px;
-
     height: 40px;
 }
 
@@ -889,7 +856,6 @@
 
 #BattlePassProgressCore {
     margin-top: 32px;
-
     flow-children: right;
     horizontal-align: center;
 }
@@ -902,9 +868,7 @@
     padding: 12px;
     border-top: 1px solid shadeColor;
     opacity: 0;
-
     visibility: collapse;
-
     transition-property: opacity, transform;
     transition-duration: BattlePassProgressFadeTime;
     transition-timing-function: ease-in;
@@ -929,7 +893,6 @@
 .ProgressTypeTitle {
     horizontal-align: center;
     margin-top: 8px;
-
     text-align: center;
     text-overflow: shrink;
     color: textUltraBrightColor;
@@ -952,7 +915,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     transform: translateY(9.5px);
-
     wash-color: #9e5599cc;
 }
 

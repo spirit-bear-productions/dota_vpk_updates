@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTARubickArcanaPage {
     width: 100%;
     height: 100%;
@@ -13,17 +15,14 @@ DOTARubickArcanaPage {
     transform: scaleX(1);
     width: 100%;
     height: 100%;
-
     pre-transform-scale2d: 1;
     vertical-align: middle;
     horizontal-align: center;
     saturation: 1;
     contrast: 1.03;
-
     transition-property: opacity, wash-color, saturation, contrast;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
-
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -43,10 +42,8 @@ DOTARubickArcanaPage {
     background-color: none;
     width: 775px;
     height: 879px;
-
     opacity: 0;
     transform: none;
-
     transition-property: opacity, transform;
     transition-duration: 1s;
 }
@@ -74,9 +71,7 @@ DOTARubickArcanaPage {
     width: 100%;
     height: 100%;
     background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_rubick/debut_bg_psd.vtex");
-
     background-repeat: no-repeat;
-
     opacity: 0;
     transition-property: wash-color;
     transition-duration: 0.8s;
@@ -115,7 +110,6 @@ DOTARubickArcanaPage {
 #InnerPanel,
 #ItemLore {
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -193,15 +187,19 @@ DOTARubickArcanaPage {
     height: 48px;
     vertical-align: top;
 }
+
 #AbilityIcon {
     background-image: url("s2r://panorama/images/spellicons/rubick/arcana/rubick_fade_bolt_arcana_png.vtex");
 }
+
 #AbilityIcon2 {
     background-image: url("s2r://panorama/images/spellicons/rubick/arcana/rubick_spell_steal_arcana_png.vtex");
 }
+
 #AbilityIcon3 {
     background-image: url("s2r://panorama/images/spellicons/rubick/arcana/rubick_telekinesis_arcana_png.vtex");
 }
+
 #AbilityIcon4 {
     background-image: url("s2r://panorama/images/spellicons/rubick/arcana/rubick_telekinesis_land_arcana_png.vtex");
 }
@@ -221,7 +219,6 @@ DOTARubickArcanaPage {
 
 #QualityContainer {
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.8s;
     transition-timing-function: ease-in-out;
@@ -248,7 +245,6 @@ VerticalScrollBar:active .ScrollThumb {
     width: 100%;
     height: 100%;
     wash-color: #000;
-
     transition-property: wash-color;
     transition-duration: 0.4s;
     transition-timing-function: ease-in;
@@ -274,7 +270,6 @@ DOTAPurchaseButton {
     margin-bottom: 20px;
     opacity: 0;
     width: 500px;
-
     transition-property: opacity;
     transition-duration: 0.8s;
     transition-timing-function: ease-in-out;
@@ -311,9 +306,7 @@ DOTAPurchaseButton {
     vertical-align: bottom;
     margin-bottom: 200px;
     margin-left: 700px;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     background-image: url("s2r://panorama/images/front_page/arcana_button_texture_png.vtex");
@@ -344,9 +337,7 @@ TextButton {
     vertical-align: bottom;
     margin-bottom: 200px;
     margin-left: 700px;
-
     opacity: 0;
-
     transition-property: opacity;
     transition-duration: 0.2s;
     background-image: url("s2r://panorama/images/front_page/arcana_button_texture_png.vtex");
@@ -375,10 +366,8 @@ TextButton {
     vertical-align: middle;
     margin-bottom: 200px;
     margin-left: 700px;
-
     opacity: 0;
     transform: translateX(-30px);
-
     transition-property: opacity, transform;
     transition-delay: 0.5s;
     transition-duration: 1s;

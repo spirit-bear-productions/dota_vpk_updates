@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTACarouselList {
     flow-children: right;
 }
@@ -75,7 +77,6 @@ DOTACarouselList {
         to(#3e474b00)
     );
     margin-right: 8px;
-
     transition-property: background-color;
     transition-duration: 0.2s;
     transition-delay: 0s;
@@ -107,15 +108,12 @@ DOTACarouselList {
 
 .CarouselListButton Label {
     color: #808f8d;
-
     text-transform: uppercase;
     font-size: 18px;
-
     height: 100%;
     margin: 8px 8px 6px 8px;
     transform: translateX(0px);
     background-color: none;
-
     transition-property: transform;
     transition-duration: 0.2s;
     transition-delay: 0s;

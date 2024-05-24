@@ -1,11 +1,10 @@
-@import url("s2r://panorama/styles/collection_shared.vcss_c");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@import url("s2r://panorama/styles/collection_shared.vcss_c");
 @define FooterHeight: 144px;
 @define QuickSearchFadeOutTime: 1.5s;
 @define ViewerListTransitionDuration: 0.3s;
-
 @define StickerSize_Large: 228px;
-
 DOTACollectionPage,
 DOTACollectionPageHeroes,
 DOTACollectionPageGlobal,
@@ -37,6 +36,7 @@ DOTACollectionPageShards {
     width: 100%;
     height: 100%;
 }
+
 .PopupBackgroundBlur #MainContentContainer {
     blur: gaussian(5);
     wash-color: #657b7baa;
@@ -52,6 +52,7 @@ DOTACollectionPageShards {
     margin: 0px 60px;
     padding-top: 130px;
 }
+
 #DOTACollectionPageFeatured #CollectionContent {
     padding-top: 60px;
 }
@@ -68,14 +69,15 @@ DOTACollectionPageShards {
     height: 100%;
     width: 300px;
     margin-right: 32px;
-
     flow-children: down;
     horizontal-align: left;
     vertical-align: center;
 }
+
 .AspectRatio16x10 #ControlGroup {
     width: 280px;
 }
+
 .SeasonalTreasure {
     ignore-parent-flow: true;
     vertical-align: bottom;
@@ -85,21 +87,26 @@ DOTACollectionPageShards {
     padding: 0px 12px;
     visibility: collapse;
 }
+
 .HasSeasonalTreasure .SeasonalTreasure {
     visibility: visible;
 }
+
 .SeasonalTreasure #SeasonalTreasureImage {
     width: 100%;
-    height: width-percentage (66.66%);
+    height: width-percentage(66.66%);
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 .SeasonalTreasure #SeasonalTreasureImage:hover {
     brightness: 2;
 }
+
 .SeasonalTreasure #SeasonalTreasureImage:active {
     brightness: 1.5;
 }
+
 .SeasonalTreasure .SeasonalTreasureTitle {
     horizontal-align: center;
     text-align: center;
@@ -108,48 +115,57 @@ DOTACollectionPageShards {
     color: LighterGrey;
     margin-top: 4px;
 }
+
 .SeasonalTreasure .SeasonalTreasureName {
     horizontal-align: center;
     text-align: center;
     font-size: 16px;
 }
+
 #HideUnplayedHeroesCheck {
     ignore-parent-flow: true;
     vertical-align: bottom;
     margin-bottom: 110px;
     padding: 8px 12px;
     background-color: #09121ef7;
-    border: 1px solid rgb (0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 4px;
-    box-shadow: 0px 4px 12px rgba (0, 0, 0, 0.4);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
     opacity: 0;
-    transform: translateY (12px);
+    transform: translateY(12px);
     transition-property: opacity, transform;
     transition-duration: 0.2s;
-    transition-timing-function: cubic-bezier (0, 0.9, 0, 0.9);
+    transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     visibility: collapse;
 }
+
 .CollectionGroup_Heroes #HideUnplayedHeroesCheck {
     visibility: visible;
 }
+
 #ControlGroup:hover #HideUnplayedHeroesCheck {
     transform: none;
 }
+
 #CollectionControlHeader {
     width: 100%;
     margin: 8px 0px;
 }
+
 #CollectionControlBody {
     width: 100%;
 }
+
 #CosmeticTypeTabs {
     vertical-align: center;
     horizontal-align: center;
     visibility: collapse;
 }
+
 .CollectionGroup_Heroes #CosmeticTypeTabs {
     visibility: visible;
 }
+
 #ViewerGroup {
     width: 1470px;
     height: 100%;
@@ -157,12 +173,15 @@ DOTACollectionPageShards {
     vertical-align: center;
     flow-children: down;
 }
+
 .AspectRatio16x10 #ViewerGroup {
     width: 1324px;
 }
+
 .AspectRatio21x9 #ViewerGroup {
     width: 1680px;
 }
+
 .CollectionGroup_Heroes.Items #ViewerGroup,
 .CollectionTab_Couriers #ViewerGroup,
 .CollectionTab_Wards #ViewerGroup,
@@ -175,6 +194,7 @@ DOTACollectionPageShards {
 .CollectionTab_Tormentor #ViewerGroup {
     width: 848px;
 }
+
 .AspectRatio16x10 .CollectionGroup_Heroes.Items #ViewerGroup,
 .AspectRatio16x10 .CollectionTab_Couriers #ViewerGroup,
 .AspectRatio16x10 .CollectionTab_Wards #ViewerGroup,
@@ -187,6 +207,7 @@ DOTACollectionPageShards {
 .AspectRatio16x10 .CollectionTab_Tormentor #ViewerGroup {
     width: 848px;
 }
+
 .AspectRatio21x9 .CollectionGroup_Heroes.Items #ViewerGroup,
 .AspectRatio21x9 .CollectionTab_Couriers #ViewerGroup,
 .AspectRatio21x9 .CollectionTab_Wards #ViewerGroup,
@@ -199,41 +220,49 @@ DOTACollectionPageShards {
 .AspectRatio21x9 .CollectionTab_Tormentor #ViewerGroup {
     width: 1054px;
 }
+
 .CollectionTab_Exclusive #ViewerGroup,
 .CollectionTab_Legacy #ViewerGroup,
 .CollectionTab_Relics #ViewerGroup {
     width: 956px;
 }
+
 .AspectRatio16x10 .CollectionTab_Exclusive #ViewerGroup,
 .AspectRatio16x10 .CollectionTab_Legacy #ViewerGroup,
 .AspectRatio16x10 .CollectionTab_Relics #ViewerGroup {
     width: 716px;
 }
+
 .AspectRatio21x9 .CollectionTab_Exclusive #ViewerGroup,
 .AspectRatio21x9 .CollectionTab_Legacy #ViewerGroup,
 .AspectRatio21x9 .CollectionTab_Relics #ViewerGroup {
     width: 1188px;
 }
+
 .TitleGroup {
     width: 100%;
     margin: 8px 0px 12px;
     flow-children: right;
 }
+
 .CollectionGroup_Global.CollectionTab_Stickers .TitleGroupLeft,
 .CollectionGroup_Global.CollectionTab_ChatWheel .TitleGroupLeft {
     width: 100%;
 }
+
 .TitleGroupControls {
     flow-children: right;
     vertical-align: center;
     horizontal-align: right;
     visibility: collapse;
 }
+
 .TitleGroupControlsContainer {
     vertical-align: center;
     horizontal-align: right;
     flow-children: right;
 }
+
 .CollectionGroup_Heroes.Items #HeroItemsTitleGroupControls,
 .CollectionGroup_Treasury #TreasuryTitleGroupControls,
 .CollectionGroup_Global #GlobalItemsTitleGroupControls,
@@ -241,23 +270,29 @@ DOTACollectionPageShards {
 .CollectionGroup_Global.CollectionTab_Stickers #StickersTitleGroupControls {
     visibility: visible;
 }
+
 .CollectionGroup_Shards.Relics #ShardsItemsSortByDropDown {
     visibility: collapse;
 }
+
 .CollectionGroup_Shards:not(.Relics) #ShardsRelicsSortByDropDown,
 .CollectionGroup_Shards:not(.Relics) #ShardsRelicsSearchTextEntry {
     visibility: collapse;
 }
+
 .CollectionGroup_Global.CollectionTab_Stickers #GlobalItemsTitleGroupControls,
 .CollectionGroup_Global.CollectionTab_ChatWheel #GlobalItemsTitleGroupControls {
     visibility: collapse;
 }
+
 #CustomToggleButton {
     visibility: collapse;
 }
+
 .CollectionGroup_Heroes.Sets #CustomToggleButton {
     visibility: visible;
 }
+
 .CollectionGroup_Treasury.CollectionTab_Keys #UnavailableToggleButton,
 .CollectionGroup_Treasury.CollectionTab_Keys #UnavailableInfoIcon,
 .CollectionGroup_Treasury.CollectionTab_Charms #UnavailableToggleButton,
@@ -266,34 +301,41 @@ DOTACollectionPageShards {
 .CollectionGroup_Global.CollectionTab_ChatWheel #UnavailableInfoIcon {
     visibility: collapse;
 }
+
 .CollectionGroup_Shards #Filters,
 .CollectionGroup_Global.CollectionTab_Stickers #Filters,
 .CollectionGroup_Global.CollectionTab_ChatWheel #Filters {
     visibility: collapse;
 }
+
 .TitleGroupControlsLabel {
     vertical-align: center;
     margin-right: 8px;
 }
+
 #BrowseGroupByDropDownContainer {
     visibility: collapse;
     box-shadow: inset 0px 0px 0px 1px red;
 }
+
 .GroupByDropDown,
 .SortByDropDown,
 .FilterByDropDown,
 #FilterDropDown {
     width: 200px;
 }
+
 .CollectionGroup_Shards #ItemsGroupTitle,
 .CollectionGroup_Browse.GroupByNone #ItemsGroupTitle,
 .CollectionGroup_Global.CollectionTab_ChatWheel #ItemsGroupTitle {
     visibility: collapse;
 }
+
 #CollectionViewerBody {
     width: 100%;
     height: 100%;
 }
+
 #SceneActionsContainer {
     horizontal-align: center;
     vertical-align: bottom;
@@ -302,52 +344,57 @@ DOTACollectionPageShards {
     margin-bottom: 16px;
     visibility: collapse;
 }
+
 #SceneActionsContainer .Dash {
     width: 100%;
     height: 1px;
     vertical-align: center;
     opacity: 0.02;
     margin: 12px 0px;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            100% 0%,
-
-            from (#ffffff00),
-            color-stop (0.3, #ffffff),
-            color-stop (0.7, #ffffff),
-            to (#ffffff00)
-        );
+    background-color: gradient(
+        linear,
+        0% 0%,
+        100% 0%,
+        from(#ffffff00),
+        color-stop(0.3, #ffffff),
+        color-stop(0.7, #ffffff),
+        to(#ffffff00)
+    );
 }
+
 #SceneActionsContainer Button {
     min-width: 160px;
     margin: 0px 4px;
 }
+
 .CollectionGroup_Heroes #SceneActionsContainer {
     visibility: visible;
 }
+
 #LargeModelLoadout {
     visibility: collapse;
 }
+
 #SceneGroup {
     width: 100%;
     height: 100%;
     transition-property: transform, opacity;
     transition-duration: 0.6s;
     transition-delay: 0.1s;
-    transition-timing-function: cubic-bezier (0.5, 0, 0, 1);
+    transition-timing-function: cubic-bezier(0.5, 0, 0, 1);
     opacity: 0;
-    transform: translateX (650px);
+    transform: translateX(650px);
 }
+
 .AspectRatio16x10 #SceneGroup {
     margin: 20px 0px;
-    transform: translateX (628px);
+    transform: translateX(628px);
 }
+
 .AspectRatio21x9 #SceneGroup {
-    transform: translateX (930px);
+    transform: translateX(930px);
 }
+
 .CollectionGroup_Heroes #SceneGroup,
 .CollectionTab_Couriers #SceneGroup,
 .CollectionTab_Creeps #SceneGroup,
@@ -366,11 +413,12 @@ DOTACollectionPageShards {
 .CollectionTab_Legacy #SceneGroup,
 .CollectionTab_Treasures #SceneGroup {
     opacity: 1;
-    transform: translateX (600px);
+    transform: translateX(600px);
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
 }
+
 .AspectRatio16x10 .CollectionGroup_Heroes #SceneGroup,
 .AspectRatio16x10 .CollectionTab_Couriers #SceneGroup,
 .AspectRatio16x10 .CollectionTab_Creeps #SceneGroup,
@@ -388,8 +436,9 @@ DOTACollectionPageShards {
 .AspectRatio16x10 .CollectionTab_Exclusive #SceneGroup,
 .AspectRatio16x10 .CollectionTab_Legacy #SceneGroup,
 .AspectRatio16x10 .CollectionTab_Treasures #SceneGroup {
-    transform: translateX (570px);
+    transform: translateX(570px);
 }
+
 .AspectRatio21x9 .CollectionGroup_Heroes #SceneGroup,
 .AspectRatio21x9 .CollectionTab_Couriers #SceneGroup,
 .AspectRatio21x9 .CollectionTab_Creeps #SceneGroup,
@@ -407,23 +456,27 @@ DOTACollectionPageShards {
 .AspectRatio21x9 .CollectionTab_Exclusive #SceneGroup,
 .AspectRatio21x9 .CollectionTab_Legacy #SceneGroup,
 .AspectRatio21x9 .CollectionTab_Treasures #SceneGroup {
-    transform: translateX (780px);
+    transform: translateX(780px);
 }
+
 .CollectionTab_Exclusive #SceneGroup,
 .CollectionTab_Legacy #SceneGroup,
 .CollectionTab_Relics #SceneGroup {
-    transform: translateX (670px);
+    transform: translateX(670px);
 }
+
 .AspectRatio16x10 .CollectionTab_Exclusive #SceneGroup,
 .AspectRatio16x10 .CollectionTab_Legacy #SceneGroup,
 .AspectRatio16x10 .CollectionTab_Relics #SceneGroup {
-    transform: translateX (540px);
+    transform: translateX(540px);
 }
+
 .AspectRatio21x9 .CollectionTab_Exclusive #SceneGroup,
 .AspectRatio21x9 .CollectionTab_Legacy #SceneGroup,
 .AspectRatio21x9 .CollectionTab_Relics #SceneGroup {
-    transform: translateX (880px);
+    transform: translateX(880px);
 }
+
 #SceneGroup #CollectionSceneBody {
     width: 100%;
     height: 100%;
@@ -432,11 +485,13 @@ DOTACollectionPageShards {
     vertical-align: center;
     opacity-mask: url("s2r://panorama/images/masks/hero_model_preview_mask_psd.vtex");
 }
+
 .CollectionTab_Exclusive #SceneGroup #CollectionSceneBody,
 .CollectionTab_Legacy #SceneGroup #CollectionSceneBody,
 .CollectionTab_Terrain #SceneGroup #CollectionSceneBody {
     width: 100%;
 }
+
 #SceneGroup #CollectionSceneBody #LargeModelPreview,
 #SceneGroup #CollectionSceneBody #LargeModelLoadout {
     width: 100%;
@@ -444,13 +499,16 @@ DOTACollectionPageShards {
     horizontal-align: center;
     vertical-align: center;
 }
+
 #SceneGroup #SetPreviewControls {
     vertical-align: bottom;
     visibility: collapse;
 }
+
 #DOTACollectionPageHeroes #SceneGroup #SetPreviewControls {
     visibility: visible;
 }
+
 #SceneGroup #TreasurePreview {
     width: 100%;
     height: 100%;
@@ -458,20 +516,24 @@ DOTACollectionPageShards {
     vertical-align: center;
     visibility: collapse;
 }
+
 .CollectionTab_Treasures #SceneGroup #TreasurePreview {
     visibility: visible;
 }
+
 .ViewerContainer {
     width: 100%;
     height: 100%;
     flow-children: down;
     margin-bottom: 120px;
     background-color: ItemsContainerBackgroundGradient;
-    box-shadow: 0px 28px 120px -8px rgba (0, 0, 0, 0.4);
+    box-shadow: 0px 28px 120px -8px rgba(0, 0, 0, 0.4);
 }
+
 .AspectRatio21x9 .ViewerContainer {
     margin-bottom: 92px;
 }
+
 #ViewLoadoutButton {
     ignore-parent-flow: true;
     margin-right: 60px;
@@ -481,32 +543,40 @@ DOTACollectionPageShards {
     transition-property: opacity;
     transition-duration: 0.2s;
 }
+
 .CollectionGroup_Heroes #ViewLoadoutButton {
     opacity: 1;
 }
+
 RadioButton {
     margin-right: 12px;
 }
+
 RadioButton .RadioBox {
     vertical-align: center;
 }
+
 RadioButton Label {
     margin-bottom: 3px;
 }
+
 #CollectionTracker {
     flow-children: down;
     vertical-align: center;
     margin-top: -1px;
     visibility: collapse;
 }
+
 .CollectionGroup_Heroes.Sets #CollectionTracker {
     visibility: visible;
 }
+
 #CollectionTracker .CollectionTitle {
     horizontal-align: right;
     margin-bottom: 4px;
-    text-shadow: 0px 1px 4px rgba (0, 0, 0, 0.3);
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
 }
+
 #CollectionTracker #CollectionPipsContainer {
     flow-children: right;
     horizontal-align: right;
@@ -515,45 +585,42 @@ RadioButton Label {
     width: fit-children;
     max-width: 240px;
 }
+
 #CollectionTracker #CollectionPipsContainer .CollectionPip {
-    width: fill-parent-flow (1);
+    width: fill-parent-flow(1);
     max-width: 16px;
     height: 8px;
     margin-left: 2px;
-    transform: skew (-15deg);
+    transform: skew(-15deg);
 }
+
 #CollectionTracker #CollectionPipsContainer .CollectionPip.Unowned {
-    background-color: rgba (0, 0, 0, 0.7);
-    border: 1px solid rgba (222, 231, 255, 0.08);
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(222, 231, 255, 0.08);
 }
+
 #CollectionTracker #CollectionPipsContainer .CollectionPip.Owned {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 90%,
-
-            from (#d7e2eb),
-            to (#7d898f)
-        );
-    border: 1px solid rgb (0, 0, 0);
+    background-color: gradient(linear, 0% 0%, 0% 90%, from(#d7e2eb), to(#7d898f));
+    border: 1px solid rgb(0, 0, 0);
     z-index: 1;
     animation-name: PulseCollectionPip;
     animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
+
 @keyframes 'PulseCollectionPip' {
     0% {
         box-shadow: 0px 0px 16px #73abff11;
         brightness: 1;
     }
+
     100% {
         box-shadow: 0px 0px 16px #73abff44;
         brightness: 3;
     }
 }
+
 #ShuffleAllButton {
     margin-right: -1px;
     vertical-align: center;
@@ -563,40 +630,37 @@ RadioButton Label {
     padding-bottom: 0px;
     border-radius: 3px 0px 0px 3px;
     opacity: 0;
-    transform: translateX (4px);
+    transform: translateX(4px);
     transition-property: opacity, transform;
     transition-timing-function: ease-out;
     transition-duration: 0.1s;
 }
+
 #ShuffleAllButton:hover {
     z-index: 1;
 }
+
 .CollectionGroup_Global.ShuffleAvailable.ShuffleEnabled #ShuffleAllButton {
     opacity: 1;
     transform: none;
 }
+
 .AllItemsInShuffle #ShuffleAllButton {
-    background-color: gradient
-        (
-            linear,
-            0% -0%,
-
-            0% 120%,
-
-            from (#53607183),
-            to (#21242f86)
-        );
+    background-color: gradient(linear, 0% -0%, 0% 120%, from(#53607183), to(#21242f86));
 }
+
 .AllItemsInShuffle #ShuffleAllButton Label {
     color: white;
     padding: 0px 8px;
     margin-left: -8px;
     margin-right: -8px;
-    text-shadow: 0px 0px 12px rgba (153, 194, 255, 1);
+    text-shadow: 0px 0px 12px rgba(153, 194, 255, 1);
 }
+
 #ShuffleAllButton Image {
     margin-right: 8px;
 }
+
 .ViewerListContainer {
     width: 100%;
     height: 100%;
@@ -604,29 +668,35 @@ RadioButton Label {
     transition-property: opacity;
     transition-duration: ViewerListTransitionDuration;
 }
+
 .ViewerListContainer.IsVisible {
     opacity: 1;
 }
+
 .ViewerList {
     flow-children: down;
     width: 100%;
     height: 100%;
     overflow: squish scroll;
     padding: 12px 8px 12px 12px;
-    box-shadow: inset 0px 1px 0px rgba (238, 245, 255, 0.02);
+    box-shadow: inset 0px 1px 0px rgba(238, 245, 255, 0.02);
 }
+
 .ViewerList VerticalScrollBar {
     opacity: 0;
     margin: 0px 0px 0px;
 }
+
 .ViewerList:hover VerticalScrollBar {
     opacity: 1;
 }
+
 .SearchBox {
-    width: fill-parent-flow (1);
+    width: fill-parent-flow(1);
     margin-bottom: 4px;
     margin-top: 8px;
 }
+
 .SearchBox TextEntry {
     width: 100%;
     background-color: black;
@@ -638,19 +708,23 @@ RadioButton Label {
     transition-property: border, background-color;
     transition-duration: 0.15s;
 }
+
 .SearchBox TextEntry Label {
     font-weight: normal;
     margin-top: 1px;
-    color: rgba (255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.4);
     transition-property: color;
     transition-duration: 0.1s;
 }
+
 .SearchBox TextEntry:hover {
     background-color: #d2e2ff22;
 }
+
 .SearchBox #PlaceholderText {
-    color: rgba (255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.4);
 }
+
 .SearchBox #SearchButton {
     visibility: visible;
     background-image: url("s2r://panorama/images/control_icons/icon_search_png.vtex");
@@ -664,6 +738,7 @@ RadioButton Label {
     horizontal-align: right;
     opacity: 0.2;
 }
+
 .SearchBox #ClearButton {
     visibility: collapse;
     background-image: url("s2r://panorama/images/control_icons/x_close_filled_png.vtex");
@@ -679,58 +754,62 @@ RadioButton Label {
     transition-property: opacity, transform;
     transition-duration: 0.1s;
 }
+
 .SearchBox #ClearButton:hover {
     opacity: 0.8;
 }
+
 .SearchBox #ClearButton:active {
-    transform: scale3d (0.9, 0.9, 1);
+    transform: scale3d(0.9, 0.9, 1);
     opacity: 0.6;
 }
+
 .SearchBox.IsSearching #SearchButton {
     visibility: collapse;
 }
+
 .SearchBox.IsSearching #ClearButton {
     visibility: visible;
 }
+
 .SearchBox.IsSearching TextEntry {
     border-color: #555555;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#111111ff),
-            to (#222222ff)
-        );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#111111ff), to(#222222ff));
 }
+
 #StickersControlSearch {
     visibility: collapse;
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
 .CollectionTab_Stickers #StickersControlSearch {
     visibility: visible;
 }
+
 .CollectionTab_Stickers #StickersControlSearch {
     width: 280px;
 }
+
 #BrowseControlSearch {
     visibility: collapse;
 }
+
 .CollectionGroup_Browse #BrowseControlSearch {
     visibility: visible;
     width: 360px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
 #ControlSearch {
     visibility: collapse;
 }
+
 .CollectionGroup_Heroes #ControlSearch {
     visibility: visible;
 }
+
 #CollectionTabGroups {
     width: 100%;
     flow-children: down;
@@ -739,20 +818,24 @@ RadioButton Label {
     padding-top: 8px;
     padding-bottom: FooterHeight;
 }
+
 #CollectionTabGroups:hover VerticalScrollBar {
     opacity: 0.3;
 }
+
 #CollectionTabGroups VerticalScrollBar {
     margin: 12px 0px FooterHeight 0px;
     opacity: 0;
     transition-property: opacity, transform;
     transition-duration: 0.1s;
 }
+
 #CollectionTabGroups .CollectionTabGroup {
     flow-children: down;
     width: 100%;
     padding-bottom: 12px;
 }
+
 #CollectionTabGroups .CollectionTabGroup #CollectionTabGroupName {
     vertical-align: center;
     text-shadow: 0px 1px 4px black;
@@ -763,35 +846,32 @@ RadioButton Label {
     opacity: 1;
     height: 30px;
 }
+
 #CollectionTabGroups .CollectionTabGroup #CollectionTabGroupName:not(.FirstTabGroup) {
     border-top: 1px solid white;
-    border-brush: gradient
-        (
-            linear,
-            50% 0%,
-
-            80% 0%,
-
-            from (#ffffff08),
-            to (#ffffff00)
-        );
+    border-brush: gradient(linear, 50% 0%, 80% 0%, from(#ffffff08), to(#ffffff00));
 }
+
 .CollectionGroup_Heroes #CollectionTabGroups .CollectionTabGroup #CollectionTabGroupName {
     height: 0px;
     opacity: 0;
 }
+
 #CollectionTabGroups .CollectionTabGroup.HasNew #CollectionTabGroupName,
 #CollectionTabGroups .CollectionTabGroup.LetterTabGroup #CollectionTabGroupName {
     opacity: 1;
     height: 30px;
 }
+
 #CollectionTabGroups .CollectionTabGroup #CollectionTabs {
     flow-children: down;
     width: 100%;
 }
+
 .TabItem:selected {
     sound: "ui_generic_button_click";
 }
+
 .CategorySelectionPanel {
     width: 100%;
     flow-children: right;
@@ -799,6 +879,7 @@ RadioButton Label {
     transition-property: background-color;
     transition-duration: 0s;
 }
+
 .CategorySelectionPanel .CategoryName {
     vertical-align: center;
     text-shadow: 0px 1px 4px black;
@@ -809,6 +890,7 @@ RadioButton Label {
     transition-duration: 0.1s;
     margin-left: 12px;
 }
+
 .CategorySelectionPanel #CategoryImage {
     vertical-align: center;
     width: 20px;
@@ -818,6 +900,7 @@ RadioButton Label {
     transition-property: wash-color;
     transition-duration: 0.1s;
 }
+
 .CategorySelectionPanel #Count {
     margin-left: 2px;
     vertical-align: center;
@@ -826,68 +909,41 @@ RadioButton Label {
     line-height: 1;
     height: 24px;
 }
+
 .CategorySelectionPanel #PlusLogo {
     height: 24px;
     visibility: collapse;
 }
+
 .CategorySelectionPanel.DotaPlusOnly #PlusLogo {
     visibility: visible;
 }
+
 .CategorySelectionPanel:hover {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            95% 0%,
-
-            from (#96d5ff09),
-            to (#ffffff00)
-        );
+    background-color: gradient(linear, 0% 0%, 95% 0%, from(#96d5ff09), to(#ffffff00));
     transition-duration: 0.1s;
 }
+
 #DOTACollectionPageShards .CategorySelectionPanel:hover {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            95% 0%,
-
-            from (dotaPlusGold & 11),
-            to (#e5b55000)
-        );
+    background-color: gradient(linear, 0% 0%, 95% 0%, from(dotaPlusGold&11), to(#e5b55000));
 }
+
 .CategorySelectionPanel:hover #CategoryName {
     color: LightestGrey;
 }
+
 .CategorySelectionPanel:hover #CategoryImage {
     wash-color: LightestGrey;
 }
+
 .CategorySelectionPanel.Active {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            95% 0%,
-
-            from (#b4e1ff14),
-            to (#ffffff00)
-        );
+    background-color: gradient(linear, 0% 0%, 95% 0%, from(#b4e1ff14), to(#ffffff00));
 }
+
 #DOTACollectionPageShards .CategorySelectionPanel.Active {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            95% 0%,
-
-            from (#e5b55022),
-            to (#e5b55000)
-        );
+    background-color: gradient(linear, 0% 0%, 95% 0%, from(#e5b55022), to(#e5b55000));
 }
+
 .CategorySelectionPanel.Active #CategoryName {
     color: white;
     animation-name: GlowTextBright;
@@ -896,13 +952,16 @@ RadioButton Label {
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
 }
+
 .CategorySelectionPanel.Active #CategoryImage {
     wash-color: white;
-    img-shadow: 0px 0px 12px rgba (255, 255, 255, 0.1);
+    img-shadow: 0px 0px 12px rgba(255, 255, 255, 0.1);
 }
+
 .CategorySelectionPanel:active {
     sound: "ui_generic_button_click";
 }
+
 .HeroSelectionPanel {
     width: 100%;
     flow-children: right;
@@ -910,6 +969,7 @@ RadioButton Label {
     transition-property: background-color, height, opacity;
     transition-duration: 0s, 0.2s;
 }
+
 .HeroSelectionPanel #HeroName {
     margin-left: 12px;
     vertical-align: center;
@@ -921,15 +981,18 @@ RadioButton Label {
     transition-property: color;
     transition-duration: 0.1s;
 }
+
 .HeroSelectionPanel #HeroName .Count {
     font-weight: normal;
     color: LightGrey;
 }
+
 .HeroSelectionPanel #HeroImage {
     vertical-align: center;
     width: 28px;
     height: 28px;
 }
+
 .HeroSelectionPanel #SetCount {
     vertical-align: center;
     font-weight: normal;
@@ -938,37 +1001,24 @@ RadioButton Label {
     height: 24px;
     visibility: collapse;
 }
+
 .HeroSelectionPanel:hover {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            95% 0%,
-
-            from (#96d5ff09),
-            to (#ffffff00)
-        );
+    background-color: gradient(linear, 0% 0%, 95% 0%, from(#96d5ff09), to(#ffffff00));
     transition-duration: 0.1s;
 }
+
 .HeroSelectionPanel:hover #HeroName {
     color: LightestGrey;
 }
+
 .HeroSelectionPanel:hover #HeroName .Count {
     color: LighterGrey;
 }
+
 .HeroSelectionPanel.Active {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            95% 0%,
-
-            from (#b4e1ff14),
-            to (#ffffff00)
-        );
+    background-color: gradient(linear, 0% 0%, 95% 0%, from(#b4e1ff14), to(#ffffff00));
 }
+
 .HeroSelectionPanel.Active #HeroName {
     color: white;
     animation-name: GlowTextBright;
@@ -977,20 +1027,25 @@ RadioButton Label {
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
 }
+
 .HeroSelectionPanel.Active #HeroName .Count {
     color: white;
 }
+
 .HeroSelectionPanel:active {
     sound: "ui_generic_button_click";
 }
+
 .NewItemsTabGroup .HeroSelectionPanel {
     height: 0px;
     opacity: 0;
 }
+
 .NewItemsTabGroup .HeroSelectionPanel.HasNew {
     height: 40px;
     opacity: 1;
 }
+
 .NewBadgeCount {
     ignore-parent-flow: true;
     vertical-align: center;
@@ -999,28 +1054,33 @@ RadioButton Label {
     box-shadow: 0px 0px 24px #60ff8205;
     visibility: collapse;
 }
+
 .NewBadgeCount Label {
     font-weight: semi-bold;
-    text-shadow: 0px 2px 6px rgb (0, 0, 0);
+    text-shadow: 0px 2px 6px rgb(0, 0, 0);
     color: white;
     background-color: #59b76e;
     border-radius: 40px;
     padding: 0px 8px 2px 9px;
-    box-shadow: 0px 3px 6px rgba (0, 0, 0, 0.4);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
     transform: none;
     transition-property: brightness, transform;
     transition-duration: 0.1s, 0.05s;
 }
+
 .NewBadgeCount:hover Label {
     brightness: 1.5;
 }
+
 .NewBadgeCount:active Label {
-    transform: scale3d (0.9, 0.9, 1);
+    transform: scale3d(0.9, 0.9, 1);
     brightness: 0.5;
 }
+
 .NewBadgeCount.HasNew {
     visibility: visible;
 }
+
 .ItemsGroupPanel,
 .BundlesGroupPanel {
     width: 100%;
@@ -1028,74 +1088,84 @@ RadioButton Label {
     padding-bottom: 0px;
     margin-bottom: 24px;
 }
+
 #ItemsGroupTitle {
     width: 100%;
     flow-children: right;
     margin-left: 6px;
     vertical-align: center;
 }
+
 .CollectionGroup_Browse #ItemsGroupTitle {
     margin: 8px;
 }
+
 #ItemsGroupTitle #ItemsGroupName {
     vertical-align: center;
 }
+
 .CollectionGroup_Browse #ItemsGroupTitle #ItemsGroupName {
     font-size: 21px;
     color: LightestGrey;
 }
+
 #ItemsGroupTitle #ItemsGroupOwnedCount {
     vertical-align: center;
     color: LightGrey;
 }
+
 .CollectionGroup_Browse #ItemsGroupTitle #ItemsGroupOwnedCount {
     font-size: 21px;
     margin-left: 4px;
     font-weight: lighter;
 }
+
 #ItemsGroupTitle #ItemsGroupHeroImage {
     visibility: collapse;
     width: 28px;
-    height: width-percentage (100%);
+    height: width-percentage(100%);
     margin: 0px 8px 0px 0px;
 }
+
 .IsHeroItemGroup #ItemsGroupTitle #ItemsGroupHeroImage {
     visibility: visible;
 }
+
 #ItemsGrid {
     width: 100%;
     min-height: 100px;
     flow-children: right-wrap;
 }
+
 .NoResultsMessage {
     width: 100%;
     padding: 32px 0px 64px;
     border-bottom: 1px solid white;
-    border-brush: gradient
-        (
-            linear,
-            0% 0%,
-
-            100% 0%,
-
-            from (#ffffff00),
-            color-stop (0.05, #ffffff06),
-            color-stop (0.95, #ffffff06),
-            to (#ffffff00)
-        );
+    border-brush: gradient(
+        linear,
+        0% 0%,
+        100% 0%,
+        from(#ffffff00),
+        color-stop(0.05, #ffffff06),
+        color-stop(0.95, #ffffff06),
+        to(#ffffff00)
+    );
     margin-right: 16px;
     margin-top: 12px;
     flow-children: down;
     visibility: collapse;
 }
+
 .NoResults .NoResultsMessage {
     visibility: visible;
 }
+
 .NoResultsMessage Label {
     horizontal-align: center;
     color: LightGrey;
     opacity: 0.5;
 }
+
 .NoResultsMessage .NoResultsIcon {
     width: 64px;
     height: 64px;
@@ -1106,55 +1176,67 @@ RadioButton Label {
     wash-color: LightGrey;
     opacity: 0.5;
 }
+
 .StickerEntry {
     width: StickerSize_Large;
     height: StickerSize_Large;
 }
+
 .StickerEntry #StickerPreview {
     transform: none;
     brightness: 1;
     transition-property: transform, brightness, box-shadow;
     transition-duration: 0.2s;
-    transition-timing-function: cubic-bezier (0, 0.9, 0, 0.9);
+    transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
 }
+
 .StickerEntry:hover #StickerPreview {
-    transform: scale3d (1.08, 1.08, 1);
+    transform: scale3d(1.08, 1.08, 1);
     brightness: 1.5;
 }
+
 .StickerEntry.Available:not(.Owned) #StickerPreview {
     wash-color: #7b7b7bb1;
     brightness: 0.5;
 }
+
 .StickerEntry.Available:not(.Owned) #StickerPurchaseButton {
     visibility: visible;
 }
+
 .StickerEntry.Available:not(.Owned) #StickerPreview {
     wash-color: #7b7b7bb1;
     brightness: 0.5;
 }
+
 .StickerEntry.Available:not(.Owned) #StickerPurchaseButton {
     visibility: visible;
 }
+
 .StickerEntry.Unavailable:not(.Owned) #StickerPreview {
     wash-color: #7b7b7bb1;
     brightness: 0.5;
 }
+
 .StickerEntry #StickerPurchaseButton {
     vertical-align: bottom;
     horizontal-align: center;
     width: 150px;
     visibility: collapse;
 }
+
 @keyframes 'GlowNewBadge' {
     0% {
-        box-shadow: 0px 0px 12px winnerGreenLow & 00;
+        box-shadow: 0px 0px 12px winnerGreenLow&00;
         brightness: 1;
     }
+
     100% {
-        box-shadow: 0px 0px 12px winnerGreenLow & 11;
+        box-shadow: 0px 0px 12px winnerGreenLow&11;
         brightness: 1.3;
     }
 }
+
 #NewItemBadge {
     horizontal-align: center;
     flow-children: right;
@@ -1165,6 +1247,7 @@ RadioButton Label {
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
+
 #NewItemBadge Label {
     background-color: winnerGreenLow;
     color: white;
@@ -1172,6 +1255,7 @@ RadioButton Label {
     padding: 2px 8px;
     font-weight: semi-bold;
 }
+
 .New #NewItemBadge {
     opacity: 1;
     animation-name: GlowNewBadge;
@@ -1180,44 +1264,42 @@ RadioButton Label {
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
 }
+
 #CustomContentContainer {
     width: 100%;
 }
+
 #CustomContentContainer .CustomContent {
     width: 100%;
-    box-shadow: inset 0px 1px 0px rgba (238, 245, 255, 0.02);
+    box-shadow: inset 0px 1px 0px rgba(238, 245, 255, 0.02);
     padding: 8px 8px 8px 20px;
     visibility: collapse;
 }
+
 #StickersContent {
     flow-children: right;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            50% 0%,
-
-            from (#b328100d),
-            to (#63231800)
-        );
+    background-color: gradient(linear, 0% 0%, 50% 0%, from(#b328100d), to(#63231800));
 }
+
 #StickersContent Label,
 #StickersContent Image {
     vertical-align: center;
     transition-property: color, wash-color, opacity, transform;
     transition-duration: 0.1s;
 }
+
 #StickersContent Label {
     color: LightestGrey;
     opacity: 0.8;
 }
+
 #StickersContent .BattlePass2022_Badge {
     width: 24px;
     height: 24px;
     margin-right: 8px;
     img-shadow: 0px 2px 8px black;
 }
+
 #StickersContent .LinkArrow {
     width: 16px;
     height: 16px;
@@ -1226,29 +1308,36 @@ RadioButton Label {
     margin-left: 3px;
     opacity: 0.8;
 }
+
 #StickersContent:hover Label {
     color: white;
     opacity: 1;
 }
+
 #StickersContent:hover .LinkArrow {
     wash-color: white;
     opacity: 1;
-    transform: translateX (3px);
+    transform: translateX(3px);
 }
+
 .CollectionGroup_Global.CollectionTab_Stickers.HasStickersInStickerbook #StickersContent {
     visibility: visible;
 }
+
 #EmoticonsContent {
     flow-children: right;
 }
+
 #EmoticonsContent #EmoticonList {
-    width: fill-parent-flow (1);
+    width: fill-parent-flow(1);
     margin: 0px 12px;
     padding: 0px;
 }
+
 .CollectionGroup_Global.CollectionTab_Emoticons #EmoticonsContent {
     visibility: visible;
 }
+
 .NewItemBadgeDot {
     ignore-parent-flow: true;
     border-radius: 50%;
@@ -1265,56 +1354,70 @@ RadioButton Label {
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
 }
+
 .HasNew .NewItemBadgeDot {
     visibility: visible;
 }
+
 @keyframes 'GlowNewItemBadgeDot' {
     0% {
         box-shadow: 0px 0px 8px #60ff8211;
         brightness: 1;
     }
+
     100% {
         box-shadow: 0px 0px 12px #60ff8244;
         brightness: 2;
     }
 }
+
 #HeroesGroup {
     visibility: collapse;
 }
+
 DOTACollectionPageHeroes #ViewerGroup,
 DOTACollectionPageHeroes #LargeModelPreview {
     visibility: collapse;
 }
+
 DOTACollectionPageHeroes #HeroesGroup,
 DOTACollectionPageHeroes #LargeModelLoadout {
     visibility: visible;
 }
+
 #HeroesGroup {
-    height: fill-parent-flow (1);
+    height: fill-parent-flow(1);
     flow-children: down;
     margin-bottom: 120px;
     width: 806px;
 }
+
 .AspectRatio21x9 #HeroesGroup {
     width: 1034px;
 }
+
 .AspectRatio16x10 #HeroesGroup {
     width: 806px;
 }
+
 #HeroesGroup #CosmeticPicker {
     height: 100%;
     width: 100%;
 }
+
 #FeaturedGroup {
     visibility: collapse;
 }
+
 #DOTACollectionPageFeatured {
     width: 100%;
     height: 100%;
 }
+
 #DOTACollectionPageFeatured #ViewerGroup {
     visibility: collapse;
 }
+
 #DOTACollectionPageFeatured #FeaturedGroup {
     ignore-parent-flow: true;
     width: 1540px;
@@ -1324,20 +1427,24 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     overflow: squish scroll;
     padding: 64px 80px 140px;
 }
+
 #DOTACollectionPageFeatured #FeaturedGroup VerticalScrollBar {
     opacity: 0;
 }
+
 #DOTACollectionPageFeatured #FeaturedGroup .FeaturedItemsCarousel {
     width: 100%;
     flow-children: down;
     margin-bottom: 20px;
     margin-right: -80px;
 }
+
 #DOTACollectionPageFeatured #FeaturedGroup .FeaturedItemsCarousel #FeaturedItemsHeader {
     width: 100%;
     padding-left: 6px;
     margin-right: 80px;
 }
+
 #DOTACollectionPageFeatured #FeaturedGroup .FeaturedItemsCarousel #FeaturedItemsSubheader {
     width: 100%;
     flow-children: right;
@@ -1345,14 +1452,17 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     margin-right: 80px;
     margin-top: -2px;
 }
+
 #DOTACollectionPageFeatured #FeaturedGroup .FeaturedItemsCarousel #FeaturedItemsSubheader #FeaturedItemsSubtitle {
     vertical-align: center;
     margin-right: 5px;
 }
+
 #DOTACollectionPageFeatured #FeaturedGroup .FeaturedItemsCarousel #FeaturedItemsSubheader #FeaturedItemsHeroesList {
     flow-children: right;
     vertical-align: center;
 }
+
 #DOTACollectionPageFeatured
     #FeaturedGroup
     .FeaturedItemsCarousel
@@ -1362,17 +1472,20 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     height: 24px;
     margin-left: 4px;
     margin-right: 4px;
-    box-shadow: 6px 6px 24px -8px rgba (0, 0, 0, 0.8);
+    box-shadow: 6px 6px 24px -8px rgba(0, 0, 0, 0.8);
 }
+
 #DOTACollectionPageFeatured #FeaturedGroup .FeaturedItemsCarousel #FeaturedItemsListContainer {
     width: 100%;
 }
+
 #DOTACollectionPageFeatured #FeaturedGroup .FeaturedItemsCarousel #FeaturedItemsListContainer .FeaturedItemsList {
     width: 100%;
     overflow: clip;
     flow-children: right;
     opacity-mask: url("s2r://panorama/images/masks/softedge_right_png.vtex");
 }
+
 #DOTACollectionPageFeatured
     #FeaturedGroup
     .FeaturedItemsCarousel
@@ -1385,6 +1498,7 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     transition-property: position;
     transition-duration: 0.5s;
 }
+
 #DOTACollectionPageFeatured
     #FeaturedGroup
     .FeaturedItemsCarousel
@@ -1395,78 +1509,78 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     opacity: 1;
     brightness: 1;
 }
+
 #DOTACollectionPageFeatured #FeaturedGroup .FeaturedItemsCarousel .FeaturedItemsListNav {
     horizontal-align: right;
 }
+
 #DOTACollectionPageFeatured #SceneGroup,
 #DOTACollectionPageFeatured .TitleGroup,
 #DOTACollectionPageFeatured #Filters,
 #DOTACollectionPageFeatured #ControlGroup {
     visibility: collapse;
 }
-@define BundleRowMargin:
-                          
-                          2px;
-@define BundleRowHeight:
-                          
-                          60px;
-@define BundleItemIconSize:
-                             
-                             40px;
-@define BundleNameColumnWidth:
-                                
-                                250px;
-@define BundleRarityColumnWidth:
-                                  
-                                  150px;
-@define BundleDateColumnWidth:
-                                
-                                150px;
-@define BundleUnbundleColumnWidth:
-                                    
-                                    150px;
+
+@define BundleRowMargin: 2px;
+@define BundleRowHeight: 60px;
+@define BundleItemIconSize: 40px;
+@define BundleNameColumnWidth: 250px;
+@define BundleRarityColumnWidth: 150px;
+@define BundleDateColumnWidth: 150px;
+@define BundleUnbundleColumnWidth: 150px;
 #DOTACollectionPageBundles {
     width: 100%;
     height: 100%;
 }
+
 #DOTACollectionPageBundles #BundlesGroupHeader {
     width: 100%;
     height: 40px;
     flow-children: right;
 }
+
 #DOTACollectionPageBundles #BundlesGroupHeader .BundleHeader {
     height: 100%;
     background-color: #191e20;
     border: 1px solid #ffffff06;
 }
+
 #DOTACollectionPageBundles #BundlesGroupHeader #BundleIconHeader {
     width: BundleRowHeight;
 }
+
 #DOTACollectionPageBundles #BundlesGroupHeader #BundleNameHeader {
     width: BundleNameColumnWidth;
 }
+
 #DOTACollectionPageBundles #BundlesGroupHeader #BundleItemsHeader {
-    width: fill-parent-flow (1);
+    width: fill-parent-flow(1);
 }
+
 #DOTACollectionPageBundles #BundlesGroupHeader #BundleRarityHeader {
     width: BundleRarityColumnWidth;
 }
+
 #DOTACollectionPageBundles #BundlesGroupHeader #BundleDateHeader {
     width: BundleDateColumnWidth;
 }
+
 #DOTACollectionPageBundles #BundlesGroupHeader #BundleUnbundleHeader {
     width: BundleUnbundleColumnWidth;
 }
+
 #DOTACollectionPageBundles #BundlesGroupHeader Label {
     margin-left: 10px;
     vertical-align: center;
     text-transform: uppercase;
 }
+
 #DOTACollectionPageBundles #BundlesList {
     width: 100%;
     min-height: 100px;
     flow-children: down;
 }
+
 #DOTACollectionPageBundles .Bundle {
     width: 100%;
     height: BundleRowHeight;
@@ -1477,10 +1591,12 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     transition-property: brightness, transform, background-color;
     transition-duration: 0.1s;
 }
+
 #DOTACollectionPageBundles .Bundle:hover {
-    transform: scale3d (1.002, 1.01, 1);
+    transform: scale3d(1.002, 1.01, 1);
     background-color: #ffffff09;
 }
+
 #DOTACollectionPageBundles .Bundle #NewBorder {
     width: 100%;
     height: 100%;
@@ -1488,6 +1604,7 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     opacity: 0;
     ignore-parent-flow: true;
 }
+
 #DOTACollectionPageBundles .Bundle.New #NewBorder {
     opacity: 0.1;
     animation-name: GlowNew;
@@ -1496,87 +1613,106 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
 }
+
 #DOTACollectionPageBundles .Bundle #BundleIconContainer {
     height: BundleRowHeight;
     width: BundleRowHeight;
     padding: 5px;
 }
+
 #DOTACollectionPageBundles .Bundle #BundleIconContainer #BundleIcon {
     height: 100%;
     width: 100%;
     margin: 0px;
     border: 0px;
 }
+
 #DOTACollectionPageBundles .Bundle #BundleName {
     width: BundleNameColumnWidth;
     max-width: BundleNameColumnWidth;
 }
+
 #DOTACollectionPageBundles .Bundle #BundleUnbundleButtonContainer {
     width: BundleUnbundleColumnWidth;
     height: 100%;
     padding: 15px;
 }
+
 #DOTACollectionPageBundles .Bundle #BundleUnbundleButtonContainer #BundleUnbundleButton {
     width: 100%;
     height: 100%;
     padding: 0px 15px;
 }
+
 #DOTACollectionPageBundles .Bundle .BundleRowTextLabel {
     font-size: 17px;
     font-weight: light;
     padding-left: 10px;
 }
+
 #DOTACollectionPageBundles .Bundle .BundleRowTextLabelWhite {
     color: #e5e5e5;
 }
+
 #DOTACollectionPageBundles .Bundle #BundleRarity {
     width: BundleRarityColumnWidth;
 }
+
 #DOTACollectionPageBundles .Bundle #BundleDate {
     width: BundleDateColumnWidth;
 }
+
 #DOTACollectionPageBundles .Bundle #BundleItemsContainer {
     flow-children: right;
-    width: fill-parent-flow (1);
+    width: fill-parent-flow(1);
 }
+
 #DOTACollectionPageBundles .Bundle #BundleItemsContainer .BundleItem {
     height: BundleItemIconSize;
     width: BundleItemIconSize;
     margin: 4px;
 }
+
 #DOTACollectionPageBundles .Bundle #BundleItemsContainer .BundleItem #BundleItemIcon {
     width: 100%;
     height: 100%;
     border: 0px;
     margin: 0px;
 }
+
 #DOTACollectionPageBundles .BundleCell {
     vertical-align: center;
 }
+
 #DOTACollectionPageBundles #ViewerGroup {
     width: 70%;
     horizontal-align: center;
 }
+
 #DOTACollectionPageBundles #ControlGroup,
 #DOTACollectionPageBundles #SceneGroup,
 #DOTACollectionPageBundles #Filters,
 #DOTACollectionPageBundles #ItemsGroupTitle {
     visibility: collapse;
 }
+
 @keyframes 'GlowNew' {
     0% {
         brightness: 1;
         opacity: 0.1;
     }
+
     100% {
         brightness: 5;
         opacity: 0.3;
     }
 }
+
 #DOTACollectionPageFilters {
     width: 100%;
     height: 100%;
 }
+
 #DOTACollectionPageFilters #ComingSoon_Filters {
     vertical-align: center;
     horizontal-align: center;
@@ -1584,87 +1720,78 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     width: 600px;
     visibility: visible;
 }
+
 #DOTACollectionPageFilters #ComingSoon_Filters Label {
     text-align: center;
     margin-bottom: 24px;
 }
+
 #DOTACollectionPageFilters #ComingSoon_Filters .Screengrab {
     width: 600px;
-    box-shadow: 0px 16px 64px rgba (0, 0, 0, 0.3);
-    border: 1px solid rgba (255, 255, 255, 0.1);
+    box-shadow: 0px 16px 64px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 #DOTACollectionPageFilters #SceneGroup,
 #DOTACollectionPageFilters #CollectionContent {
     visibility: collapse;
 }
+
 #ViewHeroLoadout {
     visibility: collapse;
     margin-left: 12px;
 }
+
 .ChatWheelEntryContainer {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            20% 100%,
-
-            from (#23211f),
-            to (#0b0c0f)
-        );
+    background-color: gradient(linear, 0% 0%, 20% 100%, from(#23211f), to(#0b0c0f));
 }
+
 .ChatWheelEntry {
     padding: 6px;
 }
+
 .ChatWheelEntry .ChatWheelEntryContainer {
     width: 100%;
     height: 100%;
     flow-children: down;
     padding: 16px 12px 12px;
-    box-shadow: 0px 6px 24px -8px rgba (0, 0, 0, 0.8);
-    border: 1px solid rgba (255, 255, 255, 0.015);
+    box-shadow: 0px 6px 24px -8px rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.015);
 }
+
 .ChatWheelEntry.AlreadyOwned .ChatWheelEntryContainer {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            20% 120%,
-
-            from (#111419),
-            to (#000000)
-        );
-    border: 1px solid rgba (255, 255, 255, 0.02);
+    background-color: gradient(linear, 0% 0%, 20% 120%, from(#111419), to(#000000));
+    border: 1px solid rgba(255, 255, 255, 0.02);
 }
+
 .ChatWheelEntry .ChatWheelBottomBorder {
     vertical-align: bottom;
     width: 100%;
     height: 3px;
     opacity: 0;
-    box-shadow: 0px -1px 0px 0px rgba (0, 0, 0, 0.6);
-    border-top: 1px solid rgba (255, 255, 255, 0.05);
+    box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
     background-color: rarity_color_common;
 }
+
 .ChatWheelEntry .ChatWheelBottomBorder .ChatWheelBottomBorderOverlay {
     width: 100%;
     height: 100%;
-    background-color: gradient
-        (
-            linear,
-            100% 0%,
-
-            0% 0%,
-
-            from (#000000aa),
-            color-stop (0.35, #00000000),
-            color-stop (0.65, #00000000),
-            to (#000000aa)
-        );
+    background-color: gradient(
+        linear,
+        100% 0%,
+        0% 0%,
+        from(#000000aa),
+        color-stop(0.35, #00000000),
+        color-stop(0.65, #00000000),
+        to(#000000aa)
+    );
 }
+
 .PlusNotSubscriber .ChatWheelEntry {
     opacity: 0.1;
 }
+
 .ChatWheelEntry #ChatWheelPlayButton {
     width: 40px;
     height: 40px;
@@ -1673,7 +1800,7 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     background-color: DarkGreyGradientBackgroundColor;
     border: 1px solid white;
     border-brush: WhiteGradientBorderSoft;
-    box-shadow: 0px 4px 8px rgba (0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     background-image: url("s2r://panorama/images/control_icons/24px/volume_max.vsvg");
     background-size: 45%;
     background-position: center;
@@ -1681,47 +1808,44 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     transition-property: brightness, transform;
     transition-duration: 0.1s, 0.05s;
 }
+
 .ChatWheelEntry #ChatWheelPlayButton:hover {
     brightness: 2;
 }
+
 .ChatWheelEntry #ChatWheelPlayButton:active {
     brightness: 0.5;
-    transform: translateY (1px);
+    transform: translateY(1px);
 }
+
 .ChatWheelEntry .ChatWheelLabel {
     horizontal-align: center;
     text-align: center;
     margin-top: 6px;
     max-height: 44px;
 }
+
 .DotaPlusPurchaseButton {
     horizontal-align: center;
     padding: 0px 16px;
     border-radius: 3px;
     border: 1px solid white;
     border-brush: WhiteGradientBorderSoft;
-    box-shadow: 0px 3px 6px -1px rgba (0, 0, 0, 0.4);
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#433620),
-            to (#141b21)
-        );
+    box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.4);
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#433620), to(#141b21));
     height: 34px;
     width: 100%;
     transition-property: border, brightness;
     transition-duration: 0.1s;
     transition-timing-function: ease;
 }
+
 .DotaPlusPurchaseButton .ButtonCenter {
     horizontal-align: center;
     flow-children: right;
     vertical-align: center;
 }
+
 .DotaPlusPurchaseButton Label {
     margin-left: 2px;
     margin-right: 4px;
@@ -1730,27 +1854,33 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     padding: 0px;
     letter-spacing: 1px;
 }
+
 .AlreadyOwned .DotaPlusPurchaseButton {
     visibility: collapse;
 }
+
 .DotaPlusPurchaseButton:hover {
     brightness: 2;
 }
+
 .DotaPlusPurchaseButton:active {
     brightness: 1.5;
 }
+
 .DotaPlusPurchaseButton .ChatWheelEntry.AlreadyOwned .DotaPlusPurchaseButton {
     visibility: collapse;
 }
+
 .DotaPlusPurchaseButton .DotaPlusCurrencyIcon {
     width: 20px;
     height: 20px;
-    transform: translateY (1px);
+    transform: translateY(1px);
     background-image: dotaPlusCurrencySmallIcon;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .ChatWheelEntry .ChatWheelAlreadyOwnedLabel {
     visibility: collapse;
     horizontal-align: center;
@@ -1758,51 +1888,57 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     width: 100%;
     text-align: center;
     border-top: 1px solid white;
-    border-brush: gradient
-        (
-            linear,
-            0% 0%,
-
-            100% 0%,
-
-            from (#ffffff00),
-            color-stop (0.2, #ffffff04),
-            color-stop (0.8, #ffffff04),
-            to (#ffffff00)
-        );
+    border-brush: gradient(
+        linear,
+        0% 0%,
+        100% 0%,
+        from(#ffffff00),
+        color-stop(0.2, #ffffff04),
+        color-stop(0.8, #ffffff04),
+        to(#ffffff00)
+    );
     padding: 7px 0px;
-    color: rgba (255, 255, 255, 0.7);
-    text-shadow: 0px 0px 12px rgba (224, 249, 255, 0.1);
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 0px 0px 12px rgba(224, 249, 255, 0.1);
 }
+
 .ChatWheelEntry.AlreadyOwned .ChatWheelAlreadyOwnedLabel {
     visibility: visible;
 }
+
 #BrowseFiltersContainer {
     visibility: collapse;
 }
+
 .CollectionGroup_Browse #SceneGroup,
 .CollectionGroup_Browse #ControlGroup,
 .CollectionGroup_Browse #FiltersContainer {
     visibility: collapse;
 }
+
 .CollectionGroup_Browse #ViewerGroup {
     width: 1804px;
 }
+
 .AspectRatio16x10 .CollectionGroup_Browse #ViewerGroup {
     width: 1636px;
 }
+
 .AspectRatio21x9 .CollectionGroup_Browse #ViewerGroup {
     width: 2090px;
 }
+
 .CollectionGroup_Browse #BrowseTitleGroupControls,
 .CollectionGroup_Browse #Filters,
 .CollectionGroup_Browse #BrowseFiltersContainer {
     visibility: visible;
 }
+
 #StickersTitleGroupControls {
-    width: fill-parent-flow (1);
+    width: fill-parent-flow(1);
     height: fit-children;
 }
+
 #StickersTitleGroupControls #StickersTitleGroupControlsLeft {
     padding-left: 16px;
     height: fit-children;
@@ -1811,6 +1947,7 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     horizontal-align: left;
     vertical-align: center;
 }
+
 #StickersTitleGroupControls #StickersTitleGroupControlsRight {
     height: fit-children;
     width: fit-children;
@@ -1818,14 +1955,17 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     horizontal-align: right;
     vertical-align: center;
 }
+
 #BrowseTitleGroupControls {
-    width: fill-parent-flow (1);
+    width: fill-parent-flow(1);
     height: fit-children;
     visibility: collapse;
 }
+
 .CollectionGroup_Browse #BrowseTitleGroupControls {
     visibility: visible;
 }
+
 #BrowseTitleGroupControls #BrowseTitleGroupControlsLeft {
     padding-left: 16px;
     height: fit-children;
@@ -1834,6 +1974,7 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     horizontal-align: left;
     vertical-align: center;
 }
+
 #BrowseTitleGroupControls #BrowseTitleGroupControlsRight {
     height: fit-children;
     width: fit-children;
@@ -1841,45 +1982,56 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     horizontal-align: right;
     vertical-align: center;
 }
+
 #BrowseTitleGroupControls #BrowseTitleGroupControlsRight #GroupByTypeToggleButton {
     vertical-align: center;
     margin: 0px 12px 0px 20px;
 }
+
 #BrowseTitleGroupControls #BrowseTitleGroupControlsRight #GroupByTypeToggleButton Label {
     color: LighterGrey;
 }
+
 #BrowseTitleGroupControls #BrowseTitleGroupControlsRight #EditFilter {
     margin: 0px 0px 0px 12px;
     vertical-align: center;
     height: 40px;
 }
+
 .NoActiveFilters #BrowseTitleGroupControls #BrowseTitleGroupControlsRight #EditFilter {
     visibility: collapse;
 }
+
 #BrowseTitleGroupControls #DevModeToggle {
     vertical-align: middle;
     margin-left: 12px;
     visibility: collapse;
 }
+
 #BrowseTitleGroupControls #DevModeToggle Label {
     color: LighterGrey;
 }
+
 .MainBranch #BrowseTitleGroupControls #DevModeToggle {
     visibility: visible;
 }
+
 #CustomBackgrounds {
     width: 100%;
     height: 100%;
     margin-top: 60px;
 }
+
 #CustomBackgrounds .ShardShop_Background {
     width: 100%;
     height: 100%;
     visibility: collapse;
 }
+
 #DOTACollectionPageShards #CustomBackgrounds .ShardShop_Background {
     visibility: visible;
 }
+
 #ShardsTabDescriptionLabel {
     font-weight: normal;
     text-transform: none;
@@ -1890,33 +2042,27 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     brightness: 1.5;
     visibility: collapse;
 }
+
 #DOTACollectionPageShards #ShardsTabDescriptionLabel {
     visibility: visible;
 }
+
 #ShardShop_SummaryContainer {
     width: 100%;
     flow-children: down;
     visibility: collapse;
     margin-bottom: 24px;
-    transform: translateX (-20px);
+    transform: translateX(-20px);
 }
+
 #DOTACollectionPageShards #ShardShop_SummaryContainer {
     visibility: visible;
 }
+
 #ShardShop_SummaryContainer .ShardShopTitle {
     color: white;
-    color: gradient
-        (
-            linear,
-            0% 100%,
-
-            0% 0%,
-
-            from (#f8e8b9),
-            color-stop (0.7, #e4c269),
-            to (#c79123)
-        );
-    text-shadow: 0px 4px 12px rgba (0, 0, 0, 0.5);
+    color: gradient(linear, 0% 100%, 0% 0%, from(#f8e8b9), color-stop(0.7, #e4c269), to(#c79123));
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
     text-transform: none;
     font-size: 42px;
     font-weight: normal;
@@ -1927,25 +2073,29 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     horizontal-align: center;
     width: 90%;
 }
+
 #ShardShop_SummaryContainer .DotaPlusLogoContainer {
     width: 100%;
-    height: width-percentage (100%);
+    height: width-percentage(100%);
     horizontal-align: center;
     margin-top: -20px;
     margin-bottom: -60px;
 }
+
 #ShardShop_SummaryContainer .DotaPlusLogoContainer .PlusLogo {
     width: 100%;
     height: 100%;
 }
+
 #ShardShop_SummaryContainer .DotaPlusLogoContainer .PlusLogoShadow {
     width: 100%;
     height: 100%;
     margin-top: 24px;
     wash-color: black;
-    blur: gaussian (16px);
+    blur: gaussian(16px);
     opacity: 0.6;
 }
+
 #ShardShop_SummaryContainer .ShardShop_Dash {
     width: 80px;
     height: 1px;
@@ -1954,6 +2104,7 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     margin-top: 12px;
     opacity: 0.2;
 }
+
 .StackCount {
     z-index: 3;
     vertical-align: bottom;
@@ -1963,19 +2114,22 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     padding: 1px 12px 2px;
     background-color: DarkestGrey;
     border-radius: 3px;
-    border: 1px solid rgba (255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.4);
     border-brush: LighterGreyGradientBackgroundColor;
-    box-shadow: 0px 2px 4px rgba (0, 0, 0, 0.2);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     visibility: collapse;
 }
+
 .StackCount Label {
     color: LighterGrey;
     font-size: 16px;
     line-height: 18px;
 }
+
 .IsStacked .StackCount {
     visibility: visible;
 }
+
 #ShardsRelicsSearchTextEntry {
     margin-left: 12px;
     width: 272px;
@@ -1984,68 +2138,57 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     transition-property: border;
     transition-duration: 0.1s;
 }
+
 #ShardsRelicsSearchTextEntry:hover {
     border: 1px solid Grey;
 }
+
 .SingleHeroRelicsButton {
     transition-property: transform, brightness;
     transition-duration: 0.05s;
 }
+
 .SingleHeroRelicsButton .SingleHeroRelicsButtonContent {
     width: 100%;
     height: 100%;
     flow-children: down;
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            20% 120%,
-
-            from (#111419),
-            to (#000000)
-        );
-    border: 1px solid rgba (255, 255, 255, 0.01);
-    box-shadow: 0px 6px 24px -8px rgba (0, 0, 0, 0.8);
+    background-color: gradient(linear, 0% 0%, 20% 120%, from(#111419), to(#000000));
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    box-shadow: 0px 6px 24px -8px rgba(0, 0, 0, 0.8);
     margin: 4px;
     transition-property: border, transform, brightness, background-color;
     transition-duration: 0.1s, 0.2s;
 }
+
 .SingleHeroRelicsButton .SingleHeroRelicsActiveBorder {
     width: 100%;
     height: 100%;
     margin: 4px;
     border: 0px solid white;
-    border-brush: gradient
-        (
-            linear,
-            0% 0%,
-
-            0% 100%,
-
-            from (#c2ced4),
-            to (#727d81)
-        );
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(#c2ced4), to(#727d81));
     opacity: 0;
     transition-property: border, opacity;
     transition-duration: 0.1s;
 }
+
 .SingleHeroRelicsButton #HeroImage {
     margin-top: 16px;
     width: 76px;
     height: 76px;
     border-radius: 50%;
     horizontal-align: center;
-    box-shadow: 0px 2px 8px rgba (0, 0, 0, 0.5);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
     transition-property: transform;
     transition-duration: 0.1s;
-    transform: scale3d (1, 1, 1);
+    transform: scale3d(1, 1, 1);
 }
+
 .SingleHeroRelicsButton .RelicsCountContainer {
     margin-top: 12px;
     flow-children: right;
     horizontal-align: center;
 }
+
 .SingleHeroRelicsButton .RelicsCountContainer .RelicsCount {
     color: Grey;
     font-family: titleFont;
@@ -2054,75 +2197,69 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     margin-right: 2px;
     font-weight: normal;
 }
+
 .SingleHeroRelicsButton .RelicsCountContainer .RelicsCountTotal {
     color: Grey;
     vertical-align: bottom;
     margin-bottom: 3px;
 }
+
 .SingleHeroRelicsButton.SearchFiltered {
     visibility: collapse;
 }
+
 .SingleHeroRelicsButton:hover .SingleHeroRelicsButtonContent {
     brightness: 1.5;
-    border: 1px solid rgba (255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.04);
 }
+
 .SingleHeroRelicsButton.HasRelics .SingleHeroRelicsButtonContent {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            20% 100%,
-
-            from (#262c39),
-            to (#121418)
-        );
+    background-color: gradient(linear, 0% 0%, 20% 100%, from(#262c39), to(#121418));
     brightness: 1.5;
 }
+
 .SingleHeroRelicsButton.HasRelics .RelicsCount {
     color: white;
-    text-shadow: 0px 0px 12px rgba (255, 255, 255, 0.2);
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.2);
     font-weight: semi-bold;
 }
+
 .SingleHeroRelicsButton.Selected {
     z-index: 1;
-    box-shadow: 0px 0px 80px -24px rgba (206, 229, 255, 0.1);
+    box-shadow: 0px 0px 80px -24px rgba(206, 229, 255, 0.1);
     animation-name: SelectedSingleHeroRelicAnimation;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     sound: "ui_generic_button_click";
 }
+
 .SingleHeroRelicsButton.Selected .SingleHeroRelicsButtonContent {
-    background-color: gradient
-        (
-            linear,
-            0% 0%,
-
-            20% 100%,
-
-            from (#3a4253),
-            to (#21242b)
-        );
+    background-color: gradient(linear, 0% 0%, 20% 100%, from(#3a4253), to(#21242b));
 }
+
 .SingleHeroRelicsButton.Selected .SingleHeroRelicsActiveBorder {
     opacity: 0.8;
     border: 2px solid white;
 }
+
 .SingleHeroRelicsButton:active {
-    transform: scale3d (0.97, 0.97, 1);
+    transform: scale3d(0.97, 0.97, 1);
     brightness: 0.5;
 }
+
 @keyframes 'SelectedSingleHeroRelicAnimation' {
     0% {
-        box-shadow: 0px 0px 80px -24px rgba (206, 229, 255, 0.05);
+        box-shadow: 0px 0px 80px -24px rgba(206, 229, 255, 0.05);
         brightness: 1;
     }
+
     100% {
-        box-shadow: 0px 0px 80px -24px rgba (206, 229, 255, 0.1);
+        box-shadow: 0px 0px 80px -24px rgba(206, 229, 255, 0.1);
         brightness: 1.8;
     }
 }
+
 #SingleHeroRelicsContainer {
     visibility: collapse;
     width: 550px;
@@ -2133,32 +2270,39 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     margin-top: 150px;
     margin-right: 20px;
 }
+
 .AspectRatio16x10 #SingleHeroRelicsContainer {
     margin-right: 80px;
 }
+
 .AspectRatio21x9 #SingleHeroRelicsContainer {
     margin-right: 220px;
 }
+
 .CollectionTab_Relics #SingleHeroRelicsContainer {
     visibility: visible;
 }
+
 #SingleHeroRelicsContainer #SingleHeroRelicsHeader {
     width: 100%;
     flow-children: down;
 }
+
 #SingleHeroRelicsContainer #SingleHeroRelicsHeader #HeroRelicsHeroImage {
     width: 128px;
     height: 72px;
-    box-shadow: 0px 4px 16px rgba (0, 0, 0, 0.5);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.5);
     horizontal-align: center;
 }
+
 #SingleHeroRelicsContainer #SingleHeroRelicsHeader #HeroRelicsDisplayText {
     flow-children: down;
-    width: fill-parent-flow (1);
+    width: fill-parent-flow(1);
     margin-top: 16px;
     vertical-align: center;
     horizontal-align: center;
 }
+
 #SingleHeroRelicsContainer #SingleHeroRelicsHeader #HeroRelicsDisplayText #HeroRelicsHeroName {
     width: 100%;
     height: 40px;
@@ -2171,6 +2315,7 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     font-size: 28px;
     text-align: center;
 }
+
 #SingleHeroRelicsContainer #SingleHeroRelicsHeader #HeroRelicsDisplayText #HeroRelicsDisplayOwned {
     font-size: 18px;
     text-transform: uppercase;
@@ -2180,12 +2325,14 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     text-align: center;
     width: 100%;
 }
+
 #SingleHeroRelicsContainer #HeroRelicsSummary {
     vertical-align: middle;
     margin-bottom: 20px;
     horizontal-align: center;
     ui-scale: 115%;
 }
+
 #SingleHeroRelicsContainer .RelicHelpText {
     horizontal-align: center;
     text-align: center;
@@ -2194,16 +2341,20 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     margin-bottom: 12px;
     font-size: 18px;
 }
+
 #SingleHeroRelicsContainer .RelicPurchaseButtons {
     flow-children: right;
     horizontal-align: center;
 }
+
 #SingleHeroRelicsContainer .RelicPurchaseButtons #PurchaseRareRelicButton {
     margin-right: 60px;
 }
+
 #SingleHeroRelicsContainer .RelicPurchaseButtons #PurchaseCommonRelicButton {
     margin-left: 60px;
 }
+
 #SingleHeroRelicsContainer .RelicPurchaseButtons .RelicPurchaseButton {
     flow-children: down;
     width: 174px;
@@ -2216,13 +2367,16 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     transition-duration: 0.2s;
     transition-property: brightness;
 }
+
 #SingleHeroRelicsContainer .RelicPurchaseButtons .RelicPurchaseButton:hover:enabled {
     brightness: 1.8;
 }
+
 #SingleHeroRelicsContainer .RelicPurchaseButtons .RelicPurchaseButton:disabled {
     brightness: 0.2;
     saturation: 0.2;
 }
+
 #SingleHeroRelicsContainer .RelicPurchaseButtons .RelicPurchaseButtonTitle {
     font-weight: bold;
     letter-spacing: 1px;
@@ -2234,50 +2388,62 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     text-transform: uppercase;
     color: dotaPlusRelicTextRare;
 }
+
 #SingleHeroRelicsContainer .RelicPurchaseButtons .RelicPurchaseButtonPrice {
     flow-children: right;
     horizontal-align: center;
     padding-right: 10px;
 }
+
 #SingleHeroRelicsContainer .RelicPurchaseButtons .RelicsCurrencyIcon {
     width: 22px;
     height: 22px;
     margin-right: 4px;
     vertical-align: middle;
-    transform: translateY (-3px);
+    transform: translateY(-3px);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #SingleHeroRelicsContainer .RelicPurchaseButtons Label.RelicShardPrice {
     color: dotaPlusLightGold;
     font-weight: bold;
     text-shadow: 0px 0px 4px 2 #00000088;
 }
+
 .PrimaryAttributeStrength #PurchaseCommonRelicButton .RelicPurchaseButtonTitle {
     color: dotaPlusRelicTextStr;
 }
+
 .PrimaryAttributeAgility #PurchaseCommonRelicButton .RelicPurchaseButtonTitle {
     color: dotaPlusRelicTextAgi;
 }
+
 .PrimaryAttributeIntellect #PurchaseCommonRelicButton .RelicPurchaseButtonTitle {
     color: dotaPlusRelicTextInt;
 }
+
 .PrimaryAttributeUniversal #PurchaseCommonRelicButton .RelicPurchaseButtonTitle {
     color: dotaPlusRelicTextUni;
 }
+
 .PrimaryAttributeStrength #PurchaseCommonRelicButton.RelicPurchaseButton {
     background-image: url("s2r://panorama/images/dota_plus/relic_str_button_psd.vtex");
 }
+
 .PrimaryAttributeAgility #PurchaseCommonRelicButton.RelicPurchaseButton {
     background-image: url("s2r://panorama/images/dota_plus/relic_agi_button_psd.vtex");
 }
+
 .PrimaryAttributeIntellect #PurchaseCommonRelicButton.RelicPurchaseButton {
     background-image: url("s2r://panorama/images/dota_plus/relic_int_button_psd.vtex");
 }
+
 .PrimaryAttributeUniversal #PurchaseCommonRelicButton.RelicPurchaseButton {
     background-image: url("s2r://panorama/images/dota_plus/relic_uni_button_psd.vtex");
 }
+
 #RewardLogButton {
     width: 22px;
     height: 22px;
@@ -2292,16 +2458,20 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     tooltip-body-position: 50% 50%;
     ignore-parent-flow: true;
 }
+
 #RewardLogButton:hover {
     brightness: 2;
 }
+
 #RewardLogButton:active {
     brightness: 0.8;
 }
+
 .DropDownContainer {
     flow-children: right;
     margin-left: 20px;
 }
+
 .CollectionGroup_Browse .ItemStatusFilters {
     visibility: collapse;
 }

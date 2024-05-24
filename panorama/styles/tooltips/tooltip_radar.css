@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTATooltipRadar #Contents {
     flow-children: down;
     width: 400px;
@@ -12,10 +14,8 @@ DOTATooltipRadar #Contents {
 .Description {
     color: #cccccc;
     font-size: 16px;
-
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     margin-top: 4px;
-
     width: 100%;
     padding: 8px 0px;
 }
@@ -71,6 +71,7 @@ DOTATooltipRadar #Contents {
     flow-children: right;
     visibility: visible;
 }
+
 .CooldownHolder Label {
     color: white;
     font-size: 17px;

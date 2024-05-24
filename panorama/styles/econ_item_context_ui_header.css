@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAEconItemContextUIHeader {
     width: 100%;
     flow-children: down;
@@ -63,9 +65,7 @@ DOTAEconItemContextUIHeader {
     background-position: center;
     visibility: collapse;
     wash-color: #e54e42;
-
     wash-color: #8ac267;
-
     wash-color: #59bfff;
 }
 
@@ -87,66 +87,87 @@ DOTAEconItemContextUIHeader.Seasonal.Season_PlusSubscription .SeasonalIcon {
 .QualityColor0 {
     color: #b2b2b2;
 }
+
 .QualityColor1 {
     color: #4d7455;
 }
+
 .QualityColor2 {
     color: #476291;
 }
+
 .QualityColor3 {
     color: #8650ac;
 }
+
 .QualityColor4 {
     color: #d2d2d2;
 }
+
 .QualityColor5 {
     color: #70b04a;
 }
+
 .QualityColor6 {
     color: #a50f79;
 }
+
 .QualityColor7 {
     color: #70b04a;
 }
+
 .QualityColor8 {
     color: #00ff00;
 }
+
 .QualityColor9 {
     color: #cf6a32;
 }
+
 .QualityColor10 {
     color: #8650ac;
 }
+
 .QualityColor11 {
     color: #8650ac;
 }
+
 .QualityColor12 {
     color: #8650ac;
 }
+
 .QualityColor13 {
     color: #ffff00;
 }
+
 .QualityColor14 {
     color: #eb4b4b;
 }
+
 .QualityColor15 {
     color: #ade55c;
 }
+
 .QualityColor16 {
     color: #ffffff;
 }
+
 .QualityColor17 {
     color: #cccccc;
 }
+
 .QualityColor18 {
     color: #4682b4;
 }
+
 .QualityColor19 {
     color: #a52a2a;
 }
+
 .QualityColor20 {
     color: #32cd32;
 }
+
 .QualityColor21 {
     color: #8847ff;
 }
@@ -154,9 +175,11 @@ DOTAEconItemContextUIHeader.Seasonal.Season_PlusSubscription .SeasonalIcon {
 .ItemTypeSticker #Name.QualityColor22 {
     color: sticker_quality_color_glitter;
 }
+
 .ItemTypeSticker #Name.QualityColor23 {
     color: sticker_quality_color_holo;
 }
+
 .ItemTypeSticker #Name.QualityColor24 {
     color: sticker_quality_color_gold;
 }

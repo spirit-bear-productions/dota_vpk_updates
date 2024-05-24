@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTABPInternational2023PredictionsPage.DashboardPage {
     width: 100%;
     height: 100%;
@@ -46,6 +48,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     width: 100%;
     height: fill-parent-flow(1);
 }
+
 .MainContents .Body TabContents {
     padding: 24px 48px 48px;
 }
@@ -58,6 +61,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     flow-children: down;
     visibility: visible;
 }
+
 .Available.HasCompendium .MainContents .Body .UnavailableContainer {
     visibility: collapse;
 }
@@ -87,6 +91,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     margin: 40px;
     transform: rotateZ(45deg);
 }
+
 .MainContents .Body .UnavailableContainer .LockIconContainer .LockIcon {
     transform: rotateZ(-45deg);
 }
@@ -95,6 +100,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     flow-children: right;
     visibility: collapse;
 }
+
 .Available.HasCompendium .MainContents .Body .Stage:selected {
     visibility: visible;
 }
@@ -102,10 +108,12 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
 .MainContents .Body .Stage .StageColumns {
     flow-children: right;
 }
+
 .MainContents .Body .Stage .StageColumns .Column {
     flow-children: down;
     vertical-align: center;
 }
+
 .MainContents .Body .Stage .StageColumns .Column .FinalsRow {
     flow-children: right;
     margin-bottom: 30px;
@@ -119,6 +127,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     flow-children: down;
     visibility: collapse;
 }
+
 .Available .MainContents .Body .Stage .StageRows {
     visibility: visible;
 }
@@ -134,18 +143,19 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     margin-right: 16px;
     visibility: collapse;
 }
+
 .Available .MainContents .Body .Stage .StageStats {
     visibility: visible;
 }
 
 .MainContents .Body .Stage .StageStats .StageDetails {
     width: 100%;
-
     margin-bottom: 16px;
     margin-right: 32px;
     padding-top: 24px;
     flow-children: down;
 }
+
 .MainContents .Body .Stage .StageStats .StageDetails .RewardsHeading {
     width: 100%;
     font-family: titleFont;
@@ -169,6 +179,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     margin-top: 12px;
     horizontal-align: center;
 }
+
 .MainContents .Body .Stage .StageStats .StageDetails .RewardDetails .DotDotDot {
     margin: 0px 8px;
     height: 1px;
@@ -204,6 +215,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     box-shadow: 0px 12px 48px -8px rgba(0, 0, 0, 0.6);
     vertical-align: center;
 }
+
 .MainContents .Body .DayContainer.Inactive {
     brightness: 0.2;
     saturation: 0.8;
@@ -217,6 +229,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(primaryColor3), to(primaryColor5));
     box-shadow: 0px 1px 0px primaryColor4&66;
 }
+
 .MainContents .Body .DayContainer .DayHeader .DayName {
     text-transform: uppercase;
     font-size: 16px;
@@ -238,6 +251,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     width: fit-children;
     padding: 12px;
 }
+
 .MainContents .Body .DayContainer .DayContents .DayRow {
     flow-children: right;
 }
@@ -258,6 +272,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     height: 340px;
     margin-bottom: 16px;
 }
+
 #PlayoffsTabContents #PlayoffsColumn2 .EmptyDay .LeftRightLinesContainer {
     vertical-align: center;
     opacity: 0.2;
@@ -316,6 +331,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
 #MainEventTabContents #FinalsColumn4 {
     margin-top: 0px;
 }
+
 #MainEventTabContents #FinalsColumn4 .DayContainer {
     margin: 30px 0px;
 }
@@ -339,6 +355,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
 #MainEventTabContents #FinalsUB {
     overflow: noclip;
 }
+
 #MainEventTabContents #FinalsUB .LinesContainer {
     width: 302px;
 }
@@ -346,6 +363,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
 #MainEventTabContents #FinalsUB #FinalsUB_AB_Container {
     height: 100%;
 }
+
 #MainEventTabContents #FinalsUB #FinalsUB_AB_Container #GroupLabelA {
     horizontal-align: center;
     vertical-align: center;
@@ -368,6 +386,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
 #MainEventTabContents #FinalsUB #FinalsUB_C_Container {
     height: 100%;
 }
+
 #MainEventTabContents #FinalsUB #FinalsUB_C_Container #GroupLabelC {
     horizontal-align: right;
     vertical-align: center;
@@ -388,17 +407,16 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     background-color: primaryColor7;
     border: 1px solid primaryColor2&44;
     width: 220px;
-
     transition-property: border;
     transition-duration: 0.1s;
 }
+
 .GroupTeamSlot Label {
     color: LighterGrey;
 }
 
 .GroupTeamSlot.Active {
     border-color: primaryColor2;
-
     animation-name: GlowActiveTeamSelector;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
@@ -411,6 +429,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     background-color: primaryColor6;
     brightness: 0.5;
 }
+
 .GroupTeamSlot.Inactive Label {
     color: LightGrey;
 }
@@ -443,6 +462,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
 .GroupTeamSlot:hover:not(.GroupTeamSlot.Inactive) {
     border-color: white;
 }
+
 .GroupTeamSlot:hover:not(.GroupTeamSlot.Inactive) Label {
     color: white;
 }
@@ -451,6 +471,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
 .Locked .GroupTeamSlot:hover:not(.GroupTeamSlot.Inactive) {
     border-color: primaryColor2&44;
 }
+
 .NoData .GroupTeamSlot:hover:not(.GroupTeamSlot.Inactive) Label,
 .Locked .GroupTeamSlot:hover:not(.GroupTeamSlot.Inactive) Label {
     color: LighterGrey;
@@ -462,6 +483,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     background-color: winnerGreen&11;
     box-shadow: 0px 0px 16px winnerGreen&09;
 }
+
 .GroupTeamSlot.Correct Label,
 .GroupTeamSlot.OpponentCorrect Label {
     color: winnerGreen;
@@ -480,6 +502,7 @@ DOTABPInternational2023PredictionsPage.DashboardPage {
     background-color: loserRed&11;
     box-shadow: 0px 0px 16px loserRed&09;
 }
+
 .GroupTeamSlot.Incorrect Label,
 .GroupTeamSlot.OpponentIncorrect Label {
     color: loserRed;
@@ -496,6 +519,7 @@ International2023PredictionGroup {
     padding: 8px;
     flow-children: down;
 }
+
 International2023PredictionGroup.NoData,
 International2023PredictionGroup.Locked {
     brightness: 0.5;
@@ -505,6 +529,7 @@ International2023PredictionGroup .GroupTeamSlot {
     flow-children: right;
     margin-bottom: 6px;
 }
+
 International2023PredictionGroup .GroupTeamSlot .TeamRank {
     width: 45px;
     text-align: right;
@@ -549,6 +574,7 @@ International2023PredictionGroup .GroupTeamSlot.NoTeam #TeamImage {
     opacity: 0.2;
     margin-bottom: 30px;
 }
+
 .ForkContainer .Fork2 {
     width: 24px;
     height: 100%;
@@ -565,21 +591,27 @@ International2023PredictionGroup .GroupTeamSlot.NoTeam #TeamImage {
 .ForkContainer.Height_20 {
     height: 20%;
 }
+
 .ForkContainer.Height_30 {
     height: 30%;
 }
+
 .ForkContainer.Height_40 {
     height: 40%;
 }
+
 .ForkContainer.Height_50 {
     height: 50%;
 }
+
 .ForkContainer.Height_60 {
     height: 60%;
 }
+
 .ForkContainer.Height_70 {
     height: 70%;
 }
+
 .ForkContainer.Height_80 {
     height: 80%;
 }
@@ -590,6 +622,7 @@ International2023PredictionGroup .GroupTeamSlot.NoTeam #TeamImage {
     flow-children: right;
     margin-bottom: 12px;
 }
+
 .TopLeftBottomRightLinesContainer .LeftLine {
     width: fill-parent-flow(1);
     height: 100%;
@@ -609,6 +642,7 @@ International2023PredictionGroup .GroupTeamSlot.NoTeam #TeamImage {
     flow-children: right;
     margin-bottom: 12px;
 }
+
 .BottomLeftTopRightLinesContainer .LeftLine {
     width: fill-parent-flow(1);
     height: 100%;
@@ -639,24 +673,31 @@ International2023PredictionGroup .GroupTeamSlot.NoTeam #TeamImage {
     border-bottom: 1px solid secondaryColor1;
     margin-bottom: 30px;
 }
+
 .DoubleLinesContainer.Height_20 {
     height: 20%;
 }
+
 .DoubleLinesContainer.Height_30 {
     height: 30%;
 }
+
 .DoubleLinesContainer.Height_40 {
     height: 40%;
 }
+
 .DoubleLinesContainer.Height_50 {
     height: 50%;
 }
+
 .DoubleLinesContainer.Height_60 {
     height: 60%;
 }
+
 .DoubleLinesContainer.Height_70 {
     height: 70%;
 }
+
 .DoubleLinesContainer.Height_80 {
     height: 80%;
 }
@@ -688,6 +729,7 @@ International2023PredictionSeries {
     flow-children: down;
     margin-bottom: 16px;
 }
+
 International2023PredictionSeries.NoData,
 International2023PredictionSeries.Locked {
     brightness: 0.5;
@@ -731,7 +773,6 @@ International2023PredictionSeries .Crown {
     background-repeat: no-repeat;
     background-size: contain;
     brightness: 0.2;
-
     transition-property: brightness;
     transition-duration: 0.1s;
 }
@@ -749,13 +790,13 @@ International2023PredictionSeries .GroupTeamRow {
     margin-bottom: 8px;
     overflow: noclip;
 }
+
 International2023PredictionSeries .GroupTeamRow .CrownResultIcon {
     width: 12px;
     height: 12px;
     vertical-align: center;
     horizontal-align: right;
     transform: translateX(10px);
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -766,12 +807,14 @@ International2023PredictionSeries .GroupTeamSlot {
     flow-children: right;
     width: 200px;
 }
+
 International2023PredictionSeries .GroupTeamSlot .GroupTeam {
     flow-children: right;
     width: fill-parent-flow(1);
     height: 32px;
     padding-left: 8px;
 }
+
 International2023PredictionSeries .GroupTeamSlot .GroupTeam DOTATeamImage {
     width: 32px;
     height: 32px;
@@ -813,6 +856,7 @@ BracketPrediction.TI2023 {
     opacity-mask: url("s2r://panorama/images/masks/hero_model_preview_mask_loadout_psd.vtex");
     transform: translateX(430px);
 }
+
 .PredictionsBackgroundImage .CompediumBackgroundParticles {
     width: 160%;
     height: 160%;

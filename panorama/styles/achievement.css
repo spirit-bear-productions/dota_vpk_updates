@@ -1,8 +1,9 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .Achievement {
     height: 184px;
     width: 322px;
     margin: 0px 12px 24px 12px;
-
     brightness: 1;
     saturation: 1;
     opacity: 1;
@@ -12,6 +13,7 @@
 .AchievementCell.Current {
     z-index: 4;
 }
+
 .AchievementCell {
     border: 1px solid black;
     border-top: 0px;
@@ -23,7 +25,6 @@
     transform: translateY(33px);
     height: 150px;
     width: 100%;
-
     overflow: noclip;
     transition-property: transform, opacity, wash-color;
     transition-duration: 0.24s;
@@ -63,7 +64,6 @@
     margin-top: 8px;
     font-weight: thin;
     line-height: 18px;
-
     transition-property: color;
     transition-duration: 0.32s;
 }
@@ -100,9 +100,9 @@
     width: 79px;
     text-align: right;
     text-overflow: shrink;
-
     visibility: collapse;
 }
+
 .ShowAchievementQuantity .AchievementQuantity {
     visibility: visible;
 }
@@ -172,13 +172,10 @@
     margin-right: 8px;
     margin-top: 80px;
     padding: 0px;
-
     padding-top: 8px;
-
     horizontal-align: right;
     flow-children: down;
     border-radius: 50%;
-
     transition-property: brightness, pre-transform-scale2d;
     transition-duration: 0.25s;
 }
@@ -195,7 +192,6 @@
 .BackRowHittest {
     border: 1px solid;
     border-bottom: 0px;
-
     border-top-color: #ffffff08;
     border-left-color: #ffffff06;
     border-bottom-color: #36506d00;
@@ -227,9 +223,7 @@
     height: 22px;
     padding: 0px 5px;
     vertical-align: center;
-
     visibility: collapse;
-
     transition-property: brightness;
     transition-duration: 0.25s;
 }
@@ -237,10 +231,8 @@
 .AchievementCircle > Panel {
     width: 22px;
     height: 22px;
-
     border: 2px solid #484848;
     border-radius: 50%;
-
     background-image: url("s2r://panorama/images/compendium/spring2016/achievements_pip_not_active_png.vtex");
     background-position: center;
     background-repeat: no-repeat;
@@ -265,7 +257,6 @@
     background-color: secondaryBrightColor;
     wash-color: secondaryBrightColor;
     box-shadow: secondaryBrightColor&66 0px 0px 8px 0px;
-
     background-image: url("s2r://panorama/images/control_icons/check_png.vtex");
     border: 2px solid #ffffff;
 }
@@ -348,7 +339,6 @@
     vertical-align: bottom;
     transform: translateY(0px);
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#000f), to(#111f));
-
     border: 0px solid transparent;
     overflow: noclip;
     transition-property: transform, opacity, wash-color;
@@ -427,11 +417,9 @@
     padding-top: 8px;
     margin-bottom: 6px;
     margin-right: 8px;
-
     horizontal-align: right;
     flow-children: left;
     border-radius: 0%;
-
     wash-color: #eeb66f;
 }
 

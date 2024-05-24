@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .TooltipFriendsMenuContents {
     flow-children: down;
 }
@@ -5,11 +7,13 @@
 .HasFriendsReadyToPlay #NoFriendsReadyToPlayLabel {
     visibility: collapse;
 }
+
 #FriendsReadyToPlayList {
     visibility: collapse;
     width: 320px;
     flow-children: down;
 }
+
 .HasFriendsReadyToPlay #FriendsReadyToPlayList {
     visibility: visible;
 }

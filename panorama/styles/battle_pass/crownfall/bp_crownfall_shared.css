@@ -1,15 +1,13 @@
-@define crownfallCurrencyIcon: url( "s2r://panorama/images/status_icons/icon_star_png.vtex");
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
+@define crownfallCurrencyIcon: url("s2r://panorama/images/status_icons/icon_star_png.vtex");
 @define gold1: #EFD4AC;
 @define gold2: #DCB25E;
 @define gold3: #977628;
-
 @define crownfallBlue1: #3da1d5;
 @define crownfallBlue2: #206186;
-
 @define charcoalLight: #253242;
 @define charcoalDark: #0B111A;
-
 @define ultraBrightColor: #def1f9;
 @define accentColorBright: #d2e4ec;
 @define accentColor: #6dd6f3;
@@ -17,7 +15,6 @@
 @define shadeColor: #08507a;
 @define darkColor: #042a40;
 @define ultraDarkColor: #021520;
-
 @define secondaryColor: #5DAFFF;
 @define secondaryLighterColor: #5DAFFF;
 @define secondaryDarkerColor: #5DAFFF;
@@ -27,7 +24,6 @@
 @define secondaryDefaultColor: #41494C;
 @define secondaryDarkColor: #242E33;
 @define secondaryUltraDarkColor: #0E1619;
-
 .CrownfallPage {
     width: 100%;
     height: 100%;
@@ -49,6 +45,7 @@
     width: 96px;
     height: 96px;
 }
+
 #CloseButtonContainer .CloseButtonBackground,
 #CloseButtonContainer .CloseButtonBackgroundHover {
     overflow: noclip;
@@ -61,7 +58,6 @@
     background-color: rgba(0, 0, 0, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.04);
     transform: rotateZ(45deg) translateX(78px) translateY(-78px);
-
     transition-property: transform;
     transition-duration: 0.15s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
@@ -70,7 +66,6 @@
 #CloseButtonContainer .CloseButtonBackgroundHover {
     background-color: gradient(linear, 100% 100%, 0% 0%, from(gold1), to(gold2));
     transform: rotateZ(45deg) translateX(76px) translateY(-166px);
-
     transition-property: transform;
     transition-duration: 0.15s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
@@ -82,7 +77,6 @@
     img-shadow: 0px 1px 8px rgba(0, 0, 0, 1);
     wash-color: LighterGrey;
     opacity: 0.6;
-
     transition-property: wash-color, opacity;
     transition-duration: 0.1s;
 }
@@ -112,6 +106,7 @@
     flow-children: down;
     horizontal-align: center;
 }
+
 .ActStatus .ActStatusBadge {
     ignore-parent-flow: true;
     width: 88px;
@@ -130,6 +125,7 @@
     margin-top: 21px;
     horizontal-align: center;
 }
+
 .ActStatus .CompletedState .LoadingState {
     margin: 0px;
     width: 24px;
@@ -171,6 +167,7 @@
     horizontal-align: center;
     flow-children: right;
 }
+
 .DashDotDivider .Dot {
     width: 8px;
     height: width-percentage(100%);
@@ -187,6 +184,7 @@
     height: 1px;
     opacity: 0.6;
 }
+
 .DashDotDivider .Dash.Left {
     background-color: gradient(linear, 100% 0%, 0% 0%, from(gold1), color-stop(0.5, gold2&66), to(gold3&00));
 }
@@ -200,9 +198,11 @@
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(gold1), color-stop(0.5, gold2), to(gold3));
     background-color: gradient(linear, 0% 0%, 0% 100%, from(charcoalLight), to(charcoalDark));
 }
+
 .PopupPanel.Encounter.EncounterAct1 .Contents {
     background-image: url("s2r://panorama/images/events/crownfall/visual_novel/vn_background_act1_png.vtex");
 }
+
 .PopupPanel.Encounter.EncounterAct2 .Contents {
     background-image: url("s2r://panorama/images/events/crownfall/visual_novel/vn_background_act2_png.vtex");
 }
@@ -213,10 +213,10 @@
     border: 0px;
     box-shadow: none;
     background-color: #00000000;
-
     vertical-align: center;
     margin-top: -40px;
 }
+
 .PopupPanel.Encounter .ContentsWrapper {
     width: 1200px;
     height: 700px;
@@ -234,7 +234,6 @@
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(gold1), color-stop(0.5, gold2), to(gold3));
     background-color: rgb(19, 35, 66);
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.6);
-
     background-position: center;
     background-size: cover;
 }
@@ -254,6 +253,7 @@
     padding: 40px 40px 0px;
     width: 100%;
 }
+
 .PopupClosing .PopupPanel.Encounter .BodyContainer {
     visibility: collapse;
 }
@@ -268,6 +268,7 @@
     vertical-align: top;
     horizontal-align: left;
 }
+
 .PopupPanel.Encounter #VisualNovelContainer #VisualNovel {
     margin-top: -24px;
 }
@@ -278,9 +279,11 @@
     margin: 0px;
     margin-bottom: -20px;
 }
+
 .PopupPanel.Encounter #OverworldInventory .OverworldDebug {
     visibility: collapse;
 }
+
 .PopupPanel.Encounter #OverworldInventory .InventoryWrapper {
     margin: 0px;
 }
@@ -305,10 +308,8 @@
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#192635), to(#0a0f18));
     border: 1px solid white;
     border-brush: gradient(linear, 0% 0%, 0% 100%, from(#bcdbff12), to(#88aeff05));
-
     opacity: 0;
     transform: scale3d(0.9, 0.9, 1);
-
     transition-property: transform, opacity;
     transition-duration: 0.1s;
 }
@@ -367,9 +368,9 @@
     color: LighterGrey;
     letter-spacing: 2px;
     text-shadow: 0px 2px 8px black;
-
     visibility: collapse;
 }
+
 .PopupPanel.Encounter .LeaveButton {
     visibility: collapse;
     horizontal-align: center;
@@ -388,6 +389,7 @@
 .PopupPanel.Encounter.AlreadyClaimed .AlreadyClaimedLabel {
     visibility: visible;
 }
+
 .PopupPanel.Encounter.AlreadyClaimed .LeaveButton {
     visibility: visible;
     opacity: 1;
@@ -396,6 +398,7 @@
 .PopupPanel.Encounter.ComeBackLater .TakeTokensButton {
     visibility: collapse;
 }
+
 .PopupPanel.Encounter.ComeBackLater .ComeBackLaterButton {
     visibility: visible;
 }
@@ -411,6 +414,7 @@
     color: LighterGrey;
     font-weight: normal;
 }
+
 .PopupPanel.Encounter .EncounterTitle b {
     font-weight: bold;
     color: gradient(linear, 0% 0%, 0% 100%, from(gold2), color-stop(0.5, gold1), to(gold2));
@@ -424,11 +428,9 @@
     height: 60px;
     vertical-align: middle;
     horizontal-align: middle;
-
     background-image: url("s2r://panorama/images/status_icons/loadingthrobber_round_png.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     animation-name: DownloadingSpinnerAnimation;
     animation-duration: 1s;
     animation-timing-function: linear;

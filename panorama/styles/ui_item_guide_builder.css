@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAItemGuideBuilder {
     width: 100%;
     height: 100%;
@@ -60,12 +62,9 @@ DOTAItemGuideBuilder {
 .ItemDetailsBackground {
     width: 100%;
     height: 1000px;
-
     padding: 10px;
-
     flow-children: down;
     overflow: clip scroll;
-
     background-color: #0009;
 }
 
@@ -77,10 +76,10 @@ DOTAItemGuideBuilder {
     width: 100%;
     height: 150px;
     margin-top: 5px;
-
     transition-property: position;
     transition-duration: 0s;
 }
+
 .Separator {
     color: #ff9900;
     margin-top: 5px;

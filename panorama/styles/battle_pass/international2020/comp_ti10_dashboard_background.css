@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .TI10DashboardBackground {
     width: 100%;
     height: 100%;
@@ -25,9 +27,7 @@
     background-position: center;
     horizontal-align: center;
     vertical-align: center;
-
     margin-top: 32px;
-
     img-shadow: 1px 1px 16px 1 #00000088;
 }
 
@@ -86,7 +86,6 @@
     width: 100%;
     height: 100%;
     background-color: #00000099;
-
     transition-duration: 0.2s;
     transition-property: background-color;
 }

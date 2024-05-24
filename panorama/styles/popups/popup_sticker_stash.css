@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAStickerStashPopup {
     flow-children: down;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#22242b), to(#0d0d0f));
@@ -5,14 +7,11 @@ DOTAStickerStashPopup {
     padding: 0px;
     border: 0px;
     box-shadow: #000000d2 0px 12px 128px 0px;
-
     width: 1820px;
     height: 960px;
     opacity: 1;
-
     vertical-align: center;
     horizontal-align: center;
-
     transition-property: opacity, pre-transform-scale2d, wash-color, background-color, box-shadow;
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
@@ -41,6 +40,7 @@ DOTAStickerStashPopup.Hidden {
     height: 100%;
     min-height: 800px;
 }
+
 #StickerPicker #SortControls {
     width: 200px;
 }
@@ -53,6 +53,7 @@ DOTAStickerStashPopup.Hidden {
     background-position: center;
     box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.02);
 }
+
 #HeroStickerMarketing .TextContainer {
     flow-children: down;
     padding: 40px 40px;

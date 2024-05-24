@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #ZooContents {
     padding: 10px;
     flow-children: right;
@@ -279,19 +281,21 @@
     width: 366px;
     height: 48px;
     background-size: 100% 100%;
-
     ui-scale: 60%;
 }
 
 .EventTierBronze .EventTierProfileCardBackground {
     background-image: url("s2r://panorama/images/compendium/international2019/compendium/profiletooltip_bronze_png.vtex");
 }
+
 .EventTierSilver .EventTierProfileCardBackground {
     background-image: url("s2r://panorama/images/compendium/international2019/compendium/profiletooltip_silver_png.vtex");
 }
+
 .EventTierGold .EventTierProfileCardBackground {
     background-image: url("s2r://panorama/images/compendium/international2019/compendium/profiletooltip_gold_png.vtex");
 }
+
 .EventTierPlatinum .EventTierProfileCardBackground {
     background-image: bp_platinum_backer;
 }
@@ -309,12 +313,15 @@
     border-top: 1px solid accentColor;
     background-color: gradient(linear, 100% 90%, 0% 0%, from(ultraDarkColor), to(darkColor));
 }
+
 .EventTierSilver .EventTierHomeCellBackground {
     background-image: url("s2r://panorama/images/compendium/international2019/home_block_backgrounds/silver_panel_psd.vtex");
 }
+
 .EventTierGold .EventTierHomeCellBackground {
     background-image: url("s2r://panorama/images/compendium/international2019/home_block_backgrounds/gold_panel_psd.vtex");
 }
+
 .EventTierPlatinum .EventTierHomeCellBackground {
     background-image: url("s2r://panorama/images/compendium/international2019/home_block_backgrounds/max_panel_psd.vtex");
 }

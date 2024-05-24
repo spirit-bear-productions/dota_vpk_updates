@@ -1,12 +1,12 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #AddedPanel {
     width: 680px;
     height: 140px;
-
     margin-bottom: 32px;
     vertical-align: bottom;
     visibility: visible;
     overflow: noclip;
-
     background-image: url("s2r://panorama/images/splash_ads/compendium_bg_psd.vtex");
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -42,7 +42,6 @@
 #CompendiumImage {
     width: 128px;
     height: 170px;
-
     background-image: url("s2r://panorama/images/splash_ads/battlepass_winter_psd.vtex");
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -76,6 +75,7 @@
     text-align: center;
     font-weight: bold;
 }
+
 #List {
     margin-top: 6px;
     margin-left: 24px;

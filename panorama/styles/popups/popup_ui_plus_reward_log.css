@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupUIPlusRewardLog.PopupPanel {
     width: 1056px;
     height: 820px;
@@ -21,7 +23,6 @@ DOTAPopupUIPlusRewardLog.PopupPanel {
 
 #TitleBackground {
     width: 100%;
-
     flow-children: none;
 }
 
@@ -128,9 +129,7 @@ DOTAPopupUIPlusRewardLog.ReceivedLog .TotalShards {
     flow-children: down;
     overflow: clip scroll;
     padding-right: 8px;
-
     opacity: 0;
-
     transition-duration: 0.6s;
     transition-property: opacity;
     transition-timing-function: ease-in-out;

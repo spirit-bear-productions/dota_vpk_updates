@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .PredictionsBody {
     flow-children: down;
 }
@@ -12,13 +14,10 @@
 #PhaseTabs {
     width: 100%;
     flow-children: right;
-
     padding-top: 18px;
     padding-left: 340px;
     padding-bottom: 7px;
-
     opacity: 1;
-
     transition-property: transform, opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -181,11 +180,9 @@
 .Header .PopupButton {
     background-color: secondaryDarkColor;
     border: 1px solid secondaryBrightColor;
-
     margin: 0px 8px 0px 0px;
     min-width: 160px;
     padding: 5px 10px 5px 10px;
-
     transition-property: background-color, wash-color;
     transition-delay: 0s;
     transition-duration: 0.1s;

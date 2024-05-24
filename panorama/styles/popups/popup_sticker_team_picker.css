@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAPopupStickerHeroPicker {
     flow-children: down;
     background-color: #1e252f;
@@ -7,10 +9,8 @@ DOTAPopupStickerHeroPicker {
     height: 900px;
     horizontal-align: center;
     vertical-align: center;
-
     opacity: 1;
     transform: scale3d(1, 1, 1);
-
     transition-property: transform, opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -33,7 +33,6 @@ DOTAPopupStickerHeroPicker.Hidden {
     width: 100%;
     height: 100%;
     ignore-parent-flow: true;
-
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0s;
@@ -69,7 +68,6 @@ DOTAPopupStickerHeroPicker.Hidden {
     flow-children: right;
     background-color: #242d39;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#495757), to(#242d39));
-
     padding: 16px 16px 12px 16px;
     width: 100%;
     horizontal-align: center;
@@ -100,14 +98,11 @@ DOTAPopupStickerHeroPicker.Hidden {
     background-image: url("s2r://panorama/images/control_icons/icon_search_png.vtex");
     background-repeat: no-repeat;
     background-size: contain;
-
     width: 27px;
     height: 27px;
     margin: 0px 8px;
     vertical-align: middle;
-
     wash-color: #4f4f4f;
-
     transition-property: wash-color;
     transition-duration: 0.1s;
 }
@@ -140,7 +135,6 @@ DOTAPopupStickerHeroPicker.Hidden {
     height: width-percentage(100%);
     margin: 0px 8px 8px 0px;
     border: 1px solid black;
-
     transition-property: border, saturation, opacity;
     transition-duration: 0.2s;
 }
@@ -184,7 +178,6 @@ DOTAPopupStickerHeroPicker.Hidden {
     height: width-percentage(100%);
     margin: 0px 8px 8px 0px;
     border: 1px solid black;
-
     transition-property: border, saturation, opacity;
     transition-duration: 0.2s;
 }
@@ -203,7 +196,6 @@ DOTAPopupStickerHeroPicker.Hidden {
     height: width-percentage(100%);
     margin: 0px 8px 8px 0px;
     border: 1px solid black;
-
     transition-property: border, saturation, opacity;
     transition-duration: 0.2s;
 }
@@ -220,7 +212,6 @@ DOTAPopupStickerHeroPicker.Hidden {
 .HeroCategory Button {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#5a6c75), to(#3d4a50));
     border: 1px solid black;
-
     margin-bottom: 10px;
     min-width: 300px;
     padding: 2px 4px 2px 4px;
@@ -228,7 +219,6 @@ DOTAPopupStickerHeroPicker.Hidden {
     border-right: 1px solid #4e5b60;
     border-left: 1px solid #4e5b60;
     border-bottom: 1px solid #00000088;
-
     transition-property: background-color, wash-color;
     transition-delay: 0s;
     transition-duration: 0.1s;
@@ -261,7 +251,6 @@ DOTAPopupStickerHeroPicker.Hidden {
 .HeroCategory Button:hover:active {
     border: 1px solid black;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#272f33), to(#5a6c75));
-
     border-top: 1px solid #00000088;
     border-right: 1px solid #00000088;
     border-left: 1px solid #00000088;
@@ -344,7 +333,6 @@ DOTAPopupStickerHeroPicker.Hidden {
     height: 92px;
     width: 92px;
     margin: 8px 8px 8px 8px;
-
     tooltip-position: top;
     tooltip-body-position: 50% 50%;
 }
@@ -417,6 +405,7 @@ DOTAPopupStickerHeroPicker.Hidden {
     horizontal-align: center;
     margin-top: 32px;
 }
+
 .Legend .LegendLabel {
     color: white;
     font-size: 16px;
@@ -430,6 +419,7 @@ DOTAPopupStickerHeroPicker.Hidden {
     wash-color: #6c7e91;
     margin-right: 32px;
 }
+
 .Legend .CountContainer .CountIcon {
     width: 12px;
     height: 14px;
@@ -459,6 +449,7 @@ DOTAPopupStickerHeroPicker.Hidden {
     width: 830px;
     height: 740px;
 }
+
 #SelectionLists #TalentList {
     width: fill-parent-flow(1);
     height: 100%;
@@ -479,6 +470,7 @@ DOTAPopupStickerHeroPicker.Hidden {
 #SelectionLists.TalentActive {
     width: 856px;
 }
+
 #SelectionLists.TalentActive #TalentList,
 #SelectionLists.TalentActive .VerticalSeparator {
     visibility: visible;
@@ -490,10 +482,8 @@ DOTAPopupStickerHeroPicker.Hidden {
     width: 136px;
     margin: 8px 8px 8px 8px;
     horizontal-align: center;
-
     tooltip-position: right;
     tooltip-body-position: 50% 50%;
-
     padding: 6px;
     background-color: gradient(
         linear,
@@ -525,12 +515,12 @@ DOTAPopupStickerHeroPicker.Hidden {
     transition-timing-function: ease-in-out;
     transform-origin: 50% -20%;
     pre-transform-scale2d: 0.95;
-
     background-image: url("s2r://panorama/images/stickers/icon_talent_psd.vtex");
     background-repeat: no-repeat;
     background-size: 84px 84px;
     background-position: center;
 }
+
 #TalentImageSpacer Image,
 #TalentImage Image {
     margin: 18px;
@@ -570,6 +560,7 @@ DOTAPopupStickerHeroPicker.Hidden {
     margin-bottom: -4px;
     wash-color: #a6b3c0;
 }
+
 .CountContainer .CountIcon {
     width: 12px;
     height: 14px;

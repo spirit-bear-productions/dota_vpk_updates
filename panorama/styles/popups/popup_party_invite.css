@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 PopupPartyInvite.PopupPanel {
     flow-children: down;
     margin: 0px;
@@ -28,25 +30,20 @@ PopupPartyInvite.PopupPanel.Hidden {
 #Body {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#272d2eee), to(#131617ee));
     border: 1px solid #5e6869;
-
     padding-top: 32px;
     padding-bottom: 32px;
     padding-right: 64px;
     padding-left: 64px;
-
     width: 792px;
     height: 600px;
-
     vertical-align: middle;
     horizontal-align: center;
     opacity: 1;
     box-shadow: black 0px 0px 8px 0px;
-
     transition-property: transform, pre-transform-scale2d, opacity, saturation, background-color, border;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
-
     flow-children: down;
     margin: 0px;
     padding: 0px;
@@ -201,6 +198,7 @@ PopupPartyInvite #InviteIOfNLabel {
     transform: translateY(32px) translateX(-80px);
     z-index: 2;
 }
+
 PopupPartyInvite.MultipleInvites #InviteIOfNLabel {
     opacity: 1;
 }
@@ -213,13 +211,11 @@ PopupPartyInvite.MultipleInvites #InviteIOfNLabel {
     height: 72px;
     background-color: #272f2b;
     background-color: #4b674c;
-
     wash-color: none;
     border-radius: 50%;
     border: 1px solid #476347;
     margin: 32px;
     box-shadow: #000000aa 0px 0px 8px 0px;
-
     transition-property: transform, pre-transform-scale2d, opacity, background-color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -234,6 +230,7 @@ PopupPartyInvite.MultipleInvites #InviteIOfNLabel {
 #PrevArrowButton {
     horizontal-align: left;
 }
+
 #NextArrowButton {
     horizontal-align: right;
 }

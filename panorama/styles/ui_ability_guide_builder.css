@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAAbilityGuideBuilder {
     flow-children: down;
 }
@@ -94,9 +96,7 @@ DOTAAbilityGuideBuilder {
 .AbilityDetailsBackground {
     width: 100%;
     height: 664px;
-
     padding: 10px;
-
     background-color: #0009;
     flow-children: down;
     overflow: squish scroll;
@@ -140,7 +140,6 @@ DOTAAbilityGuideBuilder {
     border-top-color: #626262;
     border-top-width: 1px;
     border-top-style: solid;
-
     width: 100%;
     padding: 5px 0px 2px 0px;
     margin-top: 5px;

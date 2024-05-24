@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAChannelBar {
     transition-property: opacity;
     transition-duration: 0.2s;
@@ -5,7 +7,6 @@ DOTAChannelBar {
 
 #ChannelbarContainer {
     width: 380px;
-
     horizontal-align: center;
     vertical-align: center;
 }
@@ -45,15 +46,12 @@ DOTAChannelBar {
 #ChannelbarContainer DOTAAbilityImage {
     width: 76px;
     height: 76px;
-
     margin-left: 23px;
     margin-right: 2px;
     margin-top: 1px;
     margin-bottom: 2px;
-
     border-radius: 50%;
     box-shadow: inset #000000aa 0px 2px 2px 4px;
-
     vertical-align: center;
 }
 
@@ -124,7 +122,6 @@ DOTAChannelBar {
 .ChannelBar_ArcanaLevel_npc_dota_hero_windrunner #ChannelBarOverlay {
     opacity: 1;
     background-image: url("s2r://panorama/images/hud/arcana/wr/wr_arcana_channelbar_bg_psd.vtex");
-
     background-size: cover;
     background-repeat: no-repeat;
     overflow: noclip;
@@ -163,7 +160,6 @@ DOTAChannelBar {
 .ChannelBar_ArcanaLevel_npc_dota_hero_drow_ranger #ChannelBarOverlay {
     opacity: 1;
     background-image: url("s2r://panorama/images/hud/arcana/drow/drow_arcana_channelbar_bg_psd.vtex");
-
     background-size: cover;
     background-repeat: no-repeat;
     overflow: noclip;

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 #ModelContainer {
     width: 100%;
     height: 100%;
@@ -7,17 +9,14 @@
     transform: scaleX(1);
     width: 100%;
     height: 100%;
-
     pre-transform-scale2d: 1;
     vertical-align: middle;
     horizontal-align: center;
     saturation: 0;
     contrast: 1.03;
-
     transition-property: opacity, wash-color, saturation, contrast;
     transition-duration: 0s;
     transition-timing-function: ease-in;
-
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -36,7 +35,6 @@
     opacity: 0;
     margin-left: 0px;
     margin-right: 700px;
-
     transition-property: opacity;
     transition-duration: 1.5s;
     transition-timing-function: ease-in;
@@ -68,7 +66,6 @@
     background-image: url("s2r://panorama/images/leaf_pages/debut_grimstroke/debut_bg_psd.vtex");
     background-size: contain;
     background-repeat: no-repeat;
-
     opacity: 0;
     transition-property: wash-color;
     transition-duration: 0s;
@@ -118,7 +115,6 @@
 #TitleContainer {
     width: 100%;
     horizontal-align: center;
-
     transform: translateY(-16px);
     transition-property: hue-rotation, wash-color, saturation;
     transition-duration: 0.1s;
@@ -172,7 +168,6 @@
     transition-property: wash-color;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
-
     border: 1px solid transparent;
     border-radius: 0px;
     background-size: 90%;
@@ -193,7 +188,6 @@ VerticalScrollBar:active .ScrollThumb {
     width: 100%;
     height: 100%;
     wash-color: #000;
-
     transition-property: wash-color;
     transition-duration: 0.4s;
     transition-timing-function: ease-in;

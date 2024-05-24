@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .DPCLabel {
     font-size: 16px;
     font-weight: semi-bold;
@@ -5,6 +7,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
 .DPCLabel__LiveGreen {
     color: liveTextGreen;
 }
@@ -16,10 +19,10 @@
 
 .DPCGameDetailsLive_StreamContainer {
     width: 761px;
-
     flow-children: down;
     background-color: black;
 }
+
 .GameDetails__Fullscreen .DPCGameDetailsLive_StreamContainer {
     width: 100%;
     height: 100%;
@@ -29,6 +32,7 @@
     width: 761px;
     height: 428px;
 }
+
 .GameDetails__Fullscreen .DPCGameDetailsLive_Stream {
     width: 1488px;
     height: 837px;
@@ -37,6 +41,7 @@
     margin-bottom: 131px;
     border: 1px solid grey;
 }
+
 .AspectRatio4x3 .GameDetails__Fullscreen .DPCGameDetailsLive_Stream {
     width: 1440px;
     height: 813px;
@@ -56,6 +61,7 @@
     height: 100%;
     visibility: collapse;
 }
+
 .GDL__StreamLive .DPCGameDetailsLive_Stream_Overlay {
     visibility: visible;
 }
@@ -63,10 +69,8 @@
 .DPCGameDetailsLive_Stream_FullscreenButton {
     width: 25px;
     height: 20px;
-
     horizontal-align: right;
     margin-right: 0px;
-
     vertical-align: bottom;
     margin-bottom: 18px;
 }
@@ -84,6 +88,7 @@
     background-color: black;
     visibility: visible;
 }
+
 .GDL__StreamLive .DPCGameDetailsLive_Stream_Loading {
     visibility: collapse;
 }
@@ -101,6 +106,7 @@
     background-color: black;
     visibility: collapse;
 }
+
 .GDL__StreamNone .DPCGameDetailsLive_Stream_None {
     visibility: visible;
 }
@@ -120,7 +126,6 @@
     width: 279px;
     height: 100%;
     flow-children: down;
-
     margin: 8px;
 }
 
@@ -133,14 +138,17 @@
 .GDL__Complete .DPCGameDetailsLive_Infobox_Live {
     visibility: collapse;
 }
+
 .DPCGameDetailsLive_Infobox_Upcoming,
 .DPCGameDetailsLive_Infobox_Complete {
     visibility: collapse;
 }
+
 .GDL__Upcoming .DPCGameDetailsLive_Infobox_Upcoming,
 .GDL__Complete .DPCGameDetailsLive_Infobox_Complete {
     visibility: visible;
 }
+
 .GDL__Upcoming .DPCGameDetailsLive_Infobox_GameTime,
 .GDL__Complete .DPCGameDetailsLive_Infobox_GameTime {
     opacity: 0;
@@ -154,7 +162,6 @@
 .DPCGameDetailsLive_Infobox_Team_Logo {
     width: 36px;
     height: 36px;
-
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -188,6 +195,7 @@
     color: bluegreyTextReg;
     margin-top: -2px;
 }
+
 .WatchDPC__SpoilerMode .DPCGameDetailsLive_Infobox_Team_Details_Standings {
     opacity: 0;
 }
@@ -196,6 +204,7 @@
     vertical-align: center;
     visibility: collapse;
 }
+
 .GDLTeam__Favorite .DPCGameDetailsLive_Infobox_Team_Details_Favorite {
     visibility: visible;
     margin-left: 2px;
@@ -220,6 +229,7 @@
     vertical-align: top;
     margin-top: -4px;
 }
+
 .GDL__Loading .DPCGameDetailsLive_Infobox_Team_Score {
     opacity: 0;
 }
@@ -269,14 +279,11 @@
     width: 100%;
     height: 36px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#4e8656), to(#2d4937));
-
     border-radius: 3px;
-
     transition-property: brightness, saturation;
     transition-duration: 0.2s;
     brightness: 1;
     saturation: 1;
-
     margin: 8px;
 }
 

@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 DOTAShopItem {
     opacity: 1;
 }
@@ -213,6 +215,7 @@ DOTAShopItem.DraggedShopItem #CanPurchaseOverlay {
 .DotaOfrenda #DotaOfrenda {
     visibility: visible;
 }
+
 .PlayerSuggested #PlayerSuggestedOverlay {
     visibility: visible;
 }
@@ -329,14 +332,11 @@ DOTAQuickBuy .ShowStockAmount #StockAmount {
 #SequenceArrow {
     background-image: url("s2r://panorama/images/control_icons/arrow_solid_right_drop_png.vtex");
     background-size: 100%;
-
     width: 10px;
     height: 12px;
-
     margin-top: 9px;
     margin-left: 40px;
     margin-right: -8px;
     wash-color: #b98d4a;
-
     visibility: collapse;
 }

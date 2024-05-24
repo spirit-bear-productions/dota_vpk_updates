@@ -1,3 +1,5 @@
+/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+
 .GuildHomeContents {
     flow-children: right;
 }
@@ -19,7 +21,6 @@
     width: 100%;
     height: 329px;
     height: 309px;
-
     margin-bottom: 0px;
     flow-children: right;
     background-image: url("s2r://panorama/images/guilds/guild_tier_circle_blur_backer_png.vtex");
@@ -70,7 +71,6 @@
 #NextRewardImageContainer .GuildPerkIcon {
     width: 100%;
     height: 100%;
-
     box-shadow: 0px 0px 16px #000;
     border-top: 1px solid #ffffff08;
     border-left: 1px solid #ffffff05;
@@ -91,7 +91,6 @@
     background-color: #222;
     margin-top: 4px;
     margin-left: 2px;
-
     border-top: 1px solid #ffffff20;
     border-left: 1px solid #ffffff08;
     border-right: 1px solid #ffffff03;
@@ -161,9 +160,9 @@
 #GuildWarsSection {
     width: 100%;
     height: fill-parent-flow(1);
-
     margin-bottom: 12px;
 }
+
 #ChallengesSection {
     flow-children: none;
     width: 100%;
@@ -191,6 +190,7 @@
         to(guildColor0&00)
     );
 }
+
 .GuildPrimaryColor1 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -201,6 +201,7 @@
         to(guildColor1&00)
     );
 }
+
 .GuildPrimaryColor2 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -211,6 +212,7 @@
         to(guildColor2&00)
     );
 }
+
 .GuildPrimaryColor3 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -221,6 +223,7 @@
         to(guildColor3&00)
     );
 }
+
 .GuildPrimaryColor4 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -231,6 +234,7 @@
         to(guildColor4&00)
     );
 }
+
 .GuildPrimaryColor5 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -241,6 +245,7 @@
         to(guildColor5&00)
     );
 }
+
 .GuildPrimaryColor6 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -251,6 +256,7 @@
         to(guildColor6&00)
     );
 }
+
 .GuildPrimaryColor7 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -261,6 +267,7 @@
         to(guildColor7&00)
     );
 }
+
 .GuildPrimaryColor8 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -271,6 +278,7 @@
         to(guildColor8&00)
     );
 }
+
 .GuildPrimaryColor9 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -281,6 +289,7 @@
         to(guildColor9&00)
     );
 }
+
 .GuildPrimaryColor10 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -291,6 +300,7 @@
         to(guildColor10&00)
     );
 }
+
 .GuildPrimaryColor11 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -301,6 +311,7 @@
         to(guildColor11&00)
     );
 }
+
 .GuildPrimaryColor12 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -311,6 +322,7 @@
         to(guildColor12&00)
     );
 }
+
 .GuildPrimaryColor13 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -321,6 +333,7 @@
         to(guildColor13&00)
     );
 }
+
 .GuildPrimaryColor14 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -331,6 +344,7 @@
         to(guildColor14&00)
     );
 }
+
 .GuildPrimaryColor15 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -341,6 +355,7 @@
         to(guildColor15&00)
     );
 }
+
 .GuildPrimaryColor16 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -351,6 +366,7 @@
         to(guildColor16&00)
     );
 }
+
 .GuildPrimaryColor17 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -361,6 +377,7 @@
         to(guildColor17&00)
     );
 }
+
 .GuildPrimaryColor18 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -371,6 +388,7 @@
         to(guildColor18&00)
     );
 }
+
 .GuildPrimaryColor19 #ChallengeGradientBG {
     background-color: gradient(
         radial,
@@ -385,7 +403,6 @@
 #ChallengeParticleContainer {
     width: 100%;
     height: 100%;
-
     brightness: 1;
     saturation: 0.2;
 }
@@ -393,60 +410,79 @@
 .GuildPrimaryColor0 #ChallengeParticleContainer {
     wash-color: guildColor0;
 }
+
 .GuildPrimaryColor1 #ChallengeParticleContainer {
     wash-color: guildColor1;
 }
+
 .GuildPrimaryColor2 #ChallengeParticleContainer {
     wash-color: guildColor2;
 }
+
 .GuildPrimaryColor3 #ChallengeParticleContainer {
     wash-color: guildColor3;
 }
+
 .GuildPrimaryColor4 #ChallengeParticleContainer {
     wash-color: guildColor4;
 }
+
 .GuildPrimaryColor5 #ChallengeParticleContainer {
     wash-color: guildColor5;
 }
+
 .GuildPrimaryColor6 #ChallengeParticleContainer {
     wash-color: guildColor6;
 }
+
 .GuildPrimaryColor7 #ChallengeParticleContainer {
     wash-color: guildColor7;
 }
+
 .GuildPrimaryColor8 #ChallengeParticleContainer {
     wash-color: guildColor8;
 }
+
 .GuildPrimaryColor9 #ChallengeParticleContainer {
     wash-color: guildColor9;
 }
+
 .GuildPrimaryColor10 #ChallengeParticleContainer {
     wash-color: guildColor10;
 }
+
 .GuildPrimaryColor11 #ChallengeParticleContainer {
     wash-color: guildColor11;
 }
+
 .GuildPrimaryColor12 #ChallengeParticleContainer {
     wash-color: guildColor12;
 }
+
 .GuildPrimaryColor13 #ChallengeParticleContainer {
     wash-color: guildColor13;
 }
+
 .GuildPrimaryColor14 #ChallengeParticleContainer {
     wash-color: guildColor14;
 }
+
 .GuildPrimaryColor15 #ChallengeParticleContainer {
     wash-color: guildColor15;
 }
+
 .GuildPrimaryColor16 #ChallengeParticleContainer {
     wash-color: guildColor16;
 }
+
 .GuildPrimaryColor17 #ChallengeParticleContainer {
     wash-color: guildColor17;
 }
+
 .GuildPrimaryColor18 #ChallengeParticleContainer {
     wash-color: guildColor18;
 }
+
 .GuildPrimaryColor19 #ChallengeParticleContainer {
     wash-color: guildColor19;
 }
@@ -461,16 +497,11 @@
 #ChallengeCircle {
     width: 110px;
     height: 110px;
-
     vertical-align: middle;
     horizontal-align: center;
-
     border-radius: 50%;
-
     box-shadow: 0px 0px 30px #ffffff22;
-
     margin-top: -23px;
-
     visibility: collapse;
 }
 
@@ -488,7 +519,6 @@
 .ChallengeDetailsContainer {
     width: 100%;
     height: 66%;
-
     padding-left: 14px;
     padding-right: 14px;
 }
@@ -499,7 +529,6 @@
     padding-right: 14px;
     max-height: 60px;
     vertical-align: top;
-
     horizontal-align: center;
     text-align: center;
     text-overflow: shrink;
@@ -517,6 +546,7 @@
     width: 120px;
     height: 120px;
 }
+
 .ChallengeProgress {
     vertical-align: bottom;
     margin-bottom: 2px;
@@ -525,24 +555,27 @@
 
 .ChallengeRewardsContainer {
     width: 100%;
-
     height: 29%;
     padding: 5px 14px 14px 14px;
     flow-children: right;
 }
+
 .ChallengeRewardInfoContainer {
     width: fill-parent-flow(1);
     height: 100%;
 }
+
 .ChallengeRewardInfoTypeContainer {
     width: fit-children;
     height: 100%;
     flow-children: down;
 }
+
 .ChallengeRewardInfoTypeContainer.Left {
     horizontal-align: center;
     padding-right: 7px;
 }
+
 .ChallengeRewardInfoTypeContainer.Right {
     horizontal-align: left;
     padding-left: 7px;
@@ -555,6 +588,7 @@
     flow-children: right;
     horizontal-align: center;
 }
+
 .ChallengeRewardIcon {
     width: 22px;
     height: 22px;
@@ -563,6 +597,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #ChallengeRewardIconGP {
     background-image: url("s2r://panorama/images/guilds/guild_banner_icon_small_psd.vtex");
     background-size: 100%;
@@ -574,6 +609,7 @@
     background-size: contain;
     margin-top: -2px;
 }
+
 #ChallengeRewardIconEvent {
     background-image: url("s2r://panorama/images/compendium/international2020/underdraft/gold-icon_png.vtex");
     margin-right: 5px;
@@ -594,63 +630,83 @@
     text-transform: uppercase;
     margin-top: -2px;
 }
+
 .GuildPrimaryColor0 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor0, 0, 1, 2);
 }
+
 .GuildPrimaryColor1 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor1, 0, 1, 2);
 }
+
 .GuildPrimaryColor2 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor2, 0, 1, 2);
 }
+
 .GuildPrimaryColor3 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor3, 0, 1, 2);
 }
+
 .GuildPrimaryColor4 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor4, 0, 1, 2);
 }
+
 .GuildPrimaryColor5 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor5, 0, 1, 2);
 }
+
 .GuildPrimaryColor6 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor6, 0, 1, 2);
 }
+
 .GuildPrimaryColor7 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor7, 0, 1, 2);
 }
+
 .GuildPrimaryColor8 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor8, 0, 1, 2);
 }
+
 .GuildPrimaryColor9 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor9, 0, 1, 2);
 }
+
 .GuildPrimaryColor10 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor10, 0, 1, 2);
 }
+
 .GuildPrimaryColor11 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor11, 0, 1, 2);
 }
+
 .GuildPrimaryColor12 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor12, 0, 1, 2);
 }
+
 .GuildPrimaryColor13 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor13, 0, 1, 2);
 }
+
 .GuildPrimaryColor14 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor14, 0, 1, 2);
 }
+
 .GuildPrimaryColor15 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor15, 0, 1, 2);
 }
+
 .GuildPrimaryColor16 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor16, 0, 1, 2);
 }
+
 .GuildPrimaryColor17 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor17, 0, 1, 2);
 }
+
 .GuildPrimaryColor18 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor18, 0, 1, 2);
 }
+
 .GuildPrimaryColor19 .ChallengeRewardTypeLabel {
     color: hsv-transform(guildColor19, 0, 1, 2);
 }
@@ -663,7 +719,6 @@
     color: #555;
     letter-spacing: 0px;
     width: 320px;
-
     text-align: center;
     text-overflow: shrink;
 }
@@ -772,9 +827,7 @@
     height: fill-parent-flow(1);
     flow-children: down;
     overflow: squish scroll;
-
     opacity: 0.99;
-
     padding: 0px 14px 14px 14px;
     margin-bottom: 14px;
 }
@@ -783,24 +836,23 @@
     width: 89%;
     height: 42px;
     margin-bottom: 3px;
-
     background-color: #ffffff02;
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff00), to(#ffffff03));
     border-top: 1px solid #ffffff02;
     border-right: 1px solid #ffffff02;
     box-shadow: 0px 0px 20px #000000aa;
-
     transition-property: brightness;
     transition-duration: 0.2s;
 }
+
 .LocalLeaderboardRow.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff06), to(#ffffff15));
 }
+
 .LeaderboardLeader.LeaderboardRow {
     height: 61px;
     margin-bottom: 0px;
     width: 100%;
-
     border-top: 1px solid #ffffff04;
     border-right: 1px solid #ffffff04;
 }
@@ -808,60 +860,79 @@
 .GuildPrimaryColor0 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor0&09), to(guildColor0&15));
 }
+
 .GuildPrimaryColor1 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor1&00), to(guildColor1&06));
 }
+
 .GuildPrimaryColor2 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor2&00), to(guildColor2&06));
 }
+
 .GuildPrimaryColor3 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor3&00), to(guildColor3&06));
 }
+
 .GuildPrimaryColor4 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor4&00), to(guildColor4&06));
 }
+
 .GuildPrimaryColor5 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor5&00), to(guildColor5&09));
 }
+
 .GuildPrimaryColor6 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor6&00), to(guildColor6&06));
 }
+
 .GuildPrimaryColor7 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor7&00), to(guildColor7&06));
 }
+
 .GuildPrimaryColor8 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor8&00), to(guildColor8&06));
 }
+
 .GuildPrimaryColor9 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor9&00), to(guildColor9&06));
 }
+
 .GuildPrimaryColor10 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor10&09), to(guildColor10&15));
 }
+
 .GuildPrimaryColor11 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor11&00), to(guildColor11&06));
 }
+
 .GuildPrimaryColor12 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor12&00), to(guildColor12&06));
 }
+
 .GuildPrimaryColor13 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor13&00), to(guildColor13&06));
 }
+
 .GuildPrimaryColor14 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor14&00), to(guildColor14&06));
 }
+
 .GuildPrimaryColor15 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor15&00), to(guildColor15&09));
 }
+
 .GuildPrimaryColor16 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor16&00), to(guildColor16&06));
 }
+
 .GuildPrimaryColor17 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor17&00), to(guildColor17&06));
 }
+
 .GuildPrimaryColor18 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor18&00), to(guildColor18&06));
 }
+
 .GuildPrimaryColor19 .LeaderboardLeader.LeaderboardRow {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor19&00), to(guildColor19&06));
 }
@@ -878,60 +949,79 @@
 .GuildPrimaryColor0 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor0&33), to(guildColor0&10));
 }
+
 .GuildPrimaryColor1 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor1&33), to(guildColor1&10));
 }
+
 .GuildPrimaryColor2 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor2&33), to(guildColor2&10));
 }
+
 .GuildPrimaryColor3 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor3&33), to(guildColor3&10));
 }
+
 .GuildPrimaryColor4 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor4&33), to(guildColor4&10));
 }
+
 .GuildPrimaryColor5 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor5&33), to(guildColor5&10));
 }
+
 .GuildPrimaryColor6 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor6&33), to(guildColor6&10));
 }
+
 .GuildPrimaryColor7 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor7&33), to(guildColor7&10));
 }
+
 .GuildPrimaryColor8 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor8&33), to(guildColor8&10));
 }
+
 .GuildPrimaryColor9 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor9&33), to(guildColor9&10));
 }
+
 .GuildPrimaryColor10 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor10&33), to(guildColor10&10));
 }
+
 .GuildPrimaryColor11 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor11&33), to(guildColor11&10));
 }
+
 .GuildPrimaryColor12 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor12&33), to(guildColor12&10));
 }
+
 .GuildPrimaryColor13 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor13&33), to(guildColor13&10));
 }
+
 .GuildPrimaryColor14 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor14&33), to(guildColor14&10));
 }
+
 .GuildPrimaryColor15 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor15&33), to(guildColor15&10));
 }
+
 .GuildPrimaryColor16 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor16&33), to(guildColor16&10));
 }
+
 .GuildPrimaryColor17 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor17&33), to(guildColor17&10));
 }
+
 .GuildPrimaryColor18 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor18&33), to(guildColor18&10));
 }
+
 .GuildPrimaryColor19 .LeaderboardLeader #LeaderPositionContainer {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(guildColor19&33), to(guildColor19&10));
 }
@@ -952,7 +1042,6 @@
 
 .LeaderboardPosition {
     width: fit-children;
-
     margin-right: 3px;
     vertical-align: center;
     horizontal-align: center;
@@ -969,6 +1058,7 @@
     flow-children: right;
     margin-left: 41px;
 }
+
 .LeaderboardLeader .LeaderboardProfileColumn {
     margin-left: 60px;
 }
@@ -980,6 +1070,7 @@
     vertical-align: middle;
     box-shadow: #000 0px 0px 8px 0px;
 }
+
 .LeaderboardRow.LeaderboardLeader DOTAAvatarImage {
     width: 60px;
     height: 60px;
@@ -1027,6 +1118,7 @@
 .LeaderboardRow .PlayerDescContainer Label {
     font-size: 16px;
 }
+
 .LeaderboardRow.LeaderboardLeader .PlayerDescContainer Label,
 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     font-size: 18px;
@@ -1041,60 +1133,79 @@
 .GuildPrimaryColor0 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor0, 0, 1, 2);
 }
+
 .GuildPrimaryColor1 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor1, 0, 1, 2);
 }
+
 .GuildPrimaryColor2 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor2, 0, 1, 2);
 }
+
 .GuildPrimaryColor3 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor3, 0, 1, 2);
 }
+
 .GuildPrimaryColor4 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor4, 0, 1, 2);
 }
+
 .GuildPrimaryColor5 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor5, 0, 1, 2);
 }
+
 .GuildPrimaryColor6 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor6, 0, 1, 2);
 }
+
 .GuildPrimaryColor7 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor7, 0, 1, 2);
 }
+
 .GuildPrimaryColor8 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor8, 0, 1, 2);
 }
+
 .GuildPrimaryColor9 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor9, 0, 1, 2);
 }
+
 .GuildPrimaryColor10 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor10, 0, 1, 2);
 }
+
 .GuildPrimaryColor11 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor11, 0, 1, 2);
 }
+
 .GuildPrimaryColor12 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor12, 0, 1, 2);
 }
+
 .GuildPrimaryColor13 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor13, 0, 1, 2);
 }
+
 .GuildPrimaryColor14 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor14, 0, 1, 2);
 }
+
 .GuildPrimaryColor15 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor15, 0, 1, 2);
 }
+
 .GuildPrimaryColor16 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor16, 0, 1, 2);
 }
+
 .GuildPrimaryColor17 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor17, 0, 1, 2);
 }
+
 .GuildPrimaryColor18 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor18, 0, 1, 2);
 }
+
 .GuildPrimaryColor19 .LeaderboardRow.LeaderboardLeader .MemberEarnedColumn {
     color: hsv-transform(guildColor19, 0, 1, 2);
 }
@@ -1119,6 +1230,7 @@
     vertical-align: middle;
     box-shadow: 0px 0px 8px 0px #000;
 }
+
 #MemberTable Label {
     font-size: 16px;
     width: fit-children;
@@ -1132,14 +1244,10 @@
     border-top: 1px solid #ffffff02;
     border-right: 1px solid #ffffff02;
     box-shadow: 0px 0px 20px #000000aa;
-
     width: 100%;
-
     width: 89%;
-
     transition-property: brightness;
     transition-duration: 0.2s;
-
     height: 42px;
 }
 
@@ -1174,6 +1282,5 @@ DOTAUserRichPresence Label {
 #MemberRichPresence Label {
     font-size: 12px;
     margin-top: -1px;
-
     font-weight: medium;
 }
