@@ -150,15 +150,15 @@ Label .AttributeHighlight {
 .AltDetails,
 .AltDetails .DetailsOnly,
 .ShowExtraDescription.AdditionalFacetDetails .MainDetails,
-.IsInGame .AdditionalFacetDetails .MainDetails {
+.AutoExpand .AdditionalFacetDetails .MainDetails {
     visibility: collapse;
 }
 
 .MainDetails,
 .ShowExtraDescription .AltDetails .DetailsOnly,
 .ShowExtraDescription.AdditionalFacetDetails .AltDetails,
-.IsInGame .AdditionalFacetDetails .AltDetails,
-.IsInGame .AdditionalFacetDetails .AltDetails .DetailsOnly {
+.AutoExpand .AdditionalFacetDetails .AltDetails,
+.AutoExpand .AdditionalFacetDetails .AltDetails .DetailsOnly {
     visibility: visible;
 }
 

@@ -7190,3 +7190,7 @@ ProgressBarWithMiddle.AnimatedArrowProgressBar.ScrollLeft .ProgressBarMiddle .Pr
 .InlineImage.FacetIcon.facet_color_gray_3 {
     box-shadow: fill #4e5557 0px 0px 0px 0px;
 }
+
+DOTAAbilityImage.UseInnateIcon {
+    img-shadow: 0px 3px 12px black;
+}
