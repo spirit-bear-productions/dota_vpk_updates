@@ -2394,8 +2394,8 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 }
 
 .AspectRatio16x10 #MorphProgress {
-    margin-left: 138px;
-    margin-bottom: 83px;
+    margin-left: 163px;
+    margin-bottom: 35px;
 }
 
 .HasMorph #MorphProgress {
