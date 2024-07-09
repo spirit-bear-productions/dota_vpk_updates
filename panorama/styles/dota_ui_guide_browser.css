@@ -292,6 +292,7 @@ DOTAGuideBrowser.Hidden {
     border-color: #282828ff;
     border-style: solid;
     border-width: 1px;
+    overflow: clip scroll;
 }
 
 .IsPlusGuide #TalentDisplay {
