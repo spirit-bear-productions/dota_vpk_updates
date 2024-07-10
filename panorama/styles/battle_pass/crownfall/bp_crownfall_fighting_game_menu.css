@@ -115,6 +115,8 @@ DOTAFightingGameMenu {
 .IntroText {
     margin-bottom: 24px;
     text-align: center;
+    max-height: 76px;
+    text-overflow: shrink;
 }
 
 .CollapseButton {
@@ -1077,6 +1079,7 @@ DOTAFightingGameMenu {
 
 .LeaderboardContainer {
     margin-top: 0px;
+    margin-left: 0px;
 }
 
 .LeaderboardContainer .LeaderList {
