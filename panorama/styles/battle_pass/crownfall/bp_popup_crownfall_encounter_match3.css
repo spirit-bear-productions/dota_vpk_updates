@@ -85,6 +85,12 @@
     height: 100%;
 }
 
+.Body .LeftColumn .GameBoardContainer .GameBoardOverlay .GameOverlays {
+    width: 100%;
+    flow-children: down;
+    vertical-align: middle;
+}
+
 .Body .LeftColumn .GameBoardContainer .GameBoardOverlay .StatusOverlay {
     horizontal-align: center;
     vertical-align: middle;
@@ -127,8 +133,8 @@
     opacity: 1;
 }
 
-.PlayerIsSilenced .Body .LeftColumn .GameBoardContainer .GameBoardOverlay .StatusOverlay.SilencedOverlay {
-    opacity: 0.5;
+.OutOfMoves .Body .LeftColumn .GameBoardContainer .GameBoardOverlay .StatusOverlay.OutOfMovesOverlay {
+    opacity: 1;
 }
 
 .Body .RightColumn {
