@@ -17,6 +17,10 @@ DOTAUIHeroFacetPicker {
     transition-timing-function: ease-out;
 }
 
+.HeroFacetSnippet.Hidden {
+    visibility: collapse;
+}
+
 .HeroFacetSnippet .HeroFacetSnippetContainer {
     width: 100%;
     margin: 1px;
