@@ -1284,6 +1284,7 @@ RadioButton:disabled > Label {
     color: white;
     font-size: 20px;
     horizontal-align: center;
+    text-align: center;
     vertical-align: middle;
     text-transform: uppercase;
     text-overflow: shrink;
@@ -6040,6 +6041,33 @@ a.PurchasePlusLink {
 
 .ButtonPrimary.TI23Blue:active:enabled:not(.Disabled) {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#0a5993), to(#2d9ed0));
+}
+
+.ButtonPrimary.TI24Green {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#0d4721), to(#01201a));
+    border-brush: WhiteGradientBorderSoft;
+}
+
+.ButtonPrimary.TI24Green:active:enabled:not(.Disabled) {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#01201a), to(#0d4721));
+}
+
+.ButtonPrimary.TI24LightGreen {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#3eac40), to(#04431a));
+    border-brush: WhiteGradientBorderStrong;
+}
+
+.ButtonPrimary.TI24LightGreen:active:enabled:not(.Disabled) {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#04431a), to(#3eac40));
+}
+
+.ButtonPrimary.DarkRed {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#943339), to(#662627));
+    border-brush: WhiteGradientBorderSoft;
+}
+
+.ButtonPrimary.DarkRed:active:enabled:not(.Disabled) {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#662627), to(#943339));
 }
 
 .ButtonPrimary.Green {

@@ -19,6 +19,10 @@
     animation-name: none;
 }
 
+.HeroFacetDropdown.NoVariants {
+    visibility: collapse;
+}
+
 @keyframes 'BorderPulse' {
     0% {
         box-shadow: 0px 0px 16px #c0b00f05;

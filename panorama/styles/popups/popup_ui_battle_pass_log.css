@@ -14,7 +14,7 @@ DOTAPopupUIBattlePassLog.PopupPanel {
     background-color: secondaryGradient;
     border: 0px;
     padding: 0px;
-    transition-duration: 0.35s;
+    transition-duration: 0.25s;
 }
 
 #Title {
@@ -28,17 +28,18 @@ DOTAPopupUIBattlePassLog.PopupPanel {
     flow-children: right;
     background-size: cover;
     background-position: 50%;
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(primaryColor5), to(primaryColor6));
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#0d4721), to(#01201a));
 }
 
 .TitleLabel {
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: semi-bold;
     letter-spacing: 2px;
-    color: gradient(linear, 0% 50%, 0% 100%, from(accentColorBright), to(ultraBrightColor));
     margin-left: 24px;
     vertical-align: center;
+    text-shadow: 0px 2px 12px black;
+    color: whitesmoke;
 }
 
 .TotalPointsContainer {
@@ -55,11 +56,12 @@ DOTAPopupUIBattlePassLog.PopupPanel {
 
 .TotalPointsContainer .TotalPointsLabel {
     font-weight: normal;
+    color: #7fbc8b;
 }
 
 .TotalPointsContainer .TotalPointsValue {
-    margin-top: -4px;
-    color: gradient(linear, 0% 0%, 0% 100%, from(secondaryColor1), to(secondaryColor3));
+    margin-top: -2px;
+    color: gradient(linear, 0% 0%, 0% 100%, from(#e1cc9a), color-stop(0.5, #e7c57b), to(#9d8145));
     brightness: 2;
 }
 
@@ -90,7 +92,6 @@ DOTAPopupUIBattlePassLog.ReceivedLog .TotalPoints {
 }
 
 #CancelButton {
-    wash-color: accentColor;
     ignore-parent-flow: true;
     horizontal-align: right;
     width: 50px;

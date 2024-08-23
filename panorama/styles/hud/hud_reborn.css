@@ -131,6 +131,14 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     transform: translateY(-80px);
 }
 
+.OverlaymapAlignLeft #overlaymap_container {
+    horizontal-align: left;
+}
+
+.OverlaymapAlignRight #overlaymap_container {
+    horizontal-align: right;
+}
+
 #overlaymap {
     width: 768px;
     height: 768px;
@@ -2022,12 +2030,16 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     min-width: 285px;
 }
 
+.HUDFlipped #QueryUnit {
+    horizontal-align: left;
+}
+
 #QueryUnit.HallOfFame {
     margin-top: 320px;
 }
 
-.HUDFlipped #QueryUnit {
-    horizontal-align: left;
+#QueryUnit.HeroStatue {
+    margin-top: 220px;
 }
 
 @define toastExitDuration: 0.3s;

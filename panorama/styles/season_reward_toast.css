@@ -1,7 +1,7 @@
 /* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
 
 .SeasonRewardToast {
-    background-color: gradient(linear, 0% 0%, 100% 100%, from(#30a4d5), to(#0e4b80));
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#0d4721), to(#01201a));
     background-size: auto 100%;
     width: 500px;
     height: 130px;
@@ -91,7 +91,7 @@
 
 .SeasonRewardToast .Description {
     font-size: 18px;
-    color: LighterGrey;
+    color: #7fbc8b;
     font-weight: normal;
     margin-left: 0px;
     text-overflow: shrink;

@@ -560,6 +560,11 @@ DOTAEconItemAnimated:disabled #HeroSetName {
     visibility: collapse;
 }
 
+.ShowDuplicateItemsButton > Label {
+    margin: 1px 0px 0px 0px;
+    text-align: center;
+}
+
 .IsStack .ShowDuplicateItemsButton {
     visibility: visible;
 }

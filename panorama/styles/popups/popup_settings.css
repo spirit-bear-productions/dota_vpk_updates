@@ -3940,3 +3940,7 @@ DOTASettingsEnum .EnumButton {
     flow-children: right;
     horizontal-align: center;
 }
+
+.HideOverlayMapInputKey #OverlayMapInputKey {
+    visibility: collapse;
+}
