@@ -783,10 +783,10 @@ DOTABPInternational2024BingoPage:not(.EventOwned) {
         linear,
         0% 0%,
         0% 100%,
-        from(secondaryColor1),
-        color-stop(0.48, secondaryColor2),
-        color-stop(0.52, secondaryColor3),
-        to(secondaryColor2)
+        from(#ffe3ba),
+        color-stop(0.49, #cca160),
+        color-stop(0.51, #b88943),
+        to(#7f5c26)
     );
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
