@@ -724,12 +724,16 @@ DOTABPInternational2024FantasyCraftTablet
 }
 
 .MiniTabletView DOTABPInternational2024FantasyCraftTablet {
-    height: 100%;
     width: 100%;
+    height: 100%;
     margin-bottom: 8px;
     saturation: 1;
     brightness: 1;
     opacity: 1;
+}
+
+.MiniTabletView DOTABPInternational2024FantasyCraftTablet .FlagTexture {
+    visibility: collapse;
 }
 
 .FullTabletView Label {
@@ -842,14 +846,6 @@ DOTABPInternational2024FantasyCraftTablet
 .MiniTabletView #FantasyGemHolder #Score.GemAttribute .GemScore {
     font-size: 14px;
     color: white;
-}
-
-.MiniTabletView .FantasyTablet {
-    flow-children: right;
-    margin-left: 8px;
-    margin-left: 8px;
-    saturation: 1;
-    brightness: 1;
 }
 
 .MiniTabletView
