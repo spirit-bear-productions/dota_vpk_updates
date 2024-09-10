@@ -1015,10 +1015,13 @@ DOTABPInternational2024FantasyCraftTablet .FantasyGem .GemContents .Body .gem_va
 
 #InvalidPlayerAlert {
     horizontal-align: left;
+    vertical-align: bottom;
     width: 40px;
     height: 40px;
-    margin-left: 15%;
+    margin-left: 5%;
+    margin-bottom: 45%;
     visibility: collapse;
+    ignore-parent-flow: true;
 }
 
 .CraftingEnabled .InvalidPlayer #InvalidPlayerAlert {
