@@ -317,6 +317,7 @@ DOTAInternationalHallOfFame.Visible {
     transition-delay: 0s;
 }
 
+.TI13 #TI13Winners,
 .TI12 #TI12Winners,
 .TI11 #TI11Winners,
 .TI10 #TI10Winners,
@@ -342,6 +343,10 @@ DOTAInternationalHallOfFame.Visible {
     margin-top: 10px;
     transition-property: background-image;
     transition-duration: 0.18s;
+}
+
+.TI13 #TeamLogo {
+    background-image: url("s2r://panorama/images/hud/ti_team_liquid_psd.vtex");
 }
 
 .TI12 #TeamLogo {
@@ -456,6 +461,9 @@ DOTAInternationalHallOfFame.Visible {
     color: #667f85;
 }
 
+.TI13 #TI13Country,
+.TI12 #TI12Country,
+.TI11 #TI11Country,
 .TI10 #TI10Country,
 .TI9 #TI9Country,
 .TI8 #TI8Country,
