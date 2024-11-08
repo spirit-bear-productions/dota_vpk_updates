@@ -1144,4 +1144,8 @@
 		]
 		mixgraph_input = "main_level"
 	}
+	Diagnostic.test_vsnd_envelope = 
+	{
+		type = "update_test_vsnd_envelope"
+	}
 }

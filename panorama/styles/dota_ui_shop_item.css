@@ -133,6 +133,14 @@ DOTAShopItem.DraggedShopItem #CanPurchaseOverlay {
     visibility: collapse;
 }
 
+.MainShopItem.SuggestLiked {
+    border: 2px solid green;
+}
+
+.MainShopItem.SuggestDisliked {
+    border: 1px solid red;
+}
+
 .MainShopItem.AvailableAtOtherShop #CanPurchaseOverlay,
 .SecretShopItem.CanPurchase #CanPurchaseOverlay,
 .MainShopItem.CanPurchase #CanPurchaseOverlay,

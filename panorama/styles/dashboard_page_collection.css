@@ -1956,6 +1956,18 @@ DOTACollectionPageHeroes #LargeModelLoadout {
     vertical-align: center;
 }
 
+.StickerViewNew {
+    visibility: collapse;
+}
+
+.UsingStickerView .StickerViewOld {
+    visibility: collapse;
+}
+
+.UsingStickerView .StickerViewNew {
+    visibility: visible;
+}
+
 #BrowseTitleGroupControls {
     width: fill-parent-flow(1);
     height: fit-children;
