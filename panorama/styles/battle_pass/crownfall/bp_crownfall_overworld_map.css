@@ -76,8 +76,8 @@
 }
 
 .Act4 .TutorialContainer {
-    x: 2123px;
-    y: 3750px;
+    x: 1863px;
+    y: 4100px;
 }
 
 .IntroState2 .TutorialContainer,
@@ -1384,7 +1384,9 @@ DOTACrownfallToken {
 }
 
 .CharacterSquee {
-    transform: scaleX(1) translateX(-110px) translateY(-50px);
+    margin-top: -120px;
+    margin-left: -44px;
+    transform: scaleX(1);
 }
 
 .CharacterMortimerAct4 {
@@ -1404,10 +1406,9 @@ DOTACrownfallToken {
 }
 
 .CharacterSerina {
-    z-index: 0;
-    margin-top: -50px;
-    margin-left: -70px;
-    transform: scaleX(1);
+    z-index: 1;
+    margin-top: -0px;
+    margin-left: 50px;
 }
 
 .CharacterImperia {
@@ -1415,9 +1416,9 @@ DOTACrownfallToken {
 }
 
 .CharacterAct4Skeleton {
-    transform: scaleX(1);
-    margin-left: -65px;
-    margin-top: -25px;
+    transform: scaleX(-1);
+    margin-left: 96px;
+    margin-top: -50px;
 }
 
 .CharacterAct4GhostSkeleton {
