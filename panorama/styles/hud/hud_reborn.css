@@ -2242,7 +2242,7 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 }
 
 #HUDSkinAbilityContainerBG {
-    width: 390px;
+    width: 422px;
     height: 145px;
     margin-left: 211px;
     vertical-align: bottom;
@@ -2254,11 +2254,11 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 }
 
 .FiveAbilities #HUDSkinAbilityContainerBG {
-    width: 478px;
+    width: 450px;
 }
 
 .SixAbilities #HUDSkinAbilityContainerBG {
-    width: 478px;
+    width: 510px;
 }
 
 .SevenAbilities #HUDSkinAbilityContainerBG {
@@ -2755,4 +2755,21 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 
 #DummyRule {
     background-image: url("s2r://materials/overviews/dota_psd.vtex");
+}
+
+.Reborn .IsKez .CenterGlow {
+    width: 52%;
+    height: 145px;
+    margin-right: 84px;
+    horizontal-align: center;
+    vertical-align: bottom;
+    -s2-mix-blend-mode: screen;
+    background-color: gradient(radial, 50% 60%, 0% 0%, 50% 60%, from(rgb(255, 202, 27)), to(rgba(255, 111, 0, 0.1)));
+    opacity: 0.1;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+.Reborn .IsKez.KezSaiMode .CenterGlow {
+    background-color: gradient(radial, 50% 60%, 0% 0%, 50% 60%, from(rgb(27, 225, 255)), to(rgba(0, 81, 255, 0.1)));
 }
