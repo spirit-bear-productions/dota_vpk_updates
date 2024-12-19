@@ -1143,8 +1143,6 @@ DOTAAbilityPanel.Hidden {
 
 .Reborn #inventory_tpscroll_container #AbilityButton,
 .Reborn #inventory_neutral_slot_container #AbilityButton {
-    width: 60%;
-    height: 80%;
     horizontal-align: center;
     vertical-align: middle;
 }
@@ -1160,10 +1158,16 @@ DOTAAbilityPanel.Hidden {
 .Reborn #inventory_neutral_slot_container #ButtonSize {
     width: 76px;
     height: 58px;
+    margin: 0px;
 }
 
 .Reborn #inventory_tpscroll_container #AbilityBevel,
 .Reborn #inventory_neutral_slot_container #AbilityBevel {
+    visibility: collapse;
+}
+
+.Reborn #inventory_tpscroll_container #CostContainer,
+.Reborn #inventory_neutral_slot_container #CostContainer {
     visibility: collapse;
 }
 
@@ -2528,7 +2532,7 @@ DOTAAbilityPanel.Hidden {
 }
 
 .IsKez .kez_switch_weapons .KezAbilityLabelContainer {
-    visibility: visible;
+    visibility: collapse;
 }
 
 .Reborn .IsKez #abilities .kez_switch_weapons #ButtonWell {
@@ -2542,7 +2546,7 @@ DOTAAbilityPanel.Hidden {
 }
 
 .Reborn .IsKez #abilities .kez_switch_weapons #Hotkey {
-    horizontal-align: center;
+    horizontal-align: left;
 }
 
 .Reborn .IsKez #abilities .kez_switch_weapons #AbilityButton {
@@ -2640,12 +2644,13 @@ DOTAAbilityPanel.Hidden {
 }
 
 #KezWeaponButton {
+    z-index: 10;
     horizontal-align: center;
-    margin-top: 62px;
-    margin-left: 2px;
+    margin-top: 135px;
+    margin-left: 0px;
     flow-children: right;
     box-shadow: 0px 2px 12px -1px rgba(0, 0, 0, 0.6);
-    padding: 1px 8px 1px;
+    padding: 1px 7px 1px;
     border-radius: 2px;
     border: 1px solid black;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#38497c), to(#1b2031));
@@ -2654,7 +2659,7 @@ DOTAAbilityPanel.Hidden {
 }
 
 #KezWeaponButton .KezWeaponsIcon {
-    width: 19px;
+    width: 16px;
     horizontal-align: center;
     vertical-align: center;
     img-shadow: 0px 2px 4px black;

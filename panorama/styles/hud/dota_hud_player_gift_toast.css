@@ -4,7 +4,7 @@ DOTAPlayerGiftToast {
     flow-children: down;
     margin-bottom: 8px;
     horizontal-align: right;
-    background-image: url("s2r://panorama/images/events/newbloom/2024/event_tile_background_png.vtex");
+    background-image: url("s2r://panorama/images/events/frostivus/2024/event_tile_background_psd.vtex");
     background-size: cover;
     background-position: 50% 20%;
     border: 2px solid black;
@@ -40,7 +40,7 @@ DOTAHeroImage {
 #ToastHeader {
     width: 100%;
     padding: 12px;
-    background-color: gradient(linear, 0% 0%, 100% 0%, from(#2e0b0c), color-stop(0.5, #5f1b1c), to(#2e0b0c));
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#141a1d), color-stop(0.5, #2e404b), to(#141a1d));
 }
 
 #ToastHeader #GiftText {
@@ -80,6 +80,6 @@ DOTAHeroImage {
 
 .RedEnvelopeContainer .ArrowIcon {
     horizontal-align: center;
-    wash-color: rgb(192, 67, 53);
+    wash-color: rgb(130, 176, 209);
     img-shadow: 0px 1px 4px black;
 }
