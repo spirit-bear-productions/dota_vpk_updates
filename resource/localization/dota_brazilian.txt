@@ -18241,9 +18241,9 @@ Provocação especial para os Techies"
 		"DOTA_Location_Name_Statue"		"A Estátua"
 		"DOTA_Location_Name_Graveyard"	"O Cemitério"
 		"DOTA_Location_Name_Tormentor" "Tormenta"
-		"DOTA_Location_Name_LotusPool:p" "Fonte de Lótus — %s1 Lótus#|#Fonte de Lótus — %s1 Lótus. Próximo em %s2 (%s3)"
-		"DOTA_Location_Name_LotusPoolMax:p" "Fonte de Lótus — %s1 Lótus#|#Fonte de Lótus — %s1 Lótus"
-		"DOTA_Location_Name_LotusPool_Fog" "Fonte de Lótus — Próximo em %s1 (%s2)"
+		"DOTA_Location_Name_LotusPool:p" "<font color='#58C0F1'>Fonte de Lótus</font> %s1 %s2 <font color='#58C0F1'>Lótus</font>. Próximo em %s3 (%s4)#|#<font color='#58C0F1'>Fonte de Lótus</font> %s1 %s2 <font color='#58C0F1'>Lótus</font>. Próximo em %s3 (%s4)"
+		"DOTA_Location_Name_LotusPoolMax:p" "<font color='#58C0F1'>Fonte de Lótus</font> %s1 %s2 <font color='#58C0F1'>Lótus</font>#|#<font color='#58C0F1'>Fonte de Lótus</font> %s1 %s2 <font color='#58C0F1'>Lótus</font>"
+		"DOTA_Location_Name_LotusPool_Fog" "<font color='#58C0F1'>Fonte de Lótus</font> %s1 Próximo <font color='#58C0F1'>Lótus</font> em %s2 (%s3)"
 		"DOTA_Location_Name_TwinGate" "Portal Gêmeo"
 		"DOTA_Location_Name_NotFound" " "
 
@@ -31410,10 +31410,13 @@ Com heróis de pressão, como Zeus e a Death Prophet, dando as caras, \"ratos\" 
 	"DOTA_Tooltip_RoshanTimerMessage_VisibleTime"   "Roshan renascerá em {s:roshan_respawn_time} no covil {s:roshan_cave_location}."
 	"DOTA_Tooltip_RoshanTimerMessage_VariableTime"	"Roshan pode estar vivo no covil {s:roshan_cave_location}. Garantia de renascimento em {s:roshan_respawn_time}."
 	
-	"DOTA_Chat_RoshanTimerMessage_RoshanIsAlive"	"Roshan está vivo no covil %s2."
-	"DOTA_Chat_RoshanTimerMessage_BaseTime"		    "Roshan está morto. Ele pode renascer em %s3."
-	"DOTA_Chat_RoshanTimerMessage_VisibleTime"      "Roshan renascerá em %s3, no covil %s2."
-	"DOTA_Chat_RoshanTimerMessage_VariableTime"	    "Roshan pode estar vivo no covil %s2. Garantia de renascimento em %s3."
+	"DOTA_Chat_RoshanTimerMessage_RoshanIsAlive"	"Roshan %s1 Vivo no covil %s2."
+	"DOTA_Chat_RoshanTimerMessage_BaseTime"		    "Roshan %s1 Pode renascer em %s3."
+	"DOTA_Chat_RoshanTimerMessage_VisibleTime"      "Roshan %s1 Renascerá em %s3, no covil %s2."
+	"DOTA_Chat_RoshanTimerMessage_VariableTime"	    "Roshan %s1 Pode estar vivo no covil %s2 ou renascerá dentro de %s3."
+
+	"DOTA_Chat_RoshanTimerMessage_AttackRoshan"					"Roshan %s1 Vamos atacá-lo no covil %s2!"
+	"DOTA_Chat_RoshanTimerMessage_WaitForRoshanToRespawn"		"Roshan %s1 Vamos aguardar ele renascer."
 
 	"DOTA_Top"										"de cima"
 	"DOTA_Bottom"									"de baixo"
@@ -31829,6 +31832,8 @@ Com heróis de pressão, como Zeus e a Death Prophet, dando as caras, \"ratos\" 
 	"DOTA_737d_Update"	  "Atualização de jogabilidade 7.37d"
 	"DOTA_737d"			  "7.37d"
 	"DOTA_737e_Update"	  "Atualização de jogabilidade 7.37e"
+	"DOTA_738_Update"	  "Atualização de jogabilidade 7.38"
+	"DOTA_738b_Update"	  "Atualização de jogabilidade 7.38b"
 
 	"DOTA_Settings_Tooltip_NetworkLatency" "Caso esteja usando uma conexão com perda de pacotes, a configuração para redes de baixa qualidade aprimorará a suavidade geral, mas aumentará a latência."
 
@@ -35546,6 +35551,9 @@ Com heróis de pressão, como Zeus e a Death Prophet, dando as caras, \"ratos\" 
 	"DOTA_Plus_Winter2024_Update_Title"						"Atualização da temporada do inverno de 2024"
 	"DOTA_Plus_Winter2024_Update_Desc"						"Uma nova temporada de missões para o Dota+!"
 
+	"DOTA_Plus_Spring2025_Update_Title"						"Atualização da temporada da primavera de 2025"
+	"DOTA_Plus_Spring2025_Update_Desc"						"Uma nova temporada de missões para o Dota+!"
+
 	"DOTA_Plus_Autumn_Assitant_Desc"						"Assinantes do Dota+ podem usar o recurso de evitar jogadores, sugestão de amigos e inimigos, sugestor de visão e outros recursos assistentes."
 
 	"DOTA_Plus_Season_4_Quests_Title"						"Missões da 4ª temporada"
@@ -36645,7 +36653,12 @@ Cada região terá uma classificação em tempo real que será usada calcular o 
 
 		"DOTA_PlusSeason_SeasonWinter2024_Name"					"Inverno de 2024"
 		"DOTA_PlusSeason_SeasonWinter2024_Quests"				"Missões do inverno de 2024"
-		"DOTA_PlusSeason_SeasonWinter2024_Subtitle"				"A temporada do inverno de 2024 acaba no dia 2 de março de 2025."
+		"DOTA_PlusSeason_SeasonWinter2024_Subtitle"				"A temporada do inverno de 2024 acaba no dia 4 de março de 2025."
+
+		"DOTA_PlusSeason_SeasonSpring2025_Name"					"Primavera de 2025"
+		"DOTA_PlusSeason_SeasonSpring2025_Quests"				"Missões da primavera de 2025"
+		"DOTA_PlusSeason_SeasonSpring2025_Subtitle"				"A temporada da primavera de 2025 acaba no dia 3 de junho de 2025."
+		"DOTA_PlusSeason_SeasonSpring2025_TreasureDescription"	"Disponível exclusivamente até o final da temporada da primavera de 2025, no dia 3 de junho de 2025."
 
 		"DOTA_MatchRewards"							"Recompensas da partida"
 		"DOTA_MatchRewards_YourShards"				"Seus fragmentos"
@@ -46490,6 +46503,9 @@ Em seções de <b>antijogo</b>, fique de olho em ações negativas em direção 
 		"DOTA_FrontPageCell_738_Title"					"Águas Errantes"
 		"DOTA_FrontPageCell_738_Description"			"Mapa repaginado, reformulação dos itens neutros, atualizações de heróis e itens, e mais."
 		"DOTA_FrontPageCell_738_Patchnotes"				"Ver detalhes"
+		"DOTA_FrontPageCell_738_Patchnotes_Button"		"Detalhes da atualização 7.38"
+
+		"DOTA_FrontPageCell_DotaPlusSpring2025_Description"				"Novas missões e recompensas sazonais."
 
 		"DOTA_HUD_Pregame_TokenRewards"					"Fichas concedidas ({s:act_number})"
 		"DOTA_HUD_Pregame_TurboTokenRewardsTooltip"		"Partidas Turbo concedem 2 fichas por vitória. Selecione as fichas desejadas."
@@ -48089,11 +48105,11 @@ Em seções de <b>antijogo</b>, fique de olho em ações negativas em direção 
 
 		"DOTA_AdjNounWordOrder"							"{s:noun} com o encantamento de {s:adj}"
 
-		"DOTA_Chat_MadstoneAlert_NeedMadstone_Self"		"Eu preciso de mais %s1 lasca(s) de insanite para fabricar o meu item neutro de <font color='%s3'>classe %s2</font>."
-		"DOTA_Chat_MadstoneAlert_NeedMadstone_Ally"		"<font color='%s4'>%s5</font> aliado(a) precisa de mais %s1 lasca(s) de insanite para fabricar o item neutro de <font color='%s3'>classe %s2</font>."
+		"DOTA_Chat_MadstoneAlert_NeedMadstone_Self"		"<font color='#4BEE81'>Insanite</font> %s1 Eu preciso de mais %s2 lasca(s) para fabricar o meu item neutro de <font color='%s4'>classe %s3</font>."
+		"DOTA_Chat_MadstoneAlert_NeedMadstone_Ally"		"<font color='#4BEE81'>Insanite</font> %s1 <font color='%s5'>%s6</font> precisa de mais %s2 lasca(s) para fabricar o seu item neutro de <font color='%s4'>classe %s3</font>."
 		"DOTA_Chat_MadstoneAlert_CanCraft_Self"			"Eu posso fabricar o meu item neutro de <font color='%s2'>classe %s1</font>."
-		"DOTA_Chat_MadstoneAlert_CanCraft_Ally"			"<font color='%s3'>%s4</font> aliado(a) pode fabricar o item neutro de <font color='%s2'>classe %s1</font>."
-		"DOTA_Chat_MadstoneAlert_WaitingForNextTier"	"Insanites para os itens neutros de <font color='%s2'>classe %s1</font> estarão disponíveis em %s3."
+		"DOTA_Chat_MadstoneAlert_CanCraft_Ally"			"<font color='%s3'>%s4</font> pode fabricar o item neutro de <font color='%s2'>classe %s1</font>."
+		"DOTA_Chat_MadstoneAlert_WaitingForNextTier"	"<font color='#4BEE81'>Insanite</font> %s1 Começará a aparecer em %s4 para itens neutros de <font color='%s3'>classe %s2</font>."
 
 		"DOTA_NeutralCrafting_TooltipHeader"			"Itens neutros"
 		"DOTA_NeutralCraft_TierName"					"Classe {d:neutral_item_tier}"

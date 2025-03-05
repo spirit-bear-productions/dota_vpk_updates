@@ -878,7 +878,7 @@
 		"DOTA_Chat_Rune_Water_Spotted"			"<font color='#74A7F7'>Water</font>-rune hier (%s1)."
 		"DOTA_Chat_Rune_Neutral_Bounty_Spotted"	"<font color='#FF7800'>Bounty</font>-rune hier (%s1)."
 		"DOTA_Chat_Rune_Pumpkin_Spotted"		"<font color='#FF7D40'>Pumpkin</font>-rune hier!"
-		"DOTA_Chat_Rune_XP_Time_Remaining"		"<font color='#c642fe'>Shrine of Wisdom</font> wordt geactiveerd over %s1 (om %s2)"
+		"DOTA_Chat_Rune_XP_Time_Remaining"		"<font color='#c642fe'>Shrine of Wisdom</font> wordt geactiveerd over %s1 (%s2)"
 
 		"DOTA_Chat_Rune_XP_Time_Remaining_RecentlyOccurred"		"<font color='#c642fe'>Shrine of Wisdom</font> is %s1 geleden geactiveerd. (Volgende: %s2)"
 
@@ -2032,6 +2032,10 @@ Terwijl de invloed van beide stenen spreidde, kwamen ze uiteindelijk in conflict
 		"DOTA_Scoreboard_Ult"					"Ult"
 		"DOTA_Scoreboard_Mute"					"Dempen"
 		"DOTA_Scoreboard_MuteOtherCoaches"		"Coaches die niet in groep zitten dempen"
+		"DOTA_Scoreboard_UnmuteText"			"Tekst niet meer dempen"
+		"DOTA_Scoreboard_MuteVoice"				"Spraak dempen"
+		"DOTA_Scoreboard_MuteText"				"Tekst dempen"
+		"DOTA_Scoreboard_Mute_Desc"				"Schakelt spraak- en tekstcommunicatie van deze speler uit."
 		"DOTA_Scoreboard_PartiallyMuted_Text"	"Tekst"
 		"DOTA_Announcer_Select_Title"			"KIES EEN OMROEPER"
 		"DOTA_Announcer_Default"				"Standaardomroeper"
@@ -4902,6 +4906,8 @@ Terwijl de invloed van beide stenen spreidde, kwamen ze uiteindelijk in conflict
 		"dota_hud_error_swap_target_no_gold"			"De andere speler heeft niet genoeg goud over om helden te wisselen."
 		"dota_hud_error_divine_favor_invalid_target"		"Ongeldig doelwit"
 		"dota_hud_error_no_dispersion_targets"			"Geen recente aanvallers"
+		"dota_hud_error_cant_share_ward"				"Je kunt geen wards delen met die eenheid"
+		"dota_hud_error_cant_share_tango"				"Je kunt geen Tango's delen met die eenheid"
 		"dota_hud_error_no_hats_to_steal"				"Geen hoed om te stelen"
 		"dota_hud_error_no_hats_to_gift"				"Geen hoed om te geven"
 		"dota_hud_error_no_hat_buff"					"Eenheid kan geen hoeden dragen"
@@ -27566,11 +27572,6 @@ Nu vroege, druk uitoefenende helden als Zeus en Death Prophet meer voorkomen, sp
 	"DOTA_Tooltip_RoshanTimerMessage_VisibleTime"   "Roshan respawnt over {s:roshan_respawn_time} in de {s:roshan_cave_location} kuil."
 	"DOTA_Tooltip_RoshanTimerMessage_VariableTime"	"Roshan leeft misschien nog in de {s:roshan_cave_location} kuil. Over {s:roshan_respawn_time} gaat hij respawnen."
 	
-	"DOTA_Chat_RoshanTimerMessage_RoshanIsAlive"	"Roshan leeft en bevindt zich in de %s2 kuil."
-	"DOTA_Chat_RoshanTimerMessage_BaseTime"		    "Roshan is dood. Kan respawnen over %s3."
-	"DOTA_Chat_RoshanTimerMessage_VisibleTime"      "Roshan respawnt over %s3 in de %s2 kuil."
-	"DOTA_Chat_RoshanTimerMessage_VariableTime"	    "Roshan leeft misschien nog in de %s2 kuil. Over %s3 gaat hij respawnen."
-
 	"DOTA_Top"										"Bovenste"
 	"DOTA_Bottom"									"Onderste"
 
@@ -28010,6 +28011,7 @@ Nu vroege, druk uitoefenende helden als Zeus en Death Prophet meer voorkomen, sp
 	"DOTA_PlusPurchase_Feature_WelcomeQuests"			"Welkomstquests"
 	"DOTA_PlusPurchase_Feature_LiveSpectating"			"Live toeschouwen"
 	"DOTA_PlusNewFeature_ExclusiveSets_Title"			"Nieuwe exclusieve sets"
+	"DOTA_PlusNewFeature_ExclusiveSets_Jan2019_Desc"	"Nieuwe sets voor Monkey King, Medusa, Enchantress en Centaur Warrunner. Exclusief beschikbaar voor Plus-abonnees in de Plus-beloningenwinkel."
 	"DOTA_PlusPurchase_Feature_ChatWheelSounds"			"Chatwielgeluiden"
 
 	"DOTA_PlusPostGame_HeroProgress"		"Heldvoortgang"
@@ -29024,6 +29026,7 @@ Nu vroege, druk uitoefenende helden als Zeus en Death Prophet meer voorkomen, sp
 	"DOTA_Scoreboard_TipsAvailable"		"{d:tips_available} over"
 	"DOTA_Scoreboard_TipCooldown"		"Afkoeltijd: {s:tip_cooldown}"
 
+	"DOTA_Scoreboard_Gift"		"Geschenk"
 	"DOTA_Scoreboard_Bounties"				"Premies"
 	"DOTA_Scoreboard_CancelBounty"			"Annuleren"
 	"DOTA_Scoreboard_BountiesAvailable"		"{d:bounties_available} beschikbaar"
@@ -29664,6 +29667,7 @@ Nu vroege, druk uitoefenende helden als Zeus en Death Prophet meer voorkomen, sp
 	"DOTA_Collectors_Cache_Vote_Downvoted"				"Je vindt deze set niet leuk."
 	"DOTA_Collectors_Cache_Vote_Learn"					"Nu stemmen"
 	
+	"DOTA_Collectors_2024_Cell_Description"				"16 nieuwe heldensets. Te koop voor een beperkte tijd."
 	"DOTA_Collectors_Cache_2024_Crownfall_Discounts_Message"		"<b>Kortingen en bundels</b> zijn beschikbaar in de Crownfall-winkel."
 	
 	"DOTA_Winter2024_HeroesHoard_Title"					"Winter 2024 – Heldenschat"
@@ -30227,8 +30231,6 @@ Nu vroege, druk uitoefenende helden als Zeus en Death Prophet meer voorkomen, sp
 
 		"DOTA_PlusSeason_SeasonWinter2024_Name"					"Winter 2024"
 		"DOTA_PlusSeason_SeasonWinter2024_Quests"				"Quests winter 2024"
-		"DOTA_PlusSeason_SeasonWinter2024_Subtitle"				"Het winterseizoen 2024 loopt tot 2 maart 2025."
-
 		"DOTA_MatchRewards"							"Spelbeloningen"
 		"DOTA_MatchRewards_YourShards"				"Je fragmenten"
 		"DOTA_MatchRewards_TotalShards"				"Totale aantal fragmenten"
@@ -30850,6 +30852,7 @@ Nu vroege, druk uitoefenende helden als Zeus en Death Prophet meer voorkomen, sp
 		"DOTA_Glossary_Evasion_Desc"			"Ontwijking is de procentuele kans dat een aanval op een held zal missen."
 		"DOTA_Glossary_StatusResistance"		"Statusweerstand"
 		"DOTA_Glossary_StatusResistance_Desc"	"Statusweerstand vermindert de duur van negatieve statuseffecten zoals verlammingen en silence."
+		"DOTA_Glossary_SlowResistance"			"Vertragingsweerstand"
 		"DOTA_Glossary_Units"				"Eenheden"
 		"DOTA_Glossary_LaneCreeps"			"Padcreeps"
 		"DOTA_Glossary_Structures"			"Gebouwen"
@@ -31484,7 +31487,8 @@ Nu vroege, druk uitoefenende helden als Zeus en Death Prophet meer voorkomen, sp
 		"DOTA_International2022_Swagbag_ClaimArcanaLabel"			"Arcana opeisen"
 		"DOTA_International2022_Swagbag_ArcanaDetailsLabel"			"Arcanadetails weergeven"
 		"DOTA_International2022_Swagbag_OwnedLabel"					"In bezit"
-"DOTA_CandyShop_Custom"							"Aangepast"
+"DOTA_CandyShop_HelpText"						"Ruil snoep in voor items."
+		"DOTA_CandyShop_Custom"							"Aangepast"
 "DOTA_CandyShop_Crownfall_PostGame_ShopLocked"			"Verken elk hoofdstuk van Crownfall om de snoepwagen te vinden"
 		// International2022 Weekly Quests
 
@@ -33416,13 +33420,24 @@ Nu vroege, druk uitoefenende helden als Zeus en Death Prophet meer voorkomen, sp
 		"DOTA_CrownfallStore_Sale_Header"		"Uitverkoop"
 		"DOTA_CrownfallStore_Sale_SubHeader"	"Nu tot 20% korting!"
 
+		"DOTA_CrownfallStore_ArchiveBundle_Name"	"Archiefbundel van Crownfall"
+		"DOTA_CrownfallStore_ArchiveBundle_Desc"		"Bundel van bonusitems"
+
+		"DOTA_CrownfallStore_StyleUnlockUnavailable"	"Deze stijl kan momenteel niet ontgrendeld worden."
+
 		"DOTA_Crownfall_TokensReceived_Ok"				"OK"
 
+		"DOTA_Crownfall_Guide_Header_EventExpired"			"Evenement is niet langer actief."
 		"DOTA_SplashAd_CrownfallAct3_Title"	"Crownfall Act III: De bevroren vlakte van Icewrack"
 		"DOTA_SplashAd_CrownfallAct3_Text"	"Een gloednieuw verhaal, een nieuwe Collector's Cache en meerdere verrassingen."
 		"DOTA_SplashAd_CrownfallAct3_Description"	"Als je Act I en II nog niet hebt uitgespeeld, maak je dan geen zorgen! Je kunt elk hoofdstuk in elke gewenste volgorde spelen, op welk tempo dan ook, en fiches verdienen voor elke map die je actief hebt gemaakt.<br><br>Naarmate er nieuwe hoofdstukken aan het lopende Crownfall-verhaal worden toegevoegd, blijven bestaande hoofdstukken speelbaar gedurende het evenement. Geniet van Act III van Crownfall, nu beschikbaar!"
 
+		"DOTA_Crownfall_Tab_Archive"	"Crownfall-archief"
+		"DOTA_Overworld_PlayDialog"			"Dialoog afspelen"
+
 		"DOTA_Overworld_NoTokensAvailable"			"Geen fiches beschikbaar"
+
+		"DOTA_Crownfall_EncounterName_WaterWheel_NotAvailable"		"Niet meer beschikbaar"
 "DOTA_CrownfallAct3_Recap"						"Dragonus (Skywrath Mage) en Shen (Vengeful Spirit) zijn gevlucht uit Skywrath op zoek naar de Kazurai, een leger van Grondvasten, om hen te helpen koningin Imperia van de troon te stoten. Terwijl Dragonus zijn geluk in het zuiden bij Druud beproeft, reist Shen naar het noorden naar Icewrack. Met een chagrijnige godin (Scree'Auk) en een goedgelovige slager uit Midgate (Bakeet) aan haar zijde, is Shen net aangekomen aan de noordelijkste rand van de rijken, in de hoop de Kazurai en hun verbannen leider, Kestrel, te vinden."
 		
 		"DOTA_Crownfall_Overworld_EventEndDate"						"Eindigt op 6 februari"
@@ -33510,6 +33525,8 @@ Nu vroege, druk uitoefenende helden als Zeus en Death Prophet meer voorkomen, sp
 		"DOTA_FrontPageCell_738_Description"			"Een nieuwe map, grote veranderingen voor neutrale items, updates voor helden en items, en meer."
 		"DOTA_FrontPageCell_738_Patchnotes"				"Patchnotes weergeven"
 "DOTA_Crownfall_Encounter_SecretAdmirer_Friend"		"Vriend"
+		"DOTA_Crownfall_Encounter_SecretAdmirer_NotAvailable"		"Tokens schenken is niet langer beschikbaar"
+"DOTA_Crownfall_EncounterPitFight_NotAvailable"		"Niet meer beschikbaar"
 "DOTA_Labs_Feedback"						"Feedback versturen"
 		"DOTA_Labs_Feedback_Header"					"Je feedback delen"
 		"DOTA_Labs_Feedback_Description"				"Laat ons je feedback weten over je ervaringen met de functies van Dota Labs."
@@ -33645,11 +33662,13 @@ Nu vroege, druk uitoefenende helden als Zeus en Death Prophet meer voorkomen, sp
 		"DOTA_Survivors_MandatoryObjectives"		"Doelstellingen"
 		"DOTA_Survivors_OptionalObjectives"			"Optioneel"
 		"DOTA_Survivors_MiniBossWarningLabel"		"Waarschuwing"
+		"DOTA_Survivors_DifficultyDescription"		"Versla Imperia in <b>hogere</b> moeilijkheidsgraden voor een hogere score!"
 		"DOTA_Survivors_Next"						"VOLGENDE"
 		"DOTA_Survivors_Upgrade"					"Upgraden"
 		"DOTA_Survivors_Cost"						"Kosten"
 		"DOTA_Survivors_ToggleFilterTokenTooltip"	"Schakel deze optie in of uit om te filteren op vereiste fiches tijdens het kiezen van een held."
 		"DOTA_Survivors_ToggleTokenFilter"			"Fiches filteren"
+		"DOTA_Survivors_DisableDialogue"			"Dialoog in het spel uitschakelen"
 		"DOTA_Survivors_PatchNotes_1_1_Abilities_001"	"<b>Proximity Mines</b>: basisafkoeltijd verlaagd van 5 sec. naar 4 sec."
 		"DOTA_Survivors_PatchNotes_1_1_Abilities_002"	"<b>Proximity Mines</b>: Aghanim's Scepter herwerkt: afkoeltijd verlaagd met 20%. Kan nu Statis Traps plaatsen (minder schade, past verlamming toe) en Remote Mines (meer schade, geen activeringstijd)."
 		"DOTA_Survivors_PatchNotes_1_1_Other_002"	"In het gevecht tegen Imperia bevatten de vazen nu altijd kaas."
@@ -33988,5 +34007,49 @@ Nu vroege, druk uitoefenende helden als Zeus en Death Prophet meer voorkomen, sp
 		"DOTA_FoundNeutralItem_EnhancedWith"			"Betoverd met <span class=\"EnhancementName\">{s:item_affix}</span>"
 		"DOTA_AdjNounWordOrder"							"{s:adj} {s:noun}"
 
-		}
+		"DOTA_Crownfall_Archive"						"Archief"
+		"DOTA_Crownfall_Archive_FrontPage_Desc"			"Beleef de strips opnieuw, speel de minigames opnieuw, bezoek de winkel opnieuw"
+		"DOTA_Crownfall_Archive_Comics"					"Strips"
+		"DOTA_Crownfall_Archive_Minigames"				"Minispellen"
+		"DOTA_Crownfall_Archive_Fishing_Minigames"		"Fishing-minispellen"
+		"DOTA_Crownfall_Archive_Credits"				"Aftiteling afspelen"
+		"DOTA_Crownfall_Archive_EndingCinematic"		"Eindanimatie afspelen"
+		"DOTA_Crownfall_Archive_Intro"					"'Hallo, helden! En welkom bij Crownfall! Ik ben Scree'Auk, godin van de Grondvasten! Pak een biertje en pak een stoel! Je kunt zelf ook op een rondje trakteren als je wilt! Hier, laat me die meenemen, zodat je niet morst ...'"
+		"DOTA_Crownfall_Archive_Act1"					"Act I"
+		"DOTA_Crownfall_Archive_Act1_Desc"				"'Wauw! Wat een avontuur heb ik vorig jaar beleefd! Eerst verbood koningin Imperia het aanbidden van Scree'Auk in Skywrath. Dat ben ik! Zonder aanbidders die mij krachten gaven, had ik geen enkele bliksemschicht om naar haar te gooien! Dus ik vroeg Skywrath Mage en Vengeful Spirit om hulp, en die renden snel weg. Niet als lafaards, hoor! Als slimme en tactische lafaards. Ze gingen hulp halen.'"
+		"DOTA_Crownfall_Archive_Act2"					"Act II"
+		"DOTA_Crownfall_Archive_Act2_Desc"				"'Skywrath Mage vloog zuidwaarts naar Druud, waar we Axe, Centaur Warrunner en Snapfire ontmoetten. We versloegen een demon, gaven de Oglodi hun thuisland terug en deden zelfs mee aan een vleermuis-race! Ik was er natuurlijk niet persoonlijk bij; ik heb een slechte rug. Maar ik was er spiritueel, en begeleidde hen met alle wijsheid die ze gehad hadden als ze gewoon eens naar me hadden geluisterd.'"
+		"DOTA_Crownfall_Archive_Act3"					"Act III"
+		"DOTA_Crownfall_Archive_Act3_Desc"				"'Vervolgens zeilden we noordwaarts naar Icewrack, waar we ons bij Crystal Maiden en Winter Wyvern voegden en Kez ervan overtuigden om met ons mee naar huis te gaan. We hebben zelfs een kwaadaardige draak verslagen! Nogmaals, niet persoonlijk (rugklachten). Ik hield de troepen in de taverne van Severed Head in bedwang en bundelde mijn krachten voor de strijd die nog zou komen.'"
+		"DOTA_Crownfall_Archive_Act4"					"Act IV"
+		"DOTA_Crownfall_Archive_Act4_Desc"				"'En WAT een strijd! Iedereen kwam netjes op tijd om de poort van het koninklijk paleis te bestormen. Helaas kwamen we er meteen achter dat het een magische poort was. Gelukkig boden de Techies zich vrijwillig aan om ons te helpen voor niets minder dan een huizenhoge vergoeding. Zo konden we de magische betoveringen van de poort overmeesteren met wat mooie explosieven! Ze hadden zelfs om een of andere reden kanonnen op Beadies pad gezet. Ik betwijfel of dat iets heeft geholpen, maar het heeft in ieder geval een hoop materiële schade veroorzaakt.'"
+		"DOTA_Crownfall_Archive_TheEnd"					"Einde"
+		"DOTA_Crownfall_Archive_TheEnd_Desc"			"'Daarna heb ik deelgenomen aan een episch gevecht met koningin Imperia zelf. Opnieuw louter in mijn hoofd, want mijn rug speelde me weer parten. Naar ik heb vernomen, was het echter een heftige strijd. Het was zo episch dat er zelfs een hele geanimeerde cutscene aan is gewijd (dat moet flink wat hebben gekost). Hoe dan ook, dat was het hele avontuur. Diegenen onder jullie die mijn roemtocht naar het heldendom hebben gemist, hebben geluk: alles is hier vereeuwigd en met een enkele muisklik te bekijken.'"
+		"DOTA_Crownfall_Archive_Comic_AscensionDay"						"Koninginnedag"
+		"DOTA_Crownfall_Archive_Comic_SmokeHarbor"						"Smoke Harbor"
+		"DOTA_Crownfall_Archive_Comic_TheBattleOfHellsBasin"			"De slag bij het Hellebekken"
+		"DOTA_Crownfall_Archive_Comic_TheNomadStar"						"De Nomadenster"
+		"DOTA_Crownfall_Archive_Comic_PudgesGuidedTours"				"Rondleidingen door Pudge"
+		"DOTA_Crownfall_Archive_Comic_TheDragon"						"De draak"
+		"DOTA_Crownfall_Archive_Comic_TheSeveredHead"					"'t Afgehakte Hoofd"
+		"DOTA_Crownfall_Archive_Comic_Crownfall"						"Crownfall"
+		"DOTA_Crownfall_Archive_Comic_AscensionNight"					"Koninginnenacht"
+		"DOTA_Crownfall_Archive_Comic_TheQueensGambit"					"The Queen's Gambit"
+		"DOTA_Crownfall_Archive_Minigame_Fishing"						"Fishing"
+		"DOTA_Crownfall_Archive_Minigame_OasisFishing"					"Oasis Fishing"
+		"DOTA_Crownfall_Archive_Minigame_SandFishing"					"Sand Fishing"
+		"DOTA_Crownfall_Archive_Minigame_BatRacer"						"Bat Racer"
+		"DOTA_Crownfall_Archive_Minigame_SleetFighter"					"Sleet Fighter"
+		"DOTA_Crownfall_Archive_Minigame_DragonChess"					"Dragon Chess"
+		"DOTA_Crownfall_Archive_Minigame_ZaugsLair"						"Zaug's Lair"
+		"DOTA_Crownfall_Archive_Minigame_SpoonMan"						"Spoon Man"
+		"DOTA_Crownfall_Archive_Minigame_CastleCarnage"					"Castle Carnage"
+		"DOTA_Crownfall_Archive_Minigame_SpleenSweeper"					"Spleen Sweeper"
+		"DOTA_Crownfall_Archive_Minigame_NestOfThorns"					"Nest of Thorns"
+		"DOTA_Crownfall_Archive_ViewMap"								"Map weergeven"
+		"DOTA_Crownfall_Archive_GameDontGrantTokens"					"Evenement is afgelopen. Je kunt geen tokens meer verdienen door spellen te spelen."
+
+		"DOTA_HUD_Shop_Neutral_Tier4"									"Niveau 4"
+		"DOTA_HUD_Shop_Neutral_Tier5"									"Niveau 5"
+	}
 } 

@@ -18290,9 +18290,9 @@ Különleges Techies gúnyolódás"
 		"DOTA_Location_Name_Statue"		"A Szobor"
 		"DOTA_Location_Name_Graveyard"	"A Temető"
 		"DOTA_Location_Name_Tormentor" "Gyötrő"
-		"DOTA_Location_Name_LotusPool:p" "Lótuszmedence – %s1 lótusz. A következő %s2 múlva (%s3-kor).#|#Lótuszmedence – %s1 lótusz. A következő %s2 múlva (%s3-kor)."
-		"DOTA_Location_Name_LotusPoolMax:p" "Lótuszmedence – %s1 lótusz#|#Lótuszmedence – %s1 lótusz"
-		"DOTA_Location_Name_LotusPool_Fog" "Lótuszmedence – Következő lótusz %s1 múlva (%s2-kor)."
+		"DOTA_Location_Name_LotusPool:p" "<font color='#58C0F1'>Lótuszmedence</font> %s1 %s2 <font color='#58C0F1'>lótusz</font>. A következő %s3 múlva (%s4-kor).#|#<font color='#58C0F1'>Lótuszmedence</font> %s1 %s2 <font color='#58C0F1'>lótusz</font>. A következő %s3 múlva (%s4-kor)."
+		"DOTA_Location_Name_LotusPoolMax:p" "<font color='#58C0F1'>Lótuszmedence</font> %s1 %s2 <font color='#58C0F1'>lótusz</font>.#|#<font color='#58C0F1'>Lótuszmedence</font> %s1 %s2 <font color='#58C0F1'>lótusz</font>."
+		"DOTA_Location_Name_LotusPool_Fog" "<font color='#58C0F1'>Lótuszmedence</font> %s1 A következő <font color='#58C0F1'>lótusz</font> %s2 múlva (%s3-kor)."
 		"DOTA_Location_Name_TwinGate" "Ikerkapu"
 		"DOTA_Location_Name_NotFound" "terület"
 
@@ -31742,10 +31742,13 @@ Az olyan korai veszélyt jelentő hősök, mint Zeus és Death Prophet megjelen�
 	"DOTA_Tooltip_RoshanTimerMessage_VisibleTime"   "Roshan {s:roshan_respawn_time} múlva éled újra {s:roshan_cave_location} barlangjában."
 	"DOTA_Tooltip_RoshanTimerMessage_VariableTime"	"Roshan életben lehet {s:roshan_cave_location} barlangjában. {s:roshan_respawn_time} múlva garantáltan újra fog éledni."
 	
-	"DOTA_Chat_RoshanTimerMessage_RoshanIsAlive"	"Roshan életben van a(z) %s2 barlangban."
-	"DOTA_Chat_RoshanTimerMessage_BaseTime"		    "Roshan halott. %s3 múlva újraéledhet."
-	"DOTA_Chat_RoshanTimerMessage_VisibleTime"      "Roshan %s3 múlva újra fog éledni a(z) %s2 barlangban."
-	"DOTA_Chat_RoshanTimerMessage_VariableTime"	    "Roshan életben lehet a(z) %s2 barlangban. %s3 múlva garantáltan újra fog éledni."
+	"DOTA_Chat_RoshanTimerMessage_RoshanIsAlive"	"Roshan %s1 életben van a(z) %s2 barlangban."
+	"DOTA_Chat_RoshanTimerMessage_BaseTime"		    "Roshan %s1 %s3 múlva újraéledhet."
+	"DOTA_Chat_RoshanTimerMessage_VisibleTime"      "Roshan %s1 %s3 múlva újra fog éledni a(z) %s2 barlangban."
+	"DOTA_Chat_RoshanTimerMessage_VariableTime"	    "Roshan %s1 életben lehet a(z) %s2 barlangban, vagy legfeljebb %s3 múlva újraéled."
+
+	"DOTA_Chat_RoshanTimerMessage_AttackRoshan"					"Roshan %s1 Támadjuk meg a(z) %s2 barlangban!"
+	"DOTA_Chat_RoshanTimerMessage_WaitForRoshanToRespawn"		"Roshan %s1 Várjuk meg, hogy újraéledjen."
 
 	"DOTA_Top"										"felső"
 	"DOTA_Bottom"									"alsó"
@@ -32275,6 +32278,8 @@ Az olyan korai veszélyt jelentő hősök, mint Zeus és Death Prophet megjelen�
 	"DOTA_737d_Update"	  "7.37d játékmenet-frissítés"
 	"DOTA_737d"			  "7.37d"
 	"DOTA_737e_Update"	  "7.37e játékmenet-frissítés"
+	"DOTA_738_Update"	  "7.38-as játékmenet-frissítés"
+	"DOTA_738b_Update"	  "7.38b játékmenet-frissítés"
 
 	"DOTA_Settings_Tooltip_NetworkLatency" "Ha a hálózati kapcsolatod csomagveszteséges, ezt „Alacsonyra” állítva a válaszidő növekszik, de a kapcsolat egyenletesebb lesz."
 
@@ -36168,6 +36173,9 @@ Az olyan korai veszélyt jelentő hősök, mint Zeus és Death Prophet megjelen�
 	"DOTA_Plus_Winter2024_Update_Title"						"2024. téli szezonfrissítés"
 	"DOTA_Plus_Winter2024_Update_Desc"						"Egy szezonnyi új küldetés lett hozzáadva a Dota Pluszhoz."
 
+	"DOTA_Plus_Spring2025_Update_Title"						"2025. tavaszi szezonfrissítés"
+	"DOTA_Plus_Spring2025_Update_Desc"						"Egy szezonnyi új küldetés lett hozzáadva a Dota Pluszhoz."
+
 	"DOTA_Plus_Autumn_Assitant_Title"						"Új Asszisztens funkciók"
 	"DOTA_Plus_Autumn_Assitant_Desc"						"A Plusz előfizetők mostantól használhatják a Játékos elkerülése funkciót, Barátok és ellenségek ajánlót, Ward ajánlásokat, és más Asszisztens funkciókat."
 
@@ -36238,7 +36246,7 @@ Az olyan korai veszélyt jelentő hősök, mint Zeus és Death Prophet megjelen�
 	"DOTA_TeamNeutralItems_Hint"							"<span class=\"ShortcutLabel\">Alt+kattintás</span> tárgy kéréséhez csapattárstól."
 	"DOTA_TeamNeutralItems_ViewAll"							"Összes semleges tárgy megnézése"
 	"DOTA_TeamNeutralItems_ViewTeam"						"Csapat semleges tárgyainak megnézése"
-	"DOTA_TeamNeutralItems_ViewCrafting"					"Csapat semleges tárgykészítésének megnézése"
+	"DOTA_TeamNeutralItems_ViewCrafting"					"Csapat semleges tárgykészítései"
 	"DOTA_TeamNeutralItems_Enhancements"					"Semleges igézések"
 
 	"DOTA_NeutralItemSlot_Title"							"Semleges tárgyhely"
@@ -37524,7 +37532,12 @@ Mindegyik régiónak élő ranglistája van, amely a céh rangjának kiszámít�
 
 		"DOTA_PlusSeason_SeasonWinter2024_Name"					"2024. tél"
 		"DOTA_PlusSeason_SeasonWinter2024_Quests"				"2024. téli küldetések"
-		"DOTA_PlusSeason_SeasonWinter2024_Subtitle"				"A 2024. téli szezon 2025. március 2-án ér véget."
+		"DOTA_PlusSeason_SeasonWinter2024_Subtitle"				"A 2024. téli szezon 2025. március 4-én ér véget."
+
+		"DOTA_PlusSeason_SeasonSpring2025_Name"					"2025. tavasz"
+		"DOTA_PlusSeason_SeasonSpring2025_Quests"				"2025. tavaszi küldetések"
+		"DOTA_PlusSeason_SeasonSpring2025_Subtitle"				"A 2025. tavaszi szezon 2025. június 3-án ér véget."
+		"DOTA_PlusSeason_SeasonSpring2025_TreasureDescription"	"Kizárólag a 2025. tavaszi szezon végéig, 2025. június 3-ig érhető el."
 
 		"DOTA_MatchRewards"							"Meccsjutalmak"
 		"DOTA_MatchRewards_YourShards"				"Szilánkjaid"
@@ -47830,6 +47843,9 @@ Ha úgy érzed, nem tudtál a döntés meghozatalához szükséges szintű figye
 		"DOTA_FrontPageCell_738_Title"					"Vándorló Vizek"
 		"DOTA_FrontPageCell_738_Description"			"Bemutatjuk az új térképet, semleges tárgyak átdolgozását, hős- és tárgyfrissítéseket és sok mást."
 		"DOTA_FrontPageCell_738_Patchnotes"				"Frissítési jegyzék megnézése"
+		"DOTA_FrontPageCell_738_Patchnotes_Button"		"7.38-as frissítésjegyzék"
+
+		"DOTA_FrontPageCell_DotaPlusSpring2025_Description"				"Frissített szezonális küldetések és jutalmak."
 
 		"DOTA_HUD_Pregame_TokenRewards"					"{s:act_number} zsetonjutalmak"
 		"DOTA_HUD_Pregame_TurboTokenRewardsTooltip"		"A Turbó játékok két zsetont adnak győzelemkor. Válaszd ki a kívánt zsetonokat."
@@ -49439,11 +49455,11 @@ Ha úgy érzed, nem tudtál a döntés meghozatalához szükséges szintű figye
 
 		"DOTA_AdjNounWordOrder"							"{s:adj} {s:noun}"
 
-		"DOTA_Chat_MadstoneAlert_NeedMadstone_Self"		"Még %s1 őrült kőre van szükségem <font color='%s3'>%s2. szintű</font> semleges tárgyam elkészítéséhez."
-		"DOTA_Chat_MadstoneAlert_NeedMadstone_Ally"		"<font color='%s4'>%s5</font> szövetségesnek még %s1 őrült kő kell az <font color='%s3'>%s2. szintű</font> semleges tárgya elkészítéséhez."
-		"DOTA_Chat_MadstoneAlert_CanCraft_Self"			"El tudom készíteni a(z) <font color='%s2'>%s1. szintű</font> semleges tárgyamat."
-		"DOTA_Chat_MadstoneAlert_CanCraft_Ally"			"<font color='%s3'>%s4</font> szövetséges el tudja készíteni a(z) <font color='%s2'>%s1. szintű</font> semleges tárgyát."
-		"DOTA_Chat_MadstoneAlert_WaitingForNextTier"	"Az őrült kövek <font color='%s2'>%s1. szintű</font> semleges tárgyakhoz %s3 múlva fognak megjelenni."
+		"DOTA_Chat_MadstoneAlert_NeedMadstone_Self"		"<font color='#4BEE81'>Őrült kő</font> %s1 Még %s2 kell <font color='%s4'>%s3. szintű</font> semleges tárgyam elkészítéséhez."
+		"DOTA_Chat_MadstoneAlert_NeedMadstone_Ally"		"<font color='#4BEE81'>Őrült kő</font> %s1 <font color='%s5'>%s6</font> játékosnak még %s2 kell <font color='%s4'>%s3. szintű</font> semleges tárgya elkészítéséhez."
+		"DOTA_Chat_MadstoneAlert_CanCraft_Self"			"El tudom készíteni <font color='%s2'>%s1. szintű</font> semleges tárgyamat."
+		"DOTA_Chat_MadstoneAlert_CanCraft_Ally"			"<font color='%s3'>%s4</font> el tudja készíteni <font color='%s2'>%s1. szintű</font> semleges tárgyát."
+		"DOTA_Chat_MadstoneAlert_WaitingForNextTier"	"<font color='#4BEE81'>Őrült kő</font> %s1 %s4 múlva kezd el megjelenni <font color='%s3'>%s2. szintű</font> semleges tárgyakhoz."
 
 		"DOTA_NeutralCrafting_TooltipHeader"			"Semleges tárgyak"
 		"DOTA_NeutralCraft_TierName"					"{d:neutral_item_tier}. szint"

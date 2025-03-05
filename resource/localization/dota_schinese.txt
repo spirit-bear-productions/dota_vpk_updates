@@ -18347,9 +18347,9 @@
 		"DOTA_Location_Name_Statue"		"雕像"
 		"DOTA_Location_Name_Graveyard"	"墓地"
 		"DOTA_Location_Name_Tormentor" "痛苦魔方"
-		"DOTA_Location_Name_LotusPool:p" "莲花池 - %s1朵莲花#|#莲花池 - %s1朵莲花。下一次在%s2后（%s3）"
-		"DOTA_Location_Name_LotusPoolMax:p" "莲花池 - %s1朵莲花#|#莲花池 - %s1朵莲花"
-		"DOTA_Location_Name_LotusPool_Fog" "莲花池 - 下次莲花在%s1后（%s2）"
+		"DOTA_Location_Name_LotusPool:p" "<font color='#58C0F1'>莲花池</font> %s1 %s2朵<font color='#58C0F1'>莲花</font>。%s3后产生下一朵（%s4）#|#<font color='#58C0F1'>莲花池</font> %s1 %s2朵<font color='#58C0F1'>莲花</font>。%s3后产生下一朵（%s4）"
+		"DOTA_Location_Name_LotusPoolMax:p" "<font color='#58C0F1'>莲花池</font> %s1 %s2朵<font color='#58C0F1'>莲花</font>#|#<font color='#58C0F1'>莲花池</font> %s1 %s2朵<font color='#58C0F1'>莲花</font>"
+		"DOTA_Location_Name_LotusPool_Fog" "<font color='#58C0F1'>莲花池</font> %s1 %s2后产生下一朵<font color='#58C0F1'>莲花</font>（%s3）"
 		"DOTA_Location_Name_TwinGate" "双生之门"
 		"DOTA_Location_Name_NotFound" "这里"
 
@@ -31804,10 +31804,13 @@
 	"DOTA_Tooltip_RoshanTimerMessage_VisibleTime"   "肉山会在{s:roshan_respawn_time}后在{s:roshan_cave_location}巢穴复活。"
 	"DOTA_Tooltip_RoshanTimerMessage_VariableTime"	"肉山可能会活在{s:roshan_cave_location}巢穴。必定会在{s:roshan_respawn_time}内复活。"
 	
-	"DOTA_Chat_RoshanTimerMessage_RoshanIsAlive"	"肉山在%s2巢穴中存活。"
-	"DOTA_Chat_RoshanTimerMessage_BaseTime"		    "肉山已经阵亡。可能在%s3后复活。"
-	"DOTA_Chat_RoshanTimerMessage_VisibleTime"      "肉山会在%s3后在%s2巢穴复活。"
-	"DOTA_Chat_RoshanTimerMessage_VariableTime"	    "肉山可能会活在%s2巢穴。必定会在%s3内复活。"
+	"DOTA_Chat_RoshanTimerMessage_RoshanIsAlive"	"肉山%s1在%s2巢穴中存活。"
+	"DOTA_Chat_RoshanTimerMessage_BaseTime"		    "肉山%s1可能在%s3后复活。"
+	"DOTA_Chat_RoshanTimerMessage_VisibleTime"      "肉山%s1会在%s3后在%s2巢穴复活。"
+	"DOTA_Chat_RoshanTimerMessage_VariableTime"	    "肉山%s1可能会活在%s2巢穴或者在%s3内复活。"
+
+	"DOTA_Chat_RoshanTimerMessage_AttackRoshan"					"肉山%s1我们一起去%s2巢穴！"
+	"DOTA_Chat_RoshanTimerMessage_WaitForRoshanToRespawn"		"肉山%s1大家先等他复活。"
 
 	"DOTA_Top"										"上路"
 	"DOTA_Bottom"									"下路"
@@ -32338,6 +32341,8 @@
 	"DOTA_737d_Update"	  "7.37d 游戏性更新"
 	"DOTA_737d"			  "7.37d"
 	"DOTA_737e_Update"	  "7.37e 游戏性更新"
+	"DOTA_738_Update"	  "7.38 游戏性更新"
+	"DOTA_738b_Update"	  "7.38b 游戏性更新"
 
 	"DOTA_Settings_Tooltip_NetworkLatency" "如果网络连接存在丢包现象，请将此项调至“低”，虽然这样会增加延迟，但可提升整体流畅度。"
 
@@ -36229,6 +36234,9 @@
 	"DOTA_Plus_Winter2024_Update_Title"						"2024年玄冬赛季更新"
 	"DOTA_Plus_Winter2024_Update_Desc"						"全新赛季的任务已加入刀塔Plus。"
 
+	"DOTA_Plus_Spring2025_Update_Title"						"2025年初春赛季更新"
+	"DOTA_Plus_Spring2025_Update_Desc"						"全新赛季的任务已加入刀塔Plus。"
+
 	"DOTA_Plus_Autumn_Assitant_Title"						"全新助手功能"
 	"DOTA_Plus_Autumn_Assitant_Desc"						"Plus会员现在可以使用拉黑玩家功能，“战友与宿敌”选人建议，插眼建议以及其他助手功能。"
 
@@ -37586,7 +37594,12 @@
 
 		"DOTA_PlusSeason_SeasonWinter2024_Name"					"2024年冬季"
 		"DOTA_PlusSeason_SeasonWinter2024_Quests"				"2024年冬季任务"
-		"DOTA_PlusSeason_SeasonWinter2024_Subtitle"				"2024年玄冬赛季将于2025年3月2日结束。"
+		"DOTA_PlusSeason_SeasonWinter2024_Subtitle"				"2024年玄冬赛季将于2025年3月5日结束。"
+
+		"DOTA_PlusSeason_SeasonSpring2025_Name"					"2025年春季"
+		"DOTA_PlusSeason_SeasonSpring2025_Quests"				"2025年春季任务"
+		"DOTA_PlusSeason_SeasonSpring2025_Subtitle"				"2025年初春赛季将于2025年6月3日结束。"
+		"DOTA_PlusSeason_SeasonSpring2025_TreasureDescription"	"兑换截至2025年初春赛季结束，即2025年6月3日。"
 
 		"DOTA_MatchRewards"							"比赛奖励"
 		"DOTA_MatchRewards_YourShards"				"你的碎片"
@@ -47893,6 +47906,9 @@
 		"DOTA_FrontPageCell_738_Title"					"奔流不息"
 		"DOTA_FrontPageCell_738_Description"			"隆重推出全新地图，中立物品大改，英雄和物品更新等等。"
 		"DOTA_FrontPageCell_738_Patchnotes"				"查看改动日志"
+		"DOTA_FrontPageCell_738_Patchnotes_Button"		"7.38 改动日志"
+
+		"DOTA_FrontPageCell_DotaPlusSpring2025_Description"				"已更新赛季任务和奖励。"
 
 		"DOTA_HUD_Pregame_TokenRewards"					"{s:act_number}枚代币奖励"
 		"DOTA_HUD_Pregame_TurboTokenRewardsTooltip"		"加速模式在胜利时获得2枚代币。请选择想要的代币。"
@@ -49502,11 +49518,11 @@
 
 		"DOTA_AdjNounWordOrder"							"{s:adj}的{s:noun}"
 
-		"DOTA_Chat_MadstoneAlert_NeedMadstone_Self"		"我还需要%s1块狂石才能打造我的<font color='%s3'>第%s2级</font>中立物品。"
-		"DOTA_Chat_MadstoneAlert_NeedMadstone_Ally"		"队友<font color='%s4'>%s5</font>还需要%s1块狂石才能打造他的<font color='%s3'>第%s2级</font>中立物品。"
+		"DOTA_Chat_MadstoneAlert_NeedMadstone_Self"		"<font color='#4BEE81'>狂石</font> %s1我还需要%s2块才能打造我的<font color='%s4'>%s3 级</font>中立物品。"
+		"DOTA_Chat_MadstoneAlert_NeedMadstone_Ally"		"<font color='#4BEE81'>狂石</font> %s1<font color='%s5'>%s6</font>还需要%s2块才能打造他的<font color='%s4'>%s3 级</font>中立物品。"
 		"DOTA_Chat_MadstoneAlert_CanCraft_Self"			"我可以打造我的<font color='%s2'>第%s1级</font>中立物品。"
-		"DOTA_Chat_MadstoneAlert_CanCraft_Ally"			"队友<font color='%s4'>%s5</font>可以打造他的<font color='%s2'>第%s1级</font>中立物品。"
-		"DOTA_Chat_MadstoneAlert_WaitingForNextTier"	"<font color='%s2'>第%s1级</font>中立物品所需的狂石会在%s3后开始产生。"
+		"DOTA_Chat_MadstoneAlert_CanCraft_Ally"			"<font color='%s3'>%s4</font>可以打造他的<font color='%s2'>%s1 级</font>中立物品。"
+		"DOTA_Chat_MadstoneAlert_WaitingForNextTier"	"<font color='#4BEE81'>狂石</font>%s1 %s4后可以开始打造<font color='%s3'>%s2 级</font>中立物品。"
 
 		"DOTA_NeutralCrafting_TooltipHeader"			"中立物品"
 		"DOTA_NeutralCraft_TierName"					"第{d:neutral_item_tier}级"

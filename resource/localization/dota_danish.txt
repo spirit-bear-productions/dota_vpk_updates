@@ -18295,9 +18295,6 @@ Særlig Techies-hån"
 		"DOTA_Location_Name_Statue"		"Statuen"
 		"DOTA_Location_Name_Graveyard"	"Kirkegården"
 		"DOTA_Location_Name_Tormentor" "Plageånd"
-		"DOTA_Location_Name_LotusPool:p" "Lotusdam – %s1 lotusblomst#|#Lotusdam – %s1 lotusblomster. Næste om %s2 (ved %s3)."
-		"DOTA_Location_Name_LotusPoolMax:p" "Lotusdam – %s1 lotusblomst#|#Lotusdam – %s1 lotusblomster"
-		"DOTA_Location_Name_LotusPool_Fog" "Lotusdam – næste lotusblomst om %s1 (ved %s2)"
 		"DOTA_Location_Name_TwinGate" "Tvillingeport"
 		"DOTA_Location_Name_NotFound" "her"
 
@@ -31343,11 +31340,6 @@ Idet tidligt angribende helte såsom Zeus og Death Prophet dukkede op, split-pus
 	"DOTA_Tooltip_RoshanTimerMessage_VisibleTime"   "Roshan vender tilbage i {s:roshan_respawn_time} i {s:roshan_cave_location} af banen."
 	"DOTA_Tooltip_RoshanTimerMessage_VariableTime"	"Roshan er muligvis i live i {s:roshan_cave_location} af banen. Vender med garanti tilbage om {s:roshan_respawn_time}."
 	
-	"DOTA_Chat_RoshanTimerMessage_RoshanIsAlive"	"Roshan er i live i %s2 af banen."
-	"DOTA_Chat_RoshanTimerMessage_BaseTime"		    "Roshan er død. Tidligst tilbage om %s3."
-	"DOTA_Chat_RoshanTimerMessage_VisibleTime"      "Roshan vender tilbage om %s3 i %s2 af banen."
-	"DOTA_Chat_RoshanTimerMessage_VariableTime"	    "Roshan er muligvis i live i %s2 af banen. Vender med garanti tilbage om %s3."
-
 	"DOTA_Top"										"toppen"
 	"DOTA_Bottom"									"bunden"
 
@@ -31763,7 +31755,6 @@ Idet tidligt angribende helte såsom Zeus og Death Prophet dukkede op, split-pus
 	"DOTA_737d_Update"	  "Spilopdatering 7.37d"
 	"DOTA_737d"			  "7.37d"
 	"DOTA_737e_Update"	  "Spilopdatering 7.37e"
-
 	"DOTA_Settings_Tooltip_NetworkLatency" "Hvis du har en netværksforbindelse med pakketab, kan denne indstilles til \"Jeg har et svagt netværk\" for at øge forsinkelsen, men forbedre den samlede glathed af spillet."
 
 	"DOTA_Popup_RankCalibration_Congrats" "Tillykke!"
@@ -33007,6 +32998,7 @@ Idet tidligt angribende helte såsom Zeus og Death Prophet dukkede op, split-pus
 
 	"Debut_WR_Arcana_Feature_4_Title" 							"<span class='bullettitle'>500+ nye Arcana-eksklusive heltereplikker</span>"
 	"Debut_WR_Arcana_Feature_Minigame_Title"  					"<span class='bullettitle'>Oplåselig sekundær stil</span>"
+	"Debut_WR_Arcana_Feature_Minigame_Desc"  					"Opnå 2.500.000 skade ved hjælp af Focus Fire-drab for at oplåse den alternative stil <i>Reflections of the Gale</i>."
 	"Debut_Windrunner_ViewProgress"								"Vis fremskridt"
 
 	"DOTA_WindrunnerArcana_ArcanaProgress_Label"					"Arcana-fremskridt"
@@ -36469,8 +36461,6 @@ Hver region har en opdateret førertavle, der bruges til at udregne hvert guilds
 
 		"DOTA_PlusSeason_SeasonWinter2024_Name"					"Vinter 2024"
 		"DOTA_PlusSeason_SeasonWinter2024_Quests"				"Opgaver – vinter 2024"
-		"DOTA_PlusSeason_SeasonWinter2024_Subtitle"				"Vintersæsonen 2024 slutter 2. marts 2025."
-
 		"DOTA_MatchRewards"							"Kampbelønninger"
 		"DOTA_MatchRewards_YourShards"				"Dine skår"
 		"DOTA_MatchRewards_TotalShards"				"Skår i alt"
@@ -45198,7 +45188,6 @@ Hvis du føler, du ikke kan tildele tid nok til sagen til at nå frem til en afg
 		"DOTA_FrontPageCell_738_Title"					"Vandrende vand"
 		"DOTA_FrontPageCell_738_Description"			"Vi introducerer en ny bane, en overhaling af neutrale genstande, opdateringer til helte og genstande og meget mere."
 		"DOTA_FrontPageCell_738_Patchnotes"				"Vis opdateringsnoter"
-
 		"DOTA_HUD_Pregame_TokenRewards"					"{s:act_number} poletbelønninger"
 		"DOTA_HUD_Pregame_TurboTokenRewardsTooltip"		"Turbo-kampe giver 2 poletter per sejr. Vælg de poletter, du ønsker."
 
@@ -46803,11 +46792,7 @@ Hvis du føler, du ikke kan tildele tid nok til sagen til at nå frem til en afg
 		"DOTA_Madstone_Explaination_2"					"Optjen nok vredessten til at smede neutrale genstande:<br>– Niveau 1 kræver 5 vredessten.<br>– Niveau 2, 3, 4 og 5 kræver 10 vredessten."
 		"DOTA_Madstone_Explaination_3"					"Optjen fortsat vredessten til dine allierede, efter du når niveauets maksimale antal."
 
-		"DOTA_Chat_MadstoneAlert_NeedMadstone_Ally"		"Allieret <font color='%s4'>%s5</font> mangler %s1 vredessten til for at smede sin neutrale genstand i <font color='%s3'>niveau %s2</font>."
 		"DOTA_Chat_MadstoneAlert_CanCraft_Self"			"Jeg kan smede min neutrale genstand i <font color='%s2'>niveau %s1</font> ."
-		"DOTA_Chat_MadstoneAlert_CanCraft_Ally"			"Allieret <font color='%s3'>%s4</font> kan smede sin neutrale genstand i <font color='%s2'>niveau %s1</font>."
-		"DOTA_Chat_MadstoneAlert_WaitingForNextTier"	"Vredessten til genstande i <font color='%s2'>niveau %s1</font> dukker op om %s3."
-
 		"DOTA_NeutralCrafting_TooltipHeader"			"Neutrale genstande"
 		"DOTA_NeutralCraft_TierName"					"Niveau {d:neutral_item_tier}"
 		"DOTA_NeutralCrafting_TooltipExplain"			"Ryd neutrale kryblejre fuldt for at optjene vredessten til dit hold til at smede neutrale genstande."
