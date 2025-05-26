@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 @define cellSize: 36px;
 .PopupPanel.Minesweeper {
@@ -1013,6 +1013,7 @@
     letter-spacing: 2px;
     color: gold1;
     margin-top: 12px;
+    visibility: collapse;
 }
 
 .MainContents .InnerContents .Body .MainMenu .RewardsSection {
@@ -1021,12 +1022,18 @@
     width: 100%;
     horizontal-align: left;
     margin-left: 10px;
+    visibility: collapse;
 }
 
 .MainContents .InnerContents .Body .MainMenu .RewardsSection .RewardRow {
     flow-children: right;
     width: 100%;
     margin-bottom: 2px;
+    visibility: collapse;
+}
+
+.MainContents .InnerContents .Body .MainMenu .RewardsSection .RewardRow.HasReward {
+    visibility: visible;
 }
 
 .MainContents .InnerContents .Body .MainMenu .RewardsSection .RewardRow.Unlocked {

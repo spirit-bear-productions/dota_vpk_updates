@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 #BackgroundContainer {
     width: 100%;
@@ -112,6 +112,14 @@ DOTATierTreasureDetails #TreasureLogo {
     visibility: visible;
 }
 
+#TreasureImageContainer #TreasureImage {
+    visibility: collapse;
+}
+
+#KeyImageContainer #KeyImage {
+    visibility: collapse;
+}
+
 .ChestIcon,
 .KeyIcon {
     width: 120px;
@@ -119,6 +127,7 @@ DOTATierTreasureDetails #TreasureLogo {
     margin-right: 24px;
     vertical-align: center;
     background-size: contain;
+    visibility: visible;
 }
 
 .ChestIcon {
@@ -131,6 +140,10 @@ DOTATierTreasureDetails #TreasureLogo {
 
 .ChestHex {
     background-image: url("s2r://panorama/images/events/muerta/muerta_chest_icon_psd.vtex");
+}
+
+#TreasureItemEconImage {
+    visibility: collapse;
 }
 
 .TextButton Label {
@@ -152,7 +165,8 @@ DOTATierTreasureDetails #TreasureLogo {
 }
 
 #UnlockChestButton,
-#RecycleButton {
+#RecycleButton,
+#OpenAnotherButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#387d69), to(#225a49));
 }
 

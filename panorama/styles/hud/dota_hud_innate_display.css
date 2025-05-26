@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 .RootInnateDisplay {
     width: 40px;
@@ -35,12 +35,6 @@
     horizontal-align: center;
 }
 
-.FacetHolder {
-    width: fit-children;
-    height: fit-children;
-    horizontal-align: center;
-}
-
 .RootInnateDisplay:not(.HasFacet) .FacetHolder {
     opacity: 0;
 }
@@ -49,9 +43,13 @@
     width: 26px;
     height: 26px;
     horizontal-align: center;
+    tooltip-position: top;
+    tooltip-body-position: 50% 25px;
 }
 
 #FacetIcon {
     horizontal-align: center;
     margin-bottom: 6px;
+    tooltip-position: top;
+    tooltip-body-position: 50% 25px;
 }

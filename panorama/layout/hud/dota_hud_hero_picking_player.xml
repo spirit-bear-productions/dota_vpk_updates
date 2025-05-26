@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -6,6 +6,7 @@
 		<include src="s2r://panorama/styles/hud/dota_hud_hero_picking_player.vcss_c" />
 	</styles>
 	<DOTAHudHeroPickingPlayer>
+		<Panel class="IsLocalPlayer" hittest="false" />
 		<Panel id="PickedParticlesContainer">
 			<DOTAScenePanel class="PickedParticles" map="scenes/hud/levelupburst.vmap" camera="shot_camera" particleonly="true" />
 		</Panel>

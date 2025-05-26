@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTAHUDLevelStatsFrame {
     visibility: collapse;
@@ -175,11 +175,9 @@ DOTAHUDLevelStatsFrame.SkillUpgradable:not(.CanLevelStats) #LevelUpBurstFX {
 }
 
 #ButtonWell {
-    width: 72px;
-    height: 72px;
     width: 64px;
-    height: 64px;
-    margin-bottom: 75px;
+    height: 74px;
+    margin-bottom: 65px;
     vertical-align: bottom;
     z-index: 0;
 }

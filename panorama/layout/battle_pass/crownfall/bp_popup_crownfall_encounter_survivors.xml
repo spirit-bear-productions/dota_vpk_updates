@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -355,7 +355,7 @@
 			</Panel>
 		</snippet>
 	</snippets>
-	<Panel class="PopupPanel Survivors Hidden" popupbackground="dim" oncancel="DOTASurvivorsOnCancel()">
+	<Panel class="PopupPanel Survivors Hidden" allows_popups="1" popupbackground="dim" oncancel="DOTASurvivorsOnCancel()">
 		<Panel class="MainContentsWrapperContainer">
 			<Panel class="MainContentsWrapper">
 				<Panel class="MainContents">
@@ -559,9 +559,10 @@
 											<Label class="PatchNotesButtonLabel" text="#DOTA_Survivors_ViewPatchNotes" />
 										</Button>
 									</Panel>
+									<DOTASettingsCheckbox id="dota_survivors_disable_dialogue" convar="dota_survivors_disable_dialogue" text="#DOTA_Survivors_DisableDialogue" />
 								</Panel>
 								<Panel class="RewardsSection">
-									<Label class="GoldHeader PlaySectionHeader" text="#DOTA_Crownfall_Fishing_Rewards" />
+									<Label class="GoldHeader PlaySectionHeader RewardsLabel" text="#DOTA_Crownfall_Fishing_Rewards" />
 									<Panel id="RewardsList" class="RewardsSection" />
 								</Panel>
 							</Panel>
@@ -633,10 +634,7 @@
 							<Label class="DifficultyIntroDescription" html="true" text="#DOTA_Survivors_DifficultyDescription" />
 							<Panel class="ParentDifficultyLevelsContainer">
 								<Panel id="DifficultyLevelsContainer" class="DifficultyLevelsContainer" />
-								<Panel class="TableHeader">
-									<Label class="LabelSmall DifficultyHeaderLabel" text="#UI_difficulty_label" />
-									<Label class="LabelSmall RewardHeaderLabel" text="#DOTA_Overworld_Node_Reward" />
-								</Panel>
+								<Panel class="TableHeader" />
 								<Panel class="TopGoldDash Top" />
 								<Panel class="TopGoldDash Bottom" />
 								<Panel class="SetupScreenInnerBorder" hittest="false" />

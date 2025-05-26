@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTAPlusPageHeader {
     horizontal-align: center;
@@ -60,7 +60,6 @@ DOTAPlusPageHeader {
     color: dotaPlusGold;
     transition-property: brightness;
     transition-duration: 0.2s;
-    margin-bottom: -11px;
 }
 
 #HomeTab:hover Label {
@@ -72,7 +71,7 @@ DOTAPlusPageHeader {
 }
 
 #HomeTab:selected Label {
-    color: gradient(linear, 100% 0%, 0% 0%, from(#fff), to(#b78946));
+    color: gradient(linear, 0% 0%, 0% 100%, from(dotaPlusLightGold), to(dotaPlusGold));
 }
 
 #ManageSubscription {

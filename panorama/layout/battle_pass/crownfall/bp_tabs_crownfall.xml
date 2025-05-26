@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -9,6 +9,8 @@
 	</styles>
 	<DOTACrownfallTabs class="CrownfallTabs SecondaryTabSet">
 		<RadioButton id="CrownfallOverworld" class="SecondaryTabButton" group="SecondaryTabGroup" onactivate="DOTAShowCrownfallOverworldPage( 0 );" text="#DOTA_Crownfall_Tab_Overworld" />
+		<Label class="SecondaryTabSeparator" text="/" />
+		<RadioButton id="CrownfallArchive" class="SecondaryTabButton" group="SecondaryTabGroup" onactivate="DOTAShowBPCrownfallArchivePage();" text="#DOTA_Crownfall_Tab_Archive" />
 		<Label class="SecondaryTabSeparator" text="/" />
 		<RadioButton id="CrownfallStore" class="SecondaryTabButton" group="SecondaryTabGroup" onactivate="DOTAShowBPCrownfallStorePage();" text="#DOTA_Crownfall_Tab_Store" />
 		<Label class="SecondaryTabSeparator" text="/" />

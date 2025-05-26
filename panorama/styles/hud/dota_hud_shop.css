@@ -1,9 +1,9 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 @define headerHeight: 47px;
-@define itemCombinesHeight: 90px;
-@define mainPanelWidth: 360px;
-@define negMainPanelWidth: -360px;
+@define itemCombinesHeight: 98px;
+@define mainPanelWidth: 400px;
+@define negMainPanelWidth: -400px;
 @define largeMainPanelWidth: 400px;
 @define largeNegMainPanelWidth: -400px;
 DOTAHUDShop {
@@ -13,6 +13,7 @@ DOTAHUDShop {
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
     margin-top: 36px;
+    flow-children: right;
 }
 
 DOTAHUDShop.NoTransitions {
@@ -40,8 +41,8 @@ DOTAHUDShop.ShopLarge {
     horizontal-align: left;
 }
 
-DOTAHUDShop.ShopOpen.GuidesDisabled #GuidesButton,
-DOTAHUDShop.ShopOpen.ForceDefaultGuide #GuidesButton {
+DOTAHUDShop.ShopOpen.GuidesDisabled .GuidesButton,
+DOTAHUDShop.ShopOpen.ForceDefaultGuide .GuidesButton {
     visibility: collapse;
 }
 
@@ -50,7 +51,7 @@ DOTAHUDShop.ShopOpen.ForceDefaultGuide #GuidesButton {
     visibility: collapse;
 }
 
-.ForceDefaultGuide #GuidesButton {
+.ForceDefaultGuide .GuidesButton {
     visibility: collapse;
 }
 
@@ -259,24 +260,47 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
 }
 
 #HeightLimiterContainer {
-    background-image: url("s2r://panorama/images/hud/reborn/bg_mainshop_psd.vtex");
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#1e1f22), to(#070708));
 }
 
 .HUDFlipped #HeightLimiterContainer {
     transform: scaleX(-1);
 }
 
-#CommonItems {
+#ItemListContainer {
+    flow-children: right;
     width: 100%;
+}
+
+.ShopV2 #ItemListContainer {
+    height: fit-children;
+}
+
+#CommonItems {
+    width: fill-parent-flow(1);
     vertical-align: bottom;
     padding-bottom: 6px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#1c2027), to(#010101));
     background-image: url("s2r://panorama/images/hud/reborn/bg_pinned_items_psd.vtex");
     background-size: cover;
+    visibility: collapse;
+}
+
+.ShopV2 #CommonItems {
+    visibility: collapse;
+}
+
+#TeamItems {
+    width: fill-parent-flow(1);
+    height: 84px;
+    vertical-align: bottom;
+    padding: 0 0 0 0;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#1c2027), to(#010101));
+    background-image: url("s2r://panorama/images/hud/reborn/bg_pinned_items_psd.vtex");
+    background-size: cover;
+    min-height: 83px;
 }
 
 .HIDE_SHOP_COMMONITEMS #CommonItems,
@@ -365,7 +389,7 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
 #GridCustomShop {
     width: 100%;
     visibility: collapse;
-    margin-bottom: 4px;
+    flow-children: down;
 }
 
 .ShopLarge #GridMainShop,
@@ -393,10 +417,19 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     visibility: visible;
 }
 
+#MainShopContentsVersionContainer {
+    width: 100%;
+    height: 576px;
+    flow-children: left;
+}
+
+.HUDFlipped #MainShopContentsVersionContainer {
+    flow-children: left;
+}
+
 #GridMainShopContents {
     border-top: 1px solid #373f4577;
-    width: 100%;
-    margin-top: 84px;
+    width: 533px;
     horizontal-align: center;
     z-index: 6;
 }
@@ -438,26 +471,42 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     width: 100%;
     vertical-align: top;
     horizontal-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
 }
 
 #SearchContainer {
-    width: 228px;
-    padding-left: 10px;
+    width: fill-parent-flow(1);
     padding-right: 8px;
     padding-top: 10px;
     padding-bottom: 6px;
+    padding-left: 8px;
     z-index: 5;
     flow-children: down;
     vertical-align: top;
     horizontal-align: left;
 }
 
-.ShopLarge #SearchContainer {
-    width: 270px;
-}
-
 .NewHeroShop #SearchContainer {
     width: 350px;
+}
+
+.ShowFilters #SearchContainer {
+    width: fill-parent-flow(1);
+}
+
+@define glowColor: #63A4FF;
+@keyframes 'GlowSearchInput' {
+    0% {
+        box-shadow: 0px 0px 24px glowColor&11;
+        border: 1px solid glowColor;
+    }
+
+    100% {
+        box-shadow: 0px 0px 24px glowColor&44;
+        border: 1px solid rgb(194, 237, 255);
+    }
 }
 
 #SearchBox {
@@ -465,6 +514,19 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     background-color: black;
     border-radius: 3px;
     border: 1px solid #3d464c;
+}
+
+#SearchBox:descendantfocus {
+    background-color: rgb(44, 51, 58);
+    animation-name: GlowSearchInput;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#SearchBox:descendantfocus #PlaceholderText {
+    opacity: 0;
 }
 
 #SearchTextEntry {
@@ -491,7 +553,7 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
 
 #SearchResults {
     width: 100%;
-    height: 100%;
+    height: fit-children;
     margin-bottom: 5px;
     margin-top: 54px;
     background-color: #212931;
@@ -508,6 +570,10 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     padding-bottom: 2px;
 }
 
+.EditTeamItemsMode #ItemCombines {
+    visibility: collapse;
+}
+
 #ItemCombinesAndBasicItemsContainer {
     width: 100%;
     flow-children: down;
@@ -515,18 +581,46 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
 
 #GridMainShopContents {
     horizontal-align: center;
-    padding-left: 4px;
-    padding-right: 2px;
 }
 
 .NewHeroShop #GridMainShopContents {
     padding-left: 0px;
 }
 
+.ItemContextMenuInstructionsContainer {
+    vertical-align: bottom;
+    margin: 8px;
+    flow-children: right;
+    opacity: 0.6;
+}
+
+.ItemContextMenuInstructionsContainer Label {
+    font-size: 14px;
+    color: Grey;
+    vertical-align: center;
+}
+
+.ItemContextMenuInstructionsContainer Image {
+    vertical-align: center;
+    wash-color: Grey;
+    width: 14px;
+    margin-right: 4px;
+}
+
+.ShowNeutralItemsTab .ItemContextMenuInstructionsContainer,
+.NewHeroShop .ItemContextMenuInstructionsContainer {
+    visibility: collapse;
+}
+
 .ShopItemsCategory {
     flow-children: down;
     horizontal-align: center;
     width: 100%;
+    max-width: 400px;
+}
+
+.FilteringItems .ShopItemsCategory {
+    visibility: collapse;
 }
 
 .ShopLarge .ShopItemsCategory {
@@ -547,11 +641,11 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     flow-children: right;
     horizontal-align: center;
     height: 30px;
+    visibility: visible;
 }
 
 .ShopLarge #GridMainTabs {
     margin-bottom: 0px;
-    horizontal-align: left;
 }
 
 #GridTabs Label,
@@ -563,11 +657,6 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     font-weight: bold;
     vertical-align: center;
     margin-left: 0px;
-}
-
-.ShopLarge #GridTabs Label,
-.ShopLarge #GridMainTabs Label {
-    margin-left: 2px;
 }
 
 .ShopItemsTab {
@@ -619,7 +708,8 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     visibility: collapse;
 }
 
-.TeamHasNewNeutralItems .GridNeutralsTabNewItems {
+.TeamHasNewNeutralItems .GridNeutralsTabNewItems,
+.CraftableNeutral .GridNeutralsTabNewItems {
     visibility: visible;
 }
 
@@ -727,12 +817,20 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
 }
 
 #GridShopHeaders {
-    min-height: 84px;
+    min-height: 30px;
     width: 100%;
     padding-right: 10px;
     flow-children: down;
     z-index: 7;
     background-color: black;
+}
+
+.ShowFilters #GridShopHeaders {
+    padding-right: 110px;
+}
+
+.FilteringItems #GridShopHeaders {
+    visibility: collapse;
 }
 
 #ShopItemsHeader,
@@ -741,7 +839,7 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     font-size: 14px;
     padding: 5px 5px 3px 5px;
     letter-spacing: 1px;
-    text-shadow: 2px 2px 0px 2 black;
+    text-shadow: 0px 2px 12px 2 black;
     visibility: collapse;
     font-weight: semi-bold;
 }
@@ -765,6 +863,7 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     flow-children: right;
     width: fit-children;
     horizontal-align: center;
+    padding-left: 4px;
 }
 
 .ShopLarge .ShopItemsRows {
@@ -787,6 +886,10 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     width: 199px;
 }
 
+.ShopV2 .ShopItemRowContainer {
+    height: fit-children;
+}
+
 #ShopItemsContainer {
     flow-children: down;
     width: 100%;
@@ -798,12 +901,15 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     horizontal-align: center;
 }
 
+.ShopV2 #ShopItemsContainer {
+    height: fit-children;
+}
+
 .ShopItemsColumn {
     flow-children: down;
 }
 
-.ShopItemsRows DOTAShopItem,
-#GridCustomShopItems DOTAShopItem {
+.ShopItemsRows DOTAShopItem {
     width: 40px;
     height: width-percentage(72.7%);
     margin-top: 1px;
@@ -822,7 +928,8 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
     margin-top: 1px;
 }
 
-.ShopLarge .ShopItemsRows DOTAShopItem {
+.ShopLarge .ShopItemsRows DOTAShopItem,
+#GridBasicItems DOTAShopItem {
     width: 42px;
 }
 
@@ -881,11 +988,7 @@ DOTAHUDShopTextEntry.HasInput #PlaceholderText {
     opacity: 0;
 }
 
-#GuidesButton {
-    horizontal-align: right;
-    vertical-align: top;
-    margin-right: mainPanelWidth;
-    margin-top: 12px;
+.GuidesButton {
     width: 34px;
     height: 34px;
     transition-property: brightness, opacity, border-radius;
@@ -899,30 +1002,57 @@ DOTAHUDShopTextEntry.HasInput #PlaceholderText {
     border-bottom-left-radius: 4px;
 }
 
-.ShopLarge #GuidesButton {
-    margin-right: largeMainPanelWidth;
+DOTAHUDShop.ShopOpen .GuidesButton {
+    visibility: visible;
 }
 
-#GuidesButton.HideGuide {
+#GuidesButton {
+    vertical-align: top;
+    horizontal-align: right;
+    margin-right: mainPanelWidth;
+    margin-top: 12px;
+    ignore-parent-flow: true;
+}
+
+.ShopLarge #GuidesButton {
+    margin-right: largeMainPanelWidth;
+    margin-left: 0px;
+}
+
+.ShowFilters #GuidesButton {
+    margin-right: 512px;
+    margin-left: 0px;
+}
+
+.HUDFlipped .ShopLarge #GuidesButton {
+    margin-right: 0px;
+    margin-left: mainPanelWidth;
+}
+
+.ShowFilters #GuidesButton {
+    margin-right: 512px;
+    margin-left: 0px;
+}
+
+.HUDFlipped .ShowFilters #GuidesButton {
+    margin-right: 0px;
+    margin-left: 512px;
+}
+
+.GuidesButton.HideGuide {
     background-image: url("s2r://panorama/images/hud/reborn/bg_item_build_psd.vtex");
     opacity: 0.8;
 }
 
-#GuidesButton.HideGuide:hover {
+.GuidesButton.HideGuide:hover {
     opacity: 1;
 }
 
 .HUDFlipped #GuidesButton {
     horizontal-align: left;
-    margin-right: 0px;
-    margin-left: mainPanelWidth;
 }
 
-.HUDFlipped .ShopLarge #GuidesButton {
-    margin-left: largeMainPanelWidth;
-}
-
-#GuidesButtonIcon {
+.GuidesButtonIcon {
     width: 100%;
     height: 100%;
     background-image: url("s2r://panorama/images/hud/reborn/close_guide_btn_psd.vtex");
@@ -936,45 +1066,42 @@ DOTAHUDShopTextEntry.HasInput #PlaceholderText {
     border-bottom-left-radius: 0px;
 }
 
-#GuidesButton.HideGuide #GuidesButtonIcon {
+.GuidesButton.HideGuide .GuidesButtonIcon {
     transform: rotateZ(-180deg);
 }
 
-.HUDFlipped #GuidesButton #GuidesButtonIcon {
+.HUDFlipped .GuidesButton .GuidesButtonIcon,
+.HUDFlipped .GuidesButton:hover .GuidesButtonIcon {
     transform: rotateZ(-180deg);
 }
 
-.HUDFlipped #GuidesButton.HideGuide #GuidesButtonIcon {
+.HUDFlipped .HideGuide.GuidesButton .GuidesButtonIcon,
+.HUDFlipped .HideGuide.GuidesButton:hover .GuidesButtonIcon {
     transform: rotateZ(0deg);
 }
 
-DOTAHUDShop.ShopOpen #GuidesButton {
-    visibility: visible;
-}
-
-#GuidesButton:hover {
+.GuidesButton:hover {
     brightness: 2;
 }
 
-#GuidesButton:hover #GuidesButtonIcon {
+.GuidesButton:hover .GuidesButtonIcon {
     transform: translateX(2px);
 }
 
-#GuidesButton.HideGuide:hover #GuidesButtonIcon {
+.GuidesButton.HideGuide:hover .GuidesButtonIcon {
     transform: translateX(2px) rotateZ(-180deg);
 }
 
-#GuidesButton:active {
+.GuidesButton:active {
     wash-color: #999999;
 }
 
 #GuideFlyout {
-    width: 210px;
-    height: 814px;
+    width: 260px;
+    height: 100%;
     min-height: 524px;
     opacity: 0;
     z-index: -1;
-    margin-right: mainPanelWidth;
     margin-top: 0px;
     padding-bottom: 0px;
     transform: translateX(0px);
@@ -983,18 +1110,11 @@ DOTAHUDShop.ShopOpen #GuidesButton {
     transition-timing-function: ease-in-out;
 }
 
-.ShopLarge #GuideFlyout {
-    margin-right: largeMainPanelWidth;
-}
-
 .PlusGuide #GuideFlyout {
-    width: 260px;
+    width: 520px;
 }
 
 #GuideFlyoutContainer {
-    background-image: url("s2r://panorama/images/hud/reborn/bg_shop_guide_psd.vtex");
-    background-position: bottom;
-    background-size: cover;
     width: 100%;
     height: 100%;
 }
@@ -1012,13 +1132,8 @@ DOTAHUDShop.ShopOpen #GuideFlyout.HideGuide {
     opacity: 0;
 }
 
-.HUDFlipped #GuideFlyout {
-    margin-left: mainPanelWidth;
-    margin-right: 0px;
-}
-
-.HUDFlipped .ShopLarge #GuideFlyout {
-    margin-left: largeMainPanelWidth;
+.HUDFlipped DOTAHUDShop {
+    flow-children: left;
 }
 
 .HUDFlipped DOTAHUDShop.ShopOpen.ShopLarge #GuideFlyout.HideGuide {
@@ -1103,6 +1218,22 @@ DOTAHUDShop.ShopHotkeyMode #GridMainShop.ShowBasicItemsTab #MainShopBasicHotkeys
 
 #MainShopBasicHotkeys DOTAHotkey {
     margin-right: 34px;
+}
+
+#GridHeaderAndMainContent {
+    width: 100%;
+    height: fit-children;
+    flow-children: right;
+}
+
+.HUDFlipped #GridHeaderAndMainContent {
+    flow-children: left;
+}
+
+#GridMainContent {
+    width: fill-parent-flow(1);
+    height: fit-children;
+    flow-children: down;
 }
 
 #MainShopUpgradesHotkeys {
@@ -1218,8 +1349,51 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
     brightness: 2;
 }
 
+#ToggleShopFilter {
+    margin-right: 0px;
+    background-color: #171717;
+    background-image: url("s2r://panorama/images/hud/team_items_toggle_png.vtex");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 2px;
+}
+
+.NewHeroShop #ToggleAdvancedShop {
+    visibility: visible;
+}
+
+#ToggleAdvancedShop {
+    visibility: collapse;
+}
+
 .ShopLarge #ToggleMinimalShop {
     background-image: url("s2r://panorama/images/hud/shop_hud_layout_grid_png.vtex");
+}
+
+#BuybackProtection {
+    width: 30px;
+    height: 30px;
+    vertical-align: center;
+    tooltip-position: top;
+    background-image: url("s2r://panorama/images/hud/buyback_protection_off_png.vtex");
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.05s;
+    transition-property: transform, brightness;
+}
+
+#BuybackProtection:hover {
+    brightness: 1.5;
+}
+
+#BuybackProtection:active {
+    transform: translateY(1px);
+    brightness: 0.6;
+}
+
+.BuybackProtectionEnabled #BuybackProtection {
+    background-image: url("s2r://panorama/images/hud/buyback_protection_on_png.vtex");
 }
 
 .AllNeutralItems {
@@ -1244,21 +1418,89 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
 }
 
 #GridNeutralItems {
+    width: 100%;
     flow-children: down;
     horizontal-align: center;
-    margin-top: 4px;
+    margin-top: -1px;
 }
 
 .NeutralItemsTier {
-    max-width: 350px;
-    flow-children: down;
-    margin-top: 2px;
+    flow-children: right;
+    width: 100%;
+    padding: 8px 8px;
+    padding-right: 5px;
+    border-brush: gradient(linear, 0% 0%, 100% 0%, from(rgba(255, 255, 255, 1)), to(rgba(255, 255, 255, 0)));
+}
+
+.NeutralItemsTier.NeutralTier1 {
+    border-top: 1px solid NeutralTier1&11;
+    background-color: gradient(
+        radial,
+        0% 0%,
+        0% 0%,
+        100% 100%,
+        from(NeutralTier1&09),
+        color-stop(0.5, NeutralTier1&04),
+        to(NeutralTier1&00)
+    );
+}
+
+.NeutralItemsTier.NeutralTier2 {
+    border-top: 1px solid NeutralTier2&11;
+    background-color: gradient(
+        radial,
+        0% 0%,
+        0% 0%,
+        100% 100%,
+        from(NeutralTier2&09),
+        color-stop(0.5, NeutralTier2&04),
+        to(NeutralTier2&00)
+    );
+}
+
+.NeutralItemsTier.NeutralTier3 {
+    border-top: 1px solid NeutralTier3&11;
+    background-color: gradient(
+        radial,
+        0% 0%,
+        0% 0%,
+        100% 100%,
+        from(NeutralTier3&09),
+        color-stop(0.5, NeutralTier3&04),
+        to(NeutralTier3&00)
+    );
+}
+
+.NeutralItemsTier.NeutralTier4 {
+    border-top: 1px solid NeutralTier4&11;
+    background-color: gradient(
+        radial,
+        0% 0%,
+        0% 0%,
+        100% 100%,
+        from(NeutralTier4&09),
+        color-stop(0.5, NeutralTier4&04),
+        to(NeutralTier4&00)
+    );
+}
+
+.NeutralItemsTier.NeutralTier5 {
+    border-top: 1px solid NeutralTier5&11;
+    background-color: gradient(
+        radial,
+        0% 0%,
+        0% 0%,
+        100% 100%,
+        from(NeutralTier5&09),
+        color-stop(0.5, NeutralTier5&04),
+        to(NeutralTier5&00)
+    );
 }
 
 .NeutralItemsTierHeader {
-    flow-children: right;
-    width: 100%;
-    padding: 0px 2px;
+    flow-children: down;
+    width: 60px;
+    padding: 2px;
 }
 
 .NeutralItemsTierName {
@@ -1273,9 +1515,8 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
-    margin-bottom: 2px;
-    margin-top: 3px;
     color: NeutralTier1;
+    text-shadow: 0px 1px 6px black;
 }
 
 .NeutralTier1 .NeutralItemsTierName {
@@ -1301,11 +1542,10 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
 .NeutralItemsTierTimes {
     text-transform: uppercase;
     font-size: 13px;
-    letter-spacing: 2px;
-    color: #666;
-    margin-bottom: 2px;
-    margin-top: 3px;
-    text-align: right;
+    letter-spacing: 1px;
+    color: LightGrey;
+    margin-top: -2px;
+    text-shadow: 0px 1px 6px black;
 }
 
 .TierActive .NeutralItemsTierTimes {
@@ -1329,30 +1569,39 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
 
 #NeutralItemsList {
     flow-children: right-wrap;
+    width: fill-parent-flow(1);
 }
 
 #NeutralItemsList DOTAShopItem {
-    width: 48px;
+    width: 42px;
     height: width-percentage(72.7%);
-    margin: 2px;
-    saturation: 0.2;
-    brightness: 0.2;
-    transition-property: saturation, brightness;
-    transition-duration: 0.2s;
-    ui-scale: 90%;
+    margin: 3px;
+    ui-scale: 88%;
+    border-radius: 2px;
+    box-shadow: 0px 1px 8px -1px rgba(0, 0, 0, 0.4);
 }
 
-#NeutralItemsList DOTAShopItem.NeutralItemFound {
-    saturation: 1;
-    brightness: 1;
-    border: 1px solid #ccc;
+#NeutralEnhancementsList {
+    flow-children: right-wrap;
+    width: 148px;
+    padding-left: 6px;
+    border-left: 1px solid rgba(255, 255, 255, 0.02);
 }
 
-.HideUndiscoveredNeutralItems #NeutralItemsList DOTAShopItem {
+#NeutralEnhancementsList DOTAShopItem {
+    width: 28px;
+    height: 28px;
+    opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
+    -s2-mix-blend-mode: screen;
+}
+
+.HideUndiscoveredNeutralItems #NeutralItemsList DOTAShopItem,
+.HideUndiscoveredNeutralItems #NeutralEnhancementsList DOTAShopItem {
     visibility: collapse;
 }
 
-.HideUndiscoveredNeutralItems #NeutralItemsList DOTAShopItem.NeutralItemFound {
+.HideUndiscoveredNeutralItems #NeutralItemsList DOTAShopItem.NeutralItemFound,
+.HideUndiscoveredNeutralItems #NeutralEnhancementsList DOTAShopItem.NeutralItemFound {
     visibility: visible;
 }
 
@@ -1360,10 +1609,524 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
     horizontal-align: left;
 }
 
+.NoMadstoneLimit .HideWhenNoMadstoneLimit {
+    visibility: collapse;
+}
+
+.MadstoneExplainationContainer {
+    width: 100%;
+    flow-children: down;
+    margin-top: 10px;
+    visibility: collapse;
+}
+
+.MadstoneExplainationContainer .MadstoneExplainationTitleContainer {
+    flow-children: right;
+    margin-bottom: 4px;
+}
+
+.MadstoneExplainationContainer .MadstoneExplainationTitleContainer .MadstoneIcon {
+    width: 32px;
+    margin-left: -6px;
+    vertical-align: center;
+}
+
+.MadstoneExplainationContainer .MadstoneExplainationTitleContainer .MadstoneTitle {
+    vertical-align: center;
+    margin-left: 6px;
+    font-weight: semi-bold;
+    color: gradient(linear, 0% 0%, 0% 100%, from(#9dfe77), color-stop(0.5, #4bee81), to(#2b6b28));
+    text-shadow: 0px 2px 6px black;
+}
+
+.MadstoneExplainationContainer .MadstoneExplainationTitleContainer .Dash {
+    width: fill-parent-flow(1);
+    height: 1px;
+    background-color: LightGrey;
+    vertical-align: center;
+    margin: 0px 8px;
+    opacity: 0.06;
+}
+
+.MadstoneExplainationContainer .MadstoneExplainationTitleContainer .MadstoneInfoIcon {
+    width: 18px;
+    wash-color: Grey;
+    vertical-align: center;
+}
+
+.MadstoneExplainationContainer .MadstoneDescriptionContainer {
+    flow-children: down;
+    height: fill-parent-flow(1);
+    margin-bottom: 12px;
+    overflow: squish scroll;
+    padding-right: 12px;
+}
+
+.MadstoneExplainationContainer .MadstoneDescriptionContainer .ScrollPanelWrapper {
+    flow-children: down;
+}
+
+.MadstoneExplainationContainer .MadstoneDescriptionContainer .MadstoneDescription {
+    color: LightGrey;
+    text-shadow: 0px 2px 6px black;
+    margin-bottom: 6px;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
 .TeamNeutralItems {
     flow-children: down;
     width: 100%;
-    margin-top: 13px;
+    margin-top: 12px;
+    padding: 0px 24px;
+}
+
+.TeamNeutralItems #CraftingStatusHolder {
+    width: 100%;
+    flow-children: down;
+    horizontal-align: center;
+    height: fill-parent-flow(1);
+}
+
+.TeamNeutralItems #CraftingStatusHolder .CraftingTeam {
+    width: 100%;
+    height: fit-children;
+    flow-children: down;
+    padding: 6px 0px 12px;
+    border-brush: gradient(
+        linear,
+        0% 0%,
+        100% 0%,
+        from(rgba(255, 255, 255, 0)),
+        color-stop(0.5, white),
+        to(rgba(255, 255, 255, 0))
+    );
+}
+
+.TeamNeutralItems #CraftingStatusHolder .CraftingTeam .TeamNameLabel {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    min-width: 50px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 2px 8px black;
+    margin-bottom: -2px;
+}
+
+.TeamNeutralItems #CraftingStatusHolder .CraftingTeam .TeamTimelineHolder {
+    width: 100%;
+    height: fit-children;
+    flow-children: down;
+}
+
+.TeamNeutralItems #CraftingStatusHolder .CraftingTeam.Radiant {
+    border-top: 1px solid winnerGreen&11;
+    background-color: gradient(
+        radial,
+        50% 0%,
+        0% 0%,
+        50% 70%,
+        from(winnerGreen&09),
+        color-stop(0.5, winnerGreen&04),
+        to(winnerGreen&00)
+    );
+}
+
+.TeamNeutralItems #CraftingStatusHolder .CraftingTeam.Radiant .TeamNameLabel {
+    text-shadow: 0px 0px 16px winnerGreen&99;
+}
+
+.TeamNeutralItems #CraftingStatusHolder .CraftingTeam.Dire {
+    border-top: 1px solid loserRed&11;
+    background-color: gradient(
+        radial,
+        50% 0%,
+        0% 0%,
+        50% 70%,
+        from(loserRed&09),
+        color-stop(0.5, loserRed&04),
+        to(loserRed&00)
+    );
+}
+
+.TeamNeutralItems #CraftingStatusHolder .CraftingTeam.Dire .TeamNameLabel {
+    text-shadow: 0px 0px 16px loserRed&99;
+}
+
+.TeamNeutralItems #CraftingStatusHolder.SingleTeam .CraftingTeam {
+    background-color: none;
+    border-top: 0px;
+    padding: 0px;
+}
+
+.TeamNeutralItems #CraftingStatusHolder.SingleTeam .TeamNameLabel {
+    visibility: collapse;
+}
+
+.TeamNeutralItems #CraftingStatusHolder.SingleTeam .MadstoneExplainationContainer {
+    visibility: visible;
+}
+
+.TeamNeutralItems #CraftingStatusHolder .HeroMadstoneTimeline {
+    width: 100%;
+    flow-children: right;
+    margin: 5px 0px;
+    margin-right: 16px;
+}
+
+.TeamNeutralItems #CraftingStatusHolder .HeroMadstoneTimeline #HeroImage {
+    horizontal-align: center;
+    vertical-align: center;
+    height: 26px;
+    width: 26px;
+    margin-right: 8px;
+    img-shadow: 0px 2px 12px black;
+}
+
+.TeamNeutralItems #CraftingStatusHolder .HeroMadstoneTimeline .TimelineHolder {
+    width: 100%;
+    flow-children: down;
+    vertical-align: center;
+}
+
+.TeamNeutralItems #CraftingStatusHolder .HeroMadstoneTimeline .TimelineHolder .TimelineUpper {
+    height: 40px;
+    width: 100%;
+    visibility: collapse;
+}
+
+.TeamNeutralItems #CraftingStatusHolder .HeroMadstoneTimeline .TimelineHolder .TimelineLower {
+    height: 26px;
+    flow-children: right;
+}
+
+.TeamNeutralItems #CraftingStatusHolder .HeroMadstoneTimeline .TimelineHolder .TimelineLower .TimelineBackground {
+    width: fill-parent-flow(1);
+    height: 5px;
+    border: 1px solid black;
+    vertical-align: center;
+    border-radius: 3px;
+    background-color: black;
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.01);
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground.NeutralTier1 {
+    width: fill-parent-flow(0.5);
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground
+    ProgressBar {
+    border-radius: 0px;
+    height: 100%;
+    overflow: clip;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground
+    ProgressBar
+    .ProgressBarRight {
+    opacity: 0.1;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground.NeutralTier1
+    .ProgressBarLeft {
+    background-color: NeutralTier1;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground.NeutralTier1
+    .ProgressBarRight {
+    background-color: NeutralTier1;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground.NeutralTier2
+    .ProgressBarLeft {
+    background-color: NeutralTier2;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground.NeutralTier2
+    .ProgressBarRight {
+    background-color: NeutralTier2;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground.NeutralTier3
+    .ProgressBarLeft {
+    background-color: NeutralTier3;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground.NeutralTier3
+    .ProgressBarRight {
+    background-color: NeutralTier3;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground.NeutralTier4
+    .ProgressBarLeft {
+    background-color: NeutralTier4;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground.NeutralTier4
+    .ProgressBarRight {
+    background-color: NeutralTier4;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground.NeutralTier5
+    .ProgressBarLeft {
+    background-color: NeutralTier5;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineBackground.NeutralTier5
+    .ProgressBarRight {
+    background-color: NeutralTier5;
+}
+
+.TeamNeutralItems #CraftingStatusHolder .HeroMadstoneTimeline .TimelineHolder .TimelineLower .TimelineLowerPip {
+    height: 8px;
+    width: 8px;
+    margin-left: -4px;
+    margin-right: -4px;
+    border-radius: 50%;
+    z-index: 2;
+    vertical-align: center;
+    border: 1px solid #ffffff71;
+    background-color: #000;
+    box-shadow: 0px 2px 16px -1px rgba(0, 0, 0, 0.3);
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.NeutralTier1 {
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(NeutralTier1), to(NeutralTier1_Low));
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.NeutralTier2 {
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(NeutralTier2), to(NeutralTier2_Low));
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.NeutralTier3 {
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(NeutralTier3), to(NeutralTier3_Low));
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.NeutralTier4 {
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(NeutralTier4), to(NeutralTier4_Low));
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.NeutralTier5 {
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(NeutralTier5), to(NeutralTier5_Low));
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.NeutralTier1.CraftingAvailable:not(.HasCraftedChoice) {
+    background-color: gradient(linear, 0% 50%, 0% 100%, from(NeutralTier1), to(NeutralTier1_Low));
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.NeutralTier2.CraftingAvailable:not(.HasCraftedChoice) {
+    background-color: gradient(linear, 0% 50%, 0% 100%, from(NeutralTier2), to(NeutralTier2_Low));
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.NeutralTier3.CraftingAvailable:not(.HasCraftedChoice) {
+    background-color: gradient(linear, 0% 50%, 0% 100%, from(NeutralTier3), to(NeutralTier3_Low));
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.NeutralTier4.CraftingAvailable:not(.HasCraftedChoice) {
+    background-color: gradient(linear, 0% 50%, 0% 100%, from(NeutralTier4), to(NeutralTier4_Low));
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.NeutralTier5.CraftingAvailable:not(.HasCraftedChoice) {
+    background-color: gradient(linear, 0% 50%, 0% 100%, from(NeutralTier5), to(NeutralTier5_Low));
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.CraftingAvailable:not(.HasCraftedChoice) {
+    border-color: none;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 1);
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip
+    #TimelinePipItem {
+    height: 130%;
+    width: 130%;
+    overflow: noclip;
+    horizontal-align: center;
+    vertical-align: center;
+    visibility: collapse;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.HasCraftedChoice {
+    border: 0.8px solid #ffffff;
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(white), to(rgb(146, 149, 153)));
+    height: 26px;
+    width: 26px;
+    margin-left: -13px;
+    margin-right: -13px;
+}
+
+.TeamNeutralItems
+    #CraftingStatusHolder
+    .HeroMadstoneTimeline
+    .TimelineHolder
+    .TimelineLower
+    .TimelineLowerPip.HasCraftedChoice
+    #TimelinePipItem {
+    visibility: visible;
+}
+
+.TeamNeutralItems #MadstoneLimitsHolder {
+    height: 210px;
+    width: fit-children;
+    flow-children: down-wrap;
+    horizontal-align: center;
+}
+
+.TeamNeutralItems #MadstoneLimitsHolder .HeroMadstoneStatus {
+    height: 40px;
+    width: 150px;
+    flow-children: right;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.TeamNeutralItems #MadstoneLimitsHolder .HeroMadstoneStatus #HeroImage {
+    vertical-align: center;
+    margin-right: 4px;
+}
+
+.TeamNeutralItems #MadstoneLimitsHolder .HeroMadstoneStatus .MadstoneStatusBar {
+    width: fill-parent-flow(1);
+    vertical-align: center;
+}
+
+.TeamNeutralItems #MadstoneLimitsHolder .HeroMadstoneStatus .MadstoneStatusBar #MadstoneStatusProgressBar {
+    width: 100%;
+}
+
+.TeamNeutralItems #MadstoneLimitsHolder .HeroMadstoneStatus .MadstoneStatusBar Label {
+    horizontal-align: center;
 }
 
 .TeamNeutralItems .TeamNeutralTokensTitle,
@@ -1674,7 +2437,24 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
 }
 
 .ShowAllNeutralItems .NeutralItemsToggleButton {
-    padding: 2px 6px 2px 6px;
+    margin-top: 8px;
+}
+
+.NeutralItemsHeader {
+    flow-children: right;
+    width: 100%;
+    padding: 7px 10px;
+}
+
+.NeutralItemsHeader Label {
+    font-weight: semi-bold;
+    text-shadow: 0px 2px 8px black;
+    width: fill-parent-flow(1);
+    font-size: 14px;
+}
+
+.NeutralItemsHeader Label.Right {
+    text-align: right;
 }
 
 .NeutralItemsToggleButton Label {
@@ -1692,14 +2472,6 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
 
 .NeutralItemsToggleButton:active {
     brightness: 1.5;
-}
-
-.HideCount .NeutralItemsTierTimes,
-.HideCount .NeutralItemsTierCount,
-.HideCount .TeamNeutralItemsTierTimes,
-.HideCount .TeamNeutralItemsTierCount,
-.HideCount .FillWidth {
-    visibility: collapse;
 }
 
 .Clock {
@@ -1724,8 +2496,8 @@ DOTAHUDShop.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #GridRowHotkeys {
 .NewHeroShop #PopularItems,
 .NewHeroShop #ToggleMinimalShop,
 .NewHeroShop #GuideFlyout,
-DOTAHUDShop.ShopOpen.NewHeroShop #GuidesButton,
-.NewHeroShop #GuidesButtonIcon,
+DOTAHUDShop.ShopOpen.NewHeroShop .GuidesButton,
+.NewHeroShop .GuidesButtonIcon,
 .NewHeroShop #GridBasicsTab,
 .NewHeroShop #GridUpgradesTab,
 .NewHeroShop .ShopItemRowContainer {
@@ -1733,7 +2505,7 @@ DOTAHUDShop.ShopOpen.NewHeroShop #GuidesButton,
 }
 
 .NewHeroShop #GridShopHeaders {
-    min-height: 50px;
+    min-height: 30px;
 }
 
 #NewPlayerShopItemContainer {
@@ -2017,4 +2789,274 @@ DOTAHUDShop.ShopOpen.NewHeroShop #GuidesButton,
 #NewPlayerShopSkipButton:hover {
     border: 1px solid #666;
     color: #999;
+}
+
+.NeutralChoiceTitle {
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 0px 2px 12px black;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-family: titleFont;
+    font-weight: semi-bold;
+    text-overflow: shrink;
+    padding-bottom: 6px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.NeutralChoiceSubTitle {
+    width: 100%;
+    text-align: left;
+    color: #888888;
+    text-shadow: 2px 2px 0px 2 black;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+    font-family: titleFont;
+    visibility: collapse;
+}
+
+.CraftingStatusTimeline {
+    width: 100%;
+    flow-children: right;
+    padding-left: 36px;
+    margin-right: -20px;
+    margin-bottom: 6px;
+}
+
+.CraftingStatusTimeline .NeutralTierTimingLabelsContainer {
+    width: fill-parent-flow(1);
+    flow-children: down;
+}
+
+.CraftingStatusTimeline .NeutralTierTimingLabelsContainer Label {
+    horizontal-align: center;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-shadow: 0px 1px 6px black;
+}
+
+.CraftingStatusTimeline .NeutralTierTimingLabelsContainer .TierTimingTitle {
+    font-weight: semi-bold;
+    margin-bottom: -3px;
+}
+
+.CraftingStatusTimeline .NeutralTierTimingLabelsContainer .TierTimingTime {
+    color: LightGrey;
+}
+
+.CraftingStatusTimeline .NeutralTierTimingLabelsContainer.Tier1 .TierTimingTitle {
+    color: NeutralTier1;
+}
+
+.CraftingStatusTimeline .NeutralTierTimingLabelsContainer.Tier2 .TierTimingTitle {
+    color: NeutralTier2;
+}
+
+.CraftingStatusTimeline .NeutralTierTimingLabelsContainer.Tier3 .TierTimingTitle {
+    color: NeutralTier3;
+}
+
+.CraftingStatusTimeline .NeutralTierTimingLabelsContainer.Tier4 .TierTimingTitle {
+    color: NeutralTier4;
+}
+
+.CraftingStatusTimeline .NeutralTierTimingLabelsContainer.Tier5 .TierTimingTitle {
+    color: NeutralTier5;
+}
+
+.HorizontalRule {
+    width: fill-parent-flow(1);
+    background-color: #29353b;
+    height: 1px;
+    vertical-align: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.ShowFilters #Main {
+    width: 512px;
+}
+
+.ShopV2 #Main {
+    width: 800px;
+}
+
+.ShowFilters.ShopV2 #Main {
+    width: 940px;
+}
+
+.ShopV2 #SearchContainer {
+    width: fill-parent-flow(1);
+}
+
+.ShopV2 #GridMainTabs {
+    visibility: collapse;
+}
+
+.ShopV2 #GuidesButton {
+    visibility: collapse;
+}
+
+#GuidesButtonV2 {
+    margin-left: 2px;
+    vertical-align: middle;
+    visibility: collapse;
+}
+
+.ShopV2 #GuidesButtonV2 {
+    visibility: visible;
+}
+
+.ShopV2 #GridShopHeaders {
+    min-height: 0px;
+}
+
+.ShopV2 #GridMainShopContents {
+    visibility: collapse;
+}
+
+#GridMainShopContentsV2 {
+    width: 100%;
+    horizontal-align: center;
+    z-index: 6;
+    visibility: collapse;
+    flow-children: right;
+    height: 590px;
+}
+
+.ShopV2 #GridMainShopContentsV2 {
+    visibility: visible;
+}
+
+#GridBasicItemsV2 {
+    height: 100%;
+}
+
+.ItemContainerV2 {
+    flow-children: down;
+    horizontal-align: center;
+    width: fill-parent-flow(1);
+    height: 100%;
+}
+
+.FilteringItems .ItemContainerV2 {
+    visibility: collapse;
+}
+
+.ItemContainerLabel {
+    color: white;
+    horizontal-align: left;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    vertical-align: center;
+    margin-left: 0px;
+    padding-left: 9px;
+}
+
+.FilterLabel {
+    color: white;
+    horizontal-align: left;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: medium;
+    margin-top: 8px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    visibility: collapse;
+}
+
+#FilterContainer {
+    width: 0;
+    height: 100%;
+    flow-children: down;
+}
+
+.ShowFilters #FilterContainer {
+    width: 110px;
+    border-top: 1px solid white;
+    border-brush: gradient(linear, 0% 80%, 0% 100%, from(#373f4577), to(#373f4500));
+    background-image: url("s2r://panorama/images/hud/reborn/team_items_bg2_png.vtex");
+    background-size: cover;
+}
+
+#TeamItems2 {
+    visibility: collapse;
+}
+
+.ShowFilters #TeamItems2 {
+    visibility: visible;
+}
+
+#ShopFilters {
+    visibility: collapse;
+    width: 100%;
+    height: fit-children;
+    flow-children: down;
+    overflow: squish scroll;
+    padding-right: 12px;
+    padding-top: 1px;
+}
+
+.ItemFilter {
+    border: 1px solid #66666650;
+    border-radius: 3px;
+    padding: 1px;
+    padding-left: 3px;
+    padding-right: 2px;
+    margin-bottom: 3px;
+    margin-left: 2px;
+    flow-children: right;
+}
+
+.ItemFilter:hover {
+    border: 1px solid #66666650;
+    border-radius: 8px;
+    background-color: #e0fcff05;
+}
+
+.ItemFilter Label {
+    font-size: 11px;
+    letter-spacing: 0px;
+    opacity: 0.5;
+    padding-left: 0px;
+    text-shadow: 1px 1px 0px 2 dark;
+}
+
+.ItemFilter.Hidden {
+    visibility: collapse;
+}
+
+.ItemFilter.Active {
+    background-color: #e0fcff30;
+    border: 1px solid #ffffff10;
+    box-shadow: inset #e0fcff20 0px 5px 15px -10px;
+}
+
+.ItemFilter.ItemFilter Label {
+    color: LighterGrey;
+    opacity: 1;
+}
+
+#ShopFilterResults {
+    width: 100%;
+    visibility: collapse;
+}
+
+.FilteringItems #ShopFilterResults {
+    visibility: visible;
+}
+
+.ShopV2 #ShopFilterResults {
+    margin-top: 8px;
 }

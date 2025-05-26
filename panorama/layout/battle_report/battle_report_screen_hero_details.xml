@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -43,7 +43,7 @@
 				<Label class="ShardsValue" text="{d:screen_shards_earned}" />
 			</Panel>
 		</Panel>
-		<Panel class="ScreenMain">
+		<Panel class="ScreenMain" onactivate="StartSkippingReportAhead()">
 			<Panel class="HighlightScreenLeft">
 				<Panel class="HeroModelBackground" />
 				<DOTAUIEconSetPreview id="HeroModel" />

@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -227,7 +227,7 @@
 								<Label id="HistoryWinLoss18" hittest="false" />
 								<Label id="HistoryWinLoss19" hittest="false" />
 							</Panel>
-							<UICanvas id="HeroStatsHistoryCanvas" hittest="false" />
+							<UICanvas id="HeroStatsHistoryCanvas" hittest="false" require-composition-layer="true" />
 						</Panel>
 					</Panel>
 					<Panel class="HeroStatsHistoryContainerLegendContainer">

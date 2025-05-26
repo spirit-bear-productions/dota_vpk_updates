@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 #FlappyMainMenu.MainMenu {
     width: 700px;
@@ -63,6 +63,7 @@
 
 #FlappyMainMenu.MainMenu .RewardsLabel {
     margin-top: 35px;
+    visibility: collapse;
 }
 
 .CircleMask {

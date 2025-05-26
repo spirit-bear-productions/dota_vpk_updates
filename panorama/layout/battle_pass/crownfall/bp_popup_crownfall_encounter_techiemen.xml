@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -22,7 +22,7 @@
 			</Panel>
 		</snippet>
 	</snippets>
-	<Panel class="PopupPanel Techiemen Hidden" popupbackground="dim" oncancel="DOTATechiemenCancelPressed()">
+	<Panel class="PopupPanel Techiemen Hidden" allows_popups="1" popupbackground="dim" oncancel="DOTATechiemenCancelPressed()">
 		<Panel class="MainContents">
 			<Panel class="Body">
 				<DOTACrownfallTechiemenGamePanel id="gamePanel" class="GameBoardContainer">
@@ -139,7 +139,7 @@
 										</Panel>
 										<DelayLoadList id="LeaderListFriends" class="LeaderList" itemwidth="200px" itemheight="26px" />
 									</Panel>
-									<Label class="GoldHeader" text="#DOTA_FightingGame_Menu_Rewards" />
+									<Label class="GoldHeader RewardsLabel" text="#DOTA_FightingGame_Menu_Rewards" />
 									<Panel id="RewardsList" class="RewardsSection" />
 								</Panel>
 								<Panel class="HowToPlaySection">

@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTAGuideBrowser {
     width: 100%;
@@ -78,11 +78,6 @@ DOTAGuideBrowser.Hidden {
     width: 28px;
     height: 28px;
     margin: 0px;
-    visibility: collapse;
-}
-
-#HUDElements #CloseButton {
-    visibility: visible;
 }
 
 .HeaderTopLine {
@@ -116,8 +111,8 @@ DOTAGuideBrowser.Hidden {
 }
 
 .TitleGroupLabel {
-    font-size: 24px;
-    letter-spacing: 1px;
+    font-size: 18px;
+    letter-spacing: 0px;
     margin-right: 3px;
 }
 
@@ -157,7 +152,7 @@ DOTAGuideBrowser.Hidden {
 }
 
 .IsPlusGuide #TitleLabel {
-    color: #d6c37b;
+    color: gradient(linear, 0% 0%, 0% 100%, from(dotaPlusLightGold), to(dotaPlusGold));
 }
 
 #HUDElements #TitleLabel {
@@ -166,11 +161,11 @@ DOTAGuideBrowser.Hidden {
 
 #RatingPercent {
     color: #e1e2e2;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .SubtitleGroup {
-    margin-top: -6px;
+    margin-top: -8px;
     width: 100%;
 }
 
@@ -190,7 +185,7 @@ DOTAGuideBrowser.Hidden {
 
 .SubtitleGroupLabel {
     font-size: 14px;
-    color: #5b6872;
+    color: lightgray;
 }
 
 .SubtitleGroupLabel a {
@@ -293,6 +288,7 @@ DOTAGuideBrowser.Hidden {
     border-style: solid;
     border-width: 1px;
     overflow: clip scroll;
+    ui-scale: 95%;
 }
 
 .IsPlusGuide #TalentDisplay {
@@ -304,8 +300,8 @@ DOTAGuideBrowser.Hidden {
 }
 
 ToggleButton#FavoriteStar {
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
     padding: 0px 0px;
     background-image: url("s2r://panorama/images/control_icons/star_favorite_psd.vtex");
     background-repeat: no-repeat;
@@ -337,6 +333,7 @@ ToggleButton#FavoriteStar:selected:hover {
 
 #GuidePlusAssistant Label {
     color: #be9551;
+    font-size: 16px;
 }
 
 ToggleButton#FavoriteStar .TickBox {

@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTAHudMenuButtons {
     width: 100%;
@@ -77,6 +77,19 @@ DOTAHudMenuButtons Button:active {
     background-image: url("s2r://panorama/images/control_icons/gear_png.vtex");
     background-size: 27px;
     margin-top: 2px;
+    visibility: collapse;
+}
+
+#SettingsButton.ActiveSettingsButton {
+    visibility: visible;
+}
+
+#SettingsRebornButton {
+    background-image: url("s2r://panorama/images/control_icons/24px/settings.vsvg");
+    background-size: 27px;
+    margin-top: 2px;
+    background-texture-size: 48px;
+    visibility: visible;
 }
 
 #GuideButton {

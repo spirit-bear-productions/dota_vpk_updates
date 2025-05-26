@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -8,7 +8,7 @@
 		<include src="s2r://panorama/styles/custom_ui.vcss_c" />
 	</styles>
 	<DOTAScoreboard class="ScoreboardClosed" hittest="false">
-		<Panel id="Background" hittest="false" class="TopBottomFlow">
+		<Panel id="Background" hittest="false" class="TopBottomFlow" require-composition-layer="true" always-cache-composition-layer="true">
 			<Panel id="RadiantHeader" class="ScoreboardHeader">
 				<Label id="RadiantScoreLabel" class="ScoreColumn" text="{d:radiant_score}" require-composition-layer="true" always-cache-composition-layer="true" />
 				<Label id="RadiantTeamLabel" class="NameColumn" text="#DOTA_GoodGuysCaps" require-composition-layer="true" always-cache-composition-layer="true" />

@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 @define baseText: #A5ADA2ff;
 @define baseBorder: #444444ff;
@@ -421,6 +421,255 @@ TextEntry.MonoFont {
     text-transform: uppercase;
 }
 
+@define LightestGrey: #DAE2E5;
+@define LighterGrey: #B0BCC2;
+@define LightGrey: #8B989E;
+@define Grey: #6B7980;
+@define DarkGrey: #49565C;
+@define DarkerGrey: #2D3438;
+@define DarkestGrey: #0D0F12;
+.WhiteText {
+    color: whitesmoke;
+}
+
+.LightestGreyText {
+    color: LightestGrey;
+}
+
+.LighterGreyText {
+    color: LighterGrey;
+}
+
+.LightGreyText {
+    color: LightGrey;
+}
+
+.GreyText {
+    color: Grey;
+}
+
+.DarkGreyText {
+    color: DarkGrey;
+}
+
+.DarkerGreyText {
+    color: DarkerGrey;
+}
+
+.DarkestGreyText {
+    color: DarkestGrey;
+}
+
+.LightGoldText {
+    color: dotaPlusLightGold;
+}
+
+.Opacity_80 {
+    opacity: 0.8;
+}
+
+.Opacity_60 {
+    opacity: 0.6;
+}
+
+.Opacity_50 {
+    opacity: 0.5;
+}
+
+.Opacity_40 {
+    opacity: 0.4;
+}
+
+.Opacity_20 {
+    opacity: 0.2;
+}
+
+@define GreenGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #5AA15E ), to( #406C55 ) );
+@define GreenGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #406C55 ), to( #5AA15E ) );
+@define BlueGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #3782A4 ), to( #235777 ) );
+@define BlueGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #235777 ), to( #3782A4 ) );
+@define PurpleGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #2d4f86 ), to( #1b355e ) );
+@define PurpleGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #1b355e ), to( #2d4f86 ) );
+@define OrangeGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #a35234 ), to( #713a25 ) );
+@define OrangeGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #713a25 ), to( #a35234 ) );
+@define YellowGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #E9BA52 ), to( #A67D2A ) );
+@define YellowGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #A67D2A ), to( #E9BA52 ) );
+@define GoldGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #ffebb1 ), color-stop( 0.45, #c6a562 ), color-stop( 0.55, #ae9259 ), to( #dcb870 ) );
+@define GoldGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #dcb870 ), color-stop( 0.45, #ae9259 ), color-stop( 0.55, #c6a562 ), to( #ffebb1 ) );
+@define RubyGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #DA5E4D ), color-stop( 0.45, #88392E ), color-stop( 0.55, #70271D ), to( #3F1611 ) );
+@define RubyGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #3F1611 ), color-stop( 0.45, #70271D ), color-stop( 0.55, #88392E ), to( #DA5E4D ) );
+@define PlatinumGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #F4E6D0 ), color-stop( 0.45, #D1B992 ), color-stop( 0.55, #9D937F ), to( #D1B992 ) );
+@define PlatinumGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #D1B992 ), color-stop( 0.45, #9D937F ), color-stop( 0.55, #D1B992 ), to( #F4E6D0 ) );
+@define ShardsGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #433620 ), to( #141b21 ) );
+@define ShardsGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #141b21 ), to( #433620 ) );
+@define DarkGreyGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #262C30 ), to( #121719 ) );
+@define DarkGreyGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #121719 ), to( #262C30 ) );
+@define GreyGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #373F43 ), to( #21272A ) );
+@define GreyGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #21272A ), to( #373F43 ) );
+@define LightGreyGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #525F65 ), to( #2F363A ) );
+@define LightGreyGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #2F363A ), to( #525F65 ) );
+@define LighterGreyGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #7C8B92 ), to( #4B555A ) );
+@define LighterGreyGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #4B555A ), to( #7C8B92 ) );
+@define WhiteGradientBorderSoft: gradient( linear, 0% 0%, 0% 100%, from( #FFFFFF08 ), to( #FFFFFF03 ) );
+@define WhiteGradientBorderMedium: gradient( linear, 0% 0%, 0% 100%, from( #FFFFFF20 ), to( #FFFFFF06 ) );
+@define WhiteGradientBorderStrong: gradient( linear, 0% 0%, 0% 100%, from( #FFFFFF40 ), to( #FFFFFF08 ) );
+.DarkGreyPanel {
+    background-color: gradient(radial, 0% 0%, 0% 0%, 100% 100%, from(#181d25), to(#050609));
+    border: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.BodyExtraLarge {
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.BodyLarge {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.BodyMedium {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.BodySmall {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.BodyTitleExtraLarge,
+.BodyTitleLarge,
+.BodyTitleMedium,
+.BodyTitleSmall {
+    font-family: titleFont;
+}
+
+.BodyTitleExtraLarge {
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.BodyTitleLarge {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.BodyTitleMedium {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.BodyTitleSmall {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.TitleExtraLarge,
+.TitleLarge,
+.TitleMedium,
+.TitleSmall {
+    font-family: titleFont;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.TitleExtraLarge {
+    font-size: 52px;
+    line-height: 1.1;
+}
+
+.TitleLarge {
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+.TitleMedium {
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.TitleSmall {
+    font-size: 17px;
+    line-height: 1.2;
+}
+
+.DisplayExtraLarge,
+.DisplayLarge,
+.DisplayMedium,
+.DisplaySmall {
+    font-family: titleFont;
+}
+
+.DisplayExtraLarge {
+    font-size: 40px;
+}
+
+.DisplayLarge {
+    font-size: 32px;
+}
+
+.DisplayMedium {
+    font-size: 26px;
+}
+
+.DisplaySmall {
+    font-size: 22px;
+}
+
+.LabelExtraExtraLarge,
+.LabelExtraLarge,
+.LabelLarge,
+.LabelMedium,
+.LabelSmall {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.LabelExtraExtraLarge {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: semi-bold;
+    letter-spacing: 1.5px;
+}
+
+.LabelExtraLarge {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: semi-bold;
+    letter-spacing: 1.5px;
+}
+
+.LabelLarge {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: semi-bold;
+    letter-spacing: 1.5px;
+}
+
+.LabelMedium {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.LabelSmall {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.TextShadowSmall {
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.TextShadowMedium {
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.TextShadowLarge {
+    text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.6);
+}
+
 DropDown,
 DOTASettingsEnumDropDown {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#292e2e), to(#191e1e));
@@ -747,7 +996,7 @@ pre {
 }
 
 Label {
-    color: baseText;
+    color: LighterGrey;
     font-size: 18px;
 }
 
@@ -804,10 +1053,9 @@ ToggleButton Label,
 CycleButton Label,
 DOTASettingsCheckbox Label {
     margin-left: 8px;
-    color: baseText;
     font-size: 18px;
     line-height: 24px;
-    letter-spacing: 0.05px;
+    letter-spacing: 0.3px;
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: linear;
@@ -822,7 +1070,7 @@ DOTASettingsCheckbox:enabled:hover Label {
 ToggleButton:selected Label,
 ToggleButton:selected Label,
 DOTASettingsCheckbox:selected Label {
-    color: white;
+    color: whitesmoke;
 }
 
 ToggleButton:disabled Label,
@@ -925,7 +1173,7 @@ RadioButton:enabled:selected:hover > .RadioBox {
 }
 
 RadioButton > Label {
-    color: baseText;
+    color: LighterGrey;
     margin-left: 4px;
     transition-property: color;
     transition-duration: 0.2s;
@@ -934,18 +1182,18 @@ RadioButton > Label {
 
 DOTASettingsEnum RadioButton > Label {
     font-size: 18px;
-    color: #7d8688;
+    color: LightGrey;
 }
 
 RadioButton:selected > Label {
-    color: white;
+    color: whitesmoke;
     transition-property: color, text-shadow;
     transition-duration: 0.2s;
     transition-timing-function: linear;
 }
 
 RadioButton:enabled:hover > Label {
-    color: white;
+    color: whitesmoke;
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: linear;
@@ -2870,7 +3118,8 @@ a.ItemQuality_unusual.ItemQualityColor:hover {
 .InfoIcon {
     width: 18px;
     height: 18px;
-    background-image: url("s2r://panorama/images/status_icons/information_psd.vtex");
+    background-image: url("s2r://panorama/images/control_icons/24px/info.vsvg");
+    background-texture-size: 48px 48px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -5006,28 +5255,40 @@ DOTAHeroMovie {
     background-image: url("s2r://panorama/images/hero_badges/hero_badge_rank_5_tiny_png.vtex");
 }
 
+@define BronzeTierColorDark: #97472A;
+@define BronzeTierColorLight: #CF9F68;
+@define SilverTierColorDark: #59748A;
+@define SilverTierColorLight: #C8E9FF;
+@define GoldTierColorDark: #ae9249;
+@define GoldTierColorLight: #e0c59a;
+@define PlatinumTierColorDark: #4867C5;
+@define PlatinumTierColorLight: #85D4EF;
+@define MasterTierColorDark: #48165E;
+@define MasterTierColorLight: #918BD0;
+@define GrandmasterTierColorDark: #4b141d;
+@define GrandmasterTierColorLight: #fe8650;
 .BronzeTier .ProgressBarLeft {
-    background-color: gradient(linear, 0% 0%, 100% 0%, from(#97472a), to(#cf9f68));
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(BronzeTierColorDark), to(BronzeTierColorLight));
 }
 
 .SilverTier .ProgressBarLeft {
-    background-color: gradient(linear, 0% 0%, 100% 0%, from(#59748a), to(#c8e9ff));
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(SilverTierColorDark), to(SilverTierColorLight));
 }
 
 .GoldTier .ProgressBarLeft {
-    background-color: gradient(linear, 0% 0%, 100% 0%, from(#ae9249), to(#e0c59a));
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(GoldTierColorDark), to(GoldTierColorLight));
 }
 
 .PlatinumTier .ProgressBarLeft {
-    background-color: gradient(linear, 0% 0%, 100% 0%, from(#4867c5), to(#85d4ef));
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(PlatinumTierColorDark), to(PlatinumTierColorLight));
 }
 
 .MasterTier .ProgressBarLeft {
-    background-color: gradient(linear, 0% 0%, 100% 0%, from(#48165e), to(#918bd0));
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(MasterTierColorDark), to(MasterTierColorLight));
 }
 
 .GrandmasterTier .ProgressBarLeft {
-    background-color: gradient(linear, 0% 0%, 100% 0%, from(#4b141d), to(#fe8650));
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(GrandmasterTierColorDark), to(GrandmasterTierColorLight));
 }
 
 @define PhysicalDamageColor: #ae2f28;
@@ -5263,6 +5524,11 @@ DOTAHeroMovie {
 @define NeutralTier3: #7F93FC;
 @define NeutralTier4: #D57BFF;
 @define NeutralTier5: #FFE195;
+@define NeutralTier1_Low: #8B8B8B;
+@define NeutralTier2_Low: #5FB14B;
+@define NeutralTier3_Low: #4C60C9;
+@define NeutralTier4_Low: #A248CC;
+@define NeutralTier5_Low: #CCAE62;
 AsyncDataPanel > .AsyncContainer {
     width: 100%;
     height: 100%;
@@ -5557,6 +5823,124 @@ a.PurchasePlusLink {
     padding: 12px;
 }
 
+.DOTAViolator {
+    overflow: noclip;
+    width: 8px;
+    height: 8px;
+}
+
+.DOTAViolator .DOTAViolatorOuter {
+    horizontal-align: center;
+    vertical-align: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #ff9d00;
+    box-shadow: 0px 0px 16px #ff6a0022;
+    animation-name: PulseViolatorOuterSettings;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.DOTAViolator .DOTAViolatorInner {
+    horizontal-align: center;
+    vertical-align: center;
+    width: 8px;
+    height: 8px;
+    background-color: #ff9d00;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 0px 16px #ff6a0022;
+    animation-name: PulseViolatorInner;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.DOTAViolator.SettingsViolator {
+    visibility: collapse;
+}
+
+.DOTAViolator.SettingsViolator .DOTAViolatorOuter {
+    border: 2px solid #3aa347;
+    box-shadow: 0px 0px 16px #3aa34722;
+    animation-name: PulseViolatorOuterSettings;
+}
+
+.DOTAViolator.SettingsViolator .DOTAViolatorInner {
+    background-color: #3aa347;
+    box-shadow: 0px 0px 16px #3aa34722;
+}
+
+.DOTAViolator.SettingsViolator.ShowNewSettingsViolator {
+    visibility: visible;
+}
+
+.DOTAViolator.AutoDeliverViolator .DOTAViolatorOuter {
+    border: 2px solid #3aa347;
+    box-shadow: 0px 0px 16px #3aa34722;
+    animation-name: PulseViolatorOuterSettings;
+}
+
+.DOTAViolator.AutoDeliverViolator .DOTAViolatorInner {
+    background-color: #3aa347;
+    box-shadow: 0px 0px 16px #3aa34722;
+}
+
+.DOTAViolator.AutoDeliverViolator.Acknowledged {
+    visibility: collapse;
+}
+
+@keyframes 'PulseViolatorInner' {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    20% {
+        transform: scale3d(1.5, 1.5, 1);
+        brightness: 3;
+    }
+
+    70% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes 'PulseViolatorOuter' {
+    0% {
+        transform: scale3d(0.3, 0.3, 1);
+        opacity: 1;
+        box-shadow: 0px 0px 16px #ff6a0022;
+    }
+
+    40% {
+        transform: scale3d(1, 1, 1);
+        opacity: 0;
+        box-shadow: 0px 0px 16px #ff6a0000;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes 'PulseViolatorOuterSettings' {
+    0% {
+        transform: scale3d(0.3, 0.3, 1);
+        opacity: 1;
+        box-shadow: 0px 0px 16px #3aa34722;
+    }
+
+    40% {
+        transform: scale3d(1, 1, 1);
+        opacity: 0;
+        box-shadow: 0px 0px 16px #3aa34700;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 .RewardsTier.BronzeTier {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#a84d0022), color-stop(0.5, #a84d0000), to(#a84d0000));
     border-top: 2px solid #a84d00;
@@ -5633,255 +6017,6 @@ a.PurchasePlusLink {
 
 .GrandmasterTier .TierName {
     color: #e01232;
-}
-
-@define LightestGrey: #DAE2E5;
-@define LighterGrey: #B0BCC2;
-@define LightGrey: #8B989E;
-@define Grey: #6B7980;
-@define DarkGrey: #49565C;
-@define DarkerGrey: #2D3438;
-@define DarkestGrey: #0D0F12;
-.WhiteText {
-    color: whitesmoke;
-}
-
-.LightestGreyText {
-    color: LightestGrey;
-}
-
-.LighterGreyText {
-    color: LighterGrey;
-}
-
-.LightGreyText {
-    color: LightGrey;
-}
-
-.GreyText {
-    color: Grey;
-}
-
-.DarkGreyText {
-    color: DarkGrey;
-}
-
-.DarkerGreyText {
-    color: DarkerGrey;
-}
-
-.DarkestGreyText {
-    color: DarkestGrey;
-}
-
-.LightGoldText {
-    color: dotaPlusLightGold;
-}
-
-.Opacity_80 {
-    opacity: 0.8;
-}
-
-.Opacity_60 {
-    opacity: 0.6;
-}
-
-.Opacity_50 {
-    opacity: 0.5;
-}
-
-.Opacity_40 {
-    opacity: 0.4;
-}
-
-.Opacity_20 {
-    opacity: 0.2;
-}
-
-@define GreenGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #5AA15E ), to( #406C55 ) );
-@define GreenGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #406C55 ), to( #5AA15E ) );
-@define BlueGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #3782A4 ), to( #235777 ) );
-@define BlueGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #235777 ), to( #3782A4 ) );
-@define PurpleGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #2d4f86 ), to( #1b355e ) );
-@define PurpleGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #1b355e ), to( #2d4f86 ) );
-@define OrangeGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #a35234 ), to( #713a25 ) );
-@define OrangeGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #713a25 ), to( #a35234 ) );
-@define YellowGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #E9BA52 ), to( #A67D2A ) );
-@define YellowGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #A67D2A ), to( #E9BA52 ) );
-@define GoldGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #ffebb1 ), color-stop( 0.45, #c6a562 ), color-stop( 0.55, #ae9259 ), to( #dcb870 ) );
-@define GoldGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #dcb870 ), color-stop( 0.45, #ae9259 ), color-stop( 0.55, #c6a562 ), to( #ffebb1 ) );
-@define RubyGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #DA5E4D ), color-stop( 0.45, #88392E ), color-stop( 0.55, #70271D ), to( #3F1611 ) );
-@define RubyGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #3F1611 ), color-stop( 0.45, #70271D ), color-stop( 0.55, #88392E ), to( #DA5E4D ) );
-@define PlatinumGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #F4E6D0 ), color-stop( 0.45, #D1B992 ), color-stop( 0.55, #9D937F ), to( #D1B992 ) );
-@define PlatinumGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #D1B992 ), color-stop( 0.45, #9D937F ), color-stop( 0.55, #D1B992 ), to( #F4E6D0 ) );
-@define ShardsGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #433620 ), to( #141b21 ) );
-@define ShardsGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #141b21 ), to( #433620 ) );
-@define DarkGreyGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #262C30 ), to( #121719 ) );
-@define DarkGreyGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #121719 ), to( #262C30 ) );
-@define GreyGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #373F43 ), to( #21272A ) );
-@define GreyGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #21272A ), to( #373F43 ) );
-@define LightGreyGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #525F65 ), to( #2F363A ) );
-@define LightGreyGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #2F363A ), to( #525F65 ) );
-@define LighterGreyGradientBackgroundColor: gradient( linear, 0% 0%, 0% 100%, from( #7C8B92 ), to( #4B555A ) );
-@define LighterGreyGradientBackgroundColor_Inverted: gradient( linear, 0% 0%, 0% 100%, from( #4B555A ), to( #7C8B92 ) );
-@define WhiteGradientBorderSoft: gradient( linear, 0% 0%, 0% 100%, from( #FFFFFF08 ), to( #FFFFFF03 ) );
-@define WhiteGradientBorderMedium: gradient( linear, 0% 0%, 0% 100%, from( #FFFFFF20 ), to( #FFFFFF06 ) );
-@define WhiteGradientBorderStrong: gradient( linear, 0% 0%, 0% 100%, from( #FFFFFF40 ), to( #FFFFFF08 ) );
-.DarkGreyPanel {
-    background-color: gradient(radial, 0% 0%, 0% 0%, 100% 100%, from(#181d25), to(#050609));
-    border: 1px solid rgba(255, 255, 255, 0.02);
-}
-
-.BodyExtraLarge {
-    font-size: 26px;
-    line-height: 32px;
-}
-
-.BodyLarge {
-    font-size: 22px;
-    line-height: 26px;
-}
-
-.BodyMedium {
-    font-size: 18px;
-    line-height: 24px;
-}
-
-.BodySmall {
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.BodyTitleExtraLarge,
-.BodyTitleLarge,
-.BodyTitleMedium,
-.BodyTitleSmall {
-    font-family: titleFont;
-}
-
-.BodyTitleExtraLarge {
-    font-size: 26px;
-    line-height: 32px;
-}
-
-.BodyTitleLarge {
-    font-size: 22px;
-    line-height: 26px;
-}
-
-.BodyTitleMedium {
-    font-size: 18px;
-    line-height: 24px;
-}
-
-.BodyTitleSmall {
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.TitleExtraLarge,
-.TitleLarge,
-.TitleMedium,
-.TitleSmall {
-    font-family: titleFont;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-}
-
-.TitleExtraLarge {
-    font-size: 52px;
-    line-height: 1.1;
-}
-
-.TitleLarge {
-    font-size: 38px;
-    line-height: 1.2;
-}
-
-.TitleMedium {
-    font-size: 26px;
-    line-height: 1.2;
-}
-
-.TitleSmall {
-    font-size: 17px;
-    line-height: 1.2;
-}
-
-.DisplayExtraLarge,
-.DisplayLarge,
-.DisplayMedium,
-.DisplaySmall {
-    font-family: titleFont;
-}
-
-.DisplayExtraLarge {
-    font-size: 40px;
-}
-
-.DisplayLarge {
-    font-size: 32px;
-}
-
-.DisplayMedium {
-    font-size: 26px;
-}
-
-.DisplaySmall {
-    font-size: 22px;
-}
-
-.LabelExtraExtraLarge,
-.LabelExtraLarge,
-.LabelLarge,
-.LabelMedium,
-.LabelSmall {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.LabelExtraExtraLarge {
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: semi-bold;
-    letter-spacing: 1.5px;
-}
-
-.LabelExtraLarge {
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: semi-bold;
-    letter-spacing: 1.5px;
-}
-
-.LabelLarge {
-    font-size: 19px;
-    line-height: 24px;
-    font-weight: semi-bold;
-    letter-spacing: 1.5px;
-}
-
-.LabelMedium {
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.LabelSmall {
-    font-size: 13px;
-    line-height: 16px;
-}
-
-.TextShadowSmall {
-    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
-}
-
-.TextShadowMedium {
-    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
-}
-
-.TextShadowLarge {
-    text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.6);
 }
 
 .ButtonPrimary {
@@ -6035,6 +6170,33 @@ a.PurchasePlusLink {
 
 .ButtonPrimary.Blue:active:enabled:not(.Disabled) {
     background-color: BlueGradientBackgroundColor_Inverted;
+}
+
+.ButtonPrimary.Pink {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#8d3086), to(#48245c));
+    border-brush: WhiteGradientBorderSoft;
+}
+
+.ButtonPrimary.Pink:active:enabled:not(.Disabled) {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#48245c), to(#8d3086));
+}
+
+.ButtonPrimary.LightBlue {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#3598c3), to(#25245c));
+    border-brush: WhiteGradientBorderMedium;
+}
+
+.ButtonPrimary.LightBlue:active:enabled:not(.Disabled) {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#25245c), to(#3598c3));
+}
+
+.ButtonPrimary.Teal {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#41c99e), to(#1c6762));
+    border-brush: WhiteGradientBorderStrong;
+}
+
+.ButtonPrimary.Teal:active:enabled:not(.Disabled) {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#1c6762), to(#41c99e));
 }
 
 .ButtonPrimary.TI23Blue {
@@ -6393,7 +6555,7 @@ a.PurchasePlusLink {
 
 @keyframes 'GlowTextBright' {
     100% {
-        text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.1);
+        text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.1);
         brightness: 1;
     }
 
@@ -6896,6 +7058,82 @@ ProgressBarWithMiddle.AnimatedArrowProgressBar.ScrollLeft .ProgressBarMiddle .Pr
 
 .facet_icon_xp #FacetIcon {
     background-image: url("s2r://panorama/images/hud/facets/icons/xp_png.vtex");
+}
+
+.facet_icon_web #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/web_png.vtex");
+}
+
+.facet_icon_aghs #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/aghs_png.vtex");
+}
+
+.facet_icon_rune #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/rune_png.vtex");
+}
+
+.facet_icon_full_heart #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/full_heart_png.vtex");
+}
+
+.facet_icon_invoker_quas #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/invoker_quas_png.vtex");
+}
+
+.facet_icon_invoker_wex #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/invoker_wex_png.vtex");
+}
+
+.facet_icon_invoker_exort #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/invoker_exort_png.vtex");
+}
+
+.facet_icon_empower #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/empower_png.vtex");
+}
+
+.facet_icon_whoopee_cushion #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/whoopee_cushion_png.vtex");
+}
+
+.facet_icon_pie #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/pie_png.vtex");
+}
+
+.facet_icon_tower #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/tower_png.vtex");
+}
+
+.facet_icon_bubbles #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/bubbles_png.vtex");
+}
+
+.facet_icon_execute #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/execute_png.vtex");
+}
+
+.facet_icon_kez_flutter #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/kez_flutter_png.vtex");
+}
+
+.facet_icon_kez_shadowhawk #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/kez_shadowhawk_png.vtex");
+}
+
+.facet_icon_phantom_lance #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/phantom_lance_png.vtex");
+}
+
+.facet_icon_phantom_ass_dagger #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/phantom_ass_dagger_png.vtex");
+}
+
+.facet_icon_skull #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/skull_png.vtex");
+}
+
+.facet_icon_no_facet #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/no_facet_png.vtex");
 }
 
 .facet_color_red_0 .FacetBackgroundTexture {

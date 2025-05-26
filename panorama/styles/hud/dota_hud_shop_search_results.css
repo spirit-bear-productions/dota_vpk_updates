@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTAHUDShopSearchResults {
     flow-children: down;
@@ -19,6 +19,10 @@ DOTAHUDShopSearchResults #SearchResultsTitle {
 
 #SearchResultsContents VerticalScrollBar .ScrollThumb {
     background-color: #2c343c;
+}
+
+#SearchResultsContents.Empty {
+    visibility: collapse;
 }
 
 #SearchResultsStatToggles {

@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -11,6 +11,7 @@
 			<Panel class="Contents">
 				<Panel class="VisualNovelBackground" />
 				<Panel class="BodyContainer">
+					<Label class="NotAvailable LabelLarge" text="#DOTA_Crownfall_EncounterName_WaterWheel_NotAvailable" />
 					<Panel class="Tokens" id="Tokens" />
 					<AsyncDataPanel class="Actions" state="{d:encounter_state}">
 						<Panel class="AsyncSuccessContainer">

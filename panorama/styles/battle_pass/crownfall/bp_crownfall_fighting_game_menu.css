@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTAFightingGameMenu {
     width: 100%;
@@ -1668,12 +1668,17 @@ DOTAFightingGameMenu {
     visibility: visible;
 }
 
+.RewardsHeading {
+    visibility: collapse;
+}
+
 .RewardsLabel {
     text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 2px;
     color: gold1;
     margin-top: 12px;
+    visibility: collapse;
 }
 
 .DescriptionHeader {
@@ -1684,6 +1689,7 @@ DOTAFightingGameMenu {
     flow-children: down;
     width: 100%;
     horizontal-align: left;
+    visibility: collapse;
 }
 
 .RewardsSection .RewardRow {
@@ -1691,6 +1697,11 @@ DOTAFightingGameMenu {
     width: 100%;
     margin-bottom: 2px;
     height: 32px;
+    visibility: collapse;
+}
+
+.RewardsSection .RewardRow.HasReward {
+    visibility: visible;
 }
 
 .RewardsSection .RewardRow.Unlocked {

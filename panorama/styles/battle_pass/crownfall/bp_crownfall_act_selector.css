@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTACrownfallActSelector {
     flow-children: down;
@@ -105,27 +105,6 @@ DOTACrownfallActSelector .ChapterNavItem.Selected:not(.Active) .ActivateButton {
 
 .ActLocked DOTACrownfallActSelector .ChapterNavItem.Selected:not(.Active) .ActivateButton {
     visibility: collapse;
-}
-
-DOTACrownfallActSelector .ChapterNavItem.Active {
-    border-color: white;
-    border-brush: gradient(
-        linear,
-        0% 30%,
-        0% 100%,
-        from(#fff2df),
-        color-stop(0.48, #ebc386),
-        color-stop(0.52, #ba8c47),
-        to(#8d6c3a)
-    );
-}
-
-DOTACrownfallActSelector .ChapterNavItem.Active .CurrentlyActiveLabel {
-    visibility: visible;
-}
-
-DOTACrownfallActSelector .ChapterNavItem.Active .ActiveBorder {
-    visibility: visible;
 }
 
 DOTACrownfallActSelector .ChapterNavItem.Locked {

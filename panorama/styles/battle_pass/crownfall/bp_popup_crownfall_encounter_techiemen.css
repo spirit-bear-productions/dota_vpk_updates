@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 .PopupPanel.Techiemen {
     flow-children: none;
@@ -1295,10 +1295,15 @@
     margin-bottom: 2px;
 }
 
+.RewardsLabel {
+    visibility: collapse;
+}
+
 .RewardsSection {
     flow-children: down;
     width: 100%;
     horizontal-align: left;
+    visibility: collapse;
 }
 
 .RewardsSection .RewardRow {
@@ -1306,6 +1311,11 @@
     width: 100%;
     margin-bottom: 2px;
     height: 32px;
+    visibility: collapse;
+}
+
+.RewardsSection .RewardRow.HasReward {
+    visibility: visible;
 }
 
 .RewardsSection .RewardRow.Unlocked {

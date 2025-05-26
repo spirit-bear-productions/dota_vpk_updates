@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 #Contents.NodeTooltipContents {
     min-width: 300px;
@@ -275,6 +275,22 @@ DOTACrownfallButton.ReplayDialogue.Secondary {
 .HasDialogue.EncounterUnlocked DOTACrownfallButton.ReplayDialogue.Secondary,
 .HasDialogue.RewardsUnlocked DOTACrownfallButton.ReplayDialogue.Secondary {
     visibility: visible;
+}
+
+DOTACrownfallButton.PlayDialogue.Secondary {
+    visibility: collapse;
+    horizontal-align: center;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.HasDialogue DOTACrownfallButton.PlayDialogue.Secondary {
+    visibility: visible;
+}
+
+.HasDialogue.EncounterUnlocked DOTACrownfallButton.PlayDialogue.Secondary,
+.HasDialogue.RewardsUnlocked DOTACrownfallButton.PlayDialogue.Secondary {
+    visibility: collapse;
 }
 
 .EconItemReward {

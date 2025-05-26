@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTAFightRecap {
     width: 824px;
@@ -10,16 +10,16 @@ DOTAFightRecap {
 #AlertPanel {
     horizontal-align: center;
     vertical-align: top;
-    margin-top: 55px;
+    margin-top: 52px;
 }
 
 .FightRecapButton {
-    background-color: #252727bb;
-    border: 2px solid#8199C514;
+    background-color: #252727d0;
+    border: 2px solid #8199c514;
     border-radius: 5px;
     width: fit-children;
     padding: 0px 16px 0px 16px;
-    margin-top: 8px;
+    margin-top: 14px;
     box-shadow: fill #7299db01 0px 0px 12px 0px;
     vertical-align: middle;
     width: 200px;

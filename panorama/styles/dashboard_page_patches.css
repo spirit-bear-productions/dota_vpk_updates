@@ -1,825 +1,1026 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
+
+DOTAPatchesPage
+{
+	width: 100%;
+	height: 100%;
+}
+
+#BackgroundImage
+{
+	width: 100%;
+	height: 100%;
+	brightness: 0.5;
+	visibility: collapse;
+}
+
+.HasBackgroundImage #BackgroundImage
+{
+	visibility: collapse;
+}
+
+.PatchWrapper
+{
+	horizontal-align: center;
+	flow-children: right;
+	margin-right: 280px;
+	margin-top: 60px;
+}
 
-DOTAPatchesPage {
-    width: 100%;
-    height: 100%;
+.PatchContainer
+{
+	flow-children: down;
 }
+
+#Header
+{
+	margin-right: 32px;
+	horizontal-align: center;
+	flow-children: down;
+	margin-top: 100px;
+	padding-top: 16px;
+	width: 240px;
+	border-top: 1px solid rgba(222, 232, 255, 0.075);
+	border-brush: gradient( linear, 50% 0%, 100% 0%, from( rgb(255, 255, 255) ), to( rgba(255, 255, 255, 0) ) );
+}
+
+.ReleaseDate
+{
+	text-transform: uppercase;
+	font-size: 13px;
+	color: LightGrey;
+	letter-spacing: 1px;
+	margin-top: 12px;
+}
+
+.HeaderControls
+{
+	horizontal-align: center;
+	flow-children: right;
+}
 
-#BackgroundImage {
-    width: 100%;
-    height: 100%;
-    brightness: 0.5;
-    visibility: collapse;
+.GamePlayUpdate
+{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	vertical-align: center;
+	font-weight: semi-bold;
+	color: LightestGrey;
+	margin-bottom: 8px;
 }
 
-.HasBackgroundImage #BackgroundImage {
-    visibility: collapse;
+#PatchDropDown
+{
+	width: 100%;
+	height: fit-children;
+	z-index: 1;
 }
 
-.PatchWrapper {
-    horizontal-align: center;
-    flow-children: right;
-    margin-right: 280px;
-    margin-top: 60px;
+#PatchDropDown Label
+{
+	margin: 0px;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
 }
 
-.PatchContainer {
-    flow-children: down;
+#PatchDropDown:enabled:hover Label
+{
+	color: white;
 }
 
-#Header {
-    margin-right: 32px;
-    horizontal-align: center;
-    flow-children: down;
-    margin-top: 100px;
-    padding-top: 16px;
-    width: 240px;
-    border-top: 1px solid rgba(222, 232, 255, 0.075);
-    border-brush: gradient(linear, 50% 0%, 100% 0%, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
+DropDownMenu
+{
+	width: 240px;
+	background-color: #303030FF;
+	overflow: squish scroll;
+	transform: translateY(-40px);
+	transition-property: opacity, transform;
+	transition-duration: 0.15s;
+	transition-timing-function: ease-in;
+	box-shadow: none;
 }
 
-.ReleaseDate {
-    text-transform: uppercase;
-    font-size: 13px;
-    color: LightGrey;
-    letter-spacing: 1px;
-    margin-top: 12px;
+DropDownMenu Label
+{
+	width: 100%;
+	padding: 0px;
+	color: white;
+	background-color: none;
+	padding-left: 8px;
+	padding-bottom: -6px;
+	font-size: 36px;
+	font-weight: bold;
+	border: 0px;
 }
 
-.HeaderControls {
-    horizontal-align: center;
-    flow-children: right;
+DropDownMenu Label:hover
+{
+	color: white;
 }
 
-.GamePlayUpdate {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    vertical-align: center;
-    font-weight: semi-bold;
-    color: LightestGrey;
-    margin-bottom: 8px;
+.TopShadow
+{
+	width: 100%;
+	height: 160px;
+	background-color: gradient( linear, 0% 30%, 0% 100%, from( rgb(19, 20, 20) ), color-stop( 0.5, rgba(19, 20, 20, 0.861) ), to( #00000000 ) );
 }
 
-#PatchDropDown {
-    width: 100%;
-    height: fit-children;
-    z-index: 1;
+#PatchContents
+{
+	height: fill-parent-flow( 1.0 );
+	width: 1060px;
+	horizontal-align: center;
+	flow-children: down;
+	overflow: squish scroll;
+	padding: 100px 0px 130px;
+	opacity-mask: url("s2r://panorama/images/masks/scrolling_side_nav_mask_psd.vtex");
 }
 
-#PatchDropDown Label {
-    margin: 0px;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+#PatchContents #VerticalScrollBar
+{
+	margin-top: 100px;
+	margin-bottom: 130px;
+	height: 100%;
 }
 
-#PatchDropDown:enabled:hover Label {
-    color: white;
+.ShowPatchWebsite #PatchContents
+{
+	visibility: collapse;
 }
 
-DropDownMenu {
-    width: 240px;
-    background-color: #303030ff;
-    overflow: squish scroll;
-    transform: translateY(-40px);
-    transition-property: opacity, transform;
-    transition-duration: 0.15s;
-    transition-timing-function: ease-in;
-    box-shadow: none;
+#WebPatchNotes
+{
+	height: fill-parent-flow( 1.0 );
+	width: 1200px;
+	visibility: collapse;
 }
 
-DropDownMenu Label {
-    width: 100%;
-    padding: 0px;
-    color: white;
-    background-color: none;
-    padding-left: 8px;
-    padding-bottom: -6px;
-    font-size: 36px;
-    font-weight: bold;
-    border: 0px;
+.ShowPatchWebsite #WebPatchNotes
+{
+	visibility: visible;
 }
 
-DropDownMenu Label:hover {
-    color: white;
+.PatchSection
+{
+	flow-children: down;
+	width: 100%;
 }
 
-.TopShadow {
-    width: 100%;
-    height: 160px;
-    background-color: gradient(
-        linear,
-        0% 30%,
-        0% 100%,
-        from(rgb(19, 20, 20)),
-        color-stop(0.5, rgba(19, 20, 20, 0.861)),
-        to(#00000000)
-    );
+#PatchSectionContents
+{
+	flow-children: down;
+	margin-bottom: 20px;
+	width: 100%;
+	background-color: gradient( linear, 0% 0%, 90% 100%, from( rgb(6, 6, 7) ), to( rgb(14, 22, 29) ) );
+	padding: 40px;
 }
 
-#PatchContents {
-    height: fill-parent-flow(1);
-    width: 1060px;
-    horizontal-align: center;
-    flow-children: down;
-    overflow: squish scroll;
-    padding: 100px 0px 130px;
-    opacity-mask: url("s2r://panorama/images/masks/scrolling_side_nav_mask_psd.vtex");
+#HeroesSection #PatchSectionContents
+{
+	padding: 0px;
+	background-color: none;
 }
 
-#PatchContents #VerticalScrollBar {
-    margin-top: 100px;
-    margin-bottom: 130px;
-    height: 100%;
+.PatchSectionNameContainer
+{
+	background-color: #6C879844;
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( #833312FF ), to( #8334120b ) );
+	width: 100%;
+	border-left: 2px solid #FF5005;
 }
 
-.ShowPatchWebsite #PatchContents {
-    visibility: collapse;
+.PatchSectionName
+{
+	font-size: 32px;
+	text-transform: uppercase;
+	color: whitesmoke;
+	letter-spacing: 2px;
+	padding: 12px 16px 12px 30px;
+	font-family: titleFont;
+	font-weight: semi-bold;
+	text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.8);
 }
 
-#WebPatchNotes {
-    height: fill-parent-flow(1);
-    width: 1200px;
-    visibility: collapse;
+.PatchSubSection
+{
+	flow-children: down;
 }
 
-.ShowPatchWebsite #WebPatchNotes {
-    visibility: visible;
+#PatchSubSectionContents
+{
+	flow-children: down;
+	margin-bottom: 20px;
 }
 
-.PatchSection {
-    flow-children: down;
-    width: 100%;
+.PatchSubSectionNameContainer
+{
+	margin-bottom: 4px;
+	width: 100%;
+	padding: 8px 12px;
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( #233d537a ), to( #28405300 ) );
 }
 
-#PatchSectionContents {
-    flow-children: down;
-    margin-bottom: 20px;
-    width: 100%;
-    background-color: gradient(linear, 0% 0%, 90% 100%, from(rgb(6, 6, 7)), to(rgb(14, 22, 29)));
-    padding: 40px;
+.PatchSubSectionName
+{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: semi-bold;
+	color: #fff;
+	letter-spacing: 1px;
+	text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.8);
 }
 
-#HeroesSection #PatchSectionContents {
-    padding: 0px;
-    background-color: none;
+.Default .PatchSubSectionName
+{
+	visibility: collapse;
 }
 
-.PatchSectionNameContainer {
-    background-color: #6c879844;
-    background-color: gradient(linear, 0% 0%, 100% 0%, from(#833312ff), to(#8334120b));
-    width: 100%;
-    border-left: 2px solid #ff5005;
+.ItemNotes
+{
+	flow-children: right;
+	margin-bottom: 12px;
+	width: 100%;
 }
 
-.PatchSectionName {
-    font-size: 32px;
-    text-transform: uppercase;
-    color: whitesmoke;
-    letter-spacing: 2px;
-    padding: 12px 16px 12px 30px;
-    font-family: titleFont;
-    font-weight: semi-bold;
-    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.8);
+.ItemTitle
+{
+	flow-children: right;
 }
 
-.PatchSubSection {
-    flow-children: down;
-    margin-left: 104px;
+.ItemTitle Label
+{
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: semi-bold;
 }
 
-#PatchSubSectionContents {
-    flow-children: down;
-    margin-bottom: 20px;
+.ItemName
+{
+	color: LightestGrey;
 }
 
-.PatchSubSectionNameContainer {
-    margin-bottom: 2px;
+.ItemTitleTag
+{
+	visibility: collapse;
 }
 
-.PatchSubSectionName {
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #fff;
+.HasTitleTag .ItemTitleTag
+{
+	visibility: visible;
 }
 
-.Default .PatchSubSectionName {
-    visibility: collapse;
+#ItemImage
+{
+	width: 88px;
+	height: 64px;
+	box-shadow: 0px 4px 16px -2px rgba(0, 0, 0, 0.6);
+	tooltip-position: left;
+	transition-property: brightness;
+	transition-duration: 0.2s;
 }
 
-.ItemNotes {
-    flow-children: right;
-    margin-bottom: 12px;
-    width: 100%;
+#ItemImage:hover
+{
+	brightness: 2.0;
 }
 
-.ItemTitle {
-    flow-children: right;
+#ItemImage:active
+{
+	brightness: 1.5;
 }
 
-.ItemTitle Label {
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: semi-bold;
+.GeneralSpacer
+{
+	width: 88px;
 }
 
-.ItemName {
-    color: LightestGrey;
+.ItemNotesContents
+{
+	flow-children: down;
+	margin-left: 16px;
 }
 
-.ItemTitleTag {
-    visibility: collapse;
+#ItemNotesContainer
+{
+	flow-children: down;
 }
 
-.HasTitleTag .ItemTitleTag {
-    visibility: visible;
+.AbilityNotes
+{
+	flow-children: right;
+	margin-bottom: 12px;
 }
 
-#ItemImage {
-    width: 88px;
-    height: 64px;
-    box-shadow: 0px 4px 16px -2px rgba(0, 0, 0, 0.6);
-    tooltip-position: left;
-    transition-property: brightness;
-    transition-duration: 0.2s;
+#AbilityImage
+{
+	width: 64px;
+	height: 64px;
+	tooltip-position: left;
+	box-shadow: 0px 4px 16px -2px rgba(0, 0, 0, 0.4);
+	background-color: DarkestGrey;
 }
 
-#ItemImage:hover {
-    brightness: 2;
+#InnateIcon
+{
+	width: 64px;
+	height: 64px;
+	tooltip-position: left;
+	visibility: collapse;
 }
 
-#ItemImage:active {
-    brightness: 1.5;
+.TrueInnateAbility #AbilityImage
+{
+	visibility: collapse;
 }
 
-.GeneralSpacer {
-    width: 88px;
+.TrueInnateAbility #InnateIcon
+{
+	visibility: visible;
 }
 
-.ItemNotesContents {
-    flow-children: down;
-    margin-left: 16px;
+.FacetContainer #AbilityImage
+{
+	width: 46px;
+	height: 46px;
 }
 
-#ItemNotesContainer {
-    flow-children: down;
+.FacetContainer #InnateIcon
+{
+	width: 46px;
+	height: 46px;
 }
 
-.AbilityNotes {
-    flow-children: right;
-    margin-bottom: 12px;
+.AbilityName
+{
+	letter-spacing: 1px;
+	color: LightestGrey;
+	font-weight: semi-bold;
+	text-transform: uppercase;
+	font-family: titleFont;
+	font-size: 17px;
+	margin-bottom: 2px;
 }
 
-#AbilityImage {
-    width: 64px;
-    height: 64px;
-    tooltip-position: left;
-    box-shadow: 0px 4px 16px -2px rgba(0, 0, 0, 0.4);
-    background-color: DarkestGrey;
+.FacetContainer .AbilityName
+{
+	font-size: 14px;
+	color: LightestGrey;
+	opacity: 0.8;
+	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
-#InnateIcon {
-    width: 64px;
-    height: 64px;
-    tooltip-position: left;
-    visibility: collapse;
+.AbilityNotesContents
+{
+	flow-children: down;
+	margin-left: 16px;
 }
 
-.TrueInnateAbility #AbilityImage {
-    visibility: collapse;
+#AbilityNotesContainer
+{
+	flow-children: down;
 }
 
-.TrueInnateAbility #InnateIcon {
-    visibility: visible;
+.HeroNotes
+{
+	flow-children: down;
+	margin-bottom: 4px;
+	width: 100%;
+	background-color: gradient( linear, 0% 0%, 50% 100%, from( rgb(18, 28, 37) ), to( rgb(6, 6, 7) ) );
+	border-left: 2px solid rgba(47, 78, 105, 0.5);
+	padding: 28px 32px;
 }
 
-.FacetContainer #AbilityImage {
-    width: 46px;
-    height: 46px;
+.HeroNotesTop
+{
+	flow-children: right;
+	border-bottom: 1px solid rgba(167, 217, 255, 0.02);
+	border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgb(255, 255, 255) ), to( rgba(255, 255, 255, 0) ) );
+	width: 100%;
+	padding-bottom: 12px;
 }
 
-.FacetContainer #InnateIcon {
-    width: 46px;
-    height: 46px;
+.HeroTitle
+{
+	flow-children: right;
 }
 
-.AbilityName {
-    letter-spacing: 1px;
-    color: LightestGrey;
-    font-weight: semi-bold;
-    text-transform: uppercase;
-    font-family: titleFont;
-    font-size: 18px;
-    margin-bottom: 2px;
+.HeroTitle Label
+{
+	text-transform: uppercase;
+	font-size: 28px;
+	font-family: titleFont;
+	letter-spacing: 1px;
+	font-weight: semi-bold;
+	color: LightestGrey;
+	opacity: 0.9;
 }
 
-.FacetContainer .AbilityName {
-    font-size: 14px;
-    color: LightestGrey;
-    opacity: 0.8;
-    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+.HeroName
+{
+	color: bluegreyTextBright;
 }
 
-.AbilityNotesContents {
-    flow-children: down;
-    margin-left: 16px;
+.HeroTitleTag
+{
+	visibility: collapse;
 }
 
-#AbilityNotesContainer {
-    flow-children: down;
+.HasTitleTag .HeroTitleTag
+{
+	visibility: visible;
 }
 
-.HeroNotes {
-    flow-children: down;
-    margin-bottom: 4px;
-    width: 100%;
-    background-color: gradient(linear, 0% 0%, 50% 100%, from(rgb(18, 28, 37)), to(rgb(6, 6, 7)));
-    border-left: 2px solid rgba(47, 78, 105, 0.5);
-    padding: 28px 32px;
+#HeroImage
+{
+	width: 88px;
+	height: width-percentage( 56.25% );
+	box-shadow: 0px 4px 24px -2px rgba(0, 0, 0, 0.4);
+	transition-property: brightness;
+	transition-duration: 0.2s;
 }
 
-.HeroNotesTop {
-    flow-children: right;
-    border-bottom: 1px solid rgba(167, 217, 255, 0.02);
-    border-brush: gradient(linear, 0% 0%, 100% 0%, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
-    width: 100%;
-    padding-bottom: 12px;
+#HeroImage:hover
+{
+	brightness: 2.0;
 }
 
-.HeroTitle {
-    flow-children: right;
+#HeroImage:active
+{
+	brightness: 1.5;
 }
 
-.HeroTitle Label {
-    text-transform: uppercase;
-    font-size: 28px;
-    font-family: titleFont;
-    letter-spacing: 1px;
-    font-weight: semi-bold;
-    color: LightestGrey;
-    opacity: 0.9;
+.HeroNotesTopContents
+{
+	flow-children: down;
+	margin-left: 16px;
 }
 
-.HeroName {
-    color: bluegreyTextBright;
+.HeroNotesMain
+{
+	margin-top: 16px;
+	flow-children: down;
+	width: 100%;
 }
 
-.HeroTitleTag {
-    visibility: collapse;
+#HeroNotesContainer
+{
+	flow-children: down;
 }
 
-.HasTitleTag .HeroTitleTag {
-    visibility: visible;
+#AbilityNotesContainer
+{
+	flow-children: down;
 }
 
-#HeroImage {
-    width: 88px;
-    height: width-percentage(56.25%);
-    box-shadow: 0px 4px 24px -2px rgba(0, 0, 0, 0.4);
-    transition-property: brightness;
-    transition-duration: 0.2s;
+.TalentNotes
+{
+	flow-children: down;
+	visibility: collapse;
 }
 
-#HeroImage:hover {
-    brightness: 2;
+.HasTalentNotes .TalentNotes,.TalentNotes.HasTalentNotes
+{
+	visibility: visible;
 }
 
-#HeroImage:active {
-    brightness: 1.5;
+.TalentNotesContents
+{
+	flow-children: right;
 }
 
-.HeroNotesTopContents {
-    flow-children: down;
-    margin-left: 16px;
+#TalentNotesContainer
+{
+	flow-children: down;
 }
 
-.HeroNotesMain {
-    margin-top: 16px;
-    flow-children: down;
-    width: 100%;
+.TalentsName
+{
+	text-transform: uppercase;
+	font-size: 16px;
+	color: LightestGrey;
+	margin-bottom: 8px;
+	font-weight: semi-bold;
+	letter-spacing: 2px;
 }
 
-#HeroNotesContainer {
-    flow-children: down;
+#TalentTreeImage
+{
+	width: 64px;
+	height: 64px;
+	background-image: url("s2r://panorama/images/spellicons/statbranch_psd.vtex");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	wash-color: #aaa;
+	tooltip-position: left;
 }
 
-#AbilityNotesContainer {
-    flow-children: down;
+#TalentNotesContainer
+{
+	flow-children: down;
+	margin-left: 16px;
 }
 
-.TalentNotes {
-    flow-children: down;
-    visibility: collapse;
+.PatchNoteContainer
+{
+	flow-children: right;
+	margin-bottom: 2px;
 }
 
-.HasTalentNotes .TalentNotes,
-.TalentNotes.HasTalentNotes {
-    visibility: visible;
+.NeutralCreepNotes
+{
+	flow-children: right;
+	margin-bottom: 12px;
 }
 
-.TalentNotesContents {
-    flow-children: right;
+#NeutralCreepImage
+{
+	width: 88px;
+	height: width-percentage( 56.25% );
 }
 
-#TalentNotesContainer {
-    flow-children: down;
+.NeutralCreepNotesContents
+{
+	flow-children: down;
+	margin-left: 16px;
 }
 
-.TalentsName {
-    text-transform: uppercase;
-    font-size: 16px;
-    color: LightestGrey;
-    margin-bottom: 8px;
-    font-weight: semi-bold;
-    letter-spacing: 2px;
+.NeutralCreepTitle
+{
+	flow-children: right;
 }
 
-#TalentTreeImage {
-    width: 64px;
-    height: 64px;
-    background-image: url("s2r://panorama/images/spellicons/statbranch_psd.vtex");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    wash-color: #aaa;
-    tooltip-position: left;
+.NeutralCreepTitle Label
+{
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 
-#TalentNotesContainer {
-    flow-children: down;
-    margin-left: 16px;
+.NeutralCreepName
+{
+	color: white;
 }
 
-.PatchNoteContainer {
-    flow-children: right;
-    margin-bottom: 2px;
+.NeutralCreepTitleTag
+{
+	visibility: collapse;
 }
 
-.NeutralCreepNotes {
-    flow-children: right;
-    margin-bottom: 12px;
+.HasTitleTag .NeutralCreepTitleTag
+{
+	visibility: visible;
 }
 
-#NeutralCreepImage {
-    width: 88px;
-    height: width-percentage(56.25%);
+#NeutralCreepNotesContainer
+{
+	flow-children: down;
 }
 
-.NeutralCreepNotesContents {
-    flow-children: down;
-    margin-left: 16px;
+.Dot
+{
+	width: 6px;
+	height: 6px;
+	vertical-align: top;
+	margin: 9px 10px 0px 10px;
+	border-radius: 50%;
+	background-color: #b7d1e131;
 }
 
-.NeutralCreepTitle {
-    flow-children: right;
+.NoDot .Dot
+{
+	background-color: #00000000;
 }
 
-.NeutralCreepTitle Label {
-    letter-spacing: 1px;
-    text-transform: uppercase;
+.Indent1:not(.NoDot) .Dot
+{
+	background-color: gradient( radial, 50% 50%, 0% 0%, 10% 10%, from( #000000 ), to( #000000 ) );
+	border: 1px solid #aaa;
 }
 
-.NeutralCreepName {
-    color: white;
+.Indent2:not(.NoDot) .Dot
+{
+	border-radius: 1px;
 }
 
-.NeutralCreepTitleTag {
-    visibility: collapse;
+.Indent3:not(.NoDot) .Dot
+{
+	border-radius: 1px;
+	background-color: gradient( radial, 50% 50%, 0% 0%, 10% 10%, from( #000000 ), to( #000000 ) );
+	border: 1px solid #aaa;
 }
 
-.HasTitleTag .NeutralCreepTitleTag {
-    visibility: visible;
+.Indent4:not(.NoDot) .Dot
+{
+	border-radius: 50%;
+	width: 4px;
+	height: 4px;
+	margin: 8px 8px 6px 2px;
 }
 
-#NeutralCreepNotesContainer {
-    flow-children: down;
+.NoIndent .Indent
+{
+	width: 0px;
 }
 
-.Dot {
-    width: 6px;
-    height: 6px;
-    vertical-align: top;
-    margin: 9px 10px 0px 10px;
-    border-radius: 50%;
-    background-color: #b7d1e131;
+.Indent1 .Indent
+{
+	width: 14px;
 }
 
-.NoDot .Dot {
-    background-color: #00000000;
+.Indent2 .Indent
+{
+	width: 28px;
 }
 
-.Indent1:not(.NoDot) .Dot {
-    background-color: gradient(radial, 50% 50%, 0% 0%, 10% 10%, from(#000000), to(#000000));
-    border: 1px solid #aaa;
+.Indent3 .Indent
+{
+	width: 42px;
 }
 
-.Indent2:not(.NoDot) .Dot {
-    border-radius: 1px;
+.Indent4 .Indent
+{
+	width: 56px;
 }
 
-.Indent3:not(.NoDot) .Dot {
-    border-radius: 1px;
-    background-color: gradient(radial, 50% 50%, 0% 0%, 10% 10%, from(#000000), to(#000000));
-    border: 1px solid #aaa;
+.NoteLine
+{
+	max-width: 744px;
+	overflow: squish scroll;
+	color: LightGrey;
+	font-size: 16px;
+	line-height: 20px;
 }
 
-.Indent4:not(.NoDot) .Dot {
-    border-radius: 50%;
-    width: 4px;
-    height: 4px;
-    margin: 8px 8px 6px 2px;
+.NoteLine .InfoIcon
+{
+	vertical-align: top;
+	transform: none;
+	margin: 0px 2px;
+	wash-color: #6C8798;
 }
 
-.NoIndent .Indent {
-    width: 0px;
+.Indent1 .NoteLine
+{
+	max-width: 730px;
 }
 
-.Indent1 .Indent {
-    width: 14px;
+.Indent2 .NoteLine
+{
+	max-width: 716px;
 }
 
-.Indent2 .Indent {
-    width: 28px;
+.Indent3 .NoteLine
+{
+	max-width: 702px;
 }
 
-.Indent3 .Indent {
-    width: 42px;
+.Indent4 .NoteLine
+{
+	max-width: 688px;
 }
 
-.Indent4 .Indent {
-    width: 56px;
+.InfoIcon
+{
+	transform: translateY( 3px );
+	visibility: collapse;
 }
 
-.NoteLine {
-    max-width: 744px;
-    overflow: squish scroll;
-    color: LightGrey;
-    font-size: 16px;
-    line-height: 20px;
+.HasInfo .InfoIcon
+{
+	visibility: visible;
 }
 
-.NoteLine .InfoIcon {
-    vertical-align: top;
-    transform: none;
-    margin: 0px 2px;
-    wash-color: #6c8798;
+.Reworked
+{
+	color: #D05307;
 }
 
-.Indent1 .NoteLine {
-    max-width: 730px;
+.New
+{
+	color: #36A15E;
 }
 
-.Indent2 .NoteLine {
-    max-width: 716px;
+.Subtitle
+{
+	color: white;
 }
 
-.Indent3 .NoteLine {
-    max-width: 702px;
+.first_pick
+{
+	color: #7CA1CC;
 }
 
-.Indent4 .NoteLine {
-    max-width: 688px;
+.second_pick
+{
+	color: #F05039;
 }
 
-.InfoIcon {
-    transform: translateY(3px);
-    visibility: collapse;
+#HeroSubsections
+{
+	height: fit-children;
+	width: 100%;
+	flow-children: down;
 }
 
-.HasInfo .InfoIcon {
-    visibility: visible;
+.HeroSubsection
+{
+	height: fit-children;
+	flow-children: down;
+	margin-bottom: 24px;
 }
 
-.Reworked {
-    color: #d05307;
+.FacetBackground.Faded
+{
+	ignore-parent-flow: true;
+	width: 100%;
+	height: 100%;
+	opacity: 0.1;
 }
 
-.New {
-    color: #36a15e;
+.InnateSubsection
+{
+	height: fit-children;
+	flow-children: down;
+	margin-bottom: 12px;
+	width: 100%;
 }
 
-.Subtitle {
-    color: white;
+.InnateSubsection .InnateSubsectionTop
+{
+	flow-children: down;
 }
 
-.first_pick {
-    color: #7ca1cc;
+.InnateSubsection .InnateSubsectionTop .HeroSubsectionName
+{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'Radiance';
+	color: LightestGrey;
+	margin-bottom: 8px;
+	letter-spacing: 2px;
 }
 
-.second_pick {
-    color: #f05039;
+.InnateSubsection .InnateSubsectionMain
+{
+	padding: 16px;
+	flow-children: down;
+	background-color: #3D6B9411;
+	background-color: gradient( radial, 0% 0%, 0% 0%, 80% 100%, from( #3d6b941f ), to( #3d6b9400 ) );
+	width: 100%;
+	border: 1px solid white;
+	border-brush: gradient( radial, 0% 0%, 0% 0%, 80% 100%, from( #3d6b942e ), to( #3d6b9400 ) );
 }
 
-#HeroSubsections {
-    height: fit-children;
-    width: 100%;
-    flow-children: down;
+.InnateSubsection #TalentNotes
+{
+	visibility: collapse;
 }
 
-.HeroSubsection {
-    height: fit-children;
-    flow-children: down;
-    margin-bottom: 24px;
+.FacetContainer
+{
+	flow-children: right;
+	height: fit-children;
+	horizontal-align: left;
+	margin-left: -8px;
 }
 
-.FacetBackground.Faded {
-    ignore-parent-flow: true;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
+.FacetContainer .hero_facet
+{
+	flow-children: down;
+	margin-left: 8px;
+	width: fill-parent-flow(1);
 }
 
-.InnateSubsection {
-    height: fit-children;
-    flow-children: down;
-    margin-bottom: 12px;
-    width: 100%;
+.NewBadgeContainer
+{
+	ignore-parent-flow: true;
+	width: 100%;
+	height: 100%;
+	border: 1px solid rgb(255, 255, 255);
+	border-brush: gradient( radial, 100% 0%, 0% 0%, 100% 100%, from( rgb(35, 255, 108) ), color-stop(0.5, rgba(54, 255, 54, 0.2), to( rgba(54, 255, 54, 0.01) ) );
+	visibility: collapse;
 }
 
-.InnateSubsection .InnateSubsectionTop {
-    flow-children: down;
+.NewBadgeContainer .NewLabel
+{
+	horizontal-align: right;
+	padding: 3px 8px 4px 8px;
+	background-color: rgba(60, 203, 105, 0.7);
+	border: 1px solid rgba(39, 217, 87, 0.824);
+	color: white;
+	text-shadow: 0px 2px 12px 2 black;
+	font-weight: semi-bold;
+	border-radius: 80px;
+	margin: 10px;
+	box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.4);
 }
 
-.InnateSubsection .InnateSubsectionTop .HeroSubsectionName {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: "Radiance";
-    color: LightestGrey;
-    margin-bottom: 8px;
-    letter-spacing: 2px;
+.NewFacet .NewBadgeContainer
+{
+	visibility: visible;
 }
 
-.InnateSubsection .InnateSubsectionMain {
-    padding: 16px;
-    flow-children: down;
-    background-color: #3d6b9411;
-    background-color: gradient(radial, 0% 0%, 0% 0%, 80% 100%, from(#3d6b941f), to(#3d6b9400));
-    width: 100%;
-    border: 1px solid white;
-    border-brush: gradient(radial, 0% 0%, 0% 0%, 80% 100%, from(#3d6b942e), to(#3d6b9400));
+.ReworkedBadgeContainer
+{
+	ignore-parent-flow: true;
+	width: 100%;
+	height: 100%;
+	border: 1px solid rgb(255, 255, 255);
+	border-brush: gradient( radial, 100% 0%, 0% 0%, 100% 100%, from( rgb(240, 213, 119) ), color-stop(0.5, rgba(240, 213, 119, 0.2), to( rgba(240, 213, 119, 0.01) ) );
+	visibility: collapse;
 }
 
-.InnateSubsection #TalentNotes {
-    visibility: collapse;
+.ReworkedBadgeContainer .ReworkedLabel
+{
+	horizontal-align: right;
+	padding: 3px 8px 4px 8px;
+	background-color: rgba(214, 171, 24, 0.7);
+	border: 1px solid rgba(240, 213, 119, 0.824);
+	color: white;
+	text-shadow: 0px 2px 12px 2 black;
+	font-weight: semi-bold;
+	border-radius: 80px;
+	margin: 10px;
+	box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.4);
 }
 
-.FacetContainer {
-    flow-children: right;
-    height: fit-children;
-    horizontal-align: left;
-    margin-left: -8px;
+.ReworkedFacet .ReworkedBadgeContainer
+{
+	visibility: visible;
 }
 
-.FacetContainer .hero_facet {
-    flow-children: down;
-    margin-left: 8px;
-    width: fill-parent-flow(1);
+.HeroSubsectionTop
+{
+	flow-children: down;
+	margin-left: 16px;
 }
 
-.HeroSubsectionTop {
-    flow-children: down;
-    margin-left: 16px;
+.HeroSubsectionTitle
+{
+	flow-children: right;
 }
 
-.HeroSubsectionTitle {
-    flow-children: right;
+.HeroSubsectionTitle Label
+{
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: titleFont;
+	letter-spacing: 1px;
+	font-weight: semi-bold;
 }
 
-.HeroSubsectionTitle Label {
-    text-transform: uppercase;
-    font-size: 22px;
-    font-family: titleFont;
-    letter-spacing: 1px;
-    font-weight: semi-bold;
+.HeroSubsectionSubName
+{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: titleFont;
 }
 
-.HeroSubsectionSubName {
-    text-transform: uppercase;
-    font-size: 18px;
-    font-family: titleFont;
+.HeroSubsectionName
+{
+	color: bluegreyTextBright;
 }
 
-.HeroSubsectionName {
-    color: bluegreyTextBright;
+.HeroSubsectionTitleTag
+{
+	visibility: collapse;
 }
 
-.HeroSubsectionTitleTag {
-    visibility: collapse;
+.HasTitleTag .HeroSubsectionTitleTag
+{
+	visibility: visible;
 }
 
-.HasTitleTag .HeroSubsectionTitleTag {
-    visibility: visible;
+.SubsectionNotesMain
+{
+	padding: 12px 16px;
+	width: 100%;
+	background-img-opacity: 0.1;
+	flow-children: down;
 }
 
-.SubsectionNotesMain {
-    padding: 12px 16px;
-    width: 100%;
-    background-img-opacity: 0.1;
-    flow-children: down;
+.children_count_5 .SubsectionNotesMain
+{
+	padding: 8px;
+	padding-bottom: 16px;
 }
 
-.children_count_5 .SubsectionNotesMain {
-    padding: 8px;
-    padding-bottom: 16px;
+#GeneralNotesContainer
+{
+	flow-children: down;
 }
 
-#GeneralNotesContainer {
-    flow-children: down;
+.FacetContainerOuter
+{
+	flow-children: down;
+	width: 100%;
+	height: fit-children;
+	margin-top: 8px;
 }
 
-.FacetContainerOuter {
-    flow-children: down;
-    width: 100%;
-    height: fit-children;
-    margin-top: 8px;
+.FacetContainerOuter .HeroSubsectionName
+{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'Radiance';
+	color: LightestGrey;
+	margin-bottom: 8px;
+	letter-spacing: 2px;
+	font-weight: semi-bold;
 }
 
-.FacetContainerOuter .HeroSubsectionName {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: "Radiance";
-    color: LightestGrey;
-    margin-bottom: 8px;
-    letter-spacing: 2px;
-    font-weight: semi-bold;
+.FacetHeader
+{
+	width: 100%;
+	height: fit-children;
+	flow-children: right;
 }
 
-.FacetHeader {
-    width: 100%;
-    height: fit-children;
-    flow-children: right;
+.FacetHeader .FacetBackground
+{
+	width: 100%;
+	height: 100%;
+	ignore-parent-flow: true;
 }
 
-.FacetHeader .FacetBackground {
-    width: 100%;
-    height: 100%;
-    ignore-parent-flow: true;
+.FacetHeader .FacetBackgroundTexture
+{
+	width: 100%;
+	height: 100%;
+	ignore-parent-flow: true;
+	background-image: url("s2r://panorama/images/hud/facets/ripple_texture_png.vtex");
+	background-size: cover;
+	background-position: center;
+	-s2-mix-blend-mode: screen;
+	opacity: 0.5;
 }
 
-.FacetHeader .FacetBackgroundTexture {
-    width: 100%;
-    height: 100%;
-    ignore-parent-flow: true;
-    background-image: url("s2r://panorama/images/hud/facets/ripple_texture_png.vtex");
-    background-size: cover;
-    background-position: center;
-    -s2-mix-blend-mode: screen;
-    opacity: 0.5;
+.FacetIconContainer
+{
+	vertical-align: center;
+	margin-right: 8px;
 }
 
-.FacetIconContainer {
-    vertical-align: center;
-    margin-right: 8px;
+.FacetIconContainer .FacetIconContainerShard
+{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-right: 1px solid rgba(0, 0, 0, 0.03);
 }
 
-.FacetIconContainer .FacetIconContainerShard {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-right: 1px solid rgba(0, 0, 0, 0.03);
+.FacetIconContainer #FacetIcon
+{
+	width: 24px;
+	height: 24px;
+	background-size: cover;
+	margin: 12px 20px;
+	img-shadow: 0px 2px 8px black;
 }
 
-.FacetIconContainer #FacetIcon {
-    width: 24px;
-    height: 24px;
-    background-size: cover;
-    margin: 12px 20px;
-    img-shadow: 0px 2px 8px black;
+.children_count_5 .FacetIconContainer #FacetIcon,.children_count_3 .FacetIconContainer #FacetIcon
+{
+	margin-left: 12px;
+	margin-right: 12px;
 }
 
-.children_count_5 .FacetIconContainer #FacetIcon,
-.children_count_3 .FacetIconContainer #FacetIcon {
-    margin-left: 12px;
-    margin-right: 12px;
+.FacetHeaderText
+{
+	width: fill-parent-flow( 1.0 );
+	vertical-align: middle;
+	horizontal-align: left;
+	padding: 6px;
+	flow-children: right;
 }
 
-.FacetHeaderText {
-    width: fill-parent-flow(1);
-    height: fit-children;
-    vertical-align: middle;
-    horizontal-align: left;
-    padding: 6px;
-    flow-children: right;
+.FacetHeaderText Label
+{
+	horizontal-align: left;
+	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
-.FacetHeaderText Label {
-    horizontal-align: left;
-    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);
+.FacetHeaderText .FacetName
+{
+	color: white;
+	letter-spacing: 1px;
+	height: 26px;
+	text-overflow: shrink;
+	font-size: 17px;
+	font-weight: semi-bold;
+	horizontal-align: left;
+	vertical-align: center;
+	width: fill-parent-flow(1.0);
 }
 
-.FacetHeaderText .FacetName {
-    color: white;
-    letter-spacing: 1px;
-    height: 26px;
-    text-overflow: shrink;
-    font-size: 18px;
-    font-weight: semi-bold;
-    horizontal-align: left;
-    vertical-align: center;
-    width: fill-parent-flow(1);
+.NewFacet .FacetHeaderText .FacetName
+{
+	margin-right: 64px;
 }
 
-.FacetButton {
-    horizontal-align: right;
-    margin-top: 8px;
+.FacetButton
+{
+	horizontal-align: right;
+	margin-top: 8px;
 }
+

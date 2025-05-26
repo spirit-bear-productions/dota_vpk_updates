@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTACrownfallOverworldPage {
     width: 100%;
@@ -376,6 +376,7 @@ DOTACrownfallOverworldPage.ShowingIntro.IntroState0 {
 }
 
 #RewardsPanel #ActivateButton {
+    visibility: collapse;
     horizontal-align: center;
     margin: -25px 0px 0px;
     z-index: 1;
@@ -388,6 +389,7 @@ DOTACrownfallOverworldPage.ShowingIntro.IntroState0 {
 }
 
 #RewardsPanel .ActPassContainer {
+    visibility: collapse;
     flow-children: down;
 }
 

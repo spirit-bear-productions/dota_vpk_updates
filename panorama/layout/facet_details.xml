@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -21,6 +21,23 @@
 				<Panel class="FacetAbilityDescriptionBody NewAbility">
 					<DOTAAbilityDetails id="FacetAbilityDetails" />
 				</Panel>
+			</Panel>
+		</snippet>
+		<snippet name="AghsSection">
+			<Panel class="AghsSection">
+				<Panel class="InlineScepterHeader">
+					<Panel id="AghsStatusScepterContainer">
+						<Panel id="AghsStatusScepterIcon" class="AghanimsIcon" />
+					</Panel>
+					<Label class="AghsTitle" text="#DOTA_AbilityTooltip_Aghs_Scepter" />
+				</Panel>
+				<Panel class="InlineShardHeader">
+					<Panel id="AghsStatusShardContainer">
+						<Panel id="AghsStatusShardIcon" class="AghanimsIcon" />
+					</Panel>
+					<Label class="AghsTitle" text="#DOTA_AbilityTooltip_Aghs_Shard" />
+				</Panel>
+				<Panel id="AghsSectionContents" />
 			</Panel>
 		</snippet>
 	</snippets>

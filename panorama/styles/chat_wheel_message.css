@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTAChatWheelMessage {
     flow-children: right;
@@ -20,6 +20,7 @@ DOTAChatWheelMessage {
 
 .IsSpray .ArrowIcon {
     vertical-align: middle;
+    visibility: collapse;
 }
 
 #SoundIcon {
@@ -48,9 +49,21 @@ DOTAChatWheelMessage {
 }
 
 #SprayImage {
-    width: 128px;
-    height: 128px;
+    width: 96px;
+    height: 96px;
+    img-shadow: 0px 4px 16px black;
+    transition-property: brightness, transform;
+    transition-duration: 0.1s;
     visibility: collapse;
+}
+
+.MessageIsLocked #SprayImage {
+    opacity: 0.3;
+}
+
+.MessageIsUnlocked #SprayImage:hover {
+    brightness: 2;
+    transform: scale3d(1.05, 1.05, 1);
 }
 
 .IsSpray #SprayImage {
@@ -87,6 +100,15 @@ PopupSettings .MessageText {
 }
 
 PopupSettings .MessageIsLocked .MessageText {
+    color: #666;
+}
+
+PopupSettingsReborn .MessageText {
+    font-weight: normal;
+    color: #fff;
+}
+
+PopupSettingsReborn .MessageIsLocked .MessageText {
     color: #666;
 }
 

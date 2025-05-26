@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -42,7 +42,7 @@
 				<DOTAScenePanel id="HeroModel" class="OverviewHeroRender" unit="npc_dota_hero_rubick" drawbackground="0" antialias="true" activity-modifier="PostGameIdle" particleonly="false" />
 				<Panel class="HeroImageOverlay" hittest="false" />
 			</Panel>
-			<DOTAUserName id="PlayerName" class="OverviewHeroPlayerName" hittest="false" />
+			<DOTAUserName id="PlayerName" class="OverviewHeroPlayerName" hittest="false" proname="true" />
 			<Label id="BotPlayerName" class="OverviewHeroPlayerName" hittest="false" text="{s:bot_player_name}" />
 			<DOTAHeroImage id="MainHeroImage" heroimagestyle="landscape" scaling="stretch-to-fit-preserve-aspect" />
 			<Panel id="ArcanaContainer" hittest="false" />

@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -24,7 +24,7 @@
 					<DOTAHeroBadge id="HeroBadge" />
 				</Panel>
 				<Panel class="NameAndHero TopBottomFlow">
-					<DOTAUserName id="PlayerNameScoreboard" />
+					<DOTAUserName id="PlayerNameScoreboard" proname="true" />
 					<Label id="BotPlayerNameScoreboard" text="{s:bot_player_name}" />
 					<Panel class="LeftRightFlow" id="PlayerNameFacetContainer">
 						<DOTAFacetIcon id="FacetIcon" class="" />

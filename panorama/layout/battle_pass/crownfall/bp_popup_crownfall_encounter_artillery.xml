@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -108,7 +108,7 @@
 			</Panel>
 		</snippet>
 	</snippets>
-	<Panel class="PopupPanel Artillery Hidden" popupbackground="dim" oncancel="DOTAArtilleryOnCancel()">
+	<Panel class="PopupPanel Artillery Hidden" allows_popups="1" popupbackground="dim" oncancel="DOTAArtilleryOnCancel()">
 		<Panel class="MainContentsWrapper">
 			<Panel class="MainContents">
 				<Panel id="GameBoard">
@@ -273,7 +273,7 @@
 										<Label class="LeaderboardScore" text="{d:total_score}" />
 									</Panel>
 									<Panel class="RewardsSection">
-										<Label class="GoldHeader" text="#DOTA_Crownfall_Fishing_Rewards" />
+										<Label class="GoldHeader RewardsLabel" text="#DOTA_Crownfall_Fishing_Rewards" />
 										<Panel id="RewardsList" class="RewardsSection" />
 									</Panel>
 								</Panel>

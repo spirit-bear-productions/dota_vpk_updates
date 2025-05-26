@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTASpectatorOptions {
     width: 272px;
@@ -98,7 +98,8 @@ DOTASpectatorOptions.Hidden {
     visibility: visible;
 }
 
-.WatchingLiveWithDotaPlus #PlaybackControls {
+.WatchingLiveWithDotaPlus #PlaybackControls,
+.WatchingBroadcast #PlaybackControls {
     visibility: collapse;
 }
 
@@ -140,6 +141,12 @@ DOTASpectatorOptions.Hidden {
 
 #SpectatorChatToggleButton {
     margin: 2px 0px 12px 10px;
+}
+
+.WatchingBroadcast #SpectatorCount,
+.WatchingBroadcast #LiveSpectatorLabel,
+.WatchingBroadcast #SpectatorChatToggleButton {
+    visibility: collapse;
 }
 
 #SpectatorChatToggleButton .TickBox {

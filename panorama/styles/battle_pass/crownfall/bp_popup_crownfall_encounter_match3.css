@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 .PopupPanel.Match3 {
     flow-children: down;
@@ -358,6 +358,7 @@
     letter-spacing: 2px;
     color: gold1;
     margin-top: 12px;
+    visibility: collapse;
 }
 
 .SetupScreen .RewardsSection {
@@ -365,12 +366,18 @@
     flow-children: down;
     width: 100%;
     horizontal-align: left;
+    visibility: collapse;
 }
 
 .SetupScreen .RewardsSection .RewardRow {
     flow-children: right;
     width: 100%;
     margin-bottom: 2px;
+    visibility: collapse;
+}
+
+.SetupScreen .RewardsSection .RewardRow.HasReward {
+    visibility: visible;
 }
 
 .SetupScreen .RewardsSection .RewardRow.Unlocked {

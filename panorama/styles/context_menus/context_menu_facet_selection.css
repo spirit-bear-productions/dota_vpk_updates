@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 #Contents {
     width: fit-children;
@@ -158,6 +158,6 @@ Label .AttributeHighlight {
 
 #FacetList {
     width: fit-children;
-    flow-children: right;
+    flow-children: right-wrap;
     margin-right: -8px;
 }

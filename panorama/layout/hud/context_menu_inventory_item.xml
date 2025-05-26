@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -21,6 +21,14 @@
 		</Button>
 		<Button id="Disassemble">
 			<Label text="#DOTA_InventoryMenu_Disassemble" />
+		</Button>
+		<Button id="MarkForSell">
+			<Label text="#DOTA_InventoryMenu_MarkForSell" />
+			<Label id="MarkForSellNewBadge" class="NewBadge" text="#DOTA_New" />
+			<Image class="TooltipInfoIcon" src="s2r://panorama/images/control_icons/24px/info.vsvg" scaling="stretch-to-fit-preserve-aspect" onmouseover="UIShowTextTooltip( #DOTA_InventoryMenu_MarkForSell_Tooltip ) DOTAHUDContextMenuItemMarkForSellTooltipHover()" onmouseout="UIHideTextTooltip()" />
+		</Button>
+		<Button id="UnmarkForSell">
+			<Label text="#DOTA_InventoryMenu_UnmarkForSell" />
 		</Button>
 		<Button id="DropFromStash">
 			<Label text="#DOTA_InventoryMenu_DropFromStash" />

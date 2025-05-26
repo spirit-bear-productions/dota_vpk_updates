@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -11,7 +11,7 @@
 		<include src="s2r://panorama/scripts/dota_sequence_actions.vts_c" />
 	</scripts>
 	<DOTAFrontpageContents>
-		<DOTAFrostivus2024FrontPageCell class="FrontpageCell TopCell TallCell" />
-		<CustomLayoutPanel class="FrontpageCell BottomCell" layout="s2r://panorama/layout/banners/front_page_collectors_cache3_2024_short.vxml_c" />
+		<CustomLayoutPanel class="FrontpageCell TopCell" layout="s2r://panorama/layout/banners/front_page_spring_forward.vxml_c" />
+		<CustomLayoutPanel class="FrontpageCell MiddleCell" layout="s2r://panorama/layout/banners/front_page_739.vxml_c" />
 	</DOTAFrontpageContents>
 </root>

@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTATierTreasureDetails {
     background-color: #020910;
@@ -176,6 +176,14 @@ DOTATierTreasureDetails #TreasureLogo {
     visibility: visible;
 }
 
+#TreasureImageContainer #TreasureImage {
+    visibility: collapse;
+}
+
+#KeyImageContainer #KeyImage {
+    visibility: collapse;
+}
+
 .ChestIcon,
 .KeyIcon {
     width: 128px;
@@ -184,6 +192,7 @@ DOTATierTreasureDetails #TreasureLogo {
     vertical-align: center;
     background-size: cover;
     background-position: center;
+    visibility: visible;
 }
 
 .ChestIcon {
@@ -196,6 +205,10 @@ DOTATierTreasureDetails #TreasureLogo {
 
 .ChestHex {
     background-image: url("s2r://panorama/images/events/frostivus/2023/frostivus2023_chest_psd.vtex");
+}
+
+#TreasureItemEconImage {
+    visibility: collapse;
 }
 
 .PurchaseRowDivider {
@@ -214,7 +227,8 @@ DOTATierTreasureDetails #TreasureLogo {
 
 #UnlockChestButton,
 #RecycleButton,
-#DoneButton {
+#DoneButton,
+#OpenAnotherButton {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#4aaed0), to(#13426a));
 }
 

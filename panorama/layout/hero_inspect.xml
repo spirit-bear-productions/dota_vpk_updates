@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -11,7 +11,7 @@
 			<Label id="HeroInspectHeroName" text="{g:dota_hero_name:inspect_hero_id}" />
 		</Panel>
 		<Panel id="HeroInspectInfo">
-			<Panel id="HeroPortrait">
+			<Panel id="HeroPortraitContainer">
 				<DOTAHeroMovie id="HeroMovie" />
 				<Panel class="HeroFacetOuter">
 					<Label class="FacetsLabel LabelSmall" text="#DOTA_Facets" />

@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -8,18 +8,18 @@
 	</styles>
 	<Panel class="SecondaryTabSet">
 		<RadioButton id="CollectionHeroes" class="SecondaryTabButton" group="SecondaryTabGroup" onactivate="DOTAShowCollectionPageHeroes()">
-			<Panel class="NewItemBadgeDot" />
 			<Label text="#DOTA_Collection_TabName_Heroes" />
+			<Panel class="NewItemBadgeDot" />
 		</RadioButton>
 		<Label class="SecondaryTabSeparator" text="/" />
 		<RadioButton id="CollectionGlobalWorldItems" class="SecondaryTabButton" group="SecondaryTabGroup" onactivate="DOTAShowCollectionPageGlobalWorldItems()">
-			<Panel class="NewItemBadgeDot" />
 			<Label text="#DOTA_Collection_TabName_Global_WorldItems" />
+			<Panel class="NewItemBadgeDot" />
 		</RadioButton>
 		<Label class="SecondaryTabSeparator" text="/" />
 		<RadioButton id="CollectionGlobalInterfaceItems" class="SecondaryTabButton" group="SecondaryTabGroup" onactivate="DOTAShowCollectionPageGlobalInterfaceItems()">
-			<Panel class="NewItemBadgeDot" />
 			<Label text="#DOTA_Collection_TabName_Global_InterfaceItems" />
+			<Panel class="NewItemBadgeDot" />
 		</RadioButton>
 		<Label class="SecondaryTabSeparator" text="/" />
 		<RadioButton id="CollectionTreasury" class="SecondaryTabButton" group="SecondaryTabGroup" text="#DOTA_TabName_Treasury" onactivate="DOTAShowCollectionPageTreasury()" />

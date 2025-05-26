@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 .LeftRightFlow {
     flow-children: right-wrap;
@@ -21,7 +21,7 @@
 
 PopupSettings {
     width: 1588px;
-    height: 920px;
+    height: 990px;
     vertical-align: center;
     horizontal-align: center;
     opacity: 1;
@@ -39,7 +39,7 @@ PopupSettings {
 
 .AspectRatio4x3 PopupSettings {
     width: 1395px;
-    height: 930px;
+    height: 1000px;
 }
 
 PopupSettings.Hidden {
@@ -2020,6 +2020,10 @@ Slider.HorizontalSlider {
     transition-timing-function: ease-in-out;
 }
 
+.ChatWheelButton.Hidden {
+    visibility: collapse;
+}
+
 .ChatWheelButton .ChatWheelButtonContents {
     vertical-align: center;
     horizontal-align: center;
@@ -3419,6 +3423,10 @@ a {
     margin-top: 0px;
 }
 
+DOTASettingsEnum {
+    flow-children: right;
+}
+
 DOTASettingsEnum .EnumButton {
     margin-bottom: 13px;
     wash-color: red;
@@ -3546,7 +3554,6 @@ DOTASettingsEnum .EnumButton {
     margin-left: 20px;
 }
 
-#CameraOptions,
 #NetworkOptions,
 #ExtraVideoOptionsSection {
     margin-top: 40px;

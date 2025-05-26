@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 .PopupPanel {
     flow-children: none;
@@ -192,6 +192,10 @@
 .ul .li .bulletText b {
     color: gradient(linear, 0% 0%, 0% 100%, from(gold3), color-stop(0.5, gold1), to(gold3));
     font-weight: semi-bold;
+}
+
+.ul .li .strikethroughText {
+    text-decoration: line-through;
 }
 
 #CloseButton {

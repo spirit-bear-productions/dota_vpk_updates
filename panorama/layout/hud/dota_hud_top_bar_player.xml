@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -32,7 +32,6 @@
 			<Panel id="NoVisionOverlay" class="NoVision">
 				<Panel class="TopBarImage VisionIcon" />
 			</Panel>
-			<Image id="MuertaMinigameOpponentIndicator" scaling="stretch-to-cover-preserve-aspect" src="s2r://panorama/images/events/muerta/muerta_tribute_tiny_png.vtex" hittest="true" onmouseover="UIShowTextTooltip( #DOTA_MuertaReleaseEvent_Minigame_Target_Tooltip )" onmouseout="UIHideTextTooltip()" />
 		</Panel>
 		<Panel id="HeroBadgeOverlay" hittest="false" />
 		<ProgressBar id="HealthBar" class="TopBarHealthBar" />

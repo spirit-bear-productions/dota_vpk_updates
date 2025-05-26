@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTASpectatorGameStats {
     flow-children: down;
@@ -172,13 +172,16 @@ DOTASpectatorGameStatsPlayerRow #PlayerName {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#0b0b0bff), color-stop(0.05, #0b0b0b88), to(#8aa8a800));
 }
 
-DOTASpectatorGameStatsPlayerRow #PlayerName,
-DOTASpectatorGameStatsPlayerRow:hover #StatValue {
+DOTASpectatorGameStatsPlayerRow #PlayerName {
     visibility: collapse;
 }
 
-DOTASpectatorGameStatsPlayerRow:hover #PlayerName {
+.HeroIconHovered #PlayerName {
     visibility: visible;
+}
+
+.HeroIconHovered #StatValue {
+    visibility: collapse;
 }
 
 DOTASpectatorGameStatsPlayerRow #StatValueBar {
@@ -264,6 +267,198 @@ DOTASpectatorGameStatsPlayerRow.Dire #StatValueBarEnd {
 
 .Buyback_No_Details {
     color: defaultHUDText;
+}
+
+.ChatFacetIcon {
+    width: 19px;
+    height: 19px;
+    padding: 3px;
+    img-shadow: 0px 2px 8px black;
+    border-radius: 2px;
+}
+
+.facet_gradient_red_0 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#9f3c3c), to(#4a2040));
+}
+
+.facet_gradient_red_1 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#954533), to(#452732));
+}
+
+.facet_gradient_red_2 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#a3735e), to(#4f2a25));
+}
+
+.ChatFacetIcon.facet_color_red_0 {
+    box-shadow: fill #4a2040 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_red_1 {
+    box-shadow: fill #452732 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_red_2 {
+    box-shadow: fill #4f2a25 0px 0px 0px 0px;
+}
+
+.facet_gradient_yellow_0 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#c8a45c), to(#6f3d21));
+}
+
+.facet_gradient_yellow_1 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#c6a158), to(#604928));
+}
+
+.facet_gradient_yellow_2 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#cac194), to(#433828));
+}
+
+.facet_gradient_yellow_3 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#c3a99a), to(#4d352b));
+}
+
+.ChatFacetIcon.facet_color_yellow_0 {
+    box-shadow: fill #6f3d21 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_yellow_1 {
+    box-shadow: fill #604928 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_yellow_2 {
+    box-shadow: fill #433828 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_yellow_3 {
+    box-shadow: fill #4d352b 0px 0px 0px 0px;
+}
+
+.facet_gradient_green_0 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#a2b23e), to(#2d5a18));
+}
+
+.facet_gradient_green_1 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#7ec2b2), to(#29493a));
+}
+
+.facet_gradient_green_2 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#538564), to(#1c3d3f));
+}
+
+.facet_gradient_green_3 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#9a9f6a), to(#223824));
+}
+
+.facet_gradient_green_4 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#9fad8e), to(#3f4129));
+}
+
+.ChatFacetIcon.facet_color_green_0 {
+    box-shadow: fill #2d5a18 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_green_1 {
+    box-shadow: fill #29493a 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_green_2 {
+    box-shadow: fill #1c3d3f 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_green_3 {
+    box-shadow: fill #223824 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_green_4 {
+    box-shadow: fill #3f4129 0px 0px 0px 0px;
+}
+
+.facet_gradient_blue_0 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#727cb2), to(#342d5b));
+}
+
+.facet_gradient_blue_1 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#547ea6), to(#2a385e));
+}
+
+.facet_gradient_blue_2 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#6baebc), to(#135459));
+}
+
+.facet_gradient_blue_3 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#94b5ba), to(#385b59));
+}
+
+.ChatFacetIcon.facet_color_blue_0 {
+    box-shadow: fill #342d5b 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_blue_1 {
+    box-shadow: fill #2a385e 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_blue_2 {
+    box-shadow: fill #135459 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_blue_3 {
+    box-shadow: fill #385b59 0px 0px 0px 0px;
+}
+
+.facet_gradient_purple_0 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#b57789), to(#412755));
+}
+
+.facet_gradient_purple_1 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#9c70a4), to(#282752));
+}
+
+.facet_gradient_purple_2 {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#675cae), to(#261c44));
+}
+
+.ChatFacetIcon.facet_color_purple_0 {
+    box-shadow: fill #412755 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_purple_1 {
+    box-shadow: fill #282752 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_purple_2 {
+    box-shadow: fill #261c44 0px 0px 0px 0px;
+}
+
+.facet_gradient_gray_0 .FacetBackground {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#565c61), to(#1b1b21));
+}
+
+.facet_gradient_gray_1 .FacetBackground {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#6a6d73), to(#29272c));
+}
+
+.facet_gradient_gray_2 .FacetBackground {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#95a9b1), to(#3e464f));
+}
+
+.facet_gradient_gray_3 .FacetBackground {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#adb6be), to(#4e5557));
+}
+
+.ChatFacetIcon.facet_color_gray_0 {
+    box-shadow: fill #1b1b21 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_gray_1 {
+    box-shadow: fill #29272c 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_gray_2 {
+    box-shadow: fill #3e464f 0px 0px 0px 0px;
+}
+
+.ChatFacetIcon.facet_color_gray_3 {
+    box-shadow: fill #4e5557 0px 0px 0px 0px;
 }
 
 .SpectatorMenuButton {

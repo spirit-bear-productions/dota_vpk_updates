@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTASettingsSlider {
     flow-children: down;
@@ -6,6 +6,11 @@ DOTASettingsSlider {
 
 #Title {
     width: fill-parent-flow(1);
+}
+
+.SearchedText {
+    color: white;
+    background-color: #4588e4;
 }
 
 #Slider {
@@ -18,10 +23,6 @@ DOTASettingsSlider.compressed #Slider {
 
 DOTASettingsSlider:disabled Panel Label {
     color: #333333;
-}
-
-DOTASettingsSlider Label {
-    color: #7d8688;
 }
 
 PopupSettings DOTASettingsSlider Label {
@@ -38,4 +39,8 @@ PopupSettings DOTASettingsSlider Label {
 #dota_minimap_hero_size Slider,
 #CameraSpeedSlider Slider {
     margin-bottom: 0px;
+}
+
+#BuybackProtectionSlider #Value {
+    color: gradient(linear, 0% 0%, 0% 100%, from(#ffe89c), to(#856d20));
 }

@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 #DOTAAghsStatusDisplay {
     horizontal-align: center;
@@ -87,7 +87,6 @@
 #AghsAquireEffects {
     width: 96px;
     height: 96px;
-    margin-bottom: -18px;
     vertical-align: middle;
     horizontal-align: center;
     z-index: 10;
@@ -98,4 +97,13 @@
 #AghsShardStatusConversion {
     width: 100%;
     height: 100%;
+}
+
+#AghsStatusContainer.Scoreboard {
+    width: 30px;
+    height: 42px;
+    margin-right: 8px;
+    vertical-align: center;
+    margin-bottom: 0;
+    margin-left: 0;
 }

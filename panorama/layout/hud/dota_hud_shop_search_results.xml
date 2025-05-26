@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -21,7 +21,6 @@
 		</snippet>
 		<snippet name="StatToggle">
 			<Button class="StatToggle">
-				<Label text="+" hittest="false" />
 				<Label text="{s:stat_name}" hittest="false" html="true" />
 			</Button>
 		</snippet>

@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 .Title {
     font-family: monospace;
@@ -63,7 +63,6 @@
 
 .BodyContainer {
     vertical-align: center;
-    opacity: 0;
     transition-property: opacity;
     transition-duration: 0.2s;
 }
@@ -75,6 +74,7 @@
 .BodyContainer .BetsAvailableContainer {
     flow-children: down;
     horizontal-align: center;
+    visibility: collapse;
 }
 
 .BodyContainer #FighterContainer {
@@ -267,6 +267,7 @@
 .BetResourceInstructions {
     horizontal-align: center;
     text-align: center;
+    visibility: collapse;
 }
 
 .TakeTokensButton {
@@ -277,6 +278,17 @@
 
 .DialogueComplete .TakeTokensButton {
     opacity: 1;
+}
+
+.PopupPanel.Encounter.PitFighter.ComeBackLater .ComeBackLaterButton {
+    visibility: collapse;
+}
+
+.NotAvailable {
+    horizontal-align: center;
+    font-family: titleFont;
+    color: whitesmoke;
+    text-shadow: 0px 2px 12px black;
 }
 
 @keyframes 'GlowToken' {

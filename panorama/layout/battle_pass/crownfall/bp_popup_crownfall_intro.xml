@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -12,6 +12,7 @@
 	<Panel class="PopupPanel CrownfallIntro Hidden" popupbackground="dim" oncancel="UIPopupButtonClicked()">
 		<Panel class="WelcomeTitleContainer">
 			<Label class="WelcomeTitle" text="#DOTA_Crownfall_Guide_Header" />
+			<Label class="EventExpired BodyMedium" text="#DOTA_Crownfall_Guide_Header_EventExpired" />
 		</Panel>
 		<Panel class="ShowTokens" id="MainBody">
 			<Panel class="LeftNavigation">

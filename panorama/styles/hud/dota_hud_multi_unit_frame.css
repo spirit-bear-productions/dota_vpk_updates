@@ -1,9 +1,10 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTAMultiUnitFrame {
     opacity: 1;
     width: 38px;
     height: 41px;
+    cursor: pass-through;
 }
 
 DOTAMultiUnitFrame.Hidden {

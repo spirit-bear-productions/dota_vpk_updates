@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 DOTAHeroFacetPickerPopup {
     flow-children: down;
@@ -9,6 +9,10 @@ DOTAHeroFacetPickerPopup {
     border: 2px solid black;
     vertical-align: center;
     horizontal-align: center;
+}
+
+DOTAHeroFacetPickerPopup.Hidden {
+    visibility: collapse;
 }
 
 #HeaderRow {

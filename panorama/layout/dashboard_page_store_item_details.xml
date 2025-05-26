@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -221,6 +221,10 @@
 								<Panel id="icon_replacement" class="ListedModifier">
 									<Panel class="ModifierIcon icon_replacement" />
 									<Label text="#DOTA_tooltip_econ_item_modifier_icon" />
+								</Panel>
+								<Panel id="mvp_map_override" class="ListedModifier">
+									<Panel class="ModifierIcon icon_replacement" />
+									<Label text="#DOTA_tooltip_econ_item_modifier_mvp_map_override" />
 								</Panel>
 							</Panel>
 						</Panel>

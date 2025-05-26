@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -127,7 +127,7 @@
 					<DOTAParticleScenePanel class="ActiveParticles" hittest="false" particleName="particles/econ/items/spectre/spectre_arcana/spectre_arcana_radiance_owner_magic.vpcf" renderdeferred="true" particleonly="false" startActive="true" cameraOrigin="0 50 200" lookAt="0 -600 400" fov="110" />
 					<Panel class="ActDetailsContainer">
 						<Label class="ActName LabelExtraLarge" text="#DOTA_Crownfall_Background_IceWrack" html="true" />
-						<Label class="ActDate LabelSmall" text="#DOTA_Crownfall_PlayNow" />
+						<Label class="ActDate LabelSmall" text="#DOTA_Crownfall_Overworld_Continue" />
 					</Panel>
 					<Panel class="ActStatus">
 						<Image class="ActStatusBadge" src="s2r://panorama/images/events/crownfall/dashboard/quest_completion_badge_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
@@ -181,41 +181,34 @@
 					</Panel>
 				</Panel>
 			</Panel>
-			<Image class="Emblem_2 HorizontalCenter" src="s2r://panorama/images/events/crownfall/buttons/emblem_2_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
 			<Panel class="FooterActions">
 				<Panel class="ArcanaInfoContainer Left" onactivate="DOTAShowBPCrownfallStoreItemWithStyle( 22722, 2 ); ">
 					<Image class="CornerBorder" src="s2r://panorama/images/events/crownfall/emblems/corner_border_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
 					<Label class="ArcanaHeroName BodySmall LighterGreyText" text="#DOTA_Crownfall_Background_Queen_Imperia" />
 					<Label class="ViewDetailsLink LabelSmall" text="#DOTA_Crownfall_FrontPage_ViewArcana" />
 				</Panel>
-				<Panel id="CCLinkLeft" class="CCLinkInfoContainer Left" onactivate="DOTAShowTreasurePage( 29639 )">
+				<Panel id="CCLinkLeft" class="CCLinkInfoContainer Left" onactivate="DOTAShowTreasurePage( 32609 )">
 					<Image class="CornerBorder" src="s2r://panorama/images/events/crownfall/emblems/corner_border_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
-					<Label class="ArcanaHeroName BodySmall LighterGreyText" text="#DOTA_CollectorsCache_Title" />
+					<Label class="ArcanaHeroName BodySmall LighterGreyText" text="#DOTA_Winter2024_HeroesHoard_TitleShort" />
 					<Label class="ViewDetailsLink LabelSmall" text="#DOTA_Treasure_ViewTreasure" />
 				</Panel>
 				<Panel class="FillWidth" />
-				<Panel class="LearnMoreButtons Act1">
-					<DOTACrownfallButton text="#DOTA_Crownfall_FrontPage_ReadComic" class="LearnMoreButton Secondary" onactivate="ShowComicPopup( crownfall_part_1 )" />
-					<DOTACrownfallButton text="#DOTA_Crownfall_FrontPage_WatchIntro" class="LearnMoreButton Secondary" onactivate="DOTAShowReferencePage( file://{resources}/layout/leaf_pages/dashboard_page_debut_skywrath_vengeful_arcana.xml )" />
-					<DOTACrownfallButton text="#DOTA_Crownfall_FrontPage_VisitWebsite" class="LearnMoreButton Secondary" onactivate="ExternalBrowserGoToDOTAURL( crownfall )" />
-				</Panel>
-				<Panel class="LearnMoreButtons Act2">
-					<Label class="BackstoryLabel" text="#DOTA_Crownfall_FrontPage_BackStoryLabel" />
-					<DOTACrownfallButton text="#DOTA_Crownfall_FrontPage_ReadComic_Act2" class="LearnMoreButton Secondary" onactivate="ShowComicPopup( act2_intro )" />
-				</Panel>
-				<Panel class="LearnMoreButtons Act3">
-					<Label class="BackstoryLabel" text="#DOTA_Crownfall_FrontPage_BackStoryLabel" />
-					<DOTACrownfallButton text="#DOTA_Crownfall_FrontPage_ReadComic_Act3" class="LearnMoreButton Secondary" onactivate="ShowComicPopup( act3_intro )" />
-				</Panel>
-				<Panel class="LearnMoreButtons Act4">
-					<DOTACrownfallButton text="#DOTA_Crownfall_FrontPage_KezComic" class="LearnMoreButton Secondary" onactivate="ShowComicPopup( act4_ascension_night )" />
-					<DOTACrownfallButton text="#DOTA_Crownfall_FrontPage_KezDebut" class="LearnMoreButton Secondary" onactivate="DOTAShowReferencePage( file://{resources}/layout/leaf_pages/dashboard_page_debut_kez.xml )" />
-					<DOTACrownfallButton text="#DOTA_Crownfall_FrontPage_KezWebsite" class="LearnMoreButton Secondary" onactivate="ExternalBrowserGoToDOTAURL( kez )" />
+				<Panel class="Credits">
+					<Panel class="SkyVengeContainer">
+						<AnimatedImageStrip class="Skywrath Character" frametime="100ms" loop="true" framewidth="54px" src="s2r://panorama/images/emoticons/crownfall/p_sky_idle_psd.vtex" />
+						<AnimatedImageStrip class="Venge Character" frametime="85ms" loop="true" framewidth="44px" src="s2r://panorama/images/emoticons/crownfall/p_venge_idle_psd.vtex" />
+					</Panel>
+					<Panel class="CreditsButtonContainer">
+						<Panel class="Dash Left" />
+						<DOTACrownfallButton class="CreditsButton Secondary" text="#DOTA_Crownfall_Play_Credits" onactivate="DOTAShowBPCrownfallCreditsPage()" />
+						<Panel class="Dash Right" />
+					</Panel>
+					<AnimatedImageStrip class="Imperia Character" frametime="100ms" loop="true" src="s2r://panorama/images/emoticons/crownfall/p_imperia_idle_psd.vtex" />
 				</Panel>
 				<Panel class="FillWidth" />
-				<Panel id="CCLinkRight" class="CCLinkInfoContainer Right" onactivate="DOTAShowTreasurePage( 29639 )">
+				<Panel id="CCLinkRight" class="CCLinkInfoContainer Right" onactivate="DOTAShowTreasurePage( 32609 )">
 					<Image class="CornerBorder" src="s2r://panorama/images/events/crownfall/emblems/corner_border_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
-					<Label class="ArcanaHeroName BodySmall LighterGreyText" text="#DOTA_CollectorsCache_Title" />
+					<Label class="ArcanaHeroName BodySmall LighterGreyText" text="#DOTA_Winter2024_HeroesHoard_TitleShort" />
 					<Label class="ViewDetailsLink LabelSmall" text="#DOTA_Treasure_ViewTreasure" />
 				</Panel>
 				<Panel class="ArcanaInfoContainer Right" onactivate="DOTAGoToHeroPage( 145 )">

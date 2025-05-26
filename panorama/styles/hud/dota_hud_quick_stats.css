@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 @import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 DOTAQuickStats {
@@ -36,9 +36,10 @@ DOTAQuickStats.Hidden {
     transition-property: opacity;
     transition-duration: 0.12s;
     transition-timing-function: ease-in-out;
-    background-color: gradient(linear, 0% 0%, 100% 0%, from(#425663cc), color-stop(0.5, #42566355), to(#0000));
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#425663cc), color-stop(0.7, #42566377), to(#0000));
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 16px;
+    padding-bottom: 2px;
     flow-children: down;
     width: fit-children;
 }
@@ -108,7 +109,7 @@ DOTAQuickStats.Hidden {
     letter-spacing: 1px;
     text-align: left;
     horizontal-align: left;
-    margin-top: 2px;
+    margin-top: 4px;
 }
 
 #spectator_quickstats .SlashLabel {
@@ -130,20 +131,24 @@ DOTAQuickStats.Hidden {
 }
 
 .QuickStatLabel {
-    color: #b2b2b2;
+    color: #c1cdd7;
     font-weight: bold;
     font-size: 16px;
-    text-shadow: 1px 1px 1px 2 #00000099;
+    text-shadow: 0px 1px 6px 3 #00000099;
     width: fit-children;
     horizontal-align: center;
 }
 
+.QuickStatContainerMargin {
+    margin-top: 2px;
+}
+
 .QuickStatValue {
     flow-children: down;
-    color: #fffa;
-    font-weight: thin;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
     font-size: 16px;
-    text-shadow: 1px 1px 1px 2 #00000099;
+    text-shadow: 0px 1px 6px 3 #00000099;
     width: fit-children;
     text-align: center;
     font-family: monospaceNumbersFont;
@@ -162,18 +167,18 @@ DOTAQuickStats.Hidden {
 
 .QuickStatLabelHeader,
 .QuickStatColumnHeader {
-    color: #a3b5d0cc;
-    font-weight: thin;
+    color: #c1d1e9;
+    font-weight: normal;
     text-align: left;
     horizontal-align: left;
     margin-top: 2px;
 }
 
 .SlashLabel {
-    color: #9dafcb;
+    color: #c1d1e9;
     font-size: 16px;
     margin-left: 0px;
-    text-shadow: 1px 1px 1px 2 #00000033;
+    text-shadow: 0px 1px 3px 2 #000000;
     margin-right: 2px;
 }
 

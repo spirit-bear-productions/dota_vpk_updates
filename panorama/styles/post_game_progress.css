@@ -1,4 +1,4 @@
-/* Prettified by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io */
+/* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 @import url("s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c");
 @define BattlePassProgressFadeTime: 0.1s;
@@ -7806,6 +7806,16 @@ DOTAGuildContract {
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.3s;
+}
+
+#MVPMap {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+}
+
+#MVPMap.MapFadeIn {
+    opacity: 1;
 }
 
 #MVP2Screen #MVPModel.SceneLoaded.MVPModelAnimateIn {

@@ -1,4 +1,4 @@
-<!-- xml reconstructed by Source 2 Viewer 9.2.0.0 - https://valveresourceformat.github.io -->
+<!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
@@ -67,7 +67,9 @@
 				<Panel id="DayTime" class="TimeOfDayIcon DayIcon" />
 				<Panel id="NightTime" class="TimeOfDayIcon NightIcon" />
 			</Panel>
-			<DOTAHeroImage id="NightstalkerNight" class="TimeOfDayIcon" heroname="npc_dota_hero_night_stalker" heroimagestyle="icon" />
+			<DOTAHeroImage id="NightstalkerNight" class="TimeOfDayIcon NightstalkerIcon" heroname="npc_dota_hero_night_stalker" heroimagestyle="icon" />
+			<DOTAHeroImage id="PhoenixDayIcon" class="TimeOfDayIcon PhoenixIcon" heroname="npc_dota_hero_phoenix" heroimagestyle="icon" />
+			<DOTAHeroImage id="LunaNightIcon" class="TimeOfDayIcon LunaIcon" heroname="npc_dota_hero_luna" heroimagestyle="icon" />
 			<Label id="GameTime" text="{s:time_of_day}" hittest="false" />
 		</Panel>
 		<Panel id="DayGlow" hittest="false" />
@@ -94,5 +96,6 @@
 			</Panel>
 		</Panel>
 		<Panel id="TopBarRightFlare" always-cache-composition-layer="true" />
+		<DOTATimers />
 	</DOTATopBar>
 </root>
