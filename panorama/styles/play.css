@@ -1030,6 +1030,7 @@ DOTAPlay.SearchingCountVisible #SearchingCount {
     vertical-align: center;
     background-image: url("s2r://panorama/images/events/crownfall/control_icons/minigames_button_hover_png.vtex");
     background-size: contain;
+    background-repeat: no-repeat;
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.1s;
@@ -1037,7 +1038,7 @@ DOTAPlay.SearchingCountVisible #SearchingCount {
 
 #DashboardGames .DashboardGamesGlow {
     width: 36px;
-    height: 36px;
+    height: 41px;
     background-color: gradient(
         radial,
         50% 50%,
@@ -1050,6 +1051,7 @@ DOTAPlay.SearchingCountVisible #SearchingCount {
     blur: gaussian(8px);
     horizontal-align: center;
     vertical-align: center;
+    background-repeat: no-repeat;
     brightness: 2;
     overflow: noclip;
     transition-property: transform, opacity;
