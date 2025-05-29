@@ -115,7 +115,8 @@
 
 .DeliveringToHero #DeliverItemsButton .CourierButton,
 .GoingToFountain #DeliverItemsButton .CourierButton,
-.GoingToSecretShop #DeliverItemsButton .CourierButton {
+.GoingToSecretShop #DeliverItemsButton .CourierButton,
+.AtSecretShop #DeliverItemsButton .CourierButton {
     visibility: collapse;
 }
 
@@ -167,6 +168,7 @@
 
 .DeliveringToHero #Spinner,
 .GoingToFountain #Spinner,
+.Moving #Spinner,
 .GoingToSecretShop #Spinner {
     visibility: visible;
 }
@@ -286,7 +288,8 @@
     visibility: collapse;
 }
 
-.GoingToSecretShop #SecretShopImage {
+.GoingToSecretShop #SecretShopImage,
+.AtSecretShop #SecretShopImage {
     visibility: visible;
 }
 
