@@ -921,7 +921,13 @@ DOTAHUDShop.ShowSecretShop #SecretShopButton:hover {
 
 #GridUpgradeItems.ShopItemsRows #ShopItemsContainer DOTAShopItem {
     ui-scale: 95%;
-    margin-top: 0px;
+    margin-top: 1px;
+    width: 38px;
+}
+
+#GridUpgradeItems .ShopItemRowContainer,
+#GridBasicItems .ShopItemRowContainer {
+    margin-top: 4px;
 }
 
 .ShopLarge #GridUpgradeItems.ShopItemsRows #ShopItemsContainer DOTAShopItem {
