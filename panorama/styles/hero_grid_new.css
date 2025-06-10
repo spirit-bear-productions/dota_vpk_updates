@@ -314,6 +314,10 @@ TextEntry {
     ui-scale: 77%;
 }
 
+.ConfigPreset_Roles .HeroCategory .HeroCard {
+    height: 75px;
+}
+
 .HeroCategory #HeroList {
     flow-children: right-wrap;
     padding: heroListPadding;
