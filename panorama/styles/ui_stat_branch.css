@@ -181,6 +181,11 @@ DOTAUIStatBranch.EditorMode .StatBonusLabel {
     vertical-align: center;
 }
 
+.AbilityDraftHeroTooltip .ReqLabel {
+    color: #aaa;
+    text-shadow: none;
+}
+
 .BranchActive .ReqLabel {
     color: #ffffff;
 }
@@ -257,6 +262,10 @@ DOTAUIStatBranch.EditorMode .ChoiceArrow {
     margin-top: 6px;
     margin-bottom: 4px;
     vertical-align: top;
+}
+
+.HideBranchTitle #BranchTitle {
+    visibility: collapse;
 }
 
 .LeftBranch .BranchHighlight {

@@ -6263,12 +6263,12 @@ a.PurchasePlusLink {
 }
 
 .ButtonPrimary.DotaPlus {
-    background-color: dotaPlusGoldGradientVertical;
-    border-brush: WhiteGradientBorderStrong;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#a1793d), to(#5b4216));
+    border-brush: WhiteGradientBorderMedium;
 }
 
 .ButtonPrimary.DotaPlus:active:enabled:not(.Disabled) {
-    background-color: dotaPlusGoldGradientVerticalInverted;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#5b4216), to(#a1793d));
 }
 
 .ButtonPrimary.Purple {
