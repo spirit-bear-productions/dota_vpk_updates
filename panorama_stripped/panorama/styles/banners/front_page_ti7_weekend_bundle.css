@@ -1,0 +1,132 @@
+.FrontpageCell {
+    background-color: black;
+}
+
+#BattleBundleScene {
+    width: 100%;
+    height: 100%;
+    hue-rotation: -160deg;
+    z-index: -1;
+}
+
+.PercentOffLabel {
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    horizontal-align: right;
+    transform: rotateZ(10deg);
+    margin-top: 48px;
+    margin-right: 16px;
+
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 0px 4px 3 #000000;
+    background-color: #31cafbaa;
+    padding: 0px 12px -6px 16px;
+    box-shadow: #000000 0px 0px 4px 0px;
+    border-radius: 8px;
+    border: 2px solid #1a424dde;
+}
+
+.IncludesContainer {
+    width: 100%;
+    vertical-align: bottom;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+#BattleLevelBundlePanel .FrontpageCellImage {
+    background-color: gradient(
+        radial,
+        50% 40%,
+        0% 0%,
+        300px 300px,
+        from(#67a3bb),
+        color-stop(0.5, #517a9411),
+        to(#000000ff)
+    );
+    z-index: -2;
+}
+
+#80Container {
+    vertical-align: middle;
+    margin-bottom: -10px;
+}
+
+.BattleLevelsLabel,
+.Plus {
+    color: #a6daff;
+
+    vertical-align: middle;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.Plus {
+    margin-bottom: 5px;
+}
+
+#BundleTitle {
+    font-size: 32px;
+    text-overflow: shrink;
+    height: 50px;
+    letter-spacing: 2px;
+    margin: 0px;
+    text-align: center;
+    horizontal-align: center;
+    margin-right: 16px;
+    margin-left: 0px;
+    margin-bottom: -4px;
+    color: #a6daff;
+    text-shadow: 0px 0px 8px 1 #2aaad5ee;
+    margin-bottom: 8px;
+    font-family: titleFont;
+}
+
+#BattleLevelBundlePanel .FrontpageCellTitle {
+    visibility: collapse;
+}
+
+#BattleLevelCircle {
+    margin-left: -4px;
+    width: 34px;
+    height: 32px;
+    vertical-align: center;
+    wash-color: #a6daff;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+
+    background-image: url("file://{images}/compendium/shield_icon_shadowed.psd");
+    background-size: cover;
+}
+
+.80levels {
+    horizontal-align: center;
+    text-align: center;
+    color: white;
+    padding-top: 1px;
+    letter-spacing: 1px;
+}
+
+.BundleText {
+    text-transform: uppercase;
+    color: #a6daff;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.BundleIncludes.BundleText {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    color: #69a4be;
+    text-shadow: 1px 1px 1px 2 #000;
+}
+
+#BundlePurchaseButton {
+    horizontal-align: center;
+    margin-left: -8px;
+}

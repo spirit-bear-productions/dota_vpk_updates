@@ -1,0 +1,20 @@
+DOTAAdditionalStylesTest {
+    flow-children: down;
+}
+
+DOTAAdditionalStylesTest:hover {
+    brightness: 2;
+}
+
+DOTAAdditionalStylesTest:active {
+    brightness: 1.5;
+}
+
+.TestPanel {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 4px;
+
+    background-color: testPanelColor;
+    border: testPanelBorder;
+}

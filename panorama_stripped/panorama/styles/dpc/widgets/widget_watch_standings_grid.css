@@ -1,0 +1,71 @@
+.TeamNoLogo {
+    background-image: url("file://{images}/dpc/placeholder_team.png");
+    height: 24px;
+    width: 24px;
+    visibility: collapse;
+    background-size: cover;
+    horizontal-align: center;
+    vertical-align: center;
+}
+
+.NoTeam .TeamNoLogo {
+    visibility: visible;
+}
+
+.Match {
+    width: 60px;
+    height: 40px;
+}
+
+.Empty {
+    width: 60px;
+    height: 40px;
+    background-color: #23313e88;
+}
+
+.Team {
+    width: 60px;
+    height: 40px;
+    background-color: #23313e88;
+}
+
+#TeamLogo {
+    height: 28px;
+    horizontal-align: center;
+    vertical-align: center;
+}
+
+.Row {
+    flow-children: right;
+}
+
+.TeamText {
+    horizontal-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    color: #758c8c;
+    visibility: collapse;
+}
+
+.NoTeamText {
+    horizontal-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    color: #758c8c;
+}
+
+.HasTeams .NoTeamText {
+    visibility: collapse;
+}
+
+.HasTeams .TeamText {
+    visibility: visible;
+}
+
+.Winning .TeamText {
+    color: #86f58b60;
+}
+
+.Losing .TeamText {
+    color: #72615f;
+}

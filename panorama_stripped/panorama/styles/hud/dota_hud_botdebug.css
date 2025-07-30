@@ -1,0 +1,336 @@
+DOTAHudBotDebug {
+    width: 400px;
+
+    horizontal-align: left;
+    vertical-align: top;
+
+    margin-left: 40px;
+    margin-top: 60px;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-bottom: 20px;
+
+    background-color: #00000099;
+
+    flow-children: down;
+
+    visibility: collapse;
+}
+
+.LaneHeader {
+    horizontal-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.LaneCol {
+    color: #cccccc;
+    border-bottom: 1px solid #999999;
+    width: 80px;
+    text-align: center;
+}
+
+.LaneCol1 {
+    margin-left: 50px;
+}
+
+.LaneCol2 {
+    margin-left: 150px;
+}
+
+.LaneCol3 {
+    margin-left: 250px;
+}
+
+#LaneValues Label {
+    font-size: 15px;
+    color: #cccccc;
+}
+
+#LaneValues .Lane2 {
+    margin-top: 20px;
+}
+
+#LaneValues .Lane3 {
+    margin-top: 40px;
+}
+
+#BotContainer,
+#PushLaneContainer,
+#DefendLaneContainer,
+#RoshanContainer,
+#FarmLaneContainer {
+    flow-children: down;
+}
+
+.DesireBar {
+    margin-left: 0px;
+}
+
+.DesireBar #Value {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    font-size: 12px;
+    color: white;
+}
+
+.DesireBar #Bar {
+    margin-left: 20px;
+    border: 1px solid black;
+
+    vertical-align: center;
+}
+
+#PushLaneContainer #Bar {
+    background-color: #e87c7c;
+}
+
+#DefendLaneContainer #Bar {
+    background-color: #7ce87c;
+}
+
+#FarmLaneContainer #Bar {
+    background-color: #dbcc27;
+}
+
+#RoshanValue {
+    margin-left: 100px;
+}
+
+#RoshanValue Label {
+    font-size: 16px;
+    color: #cccccc;
+}
+
+#RoshanContainer {
+    margin-left: 60px;
+}
+
+#RoshanContainer #Bar {
+    background-color: #6f7af2;
+}
+
+#Runes {
+    margin-top: 10px;
+    flow-children: down;
+    horizontal-align: center;
+
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+}
+
+#Runes Label {
+    font-size: 13px;
+    color: #cccccc;
+    margin-right: 10px;
+}
+
+DOTAHudBotDebug.Show {
+    visibility: visible;
+}
+
+.Bot {
+    flow-children: down;
+    width: 380px;
+}
+
+.Header {
+    color: yellow;
+    margin-left: 4px;
+    margin-top: 12px;
+}
+
+.Bot:hover .Header {
+    color: white;
+}
+
+.ExecutionTime {
+    horizontal-align: right;
+    vertical-align: top;
+
+    margin-top: 12px;
+
+    font-size: 15px;
+    color: #999999;
+}
+
+.TeamExecutionTime {
+    horizontal-align: right;
+    vertical-align: top;
+
+    margin-top: 4px;
+    margin-right: 4px;
+
+    font-size: 15px;
+    color: #999999;
+}
+
+.Power {
+    font-size: 11px;
+    color: #cccccc;
+    width: 50px;
+    margin-left: 4px;
+}
+
+.PowerBar {
+    width: 0px;
+    height: 10px;
+
+    margin-top: 2px;
+    margin-left: 35px;
+    border: 1px solid black;
+}
+
+#PowerContainer {
+    margin-left: 20px;
+}
+
+#ModeContainer {
+    margin-left: 20px;
+    flow-children: down;
+}
+
+#ActionContainer {
+    margin-left: 24px;
+}
+
+#ActiveActionLabel {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.PowerLabel {
+    vertical-align: center;
+    color: #dddddd;
+}
+
+.PowerLabel {
+    margin-left: 4px;
+}
+
+.PowerAndBar {
+    margin-left: 60px;
+}
+
+#PowerMax {
+    margin-top: 12px;
+}
+
+#PowerBarCurrent {
+    background-color: #5da1c4;
+}
+
+#PowerBarMax {
+    background-color: #0085b7;
+}
+
+#ActiveModeLabel {
+    margin-left: 4px;
+}
+
+#ModeList {
+    flow-children: down;
+    margin-left: 20px;
+
+    transition-property: height;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+
+    height: 0px;
+}
+
+.Expanded #ModeList {
+    height: 245px;
+}
+
+#ModeName {
+    font-size: 12px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+
+#ModeDesireBar {
+    width: 200px;
+    height: 8px;
+
+    vertical-align: center;
+
+    margin-left: 70px;
+
+    background-color: white;
+    border: 1px solid black;
+}
+
+.ModeColor1 {
+    color: #c8a458;
+}
+.ModeColor2 {
+    color: #ff3c3c;
+}
+.ModeColor3 {
+    color: #ffa03c;
+}
+.ModeColor4 {
+    color: #3cff3c;
+}
+.ModeColor5 {
+    color: #3cffc8;
+}
+.ModeColor6 {
+    color: #3cffc8;
+}
+.ModeColor7 {
+    color: #ffff64;
+}
+.ModeColor8 {
+    color: #e87c7c;
+}
+.ModeColor9 {
+    color: #e87c7c;
+}
+.ModeColor10 {
+    color: #e87c7c;
+}
+.ModeColor11 {
+    color: #7ce87c;
+}
+.ModeColor12 {
+    color: #7ce87c;
+}
+.ModeColor13 {
+    color: #7ce87c;
+}
+.ModeColor14 {
+    color: #ffb45a;
+}
+.ModeColor15 {
+    color: #ffb45a;
+}
+.ModeColor16 {
+    color: #f08c28;
+}
+.ModeColor17 {
+    color: #dbcc27;
+}
+.ModeColor18 {
+    color: #ff3cb4;
+}
+.ModeColor19 {
+    color: #aaaaff;
+}
+.ModeColor20 {
+    color: #6f7af2;
+}
+.ModeColor21 {
+    color: #9d3838;
+}
+.ModeColor22 {
+    color: #9d389d;
+}
+.ModeColor23 {
+    color: #ff0000;
+}
+.ModeColor24 {
+    color: #ff0000;
+}

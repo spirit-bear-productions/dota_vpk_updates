@@ -1,0 +1,8 @@
+.DashboardPage {
+    flow-children: down;
+    overflow: scroll;
+}
+
+.MMSimulation {
+    font-size: 36px;
+}
