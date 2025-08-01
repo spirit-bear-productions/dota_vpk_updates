@@ -37,7 +37,8 @@ var SetShowingProgress = function (bShowProgress) {
         $("#ModelBackground").FireEntityInput("hero", "SetActivityModifier", "debut_left");
         $("#ModelBackground").FireEntityInput("hero", "SetActivity", "ACT_DOTA_TRANSITION");
 
-        $.Schedule(3.0, function () {
+        $.Schedule(3.0, function () //7.1
+        {
             g_bIsTransitioningShowingProgress = false;
         });
 
@@ -104,6 +105,7 @@ var ToggleShowingProgress = function () {
 $.GetContextPanel().SetDialogVariableInt("arcana_item_def", 12451);
 
 var RunPageAnimation = function () {
+    // Initial Setup
     $("#ModelContainer").RemoveAndDeleteChildren();
     $("#ModelContainer").BLoadLayoutSnippet("ModelSnippet");
 
@@ -121,10 +123,12 @@ var RunPageAnimation = function () {
 
     SetShowingProgress(false);
 
+    // Animations Track
     var seqAnim = new RunSequentialActions();
     seqAnim.actions.push(new WaitForClassAction($("#ModelBackground"), "SceneLoaded"));
     seqAnim.actions.push(
         new RunFunctionAction(function () {
+            //$( '#ModelBackground' ).FireEntityInput( 'hero_start', 'Disable', '' );
             $("#ModelBackground").FireEntityInput("hero", "Disable", "");
         }),
     );
@@ -134,13 +138,13 @@ var RunPageAnimation = function () {
             $("#ModelBackground").FireEntityInput("hero_start", "Disable", "");
         }),
     );
-    seqAnim.actions.push(new WaitAction(1.53));
+    seqAnim.actions.push(new WaitAction(1.53)); //6.23 f187
     seqAnim.actions.push(
         new RunFunctionAction(function () {
             $("#ModelBackground").FireEntityInput("hero", "Enable", "");
         }),
     );
-    seqAnim.actions.push(new WaitAction(0.97));
+    seqAnim.actions.push(new WaitAction(0.97)); //7.1
     seqAnim.actions.push(
         new RunFunctionAction(function () {
             $("#ModelBackground").FireEntityInput("arcana_prop_cube_1", "TurnOff", "");
@@ -168,7 +172,7 @@ var RunPageAnimation = function () {
         }),
     );
 
-    seqAnim.actions.push(new WaitAction(10.73));
+    seqAnim.actions.push(new WaitAction(10.73)); //17.83
     seqAnim.actions.push(
         new RunFunctionAction(function () {
             if (g_bButtonPressed == false) {
@@ -181,6 +185,7 @@ var RunPageAnimation = function () {
         }),
     );
 
+    // UI Track
     var seqUI = new RunSequentialActions();
     seqUI.actions.push(new WaitForClassAction($("#ModelBackground"), "SceneLoaded"));
     seqUI.actions.push(new WaitAction(0.1));
@@ -205,6 +210,7 @@ var RunPageAnimation = function () {
     seqUI.actions.push(new WaitAction(1.5));
     seqUI.actions.push(new AddClassAction($("#QualityContainer"), "Initialize"));
 
+    // Run the Animations and UI Track in Parallel
     var par = new RunParallelActions();
 
     par.actions.push(seqAnim);

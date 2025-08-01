@@ -1,6 +1,19 @@
+/**
+ * DRAGON KNIGHT PERSONA DEBUT PAGE
+ * file:    dashboard_page_debut_dragon_knight_persona.js
+ *
+ */
 var seq;
 var debug_animation = false;
 
+/**
+ * Samples a camera dof value between two ranges at time t following an ease-in,
+ * ease-out parametric:
+ *
+ * https://math.stackexchange.com/questions/121720/ease-in-out-function
+ *
+ * If a is set to 1 the ramp function is linear.
+ */
 var get_dof_value = function (
     start_dof,
     end_dof,
@@ -22,9 +35,14 @@ var get_dof_value = function (
 
     return function () {
         $("#ModelBackground").FireEntityInput("hero_camera", dof_property, sampled);
+        //$(model_id).FireEntityInput(camera_name, dof_property, sampled);
+        //$.Msg( msg_prefix + ": i = " + i_val.toString() + "/" + num_samples.toString() + ";" + dof_property + " = " + sampled.toString() );
     };
 };
 
+/**
+ * Main function linked to triggering the debut
+ */
 var RunPageAnimation = function () {
     seq = new RunSequentialActions();
 
@@ -39,14 +57,14 @@ var RunPageAnimation = function () {
             $.DispatchEvent("DOTASetCurrentDashboardPageFullscreen", true);
         }),
     );
-
+    //seq.actions.push( new WaitForClassAction( $( '#ModelBackground' ), 'SceneLoaded' ) );
     seq.actions.push(new WaitForClassAction($("#ModelForeground"), "SceneLoaded"));
     seq.actions.push(new WaitForClassAction($("#ModelForeground_FG"), "SceneLoaded"));
 
     seq.actions.push(new PlayAndTrackSoundAction("mirana_persona_debut_stinger"));
 
     seq.actions.push(new AddClassAction($("#MainContainer"), "Initialize"));
-
+    //seq.actions.push(new AddClassAction($('#ModelBackground'), 'Initialize'));
     seq.actions.push(new AddClassAction($("#ModelForeground"), "Initialize"));
     seq.actions.push(new AddClassAction($("#ModelForeground_FG"), "Initialize"));
     seq.actions.push(new AddClassAction($("#ModelForeground_alt"), "Initialize"));
@@ -68,9 +86,24 @@ var RunPageAnimation = function () {
         }),
     );
 
+    // enable mouse hover parallax (disable when blocking out camera animation)
+    /**
+    seq.actions.push( new RunFunctionAction( function() { $.DispatchEvent( 'DOTAGlobalSceneSetCameraEntity', 'ModelBackground', 'hero_camera_post', 4.0 );  } ) )
+    seq.actions.push( new RunFunctionAction( function() { $.DispatchEvent( 'DOTAGlobalSceneSetRootEntity', 'ModelBackground', 'root_post' ); } ) )
+    seq.actions.push(new LerpRotateAction($('#ModelBackground'), 0, 0, 0, 0, -.25, 0.25, -.1, .1, 0.1));
+
+    seq.actions.push( new RunFunctionAction( function() { $.DispatchEvent( 'DOTAGlobalSceneSetCameraEntity', 'ModelForeground', 'hero_camera_post', 4.0 );  } ) )
+    seq.actions.push( new RunFunctionAction( function() { $.DispatchEvent( 'DOTAGlobalSceneSetRootEntity', 'ModelForeground', 'root_post' ); } ) )
+    seq.actions.push(new LerpRotateAction($('#ModelForeground'), 0, 0, 0, 0, -.25, 0.25, -.1, .1, 0.1));
+    */
+
+    // play the sequences!
     RunSingleAction(seq);
 };
 
+/**
+ * post-callback assigned when leaving the debut
+ */
 var EndPageAnimation = function () {
     if (seq != undefined) {
         seq.finish();
@@ -79,7 +112,7 @@ var EndPageAnimation = function () {
     PlayAndTrackSoundAction.StopAllTrackedSounds();
 
     $("#MainContainer").RemoveClass("Initialize");
-
+    //$('#ModelBackground').RemoveClass('Initialize');
     $("#ModelForeground").RemoveClass("Initialize");
     $("#ModelForeground_FG").RemoveClass("Initialize");
     $("#ModelForeground_alt").RemoveClass("Initialize");
@@ -87,6 +120,8 @@ var EndPageAnimation = function () {
 
     $("#DebutInformation").RemoveClass("Initialize");
     $("#InformationBody").RemoveClass("Initialize");
+
+    //$.DispatchEvent('DOTAShowHomePage');
 };
 
 function alternateStyle() {

@@ -36,6 +36,7 @@ function panelHide() {
 }
 
 var OnPageSetupSuccess = function () {
+    // Disabling Fullscreen allows Menu UI to display
     $.DispatchEvent("DOTASetCurrentDashboardPageFullscreen", true);
 };
 
@@ -44,7 +45,7 @@ var RunPageAnimation = function () {
 
     $("#ModelContainer").RemoveAndDeleteChildren();
     $("#ModelContainer").BLoadLayoutSnippet("ModelSnippet");
-
+    // disabling camera rotation for locked camera
     $("#ModelBackground").SetRotateParams(0, 0, 0, 0);
 
     $("#MainContainer").RemoveClass("Initialize");
@@ -57,6 +58,9 @@ var RunPageAnimation = function () {
     $("#CloseButton").RemoveClass("Initialize");
     $("#AlternateStyleButton").RemoveClass("Initialize");
     $("#DefaultStyleButton").RemoveClass("Initialize");
+
+    // Disabling Fullscreen allows Menu UI to display
+    //$.DispatchEvent( 'DOTASetCurrentDashboardPageFullscreen', true );
 
     seq.actions.push(new WaitForClassAction($("#ModelBackground"), "SceneLoaded"));
     seq.actions.push(
@@ -75,7 +79,7 @@ var RunPageAnimation = function () {
     );
     seq.actions.push(new AddClassAction($("#MainContainer"), "Initialize"));
     seq.actions.push(new AddClassAction($("#ModelBackground"), "Initialize"));
-
+    // Waiting X seconds before flash happens
     seq.actions.push(new WaitAction(3.05));
     seq.actions.push(
         new RunFunctionAction(function () {
@@ -106,6 +110,7 @@ var RunPageAnimation = function () {
     seq.actions.push(new WaitAction(0.3));
     seq.actions.push(new AddClassAction($("#ItemLore"), "Initialize"));
 
+    // enabling camera movement
     seq.actions.push(new LerpRotateAction($("#ModelBackground"), 0, 0, 0, 0, -2, 2, -2, 2, 5.0));
 
     RunSingleAction(seq);

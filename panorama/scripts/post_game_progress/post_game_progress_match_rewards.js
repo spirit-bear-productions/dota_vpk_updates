@@ -1,3 +1,4 @@
+// Action to animate a hero badge xp increase
 class AnimateHeroBadgeXPIncreaseAction extends RunSequentialActions {
     constructor(panel, progress, xpAmount, xpValueStart, xpEarnedStart, xpLevelStart, resumeFromPreviousRow) {
         super();
@@ -82,6 +83,7 @@ class AnimateHeroBadgeXPIncreaseAction extends RunSequentialActions {
     }
 }
 
+// Action to display earning shards
 class AnimateShardRewardAction extends SkippableAction {
     constructor(panel, label, shardAmount, totalStart, currentShards) {
         super(null);
@@ -137,6 +139,7 @@ class AnimateShardRewardAction extends SkippableAction {
     }
 }
 
+// Action to display progress into shards
 class AnimateShardProgressAction extends SkippableAction {
     constructor(panel, label, progressValue, progressGoal, shardAmount, totalStart, currentShards) {
         super(null);
@@ -209,6 +212,7 @@ class AnimateShardProgressAction extends SkippableAction {
     }
 }
 
+// Action to display earning guild points
 class AnimateGuildPointsRewardAction extends SkippableAction {
     constructor(panel, label, totalStartPoints, increaseAmount) {
         super(null);
@@ -260,9 +264,11 @@ class AnimateMatchRewardsScreenAction extends RunSequentialActions {
     }
 
     start() {
+        // Create the screen
         var panel = StartNewScreen("MatchRewardsScreen");
         panel.BLoadLayoutSnippet("MatchRewardsProgress");
 
+        // Setup the sequence of actions to animate the screen
         this.actions.push(
             new RunFunctionAction(function () {
                 $.DispatchEvent("DOTASetDashboardBackgroundVisible", false);
@@ -311,8 +317,10 @@ class AnimateMatchRewardsScreenAction extends RunSequentialActions {
 
             var heroModel = heroLevelSection.FindChildInLayoutFile("MatchRewardsHeroLevelModel");
             if (typeof this.data.player_slot !== "undefined") {
+                // Use this normally when viewing the details
                 heroModel.SetScenePanelToPlayerHero(this.data.match_id, this.data.player_slot);
             } else {
+                // Use this for testing when we don't actually have match data
                 heroModel.SetScenePanelToLocalHero(this.data.hero_id);
             }
 
@@ -619,7 +627,7 @@ class AnimateMatchRewardsScreenAction extends RunSequentialActions {
                             nCurrentShards,
                         ),
                     );
-
+                    // this.actions.push( new AnimateShardProgressAction( panel, '#DOTA_PlusPostGame_FeaturedGameMode', dotaPlusProgress.featured_gamemode_wins, dotaPlusProgress.featured_gamemode_wins_goal, dotaPlusProgress.featured_gamemode_shard_reward, nTotalEarned, nCurrentShards ) );
                     nTotalEarned += nGainedShards;
                     nCurrentShards += nGainedShards;
                 }
@@ -768,6 +776,13 @@ function TestAnimateMatchRewards() {
     var data = {
         hero_id: 6,
 
+        // hero_badge_xp_start: 22850,
+
+        /* Uncomment to test what happens if leveling is plus restricted. */
+        // hero_badge_xp_start: 2500,
+        // hero_badge_xp_cap: 2749,
+
+        /* Uncomment to test what happens at max level */
         hero_badge_xp_start: 71850,
 
         hero_badge_progress: [

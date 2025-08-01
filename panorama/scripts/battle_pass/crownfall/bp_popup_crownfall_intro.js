@@ -3,6 +3,7 @@
 var sectionNames = ["Tokens", "Story", "Coins", "Candy", "Treasures", "Trinkets", "Store", "Schedule"];
 function NavigationSelect(sectionIndex) {
     if (sectionIndex < 0 || sectionIndex >= sectionNames.length) {
+        // Error
         return;
     }
     var mainBodyPanel = $("#MainBody");

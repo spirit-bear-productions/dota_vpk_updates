@@ -1,3 +1,5 @@
+//var debugNoClose = false;	// set this to true to stop the popup from automatically closing iteself
+
 function ResetAnim() {
     $.DispatchEvent(
         "DOTAGlobalSceneFireEntityInput",
@@ -8,6 +10,7 @@ function ResetAnim() {
         1,
     );
     $("#TeamContainer").RemoveClass("FadeIn");
+    //debugNoClose = true;
 }
 
 function EventDOTAPopupBattleCupWinnerAnimate() {
@@ -33,9 +36,12 @@ function Sequence_ShowWinnerTeam() {
     );
     $.DispatchEvent("DOTAGlobalSceneFireEntityInput", "Explosions", "treasure_opened_generic_part", "start", 1);
     $("#TeamContainer").AddClass("FadeIn");
+
+    // $.DispatchEventAsync( .9, 'PlaySoundEffect', "ui.weekend_tournament_winner_screen" );
 }
 
 function Sequence_Close() {
+    //if ( !debugNoClose )
     $.DispatchEvent("DOTAPopupBattleCupWinnerClose");
 }
 

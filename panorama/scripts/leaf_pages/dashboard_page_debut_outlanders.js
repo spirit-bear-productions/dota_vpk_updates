@@ -2,6 +2,7 @@ var RunPageAnimation = function () {
     var seq = new RunSequentialActions();
     var page = $.GetContextPanel();
 
+    // Disabling Fullscreen allows Menu UI to display
     $.DispatchEvent("DOTASetCurrentDashboardPageFullscreen", true);
 
     seq.actions.push(new WaitAction(0.5));

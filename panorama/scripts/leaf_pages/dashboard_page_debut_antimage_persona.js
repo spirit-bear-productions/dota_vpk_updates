@@ -2,6 +2,22 @@ var g_seq;
 var g_Stinger_SoundId;
 var g_SFX_SoundId;
 
+// VO Anim lengths, used as part of delay before next anim should play.
+// These are dereived from the anims themselves from antimage_female model
+// The anims start with 2, so 0 and 1 are set to 0
+//    12.33,      // 2
+//    8.33,       // 3
+//    8.33,       // 4
+//    14.66,      // 5
+//    14.66,      // 6
+//    3.33,       // 7
+//    3.0,        // 8
+//    2.33,       // 9
+//    6.33,       // 10
+//    2.5,        // 11
+//    3.0,        // 12
+//    4.83        // 13
+
 var RunPageAnimation = function () {
     g_seq = new RunSequentialActions();
 
@@ -36,6 +52,9 @@ var RunPageAnimation = function () {
     g_seq.actions.push(new WaitAction(4.0));
     g_seq.actions.push(new AddClassAction($("#DebutInformation"), "Initialize"));
     g_seq.actions.push(new AddClassAction($("#InformationBody"), "Initialize"));
+    //g_seq.actions.push( new AddClassAction( $( '#ItemName' ), 'Initialize' ) );
+    //g_seq.actions.push( new AddClassAction( $( '#InformationBodyBackground' ), 'Initialize' ) );
+    //g_seq.actions.push( new AddClassAction( $( '#ItemLore' ), 'Initialize' ) );
 
     g_seq.actions.push(new WaitAction(3.33));
 
@@ -44,6 +63,8 @@ var RunPageAnimation = function () {
             $("#AMModelBackground").SetRotateParams(-1, 1, -1, 1);
         }),
     );
+
+    //g_seq.actions.push(new WaitAction(7.33));
 
     g_seq.actions.push(
         new RunFunctionAction(function () {
@@ -134,6 +155,34 @@ var RunPageAnimation = function () {
             );
         }),
     );
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'meditation_06'); }))
+    // g_seq.actions.push(new WaitAction(14.66));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'antimage_persona_debut_anim_5s'); }))
+    // g_seq.actions.push(new WaitAction(5.0));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'meditation_07'); }))
+    // g_seq.actions.push(new WaitAction(3.33));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'antimage_persona_debut_anim_5s'); }))
+    // g_seq.actions.push(new WaitAction(5.0));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'meditation_08'); }))
+    // g_seq.actions.push(new WaitAction(3.0));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'antimage_persona_debut_anim_5s'); }))
+    // g_seq.actions.push(new WaitAction(5.0));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'meditation_09'); }))
+    // g_seq.actions.push(new WaitAction(2.33));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'antimage_persona_debut_anim_5s'); }))
+    // g_seq.actions.push(new WaitAction(5.0));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'meditation_010'); }))
+    // g_seq.actions.push(new WaitAction(6.33));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'antimage_persona_debut_anim_5s'); }))
+    // g_seq.actions.push(new WaitAction(5.0));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'meditation_011'); }))
+    // g_seq.actions.push(new WaitAction(2.5));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'antimage_persona_debut_anim_5s'); }))
+    // g_seq.actions.push(new WaitAction(5.0));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'meditation_012'); }))
+    // g_seq.actions.push(new WaitAction(3.0));
+    // g_seq.actions.push(new RunFunctionAction(function () { $('#AMModelBackground').FireEntityInput('antimage_persona', 'SetAnimation', 'antimage_persona_debut_anim_5s'); }))
+    // g_seq.actions.push(new WaitAction(5.0));
 
     RunSingleAction(g_seq);
 };
@@ -147,6 +196,9 @@ function closeFemaleAntimageDebutPage() {
     $("#AMModelBackground").RemoveClass("Initialize");
     $("#DebutInformation").RemoveClass("Initialize");
     $("#InformationBody").RemoveClass("Initialize");
+    //$( '#ItemName' ).RemoveClass( 'Initialize' );
+    //$( '#InformationBodyBackground' ).RemoveClass( 'Initialize' );
+    //$( '#ItemLore' ).RemoveClass( 'Initialize' );
 
     $.DispatchEvent("DOTAShowHomePage");
 }

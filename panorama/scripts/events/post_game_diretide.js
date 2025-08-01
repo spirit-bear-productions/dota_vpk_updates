@@ -85,6 +85,7 @@ function CreatePopuplateHeroScenesAction(data) {
     return vParallelContainer;
 }
 
+// Action to animate an integer dialog variable over some duration of seconds
 class AnimateCandyCountAction extends BaseAction {
     constructor(panel, dialogVariable, start, end, seconds) {
         super();
@@ -195,20 +196,20 @@ function CreateAwardAction(awardData, rootPanel) {
 
 function GetItemCategory(itemData) {
     switch (itemData.item_id) {
-        case 13562:
-        case 17626:
-        case 17664:
-        case 18371:
-        case 18380:
-        case 18372:
+        case 13562: //crate
+        case 17626: //calabaxa
+        case 17664: //diretide courier
+        case 18371: //pumpkin head
+        case 18380: //shader
+        case 18372: //spooky courier
             return "Tier3Reward";
-        case 18381:
-        case 18376:
-        case 18375:
-        case 18367:
-        case 18389:
-        case 17661:
-        case 13812:
+        case 18381: // Mega Kills
+        case 18376: // Kill Streak
+        case 18375: // Death Effect
+        case 18367: // Costume pack 1
+        case 18389: // Costume pack 2
+        case 17661: //Ward
+        case 13812: //Treasure
             return "Tier2Reward";
         default:
             return "Tier1Reward";
@@ -219,20 +220,20 @@ function GetItemCategory(itemData) {
 
 function GetItemTierNumber(itemData) {
     switch (itemData.item_id) {
-        case 13562:
-        case 17626:
-        case 17664:
-        case 18371:
-        case 18380:
-        case 18372:
+        case 13562: //crate
+        case 17626: //calabaxa
+        case 17664: //diretide courier
+        case 18371: //pumpkin head
+        case 18380: //shader
+        case 18372: //spooky courier
             return "3";
-        case 18381:
-        case 18376:
-        case 18375:
-        case 18367:
-        case 18389:
-        case 17661:
-        case 13812:
+        case 18381: // Mega Kills
+        case 18376: // Kill Streak
+        case 18375: // Death Effect
+        case 18367: // Costume pack 1
+        case 18389: // Costume pack 2
+        case 17661: //Ward
+        case 13812: //Treasure
             return "2";
         default:
             return "1";
@@ -259,6 +260,7 @@ function CreateItemRewardAction(itemData, rootPanel) {
             new RunFunctionAction(function () {
                 fxPanel.FireEntityInput("item_base_tier" + strItemTierNumber, "stop", 0);
                 fxPanel.FireEntityInput("item_base_tier" + strItemTierNumber, "start", 0);
+                /*$.DispatchEvent('PlaySoundEffect', 'ui_explosion');*/
             }),
         );
 
@@ -278,13 +280,14 @@ function CreateItemRewardAction(itemData, rootPanel) {
         vSequence.actions.push(new SwitchClassAction(kicker, "step", "Step1"));
     });
 
+    //vSequence.actions.push( new PlaySoundAction( "Diretide.Postgame.Award" ) );
     vSequence.actions.push(new PlaySoundAction("Diretide.Postgame.Award." + strItemCategory));
 
     vKickerPanels.forEach(function (kicker) {
         vSequence.actions.push(new SwitchClassAction(kicker, "step", "Step2"));
         var heroPanel = kicker.GetParent();
         heroPanel.nEventPoints = Math.max(heroPanel.nEventPoints - 100, 0);
-        var newPoints = heroPanel.nEventPoints;
+        var newPoints = heroPanel.nEventPoints; // Save off for closure in the RunFunctionAction...
         vSequence.actions.push(new RunFunctionAction(UpdateStackClasses, heroPanel, newPoints));
         vSequence.actions.push(new SetDialogVariableIntAction(heroPanel, "event_points", heroPanel.nEventPoints));
     });
@@ -322,6 +325,9 @@ $.GetContextPanel().CreatePostgameAction = function (data) {
     rootAction.actions.push(new WaitAction(2.5));
     rootAction.actions.push(new AddClassAction(rootPanel, "PointGrantInProgress"));
 
+    // Build the rewards in a specific order
+
+    // Participation
     data.diretide_rewards_progress.awards.forEach(function (awardData) {
         if (awardData.award_name == "#DOTA_Diretide_Candy_Reason1") {
             rootAction.actions.push(CreateAwardAction(awardData, rootPanel));
@@ -329,6 +335,7 @@ $.GetContextPanel().CreatePostgameAction = function (data) {
         }
     });
 
+    // Winners
     data.diretide_rewards_progress.awards.forEach(function (awardData) {
         if (awardData.award_name == "#DOTA_Diretide_Candy_Reason2") {
             rootAction.actions.push(CreateAwardAction(awardData, rootPanel));
@@ -336,6 +343,7 @@ $.GetContextPanel().CreatePostgameAction = function (data) {
         }
     });
 
+    // First win of the day
     data.diretide_rewards_progress.awards.forEach(function (awardData) {
         if (awardData.award_name == "#DOTA_Diretide_Candy_Reason9") {
             rootAction.actions.push(CreateAwardAction(awardData, rootPanel));
@@ -343,6 +351,7 @@ $.GetContextPanel().CreatePostgameAction = function (data) {
         }
     });
 
+    // All the rest
     data.diretide_rewards_progress.awards.forEach(function (awardData) {
         if (awardData.bDone === undefined) {
             rootAction.actions.push(CreateAwardAction(awardData, rootPanel));

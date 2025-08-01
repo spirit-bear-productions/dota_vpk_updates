@@ -1,6 +1,14 @@
+/**
+ * DRAGON KNIGHT PERSONA DEBUT PAGE
+ * file:    dashboard_page_debut_dragon_knight_persona.js
+ *
+ */
 var seq;
 var debug_animation = false;
 
+/**
+ * Main function linked to triggering the debut
+ */
 var RunPageAnimation = function () {
     seq = new RunSequentialActions();
 
@@ -18,6 +26,7 @@ var RunPageAnimation = function () {
         }),
     );
     seq.actions.push(new WaitForClassAction($("#ModelBackground"), "SceneLoaded"));
+    //seq.actions.push(new WaitForClassAction($('#ModelForeground'), 'SceneLoaded'));
 
     seq.actions.push(new PlayAndTrackSoundAction("razor_arcana_debut_stinger"));
     seq.actions.push(new PlayAndTrackSoundAction("razor_arcana_debut_sfx"));
@@ -25,8 +34,9 @@ var RunPageAnimation = function () {
     seq.actions.push(new AddClassAction($("#MainContainer"), "Initialize"));
     seq.actions.push(new AddClassAction($("#ModelBackground"), "Initialize"));
     seq.actions.push(new AddClassAction($("#ModelBackgroundAlt"), "Initialize"));
+    //seq.actions.push(new AddClassAction($('#ModelForeground'), 'Initialize'));
 
-    seq.actions.push(new WaitAction(7.7));
+    seq.actions.push(new WaitAction(7.7)); //(7.7)
 
     seq.actions.push(new AddClassAction($("#DebutInformation"), "Initialize"));
     seq.actions.push(new AddClassAction($("#InformationBody"), "Initialize"));
@@ -35,7 +45,11 @@ var RunPageAnimation = function () {
     seq.actions.push(new AddClassAction($("#SecondStyle"), "Initialize"));
     seq.actions.push(new AddClassAction($("#DefaultStyle"), "Initialize"));
 
-    seq.actions.push(new WaitAction(1.7));
+    // enable mouse hover parallax (disable when blocking out camera animation)
+    /**
+     */
+
+    seq.actions.push(new WaitAction(1.7)); //(0.4)
 
     seq.actions.push(
         new RunFunctionAction(function () {
@@ -58,9 +72,14 @@ var RunPageAnimation = function () {
         }),
     );
 
+    //seq.actions.push(new WaitAction(1.0));
+
+    //seq.actions.push(new LerpRotateAction($('#ModelBackground'), 0, 0, 0, 0, -.75, 0.75, -.5, .5, 0.5));
+    //seq.actions.push(new LerpRotateAction($('#ModelForeground'), 0, 0, 0, 0, -1, 2, 1, 1, 0.0));
     seq.actions.push(new LerpRotateAction($("#ModelBackground"), 0, 0, 0, 0, -0.7, 0.7, -0.3, 0.3, 0.0));
     seq.actions.push(new LerpRotateAction($("#ModelBackgroundAlt"), 0, 0, 0, 0, -0.7, 0.7, -0.3, 0.3, 0.0));
 
+    // play the sequences!
     RunSingleAction(seq);
 };
 
@@ -76,6 +95,9 @@ function originalStyle() {
     $.GetContextPanel().RemoveClass("ShowingAlternateStyle");
 }
 
+/**
+ * post-callback assigned when leaving the debut
+ */
 var EndPageAnimation = function () {
     if (seq != undefined) {
         seq.finish();
@@ -85,7 +107,10 @@ var EndPageAnimation = function () {
 
     $("#MainContainer").RemoveClass("Initialize");
     $("#ModelBackground").RemoveClass("Initialize");
+    //$('#ModelForeground').RemoveClass('Initialize');
 
     $("#DebutInformation").RemoveClass("Initialize");
     $("#InformationBody").RemoveClass("Initialize");
+
+    //$.DispatchEvent('DOTAShowHomePage');
 };

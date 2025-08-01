@@ -1,3 +1,5 @@
+//------------------ START DROW RANGER ARCANA PROGRESS ------------------------
+
 class AnimateDrowRangerArcanaScreenAction extends RunSequentialActions {
     constructor(data) {
         super();
@@ -13,6 +15,9 @@ class AnimateDrowRangerArcanaScreenAction extends RunSequentialActions {
         var endScore = this.data.arcana_progress.arcana_end_score;
         var incrementScore = endScore - startScore;
 
+        //$.Msg( "arcana progress drow ranger action deaths" + nDeaths );
+
+        // Create the screen and do a bunch of initial setup
         var panel = StartNewScreen("GenericArcanaProgressScreen");
         if (panel.BHasLayoutSnippet("ArcanaProgress_" + heroName)) {
             panel.BLoadLayoutSnippet("ArcanaProgress_" + heroName);
@@ -30,6 +35,7 @@ class AnimateDrowRangerArcanaScreenAction extends RunSequentialActions {
         var unstyledHeroModel = panel.FindChildTraverse("GenericArcanaModelUnstyled");
 
         if (typeof this.data.player_slot !== "undefined") {
+            // Use this normally when viewing the details
             if (heroModel) {
                 heroModel.SetScenePanelToPlayerHero(this.data.match_id, this.data.player_slot);
             }
@@ -37,6 +43,7 @@ class AnimateDrowRangerArcanaScreenAction extends RunSequentialActions {
                 unstyledHeroModel.SetScenePanelToPlayerHero(this.data.match_id, this.data.player_slot);
             }
         } else {
+            // Use this for testing when we don't actually have match data
             if (heroModel) {
                 heroModel.SetScenePanelToLocalHero(this.data.hero_id);
             }
@@ -51,6 +58,10 @@ class AnimateDrowRangerArcanaScreenAction extends RunSequentialActions {
             heroIcon.style.backgroundImage = 'url("' + sIconFile + '")';
         }
 
+        //unstyledHeroModel.SetHeroRotation( -1.5 );
+        //unstyledHeroModel.MarkSceneDirty();
+
+        // set up the hero model to use all of the items in the arcana bundle with the shown style
         var bundleItems = this.data.arcana_progress.arcana_bundle_items;
         var bundleSlots = this.data.arcana_progress.arcana_bundle_slots;
         var styleIndex = this.data.arcana_progress.style_index;
@@ -72,6 +83,7 @@ class AnimateDrowRangerArcanaScreenAction extends RunSequentialActions {
 
         panel.SetHasClass("OnlyFlawlessVictory", incrementScore == 0);
 
+        // handle fractional scores
         if (incrementScore === Math.floor(incrementScore)) {
             panel.SetDialogVariable("arcana_progress_increment", incrementScore);
         } else {
@@ -123,6 +135,7 @@ class AnimateDrowRangerArcanaScreenAction extends RunSequentialActions {
         progressBar.max = this.data.arcana_progress.arcana_max_score;
         progressBar.value = startScore;
 
+        // Setup the sequence of actions to animate the screen
         var sndStinger = $.Localize("#DOTA_ArcanaProgress_Stinger_" + heroName, panel);
         if (sndStinger) {
             this.actions.push(
@@ -135,6 +148,7 @@ class AnimateDrowRangerArcanaScreenAction extends RunSequentialActions {
         this.actions.push(new AddClassAction(panel, "ShowScreen"));
         this.actions.push(new StopSkippingAheadAction());
         this.actions.push(new SkippableAction(new WaitAction(0.5)));
+        //this.actions.push( new AddScreenLinkAction( panel, 'GenericArcanaProgress', '#DOTA_PostGame_GenericArcanaProgress' ) );
 
         this.actions.push(
             new RunFunctionAction(function () {
@@ -156,6 +170,7 @@ class AnimateDrowRangerArcanaScreenAction extends RunSequentialActions {
             new RunFunctionAction(function () {
                 panel.TriggerClass("PulseScore");
                 panel.AddClass("ProgressComplete");
+                //$.DispatchEvent('PlaySoundEffect', 'wraith_king_arcana_postgame_stinger');
             }),
         );
 
@@ -188,6 +203,10 @@ class AnimateDrowRangerArcanaScreenAction extends RunSequentialActions {
     }
 }
 
+//------------------ END DROW RANGER ARCANA PROGRESS ------------------------
+
+// Rubick Arcana
+
 class AnimateRubickArcanaScreenAction extends RunSequentialActions {
     constructor(data) {
         super();
@@ -197,13 +216,16 @@ class AnimateRubickArcanaScreenAction extends RunSequentialActions {
     start() {
         var heroID = this.data.hero_id;
 
+        // Create the screen and do a bunch of initial setup
         var panel = StartNewScreen("RubickArcanaProgressScreen");
         panel.BLoadLayoutSnippet("RubickArcanaProgress");
 
         var heroModel = panel.FindChildInLayoutFile("RubickArcanaModel");
         if (typeof this.data.player_slot !== "undefined") {
+            // Use this normally when viewing the details
             heroModel.SetScenePanelToPlayerHero(this.data.match_id, this.data.player_slot);
         } else {
+            // Use this for testing when we don't actually have match data
             heroModel.SetScenePanelToLocalHero(this.data.hero_id);
         }
 
@@ -213,6 +235,7 @@ class AnimateRubickArcanaScreenAction extends RunSequentialActions {
 
         var endScore = this.data.rubick_arcana_progress.arcana_end_score;
 
+        // Setup the sequence of actions to animate the screen
         this.actions.push(new AddClassAction(panel, "ShowScreen"));
         this.actions.push(new SkippableAction(new WaitAction(0.5)));
         this.actions.push(
@@ -238,6 +261,8 @@ class AnimateRubickArcanaScreenAction extends RunSequentialActions {
     }
 }
 
+// Wraith King Arcana
+
 class AnimateWraithKingArcanaScreenAction extends RunSequentialActions {
     constructor(data) {
         super();
@@ -247,6 +272,7 @@ class AnimateWraithKingArcanaScreenAction extends RunSequentialActions {
     start() {
         var heroID = this.data.hero_id;
 
+        // Create the screen and do a bunch of initial setup
         var panel = StartNewScreen("WraithKingArcanaProgressScreen");
         panel.BLoadLayoutSnippet("WraithKingArcanaProgress");
 
@@ -259,6 +285,7 @@ class AnimateWraithKingArcanaScreenAction extends RunSequentialActions {
         wraithKingPanel.Reset();
         wraithKingPanel.RemoveClass("ShowProgressSection");
 
+        // Setup the sequence of actions to animate the screen
         this.actions.push(new SkippableAction(new WaitAction(0.1)));
         this.actions.push(new SkippableAction(new WaitForClassAction(wraithKingPanel, "BackgroundImageLoaded")));
         this.actions.push(new SkippableAction(new WaitAction(0.2)));
@@ -333,6 +360,8 @@ class AnimateWraithKingArcanaScreenAction extends RunSequentialActions {
     }
 }
 
+// Generic Arcana Progress
+
 class AnimateGenericArcanaScreenAction extends RunSequentialActions {
     constructor(data) {
         super();
@@ -346,6 +375,7 @@ class AnimateGenericArcanaScreenAction extends RunSequentialActions {
         var endScore = this.data.arcana_progress.arcana_end_score;
         var incrementScore = endScore - startScore;
 
+        // Create the screen and do a bunch of initial setup
         var panel = StartNewScreen("GenericArcanaProgressScreen");
         if (panel.BHasLayoutSnippet("ArcanaProgress_" + heroName)) {
             panel.BLoadLayoutSnippet("ArcanaProgress_" + heroName);
@@ -361,6 +391,7 @@ class AnimateGenericArcanaScreenAction extends RunSequentialActions {
         var unstyledHeroModel = panel.FindChildTraverse("GenericArcanaModelUnstyled");
 
         if (typeof this.data.player_slot !== "undefined") {
+            // Use this normally when viewing the details
             if (heroModel) {
                 heroModel.SetScenePanelToPlayerHero(this.data.match_id, this.data.player_slot);
             }
@@ -368,6 +399,7 @@ class AnimateGenericArcanaScreenAction extends RunSequentialActions {
                 unstyledHeroModel.SetScenePanelToPlayerHero(this.data.match_id, this.data.player_slot);
             }
         } else {
+            // Use this for testing when we don't actually have match data
             if (heroModel) {
                 heroModel.SetScenePanelToLocalHero(this.data.hero_id);
             }
@@ -382,6 +414,10 @@ class AnimateGenericArcanaScreenAction extends RunSequentialActions {
             heroIcon.style.backgroundImage = 'url("' + sIconFile + '")';
         }
 
+        //unstyledHeroModel.SetHeroRotation( -1.5 );
+        //unstyledHeroModel.MarkSceneDirty();
+
+        // set up the hero model to use all of the items in the arcana bundle with the shown style
         var bundleItems = this.data.arcana_progress.arcana_bundle_items;
         var bundleSlots = this.data.arcana_progress.arcana_bundle_slots;
         var styleIndex = this.data.arcana_progress.style_index;
@@ -395,6 +431,7 @@ class AnimateGenericArcanaScreenAction extends RunSequentialActions {
 
         panel.SetDialogVariable("arcana_progress_max_score", this.data.arcana_progress.arcana_max_score);
 
+        // handle fractional scores
         if (incrementScore === Math.floor(incrementScore)) {
             panel.SetDialogVariable("arcana_progress_increment", incrementScore);
         } else {
@@ -446,6 +483,7 @@ class AnimateGenericArcanaScreenAction extends RunSequentialActions {
         progressBar.max = this.data.arcana_progress.arcana_max_score;
         progressBar.value = startScore;
 
+        // Setup the sequence of actions to animate the screen
         var sndStinger = $.Localize("#DOTA_ArcanaProgress_Stinger_" + heroName, panel);
         if (sndStinger) {
             this.actions.push(
@@ -458,6 +496,7 @@ class AnimateGenericArcanaScreenAction extends RunSequentialActions {
         this.actions.push(new AddClassAction(panel, "ShowScreen"));
         this.actions.push(new StopSkippingAheadAction());
         this.actions.push(new SkippableAction(new WaitAction(0.5)));
+        //this.actions.push( new AddScreenLinkAction( panel, 'GenericArcanaProgress', '#DOTA_PostGame_GenericArcanaProgress' ) );
 
         this.actions.push(
             new RunFunctionAction(function () {
@@ -479,6 +518,7 @@ class AnimateGenericArcanaScreenAction extends RunSequentialActions {
             new RunFunctionAction(function () {
                 panel.TriggerClass("PulseScore");
                 panel.AddClass("ProgressComplete");
+                //$.DispatchEvent('PlaySoundEffect', 'wraith_king_arcana_postgame_stinger');
             }),
         );
 

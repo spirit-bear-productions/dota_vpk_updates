@@ -7,18 +7,22 @@ var RunAnimationIfNotRunning = function (animationFunction) {
 };
 
 var RunIntroAnimation = function () {
+    // $.Msg( "RunIntroAnimation" );
+
     var scenePanel = $("#BackgroundScene");
 
     var seq = new RunSequentialActions();
 
     seq.actions.push(new WaitForClassAction(scenePanel, "SceneLoaded"));
 
+    // Set the lighting to the default state.
     seq.actions.push(new FireEntityInputAction(scenePanel, "light_hero", "LightScale", "0.0"));
     seq.actions.push(new FireEntityInputAction(scenePanel, "roshan_light", "Intensity", "0.5"));
     seq.actions.push(new FireEntityInputAction(scenePanel, "roshan_light_02", "Intensity", "1"));
     seq.actions.push(new FireEntityInputAction(scenePanel, "roshan_light_03", "Intensity", "0.5"));
     seq.actions.push(new FireEntityInputAction(scenePanel, "roshan", "TurnOn", ""));
 
+    // Now trigger the animation
     seq.actions.push(new FireEntityInputAction(scenePanel, "roshan", "SetAnimation", "sr_transition_frontpage"));
     seq.actions.push(new FireEntityInputAction(scenePanel, "debut_camera", "SetAnimation", "diretide_camera_anim"));
     seq.actions.push(new WaitAction(4.55));
@@ -46,6 +50,8 @@ var RunIntroAnimation = function () {
 };
 
 var RunIdleAnimation = function () {
+    // $.Msg( "RunIdleAnimation" );
+
     var scenePanel = $("#BackgroundScene");
 
     var seq = new RunSequentialActions();
@@ -65,6 +71,8 @@ var RunIdleAnimation = function () {
 };
 
 var RunOutroAnimation = function () {
+    // $.Msg( "RunOutroAnimation" );
+
     var scenePanel = $("#BackgroundScene");
 
     var seq = new RunSequentialActions();
@@ -88,6 +96,7 @@ var g_nCandyAnimationClicked = 0;
 var RunCandyAnimation = function () {
     if (g_bIsPlayingCandyAnimation) return;
 
+    // Only play once every 3 times you click
     g_nCandyAnimationClicked++;
     if (g_nCandyAnimationClicked < 3) return;
     g_nCandyAnimationClicked = 0;
@@ -135,6 +144,7 @@ var RunEatAnimation = function () {
 };
 
 var GetActivePageType = function () {
+    // todo(ericl): This is a kinda terrible way to do this.
     var dashboard = $.GetContextPanel().FindAncestor("Dashboard");
     var pageManager = dashboard.FindChildInLayoutFile("DashboardPages");
     for (var i = 0; i < pageManager.GetChildCount(); ++i) {
@@ -148,6 +158,8 @@ var GetActivePageType = function () {
 var g_bFirstRun = true;
 
 var UpdateAnimation = function () {
+    // $.Msg( "page type = " + GetActivePageType() );
+
     var bHomePage = GetActivePageType() == "DOTAHomePage";
 
     $.GetContextPanel().SetHasClass("OnHomePage", bHomePage);
@@ -167,17 +179,20 @@ var UpdateAnimation = function () {
 };
 
 $.RegisterForUnhandledEvent("PageManagerActivatedPage", function (pageManager, oldPage, newPage) {
+    // $.Msg( "Page Activated" );
     $.Schedule(0.0, function () {
         UpdateAnimation();
     });
 });
 
 $.RegisterEventHandler("DOTAScenePanelSceneLoaded", $("#BackgroundScene"), function (scenePanel) {
+    // $.Msg( "Scene Loaded" );
     $.Schedule(0.0, function () {
         UpdateAnimation();
     });
 });
 
 $.RegisterEventHandler("DOTAScenePanelSceneUnloaded", $("#BackgroundScene"), function (scenePanel) {
+    //$.Msg( "Scene Unloaded" );
     g_ActiveAnimationFunction = null;
 });

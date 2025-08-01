@@ -9,7 +9,7 @@ var RunPageAnimation = function () {
 
     $("#ModelContainer").RemoveAndDeleteChildren();
     $("#ModelContainer").BLoadLayoutSnippet("ModelSnippet");
-
+    // disabling camera rotation for locked camera
     $("#ModelBackground").SetRotateParams(5, 5, 2, 2);
 
     $("#MainContainer").RemoveClass("Initialize");
@@ -20,6 +20,7 @@ var RunPageAnimation = function () {
     $("#InformationBodyBackground").RemoveClass("Initialize");
     $("#ItemLore").RemoveClass("Initialize");
 
+    // Disabling Fullscreen allows Menu UI to display
     $.DispatchEvent("DOTASetCurrentDashboardPageFullscreen", true);
 
     seq.actions.push(new WaitForClassAction($("#ModelBackground"), "SceneLoaded"));
@@ -35,7 +36,7 @@ var RunPageAnimation = function () {
     seq.actions.push(new WaitAction(0.0));
     seq.actions.push(new AddClassAction($("#InformationBodyBackground"), "Initialize"));
     seq.actions.push(new AddClassAction($("#ItemLore"), "Initialize"));
-
+    // enabling camera movement
     seq.actions.push(
         new RunFunctionAction(function () {
             $("#ModelBackground").SetRotateParams(5, 9, -2, 2);

@@ -1,3 +1,9 @@
+// Fall 2021 BP post game logic
+
+// ----------------------------------------------------------------------------
+// Weekly Quests
+// ----------------------------------------------------------------------------
+
 class AnimateFall2021WeeklyQuestEntryAction extends RunSequentialActions {
     constructor(questList, pipBar, actionGranted) {
         super();
@@ -53,6 +59,7 @@ class AnimateFall2021WeeklyQuestEntryAction extends RunSequentialActions {
             var levelThreshold = this.actionGranted.level_thresholds[i];
             if (this.actionGranted.progress_start_value >= levelThreshold.threshold) continue;
 
+            // Setup threshold
             this.actions.push(
                 new RunFunctionAction(
                     (function (panel, lowerValue, nextThreshold) {
@@ -66,6 +73,7 @@ class AnimateFall2021WeeklyQuestEntryAction extends RunSequentialActions {
                 ),
             );
 
+            // Now animate up to either the end of the threshold, or the final value
             var nextAnimateValue = Math.min(levelThreshold.threshold, finalValue);
 
             var par = new RunParallelActions();
@@ -88,6 +96,7 @@ class AnimateFall2021WeeklyQuestEntryAction extends RunSequentialActions {
 
             this.actions.push(par);
 
+            // Animate the star increasing
             if (nextAnimateValue == levelThreshold.threshold) {
                 var tierStar = questStars.GetChild(i);
                 this.actions.push(new AddClassAction(tierStar, "StarAchieved"));
@@ -104,6 +113,7 @@ class AnimateFall2021WeeklyQuestEntryAction extends RunSequentialActions {
                 this.actions.push(new WaitAction(0.4));
             }
 
+            // Are we all done?
             if (nextAnimateValue == finalValue) break;
 
             startValue = nextAnimateValue;
@@ -112,6 +122,8 @@ class AnimateFall2021WeeklyQuestEntryAction extends RunSequentialActions {
         super.start();
     }
 }
+
+// ----------------------------------------------------------------------------
 
 class AnimateFall2021WeeklyQuestsAction extends RunSequentialActions {
     constructor(sectionPanel, nEventID, nSeasonID, actionsGranted, nInitialStars) {
@@ -143,6 +155,10 @@ class AnimateFall2021WeeklyQuestsAction extends RunSequentialActions {
         super.start();
     }
 }
+
+// ----------------------------------------------------------------------------
+// Event Game
+// ----------------------------------------------------------------------------
 
 class AnimateFall2021EventGameAction extends RunSequentialActions {
     constructor(sectionPanel, eventGameData) {
@@ -197,6 +213,10 @@ class AnimateFall2021EventGameAction extends RunSequentialActions {
     }
 }
 
+// ----------------------------------------------------------------------------
+// Cavern Crawl
+// ----------------------------------------------------------------------------
+
 class AnimateFall2021CavernCrawlAction extends RunSequentialActions {
     constructor(sectionPanel, cavernCrawlData) {
         super();
@@ -231,6 +251,10 @@ class AnimateFall2021CavernCrawlAction extends RunSequentialActions {
     }
 }
 
+// ----------------------------------------------------------------------------
+// Drow Arcana Minigame
+// ----------------------------------------------------------------------------
+
 class AnimateFall2021DrowArcanaMinigameAction extends RunSequentialActions {
     constructor(sectionPanel, minigameData) {
         super();
@@ -250,6 +274,10 @@ class AnimateFall2021DrowArcanaMinigameAction extends RunSequentialActions {
     }
 }
 
+// ----------------------------------------------------------------------------
+// Progress Screen
+// ----------------------------------------------------------------------------
+
 class AnimateFall2021ScreenAction extends RunSequentialActions {
     constructor(data) {
         super();
@@ -257,12 +285,15 @@ class AnimateFall2021ScreenAction extends RunSequentialActions {
     }
 
     start() {
+        // Create the screen and do a bunch of initial setup
         var panel = StartNewScreen("Fall2021ProgressScreen");
         panel.BLoadLayoutSnippet("Fall2021Progress");
         panel.SetDialogVariableInt("active_week", this.data.fall_2021_progress.active_season_id);
 
         var levelShield = panel.FindChildInLayoutFile("Fall2021LevelShield");
+        //levelShield.SetEventPoints( this.data.fall_2021_progress.battle_points_event_id, this.data.fall_2021_progress.battle_points_start );
 
+        // Setup the sequence of actions to animate the screen
         this.seq = new RunSequentialActions();
         this.actions.push(new AddClassAction(panel, "ShowScreen"));
         this.actions.push(new SkippableAction(new WaitAction(0.5)));
@@ -327,6 +358,8 @@ class AnimateFall2021ScreenAction extends RunSequentialActions {
     }
 }
 
+//----------------------------------
+
 function TestAnimateFall2021() {
     var data = {
         hero_id: 87,
@@ -340,6 +373,7 @@ function TestAnimateFall2021() {
             weekly_quest_initial_stars: 2,
             actions_granted: [
                 {
+                    // Cross a tier
                     progress_start_value: 1,
                     progress: 40,
                     level_thresholds: [
@@ -361,6 +395,7 @@ function TestAnimateFall2021() {
                     ],
                 },
                 {
+                    // Cross past max tier
                     progress_start_value: 141,
                     progress: 10,
                     level_thresholds: [
@@ -382,6 +417,7 @@ function TestAnimateFall2021() {
                     ],
                 },
                 {
+                    // Minor increment
                     progress_start_value: 0,
                     progress: 4,
                     level_thresholds: [

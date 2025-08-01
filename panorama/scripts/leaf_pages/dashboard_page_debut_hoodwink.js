@@ -1,9 +1,27 @@
+// ----------------------------------------------------------------------------
+//   PlayAndTrackSoundAction
+//
+//   Helper action that keeps track of any sounds that are playing, and when
+//   the page is closing it automatically stops them.
+// ----------------------------------------------------------------------------
 var seq;
 
+//
+//
+//
 var OnPageSetupSuccess = function () {
+    // Disabling Fullscreen allows Menu UI to display
     $.DispatchEvent("DOTASetCurrentDashboardPageFullscreen", true);
 };
 
+/**
+ * Samples a camera dof value between two ranges at time t following an ease-in,
+ * ease-out parametric:
+ *
+ * https://math.stackexchange.com/questions/121720/ease-in-out-function
+ *
+ * If a is set to 1 the ramp function is linear.
+ */
 var get_dof_value = function (
     start_dof,
     end_dof,
@@ -23,9 +41,13 @@ var get_dof_value = function (
 
     return function () {
         $("#Model").FireEntityInput("intro_camera", dof_property, sampled);
+        //$.Msg( msg_prefix + ": i = " + i_val.toString() + "/" + num_samples.toString() + ";" + dof_property + " = " + sampled.toString() );
     };
 };
 
+/**
+ * Main function linked to triggering the debut
+ */
 var RunPageAnimation = function () {
     seq = new RunSequentialActions();
 
@@ -59,6 +81,10 @@ var RunPageAnimation = function () {
         }),
     );
 
+    //
+    // put the animated rack focus, plus contingency plan for the beginning
+    // part of the sequence in case the creep + bolt timing is off
+    //
     var s_near_blurry, s_near_crisp, s_far_crisp, s_far_blurry;
     var e_near_blurry, e_near_crisp, e_far_crisp, e_far_blurry;
     var dt;
@@ -68,6 +94,9 @@ var RunPageAnimation = function () {
     if (ANIMATE_STARTING_RACK_FOCUS) {
         seq.actions.push(new WaitAction(0.45));
 
+        //
+        // animate rack focus transitioning from beginning to mid sequence
+        //
         num_samples = 8;
         s_near_crisp = 300;
         s_far_crisp = 400;
@@ -95,6 +124,7 @@ var RunPageAnimation = function () {
             seq.actions.push(new RunFunctionAction(fn));
         }
     } else {
+        // contingency plan if creep3 hit is not connecting: set a predefined dof value and don't peform the rack
         seq.actions.push(
             new RunFunctionAction(function () {
                 $("#Model").FireEntityInput("intro_camera", "SetDOFNearCrisp", 140);
@@ -116,12 +146,18 @@ var RunPageAnimation = function () {
         seq.actions.push(new WaitAction(1.5));
     }
 
+    //
+    // unfortunately have to manually eyeball the start trigger for the 3rd creep bcse dumb reasons
+    //
     seq.actions.push(
         new RunFunctionAction(function () {
             $("#Model").FireEntityInput("creep3", "SetAnimation", "hoodwink_debut_crp3");
         }),
     );
 
+    //
+    // animate rack focus transitioning to the middle sequence (hero shot)
+    //
     num_samples = 25;
     s_near_crisp = 150;
     s_far_crisp = 700;
@@ -146,6 +182,9 @@ var RunPageAnimation = function () {
 
     seq.actions.push(new WaitAction(0.05));
 
+    //
+    // animate rack focus transitioning to the end (hold, keepalive)
+    //
     s_near_crisp = 400;
     s_far_crisp = 2000;
     s_far_blurry = 6000;
@@ -167,6 +206,9 @@ var RunPageAnimation = function () {
         seq.actions.push(new RunFunctionAction(fn));
     }
 
+    //
+    // enable the camera
+    //
     seq.actions.push(new WaitAction(0.8));
     seq.actions.push(new AddClassAction($("#DebutInformation"), "Initialize"));
     seq.actions.push(
@@ -185,10 +227,17 @@ var RunPageAnimation = function () {
     RunSingleAction(seq);
 };
 
+/**
+ * post-callback assigned when leaving the debut
+ */
 var EndPageAnimation = function () {
     seq.finish();
 
     PlayAndTrackSoundAction.StopAllTrackedSounds();
+
+    //$( '#ItemName' ).RemoveClass( 'Initialize' );
+    //$( '#InformationBodyBackground' ).RemoveClass( 'Initialize' );
+    //$( '#ItemLore' ).RemoveClass( 'Initialize' );
 
     $("#Model").RemoveClass("Initialize");
     $("#DebutInformation").RemoveClass("Initialize");

@@ -17,6 +17,7 @@ OnMouseOverArcana.flLastTriggerTime = 0;
 
 function OnMouseOutArcana() {
     var arcanaScenePanel = $("#Arcana");
+    //arcanaScenePanel.FireEntityInput( 'ArcanaModel', 'StartGestureOverride', 'ACT_DOTA_LOADOUT');
 
     var glowPanel = $("#ArcanaGlow");
     var infoPanel = $("#ArcanaInfo");
@@ -43,6 +44,7 @@ function OnMouseOverPersona() {
 OnMouseOverPersona.flLastTriggerTime = 0;
 function OnMouseOutPersona() {
     var personaScenePanel = $("#Persona");
+    //personaScenePanel.FireEntityInput( 'PersonaModel', 'StartGestureOverride', 'ACT_DOTA_LOADOUT');
 
     var glowPanel = $("#PersonaGlow");
     var infoPanel = $("#PersonaInfo");
