@@ -17,7 +17,6 @@ DOTACollectionPageBundles,
 DOTACollectionPageFeatured {
     width: 100%;
     height: 100%;
-    background-image: url("s2r://panorama/images/backgrounds/generic_hero_background_png.vtex");
     background-size: cover;
     max-width: 2560px;
     horizontal-align: center;

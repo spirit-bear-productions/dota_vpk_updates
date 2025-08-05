@@ -18,7 +18,8 @@ DOTAEventLevelShield {
     horizontal-align: center;
     text-align: center;
     vertical-align: middle;
-    font-size: 30px;
+    font-size: 24px;
+    font-family: titleFont;
     font-weight: semi-bold;
     text-shadow: 0px 0px 2px 3 black;
     color: white;
@@ -26,6 +27,55 @@ DOTAEventLevelShield {
     margin-right: 2px;
     padding: 0px 4px;
     text-overflow: shrink;
+}
+
+DOTAEventLevelShield.Season_Fall2025.ScoreboardLevelShield {
+    vertical-align: center;
+    margin-right: 0px;
+    margin-top: 6px;
+}
+
+DOTAEventLevelShield.Season_Fall2025 #ShieldBackground {
+    width: 67px;
+    height: 67px;
+    background-size: 100% 100%;
+    background-image: url("s2r://panorama/images/events/quartero_fall/polygonscore_base_large_png.vtex");
+}
+
+DOTAEventLevelShield.Season_Fall2025 #LevelNumber {
+    margin-bottom: 12px;
+}
+
+DOTAEventLevelShield.Season_Fall2025.EventTierNone #LevelNumber {
+    color: #fff;
+}
+
+DOTAEventLevelShield.Season_Fall2025.EventTierBronze.LevelledUp #LevelNumber,
+DOTAEventLevelShield.Season_Fall2025.EventTierSilver.LevelledUp #LevelNumber,
+DOTAEventLevelShield.Season_Fall2025.EventTierGold.LevelledUp #LevelNumber,
+DOTAEventLevelShield.Season_Fall2025.EventTierPlatinum.LevelledUp #LevelNumber {
+    font-size: 24px;
+    color: white;
+}
+
+DOTAEventLevelShield.Season_Fall2025.EventTierBronze #LevelNumber {
+    color: white;
+    text-shadow: 0px 0px 12px rgba(255, 170, 101, 0.4);
+}
+
+DOTAEventLevelShield.Season_Fall2025.EventTierSilver #LevelNumber {
+    color: white;
+    text-shadow: 0px 0px 12px rgba(255, 170, 101, 0.4);
+}
+
+DOTAEventLevelShield.Season_Fall2025.EventTierGold #LevelNumber {
+    color: white;
+    text-shadow: 0px 0px 12px rgba(255, 170, 101, 0.4);
+}
+
+DOTAEventLevelShield.Season_Fall2025.EventTierPlatinum #LevelNumber {
+    color: white;
+    text-shadow: 0px 0px 12px rgba(255, 170, 101, 0.4);
 }
 
 DOTAEventLevelShield.Season_International2020.EventTierNone #ShieldBackground {
@@ -70,22 +120,22 @@ DOTAEventLevelShield.Season_International2020.EventTierPlatinum #LevelNumber {
 }
 
 DOTAEventLevelShield.Season_International2020.EventTierBronze #LevelNumber {
-    color: gradient(linear, 0% 0%, 0% 100%, from(#e9b17c), to(#ffffff));
+    color: gradient(linear, 0% 0%, 0% 100%, from(#4b3017), to(#f5caa3));
     text-shadow: 0px 0px 5px 4 black;
 }
 
 DOTAEventLevelShield.Season_International2020.EventTierSilver #LevelNumber {
-    color: gradient(linear, 0% 0%, 0% 100%, from(#999999), to(#ffffff));
+    color: gradient(linear, 0% 0%, 0% 100%, from(#605f5f), to(#eae9e9));
     text-shadow: 0px 0px 5px 4 black;
 }
 
 DOTAEventLevelShield.Season_International2020.EventTierGold #LevelNumber {
-    color: gradient(linear, 0% 0%, 0% 100%, from(#fcf2d5), to(#ffffff));
+    color: gradient(linear, 0% 0%, 0% 100%, from(#e3b878), to(#ffedd1));
     text-shadow: 0px 0px 5px 4 black;
 }
 
 DOTAEventLevelShield.Season_International2020.EventTierPlatinum #LevelNumber {
-    color: gradient(linear, 0% 0%, 0% 100%, from(#bff2fc), to(#ffffff));
+    color: gradient(linear, 0% 0%, 0% 100%, from(#3f3f3f), to(#ffeae1));
     text-shadow: 0px 0px 5px 4 black;
 }
 
@@ -371,7 +421,7 @@ DOTAEventLevelShield.Season_Crownfall.EventTierPlatinum #ShieldBackground {
 }
 
 DOTAEventLevelShield.Season_Crownfall #LevelNumber {
-    font-size: 26px;
+    font-size: 28px;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
     margin: 0px;
     padding: 0px 32px;
@@ -391,7 +441,7 @@ DOTAEventLevelShield.Season_International2024 #ShieldBackground {
 }
 
 DOTAEventLevelShield.Season_International2024 #LevelNumber {
-    font-size: 32px;
+    font-size: 28px;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
     margin-bottom: 8px;
     margin-right: 2px;

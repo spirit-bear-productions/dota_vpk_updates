@@ -5590,6 +5590,10 @@ a.PurchasePlusLink {
     text-decoration: underline;
 }
 
+DOTAEventCrestImage #LevelLabel {
+    visibility: collapse;
+}
+
 @define sticker_quality_color_basic: #ffffff;
 @define sticker_quality_color_glitter: #88ff88;
 @define sticker_quality_color_gold: #ffd700;
