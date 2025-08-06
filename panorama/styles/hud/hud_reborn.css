@@ -1614,7 +1614,7 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 }
 
 #stats_tooltip_region {
-    width: 100%;
+    width: 30%;
     height: 100%;
     horizontal-align: right;
     z-index: 200;
