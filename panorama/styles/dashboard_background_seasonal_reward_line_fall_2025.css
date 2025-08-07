@@ -487,7 +487,7 @@ DOTAEventRewardList {
     height: 300px;
 }
 
-DOTAWidgetSeasonalEventDebug {
+#SeasonalEventDebugPanel {
     horizontal-align: right;
     margin-top: 600px;
     margin-right: 60px;
