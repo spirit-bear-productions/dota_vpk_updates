@@ -1,147 +1,379 @@
 /* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
-DOTAMiniShowcase {
-    width: 366px;
-    height: fit-children;
-    flow-children: down;
+DOTAMiniShowcase
+{
+	width: 366px;
+	height: fit-children;
+	flow-children: down;
 }
 
-.ShowcaseHeaderContainer {
-    width: 100%;
-    height: fit-children;
+.ShowcaseHeaderContainer
+{
+	width: 100%;
+	height: fit-children;
 }
 
-.Header {
-    width: 100%;
-    height: fit-children;
-    min-height: 50px;
-    flow-children: right;
-    horizontal-align: center;
-    background-color: black;
-    background-image: url("s2r://panorama/images/textures/miniprofile_rock_psd.vtex");
-    background-position: center;
-    background-size: cover;
-    border-bottom: 1px solid black;
-    box-shadow: inset 0px -2px 0px rgba(255, 255, 255, 0.015);
+.Header
+{
+	width: 100%;
+	height: fit-children;
+	min-height: 50px;
+	flow-children: right;
+	horizontal-align: center;
+	background-color: black;
+	background-image: url("s2r://panorama/images/textures/miniprofile_rock_psd.vtex");
+	background-position: center;
+	background-size: cover;
+	border-bottom: 1px solid black;
+	box-shadow: inset 0px -2px 0px rgba(255, 255, 255, 0.015);
 }
 
-.Header #UserDetailsContainer {
-    width: 280px;
+.Header #UserDetailsContainer
+{
+	width: 280px;
 }
 
-DOTAPopupMiniShowcaseEdit .Header {
-    opacity: 0;
+DOTAPopupMiniShowcaseEdit .Header
+{
+	opacity: 0;
 }
 
-.Header .UserDetails {
-    flow-children: down;
-    margin-left: 8px;
-    vertical-align: center;
+.Header .UserDetails
+{
+	flow-children: down;
+	margin-left: 8px;
+	vertical-align: center;
 }
 
-.Header .UserDetails #UserName Label {
-    font-size: 25px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    vertical-align: bottom;
+.Header .UserDetails #UserName Label
+{
+	font-size: 25px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: bottom;
 }
 
-.Header .UserDetails #RichPresence {
-    margin-top: -4px;
-    ui-scale: 80%;
+.Header .UserDetails #RichPresence
+{
+	margin-top: -4px;
+	ui-scale: 80%;
 }
 
-.Header .UserDetails Label {
-    text-shadow: 0px 1px 4px black;
+.Header .UserDetails Label
+{
+	text-shadow: 0px 1px 4px black;
 }
 
-.Header #AvatarImage {
-    width: 58px;
-    height: 58px;
-    vertical-align: middle;
-    margin: 8px 8px 7px 8px;
-    border-radius: 2px;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.6);
+.Header #AvatarImage
+{
+	width: 58px;
+	height: 58px;
+	vertical-align: middle;
+	margin: 8px 8px 7px 8px;
+	border-radius: 2px;
+	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.6);
 }
 
-.ShowcaseData {
-    width: 100%;
-    height: fit-children;
-    min-height: 240px;
-    background-image: url("s2r://panorama/images/textures/miniprofile_rock_psd.vtex");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+.ShowcaseData
+{
+	width: 100%;
+	height: fit-children;
+	min-height: 240px;
+	background-image: url("s2r://panorama/images/textures/miniprofile_rock_psd.vtex");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
 }
 
-.ShowcaseData .ShowcaseMain {
-    width: fit-children;
-    height: fit-children;
+.ShowcaseData .ShowcaseMain
+{
+	width: fit-children;
+	height: fit-children;
 }
 
-DOTAMiniShowcase.ViewingOther #ReportControls {
-    margin: 10px;
-    ui-scale: 100%;
-    visibility: collapse;
+DOTAMiniShowcase.ViewingOther #ReportControls
+{
+	margin: 10px;
+	ui-scale: 100%;
+	visibility: collapse;
 }
 
-#ContextMenuBody DOTAMiniShowcase.ViewingOther #ReportControls {
-    visibility: visible;
+#ContextMenuBody DOTAMiniShowcase.ViewingOther #ReportControls
+{
+	visibility: visible;
 }
 
-#RankTierContainer {
-    horizontal-align: right;
-    vertical-align: center;
-    margin-right: 5px;
-    width: 100px;
-    height: 100px;
-    tooltip-position: bottom;
-    tooltip-body-position: 50% 10%;
-    ui-scale: 72%;
+#RankTierContainer
+{
+	horizontal-align: right;
+	vertical-align: center;
+	margin-right: 5px;
+	width: 100px;
+	height: 100px;
+	tooltip-position: bottom;
+	tooltip-body-position: 50% 10%;
+	ui-scale: 72%;
 }
 
-.HideRankTier #RankTierContainer,
-.LoadingRank #RankTierContainer {
-    visibility: collapse;
+.HideRankTier #RankTierContainer,.LoadingRank #RankTierContainer
+{
+	visibility: collapse;
 }
 
-#GiftingLabel {
-    height: 16px;
-    background-color: gradient(linear, 0% 0%, 100% 0%, from(#30a3d551), color-stop(0.5, #0e4b8080), to(#00182e00));
-    background-size: contain;
-    flow-children: right;
-    overflow: noclip;
-    margin-top: 2px;
-    margin-bottom: 5px;
-    visibility: collapse;
+#GiftingLabel
+{
+	height: 16px;
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( #30a3d551 ), color-stop( 0.5, #0e4b8080 ), to( #00182e00 ) );
+	background-size: contain;
+	flow-children: right;
+	overflow: noclip;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	visibility: collapse;
 }
 
-#BPIcon {
-    background-image: url("s2r://panorama/images/compendium/international2023/gift_filled_png.vtex");
-    width: 18px;
-    height: 18px;
-    background-size: contain;
-    margin-top: -1px;
-    img-shadow: 0px 2px 4px #000000;
-    margin-right: 4px;
-    margin-left: 4px;
+#BPIcon
+{
+	background-image: url("s2r://panorama/images/compendium/international2023/gift_filled_png.vtex");
+	width: 18px;
+	height: 18px;
+	background-size: contain;
+	margin-top: -1px;
+	img-shadow: 0px 2px 4px #000000;
+	margin-right: 4px;
+	margin-left: 4px;
 }
 
-#UserTitle {
-    color: #ffffffee;
-    text-shadow: 0px 1px 3px black;
-    margin-top: 0px;
-    text-transform: uppercase;
-    font-weight: semi-bold;
-    letter-spacing: 1px;
-    font-size: 12px;
-    vertical-align: middle;
+#UserTitle
+{
+	color: #ffffffee;
+	text-shadow: 0px 1px 3px black;
+	margin-top:0px;
+	text-transform: uppercase;
+	font-weight: semi-bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+	vertical-align: middle;
 }
 
-.HasTitle #GiftingLabel {
-    visibility: visible;
+.HasTitle #GiftingLabel
+{
+	visibility: visible;
 }
 
-#PendingApprovalLabel {
-    margin: 10px;
+#PendingApprovalLabel
+{
+	margin: 10px;
 }
+
+#DPCBadge
+{
+	width: 58px;
+	height: 80px;
+	ignore-parent-flow: true;
+	background-repeat: no-repeat;
+	background-position: center top;
+	img-shadow: 0px 0px 5px;
+	horizontal-align: left;
+	ui-scale: 80%;
+	transition-property: position;
+	transition-duration: 0.1s;
+	transform: translateX( 14px ) translateY( 52px );
+	visibility: collapse;
+}
+
+#DPCBadge:hover
+{
+	y: -2px;
+}
+
+.HasFavoriteTeam #DPCBadge
+{
+	visibility:visible;
+}
+
+#BadgeGleamContainer
+{
+	width: 100%;
+	height: 100% border: 1px solid red;
+	opacity-mask: url("s2r://panorama/images/dpc/badge/banner_bg_tier1_mask_psd.vtex");
+}
+
+#BadgeGleam
+{
+	width: 80%;
+	height: 80%;
+}
+
+.FavoriteTier1 #BadgeGleam
+{
+	horizontal-align: center;
+	opacity-mask: url("s2r://panorama/images/dpc/badge/banner_bg_tier1_mask_psd.vtex");
+	animation-name: IconGleam;
+	animation-duration: 6s;
+	animation-delay: 6s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+.FavoriteTier2 #BadgeGleam
+{
+	horizontal-align: center;
+	opacity-mask: url("s2r://panorama/images/dpc/badge/banner_bg_tier1_mask_psd.vtex");
+	animation-name: IconGleam;
+	animation-duration: 6s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+.FavoriteTier3 #BadgeGleam
+{
+	horizontal-align: center;
+	opacity-mask: url("s2r://panorama/images/dpc/badge/banner_bg_tier1_mask_psd.vtex");
+	animation-name: IconGleam;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+#BannerBG
+{
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center top;
+	horizontal-align: middle;
+	brightness: 1.8;
+}
+
+.FavoriteTier1 #BannerBG
+{
+	background-image: url("s2r://panorama/images/dpc/badge/banner_bg_tier1_png.vtex");
+}
+
+.FavoriteTier2 #BannerBG
+{
+	background-image: url("s2r://panorama/images/dpc/badge/banner_bg_tier2_png.vtex");
+}
+
+.FavoriteTier3 #BannerBG
+{
+	background-image: url("s2r://panorama/images/dpc/badge/banner_bg_tier3_png.vtex");
+}
+
+#DPCBadge .TeamBadge
+{
+	vertical-align: top;
+	horizontal-align: middle;
+	margin-top: 6px;
+	overflow: noclip;
+	pre-transform-scale2d: 0.9;
+	img-shadow: 0px 0px 10px red;
+	width: 32px;
+	height: 32px;
+	flow-children: none;
+	overflow: noclip;
+}
+
+.FavoriteTier3 #DPCBadge .TeamBadge
+{
+	margin-top: 4px;
+}
+
+#DPCBadge #BackgroundFX
+{
+	width: 100%;
+	height: 100%;
+	opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_png.vtex");
+	overflow: noclip;
+	opacity: 1;
+}
+
+#DPCBG
+{
+	width: 120px;
+	height: 100%;
+	background-image: url("s2r://panorama/images/econ/brands/brand_navi_png.vtex");
+	background-size: 100% auto;
+	background-position: center;
+	opacity-mask: url("s2r://panorama/images/masks/gradient_rightleft_png.vtex");
+	opacity: 0.02;
+	saturation: 01;
+	horizontal-align: right;
+	margin-right: 30px;
+	visibility: collapse;
+}
+
+.FavoriteTier1 #DPCBG,.FavoriteTier2 #DPCBG,.FavoriteTier3 #DPCBG
+{
+	visibility: visible;
+}
+
+#EventLevelIcon
+{
+	width: 28px;
+	height: 28px;
+	horizontal-align: center;
+	overflow: noclip;
+	img-shadow: 0px 0px 10px #000000;
+}
+
+#EventLevelIcon #LevelLabel
+{
+	visibility: collapse;
+	font-size: 12px;
+	text-shadow: 1px 1px 1px black;
+	horizontal-align: center;
+	vertical-align: center;
+	text-overflow: shrink;
+	text-align: center;
+}
+
+@keyframes 'IconGleam'
+{
+	0%
+	{
+		background-color: gradient( linear, 0% 0%, 100% 100%, from( #ffffff00 ), color-stop(.01, #ffffff00), color-stop(.2, #ffffff22), color-stop(.4, #ffffff00), to( #ffffff00 ) );
+		opacity-mask: url("s2r://panorama/images/dpc/badge/banner_bg_tier1_mask_psd.vtex");
+	}
+	
+	2%
+	{
+		background-color: gradient( linear, 0% 0%, 100% 100%, from( #ffffff00 ), color-stop(0, #ffffff00), color-stop(.3, #ffffff22), color-stop(.6, #ffffff00), to( #ffffff00 ) );
+		opacity-mask: url("s2r://panorama/images/dpc/badge/banner_bg_tier1_mask_psd.vtex");
+	}
+	
+	5%
+	{
+		background-color: gradient( linear, 0% 0%, 100% 100%, from( #ffffff00 ), color-stop(.3, #ffffff00), color-stop(.5, #ffffff44), color-stop(.7, #ffffff00), to( #ffffff00 ) );
+		opacity-mask: url("s2r://panorama/images/dpc/badge/banner_bg_tier1_mask_psd.vtex");
+	}
+	
+	8%
+	{
+		background-color: gradient( linear, 0% 0%, 100% 100%, from( #ffffff00 ), color-stop(.4, #ffffff00), color-stop(.7, #ffffff22), color-stop(1, #ffffff00), to( #ffffff00 ) );
+		opacity-mask: url("s2r://panorama/images/dpc/badge/banner_bg_tier1_mask_psd.vtex");
+	}
+	
+	9%
+	{
+		background-color: gradient( linear, 0% 0%, 100% 100%, from( #ffffff00 ), color-stop(.6, #ffffff00), color-stop(.8, #ffffff22), color-stop(.99, #ffffff00), to( #ffffff00 ) );
+		opacity-mask: url("s2r://panorama/images/dpc/badge/banner_bg_tier1_mask_psd.vtex");
+	}
+	
+	11%
+	{
+		background-color: gradient( linear, 0% 0%, 100% 100%, from( #ffffff00 ), color-stop(.6, #ffffff00), color-stop(.8, #ffffff00), color-stop(.99, #ffffff00), to( #ffffff00 ) );
+		opacity-mask: url("s2r://panorama/images/dpc/badge/banner_bg_tier1_mask_psd.vtex");
+	}
+	
+	100%
+	{
+		background-color: gradient( linear, 0% 0%, 100% 100%, from( #ffffff00 ), color-stop(.2, #ffffff00), color-stop(.5, #ffffff00), color-stop(.6, #ffffff00), to( #ffffff00 ) );
+		opacity-mask: url("s2r://panorama/images/dpc/badge/banner_bg_tier1_mask_psd.vtex");
+	}
+	
+}
+

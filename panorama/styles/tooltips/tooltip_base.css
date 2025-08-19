@@ -63,6 +63,11 @@
     wash-color: #0d1e33;
 }
 
+#International2025Score #LeftArrow,
+#International2025Score #RightArrow {
+    wash-color: #231556;
+}
+
 #EventLevelTooltip #LeftArrow,
 #EventLevelTooltip #RightArrow,
 #EventLevelTooltip #TopArrow,

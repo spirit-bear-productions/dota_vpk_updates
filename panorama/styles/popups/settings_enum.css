@@ -16,6 +16,10 @@ DOTASettingsEnum #title {
     padding-left: 0px;
 }
 
+.HideTitle #title {
+    visibility: collapse;
+}
+
 DOTASettingsEnum #values {
     flow-children: down;
 }
