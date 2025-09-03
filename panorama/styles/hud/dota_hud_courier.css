@@ -486,3 +486,7 @@ DOTAHud.IsLocalPlayerLiveSpectating .HasAutoCourierHotkey #AutoCourierHotkey {
     margin-top: 12px;
     margin-left: -12px;
 }
+
+DOTAHud.IsLocalPlayerSpectating #AutoDeliverViolator {
+    visibility: collapse;
+}
