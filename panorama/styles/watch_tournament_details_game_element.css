@@ -300,12 +300,14 @@ Label#Decompressing {
     visibility: collapse;
 }
 
-#WatchSingle {
+#WatchSingle,
+.WatchDetails {
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
-#WatchSingle Label {
+#WatchSingle Label,
+.WatchDetails Label {
     margin-top: 0px;
 }
 
