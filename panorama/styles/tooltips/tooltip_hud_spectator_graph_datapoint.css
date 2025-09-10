@@ -12,6 +12,10 @@
     padding-bottom: 8px;
 }
 
+.hide_win_probability #WinProbabilityPanel {
+    visibility: collapse;
+}
+
 #WinProbabilityRadiantPanel,
 #WinProbabilityDirePanel {
     flow-children: right;
@@ -23,6 +27,10 @@
     border-bottom: 1px solid #3d3e41;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.hide_win_probability #NetWorthPanel {
+    padding-top: 0px;
 }
 
 #ExperiencePanel {

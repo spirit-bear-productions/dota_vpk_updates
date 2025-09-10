@@ -111,6 +111,10 @@ DOTASpectatorGraph.Hidden {
     flow-children: down;
 }
 
+.hide_win_probability #GraphWinProbability {
+    visibility: collapse;
+}
+
 #ExperienceRadiantPanel,
 #ExperienceDirePanel {
     margin-top: 4px;
