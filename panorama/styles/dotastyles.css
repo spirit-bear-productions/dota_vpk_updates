@@ -3852,6 +3852,10 @@ EconItemImage #Overlay {
     background-image: url("s2r://panorama/images/status_icons/modifier_model_psd.vtex");
 }
 
+.ModifierIcon.has_arcana_augment {
+    background-image: url("s2r://panorama/images/status_icons/modifier_arcanaaugment_psd.vtex");
+}
+
 #DOTAHud .TooltipContainer {
     transition-duration: 0s;
 }
@@ -5945,6 +5949,54 @@ DOTAEventCrestImage #LevelLabel {
     }
 }
 
+.BorderFadeBoth_Horizontal {
+    border-brush: gradient(linear, 0% 0%, 100% 0%, from(#ffffff00), color-stop(0.5, white), to(#ffffff00));
+}
+
+.BorderFadeLeft_Horizontal {
+    border-brush: gradient(linear, 0% 0%, 100% 0%, from(#ffffff00), to(white));
+}
+
+.BorderFadeRight_Horizontal {
+    border-brush: gradient(linear, 0% 0%, 100% 0%, from(white), to(#ffffff00));
+}
+
+.BorderFadeBoth_Vertical {
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(#ffffff00), color-stop(0.5, white), to(#ffffff00));
+}
+
+.BorderFadeLeft_Vertical {
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(#ffffff00), to(white));
+}
+
+.BorderFadeRight_Vertical {
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(white), to(#ffffff00));
+}
+
+.BackgroundFadeBoth_Horizontal {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff00), color-stop(0.5, white), to(#ffffff00));
+}
+
+.BackgroundFadeTop_Horizontal {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#ffffff00), to(white));
+}
+
+.BackgroundFadeBottom_Horizontal {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(white), to(#ffffff00));
+}
+
+.BackgroundFadeBoth_Vertical {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#ffffff00), color-stop(0.5, white), to(#ffffff00));
+}
+
+.BackgroundFadeTop_Vertical {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#ffffff00), to(white));
+}
+
+.BackgroundFadeBottom_Vertical {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(white), to(#ffffff00));
+}
+
 .RewardsTier.BronzeTier {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#a84d0022), color-stop(0.5, #a84d0000), to(#a84d0000));
     border-top: 2px solid #a84d00;
@@ -6344,6 +6396,19 @@ DOTAEventCrestImage #LevelLabel {
 
 .ButtonPrimary.Red:active:enabled:not(.Disabled) {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#b5433c), to(#ff6046));
+}
+
+.ButtonPrimary.Magenta {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#d668bb), to(#671d89));
+    border-brush: WhiteGradientBorderStrong;
+}
+
+.ButtonPrimary.Magenta:active:enabled:not(.Disabled) {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#671d89), to(#d668bb));
+}
+
+.ButtonPrimary.Magenta Image {
+    wash-color: whitesmoke;
 }
 
 .ButtonPrimary:active:enabled:not(.Disabled) {
