@@ -171,6 +171,10 @@ DOTAInternational2025AegisPopup.Hidden {
     padding: 8px 0px 12px;
 }
 
+.PopupLeft .PurchaseControls #PurchaseButton {
+    horizontal-align: center;
+}
+
 .PopupLeft .PurchaseControls .DiscountLabel {
     visibility: collapse;
 }
