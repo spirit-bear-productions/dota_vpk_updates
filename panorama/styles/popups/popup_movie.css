@@ -11,6 +11,10 @@ DOTAMoviePopup.PopupPanel {
     flow-children: none;
 }
 
+DOTAMoviePopup.PopupPanel.TransparentBackground {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 DOTAMoviePopup.PopupPanel.Hidden {
     sound: "";
 }

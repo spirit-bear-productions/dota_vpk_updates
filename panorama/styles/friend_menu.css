@@ -24,6 +24,10 @@ DOTAFriendMenu {
     background-color: #000000ee;
 }
 
+.Season_MonsterHunter .LeftRailContain {
+    background-color: #0b0c12f9;
+}
+
 #ProfileCard {
     z-index: 1;
 }

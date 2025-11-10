@@ -231,10 +231,6 @@ DOTATierTreasureDetails {
     margin-bottom: 12px;
 }
 
-#TreasureDetails #TreasureDetailsContents .TradeUpInformationContainer #RecycleButton {
-    horizontal-align: center;
-}
-
 #TreasureDetails #TreasureDetailsContents .TradeUpInformationContainer .TradeUpTierContainer {
     flow-children: down;
     width: 100%;
@@ -2071,15 +2067,6 @@ DOTATierTreasureDetails {
 }
 
 .RequiresKey .RequiresKeyOnly {
-    visibility: visible;
-}
-
-#RecycleButton.StartRecyclingButton {
-    margin-left: 18px;
-    visibility: collapse;
-}
-
-.TreasureRecyclingEnabled #RecycleButton.StartRecyclingButton {
     visibility: visible;
 }
 

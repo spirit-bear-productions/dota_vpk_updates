@@ -81,3 +81,28 @@ Label.GraphTitle {
 Label.GraphScale {
     horizontal-align: right;
 }
+
+#truespectate_row {
+    horizontal-align: right;
+    flow-children: right;
+}
+
+#truespectate_active,
+#truespectate_disabled,
+#truespectate_nodata {
+    visibility: collapse;
+}
+
+#truespectate_row.Active #truespectate_active,
+#truespectate_row.Disabled #truespectate_disabled,
+#truespectate_row.NoData #truespectate_nodata {
+    visibility: visible;
+}
+
+#truespectate_row.Disabled Label {
+    color: rgba(180, 180, 180, 0.8);
+}
+
+#truespectate_row.NoData Label {
+    color: rgba(250, 80, 80, 1);
+}
