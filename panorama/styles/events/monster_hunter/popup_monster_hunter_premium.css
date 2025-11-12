@@ -503,6 +503,11 @@ DOTAMonsterHunterPremiumPopup.PopupPanel {
     color: TextColorLightest;
 }
 
+.ButtonRow {
+    flow-children: right;
+    horizontal-align: center;
+}
+
 #PurchasePremiumButton,
 #OKButton {
     horizontal-align: center;
@@ -514,6 +519,14 @@ DOTAMonsterHunterPremiumPopup.PopupPanel {
 .OwnsPremium #PurchasePremiumButton,
 .OwnsPremium #OKButton {
     visibility: collapse;
+}
+
+.PurchaseGiftButton {
+    horizontal-align: center;
+    ui-scale: 125%;
+    margin-top: 24px;
+    width: 260px;
+    margin-left: 20px;
 }
 
 #OKButton {
