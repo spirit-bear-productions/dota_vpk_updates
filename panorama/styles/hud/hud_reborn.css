@@ -309,7 +309,7 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 
 #RoshanTimerContainer {
     vertical-align: bottom;
-    z-index: -2;
+    z-index: -1;
     margin-bottom: 162px;
     margin-left: 244px;
 }

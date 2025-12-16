@@ -6167,21 +6167,21 @@ DOTAEventCrestImage #LevelLabel {
 }
 
 .ButtonPrimary.DireRed {
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#ec3e3e), to(#901e1e));
-    border-brush: WhiteGradientBorderMedium;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#a93435), to(#712122));
+    border-brush: WhiteGradientBorderSoft;
 }
 
 .ButtonPrimary.DireRed:active:enabled:not(.Disabled) {
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#901e1e), to(#ec3e3e));
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#712122), to(#a93435));
 }
 
 .ButtonPrimary.RadiantGreen {
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#70cc60), to(#217938));
-    border-brush: WhiteGradientBorderMedium;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#55974e), to(#246435));
+    border-brush: WhiteGradientBorderSoft;
 }
 
 .ButtonPrimary.RadiantGreen:active:enabled:not(.Disabled) {
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#217938), to(#70cc60));
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#246435), to(#55974e));
 }
 
 .ButtonPrimary.Green {
@@ -6293,7 +6293,7 @@ DOTAEventCrestImage #LevelLabel {
 
 .ButtonPrimary.Red {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#ff6046), to(#b5433c));
-    border-brush: WhiteGradientBorderStrong;
+    border-brush: WhiteGradientBorderMedium;
 }
 
 .ButtonPrimary.Red:active:enabled:not(.Disabled) {
