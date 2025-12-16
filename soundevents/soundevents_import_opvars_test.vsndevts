@@ -224,18 +224,21 @@
 			],
 		]
 	}
-	scope_test = 
+	scope_test_1 = 
 	{
-		type = "outer_multi"
-		inner_2_1.test_opvars = 
-		[
-			"a",
-			"b",
-		]
-		inner_2_2.test_opvars = 
-		[
-			"c",
-		]
+		type = "test_1_layer_1"
+	}
+	scope_test_2 = 
+	{
+		type = "test_2_layer_1"
+	}
+	fields_test_1 = 
+	{
+		type = "test_3_layer_1"
+	}
+	fields_test_2 = 
+	{
+		type = "test_3_layer_3"
 	}
 	_auto_calc_vnsd_duration_ = true
 }

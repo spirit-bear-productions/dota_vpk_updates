@@ -3152,7 +3152,7 @@ a.ItemQuality_unusual.ItemQualityColor:hover {
 }
 
 .HelpIcon {
-    background-image: url("s2r://panorama/images/status_icons/helpicon_psd.vtex");
+    background-image: url("s2r://panorama/images/control_icons/24px/help.vsvg");
 }
 
 .TextGlowPulse {
@@ -6166,6 +6166,24 @@ DOTAEventCrestImage #LevelLabel {
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#662627), to(#943339));
 }
 
+.ButtonPrimary.DireRed {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#ec3e3e), to(#901e1e));
+    border-brush: WhiteGradientBorderMedium;
+}
+
+.ButtonPrimary.DireRed:active:enabled:not(.Disabled) {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#901e1e), to(#ec3e3e));
+}
+
+.ButtonPrimary.RadiantGreen {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#70cc60), to(#217938));
+    border-brush: WhiteGradientBorderMedium;
+}
+
+.ButtonPrimary.RadiantGreen:active:enabled:not(.Disabled) {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#217938), to(#70cc60));
+}
+
 .ButtonPrimary.Green {
     background-color: GreenGradientBackgroundColor;
     border-brush: WhiteGradientBorderStrong;
@@ -6173,6 +6191,15 @@ DOTAEventCrestImage #LevelLabel {
 
 .ButtonPrimary.Green:active:enabled:not(.Disabled) {
     background-color: GreenGradientBackgroundColor_Inverted;
+}
+
+.ButtonPrimary.DarkGreen {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#2a423f), to(#142120));
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(#efd4ac), to(#745c30));
+}
+
+.ButtonPrimary.DarkGreen:active:enabled:not(.Disabled) {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#142120), to(#2a423f));
 }
 
 .ButtonPrimary.Orange {
@@ -7074,6 +7101,10 @@ ProgressBarWithMiddle.AnimatedArrowProgressBar.ScrollLeft .ProgressBarMiddle .Pr
 
 .facet_icon_skull #FacetIcon {
     background-image: url("s2r://panorama/images/hud/facets/icons/skull_png.vtex");
+}
+
+.facet_icon_guitar #FacetIcon {
+    background-image: url("s2r://panorama/images/hud/facets/icons/guitar_png.vtex");
 }
 
 .facet_icon_no_facet #FacetIcon {

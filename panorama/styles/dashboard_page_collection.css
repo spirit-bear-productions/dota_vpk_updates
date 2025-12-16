@@ -200,7 +200,8 @@ DOTACollectionPageShards {
 .CollectionTab_Emblems:not(.ExpandedView) #ViewerGroup,
 .CollectionTab_Roshan:not(.ExpandedView) #ViewerGroup,
 .CollectionTab_Treasures:not(.ExpandedView) #ViewerGroup,
-.CollectionTab_Tormentor:not(.ExpandedView) #ViewerGroup {
+.CollectionTab_Tormentor:not(.ExpandedView) #ViewerGroup,
+.CollectionTab_KillEffect:not(.ExpandedView) #ViewerGroup {
     width: 848px;
 }
 
@@ -213,7 +214,8 @@ DOTACollectionPageShards {
 .AspectRatio16x10 .CollectionTab_Emblems:not(.ExpandedView) #ViewerGroup,
 .AspectRatio16x10 .CollectionTab_Roshan:not(.ExpandedView) #ViewerGroup,
 .AspectRatio16x10 .CollectionTab_Treasures:not(.ExpandedView) #ViewerGroup,
-.AspectRatio16x10 .CollectionTab_Tormentor:not(.ExpandedView) #ViewerGroup {
+.AspectRatio16x10 .CollectionTab_Tormentor:not(.ExpandedView) #ViewerGroup,
+.AspectRatio16x10 .CollectionTab_KillEffect:not(.ExpandedView) #ViewerGroup {
     width: 848px;
 }
 
@@ -226,7 +228,8 @@ DOTACollectionPageShards {
 .AspectRatio21x9 .CollectionTab_Emblems:not(.ExpandedView) #ViewerGroup,
 .AspectRatio21x9 .CollectionTab_Roshan:not(.ExpandedView) #ViewerGroup,
 .AspectRatio21x9 .CollectionTab_Treasures:not(.ExpandedView) #ViewerGroup,
-.AspectRatio21x9 .CollectionTab_Tormentor:not(.ExpandedView) #ViewerGroup {
+.AspectRatio21x9 .CollectionTab_Tormentor:not(.ExpandedView) #ViewerGroup,
+.AspectRatio21x9 .CollectionTab_KillEffect:not(.ExpandedView) #ViewerGroup {
     width: 1054px;
 }
 
@@ -420,7 +423,8 @@ DOTACollectionPageShards {
 .CollectionTab_Wards #SceneGroup,
 .CollectionTab_Exclusive #SceneGroup,
 .CollectionTab_Legacy #SceneGroup,
-.CollectionTab_Treasures #SceneGroup {
+.CollectionTab_Treasures #SceneGroup,
+.CollectionTab_KillEffect #SceneGroup {
     opacity: 1;
     transform: translateX(600px);
     transition-duration: 0.1s;
@@ -444,7 +448,8 @@ DOTACollectionPageShards {
 .AspectRatio16x10 .CollectionTab_Wards #SceneGroup,
 .AspectRatio16x10 .CollectionTab_Exclusive #SceneGroup,
 .AspectRatio16x10 .CollectionTab_Legacy #SceneGroup,
-.AspectRatio16x10 .CollectionTab_Treasures #SceneGroup {
+.AspectRatio16x10 .CollectionTab_Treasures #SceneGroup,
+.AspectRatio16x10 .CollectionTab_KillEffect #SceneGroup {
     transform: translateX(570px);
 }
 
@@ -464,7 +469,8 @@ DOTACollectionPageShards {
 .AspectRatio21x9 .CollectionTab_Wards #SceneGroup,
 .AspectRatio21x9 .CollectionTab_Exclusive #SceneGroup,
 .AspectRatio21x9 .CollectionTab_Legacy #SceneGroup,
-.AspectRatio21x9 .CollectionTab_Treasures #SceneGroup {
+.AspectRatio21x9 .CollectionTab_Treasures #SceneGroup,
+.AspectRatio21x9 .CollectionTab_KillEffect #SceneGroup {
     transform: translateX(780px);
 }
 

@@ -3686,7 +3686,8 @@ Label {
     transform: none;
 }
 
-.treasure_itemdef_34332 #TreasureExtraInfo {
+.treasure_itemdef_34332 #TreasureExtraInfo,
+.treasure_itemdef_32933 #TreasureExtraInfo {
     margin: 0px;
     width: 100%;
     height: 100%;

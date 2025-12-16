@@ -271,6 +271,10 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     margin-left: 280px;
 }
 
+.MinimapExtraLarge #TormentorTimerContainer {
+    margin-left: 280px;
+}
+
 .MinimapExtraExtraLarge #minimap {
     width: 444px;
     height: 444px;
@@ -290,7 +294,7 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
     height: 534px;
 }
 
-.MinimapExtraExtraLarge #RoshanTimerContainer {
+.MinimapExtraExtraLarge #TormentorTimerContainer {
     margin-left: 420px;
 }
 
@@ -305,8 +309,15 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 
 #RoshanTimerContainer {
     vertical-align: bottom;
+    z-index: -2;
+    margin-bottom: 162px;
+    margin-left: 244px;
+}
+
+#TormentorTimerContainer {
+    vertical-align: bottom;
     z-index: -1;
-    margin-bottom: 96px;
+    margin-bottom: 93px;
     margin-left: 244px;
 }
 
@@ -1185,8 +1196,7 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 }
 
 .NonHero #AghsStatusContainer,
-.NonHero #StatBranch,
-.IsSpiritBear #StatBranch {
+.NonHero #StatBranch {
     visibility: collapse;
 }
 

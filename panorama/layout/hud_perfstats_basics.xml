@@ -49,11 +49,9 @@
 			</Panel>
 		</Panel>
 		<Label id="problems_label" class="Poor" text="" />
-		<Panel id="truespectate_row">
-			<Label text="#hud_telemetry_truespectate" />
-			<Label id="truespectate_active" text="#hud_telemetry_truespectate_active" />
-			<Label id="truespectate_disabled" text="#hud_telemetry_truespectate_disabled" />
-			<Label id="truespectate_nodata" text="#hud_telemetry_truespectate_nodata" />
+		<Panel id="trueview_row">
+			<Label text="#hud_telemetry_trueview" />
+			<Label id="trueview_state" />
 		</Panel>
 		<Panel id="obit_spacer" />
 		<HudFrameTimeGraph id="frametime_graph">

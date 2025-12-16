@@ -5,6 +5,10 @@ DOTAUIHeroFacetPicker {
     flow-children: down;
 }
 
+.ControlPanel .HeroFacetSnippet {
+    max-width: 500px;
+}
+
 .HeroFacetSnippet {
     width: fill-parent-flow(1);
     max-width: 210px;
