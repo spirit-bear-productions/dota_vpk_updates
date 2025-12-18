@@ -601,6 +601,16 @@ DOTAMonsterHunterPremiumPopup.PopupPanel {
     margin-top: 20px;
 }
 
+#PopupMonsterHunterPremium.ExpeditionPackIsOnSale .PriceDiscount,
+#PopupMonsterHunterPremium.ExpeditionPackIsOnSale .WasPrice,
+#PopupMonsterHunterPremium.ExpeditionPackIsOnSale .DiscountEndDate {
+    visibility: visible;
+}
+
+#PopupMonsterHunterPremium.ExpeditionPackIsOnSale .NowPrice {
+    color: TextColorGradientGreen;
+}
+
 .PriceContainer {
     horizontal-align: center;
     flow-children: right;
@@ -613,16 +623,17 @@ DOTAMonsterHunterPremiumPopup.PopupPanel {
 }
 
 .PriceContainer .PriceDiscount {
+    visibility: collapse;
     color: TextColorGradientGreen;
 }
 
 .PriceContainer .WasPrice {
+    visibility: collapse;
     color: TextColorGradientGold;
     text-decoration: line-through;
 }
 
 .PriceContainer .NowPrice {
-    color: TextColorGradientGreen;
     font-weight: semi-bold;
     font-size: 28px;
     margin-top: -1px;
@@ -647,6 +658,7 @@ DOTAMonsterHunterPremiumPopup.PopupPanel {
 }
 
 .DiscountEndDate {
+    visibility: collapse;
     horizontal-align: center;
     color: TextColorLighter&99;
     margin-top: -4px;
