@@ -78,3 +78,11 @@
 .PlusSubscriber .BattleStatsCell {
     visibility: visible;
 }
+
+#MonsterHunterCell {
+    visibility: collapse;
+}
+
+#MonsterHunterCell.MonsterHunterEventNotEnded {
+    visibility: visible;
+}

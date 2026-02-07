@@ -1088,6 +1088,10 @@ DOTAMonsterHunterHeroCodexPopup.PopupPanel {
     border: 1px solid #745f42a1;
     transition-property: opacity;
     transition-duration: 0.3s;
+    opacity: 0;
+}
+
+.MaterialsClaimed #CodexRewardsContainer .MaterialsRewardsContainer .MaterialsClaimedLabel {
     opacity: 1;
 }
 
@@ -1183,6 +1187,10 @@ DOTAMonsterHunterHeroCodexPopup.PopupPanel {
     border: 1px solid #745f42a1;
     transition-property: opacity;
     transition-duration: 0.3s;
+    opacity: 0;
+}
+
+.StickerClaimed #CodexRewardsContainer .StickerRewardsContainer .StickerClaimedLabel {
     opacity: 1;
 }
 
