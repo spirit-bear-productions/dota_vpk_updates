@@ -493,11 +493,11 @@ DOTAMonsterHunterRankBadge.CurrentBadge {
     visibility: visible;
 }
 
-.HunterRankGroup.Claimable .ClaimButton.HideAfterEventEnds {
+.HunterRankGroup.Rank1 .RewardsLabel {
     visibility: collapse;
 }
 
-.HunterRankGroup.Rank1 .RewardsLabel {
+.EventHasEnded .HunterRankGroup.Claimable .ClaimButton.HideAfterEventEnds {
     visibility: collapse;
 }
 
