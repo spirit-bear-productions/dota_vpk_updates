@@ -54,10 +54,6 @@
 					<Label text="A" />
 				</Panel>
 			</Panel>
-			<DOTAViolator id="AutoDeliverViolator" class="AutoDeliverViolator DOTAViolator" name="autodeliver_violator" hittest="false">
-				<Panel class="DOTAViolatorOuter" />
-				<Panel class="DOTAViolatorInner" />
-			</DOTAViolator>
 		</Panel>
 		<Panel id="DeadCourierPanel" onactivate="DOTAHUDCourierDeadLeftClick();" acceptsjoyfocus="true">
 			<Panel id="CourierDeadIcon" hittest="false" />

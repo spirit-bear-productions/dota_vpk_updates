@@ -24,8 +24,7 @@
 		</Button>
 		<Button id="MarkForSell">
 			<Label text="#DOTA_InventoryMenu_MarkForSell" />
-			<Label id="MarkForSellNewBadge" class="NewBadge" text="#DOTA_New" />
-			<Image class="TooltipInfoIcon" src="s2r://panorama/images/control_icons/24px/info.vsvg" scaling="stretch-to-fit-preserve-aspect" onmouseover="UIShowTextTooltip( #DOTA_InventoryMenu_MarkForSell_Tooltip ) DOTAHUDContextMenuItemMarkForSellTooltipHover()" onmouseout="UIHideTextTooltip()" />
+			<Image class="TooltipInfoIcon" src="s2r://panorama/images/control_icons/24px/info.vsvg" scaling="stretch-to-fit-preserve-aspect" onmouseover="UIShowTextTooltip( #DOTA_InventoryMenu_MarkForSell_Tooltip )" onmouseout="UIHideTextTooltip()" />
 		</Button>
 		<Button id="UnmarkForSell">
 			<Label text="#DOTA_InventoryMenu_UnmarkForSell" />
