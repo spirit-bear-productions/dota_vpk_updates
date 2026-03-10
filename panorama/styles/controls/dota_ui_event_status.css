@@ -25,6 +25,19 @@
     saturation: 0.5;
 }
 
+.Season_Spring2026 #LevelShieldProgressLayer1 {
+    background-color: #c5add9;
+}
+
+.Season_Spring2026 #LevelShieldProgressLayer2 {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#ffe5f5), to(#ffccea));
+}
+
+.Season_Spring2026 .EventLevelParticles {
+    hue-rotation: 170deg;
+    saturation: 0.5;
+}
+
 DOTAEventStatus {
     width: 120px;
     height: 120px;

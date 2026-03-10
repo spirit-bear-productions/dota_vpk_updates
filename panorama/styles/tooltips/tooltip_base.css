@@ -328,3 +328,10 @@
 .Season_Winter2025 #BottomArrow {
     wash-color: #1d282e;
 }
+
+.Season_Spring2026 #LeftArrow,
+.Season_Spring2026 #RightArrow,
+.Season_Spring2026 #TopArrow,
+.Season_Spring2026 #BottomArrow {
+    wash-color: #2d2433;
+}
