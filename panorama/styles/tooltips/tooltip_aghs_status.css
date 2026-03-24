@@ -1,9 +1,21 @@
 /* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 .AghsStatusContents {
-    width: 360px;
+    width: fit-children;
     background-color: #10171c00;
     flow-children: down;
+}
+
+.MultipleContainer {
+    width: fit-children;
+}
+
+#AghsScepterContainer1,
+#AghsScepterContainer2,
+#AghsShardContainer1,
+#AghsShardContainer2 {
+    border-right: 1px solid rgba(0, 0, 0, 1);
+    margin-right: -1px;
 }
 
 #Contents {
@@ -15,33 +27,57 @@
 }
 
 .SectionContent {
-    padding: 8px;
     border: 2px solid black;
     width: 100%;
     flow-children: down;
-    padding-bottom: 4px;
     box-shadow: 0px 1px 16px 0px #0008;
 }
 
-.AghsContainer {
+.HeaderContainer {
     width: 100%;
+    flow-children: right;
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#8fd6ff04), to(#8fd6ff01));
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.HeaderContainer .HeaderBackgroundTexture {
+    background-image: url("s2r://panorama/images/hud/facets/ripple_texture_png.vtex");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    ignore-parent-flow: true;
+    opacity-brush: gradient(linear, 0% 0%, 100% 0%, from(#ffffff), to(#ffffff00));
+    -s2-mix-blend-mode: screen;
+    opacity: 0.1;
+    wash-color: rgb(161, 203, 255);
+}
+
+.HasScepter #TopSection .HeaderContainer,
+.HasShard #BottomSection .HeaderContainer {
+    background-color: gradient(linear, 0% 0%, 80% 0%, from(#53afff2b), to(#608dff06));
+}
+
+.HasScepter #TopSection .HeaderContainer .HeaderBackgroundTexture,
+.HasShard #BottomSection .HeaderContainer .HeaderBackgroundTexture {
+    opacity: 0.2;
+}
+
+.AghsPanel {
     flow-children: down;
-    margin-top: 6px;
 }
 
 #TopSection {
-    background-color: gradient(linear, 0% 0%, 0% 200%, from(#1c2024fd), to(#000000fd));
-    background-color: #10171c;
-    background-image: url("s2r://panorama/images/hud/aghs_tooltip_bg_psd.vtex");
-    background-repeat: no-repeat;
-    background-position: 0px -2px;
+    background-color: gradient(radial, 0% 0%, 0% 0%, 100% 100%, from(#182229), to(#0d1317));
+    width: fit-children;
 }
 
 #BottomSection {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#182229), to(#0d1317));
+}
+
+#TomeSection {
     background-color: gradient(linear, 0% -100%, 0% 100%, from(#1c2024fd), to(#000000fd));
-    background-image: url("s2r://panorama/images/hud/aghs_tooltip_bg_psd.vtex");
-    background-repeat: no-repeat;
-    background-position: 0px -2px;
+    visibility: collapse;
 }
 
 #AghsTooltipConnecter {
@@ -110,7 +146,12 @@
 }
 
 #DOTAHUDAghsStatusTooltip.HasShard #AghsShardContainer .AbilityName,
-#DOTAHUDAghsStatusTooltip.HasScepter #AghsScepterContainer .AbilityName {
+#DOTAHUDAghsStatusTooltip.HasScepter
+    #AghsScepterContainer
+    .AbilityName
+    #DOTAHUDAghsStatusTooltip.HasForbiddenTome
+    #AghsScepterContainer
+    .AbilityName {
     color: white;
 }
 
@@ -132,11 +173,13 @@
 }
 
 #AghsStatusShardContainer,
-#AghsStatusScepterContainer {
+#AghsStatusScepterContainer,
+#AghsStatusTomeContainer {
     width: 34px;
     height: 34px;
-    margin-right: 4px;
+    margin: 4px;
     overflow: noclip;
+    vertical-align: center;
 }
 
 .AbilityTypeTitle {
@@ -152,7 +195,6 @@
     background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_scepter_psd.vtex");
     z-index: 2;
     overflow: noclip;
-    margin-top: -5px;
 }
 
 #AghsStatusShardIcon {
@@ -162,6 +204,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_shard_psd.vtex");
+    z-index: 2;
+    overflow: noclip;
+}
+
+#AghsStatusTomeIcon {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_scepter_psd.vtex");
     z-index: 2;
     overflow: noclip;
     margin-top: -5px;
@@ -177,11 +230,16 @@
     brightness: 2;
 }
 
+#DOTAHUDAghsStatusTooltip.HasForbiddenTome #AghsStatusTomeIcon {
+    background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_shard_on_psd.vtex");
+    brightness: 2;
+}
+
 #AghsStatusScepterScene {
     opacity: 0;
     width: 250%;
     height: 250%;
-    margin-top: -60%;
+    margin-top: -50%;
     margin-left: -70%;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_png.vtex") 1;
 }
@@ -198,7 +256,7 @@
     opacity: 0;
     width: 250%;
     height: 250%;
-    margin-top: -143%;
+    margin-top: -120%;
     margin-left: -75%;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_png.vtex") 1;
 }
@@ -211,19 +269,41 @@
     opacity: 1;
 }
 
+#AghsStatusTomeScene {
+    opacity: 0;
+    width: 250%;
+    height: 250%;
+    margin-top: -143%;
+    margin-left: -75%;
+    opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_png.vtex") 1;
+}
+
+#AghsStatusTomeScene.SceneLoaded {
+    opacity: 0;
+}
+
+#DOTAHUDAghsStatusTooltip.HasForbiddenTome #AghsStatusTomeScene.SceneLoaded {
+    opacity: 1;
+}
+
 .AghsTitle {
     font-size: 20px;
     font-weight: semi-bold;
-    color: gradient(linear, 0% 0%, 40% 0%, from(#92acf5), to(#6378b3));
-    text-shadow: 2px 2px 0px #000000;
+    color: gradient(linear, 0% 0%, 40% 0%, from(#89b4ff), to(#6a94d4));
+    text-shadow: 0px 1px 8px #000000;
+    vertical-align: center;
 }
 
 #DOTAHUDAghsStatusTooltip.HasScepter #TopSection .AghsTitle {
-    color: gradient(linear, 0% 0%, 40% 0%, from(#62cdff), to(#658cf8));
+    color: gradient(linear, 0% 0%, 90% 0%, from(#7ad5ff), to(#789aff));
 }
 
 #DOTAHUDAghsStatusTooltip.HasShard #BottomSection .AghsTitle {
-    color: gradient(linear, 0% 0%, 40% 0%, from(#62cdff), to(#658cf8));
+    color: gradient(linear, 0% 0%, 90% 0%, from(#7ad5ff), to(#789aff));
+}
+
+#DOTAHUDAghsStatusTooltip.HasForbiddenTome #BottomSection .AghsTitle {
+    color: gradient(linear, 0% 0%, 90% 0%, from(#7ad5ff), to(#789aff));
 }
 
 #HeroImage {

@@ -1587,11 +1587,12 @@ DOTAHUDShop.ShowSearchResults.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #Grid
 
 #NeutralItemsList {
     flow-children: right-wrap;
-    width: fill-parent-flow(1);
+    width: 50%;
+    vertical-align: center;
 }
 
 #NeutralItemsList DOTAShopItem {
-    width: 42px;
+    width: 33px;
     height: width-percentage(72.7%);
     margin: 3px;
     ui-scale: 88%;
@@ -1607,8 +1608,8 @@ DOTAHUDShop.ShowSearchResults.ShopHotkeyMode:not(.DOTA_SHOP_CATEGORY_NONE) #Grid
 }
 
 #NeutralEnhancementsList DOTAShopItem {
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
     opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
     -s2-mix-blend-mode: screen;
 }

@@ -714,11 +714,7 @@ class AnimateMatchRewardsScreenAction extends RunSequentialActions {
                             "party_member_count",
                             guildProgress.match_guild_points.party_guild_member_count,
                         );
-                        pointsLabel = $.Localize(
-                            "#DOTA_MatchRewards_GuildMembersInParty:p",
-                            guildProgress.match_guild_points.party_guild_member_count,
-                            guildSection,
-                        );
+                        pointsLabel = $.Localize("#DOTA_MatchRewards_GuildMembersInParty:f", guildSection);
                     }
 
                     this.actions.push(

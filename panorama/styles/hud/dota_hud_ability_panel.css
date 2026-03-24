@@ -1827,6 +1827,12 @@ DOTAAbilityPanel.Hidden {
     margin: 1px;
 }
 
+.Reborn .AbilityMaxLevel11 .LevelPanel {
+    width: 2px;
+    height: 6px;
+    margin: 1.3px;
+}
+
 .Reborn .active_level.LevelPanel {
     background-image: none;
     background-size: 100% 100%;

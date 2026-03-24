@@ -115,7 +115,7 @@
 	Diagnostic.update_test_start_vsnd_rand_oneshot_restart = 
 	{
 		type = "update_test_start_vsnd_rand_oneshot"
-		_builtins._voicegraph = "hlx.hrtf_basic"
+		_builtins._voicegraph = "core.hrtf_basic"
 		delay = 0.000000
 		restart_time = 9.000000
 		fade_out = 5.000000
@@ -1255,6 +1255,11 @@
 			"Diagnostic.AAAAA_editTESTER",
 			"Diagnostic.update_test_start_vsnd_rand_oneshot",
 		]
+	}
+	Diagnostic.test_vsndcontainer_loop_xfade = 
+	{
+		type = "test_vsnd_loop_xfade"
+		in_vsnd = "sounds/containers/test_loop_xfade.vsnd"
 	}
 	_auto_calc_vnsd_duration_ = "false"
 }

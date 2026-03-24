@@ -1,306 +1,458 @@
 /* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
-.AghsDescriptionContents {
-    width: 360px;
-    background-color: #10171c00;
-    flow-children: down;
+.AghsDescriptionContents
+{
+	width: 360px background-color: #10171c00;
+	flow-children: down;
+	padding-bottom: 6px;
+	border-brush: gradient( linear, 0% 0%, 0% 100%, from( #ffffff ), to( #ffffff00 ) );
 }
 
-.AghsContainer {
-    width: 100%;
-    flow-children: down;
-    margin-top: 6px;
+.AghsDescriptionContents.MultipleOptions
+{
+	width: 300px;
 }
 
-#TopSection {
-    background-color: gradient(linear, 0% 0%, 0% 200%, from(#1c2024fd), to(#000000fd));
-    background-color: #10171c;
-    background-image: url("s2r://panorama/images/hud/aghs_tooltip_bg_psd.vtex");
-    background-repeat: no-repeat;
-    background-position: 0px -2px;
+.AghsDescriptionContents.Inactive
+{
+	saturation: 0.5;
+	wash-color: rgba(67, 72, 74, 0.7);
 }
 
-#BottomSection {
-    background-color: gradient(linear, 0% -100%, 0% 100%, from(#1c2024fd), to(#000000fd));
-    background-image: url("s2r://panorama/images/hud/aghs_tooltip_bg_psd.vtex");
-    background-repeat: no-repeat;
-    background-position: 0px -2px;
+.AghsDescriptionContents.Inactive .ChoiceLabelContainer
+{
+	visibility: collapse;
 }
 
-#AghsTooltipConnecter {
-    width: 100%;
-    height: 12px;
-    margin: 0px 16px;
-    background-color: #111416f7;
+.AghsDescriptionContents.Choosen
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #a4d2ff0c ), to( #6481a800 ) );
+	border: 1px solid rgba(205, 217, 255, 0.4);
 }
 
-.InsetContainer {
-    width: 100%;
-    padding: 0;
+.AghsContainer
+{
+	width: 100%;
+	flow-children: down;
+	margin-top: 6px;
 }
 
-.DetailsContainer {
-    flow-children: right;
-    margin-bottom: 4px;
+#TopSection
+{
+	background-color: gradient( linear, 0% 0%, 0% 200%, from( #1c2024fd ), to( #000000fd ) );
+	background-color: #10171c;
+	background-image: url("s2r://panorama/images/hud/aghs_tooltip_bg_psd.vtex");
+	background-repeat: no-repeat;
+	background-position: 0px -2px;
 }
 
-.TypeTitle {
-    color: #678fff;
-    color: #596e89;
-    text-transform: uppercase;
-    text-overflow: shrink;
-    text-align: center;
-    height: 18px;
-    vertical-align: center;
-    color: #9ab0cd;
-    background-color: #4160b630;
-    border-radius: 3px;
-    font-size: 16px;
-    padding: -1px 5px;
+#BottomSection
+{
+	background-color: gradient( linear, 0% -100%, 0% 100%, from( #1c2024fd ), to( #000000fd ) );
+	background-image: url("s2r://panorama/images/hud/aghs_tooltip_bg_psd.vtex");
+	background-repeat: no-repeat;
+	background-position: 0px -2px;
 }
 
-#AghsShardContainer #AbilityCosts,
-#AghsScepterContainer #AbilityCosts,
-#ScepterUpgradeDescription #AbilityCosts,
-#ShardUpgradeDescription #AbilityCosts {
-    margin-left: -5px;
-    visibility: visible;
+#AghsTooltipConnecter
+{
+	width: 100%;
+	height: 12px;
+	margin: 0px 16px;
+	background-color: #111416f7;
 }
 
-#AghsScepterContainer .HeroScepter #AbilityCosts,
-#ScepterUpgradeDescription .HeroScepter #AbilityCosts {
-    visibility: collapse;
+.InsetContainer
+{
+	width: 100%;
+	padding: 0;
 }
 
-.HeroShard .TypeTitle {
-    margin-left: -2px;
+.DetailsContainer
+{
+	flow-children: right;
+	padding: 6px 6px;
 }
 
-.GrantedAbility .TypeTitle {
-    background-color: #4160b660;
-    color: #9ab0cd;
+#AbilityCoreDetails .DetailsContainer
+{
+	padding: 0px;
 }
 
-.AbilityInfo {
-    flow-children: down;
-    padding: 4px;
+.TypeTitle
+{
+	color: #678FFF;
+	color: #596e89;
+	text-transform: uppercase;
+	text-overflow: shrink;
+	text-align: center;
+	height: 18px;
+	vertical-align: center;
+	color: #9ab0cd;
+	background-color: #4160b630;
+	border-radius: 3px;
+	font-size: 16px;
+	padding: -1px 5px;
 }
 
-.GrantedAbility .DetailsContainer {
-    border-radius: 4px;
+#AghsShardContainer #AbilityCosts,#AghsScepterContainer #AbilityCosts,#ScepterUpgradeDescription #AbilityCosts,#ShardUpgradeDescription #AbilityCosts
+{
+	margin-left: -5px;
+	visibility: visible;
 }
 
-.AbilityName {
-    font-family: titleFont;
-    color: #c7c7c7;
-    text-shadow: 1px 1px 2px 2 black;
-    vertical-align: top;
-    margin-top: -2px;
-    text-transform: uppercase;
-    font-weight: semi-bold;
-    letter-spacing: 1px;
-    font-size: 18px;
+#AghsScepterContainer .HeroScepter #AbilityCosts,#ScepterUpgradeDescription .HeroScepter #AbilityCosts
+{
+	visibility: collapse;
 }
 
-.AghsScepterAbilityCharges {
-    margin-top: 5px;
-    color: #596e89;
-    visibility: collapse;
+.HeroShard .TypeTitle
+{
+	margin-left: -2px;
 }
 
-.UsesAbilityCharges .AghsScepterAbilityCharges {
-    visibility: visible;
+.GrantedAbility .TypeTitle
+{
+	background-color: #4160b660;
+	color:#9ab0cd;
 }
 
-.AbilityDescription,
-.AbilitySpecialKeys {
-    color: #9ab0cd;
-    font-size: 16px;
+.AbilityInfo
+{
+	flow-children: down;
+	padding: 4px 4px 0px;
+	width: fill-parent-flow(1);
 }
 
-#ScepterAbilityImage {
-    width: 36px;
-    height: 36px;
-    border-radius: 3px;
-    horizontal-align: right;
-    box-shadow: 0px 1px 6px 0px #0008;
-    border: 1px solid black;
-    margin-right: 4px;
-    margin-top: 4px;
-    margin-left: 4px;
+.GrantedAbility .DetailsContainer
+{
+	border-radius: 4px;
 }
 
-#AghsStatusShardContainer,
-#AghsStatusScepterContainer {
-    width: 34px;
-    height: 34px;
-    margin-right: 4px;
-    overflow: noclip;
+.AbilityName
+{
+	font-family: titleFont;
+	color: #c9cdd4;
+	text-shadow: 0px 1px 6px 2 black;
+	vertical-align: top;
+	margin-top: -2px;
+	text-transform: uppercase;
+	font-weight: semi-bold;
+	letter-spacing: 1px;
+	font-size: 18px;
 }
 
-.AbilityTypeTitle {
-    height: 36px;
-    flow-children: down;
-    margin-bottom: 5px;
+.AghsScepterAbilityCharges
+{
+	margin-top: 5px;
+	color: #596e89;
+	visibility: collapse;
 }
 
-.HeroScepter .AbilityTypeTitle {
-    height: 20px;
+.UsesAbilityCharges .AghsScepterAbilityCharges
+{
+	visibility: visible;
 }
 
-#AghsStatusScepterIcon {
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_scepter_psd.vtex");
-    z-index: 2;
-    overflow: noclip;
-    margin-top: -5px;
+.AbilityDescription,.AbilitySpecialKeys
+{
+	color: #9ab0cd;
+	font-size: 16px;
 }
 
-#AghsStatusShardIcon {
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_shard_psd.vtex");
-    z-index: 2;
-    overflow: noclip;
-    margin-top: -5px;
+.MultipleOptions .AbilityDescription,.MultipleOptions .AbilitySpecialKeys
+{
+	font-size: 14px;
 }
 
-.HeroHasScepter.InlineScepterDescription #AghsStatusScepterIcon {
-    background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_scepter_on_psd.vtex");
+#ScepterAbilityImage
+{
+	width: 36px;
+	height: 36px;
+	border-radius: 3px;
+	horizontal-align: right;
+	box-shadow: 0px 1px 6px 0px #0008;
+	border: 1px solid black;
+	margin-right: 4px;
+	margin-top: 4px;
+	margin-left: 4px;
 }
 
-.HeroHasShard.InlineShardDescription #AghsStatusShardIcon {
-    background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_shard_on_psd.vtex");
+#AghsStatusShardContainer,#AghsStatusScepterContainer,#AghsStatusTomeContainer
+{
+	width: 34px;
+	height: 34px;
+	margin-right: 4px;
+	overflow: noclip;
 }
 
-#AghsStatusScepterScene {
-    opacity: 0;
-    width: 250%;
-    height: 250%;
-    margin-top: -60%;
-    margin-left: -70%;
-    opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_png.vtex") 1;
+.AbilityTypeTitle
+{
+	height: 36px;
+	flow-children: down;
+	margin-bottom: 5px;
 }
 
-#AghsStatusScepterScene.SceneLoaded {
-    opacity: 0;
+.HeroScepter .AbilityTypeTitle
+{
+	height: 20px;
 }
 
-#AghsStatusShardScene {
-    opacity: 0;
-    width: 250%;
-    height: 250%;
-    margin-top: -143%;
-    margin-left: -75%;
-    opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_png.vtex") 1;
+#AghsStatusScepterIcon
+{
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_scepter_psd.vtex");
+	z-index: 2;
+	overflow: noclip;
+	margin-top: -5px;
 }
 
-#AghsStatusShardScene.SceneLoaded {
-    opacity: 0;
+#AghsStatusShardIcon
+{
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_shard_psd.vtex");
+	z-index: 2;
+	overflow: noclip;
+	margin-top: -5px;
 }
 
-.AghsTitle {
-    font-size: 20px;
-    font-weight: semi-bold;
-    color: gradient(linear, 0% 0%, 40% 0%, from(#92acf5), to(#6378b3));
-    text-shadow: 2px 2px 0px #000000;
+#AghsStatusTomeIcon
+{
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_scepter_psd.vtex");
+	z-index: 2;
+	overflow: noclip;
+	margin-top: -5px;
 }
 
-#HeroImage {
-    width: 36px;
-    height: 50px;
-    border-radius: 3px;
-    horizontal-align: left;
-    box-shadow: 0px 1px 6px 0px #0008;
-    border: 1px solid black;
-    margin-right: 4px;
-    margin-top: 1px;
-    margin-left: 4px;
+.HeroHasScepter.InlineScepterDescription #AghsStatusScepterIcon
+{
+	background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_scepter_on_psd.vtex");
 }
 
-.NoChildrenLabel {
-    visibility: collapse;
+.HeroHasShard.InlineShardDescription #AghsStatusShardIcon
+{
+	background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_shard_on_psd.vtex");
 }
 
-.NoChildrenLabel Label {
-    color: rgb(133, 110, 69);
+.HeroHasTome.InlineTomeDescription #AghsStatusTomeIcon
+{
+	background-image: url("s2r://panorama/images/hud/reborn/aghsstatus_tome_on_psd.vtex");
 }
 
-.NoUpgrade .NoChildrenLabel {
-    visibility: visible;
+#AghsStatusScepterScene
+{
+	opacity: 0;
+	width: 250%;
+	height: 250%;
+	margin-top: -60%;
+	margin-left: -70%;
+	opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_png.vtex") 1.0;
 }
 
-.AbilitySpecialKeys {
-    visibility: collapse;
-    color: #596e89;
-    margin-top: 5px;
+#AghsStatusScepterScene.SceneLoaded
+{
+	opacity: 0;
 }
 
-.UsesAbilityCharges .AbilitySpecialKeys {
-    margin-top: 0px;
+#AghsStatusShardScene
+{
+	opacity: 0;
+	width: 250%;
+	height: 250%;
+	margin-top: -143%;
+	margin-left: -75%;
+	opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_png.vtex") 1.0;
 }
 
-.HasAbilitySpecialKeys .AbilitySpecialKeys {
-    visibility: visible;
+#AghsStatusShardScene.SceneLoaded
+{
+	opacity: 0;
 }
 
-.InlineScepterHeader,
-.InlineShardHeader {
-    flow-children: right;
-    visibility: collapse;
+#AghsStatusTomeScene
+{
+	opacity: 0;
+	width: 250%;
+	height: 250%;
+	margin-top: -143%;
+	margin-left: -75%;
+	opacity-mask: url("s2r://panorama/images/masks/softedge_box_irregular_png.vtex") 1.0;
 }
 
-.InlineScepterDescription,
-.InlineShardDescription {
-    padding-top: 10px;
-    background-color: gradient(linear, 0% 0%, 0% 200%, from(#1c2024fd), to(#000000fd));
-    background-color: #10171c;
-    background-image: url("s2r://panorama/images/hud/aghs_tooltip_bg_psd.vtex");
-    background-repeat: no-repeat;
-    background-position: 0px -2px;
-    margin-left: 4px;
-    margin-bottom: 10px;
-    border: 1px solid black;
+#AghsStatusTomeScene.SceneLoaded
+{
+	opacity: 0;
 }
 
-.InlineScepterDescription .InlineScepterHeader,
-.InlineShardDescription .InlineShardHeader {
-    visibility: visible;
+.AghsTitle
+{
+	font-size: 20px;
+	font-weight: semi-bold;
+	color: gradient( linear, 0% 0%, 40% 0%, from( #92acf5 ), to(#6378b3 ) );
+	text-shadow: 2px 2px 0px #000000;
 }
 
-.InlineScepterDescription #ScepterAbilityImage,
-.InlineShardDescription #ScepterAbilityImage,
-.InlineScepterDescription .AbilityName,
-.InlineShardDescription .AbilityName,
-.InlineScepterDescription .TypeTitle,
-.InlineScepterDescription .AbilityTypeTitle,
-.InlineShardDescription .AbilityTypeTitle {
-    visibility: collapse;
+#HeroImage
+{
+	width: 36px;
+	height: 50px;
+	border-radius: 3px;
+	horizontal-align: left;
+	box-shadow: 0px 1px 6px 0px #0008;
+	border: 1px solid black;
+	margin-right: 4px;
+	margin-top: 1px;
+	margin-left: 4px;
 }
 
-.InlineScepterDescription #AghsStatusScepterIcon,
-.InlineScepterDescription #AghsStatusScepterScene,
-.InlineScepterDescription .AghsTitle,
-.InlineShardDescription #AghsStatusShardIcon,
-.InlineShardDescription #AghsStatusShardScene,
-.InlineShardDescription .AghsTitle {
-    margin-left: 8px;
+.NoChildrenLabel
+{
+	visibility: collapse;
 }
 
-.InlineScepterDescription #AghsStatusScepterScene {
-    opacity: 1;
+.NoChildrenLabel Label
+{
+	color: rgb(133, 110, 69);
 }
 
-.InlineScepterDescription .AbilityDescription,
-.InlineScepterDescription .AbilitySpecialKeys,
-.InlineShardDescription .AbilityDescription,
-.InlineShardDescription .AbilitySpecialKeys {
-    margin-left: 4px;
+.NoUpgrade .NoChildrenLabel
+{
+	visibility: visible;
 }
+
+.AbilitySpecialKeys
+{
+	visibility: collapse;
+	color: #596e89;
+	margin-top: 5px;
+}
+
+.UsesAbilityCharges .AbilitySpecialKeys
+{
+	margin-top: 0px;
+}
+
+.HasAbilitySpecialKeys .AbilitySpecialKeys
+{
+	visibility: visible;
+}
+
+.InlineScepterHeader,.InlineShardHeader,.InlineTomeHeader
+{
+	flow-children: right;
+	visibility: collapse;
+}
+
+.InlineScepterDescription,.InlineShardDescription,.InlineTomeDescription
+{
+	padding-top: 10px;
+	background-color: gradient( linear, 0% 0%, 0% 200%, from( #1c2024fd ), to( #000000fd ) );
+	background-color: #10171c;
+	background-image: url("s2r://panorama/images/hud/aghs_tooltip_bg_psd.vtex");
+	background-repeat: no-repeat;
+	background-position: 0px -2px;
+	margin-left: 4px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+
+.InlineScepterDescription .InlineScepterHeader,.InlineShardDescription .InlineShardHeader,.InlineTomeDescription .InlineTomeHeader
+{
+	visibility: visible;
+}
+
+.InlineScepterDescription #ScepterAbilityImage,.InlineShardDescription #ScepterAbilityImage,.InlineTomeDescription #ScepterAbilityImage,.InlineScepterDescription .AbilityName,.InlineShardDescription .AbilityName,.InlineTomeDescription .AbilityName,.InlineScepterDescription .TypeTitle,.InlineScepterDescription .AbilityTypeTitle,.InlineShardDescription .AbilityTypeTitle,.InlineTomeDescription .TypeTitle,.InlineTomeDescription .AbilityTypeTitle
+{
+	visibility: collapse;
+}
+
+.InlineScepterDescription #AghsStatusScepterIcon,.InlineScepterDescription #AghsStatusScepterScene,.InlineScepterDescription .AghsTitle,.InlineShardDescription #AghsStatusShardIcon,.InlineShardDescription #AghsStatusShardScene,.InlineShardDescription .AghsTitle,.InlineTomeDescription #AghsStatusScepterIcon,.InlineTomeDescription #AghsStatusScepterScene,.InlineTomeDescription .AghsTitle
+{
+	margin-left: 8px;
+}
+
+.InlineScepterDescription #AghsStatusScepterScene
+{
+	opacity: 1;
+}
+
+.InlineScepterDescription .AbilityDescription,.InlineScepterDescription .AbilitySpecialKeys,.InlineShardDescription .AbilityDescription,.InlineShardDescription .AbilitySpecialKeys
+{
+	margin-left: 4px;
+}
+
+.ChoiceLabelContainer
+{
+	ignore-parent-flow: true;
+	horizontal-align: right;
+	width: 100%;
+	height: 100%;
+	overflow: clip;
+}
+
+.ChoiceLabelContainer .ChoiceLabelGlow
+{
+	horizontal-align: right;
+	width: 140%;
+	height: 60%;
+	opacity: 0.06;
+	overflow: noclip;
+}
+
+.ChoiceLabelContainer .ChoiceLabelContents
+{
+	horizontal-align: right;
+	padding: 2px;
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( #ffffff00 ), to( #77abff14 ) );
+}
+
+.ChoiceLabelContainer .ChoiceLabelContents .ChoiceLabel
+{
+	color: rgba(255, 255, 255, 0.7);
+	margin-left: 40px;
+	text-shadow: 0px 1px 6px black;
+}
+
+.Option1 .ChoiceLabelContainer .ChoiceLabelContents
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( #00000000 ), color-stop( 0.5, #335bc844 ), to( #3b7fd866 ) );
+}
+
+.Option1 .ChoiceLabelContainer .ChoiceLabelGlow
+{
+	background-color: gradient( radial, 100% 0%, 0% 0%, 100% 100%, from( #3b7fd8 ), color-stop( 0.5, #335bc899 ), to( #00000000 ) );
+}
+
+.Option2 .ChoiceLabelContainer .ChoiceLabelContents
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( #00000000 ), color-stop( 0.5, #a647b544 ), to( #c65ea766 ) );
+}
+
+.Option2 .ChoiceLabelContainer .ChoiceLabelGlow
+{
+	background-color: gradient( radial, 100% 0%, 0% 0%, 100% 100%, from( #c65ea7 ), color-stop( 0.5, #a647b599 ), to( #00000000 ) );
+}
+
+.Option3 .ChoiceLabelContainer .ChoiceLabelContents
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( #00000000 ), color-stop( 0.5, #a9532844 ), to( #c27d3866 ) );
+}
+
+.Option3 .ChoiceLabelContainer .ChoiceLabelGlow
+{
+	background-color: gradient( radial, 100% 0%, 0% 0%, 100% 100%, from( #c27d38 ), color-stop( 0.5, #a9532899 ), to( #00000000 ) );
+}
+

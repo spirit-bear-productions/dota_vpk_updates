@@ -609,7 +609,7 @@ DOTAPlay.MatchingRestriction #FXSearching {
     visibility: visible;
 }
 
-.MainBranch.PlaytestActive #JoinPlaytestButton {
+.PlaytestActive #JoinPlaytestButton {
     visibility: visible;
 }
 
