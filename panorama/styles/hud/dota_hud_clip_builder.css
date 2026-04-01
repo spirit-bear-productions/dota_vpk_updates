@@ -15,7 +15,6 @@ DOTAHudClipBuilder.Hidden,
 .ClipManagementContainer Label {
     color: #8199c5;
     font-size: 14px;
-    font-style: italic;
     font-weight: bold;
     text-align: center;
     horizontal-align: center;
@@ -331,7 +330,7 @@ DOTAHudClipBuilder.Hidden,
 }
 
 .ClipBuilderSettingsCheckbox {
-    height: 20px;
+    height: 30px;
 }
 
 .ClipBuilderSettingsSlider {
