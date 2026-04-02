@@ -704,6 +704,10 @@ DOTAEventRewardList {
     visibility: collapse;
 }
 
+DOTAEventRewardClaimButton.item_reward {
+    tooltip-position: right;
+}
+
 .TooltipLeft {
     tooltip-position: left;
 }
