@@ -25,10 +25,10 @@ var RunPageAnimation = function () {
 
     g_seq.actions.push(
         new RunFunctionAction(function () {
-            g_Stinger_SoundId = PlayUISoundScript("spectre_arc_debut_stinger");
+            g_Stinger_SoundId = PlayUISoundEvent("spectre_arc_debut_stinger");
         }),
     );
-    //g_seq.actions.push(new RunFunctionAction( function () { g_SFX_SoundId = PlayUISoundScript( 'spectre_arc_debut_sfx'); } ) )
+    //g_seq.actions.push(new RunFunctionAction( function () { g_SFX_SoundId = PlayUISoundEvent( 'spectre_arc_debut_sfx'); } ) )
     g_seq.actions.push(new AddClassAction($("#MainContainer"), "Initialize"));
     g_seq.actions.push(new AddClassAction($("#ModelBackground"), "Initialize"));
     g_seq.actions.push(new AddClassAction($("#ModelBackgroundAlt"), "Initialize"));
@@ -76,10 +76,10 @@ function onLeaveSpectreArcanaDebutPage() {
     }
 
     if (g_Stinger_SoundId !== undefined) {
-        StopUISoundScript(g_Stinger_SoundId);
+        StopUISoundEvent(g_Stinger_SoundId);
     }
     if (g_SFX_SoundId !== undefined) {
-        StopUISoundScript(g_SFX_SoundId);
+        StopUISoundEvent(g_SFX_SoundId);
     }
 
     $("#MainContainer").RemoveClass("Initialize");

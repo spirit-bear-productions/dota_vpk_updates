@@ -409,7 +409,7 @@ class AnimateMatchRewardsScreenAction extends RunSequentialActions {
                                         rewardsPanel.RemoveAndDeleteChildren();
                                         panel.RemoveClass("RewardsFinished");
 
-                                        PlayUISoundScript("HeroBadge.Levelup");
+                                        PlayUISoundEvent("HeroBadge.Levelup");
                                         $.DispatchEvent(
                                             "DOTASceneFireEntityInput",
                                             levelUpScene,

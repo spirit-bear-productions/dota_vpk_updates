@@ -202,7 +202,7 @@ var SetCurrentModel = function (nModelIndex, bPlaySound) {
 
     if (bPlaySound) {
         // Always play the continuum device sound
-        PlayUISoundScript("ContinuumDevice.Activate");
+        PlayUISoundEvent("ContinuumDevice.Activate");
 
         if (IsModelUnlocked(g_nCurrentModelIndex)) {
             g_nSoundCookie = g_nSoundCookie + 1;

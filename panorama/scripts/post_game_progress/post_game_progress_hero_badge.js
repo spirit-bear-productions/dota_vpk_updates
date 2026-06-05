@@ -145,7 +145,7 @@ class AnimateHeroBadgeLevelRewardAction extends RunSequentialActions {
             reward.SetDialogVariable("chat_wheel_message", $.Localize(this.data.chat_wheel_message));
             var sound_event = this.data.sound_event;
             $.RegisterEventHandler("Activated", reward, function () {
-                PlayUISoundScript(sound_event);
+                PlayUISoundEvent(sound_event);
             });
             this.actions.push(new AddClassAction(reward, "ShowReward"));
         } else if (this.data.reward_type == HERO_BADGE_LEVEL_REWARD_CURRENCY) {
@@ -315,7 +315,7 @@ class AnimateHeroBadgeLevelScreenAction extends RunSequentialActions {
                                         rewardsPanel.RemoveAndDeleteChildren();
                                         panel.RemoveClass("RewardsFinished");
 
-                                        PlayUISoundScript("HeroBadge.Levelup");
+                                        PlayUISoundEvent("HeroBadge.Levelup");
                                         $.DispatchEvent(
                                             "DOTASceneFireEntityInput",
                                             levelUpScene,

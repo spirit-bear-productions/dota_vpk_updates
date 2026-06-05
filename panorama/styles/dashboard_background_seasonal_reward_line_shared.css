@@ -810,18 +810,22 @@ DOTAEventRewardClaimButton.item_reward {
     brightness: 1.5;
 }
 
-.ParticleWindowBG {
+.ParticleWindowBG,
+.ParticleWindowFG {
     width: 1920px;
     height: 100%;
     -s2-mix-blend-mode: screen;
+    horizontal-align: center;
+}
+
+.ParticleWindowBG .AspectRatio21x9 {
     opacity-brush: gradient(
         linear,
         0% 0%,
         100% 0%,
-        from(#ffffff00),
-        color-stop(0.3, #ffffff),
-        color-stop(0.8, #ffffff),
-        to(#ffffff00)
+        from(black),
+        color-stop(0.15, white),
+        color-stop(0.85, white),
+        to(black)
     );
-    horizontal-align: center;
 }
