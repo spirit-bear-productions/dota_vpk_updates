@@ -2,9 +2,7 @@
 <root>
 	<styles>
 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
-		<include src="s2r://panorama/styles/large_model_loadout.vcss_c" />
+		<include src="s2r://panorama/styles/scene_panel.vcss_c" />
 	</styles>
-	<DOTALargeModelLoadout>
-		<Panel id="PressingCeremonialReasonsImage" class="" />
-	</DOTALargeModelLoadout>
+	<Image class="AxePoster" src="s2r://panorama/images/pressing_ceremonial_large_psd.vtex" />
 </root>
