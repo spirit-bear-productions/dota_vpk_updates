@@ -370,7 +370,8 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 .HIDE_ACTION_MINIMAP #minimap_block,
 .Reborn.CustomHUDSkin.HIDE_ACTION_MINIMAP #HUDSkinMinimap,
 .HIDE_ACTION_MINIMAP #GlyphScanContainer,
-.HIDE_ACTION_MINIMAP #RoshanTimerContainer {
+.HIDE_ACTION_MINIMAP #RoshanTimerContainer,
+.HIDE_ACTION_MINIMAP #TormentorTimerContainer {
     visibility: collapse;
 }
 
@@ -3306,7 +3307,7 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 }
 
 #SecondaryAbilitiesBar {
-    margin-left: 319px;
+    margin-left: 332px;
     margin-top: 32px;
 }
 

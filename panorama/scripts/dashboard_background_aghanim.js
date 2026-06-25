@@ -256,7 +256,7 @@ var ActivateModel = function (nIndex) {
     /** @type {Label} */
     var ModelHelp = $("#ModelHelp");
 
-    deviceModel.SetAnimgraphParameterOnEntityInt("conundrum", "mouseover", 2);
+    //deviceModel.SetAnimgraphParameterOnEntityInt( 'conundrum', 'mouseover', 2 );
     deviceModel.FireEntityInput("device_active_fx", "stop", 0);
     deviceModel.FireEntityInput("device_active_fx", "start", 0);
     deviceModel.FireEntityInput("device_spin_fx", "stop", 0);
@@ -335,7 +335,7 @@ var OnAghanimDeviceMouseOver = function () {
     /** @type {DOTAScenePanel} */
     var aghanimModel = $("#AghanimModel");
 
-    deviceModel.SetAnimgraphParameterOnEntityInt("conundrum", "mouseover", 1);
+    //deviceModel.SetAnimgraphParameterOnEntityInt( 'conundrum', 'mouseover', 1 );
     deviceModel.FireEntityInput("device_spin_fx", "start", 0);
     aghanimModel.FireEntityInput("device_spin_fx", "start", 0);
 
@@ -350,7 +350,7 @@ var OnAghanimDeviceMouseOut = function () {
     /** @type {DOTAParticleScenePanel} */
     var deviceModel = $("#DeviceModel");
 
-    deviceModel.SetAnimgraphParameterOnEntityInt("conundrum", "mouseover", 0);
+    //deviceModel.SetAnimgraphParameterOnEntityInt( 'conundrum', 'mouseover', 0 );
     deviceModel.FireEntityInput("device_active_fx", "stop", 0);
     deviceModel.FireEntityInput("device_spin_fx", "stop", 0);
     aghanimModel.FireEntityInput("device_spin_fx", "stop", 0);

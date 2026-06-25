@@ -58,6 +58,27 @@
     margin-right: -3px;
 }
 
+#DarkCarnivalNodeTooltip #LeftArrow,
+#DarkCarnivalNodeTooltip #RightArrow,
+#DarkCarnivalNodeTooltip #TopArrow,
+#DarkCarnivalNodeTooltip #BottomArrow {
+    wash-color: #280f0e;
+}
+
+#OverworldPathTooltip #LeftArrow,
+#OverworldPathTooltip #RightArrow,
+#OverworldPathTooltip #TopArrow,
+#OverworldPathTooltip #BottomArrow {
+    wash-color: #141517;
+}
+
+#OverworldHeroTooltip #LeftArrow,
+#OverworldHeroTooltip #RightArrow,
+#OverworldHeroTooltip #TopArrow,
+#OverworldHeroTooltip #BottomArrow {
+    wash-color: #141517;
+}
+
 #TI10BlessingTooltip #LeftArrow,
 #TI10BlessingTooltip #RightArrow {
     wash-color: #0d1e33;
@@ -187,6 +208,10 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+}
+
+#FortuneTellerStoryNodeTooltip {
+    padding-bottom: 0px;
 }
 
 .TooltipContainer.TooltipVisible {
@@ -345,4 +370,12 @@
 
 .Season_Summer2026 #Contents {
     background-color: #1a2b24;
+}
+
+#FortuneTellerStoryNodeTooltip #BottomArrow {
+    wash-color: #2e1e48;
+}
+
+#FortuneTellerStoryNodeTooltip #TopArrow {
+    wash-color: #14101f;
 }

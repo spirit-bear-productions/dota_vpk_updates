@@ -296,6 +296,10 @@ DOTAPostGame.MatchDataLoaded #ContainerLoaded {
     background-image: url("s2r://panorama/images/control_icons/24px/monster_hunter_event_icon.vsvg");
 }
 
+.ProgressScreenButton.DarkCarnivalProgress {
+    background-image: url("s2r://panorama/images/control_icons/24px/dark_carnival_event_icon.vsvg");
+}
+
 .ProgressScreenButton.GenericArcanaProgress {
     saturation: 0.2;
 }
@@ -5038,6 +5042,10 @@ DOTAPostGameOverviewHero.HasReported #OverviewHeroReportButton {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#d9212099), to(#d92120ff));
 }
 
+.GoldReceivedRow.Summons #RowBar {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#d74713), to(#dd3a0aff));
+}
+
 .GoldReceivedRow.Heroes #RowBar {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#e77c3099), to(#e77c30ff));
 }
@@ -5068,6 +5076,10 @@ DOTAPostGameOverviewHero.HasReported #OverviewHeroReportButton {
 
 .XPReceivedRow.Creep #RowBar {
     background-color: gradient(linear, 0% 0%, 100% 0%, from(#d9212099), to(#d92120ff));
+}
+
+.XPReceivedRow.Summons #RowBar {
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#d74713), to(#dd3a0aff));
 }
 
 .XPReceivedRow.Heroes #RowBar {

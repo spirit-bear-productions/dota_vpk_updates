@@ -1,197 +1,209 @@
 /* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
-.FrontPageSeasonalRewardLineCell {
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#2a1b32), to(#0d0910));
+.FrontPageSeasonalRewardLineCell
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #143226 ), to( #060910 ) );
 }
 
-.FrontPageSeasonalRewardLineCell:hover .CellBorder {
-    border: 1px solid rgba(235, 247, 255, 0.07);
+.FrontPageSeasonalRewardLineCell:hover .CellBorder
+{
+	border: 1px solid rgba(235, 247, 255, 0.07);
 }
 
-.FrontPageSeasonalRewardLineCell:hover .BackgroundImage {
-    brightness: 1.5;
-    pre-transform-scale2d: 1.03;
+.FrontPageSeasonalRewardLineCell:hover .BackgroundImage
+{
+	brightness: 1.5;
+	pre-transform-scale2d: 1.03;
 }
 
-.FrontPageSeasonalRewardLineCell #TimeLeft #Completed {
-    visibility: collapse;
+.FrontPageSeasonalRewardLineCell #TimeLeft #Completed
+{
+	visibility: collapse;
 }
 
-.FrontPageSeasonalRewardLineCell .ProgressionDisabled #TimeLeft Label {
-    visibility: collapse;
+.FrontPageSeasonalRewardLineCell .ProgressionDisabled #TimeLeft Label
+{
+	visibility: collapse;
 }
 
-.FrontPageSeasonalRewardLineCell .ProgressionDisabled #TimeLeft Label#Completed {
-    visibility: visible;
+.FrontPageSeasonalRewardLineCell .ProgressionDisabled #TimeLeft Label#Completed
+{
+	visibility: visible;
 }
 
-.FrontPageSeasonalRewardLineCell .BackgroundImage {
-    width: 200%;
-    height: width-percentage(56.25%);
-    transform: translateX(0px) translateY(-30px);
-    blur: gaussian(1px);
-    horizontal-align: center;
-    overflow: noclip;
-    transition-property: brightness, pre-transform-scale2d;
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
+.FrontPageSeasonalRewardLineCell .BackgroundImage
+{
+	width: 170%;
+	height: width-percentage( 56.25% );
+	transform: translateX( 0px ) translateY( -40px );
+	blur: gaussian(1px);
+	horizontal-align: center;
+	overflow: noclip;
+	transition-property: brightness, pre-transform-scale2d;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
 }
 
-.FrontPageSeasonalRewardLineCell .CellBorder {
-    ignore-parent-flow: true;
-    width: 100%;
-    height: 100%;
-    border: 1px solid rgba(235, 247, 255, 0.03);
-    border-brush: gradient(linear, 0% 0%, 50% 100%, from(white), to(rgba(255, 255, 255, 0.47)));
-    transition-property: border;
-    transition-duration: 0.1s;
+.FrontPageSeasonalRewardLineCell .CellBorder
+{
+	ignore-parent-flow: true;
+	width: 100%;
+	height: 100%;
+	border: 1px solid rgba(235, 247, 255, 0.03);
+	border-brush: gradient( linear, 0% 0%, 50% 100%, from( white ), to( rgba(255, 255, 255, 0.47) ) );
+	transition-property: border;
+	transition-duration: 0.1s;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards {
-    width: 100%;
-    height: 100%;
-    horizontal-align: center;
-    vertical-align: center;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards
+{
+	width: 100%;
+	height: 100%;
+	horizontal-align: center;
+	vertical-align: center;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .HeroModelsContainer {
-    width: 100%;
-    height: 100%;
-    overflow: noclip;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .HeroModelsContainer
+{
+	width: 100%;
+	height: 100%;
+	overflow: noclip;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .HeroModel {
-    width: 460px;
-    height: width-percentage(100%);
-    overflow: noclip;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .HeroModel
+{
+	width: 460px;
+	height: width-percentage( 100% );
+	overflow: noclip;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards #PremiumReward_Left {
-    transform: translateX(-160px) translateY(-50px);
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards #PremiumReward_Left
+{
+	transform: translateX( -140px ) translateY( -125px );
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards #PremiumReward_Right {
-    transform: translateX(30px) translateY(-50px);
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards #PremiumReward_Right
+{
+	transform: translateX( 30px ) translateY( -120px );
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .Darkness {
-    width: 100%;
-    height: 100px;
-    vertical-align: bottom;
-    background-color: gradient(linear, 0% 0%, 0% 75%, from(#0d091000), to(#0d0910f6));
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .Darkness
+{
+	width: 100%;
+	height: 100px;
+	vertical-align: bottom;
+	background-color: gradient( linear, 0% 0%, 0% 75%, from( #0D091000 ), to( #0D0910f6 ) );
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards Label {
-    horizontal-align: center;
-    text-align: center;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards Label
+{
+	horizontal-align: center;
+	text-align: center;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards #SeasonTitle {
-    font-size: 15px;
-    color: gradient(linear, 0% 0%, 0% 100%, from(#ffffff), color-stop(0.25, #e5fff1), to(#ffe5f5));
-    text-shadow: 0px 2px 12px 2 #000a;
-    margin: 12px;
-    height: 22px;
-    text-overflow: shrink;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards #SeasonTitle
+{
+	font-size: 15px;
+	color: gradient( linear, 0% 0%, 0% 100%, from( #fff ), color-stop( 50, #beffe5), to( #beffe5 ) );
+	text-shadow: 0px 2px 12px 2.0 #000a;
+	margin: 12px;
+	height: 22px;
+	text-overflow: shrink;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards DOTAEventStatus {
-    vertical-align: center;
-    horizontal-align: center;
-    margin-top: 48px;
-    ui-scale: 110%;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards DOTAEventStatus
+{
+	vertical-align: center;
+	horizontal-align: center;
+	margin-top: 48px;
+	ui-scale: 110%;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .CellContents {
-    flow-children: down;
-    vertical-align: bottom;
-    width: 100%;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .CellContents
+{
+	flow-children: down;
+	vertical-align: bottom;
+	width: 100%;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .CellContents #SeasonDescription {
-    width: 100%;
-    text-shadow: 0px 2px 12px black;
-    color: gradient(linear, 0% 30%, 0% 140%, from(#ffebce), to(#9a876a));
-    color: #f6d5e9;
-    line-height: 1.2;
-    font-size: 15px;
-    text-overflow: shrink;
-    margin-bottom: 2px;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .CellContents #SeasonDescription
+{
+	width: 100%;
+	text-shadow: 0px 2px 12px black;
+	color: gradient( linear, 0% 30%, 0% 140%, from( #ffebce ), to( #9a876a ) );
+	color: #beffe5);
+	line-height: 1.2;
+	font-size: 15px;
+	text-overflow: shrink;
+	margin-bottom: 2px;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .CellContents #TimeLeft {
-    horizontal-align: center;
-    vertical-align: bottom;
-    flow-children: right;
-    margin-bottom: 12px;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .CellContents #TimeLeft
+{
+	horizontal-align: center;
+	vertical-align: bottom;
+	flow-children: right;
+	margin-bottom: 12px;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .CellContents #TimeLeft Label {
-    font-size: 12px;
-    color: #f6d5e988;
-    text-shadow: 0px 1px 8px 2 #000a;
-    text-align: center;
-    margin: 0px 2px;
-    horizontal-align: center;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .CellContents #TimeLeft Label
+{
+	font-size: 12px;
+	color: #73BFA1);
+	text-shadow: 0px 1px 8px 2.0 #000;
+	text-align: center;
+	margin: 0px 2px;
+	horizontal-align: center;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .CellContents .ProgressAvailableBadge {
-    color: white;
-    horizontal-align: center;
-    vertical-align: bottom;
-    padding: 5px 4px 6px;
-    width: 100%;
-    margin-top: -4px;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-weight: semi-bold;
-    text-align: center;
-    color: white;
-    text-shadow: 0px 0px 12px rgba(255, 208, 142, 0.76);
-    background-color: gradient(
-        linear,
-        0% 0%,
-        100% 0%,
-        from(rgba(0, 0, 0, 0)),
-        color-stop(0.3, rgba(177, 137, 72, 0.5)),
-        color-stop(0.5, rgba(177, 137, 72, 0.7)),
-        color-stop(0.7, rgba(177, 137, 72, 0.5)),
-        to(rgba(0, 0, 0, 0))
-    );
-    border-left: 0px;
-    border-right: 0px;
-    border: 1px solid rgba(255, 229, 194, 0.3);
-    border-brush: gradient(
-        linear,
-        0% 0%,
-        100% 0%,
-        from(rgba(255, 255, 255, 0)),
-        color-stop(0.2, rgb(255, 255, 255)),
-        color-stop(0.8, rgb(255, 255, 255)),
-        to(rgba(255, 255, 255, 0))
-    );
-    visibility: collapse;
-    animation-name: ProgressAvailableAnimation;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards .CellContents .ProgressAvailableBadge
+{
+	color: white;
+	horizontal-align: center;
+	vertical-align: bottom;
+	padding: 5px 4px 6px;
+	width: 100%;
+	margin-top: -4px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: semi-bold;
+	text-align: center;
+	color: white;
+	text-shadow: 0px 0px 12px rgba(255, 208, 142, 0.76);
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( rgba(0, 0, 0, 0) ), color-stop( 0.3, rgba(177, 137, 72, 0.5) ), color-stop( 0.5, rgba(177, 137, 72, 0.7) ), color-stop( 0.7, rgba(177, 137, 72, 0.5) ), to( rgba(0, 0, 0, 0) ) );
+	border-left: 0px;
+	border-right: 0px;
+	border: 1px solid rgba(255, 229, 194, 0.3);
+	border-brush: gradient( linear, 0% 0%, 100% 0%, from( rgba(255, 255, 255, 0) ), color-stop( 0.2, rgb(255, 255, 255) ), color-stop( 0.8, rgb(255, 255, 255) ), to( rgba(255, 255, 255, 0) ) );
+	visibility: collapse;
+	animation-name: ProgressAvailableAnimation;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards.HasUnclaimedReward .ProgressAvailableBadge {
-    visibility: visible;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards.HasUnclaimedReward .ProgressAvailableBadge
+{
+	visibility: visible;
 }
 
-.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards.HasUnclaimedReward DOTAEventStatus {
-    margin-top: 24px;
+.FrontPageSeasonalRewardLineCell DOTAFrontpageCellSeasonalRewards.HasUnclaimedReward DOTAEventStatus
+{
+	margin-top: 24px;
 }
 
-@keyframes 'ProgressAvailableAnimation' {
-    0% {
-        brightness: 1;
-    }
-
-    100% {
-        brightness: 2;
-    }
+@keyframes 'ProgressAvailableAnimation'
+{
+	0%
+	{
+		brightness: 1;
+	}
+	
+	100%
+	{
+		brightness: 2;
+	}
+	
 }
+
