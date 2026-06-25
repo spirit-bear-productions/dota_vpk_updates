@@ -1,323 +1,413 @@
 /* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
-.PopupPanel.TokenQuest {
-    width: 1920px;
-    height: 1080px;
+.PopupPanel.TokenQuest
+{
+	width: 1920px;
+	height: 1080px;
 }
 
-.PopupPanel.TokenQuest .InnerPopupPanel {
-    width: 1100px;
-    height: 650px;
-    horizontal-align: center;
-    vertical-align: center;
+.PopupPanel.TokenQuest .InnerPopupPanel
+{
+	width: 1100px;
+	height: 650px;
+	horizontal-align: center;
+	vertical-align: center;
 }
 
-.PopupPanel.TokenQuest .InnerPopupPanel .Actions {
-    border-top: 0;
-    background-color: transparent;
-    margin-top: 0;
-    padding-top: 0;
+.PopupPanel.TokenQuest .InnerPopupPanel .Actions
+{
+	border-top: 0;
+	background-color: transparent;
+	margin-top: 0;
+	padding-top: 0;
+	height: fit-children;
 }
 
-.PopupPanel.TokenQuest .InnerPopupPanel .PanelTitleContainer {
-    margin-top: 10px;
+.PopupPanel.TokenQuest .InnerPopupPanel .PanelTitleContainer
+{
+	margin-top: 10px;
 }
 
-.Title {
-    font-family: monospace;
-    text-transform: uppercase;
-    font-size: 48px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    letter-spacing: 4px;
+.Title
+{
+	font-family: monospace;
+	text-transform: uppercase;
+	font-size: 48px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	letter-spacing: 4px;
 }
 
-.Center {
-    flow-children: right;
+.Center
+{
+	flow-children: right;
 }
 
-.Center .OldManIcon {
-    width: 128px;
-    height: 128px;
-    texture-sampling: point;
-    margin: 0px 48px;
-    margin-bottom: 20px;
-    vertical-align: middle;
+.Center .OldManIcon
+{
+	width: 128px;
+	height: 128px;
+	texture-sampling: point;
+	margin: 0px 48px;
+	margin-bottom: 20px;
+	vertical-align: middle;
 }
 
-.PopupBackground {
-    width: 100%;
-    height: 100%;
-    background-image: url("s2r://panorama/images/textures/miniprofile_rock_darker_psd.vtex");
-    background-repeat: repeat;
-    background-size: 100% 100%;
+.PopupBackground
+{
+	width: 100%;
+	height: 100%;
+	background-image: url("s2r://panorama/images/events/dark_carnival/overworld/act1/smelting_room2_psd.vtex");
+	background-repeat: no-repeat;
+	background-size: cover;
+	blur: gaussian( 4px );
 }
 
-#RewardContainer {
-    vertical-align: center;
-    flow-children: right;
-    min-width: 240px;
-    min-height: 250px;
+.AlreadyClaimed .PopupBackground
+{
+	saturation: 0.5;
+	brightness: 0.35;
 }
 
-#RewardContainer Panel {
-    vertical-align: center;
-    horizontal-align: center;
+#RewardContainer
+{
+	vertical-align: center;
+	flow-children: right;
+	min-width: 240px;
+	min-height: 250px;
 }
 
-#RewardContainer .ModelReward {
-    horizontal-align: center;
-    flow-children: down;
+#RewardContainer Panel
+{
+	vertical-align: center;
+	horizontal-align: center;
 }
 
-#RewardContainer .ModelReward #ModelPreview {
-    width: 480px;
-    height: 320px;
+#RewardContainer .ModelReward
+{
+	horizontal-align: center;
+	flow-children: down;
 }
 
-#RewardContainer .EconItemReward {
-    flow-children: down;
-    horizontal-align: center;
+#RewardContainer .ModelReward #ModelPreview
+{
+	width: 480px;
+	height: 320px;
 }
 
-#RewardContainer .EconItemReward .ImageContainer {
-    width: 216px;
-    height: 144px;
-    horizontal-align: center;
-    margin-bottom: 8px;
+#RewardContainer .EconItemReward
+{
+	flow-children: down;
+	horizontal-align: center;
 }
 
-#RewardContainer .EconItemReward .Details Label {
-    font-size: 20px;
-    color: #ddd;
+#RewardContainer .EconItemReward .ImageContainer
+{
+	width: 216px;
+	height: 144px;
+	horizontal-align: center;
+	margin-bottom: 8px;
 }
 
-#RewardContainer .EconItemReward .Quantity {
-    vertical-align: bottom;
-    horizontal-align: right;
-    color: white;
-    text-shadow: 0px 2px 12px black;
-    font-family: titleFont;
-    font-size: 28px;
-    margin: 2px 6px;
-    letter-spacing: 0.5px;
+#RewardContainer .EconItemReward .Details Label
+{
+	font-size: 20px;
+	color: gradient( linear, 0% 0%, 0% 100%, from( goldLight ), to( goldDark ) );
 }
 
-#RewardContainer .CandyShopRerollChargesItem {
-    flow-children: down;
+#RewardContainer .EconItemReward .Quantity
+{
+	vertical-align: bottom;
+	horizontal-align: right;
+	color: gradient( linear, 0% 24%, 0% 100%, from( #FFF3D9 ), color-stop( 0.25, #FBE0A0 ), color-stop( 0.5, #787C89 ), color-stop( 0.75, #9D968E ), to( #88A7FF) ) text-shadow: 0px 2px 12px black;
+	font-family: titleFont;
+	font-size: 28px;
+	font-weight: semi-bold;
+	margin: 2px 6px;
+	letter-spacing: 0.5px;
 }
 
-#RewardContainer .CandyShopRerollChargesItem .CandyShopRerollChargeImage {
-    width: 200px;
-    height: 200px;
-    background-image: url("s2r://panorama/images/events/crownfall/store/bunlde_item_reroll_dice_png.vtex");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+#RewardContainer .CandyShopRerollChargesItem
+{
+	flow-children: down;
 }
 
-#RewardContainer .CandyShopRerollChargesItem Label {
-    vertical-align: middle;
-    color: #ccc;
-    font-size: 24px;
+#RewardContainer .CandyShopRerollChargesItem .CandyShopRerollChargeImage
+{
+	width: 200px;
+	height: 200px;
+	background-image: url("s2r://panorama/images/events/crownfall/store/bunlde_item_reroll_dice_png.vtex");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
-#RewardContainer .SeeingStoneReward {
-    flow-children: down;
+#RewardContainer .CandyShopRerollChargesItem Label
+{
+	vertical-align: middle;
+	color: #ccc;
+	font-size: 24px;
 }
 
-#RewardContainer .SeeingStoneReward #SeeingStoneImage {
-    horizontal-align: center;
+#RewardContainer .SeeingStoneReward
+{
+	flow-children: down;
 }
 
-#RewardContainer .Details .ItemName {
-    font-size: 24px;
-    text-shadow: 0 0 3px black;
+#RewardContainer .SeeingStoneReward #SeeingStoneImage
+{
+	horizontal-align: center;
 }
 
-.AlreadyClaimed #RewardContainer {
-    visibility: Collapse;
+#RewardContainer .Details .ItemName
+{
+	font-size: 24px;
+	color: gradient( linear, 0% 0%, 0% 100%, from( goldLight ), to( goldDark ) );
+	text-shadow: 0 0 3px black;
 }
 
-.NoMoreText {
-    visibility: collapse;
-    horizontal-align: center;
-    margin-top: 80px;
-    margin-bottom: -20px;
-    text-align: center;
+.AlreadyClaimed #RewardContainer
+{
+	visibility: Collapse;
 }
 
-.AlreadyClaimed .NoMoreText {
-    visibility: visible;
+.NoMoreTextContainer
+{
+	flow-children: right;
+	vertical-align: center;
+	horizontal-align: center;
+	max-width: 480px;
+	min-height: 250px;
+	padding: 32px;
+	visibility: collapse;
 }
 
-#ClaimRewardButton {
-    margin-top: 50px;
-    horizontal-align: center;
-    width: 200px;
+.AlreadyClaimed .NoMoreTextContainer
+{
+	visibility: visible;
 }
 
-.AlreadyClaimed #ClaimRewardButton {
-    visibility: collapse;
+.NoMoreTextContainer .NoMoreText
+{
+	vertical-align: center;
+	horizontal-align: center;
+	font-size: 24px;
+	text-align: center;
+	color: gradient( linear, 0% 0%, 0% 100%, from( goldLight ), to( goldDark ) );
+	text-shadow: 0px 2px 8px black;
 }
 
-#CostTokensContainer {
-    vertical-align: center;
-    horizontal-align: center;
-    flow-children: right-wrap;
-    margin: 10px;
-    min-height: 70px;
-    max-width: 400px;
-    max-height: 280px;
-    background-color: #261e2cfe;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #3a1e51fe;
-    box-shadow: 0 6px 32px -4px rgba(0, 0, 0, 0.6);
+#ClaimRewardButton
+{
+	margin-top: 24px;
+	horizontal-align: center;
+	width: 240px;
 }
 
-#CostTokensContainer DOTADarkCarnivalToken {
-    ui-scale: 120%;
-    margin: -4px;
+.AlreadyClaimed #ClaimRewardButton
+{
+	visibility: collapse;
 }
 
-.AlreadyClaimed #CostTokensContainer {
-    visibility: Collapse;
+#CostTokensContainer
+{
+	vertical-align: center;
+	horizontal-align: center;
+	flow-children: right-wrap;
+	margin: 0px;
+	min-height: 70px;
+	max-width: 480px;
+	max-height: 280px;
+	background-color: #261e2cfe;
+	padding: 10px;
+	border-radius: 8px;
+	border: 1px solid goldDark&33;
+	box-shadow: 0 6px 32px -4px rgba(0, 0, 0, 0.6 );
 }
 
-.SmelterImage {
-    height: 1000px;
-    width: 550px;
-    transform: translateX(250px) translateY(30px);
+#CostTokensContainer DOTADarkCarnivalToken
+{
+	ui-scale: 120%;
+	margin: -4px;
 }
 
-.NoteContainer {
-    background-image: url("s2r://panorama/images/events/dark_carnival/overworld/smelter_bristleback_note_paper_png.vtex");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    flow-children: down;
-    width: 300px;
-    height: 400px;
-    horizontal-align: right;
-    vertical-align: center;
-    padding: 4px;
-    transform: rotateZ(2deg) translateX(-180px);
-    brightness: 0.9;
+.AlreadyClaimed #CostTokensContainer
+{
+	visibility: Collapse;
 }
 
-.NoteContainer .TopNote {
-    width: 100%;
-    height: 75%;
+.SmelterImage
+{
+	height: 1000px;
+	width: 550px;
+	transform: translateX( 250px ) translateY( 30px );
+	visibility: collapse;
 }
 
-.NoteContainer .BristlebackNote {
-    font-size: 16px;
-    color: black;
-    padding: 30px 30px 0 30px;
-    font-family: Reaver;
-    line-height: 1.7;
-    color: #444;
-    text-overflow: shrink;
-    text-align: center;
-    font-weight: semi-bold;
+.NoteContainer
+{
+	background-image: url("s2r://panorama/images/events/dark_carnival/overworld/smelter_bristleback_note_paper_png.vtex");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	flow-children: down;
+	width: 300px;
+	height: 400px;
+	horizontal-align: right;
+	vertical-align: center;
+	padding: 4px;
+	transform: rotateZ( 5deg );
+	x: -220px;
+	y: 220px;
+	brightness: 0.9;
 }
 
-.NoteContainer .BristlebackSignature {
-    font-size: 18px;
-    margin-right: 50px;
-    horizontal-align: right;
-    color: black;
-    color: #444;
-    font-family: Reaver;
-    text-overflow: shrink;
-    font-weight: semi-bold;
+.NoteContainer .TopNote
+{
+	width: 100%;
+	height: 75%;
 }
 
-.ContentsWrapper .AsyncSection {
-    margin-top: 45px;
+.NoteContainer .BristlebackNote
+{
+	font-size: 16px;
+	color: black;
+	padding: 50px 30px 0 30px;
+	font-family: Reaver;
+	line-height: 1.7;
+	color: #444;
+	text-overflow:shrink;
+	text-align: center;
+	font-weight: semi-bold;
 }
 
-.ContentsWrapper .LowerContainer {
-    border: 1px solid cyan;
-    height: 600px;
-    vertical-align: bottom;
-    margin-bottom: 50px;
+.NoteContainer .BristlebackSignature
+{
+	font-size: 18px;
+	margin-right: 50px;
+	horizontal-align: right;
+	color: black;
+	color: #444;
+	font-family: Reaver;
+	text-overflow:shrink;
+	font-weight: semi-bold;
 }
 
-.ContentsWrapper .LowerContainer Panel {
-    vertical-align: bottom;
+.ContentsWrapper .AsyncSection
+{
+	margin-top: 45px;
 }
 
-.ContentsWrapper AsyncDataPanel {
-    horizontal-align: center;
+.ContentsWrapper .LowerContainer
+{
+	border: 1px solid cyan;
+	height: 600px;
+	vertical-align: bottom;
+	margin-bottom: 50px;
 }
 
-.PopupClosing .ContentsWrapper AsyncDataPanel {
-    visibility: collapse;
+.ContentsWrapper .LowerContainer Panel
+{
+	vertical-align: bottom;
 }
 
-.ContentsWrapper AsyncDataPanel > .AsyncContainer {
-    width: fit-children;
-    height: fit-children;
-    flow-children: down;
-    min-width: 600px;
+.ContentsWrapper AsyncDataPanel
+{
+	horizontal-align: center;
 }
 
-.ContentsWrapper .TitleText {
-    horizontal-align: center;
-    text-transform: uppercase;
-    font-size: 40px;
-    letter-spacing: 1px;
-    font-family: Reaver;
-    text-shadow: 0px 1px 1px gold3;
-    color: gold1;
+.PopupClosing .ContentsWrapper AsyncDataPanel
+{
+	visibility: collapse;
 }
 
-.ContentsWrapper .InstructionsText {
-    horizontal-align: center;
-    font-size: 18px;
-    text-align: center;
-    max-width: 500px;
-    color: gold1;
-    text-shadow: 0px 1px 1px gold3;
-    brightness: 0.5;
-    margin-bottom: 10px;
+.ContentsWrapper AsyncDataPanel > .AsyncContainer
+{
+	width: fit-children;
+	height: fit-children;
+	flow-children: down;
+	min-width: 600px;
 }
 
-.ContentsWrapper .CenterContainer {
-    margin-left: 210px;
-    flow-children: right;
+.ContentsWrapper .TitleText
+{
+	horizontal-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: semi-bold;
+	letter-spacing: 1px;
+	font-family: titleFont;
+	text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.6);
+	color: gradient( linear, 0% 24%, 0% 100%, from( #FFF3D9 ), color-stop( 0.25, #FBE0A0 ), color-stop( 0.5, #787C89 ), color-stop( 0.75, #9D968E ), to( #88A7FF) );
 }
 
-.NoRewardVisualization .TradeArrow {
-    visibility: collapse;
+.ContentsWrapper .InstructionsText
+{
+	horizontal-align: center;
+	font-size: 18px;
+	text-align: center;
+	max-width: 500px;
+	color: gold1;
+	text-shadow: 0px 1px 1px gold3;
+	brightness: 0.5;
+	margin-bottom: 32px;
 }
 
-.NoRewardVisualization #RewardContainer {
-    visibility: collapse;
+.ContentsWrapper .CenterContainer
+{
+	flow-children: right;
+	border: 1px solid rgba(255, 255, 255, 0.55);
+	border-brush: gradient( linear, 0% 0%, 100% 0%, from( goldDark&00 ), color-stop( 0.15, goldDark&33 ), color-stop( 0.5, goldLight ), color-stop( 0.85, goldDark&33 ), to( goldDark&00 ) );
 }
 
-.TradeArrow {
-    width: 28px;
-    height: 28px;
-    vertical-align: center;
-    margin: 0px 12px;
-    wash-color: LighterGrey;
-    img-shadow: 0px 2px 8px black;
-    margin-left: 30px;
+.NoRewardVisualization .TradeArrow
+{
+	visibility: collapse;
 }
 
-.AlreadyClaimed .TradeArrow {
-    visibility: collapse;
+.NoRewardVisualization #RewardContainer
+{
+	visibility: collapse;
 }
 
-.AlreadyClaimed .BodyContainer .AsyncContainer .Actions {
-    min-height: 100px;
-    width: 600px;
-    flow-children: down;
+.TradeArrow
+{
+	width: 28px;
+	height: 28px;
+	vertical-align: center;
+	margin: 0px 12px;
+	wash-color: LighterGrey;
+	img-shadow: 0px 2px 8px black;
+	margin-left: 30px;
 }
 
-.AlreadyClaimed .BodyContainer .AsyncContainer .Actions .ClaimRewardButton {
-    visibility: collapse;
+.AlreadyClaimed .TradeArrow
+{
+	visibility: collapse;
 }
+
+.TradeArrow
+{
+	width: 48px;
+	height: width-percentage(100%);
+	margin: 0px 12px 0px 32px;
+	horizontal-align: center;
+	vertical-align: center;
+	opacity-brush: gradient( linear, 0% 50%, 50% 100%, from( goldLight ), to( goldDark ) );
+	img-shadow: 0px 2px 12px black;
+	transition-property: opacity-brush, img-shadow;
+	transition-duration: 0.1s;
+}
+
+.AlreadyClaimed .BodyContainer .AsyncContainer .Actions
+{
+	min-height: 100px;
+	width: 600px;
+	flow-children: down;
+}
+
+.AlreadyClaimed .BodyContainer .AsyncContainer .Actions .ClaimRewardButton
+{
+	visibility: collapse;
+}
+
