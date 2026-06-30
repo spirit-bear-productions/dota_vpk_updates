@@ -1657,7 +1657,8 @@ TextEntry {
 }
 
 .ShowStickers #BottomRightIcons,
-.ShowStickers #HeroBadgeStatus {
+.ShowStickers #HeroBadgeStatus,
+.ShowOverworldTokens #HeroBadgeStatus {
     opacity: 0;
 }
 
