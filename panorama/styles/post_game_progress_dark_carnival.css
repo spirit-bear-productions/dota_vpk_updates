@@ -219,10 +219,6 @@
     margin-top: 2%;
 }
 
-.HasScrap #DarkCarnivalProgressMain #DarkCarnivalProgressRewards {
-    padding-top: 10px;
-}
-
 #DarkCarnivalProgressMain #DarkCarnivalProgressRewards.ShowRewards {
     opacity: 1;
     transform: none;
@@ -341,6 +337,10 @@
     height: 80%;
     margin: 0px;
     margin-top: 4%;
+}
+
+.NoScrap #DarkCarnivalProgressMain #DarkCarnivalProgressRewards .TicketsAndScrapList .RewardsDivider {
+    visibility: collapse;
 }
 
 #DarkCarnivalProgressMain #DarkCarnivalProgressRewards .DarkCarnivalTokenList {
@@ -643,10 +643,6 @@
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
     opacity: 0;
-}
-
-.HasScrap #DarkCarnivalProgressMain .DarkCarnivalProgressCandy {
-    margin-top: 0px;
 }
 
 .ShowCandyworks #DarkCarnivalProgressMain .DarkCarnivalProgressCandy {
@@ -1047,6 +1043,10 @@
 .ShowScrap #ScrapRow {
     opacity: 1;
     transform: none;
+}
+
+.NoScrap #ScrapRow {
+    visibility: collapse;
 }
 
 #ScrapRow .ScrapText {
