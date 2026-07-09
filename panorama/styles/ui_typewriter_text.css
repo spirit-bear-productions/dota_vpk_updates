@@ -414,7 +414,7 @@ DOTATypewriterText.QuarteroBubble #TypewriterSplitLabel #InnerLabel {
 
 #SlicedLabel,
 #InnerLabel {
-    font-family: Reaver;
+    font-family: titleFont;
     color: rgb(236, 236, 236);
     font-size: 28px;
 }

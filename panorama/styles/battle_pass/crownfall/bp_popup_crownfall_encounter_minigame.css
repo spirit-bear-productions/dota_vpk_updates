@@ -290,7 +290,7 @@
 .OverlayHUD .ScoreSection .Header .Title {
     font-size: 22px;
     horizontal-align: center;
-    font-family: Reaver;
+    font-family: titleFont;
     text-transform: uppercase;
     color: gradient(linear, 0% 0%, 0% 100%, from(gold1), to(gold3));
 }

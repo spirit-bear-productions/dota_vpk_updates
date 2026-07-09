@@ -733,6 +733,8 @@ Label {
 .PausedMenuContainer .RewardsSection .RewardRow .RewardValue DOTAEmoticon,
 .PostGameMenuContainer .RewardsSection .RewardRow .RewardValue DOTAEmoticon {
     margin-top: 4px;
+    width: 37px;
+    height: 37px;
 }
 
 .GameSetup .MainMenuContainer,
