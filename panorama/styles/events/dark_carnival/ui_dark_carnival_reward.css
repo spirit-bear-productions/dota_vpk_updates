@@ -118,7 +118,8 @@ DOTADarkCarnivalReward.Encounter .EncounterImageContainer {
 
 .HeroItemSet #RewardEconSetPreview,
 .Chest #RewardEconSetPreview,
-.LoadingScreen #RewardEconSetPreview {
+.LoadingScreen #RewardEconSetPreview,
+.EconItem #RewardEconSetPreview {
     visibility: visible;
 }
 

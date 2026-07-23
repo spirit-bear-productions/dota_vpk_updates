@@ -1401,6 +1401,7 @@ DOTADarkCarnivalVisualNovel.TalkingHead .ActorNameContainer {
     horizontal-align: center;
     vertical-align: bottom;
     margin-bottom: 24px;
+    visibility: collapse;
 }
 
 .EncounterDialogue .InstructionTextContainer,
@@ -1951,6 +1952,36 @@ DOTADarkCarnivalVisualNovel.TalkingHead .ActorNameContainer {
         color-stop(0.85, #f0d8c2),
         to(#8b7b66)
     );
+}
+
+.GroupContainer.EndTextDialog .ActorNameContainer {
+    visibility: collapse;
+}
+
+.GroupContainer.EndTextDialog .ActorNameInnerContainer {
+    visibility: collapse;
+}
+
+.GroupContainer.EndTextDialog .ActorName {
+    visibility: collapse;
+}
+
+.GroupContainer.EndTextDialog .ActorNameContainerBackdrop {
+    visibility: collapse;
+}
+
+.GroupContainer.EndTextDialog .ActorNameBackdrop {
+    visibility: collapse;
+}
+
+.GroupContainer.EndTextDialog .ActorTextContainer .ActorText {
+    border-brush: none;
+    background-color: none;
+}
+
+.GroupContainer.EndTextDialog .ActorTextContainer {
+    margin-bottom: 500px;
+    width: 750px;
 }
 
 @keyframes 'Squash' {
