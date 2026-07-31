@@ -192,10 +192,6 @@ DOTATreasureStickerPackDetailsPage {
     visibility: collapse;
 }
 
-.StickerTypes_Player #PackOverviewTeam {
-    visibility: visible;
-}
-
 #ClosePreview {
     ignore-parent-flow: true;
     horizontal-align: right;

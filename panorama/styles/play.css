@@ -1,7 +1,7 @@
 /* Prettified by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io */
 
 @define sectionbg_inactive: #222629;
-@define sectionbg_active: gradient( linear, 0% 0%, 0% 100%, from( #3e474b ), to( #282e2d ) );
+@define sectionbg_active: gradient( linear, 0% 0%, 0% 100%, from( #2F3336 ), to( #232628 ) );
 DOTAPlay {
     vertical-align: bottom;
     horizontal-align: right;
@@ -1274,7 +1274,7 @@ DOTAPlay.ReturningToQueue #CancelSearch {
         color-stop(0.2, #141619),
         to(#000000)
     );
-    box-shadow: black 0px 0px 8px 0px;
+    box-shadow: black 0px 0px 32px -2px;
     height: 100%;
     width: 760px;
     horizontal-align: right;
@@ -1282,6 +1282,21 @@ DOTAPlay.ReturningToQueue #CancelSearch {
     transition-duration: 0.4s, 0s;
     transition-delay: 0s, 0.4s;
     transition-timing-function: ease-in-out;
+}
+
+.PlayTabBackgroundBorder {
+    width: 1px;
+    height: 100%;
+    background-color: rgb(221, 234, 255);
+    background-color: black;
+}
+
+.PlayTabBackgroundBorderHighlight {
+    width: 1px;
+    height: 100%;
+    background-color: rgb(221, 234, 255);
+    margin-left: 1px;
+    opacity: 0.01;
 }
 
 #PlaySlideOut {
@@ -1473,6 +1488,63 @@ Label {
     font-size: 16px;
 }
 
+.RankedContent .RoleSelectorTitle {
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-shadow: 0px 1px 8px black;
+    padding-bottom: 6px;
+    padding-top: 12px;
+    padding-left: 15px;
+    width: 100%;
+    height: 39px;
+    text-overflow: shrink;
+}
+
+.SelectAllRolesContainer {
+    flow-children: right;
+    width: 100%;
+    height: 23px;
+}
+
+.RankedContent .SelectAllRolesContainer .SelectAllRolesNote {
+    font-size: 16px;
+    line-height: 17px;
+    color: LightGrey;
+    width: 100%;
+    text-shadow: 0px 1px 6px black;
+    text-overflow: shrink;
+}
+
+.RankedAutoSelectAllRolesContainer {
+    flow-children: right;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 8px;
+    height: 39px;
+    text-overflow: shrink;
+}
+
+.RankedContent .PlayDividerLine {
+    margin: 12px 16px 8px 12px;
+}
+
+.RankedContent DOTASettingsCheckbox Label {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 0px;
+    padding-left: 7px;
+    color: #8c9aa6;
+    text-overflow: shrink;
+}
+
+.RankedContent DOTASettingsCheckbox:selected Label {
+    color: whitesmoke;
+}
+
 .RankedContent DOTASettingsCheckbox:disabled:hover Label {
     color: #d2d6d1;
 }
@@ -1492,9 +1564,9 @@ ToggleButton:disabled:selected .TickBox {
 }
 
 .RankedMMRSection {
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     background-color: #252b30;
-    box-shadow: inset #00000066 -3px 2px 4px 0px;
+    background-color: sectionbg_active;
     width: 100%;
     flow-children: down;
 }
@@ -1506,6 +1578,7 @@ ToggleButton:disabled:selected .TickBox {
 .RankedMMRSection Label {
     horizontal-align: left;
     margin-top: 2px;
+    text-shadow: 0px 1px 6px black;
 }
 
 .RankedMMRSectionIcon {
@@ -1591,11 +1664,11 @@ DOTAPlay.SectionVisible_Ranked:not(.EligibleForRanked) #RankedSection {
 }
 
 DOTAPlay.SectionVisible_Ranked.EligibleForRanked #RankedSection {
-    height: 468px;
+    height: 452px;
 }
 
 DOTAPlay.SectionVisible_Ranked.EligibleForRanked.PlayDisabled_NoModesSelected #RankedSection {
-    height: 480px;
+    height: 464px;
 }
 
 DOTAPlay.SectionVisible_Ranked.EligibleForRanked.ValidTeamIdentity #RankedSection {
@@ -1607,7 +1680,7 @@ DOTAPlay.SectionVisible_Ranked.EligibleForRanked.ValidTeamIdentity.PlayDisabled_
 }
 
 DOTAPlay.SectionVisible_Ranked.EligibleForRanked.ClassicRanked #RankedSection {
-    height: 247px;
+    height: 217px;
 }
 
 DOTAPlay.SectionVisible_Ranked.EligibleForRanked.PlayDisabled_NoModesSelected.ClassicRanked #RankedSection {
@@ -1784,12 +1857,13 @@ DOTAPlay.Season_Frostivus2018 #CustomGamesSection {
 }
 
 .PlayDividerLine {
-    background-color: #20223088;
+    background-color: #000000a1;
     margin-left: 4px;
     margin-right: 4px;
     margin-top: 12px;
     margin-bottom: 12px;
     height: 2px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.025);
     width: 100%;
 }
 
@@ -1806,7 +1880,6 @@ DOTAPlay.Season_Frostivus2018 #CustomGamesSection {
 .CoopOrSolo {
     margin-left: 4px;
     margin-bottom: 6px;
-    text-transform: uppercase;
 }
 
 .PlayBotsLabel {
@@ -1872,7 +1945,7 @@ DOTAPlay.RankedMode #RankedOn {
 
 #RankedRolesContainer {
     visibility: visible;
-    height: 221px;
+    height: 348px;
     transition-property: height;
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
@@ -2758,13 +2831,18 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
     opacity: 1;
 }
 
+.PlayTabSection {
+    border: 1px solid #000000dd;
+}
+
 .GameStyle {
     background-color: #222629f4;
     width: 100%;
     height: 50px;
-    padding-top: 12px;
-    padding-bottom: 8px;
-    border: 1px solid #000000dd;
+    border-left: 6px solid transparent;
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(#b9d4d3), to(#779da2));
+    transition-property: border;
+    transition-duration: 0.5s;
 }
 
 .GameStyle:hover {
@@ -2772,26 +2850,21 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
 }
 
 .GameStyle:selected {
-    background-color: gradient(
-        linear,
-        0% 0%,
-        100% 0%,
-        from(#d8efee),
-        color-stop(0.015, #b1dddd),
-        color-stop(0.02, #3e474b),
-        to(#3e474b)
-    );
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#525e64), to(#3a4348));
     padding-left: 12px;
-    border: 1px solid #222629;
+    border-left: 6px solid white;
     box-shadow: fill #00000066 0px 2px 16px 0px;
     width: 100%;
-    height: fit-children;
-    padding-top: 12px;
+    height: 50px;
     font-weight: bold;
     transition-property: background-color;
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
     sound: "ui_find_match_change_options";
+}
+
+#GameStyle_Ranked.GameStyle:selected {
+    box-shadow: inset 0px -1px 0px black;
 }
 
 .NewPlayerGameMode .GameStyle:selected {
@@ -2930,10 +3003,7 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     height: 50px;
-    padding-top: 12px;
-    padding-bottom: 5px;
     overflow: noclip;
-    border: 1px solid transparent;
 }
 
 #CustomGamesSection .GameStyle:hover {
@@ -3148,18 +3218,18 @@ DOTAPlay.SectionVisible_PracticeBots #PracticeBotsSectionContent {
 
 .GameStyle Label {
     font-size: 20px;
-    font-weight: thin;
     color: #666666;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-left: 20px;
+    margin-left: 14px;
+    vertical-align: center;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .GameStyle:selected Label {
     font-size: 20px;
     font-weight: semi-bold;
-    margin-left: 8px;
-    text-shadow: 0px 0px 5px 2 #000000;
+    margin-left: 2px;
 }
 
 .NewPlayerGameMode .GameStyle:selected Label {
@@ -3248,7 +3318,6 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
     height: 88px;
     flow-children: none;
     background-size: 100%;
-    box-shadow: fill #00000088 0px 0px 12px 0px;
 }
 
 #GameModeContainer_AllPick.UnrankedGameModeContainer {
@@ -3635,11 +3704,10 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
 .LobbyButton {
     margin-bottom: 4px;
     width: 100%;
-    height: fit-children;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 50px;
+    padding-top: 11px;
+    padding-bottom: 9px;
     background-color: sectionbg_inactive;
-    border: 1px solid black;
     margin-bottom: 8px;
     transition-property: wash-color;
     transition-delay: 0s;
@@ -3680,7 +3748,6 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
 }
 
 #WeekendTourneyButton DOTABattleCupVictoryIcon {
-    margin-top: 4px;
     margin-left: 2px;
     width: 22px;
     height: 22px;
@@ -3735,13 +3802,12 @@ DOTAPlay.SectionVisible_Normal #NormalSectionContent {
 
 .LobbyButton Label {
     font-size: 20px;
-    font-weight: thin;
     color: #666;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-top: 4px;
     margin-left: 20px;
     vertical-align: center;
+    text-shadow: 0px 2px 8px black;
     transition-property: color;
     transition-delay: 0s;
     transition-duration: 0.25s;
@@ -4192,10 +4258,15 @@ DOTAPlay.ValidTeamIdentity .NoValidTeamIdentitiesLabel {
     visibility: collapse;
 }
 
+#BotScriptDD {
+    margin: 0px 4px;
+}
+
 #BotScriptWorkshopURL Label {
     color: #888;
     font-size: 16px;
     text-decoration: underline;
+    margin-right: 4px;
     transition-property: color;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
@@ -4350,17 +4421,38 @@ DOTAPlay.ValidTeamIdentity .NoValidTeamIdentitiesLabel {
     color: white;
 }
 
+.RankedLaneToggleButtonWithText.Unselectable Label {
+    color: #999;
+    opacity: 0.3;
+}
+
+.RankedLaneToggleButtonWithText.Unselectable ToggleButton .TickBox {
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#222222), to(#a0d6d7));
+    box-shadow: #33333377 0px 0px 8px 0px;
+}
+
+.RankedLaneToggleButtonWithText.Unselectable ToggleButton:disabled {
+    opacity: 0.1;
+}
+
+.RankedLaneToggleButtonWithText.Unselectable ToggleButton:disabled .TickBox {
+    opacity: 1;
+}
+
+.RankedLaneToggleButtonWithText.Unselectable .RankedInDemandRoleIcon {
+    opacity: 0.3;
+}
+
 .RankedLaneIcon {
-    width: 16px;
-    height: 16px;
-    margin: 4px 6px 4px 8px;
+    width: 20px;
+    height: 20px;
+    margin: 2px 4px 2px 6px;
     background-size: cover;
     wash-color: #8c9aa6;
 }
 
 .selected .RankedLaneIcon {
     wash-color: #ffffff;
-    img-shadow: 0px 0px 4px rgb(124, 139, 151);
 }
 
 .RankedLaneIcon.HardSupport {
@@ -4497,6 +4589,7 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
 
 .RankedLaneToggleButtonWithText {
     flow-children: right;
+    height: 24px;
 }
 
 .RankedRoleCall {
@@ -4559,61 +4652,170 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     width: 100%;
     flow-children: down;
     tooltip-position: left;
-    max-height: 80px;
-    padding-top: 12px;
+    height: 101px;
+    padding-left: 12px;
+    padding-right: 16px;
+}
+
+#ProgressBarRoleTokens {
+    width: 600px;
+    height: 13px;
+    border: 2px solid #111617;
+    padding: -2px;
+    border-radius: 3px;
+    background-color: #3e464a;
+    margin-left: -2px;
+}
+
+#ProgressBarRoleTokens_Left {
+    border-radius: 2px;
+    border: 2px solid black;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#eff2fa), to(#bfcbe7));
+    transition-property: position, width;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+#ProgressBarRoleTokens_Middle {
+    padding-left: -2px;
+    padding-right: -2px;
+    overflow: noclip;
+    flow-children: right;
+    transition-property: position, width;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+#ProgressBarRoleTokens_Middle_Content {
+    width: fill-parent-flow(1);
+    height: 100%;
+    max-width: 300px;
+    max-height: 50px;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    background-color: gradient(linear, 0% 100%, 0% 0%, from(#afdf8f), to(#6bcb6b));
+    border-radius: 2px;
+    border: 2px solid black;
+    overflow: clip;
+}
+
+@keyframes 'arrow_scroll_right' {
+    0% {
+        transform: translateX(-8px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes 'arrow_scroll_left' {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-8px);
+    }
+}
+
+#ProgressBarRoleTokens_Middle_Scrolly {
+    width: 350px;
+    height: 100%;
+    background-image: url("s2r://panorama/images/control_icons/arrow_solid_right_png.vtex");
+    background-size: 10px 14px;
+    background-repeat: repeat no-repeat;
+    background-position: 50% 25%;
+    opacity: 0.4;
+    wash-color: #d0ffd0;
+    animation-name: arrow_scroll_right;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 0.3s;
+}
+
+.SpendingQP #ProgressBarRoleTokens_Middle_Scrolly {
+    background-image: url("s2r://panorama/images/control_icons/arrow_solid_left_png.vtex");
+    animation-name: arrow_scroll_left;
+    opacity: 0.35;
+    wash-color: #ff9090;
+}
+
+.SpendingQP #ProgressBarRoleTokens_Middle_Content {
+    background-color: gradient(linear, 0% 100%, 0% 0%, from(#813403), to(#dd3c1c));
+}
+
+#ProgressBarRoleTokens_Right {
+    background-color: #00000000;
+}
+
+.RoleTokensCount {
+    ignore-parent-flow: true;
+    vertical-align: center;
+    horizontal-align: right;
+    margin-right: 6px;
+}
+
+.RoleTokensCount Label {
+    font-weight: semi-bold;
+    color: #919998;
+    border-radius: 40px;
+    padding: 0px 8px 2px 11px;
+    background-color: transparent;
+    text-shadow: 0px 2px 6px rgb(0, 0, 0);
+    border: 1px solid white;
+    transform: translateY(-2px);
+    border-brush: WhiteGradientBorderStrong;
+    transition-property: brightness, transform;
+    transition-duration: 0.1s, 0.05s;
+}
+
+.RoleTokensCount.HasTokens Label {
+    background-color: #59b76e;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(#4aa45f), to(#27754a));
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+    color: white;
 }
 
 #RankedHighPriorityTitleSection {
     width: 100%;
     flow-children: right;
+    margin-bottom: 6px;
 }
 
-.RankedHighPriorityTitle {
-    margin-top: 12px;
-    margin-left: 12px;
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-shadow: 2px 2px 4px black;
-}
-
-#RankedHighPriorityTitleEnabled {
-    color: hsv-transform(winnerGreen, 0, 1, 0.8);
-    visibility: collapse;
-}
-
-.HighPriorityMMEnabled #RankedHighPriorityTitleEnabled {
-    visibility: visible;
-}
-
-#RankedHighPriorityTitleDisabled {
-    color: hsv-transform(loserRed, 0, 1, 0.8);
-}
-
-.HighPriorityMMEnabled #RankedHighPriorityTitleDisabled {
-    visibility: collapse;
+.SubSectionTitle {
+    color: LighterGrey;
+    text-shadow: 0px 1px 6px black;
 }
 
 #RankedHighPriorityPointChange {
     width: 100%;
-    padding: 0px 12px 8px 12px;
-    color: #999;
-    text-shadow: 2px 2px 4px black;
-    font-size: 15px;
-    margin-top: 2px;
+    color: white;
+    text-shadow: 0px 1px 6px black;
+    font-size: 18px;
+    margin-top: 6px;
+    padding-bottom: 4px;
     text-overflow: shrink;
-    height: 48px;
+    line-height: 18px;
+    height: 25px;
+}
+
+.HighPriorityMMDisabled #RankedHighPriorityPointChange {
+    color: hsv-transform(loserRed, 0, 1, 0.8);
 }
 
 #RankedHighPriorityInfoIcon {
     vertical-align: bottom;
-    wash-color: #999;
-    width: 13px;
-    height: 13px;
+    wash-color: LightGrey;
+    width: 16px;
+    height: 16px;
+    margin-left: 0px;
+    margin-top: 3px;
 }
 
 #RankedHighPriorityInfo:hover #RankedHighPriorityInfoIcon {
-    wash-color: #ccc;
+    wash-color: LightestGrey;
 }
 
 .RankedHighPriorityEnabledContainer {
@@ -4681,7 +4883,7 @@ DOTAPlay.SectionVisible_CoachesChallenge #CoachesChallengeSectionContent {
     horizontal-align: right;
     vertical-align: bottom;
     margin-right: 400px;
-    margin-bottom: 161px;
+    margin-bottom: 250px;
     width: 470px;
     height: 400px;
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#282f31), to(#1b201f));

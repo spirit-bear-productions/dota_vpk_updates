@@ -127,3 +127,23 @@
 .International2025.SeasonRewardToast .Description {
     color: rgb(190, 183, 233);
 }
+
+.International2026.SeasonRewardToast {
+    background-color: gradient(linear, 0% 0%, 100% 100%, from(#2c1e0f), to(#49321a));
+}
+
+.International2026.SeasonRewardToast .Description {
+    color: rgb(255, 238, 190);
+}
+
+.International2026.SeasonRewardToast #TeamImage {
+    background-image: none;
+    background-size: 0;
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: none;
+}
