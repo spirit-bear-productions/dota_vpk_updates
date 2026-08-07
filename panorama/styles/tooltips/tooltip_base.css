@@ -58,37 +58,6 @@
     margin-right: -3px;
 }
 
-#DarkCarnivalNodeTooltip #LeftArrow,
-#DarkCarnivalNodeTooltip #RightArrow,
-#DarkCarnivalNodeTooltip #TopArrow,
-#DarkCarnivalNodeTooltip #BottomArrow {
-    wash-color: #280f0e;
-}
-
-#OverworldPathTooltip #LeftArrow,
-#OverworldPathTooltip #RightArrow,
-#OverworldPathTooltip #TopArrow,
-#OverworldPathTooltip #BottomArrow {
-    wash-color: #141517;
-}
-
-#OverworldHeroTooltip #LeftArrow,
-#OverworldHeroTooltip #RightArrow,
-#OverworldHeroTooltip #TopArrow,
-#OverworldHeroTooltip #BottomArrow {
-    wash-color: #141517;
-}
-
-#TI10BlessingTooltip #LeftArrow,
-#TI10BlessingTooltip #RightArrow {
-    wash-color: #0d1e33;
-}
-
-#International2025Score #LeftArrow,
-#International2025Score #RightArrow {
-    wash-color: #231556;
-}
-
 #TopArrow,
 #BottomArrow {
     width: 24px;
@@ -159,33 +128,6 @@
 .TooltipContainer.TopArrowVisible #Contents {
     margin-top: 0px;
     min-width: 60px;
-}
-
-.Compendium2021Page #TeamMiniProfileTooltip {
-    margin-right: 20px;
-}
-
-.Compendium2021Page #LeftArrow,
-.Compendium2021Page #RightArrow {
-    brightness: 1;
-    wash-color: #f0c770;
-    margin-left: 0px;
-}
-
-.Compendium2021Page .TooltipContainer.LeftArrowVisible #Contents {
-    margin-left: 1px;
-    margin-right: 1px;
-}
-
-.Compendium2021Page #Contents {
-    border: 1px solid #fff;
-    border-brush: gradient(linear, 0% 0%, 0% 100%, from(#573b00), color-stop(0.5, #f0c871), to(#573b00));
-    border-radius: 6px;
-}
-
-.Compendium2021Page #TextTooltip.LBTooltip #TextLabel {
-    text-transform: uppercase;
-    color: red;
 }
 
 .TooltipContainer {
@@ -378,4 +320,67 @@
 
 #FortuneTellerStoryNodeTooltip #TopArrow {
     wash-color: #14101f;
+}
+
+#DarkCarnivalNodeTooltip #LeftArrow,
+#DarkCarnivalNodeTooltip #RightArrow,
+#DarkCarnivalNodeTooltip #TopArrow,
+#DarkCarnivalNodeTooltip #BottomArrow {
+    wash-color: #280f0e;
+}
+
+#OverworldPathTooltip #LeftArrow,
+#OverworldPathTooltip #RightArrow,
+#OverworldPathTooltip #TopArrow,
+#OverworldPathTooltip #BottomArrow {
+    wash-color: #141517;
+}
+
+#OverworldHeroTooltip #LeftArrow,
+#OverworldHeroTooltip #RightArrow,
+#OverworldHeroTooltip #TopArrow,
+#OverworldHeroTooltip #BottomArrow {
+    wash-color: #141517;
+}
+
+#TI10BlessingTooltip #LeftArrow,
+#TI10BlessingTooltip #RightArrow {
+    wash-color: #0d1e33;
+}
+
+#International2025Score #LeftArrow,
+#International2025Score #RightArrow {
+    wash-color: #231556;
+}
+
+#International2026Score #LeftArrow,
+#International2026Score #RightArrow {
+    wash-color: #2c1e0f;
+}
+
+.Compendium2021Page #TeamMiniProfileTooltip {
+    margin-right: 20px;
+}
+
+.Compendium2021Page #LeftArrow,
+.Compendium2021Page #RightArrow {
+    brightness: 1;
+    wash-color: #f0c770;
+    margin-left: 0px;
+}
+
+.Compendium2021Page .TooltipContainer.LeftArrowVisible #Contents {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.Compendium2021Page #Contents {
+    border: 1px solid #fff;
+    border-brush: gradient(linear, 0% 0%, 0% 100%, from(#573b00), color-stop(0.5, #f0c871), to(#573b00));
+    border-radius: 6px;
+}
+
+.Compendium2021Page #TextTooltip.LBTooltip #TextLabel {
+    text-transform: uppercase;
+    color: red;
 }
