@@ -84,13 +84,13 @@ DOTAInternational2026ItemClaimPopup.Hidden {
         linear,
         0% 0%,
         100% 0%,
-        from(rgba(18, 13, 46, 0)),
-        color-stop(0.2, rgba(18, 9, 52, 0.8)),
-        color-stop(0.5, rgb(22, 14, 55)),
-        color-stop(0.8, rgba(18, 9, 52, 0.8)),
-        to(rgba(14, 14, 39, 0))
+        from(ti26_black),
+        color-stop(0.2, ti26_chocolate),
+        color-stop(0.5, ti26_brown),
+        color-stop(0.8, ti26_chocolate),
+        to(ti26_black)
     );
-    border: 1px solid rgba(213, 170, 255, 0.1);
+    border: 1px solid ti26_lemon;
     border-brush: gradient(
         linear,
         0% 0%,
@@ -120,7 +120,7 @@ DOTAInternational2026ItemClaimPopup.Hidden {
     text-align: center;
     font-family: titleFont;
     font-size: 20px;
-    color: #c4c4ffe3;
+    color: ti26_cream;
     text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.6);
     vertical-align: center;
 }
@@ -130,10 +130,10 @@ DOTAInternational2026ItemClaimPopup.Hidden {
     color: whitesmoke;
     padding: 2px 14px;
     border-radius: 4px;
-    border: 1px solid #d7ccff;
-    box-shadow: 0px 0px 24px -1px #7a55ff4c;
+    border: 1px solid ti26_lemon;
+    box-shadow: 0px 0px 24px -1px ti26_chocolate;
     margin-left: 8px;
-    background-color: gradient(linear, 0% 0%, 0% 100%, from(#190b3a), to(#2d256f));
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(ti26_brown), to(ti26_orange));
     animation-name: GlowRewardsCount;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
@@ -147,12 +147,12 @@ DOTAInternational2026ItemClaimPopup.Hidden {
 @keyframes 'GlowRewardsCount' {
     0% {
         brightness: 1;
-        box-shadow: 0px 0px 24px -2px #7a55ff33;
+        box-shadow: 0px 0px 24px -2px ti26_beigeDark;
     }
 
     100% {
         brightness: 2;
-        box-shadow: 0px 0px 32px -2px #7a55ff99;
+        box-shadow: 0px 0px 32px -2px ti26_beige;
     }
 }
 
