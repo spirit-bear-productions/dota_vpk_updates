@@ -111,7 +111,8 @@ DOTAInternational2026ItemClaimPopup.Hidden {
     background-image: url("s2r://panorama/images/events/international_2026/artwork/terrain_token_psd.vtex");
 }
 
-.ItemCount5 .ClaimsRemainingContainer .ClaimsRemainingTypeImage {
+.ItemCount5 .ClaimsRemainingContainer .ClaimsRemainingTypeImage,
+.GiveFreeTyrian .ClaimsRemainingContainer .ClaimsRemainingTypeImage {
     background-image: url("s2r://panorama/images/events/international_2026/artwork/purple_witness_png.vtex");
 }
 
@@ -393,5 +394,22 @@ DOTAInternational2026ItemClaimPopup.Hidden {
 }
 
 .ItemOwned .OwnedOnly {
+    visibility: visible;
+}
+
+.ClaimingTyrian,
+.ClaimingTerrain {
+    width: fit-children;
+    height: fit-children;
+    flow-children: right;
+}
+
+.ClaimingTyrian,
+.GiveFreeTyrian .ClaimingTerrain {
+    visibility: collapse;
+}
+
+.GiveFreeTyrian .ClaimingTyrian,
+.ClaimingTerrain {
     visibility: visible;
 }
