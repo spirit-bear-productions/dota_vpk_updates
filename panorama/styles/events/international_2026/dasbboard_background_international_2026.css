@@ -1262,7 +1262,7 @@
 
 .TournamentFinishedCellsContainer {
     horizontal-align: center;
-    width: 100%;
+    width: fit-children;
     max-width: 880px;
     margin: 0px 36px 8px;
     flow-children: right;
@@ -1275,7 +1275,8 @@
 }
 
 .TournamentFinishedCell {
-    width: fill-parent-flow(1);
+    horizontal-align: center;
+    width: fit-children;
     height: 200px;
     background-color: gradient(linear, 0% 0%, 100% 100%, from(ti26_brown), to(ti26_chocolate));
     margin: 6px;
