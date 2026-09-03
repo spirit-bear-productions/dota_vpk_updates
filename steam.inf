@@ -1,10 +1,10 @@
-ClientVersion=6922
-ServerVersion=6922
+ClientVersion=6923
+ServerVersion=6923
 ProductName=dota2_workshop
 appID=570
 ServerAppID=373310
 CustomGameServerAppID=471280
 ToolsAppID=316570
-SourceRevision=10965016
+SourceRevision=10965846
 VersionDate=Sep 03 2026
-VersionTime=12:26:00
+VersionTime=14:57:08
