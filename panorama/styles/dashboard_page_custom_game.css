@@ -200,7 +200,8 @@ DOTACustomGamePage.HasFriendsWhoPlay #FriendsWhoPlay {
     text-align: right;
 }
 
-DOTACustomGamePage.HasDedicatedServerSupport #LastUpdated Label {
+DOTACustomGamePage.HasDedicatedServerSupport #LastUpdated Label,
+DOTACustomGamePage.AllDedicatedServersAllocated #LastUpdated Label {
     width: 250px;
     text-align: left;
 }
@@ -603,6 +604,7 @@ DOTACustomGamePage.Subscribed.FullyInstalled #PlayButton {
 }
 
 #DedicatedServerSupport,
+#DedicatedServersUnavailable,
 #CustomGamePenaltySupport {
     vertical-align: bottom;
     wash-color: #94cc4a;
@@ -617,18 +619,21 @@ DOTACustomGamePage.Subscribed.FullyInstalled #PlayButton {
 }
 
 DOTACustomGamePage.HasDedicatedServerSupport #DedicatedServerSupport,
-DOTACustomGamePage.HasMatchmakingPenalties #CustomGamePenaltySupport {
+DOTACustomGamePage.HasMatchmakingPenalties #CustomGamePenaltySupport,
+DOTACustomGamePage.AllDedicatedServersAllocated #DedicatedServersUnavailable {
     visibility: visible;
 }
 
-#DedicatedServerSupport Label {
+#DedicatedServerSupport Label,
+#DedicatedServersUnavailable Label {
     font-size: 17px;
     color: white;
     margin-left: 7px;
     vertical-align: bottom;
 }
 
-#DedicatedServerSupport Panel.InfoIcon {
+#DedicatedServerSupport Panel.InfoIcon,
+#DedicatedServersUnavailable Panel.InfoIcon {
     wash-color: #ffffff;
     width: 14px;
     height: 14px;
@@ -654,7 +659,8 @@ Panel.NoDedicatedServerSupportPadding {
     width: 45px;
 }
 
-DOTACustomGamePage.HasDedicatedServerSupport Panel.NoDedicatedServerSupportPadding {
+DOTACustomGamePage.HasDedicatedServerSupport Panel.NoDedicatedServerSupportPadding,
+DOTACustomGamePage.AllDedicatedServersAllocated Panel.NoDedicatedServerSupportPadding {
     width: 0px;
 }
 
