@@ -466,11 +466,11 @@
     padding: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     border-brush: gradient(linear, 0% 0%, 100% 0%, from(#ffffff00), color-stop(0.5, #ffffff), to(#ffffff00));
-    brightness: 1.1;
 }
 
 .InstructionTextContainer:hover .InstructionText {
-    brightness: 2;
+    color: gradient(linear, 0% 0%, 0% 100%, from(white), to(white));
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.1);
 }
 
 .EncounterDialogue .InstructionTextContainer,
@@ -492,12 +492,16 @@
     letter-spacing: 1.5px;
     font-size: 18px;
     text-shadow: 0px 2px 12px black;
-    transition-property: brightness;
+    transition-property: color, text-shadow;
     transition-duration: 0.1s;
 }
 
 .InstructionTextContent .Hide {
     visibility: collapse;
+}
+
+.InstructionTextContent.HideInstructionContainer {
+    opacity: 0;
 }
 
 .InstructionTextContent .InstructionIcon {
