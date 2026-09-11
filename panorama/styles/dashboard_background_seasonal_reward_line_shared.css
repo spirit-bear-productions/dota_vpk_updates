@@ -548,11 +548,15 @@ DOTAEventRewardList {
     margin-top: 48px;
     flow-children: right;
     margin-left: -40px;
-    transform: translateY(24px);
     transition-property: opacity, transform;
     transition-duration: 0.5s;
     transition-delay: 0.3s;
     transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
+    transform: translateY(24px);
+}
+
+.GCStatusVisible .TitleAndLogo {
+    y: 30px;
 }
 
 .AspectRatio16x10 .TitleAndLogo {
@@ -923,6 +927,10 @@ DOTAEventRewardClaimButton.item_reward {
 
 .EventHistoryNavigation .EventTab:active {
     transform: translateY(1px);
+}
+
+.GCStatusVisible .EventHistoryNavigation {
+    y: 30px;
 }
 
 .Season_Fall2026 #EventTabFall2026,
