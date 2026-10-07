@@ -108,7 +108,8 @@ PopupShowcaseAddItemV2.PopupPanel {
 .Effigy #Contents #Header #ControlSearch,
 .ChatWheel #Contents #Header #ControlSearch,
 .Trophy #Contents #Header #ControlSearch,
-.Emoticon #Contents #Header #ControlSearch {
+.Emoticon #Contents #Header #ControlSearch,
+.Decoration #Contents #Header #ControlSearch {
     visibility: visible;
 }
 

@@ -67,7 +67,7 @@ TournamentMatchGrid {
 }
 
 .GridCellHighlighted {
-    background-color: #51686f77 !important;
+    background-color: #51686f77;
 }
 
 .GroupTitle {

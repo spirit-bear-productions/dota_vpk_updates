@@ -187,6 +187,6 @@ DOTABattlePassReward CarouselNav {
         to(#dbab6a)
     );
     background-color: gradient(linear, 0% 0%, 0% 100%, from(#aa955d), to(#f5d7ad));
-    border: 0px solid #f5d7a;
+    border: 0px solid #f5d7aa;
     box-shadow: -1px 1px 6px 0px fill #00000088;
 }

@@ -1950,6 +1950,7 @@ DOTAHud.IsBeforeGameplay.HUDFlipped #minimap_container {
 #StashContainer {
     flow-children: left;
     horizontal-align: right;
+    vertical-align: bottom;
 }
 
 #quickstats,

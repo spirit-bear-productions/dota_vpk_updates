@@ -19,3 +19,10 @@ DOTAShowcaseDecoration #ImageDecoration.TextureSamplePoint,
 DOTAShowcaseDecoration #AnimatedImageDecoration.TextureSamplePoint {
     texture-sampling: point;
 }
+
+DOTAShowcaseDecoration #MovieDecoration {
+    width: 100%;
+    height: 100%;
+    horizontal-align: center;
+    vertical-align: middle;
+}
