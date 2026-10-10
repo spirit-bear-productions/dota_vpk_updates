@@ -137,8 +137,10 @@
 }
 
 #Description {
-    width: 236px;
+    width: 242px;
     color: #d1d1d1;
+    max-height: 98%;
+    text-overflow: shrink;
 }
 
 .ChangeLogEntry:hover #Description {
