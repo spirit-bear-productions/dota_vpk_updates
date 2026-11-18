@@ -1,7 +1,7 @@
 <!-- xml reconstructed by Source 2 Viewer 12.0.0.0 - https://valveresourceformat.github.io -->
 <root>
 	<styles>
-		<include src="s2r://panorama/styles/gamestyles.vcss" />
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
 		<include src="s2r://panorama/styles/fileopendialog.vcss" />
 	</styles>
 	<FileOpenDialog oncancel="FileOpenDialogClose()" defaultfocus="FileNameTextEntry">
@@ -48,7 +48,7 @@
 				<Label id="FileTypeLabel" class="Prefix" text="#FileOpenDialog_FilenameFileTypeDropdown_Label" />
 				<DropDown id="FileTypeDropDown" oninputsubmit="FileOpenDialogFilterChanged();" />
 				<Button id="CancelButton" class="PopupButton" onactivate="FileOpenDialogCancel();">
-					<Label text="#UI_Cancel" />
+					<Label text="#DOTA_Cancel" />
 				</Button>
 			</Panel>
 		</Panel>
